@@ -54,7 +54,7 @@ INVALID_AIRCRAFT = [
     ("missing_required.json", "certification_basis"),
     ("bad_entry_type.json", "mystery"),
     ("unknown_reference_kind.json", "reference_kind"),
-    ("range_missing_bounds.json", "resolved_references/0"),
+    ("range_missing_bounds.json", "to_amendment_ordinal"),
     ("extra_field.json", "secret_field"),
     ("empty_cert_basis.json", "certification_basis"),
 ]

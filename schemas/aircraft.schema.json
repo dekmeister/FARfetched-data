@@ -69,9 +69,26 @@
         "resolved_references": {
           "type": "array",
           "items": {
-            "oneOf": [
-              { "$ref": "#/$defs/range_ref" },
-              { "$ref": "#/$defs/single_ref" }
+            "type": "object",
+            "required": ["reference_kind"],
+            "properties": {
+              "reference_kind": { "enum": ["range", "single"] }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": { "reference_kind": { "const": "range" } },
+                  "required": ["reference_kind"]
+                },
+                "then": { "$ref": "#/$defs/range_ref" }
+              },
+              {
+                "if": {
+                  "properties": { "reference_kind": { "const": "single" } },
+                  "required": ["reference_kind"]
+                },
+                "then": { "$ref": "#/$defs/single_ref" }
+              }
             ]
           }
         }
