@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/aircraft.schema.json",
+  "title": "Aircraft",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tcds_number",
+    "manufacturer",
+    "model_designation",
+    "common_name",
+    "category",
+    "tcds_revision",
+    "tcds_revision_date",
+    "tcds_source_url",
+    "notes",
+    "certification_basis"
+  ],
+  "properties": {
+    "tcds_number": { "type": "string", "minLength": 1 },
+    "manufacturer": { "type": "string", "minLength": 1 },
+    "model_designation": { "type": "string", "minLength": 1 },
+    "common_name": { "type": ["string", "null"] },
+    "category": { "type": ["string", "null"] },
+    "tcds_revision": { "type": ["string", "null"] },
+    "tcds_revision_date": {
+      "oneOf": [
+        { "type": "string", "format": "date" },
+        { "type": "null" }
+      ]
+    },
+    "tcds_source_url": {
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "null" }
+      ]
+    },
+    "notes": { "type": ["string", "null"] },
+    "certification_basis": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display_order",
+        "entry_type",
+        "raw_reference",
+        "applicability_notes",
+        "resolved_references"
+      ],
+      "properties": {
+        "display_order": { "type": "integer", "minimum": 1 },
+        "entry_type": {
+          "enum": [
+            "regulation",
+            "special_condition",
+            "elos",
+            "exemption",
+            "other"
+          ]
+        },
+        "raw_reference": { "type": "string", "minLength": 1 },
+        "applicability_notes": { "type": ["string", "null"] },
+        "resolved_references": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "$ref": "#/$defs/range_ref" },
+              { "$ref": "#/$defs/single_ref" }
+            ]
+          }
+        }
+      }
+    },
+    "range_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_kind",
+        "authority",
+        "title_number",
+        "part",
+        "from_amendment_ordinal",
+        "to_amendment_ordinal"
+      ],
+      "properties": {
+        "reference_kind": { "const": "range" },
+        "authority": { "enum": ["FAA"] },
+        "title_number": { "type": "integer", "minimum": 1 },
+        "part": { "type": "string", "minLength": 1 },
+        "from_amendment_ordinal": { "type": "integer", "minimum": 0 },
+        "to_amendment_ordinal": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "single_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_kind",
+        "authority",
+        "title_number",
+        "part",
+        "section",
+        "amendment_designator"
+      ],
+      "properties": {
+        "reference_kind": { "const": "single" },
+        "authority": { "enum": ["FAA"] },
+        "title_number": { "type": "integer", "minimum": 1 },
+        "part": { "type": "string", "minLength": 1 },
+        "section": { "type": "string", "minLength": 1 },
+        "amendment_designator": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]+-[0-9]+$"
+        }
+      }
+    }
+  }
+}

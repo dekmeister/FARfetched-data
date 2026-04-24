@@ -1,0 +1,28 @@
+{
+  "tcds_number": "A16WE",
+  "manufacturer": "The Boeing Company",
+  "model_designation": "737-800",
+  "common_name": null,
+  "category": null,
+  "tcds_revision": null,
+  "tcds_revision_date": null,
+  "tcds_source_url": null,
+  "notes": null,
+  "certification_basis": [
+    {
+      "display_order": 1,
+      "entry_type": "regulation",
+      "raw_reference": "14 CFR Part 25",
+      "applicability_notes": null,
+      "resolved_references": [
+        {
+          "reference_kind": "range",
+          "authority": "FAA",
+          "title_number": 14,
+          "part": "25",
+          "from_amendment_ordinal": 1
+        }
+      ]
+    }
+  ]
+}
