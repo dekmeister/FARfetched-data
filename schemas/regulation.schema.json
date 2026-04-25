@@ -20,6 +20,7 @@
     "subpart": { "type": ["string", "null"] },
     "section": { "type": "string", "minLength": 1 },
     "canonical_title": { "type": "string", "minLength": 1 },
+    "subject_group": { "type": ["string", "null"] },
     "amendments": {
       "type": "array",
       "minItems": 1,

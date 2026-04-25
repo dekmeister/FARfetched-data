@@ -47,6 +47,7 @@ section. Example:
   "subpart": "F",
   "section": "1309",
   "canonical_title": "Equipment, systems, and installations",
+  "subject_group": "Equipment",
   "amendments": [
     {
       "designator": "25-23",
@@ -54,7 +55,7 @@ section. Example:
       "effective_date": "1970-05-08",
       "title_at_amendment": "Equipment, systems, and installations",
       "text": "...full regulation text at this amendment...",
-      "source_url": "https://www.ecfr.gov/...",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001",
       "federal_register_cite": "35 FR 5665"
     }
   ]
@@ -68,21 +69,22 @@ section. Example:
 | `authority`       | string    | no       | Issuing authority. Currently only `"FAA"`. Reserved so EASA etc. can coexist without schema change. |
 | `title_number`    | integer   | no       | CFR title. For FAA regulations always `14`. Stored as a field (not in the path) so an atypical citation doesn't force a move. |
 | `part`            | string    | no       | CFR part, e.g. `"25"` (transport) or `"23"` (normal/utility). String, not int, because some parts are non-numeric (`"SFAR"`). |
-| `subpart`         | string    | yes      | Current subpart letter, e.g. `"F"`. Subparts get reorganised occasionally; treated as metadata, not identity. |
+| `subpart`         | string    | yes      | Current subpart letter, e.g. `"F"`. For appendix entries use the form `"Appendix C"`. `null` when the section is not under any subpart. Subparts get reorganised occasionally; treated as metadata, not identity. |
 | `section`         | string    | no       | Section number within the part, e.g. `"1309"`. String to allow suffixes like `"1309a"`. |
 | `canonical_title` | string    | no       | Present-day title. What the app shows as the section heading when no specific amendment is in view. |
+| `subject_group`   | string    | yes      | FAA's intra-subpart grouping label, e.g. `"Equipment"`, `"Emergency Provisions"`. Sourced from DRS `metadatas["Subject Group"]`. Optional — `null` when DRS has no value. Useful for sidebar/search facets in the app. |
 | `amendments`      | array     | no       | All amendments that have ever changed this section. Must be non-empty. |
 
 **Per-amendment fields** (all required, all non-null)
 
 | Field                   | Type    | Purpose |
 |-------------------------|---------|---------|
-| `designator`            | string  | Human-readable amendment ID, e.g. `"25-23"`. This is what TCDS documents cite. Unique per regulation. |
-| `ordinal`               | integer | Numeric ordering key extracted from the designator. `"25-23"` → `23`. Used to (a) sort amendments and (b) expand ranges like "25-1 through 25-62" into specific rows. |
+| `designator`            | string  | Human-readable amendment ID, e.g. `"25-23"`. This is what TCDS documents cite. Unique per regulation. For original FAR adoption entries (where DRS reports `"Initial"` and ordinal is `0`), synthesise `"{part}-0"` (e.g. `"25-0"`) so the designator pattern stays uniform. |
+| `ordinal`               | integer | Numeric ordering key extracted from the designator. `"25-23"` → `23`. Used to (a) sort amendments and (b) expand ranges like "25-1 through 25-62" into specific rows. `0` marks the original adoption (the section as it appeared at FAR enactment, before any amendment). |
 | `effective_date`        | date    | ISO `YYYY-MM-DD`. Secondary sort key and shown to users. Display formatting happens in the app, not here. |
 | `title_at_amendment`    | string  | Section heading as it read at this amendment. Kept separate from `canonical_title` because titles have been edited across amendments, and correctness matters when you're showing a historical view. |
 | `text`                  | string  | Full regulation text at this amendment. This is the whole reason the dataset exists. Rendered inside `<pre>` / whitespace-preserving CSS; never unsafe-rendered. |
-| `source_url`            | url     | Where the text was transcribed from (ecfr.gov, historical FR scan, etc). For traceability. |
+| `source_url`            | url     | Where the text was transcribed from. For FAA amendments, prefer the DRS canonical URL `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001` because it is amendment-specific. eCFR or scanned-FR URLs are acceptable fallbacks when no DRS document exists. |
 | `federal_register_cite` | string  | FR citation that promulgated the amendment, e.g. `"35 FR 5665"`. Historical reference. |
 
 ### Aircraft file (`data/aircraft/A16WE.json`)

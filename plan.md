@@ -311,6 +311,16 @@ Each phase shippable/testable before starting the next.
 - Cross-part equivalent-section mapping
 - TCDS PDF scraping automation
 - Diff visualisation UI polish
+- Optional regulation amendment fields (`drs_guid`, `docket_number`,
+  `nprm`) — cheap to capture from DRS but no app consumer yet. Add when
+  needed.
+- Relax `federal_register_cite` requirement for pre-1996 ordinal-0
+  entries that have no programmatic FR cite source. Pair with a sibling
+  `federal_register_cite_verified` boolean and surface unverified rows
+  in `build_report.json`.
+- Track down the DRS download path for the official "DRS API Technical
+  Documentation.pdf" (alfId in `tools/FAA_DRS.md` §3.5). If found, it
+  supersedes the reverse-engineered notes.
 
 ## Open Decisions
 
