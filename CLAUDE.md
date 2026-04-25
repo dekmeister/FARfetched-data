@@ -129,6 +129,7 @@ at the repo level:
 - Fail the build on any unresolved reference.
 
 **Don't:**
+- Don't git add, git commit or git push. That will be done manually separately by the developer.
 - Don't introduce an ORM.
 - Don't add application logic here. App code lives in FARFETCHed.
 - Don't commit `cert_basis.sqlite` or `build_report.json` — they are build
