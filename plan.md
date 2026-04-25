@@ -48,160 +48,247 @@ the data repo's GitHub releases. Contains no data itself.
 ## Database Schema
 
 ```sql
+-- Lookups
+CREATE TABLE naa_authorities (
+    id      INTEGER PRIMARY KEY,
+    code    TEXT NOT NULL UNIQUE,        -- 'FAA', 'EASA'
+    name    TEXT NOT NULL,
+    country TEXT
+);
+
+CREATE TABLE manufacturers (
+    id   INTEGER PRIMARY KEY,
+    name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE categories (
+    id   INTEGER PRIMARY KEY,
+    code TEXT NOT NULL UNIQUE,           -- 'transport', 'normal', ...
+    name TEXT NOT NULL
+);
+
+-- Regulations
+CREATE TABLE regulation_parts (
+    id           INTEGER PRIMARY KEY,
+    authority_id INTEGER NOT NULL REFERENCES naa_authorities(id),
+    title_number INTEGER NOT NULL,
+    part         TEXT NOT NULL,           -- '23', '25', 'SFAR'
+    description  TEXT,
+    UNIQUE (authority_id, title_number, part)
+);
+
 CREATE TABLE regulations (
     id              INTEGER PRIMARY KEY,
-    authority       TEXT NOT NULL,            -- 'FAA'
-    title_number    INTEGER NOT NULL,         -- 14
-    part            TEXT NOT NULL,            -- '23', '25'
-    subpart         TEXT,
-    section         TEXT NOT NULL,            -- '1309'
-    section_title   TEXT,
-    UNIQUE (authority, title_number, part, subpart, section)
+    part_id         INTEGER NOT NULL REFERENCES regulation_parts(id),
+    section         TEXT NOT NULL,        -- '1309'
+    current_subpart TEXT,                 -- present-day display only
+    canonical_title TEXT NOT NULL,
+    subject_group   TEXT,
+    UNIQUE (part_id, section)
 );
 
-CREATE TABLE regulation_amendments (
-    id                      INTEGER PRIMARY KEY,
-    regulation_id           INTEGER NOT NULL REFERENCES regulations(id),
-    amendment_designator    TEXT NOT NULL,      -- '25-62'
-    amendment_ordinal       INTEGER,            -- 62
-    effective_date          DATE,
-    text                    TEXT,               -- null when status='pending'
-    title_at_amendment      TEXT,
-    source_url              TEXT,
-    federal_register_cite   TEXT,
-    status                  TEXT NOT NULL
-                            CHECK (status IN ('ingested','pending','flagged')),
-    UNIQUE (regulation_id, amendment_designator)
+CREATE TABLE amendments (
+    id             INTEGER PRIMARY KEY,
+    part_id        INTEGER NOT NULL REFERENCES regulation_parts(id),
+    designator     TEXT NOT NULL,    -- '25-62'
+    ordinal        INTEGER NOT NULL,
+    effective_date DATE NOT NULL,
+    UNIQUE (part_id, designator),
+    UNIQUE (part_id, ordinal)
 );
 
-CREATE INDEX idx_amendments_reg_date
-    ON regulation_amendments (regulation_id, effective_date);
-CREATE INDEX idx_amendments_reg_ordinal
-    ON regulation_amendments (regulation_id, amendment_ordinal);
-
-CREATE TABLE aircraft (
-    id                  INTEGER PRIMARY KEY,
-    tcds_number         TEXT NOT NULL UNIQUE,
-    manufacturer        TEXT NOT NULL,
-    model_designation   TEXT NOT NULL,
-    common_name         TEXT,
-    category            TEXT,
-    tcds_revision       TEXT,
-    tcds_revision_date  DATE,
-    tcds_source_url     TEXT,
-    notes               TEXT
+CREATE TABLE section_amendments (
+    id                    INTEGER PRIMARY KEY,
+    regulation_id         INTEGER NOT NULL REFERENCES regulations(id),
+    amendment_id          INTEGER NOT NULL REFERENCES amendments(id),
+    subpart_at_time       TEXT,             -- historical subpart
+    title_at_amendment    TEXT NOT NULL,
+    text                  TEXT NOT NULL,
+    federal_register_cite TEXT NOT NULL,    -- per-section (FR page varies by section)
+    source_url            TEXT,
+    UNIQUE (regulation_id, amendment_id)
 );
 
-CREATE TABLE certification_basis_entries (
-    id                          INTEGER PRIMARY KEY,
-    aircraft_id                 INTEGER NOT NULL REFERENCES aircraft(id),
-    regulation_amendment_id     INTEGER REFERENCES regulation_amendments(id),
-    entry_type                  TEXT NOT NULL,
-                                -- 'regulation' | 'special_condition'
-                                -- | 'elos' | 'exemption' | 'other'
-    raw_reference               TEXT NOT NULL,
-    applicability_notes         TEXT,
-    display_order               INTEGER NOT NULL,
-    UNIQUE (aircraft_id, regulation_amendment_id, entry_type, raw_reference)
+CREATE INDEX idx_sa_reg ON section_amendments (regulation_id);
+CREATE INDEX idx_amendments_part_ordinal ON amendments (part_id, ordinal);
+
+-- Aircraft / TCDS
+CREATE TABLE aircraft_models (
+    id                INTEGER PRIMARY KEY,
+    manufacturer_id   INTEGER NOT NULL REFERENCES manufacturers(id),
+    model_designation TEXT NOT NULL,      -- '737-800'
+    common_name       TEXT,
+    notes             TEXT,
+    UNIQUE (manufacturer_id, model_designation)
 );
 
-CREATE INDEX idx_cbe_aircraft
-    ON certification_basis_entries (aircraft_id, display_order);
+CREATE TABLE model_categories (
+    model_id    INTEGER NOT NULL REFERENCES aircraft_models(id),
+    category_id INTEGER NOT NULL REFERENCES categories(id),
+    PRIMARY KEY (model_id, category_id)
+);
+
+CREATE TABLE tcds (
+    id            INTEGER PRIMARY KEY,
+    authority_id  INTEGER NOT NULL REFERENCES naa_authorities(id),
+    tcds_number   TEXT NOT NULL,          -- 'A16WE', 'EASA.IM.A.120'
+    revision      TEXT,
+    revision_date DATE,
+    source_url    TEXT,
+    UNIQUE (authority_id, tcds_number)
+);
+
+CREATE TABLE tcb (
+    id       INTEGER PRIMARY KEY,
+    model_id INTEGER NOT NULL REFERENCES aircraft_models(id),
+    tcds_id  INTEGER NOT NULL REFERENCES tcds(id),
+    notes    TEXT,
+    UNIQUE (model_id, tcds_id)
+);
+
+CREATE TABLE cert_basis_entries (
+    id                    INTEGER PRIMARY KEY,
+    tcb_id                INTEGER NOT NULL REFERENCES tcb(id),
+    section_amendment_id  INTEGER REFERENCES section_amendments(id),
+    entry_type            TEXT NOT NULL
+                          CHECK (entry_type IN
+                              ('regulation','special_condition','elos',
+                               'exemption','other')),
+    raw_reference         TEXT NOT NULL,
+    applicability_notes   TEXT,
+    display_order         INTEGER NOT NULL
+);
+
+CREATE INDEX idx_cbe_tcb ON cert_basis_entries (tcb_id, display_order);
 
 CREATE VIEW latest_amendments AS
-SELECT ra.*
-FROM regulation_amendments ra
-WHERE ra.status = 'ingested'
-  AND ra.amendment_ordinal = (
-      SELECT MAX(amendment_ordinal)
-      FROM regulation_amendments
-      WHERE regulation_id = ra.regulation_id AND status = 'ingested'
-  );
+SELECT sa.*, a.designator, a.ordinal, a.effective_date
+FROM section_amendments sa
+JOIN amendments a ON a.id = sa.amendment_id
+WHERE a.ordinal = (
+    SELECT MAX(a2.ordinal)
+    FROM section_amendments sa2
+    JOIN amendments a2 ON a2.id = sa2.amendment_id
+    WHERE sa2.regulation_id = sa.regulation_id
+);
 ```
 
 ### Notes on design
 
-- `status='pending'` on `regulation_amendments` allows the build script to
-  stub out amendments referenced by aircraft but not yet ingested. `text` is
-  nullable for this reason.
-- `certification_basis_entries.regulation_amendment_id` is nullable for
-  entries where the raw TCDS reference cannot be parsed.
+- `cert_basis_entries` is owned by `tcb`, not by `aircraft_models` directly.
+  The TCB is identified by the (aircraft_model, tcds) pair, so an aircraft
+  with FAA and EASA type certificates gets two separate certification bases.
+- `effective_date` lives on `amendments` (same for all sections in one
+  amendment). `federal_register_cite` lives on `section_amendments` because
+  different sections changed by the same amendment appear on different FR pages.
+- `model_categories` is M:N because a single TCDS can certify a model in
+  multiple categories simultaneously (e.g. "normal, utility, acrobatic").
+- `section_amendments.subpart_at_time` captures the historical subpart for
+  correctness when showing a regulation at an old amendment.
+- `section_amendment_id` is nullable on `cert_basis_entries` for entry types
+  that don't resolve to regulation text (special conditions, ELOS, exemptions).
 - `raw_reference` is always preserved for traceability.
-- Entry `status` is always derivable from joined state; it is not duplicated
-  on the entry row.
-- Polymorphic handling of special conditions, ELOS, exemptions is deferred.
-  For MVP only `entry_type='regulation'` produces an FK link; other types
-  keep `regulation_amendment_id` null and rely on `raw_reference`.
+- `entry_type` is an inline CHECK constraint — five values is too small to
+  warrant a lookup table.
 
 ## JSON Data Format
 
 All files validated against strict JSON Schemas with
 `additionalProperties: false`.
 
-### Regulation section (`data/regulations/{authority}/{title}/{part}/{section}.json`)
+### Part file (`data/regulations/{authority}/{part}/_part.json`)
 
-One file per section, containing all known amendments.
+One file per CFR part. Master amendment list for the part.
 
 ```json
 {
   "authority": "FAA",
   "title_number": 14,
   "part": "25",
-  "subpart": "F",
-  "section": "1309",
-  "canonical_title": "Equipment, systems, and installations",
+  "description": "Airworthiness Standards: Transport Category Airplanes",
   "amendments": [
     {
       "designator": "25-23",
       "ordinal": 23,
-      "effective_date": "1970-05-08",
-      "text": "...",
-      "source_url": "https://www.ecfr.gov/...",
-      "federal_register_cite": "35 FR 5665",
-      "status": "ingested"
-    },
-    {
-      "designator": "25-41",
-      "ordinal": 41,
-      "status": "pending"
+      "effective_date": "1970-05-08"
     }
   ]
 }
 ```
 
-### Aircraft (`data/aircraft/{tcds}.json`)
+### Regulation section (`data/regulations/{authority}/{part}/{section}.json`)
+
+One file per section. Per-section amendment payload.
 
 ```json
 {
-  "tcds_number": "A16WE",
+  "authority": "FAA",
+  "part": "25",
+  "section": "1309",
+  "current_subpart": "F",
+  "canonical_title": "Equipment, systems, and installations",
+  "amendments": [
+    {
+      "designator": "25-23",
+      "subpart_at_time": "F",
+      "title_at_amendment": "Equipment, systems, and installations",
+      "text": "...",
+      "federal_register_cite": "35 FR 5665",
+      "source_url": "https://drs.faa.gov/..."
+    }
+  ]
+}
+```
+
+Each amendment's `designator` must be declared in the part's `_part.json`.
+Build fails loud if any section references an undeclared designator.
+
+### Aircraft model (`data/aircraft/{manufacturer-slug}/{model-slug}.json`)
+
+One file per model variant. The `tcb` array holds one entry per certifying
+authority. The certification basis belongs to the (model, TCDS) pair, not to
+the model alone.
+
+```json
+{
   "manufacturer": "The Boeing Company",
   "model_designation": "737-800",
   "common_name": "737-800",
-  "category": "transport",
-  "tcds_revision": "57",
-  "tcds_revision_date": "2024-03-15",
-  "tcds_source_url": "https://...",
+  "categories": ["transport"],
   "notes": null,
-  "certification_basis": [
+  "tcb": [
     {
-      "display_order": 1,
-      "entry_type": "regulation",
-      "raw_reference": "14 CFR Part 25 as amended by Amendments 25-1 through 25-62",
-      "applicability_notes": null,
-      "resolved_references": [
+      "tcds": {
+        "authority": "FAA",
+        "tcds_number": "A16WE",
+        "revision": "57",
+        "revision_date": "2024-03-15",
+        "source_url": "https://..."
+      },
+      "notes": null,
+      "certification_basis": [
         {
-          "reference_kind": "range",
-          "authority": "FAA", "title_number": 14, "part": "25",
-          "from_amendment_ordinal": 1,
-          "to_amendment_ordinal": 62
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25 as amended by Amendments 25-1 through 25-62",
+          "applicability_notes": null,
+          "resolved_references": [
+            {
+              "reference_kind": "range",
+              "authority": "FAA", "title_number": 14, "part": "25",
+              "from_amendment_ordinal": 1,
+              "to_amendment_ordinal": 62
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions 25-123-SC",
+          "applicability_notes": null,
+          "resolved_references": []
         }
       ]
-    },
-    {
-      "display_order": 2,
-      "entry_type": "special_condition",
-      "raw_reference": "Special Conditions 25-123-SC",
-      "resolved_references": []
     }
   ]
 }
@@ -249,11 +336,13 @@ amendment_status, source_url, applicability_notes, text
 ```
 FARfetched-data/
 ├── schemas/
+│   ├── regulation_part.schema.json
 │   ├── regulation.schema.json
-│   └── aircraft.schema.json
+│   └── aircraft_model.schema.json
 ├── data/
-│   ├── regulations/faa/14/{part}/{section}.json
-│   └── aircraft/{tcds}.json
+│   ├── regulations/{authority}/{part}/_part.json
+│   ├── regulations/{authority}/{part}/{section}.json
+│   └── aircraft/{manufacturer-slug}/{model-slug}.json
 ├── build.py
 ├── tests/
 ├── pyproject.toml
@@ -263,16 +352,17 @@ FARfetched-data/
 ### `build.py` responsibilities
 
 1. Validate every JSON file against its schema. Fail on mismatch.
-2. Load regulations; insert `regulations` and `regulation_amendments` rows
-   (respecting `status`).
-3. Load aircraft; for each `resolved_reference`:
-   - Expand ranges against loaded regulations.
-   - Look up or create `pending` amendment rows for references not yet
-     ingested.
-   - Insert `certification_basis_entries` rows.
-4. Emit `cert_basis.sqlite`.
-5. Emit `build_report.json` with counts: regulations, amendments by status,
-   aircraft, cert basis entries, unresolvable references.
+2. Build lookup tables: `naa_authorities`, `manufacturers`, `categories`.
+3. Load `_part.json` files → `regulation_parts` and `amendments`.
+4. Load section files → `regulations` and `section_amendments`. Fail loud
+   if a section references an amendment designator not in its part file.
+5. Load aircraft model files → `aircraft_models`, `model_categories`,
+   `tcds`, `tcb`.
+6. For each cert-basis entry, expand `resolved_references` to
+   `section_amendment_id`. Fail on any unresolved reference.
+7. Emit `cert_basis.sqlite`.
+8. Emit `cert_basis_report.json` with row counts for all tables and a list
+   of unresolvable references (must be empty on success).
 
 ### CI
 

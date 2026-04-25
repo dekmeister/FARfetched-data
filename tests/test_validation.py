@@ -6,6 +6,7 @@ from build import (
     validate_aircraft_file,
     validate_data_dir,
     validate_regulation_file,
+    validate_regulation_part_file,
 )
 
 
@@ -16,9 +17,19 @@ class TestRealData:
         )
         assert errors == [], [str(e) for e in errors]
 
+    def test_checked_in_regulation_part_validates(self, repo_root: Path) -> None:
+        errors = validate_regulation_part_file(
+            repo_root / "data" / "regulations" / "faa" / "25" / "_part.json"
+        )
+        assert errors == [], [str(e) for e in errors]
+
     def test_checked_in_aircraft_validates(self, repo_root: Path) -> None:
         errors = validate_aircraft_file(
-            repo_root / "data" / "aircraft" / "A16WE.json"
+            repo_root
+            / "data"
+            / "aircraft"
+            / "the-boeing-company"
+            / "737-800.json"
         )
         assert errors == [], [str(e) for e in errors]
 
@@ -31,7 +42,8 @@ INVALID_REGULATIONS = [
     ("missing_required.json", "canonical_title"),
     ("additional_property.json", "nonsense_field"),
     ("empty_text.json", "text"),
-    ("bad_date.json", "effective_date"),
+    # bad_date.json is repurposed to test an invalid source_url format.
+    ("bad_date.json", "source_url"),
     ("bad_designator.json", "designator"),
     ("empty_amendments.json", "amendments"),
 ]
@@ -51,7 +63,7 @@ def test_invalid_regulation_rejected(
 
 
 INVALID_AIRCRAFT = [
-    ("missing_required.json", "certification_basis"),
+    ("missing_required.json", "tcb"),
     ("bad_entry_type.json", "mystery"),
     ("unknown_reference_kind.json", "reference_kind"),
     ("range_missing_bounds.json", "to_amendment_ordinal"),

@@ -1,48 +1,71 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/aircraft.schema.json",
-  "title": "Aircraft",
+  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/aircraft_model.schema.json",
+  "title": "Aircraft model",
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "tcds_number",
     "manufacturer",
     "model_designation",
     "common_name",
-    "category",
-    "tcds_revision",
-    "tcds_revision_date",
-    "tcds_source_url",
+    "categories",
     "notes",
-    "certification_basis"
+    "tcb"
   ],
   "properties": {
-    "tcds_number": { "type": "string", "minLength": 1 },
     "manufacturer": { "type": "string", "minLength": 1 },
     "model_designation": { "type": "string", "minLength": 1 },
     "common_name": { "type": ["string", "null"] },
-    "category": { "type": ["string", "null"] },
-    "tcds_revision": { "type": ["string", "null"] },
-    "tcds_revision_date": {
-      "oneOf": [
-        { "type": "string", "format": "date" },
-        { "type": "null" }
-      ]
-    },
-    "tcds_source_url": {
-      "oneOf": [
-        { "type": "string", "format": "uri" },
-        { "type": "null" }
-      ]
-    },
-    "notes": { "type": ["string", "null"] },
-    "certification_basis": {
+    "categories": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/$defs/entry" }
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "notes": { "type": ["string", "null"] },
+    "tcb": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/tcb" }
     }
   },
   "$defs": {
+    "tcb": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tcds", "notes", "certification_basis"],
+      "properties": {
+        "tcds": { "$ref": "#/$defs/tcds" },
+        "notes": { "type": ["string", "null"] },
+        "certification_basis": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/entry" }
+        }
+      }
+    },
+    "tcds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["authority", "tcds_number"],
+      "properties": {
+        "authority": { "enum": ["FAA"] },
+        "tcds_number": { "type": "string", "minLength": 1 },
+        "revision": { "type": ["string", "null"] },
+        "revision_date": {
+          "oneOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        },
+        "source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
     "entry": {
       "type": "object",
       "additionalProperties": false,

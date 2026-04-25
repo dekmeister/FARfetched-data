@@ -1,0 +1,26 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "425",
+  "current_subpart": "Structure",
+  "canonical_title": "Gust loads.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Gust loads.",
+      "text": "(a) Each horizontal tail surface must be designed for loads resulting from-- (1) Positive and negative gusts of 30 feet per second nominal intensity at VC, corresponding to the flight condition specified in Sec. 23.333(c), with flaps retracted; and (2) Positive and negative gusts of 15 feet per second nominal intensity at VF , corresponding to the flight condition specified in Sec. 23.345(a)(2), with flaps extended and at VD corresponding with the flight conditions specified in Sec. 23.333(c)(2) with flaps retracted. (b) The average loadings in figures 3 and 4 of Appendix B and the distribution in figure 8 of Appendix B may be used instead of the requirements of subparagraph (a)(1). (c) When determining the total load on the horizontal tail for the conditions specified in paragraph (a) of this section, the initial balancing tail loads for steady unaccelerated flight at the pertinent design speeds VF, VC, and VD must first be determined. The incremental tail load resulting from the gusts must be added to the initial balancing tail load to obtain the total tail load. (d) The incremental tail load due to the gust may be computed by the formula t = 0.1KUVStat where-- t= the limit gust load increment on the tail in pounds; K = gust coefficient K derived from Sec. 23.341; U = nominal gust intensity in feet per second; V= airplane speed in miles per hour; St = tail surface area in square feet; at = slope of lift curve of tail surface, CL per degree, corrected for aspect ratio; aw = slope of lift curve of wing, CL per degree; and Rw = aspect ratio of the wing. 64-17; Issued on 03/25/64. --> Link to eCFR --> NPRM ACTIONS: &nbsp; Notice of Proposed Rulemaking. Notice No. 64-17; Issued on 03/25/64. 4080; Issued on 09/28/64. --> Link to eCFR --> FINAL RULE ACTIONS: &nbsp; Final Rule. Docket No. 4080; Issued on 09/28/64.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AD6F8C3C9FE3A8DD85256687006CC610.0001"
+    },
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Gust loads.",
+      "text": "(a) Each horizontal tail surface must be designed for loads resulting from-- [(1) Gust velocities specified in Sec. 23.333(c) with flaps retracted; and (2) Positive and negative gusts of 25 f.p.s. nominal intensity at VF , corresponding to the flight condition specified in Sec. 23.345(a)(2). (b) The average loadings in figures B3 and B4 of Appendix B and the distribution in figure B8 of Appendix B may be used instead of the requirements of paragraph (a)(1) of this section.] (c) When determining the total load on the horizontal tail for the conditions specified in paragraph (a) of this section, the initial balancing tail loads for steady unaccelerated flight at the pertinent design speeds VF, VC, and VD must first be determined. The incremental tail load resulting from the gusts must be added to the initial balancing tail load to obtain the total tail load. [(d) In the absence of a more rational analysis, the incremental tail load due to the gust must be computed as follows: where-- = Incremental horizontal tail load (lbs.); Kg = Gust alleviation factor defined in Sec. 23.341; Ude = Derived gust velocity (f.p.s.); V= Airplane equivalent speed (knots); aht = Slope of aft horizontal tail lift curve (per radian); Sht = Area of horizontal tail (ft2); and\n= Downwash factor.] 67-14; Issued on 04/05/67. --> Link to eCFR --> NPRM ACTIONS: &nbsp; Notice of Proposed Rulemaking. Notice No. 67-14; Issued on 04/05/67. 8083; Issued on 08/01/69. --> Link to eCFR --> FINAL RULE ACTIONS: &nbsp; Final Rule. Docket No. 8083; Issued on 08/01/69.",
+      "federal_register_cite": "34 FR 13089",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9ABB25077848621285256687006CDC86.0001"
+    }
+  ],
+  "subject_group": "Horizontal Tail Surfaces"
+}

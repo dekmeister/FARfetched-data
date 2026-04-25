@@ -1,21 +1,23 @@
 {
-  "tcds_number": "A16WE",
   "manufacturer": "The Boeing Company",
   "model_designation": "737-800",
   "common_name": null,
-  "category": null,
-  "tcds_revision": null,
-  "tcds_revision_date": null,
-  "tcds_source_url": null,
+  "categories": ["transport"],
   "notes": null,
   "secret_field": "nope",
-  "certification_basis": [
+  "tcb": [
     {
-      "display_order": 1,
-      "entry_type": "special_condition",
-      "raw_reference": "SC 25-123",
-      "applicability_notes": null,
-      "resolved_references": []
+      "tcds": { "authority": "FAA", "tcds_number": "A16WE" },
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 25-123",
+          "applicability_notes": null,
+          "resolved_references": []
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "737-800",
+  "common_name": "737-800",
+  "categories": [
+    "transport"
+  ],
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "authority": "FAA",
+        "tcds_number": "A16WE",
+        "revision": "57",
+        "revision_date": "2024-03-15",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID126286899420240315172145.0001"
+      },
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25 as amended by Amendments 25-1 through 25-62",
+          "applicability_notes": null,
+          "resolved_references": [
+            {
+              "reference_kind": "range",
+              "authority": "FAA",
+              "title_number": 14,
+              "part": "25",
+              "from_amendment_ordinal": 1,
+              "to_amendment_ordinal": 62
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions 25-123-SC \u2014 High-Intensity Radiated Fields (HIRF) Protection",
+          "applicability_notes": "Applies to all systems performing critical functions.",
+          "resolved_references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/regulation_part.schema.json",
+  "title": "Regulation part",
+  "description": "Part-level metadata and master amendment list for a CFR part.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["authority", "title_number", "part", "amendments"],
+  "properties": {
+    "authority": { "enum": ["FAA"] },
+    "title_number": { "type": "integer", "minimum": 1 },
+    "part": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "amendments": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/amendment" }
+    }
+  },
+  "$defs": {
+    "amendment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["designator", "ordinal", "effective_date"],
+      "properties": {
+        "designator": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]+-[0-9]+$"
+        },
+        "ordinal": { "type": "integer", "minimum": 0 },
+        "effective_date": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}
