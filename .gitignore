@@ -1,6 +1,9 @@
 # Input files
 input/
 
+# Parsing tools
+tools/
+
 # FARfetched build outputs — produced by build.py, never checked in.
 cert_basis.sqlite
 cert_basis.sqlite.new
