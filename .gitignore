@@ -4,7 +4,15 @@ input/
 # Parsing tools
 tools/
 
+# Project Files
+TODO.md
+
+# Database Files
+*.sqlite-shm*
+*.sqlite-wal*
+
 # FARfetched build outputs — produced by build.py, never checked in.
+cert_basis_report.json
 cert_basis.sqlite
 cert_basis.sqlite.new
 cert_basis.sqlite-shm

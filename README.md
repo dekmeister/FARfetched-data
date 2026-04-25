@@ -236,6 +236,31 @@ python build.py --data-dir X --out Y.sqlite
 Output is atomic: build writes `cert_basis.sqlite.new` then `os.replace()`s
 it into place, so a consumer never sees a half-written DB.
 
+## Consuming the SQLite artifact
+
+`cert_basis.sqlite` ships in WAL mode — `build.py` sets
+`PRAGMA journal_mode = WAL` and the journal mode is persisted in the file
+header, so every consumer sees a WAL database. Consumers should treat the
+file as read-only and configure each connection like this:
+
+```python
+import sqlite3
+
+conn = sqlite3.connect("cert_basis.sqlite")
+conn.execute("PRAGMA query_only = ON")        # read-only guard
+conn.execute("PRAGMA foreign_keys = ON")      # not persisted; per-connection
+conn.execute("PRAGMA synchronous = NORMAL")   # safe under WAL
+conn.execute("PRAGMA busy_timeout = 5000")    # ms; wait out checkpoints
+```
+
+- `journal_mode = WAL` is already on the file. Consumers don't re-set it
+  (and can't, on a read-only connection).
+- `synchronous`, `busy_timeout`, `foreign_keys`, and `query_only` are
+  per-connection and must be issued every time a new connection is opened.
+- Under WAL, readers and a writer can operate concurrently. This repo only
+  ever produces a single writer (the build), so the consuming app should
+  open read-only connections.
+
 ## Adding data
 
 **New aircraft:** create `data/aircraft/{TCDS}.json`, run `build.py`. If

@@ -10,6 +10,8 @@ lives in a separate repo and consumes the SQLite artifact.
 - Project scope and roadmap: [plan.md](plan.md)
 - Data formats, field-by-field reference, SQLite schema, build behaviour:
   [README.md](README.md)
+- Scraping and parsing tools (FAA DRS, eCFR, future authorities):
+  [tools/README_TOOLS.md](tools/README_TOOLS.md)
 
 **Read README.md before proposing schema or format changes.** It is the
 field-level contract.
@@ -43,7 +45,13 @@ FARfetched-data/
 │   ├── regulations/{authority}/{part}/{section}.json
 │   └── aircraft/{tcds}.json
 ├── build.py
-└── tests/
+├── tests/
+└── tools/                      Scraping/parsing scripts (not committed)
+    ├── README_TOOLS.md         How to use the tools
+    ├── FAA_DRS.md              DRS/eCFR technical reference
+    ├── faa_sample.py           Sample rows from FAA CSV
+    ├── faa_probe.py            Translate and probe DRS URLs
+    └── faa_fetch.py            Fetch DRS documents + eCFR citations
 ```
 
 ## Common Commands
