@@ -137,7 +137,8 @@ at the repo level:
 - Fail the build on any unresolved reference.
 
 **Don't:**
-- Don't git add, git commit or git push. That will be done manually separately by the developer.
+- Don't git add, git commit or git push. That will be done manually separately
+  by the developer.
 - Don't introduce an ORM.
 - Don't add application logic here. App code lives in FARFETCHed.
 - Don't commit `cert_basis.sqlite` or `build_report.json` — they are build
@@ -149,8 +150,8 @@ at the repo level:
 
 ## When In Doubt
 
-- The source PDF on faa.gov is the authority. If the JSON disagrees with
-  the PDF, the JSON is wrong.
+- The source data (e.g. FAA, EASA)) is the authority. If the JSON disagrees with
+  the source (pdf, websites, etc. depending on source), the JSON is wrong.
 - If a TCDS reference can't be resolved cleanly, record it verbatim in
   `raw_reference` with `resolved_references: []` and surface it in the
   build report rather than guessing.

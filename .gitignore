@@ -10,6 +10,7 @@ TODO.md
 # Database Files
 *.sqlite-shm*
 *.sqlite-wal*
+*_bak
 
 # FARfetched build outputs — produced by build.py, never checked in.
 cert_basis_report.json
