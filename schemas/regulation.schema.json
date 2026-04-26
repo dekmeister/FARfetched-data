@@ -29,7 +29,7 @@
     "amendment": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["designator", "title_at_amendment", "text", "federal_register_cite"],
+      "required": ["designator", "title_at_amendment", "text"],
       "properties": {
         "designator": {
           "type": "string",
@@ -38,7 +38,7 @@
         "subpart_at_time": { "type": ["string", "null"] },
         "title_at_amendment": { "type": "string", "minLength": 1 },
         "text": { "type": "string", "minLength": 1 },
-        "federal_register_cite": { "type": "string", "minLength": 1 },
+        "federal_register_cite": { "type": "string" },
         "source_url": {
           "oneOf": [
             { "type": "string", "format": "uri" },

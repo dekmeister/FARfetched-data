@@ -1,0 +1,34 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "341",
+  "current_subpart": "Structure",
+  "canonical_title": "Gust load factors.",
+  "amendments": [
+    {
+      "designator": "23-34",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Gust load factors.",
+      "text": "In the absence of a more rational analysis, the gust load factors must be computed as follows: where--\nKg = = gust alleviation factor;\n[ = = airplane mass ratio;] Ude = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.);\n[ p = Density of air (slugs/cu. ft.);]\nW/S = wing loading, (p.s.f.);\n= Mean geometric chord (ft.);\ng = Acceleration due to gravity (ft./sec.2);\nV = airplane equivalent speed (knots); and\na = Slope of the airplane normal force coefficient curve per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
+      "federal_register_cite": "34 FR 13088",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D866564DCD91753085256687006CEC41.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "83-17",
+          "issued_on": "1983-09-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23516",
+          "issued_on": "1987-01-08",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Flight Loads"
+}

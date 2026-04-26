@@ -1,0 +1,33 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "615",
+  "current_subpart": "Design and Construction",
+  "canonical_title": "Design properties.",
+  "amendments": [
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Design and Construction",
+      "title_at_amendment": "Design properties.",
+      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions: [(1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (&quot;A&quot; values) when listed in MIL-HDBK-5 must be met. (2) Redundant structures in which the partial failure of individual elements would result in applied loads being safely distributed to other load carrying members may be designed on the basis of the &quot;90 percent probability&quot; (&quot;B&quot; values) when listed in MIL-HDBK-5. Examples of these items are sheet-stiffener combinations and multirivet or multiple bolt connections.] (b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used if a &quot;premium selection&quot; of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design. (c) Material correction factors for structural items such as sheets, sheet-stringer combinations, and riveted joints, may be omitted if sufficient test data are obtained to allow a probability analysis showing that 90 percent or more of the elements will equal or exceed allowable selected design values.",
+      "federal_register_cite": "",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D03CCE541EF5CB8D85256687006D968B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "2067-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

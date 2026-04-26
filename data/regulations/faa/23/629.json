@@ -1,0 +1,33 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "629",
+  "current_subpart": "Design and Construction",
+  "canonical_title": "Flutter.",
+  "amendments": [
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Design and Construction",
+      "title_at_amendment": "Flutter.",
+      "text": "[(a) The wings, tail, and control surfaces must be free from flutter, airfoil divergence, and control reversal from lack of rigidity for any condition of operation within the limit V-n envelope, including all speeds up to the lesser of 1.4 VC and 1.2 VD. but not less than VD except as provided in paragraph (b). In addition-- (1) Adequate wing torsional rigidity must be shown by tests or other approved methods: (2) The mass balance of surfaces must be designed to prevent flutter; and (3) The natural frequencies of main structural components must be determined by vibration tests or other approved methods. (b) A smaller margin above VD than that permitted in paragraph (a) of this section may be used if flight flutter tests demonstrate that-- (1) A proper margin of damping exists at VD; and (2) There is no large and rapid reduction in damping as VD is approached. (c) Flight flutter tests are acceptable as proof of freedom from flutter if it is shown by these tests that proper and adequate attempts to induce flutter have been made within the speed range up to VD and that the vibratory response of the structure during the test indicates freedom from flutter. (d) Compliance with the rigidity and mass balance criteria (pages 4-12), in Air Frame and Equipment Engineering Report No. 45 (as corrected) &quot;Simplified Flutter Prevention Criteria&quot; (published by the Federal Aviation Agency) is acceptable as proof of freedom from flutter, if--] (1) The wing and aileron flutter prevention criteria, as represented by the wing torsional stiffness and aileron balance criteria, are limited to airplanes without large mass concentrations (such as engines, floats, or fuel tanks in outer wing panels) along the wing span; and (2) The elevator and rudder balance criteria are used only for tail surface configurations that have fixed-fin and fixed-stabilizer surfaces. [(e) For multiengine turbo-propeller powered airplanes, the dynamic evaluation must include-- (1) The significant elastic, inertia, and aerodynamic forces associated with the rotations and displacements of the plane of the propeller; and (2) Engine-propeller-nacelle stiffness and damping variations appropriate to the particular configuration.]",
+      "federal_register_cite": "43 FR 50592",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/588ED07702229E3E85256687006D9BF2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "2067-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

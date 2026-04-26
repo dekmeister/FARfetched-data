@@ -1,0 +1,34 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "55",
+  "current_subpart": "Flight",
+  "canonical_title": "Accelerate-stop distance.",
+  "amendments": [
+    {
+      "designator": "23-50",
+      "subpart_at_time": "Flight",
+      "title_at_amendment": "Accelerate-stop distance.",
+      "text": "For each commuter category airplane, the accelerate-stop distance must be determined as follows: [(a) The accelerate-stop distance is the sum of the distances necessary to-- (1) Accelerate the airplane from a standing start to VEF with all engines operating; (2) Accelerate the airplane from VEF to V1, assuming the critical engine fails at VEF; and (3) Come to a full stop from the point at which V1 is reached. (b) Means other than wheel brakes may be used to determine the accelerate-stop distances if that means--] (1) Is safe and reliable; (2) Is used so that consistent results can be expected under normal operating conditions; and (3) Is such that exceptional skill is not required to control the airplane.",
+      "federal_register_cite": "61 FR 5185",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5D6604FB230397CB85256687006BC35C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Performance"
+}

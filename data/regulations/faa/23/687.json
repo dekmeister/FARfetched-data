@@ -1,0 +1,34 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "687",
+  "current_subpart": "Design and Construction",
+  "canonical_title": "Spring devices.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Design and Construction",
+      "title_at_amendment": "Spring devices.",
+      "text": "The reliability of any spring device used in the control system must be established by tests simulating service conditions unless failure of the spring will not cause flutter or unsafe flight characteristics.",
+      "federal_register_cite": "Initial Adoption",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/178FDFC1ADC2C14F85256687006E5697.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Control Systems"
+}

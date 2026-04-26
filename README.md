@@ -126,7 +126,7 @@ amendment. Ordinal and effective date are looked up from the part file.
 | `subpart_at_time`       | string | yes      | Subpart this section sat under at the time of this amendment. Captures historical subpart reorganisations. |
 | `title_at_amendment`    | string | no       | Section heading as it read at this amendment. |
 | `text`                  | string | no       | Full regulation text at this amendment. |
-| `federal_register_cite` | string | no       | FR cite for this section's page in the FR issue, e.g. `"35 FR 5665"`. Per-section because different sections in the same amendment appear on different pages. |
+| `federal_register_cite` | string | yes      | FR cite for this section's page in the FR issue, e.g. `"35 FR 5665"`. Per-section because different sections in the same amendment appear on different pages. Use the literal `"Initial Adoption"` for `-0` designators (the original adoption predates the modern FR cite scheme used elsewhere). Use `""` (or omit the key) when the cite is genuinely unknown — these can be backfilled later without invalidating the row. |
 | `source_url`            | url    | yes      | Where the text was transcribed from. Prefer the DRS canonical URL `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
 | `actions`               | array  | yes      | Ordered list of rulemaking actions that produced this amendment (NPRM, Final Rule, EASA NPA, etc.). See action object fields below. Omit the key entirely when no actions are known. |
 

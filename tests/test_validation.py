@@ -85,6 +85,55 @@ def test_invalid_aircraft_rejected(
     )
 
 
+class TestFederalRegisterCiteOptional:
+    """`federal_register_cite` is optional in the regulation schema."""
+
+    BASE = {
+        "authority": "FAA",
+        "part": "25",
+        "section": "1309",
+        "current_subpart": "F",
+        "canonical_title": "Equipment, systems, and installations",
+        "amendments": [
+            {
+                "designator": "25-23",
+                "title_at_amendment": "Equipment, systems, and installations",
+                "text": "placeholder",
+                "source_url": "https://example.com/doc",
+            }
+        ],
+    }
+
+    def _write(self, tmp_path: Path, doc: dict) -> Path:
+        import json as _json
+
+        path = tmp_path / "reg.json"
+        path.write_text(_json.dumps(doc))
+        return path
+
+    def test_omitted_validates(self, tmp_path: Path) -> None:
+        path = self._write(tmp_path, self.BASE)
+        assert validate_regulation_file(path) == []
+
+    def test_blank_string_validates(self, tmp_path: Path) -> None:
+        doc = {**self.BASE, "amendments": [
+            {**self.BASE["amendments"][0], "federal_register_cite": ""}
+        ]}
+        path = self._write(tmp_path, doc)
+        assert validate_regulation_file(path) == []
+
+    def test_initial_adoption_sentinel_validates(self, tmp_path: Path) -> None:
+        doc = {**self.BASE, "amendments": [
+            {
+                **self.BASE["amendments"][0],
+                "designator": "25-0",
+                "federal_register_cite": "Initial Adoption",
+            }
+        ]}
+        path = self._write(tmp_path, doc)
+        assert validate_regulation_file(path) == []
+
+
 def test_malformed_json_reported_not_crashed(tmp_path: Path) -> None:
     bad = tmp_path / "broken.json"
     bad.write_text("{ not valid json")

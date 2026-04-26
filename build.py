@@ -70,7 +70,7 @@ CREATE TABLE section_amendments (
     subpart_at_time       TEXT,
     title_at_amendment    TEXT NOT NULL,
     text                  TEXT NOT NULL,
-    federal_register_cite TEXT NOT NULL,
+    federal_register_cite TEXT,
     source_url            TEXT,
     UNIQUE (regulation_id, amendment_id)
 );
@@ -404,7 +404,7 @@ def _insert_regulations(conn: sqlite3.Connection, sections: list[dict]) -> None:
                     a.get("subpart_at_time"),
                     a["title_at_amendment"],
                     a["text"],
-                    a["federal_register_cite"],
+                    a.get("federal_register_cite") or None,
                     a.get("source_url"),
                 ),
             )

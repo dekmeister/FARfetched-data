@@ -1,0 +1,34 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "253",
+  "current_subpart": "Flight",
+  "canonical_title": "High speed characteristics.",
+  "amendments": [
+    {
+      "designator": "23-50",
+      "subpart_at_time": "Flight",
+      "title_at_amendment": "High speed characteristics.",
+      "text": "If a maximum operating speed VMO/MMO is established under Sec. 23.1505(c), the following speed increase and recovery characteristics must be met: (a) Operating conditions and characteristics likely to cause inadvertent speed increases (including upsets in pitch and roll) must be simulated with the airplane trimmed at any likely speed up to VMO/MMO. These conditions and characteristics include gust upsets, inadvertent control movements, low stick force gradients in relation to control friction, passenger movement, leveling off from climb, and descent from Mach to airspeed limit altitude. (b) Allowing for pilot reaction time after occurrence of the effective inherent or artificial speed warning specified in Sec. 23.1303, it must be shown that the airplane can be recovered to a normal attitude and its speed reduced to VMO/MMO, without-- [(1) Exceeding VD/MD, the maximum speed shown under Sec. 23.251, or the structural limitations; or (2) Buffeting that would impair the pilot's ability to read the instruments or to control the airplane for recovery.] (c) There may be no control reversal about any axis at any speed up to the maximum speed shown under Sec. 23.251. Any reversal of elevator control force or tendency of the airplane to pitch, roll, or yaw must be mild and readily controllable, using normal piloting techniques.",
+      "federal_register_cite": "61 FR 5192",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/02183FE0A8226EE385256687006D0979.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Miscellaneous Flight Requirements"
+}
