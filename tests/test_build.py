@@ -172,9 +172,10 @@ class TestRealDataBuild:
                 JOIN amendments a ON a.id = sa.amendment_id
                 JOIN regulations r ON r.id = sa.regulation_id
                 JOIN regulation_parts rp ON rp.id = r.part_id
+                WHERE r.section = '1301'
                 """
             ).fetchone()
-        assert row == ("25-23", "25", "1309")
+        assert row == ("23-7", "23", "1301")
 
     def test_special_condition_has_null_fk(
         self, repo_root: Path, tmp_path: Path
@@ -199,7 +200,7 @@ class TestRealDataBuild:
             rows = conn.execute(
                 "SELECT designator FROM latest_amendments"
             ).fetchall()
-        assert ("25-23",) in rows
+        assert ("23-7",) in rows
 
     def test_lookup_tables_populated(
         self, repo_root: Path, tmp_path: Path

@@ -14,13 +14,13 @@ from build import (
 class TestRealData:
     def test_checked_in_regulation_validates(self, repo_root: Path) -> None:
         errors = validate_regulation_file(
-            repo_root / "data" / "regulations" / "faa" / "25" / "1309.json"
+            repo_root / "data" / "regulations" / "faa" / "23" / "1585.json"
         )
         assert errors == [], [str(e) for e in errors]
 
     def test_checked_in_regulation_part_validates(self, repo_root: Path) -> None:
         errors = validate_regulation_part_file(
-            repo_root / "data" / "regulations" / "faa" / "25" / "_part.json"
+            repo_root / "data" / "regulations" / "faa" / "23" / "_part.json"
         )
         assert errors == [], [str(e) for e in errors]
 
@@ -29,8 +29,8 @@ class TestRealData:
             repo_root
             / "data"
             / "aircraft"
-            / "the-boeing-company"
-            / "737-800.json"
+            / "cessna-aircraft-company"
+            / "172.json"
         )
         assert errors == [], [str(e) for e in errors]
 
