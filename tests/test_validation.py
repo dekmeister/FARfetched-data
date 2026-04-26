@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Any, ClassVar
 
 import pytest
 
@@ -88,7 +89,7 @@ def test_invalid_aircraft_rejected(
 class TestFederalRegisterCiteOptional:
     """`federal_register_cite` is optional in the regulation schema."""
 
-    BASE = {
+    BASE: ClassVar[dict[str, Any]] = {
         "authority": "FAA",
         "part": "25",
         "section": "1309",

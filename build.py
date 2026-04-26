@@ -9,6 +9,7 @@ import sys
 from dataclasses import dataclass
 from functools import cache
 from pathlib import Path
+from typing import TypedDict
 
 from jsonschema import Draft202012Validator, FormatChecker
 
@@ -638,9 +639,26 @@ def _insert_aircraft(
 # Build report & helpers
 
 
+# TypedDict rather than dataclass: keeps the return dict-serialisable for build_report.json.
+class BuildReport(TypedDict):
+    naa_authorities: int
+    manufacturers: int
+    categories: int
+    regulation_parts: int
+    regulations: int
+    amendments: int
+    section_amendments: int
+    amendment_actions: int
+    aircraft_models: int
+    tcds: int
+    tcb: int
+    cert_basis_entries: int
+    unresolved_references: list[str]
+
+
 def _build_report(
     conn: sqlite3.Connection, unresolved: list[str]
-) -> dict[str, object]:
+) -> BuildReport:
     def count(table: str) -> int:
         return conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
 
@@ -671,7 +689,7 @@ def _remove_sqlite_file(path: Path) -> None:
         side.unlink(missing_ok=True)
 
 
-def build(data_dir: Path, out_path: Path) -> dict[str, object]:
+def build(data_dir: Path, out_path: Path) -> BuildReport:
     """Validate, build SQLite, atomically write. Raise BuildError on failure."""
     validation_errors = validate_data_dir(data_dir)
     if validation_errors:
