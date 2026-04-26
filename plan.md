@@ -401,9 +401,12 @@ Each phase shippable/testable before starting the next.
 - Cross-part equivalent-section mapping
 - TCDS PDF scraping automation
 - Diff visualisation UI polish
-- Optional regulation amendment fields (`drs_guid`, `docket_number`,
-  `nprm`) — cheap to capture from DRS but no app consumer yet. Add when
-  needed.
+- ~~Optional regulation amendment fields (`drs_guid`, `docket_number`,
+  `nprm`)~~ — `docket_number` and `nprm` are now captured in the
+  `amendment_actions` table (`type`, `reference`, `issued_on`). `drs_guid`
+  remains deferred (stored only in `_diag` in fetched JSON; no build consumer
+  yet).
+
 - Relax `federal_register_cite` requirement for pre-1996 ordinal-0
   entries that have no programmatic FR cite source. Pair with a sibling
   `federal_register_cite_verified` boolean and surface unverified rows

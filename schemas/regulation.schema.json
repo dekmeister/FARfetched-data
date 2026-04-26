@@ -44,7 +44,47 @@
             { "type": "string", "format": "uri" },
             { "type": "null" }
           ]
+        },
+        "actions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/amendment_action" }
         }
+      }
+    },
+    "amendment_action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "nprm",
+            "final_rule",
+            "direct_final_rule",
+            "interim_final_rule",
+            "easa_npa",
+            "easa_opinion",
+            "easa_decision",
+            "jar_npa",
+            "jar_change",
+            "other"
+          ]
+        },
+        "reference": { "type": ["string", "null"] },
+        "issued_on": {
+          "oneOf": [
+            { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+            { "type": "null" }
+          ]
+        },
+        "source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "notes": { "type": ["string", "null"] }
       }
     }
   }

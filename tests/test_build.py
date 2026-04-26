@@ -147,6 +147,7 @@ class TestRealDataBuild:
             "regulations",
             "amendments",
             "section_amendments",
+            "amendment_actions",
             "aircraft_models",
             "model_categories",
             "tcds",

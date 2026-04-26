@@ -78,6 +78,20 @@ CREATE TABLE section_amendments (
 CREATE INDEX idx_sa_reg ON section_amendments (regulation_id);
 CREATE INDEX idx_amendments_part_ordinal ON amendments (part_id, ordinal);
 
+CREATE TABLE amendment_actions (
+    id                    INTEGER PRIMARY KEY,
+    section_amendment_id  INTEGER NOT NULL REFERENCES section_amendments(id),
+    seq                   INTEGER NOT NULL,
+    type                  TEXT NOT NULL,
+    reference             TEXT,
+    issued_on             TEXT,
+    source_url            TEXT,
+    notes                 TEXT,
+    UNIQUE (section_amendment_id, seq)
+);
+CREATE INDEX idx_actions_type      ON amendment_actions (type);
+CREATE INDEX idx_actions_reference ON amendment_actions (reference);
+
 CREATE TABLE aircraft_models (
     id                INTEGER PRIMARY KEY,
     manufacturer_id   INTEGER NOT NULL REFERENCES manufacturers(id),
@@ -379,7 +393,7 @@ def _insert_regulations(conn: sqlite3.Connection, sections: list[dict]) -> None:
                         f"amendment '{a['designator']}' not declared in _part.json"
                     ]
                 )
-            conn.execute(
+            sa_cur = conn.execute(
                 "INSERT INTO section_amendments "
                 "(regulation_id, amendment_id, subpart_at_time, "
                 " title_at_amendment, text, federal_register_cite, source_url) "
@@ -394,6 +408,24 @@ def _insert_regulations(conn: sqlite3.Connection, sections: list[dict]) -> None:
                     a.get("source_url"),
                 ),
             )
+            sa_id = sa_cur.lastrowid
+            assert sa_id is not None
+            for seq, action in enumerate(a.get("actions", [])):
+                conn.execute(
+                    "INSERT INTO amendment_actions "
+                    "(section_amendment_id, seq, type, reference, "
+                    " issued_on, source_url, notes) "
+                    "VALUES (?, ?, ?, ?, ?, ?, ?)",
+                    (
+                        sa_id,
+                        seq,
+                        action["type"],
+                        action.get("reference"),
+                        action.get("issued_on"),
+                        action.get("source_url"),
+                        action.get("notes"),
+                    ),
+                )
 
 
 # ---------------------------------------------------------------------------
@@ -620,6 +652,7 @@ def _build_report(
         "regulations": count("regulations"),
         "amendments": count("amendments"),
         "section_amendments": count("section_amendments"),
+        "amendment_actions": count("amendment_actions"),
         "aircraft_models": count("aircraft_models"),
         "tcds": count("tcds"),
         "tcb": count("tcb"),

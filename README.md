@@ -128,6 +128,17 @@ amendment. Ordinal and effective date are looked up from the part file.
 | `text`                  | string | no       | Full regulation text at this amendment. |
 | `federal_register_cite` | string | no       | FR cite for this section's page in the FR issue, e.g. `"35 FR 5665"`. Per-section because different sections in the same amendment appear on different pages. |
 | `source_url`            | url    | yes      | Where the text was transcribed from. Prefer the DRS canonical URL `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
+| `actions`               | array  | yes      | Ordered list of rulemaking actions that produced this amendment (NPRM, Final Rule, EASA NPA, etc.). See action object fields below. Omit the key entirely when no actions are known. |
+
+**Action object fields** (each element of `actions`)
+
+| Field        | Type   | Nullable | Purpose |
+|--------------|--------|----------|---------|
+| `type`       | string | no       | Action kind. Enum: `nprm`, `final_rule`, `direct_final_rule`, `interim_final_rule`, `easa_npa`, `easa_opinion`, `easa_decision`, `jar_npa`, `jar_change`, `other`. |
+| `reference`  | string | yes      | Notice number (NPRM), docket number (Final Rule), NPA number (EASA), etc. Authority-specific; stored verbatim. |
+| `issued_on`  | date   | yes      | ISO `YYYY-MM-DD` date the action was issued. |
+| `source_url` | url    | yes      | Direct link to the action document (EASA or other). Usually `null` for FAA (DRS does not expose stable per-action URLs). |
+| `notes`      | string | yes      | Verbatim raw text when `type` is `other`, or any additional context. |
 
 ### Aircraft model file (`data/aircraft/{manufacturer-slug}/{model-slug}.json`)
 
@@ -251,6 +262,8 @@ its own TCDS reference and certification basis.
 `amendments` — one row per amendment-as-a-whole. `(part_id, designator, ordinal, effective_date)`. `effective_date` is stored here because it is the same for all sections changed by one amendment.
 
 `section_amendments` — one row per (section × amendment). The per-section payload: `text`, `title_at_amendment`, `federal_register_cite`, `subpart_at_time`, `source_url`.
+
+`amendment_actions` — child rows of `section_amendments`. Each row is one rulemaking action (NPRM, Final Rule, EASA NPA, etc.) associated with a section amendment. Fields: `section_amendment_id`, `seq` (ordering), `type`, `reference`, `issued_on`, `source_url`, `notes`.
 
 ### Aircraft / TCB tables
 
