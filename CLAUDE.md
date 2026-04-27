@@ -109,6 +109,15 @@ at the repo level:
 - **No `status` column on amendments.** Every amendment must have `text`.
   An aircraft that references an untranscribed amendment can't be added
   until that amendment is transcribed. This is deliberate — see plan.md.
+- **`text: "TEXT MISSING"` flags a known gap.** When an extractor knows
+  a (section, amendment) pair *should* exist (the CSV/manifest says so)
+  but the source is corrupted, OCR'd badly, or otherwise unreadable, it
+  emits the record with the best-known title (from TOC, CSV, or other
+  manifest) and the literal body `TEXT MISSING`. This keeps the DB row
+  set consistent with the manifest and surfaces the gap loudly to a
+  human reviewer rather than silently dropping it. Search for
+  `TEXT MISSING` to find pending recovery work. Don't use this marker
+  for anything else.
 - **`raw_reference` is sacred.** Never rewrite or normalise it. It's the
   unmodified TCDS text, kept for traceability against the original PDF.
 - **Emitters never write to `data/` directly.** `tools/faa_emit.py` and
