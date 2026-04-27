@@ -38,7 +38,7 @@ CREATE TABLE categories (
 CREATE TABLE regulation_parts (
     id           INTEGER PRIMARY KEY,
     authority_id INTEGER NOT NULL REFERENCES naa_authorities(id),
-    title_number INTEGER NOT NULL,
+    title_number INTEGER,
     part         TEXT NOT NULL,
     description  TEXT,
     UNIQUE (authority_id, title_number, part)
@@ -71,6 +71,7 @@ CREATE TABLE section_amendments (
     subpart_at_time       TEXT,
     title_at_amendment    TEXT NOT NULL,
     text                  TEXT NOT NULL,
+    same_as_designator    TEXT,
     federal_register_cite TEXT,
     source_url            TEXT,
     UNIQUE (regulation_id, amendment_id)
@@ -248,10 +249,7 @@ def _load_regulation_parts(data_dir: Path) -> list[dict]:
     regs_dir = data_dir / "regulations"
     if not regs_dir.is_dir():
         return []
-    return [
-        json.loads(p.read_text())
-        for p in sorted(regs_dir.rglob("_part.json"))
-    ]
+    return [json.loads(p.read_text()) for p in sorted(regs_dir.rglob("_part.json"))]
 
 
 def _load_regulations(data_dir: Path) -> list[dict]:
@@ -290,9 +288,7 @@ def _upsert_authority(conn: sqlite3.Connection, code: str) -> int:
 
 
 def _upsert_manufacturer(conn: sqlite3.Connection, name: str) -> int:
-    conn.execute(
-        "INSERT OR IGNORE INTO manufacturers (name) VALUES (?)", (name,)
-    )
+    conn.execute("INSERT OR IGNORE INTO manufacturers (name) VALUES (?)", (name,))
     row = conn.execute(
         "SELECT id FROM manufacturers WHERE name = ?", (name,)
     ).fetchone()
@@ -306,9 +302,7 @@ def _upsert_category(conn: sqlite3.Connection, code: str) -> int:
         "INSERT OR IGNORE INTO categories (code, name) VALUES (?, ?)",
         (code, display),
     )
-    row = conn.execute(
-        "SELECT id FROM categories WHERE code = ?", (code,)
-    ).fetchone()
+    row = conn.execute("SELECT id FROM categories WHERE code = ?", (code,)).fetchone()
     assert row is not None
     return row[0]
 
@@ -323,7 +317,7 @@ def _insert_regulation_parts(conn: sqlite3.Connection, parts: list[dict]) -> Non
         cur = conn.execute(
             "INSERT INTO regulation_parts "
             "(authority_id, title_number, part, description) VALUES (?, ?, ?, ?)",
-            (auth_id, p["title_number"], p["part"], p.get("description")),
+            (auth_id, p.get("title_number"), p["part"], p.get("description")),
         )
         part_id = cur.lastrowid
         assert part_id is not None
@@ -341,9 +335,7 @@ def _insert_regulation_parts(conn: sqlite3.Connection, parts: list[dict]) -> Non
             )
 
 
-def _part_id(
-    conn: sqlite3.Connection, authority: str, part: str
-) -> int | None:
+def _part_id(conn: sqlite3.Connection, authority: str, part: str) -> int | None:
     row = conn.execute(
         "SELECT rp.id FROM regulation_parts rp "
         "JOIN naa_authorities na ON na.id = rp.authority_id "
@@ -361,6 +353,83 @@ def _amendment_id_by_designator(
         (part_id, designator),
     ).fetchone()
     return row[0] if row else None
+
+
+def _ordinal_for_designator(
+    conn: sqlite3.Connection, part_id: int, designator: str
+) -> int | None:
+    row = conn.execute(
+        "SELECT ordinal FROM amendments WHERE part_id = ? AND designator = ?",
+        (part_id, designator),
+    ).fetchone()
+    return row[0] if row else None
+
+
+def _resolve_alias_amendments(
+    section_label: str,
+    amendments: list[dict],
+    ordinal_of: dict[str, int],
+) -> list[dict]:
+    """Return amendments with `same_as_designator` resolved to concrete text.
+
+    Each returned dict has both the resolved `text` (and `title_at_amendment`
+    if the alias entry omitted one) and the original `same_as_designator`
+    so the DB can record both.
+    """
+    items: list[tuple[int, dict]] = []
+    for a in amendments:
+        if a["designator"] not in ordinal_of:
+            raise BuildError(
+                [
+                    f"Section {section_label}: amendment "
+                    f"'{a['designator']}' not declared in _part.json"
+                ]
+            )
+        items.append((ordinal_of[a["designator"]], a))
+    items.sort(key=lambda x: x[0])
+
+    resolved_text: dict[str, str] = {}
+    out: list[dict] = []
+    for ordinal, a in items:
+        if "text" in a:
+            text = a["text"]
+            same_as = None
+        else:
+            target = a["same_as_designator"]
+            if target not in resolved_text:
+                raise BuildError(
+                    [
+                        f"Section {section_label}: amendment "
+                        f"'{a['designator']}' aliases unknown designator "
+                        f"'{target}' (must point at an earlier amendment in "
+                        f"the same section)"
+                    ]
+                )
+            target_ord = ordinal_of.get(target)
+            if target_ord is None or target_ord >= ordinal:
+                raise BuildError(
+                    [
+                        f"Section {section_label}: amendment "
+                        f"'{a['designator']}' aliases '{target}' which is "
+                        f"not strictly earlier in part order"
+                    ]
+                )
+            text = resolved_text[target]
+            same_as = target
+        resolved_text[a["designator"]] = text
+        out.append(
+            {
+                "designator": a["designator"],
+                "subpart_at_time": a.get("subpart_at_time"),
+                "title_at_amendment": a["title_at_amendment"],
+                "text": text,
+                "same_as_designator": same_as,
+                "federal_register_cite": a.get("federal_register_cite"),
+                "source_url": a.get("source_url"),
+                "actions": a.get("actions", []),
+            }
+        )
+    return out
 
 
 def _insert_regulations(conn: sqlite3.Connection, sections: list[dict]) -> None:
@@ -387,33 +456,40 @@ def _insert_regulations(conn: sqlite3.Connection, sections: list[dict]) -> None:
         )
         reg_id = cur.lastrowid
         assert reg_id is not None
-        for a in s["amendments"]:
+
+        ordinal_of: dict[str, int] = {
+            d: o
+            for d, o in conn.execute(
+                "SELECT designator, ordinal FROM amendments WHERE part_id = ?",
+                (pid,),
+            )
+        }
+        section_label = f"{s['authority']}/{s['part']}/{s['section']}"
+        resolved = _resolve_alias_amendments(section_label, s["amendments"], ordinal_of)
+
+        for a in resolved:
             amend_id = _amendment_id_by_designator(conn, pid, a["designator"])
-            if amend_id is None:
-                raise BuildError(
-                    [
-                        f"Section {s['authority']}/{s['part']}/{s['section']}: "
-                        f"amendment '{a['designator']}' not declared in _part.json"
-                    ]
-                )
+            assert amend_id is not None  # validated by _resolve_alias_amendments
             sa_cur = conn.execute(
                 "INSERT INTO section_amendments "
                 "(regulation_id, amendment_id, subpart_at_time, "
-                " title_at_amendment, text, federal_register_cite, source_url) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?)",
+                " title_at_amendment, text, same_as_designator, "
+                " federal_register_cite, source_url) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
                 (
                     reg_id,
                     amend_id,
-                    a.get("subpart_at_time"),
+                    a["subpart_at_time"],
                     a["title_at_amendment"],
                     a["text"],
-                    a.get("federal_register_cite") or None,
-                    a.get("source_url"),
+                    a["same_as_designator"],
+                    a["federal_register_cite"] or None,
+                    a["source_url"],
                 ),
             )
             sa_id = sa_cur.lastrowid
             assert sa_id is not None
-            for seq, action in enumerate(a.get("actions", [])):
+            for seq, action in enumerate(a["actions"]):
                 conn.execute(
                     "INSERT INTO amendment_actions "
                     "(section_amendment_id, seq, type, reference, "
@@ -478,9 +554,7 @@ def _section_amendment_id_by_designator(
     return row[0] if row else None
 
 
-def _sections_in_part(
-    conn: sqlite3.Connection, authority: str, part: str
-) -> list[str]:
+def _sections_in_part(conn: sqlite3.Connection, authority: str, part: str) -> list[str]:
     return [
         r[0]
         for r in conn.execute(
@@ -571,9 +645,7 @@ def _expand_and_insert_entry(
     return failures
 
 
-def _insert_aircraft(
-    conn: sqlite3.Connection, aircraft_docs: list[dict]
-) -> list[str]:
+def _insert_aircraft(conn: sqlite3.Connection, aircraft_docs: list[dict]) -> list[str]:
     failures: list[str] = []
     for doc in aircraft_docs:
         mfr_id = _upsert_manufacturer(conn, doc["manufacturer"])
@@ -658,9 +730,7 @@ class BuildReport(TypedDict):
     unresolved_references: list[str]
 
 
-def _build_report(
-    conn: sqlite3.Connection, unresolved: list[str]
-) -> BuildReport:
+def _build_report(conn: sqlite3.Connection, unresolved: list[str]) -> BuildReport:
     def count(table: str) -> int:
         return conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
 

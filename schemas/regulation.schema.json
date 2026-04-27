@@ -13,7 +13,7 @@
     "amendments"
   ],
   "properties": {
-    "authority": { "enum": ["FAA", "CAA (FAA)", "CAB (FAA)"] },
+    "authority": { "enum": ["FAA", "CAA (FAA)", "CAB (FAA)", "EASA"] },
     "part": { "type": "string", "minLength": 1 },
     "section": { "type": "string", "minLength": 1 },
     "current_subpart": { "type": ["string", "null"] },
@@ -29,7 +29,11 @@
     "amendment": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["designator", "title_at_amendment", "text"],
+      "required": ["designator", "title_at_amendment"],
+      "oneOf": [
+        { "required": ["text"] },
+        { "required": ["same_as_designator"] }
+      ],
       "properties": {
         "designator": {
           "type": "string",
@@ -38,6 +42,10 @@
         "subpart_at_time": { "type": ["string", "null"] },
         "title_at_amendment": { "type": "string", "minLength": 1 },
         "text": { "type": "string", "minLength": 1 },
+        "same_as_designator": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]+-[0-9]+$"
+        },
         "federal_register_cite": { "type": "string" },
         "source_url": {
           "oneOf": [
