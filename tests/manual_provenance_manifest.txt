@@ -1,0 +1,10 @@
+# Tripwire manifest for hand-corrected regulation data.
+#
+# One path per line, relative to data/regulations/. List every file that
+# contains an amendment (or top-level provenance) marked
+# `provenance.source == "manual"`. The test in
+# tests/test_manual_provenance.py asserts the set on disk matches this
+# list exactly — drift in either direction (a manual amendment lost, or
+# a new one not yet recorded here) fails pytest.
+#
+# Lines starting with '#' and blank lines are ignored.

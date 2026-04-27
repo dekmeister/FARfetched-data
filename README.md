@@ -129,6 +129,7 @@ amendment. Ordinal and effective date are looked up from the part file.
 | `federal_register_cite` | string | yes      | FR cite for this section's page in the FR issue, e.g. `"35 FR 5665"`. Per-section because different sections in the same amendment appear on different pages. Use the literal `"Initial Adoption"` for `-0` designators (the original adoption predates the modern FR cite scheme used elsewhere). Use `""` (or omit the key) when the cite is genuinely unknown — these can be backfilled later without invalidating the row. |
 | `source_url`            | url    | yes      | Where the text was transcribed from. Prefer the DRS canonical URL `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
 | `actions`               | array  | yes      | Ordered list of rulemaking actions that produced this amendment (NPRM, Final Rule, EASA NPA, etc.). See action object fields below. Omit the key entirely when no actions are known. |
+| `provenance`            | object | yes      | Where the amendment came from. Object with required `source` (`"scraped"` \| `"ocr"` \| `"manual"`) and optional `notes`. Absent ≡ `"scraped"`. Set `"manual"` on any amendment you have hand-corrected — `tools/promote.py` and the `tests/test_manual_provenance.py` tripwire then refuse to let it be silently overwritten. See [tools/README_TOOLS.md §Manual edit protection](tools/README_TOOLS.md#manual-edit-protection). |
 
 **Action object fields** (each element of `actions`)
 

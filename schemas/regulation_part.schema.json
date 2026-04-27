@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "required": ["authority", "title_number", "part", "amendments"],
   "properties": {
-    "authority": { "enum": ["FAA"] },
+    "authority": { "enum": ["FAA", "CAA (FAA)", "CAB (FAA)"] },
     "title_number": { "type": "integer", "minimum": 1 },
     "part": { "type": "string", "minLength": 1 },
     "description": { "type": ["string", "null"] },
@@ -15,7 +15,8 @@
       "type": "array",
       "minItems": 1,
       "items": { "$ref": "#/$defs/amendment" }
-    }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" }
   },
   "$defs": {
     "amendment": {
@@ -28,7 +29,17 @@
           "pattern": "^[A-Za-z0-9]+-[0-9]+$"
         },
         "ordinal": { "type": "integer", "minimum": 0 },
-        "effective_date": { "type": "string", "format": "date" }
+        "effective_date": { "type": "string", "format": "date" },
+        "provenance": { "$ref": "#/$defs/provenance" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source"],
+      "properties": {
+        "source": { "enum": ["scraped", "ocr", "manual"] },
+        "notes": { "type": "string" }
       }
     }
   }

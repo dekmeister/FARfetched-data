@@ -156,6 +156,8 @@ WHERE a.ordinal = (
 # Canonical names and countries for authorities encountered in data.
 _AUTHORITY_META: dict[str, tuple[str, str | None]] = {
     "FAA": ("Federal Aviation Administration", "US"),
+    "CAA (FAA)": ("Civil Aeronautics Administration (now FAA)", "US"),
+    "CAB (FAA)": ("Civil Aeronautics Board (now FAA)", "US"),
     "EASA": ("European Union Aviation Safety Agency", "EU"),
 }
 

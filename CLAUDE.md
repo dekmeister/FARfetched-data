@@ -111,6 +111,14 @@ at the repo level:
   until that amendment is transcribed. This is deliberate — see plan.md.
 - **`raw_reference` is sacred.** Never rewrite or normalise it. It's the
   unmodified TCDS text, kept for traceability against the original PDF.
+- **Emitters never write to `data/` directly.** `tools/faa_emit.py` and
+  `tools/car_emit.py` write to `tools/out/staged/regulations/...`. Use
+  `tools/promote.py` to review diffs and copy into `data/`. Files
+  containing an amendment with `provenance.source = "manual"` are
+  protected — `promote.py` refuses to overwrite them, and
+  `tests/test_manual_provenance.py` enforces a tripwire manifest at
+  `tests/manual_provenance_manifest.txt`. See
+  [tools/README_TOOLS.md §Manual edit protection](tools/README_TOOLS.md#manual-edit-protection).
 - **Regulation file paths are flat:**
   `data/regulations/{authority}/{part}/{section}.json`. `title_number` and
   `subpart` are fields inside the file, not directories. Don't introduce
