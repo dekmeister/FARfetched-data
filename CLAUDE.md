@@ -10,8 +10,10 @@ lives in a separate repo and consumes the SQLite artifact.
 - Project scope and roadmap: [plan.md](plan.md)
 - Data formats, field-by-field reference, SQLite schema, build behaviour:
   [README.md](README.md)
-- Scraping and parsing tools (FAA DRS, eCFR, future authorities):
-  [tools/README_TOOLS.md](tools/README_TOOLS.md)
+- Scraping/parsing/staging machinery lives in [tools/](tools/). Treat it as a
+  self-contained internal sub-repo with its own [tools/CLAUDE.md](tools/CLAUDE.md)
+  and [tools/README.md](tools/README.md). When working on data ingestion,
+  defer to those — don't restate their rules here.
 
 **Read README.md before proposing schema or format changes.** It is the
 field-level contract.
@@ -46,12 +48,8 @@ FARfetched-data/
 │   └── aircraft/{tcds}.json
 ├── build.py
 ├── tests/
-└── tools/                      Scraping/parsing scripts (not committed)
-    ├── README_TOOLS.md         How to use the tools
-    ├── FAA_DRS.md              DRS/eCFR technical reference
-    ├── faa_sample.py           Sample rows from FAA CSV
-    ├── faa_probe.py            Translate and probe DRS URLs
-    └── faa_fetch.py            Fetch DRS documents + eCFR citations
+└── tools/                      Internal sub-repo: ingestion scripts.
+                                See tools/CLAUDE.md and tools/README.md.
 ```
 
 ## Common Commands
@@ -120,14 +118,10 @@ at the repo level:
   for anything else.
 - **`raw_reference` is sacred.** Never rewrite or normalise it. It's the
   unmodified TCDS text, kept for traceability against the original PDF.
-- **Emitters never write to `data/` directly.** `tools/faa_emit.py` and
-  `tools/car_emit.py` write to `tools/out/staged/regulations/...`. Use
-  `tools/promote.py` to review diffs and copy into `data/`. Files
-  containing an amendment with `provenance.source = "manual"` are
-  protected — `promote.py` refuses to overwrite them, and
-  `tests/test_manual_provenance.py` enforces a tripwire manifest at
-  `tests/manual_provenance_manifest.txt`. See
-  [tools/README_TOOLS.md §Manual edit protection](tools/README_TOOLS.md#manual-edit-protection).
+- **Only `tools/` writes to `data/`, and only via its promotion step.** Hand-edits
+  to `data/` are allowed but must be marked with
+  `provenance.source = "manual"` so the tools' tripwire protects them from
+  being overwritten. The mechanics live in [tools/CLAUDE.md](tools/CLAUDE.md).
 - **Regulation file paths are flat:**
   `data/regulations/{authority}/{part}/{section}.json`. `title_number` and
   `subpart` are fields inside the file, not directories. Don't introduce
@@ -137,7 +131,7 @@ at the repo level:
 
 ## Testing
 
-- `pytest`. Fixtures point at a small hand-written `tests/fixtures/` tree
+- `pytest`. Fixtures point at a small hand-written `tools/tests/fixtures/` tree
   that exercises range expansion, single references, and each
   `entry_type`.
 - Smoke test: run `build.py` against fixtures, open the resulting SQLite,
