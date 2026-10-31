@@ -149,7 +149,8 @@ One file per provision. Ordinal and effective date come from the document file.
 | `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision. |
 | `title_at_revision`  | string | no       | Heading as it read at this revision. |
 | `text`               | string | one of   | Full text at this revision. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
-| `same_as_designator` | string | one of   | Instead of `text`: the text is unchanged from this earlier version of the same provision. The build copies the text and records the link. |
+| `same_as_designator` | string | one of   | Instead of `text`: the text is unchanged from this earlier version of the same provision. The build copies the text and records the link. Must not point at a deleted version. |
+| `deleted`            | `true` | one of   | Instead of `text`: this revision deleted (removed, repealed) the provision, e.g. every old-numbered CS-23 paragraph at CS23-5. Only valid while the provision is in force (not as its first version, not twice in a row). A later version may re-create it. Stored with `text` NULL and `deleted = 1`. |
 | `publication_cite`   | string | yes      | Where the revision was published, e.g. `"35 FR 5665"`. Omit (or `""`) when unknown — including for original issues. The old `"Initial Adoption"` sentinel is rejected. |
 | `source_url`         | url    | yes      | Where the text was transcribed from. Prefer DRS `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
 | `actions`            | array  | yes      | Rulemaking actions behind this version, as the source records them for this provision (see below). Omit when none are known. |
@@ -257,7 +258,8 @@ legitimately hold one provision at different levels.
 1. For an include ref, the revision set is every revision with ordinal ≤
    `to`, minus `skip`. For each provision in scope, the version at the
    highest revision in that set applies. A provision with no such version
-   didn't exist yet and is not part of the basis through this ref.
+   didn't exist yet and is not part of the basis through this ref. Nor is a
+   provision whose applicable version is a deletion.
 2. Scoped results (refs with `provisions`) replace document-wide results for
    the same provision.
 3. A paragraph ref adds a row alongside the whole-provision row. If it lands
@@ -271,7 +273,8 @@ The build fails, rather than guessing, when:
   different versions;
 - a provision is both excluded and included by a scoped ref;
 - an exclude removes nothing;
-- an include ref resolves to no provisions.
+- an include ref resolves to no provisions;
+- a scoped or paragraph ref resolves a provision to a version that deleted it.
 
 ## SQLite schema
 
@@ -282,7 +285,7 @@ in [build.py](build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **1**). It is bumped
+`PRAGMA user_version` is the schema version (currently **2**; v2 added `provision_versions.deleted`). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know. `build_info` is a single row: `schema_version`, `git_sha` of
 the data repo at build time (NULL if unavailable), `built_at` (UTC).
@@ -303,8 +306,9 @@ zero-padded) so §23.175 sorts before §23.1309: `ORDER BY sort_key`.
 
 `provision_versions` — one row per (provision × revision): `text`,
 `title_at_revision`, `grouping_at_time`, `publication_cite`, `source_url`,
-`provenance`, `provenance_notes`, `same_as_version_id`, and the generated
-`text_missing` flag. Composite foreign keys through `document_id` make it
+`provenance`, `provenance_notes`, `same_as_version_id`, `deleted` (1 = the
+revision deleted the provision; `text` is NULL exactly when `deleted = 1`),
+and the generated `text_missing` flag. Composite foreign keys through `document_id` make it
 impossible to pair a provision with another document's revision, or alias a
 version of another provision.
 
@@ -332,7 +336,9 @@ pair, owning the cert basis.
 ### `latest_versions` view
 
 For each provision, the `provision_versions` row at its highest-ordinal
-revision, joined with `designator`, `ordinal` and `effective_date`.
+revision, joined with `designator`, `ordinal` and `effective_date`. For a
+deleted provision that row has `deleted = 1`; filter on it to list only
+provisions in force.
 
 ## Build pipeline
 
@@ -348,12 +354,13 @@ uv run python build.py --check             # schema validation only
 3. Seeds the closed lookup sets (`issuers`, `categories`).
 4. Inserts documents and revisions, then provisions, versions and actions.
    Fails if a version names an undeclared revision or a duplicate one, or if
-   an alias doesn't point at an earlier version of the same provision.
+   an alias doesn't point at an earlier, non-deleted version of the same
+   provision, or a deletion doesn't follow a version in force.
 5. Inserts aircraft, TCDS (once each, metadata must agree), TCBs and
    entries; inserts each entry's refs and resolves them by the rules above.
 6. Fails on any date after the build day, and on any foreign-key violation.
 7. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
-   every table, `text_missing` count, provenance counts, and
+   every table, `text_missing` and `deleted` counts, provenance counts, and
    `unresolved_references` (always empty on a successful build).
 
 Every constraint violation fails the build with the offending file named.

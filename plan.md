@@ -160,8 +160,9 @@ Each phase shippable/testable before starting the next.
 - Non-FAA issuers beyond EASA (TCCA, ...)
 - Cross-part equivalent-section mapping (`provision_relations`, deferred
   from the 2026-10-31 review)
-- Repeal / `[Reserved]` representation — needed before ingesting 23-64
-  (the 2017 Part 23 rewrite)
+- ~~Repeal / `[Reserved]` representation~~ — schema v2 adds `deleted: true`
+  versions (added for EASA CS-23 Amdt 5). FAA 23-64 (the 2017 Part 23
+  rewrite) can now be ingested; `[Reserved]` text is still stored verbatim.
 - Structured serial-number applicability (`applicability` is verbatim)
 - TCDS PDF scraping automation
 - Diff visualisation UI polish

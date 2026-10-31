@@ -33,7 +33,8 @@
       "required": ["designator", "title_at_revision"],
       "oneOf": [
         { "required": ["text"] },
-        { "required": ["same_as_designator"] }
+        { "required": ["same_as_designator"] },
+        { "required": ["deleted"] }
       ],
       "properties": {
         "designator": { "$ref": "common.schema.json#/$defs/designator" },
@@ -41,6 +42,10 @@
         "title_at_revision": { "type": "string", "minLength": 1 },
         "text": { "type": "string", "minLength": 1 },
         "same_as_designator": { "$ref": "common.schema.json#/$defs/designator" },
+        "deleted": {
+          "description": "The revision deleted (removed, repealed) this provision. Replaces text; a later version may re-create it.",
+          "const": true
+        },
         "publication_cite": {
           "type": "string",
           "not": { "const": "Initial Adoption" }

@@ -23,7 +23,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 DOCUMENT_FILE = "_document.json"
 
@@ -95,8 +95,11 @@ CREATE TABLE provision_versions (
     revision_id        INTEGER NOT NULL,
     grouping_at_time   TEXT,
     title_at_revision  TEXT NOT NULL,
-    text               TEXT NOT NULL,
-    text_missing       INTEGER GENERATED ALWAYS AS (text = 'TEXT MISSING') VIRTUAL,
+    text               TEXT,
+    -- 1 = the revision deleted the provision; such a version has no text.
+    deleted            INTEGER NOT NULL DEFAULT 0 CHECK (deleted IN (0, 1)),
+    text_missing       INTEGER GENERATED ALWAYS AS
+                           (IFNULL(text = 'TEXT MISSING', 0)) VIRTUAL,
     same_as_version_id INTEGER,
     publication_cite   TEXT,
     source_url         TEXT,
@@ -110,7 +113,9 @@ CREATE TABLE provision_versions (
         REFERENCES document_revisions (document_id, id),
     FOREIGN KEY (provision_id, same_as_version_id)
         REFERENCES provision_versions (provision_id, id),
-    CHECK (same_as_version_id IS NULL OR same_as_version_id <> id)
+    CHECK (same_as_version_id IS NULL OR same_as_version_id <> id),
+    CHECK ((deleted = 1) = (text IS NULL)),
+    CHECK (deleted = 0 OR same_as_version_id IS NULL)
 ) STRICT;
 
 CREATE INDEX idx_pv_revision ON provision_versions (revision_id);
@@ -530,8 +535,10 @@ def _resolve_alias_versions(
 ) -> list[dict]:
     """Return versions in revision order with `same_as_designator` resolved.
 
-    Each returned dict carries the resolved `text` plus the original
-    `same_as_designator` so the DB can record both.
+    Each returned dict carries the resolved `text` (None for a deleted version)
+    plus the original `same_as_designator` so the DB can record both. A
+    deletion must follow a live version, and an alias must not target a
+    deleted one.
     """
     items: list[tuple[int, dict]] = []
     for v in versions:
@@ -546,13 +553,35 @@ def _resolve_alias_versions(
     items.sort(key=lambda x: x[0])
 
     resolved_text: dict[str, str] = {}
+    deleted_designators: set[str] = set()
     out: list[dict] = []
+    live = False  # is the provision in force after the previous version?
     for ordinal, v in items:
+        if v.get("deleted"):
+            if not live:
+                raise BuildError(
+                    [
+                        f"Provision {label}: version '{v['designator']}' deletes "
+                        f"a provision that is not in force"
+                    ]
+                )
+            live = False
+            deleted_designators.add(v["designator"])
+            out.append({**v, "text": None, "same_as_designator": None})
+            continue
+        live = True
         if "text" in v:
             text = v["text"]
             same_as = None
         else:
             target = v["same_as_designator"]
+            if target in deleted_designators:
+                raise BuildError(
+                    [
+                        f"Provision {label}: version '{v['designator']}' "
+                        f"aliases deleted version '{target}'"
+                    ]
+                )
             if target not in resolved_text:
                 raise BuildError(
                     [
@@ -618,9 +647,9 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> No
                 pv_cur = conn.execute(
                     "INSERT INTO provision_versions "
                     "(document_id, provision_id, revision_id, grouping_at_time, "
-                    " title_at_revision, text, same_as_version_id, "
+                    " title_at_revision, text, deleted, same_as_version_id, "
                     " publication_cite, source_url, provenance, provenance_notes) "
-                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     (
                         doc_id,
                         prov_id,
@@ -628,6 +657,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> No
                         v.get("grouping_at_time"),
                         v["title_at_revision"],
                         v["text"],
+                        1 if v.get("deleted") else 0,
                         version_id[same_as] if same_as else None,
                         v.get("publication_cite") or None,
                         v.get("source_url"),
@@ -672,6 +702,7 @@ class DocIndex:
     # provision id -> [(ordinal, revision id, provision version id)]
     versions: dict[int, list[tuple[int, int, int]]] = field(default_factory=dict)
     numbers: dict[int, str] = field(default_factory=dict)  # provision id -> number
+    deleted: set[int] = field(default_factory=set)  # deleted provision version ids
 
     def pick(self, provision_id: int, to_ordinal: int, skip: set[int]) -> int | None:
         """Version of a provision in force at `to`, ignoring skipped revisions."""
@@ -695,14 +726,16 @@ def _doc_index(conn: sqlite3.Connection, document_id: int) -> DocIndex:
         (document_id,),
     ):
         idx.revisions[designator] = (rid, ordinal)
-    for pid, ordinal, rid, pv_id in conn.execute(
-        "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id "
+    for pid, ordinal, rid, pv_id, deleted in conn.execute(
+        "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id, pv.deleted "
         "FROM provision_versions pv "
         "JOIN document_revisions dr ON dr.id = pv.revision_id "
         "WHERE pv.document_id = ?",
         (document_id,),
     ):
         idx.versions.setdefault(pid, []).append((ordinal, rid, pv_id))
+        if deleted:
+            idx.deleted.add(pv_id)
     return idx
 
 
@@ -814,7 +847,9 @@ def resolve_entry(refs: list[Ref], label: str) -> tuple[list[Resolved], list[str
 
     1. An include ref selects, for each provision in scope (its `provisions`,
        or the whole document), the version at the highest revision <= `to`
-       that is not skipped. Provisions with no such version are out.
+       that is not skipped. Provisions with no such version are out, and so
+       are provisions whose selected version deleted them (document-wide refs
+       only: a scoped or paragraph ref to a deleted provision is an error).
     2. Scoped results (refs with `provisions`) override wide ones.
     3. Paragraph refs add a row, unless they land on the whole-provision version.
     4. Exclude refs remove provisions from the wide results.
@@ -839,6 +874,16 @@ def resolve_entry(refs: list[Ref], label: str) -> tuple[list[Resolved], list[str
             for pid in scope
             if (pv := ref.doc.pick(pid, ref.to_ordinal, set(ref.skip))) is not None
         }
+        gone = [pid for pid, pv in picked.items() if pv in ref.doc.deleted]
+        for pid in gone:
+            del picked[pid]
+        if ref.provisions and gone:
+            errors.extend(
+                f"{label}: ref {ref.ref_id} resolves {name(ref, pid)} to a "
+                f"revision that deleted it"
+                for pid in gone
+            )
+            continue
         if not picked:
             errors.append(f"{label}: ref {ref.ref_id} resolves to no provisions")
             continue
@@ -1046,6 +1091,7 @@ class BuildReport(TypedDict):
     schema_version: int
     tables: dict[str, int]
     text_missing: int
+    deleted: int
     provenance: dict[str, int]
     unresolved_references: list[str]
 
@@ -1066,6 +1112,9 @@ def _build_report(conn: sqlite3.Connection, unresolved: list[str]) -> BuildRepor
         "tables": counts,
         "text_missing": conn.execute(
             "SELECT count(*) FROM provision_versions WHERE text_missing"
+        ).fetchone()[0],
+        "deleted": conn.execute(
+            "SELECT count(*) FROM provision_versions WHERE deleted"
         ).fetchone()[0],
         "provenance": dict(
             conn.execute(
@@ -1190,6 +1239,7 @@ def main(argv: list[str] | None = None) -> int:
         f"documents={t['documents']}, revisions={t['document_revisions']}, "
         f"provision_versions={t['provision_versions']}, "
         f"text_missing={report['text_missing']}, "
+        f"deleted={report['deleted']}, "
         f"models={t['aircraft_models']}, entries={t['cert_basis_entries']}, "
         f"resolved={t['cert_basis_resolved']})",
         file=sys.stderr,
