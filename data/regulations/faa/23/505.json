@@ -1,0 +1,58 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "505",
+  "current_subpart": "Structure",
+  "canonical_title": "Supplementary conditions for skiplanes.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Supplementary conditions for skiplanes.",
+      "text": "In determining ground loads on skiplanes, and assuming that the airplane is resting on the ground with one main ski frozen at rest and the other main ski and the tail ski free to slide, a limit side force equal to P/3 must be applied at the most convenient point near the tail assembly, with-- (a) P being the static ground reaction on the tail ski; and (b) A factor of safety of 1.0.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DA6A3EE5C77DF8B285256687006D7162.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Supplementary conditions for skiplanes.",
+      "text": "[In determining ground loads for skiplanes, and assuming that the airplane is resting on the ground with one main ski frozen at rest and the other skis free to slide, a limit side force equal to 0.036 times the design maximum weight must be applied near the tail assembly, with a factor of safety of 1.]",
+      "federal_register_cite": "34 FR 13090",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B92EE038CF9B987685256687006D914D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "2067-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Ground Loads"
+}

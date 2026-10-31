@@ -1,0 +1,82 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "423",
+  "current_subpart": "Structure",
+  "canonical_title": "Maneuvering loads.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Maneuvering loads.",
+      "text": "Each horizontal tail surface must be designed for maneuvering loads imposed by the following conditions: (a) A sudden deflection of the elevator control, at VA, to (1) the maximum upward deflection, and (2) the maximum downward deflection, as limited by the control stops, or pilot effort, whichever is critical. The average loading of B23.11 of Appendix B and the distribution in figure 7 of Appendix B may be used. (b) A sudden upward deflection of the elevator, at speeds above VA, followed by a downward deflection of the elevator, resulting in the following combinations of normal and angular acceleration: ConditionNormal\nacceleration (n)Angular acceleration\n(radian/sec.2) Down load------------------------ 1.0----------------------------------nm (nm-1.5) Up load---------------------------- nm---------------------------------nm(nm-1.5) where-- (1) nm=positive limit maneuvering load factor used in the design of the airplane; and (2) V=initial speed in miles per hour.\nThe conditions in this paragraph involve loads corresponding to the loads that may occur in a &quot;checked maneuver&quot; (a maneuver in which the pitching control is suddenly displaced in one direction and then suddenly moved in the opposite direction), the deflections and timing avoiding exceeding the limit maneuvering load factor. The total tail load for both down and up load conditions is the sum of the balancing tail loads at V and the specified value of the normal load factor n, plus the maneuvering load increment due to the specified value of the angular acceleration. The maneuvering load increment in figure 2 of Appendix B and the distributions in figure 7 (for down loads) and in figure 8 (for up loads) of Appendix B may be used.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/66E7F9ED1FB3546885256687006CC50C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Maneuvering loads.",
+      "text": "Each horizontal tail surface must be designed for the maneuvering loads imposed by the following conditions: (a) A sudden deflection of the elevator control, at VA, to (1) the maximum upward deflection, and (2) the maximum downward deflection, as limited by the control stops, or pilot effort, whichever is critical. The average loading of B23.11 of Appendix B and the distribution in figure [B7] of Appendix B may be used. (b) A sudden upward deflection of the elevator, at speeds above VA, followed by a downward deflection of the elevator, resulting in the following combinations of normal and angular acceleration: ConditionNormal\nacceleration (n)Angular acceleration\n(radian/sec.2) Down load------------------------- 1.0----------------------------------- [ Up load----------------------------- nm----------------------------------] where-- (1) nm=positive limit maneuvering load factor used in the design of the airplane; and (2) V=initial speed in [knots.]\nThe conditions in this paragraph involve loads corresponding to the loads that may occur in a &quot;checked maneuver&quot; (a maneuver in which the pitching control is suddenly displaced in one direction and then suddenly moved in the opposite direction), the deflections and timing avoiding exceeding the limit maneuvering load factor. The total tail load for both up and down load conditions is the sum of the balancing tail loads at V and the specified value of the normal load factor n, plus the maneuvering load increment due to the specified value of the angular acceleration. The maneuvering load increment in figure [B2] of Appendix B and the distributions in figure [B7] (for down loads) and in figure [B8] (for up loads) of Appendix B may be used.]",
+      "federal_register_cite": "34 FR 13086",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5A5683813BC4B23585256687006CDB8C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "2067-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-42",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Maneuvering loads.",
+      "text": "[Each horizontal surface and its supporting structure, and the main wing of a canard or tandem wing configuration, if that surface has pitch control, must be designed for the maneuvering loads imposed by the following conditions: (a) A sudden movement of the pitching control, at the speed VA, to the maximum aft movement, and the maximum forward movement, as limited by the control stops, or pilot effort, whichever is critical. (b) A sudden aft movement of the pitching control at speeds above VA, followed by a forward movement of the pitching control resulting in the following combinations of normal and angular acceleration: ConditionNormal\nacceleration (n)Angular acceleration\n(radian/sec.2) Nose-up pitching-------------- 1.0----------------------------------- Nose-down pitching---------- nm---------------------------------- where-- (1) nm = positive limit maneuvering load factor used in the design of the airplane; and (2) V = initial speed in knots.\nThe conditions in this paragraph involve loads corresponding to the loads that may occur in a &quot;checked maneuver&quot; (a maneuver in which the pitching control is suddenly displaced in one direction and then suddenly moved in the opposite direction). The deflections and timing of the &quot;checked maneuver&quot; must avoid exceeding the limit maneuvering load factor. The total horizontal surface load for both nose-up and nose-down pitching conditions is the sum of the balancing loads at V and the specified value of the normal load factor n, plus the maneuvering load increment due to the specified value of the angular acceleration.]",
+      "federal_register_cite": "56 FR 353",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EA9D6EF26B2A4C4785256687006CF644.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-5",
+          "issued_on": "1989-02-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25811",
+          "issued_on": "1990-12-21",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Horizontal Stabilizing and Balancing Surfaces"
+}

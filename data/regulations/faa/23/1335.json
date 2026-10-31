@@ -1,0 +1,58 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "1335",
+  "current_subpart": "Equipment",
+  "canonical_title": "Flight director [systems.]",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Equipment",
+      "title_at_amendment": "Flight director instrument.",
+      "text": "(a) The flight director instrument, if installed, may not affect the performance and accuracy of the required instruments. (b) There must be a means to disconnect the flight director instrument from the required instruments or their installations.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/17DC3D3FE4C664808525668700717107.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-20",
+      "subpart_at_time": "Equipment",
+      "title_at_amendment": "Flight director [systems.]",
+      "text": "[If a flight director system is installed, means must be provided to indicate to the flight crew its current mode of operation. Selector switch position is not acceptable as a means of indication.] Notice of Airworthiness Review No. 2; Notice No. 75-10; Issued on 02/27/75. Notice of Airworthiness Review No. 5;",
+      "federal_register_cite": "42 FR 36969",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CF7CD8FD59B6672C852566870071E53D.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review No. 5; Notice No. 75-23; Issued on 05/19/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14625",
+          "issued_on": "1977-07-11",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Instruments: Installation"
+}

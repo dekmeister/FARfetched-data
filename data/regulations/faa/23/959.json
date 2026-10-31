@@ -1,0 +1,106 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "959",
+  "current_subpart": "Powerplant",
+  "canonical_title": "Unusable fuel supply.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Powerplant",
+      "title_at_amendment": "Unusable fuel supply and fuel system operation on low fuel.",
+      "text": "(a) The unusable fuel supply for each tank must be established as not less than that quantity at which the first evidence of malfunctioning occurs under the conditions specified in this section. If more than one fuel tank is involved-- (1) Each tank not needed to feed the engine under the conditions specified in this section need only be investigated for the flight conditions in which it is to be used; and (2) The unusable fuel supply for that tank is based on the most critical applicable conditions. (b) For test purposes, the quantity of fuel to be used to show compliance with this section must be chosen by the applicant. In addition, when establishing the unusable fuel supply, the following flight conditions must be arranged in order, from the most to the least critical: (1) Level flight at maximum continuous power, or at the power required for level flight at VC, whichever is lower. (2) Climb at maximum continuous power at the calculated best angle of climb at minimum weight. (3) Rapid application of power and subsequent transition to best rate of climb from a power-off glide at 1.3 VS0. (4) Slips and skids in level flight, climb, and glide, under the applicable conditions specified in subparagraphs (1), (2), and (3) of this paragraph, of the greatest severity likely to be encountered in normal service or turbulent air. (c) For each acrobatic and utility category airplane, there may be no evidence of malfunctioning during any maneuver in the Airplane Flight Manual. During this test the amount of fuel in each tank may not exceed the unusable fuel supply established under paragraph (b) of this section, plus 0.03 gallon for each maximum continuous horsepower for which certification is requested. (d) There may be no evidence of malfunctioning during takeoff and one minute of climb at the calculated best angle of climb at takeoff power and minimum weight where the takeoff is begun with the amount of fuel in each tank specified in paragraph (c) of this section. (e) If an engine can be supplied with fuel from more than one tank, it must be possible, in level flight, to regain full power and fuel pressure to that engine in not more than 10 seconds (for single-engine airplanes) or 20 seconds (for multiengine airplanes) after switching to any full tank after engine malfunctioning due to fuel depletion becomes apparent while the engine is being supplied from any other tank.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1F546169B93D7B8385256687006FB8CE.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "subpart_at_time": "Powerplant",
+      "title_at_amendment": "Unusable fuel supply.",
+      "text": "[The unusable fuel supply for each tank must be established as not less than that quantity at which the first evidence of malfunctioning occurs under the most adverse fuel feed condition occurring under each intended operation and flight maneuver involving that tank.]",
+      "federal_register_cite": "34 FR 13093",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DABFDBA8C1194B3685256687006FFB11.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "2067-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-18",
+      "subpart_at_time": "Powerplant",
+      "title_at_amendment": "Unusable fuel supply.",
+      "text": "The unusable fuel supply for each tank must be established as not less than that quantity at which the first evidence of malfunctioning occurs under the most adverse fuel feed condition occurring under each intended operation and flight maneuver involving that tank. [Fuel system component failures need not be considered.] Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.",
+      "federal_register_cite": "42 FR 15041",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/96F19CE24A8446998525668700703B44.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-51",
+      "subpart_at_time": "Powerplant",
+      "title_at_amendment": "Unusable fuel supply.",
+      "text": "[(a) The unusable fuel supply for each tank must be established as not less than that quantity at which the first evidence of malfunctioning occurs under the most adverse fuel feed condition occurring under each intended operation and flight maneuver involving that tank. Fuel system component failures need not be considered. (b) The effect on the usable fuel quantity as a result of a failure of any pump shall be determined.]",
+      "federal_register_cite": "61 FR 5136",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/07ACADDFD389D38D852566870070A84D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-19",
+          "issued_on": "1994-06-22",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27804",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Fuel System"
+}

@@ -1,0 +1,82 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "1331",
+  "current_subpart": "Equipment",
+  "canonical_title": "Instruments using a power source.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Equipment",
+      "title_at_amendment": "Instruments using a power supply.",
+      "text": "(a) For each airplane-- (1) Each gyroscopic instrument must derive its energy from power sources adequate to maintain its required accuracy at any speed above the best rate-of-climb speed; (2) Each gyroscopic instrument must be installed so as to prevent malfunction due to rain, oil, and other detrimental elements; and (3) There must be a means to indicated the adequacy of the power being supplied to the instruments. (b) For each multiengine airplane-- (1) There must be at least two independent sources of power (not driven by the same engine), a manual or an automatic means to select each power source, and a means to indicate the adequacy of the power being supplied by each source; and (2) The installation and power supply systems must be designed so that-- (i) The failure of one instrument will not interfere with the proper supply of energy to the remaining instruments; and (ii) The failure of the energy supply from one source will not interfere with the proper supply of energy from any other source.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A3DC3649DE76FC808525668700716FF9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-43",
+      "subpart_at_time": "Equipment",
+      "title_at_amendment": "Instruments using a power [source.]",
+      "text": "[For each instrument that uses a power source, the following apply: (a) Each instrument must have an integral visual power annunciator or separate power indicator to indicate when power is not adequate to sustain proper instrument performance. If a separate indicator is used, it must be located so that the pilot using the instruments can monitor the indicator with minimum head and eye movement. The power must be sensed at or near the point where it enters the instrument. For electric and vacuum/pressure instruments, the power is considered to be adequate when the voltage or the vacuum/pressure, respectively, is within approved limits. (b) The installation and power supply systems must be designed so that-- (1) The failure of one instrument will not interfere with the proper supply of energy to the remaining instrument; and (2) The failure of the energy supply from one source will not interfere with the proper supply of energy from any other source. (c) There must be at least two independent sources of power (not driven by the same engine on multiengine airplanes), and a manual or an automatic means to select each power source.]",
+      "federal_register_cite": "58 FR 18976",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DECE7B340538E6CD8525668700721C89.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-23",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26344",
+          "issued_on": "1993-03-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-62",
+      "subpart_at_time": "Equipment",
+      "title_at_amendment": "Instruments using a power source.",
+      "text": "For each instrument that uses a power source, the following apply:\n(a) Each instrument must have an integral visual power annunciator or separate power indicator to indicate when power is not adequate to sustain proper instrument performance. If a separate indicator is used, it must be located so that the pilot using the instruments can monitor the indicator with minimum head and eye movement. The power must be sensed at or near the point where it enters the instrument. For electric and vacuum/pressure instruments, the power is considered to be adequate when the voltage or the vacuum/pressure, respectively, is within approved limits.\n(b) The installation and power supply systems must be designed so that--\n(1) The failure of one instrument will not interfere with the proper supply of energy to the remaining instrument; and\n(2) The failure of the energy supply from one source will not interfere with the proper supply of energy from any other source.\n(c) For certification for Instrument Flight Rules (IFR) operations and for the heading, altitude, airspeed, and attitude, there must be at least: (1) Two independent sources of power (not driven by the same engine on multiengine airplanes), and a manual or an automatic means to select each power source; or (2) A separate display of parameters for heading, altitude, airspeed, and attitude that has a power source independent from the airplane's primary electrical power system. -",
+      "federal_register_cite": "76 FR 75761",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1899BD11A01FB17D86257996006CB4C9.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "-"
+        },
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Amendment 23-62, Published 12/2/2011"
+        }
+      ]
+    }
+  ],
+  "subject_group": "Instruments: Installation"
+}

@@ -1,0 +1,82 @@
+{
+  "authority": "FAA",
+  "part": "23",
+  "section": "427",
+  "current_subpart": "Structure",
+  "canonical_title": "Unsymmetrical loads.",
+  "amendments": [
+    {
+      "designator": "23-0",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Unsymmetrical loads.",
+      "text": "The maximum horizontal tail surface loading (load per unit area), as determined under Secs. 23.421 through 23.425, must be applied to the horizontal surfaces on one side of the plane of symmetry and the following percentage of that loading must be applied to the opposite side:\n% =100-10 (n-1), where n is the specified positive maneuvering load factor This value may not be more than 80 percent.",
+      "federal_register_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BCFD9975312315B185256687006CC70C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "2064-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "2064-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-14",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Unsymmetrical loads.",
+      "text": "[(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and slipstream effects, in combination with the loads prescribed for the flight conditions set forth in Secs. 23.421 through 23.425. (b) In the absence of more rational data for airplanes that are conventional in regard to location of engines, wings, tail surfaces, and fuselage shape-- (1) 100 percent of the maximum loading from the symmetrical flight conditions may be assumed on the surface on one side of the plane of symmetry; and (2) The following percentage of that loading must be applied to the opposite side:\n% = 100 - 10 (n - 1), where n is the specified positive maneuvering load factor, but this value may not be more than 80 percent. (c) For airplanes that are not conventional (such as airplanes with horizontal tail surfaces having appreciable dihedral or supported by the vertical tail surfaces) the surfaces and supporting structures must be designed for combined vertical and horizontal surface loads resulting from each prescribed flight condition taken separately.]",
+      "federal_register_cite": "38 FR 31820",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/83808441AA0F264685256687006CDEA3.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-13",
+          "issued_on": "1971-04-27",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11011",
+          "issued_on": "1973-11-07",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-42",
+      "subpart_at_time": "Structure",
+      "title_at_amendment": "Unsymmetrical loads.",
+      "text": "[(a) Horizontal surfaces other than main wing and their supporting structure must be designed for unsymmetrical loads arising from yawing and slip-stream effects, in combination with the loads prescribed for the flight conditions set forth in Secs. 23.421 through 23.425. (b) In the absence of more rational data for airplanes that are conventional in regard to location of engines, wings, horizontal surfaces other than main wing, and fuselage shape--] (1) 100 percent of the maximum loading from the symmetrical flight conditions may be assumed on the surface on one side of the plane of symmetry; and (2) The following percentage of that loading must be applied to the opposite side:\n% = 100 - 10 (n - 1), where n is the specified positive maneuvering load factor, but this value may not be more than 80 percent. [(c) For airplanes that are not conventional (such as airplanes with horizontal surfaces other than main wing having appreciable dihedral or supported by the vertical tail surfaces) the surfaces and supporting structures must be designed for combined vertical and horizontal surface loads resulting from each prescribed flight condition taken separately.]",
+      "federal_register_cite": "56 FR 353",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/942B0907540787AF85256687006CF84D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-5",
+          "issued_on": "1989-02-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25811",
+          "issued_on": "1990-12-21",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "subject_group": "Horizontal Stabilizing and Balancing Surfaces"
+}
