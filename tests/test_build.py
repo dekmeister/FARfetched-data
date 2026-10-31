@@ -503,6 +503,72 @@ class TestResolution:
         assert _resolved(out) == set()
 
 
+class TestAuthorityOnlyRevisions:
+    """Amendments that changed no section (23-47: authority citation only) are
+    declared in _document.json but have no provision versions. TCDS cite them
+    as range endpoints ("23-1 thru 23-47"), so a ref must be able to name them
+    and resolve exactly as it does for the revision before."""
+
+    # 23-47 and 23-55 are declared but no provision has a version at them.
+    ORDINALS = [n for n in range(63) if n not in (56, 60)]
+    PROVS = [
+        _provision("23", "1", [0, 46]),
+        _provision("23", "2", [0, 30]),
+        _provision("23", "3", [0, 51]),
+    ]
+
+    def _resolve(self, tmp_path: Path, refs: list[dict]) -> set:
+        data = _stage(
+            tmp_path,
+            [_document("23", self.ORDINALS)],
+            self.PROVS,
+            [_aircraft([_entry(refs)])],
+        )
+        out = tmp_path / "cert_basis.sqlite"
+        build(data, out)
+        return _resolved(out)
+
+    def test_ref_to_section_less_revision_resolves_like_the_one_before(
+        self, tmp_path: Path
+    ) -> None:
+        at_47 = self._resolve(tmp_path / "a", [_ref("23-47")])
+        at_46 = self._resolve(tmp_path / "b", [_ref("23-46")])
+        assert (
+            at_47
+            == at_46
+            == {
+                (1, "1", "23-46", None),
+                (1, "2", "23-30", None),
+                (1, "3", "23-0", None),
+            }
+        )
+
+    def test_skip_naming_a_section_less_revision_is_accepted(
+        self, tmp_path: Path
+    ) -> None:
+        refs = [_ref("23-51", skip=["23-47"])]
+        assert self._resolve(tmp_path, refs) == {
+            (1, "1", "23-46", None),
+            (1, "2", "23-30", None),
+            (1, "3", "23-51", None),
+        }
+
+    def test_undeclared_number_is_still_rejected(self, tmp_path: Path) -> None:
+        # 23-56 was never declared: nothing may name it, as a `to` or a `skip`.
+        for refs, message in [
+            ([_ref("23-56")], "unknown revision '23-56'"),
+            ([_ref("23-57", skip=["23-56"])], "unknown skip revision '23-56'"),
+        ]:
+            data = _stage(
+                tmp_path / message[:12],
+                [_document("23", self.ORDINALS)],
+                self.PROVS,
+                [_aircraft([_entry(refs)])],
+            )
+            with pytest.raises(BuildError, match=message):
+                build(data, tmp_path / "cert_basis.sqlite")
+
+
 class TestResolutionFailures:
     PROVS = [_provision("23", "1", [0, 50]), _provision("23", "2", [0])]
 
