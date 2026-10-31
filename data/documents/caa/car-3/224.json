@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "224",
+  "current_grouping": "Ailerons, Wing Flaps, Tabs, etc.",
+  "canonical_title": "Tabs",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Ailerons, Wing Flaps, Tabs, etc.",
+      "title_at_revision": "Tabs.",
+      "text": "Control surface tabs shall be designed for the most severe combination of air speed\n\nand tab deflection likely to be obtained within the limit V-n diagram (Fig. 3-1) for any usable loading condition of the airplane.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

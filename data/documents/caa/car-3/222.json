@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "222",
+  "current_grouping": "Ailerons, Wing Flaps, Tabs, etc.",
+  "canonical_title": "Ailerons",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Ailerons, Wing Flaps, Tabs, etc.",
+      "title_at_revision": "Ailerons.",
+      "text": "(a) In the symmetrical flight conditions (see \u00a7\u00a7 3.183-3.189), the ailerons shall be designed for all loads to which they are subjected while in the neutral position. (b) In unsymmetrical flight conditions (see \u00a7 3.191 (a)), the ailerons shall be designed for the loads resulting from the following deflections except as limited by pilot effort: (1) At speed Vp it shall be assumed that there occurs a sudden maximum displacement of the aileron control. (Suitable allowance may be made for control system deflections.) (2) When Vc is greater than Vp, the aileron deflection at Vc shall be that required to produce a rate of roll not less than that obtained in condition (1). (3) At speed Vd the aileron deflection shall be that required to produce a rate of roll not less than one-third of that which would be obtained at the speed and aileron deflection specified in condition (1).\n\nd=2S. and ae a: 2} Cp D1 O35) Vy +r. _ es \u00a5- : Gm 91 82% Phy RT LR | Note: For conventional ailerons, the deflections for conditions (2) and (3) may be computed from: where: = total aileron deflection (sum of both aileron deflections) in condition (1). = total aileron deflection in condition (2). = total deflection in condition (3). In the equation for the 0.5 factor is used instead of 0.33 to allow for wing torsional flexibility. (c) The critical loading on the ailerons should occur in condition (2) if Vd is less than 2Vc and the wing meets the torsional stiffness criteria. The normal force coefficient CN for the ailerons may be taken as , where is the deflection of the individual aileron in degrees. The critical condition for wing torsional loads will depend upon the basic airfoil moment coefficient as well as the speed, and may be determined as follows: where: T3/T2 is the ratio of wing torsion in condition (b) (3) to that in condition (b) (2). are the down deflections of the individual aileron in conditions (b) (2) and (3) respectively. (d) When T3/T2 is greater than 1.0 condition (b) (3) is critical; when T3/T2 is less than 1.0 condition (b) (2) is critical. (e) In lieu of the above rational conditions the average loading of Figure 3-3 and the distribution of Figure 3-10 may be used.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

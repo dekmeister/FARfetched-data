@@ -1,0 +1,31 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "757",
+  "current_grouping": "Instrument Markings",
+  "canonical_title": "Air-speed indicator",
+  "subject_group": "Operating Limitations and Information",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Instrument Markings",
+      "title_at_revision": "Air-speed indicator.",
+      "text": "(a) True\n\nindicated air speed shall be used: (1) The never-exceed speed, Vne\u2014a radial red line (see \u00a7 3.739). (2) The caution range-\u2014a yellow arc extending from the red line in (1) above to the upper limit of the green arc specifled in (3) below. (3) The normal operating range\u2014a green are with the lower limit at Va. as determined in \u00a7 3.82 with maximum weight, landing gear and wing flaps retracted, and the upper limit at the maximum structural cruising speed established in \u00a7 3.740. (4) The flap operating range\u2014a white arc with the lower limit at Vs, as determined in \u00a73.82 at the maximum weight, and the upper limit ui the flapsextended speed in \u00a7 3.742. (b)} When the never-exceed and maximum structural cruising speeds vary with altitude, means shall be provided which will indicate the appropriate limitations to the pilot throughout the operating altitude range.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3R-5",
+      "grouping_at_time": "Instrument Markings",
+      "title_at_revision": "Air-speed indicator.",
+      "text": "TEXT MISSING",
+      "publication_cite": "(Secs. 313(a), 601, 608, 72 Stat. 752, 775, 776; 49 U.S.C. 1354(a), 1421, 1423)",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

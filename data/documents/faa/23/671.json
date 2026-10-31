@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "671",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "General.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "General.",
+      "text": "(a) Each control must operate easily, smoothly, and positively enough to allow proper performance of its functions. (b) Controls must be arranged and identified to provide for convenience in operation and to prevent the possibility of confusion and subsequent inadvertent operation.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CCE6A92FFD54722385256687006D8916.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

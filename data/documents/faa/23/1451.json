@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1451",
+  "current_grouping": "Equipment",
+  "canonical_title": "Fire protection for oxygen equipment.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "23-49",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Fire protection for oxygen equipment.",
+      "text": "[Oxygen equipment and lines must: (a) Not be installed in any designated fire zones. (b) Be protected from heat that may be generated in, or escape from, any designated fire zone. (c) Be installed so that escaping oxygen cannot come in contact with and cause ignition of grease, fluid, or vapor accumulations that are present in normal operation or that may result from the failure or malfunction of any other system.]",
+      "publication_cite": "61 FR 5170",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/ADE7CF8083E6D7CD85256687007254B7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-21",
+          "issued_on": "1994-07-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27806",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

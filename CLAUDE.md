@@ -22,8 +22,8 @@ field-level contract.
 
 - Scale: one maintainer, low traffic, public read-only consumer.
 - The data here is the point. Favour correctness and traceability over
-  cleverness. Every transcribed amendment carries a `source_url` and
-  `federal_register_cite` for a reason.
+  cleverness. Every transcribed version carries a `source_url` and, where
+  known, a `publication_cite` for a reason.
 - Prefer stdlib and hand-written code over dependencies.
 - Keep `build.py` a single file. No package layout until it earns it.
 
@@ -44,8 +44,8 @@ FARfetched-data/
 ├── README.md
 ├── schemas/                    JSON Schema files (Draft 2020-12)
 ├── data/
-│   ├── regulations/{authority}/{part}/{section}.json
-│   └── aircraft/{tcds}.json
+│   ├── documents/{issuer}/{document}/{provision}.json
+│   └── aircraft/{manufacturer-slug}/{model-slug}.json
 ├── build.py
 ├── tests/
 └── tools/                      Internal sub-repo: ingestion scripts.
@@ -87,15 +87,22 @@ sqlite3 cert_basis.sqlite 'SELECT COUNT(*) FROM aircraft;'
 
 ## `build.py` conventions
 
-- Single file, stdlib + `jsonschema`.
+- Single file, stdlib + `jsonschema` (and its bundled `referencing`).
 - Fail loud on any schema mismatch, any unresolvable reference, any
   duplicate key. The build is the last line of defence — don't paper over
   bad data.
 - Atomic output: write `cert_basis.sqlite.new`, then `os.replace()`.
-- `PRAGMA foreign_keys = ON`, `PRAGMA journal_mode = WAL` on the built DB.
+- `PRAGMA foreign_keys = ON` while building. The shipped DB stays in the
+  default `journal_mode = DELETE`: a single file that read-only consumers can
+  open without `-wal`/`-shm` sidecars. Don't switch it to WAL.
+- `STRICT` tables, `TEXT` dates with `CHECK (date(x) IS x)` (not `=`: a NULL
+  CHECK passes), and integrity enforced in the DDL (composite FKs), not only
+  in Python.
+- `PRAGMA user_version` is the contract version (`SCHEMA_VERSION`). Bump it on
+  every change to the SQLite contract.
 - Parameterised SQL. No string concatenation.
-- Emit `build_report.json` with row counts for every table. Zero unresolved
-  references is a success criterion, not a nice-to-have.
+- Emit `cert_basis_report.json` with row counts for every table. Zero
+  unresolved references is a success criterion, not a nice-to-have.
 
 ## Data conventions
 
@@ -104,46 +111,50 @@ at the repo level:
 
 - **ISO `YYYY-MM-DD` dates everywhere.** Display formatting is the app's
   job, not this repo's.
-- **No `status` column on amendments.** Every amendment must have `text`.
-  An aircraft that references an untranscribed amendment can't be added
-  until that amendment is transcribed. This is deliberate — see plan.md.
+- **No `status` column on versions.** Every provision version must have
+  `text`. An aircraft that references an untranscribed revision can't be
+  added until it is transcribed. This is deliberate — see plan.md.
 - **`text: "TEXT MISSING"` flags a known gap.** When an extractor knows
-  a (section, amendment) pair *should* exist (the CSV/manifest says so)
+  a (provision, revision) pair *should* exist (the CSV/manifest says so)
   but the source is corrupted, OCR'd badly, or otherwise unreadable, it
   emits the record with the best-known title (from TOC, CSV, or other
   manifest) and the literal body `TEXT MISSING`. This keeps the DB row
   set consistent with the manifest and surfaces the gap loudly to a
   human reviewer rather than silently dropping it. Search for
-  `TEXT MISSING` to find pending recovery work. Don't use this marker
-  for anything else.
+  `TEXT MISSING` (or `WHERE text_missing` in the DB) to find pending
+  recovery work. Don't use this marker for anything else.
 - **`raw_reference` is sacred.** Never rewrite or normalise it. It's the
   unmodified TCDS text, kept for traceability against the original PDF.
 - **Only `tools/` writes to `data/`, and only via its promotion step.** Hand-edits
   to `data/` are allowed but must be marked with
   `provenance.source = "manual"` so the tools' tripwire protects them from
   being overwritten. The mechanics live in [tools/CLAUDE.md](tools/CLAUDE.md).
-- **Regulation file paths are flat:**
-  `data/regulations/{authority}/{part}/{section}.json`. `title_number` and
-  `subpart` are fields inside the file, not directories. Don't introduce
-  additional path segments.
+- **Document file paths are flat:**
+  `data/documents/{issuer}/{document}/{provision}.json`, with the revision
+  list in `_document.json` alongside. Grouping (subpart) and the CFR title
+  are fields inside the files, not directories. Don't introduce additional
+  path segments. The build checks every path against the file's contents.
 - **`additionalProperties: false`** in every JSON Schema. If you need a new
   field, update the schema, the README, and the build.
 
 ## Testing
 
-- `pytest`. Fixtures point at a small hand-written `tools/tests/fixtures/` tree
-  that exercises range expansion, single references, and each
-  `entry_type`.
-- Smoke test: run `build.py` against fixtures, open the resulting SQLite,
-  assert known row counts and that specific known queries return the
-  expected rows (e.g. `SELECT * FROM latest_amendments WHERE ...`).
+- `pytest`. Build tests stage small synthetic data trees in `tmp_path` and
+  exercise each cert-basis resolution rule and each fail-loud check; invalid
+  schema inputs live in `tests/fixtures/`. `tools/tests/e2e/` mirrors
+  `tests/` — keep the two copies identical (apart from the manifest path in
+  `test_manual_provenance.py`).
+- Smoke test: run `build.py` against the real `data/`, open the resulting
+  SQLite, and assert specific known queries return the expected rows (e.g.
+  `SELECT * FROM latest_versions WHERE ...`).
 - Don't chase 100% coverage. Test behaviour.
 
 ## Do / Don't
 
 **Do:**
 - Preserve `raw_reference` exactly as it appears on the TCDS.
-- Include `source_url` and `federal_register_cite` on every amendment.
+- Include `source_url` on every version, and `publication_cite` whenever it
+  is known.
 - Add a schema change, a README update, and a test in the same commit.
 - Fail the build on any unresolved reference.
 
@@ -152,8 +163,8 @@ at the repo level:
   by the developer.
 - Don't introduce an ORM.
 - Don't add application logic here. App code lives in FARFETCHed.
-- Don't commit `cert_basis.sqlite` or `build_report.json` — they are build
-  outputs.
+- Don't commit `cert_basis.sqlite` or `cert_basis_report.json` — they are
+  build outputs.
 - Don't mutate JSON files to work around a build failure. Fix the data or
   fix the schema.
 - Don't invent fields. If something new is needed, update schema, README,
@@ -164,6 +175,6 @@ at the repo level:
 - The source data (e.g. FAA, EASA)) is the authority. If the JSON disagrees with
   the source (pdf, websites, etc. depending on source), the JSON is wrong.
 - If a TCDS reference can't be resolved cleanly, record it verbatim in
-  `raw_reference` with `resolved_references: []` and surface it in the
-  build report rather than guessing.
+  `raw_reference` with `references: []` and surface it in the build report
+  rather than guessing.
 - Ask before large schema changes. Every field is a downstream commitment.

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "321",
+  "current_grouping": "Structure",
+  "canonical_title": "General.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "General.",
+      "text": "(a) Flight load factors represent the ratio of the aerodynamic force component (acting normal to the assumed longitudinal axis of the airplane) to the weight of the airplane. A positive flight load factor is one in which the aerodynamic force acts upward, with respect to the airplane. (b) Compliance with the flight load requirements of this subpart must be shown-- (1) At each critical altitude within the range in which the airplane may be expected to operate; (2) At each weight from the design minimum weight to the design maximum weight; and (3) For each required altitude and weight, for any practicable distribution of disposable load within the operating limitations specified in Secs. 23.1583 through 23.1589.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/99D8B09224A8EE8785256687006CAC7C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "General.",
+      "text": "(a) Flight load factors represent the ratio of the aerodynamic force component (acting normal to the assumed longitudinal axis of the airplane) to the weight of the airplane. A positive flight load factor is one in which the aerodynamic force acts upward, with respect to the airplane. (b) Compliance with the flight load requirements of this subpart must be shown-- (1) At each critical altitude within the range in which the airplane may be expected to operate; (2) At each weight from the design minimum weight to the design maximum weight; and (3) For each required altitude and weight, for any practicable distribution of disposable load within the operating limitations specified in Secs. 23.1583 through 23.1589. [(c) When significant, the effects of compressibility must be taken into account]",
+      "publication_cite": "58 FR 42160",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D58CE101A282E89E85256687006CFF63.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

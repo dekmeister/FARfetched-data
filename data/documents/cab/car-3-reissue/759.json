@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "759",
+  "current_grouping": "Instrument Markings",
+  "canonical_title": "Power-plant instruments",
+  "subject_group": "Operating Limitations and Information",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Instrument Markings",
+      "title_at_revision": "Power-plant instruments.",
+      "text": "All\n\nrequired power-plant instruments shall be marked with a red radial line at the maximum and minimum (if applicable) indications for safe operation. The normal operating ranges shall be marked with a green arc which shall not extend beyond the maximum and minimum limits for continuous operation. Take-off and precautionary ranges shall be marked with a yellow arc. Ranges of engine speed which are restricted as a result of excessive engine or propeller vibration shall be marked with a red arc.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

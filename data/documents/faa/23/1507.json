@@ -1,0 +1,57 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1507",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "(Operating) maneuvering speed.",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maneuvering speed.",
+      "text": "The maneuvering speed VA, determined under Sec. 23.335, must be established as an operating limitation.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F12A8229307F53A485256687007190A4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "(Operating) maneuvering speed.",
+      "text": "[The maximum operating maneuvering speed, VO, must be established as an operating limitation. VO is a selected speed that is not greater than established in Sec. 23.335(c).]",
+      "publication_cite": "58 FR 42165",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2A0AA756267EFE8F85256687007232CC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

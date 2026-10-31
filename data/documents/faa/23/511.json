@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "511",
+  "current_grouping": "Structure",
+  "canonical_title": "Ground load; unsymmetrical loads on multiple-wheel units.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Ground load; unsymmetrical loads on multiple-wheel units.",
+      "text": "[(a) Pivoting loads. The airplane is assumed to pivot about on side on the main gear with-- (1) The brakes on the pivoting unit locked; and (2) Loads corresponding to a limit vertical load factor of 1, and coefficient of friction of 0.8, applied to the main gear and its supporting structure. (b) Unequal tire loads. The loads established under Secs. 23.471 through 23.483 must be applied in turn, in a 60/40 percent distribution, to the dual wheels and tires in each dual wheel landing gear unit. (c) Deflated tire loads. For the deflated tire condition- (1) 60 percent of the loads established under Secs. 23.471 through 23.483 must be applied in turn to each wheel in a landing gear unit; and (2) 60 percent of the limit drag and side loads, and 100 percent of the limit vertical load established under Secs. 23.485 and 23.493 or lesser vertical load obtained under subparagraph (1) of this paragraph, must be applied in turn to each wheel in the dual wheel landing gear unit.]",
+      "publication_cite": "34 FR 13090",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C0AAC8014C87296485256687006D925C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

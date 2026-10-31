@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "438",
+  "current_grouping": "Operation",
+  "canonical_title": "Fuel system hot weather operation",
+  "subject_group": "Powerplant Installations \u2013 Reciprocating Engines",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Operation",
+      "title_at_revision": "Fuel system hot weather operation.",
+      "text": "The fuel system shall be so arranged as to minimize the\n\npossibility of the formation of vapor lock in the system under all normal conditions of operation.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "584",
+  "current_grouping": "Tests",
+  "canonical_title": "Correction factor for cylinder head, oil inlet, carburetor air, and engine coolant inlet temperature",
+  "subject_group": "Powerplant Installations \u2013 Reciprocating Engines",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Tests",
+      "title_at_revision": "Correction factor for cylinder head, oil inlet, carburetor air, and engine coolant inlet temperatures.",
+      "text": "These temperatures shall be corrected by adding the difference between the maximum anticipated summer air temperature and the temperature of the ambient air at the time of the first occurrence of maximum head, air, oil, or coolant temperature recorded during the cooling test.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

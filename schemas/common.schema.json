@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/common.schema.json",
+  "title": "Shared definitions",
+  "description": "Definitions shared by every other schema, so closed sets can't drift apart. The issuer enum must match _ISSUERS in build.py.",
+  "$defs": {
+    "issuer": { "enum": ["FAA", "CAA", "CAB", "EASA"] },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+    "designator": { "type": "string", "pattern": "^\\S(.*\\S)?$" },
+    "date": { "type": "string", "format": "date" },
+    "date_or_null": {
+      "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }]
+    },
+    "uri_or_null": {
+      "$comment": "format: uri is only enforced with the optional rfc3987 package, so the pattern does the real check.",
+      "oneOf": [
+        { "type": "string", "format": "uri", "pattern": "^https?://[^\\s/]+\\S*$" },
+        { "type": "null" }
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source"],
+      "properties": {
+        "source": { "enum": ["scraped", "ocr", "manual"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

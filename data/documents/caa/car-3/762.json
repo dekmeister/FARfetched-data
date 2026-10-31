@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "762",
+  "current_grouping": "Control Markings",
+  "canonical_title": "General",
+  "subject_group": "Operating Limitations and Information",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Control Markings",
+      "title_at_revision": "General.",
+      "text": "All cockpit controls, with the exception of the primary flight controls, shall be plainly\n\nmarked as to their function and method of operation.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

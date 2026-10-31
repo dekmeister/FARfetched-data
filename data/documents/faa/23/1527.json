@@ -1,0 +1,57 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1527",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Maximum operating altitude.",
+  "versions": [
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maximum operating altitude.",
+      "text": "[(a) A maximum operating altitude limitation of not more than 25,000 feet must be established for pressurized airplanes, unless compliance with Sec. 23.775(e) is shown. (b) For turbine engine powered airplanes and turbo-supercharged airplanes, the maximum altitude up to which operation is allowed, as limited by flight, structural, powerplant, functional, or equipment characteristics must be established.]",
+      "publication_cite": "34 FR 13086",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2975BFF95D942F50852566870071BAFD.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maximum operating altitude.",
+      "text": "[(a) The maximum altitude up to which operation is allowed, as limited by flight, structural, powerplant, functional or equipment characteristics, must be established. (b) A maximum operating altitude limitation of not more than 25,000 feet must be established for pressurized airplanes unless compliance with Sec. 23.775(e) is shown.]",
+      "publication_cite": "58 FR 42166",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/728423028AFF95158525668700723751.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

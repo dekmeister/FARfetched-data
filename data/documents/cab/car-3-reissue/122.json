@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "122",
+  "current_grouping": "Stalls",
+  "canonical_title": "Turning flight stalls",
+  "subject_group": "Flight Requirements",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Stalls",
+      "title_at_revision": "Turning flight stalls.",
+      "text": "When\n\nstalled during a coordinated 30-degree banked turn with 75 percent maximum continuous power on all engines, flaps and landing gear retracted, it shall be possible to recover to normal level flight without encountering excessive loss of altitude, uncontrollable rolling characteristics, or uncontrollable spinning tendencies. These qualities shall be demonstrated by performing the following maneuver: After a steady curvilinear level coordinated flight condition in a 30-degree bank is established and while maintaining the 30-degree bank, the airplane shall be stalled by steadily and progressively tightening the turn with the elevator control until the airplane is stalled or until the elevator has reached its stop. When the stall has fully developed, recovery to level flight shall be made with norma] use of the controls.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

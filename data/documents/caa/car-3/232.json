@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "232",
+  "current_grouping": "Control System Loads",
+  "canonical_title": "Dual controls",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Control System Loads",
+      "title_at_revision": "Dual controls.",
+      "text": "When dual controls are provided, the systems shall be designed for the\n\npilots operating in opposition, using individual pilot loads equal to 75 percent of those obtained in accordance with \u00a7 3.231, except that the individual pilot loads shall not be less than the minimum loads specified in Figure 3-11. \u00a7 3.233 Ground gust conditions. (a) The following ground gust conditions shall be investigated in cases where a deviation from the specific values for minimum control forces listed in Figure 3-11 is applicable. The following conditions are intended to simulate the loadings on control surfaces due to ground gusts and when taxiing with the wind. (b) The limit hinge moment H shall be obtained from the following formula: H = KcSq where:\n\nlO\u00a5W.S+ 10 miles per hour, H = limit hinge moment (foot-pounds). c = mean chord of the control surface aft of the hinge line (feet). S = area of control surface aft of the hinge line (square feet). q = dynamic pressure (pounds per square foot) to be based on a design speed not less than except that the design speed need not exceed 60 miles per hour. K = factor as specified below: Surface K (a) Aileron---Control column locked or lashed in midposition. + 0.75 (b) Aileron---Ailerons at full throw; + moment on one aileron, - moment on the other. \u00b10.50 (c) (d) Elevator---Elevator (c) full up (-), and (d) full down(+). \u00b10.75 (e) (f) Rudder---Rudder (e) in neutral, and (f) at full throw. \u00b10.75 (c) As used in paragraph (b) in connection with ailerons and elevators, a positive value of K indicates a moment tending to depress the surface while a negative value of K indicates a moment tending to raise the surface.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

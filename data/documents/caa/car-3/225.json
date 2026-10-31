@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "225",
+  "current_grouping": "Ailerons, Wing Flaps, Tabs, etc.",
+  "canonical_title": "Special devices",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Ailerons, Wing Flaps, Tabs, etc.",
+      "title_at_revision": "Special devices.",
+      "text": "The loading for special devices employing aerodynamic surfaces, such\n\nas slots and spoilers, shall be based on test data. CONTROL SYSTEM LOADS",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

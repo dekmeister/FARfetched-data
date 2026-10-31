@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1155",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Turbine engine reverse thrust and propeller pitch settings below the flight \nregime.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Turbine engine reverse thrust and propeller pitch settings below the flight \nregime.",
+      "text": "[For turbine engine installations, each control for reverse thrust and for propeller pitch settings below the flight regime must have means to prevent its inadvertent operation. The means must have a positive lock or stop at the flight idle position and must require a separate and distinct operation by the crew to displace the control from the flight regime (forward thrust regime for turbojet powered airplanes).]",
+      "publication_cite": "34 FR 13096",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FCA3BFF30036ECB18525668700700FC3.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "113",
+  "current_grouping": "Stability",
+  "canonical_title": "General",
+  "subject_group": "Flight Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Stability",
+      "title_at_revision": "General.",
+      "text": "The airplane shall be longitudinally, directionally, and laterally stable in\n\naccordance with the following sections. Suitable stability and control \"feel\" (static stability) shall be required in other conditions normally encountered in service, if flight tests show such stability to be necessary for safe operation.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

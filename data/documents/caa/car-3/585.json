@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "585",
+  "current_grouping": "Tests",
+  "canonical_title": "Correction factor for cylinder barrel temperatures",
+  "subject_group": "Powerplant Installations \u2013 Reciprocating Engines",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Tests",
+      "title_at_revision": "Correction factor for cylinder barrel temperatures.",
+      "text": "Cylinder barrel temperatures shall be corrected by\n\nadding 0.7 of the difference between the maximum anticipated summer air temperature and the temperature\n\nis provided as specified in \u00a7 3.675. cal altitude or at the lowest prac of the ambient air at the first occurrence of the maximum cylinder barrel temperature recorded during the cooling test.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "341",
+  "current_grouping": "Structure",
+  "canonical_title": "Gust load factors.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Gust load factors.",
+      "text": "In applying gust load requirements-- (a) The slope of the lift curve may be assumed to be that of the wing alone; and (b) The gust load factors must be computed as follows:\nn = 1 + Where--\nK = 1/2(W/S)1/4(for W/S&lt;16 p.s.f.);\nK = 1.33 - (for W/S&gt;16 p.s.f.); U = nominal gust velocity, f.p.s. (Note that the &quot;effective sharp-edged gust&quot; equals KU);\nV = airplane speed, m.p.h.;\nm = slope of lift curve, CL per radian, corrected for aspect ratio;\nW/S = wing loading, p.s.f.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/199EABEE67B25E1285256687006CB1A5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Gust load factors.",
+      "text": "[In the absence of a more rational analysis, the gust load factors must be computed as follows: Where--\nKg = = gust alleviation factor; = = airplane mass ratio; Ude = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.);\np = Density of air (slugs/cu. ft.);\nW/S = wing loading, p.s.f.\n= Mean geometric chord (ft.);\ng = Acceleration due to gravity (ft./sec.2);\nV = airplane equivalent speed (knots); and\na = Slope of the airplane normal force coefficient curve CNA per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.]",
+      "publication_cite": "34 FR 13088",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FDEA0A4458AFB00985256687006CCF75.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-34",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Gust load factors.",
+      "text": "In the absence of a more rational analysis, the gust load factors must be computed as follows: where--\nKg = = gust alleviation factor;\n[ = = airplane mass ratio;] Ude = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.);\n[ p = Density of air (slugs/cu. ft.);]\nW/S = wing loading, (p.s.f.);\n= Mean geometric chord (ft.);\ng = Acceleration due to gravity (ft./sec.2);\nV = airplane equivalent speed (knots); and\na = Slope of the airplane normal force coefficient curve per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
+      "publication_cite": "34 FR 13088",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D866564DCD91753085256687006CEC41.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "83-17",
+          "issued_on": "1983-09-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23516",
+          "issued_on": "1987-01-08",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-42",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Gust load factors.",
+      "text": "[(a) The gust load for a canard or tandem wing configuration must be computed using a rational analysis, considering the criteria of Sec. 23.333(c), to develop the gust loading on each lifting surface or may be computed in accordance with paragraph (b) of this section provided that the resulting net loads are shown to be conservative with respect to the gust criteria of Sec. 23.333(c). (b) In the absence of a more rational analysis for conventional configurations, the gust load factors must be computed as follows:] where--\nKg = = gust alleviation factor; = = airplane mass ratio;\nUde = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.);\np = Density of air (slugs/cu. ft.);\nW/S = wing loading, (p.s.f.);\n= Mean geometric chord (ft.);\ng = Acceleration due to gravity (ft./sec.2);\nV = airplane equivalent speed (knots); and\na = Slope of the airplane normal force coefficient curve CNA per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
+      "publication_cite": "56 FR 352",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/34D031E8F74C995F85256687006CF340.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-5",
+          "issued_on": "1989-02-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25811",
+          "issued_on": "1990-12-21",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-48",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Gust load factors.",
+      "text": "[(a) Each airplane must be designed to withstand loads on each lifting surface resulting from gusts specified in Sec. 23.333(c). (b) The gust load for a canard or tandem wing configuration must be computed using a rational analysis, or may be computed in accordance with paragraph (c) of this section, provided that the resulting net loads are shown to be conservative with respect to the gust criteria of Sec. 23.333(c). (c) In the absence of a more rational analysis, the gust load factors must be computed as follows--] where-- K g=0.88\ufffdg/5.3+\ufffdg=gust alleviation factor;\n\ufffdg=2(W/S)/&#961; Cag=airplane mass ratio; Ude = Derived gust velocities referred to in Sec. 23.333(c) (f.p.s.); = Density of air (slugs/cu. ft.);\n[W/S = wing loading (p.s.f.) due to the applicable weight of the airplane in the particular load case.]\nC = Mean geometric chord (ft.);\ng = Acceleration due to gravity (ft./sec.2);\nV = airplane equivalent speed (knots); and\na = Slope of the airplane normal force coefficient curve CNA per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
+      "publication_cite": "61 FR 5144",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B1291CE0A3DA34E385256687006D0D9F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-20",
+          "issued_on": "1994-07-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27805",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

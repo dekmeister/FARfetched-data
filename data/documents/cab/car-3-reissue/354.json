@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "354",
+  "current_grouping": "Landing Gear Shock Absorbers",
+  "canonical_title": "Limit load factor determination",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Landing Gear Shock Absorbers",
+      "title_at_revision": "Limit load factor \u2018determination.",
+      "text": "In determining the limit airplane\n\ninertia load factor n from the free drop\n\ntest described above, the following formula shall be used: = Ww, n=, W +L where: nj;= the load factor developed in the drop test, i. e., the acceleration (d,/dt) in g's recorded in the drop test, Plus 1.0. The value of 2 so determined shall not be greater than the limit inertia load factor used in the landing conditions, \u00a7 3.243.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

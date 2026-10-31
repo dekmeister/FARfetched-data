@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "116",
+  "current_grouping": "Stability",
+  "canonical_title": "Instrumented stick force measurements",
+  "subject_group": "Flight Requirements",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Stability",
+      "title_at_revision": "Instrumented stick force.",
+      "text": "measurements, Instrumented stick force measurements need not be made when changes in speed are clearly reflected by changes in stick forces and the maximum forces obtained in the above conditions are not excessive.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

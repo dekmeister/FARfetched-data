@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "481",
+  "current_grouping": "Structure",
+  "canonical_title": "Tail down landing conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Tail down landing conditions.",
+      "text": "(a) For a tail down landing, the airplane is assumed to be in the following attitudes: (1) For airplanes with tail wheels, an attitude in which the main and tail wheels contact the ground simultaneously. (2) For airplanes with nose wheels, a stalling attitude, or the maximum angle allowing ground clearance by each part of the airplane, whichever is less. (b) For airplanes with either tail or nose wheels, ground reactions are assumed to be vertical, with the wheels up to speed before the maximum vertical load is attained.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3D30D5AC3B6CEA0E85256687006D6B5B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

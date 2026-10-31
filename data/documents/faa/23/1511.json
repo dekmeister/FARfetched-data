@@ -1,0 +1,57 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1511",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Flap extended speed.",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Flap extended speed.",
+      "text": "(a) The flap extended speed VFE must be established so that it is-- (1) Not less than the minimum value of VF allowed in Sec. 23.345 and 23.457; and (2) Not more than the lesser of-- (i) VF established under Sec. 23.345; or (ii) VF established under Sec. 23.457. (b) Additional combinations of flap setting, airspeed, and engine power may be established if the structure has been proven for the corresponding design conditions.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AF76CFCB6D72042E85256687007191AB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-50",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Flap extended speed.",
+      "text": "[(a) The flap extended speed VFE must be established so that it is-- (1) Not less than the minimum value of VF allowed in Sec. 23.345(b); and (2) Not more than VF established under Sec. 23.345(a), (c), and (d). (b) Additional combinations of flap setting, airspeed, and engine power may be established if the structure has been proven for the corresponding design conditions.]",
+      "publication_cite": "61 FR 5192",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/015AC25A3A9235A185256687007257F7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

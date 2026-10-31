@@ -1,106 +1,129 @@
 # FARfetched-data
 
 Canonical source of truth for [FARFETCHed](https://github.com/DEK-DEBIAN/FARFETCHed):
-a dataset of FAA type-certificated aircraft and the regulations that form
-their certification basis.
+a dataset of type-certificated aircraft and the regulations (and, later,
+other documents) that form their certification basis.
 
 This repository contains JSON files only. A build script compiles them into a
 single `cert_basis.sqlite` database which the Flask app consumes. The SQLite
 file is not checked in — it is produced by `build.py` and (later) published
 as a GitHub release artifact.
 
-See [plan.md](plan.md) for full architecture and roadmap.
+See [plan.md](plan.md) for architecture and roadmap. The 2026-10-31 schema
+review that shaped the current format is in
+[reviews/2026-10-31-db-schema/](reviews/2026-10-31-db-schema/).
+
+## Model
+
+Everything citable is a **document** with its own revision history:
+
+| Concept   | 14 CFR           | CAR 3          | EASA CS        |
+|-----------|------------------|----------------|----------------|
+| Issuer    | FAA              | CAA (now FAA)  | EASA           |
+| Document  | 14 CFR 23        | CAR 3          | CS-23          |
+| Revision  | Amdt 23-62       | CAR3-0         | CS23-5         |
+| Provision | §23.1309         | §3.735         | CS 23.2000     |
+
+The same four layers will hold advisory circulars, special conditions,
+ELOS findings, exemptions and handbooks (`doc_kind`), so a cert-basis
+reference always points at a provision version, whatever the document kind.
 
 ## Layout
 
 ```
 FARfetched-data/
-├── plan.md                     Project plan (authoritative)
-├── README.md                   This file
-├── schemas/                    JSON Schema files (validation)
-│   ├── regulation_part.schema.json
-│   ├── regulation.schema.json
+├── plan.md                     Project plan
+├── README.md                   This file — the field-level contract
+├── schemas/                    JSON Schema files (Draft 2020-12)
+│   ├── common.schema.json      Shared closed sets: issuer, provenance, dates, URLs
+│   ├── document.schema.json
+│   ├── provision.schema.json
 │   └── aircraft_model.schema.json
 ├── data/
-│   ├── regulations/{authority}/{part}/_part.json
-│   ├── regulations/{authority}/{part}/{section}.json
+│   ├── documents/{issuer}/{document}/_document.json
+│   ├── documents/{issuer}/{document}/{provision}.json
 │   └── aircraft/{manufacturer-slug}/{model-slug}.json
 ├── build.py                    JSON → SQLite compiler
 └── tests/
 ```
 
-Regulation file paths are flat by design: `authority` + `part` + `section`
-are the only parts of a citation that are truly stable. Subpart and title
-number are stored inside the file, so a section can be re-subparted without
-a rename.
+Document file paths are flat by design: issuer + document + provision number
+are the only parts of a citation that are truly stable. Grouping (subpart)
+and the CFR title live inside the files, so a provision can be re-subparted
+without a rename. `{issuer}` is the issuer code in lower case and
+`{document}` is the document's `slug`. The build fails if a file's path
+disagrees with the identity fields inside it.
 
 ## JSON formats
 
-### Part file (`data/regulations/faa/25/_part.json`)
+All schemas use `additionalProperties: false`. Dates are ISO `YYYY-MM-DD`.
+URLs must be `http(s)://`. `provenance` is always
+`{"source": "scraped" | "ocr" | "manual", "notes"?: string}` and absent means
+`"scraped"`.
 
-One file per CFR part. Holds the master amendment list — the attributes that
-belong to the amendment-as-a-whole (effective date, ordinal), not to any
-individual section.
+### Document file (`data/documents/faa/23/_document.json`)
+
+One file per document. Holds the master revision list — the attributes that
+belong to the revision as a whole.
 
 ```json
 {
-  "authority": "FAA",
-  "title_number": 14,
-  "part": "25",
-  "description": "Airworthiness Standards: Transport Category Airplanes",
-  "amendments": [
-    {
-      "designator": "25-23",
-      "ordinal": 23,
-      "effective_date": "1970-05-08"
-    }
+  "issuer": "FAA",
+  "doc_kind": "regulation",
+  "code": "14 CFR 23",
+  "slug": "23",
+  "title": "Airworthiness Standards: Normal Category Airplanes",
+  "revisions": [
+    { "designator": "23-62", "ordinal": 62, "effective_date": "2012-01-31" }
   ]
 }
 ```
 
 **Top-level fields**
 
-| Field          | Type    | Nullable | Purpose |
-|----------------|---------|----------|---------|
-| `authority`    | string  | no       | Issuing authority. Currently only `"FAA"`. |
-| `title_number` | integer | no       | CFR title. For FAA regulations always `14`. |
-| `part`         | string  | no       | CFR part, e.g. `"25"` or `"23"`. String — some parts are non-numeric. |
-| `description`  | string  | yes      | Human-readable part title, e.g. "Transport Category Airworthiness Standards". |
-| `amendments`   | array   | no       | One entry per amendment that has ever touched this part. Must be non-empty. |
+| Field       | Type   | Nullable | Purpose |
+|-------------|--------|----------|---------|
+| `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). |
+| `doc_kind`  | enum   | no       | `regulation`, `certification_spec`, `amc_gm`, `advisory_circular`, `handbook`, `special_condition`, `elos`, `exemption`, `standard`. |
+| `code`      | string | no       | Human citation: `"14 CFR 23"`, `"CAR 3"`, `"CS-23"`. Replaces the old `title_number` + `part`. |
+| `slug`      | string | no       | Path segment, lower case: `"23"`, `"car-3"`, `"cs-23"`. Unique per issuer. |
+| `title`     | string | yes      | Document title. |
+| `revisions` | array  | no       | One entry per revision that has ever touched the document. Non-empty. |
 
-**Per-amendment fields**
+**Per-revision fields**
 
 | Field            | Type    | Purpose |
 |------------------|---------|---------|
-| `designator`     | string  | Human-readable amendment ID, e.g. `"25-23"`. Unique per part. |
-| `ordinal`        | integer | Numeric ordering key. `0` marks the original adoption. |
-| `effective_date` | date    | ISO `YYYY-MM-DD`. The date the amendment became effective. Same for all sections changed by this amendment. |
+| `designator`     | string  | As printed: `"23-62"`, `"CS23-5"`. Unique per document. For `doc_kind: regulation` it must match `^[A-Za-z0-9]+-[0-9]+$`; other kinds only forbid surrounding whitespace. |
+| `ordinal`        | integer | Sort key, unique per document. `0` is the original issue. |
+| `effective_date` | date    | Same for every provision the revision changed. Must not be in the future. |
+| `provenance`     | object  | Optional. |
 
-Note: `federal_register_cite` is intentionally absent here. Different sections
-changed by the same amendment appear on different FR pages, so that field
-belongs on the per-section amendment record.
+### Provision file (`data/documents/faa/23/1309.json`)
 
-### Regulation section file (`data/regulations/faa/25/1309.json`)
-
-One file per CFR section. Contains only the per-section payload for each
-amendment. Ordinal and effective date are looked up from the part file.
+One file per provision. Ordinal and effective date come from the document file.
 
 ```json
 {
-  "authority": "FAA",
-  "part": "25",
-  "section": "1309",
-  "current_subpart": "F",
-  "canonical_title": "Equipment, systems, and installations",
-  "subject_group": "Equipment",
-  "amendments": [
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1309",
+  "current_grouping": "Equipment",
+  "canonical_title": "Equipment, systems, and installations.",
+  "subject_group": "General",
+  "versions": [
     {
-      "designator": "25-23",
-      "subpart_at_time": "F",
-      "title_at_amendment": "Equipment, systems, and installations",
-      "text": "...full regulation text at this amendment...",
-      "federal_register_cite": "35 FR 5665",
-      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001"
+      "designator": "23-62",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Equipment, systems, and installations.",
+      "text": "...full text at this revision...",
+      "publication_cite": "76 FR 75736",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001",
+      "actions": [
+        { "type": "nprm", "reference": "09-12", "issued_on": "2009-07-23",
+          "source_url": null, "notes": null }
+      ],
+      "provenance": { "source": "scraped" }
     }
   ]
 }
@@ -108,77 +131,79 @@ amendment. Ordinal and effective date are looked up from the part file.
 
 **Top-level fields**
 
-| Field             | Type   | Nullable | Purpose |
-|-------------------|--------|----------|---------|
-| `authority`       | string | no       | Issuing authority. Must match the part file in the same directory. |
-| `part`            | string | no       | CFR part. Must match the directory name and part file. |
-| `section`         | string | no       | Section number, e.g. `"1309"`. String to allow suffixes like `"1309a"`. |
-| `current_subpart` | string | yes      | Present-day subpart label. Display only — subparts get reorganised. |
-| `canonical_title` | string | no       | Present-day section heading. |
-| `subject_group`   | string | yes      | FAA intra-subpart grouping label from DRS. Optional. |
-| `amendments`      | array  | no       | One entry per amendment that changed this section. Must be non-empty. |
+| Field              | Type   | Nullable | Purpose |
+|--------------------|--------|----------|---------|
+| `issuer`           | enum   | no       | Must match the directory and the document file. |
+| `document`         | string | no       | The document's `slug`. Must match the directory. |
+| `number`           | string | no       | Provision number, e.g. `"1309"`, `"1309a"`, `"A23"` (appendix). Must match the file name. |
+| `current_grouping` | string | yes      | Present-day subpart (or equivalent). Display only. |
+| `canonical_title`  | string | no       | Present-day heading. |
+| `subject_group`    | string | yes      | Intra-subpart grouping label (FAA DRS). |
+| `versions`         | array  | no       | One entry per revision that changed this provision. Non-empty. |
 
-**Per-amendment fields**
+**Per-version fields**
 
-| Field                   | Type   | Nullable | Purpose |
-|-------------------------|--------|----------|---------|
-| `designator`            | string | no       | Amendment designator. Must match an entry in the part file. |
-| `subpart_at_time`       | string | yes      | Subpart this section sat under at the time of this amendment. Captures historical subpart reorganisations. |
-| `title_at_amendment`    | string | no       | Section heading as it read at this amendment. |
-| `text`                  | string | no       | Full regulation text at this amendment. The literal value `"TEXT MISSING"` is reserved as a sentinel for known gaps — use it when an extractor knows a (section, amendment) pair must exist (per a CSV / TOC / manifest) but the source is corrupted, OCR'd badly, or otherwise unreadable. The record then carries the best-known title and `"TEXT MISSING"` as text, keeping the row set complete and surfacing the gap to a human reviewer. |
-| `federal_register_cite` | string | yes      | FR cite for this section's page in the FR issue, e.g. `"35 FR 5665"`. Per-section because different sections in the same amendment appear on different pages. Use the literal `"Initial Adoption"` for `-0` designators (the original adoption predates the modern FR cite scheme used elsewhere). Use `""` (or omit the key) when the cite is genuinely unknown — these can be backfilled later without invalidating the row. |
-| `source_url`            | url    | yes      | Where the text was transcribed from. Prefer the DRS canonical URL `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
-| `actions`               | array  | yes      | Ordered list of rulemaking actions that produced this amendment (NPRM, Final Rule, EASA NPA, etc.). See action object fields below. Omit the key entirely when no actions are known. |
-| `provenance`            | object | yes      | Where the amendment came from. Object with required `source` (`"scraped"` \| `"ocr"` \| `"manual"`) and optional `notes`. Absent ≡ `"scraped"`. Set `"manual"` on any amendment you have hand-corrected — the ingestion tooling refuses to overwrite it. See [tools/](tools/) for the mechanics. |
+| Field                | Type   | Nullable | Purpose |
+|----------------------|--------|----------|---------|
+| `designator`         | string | no       | Must be declared in the document file. One version per designator. |
+| `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision. |
+| `title_at_revision`  | string | no       | Heading as it read at this revision. |
+| `text`               | string | one of   | Full text at this revision. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
+| `same_as_designator` | string | one of   | Instead of `text`: the text is unchanged from this earlier version of the same provision. The build copies the text and records the link. |
+| `publication_cite`   | string | yes      | Where the revision was published, e.g. `"35 FR 5665"`. Omit (or `""`) when unknown — including for original issues. The old `"Initial Adoption"` sentinel is rejected. |
+| `source_url`         | url    | yes      | Where the text was transcribed from. Prefer DRS `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
+| `actions`            | array  | yes      | Rulemaking actions behind this version, as the source records them for this provision (see below). Omit when none are known. |
+| `provenance`         | object | yes      | Set `"manual"` on any version you hand-correct — the tooling refuses to overwrite it. See [tools/](tools/). Carried into the DB so the app can mark OCR or manual text. |
 
-**Action object fields** (each element of `actions`)
+Actions stay on the version rather than the revision because the source (DRS)
+records them per section, and the per-section lists for one amendment don't
+always agree.
+
+**Action fields**
 
 | Field        | Type   | Nullable | Purpose |
 |--------------|--------|----------|---------|
-| `type`       | string | no       | Action kind. Enum: `nprm`, `final_rule`, `direct_final_rule`, `interim_final_rule`, `easa_npa`, `easa_opinion`, `easa_decision`, `jar_npa`, `jar_change`, `other`. |
-| `reference`  | string | yes      | Notice number (NPRM), docket number (Final Rule), NPA number (EASA), etc. Authority-specific; stored verbatim. |
-| `issued_on`  | date   | yes      | ISO `YYYY-MM-DD` date the action was issued. |
-| `source_url` | url    | yes      | Direct link to the action document (EASA or other). Usually `null` for FAA (DRS does not expose stable per-action URLs). |
-| `notes`      | string | yes      | Verbatim raw text when `type` is `other`, or any additional context. |
+| `type`       | enum   | no       | `nprm`, `final_rule`, `direct_final_rule`, `interim_final_rule`, `easa_npa`, `easa_opinion`, `easa_decision`, `jar_npa`, `jar_change`, `other`. |
+| `reference`  | string | yes      | Notice, docket or NPA number, verbatim. |
+| `issued_on`  | date   | yes      | Must not be in the future (a future date is a two-digit-year parse error). |
+| `source_url` | url    | yes      | Link to the action document. Usually `null` for FAA. |
+| `notes`      | string | yes      | Verbatim raw text when `type` is `other`, or other context. |
 
 ### Aircraft model file (`data/aircraft/{manufacturer-slug}/{model-slug}.json`)
 
-One file per type-certificated model variant. The `tcb` array holds one entry
-per regulator that has issued a type certificate for this model — each with
-its own TCDS reference and certification basis.
+One file per type-certificated model variant. `tcb` holds one entry per
+regulator that has issued a type certificate for the model.
 
 ```json
 {
-  "manufacturer": "The Boeing Company",
-  "model_designation": "737-800",
-  "common_name": "737-800",
-  "categories": ["transport"],
+  "manufacturer": "Cessna Aircraft Company",
+  "model_designation": "525",
+  "common_name": "CitationJet",
+  "categories": ["normal"],
   "notes": null,
   "tcb": [
     {
       "tcds": {
-        "authority": "FAA",
-        "tcds_number": "A16WE",
-        "revision": "57",
-        "revision_date": "2024-03-15",
-        "source_url": "https://..."
+        "issuer": "FAA",
+        "tcds_number": "A1WI",
+        "revision": "34",
+        "revision_date": null,
+        "source_url": null
       },
       "notes": null,
       "certification_basis": [
         {
           "display_order": 1,
           "entry_type": "regulation",
-          "raw_reference": "14 CFR Part 25 as amended by Amendments 25-1 through 25-62",
+          "raw_reference": "525-0600 thru 525-0684 ... 14 CFR Part 23 ... as amended by Amendments 23-1 thru 23-38, 23-40; except ... 23.611, 23.777 ... as amended through ... 23-54. 14 CFR 23.1309(a) as amended through Amendments 23-62, for PED tolerance only.",
+          "applicability": "525-0600 thru 525-0684",
           "applicability_notes": null,
-          "resolved_references": [
-            {
-              "reference_kind": "range",
-              "authority": "FAA",
-              "title_number": 14,
-              "part": "25",
-              "from_amendment_ordinal": 1,
-              "to_amendment_ordinal": 62
-            }
+          "references": [
+            { "issuer": "FAA", "document": "23", "to": "23-40", "skip": ["23-39"] },
+            { "issuer": "FAA", "document": "23", "to": "23-54", "skip": ["23-39"],
+              "provisions": ["611", "777"] },
+            { "issuer": "FAA", "document": "23", "to": "23-62",
+              "provisions": ["1309"], "paragraph": "(a)" }
           ]
         }
       ]
@@ -187,153 +212,184 @@ its own TCDS reference and certification basis.
 }
 ```
 
-**Top-level fields**
+**Top-level, TCB and TCDS fields**
 
-| Field               | Type          | Nullable | Purpose |
-|---------------------|---------------|----------|---------|
-| `manufacturer`      | string        | no       | Current TC holder name as it appears on the TCDS. |
-| `model_designation` | string        | no       | Formal model identifier, e.g. `"737-800"`. |
-| `common_name`       | string        | yes      | Popular name if it differs from `model_designation`. |
-| `categories`        | string array  | no       | Airworthiness categories, e.g. `["transport"]`. Array because some models are certified in multiple categories simultaneously. Must be non-empty. |
-| `notes`             | string        | yes      | Free-form editor notes. Displayed to users. |
-| `tcb`               | array         | no       | One entry per certifying authority (FAA, EASA, …). Must be non-empty. |
+| Field                         | Type         | Nullable | Purpose |
+|-------------------------------|--------------|----------|---------|
+| `manufacturer`                | string       | no       | Current TC holder as on the TCDS. |
+| `model_designation`           | string       | no       | Formal model identifier. |
+| `common_name`                 | string       | yes      | Popular name, if different. |
+| `categories`                  | enum array   | no       | Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
+| `notes`                       | string       | yes      | Editor notes, displayed to users. |
+| `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
+| `tcb[].notes`                 | string       | yes      | TCB-level notes. |
+| `tcb[].certification_basis`   | array        | no       | One entry per TCDS line, in TCDS order. |
 
-**Per-TCB fields** (`tcb[]`)
+**Per-entry fields** — one entry is one line of the TCDS, verbatim
 
-| Field                 | Type   | Nullable | Purpose |
-|-----------------------|--------|----------|---------|
-| `tcds`                | object | no       | TCDS reference (see below). |
-| `notes`               | string | yes      | TCB-level notes (e.g. scope of applicability for this authority). |
-| `certification_basis` | array  | no       | Ordered certification basis entries for this authority's TCDS. |
+| Field                 | Type    | Nullable | Purpose |
+|-----------------------|---------|----------|---------|
+| `display_order`       | integer | no       | Position on the TCDS. Unique per TCB. |
+| `entry_type`          | enum    | no       | `regulation`, `special_condition`, `elos`, `exemption`, `other`. |
+| `raw_reference`       | string  | no       | Verbatim TCDS text. Never rewritten. |
+| `applicability`       | string  | yes      | Verbatim serial/config scope, e.g. `"525-0600 thru 525-0684"`. |
+| `applicability_notes` | string  | yes      | Other scope or caveats. |
+| `references`          | array   | no       | What the line *means*, machine-readably. Empty when not (yet) interpreted. |
 
-**TCDS fields** (`tcb[].tcds`)
+**Per-reference fields**
 
-| Field           | Type   | Nullable | Purpose |
-|-----------------|--------|----------|---------|
-| `authority`     | string | no       | Issuing authority. |
-| `tcds_number`   | string | no       | TCDS identifier, e.g. `"A16WE"`. |
-| `revision`      | string | yes      | Revision identifier of the TCDS this data was taken from. |
-| `revision_date` | date   | yes      | ISO date of that revision. |
-| `source_url`    | url    | yes      | Link to the source TCDS document. |
+| Field        | Type          | Purpose |
+|--------------|---------------|---------|
+| `issuer`     | enum          | Issuer of the referenced document. |
+| `document`   | string        | The document's `slug`. |
+| `to`         | designator    | Include refs only: the highest revision in force. **The base revision is always included**, so "as amended by 23-1 thru 23-13" is `to: "23-13"`. |
+| `skip`       | designators   | Revisions left out of a non-contiguous set ("23-1 thru 23-38, 23-40" → `to: "23-40", skip: ["23-39"]`). Each must be earlier than `to`. |
+| `provisions` | numbers       | Scope the ref to these provisions. Absent = the whole document. |
+| `paragraph`  | string        | Verbatim qualifier, e.g. `"(a)"`. Needs exactly one `provisions` entry. Displayed, never resolved. |
+| `effect`     | enum          | `include` (default) or `exclude`. An exclude ref needs `provisions` and takes no `to`, `skip` or `paragraph`. |
 
-**Per-entry fields** (`tcb[].certification_basis[]`)
+#### Resolution rules
 
-| Field                  | Type    | Nullable | Purpose |
-|------------------------|---------|----------|---------|
-| `display_order`        | integer | no       | Render order matching the TCDS. |
-| `entry_type`           | enum    | no       | One of `regulation`, `special_condition`, `elos`, `exemption`, `other`. |
-| `raw_reference`        | string  | no       | Verbatim TCDS text. Never rewritten. |
-| `applicability_notes`  | string  | yes      | Scope or caveats from the TCDS. |
-| `resolved_references`  | array   | no       | Machine-readable interpretation. Empty for unresolvable types. |
+The build resolves each entry's references **within that entry only** —
+overrides never cross TCDS lines, so two lines (e.g. two serial ranges) may
+legitimately hold one provision at different levels.
 
-**Per resolved reference** — two shapes:
+1. For an include ref, the revision set is every revision with ordinal ≤
+   `to`, minus `skip`. For each provision in scope, the version at the
+   highest revision in that set applies. A provision with no such version
+   didn't exist yet and is not part of the basis through this ref.
+2. Scoped results (refs with `provisions`) replace document-wide results for
+   the same provision.
+3. A paragraph ref adds a row alongside the whole-provision row. If it lands
+   on the same version, it is dropped.
+4. An exclude ref removes provisions from the document-wide results.
 
-*Range* — compact, expanded at build time:
-```json
-{ "reference_kind": "range",
-  "authority": "FAA", "title_number": 14, "part": "25",
-  "from_amendment_ordinal": 1, "to_amendment_ordinal": 62 }
-```
-
-*Single* — explicit, one row:
-```json
-{ "reference_kind": "single",
-  "authority": "FAA", "title_number": 14, "part": "25", "section": "1309",
-  "amendment_designator": "25-58" }
-```
+The build fails, rather than guessing, when:
+- a `to` or `skip` designator, provision, or document doesn't exist;
+- a `skip` is not earlier than `to`;
+- two document-wide refs, or two scoped refs, resolve one provision to
+  different versions;
+- a provision is both excluded and included by a scoped ref;
+- an exclude removes nothing;
+- an include ref resolves to no provisions.
 
 ## SQLite schema
 
-`build.py` compiles the JSON into twelve tables plus one view.
+`build.py` compiles the JSON into 18 tables plus one view. Every table is
+`STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
+UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
+in [build.py](build.py).
 
-### Lookup tables
+### Contract metadata
 
-`naa_authorities` — FAA, EASA, etc. (`code`, `name`, `country`).
+`PRAGMA user_version` is the schema version (currently **1**). It is bumped
+on every contract change, and consumers should refuse a DB whose version
+they don't know. `build_info` is a single row: `schema_version`, `git_sha` of
+the data repo at build time (NULL if unavailable), `built_at` (UTC).
 
-`manufacturers` — TC holders by name.
+### Documents
 
-`categories` — Airworthiness category codes (`transport`, `normal`, etc.).
+`issuers` — closed set seeded by the build: `code`, `name`, `kind`
+(`naa` / `military` / `standards_body`), `country`, `successor_id`.
 
-### Regulation tables
+`documents` — `(issuer_id, doc_kind, code, slug, title)`.
 
-`regulation_parts` — one row per CFR part. Holds `(authority_id, title_number, part, description)`.
+`document_revisions` — `(document_id, designator, ordinal, effective_date,
+provenance, provenance_notes)`.
 
-`regulations` — one row per CFR section. `current_subpart` is present-day display only.
+`provisions` — `(document_id, number, sort_key, canonical_title,
+current_grouping, subject_group)`. `sort_key` is computed (digit runs
+zero-padded) so §23.175 sorts before §23.1309: `ORDER BY sort_key`.
 
-`amendments` — one row per amendment-as-a-whole. `(part_id, designator, ordinal, effective_date)`. `effective_date` is stored here because it is the same for all sections changed by one amendment.
+`provision_versions` — one row per (provision × revision): `text`,
+`title_at_revision`, `grouping_at_time`, `publication_cite`, `source_url`,
+`provenance`, `provenance_notes`, `same_as_version_id`, and the generated
+`text_missing` flag. Composite foreign keys through `document_id` make it
+impossible to pair a provision with another document's revision, or alias a
+version of another provision.
 
-`section_amendments` — one row per (section × amendment). The per-section payload: `text`, `title_at_amendment`, `federal_register_cite`, `subpart_at_time`, `source_url`.
-
-`amendment_actions` — child rows of `section_amendments`. Each row is one rulemaking action (NPRM, Final Rule, EASA NPA, etc.) associated with a section amendment. Fields: `section_amendment_id`, `seq` (ordering), `type`, `reference`, `issued_on`, `source_url`, `notes`.
+`version_actions` — rulemaking actions per provision version, ordered by
+`seq`.
 
 ### Aircraft / TCB tables
 
-`aircraft_models` — one row per model variant.
+`manufacturers`, `categories` (closed set), `aircraft_models`,
+`model_categories` (M:N), `tcds`, and `tcb` — one row per (model, TCDS)
+pair, owning the cert basis.
 
-`model_categories` — M:N join between models and categories (a model can have multiple categories).
+### Certification basis (three layers)
 
-`tcds` — one row per type certificate document `(authority_id, tcds_number, revision, revision_date, source_url)`.
+| Table | Grain | Source |
+|---|---|---|
+| `cert_basis_entries` | one TCDS line | authored, verbatim |
+| `cert_basis_refs` (+ `cert_basis_ref_provisions`, `cert_basis_ref_skips`) | one interpretation clause | authored |
+| `cert_basis_resolved` | one (entry, provision version) | computed by the build |
 
-`tcb` — the certification basis container. One row per `(model, tcds)` pair. This is the entity that owns `cert_basis_entries`.
+`cert_basis_resolved.via_ref_id` names the ref that produced each row and
+`paragraph` carries the qualifier (NULL = whole provision). Index on
+`provision_version_id` serves "which aircraft use §23.1309 @ 23-62".
 
-`cert_basis_entries` — one row per resolved cert-basis item. FK to `tcb_id` (not aircraft directly). `section_amendment_id` is nullable for unresolvable entry types.
+### `latest_versions` view
 
-### `latest_amendments` view
-
-Convenience view: for each regulation section, the `section_amendments` row
-joined with the highest-ordinal amendment. Used by part-vs-part comparison
-without requiring a MAX-subquery each time.
+For each provision, the `provision_versions` row at its highest-ordinal
+revision, joined with `designator`, `ordinal` and `effective_date`.
 
 ## Build pipeline
 
 ```bash
-python build.py                     # reads data/, writes cert_basis.sqlite
-python build.py --data-dir X --out Y.sqlite
+uv run python build.py                     # reads data/, writes cert_basis.sqlite
+uv run python build.py --data-dir X --out Y.sqlite
+uv run python build.py --check             # schema validation only
 ```
 
 `build.py`:
 1. Validates every JSON file against its schema. Fails on any mismatch.
-2. Inserts lookup rows (`naa_authorities`, `manufacturers`, `categories`).
-3. Inserts `regulation_parts` and `amendments` from `_part.json` files.
-4. Inserts `regulations` and `section_amendments` from section files. Fails if
-   a section references an amendment designator not present in its part file.
-5. Inserts `aircraft_models`, `model_categories`, `tcds`, and `tcb`.
-6. For each cert-basis entry, expands `resolved_references` and inserts
-   one row per resolved `section_amendment`. Fails if a range references
-   an amendment not present in the data.
-7. Writes `cert_basis_report.json` alongside the SQLite file: row counts,
-   unresolvable references (must always be zero on a successful build).
+2. Checks every document/provision path against the identity fields inside.
+3. Seeds the closed lookup sets (`issuers`, `categories`).
+4. Inserts documents and revisions, then provisions, versions and actions.
+   Fails if a version names an undeclared revision or a duplicate one, or if
+   an alias doesn't point at an earlier version of the same provision.
+5. Inserts aircraft, TCDS (once each, metadata must agree), TCBs and
+   entries; inserts each entry's refs and resolves them by the rules above.
+6. Fails on any date after the build day, and on any foreign-key violation.
+7. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
+   every table, `text_missing` count, provenance counts, and
+   `unresolved_references` (always empty on a successful build).
 
-Output is atomic: build writes `cert_basis.sqlite.new` then `os.replace()`s
-it into place.
+Every constraint violation fails the build with the offending file named.
+Output is atomic: the build writes `cert_basis.sqlite.new`, then
+`os.replace()`s it into place, removing any stale `-wal`/`-shm` sidecars.
 
 ## Consuming the SQLite artifact
 
-`cert_basis.sqlite` ships in WAL mode. Consumers should treat the file as
-read-only and configure each connection like this:
+`cert_basis.sqlite` ships as a single file in `journal_mode = DELETE` — no
+`-wal`/`-shm` sidecars, so it works from read-only storage. Open it
+read-only and check the contract version:
 
 ```python
 import sqlite3
 
-conn = sqlite3.connect("cert_basis.sqlite")
-conn.execute("PRAGMA query_only = ON")
+SUPPORTED_SCHEMA = 1
+
+conn = sqlite3.connect("file:cert_basis.sqlite?mode=ro", uri=True)
 conn.execute("PRAGMA foreign_keys = ON")
-conn.execute("PRAGMA synchronous = NORMAL")
-conn.execute("PRAGMA busy_timeout = 5000")
+if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
+    raise RuntimeError("cert_basis.sqlite schema version not supported")
 ```
 
 ## Adding data
 
-**New aircraft:** create
-`data/aircraft/{manufacturer-slug}/{model-slug}.json` and run `build.py`.
-If build fails with missing-amendment errors, add the amendments to the
-relevant regulation and part files first.
+**New aircraft:** create `data/aircraft/{manufacturer-slug}/{model-slug}.json`
+and run `build.py`. If the build reports unknown revisions or provisions,
+add them to the relevant document first.
 
-**New regulation section:** create
-`data/regulations/{authority}/{part}/{section}.json` with at least one
-amendment. Ensure that part `_part.json` declares all amendment designators
-referenced by the section.
+**New provision:** create `data/documents/{issuer}/{document}/{number}.json`
+with at least one version. Every version's designator must be declared in
+that document's `_document.json`.
 
-**New amendment to existing part:** append to `amendments` in `_part.json`,
-then add the corresponding amendment block to each section file that was
-changed by that amendment. Ordinals must be unique within the part.
+**New revision of an existing document:** append it to `revisions` in
+`_document.json`, then add a version to each provision file it changed.
+Ordinals must be unique within the document.
+
+Prefer the ingestion tooling in [tools/](tools/) over hand edits; hand edits
+must carry `provenance.source = "manual"`.

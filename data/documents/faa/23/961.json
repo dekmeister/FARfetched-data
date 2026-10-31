@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "961",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel system hot weather operation.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system hot weather operation.",
+      "text": "Each fuel system conducive to vapor formation must be free from vapor lock when using fuel at a temperature of 110\ufffd F. under critical operating conditions.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E7B6306C0D29072985256687006FB9D0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-43",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system hot weather operation.",
+      "text": "[Each fuel system must be free from vapor lock when using fuel at its critical temperature, with respect to vapor formation, when operating the airplane in all critical operating and environmental conditions for which approval is requested. For turbine fuel, the initial temperature must be 110\ufffdF, -0\ufffd, +5\ufffd or the maximum outside air temperature for which approval is requested, whichever is more critical.]",
+      "publication_cite": "58 FR 18972",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B626F81518ABF85E8525668700707979.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-23",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26344",
+          "issued_on": "1993-03-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

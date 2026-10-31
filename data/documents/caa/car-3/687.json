@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "687",
+  "current_grouping": "Generators",
+  "canonical_title": "Reverse current cut-out",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Generators",
+      "title_at_revision": "Reverse current cut-out.",
+      "text": "A generator reverse current cut-out shall disconnect the generator from the\n\nbattery and other generators when the generator is developing a voltage of such value that current sufficient to cause malfunctioning can flow into the generator. MASTER SWITCH",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

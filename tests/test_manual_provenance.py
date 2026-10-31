@@ -14,7 +14,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_REGS = REPO_ROOT / "data" / "regulations"
+DATA_REGS = REPO_ROOT / "data" / "documents"
 MANIFEST = Path(__file__).parent / "manual_provenance_manifest.txt"
 
 
@@ -24,9 +24,12 @@ def _doc_has_manual(doc: object) -> bool:
     prov = doc.get("provenance")
     if isinstance(prov, dict) and prov.get("source") == "manual":
         return True
-    amends = doc.get("amendments")
-    if isinstance(amends, list):
-        for a in amends:
+    # Provision files hold "versions"; _document.json holds "revisions".
+    for key in ("versions", "revisions"):
+        entries = doc.get(key)
+        if not isinstance(entries, list):
+            continue
+        for a in entries:
             if not isinstance(a, dict):
                 continue
             ap = a.get("provenance")

@@ -1,0 +1,31 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "687",
+  "current_grouping": "Instruments",
+  "canonical_title": "Electrical power system instruments",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Generators",
+      "title_at_revision": "Reverse current cut-out.",
+      "text": "A\n\ngenerator reverse current cut-out shall disconnect the generator from the battery and other generators when the generator is developing a voltage of such value that current sufficient to cause malfunctioning can flow into the generator. MASTER SWITCH",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3R-3",
+      "grouping_at_time": "Instruments",
+      "title_at_revision": "Electric power systen instmments.",
+      "text": "Means shall be provided to indicate to appropriate crew\n\nmembers those electric power system quantities which are essential for the safe operation of the system. NOTE: For direct current systems an ammeter which can be switched into each generator feeder would be acceptable, When only one generator is installed, the ammeter may be in the battery feeder. (Sec. 205, 52 Stat. 98; 49U.S.C, Interpret or apply secs. 601, 603, 52 Stat. 1007, 1009, as amended; 490.8.C. 551, 553) By the Civil Aeronautics Board: /s/ M,C, Mulligan M,C, Mulligan Secretary (SEAL ) USCOMM-DC-10932 Part 3 last printed May 15, 1956.",
+      "publication_cite": "secs. 601, 603, 52 Stat. 1007, 1009, as amended; 490.8.C. 551, 553) By the Civil Aeronautics Board: /s/ M,C, Mulligan M,C, Mulligan Secretary (SEAL ) USCOMM-DC-10932 Part 3 last printed May 15, 1956.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

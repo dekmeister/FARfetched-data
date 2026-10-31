@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "347",
+  "current_grouping": "Structure",
+  "canonical_title": "Unsymmetrical flight conditions.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Unsymmetrical flight conditions.",
+      "text": "The airplane is assumed to be subjected to the unsymmetrical flight conditions of Secs. 23.349 and 23.351. Unbalanced aerodynamic moments about the center of gravity must be reacted in a rational or conservative manner, considering the principal masses furnishing the reacting inertia forces.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/280C576DAB8D4AC185256687006CB495.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-48",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Unsymmetrical flight conditions.",
+      "text": "[(a) The airplane is assumed to be subjected to the unsymmetrical flight conditions of Secs. 23.349 and 23.351. Unbalanced aerodynamic moments about the center of gravity must be reacted in a rational or conservative manner, considering the principal masses furnishing the reacting inertia forces. (b) Acrobatic category airplanes certified for flick maneuvers (snap roll) must be designed for additional asymmetric loads acting on the wing and the horizontal tail.]",
+      "publication_cite": "61 FR 5144",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/56E9A92F9935278885256687006D0F95.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-20",
+          "issued_on": "1994-07-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27805",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

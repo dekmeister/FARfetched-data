@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "341",
+  "current_grouping": "Control Systems",
+  "canonical_title": "Control system locks",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Control Systems",
+      "title_at_revision": "Control system locks.",
+      "text": "When a device is provided for locking a control surface while the airplane is on\n\nthe ground or water: (a) The locking device shall be so installed as to provide unmistakable warning to the pilot when it is engaged, and (b) Means shall be provided to preclude the possibility of the lock becoming engaged during flight.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

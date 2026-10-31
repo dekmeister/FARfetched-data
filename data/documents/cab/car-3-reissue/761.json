@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "761",
+  "current_grouping": "Instrument Markings",
+  "canonical_title": "Fuel quantity indicator",
+  "subject_group": "Operating Limitations and Information",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Instrument Markings",
+      "title_at_revision": "Fuel quantity indicator.",
+      "text": "When the unusable fuel supply for any tank exceeds 1 gallon or 5 percent of the tank capacity, whichever is greater, a red band shall be placed on the indicator extending from the calibrated zero reading (see \u00a7 3.437) to the lowest reading obtainable in the level flight attitude, and a suitabl> notation in the Airplane Flight Manual shall be provided to indicate to the flight personnel that the fuel remaining in the tank when the quantity indicator reaches zero cannot be used safely in flight. (See \u00a7 3.672.) CONTROL MARKINGS",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

@@ -2,11 +2,16 @@
   "manufacturer": "The Boeing Company",
   "model_designation": "737-800",
   "common_name": null,
-  "categories": ["transport"],
+  "categories": [
+    "transport"
+  ],
   "notes": null,
   "tcb": [
     {
-      "tcds": { "authority": "FAA", "tcds_number": "A16WE" },
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A16WE"
+      },
       "notes": null,
       "certification_basis": []
     }

@@ -1,0 +1,31 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "696",
+  "current_grouping": "Instrument Lights",
+  "canonical_title": "Instrument lights",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Instrument Lights",
+      "title_at_revision": "Instrument lights.",
+      "text": "If instrument lights are required, they shall be of\n\nsuch construction that there is sufficient distance or insulating material between current carrying parts and the housing so that vibration in flight will not cause shorting. They shall provide sufficient ittumination to make all instruments and controls easily readable and discernible, respectively.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3R-5",
+      "grouping_at_time": "Instrument Lights",
+      "title_at_revision": "Instrument lights.",
+      "text": "TEXT MISSING",
+      "publication_cite": "(Secs. 313(a), 601, 608, 72 Stat. 752, 775, 776; 49 U.S.C. 1354(a), 1421, 1423)",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "957",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Flow between interconnected tanks.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Flow between interconnected tanks.",
+      "text": "It must be impossible, in a gravity feed system with interconnected tank outlets, for enough fuel to flow between the tanks to cause an overflow of fuel from any tank vent under the conditions in Sec. 23.959, except that full tanks must be used.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6E356B0BD8CDADB685256687006FB7B3.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-43",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Flow between interconnected tanks.",
+      "text": "[(a) It must be impossible, in a gravity feed system with interconnected tank outlets, for enough fuel to flow between the tanks to cause an overflow of fuel from any tank vent under the conditions in Sec. 23.959, except that full tanks must be used. (b) If fuel can be pumped from one tank to another in flight, the fuel tank vents and the fuel transfer system must be designed so that no structural damage to any airplane component can occur because of overfilling of any tank.]",
+      "publication_cite": "58 FR 18972",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6F3908D3B3661BCC8525668700707856.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-23",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26344",
+          "issued_on": "1993-03-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "507",
+  "current_grouping": "Structure",
+  "canonical_title": "Jacking loads.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "23-14",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Jacking loads.",
+      "text": "[(a) The airplane must be designed for the loads developed when the aircraft is supported on jacks at the design maximum weight assuming the following load factors for landing gear jacking points at a three-point attitude and for primary flight structure jacking points in the level attitude: (1) Vertical-load factor of 1.35 times the static reactions. (2) Fore, aft, and lateral load factors of 0.4 times the vertical static reactions. (b) The horizontal loads at the jack points must be reacted by inertia forces so as to result in no change in the direction of the resultant loads at the jack points. (c) The horizontal loads must be considered in all combinations with the vertical load.]",
+      "publication_cite": "38 FR 31821",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/09CF630A017DDD0385256687006D9F31.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-13",
+          "issued_on": "1971-04-27",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11011",
+          "issued_on": "1973-11-07",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

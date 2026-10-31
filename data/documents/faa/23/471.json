@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "471",
+  "current_grouping": "Structure",
+  "canonical_title": "General.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "General.",
+      "text": "The limit ground loads specified in this subpart are considered to be external loads and inertia forces that act upon an airplane structure. In each specified ground load condition, the external reactions must be placed in equilibrium with the linear and angular inertia forces in a rational or conservative manner.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FE00A8DC078F205985256687006D6767.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

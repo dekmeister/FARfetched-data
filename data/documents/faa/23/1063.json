@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1063",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Coolant tank tests.",
+  "subject_group": "Liquid Cooling",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Coolant tank tests.",
+      "text": "Each coolant tank must be tested under Sec. 23.965, except that-- (a) The test required by Sec. 23.965(a) (1) must be replaced with a similar test using the sum of the pressure developed during the maximum ultimate acceleration with a full tank or a pressure of 3.5 pounds per square inch, whichever is greater, plus the maximum working pressure of the system; and (b) For a tank with a nonmetallic liner the test fluid must be coolant rather than fuel as specified in Sec. 23.965(d), and the slosh test on a specimen liner must be conducted with the coolant at operating temperature.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/61BBBBF9C962559985256687006FD51F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

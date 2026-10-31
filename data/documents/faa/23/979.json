@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "979",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Pressure fueling systems.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "23-14",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Pressure fueling systems.",
+      "text": "[For pressure fueling systems, the following apply: (a) Each pressure fueling system fuel manifold connection must have means to prevent the escape of hazardous quantities of fuel from the system if the fuel entry valve fails. (b) An automatic shutoff means must be provided to prevent the quantity of fuel in each tank from exceeding the maximum quantity approved for that tank. This means must allow checking for proper shutoff operation before each fueling of the tank. (c) A means must be provided to prevent damage to the fuel system in the event of failure of the automatic shutoff means prescribed in paragraph (b) of this section. (d) All parts of the fuel system up to the tank which are subjected to fueling pressures must have a proof pressure of 1.33 times, and an ultimate pressure of at least 2.0 times, the surge pressure likely to occur during fueling.]",
+      "publication_cite": "38 FR 31823",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BA7801AD5D330E1D8525668700701643.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-13",
+          "issued_on": "1971-04-27",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11011",
+          "issued_on": "1973-11-07",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-51",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Pressure fueling systems.",
+      "text": "For pressure fueling systems, the following apply: (a) Each pressure fueling system fuel manifold connection must have means to prevent the escape of hazardous quantities of fuel from the system if the fuel entry valve fails. [(b) An automatic shutoff means must be provided to prevent the quantity of fuel in each tank from exceeding the maximum quantity approved for that tank. This means must-- (1) Allow checking for proper shutoff operation before each fueling of the tank; and (2) For commuter category airplanes, indicate at each fueling station, a failure of the shutoff means to stop the fuel flow at the maximum quantity approved for that tank.] (c) A means must be provided to prevent damage to the fuel system in the event of failure of the automatic shutoff means prescribed in paragraph (b) of this section. (d) All parts of the fuel system up to the tank which are subjected to fueling pressures must have a proof pressure of 1.33 times, and an ultimate pressure of at least 2.0 times, the surge pressure likely to occur during fueling.",
+      "publication_cite": "61 FR 5137",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9EF459837E53FF29852566870070ADDB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-19",
+          "issued_on": "1994-06-22",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27804",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

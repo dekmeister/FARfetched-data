@@ -1,0 +1,57 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "625",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Fitting factors.",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Fitting factors.",
+      "text": "For each fitting (a part or terminal used to join one structural member to another), the following apply: (a) For each fitting whose strength is not proven by limit and ultimate load tests in which actual stress conditions are simulated in the fitting and surrounding structures, a fitting factor of at least 1.15 must be applied to each part of-- (1) The fitting; (2) The means of attachment; and (3) The bearing on the joined members. (b) No fitting factor need be used for joint designs based on comprehensive test data (such as continuous joints in metal plating, welded joints, and scarf joints in wood). (c) For each integral fitting, the part must be treated as a fitting up to the point at which the section properties become typical of the member.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9D49DBD8B7AEC14585256687006D8130.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Fitting factors.",
+      "text": "For each fitting (a part or terminal used to join one structural member to another), the following apply: (a) For each fitting whose strength is not proven by limit and ultimate load tests in which actual stress conditions are simulated in the fitting and surrounding structures, a fitting factor of at least 1.15 must be applied to each part of-- (1) The fitting; (2) The means of attachment; and (3) The bearing on the joined members. (b) No fitting factor need be used for joint designs based on comprehensive test data (such as continuous joints in metal plating, welded joints, and scarf joints in wood). (c) For each integral fitting, the part must be treated as a fitting up to the point at which the section properties become typical of the member. [(d) For each seat, berth, safety belt, and harness, its attachment to the structure must be shown, by analysis, tests, or both, to be able to withstand the inertia forces prescribed in Sec. 23.561 multiplied by a fitting factor of 1.33.]",
+      "publication_cite": "34 FR 13091",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8418FEB73B5E5E3485256687006D9AE3.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

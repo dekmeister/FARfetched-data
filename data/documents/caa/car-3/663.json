@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "663",
+  "current_grouping": "Flight and Navigational Instruments",
+  "canonical_title": "Air-speed indicating system",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Flight and Navigational Instruments",
+      "title_at_revision": "Air-speed indicating system.",
+      "text": "This system shall be so installed that the air-speed indicator shall\n\nindicate true air speed at sea level under standard conditions to within an allowable installational error of not more than plus or minus 3 percent of the calibrated air speed or 5 miles per hour, whichever is greater, throughout the operating range of the airplane with flaps up from Vc to 1.3 Vs1 and with flaps at 1.3 Vs1. The calibration shall be made in flight.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "46",
+  "current_grouping": "Definitions",
+  "canonical_title": "Speeds",
+  "subject_group": "Airworthiness Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Definitions",
+      "title_at_revision": "Speeds.",
+      "text": "\u201cpp Vt True air speed of the airplane relative to the undisturbed air. In the following symbols having subscripts, V denotes: (a) \"Equivalent\" air speed for structural design purposes equal to (b) \"True indicated\" or \"calibrated\" air speed for performance and operating purposes equal to indicator reading corrected for position and instrument errors. Reference sections Vs0 stalling speed, in the land configuration. 3.82 Vs1 stalling speed in the configurations specified for particular conditions. 3.82 Vsf computed stalling speed at design landing weight with flaps fully defected. 3.190 Vx speed for best angle of climb. Vy speed for best rate of climb. Vmc minimum control speed. 3.111 Vf design speed for flight load conditions with flaps in landing position. 3.190 Vfe flaps-extended speed. 3.742 Vp design maneuvering speed. 3.184 Vc design cruising speed. 3.184 Vd design dive speed 3.184 Vne never-exceed speed. 3.739 Vno maximum structural cruising speed. 3.740 Vh maximum speed in level flight at maximum continuous power.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

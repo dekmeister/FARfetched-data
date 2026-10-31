@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "698",
+  "current_grouping": "Landing Lights",
+  "canonical_title": "Landing lights",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Landing Lights",
+      "title_at_revision": "Landing lights.",
+      "text": "If landing lights are installed, they shall be of an acceptable type.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

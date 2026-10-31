@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "219",
+  "current_grouping": "Vertical Tail Surfaces",
+  "canonical_title": "Maneuvering loads",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Vertical Tail Surfaces",
+      "title_at_revision": "Maneuvering loads.",
+      "text": "At all speeds up to Vp:\n\n(a) With the airplane in unaccelerated flight at zero yaw, a sudden displacement of the rudder control to the maximum deflection as limited by the control stops or pilot effort, whichever is critical, shall be assumed. Note: The average loading of Figure 3-3 and the distribution of Figure 3-8 may be used. (b) The airplane shall be assumed to be yawned to a sideslip angle of 15 degrees while the rudder control is maintained at full deflection (except as limited by pilot effort) in the direction tending to increase the sideslip. Note: The average loading of Figure 3-3 and the distribution of Figure 3-7 may be used. (c) The airplane shall be assumed to be yawed to a sideslip angle of 15 degrees while the rudder control is maintained in the neutral position (except as limited by pilot effort). The assumed sideslip angles may be reduced if is shown that the value chosen for a particular speed cannot be exceeded in the cases of steady slips, uncoordinated rolls from a steep bank, and sudden failure of the critical engine with delayed corrective action. Note: The average loading of Figure 3-3 and the distribution of Figure 3-9 may be used.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

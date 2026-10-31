@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "748",
+  "current_grouping": "Airplane Weight",
+  "canonical_title": "Airplane weight",
+  "subject_group": "Operating Limitations and Information",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Airplane Weight",
+      "title_at_revision": "Airplane weight.",
+      "text": "The airplane weight and center of gravity limitations are those required to be\n\ndetermined by \u00a7 3.71. MINIMUM FLIGHT CREW",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

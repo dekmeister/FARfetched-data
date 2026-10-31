@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1553",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Fuel quantity indicator.",
+  "subject_group": "Markings and Placards",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Fuel quantity indicator.",
+      "text": "If the unusable fuel supply for any tank exceeds one gallon, or five percent of the tank capacity, whichever is greater, a red arc must be marked on its indicator extending from the calibrated zero reading to the lowest reading obtainable in level flight.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F319A59809F20EAE8525668700719E5F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-50",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Fuel quantity indicator.",
+      "text": "[A red radial line must be marked on each indicator at the calibrated zero reading, as specified in Sec. 23.1337(b)(1).]",
+      "publication_cite": "61 FR 5193",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BC90EE6D87A93D638525668700725C9F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

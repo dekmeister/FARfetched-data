@@ -1,0 +1,31 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "655",
+  "current_grouping": "Basic Equipment",
+  "canonical_title": "Required basic equipment",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Basic Equipment",
+      "title_at_revision": "Required basic 2quipment.",
+      "text": "The following table shows the basic equipment items required for type and airworthiness certification of an airPlane: (a) Flight and navigational instruments, (1) Air-speed indicator (see \u00a7 3.663). (2) Altimeter. (3) Magnetic direction indicator (see \u00a7 3.666). (b) Power-plant instruments\u2014(1) For each engine or tank. (i) Fuel quantity indicator (see \u00a7 3.672). Gi) Oil pressure indicator. (ii) Oil temperature indicator. (iv) Tachometer. (2) For each engine or tank (if required in reference section). (i) Carburetor air temperature indicator (see \u00a7 3.676). Gi) Coolant temperature indicator (if liquid-cooled engines used). qiii) Cylinder head temperature indicator (see \u00a7 3.675). (iv) Fuel pressure indicator (if pumpfed engines used). (vy) Manifold pressure indicator (if altitude engines used). (vi) Oil quantity \u00a7 3.674). indicator (see (ce) Electrical equipment (if required by reference section). (1) Master switch arrangement (see \u00a7 3.688). (2) Adequate source(s) of electrical energy (see \u00a7\u00a7 3.682 and 3.685). (3) Electrical protective devices (see \u00a7 3.690). (d) Miscellaneous equipment. (1) Approved safety belts for all occupants (see \u00a7 3,715). (2) Airplane Flight Manual if required by \u00a7 3.777. INSTRUMENTS; INSTALLATION GENERAL",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3R-5",
+      "grouping_at_time": "Basic Equipment",
+      "title_at_revision": "Required basic equipment.",
+      "text": "TEXT MISSING",
+      "publication_cite": "(Secs. 313(a), 601, 608, 72 Stat. 752, 775, 776; 49 U.S.C. 1354(a), 1421, 1423)",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

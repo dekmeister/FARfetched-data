@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1095",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Carburetor deicing fluid flow rate.",
+  "subject_group": "Induction System",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Carburetor deicing fluid flow rate.",
+      "text": "(a) If a carburetor deicing fluid system is used, it must be able to simultaneously supply each engine with a rate of fluid flow, expressed in pounds per hour, of not less than 2.5 times the square root of the maximum continuous power of the engine. (b) The fluid must be introduced into the air induction system-- (1) Close to, and upstream of, the carburetor; and (2) So that it is equally distributed over the entire cross section of the induction system air passages.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/26DBB4FE4293435985256687006FD819.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

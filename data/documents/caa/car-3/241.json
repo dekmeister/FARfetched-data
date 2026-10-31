@@ -1,0 +1,31 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "241",
+  "current_grouping": "Ground Loads",
+  "canonical_title": "Ground loads",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Ground Loads",
+      "title_at_revision": "Ground loads.",
+      "text": "The loads specified in the following conditions shall be considered as the\n\nexternal loads and inertia forces which would occur in an airplane structure if it were acting as a rigid body. In each of the ground load conditions specified the external reactions shall be placed in equilibrium with the linear and angular inertia forces in a rational or conservative manner.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3-13",
+      "grouping_at_time": "Ground Loads",
+      "title_at_revision": "Ground loads.[The loads specified in the following conditions shall be considered as the external.",
+      "text": "loads and the inertia forces which occur in an airplane structure. ] In each of the ground load conditions specified the external reactions shall be placed in equilibrium with the linear and angular inertia forces in a rational or conservative manner.",
+      "publication_cite": "secs. 601, 603, 52 Stat. 1007, 1009, as amended; 49 U.S.C. 551, 553) By the Civil Aeronautics Board: /s/ M. C. Mulligan M. C. Mulligan Secretary (SEAL) Part 3 last printed November 1, 1949",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

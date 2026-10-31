@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "354",
+  "current_grouping": "Landing Gear Shock Absorbers",
+  "canonical_title": "Limit load factor determination",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Landing Gear Shock Absorbers",
+      "title_at_revision": "Limit load factor determination.",
+      "text": "In determining the limit airplane inertia load factor n from the free\n\ndrop test described above, the following formula shall be used: where nj = the load factor developed in the drop test, i.e., the acceleration (dv/dt) in g\u0092s recorded in the drop test, plus 1.0. The value of n so determined shall not be greater than the limit inertia load factor used in the landing conditions, \u00a7 3.243.\n\n\u2014_A_ Wer Wed",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

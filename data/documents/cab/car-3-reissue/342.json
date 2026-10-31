@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "342",
+  "current_grouping": "Control Systems",
+  "canonical_title": "Proof of strength",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Control Systems",
+      "title_at_revision": "Proof of strength.",
+      "text": "Tests shall\n\nbe conducted to prove compliance with limit load requirements. The direction of test loads shall be such as to produce the most severe loading of the control system structure. The tests Shall include all fittings, pulleys, and brackets used to attach the control system to the primary structure. Analyses or individual load tests shall be conducted to demonstrate compliance with the multiplying factor of safety requirements specified for control system joints subjected to angular motion.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

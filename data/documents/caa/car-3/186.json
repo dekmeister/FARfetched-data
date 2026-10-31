@@ -1,0 +1,31 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "186",
+  "current_grouping": "Symmetrical Flight Conditions (Flaps Retracted)",
+  "canonical_title": "Maneuvering load factors",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Symmetrical Flight Conditions (Flaps Retracted)",
+      "title_at_revision": "Maneuvering load factors.",
+      "text": "3.187 Gust envelope. 3.188 Gust load factors. 3.189 Airplane equilibrium. Flaps Extended Flight Conditions 3.190 Flaps extended flight conditions. Unsymmetrical Flight Conditions 3.191 Unsymmetrical flight conditions. Supplementary Conditions 3.194 Special condition for rear lift truss. 3.195 Engine torque effects. 3.196 Side load on engine mount. Control Surface Loads 3.211 General. 3.212 Pilot effort. 3.213 Trim tab effects. Horizontal Tail Surfaces 3.214 Horizontal tail surfaces. 3.215 Balancing loads. 3.216 Maneuvering loads. 3.214 Horizontal tail surfaces. 3.217 Gust loads. 3.218 Unsymmetrical loads. Vertical Tail Surface 3.219 Maneuvering loads. 3.220 Gust loads. 3.221 Outboard fins. Ailerons, Wing Flaps, Tabs, Etc. 3.222 Ailerons. 3.223 Wing flaps. 3.224 Tabs. 3.225 Special devices. Control System Loads 3.231 Primary flight controls and systems. 3.232 Dual controls. 3.233 Ground gust conditions.\n\n3.234 Secondary controls and systems. Ground Loads 3.241 Ground loads. 3.242 Design weight. 3.243 Load factor for landing conditions. Landing Cases and Attitudes 3.244 Landing cases and attitudes. 3.245 Level landing. 3.246 Tail down. 3.247 One-wheel landing. Ground Roll Conditions 3.248 Braked roll. 3.249 Side load. Tail Wheels 3.250 Supplementary conditions for tail wheels. 3.251 Obstruction load. 3.252 Side load. Nose Wheels 3.253 Supplementary conditions for nose wheels. 3.254 Aft load. 3.255 Forward load. 3.256 Side load. Skiplanes 3.257 Supplementary conditions for skiplanes. Water Loads 3.265 General. Design Weight 3.266 Design weight. Boat Seaplanes 3.267 Local bottom pressures.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    },
+    {
+      "designator": "CAR3-14",
+      "grouping_at_time": "Symmetrical Flight Conditions (Flaps Retracted)",
+      "title_at_revision": "Maneuvering load factors.",
+      "text": "[(a) The positive limit maneuvering load factors shall not be less than the following values:\n\nnel + KLEv... STS WAS where: Ko\u00bb YO WeS1 (for WS <. 16 p.s.ti = 133 - 267 ifor WS > lh p.s.tj iWsjs except that n need not be greater than 3.8 and shall not be less than 2.5.] n = 4.4--------------------------------Category U n = 6.0--------------------------------Category A (b) The negative limit maneuvering load factors shall not be less than -0.4 times the positive load factor for the N and U categories, and shall not be less than -0.5 times the positive load factor for the A category. (c) Lower values of maneuvering load factor may be employed only if it be proven that the airplane embodies features of design which make it impossible to exceed such values in flight. (See also \u00a7 3.106.)",
+      "publication_cite": "secs. 601, 603, 52 Stat. 1007, 1009, as amended, 49 U.S.C. 551, 553) By the Civil Aeronautics Board: /s/ M. C. Mulligan M. C. Mulligan Secretary (SEAL) Part 3 last printed November 1, 1949",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

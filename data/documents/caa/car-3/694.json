@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "694",
+  "current_grouping": "Switches",
+  "canonical_title": "Switches",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Switches",
+      "title_at_revision": "Switches.",
+      "text": "Switches shall be capable of carrying their rated current and shall be of such construction\n\nthat there is sufficient distance or insulating material between current carrying parts and the housing so that vibration in flight will not cause shorting.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

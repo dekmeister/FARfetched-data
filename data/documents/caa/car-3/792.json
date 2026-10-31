@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "792",
+  "current_grouping": "General",
+  "canonical_title": "Airworthiness certificate number",
+  "subject_group": "Identification Data",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "General",
+      "title_at_revision": "Airworthiness certificate number.",
+      "text": "The identifying symbols and registration numbers shall be\n\npermanently affixed to the airplane structure in compliance with \u00a7 43.10 (c) of this chapter.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

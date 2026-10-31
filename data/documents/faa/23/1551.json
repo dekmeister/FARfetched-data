@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1551",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Oil quantity indicator.",
+  "subject_group": "Markings and Placards",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Oil quantity indicator.",
+      "text": "Each oil quantity indicator must be marked in sufficient increments to indicate readily and accurately the quantity of oil.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/ECF2B7529EDA19FB8525668700719D4A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

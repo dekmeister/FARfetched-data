@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "727",
+  "current_grouping": "Hydraulic Systems",
+  "canonical_title": "Tests",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Hydraulic Systems",
+      "title_at_revision": "Tests.",
+      "text": "Hydraulic systems shall be substantiated by proof pressure tests. When proof tested, no part of\n\nthe hydraulic system shall fail, malfunction, or experience a permanent set. The proof load of any system shall be 15 times the maximum operating pressure of that system.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

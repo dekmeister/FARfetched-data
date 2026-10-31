@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "682",
+  "current_grouping": "Batteries",
+  "canonical_title": "Batteries",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Batteries",
+      "title_at_revision": "Batteries.",
+      "text": "When an item of electrical equipment which is essential to the safe operation of the\n\nairplane is installed, the battery required shall have sufficient capacity to supply the electrical power necessary for dependable operation of the connected electrical equipment.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

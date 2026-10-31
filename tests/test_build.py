@@ -8,89 +8,102 @@ from pathlib import Path
 
 import pytest
 
-from build import BuildError, build
-
+from build import REPO_ROOT, SCHEMA_VERSION, BuildError, build, sort_key
 
 # ---------------------------------------------------------------------------
 # helpers
 
 
-def _part_doc(authority: str, part: str, amendments: list[dict]) -> dict:
+def _document(slug: str, ordinals: list[int], issuer: str = "FAA") -> dict:
     return {
-        "authority": authority,
-        "title_number": 14,
-        "part": part,
-        "description": None,
-        "amendments": amendments,
+        "issuer": issuer,
+        "doc_kind": "regulation",
+        "code": f"14 CFR {slug}",
+        "slug": slug,
+        "title": None,
+        "revisions": [
+            {
+                "designator": f"{slug}-{n}",
+                "ordinal": n,
+                "effective_date": f"{1965 + n // 2:04d}-01-01",
+            }
+            for n in ordinals
+        ],
     }
 
 
-def _part_amendment(designator: str, ordinal: int) -> dict:
+def _version(designator: str, **extra: object) -> dict:
     return {
         "designator": designator,
-        "ordinal": ordinal,
-        "effective_date": "1970-01-01",
-    }
-
-
-def _regulation_doc(part: str, section: str, amendments: list[dict]) -> dict:
-    return {
-        "authority": "FAA",
-        "part": part,
-        "section": section,
-        "current_subpart": "A",
-        "canonical_title": f"Dummy §{part}.{section}",
-        "amendments": amendments,
-    }
-
-
-def _section_amendment(designator: str, text: str = "dummy") -> dict:
-    return {
-        "designator": designator,
-        "title_at_amendment": "Dummy title",
-        "text": text,
-        "federal_register_cite": "1 FR 1",
+        "title_at_revision": "Dummy title",
+        "text": f"text at {designator}",
+        "publication_cite": "1 FR 1",
         "source_url": "https://example.com",
+        **extra,
     }
 
 
-def _aircraft_doc(
-    manufacturer: str,
-    model: str,
-    tcds_number: str,
-    cert_entries: list[dict],
+def _provision(slug: str, number: str, ordinals: list[int]) -> dict:
+    return {
+        "issuer": "FAA",
+        "document": slug,
+        "number": number,
+        "current_grouping": "A",
+        "canonical_title": f"Dummy §{slug}.{number}",
+        "versions": [_version(f"{slug}-{n}") for n in ordinals],
+    }
+
+
+def _entry(refs: list[dict], display_order: int = 1, **extra: object) -> dict:
+    return {
+        "display_order": display_order,
+        "entry_type": "regulation",
+        "raw_reference": "verbatim TCDS text",
+        "applicability": None,
+        "applicability_notes": None,
+        "references": refs,
+        **extra,
+    }
+
+
+def _ref(to: str, document: str = "23", **extra: object) -> dict:
+    return {"issuer": "FAA", "document": document, "to": to, **extra}
+
+
+def _aircraft(
+    entries: list[dict], model: str = "DummyModel", tcds: dict | None = None
 ) -> dict:
     return {
-        "manufacturer": manufacturer,
+        "manufacturer": "Dummy Mfg",
         "model_designation": model,
         "common_name": None,
-        "categories": ["transport"],
+        "categories": ["normal"],
         "notes": None,
         "tcb": [
             {
-                "tcds": {"authority": "FAA", "tcds_number": tcds_number},
+                "tcds": tcds or {"issuer": "FAA", "tcds_number": "DUMMY1"},
                 "notes": None,
-                "certification_basis": cert_entries,
+                "certification_basis": entries,
             }
         ],
     }
 
 
-def _stage_data(
+def _stage(
     tmp_path: Path,
-    parts: list[dict],
-    regulations: list[dict],
+    documents: list[dict],
+    provisions: list[dict],
     aircraft: list[dict],
 ) -> Path:
     data = tmp_path / "data"
-    for p in parts:
-        part_dir = data / "regulations" / p["authority"].lower() / p["part"]
-        part_dir.mkdir(parents=True, exist_ok=True)
-        (part_dir / "_part.json").write_text(json.dumps(p))
-    for r in regulations:
-        part_dir = data / "regulations" / r["authority"].lower() / r["part"]
-        part_dir.mkdir(parents=True, exist_ok=True)
-        (part_dir / f"{r['section']}.json").write_text(json.dumps(r))
+    for d in documents:
+        doc_dir = data / "documents" / d["issuer"].lower() / d["slug"]
+        doc_dir.mkdir(parents=True, exist_ok=True)
+        (doc_dir / "_document.json").write_text(json.dumps(d))
+    for p in provisions:
+        doc_dir = data / "documents" / p["issuer"].lower() / p["document"]
+        doc_dir.mkdir(parents=True, exist_ok=True)
+        (doc_dir / f"{p['number']}.json").write_text(json.dumps(p))
     (data / "aircraft").mkdir(parents=True, exist_ok=True)
     for a in aircraft:
         slug = a["model_designation"].replace(" ", "-").lower()
@@ -98,328 +111,446 @@ def _stage_data(
     return data
 
 
+def _resolved(out: Path) -> set[tuple[int, str, str, str | None]]:
+    """(display_order, provision number, designator, paragraph) per resolved row."""
+    with sqlite3.connect(out) as conn:
+        rows = conn.execute(
+            """
+            SELECT e.display_order, p.number, dr.designator, r.paragraph
+            FROM cert_basis_resolved r
+            JOIN cert_basis_entries e ON e.id = r.entry_id
+            JOIN provision_versions pv ON pv.id = r.provision_version_id
+            JOIN provisions p ON p.id = pv.provision_id
+            JOIN document_revisions dr ON dr.id = pv.revision_id
+            """
+        ).fetchall()
+    return set(rows)
+
+
+def _build_basis(tmp_path: Path, provisions: list[dict], entries: list[dict]) -> Path:
+    """Build Part 23 with revisions 0..62, plus one aircraft if `entries`."""
+    data = _stage(
+        tmp_path,
+        [_document("23", list(range(63)))],
+        provisions,
+        [_aircraft(entries)] if entries else [],
+    )
+    out = tmp_path / "cert_basis.sqlite"
+    build(data, out)
+    return out
+
+
+def _basis_fails(tmp_path: Path, provisions: list[dict], entries: list[dict]) -> str:
+    with pytest.raises(BuildError) as ei:
+        _build_basis(tmp_path, provisions, entries)
+    assert not (tmp_path / "cert_basis.sqlite").exists()
+    return str(ei.value)
+
+
 # ---------------------------------------------------------------------------
 # real checked-in data
 
 
+@pytest.fixture(scope="module")
+def real_db(tmp_path_factory: pytest.TempPathFactory) -> Path:
+    # Built once per module; repo_root is function-scoped, so use REPO_ROOT.
+    out = tmp_path_factory.mktemp("real") / "cert_basis.sqlite"
+    build(REPO_ROOT / "data", out)
+    return out
+
+
 class TestRealDataBuild:
-    def test_build_succeeds_and_report_counts(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        report = build(repo_root / "data", out)
-
-        assert out.exists()
-        assert not (tmp_path / "cert_basis.sqlite.new").exists()
-
-        assert report["regulation_parts"] >= 1
-        assert report["amendments"] >= 1
-        assert report["section_amendments"] >= 1
-        assert report["aircraft_models"] == 1
-        assert report["tcb"] == 1
-        # At least 1 row from range expansion + 1 special_condition NULL FK.
-        assert report["cert_basis_entries"] >= 2
-        assert report["unresolved_references"] == []
-
-    def test_built_schema_tables(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        with sqlite3.connect(out) as conn:
-            tables = {
-                r[0]
-                for r in conn.execute(
-                    "SELECT name FROM sqlite_master WHERE type='table'"
+    def test_tables_and_views(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            objects = {
+                (t, n)
+                for t, n in conn.execute(
+                    "SELECT type, name FROM sqlite_master WHERE type IN "
+                    "('table', 'view')"
                 )
             }
-            views = {
-                r[0]
-                for r in conn.execute(
-                    "SELECT name FROM sqlite_master WHERE type='view'"
-                )
-            }
-        expected_tables = {
-            "naa_authorities",
+        assert {n for t, n in objects if t == "view"} == {"latest_versions"}
+        assert {n for t, n in objects if t == "table"} == {
+            "build_info",
+            "issuers",
+            "documents",
+            "document_revisions",
+            "provisions",
+            "provision_versions",
+            "version_actions",
             "manufacturers",
             "categories",
-            "regulation_parts",
-            "regulations",
-            "amendments",
-            "section_amendments",
-            "amendment_actions",
             "aircraft_models",
             "model_categories",
             "tcds",
             "tcb",
             "cert_basis_entries",
+            "cert_basis_refs",
+            "cert_basis_ref_provisions",
+            "cert_basis_ref_skips",
+            "cert_basis_resolved",
         }
-        assert tables == expected_tables
-        assert views == {"latest_amendments"}
 
-    def test_range_expansion_points_at_right_amendment(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        with sqlite3.connect(out) as conn:
-            row = conn.execute(
-                """
-                SELECT a.designator, rp.part, r.section
-                FROM cert_basis_entries cbe
-                JOIN section_amendments sa
-                  ON sa.id = cbe.section_amendment_id
-                JOIN amendments a ON a.id = sa.amendment_id
-                JOIN regulations r ON r.id = sa.regulation_id
-                JOIN regulation_parts rp ON rp.id = r.part_id
-                WHERE r.section = '1301'
-                """
-            ).fetchone()
-        assert row == ("23-7", "23", "1301")
-
-    def test_special_condition_has_null_fk(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        with sqlite3.connect(out) as conn:
+    def test_one_row_per_tcds_line(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
-                "SELECT entry_type, raw_reference, section_amendment_id "
-                "FROM cert_basis_entries "
-                "WHERE section_amendment_id IS NULL"
+                "SELECT display_order, entry_type FROM cert_basis_entries "
+                "ORDER BY display_order"
             ).fetchall()
-        assert len(rows) == 1
-        assert rows[0][0] == "special_condition"
+        assert rows == [(1, "regulation"), (2, "special_condition")]
 
-    def test_latest_amendments_view(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        with sqlite3.connect(out) as conn:
-            rows = conn.execute(
-                "SELECT designator FROM latest_amendments"
-            ).fetchall()
-        assert ("23-7",) in rows
-
-    def test_lookup_tables_populated(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        with sqlite3.connect(out) as conn:
-            authorities = {
-                r[0]
-                for r in conn.execute("SELECT code FROM naa_authorities")
-            }
-            manufacturers = conn.execute(
-                "SELECT COUNT(*) FROM manufacturers"
+    def test_172_basis_resolves_through_23_13(self, real_db: Path) -> None:
+        resolved = _resolved(real_db)
+        assert (1, "1301", "23-7", None) in resolved
+        assert (1, "1", "23-0", None) in resolved
+        with sqlite3.connect(real_db) as conn:
+            latest = conn.execute(
+                "SELECT max(dr.ordinal) FROM cert_basis_resolved r "
+                "JOIN provision_versions pv ON pv.id = r.provision_version_id "
+                "JOIN document_revisions dr ON dr.id = pv.revision_id"
             ).fetchone()[0]
-        assert "FAA" in authorities
-        assert manufacturers >= 1
+        assert latest <= 13
+
+    def test_issuers_carry_succession(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            rows = dict(
+                conn.execute(
+                    "SELECT i.code, s.code FROM issuers i "
+                    "LEFT JOIN issuers s ON s.id = i.successor_id"
+                ).fetchall()
+            )
+        assert rows == {"FAA": None, "CAA": "FAA", "CAB": "FAA", "EASA": None}
+
+    def test_text_missing_flag_matches_sentinel(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            flagged, sentinel = conn.execute(
+                "SELECT sum(text_missing), sum(text = 'TEXT MISSING') "
+                "FROM provision_versions"
+            ).fetchone()
+        assert flagged == sentinel
 
 
 # ---------------------------------------------------------------------------
-# synthetic cases
+# the contract with consumers
 
 
-class TestSingleReference:
-    def test_single_ref_resolves_to_specific_amendment(
-        self, tmp_path: Path
-    ) -> None:
-        parts = [
-            _part_doc(
-                "FAA",
-                "25",
-                [_part_amendment("25-23", 23), _part_amendment("25-41", 41)],
-            )
+class TestContract:
+    @pytest.fixture
+    def db(self, tmp_path: Path) -> Path:
+        return _build_basis(tmp_path, [_provision("23", "1", [0])], [])
+
+    def test_user_version_and_build_info(self, db: Path) -> None:
+        with sqlite3.connect(db) as conn:
+            assert conn.execute("PRAGMA user_version").fetchone()[0] == SCHEMA_VERSION
+            rows = conn.execute(
+                "SELECT schema_version, built_at FROM build_info"
+            ).fetchall()
+        assert len(rows) == 1 and rows[0][0] == SCHEMA_VERSION
+
+    def test_single_file_delete_journal(self, db: Path) -> None:
+        with sqlite3.connect(db) as conn:
+            assert conn.execute("PRAGMA journal_mode").fetchone()[0] == "delete"
+        assert sorted(p.name for p in db.parent.iterdir() if "sqlite" in p.name) == [
+            "cert_basis.sqlite"
         ]
-        regs = [
-            _regulation_doc(
-                "25",
-                "1309",
-                [
-                    _section_amendment("25-23", "text at 25-23"),
-                    _section_amendment("25-41", "text at 25-41"),
-                ],
-            )
-        ]
-        ac = _aircraft_doc(
-            "Dummy Mfg",
-            "DummyModel",
-            "DUMMY1",
-            [
-                {
-                    "display_order": 1,
-                    "entry_type": "regulation",
-                    "raw_reference": "§25.1309 at 25-41",
-                    "applicability_notes": None,
-                    "resolved_references": [
-                        {
-                            "reference_kind": "single",
-                            "authority": "FAA",
-                            "title_number": 14,
-                            "part": "25",
-                            "section": "1309",
-                            "amendment_designator": "25-41",
-                        }
-                    ],
-                }
-            ],
+
+    def test_every_table_is_strict(self, db: Path) -> None:
+        with sqlite3.connect(db) as conn:
+            tables = conn.execute(
+                "SELECT name, strict FROM pragma_table_list "
+                "WHERE type = 'table' AND name NOT LIKE 'sqlite_%'"
+            ).fetchall()
+        assert tables and all(strict for _, strict in tables), tables
+
+    def test_db_rejects_cross_document_version(self, tmp_path: Path) -> None:
+        data = _stage(
+            tmp_path,
+            [_document("23", [0]), _document("25", [0])],
+            [_provision("23", "1", [0])],
+            [],
         )
-        data = _stage_data(tmp_path, parts, regs, [ac])
         out = tmp_path / "cert_basis.sqlite"
         build(data, out)
         with sqlite3.connect(out) as conn:
-            row = conn.execute(
-                """
-                SELECT a.designator
-                FROM cert_basis_entries cbe
-                JOIN section_amendments sa
-                  ON sa.id = cbe.section_amendment_id
-                JOIN amendments a ON a.id = sa.amendment_id
-                """
-            ).fetchone()
-        assert row == ("25-41",)
-
-
-class TestRangeExpansionPostdating:
-    def test_section_post_dating_range_is_skipped(self, tmp_path: Path) -> None:
-        parts = [
-            _part_doc(
-                "FAA",
-                "25",
-                [_part_amendment("25-23", 23), _part_amendment("25-70", 70)],
+            conn.execute("PRAGMA foreign_keys = ON")
+            (doc23, prov), rev25 = (
+                conn.execute("SELECT document_id, id FROM provisions").fetchone(),
+                conn.execute(
+                    "SELECT dr.id FROM document_revisions dr "
+                    "JOIN documents d ON d.id = dr.document_id WHERE d.slug = '25'"
+                ).fetchone()[0],
             )
+            with pytest.raises(sqlite3.IntegrityError):
+                conn.execute(
+                    "INSERT INTO provision_versions (document_id, provision_id, "
+                    "revision_id, title_at_revision, text, provenance) "
+                    "VALUES (?, ?, ?, 't', 'x', 'scraped')",
+                    (doc23, prov, rev25),
+                )
+
+    def test_db_rejects_malformed_date(self, db: Path) -> None:
+        with sqlite3.connect(db) as conn:
+            with pytest.raises(sqlite3.IntegrityError):
+                conn.execute(
+                    "UPDATE document_revisions SET effective_date = '1970-13-01'"
+                )
+
+    def test_provenance_carried_into_db(self, tmp_path: Path) -> None:
+        prov = _provision("23", "1", [])
+        prov["versions"] = [_version("23-0", provenance={"source": "ocr"})]
+        out = _build_basis(tmp_path, [prov], [])
+        with sqlite3.connect(out) as conn:
+            assert conn.execute(
+                "SELECT provenance FROM provision_versions"
+            ).fetchall() == [("ocr",)]
+
+
+@pytest.mark.parametrize(
+    ("number", "key"),
+    [
+        ("175", "000175"),
+        ("1309", "001309"),
+        ("A23", "A000023"),
+        ("4.10", "000004.000010"),
+    ],
+)
+def test_sort_key(number: str, key: str) -> None:
+    assert sort_key(number) == key
+
+
+# ---------------------------------------------------------------------------
+# cert-basis resolution rules
+
+
+class TestResolution:
+    def test_range_takes_latest_version_up_to_to(self, tmp_path: Path) -> None:
+        provs = [
+            _provision("23", "1309", [0, 7, 14]),
+            _provision("23", "9999", [20]),  # post-dates the range: not in basis
         ]
-        regs = [
-            _regulation_doc("25", "1309", [_section_amendment("25-23")]),
-            _regulation_doc("25", "9999", [_section_amendment("25-70")]),
-        ]
-        ac = _aircraft_doc(
-            "Dummy Mfg",
-            "DummyModel",
-            "DUMMY2",
-            [
-                {
-                    "display_order": 1,
-                    "entry_type": "regulation",
-                    "raw_reference": "Part 25 through 25-62",
-                    "applicability_notes": None,
-                    "resolved_references": [
-                        {
-                            "reference_kind": "range",
-                            "authority": "FAA",
-                            "title_number": 14,
-                            "part": "25",
-                            "from_amendment_ordinal": 1,
-                            "to_amendment_ordinal": 62,
-                        }
-                    ],
-                }
-            ],
+        out = _build_basis(tmp_path, provs, [_entry([_ref("23-13")])])
+        assert _resolved(out) == {(1, "1309", "23-7", None)}
+
+    def test_base_revision_is_always_included(self, tmp_path: Path) -> None:
+        # "as amended by 23-1 thru 23-13" still includes text unchanged since 23-0.
+        out = _build_basis(
+            tmp_path, [_provision("23", "1", [0])], [_entry([_ref("23-13")])]
         )
-        data = _stage_data(tmp_path, parts, regs, [ac])
-        out = tmp_path / "cert_basis.sqlite"
-        report = build(data, out)
-        assert report["cert_basis_entries"] == 1
-        assert report["unresolved_references"] == []
+        assert _resolved(out) == {(1, "1", "23-0", None)}
+
+    def test_skipped_revision_falls_back_to_earlier_text(self, tmp_path: Path) -> None:
+        # "23-1 thru 23-38, 23-40": a provision last changed at 23-39 keeps 23-0.
+        provs = [_provision("23", "1", [0, 39]), _provision("23", "2", [0, 39, 40])]
+        out = _build_basis(tmp_path, provs, [_entry([_ref("23-40", skip=["23-39"])])])
+        assert _resolved(out) == {(1, "1", "23-0", None), (1, "2", "23-40", None)}
+
+    def test_scoped_ref_overrides_document_wide(self, tmp_path: Path) -> None:
+        # "... except 23.611 as amended through 23-54"
+        provs = [_provision("23", "611", [0, 50]), _provision("23", "143", [0, 50])]
+        refs = [_ref("23-40"), _ref("23-54", provisions=["611"])]
+        out = _build_basis(tmp_path, provs, [_entry(refs)])
+        assert _resolved(out) == {
+            (1, "611", "23-50", None),
+            (1, "143", "23-0", None),
+        }
+
+    def test_paragraph_ref_adds_a_row(self, tmp_path: Path) -> None:
+        # "23.1309(a) as amended through 23-62, for PED tolerance only"
+        refs = [_ref("23-54"), _ref("23-62", provisions=["1309"], paragraph="(a)")]
+        out = _build_basis(
+            tmp_path, [_provision("23", "1309", [0, 49, 62])], [_entry(refs)]
+        )
+        assert _resolved(out) == {
+            (1, "1309", "23-49", None),
+            (1, "1309", "23-62", "(a)"),
+        }
+
+    def test_paragraph_ref_on_same_version_is_dropped(self, tmp_path: Path) -> None:
+        refs = [_ref("23-54"), _ref("23-62", provisions=["1309"], paragraph="(a)")]
+        out = _build_basis(
+            tmp_path, [_provision("23", "1309", [0, 49])], [_entry(refs)]
+        )
+        assert _resolved(out) == {(1, "1309", "23-49", None)}
+
+    def test_exclude_removes_from_document_wide(self, tmp_path: Path) -> None:
+        provs = [_provision("23", "1", [0]), _provision("23", "1419", [0])]
+        refs = [
+            _ref("23-13"),
+            {
+                "issuer": "FAA",
+                "document": "23",
+                "effect": "exclude",
+                "provisions": ["1419"],
+            },
+        ]
+        out = _build_basis(tmp_path, provs, [_entry(refs)])
+        assert _resolved(out) == {(1, "1", "23-0", None)}
+
+    def test_entries_resolve_independently(self, tmp_path: Path) -> None:
+        # Two TCDS lines (e.g. two S/N ranges) may hold one provision at
+        # different levels; overrides never cross lines.
+        entries = [
+            _entry([_ref("23-13")], display_order=1, applicability="S/N 1-99"),
+            _entry([_ref("23-62")], display_order=2, applicability="S/N 100 and on"),
+        ]
+        out = _build_basis(tmp_path, [_provision("23", "1", [0, 50])], entries)
+        assert _resolved(out) == {(1, "1", "23-0", None), (2, "1", "23-50", None)}
+
+    def test_refs_and_children_are_stored(self, tmp_path: Path) -> None:
+        refs = [_ref("23-40", skip=["23-39"]), _ref("23-54", provisions=["1"])]
+        out = _build_basis(tmp_path, [_provision("23", "1", [0])], [_entry(refs)])
+        with sqlite3.connect(out) as conn:
+            counts = [
+                conn.execute(f"SELECT count(*) FROM {t}").fetchone()[0]
+                for t in (
+                    "cert_basis_refs",
+                    "cert_basis_ref_skips",
+                    "cert_basis_ref_provisions",
+                )
+            ]
+        assert counts == [2, 1, 1]
+
+    def test_entry_without_references_is_kept(self, tmp_path: Path) -> None:
+        entry = _entry([], entry_type="special_condition")
+        out = _build_basis(tmp_path, [_provision("23", "1", [0])], [entry])
+        with sqlite3.connect(out) as conn:
+            assert conn.execute(
+                "SELECT entry_type FROM cert_basis_entries"
+            ).fetchall() == [("special_condition",)]
+        assert _resolved(out) == set()
+
+
+class TestResolutionFailures:
+    PROVS = [_provision("23", "1", [0, 50]), _provision("23", "2", [0])]
+
+    @pytest.mark.parametrize(
+        ("refs", "message"),
+        [
+            ([_ref("23-99")], "unknown revision '23-99'"),
+            ([_ref("23-40", skip=["23-99"])], "unknown skip revision '23-99'"),
+            ([_ref("23-40", skip=["23-40"])], "not earlier than to"),
+            ([_ref("23-40", provisions=["1234"])], "unknown provision 23.1234"),
+            ([_ref("25-1", document="25")], "unknown document FAA/25"),
+            ([_ref("23-62"), _ref("23-13")], "two document-wide refs"),
+            (
+                [_ref("23-62", provisions=["1"]), _ref("23-13", provisions=["1"])],
+                "two scoped refs",
+            ),
+            (
+                [
+                    _ref("23-62", provisions=["1"]),
+                    {
+                        "issuer": "FAA",
+                        "document": "23",
+                        "effect": "exclude",
+                        "provisions": ["1"],
+                    },
+                ],
+                "both excluded and included",
+            ),
+            (
+                [
+                    {
+                        "issuer": "FAA",
+                        "document": "23",
+                        "effect": "exclude",
+                        "provisions": ["1"],
+                    }
+                ],
+                "removes nothing",
+            ),
+        ],
+    )
+    def test_fails_loud(self, tmp_path: Path, refs: list[dict], message: str) -> None:
+        assert message in _basis_fails(tmp_path, self.PROVS, [_entry(refs)])
+
+    def test_include_resolving_to_nothing_fails(self, tmp_path: Path) -> None:
+        provs = [_provision("23", "1", [50])]
+        message = _basis_fails(tmp_path, provs, [_entry([_ref("23-13")])])
+        assert "resolves to no provisions" in message
+
+
+# ---------------------------------------------------------------------------
+# fail-loud build checks
 
 
 class TestBuildFailures:
-    def test_unresolvable_single_ref_fails(self, tmp_path: Path) -> None:
-        parts = [_part_doc("FAA", "25", [_part_amendment("25-23", 23)])]
-        regs = [_regulation_doc("25", "1309", [_section_amendment("25-23")])]
-        ac = _aircraft_doc(
-            "Dummy Mfg",
-            "DummyModel",
-            "BADREF",
-            [
-                {
-                    "display_order": 1,
-                    "entry_type": "regulation",
-                    "raw_reference": "§25.1309 at 25-99",
-                    "applicability_notes": None,
-                    "resolved_references": [
-                        {
-                            "reference_kind": "single",
-                            "authority": "FAA",
-                            "title_number": 14,
-                            "part": "25",
-                            "section": "1309",
-                            "amendment_designator": "25-99",
-                        }
-                    ],
-                }
-            ],
+    def test_undeclared_revision_fails(self, tmp_path: Path) -> None:
+        data = _stage(
+            tmp_path, [_document("25", [23])], [_provision("25", "1309", [99])], []
         )
-        data = _stage_data(tmp_path, parts, regs, [ac])
-        with pytest.raises(BuildError) as ei:
-            build(data, tmp_path / "cert_basis.sqlite")
-        assert "25-99" in str(ei.value)
-        assert not (tmp_path / "cert_basis.sqlite").exists()
-        assert not (tmp_path / "cert_basis.sqlite.new").exists()
-
-    def test_range_over_empty_part_fails(self, tmp_path: Path) -> None:
-        parts = [_part_doc("FAA", "25", [_part_amendment("25-23", 23)])]
-        regs = [_regulation_doc("25", "1309", [_section_amendment("25-23")])]
-        ac = _aircraft_doc(
-            "Dummy Mfg",
-            "DummyModel",
-            "BADRNG",
-            [
-                {
-                    "display_order": 1,
-                    "entry_type": "regulation",
-                    "raw_reference": "Part 23 through 23-10",
-                    "applicability_notes": None,
-                    "resolved_references": [
-                        {
-                            "reference_kind": "range",
-                            "authority": "FAA",
-                            "title_number": 14,
-                            "part": "23",
-                            "from_amendment_ordinal": 1,
-                            "to_amendment_ordinal": 10,
-                        }
-                    ],
-                }
-            ],
-        )
-        data = _stage_data(tmp_path, parts, regs, [ac])
-        with pytest.raises(BuildError) as ei:
-            build(data, tmp_path / "cert_basis.sqlite")
-        assert "23" in str(ei.value)
-
-    def test_section_with_undeclared_amendment_fails(
-        self, tmp_path: Path
-    ) -> None:
-        parts = [_part_doc("FAA", "25", [_part_amendment("25-23", 23)])]
-        regs = [_regulation_doc("25", "1309", [_section_amendment("25-99")])]
-        data = _stage_data(tmp_path, parts, regs, [])
         with pytest.raises(BuildError) as ei:
             build(data, tmp_path / "cert_basis.sqlite")
         assert "25-99" in str(ei.value)
 
-    def test_validation_failure_fails_build_before_sqlite(
-        self, tmp_path: Path
-    ) -> None:
-        data = tmp_path / "data"
-        part_dir = data / "regulations" / "faa" / "25"
-        part_dir.mkdir(parents=True)
-        (data / "aircraft").mkdir(parents=True)
-        # Invalid section: missing canonical_title.
-        (part_dir / "1309.json").write_text(
-            json.dumps(
-                {
-                    "authority": "FAA",
-                    "part": "25",
-                    "section": "1309",
-                    "current_subpart": "F",
-                    "amendments": [_section_amendment("25-23")],
-                }
-            )
+    def test_duplicate_version_names_the_file(self, tmp_path: Path) -> None:
+        # The CAR 3 §3.735 case: one revision listed twice in one provision.
+        prov = _provision("23", "735", [0, 0])
+        data = _stage(tmp_path, [_document("23", [0])], [prov], [])
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "cert_basis.sqlite")
+        assert "735.json" in str(ei.value)
+        assert "UNIQUE constraint failed" in str(ei.value)
+
+    def test_duplicate_display_order_fails(self, tmp_path: Path) -> None:
+        entries = [_entry([], display_order=1), _entry([], display_order=1)]
+        assert "UNIQUE constraint failed" in _basis_fails(
+            tmp_path, [_provision("23", "1", [0])], entries
         )
+
+    def test_future_action_date_fails(self, tmp_path: Path) -> None:
+        # A two-digit year read with strptime's %y pivot: 3/25/64 -> 2064.
+        prov = _provision("23", "1", [])
+        prov["versions"] = [
+            _version("23-0", actions=[{"type": "nprm", "issued_on": "2064-03-25"}])
+        ]
+        message = _basis_fails(tmp_path, [prov], [])
+        assert "version_actions.issued_on" in message and "2064-03-25" in message
+
+    def test_conflicting_tcds_metadata_fails(self, tmp_path: Path) -> None:
+        tcds = {"issuer": "FAA", "tcds_number": "3A12", "revision": "42"}
+        data = _stage(
+            tmp_path,
+            [_document("23", [0])],
+            [_provision("23", "1", [0])],
+            [
+                _aircraft([_entry([])], model="172", tcds=tcds),
+                _aircraft([_entry([])], model="172A", tcds={**tcds, "revision": "43"}),
+            ],
+        )
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "cert_basis.sqlite")
+        assert "TCDS 3A12 metadata" in str(ei.value)
+
+    def test_shared_tcds_with_same_metadata_is_fine(self, tmp_path: Path) -> None:
+        tcds = {"issuer": "FAA", "tcds_number": "3A12", "revision": "42"}
+        data = _stage(
+            tmp_path,
+            [_document("23", [0])],
+            [_provision("23", "1", [0])],
+            [
+                _aircraft([_entry([])], model="172", tcds=tcds),
+                _aircraft([_entry([])], model="172A", tcds=tcds),
+            ],
+        )
+        report = build(data, tmp_path / "cert_basis.sqlite")
+        assert report["tables"]["tcds"] == 1
+        assert report["tables"]["tcb"] == 2
+
+    def test_path_must_match_content(self, tmp_path: Path) -> None:
+        data = _stage(
+            tmp_path, [_document("23", [0])], [_provision("23", "1", [0])], []
+        )
+        wrong = data / "documents" / "faa" / "23" / "2.json"
+        (data / "documents" / "faa" / "23" / "1.json").rename(wrong)
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "cert_basis.sqlite")
+        assert "expected at documents/faa/23/1.json" in str(ei.value)
+
+    def test_validation_failure_fails_build_before_sqlite(self, tmp_path: Path) -> None:
+        prov = _provision("25", "1309", [23])
+        del prov["canonical_title"]
+        data = _stage(tmp_path, [_document("25", [23])], [prov], [])
         with pytest.raises(BuildError):
             build(data, tmp_path / "cert_basis.sqlite")
         assert not (tmp_path / "cert_basis.sqlite").exists()
@@ -427,20 +558,18 @@ class TestBuildFailures:
 
 
 class TestAtomicWrite:
-    def test_successful_build_leaves_no_new_file(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
+    def test_rebuild_overwrites_and_clears_stale_wal(self, tmp_path: Path) -> None:
+        data = _stage(
+            tmp_path, [_document("23", [0])], [_provision("23", "1", [0])], []
+        )
         out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
+        build(data, out)
+        # Sidecars left by an old WAL-mode build must not survive next to the
+        # new file, or SQLite could replay a stale WAL into it.
+        stale = [out.with_name(out.name + s) for s in ("-wal", "-shm")]
+        for p in stale:
+            p.write_bytes(b"stale")
+        build(data, out)
         assert out.exists()
         assert not out.with_suffix(out.suffix + ".new").exists()
-
-    def test_rebuild_overwrites_atomically(
-        self, repo_root: Path, tmp_path: Path
-    ) -> None:
-        out = tmp_path / "cert_basis.sqlite"
-        build(repo_root / "data", out)
-        first_mtime = out.stat().st_mtime_ns
-        build(repo_root / "data", out)
-        assert out.exists()
-        assert out.stat().st_mtime_ns >= first_mtime
+        assert not any(p.exists() for p in stale)

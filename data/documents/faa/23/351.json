@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "351",
+  "current_grouping": "Structure",
+  "canonical_title": "Yawing conditions.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Yawing conditions.",
+      "text": "The airplane must be designed for yawing loads on the vertical tail surfaces resulting from the loads specified in Secs. 23.441 through 23.445.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/53DAF63E255A553B85256687006CB689.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-42",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Yawing conditions.",
+      "text": "[The airplane must be designed for yawing loads on the vertical surfaces resulting from the loads specified in Secs. 23.441 through 23.445.]",
+      "publication_cite": "56 FR 352",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2135C53FA344A47685256687006CF445.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-5",
+          "issued_on": "1989-02-23",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25811",
+          "issued_on": "1990-12-21",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

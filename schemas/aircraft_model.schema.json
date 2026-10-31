@@ -17,9 +17,23 @@
     "model_designation": { "type": "string", "minLength": 1 },
     "common_name": { "type": ["string", "null"] },
     "categories": {
+      "description": "Must match _CATEGORY_NAMES in build.py.",
       "type": "array",
       "minItems": 1,
-      "items": { "type": "string", "minLength": 1 },
+      "items": {
+        "enum": [
+          "transport",
+          "normal",
+          "utility",
+          "acrobatic",
+          "commuter",
+          "restricted",
+          "limited",
+          "provisional",
+          "primary",
+          "special"
+        ]
+      },
       "uniqueItems": true
     },
     "notes": { "type": ["string", "null"] },
@@ -47,23 +61,13 @@
     "tcds": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["authority", "tcds_number"],
+      "required": ["issuer", "tcds_number"],
       "properties": {
-        "authority": { "enum": ["FAA"] },
+        "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
         "tcds_number": { "type": "string", "minLength": 1 },
         "revision": { "type": ["string", "null"] },
-        "revision_date": {
-          "oneOf": [
-            { "type": "string", "format": "date" },
-            { "type": "null" }
-          ]
-        },
-        "source_url": {
-          "oneOf": [
-            { "type": "string", "format": "uri" },
-            { "type": "null" }
-          ]
-        }
+        "revision_date": { "$ref": "common.schema.json#/$defs/date_or_null" },
+        "source_url": { "$ref": "common.schema.json#/$defs/uri_or_null" }
       }
     },
     "entry": {
@@ -73,8 +77,9 @@
         "display_order",
         "entry_type",
         "raw_reference",
+        "applicability",
         "applicability_notes",
-        "resolved_references"
+        "references"
       ],
       "properties": {
         "display_order": { "type": "integer", "minimum": 1 },
@@ -88,75 +93,59 @@
           ]
         },
         "raw_reference": { "type": "string", "minLength": 1 },
+        "applicability": { "type": ["string", "null"] },
         "applicability_notes": { "type": ["string", "null"] },
-        "resolved_references": {
+        "references": {
           "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["reference_kind"],
-            "properties": {
-              "reference_kind": { "enum": ["range", "single"] }
-            },
-            "allOf": [
-              {
-                "if": {
-                  "properties": { "reference_kind": { "const": "range" } },
-                  "required": ["reference_kind"]
-                },
-                "then": { "$ref": "#/$defs/range_ref" }
-              },
-              {
-                "if": {
-                  "properties": { "reference_kind": { "const": "single" } },
-                  "required": ["reference_kind"]
-                },
-                "then": { "$ref": "#/$defs/single_ref" }
-              }
-            ]
-          }
+          "items": { "$ref": "#/$defs/reference" }
         }
       }
     },
-    "range_ref": {
+    "reference": {
+      "description": "One interpretation clause. No `provisions` = the whole document. Include refs need `to`; the base revision is always included.",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "reference_kind",
-        "authority",
-        "title_number",
-        "part",
-        "from_amendment_ordinal",
-        "to_amendment_ordinal"
-      ],
+      "required": ["issuer", "document"],
       "properties": {
-        "reference_kind": { "const": "range" },
-        "authority": { "enum": ["FAA"] },
-        "title_number": { "type": "integer", "minimum": 1 },
-        "part": { "type": "string", "minLength": 1 },
-        "from_amendment_ordinal": { "type": "integer", "minimum": 0 },
-        "to_amendment_ordinal": { "type": "integer", "minimum": 0 }
-      }
-    },
-    "single_ref": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "reference_kind",
-        "authority",
-        "title_number",
-        "part",
-        "section",
-        "amendment_designator"
-      ],
-      "properties": {
-        "reference_kind": { "const": "single" },
-        "authority": { "enum": ["FAA"] },
-        "title_number": { "type": "integer", "minimum": 1 },
-        "part": { "type": "string", "minLength": 1 },
-        "section": { "type": "string", "minLength": 1 },
-        "amendment_designator": {
-          "type": "string",
-          "pattern": "^[A-Za-z0-9]+-[0-9]+$"
+        "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
+        "document": { "$ref": "common.schema.json#/$defs/slug" },
+        "to": { "$ref": "common.schema.json#/$defs/designator" },
+        "skip": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "common.schema.json#/$defs/designator" }
+        },
+        "provisions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "paragraph": { "type": "string", "minLength": 1 },
+        "effect": { "enum": ["include", "exclude"] }
+      },
+      "if": {
+        "properties": { "effect": { "const": "exclude" } },
+        "required": ["effect"]
+      },
+      "then": {
+        "required": ["provisions"],
+        "not": {
+          "anyOf": [
+            { "required": ["to"] },
+            { "required": ["skip"] },
+            { "required": ["paragraph"] }
+          ]
+        }
+      },
+      "else": {
+        "required": ["to"],
+        "dependentSchemas": {
+          "paragraph": {
+            "required": ["provisions"],
+            "properties": { "provisions": { "maxItems": 1 } }
+          }
         }
       }
     }

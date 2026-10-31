@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "685",
+  "current_grouping": "Generators",
+  "canonical_title": "Generator",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Generators",
+      "title_at_revision": "Generator.",
+      "text": "Generators shall\n\nbe capable of delivering their continuous rated power.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

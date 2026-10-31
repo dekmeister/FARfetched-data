@@ -1,7 +1,59 @@
 # Review: SQLite schema and JSON data contract (2026-10-31)
 
-**Status:** Proposed. Not yet implemented. Nothing in `build.py`, `schemas/`,
-`data/` or `tools/` has been changed as part of this review.
+**Status:** Implemented 2026-10-31, trimmed (schema version 1). The files
+below are the review as written; the implementation differs where noted
+here, and [../../README.md](../../README.md) is the contract as built.
+
+## Implementation record
+
+Findings were re-checked against the data at `ec5fe36` (about 1,150 files,
+not the 88 sections reviewed) before implementing.
+
+**Implemented:** F-01, F-02, F-03 (three-layer cert basis and resolution
+rules), F-04, F-16, F-18 (generic issuer → document → revision → provision
+model; `CAA (FAA)` → `CAA` with successor FAA), F-07 (`Initial Adoption`
+removed; `text_missing` generated column), F-08, F-09 (composite FKs;
+`title_number` folded into `documents.code`), F-10 to F-13 (fail-loud
+fixes; closed issuer and category sets), F-14 (STRICT tables, date
+CHECKs, build-time future-date check; the `%y` pivot bug fixed in
+`tools/regulations/faa/extract.py` and `tools/common/drs.py`, and 662
+2060s dates corrected by the migration), F-15 (designators, not ordinals),
+F-17 partly (`sort_key` only), F-19, F-20, F-21 (DELETE journal mode),
+F-23, F-25.
+
+**Changed from the proposal:**
+- No `ref_kind` and no `from` on references. "As amended by 23-1 thru
+  23-38" always includes the base revision. With an explicit `from:
+  "23-1"`, rule 3 would have silently dropped every provision unchanged
+  since 23-0. Every ref is `{issuer, document, to, skip?, provisions?,
+  paragraph?, effect?}`.
+- Overrides resolve within one cert-basis entry (one TCDS line), not within
+  a TCB + applicability conflict group (Q-02b).
+- `cert_basis_ref_provisions` and `cert_basis_ref_skips` carry
+  `document_id` so their FKs are same-document too, and
+  `cert_basis_resolved.via_ref_id` is constrained to the same entry.
+- Two document-wide refs that disagree, and an exclude that removes
+  nothing, are also build failures.
+
+**Rejected:** F-06 / P-05. Actions stay per provision version
+(`version_actions`). DRS records them per section, and 16 of 77 amendments
+had differing per-section lists, some legitimately (e.g. 23-59 on §23.905
+vs §23.907).
+
+**Deferred:** F-22 / Q-03 repeal and `[Reserved]` (needed before 23-64),
+F-17 `parent_id` (until a hierarchical document arrives), P-07 / Q-07
+`provision_relations`, F-24 / Q-06 per-TCDS files (decide before a second
+model on an existing TCDS), Q-04 structured serial applicability,
+`document_revisions.cancelled_on`.
+
+**Found during implementation:** `input/regs.csv` lists CAR 3 §3.735 twice
+per series (under "General" and "Limitations"), so `car-3/735.json` and
+`car-3-reissue/735.json` held duplicate base versions. The "Limitations"
+copy was removed (text unchanged, provenance stays `ocr`), and
+`tools/regulations/car/emit.py` now drops identical duplicates with a
+warning and fails on differing ones. Also, jsonschema's `format: uri` is not
+enforced without the optional `rfc3987` package, so URLs are now checked by
+an `^https?://` pattern.
 
 **Scope:** the SQLite schema emitted by `build.py`, the three JSON Schemas in
 `schemas/`, and the documentation of both in `README.md` and `plan.md`.

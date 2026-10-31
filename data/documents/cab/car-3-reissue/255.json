@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "255",
+  "current_grouping": "Nose Wheels",
+  "canonical_title": "Forward load",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Nose Wheels",
+      "title_at_revision": "Forward load.",
+      "text": "components at axle: Vertical, 2.25 times static load on wheel, Forward, 0.4 times vertical load.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

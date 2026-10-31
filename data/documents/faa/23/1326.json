@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1326",
+  "current_grouping": "Equipment",
+  "canonical_title": "Pitot heat indication systems.",
+  "subject_group": "Instruments: Installation",
+  "versions": [
+    {
+      "designator": "23-49",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Pitot heat indication systems.",
+      "text": "[If a flight instrument pitot heating system is installed to meet the requirements specified in Sec. 23.1323(d), an indication system must be provided to indicate to the flight crew when that pitot heating system is not operating. The indication system must comply with the following requirements: (a) The indication provided must incorporate an amber light that is in clear view of a flightcrew member. (b) The indication provided must be designed to alert the flight crew if either of the following conditions exist: (1) The pitot heating system is switched &quot;off.&quot; (2) The pitot heating system is switched &quot;on&quot; and any pitot tube heating element is inoperative.]",
+      "publication_cite": "61 FR 5169",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D7BB33A065F65BFE8525668700724562.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-21",
+          "issued_on": "1994-07-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27806",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

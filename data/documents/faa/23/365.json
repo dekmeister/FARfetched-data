@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "365",
+  "current_grouping": "Structure",
+  "canonical_title": "Pressurized cabin loads.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Pressurized cabin loads.",
+      "text": "For each pressurized compartment, the following apply: (a) The airplane structure must be strong enough to withstand the flight loads combined with pressure differential loads from zero up to the maximum relief valve setting. (b) The external pressure distribution in flight, and any stress concentrations, must be accounted for. (c) If landings may be made, with the cabin pressurized, landing loads must be combined with pressure differential loads from zero up to the maximum allowed during landing. (d) The airplane structure must be strong enough to withstand the pressure differential loads corresponding to the maximum relief valve setting multiplied by a factor of 1.33, omitting other loads. (e) If a pressurized cabin has two or more compartments separated by bulkheads or a floor, the primary structure must be designed for the effects of sudden release of pressure in any compartment with external doors or windows. This condition must be investigated for the effects of failure of the largest opening in the compartment. The effects of intercompartmental venting may be considered.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/90B6F0804E2C34D285256687006CB96E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "73",
+  "current_grouping": "Weight Range and Center of Gravity",
+  "canonical_title": "Empty weight",
+  "subject_group": "Flight Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Weight Range and Center of Gravity",
+      "title_at_revision": "Empty weight.",
+      "text": "The empty weight and corresponding center of gravity location shall\n\ninclude all fixed ballast, the unusable fuel supply (see \u00a7 3.437), undrainable oil, full engine coolant, and hydraulic fluid. The weight and location of items of equipment installed when the airplane is weighed shall be noted in the Airplane Flight Manual.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

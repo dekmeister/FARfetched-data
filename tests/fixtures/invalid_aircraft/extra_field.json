@@ -2,22 +2,34 @@
   "manufacturer": "The Boeing Company",
   "model_designation": "737-800",
   "common_name": null,
-  "categories": ["transport"],
+  "categories": [
+    "transport"
+  ],
   "notes": null,
-  "secret_field": "nope",
   "tcb": [
     {
-      "tcds": { "authority": "FAA", "tcds_number": "A16WE" },
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A16WE"
+      },
       "notes": null,
       "certification_basis": [
         {
           "display_order": 1,
-          "entry_type": "special_condition",
-          "raw_reference": "SC 25-123",
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25 as amended by Amendments 25-1 through 25-62",
+          "applicability": null,
           "applicability_notes": null,
-          "resolved_references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-62"
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "secret_field": "nope"
 }

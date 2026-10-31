@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "447-A",
+  "current_grouping": "Fuel Tanks",
+  "canonical_title": "Fuel tank vents",
+  "subject_group": "Powerplant Installations \u2013 Reciprocating Engines",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Fuel Tanks",
+      "title_at_revision": "Fuel tank vents.",
+      "text": "Provision shall be made to prevent excessive loss of fuel during acrobatic\n\nmaneuvers including short periods of inverted flight. It shall not be possible for fuel to siphon from the vent when normal flight has been resumed after having executed any acrobatic maneuver for which the airplane is intended.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

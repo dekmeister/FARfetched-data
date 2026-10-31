@@ -9,7 +9,7 @@
   "tcb": [
     {
       "tcds": {
-        "authority": "FAA",
+        "issuer": "FAA",
         "tcds_number": "3A12",
         "revision": "42",
         "revision_date": "1969-09-14",
@@ -21,24 +21,23 @@
           "display_order": 1,
           "entry_type": "regulation",
           "raw_reference": "14 CFR Part 23 as amended by Amendments 23-0 through 23-13",
+          "applicability": null,
           "applicability_notes": null,
-          "resolved_references": [
+          "references": [
             {
-              "reference_kind": "range",
-              "authority": "FAA",
-              "title_number": 14,
-              "part": "23",
-              "from_amendment_ordinal": 1,
-              "to_amendment_ordinal": 13
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-13"
             }
           ]
         },
         {
           "display_order": 2,
           "entry_type": "special_condition",
-          "raw_reference": "Special Conditions: Small Airplane; Cessna Model 172 — Electronic Engine Control",
+          "raw_reference": "Special Conditions: Small Airplane; Cessna Model 172 \u2014 Electronic Engine Control",
+          "applicability": null,
           "applicability_notes": null,
-          "resolved_references": []
+          "references": []
         }
       ]
     }

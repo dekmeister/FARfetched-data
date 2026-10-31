@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "651",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Proof of strength.",
+  "subject_group": "Control Surfaces",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Proof of strength.",
+      "text": "(a) Limit load tests of control surfaces are required. These tests must include the horn or fitting to which the control system is attached. (b) In structural analyses, rigging loads due to wire bracing must be accounted for in a rational or conservative manner.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/438E695B0558FECE85256687006D8519.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

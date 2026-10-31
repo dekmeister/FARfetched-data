@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "711",
+  "current_grouping": "Safety Equipment",
+  "canonical_title": "Marking",
+  "subject_group": "Equipment",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Safety Equipment",
+      "title_at_revision": "Marking.",
+      "text": "Required safety equipment which the crew is expected to operate at a time of emergency,\n\nsuch as flares and automatic life raft releases, shall be readily accessible and plainly marked as to its method of operation. When such equipment is carried in lockers, compartments, or other storage places, such storage places shall be marked for the benefit of passengers and crew.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

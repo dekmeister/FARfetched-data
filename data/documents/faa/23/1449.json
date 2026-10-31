@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1449",
+  "current_grouping": "Equipment",
+  "canonical_title": "Means for determining use of oxygen.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "23-9",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Means for determining use of oxygen.",
+      "text": "[There must be a means to allow the crew to determine whether oxygen is being delivered to the dispensing equipment.]",
+      "publication_cite": "35 FR 6387",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8D2EB990D3060717852566870071C664.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-30",
+          "issued_on": "1967-07-11",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8281",
+          "issued_on": "1970-04-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

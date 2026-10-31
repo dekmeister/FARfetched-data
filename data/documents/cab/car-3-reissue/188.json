@@ -1,0 +1,20 @@
+{
+  "issuer": "CAB",
+  "document": "car-3-reissue",
+  "number": "188",
+  "current_grouping": "Symmetrical Flight Conditions (Flaps Retracted)",
+  "canonical_title": "Gust load factors",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3R-0",
+      "grouping_at_time": "Symmetrical Flight Conditions (Flaps Retracted)",
+      "title_at_revision": "Gust load factors.",
+      "text": "In applying the gust requirements, the gust load\n\nfactors shall be computed by the following formula: KUuVm 575 (W/S) where: k=} (w/syr (for W/S<16 p. s. f.) = 1.33 2.67 .(for W/S > 16p.s.i.) ~~(wW/S)37 U=nominal gust veloctty, f. p. 8. (Note that the \u201ceffective sharpedged gust\u201d equals KU.) V=uatlrplane speed, m. p. h. m= slope of ft curve, C;, per radian, corrected for aspect ratio. W/S= wing loading, p. s. f.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

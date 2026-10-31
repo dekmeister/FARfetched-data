@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1015",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Oil tank tests.",
+  "subject_group": "Oil System",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil tank tests.",
+      "text": "Each oil tank must be tested under Sec. 23.965, except that-- (a) The applied pressure must be five p.s.i. for the tank construction instead of the pressures specified in Sec. 23.965(a); and (b) For a tank with a nonmetallic liner the test fluid must be oil rather than fuel as specified in Sec. 23.965(d), and the slosh test on a specimen liner must be conducted with the oil at 250\ufffd F.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3058CEE0453D3AA885256687006FCA17.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-15",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil tank tests.",
+      "text": "Each oil tank must be tested under Sec. 23.965, except that-- (a) The applied pressure must be five p.s.i. for the tank construction instead of the pressures specified in Sec. 23.965(a); (b) For a tank with a nonmetallic liner the test fluid must be oil rather than fuel as specified in Sec. 23.965(d), and the slosh test on a specimen liner must be conducted with the oil at 250\ufffd F; [and (c) For pressurized tanks used with a turbine engine, the test pressure may not be less than 5 p.s.i. plus the maximum operating pressure of the tank.]",
+      "publication_cite": "39 FR 35460",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6E7CC2FE0E91560C852566870070277A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-12",
+          "issued_on": "1971-04-26",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11010",
+          "issued_on": "1974-09-20",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

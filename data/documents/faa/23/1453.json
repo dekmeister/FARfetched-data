@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1453",
+  "current_grouping": "Equipment",
+  "canonical_title": "Protection of oxygen equipment from rupture.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "23-49",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Protection of oxygen equipment from rupture.",
+      "text": "[(a) Each element of the oxygen system must have sufficient strength to withstand the maximum pressure and temperature, in combination with any externally applied loads arising from consideration of limit structural loads, that may be acting on that part of the system. (b) Oxygen pressure sources and the lines between the source and the shutoff means must be: (1) Protected from unsafe temperatures; and (2) Located where the probability and hazard of rupture in a crash landing are minimized.]",
+      "publication_cite": "61 FR 5170",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/03EDAD4558D1DC0C85256687007255CA.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-21",
+          "issued_on": "1994-07-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27806",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

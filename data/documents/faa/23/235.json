@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "235",
+  "current_grouping": "Flight",
+  "canonical_title": "Operation on unpaved surfaces.",
+  "subject_group": "Ground and Water Handling Characteristics",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Taxiing condition.",
+      "text": "The shock-absorbing mechanism may not damage the structure of the airplane when the airplane is taxied on the roughest ground that may reasonably be expected in normal operation.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/14E210B98B5F081985256687006CA57B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Taxiing, [takeoff, and landing condition.]",
+      "text": "[(a) The airplane must be demonstrated to have satisfactory characteristics and the shock-absorbing mechanism must not damage the structure of the airplane when the airplane is taxied on the roughest ground that may be reasonably expected in normal operation, and when takeoffs and landings are performed on unpaved runways having the roughest surface that may reasonably be expected in normal operation. (b) A wave height, demonstrated to be safe for operation, and any necessary water handling procedures for seaplanes and amphibians, must be established.]",
+      "publication_cite": "58 FR 42156",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8B17DBA69A8089E885256687006CFB59.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-50",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Operation on unpaved surfaces.",
+      "text": "[The airplane must be demonstrated to have satisfactory characteristics and the shock-absorbing mechanism must not damage the structure of the airplane when the airplane is taxied on the roughest ground that may reasonably be expected in normal operation and when takeoffs and landings are performed on unpaved runways having the roughest surface that may reasonably be expected in normal operation.]",
+      "publication_cite": "61 FR 5192",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AD3E739E63FCACEC85256687006D077C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

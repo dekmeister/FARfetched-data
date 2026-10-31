@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "31",
+  "current_grouping": "Flight",
+  "canonical_title": "Removable ballast.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Removable ballast.",
+      "text": "Removable ballast may be used in showing compliance with the flight requirements of this subpart, if-- (a) The place for carrying ballast is properly designed and installed, and is marked under Sec. 23.1557; and (b) The Airplane Flight Manual includes instructions for the proper placement of the removable ballast under each loading condition for which removable ballast is necessary.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/698B47FB68463B4685256687006B8C50.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-13",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Removable ballast.",
+      "text": "Removable ballast may be used in showing compliance with the flight requirements of this subpart, if-- (a) The place for carrying ballast is properly designed and installed, and is marked under Sec. 23.1557; and [(b) Instructions are included in the Airplane Flight Manual, approved manual material, or markings and placards, for the proper placement of the removable ballast under each loading condition for which removable ballast is necessary.]",
+      "publication_cite": "37 FR 20023",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A8DF5630A029193B85256687006B9D91.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "70-47",
+          "issued_on": "1970-11-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9826",
+          "issued_on": "1972-09-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

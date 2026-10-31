@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "172",
+  "current_grouping": "General",
+  "canonical_title": "Factor of safety",
+  "subject_group": "Strength Requirements",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "General",
+      "title_at_revision": "Factor of safety.",
+      "text": "The factor of safety shall be 1.5 unless otherwise specified.",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

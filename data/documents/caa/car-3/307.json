@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "307",
+  "current_grouping": "Structural Parts",
+  "canonical_title": "Fatigue strength",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Structural Parts",
+      "title_at_revision": "Fatigue strength.",
+      "text": "The structure shall be designed, insofar as practicable, to avoid points of stress\n\nconcentration where variable stresses above the fatigue limit are likely to occur in normal service. FLUTTER AND VIBRATION",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

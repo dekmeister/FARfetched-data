@@ -1,0 +1,20 @@
+{
+  "issuer": "CAA",
+  "document": "car-3",
+  "number": "347",
+  "current_grouping": "Control System Details",
+  "canonical_title": "Spring devices",
+  "subject_group": "Design and Construction",
+  "versions": [
+    {
+      "designator": "CAR3-0",
+      "grouping_at_time": "Control System Details",
+      "title_at_revision": "Spring devices.",
+      "text": "The reliability of any spring devices used in the control system shall be established\n\nby tests simulating service conditions, unless it is demonstrated that failure of the spring will not cause flutter or unsafe flight characteristics. LANDING GEAR SHOCK ABSORBERS",
+      "source_url": null,
+      "provenance": {
+        "source": "ocr"
+      }
+    }
+  ]
+}

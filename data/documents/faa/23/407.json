@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "407",
+  "current_grouping": "Structure",
+  "canonical_title": "Trim tab effects.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Trim tab effects.",
+      "text": "The effects of trim tabs on the control surface design conditions must be accounted for only where the surface loads are limited by maximum pilot effort. In these cases, the tabs are considered to be deflected in the direction that would assist the pilot. These deflections must correspond to the maximum degree of &quot;out of trim&quot; expected at the speed for the condition under consideration.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/623EB86071BB3F4885256687006CC0A1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

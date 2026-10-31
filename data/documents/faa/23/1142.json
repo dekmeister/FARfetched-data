@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1142",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Auxiliary power unit controls.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "23-43",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Auxiliary power unit controls.",
+      "text": "[Means must be provided on the flight deck for the starting, stopping, monitoring, and emergency shutdown of each installed auxiliary power unit.]",
+      "publication_cite": "58 FR 18974",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0C806E8103FC577485256687007098A9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-23",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26344",
+          "issued_on": "1993-03-29",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
