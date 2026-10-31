@@ -111,18 +111,25 @@ def _stage(
     return data
 
 
-def _resolved(out: Path) -> set[tuple[int, str, str, str | None]]:
-    """(display_order, provision number, designator, paragraph) per resolved row."""
+def _resolved(
+    out: Path, tcds_number: str | None = None
+) -> set[tuple[int, str, str, str | None]]:
+    """(display_order, provision number, designator, paragraph) per resolved row,
+    optionally only for one TCDS."""
     with sqlite3.connect(out) as conn:
         rows = conn.execute(
             """
             SELECT e.display_order, p.number, dr.designator, r.paragraph
             FROM cert_basis_resolved r
             JOIN cert_basis_entries e ON e.id = r.entry_id
+            JOIN tcb ON tcb.id = e.tcb_id
+            JOIN tcds ON tcds.id = tcb.tcds_id
             JOIN provision_versions pv ON pv.id = r.provision_version_id
             JOIN provisions p ON p.id = pv.provision_id
             JOIN document_revisions dr ON dr.id = pv.revision_id
-            """
+            WHERE ?1 IS NULL OR tcds.tcds_number = ?1
+            """,
+            (tcds_number,),
         ).fetchall()
     return set(rows)
 
@@ -194,22 +201,17 @@ class TestRealDataBuild:
     def test_one_row_per_tcds_line(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
-                "SELECT display_order, entry_type FROM cert_basis_entries "
-                "ORDER BY display_order"
+                "SELECT e.display_order, e.entry_type FROM cert_basis_entries e "
+                "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
+                "WHERE tcds.tcds_number = '3A12' ORDER BY e.display_order"
             ).fetchall()
         assert rows == [(1, "regulation"), (2, "special_condition")]
 
     def test_172_basis_resolves_through_23_13(self, real_db: Path) -> None:
-        resolved = _resolved(real_db)
+        resolved = _resolved(real_db, "3A12")
         assert (1, "1301", "23-7", None) in resolved
         assert (1, "1", "23-0", None) in resolved
-        with sqlite3.connect(real_db) as conn:
-            latest = conn.execute(
-                "SELECT max(dr.ordinal) FROM cert_basis_resolved r "
-                "JOIN provision_versions pv ON pv.id = r.provision_version_id "
-                "JOIN document_revisions dr ON dr.id = pv.revision_id"
-            ).fetchone()[0]
-        assert latest <= 13
+        assert max(_ordinal(real_db, d) for _, _, d, _ in resolved) <= 13
 
     def test_issuers_carry_succession(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:
@@ -228,6 +230,87 @@ class TestRealDataBuild:
                 "FROM provision_versions"
             ).fetchone()
         assert flagged == sentinel
+
+
+# ---------------------------------------------------------------------------
+# first real trace: Diamond DA 40, TCDS A47CE Rev 17
+
+
+DA40 = (
+    REPO_ROOT / "data" / "aircraft" / "diamond-aircraft-industries-inc" / "da-40.json"
+)
+
+
+def _ordinal(db: Path, designator: str) -> int:
+    with sqlite3.connect(db) as conn:
+        return conn.execute(
+            "SELECT ordinal FROM document_revisions WHERE designator = ?",
+            (designator,),
+        ).fetchone()[0]
+
+
+@pytest.mark.skipif(not DA40.exists(), reason="DA 40 not promoted into data/ yet")
+class TestDA40Trace:
+    """Two serial-scoped TCDS lines (Austria: display 2; Canada: display 6),
+    each holding 14 CFR 23 through 23-51."""
+
+    def test_no_unresolved_references(self, real_db: Path) -> None:
+        report = json.loads((real_db.parent / "cert_basis_report.json").read_text())
+        assert report["unresolved_references"] == []
+
+    def test_both_scopes_hold_the_same_set_through_23_51(self, real_db: Path) -> None:
+        resolved = _resolved(real_db, "A47CE")
+        by_line: dict[int, set[tuple[str, str]]] = {}
+        for order, number, designator, _ in resolved:
+            by_line.setdefault(order, set()).add((number, designator))
+        assert set(by_line) == {2, 6}
+        assert by_line[2] == by_line[6]
+        assert max(_ordinal(real_db, d) for _, _, d, _ in resolved) <= 51
+
+    @pytest.mark.parametrize(
+        ("number", "designator"),
+        [("1305", "23-51"), ("1191", "23-51"), ("561", "23-48"), ("1585", "23-50")],
+    )
+    def test_spot_checks(self, real_db: Path, number: str, designator: str) -> None:
+        assert (2, number, designator, None) in _resolved(real_db, "A47CE")
+
+    def test_provisions_after_23_51_are_not_in_the_basis(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            later = {
+                n
+                for (n,) in conn.execute(
+                    "SELECT p.number FROM provisions p "
+                    "JOIN documents d ON d.id = p.document_id WHERE d.slug = '23' "
+                    "AND NOT EXISTS (SELECT 1 FROM provision_versions pv "
+                    "JOIN document_revisions dr ON dr.id = pv.revision_id "
+                    "WHERE pv.provision_id = p.id AND dr.ordinal <= 51)"
+                )
+            }
+        assert later
+        assert not later & {n for _, n, _, _ in _resolved(real_db, "A47CE")}
+
+    def test_non_part_23_lines_carry_no_refs(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            rows = conn.execute(
+                "SELECT e.display_order, e.entry_type, count(r.id) "
+                "FROM cert_basis_entries e "
+                "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
+                "LEFT JOIN cert_basis_refs r ON r.entry_id = e.id "
+                "WHERE tcds.tcds_number = 'A47CE' "
+                "GROUP BY e.id ORDER BY e.display_order"
+            ).fetchall()
+        assert rows == [
+            (1, "other", 0),  # JAR 23
+            (2, "regulation", 1),
+            (3, "regulation", 0),  # Part 36: not in the dataset
+            (4, "special_condition", 0),
+            (5, "elos", 0),
+            (6, "regulation", 1),
+            (7, "regulation", 0),
+            (8, "special_condition", 0),
+            (9, "elos", 0),
+            (10, "other", 0),
+        ]
 
 
 # ---------------------------------------------------------------------------

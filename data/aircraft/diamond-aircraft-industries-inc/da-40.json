@@ -1,0 +1,116 @@
+{
+  "manufacturer": "Diamond Aircraft Industries Inc.",
+  "model_designation": "DA 40",
+  "common_name": "DA 40",
+  "categories": [
+    "normal",
+    "utility"
+  ],
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A47CE",
+        "revision": "17",
+        "revision_date": "2021-07-14",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C67CC63755875EAE86258713004984D0.0001"
+      },
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Joint Aviation Requirements (JAR) 23, Initial Issue, dated March 11, 1994.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "NOTE: The DA 40 was certificated using the FAA/JAA validation certification procedures. A list of Significant Regulatory Differences was addressed. Therefore, the certification basis is equivalent to 14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through Amendment 23-51.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-107-SC applicable to the Model DA 40 for Protection of Systems for High Intensity Radiated Fields, published on June 7, 2001.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-03-01 to 14 CFR Part 23, \u00a7 23.1337(b), for auxiliary fuel level indication system is applicable to the Model DA40 equipped with long range fuel tanks per Optional Design Change O\u00c4M 40-071c (ref. Note 7).",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 Part 23, effective September 14, 1969, including Amendment 23-7 through 23-51.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.1209",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51"
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.1209",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-107-SC applicable to the Model DA 40 for Protection of Systems for High Intensity Radiated Fields, published on June 7, 2001.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.1209",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-03-01 to 14 CFR Part 23, \u00a7 23.1337(b), for auxiliary fuel level indication system is applicable to the Model DA40 equipped with long range fuel tanks per Optional Design Change O\u00c4M 40-071c (ref. Note 7).",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.1209",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "The Austro Control Group (ACG) originally type certificated this aircraft under its Type Certificate Number FZ021-JAA. Effective September 28, 2003, the European Aviation Safety Agency (EASA) began oversight of this product under their Type Certificate Number A.022 on behalf of Austria. Effective November 15th, 2017 this type certificate was transferred to Diamond Aircraft Industries in Canada under the oversight of Transport Canada Civil Aviation (TCCA).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

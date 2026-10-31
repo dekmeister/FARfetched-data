@@ -379,9 +379,14 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 
 ## Adding data
 
-**New aircraft:** create `data/aircraft/{manufacturer-slug}/{model-slug}.json`
-and run `build.py`. If the build reports unknown revisions or provisions,
-add them to the relevant document first.
+**New aircraft:** parse the TCDS PDF with `tools.aircraft.faa_tcds`. It stages
+`{manufacturer-slug}/{model-slug}.json` under `tools/out/staged/aircraft/`.
+Review the file, promote it into `data/aircraft/` with
+`tools.regulations.promote --aircraft`, then run `build.py` (see
+[tools/README.md](tools/README.md)). If the build reports unknown revisions
+or provisions, add them to the relevant document first. Aircraft files
+don't yet have a `provenance` field, so a hand-corrected aircraft file isn't
+protected from re-promotion.
 
 **New provision:** create `data/documents/{issuer}/{document}/{number}.json`
 with at least one version. Every version's designator must be declared in
