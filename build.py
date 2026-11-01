@@ -23,7 +23,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 DOCUMENT_FILE = "_document.json"
 
@@ -119,6 +119,23 @@ CREATE TABLE provision_versions (
 ) STRICT;
 
 CREATE INDEX idx_pv_revision ON provision_versions (revision_id);
+
+-- A version's text split into blocks (README §Text format). Every version
+-- that has text has rows; a flat (single-line) text is one unlabelled row.
+CREATE TABLE provision_paragraphs (
+    id                   INTEGER PRIMARY KEY,
+    provision_version_id INTEGER NOT NULL REFERENCES provision_versions(id),
+    seq                  INTEGER NOT NULL CHECK (seq >= 0),
+    depth                INTEGER NOT NULL CHECK (depth >= 0),
+    label                TEXT,
+    path                 TEXT,
+    text                 TEXT NOT NULL,
+    UNIQUE (provision_version_id, seq),
+    CHECK ((depth = 0) = (path IS NULL)),
+    CHECK (label IS NULL OR depth >= 1)
+) STRICT;
+
+CREATE INDEX idx_pp_path ON provision_paragraphs (provision_version_id, path);
 
 -- Rulemaking actions stay per version: DRS records them per section, and the
 -- per-section lists for one amendment do not always agree.
@@ -441,6 +458,263 @@ def sort_key(number: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Provision text format: "label-line text" (README §Text format)
+#
+# A text with one line is flat. A text with several lines is structured: one
+# block per line; a line may open with a label group such as `(a)`, `[(4)` or
+# `(c)(1)`. Depth comes from the labels (a style stack); indentation picks
+# between the readings the labels allow and must agree with the chosen one.
+# Indentation is always compared with other lines, never with a fixed width.
+
+_LABEL_GROUP_RE = re.compile(r"(\[ ?)?((?:\([A-Za-z0-9]{1,5}\))+)(?= |$)")
+_LABEL_TOKEN_RE = re.compile(r"\(([A-Za-z0-9]{1,5})\)")
+_ROMAN_DIGITS = {"i": 1, "v": 5, "x": 10}
+# Lower to upper bound of roman labels: i..xxxix. `l`, `c`, `d`, `m` are
+# letters, never numerals.
+_MAX_ROMAN = 39
+
+
+def _roman_value(token: str) -> int | None:
+    s = token.lower()
+    if not s or any(ch not in _ROMAN_DIGITS for ch in s):
+        return None
+    total = 0
+    for i, ch in enumerate(s):
+        v = _ROMAN_DIGITS[ch]
+        nxt = _ROMAN_DIGITS[s[i + 1]] if i + 1 < len(s) else 0
+        total += -v if v < nxt else v
+    if not 1 <= total <= _MAX_ROMAN or _to_roman(total) != s:
+        return None
+    return total
+
+
+def _to_roman(n: int) -> str:
+    out = ""
+    for value, digits in ((10, "x"), (9, "ix"), (5, "v"), (4, "iv"), (1, "i")):
+        while n >= value:
+            out += digits
+            n -= value
+    return out
+
+
+def label_values(token: str) -> dict[str, int]:
+    """Every style a label token can be read in, with its value in that style.
+
+    Styles: `lower_alpha` (a..z, then aa, bb, ...), `number`, `lower_roman`
+    (i..xxxix), `upper_alpha`, `upper_roman`. An empty result means the token
+    is not a label (e.g. `(OEI)`), so its line is unlabelled.
+    """
+    out: dict[str, int] = {}
+    if token.isdigit() and not token.startswith("0"):
+        out["number"] = int(token)
+    if re.fullmatch(r"([a-z])\1*", token):
+        out["lower_alpha"] = 26 * (len(token) - 1) + ord(token[0]) - ord("a") + 1
+    if re.fullmatch(r"([A-Z])\1*", token):
+        out["upper_alpha"] = 26 * (len(token) - 1) + ord(token[0]) - ord("A") + 1
+    roman = _roman_value(token)
+    if roman is not None:
+        out["lower_roman" if token.islower() else "upper_roman"] = roman
+    return out
+
+
+class TextFormatError(ValueError):
+    """A provision text breaks the label-line format."""
+
+    def __init__(self, line: int, message: str) -> None:
+        self.line = line
+        self.message = message
+        super().__init__(f"line {line}: {message}")
+
+
+@dataclass(frozen=True)
+class Paragraph:
+    """One block of a provision text, in document order."""
+
+    seq: int
+    depth: int  # 0 = top level; otherwise the number of labels in `path`
+    label: str | None  # verbatim, e.g. '(ii)' or '[(4)'; None when unlabelled
+    path: str | None  # '(a)(1)(ii)'; the enclosing item's path when unlabelled
+    text: str  # '' for a label-only block
+
+
+@dataclass(frozen=True)
+class ParsedText:
+    paragraphs: tuple[Paragraph, ...]
+    structured: bool  # more than one line
+    gaps: int  # labels that skip values, e.g. (a) then (c)
+
+
+@dataclass
+class _Level:
+    """One open item on the style stack."""
+
+    style: str
+    value: int
+    token: str
+    indent: int
+    inline: bool  # opened by a later token of a compound label like (c)(1)
+
+
+@dataclass(frozen=True)
+class _Reading:
+    kind: str  # 'cont' (continue stack[level]) or 'open' (child of stack[-1])
+    level: int
+    style: str
+    value: int
+    gap: int
+
+
+def _first_style(values: dict[str, int]) -> tuple[str, int]:
+    """Style for a label that opens a level with no sequence to go by."""
+    return min(values.items(), key=lambda kv: (kv[1], kv[0]))
+
+
+def _choose(stack: list[_Level], token: str, indent: int, line: int) -> _Reading:
+    values = label_values(token)
+    if not stack:
+        style, value = _first_style(values)
+        return _Reading("open", 0, style, value, value - 1)
+    readings: list[_Reading] = []
+    for k, lvl in enumerate(stack):
+        v = values.get(lvl.style)
+        if v is not None and v > lvl.value:
+            readings.append(_Reading("cont", k, lvl.style, v, v - lvl.value - 1))
+    readings.extend(
+        _Reading("open", len(stack), s, v, 0) for s, v in values.items() if v == 1
+    )
+    if not readings:
+        raise TextFormatError(line, f"label ({token}) continues no open level")
+
+    def fits(r: _Reading) -> bool:
+        if r.kind == "open":
+            return indent > stack[-1].indent
+        lvl = stack[r.level]
+        return indent > lvl.indent if lvl.inline else indent == lvl.indent
+
+    fitting = [r for r in readings if fits(r)]
+    if len(fitting) > 1:
+        # Only possible next to a compound label, whose inline levels have no
+        # indentation of their own. One exact value beats gaps; else fail.
+        exact = [r for r in fitting if r.gap == 0]
+        if len(exact) != 1:
+            raise TextFormatError(line, f"label ({token}) is ambiguous")
+        fitting = exact
+    if not fitting:
+        raise TextFormatError(
+            line,
+            f"indentation of label ({token}) fits none of its readings "
+            f"(re-run the tools segmenter to fix the layout)",
+        )
+    return fitting[0]
+
+
+def _path(stack: list[_Level]) -> str:
+    return "".join(f"({lvl.token})" for lvl in stack)
+
+
+def parse_paragraphs(text: str) -> ParsedText:
+    """Split a provision text into paragraphs. Raise TextFormatError if the
+    text breaks the format (README §Text format)."""
+    lines: list[tuple[int, str]] = []
+    for n, raw in enumerate(text.split("\n"), 1):
+        if raw == "":
+            continue
+        if "\t" in raw:
+            raise TextFormatError(n, "tab character")
+        if raw != raw.rstrip():
+            raise TextFormatError(n, "trailing whitespace")
+        lines.append((n, raw))
+    if not lines:
+        raise TextFormatError(1, "no text")
+    if len(lines) == 1:
+        n, raw = lines[0]
+        if raw[0].isspace():
+            raise TextFormatError(n, "a single-line text must not be indented")
+        return ParsedText((Paragraph(0, 0, None, None, raw),), False, 0)
+
+    stack: list[_Level] = []
+    out: list[Paragraph] = []
+    gaps = 0
+    for n, raw in lines:
+        content = raw.lstrip(" ")
+        indent = len(raw) - len(content)
+        if content[0].isspace():
+            raise TextFormatError(n, "indentation must be spaces")
+        m = _LABEL_GROUP_RE.match(content)
+        tokens = _LABEL_TOKEN_RE.findall(m.group(2)) if m else []
+        if not (m and all(label_values(t) for t in tokens)):
+            # Rule 5: the innermost open item whose label line is indented less.
+            k = next(
+                (i for i in range(len(stack) - 1, -1, -1) if stack[i].indent < indent),
+                -1,
+            )
+            owner = stack[: k + 1]
+            out.append(
+                Paragraph(len(out), len(owner), None, _path(owner) or None, content)
+            )
+            continue
+        assert m is not None
+        body = content[m.end() :]
+        body = body[1:] if body.startswith(" ") else body
+        r = _choose(stack, tokens[0], indent, n)
+        del stack[r.level :]
+        stack.append(_Level(r.style, r.value, tokens[0], indent, False))
+        gaps += 1 if r.gap else 0
+        for tok in tokens[1:]:
+            # A later token of a compound label is a child of the one before.
+            style, value = _first_style(label_values(tok))
+            stack.append(_Level(style, value, tok, indent, True))
+            gaps += 1 if value != 1 else 0
+        for i, tok in enumerate(tokens):
+            depth = len(stack) - len(tokens) + i + 1
+            out.append(
+                Paragraph(
+                    len(out),
+                    depth,
+                    ((m.group(1) or "") if i == 0 else "") + f"({tok})",
+                    _path(stack[:depth]),
+                    body if i == len(tokens) - 1 else "",
+                )
+            )
+    return ParsedText(tuple(out), True, gaps)
+
+
+def flatten_text(text: str) -> str:
+    """A text's words without its layout: lines stripped and joined by single
+    spaces. Structuring may change a text only where this stays equal."""
+    return " ".join(s for line in text.split("\n") if (s := line.strip()))
+
+
+def paragraph_ref_paths(qualifier: str, paths: set[str]) -> list[str] | None:
+    """Match a verbatim cert-basis `paragraph` qualifier against a version's
+    paragraph paths. Return the tokens that match no path, or None when the
+    qualifier isn't a run of `(x)` tokens at all.
+
+    A qualifier lists paragraphs the way TCDSs write them: `(a)(1)(2)(b)` is
+    (a)(1), (a)(2) and (b). Each token descends into the current paragraph or
+    names a sibling of it or of one of its ancestors. `(c3)` is read as
+    `(c)(3)`.
+    """
+    if re.sub(r"\([A-Za-z0-9]+\)|\s", "", qualifier):
+        return None
+    tokens: list[str] = []
+    for tok in re.findall(r"\(([A-Za-z0-9]+)\)", qualifier):
+        m = re.fullmatch(r"([a-z])(\d+)", tok)
+        tokens.extend(m.groups() if m else [tok])
+    cur: list[str] = []
+    unmatched: list[str] = []
+    for tok in tokens:
+        for k in range(len(cur), -1, -1):
+            cand = cur[:k] + [tok]
+            if "".join(f"({t})" for t in cand) in paths:
+                cur = cand
+                break
+        else:
+            unmatched.append(f"({tok})")
+    return unmatched
+
+
+# ---------------------------------------------------------------------------
 # Lookup tables (closed sets, seeded up front)
 
 
@@ -604,7 +878,53 @@ def _resolve_alias_versions(
     return out
 
 
-def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> None:
+@dataclass
+class TextStats:
+    """Paragraph-structure counts for the build report."""
+
+    structured: int = 0
+    flat: int = 0
+    label_gaps: int = 0
+    errors: list[str] = field(default_factory=list)
+
+
+def check_text(label: str, designator: str, text: str) -> ParsedText | str:
+    """Parse one version's text; return the parse or an error message."""
+    try:
+        return parse_paragraphs(text)
+    except TextFormatError as exc:
+        return f"Provision {label} version '{designator}': text {exc}"
+
+
+def check_text_format(data_dir: Path) -> list[str]:
+    """Format errors in every provision text under data_dir (for --check)."""
+    errors: list[str] = []
+    for s in _load_provisions(data_dir):
+        p = s.doc
+        label = f"{p['issuer']}/{p['document']}/{p['number']}"
+        for v in p.get("versions", []):
+            if isinstance(v.get("text"), str):
+                res = check_text(label, v.get("designator", "?"), v["text"])
+                if isinstance(res, str):
+                    errors.append(f"{s.path}: {res}")
+    return errors
+
+
+def _insert_paragraphs(
+    conn: sqlite3.Connection, pv_id: int, parsed: ParsedText
+) -> None:
+    conn.executemany(
+        "INSERT INTO provision_paragraphs "
+        "(provision_version_id, seq, depth, label, path, text) "
+        "VALUES (?, ?, ?, ?, ?, ?)",
+        [(pv_id, p.seq, p.depth, p.label, p.path, p.text) for p in parsed.paragraphs],
+    )
+
+
+def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> TextStats:
+    """Insert provisions and versions. Text-format errors are collected over
+    every file and raised together, so one run lists all of them."""
+    stats = TextStats()
     for s in provisions:
         p = s.doc
         label = f"{p['issuer']}/{p['document']}/{p['number']}"
@@ -641,6 +961,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> No
             )
             prov_id = cur.lastrowid
             version_id: dict[str, int] = {}
+            parsed_by_text: dict[str, ParsedText] = {}
             for v in resolved:
                 source, notes = _provenance(v)
                 same_as = v["same_as_designator"]
@@ -684,6 +1005,22 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> No
                             action.get("notes"),
                         ),
                     )
+                if v["text"] is None:
+                    continue
+                parsed = parsed_by_text.get(v["text"])
+                if parsed is None:
+                    res = check_text(label, v["designator"], v["text"])
+                    if isinstance(res, str):
+                        if same_as is None:
+                            stats.errors.append(f"{s.path}: {res}")
+                        continue
+                    parsed = parsed_by_text[v["text"]] = res
+                _insert_paragraphs(conn, pv_id, parsed)
+                if same_as is None:  # an alias is counted as its target
+                    stats.structured += parsed.structured
+                    stats.flat += not parsed.structured
+                    stats.label_gaps += parsed.gaps
+    return stats
 
 
 # ---------------------------------------------------------------------------
@@ -930,6 +1267,56 @@ def resolve_entry(refs: list[Ref], label: str) -> tuple[list[Resolved], list[str
     return list(out.values()), errors
 
 
+@dataclass
+class ParagraphRefStats:
+    verified: int = 0
+    unverifiable: int = 0  # the resolved version's text is flat
+
+
+def _check_paragraph_refs(
+    conn: sqlite3.Connection,
+    rows: list[Resolved],
+    label: str,
+    stats: ParagraphRefStats,
+) -> list[str]:
+    """Check each paragraph-qualified row against its version's paragraphs."""
+    errors: list[str] = []
+    for r in rows:
+        if r.paragraph is None:
+            continue
+        paths = {
+            p
+            for (p,) in conn.execute(
+                "SELECT path FROM provision_paragraphs "
+                "WHERE provision_version_id = ? AND path IS NOT NULL",
+                (r.provision_version_id,),
+            )
+        }
+        if not paths:
+            stats.unverifiable += 1
+            continue
+        missing = paragraph_ref_paths(r.paragraph, paths)
+        if missing is None:
+            errors.append(
+                f"{label}: paragraph {r.paragraph!r} is not a run of (x) labels"
+            )
+        elif missing:
+            number, designator = conn.execute(
+                "SELECT p.number, dr.designator FROM provision_versions pv "
+                "JOIN provisions p ON p.id = pv.provision_id "
+                "JOIN document_revisions dr ON dr.id = pv.revision_id "
+                "WHERE pv.id = ?",
+                (r.provision_version_id,),
+            ).fetchone()
+            errors.append(
+                f"{label}: paragraph {r.paragraph!r}: {''.join(missing)} not in "
+                f"{number} at {designator}"
+            )
+        else:
+            stats.verified += 1
+    return errors
+
+
 # ---------------------------------------------------------------------------
 # Aircraft inserts
 
@@ -966,7 +1353,9 @@ def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
     return cur.lastrowid
 
 
-def _insert_aircraft(conn: sqlite3.Connection, aircraft: list[Source]) -> list[str]:
+def _insert_aircraft(
+    conn: sqlite3.Connection, aircraft: list[Source], para_stats: ParagraphRefStats
+) -> list[str]:
     failures: list[str] = []
     doc_indexes: dict[tuple[str, str], DocIndex] = {}
     for s in aircraft:
@@ -1033,6 +1422,9 @@ def _insert_aircraft(conn: sqlite3.Connection, aircraft: list[Source]) -> list[s
                             refs.append(r)
                     rows, errs = resolve_entry(refs, label)
                     failures.extend(errs)
+                    failures.extend(
+                        _check_paragraph_refs(conn, rows, label, para_stats)
+                    )
                     conn.executemany(
                         "INSERT INTO cert_basis_resolved "
                         "(entry_id, provision_version_id, via_ref_id, paragraph) "
@@ -1093,10 +1485,20 @@ class BuildReport(TypedDict):
     text_missing: int
     deleted: int
     provenance: dict[str, int]
+    structured_versions: int
+    flat_versions: int
+    label_gaps: int
+    paragraph_refs_verified: int
+    paragraph_refs_unverifiable: int
     unresolved_references: list[str]
 
 
-def _build_report(conn: sqlite3.Connection, unresolved: list[str]) -> BuildReport:
+def _build_report(
+    conn: sqlite3.Connection,
+    unresolved: list[str],
+    text_stats: TextStats,
+    para_stats: ParagraphRefStats,
+) -> BuildReport:
     tables = [
         r[0]
         for r in conn.execute(
@@ -1122,6 +1524,11 @@ def _build_report(conn: sqlite3.Connection, unresolved: list[str]) -> BuildRepor
                 "GROUP BY provenance ORDER BY provenance"
             ).fetchall()
         ),
+        "structured_versions": text_stats.structured,
+        "flat_versions": text_stats.flat,
+        "label_gaps": text_stats.label_gaps,
+        "paragraph_refs_verified": para_stats.verified,
+        "paragraph_refs_unverifiable": para_stats.unverifiable,
         "unresolved_references": unresolved,
     }
 
@@ -1165,15 +1572,18 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
         )
         _seed_lookups(conn)
         _insert_documents(conn, documents)
-        _insert_provisions(conn, provisions)
-        unresolved = _insert_aircraft(conn, aircraft)
+        text_stats = _insert_provisions(conn, provisions)
+        if text_stats.errors:
+            raise BuildError(text_stats.errors)
+        para_stats = ParagraphRefStats()
+        unresolved = _insert_aircraft(conn, aircraft, para_stats)
         date_errors = _future_dates(conn, date.today().isoformat())
         if date_errors:
             raise BuildError(date_errors)
         fk_errors = conn.execute("PRAGMA foreign_key_check").fetchall()
         if fk_errors:
             raise BuildError([f"foreign key violation: {r}" for r in fk_errors])
-        report = _build_report(conn, unresolved)
+        report = _build_report(conn, unresolved, text_stats, para_stats)
         conn.commit()
     except Exception:
         conn.close()
@@ -1211,12 +1621,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="Validate only; do not build SQLite.",
+        help="Validate schemas and text layout only; do not build SQLite.",
     )
     args = parser.parse_args(argv)
 
     if args.check:
-        errors = validate_data_dir(args.data_dir)
+        errors: list[object] = list(validate_data_dir(args.data_dir))
+        if not errors:
+            errors.extend(check_text_format(args.data_dir))
         if errors:
             for e in errors:
                 print(e, file=sys.stderr)
@@ -1239,6 +1651,8 @@ def main(argv: list[str] | None = None) -> int:
         f"documents={t['documents']}, revisions={t['document_revisions']}, "
         f"provision_versions={t['provision_versions']}, "
         f"text_missing={report['text_missing']}, "
+        f"structured={report['structured_versions']}, "
+        f"paragraphs={t['provision_paragraphs']}, "
         f"deleted={report['deleted']}, "
         f"models={t['aircraft_models']}, entries={t['cert_basis_entries']}, "
         f"resolved={t['cert_basis_resolved']})",

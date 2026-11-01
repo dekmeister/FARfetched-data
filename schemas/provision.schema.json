@@ -40,7 +40,12 @@
         "designator": { "$ref": "common.schema.json#/$defs/designator" },
         "grouping_at_time": { "type": ["string", "null"] },
         "title_at_revision": { "type": "string", "minLength": 1 },
-        "text": { "type": "string", "minLength": 1 },
+        "text": {
+          "description": "Label-line text (README, Text format). Tabs and carriage returns are not allowed; lines are separated by \\n.",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[^\\t\\r]*$"
+        },
         "same_as_designator": { "$ref": "common.schema.json#/$defs/designator" },
         "deleted": {
           "description": "The revision deleted (removed, repealed) this provision. Replaces text; a later version may re-create it.",

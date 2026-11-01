@@ -505,3 +505,162 @@ Improvements for later:
   catalogue notes rather than only in this file.
 - Table representation (old item 8) and formula flattening remain.
 - `amdt_markers` are not used by emit; could cross-check versions.
+
+## Paragraph structure (label-line text, schema v3) — state (2026-11-01)
+
+The plan (reviews/PLAN_PARA_STRUCTURE.md, deleted once implemented) made
+provision `text` label-line text (README §Text format), compiled into
+`provision_paragraphs`. The contract, the segmenter
+(`tools/common/structure.py`) and the emitter wiring are done. The FARfetched
+app side is not started.
+
+**The checked-in `data/` fails the v3 build until the migration is
+promoted.** 62 texts carry line breaks the format can't read. The migration
+is staged: `tools/out/staged_paragraphs/documents/` (2,096 files; diffs are
+in `text` lines only, and words are unchanged by assertion). Promote with
+`promote --staged tools/out/staged_paragraphs/documents`. On a copy of
+`data/` with it overlaid, `build.py` passes: 2,846 structured versions,
+1,277 flat, 27,808 paragraph rows, 184 label gaps, 207 paragraph refs
+verified and 1 unverifiable (PA-46-600TP `23.781(b)` at 23-33, a flat
+version).
+
+Outcomes (`tools/out/reports/structure_report_migration.tsv`):
+
+| Document | Structured | Flat (no labels) | Flat-failed |
+|---|---|---|---|
+| faa/23 | 994 | 113 | 3 |
+| caa/car-3 | 141 | 320 | 6 |
+| cab/car-3-reissue | 86 | 276 | 34 |
+| easa/cs-23 | 344 | 85 | 31 |
+| easa/cs-25 | 664 | 105 | 71 |
+| easa/cs-27 | 270 | 60 | 13 |
+| easa/cs-29 | 347 | 65 | 13 |
+
+### Issues that affect readability or interpretation
+
+The words of every text are intact, by assertion. These are places where the
+*layout*, and therefore which paragraph a sentence appears to belong to, a
+paragraph path, or a verified paragraph ref, may be wrong or misleading.
+Counts are versions carrying the `notes` kind in the migration report (one
+version can carry several). The heuristic counts are upper bounds: they have
+not been reviewed case by case.
+
+| Note kind | faa/23 | car-3 | car-3-reissue | cs-23 | cs-25 | cs-27 | cs-29 |
+|---|---|---|---|---|---|---|---|
+| `possible-trailing` | 174 | 27 | 13 | 29 | 149 | 21 | 49 |
+| `inline-skip` | 20 | 28 | 15 | 42 | 217 | 15 | 23 |
+| `weak-split` | 30 | 3 | 2 | 5 | 61 | 8 | 7 |
+| `tie` | 8 | 0 | 0 | 1 | 32 | 4 | 4 |
+| `gap` | 13 | 12 | 11 | 6 | 111 | 7 | 14 |
+| `bracket-spans` | 431 | 8 | 13 | 0 | 0 | 0 | 0 |
+| `dropped-break` | 64 | 3 | 1 | 0 | 0 | 0 | 0 |
+| `action-text` | 114 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+(`deep-over-open` did not occur.) List any kind with
+`awk -F'\t' '$6 ~ /KIND/' tools/out/reports/structure_report_migration.tsv`.
+
+1. **Trailing unlabelled paragraphs are attached to the last item
+   (`possible-trailing`, up to 462 versions).** In flat text, a paragraph that
+   closes a sub-list (§23.1309(b) "Each item of equipment … must also …"
+   after (b)(2)) can't be told from the last item's text, so it is laid out,
+   stored (`provision_paragraphs.path`), linked and highlighted as part of
+   that item, e.g. `(b)(2)` instead of `(b)`. A reader, or an app citing
+   `§23.1309(b)(2)`, would take a requirement on all of (b) as limited to
+   (b)(2). The flag is a heuristic (the last item of a sub-list holds a
+   second sentence), so it also catches legitimate multi-sentence items. The
+   real number is unknown until checked against a structured source. Fix
+   options: use eCFR `<P>` boundaries where an eCFR rendering of the same
+   text exists (that is the deferred item below); or review the flagged rows
+   and hand-lay-out the real ones (`provenance.source = "manual"`).
+2. **Real paragraphs may be kept inline (`inline-skip`, 360).** A label at a
+   sentence boundary is kept inside the current paragraph when its
+   predecessor value already occurs there (`designed for (1) …; and (2) …`).
+   That is right for inline enumerations, but if the predecessor is a stray
+   cross-reference, a real paragraph is merged into the one before. Its path
+   is then missing, and a paragraph ref to it fails the build.
+3. **Paragraph splits after `, and` / `, or` (`weak-split`, 116).** Accepted
+   only when the label fits the sequence, but a list such as
+   "paragraphs (a), (b), and (c) apply" inside a paragraph can still be split
+   into false paragraphs mid-sentence.
+4. **Ambiguous labels resolved by heuristic (`tie`, 49).** For `(i)` after
+   `(h)(1)` and similar, a new level is assumed only after `:` or a dash.
+   A wrong guess nests the paragraph under the wrong parent (wrong path and
+   indentation). The build accepts either reading because the indentation
+   records the choice.
+5. **Label gaps may hide misreads (`gap`, 174 versions; build report
+   `label_gaps` 184).** A gap is accepted as a dropped paragraph. It can also
+   be an OCR misread that happens to be a valid label (`(e)` for `(c)`) or a
+   false split, giving a wrong path. CS-25 carries most of them (111).
+6. **Flat-failed texts show as one block (171).** Readable only as before
+   (one long paragraph), and paragraph refs to them are counted unverifiable
+   rather than checked. Causes, by source:
+   - CAB CAR 3 reissue, OCR-damaged labels (24): `(bo)`/`(ob)` for `(b)`,
+     `(ce)`/`(ec)` for `(c)`, `(ad)`, `(0)`: 109, 115, 123@R7, 124 (R0, R7),
+     171, 185, 197@R2, 222, 225, 233, 550@R2, 625, 667, 700, 745, 75, 767,
+     771, 778, 780 (R0, R7), 82, 84.
+   - FAA (3): 23.45@23-21 `less-- 1) Installation losses` (DRS dropped the
+     `(`); 23.1147@23-43 `(a)[(1)` (change bracket inside a compound label);
+     H23@23-43 (appendix with `Sec. H23.1` / `H23.2` headings, each with its
+     own `(a)…` run).
+   - CAR sequence breaks (16): e.g. 3.655 at CAR3-0/2/10 and CAR3R-0, 3.6,
+     3.437, 3.667. Check against the scans.
+   - EASA (128): mostly lists without an introducer (CS 25.121 `ground
+     effect, (1) The steady gradient`), tables flattened into text (CS 25.143
+     `(75) (50)`), and appendix sub-sections.
+7. **FAA change brackets span paragraphs (`bracket-spans`, 452).** A `[`
+   opens in one paragraph and its `]` closes in another (or the label carries
+   the `[`, as in `[(4)`). Rendered per paragraph, the brackets look
+   unbalanced and can be misread as editorial insertions inside one
+   paragraph. The app needs a rule for this (e.g. show bracket state across
+   blocks, or strip and mark amended paragraphs).
+8. **Source line breaks that looked like paragraph boundaries were dropped
+   (`dropped-break`, 68).** The segmenter flattens its input (so layout is a
+   function of the words), so a real unlabelled paragraph break that the
+   source did mark (a DRS `<p>`, an OCR blank line before a "NOTE:" or an
+   interpretation note) is lost. The text is merged into the preceding
+   paragraph. Same effect as item 1, from the other direction. CAR "NOTE:
+   The following interpretation …" paragraphs are editorial, not regulation
+   text, and now read as part of the paragraph before them.
+9. **Rulemaking-action text inside provision text (`action-text`, 114 FAA
+   versions).** E.g. 23.1353 at 23-17 ends `… Notice of Airworthiness Review
+   Program No. 2; Notice No. 75-10; Issued on 02/27/75.`, and 23.1093 at
+   23-17 holds a notice list. This predates the change
+   (`faa/extract.py:text_issues` now treats it as fatal), but structuring puts
+   it in the last paragraph, where it reads as regulation text of that item.
+   Re-extract.
+10. **Paragraph-ref verification is existence-only.** The build checks that a
+    qualifier's tokens name paragraphs that exist. It reads `(a)(1)(2)` as
+    (a)(1) and (a)(2), but descends first, so if a deeper `(a)(1)(2)` exists
+    it is read that way. `(c3)` is assumed to mean `(c)(3)`. A ref can
+    therefore "verify" under a reading the TCDS didn't intend. The app must
+    use the same reading as `build.paragraph_ref_paths` or show the
+    qualifier verbatim.
+11. **Compound labels in hand layouts.** After `(c)(1) …` on one line, an
+    unlabelled line indented under it is read as part of `(c)(1)`, never
+    `(c)`. The segmenter never produces such a line (flat input), but a
+    hand-laid-out text could mean `(c)`.
+
+Decisions:
+
+- **Where structuring runs:** at the end of emit, as a pure function of the
+  flattened words; not in extract, not in the build. See tools/README.md
+  §Paragraph structure.
+- **Deferred: eCFR/DRS `<P>` breaks as hints.** Not done. Source-derived
+  breaks would lay the same words out differently by source (DRS flat vs
+  eCFR), causing version churn between sources, and would touch every
+  DRS-vs-eCFR comparison in `faa/extract.py`. It is the main candidate fix
+  for items 1 and 8, so revisit before the app relies on paragraph scope.
+- **Aliases and `TEXT MISSING` get paragraph rows** (one row for TEXT
+  MISSING), so every live version has rows. They are counted once, as their
+  target.
+
+Found on the way, not caused by this change:
+
+- **`tools/regulations/car/emit.py` reads `tools/out/extracted/car/`, but the
+  CAR extract lives in `tools/out/car/`.** As it stands the emitter finds no
+  text (`no_text: 938`). Run with the path corrected, it emits 936 pairs and
+  the result builds.
+- **4 real-data tests fail in each test copy before and after this change**
+  (`test_one_row_per_tcds_line`, `test_172_basis_resolves_to_car_3_through_3_12`,
+  two in `TestDA40Trace`): the working tree's uncommitted aircraft files
+  differ from what they assert.

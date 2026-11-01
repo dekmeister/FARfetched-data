@@ -61,6 +61,7 @@ INVALID_PROVISIONS = [
     ("missing_required.json", "canonical_title"),
     ("additional_property.json", "nonsense_field"),
     ("empty_text.json", "text"),
+    ("tab_in_text.json", "text"),
     ("bad_source_url.json", "source_url"),
     ("empty_versions.json", "versions"),
     ("initial_adoption_cite.json", "publication_cite"),

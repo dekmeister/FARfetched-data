@@ -184,6 +184,7 @@ class TestRealDataBuild:
             "document_revisions",
             "provisions",
             "provision_versions",
+            "provision_paragraphs",
             "version_actions",
             "manufacturers",
             "categories",
@@ -197,6 +198,35 @@ class TestRealDataBuild:
             "cert_basis_ref_skips",
             "cert_basis_resolved",
         }
+
+    def test_23_1309_paragraph_paths(self, real_db: Path) -> None:
+        # §23.1309 at 23-62: intro text, then (a)(1)-(2), (b), (c)(1)-(3), (d).
+        with sqlite3.connect(real_db) as conn:
+            rows = conn.execute(
+                "SELECT pp.depth, pp.path FROM provision_paragraphs pp "
+                "JOIN latest_versions lv ON lv.id = pp.provision_version_id "
+                "JOIN provisions p ON p.id = lv.provision_id "
+                "JOIN documents d ON d.id = p.document_id "
+                "WHERE d.slug = '23' AND p.number = '1309' ORDER BY pp.seq"
+            ).fetchall()
+        assert rows[:6] == [
+            (0, None),
+            (1, "(a)"),
+            (2, "(a)(1)"),
+            (2, "(a)(2)"),
+            (1, "(b)"),
+            (1, "(c)"),
+        ]
+        assert (2, "(c)(3)") in rows
+
+    def test_every_live_version_has_paragraphs(self, real_db: Path) -> None:
+        with sqlite3.connect(real_db) as conn:
+            orphans = conn.execute(
+                "SELECT count(*) FROM provision_versions pv WHERE NOT pv.deleted "
+                "AND NOT EXISTS (SELECT 1 FROM provision_paragraphs pp "
+                "WHERE pp.provision_version_id = pv.id)"
+            ).fetchone()[0]
+        assert orphans == 0
 
     def test_one_row_per_tcds_line(self, real_db: Path) -> None:
         # 3A12 Rev 89, Model 172: the CAR 3 base, the §23.1559 addition and

@@ -148,7 +148,7 @@ One file per provision. Ordinal and effective date come from the document file.
 | `designator`         | string | no       | Must be declared in the document file. One version per designator. |
 | `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision. |
 | `title_at_revision`  | string | no       | Heading as it read at this revision. |
-| `text`               | string | one of   | Full text at this revision. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
+| `text`               | string | one of   | Full text at this revision, in the label-line format (see [Text format](#text-format)). No tabs or carriage returns. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
 | `same_as_designator` | string | one of   | Instead of `text`: the text is unchanged from this earlier version of the same provision. The build copies the text and records the link. Must not point at a deleted version. |
 | `deleted`            | `true` | one of   | Instead of `text`: this revision deleted (removed, repealed) the provision, e.g. every old-numbered CS-23 paragraph at CS23-5. Only valid while the provision is in force (not as its first version, not twice in a row). A later version may re-create it. Stored with `text` NULL and `deleted = 1`. |
 | `publication_cite`   | string | yes      | Where the revision was published, e.g. `"35 FR 5665"`. Omit (or `""`) when unknown — including for original issues. The old `"Initial Adoption"` sentinel is rejected. |
@@ -159,6 +159,68 @@ One file per provision. Ordinal and effective date come from the document file.
 Actions stay on the version rather than the revision because the source (DRS)
 records them per section, and the per-section lists for one amendment don't
 always agree.
+
+#### Text format
+
+`text` is **label-line text**: a plain string whose line breaks and
+indentation carry the paragraph structure (`(a)` / `(1)` / `(i)` / `(A)`), so
+the app can show nested, linkable paragraphs and a cert-basis `paragraph`
+qualifier can point at real text.
+
+```
+The requirements of this section ... are applicable ...      ← top level, unlabelled
+(a) Each item of equipment, each system, and each installation:
+  (1) When performing its intended function, may not ... any--
+    (i) Equipment essential to safe operation; or
+    (ii) Other equipment unless ...
+  [(4) In a commuter category airplane, ...]                  ← FAA change brackets kept
+(b) The design of each item ... must comply with the following:
+  (1) It must perform its intended function ...
+  (2) ...
+  Each item of equipment ... must also ...                    ← second block of (b)
+(c)(1) Text where (c) has no words of its own                 ← compound: rows (c) and (c)(1)
+  (2) ...
+```
+
+**A text with one line is flat**: it becomes a single unlabelled paragraph,
+whatever it starts with. Labels are only read in texts with several lines.
+
+Rules for a structured (multi-line) text, enforced by `build.py`:
+
+1. **Lines.** One block per non-empty line. Blank lines are ignored. Tabs and
+   trailing whitespace are errors; indentation is spaces. A block never
+   contains a line break.
+2. **Labels.** An optional leading `[` (or `[ `), then one or more `(x)`
+   tokens (`x` is 1–5 letters or digits), then a space or the end of the
+   line. Compound `(c)(1)` gives a label-only `(c)` row and a `(1)` row. Labels
+   are stored verbatim (`[(4)`); paths use the bare tokens (`(a)(4)`). A token
+   that reads in no style, such as `(OEI)`, is not a label: its line is
+   unlabelled.
+3. **Depth from labels (style stack).** Styles: lower alpha (`a`…`z`, then
+   `aa`, `bb`…), number, lower roman (`i`…`xxxix`), upper alpha, upper roman.
+   `l`, `c`, `d`, `m` are always letters. A label either continues an open
+   level (a later value of its style) or opens a new level under the innermost
+   open item (value 1 of a style). This covers FAA's level-5 `(1)` and the
+   ambiguous `(i)`.
+4. **Indentation picks the reading.** Of the readings rule 3 allows,
+   indentation picks one: continuing a level means the same indentation as
+   that level's line; opening a level means more than the parent's line. It
+   is only ever compared with other lines, never counted against a fixed
+   width. If no reading fits, the build fails (this is the layout check).
+   (The levels opened by a compound label have no line of their own: a later
+   sibling only has to be indented more than the compound line, and if that
+   leaves two exact readings the build fails as ambiguous.)
+5. **Unlabelled lines** belong to the innermost open item whose label line is
+   indented less than they are. With no such item they are top-level text.
+6. **Label gaps** (`(a)` then `(c)`, or a text starting at `(b)`) are allowed,
+   because real regulations drop paragraphs, and counted in the build report.
+
+**Layout only.** Structuring may only add line breaks and indentation.
+Flattening a text (strip every line, drop blank ones, join with single spaces)
+gives its words; the tools assert that layout never changes them. The tools
+write two spaces per level, but the build accepts any consistent indentation.
+`tools/common/structure.py` produces the format from flat text; see
+[tools/README.md](tools/README.md).
 
 **Action fields**
 
@@ -246,7 +308,7 @@ regulator that has issued a type certificate for the model.
 | `to`         | designator    | Include refs only: the highest revision in force. **The base revision is always included**, so "as amended by 23-1 thru 23-13" is `to: "23-13"`. |
 | `skip`       | designators   | Revisions left out of a non-contiguous set ("23-1 thru 23-38, 23-40" → `to: "23-40", skip: ["23-39"]`). Each must be earlier than `to`. |
 | `provisions` | numbers       | Scope the ref to these provisions. Absent = the whole document. |
-| `paragraph`  | string        | Verbatim qualifier, e.g. `"(a)"`. Needs exactly one `provisions` entry. Displayed, never resolved. |
+| `paragraph`  | string        | Verbatim qualifier, e.g. `"(a)"` or `"(a)(1)(2)(b)"`. Needs exactly one `provisions` entry. Checked against the resolved version's paragraphs (below), never rewritten. |
 | `effect`     | enum          | `include` (default) or `exclude`. An exclude ref needs `provisions` and takes no `to`, `skip` or `paragraph`. |
 
 #### Resolution rules
@@ -265,6 +327,12 @@ legitimately hold one provision at different levels.
 3. A paragraph ref adds a row alongside the whole-provision row. If it lands
    on the same version, it is dropped.
 4. An exclude ref removes provisions from the document-wide results.
+5. A paragraph qualifier is checked against the paragraphs of the version it
+   resolves to. It is read as TCDSs write it: each `(x)` token descends into
+   the current paragraph or names a sibling of it or of an ancestor, so
+   `(a)(1)(2)(b)` is (a)(1), (a)(2) and (b). `(c3)` is read as `(c)(3)`. If
+   the version is flat (one line, including `TEXT MISSING`) the qualifier
+   can't be checked and is counted as `paragraph_refs_unverifiable`.
 
 The build fails, rather than guessing, when:
 - a `to` or `skip` designator, provision, or document doesn't exist;
@@ -274,18 +342,22 @@ The build fails, rather than guessing, when:
 - a provision is both excluded and included by a scoped ref;
 - an exclude removes nothing;
 - an include ref resolves to no provisions;
-- a scoped or paragraph ref resolves a provision to a version that deleted it.
+- a scoped or paragraph ref resolves a provision to a version that deleted it;
+- a paragraph qualifier is not a run of `(x)` tokens, or names a paragraph
+  that the (structured) resolved version doesn't have.
 
 ## SQLite schema
 
-`build.py` compiles the JSON into 18 tables plus one view. Every table is
+`build.py` compiles the JSON into 19 tables plus one view. Every table is
 `STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
 UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
 in [build.py](build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **2**; v2 added `provision_versions.deleted`). It is bumped
+`PRAGMA user_version` is the schema version (currently **3**; v2 added
+`provision_versions.deleted`, v3 added `provision_paragraphs` and the
+label-line text format). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know. `build_info` is a single row: `schema_version`, `git_sha` of
 the data repo at build time (NULL if unavailable), `built_at` (UTC).
@@ -311,6 +383,18 @@ revision deleted the provision; `text` is NULL exactly when `deleted = 1`),
 and the generated `text_missing` flag. Composite foreign keys through `document_id` make it
 impossible to pair a provision with another document's revision, or alias a
 version of another provision.
+
+`provision_paragraphs` — a version's text split into blocks by the
+[text format](#text-format): `provision_version_id`, `seq` (document order),
+`depth` (0 = top level, otherwise the number of labels in `path`), `label`
+(verbatim, e.g. `(ii)` or `[(4)`; NULL when unlabelled), `path` (e.g.
+`(a)(1)(ii)`; for an unlabelled block, its enclosing item's path; NULL at top
+level) and `text` (`''` for a label-only block such as `(c)` in `(c)(1)`).
+Every version that has text has rows, aliases and `TEXT MISSING` included; a
+flat text is one unlabelled row, so the app has a single rendering path.
+`provision_versions.text` keeps the label-line string unchanged. Index on
+`(provision_version_id, path)`. Labels must be shown as stored, never
+generated: real regulations skip and repeat them.
 
 `version_actions` — rulemaking actions per provision version, ordered by
 `seq`.
@@ -345,22 +429,26 @@ provisions in force.
 ```bash
 uv run python build.py                     # reads data/, writes cert_basis.sqlite
 uv run python build.py --data-dir X --out Y.sqlite
-uv run python build.py --check             # schema validation only
+uv run python build.py --check             # schema + text layout validation only
 ```
 
 `build.py`:
 1. Validates every JSON file against its schema. Fails on any mismatch.
 2. Checks every document/provision path against the identity fields inside.
 3. Seeds the closed lookup sets (`issuers`, `categories`).
-4. Inserts documents and revisions, then provisions, versions and actions.
-   Fails if a version names an undeclared revision or a duplicate one, or if
-   an alias doesn't point at an earlier, non-deleted version of the same
-   provision, or a deletion doesn't follow a version in force.
+4. Inserts documents and revisions, then provisions, versions, actions and
+   paragraphs. Fails if a version names an undeclared revision or a duplicate
+   one, or if an alias doesn't point at an earlier, non-deleted version of the
+   same provision, or a deletion doesn't follow a version in force, or a text
+   breaks the [text format](#text-format) (all such texts are listed at once).
 5. Inserts aircraft, TCDS (once each, metadata must agree), TCBs and
-   entries; inserts each entry's refs and resolves them by the rules above.
+   entries; inserts each entry's refs, resolves them by the rules above, and
+   checks paragraph qualifiers.
 6. Fails on any date after the build day, and on any foreign-key violation.
 7. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
-   every table, `text_missing` and `deleted` counts, provenance counts, and
+   every table, `text_missing` and `deleted` counts, provenance counts,
+   `structured_versions` / `flat_versions` / `label_gaps`,
+   `paragraph_refs_verified` / `paragraph_refs_unverifiable`, and
    `unresolved_references` (always empty on a successful build).
 
 Every constraint violation fails the build with the offending file named.
@@ -376,7 +464,7 @@ read-only and check the contract version:
 ```python
 import sqlite3
 
-SUPPORTED_SCHEMA = 1
+SUPPORTED_SCHEMA = 3
 
 conn = sqlite3.connect("file:cert_basis.sqlite?mode=ro", uri=True)
 conn.execute("PRAGMA foreign_keys = ON")

@@ -109,6 +109,11 @@ sqlite3 cert_basis.sqlite 'SELECT COUNT(*) FROM aircraft;'
 The field-level contract is in [README.md](README.md). Rules that matter
 at the repo level:
 
+- **Provision `text` is label-line text** (README §Text format): one
+  paragraph per line, depth from the labels, indentation checked relatively.
+  A single-line text is flat. `build.py` parses and checks it; it never
+  guesses a layout. The tools produce it, and layout may only add line breaks
+  and indentation, never change words.
 - **ISO `YYYY-MM-DD` dates everywhere.** Display formatting is the app's
   job, not this repo's.
 - **No `status` column on versions.** Every provision version must have
