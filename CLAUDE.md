@@ -178,3 +178,4 @@ at the repo level:
   `raw_reference` with `references: []` and surface it in the build report
   rather than guessing.
 - Ask before large schema changes. Every field is a downstream commitment.
+- If there is issues with data (poor quality, edge cases, items needing additional work to script properly) write it to ISSUES.md for future review
