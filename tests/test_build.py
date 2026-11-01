@@ -199,19 +199,29 @@ class TestRealDataBuild:
         }
 
     def test_one_row_per_tcds_line(self, real_db: Path) -> None:
+        # 3A12 Rev 89, Model 172: the CAR 3 base, the §23.1559 addition and
+        # two equivalent-safety items.
         with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
                 "SELECT e.display_order, e.entry_type FROM cert_basis_entries e "
                 "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
                 "WHERE tcds.tcds_number = '3A12' ORDER BY e.display_order"
             ).fetchall()
-        assert rows == [(1, "regulation"), (2, "special_condition")]
+        assert rows == [
+            (1, "regulation"),
+            (2, "regulation"),
+            (3, "elos"),
+            (4, "elos"),
+        ]
 
-    def test_172_basis_resolves_through_23_13(self, real_db: Path) -> None:
+    def test_172_basis_resolves_to_car_3_through_3_12(self, real_db: Path) -> None:
         resolved = _resolved(real_db, "3A12")
-        assert (1, "1301", "23-7", None) in resolved
-        assert (1, "1", "23-0", None) in resolved
-        assert max(_ordinal(real_db, d) for _, _, d, _ in resolved) <= 13
+        assert resolved
+        assert {order for order, _, _, _ in resolved} == {1}
+        assert all(d.startswith("CAR3-") for _, _, d, _ in resolved)
+        assert (1, "0", "CAR3-12", None) in resolved
+        cap = _ordinal(real_db, "CAR3-12")
+        assert max(_ordinal(real_db, d) for _, _, d, _ in resolved) <= cap
 
     def test_issuers_carry_succession(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:

@@ -30,7 +30,7 @@ class TestRealData:
 
     def test_checked_in_aircraft_validates(self, repo_root: Path) -> None:
         errors = validate_aircraft_file(
-            repo_root / "data" / "aircraft" / "cessna-aircraft-company" / "172.json"
+            repo_root / "data" / "aircraft" / "textron-aviation-inc" / "172.json"
         )
         assert errors == [], [str(e) for e in errors]
 

@@ -144,6 +144,111 @@ nothing usable. Nothing was staged into `tools/out/` or `data/`.
     existing 172 at rev 42 in `build.py`, and the manufacturer would change
     from "Cessna Aircraft Company" to "Textron Aviation Inc.".
 
+**Status (2026-11-01, `reviews/PLAN_TCDS_PARSER.md`, tools/ commit ff2b6fc
+plus the follow-up below):** 16–24 resolved. 25 resolved except the schema
+point: restricted-category TCDS without a basis are reported and not staged
+(no schema change, by decision). The 3A12 swap is done:
+`data/aircraft/cessna-aircraft-company/172.json` (Rev 42) is replaced by
+`data/aircraft/textron-aviation-inc/172.json` (Rev 89, `caa/car-3` to
+`CAR3-12`). Each fix has a stage test in
+`tools/tests/aircraft/test_faa_tcds_stages.py` and goldens for 8 TCDS in
+`tools/tests/fixtures/tcds/`.
+
+## TCDS parser: corpus run and open items (2026-11-01)
+
+Coverage over the 939 current Aircraft TCDS
+(`uv run python -m tools.aircraft.faa_tcds_coverage`, report in
+`tools/out/reports/tcds_coverage.tsv`):
+
+| | Old parser | Three-stage (ff2b6fc) | + heading fixes |
+|---|---|---|---|
+| TCDS with ≥ 1 model staged | 40 | 601 | 601 |
+| Models staged | 65 | 1,429 | 1,451 |
+| Resolved regulation lines | 21 | 818 | 759 |
+| TCDS with cover models not parsed | | 442 | 397 |
+| Placeholder files written | 148 | 0 | 0 |
+
+The drop in resolved lines is a correction, not a loss. Before the heading
+fixes, 2A13 sub-labels such as `PA-28-181:` didn't match the models, which
+were named "A.- Model PA-28-181". So PA-28-181's basis (60 resolved lines) was
+attached to every 2A13 model. It now goes to PA-28-181 only, which is
+skipped as a duplicate designation (item 29).
+
+Of 7,037 regulation lines on staged models, 759 resolve. The rest are left
+verbatim with `references: []`: `doc_not_in_dataset` 3,045 (cited document
+or provision not in `data/`, e.g. Part 36, item 28), `no_pattern` 2,919,
+`partial` 200, `unknown_revision` 114. 22 TCDS (the 20 trial ones plus A47CE
+and A00003SE; 95 models) are staged in `tools/out/staged/aircraft/` for
+review. Only the 3A12 172 is promoted.
+
+26. **Cirrus-style "additions" layered on a base line.** A00009CH (SR20/22/22T)
+    and similar TCDS give a base line ("14 CFR Part 23 … through 23-53 …")
+    followed by many scoped additions ("For aircraft equipped with Garmin
+    G1000 …: 14 CFR 23.1308 thru Amendment 23-57"). These are emitted today as
+    separate entries whose `applicability` is the verbatim equipment/serial
+    scope. A consumer cannot tell which aircraft get which level without
+    reading the scope text. Options: (a) status quo: separate scoped entries;
+    (b) structured serial applicability, see
+    `reviews/2026-10-31-db-schema/04-open-questions.md` Q-04 (it doesn't help
+    the equipment scopes); (c) an entry-level "supersedes entry N for scope S"
+    link. Needs a decision before Cirrus is promoted.
+27. **Aircraft files have no `provenance` field.** `promote --aircraft` has no
+    manual-edit guard: a re-parse plus promote would overwrite a hand-finished
+    aircraft file, protected only by the diff and the y/N prompt. This is the
+    main blocker to running the parser wider than review-by-review. Needs a
+    schema change (aircraft-level or entry-level `provenance`), the promote
+    guard and a manifest entry, like the document files.
+28. **§23.303, §23.871 and §23.1524 are missing from `data/documents/faa/23/`.**
+    The 3A12 172R/172S base line ("FAR Part 23 … 23-1 through 23-6, except as
+    follows: … 23.871, … 23.1524 as amended by Amendment 23-10 …") and the
+    "14 CFR 23.303, 23.307, …" line stay unresolved (`doc_not_in_dataset`).
+    All three are in the Part 23 manifest/worklist and extracted
+    (`tools/out/extracted/faa/23_303_23-0.json`, `23_871_23-{0,7}.json`,
+    `23_1524_23-10.json`) but not emitted. They should land with the Part 23
+    re-emit and promote in the FAA extraction fix (Step 7 below). Re-parse 3A12
+    after that.
+29. **Designation appears twice on one TCDS:** A19SO `PA-44-180` and A37CE
+    `208B` (two headings each, different bases). Neither is staged (`duplicate
+    designation; merge by hand`). 49 TCDS in the corpus have this. Some are
+    unmarked continuation pages that repeat a multi-model heading (A3EU `VII.
+    Model DH.125 Series 3A/RA, Model HS.125 …` ×3, so every model counts as a
+    duplicate; such a wrapped heading also yields a truncated `HS.125 Series`).
+    Needs a
+    merge rule (one file with two `tcb` entries? one entry list with each
+    heading's scope as `applicability`?) or a hand merge per TCDS.
+30. **EASA CS-23 citations on FAA TCDS** (A57CE DA 62: "CS 23.573 … (CS 23,
+    amendment 2)", 17 lines; plus "Significant Regulatory Differences … CS-23,
+    Original Issue"). They are left unresolved, and are never read as FAA
+    Part 23. Once the EASA CS-23 documents are in `data/`, the interpreter
+    could resolve them to `EASA`/`cs-23` (mind the "equivalent to 14 CFR
+    Part 23 … through 23-55" line, which stays FAA, as with the DA 40).
+31. **Cover models not matched to headings: 397 TCDS, 1,151 designations**
+    (was 442 / 1,330). The coverage report compares the catalogue `models`
+    column with what was emitted. Not triaged beyond a sample. Fixed: brand
+    prefixes in designations (1A13 `Colonial Model C-1` → `C-1`), several
+    `Model` clauses on one heading (1A13 III `Lake Model LA-4 …; Lake Model
+    LA-4A …`), designation lists (1A16 `G-164B-15T and G-164B-34T`, H8SW
+    `HSS-1/UH-34D, …, CH-34C`), `MODEL:` headings, a category on a wrapped
+    heading line reaching all models, and wrapped sub-labels (2A13). The
+    reconciliation now accepts catalogue names with a brand the heading
+    lacks (`Lake LA-4` for `LA-4`). What remains looks like real
+    segmentation misses, e.g. 1A2/1A4 Piper PA-18/PA-20 variants, 1G1/1G10
+    `SGS 1-23F …`, 1H11 `S-58E …`; not yet triaged. Other top skip
+    reasons (by TCDS count): no category on heading 227, no certification
+    basis 153 (+45 with none on the whole TCDS), no model headings 65, zero
+    entries 11.
+32. **3A12 "Equivalent Safety Items" header-row serials.** The header row reads
+    `Equivalent Safety Items  17261445, 17261578, 17265685`. The parser keeps
+    that list as the `applicability` of both items under it (Airspeed
+    Indicator CAR 3.757, Operating Limitations CAR 3.778(a)), after
+    "Models 172 thru 172P". From the TCDS layout it isn't clear whether the
+    list scopes both items or only the airspeed one (whose own text repeats
+    it: "S/N 17261445, 17261578, 17265685 thru 17276259"). Check against the
+    PDF when the 172 is reviewed.
+33. **`promote --dry-run` prints `WROTE`** for a conflict it would accept
+    (`tools/regulations/promote.py:239`), although nothing is written.
+    Cosmetic, but it reads like a real write.
+
 ## EASA CS ingestion (2026-10-31)
 
 Pipeline: `tools/regulations/easa/` (see `tools/docs/EASA_CS.md`). Reports
