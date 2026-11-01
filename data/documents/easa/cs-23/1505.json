@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1505",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Airspeed limitations",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Airspeed limitations",
+      "text": "(a) The never-exceed speed VNE must be established so that it is \u2013 (1) Not less than 0\u00b79 times the minimum value of VD allowed under CS 23.335; and (2) Not more than the lesser of \u2013 (i) 0\u00b79 VD established under CS 23.335; or (ii) 0\u00b79 times the maximum speed shown under CS 23.251. (b) The maximum structural cruising speed VNO must be established so that it is \u2013 (1) Not less than the minimum value of VC allowed under CS 23.335; and (2) Not more than the lesser of \u2013 (i) VC established under CS 23.335; or (ii) 0\u00b789 VNE established under sub-paragraph (a) . (c) Sub-paragraphs (a) and (b) do not apply to turbine aeroplanes or to aeroplanes for which a design diving speed VD/MD is established under CS 23.335 (b) (4). For those aeroplanes, a maximum operating limit speed (VMO/MMO airspeed or Mach number, whichever is critical at a particular altitude) must be established as a speed that may not be deliberately exceeded in any regime of flight (climb, cruise, or descent) unless a higher speed is authorised for flight test or pilot training operations. VMO/MMO must be established so that it is not greater than the design cruising speed VC/MC and so that it is sufficiently below VD/MD and the maximum speed shown under CS 23.251 to make it highly improbable that the latter speeds will be inadvertently exceeded in operations. The speed margin between VMO/MMO and VD/MD or the maximum speed shown under CS 23.251 may not be less than the speed margin established between VC/MC and VD/MD under CS 23.335(b), or the speed margin found necessary in the flight tests conducted under CS 23.253.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Airspeed limitations",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1013",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Oil tanks",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Oil tanks",
+      "text": "(a) Installation. Each oil tank must be installed to \u2013 (1) Meet the requirements of CS 23.967 (a) and (b); and (2) Withstand any vibration, inertia and fluid loads expected in operation. (b) Expansion space. Oil tank expansion space must be provided so that \u2013 (1) Each oil tank used with a reciprocating engine has an expansion space of not less than the greater of 10% of the tank capacity or 1\u00b79 litres (0\u00b742 Imperial gallon/0\u00b75 US-gallon) and each oil tank used with a turbine engine has an expansion space of not less than 10% of the tank capacity; and (2) It is impossible to fill the expansion space inadvertently with the aeroplane in the normal ground attitude. (c) Filler connection. Each oil tank filler connection must be marked as specified in CS 23.1557 (c). Each recessed oil tank filler connection of an oil tank used with a turbine engine, that can retain any appreciable quantity of oil, must have provisions for fitting a drain. (d) Vent. Oil tanks must be vented as follows: (1) Each oil tank must be vented to the engine from the top part of the expansion space so that the vent connection is not covered by oil under any normal flight condition. (2) Oil tank vents must be arranged so that condensed water vapour that might freeze and obstruct the line cannot accumulate at any point. (3) For aerobatic category aeroplanes, there must be means to prevent hazardous loss of oil during aerobatic manoeuvres, including short periods of inverted flight. (e) Outlet. No oil tank outlet may be enclosed by any screen or guard that would reduce the flow of oil below a safe value at any operating temperature. No oil tank outlet diameter may be less than the diameter of the engine oil pump inlet. Each oil tank used with a turbine engine must have means to prevent entrance into the tank itself, or into the tank outlet, of any object that might obstruct the flow of oil through the system. There must be a shut-off valve at the outlet of each oil tank used with a turbine engine, unless the external portion of the oil system (including oil tank supports) is fire-proof. (f) Flexible liners. Each flexible oil tank liner must be of an acceptable kind. (g) Each oil tank filler cap of an oil tank that is used with an engine must provide an oil tight seal.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Oil tanks",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

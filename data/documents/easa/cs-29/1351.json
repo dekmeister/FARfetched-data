@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1351",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "General",
+      "text": "(a) Electrical system capacity. The required generating capaci ty and t he num ber and ki nd of power sources must: (1) Be determined by an electrical load analysis; and (2) Meet the requirem ents of CS 29.1309. (b) Generating system. The generating system includes electrical power sources, main power busses, transm ission cables, and associated control, regulation, and prot ective devi ces. It must be designed so that: (1) Power sources funct ion properl y when independent and when connect ed i n combination; (2) No failure or m alfunction of any power source can create a hazard or impair the ability of rem aining sources to supply essential loads; (3) The sy stem vol tage and frequency (as applicable) at the terminals of essential load equipment can b e m aintained with in th e limits for whi ch t he equi pment i s designed, during any probable operating condition; (4) System tran sients d ue to switching, fault cl earing, or ot her causes do not make essential loads inoperative, and do not cause a smoke or fire hazard; (5) There are m eans accessible in flight to appropriate crew m embers for t he individual and collective disconnec tion of the electrical power sources from the main bus; and (6) There are m eans to indicate to appropriate crew m embers t he generat ing system quantities essential fo r th e safe operation of the system, such as the voltage and current supplied by each generator. (c) External power. If provi sions are m ade for connecting external power to the rotorcraft, and that external power can be electrically connected to equipm ent other than that used for engine starting, means must be provi ded to ensure that no ext ernal power suppl y havi ng a reverse polarity, or a reverse phase sequence, can suppl y power to the rotorcraft\u2019s electrical system. (d) Operation with the normal electrical power generating system inoperative. (1) It m ust be shown by anal ysis, tests, or both, that the rot orcraft can be operat ed safely i n VFR condi tions, for a period of not less th an fiv e m inutes, with the normal electrical power generat ing sy stem i noperative, with critical ty pe fuel (from the stand-point of flameout an d restart cap ability), an d with the rotorcraft initially at th e m aximum certificated altitude. Parts o f th e electrical system may remain on if: (i) A single malfunction, including a wi re bundl e or junct ion box fire, cannot result i n l oss of t he part turned off and the part turned on; and (ii) The parts turned on are electrically and m echanically isolated from the parts turned off. (2) Additional requirements for Category A Rotorcraft (i) Unless i t can be shown that the loss of the norm al electrical power generating system is extrem ely improbable, an em ergency electrical power system, independent of t he normal electrical power gene rating system , must be provided wi th suffi cient capaci ty t o power all systems necessary for continued safe flight and landing. (ii) Fai lures, including junction box, cont rol panel or wi re bundle fires, which wo uld resu lt in th e lo ss of the normal and em ergency sy stems m ust be shown to be extremely improbable. (iii) Systems necessary for immediate safety must continue to operate following the loss of the norm al electrical power generating sy stem, wi thout t he need for flight crew action.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "177",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Static directional stability",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static directional stability",
+      "text": "Static directional stability must be positive with throttle and collective controls held constant at the trim conditions specified in CS 29.175(a), (b), and (c). Sideslip angle m ust increase steadily with directional control defl ection for si deslip angl es up to \u00b1 1 0\u00b0 fro m trim . Sufficient cues must accompany sideslip to alert the pilot when approaching sideslip limits.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-1",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static directional stability",
+      "text": "(a) The directional controls m ust operat e i n such a m anner t hat t he sense and di rection of motion of the rotorcraft following control displacement are in the direction of the pedal motion with th rottle an d co llective co ntrols h eld constant at th e trim co nditions sp ecified in CS 29.175 (a), (b), (c) and (d). Si deslip angl es m ust increase with steadily increasing di rectional control deflection for si deslip angl es up t o t he lesser of: (1) \u00b125 degrees from trim at a speed of 28 km/h (15 knot s) l ess t han t he speed for minimum rate o f d escent v arying lin early to \u00b110 degrees from trim at VNE; (2) The steady-state sideslip angles established by CS 29.351; (3) A sideslip angle selected by the applicant which corresponds to a sideforce of at least 0.1g; or (4) The sid eslip an gle attain ed by maximum directional control input. (b) Sufficient cues must accom pany the sideslip to alert th e p ilot wh en approaching sideslip limits. (c) During t he m anoeuvre speci fied in sub-paragraph (a) of t his paragraph, the sideslip angle versus directional control position curve may have a negative slope within a sm all range of angl es around trim, provided t he desi red headi ng can be maintained without excep tional piloting skill or alertness.",
+      "publication_cite": "ED Decision 2007/014/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1627/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 12/2006"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/014/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007014r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

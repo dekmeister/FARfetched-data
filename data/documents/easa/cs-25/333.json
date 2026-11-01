@@ -1,0 +1,131 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "333",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Flight manoeuvring envelope",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Flight manoeuvring envelope",
+      "text": "(a) General. The strength requirements must be met at each combination of airspeed and load factor on and within the boundaries of the representative manoeuvring envelope (V-n diagram) of sub-paragraph (b) of this paragraph. This envelope must also be used in determining the aeroplane structural operating limitations as specified in CS 25.1501. (b) Manoeuvring envelope",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-11",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Flight manoeuvring envelope",
+      "text": "(a) General. The strength requirements time must be met at each combination of airspeed and load factor on and within the boundaries of the representative manoeuvring envelope (V-n diagram) of sub-paragraph (b) of this paragraph. This envelope must also be used in determining the aeroplane structural operating limitations as specified in CS 25.1501. (b) Manoeuvring envelope",
+      "publication_cite": "ED Decision 2011/004/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1590/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "editorial"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2011/004/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2011004r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-13",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Flight manoeuvring envelope",
+      "text": "(a) General. The strength requirements time must be met at each combination of airspeed and load factor on and within the boundaries of the representative manoeuvring envelope (V-n diagram) of sub-paragraph (b) of this paragraph. This envelope must also be used in determining the aeroplane structural operating limitations as specified in CS 25.1501. (b) Manoeuvring envelope (See AMC 25.333(b))",
+      "publication_cite": "ED Decision 2013/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1982/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-09",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2013/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2013010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Flight manoeuvring envelope",
+      "text": "(See AMC 25.333) \u03b4 \u0394t tmax time (a) General. The strength requirements t1 t2 \u2212\u03b41 (iv) In cases where the cockpit pitch control motion may be affected by inputs from systems (for example, by a stick pusher that can operate at high load factor as well as at 1g) then the effects of those systems must be taken into account. (v) Aeroplane loads that occur beyond the following times need not be considered: (A) For the nose-up pitching manoeuvre, the time at which the normal acceleration at the c.g. goes below 0g; (B) For the nose-down pitching manoeuvre, the time at which the normal acceleration at the c.g. goes above the positive limit load factor prescribed in CS 25.337; (C) tmax. must be met at each combination of airspeed and load factor on and within the boundaries of the representative manoeuvring envelope (V-n diagram) of sub-paragraph (b) of this paragraph. This envelope must also be used in determining the aeroplane structural operating limitations as specified in CS 25.1501. (b) Manoeuvring envelope (See AMC 25.333(b))",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-21",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Flight manoeuvring envelope",
+      "text": "(See AMC 25.333) (a) General. The strength requirements must be met at each combination of airspeed and load factor on and within the boundaries of the representative manoeuvring envelope (V-n diagram) of sub-paragraph (b) of this paragraph. This envelope must also be used in determining the aeroplane structural operating limitations as specified in CS 25.1501. (b) Manoeuvring envelope (See AMC 25.333(b))",
+      "publication_cite": "ED Decision 2018/005/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/46017/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2018/005/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2018005r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

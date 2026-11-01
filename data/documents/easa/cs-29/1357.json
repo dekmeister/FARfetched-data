@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1357",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Circuit protective devices",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Circuit protective devices",
+      "text": "(a) Automatic protective devices must be used to m inimise distress to the electrical system and hazard to the rotorcraft in the event of wiring faults or seri ous m alfunction of t he sy stem or connected equipment. (b) The prot ective and cont rol devices in the generating system must be desi gned to de-energise and disconnect faulty power sources and power transmission equipment from their associated busses wi th suffi cient rapi dity t o provi de protection from hazardous overvoltage and other malfunctioning. (c) Each resettable circuit protective device must be designed so t hat, when an overl oad or circuit fau lt ex ists, it will o pen th e circuit regardless of the position of the operating control. (d) If th e ab ility to reset a circu it b reaker o r replace a fuse is essential to safety in flight, that circuit breaker or fuse m ust be located and identified so that it can be readily reset or replaced in flight. (e) Each essential load m ust have i ndividual circuit protection. However, i ndividual protection for each circuit in an essential load system (such as each position light circuit in a system ) is not required. (f) If fuses are used, there must be spare fuses for use i n flight equal to at least 50% of the number of fuses of each rating required for complete circuit protection. (g) Automatic reset circuit breakers m ay be used as integral protectors for electrical equipment provided there is ci rcuit prot ection for t he cabl e supplying power to the equipment.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

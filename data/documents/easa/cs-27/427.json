@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "427",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Unsymmetrical loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Unsymmetrical loads",
+      "text": "(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and rotor wake effects in combination with the prescribed flight conditions. (b) To meet the design criteria of sub-paragraph (a), in the absence of more rational data, both of the following must be met: (1) 100% of the maximum loading from the symmetrical flight conditions acts on the surface on one side of the plane of symmetry and no loading acts on the other side. (2) 50% of the maximum loading from the symmetrical flight conditions acts on the surface on each side of the plane of symmetry but in opposite directions. (c) For empennage arrangements where the horizontal tail surfaces are supported by the vertical tail surfaces, the vertical tail surfaces and supporting structure must be designed for the combined vertical and horizontal surface loads resulting from each prescribed flight condition, considered separately. The flight conditions must be selected so the maximum design loads are obtained on each surface. In the absence of more rational data, the unsymmetrical horizontal tail surface loading distributions described in this paragraph must be assumed.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

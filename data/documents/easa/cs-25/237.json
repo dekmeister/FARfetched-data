@@ -1,0 +1,104 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "237",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Wind velocities",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wind velocities",
+      "text": "(a) A 90\u00ba cross component of wind velocity, demonstrated to be safe for take-off and landing, must be established for dry runways and must be at least 37 km/h (20 kt) or 0\u00b72 VSR0, whichever is greater, except that it need not exceed 46 km/h (25 kt).",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wind velocities",
+      "text": "(a) The following applies: (1) A 90\u00ba cross component of wind velocity, demonstrated to be safe for take-off and landing, must be established for dry runways and must be at least 37 km/h (20 kt) or 0\u00b72 VSR0, whichever is greater, except that it need not exceed 46 km/h (25 kt). (2) The crosswind component for takeoff established without ice accretions is valid in icing conditions. (3) The landing crosswind component must be established for: (i) Non-icing conditions, and (ii) Icing conditions with the landing ice accretion defined in appendix C.",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 16/2004"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-16",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wind velocities",
+      "text": "(a) The following applies: (1) A 90\u00ba cross component of wind velocity, demonstrated to be safe for take-off and landing, must be established for dry runways and must be at least 37 km/h (20 kt) or 0\u00b72 VSR0, whichever is greater, except that it need not exceed 46 km/h (25 kt). (2) The crosswind component for takeoff established without ice accretions is valid in icing conditions. (3) The landing crosswind component must be established for: (i) Non-icing conditions, and (ii) Icing conditions with the most critical of the landing ice accretion(s) defined in Appendices C and O, as applicable, in accordance with CS 25.21(g).",
+      "publication_cite": "ED Decision 2015/008/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/22035/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-03",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2015/008/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2015008r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wind velocities",
+      "text": "(a) The following applies: (1) A 90\u00b0 cross component of wind velocity, demonstrated to be safe for take-off and landing, must be established for dry runways and must be at least 37 km/h (20 kt) or 0\u00b72 VSR0, whichever is greater, except that it need not exceed 46 km/h (25 kt). (2) The crosswind component for takeoff established without ice accretions is valid in icing conditions. (3) The landing crosswind component must be established for: (i) Non-icing conditions, and (ii) Icing conditions with the most critical of the landing ice accretion(s) defined in appendix C and O, as applicable, in accordance with CS 25.21(g).",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

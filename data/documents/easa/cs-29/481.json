@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "481",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Tail-down landing conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Tail-down landing conditions",
+      "text": "(a) The rotorcraft is assumed to be in the maximum nose-up attitude allowing ground clearance by each part of the rotorcraft. (b) In this attitude, ground loads are assumed to act perpendicular to the ground.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

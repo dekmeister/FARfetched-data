@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "613",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Material strength properties and design values",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Material strength properties and design values",
+      "text": "(a) Material strength properties m ust be based on enough tests of m aterial meeting specifications to establish design values on a statistical basis. (b) Design values m ust be chosen to minimise the probability of structural failure due to m aterial variability. Except as provided in subparagraphs (d) and (e), com pliance with this paragraph m ust be shown by selecting design values that assure m aterial strength with the following probability: (1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in loss of structural integrity of the component, 99% probability with 95% confidence; and (2) For redundant structures, those in which the failure of individual elem ents would result in applied loads being safely distributed to other load-carry ing m embers, 90% probability with 95% confidence. (c) The strength, detail design, and fabrication of the structure m ust m inimise the probability of disastrous fatigue failure, particularly at points of stress concentration. (d) Material specifications m ust be those contained in documents accepted by the Agency. (e) Other design values m ay be used if a selection of the material is made in which a specimen of each individual item is tested before use and it is determined that the actual strength properties of that particular item will equal or exceed those used in design.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

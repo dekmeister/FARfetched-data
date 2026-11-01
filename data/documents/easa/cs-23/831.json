@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "831",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Ventilation",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Ventilation",
+      "text": "(a) Each passenger and crew compartment must be suitably ventilated. Carbon monoxide concentration may not exceed one part in 20 000 parts of air. (b) For pressurised aeroplanes, the ventilating air in the flight crew and passenger compartments must be free of harmful or hazardous concentrations of gases and vapours in normal operations and in the event of reasonably probable failures or malfunctioning of the ventilating, heating, pressurisation, or other systems and equipment. If accumulation of hazardous quantities of smoke in the cockpit area is reasonably probable, smoke evacuation must be readily accomplished starting with full pressurisation and without depressurising beyond safe limits.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Ventilation",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

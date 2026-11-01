@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "725",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Limit drop test",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Limit drop test",
+      "text": "The limit drop test must be conducted as follows: (a) The drop height must be \u2013 (1) 0.33 m (13 inches) from the lowest point of the landing gear to the ground; or (2) Any lesser height, not less than 0.20 m (8 in), resulting in a drop contact velocity equal to the greatest probable sinking speed likely to occur at ground contact in normal power-off landings. (b) If considered, the rotor lift specified in CS 27.473(a) must be introduced into the drop test by appropriate energy absorbing devices or by the use of an effective mass. (c) Each landing gear unit must be tested in the attitude simulating the landing condition that is most critical from the standpoint of the energy to be absorbed by it. (d) When an effective mass is used in showing compliance with sub-paragraph (b) the following formula may be used instead of more rational computations: h + (1 \u2212 L)d W W = W : and n = n e + L e h + d j W where: We = the effective weight to be used in the drop test . W=WM for main gear units , equal to the static reaction on the particular unit with the rotorcraft in the most critical attitude. A rational method may be used in computing a main gear static reaction, taking into consideration the moment arm between the main wheel reaction and the rotorcraft centre of gravity. W=WN for nose gear units , equal to the vertical component of the static reaction that would exist at the nose wheel, assuming that the mass of the rotorcraft acts at the centre of gravity and exerts a force of 1.0 g downward and 0.25 g forward. W=WT for tailwheel units equal to whichever of the following is critical: (1) The static weight on the tailwheel with the rotorcraft resting on all wheels; or (2) The vertical component of the ground reaction that would occur at the tailwheel, assuming that the mass of the rotorcraft acts at the centre of gravity and exerts a force of 1 g downward with the rotorcraft in the maximum nose-up attitude considered in the nose-up landing conditions. h = specified free drop height . L = ratio of assumed rotor lift to the rotorcraft weight. d = deflection under impact of the tyre (at the proper inflation pressure) plus the vertical component of the axle travel relative to the drop mass. n = limit inertia load factor. nj = the load factor developed, during impact, on the mass used in the drop test (i.e., the acceleration dv/dt in g recorded in the drop test plus 1.0).",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

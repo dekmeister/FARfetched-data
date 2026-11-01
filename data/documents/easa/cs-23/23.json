@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "23",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Load distribution limits",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Load distribution limits",
+      "text": "(a) Ranges of weight and centres of gravity within which the aeroplane may be safely operated must be established and must include the range for lateral centres of gravity if possible loading conditions can result in significant variation of their positions. (b) The load distribution must not exceed \u2013 (1) The selected limits; (2) The limits at which the structure is proven; or (3) The limits at which compliance with each applicable flight requirement of this subpart is shown.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Load distribution limits",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

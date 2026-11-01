@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1363",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Electrical system tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electrical system tests",
+      "text": "(a) When laboratory tests of the electrical system are conducted: (1) The tests m ust be performed on a mock-up usi ng t he sam e generat ing equipment used in the rotorcraft; (2) The equipment m ust sim ulate th e electrical characteristic s of t he distribution wiring and connected loads to the extent necessary for valid test results; and (3) Laboratory generat or dri ves m ust simulate th e p rime m overs o n th e rotorcraft with resp ect to th eir reactio n to generator loading, including loading due to faults. (b) For each flight condition that cannot be simulated adequately in the laboratory or by ground tests on the rotorcraft, flight tests must be made.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

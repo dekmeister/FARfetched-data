@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "705",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Runway overrun awareness and alerting systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-24",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Runway overrun awareness and alerting systems",
+      "text": "(See AMC 25.705) A runway overrun awareness and alerting system (ROAAS) must be installed. The ROAAS shall reduce the risk of a longitudinal runway excursion during landing by providing alert, in flight and on ground, to the flight crew when the aeroplane is at risk of not being able to stop within the available distance to the end of the runway. (a) During approach (from a given height above the selected runway) and landing, the ROAAS shall perform real-time energy-based calculations of the predicted landing stopping point, compare that point with the location of the end of the runway, and provide the flight crew with: (1) in-flight, timely, and unambiguous predictive alert(s) of a runway overrun risk, and (2) on-ground, timely, and unambiguous predictive alert(s) of a runway overrun risk. At the option of the applicant, the ROAAS may also provide an automated means of deceleration control that prevents or minimises runway overrun during landing. (b) The ROAAS shall at least accommodate dry and wet runway conditions for normal landing configurations.",
+      "publication_cite": "ED Decision 2020/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/108354/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2018-12",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2020/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2020001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

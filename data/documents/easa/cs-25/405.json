@@ -1,0 +1,70 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "405",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Secondary control system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Secondary control system",
+      "text": "Secondary controls, such as wheel brake, spoiler, and tab controls, must be designed for the maximum forces that a pilot is likely to apply to those controls. The following values may be used: PILOT CONTROL FORCE LIMITS (SECONDARY CONTROLS). Control Limit pilot forces Miscellaneous: \u239b 1 + R \u239e \u239c \u239f x 222 N (50 lbf), *Crank, wheel, or \u239d 3 \u23a0 lever. but not less than 222 N (50 lbf) nor more than 667 N (150 lbf) (R = radius). (Applicable to any angle within 20\u00ba of plane of control). Twist 15 Nm (133 in.lbf) Push-pull To be chosen by applicant. *Limited to flap, tab, stabiliser, spoiler, and landing gear operation controls.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Secondary control system",
+      "text": "Secondary controls, such as wheel brake, spoiler, and tab controls, must be designed for the maximum forces that a pilot is likely to apply to those controls. The following values may be used: PILOT CONTROL FORCE LIMITS (SECONDARY CONTROLS). Control Limit pilot forces Miscellaneous: \u239b 25.4 + R \u239e \u239c \u239f x 222 N (50 *Crank, wheel, or \u239d 76.2 \u23a0 lever. lbf), but not less than 222 N (50 lbf) nor more than 667 N (150 lbf) (R = radius in mm). (Applicable to any angle within 20\u00ba of plane of control). Twist 15 Nm (133 in.lbf) Push-pull To be chosen by applicant. *Limited to flap, tab, stabiliser, spoiler, and landing gear operation controls.",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Secondary control system",
+      "text": "Secondary controls, such as wheel brake, spoiler, and tab controls, must be designed for the maximum forces that a pilot is likely to apply to those controls. The following values may be used: PILOT CONTROL FORCE LIMITS (SECONDARY CONTROLS). Control Limit pilot forces Miscellaneous: 25.4 + R ( ) x 222 N (50 lbf), *Crank, wheel, or lever. 76.2 but not less than 222 N (50 lbf) nor more than 667 N (150 lbf) (R = radius in mm). (Applicable to any angle within 20o of plane of control). Twist 15 Nm (133 in.lbf) Push-pull To be chosen by applicant. *Limited to flap, tab, stabiliser, spoiler, and landing gear operation controls.",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

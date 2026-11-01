@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1431",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Electronic equipment",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electronic equipment",
+      "text": "(a) In showing compliance with CS 23.1309(b)(1) and (2) with respect to radio and electronic equipment and their installations, critical environmental conditions must be considered. (b) Radio and electronic equipment, controls, and wiring must be installed so that operation of any unit or system of units will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units. (c) For those aeroplanes required to have more than one flight-crew member, or whose operation will require more than one flight-crew member, the cockpit must be evaluated to determine if the flight crew members, when seated at their duty station, can converse without difficulty under the actual cockpit noise conditions when the aeroplane is being operated. If the aeroplane design includes provisions for the use of communication headsets, the evaluation must also consider conditions where headsets are being used. If the evaluation shows conditions under which it will be difficult to converse, an intercommunication system must be provided. (d) If installed, communication equipment incorporates transmitter \u201con-off\u201d switching, that switching means must be designed to return from the \u201ctransmit\u201d to the \u201coff\u201d position when it is released and ensure that the transmitter will return to the off (non-transmitting) state. (e) If provisions for the use of communication headsets are provided, it must be demonstrated that the flight crew members will receive all aural warnings under the actual cockpit noise conditions when the aeroplane is being operated when any headset is being used. (See AMC 23.1431(e))",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electronic equipment",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

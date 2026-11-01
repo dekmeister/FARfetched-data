@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "927",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Additional tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Additional tests",
+      "text": "(a) Any additional dynamic, endurance, and operational tests, and vibratory investigations necessary to determine that the rotor drive mechanism is safe, must be performed. (b) If turbine engine torque output to the transmission can exceed the highest engine or transmission torque rating limit, and that output is not directly controlled by the pilot under normal operating conditions (such as where the primary engine power control is accomplished through the flight control), the following test must be made: (1) Under conditions associated with all engines operating, make 200 applications, for 10 seconds each, of torque that is at least equal to the lesser of: (i) The maximum torque used in meeting CS 27.923 plus 10%; or (ii) The maximum attainable torque output of the engines, assuming that torque limiting devices, if any, function properly. (2) For multi-engine rotorcraft under conditions associated with each engine in turn becoming inoperative, apply to the remaining transmission torque inputs, the maximum torque attainable under probable operating conditions, assuming that torque limiting devices, if any, function properly. Each transmission input must be tested at this maximum torque for at least 15 minutes. (3) The tests prescribed in this paragraph must be conducted on the rotorcraft at the maximum rotational speed intended for the power condition of the test and the torque must be absorbed by the rotors to be installed, except that other ground or flight test facilities with other appropriate methods of torque absorption may be used if the conditions of support and vibration closely simulate the conditions that would exist during a test on the rotorcraft. (c) It must be shown by tests that the rotor drive system is capable of operating under autorotative conditions for 15 minutes after the loss of pressure in the rotor drive primary oil system.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1303",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Flight and navigation instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Flight and navigation instruments",
+      "text": "The following are requi red fl ight and navigational instruments: (a) An airspeed indicator. For Category A rotorcraft with V NE less than a speed at which unmistakable pi lot cues provide overspeed warning, a ma ximum allowable airspeed indicator must be provided. If maximum allowable airspeed varies with weig ht, altitu de, temperature, or rpm, the indicator must show that variation. (b) A sensitive altimeter. (c) A magnetic direction indicator. (d) A clock di splaying hours, m inutes, and seconds with a sweep-second poi nter or di gital presentation. (e) A free-air temperature indicator. (f) A non-tumbling gy roscopic bank and pitch indicator. (g) A gyroscopic rate-of-turn i ndicator combined with an in tegral slip -skid in dicator (turn-and-bank i ndicator) except t hat onl y a slip-skid indicator is required on rotorcraft with a third attitude instrument system that: (1) Is usable through flight attitudes of \u00b1 80\u00b0 of pitch and \u00b1 120\u00b0 of roll; (2) Is powered from a source independent of the electrical generating system; (3) Continues rel iable operat ion for a minimum of 30 minutes after total failure of the electrical generating system; (4) Operates independently of any other attitude indicating system; (5) Is operat ive wi thout sel ection after total failure of the electrical generating system; (6) Is located on the instrument panel in a position acceptable to th e Agency that will make i t pl ainly vi sible t o and usable by any pilot at his station; and (7) Is appropri ately l ighted duri ng all phases of operation. (h) A gyroscopic direction indicator. (i) A rate-of-climb (vertical speed) indicator. (j) For Category A rotorcraft, a speed warning device when V NE is less than the speed at which unm istakable overspeed warning is provided by other pi lot cues. The speed warni ng device must gi ve effect ive aural warni ng (differing distinctly from aural warnings used for other purposes) to the pilots whenever the indicated speed exceeds V NE pl us 5.6 km/h (3 knots) and m ust operat e sat isfactorily t hroughout the approved range of altitudes and temperatures.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

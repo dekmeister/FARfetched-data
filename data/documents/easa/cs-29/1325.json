@@ -1,0 +1,50 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1325",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Static pressure and pressure altimeter systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Static pressure and pressure altimeter systems",
+      "text": "(a) Each instrum ent with static air case connections m ust be vent ed t o t he out side atmosphere through an appropriate piping system. (b) Each vent must be located where its orifices are least affected by ai rflow vari ation, moisture, or other foreign matter. (c) Each static pressure port m ust be designed and l ocated i n such manner that the correlation between air p ressure in th e static pressure system and t rue am bient at mospheric static pressure is not altered when the rotorcraft encounters icing conditions. An anti-icing means or an alternate source of static pressure m ay be used in showing compliance with this requirement. If the reading of th e altim eter, wh en o n th e alternate static pressure sy stem, differs from the reading of the altimeter when on the primary static system by more t han 15 m (50 ft), a correct ion card m ust be provi ded for the alternate static system. (d) Except fo r th e v ent in to th e atmosphere, each system must be airtight. (e) Each pressure altimeter must be approved and calib rated to in dicate p ressure altitu de in a standard at mosphere wi th a m inimum practicable calibration error when t he correspondi ng st atic pressures are applied. (f) Each system m ust be designed and installed so th at an error in indicated pressure altitude, at sea-lev el, with a stan dard atm osphere, excluding i nstrument cal ibration error, does not result in an error of m ore than \u00b19 m (\u00b130 ft) per 185 km /h (l 00 knot s) speed. However, the error need not be less than \u00b1 9m (\u00b1 30ft). (g) Except as provi ded i n sub-paragraph (h) if the static pressure system incorporates both a primary and an alternate static pressure source, the means for sel ecting one or t he ot her source m ust be designed so that: (1) When either source is selected, the other is blocked off; and (2) Both sources cannot be bl ocked off simultaneously. (h) For unpressuri sed rot orcraft, sub-paragraph (g) (1) does not appl y i f i t can be demonstrated that the static pressure system calibration, wh en eith er static p ressure source is selected, i s not changed by the other static pressure source being open or blocked.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Static pressure and pressure altimeter systems",
+      "text": "(a) Each instrument with static air case connections must be vented to the outside atmosphere through an appropriate piping system. (b) Each vent must be located where its orifices are least affected by airflow variation, moisture, or other foreign matter. (c) Each static pressure port must be designed and located in such manner that the correlation between air pressure in the static pressure system and true ambient atmospheric static pressure is not altered when the rotorcraft encounters icing conditions. An anti-icing means or an alternate source of static pressure may be used in showing compliance with this requirement. If the reading of the altimeter, when on the alternate static pressure system, differs from the reading of the altimeter when on the primary static system by more than 15 m (50 ft), a correction card must be provided for the alternate static system. (d) Except for the vent into the atmosphere, each system must be airtight. (e) Each pressure altimeter must be approved and calibrated to indicate pressure altitude in a standard atmosphere with a minimum practicable calibration error when the corresponding static pressures are applied. (f) Each system must be designed and installed so that an error in indicated pressure altitude, at sea-level, with a standard atmosphere, excluding instrument calibration error, does not result in an error of more than \u00b19 m (\u00b130 ft) per 185 km/h (100 knots) speed. However, the error need not be less than \u00b19 m (\u00b130 ft). (g) Except as provided in sub-paragraph (h) if the static pressure system incorporates both a primary and an alternate static pressure source, the means for selecting one or the other source must be designed so that: (1) When either source is selected, the other is blocked off; and (2) Both sources cannot be blocked off simultaneously. (h) For unpressurised rotorcraft, sub-paragraph (g)(1) does not apply if it can be demonstrated that the static pressure system calibration, when either static pressure source is selected, is not changed by the other static pressure source being open or blocked.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

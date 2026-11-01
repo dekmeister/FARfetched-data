@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1361",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Master switch arrangement",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Master switch arrangement",
+      "text": "(a) There must be a master switch arrangement to allow ready disconnection of each electric power source from the power distribution systems, except as provided in sub-paragraph (b) . The point of disconnection must be adjacent to the sources controlled by the switch arrangement. A separate switch may be incorporated into the arrangement for each separate power source provided the switch arrangement can be operated by one hand with a single movement. (b) Load circuits may be connected so that they remain energised when the master switch is open; if \u2013 (1) The circuits are isolated, or physically shielded, to prevent their igniting flammable fluids or vapours that might be liberated by the leakage or rupture of any flammable fluid systems; and (2) The circuits are required for continued operation of the engine; or (3) The circuits are protected by circuit protective devices with a rating of five amperes or less adjacent to the electric power source. In addition, two or more circuits installed in accordance with the requirements of sub-paragraph (b) (2) must not be used to supply a load of more than five amperes. (c) The master switch or its controls must be so installed that the switch is easily discernible and accessible to a crew member.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Master switch arrangement",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "753",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Main float design",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Main float design",
+      "text": "(a) Bag floats. Each bag float must be designed to withstand: (1) The maximum pressure differential that might be developed at the maximum altitude for which certification with that float is requested; and (2) The vertical loads prescribed in CS 27.521(a), distributed along the length of the bag over three-quarters of its projected area. (b) Rigid floats. Each rigid float must be able to withstand the vertical, horizontal, and side loads prescribed in CS 27.521. These loads may be distributed along the length of the float.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

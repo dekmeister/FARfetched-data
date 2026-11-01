@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1527",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Maximum operating altitude",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Maximum operating altitude",
+      "text": "The maximum altitude up to which operation is allowed, as limited by flight, structural, powerplant, functional, or equipment characteristics, must be established.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

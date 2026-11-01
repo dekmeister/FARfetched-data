@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "303",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Factor of safety",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Factor of safety",
+      "text": "Unless otherwise specified, a factor of safety of 1\u00b75 must be applied to the prescribed limit load which are considered external loads on the structure. When loading condition is prescribed in terms of ultimate loads, a factor of safety need not be applied unless otherwise specified.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1091",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Air induction system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Air induction system",
+      "text": "(a) The air induction system for each engine and auxiliary power unit and their accessories must supply the air required by that engine and auxiliary power unit under the operating conditions for which certification is requested. (b) Each reciprocating engine installation must have at least two separate air intake sources and must meet the following: (1) Primary air intakes may open within the cowling if that part of the cowling is isolated from the engine accessory section by a fire-resistant diaphragm or if there are means to prevent the emergence of backfire flames. (2) Each alternate air intake must be located in a sheltered position and may not open within the cowling if the emergence of backfire flames will result in a hazard. (3) The supplying of air to the engine through the alternate air intake system may not result in a loss of excessive power in addition to the power loss due to the rise in air temperature. (4) Each automatic alternate air door must have an override means accessible to the flight crew. (5) Each automatic alternate air door must have a means to indicate to the flight crew when it is not closed. (c) For turbine engine-powered aeroplanes \u2013 (1) There must be means to prevent hazardous quantities of fuel leakage or overflow from drains, vents or other components of flammable fluid systems from entering the engine or auxiliary power unit and their accessories intake system; and (2) The aeroplane must be designed to prevent water or slush on the runway, taxi way, or other airport operating surfaces from being directed into the engine or auxiliary power unit air intake ducts in hazardous quantities, and the air intake ducts must be located or protected so as to minimise the ingestion of foreign matter during take-off, landing and taxying.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Air induction system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

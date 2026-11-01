@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "683",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Operation tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Operation tests",
+      "text": "(See AMC 23.683) (a) It must be shown by operation tests that, when the controls are operated from the pilot compartment with the system loaded as prescribed in sub-paragraph (b) , the system is free from \u2013 (1) Jamming; (2) Excessive friction; (3) Excessive deflection. (b) The prescribed test loads are \u2013 (1) For the entire system, loads corresponding to the limit air loads on the appropriate surface, or the limit pilot forces in CS 23.397 (b), whichever are less; and (2) For secondary controls, loads not less than those corresponding to the maximum pilot effort established under CS 23.405.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Operation tests",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

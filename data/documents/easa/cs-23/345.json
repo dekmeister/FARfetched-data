@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "345",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "High lift devices",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "High lift devices",
+      "text": "(See AMC 23.345 (d)) (a) If flaps or similar high lift devices are to be used for take-off, approach or landing, the aeroplane, with the flaps fully extended at VF, is assumed to be subjected to symmetrical manoeu-vres and gusts within the range determined by \u2013 (1) Manoeuvring, to a positive limit load factor of 2\u00b70; and (2) Positive and negative gust of 7.62 m (25 ft) per second acting normal to the flight path in level flight. (b) VF must be assumed to be not less than 1\u00b74 VS or 1\u00b78 VSF, whichever is greater, where\u2014 (1) VS is the computed stalling speed with flaps retracted at the design weight; and (2) VSF is the computed stalling speed with flaps fully extended at the design weight. However, if an automatic flap load limiting device is used, the aeroplane may be designed for the critical combinations of airspeed and flap position allowed by that device. (c) In determining external loads on the aeroplane as a whole, thrust, slip-stream and pitching acceleration may be assumed to be zero. (d) The flaps, their operating mechanism and their supporting structures, must be designed for the conditions prescribed in sub-paragraph (a) . In addition, with the flaps fully extended at speed VF the following conditions, taken separately, must be accounted for: (1) A head-on gust having a velocity of 7.6 m (25 ft) per second (EAS), combined with propeller slipstream corresponding to 75% of maximum continuous power; and (2) The effects of propeller slipstream corresponding to maximum take-off power.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "High lift devices",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

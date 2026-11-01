@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1310",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Power source capacity and distribution",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Power source capacity and distribution",
+      "text": "For Category A rotorcraft, each installation whose functioning is required to comply with type-certification requirements, airspace requirements or operating rules, and which requires a power supply, is an \u2018essential load\u2019 on the power supply. The power sources and the system must be able to supply the following power loads in probable operating combinations and for probable durations: (a) Loads connected to the system with the system functioning normally. (b) Essential loads, after failure of any one prime mover, or one power source. (c) Essential loads, after failure of: (1) any one engine, on rotorcraft with two engines; and (2) any two engines, on rotorcraft with three or more engines.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

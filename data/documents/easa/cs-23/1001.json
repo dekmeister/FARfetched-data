@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1001",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel jettisoning system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel jettisoning system",
+      "text": "(a) If the design landing weight is less than that permitted under the requirements of CS 23.473 (b), the aeroplane must have a fuel jettisoning system installed that is able to jettison enough fuel to bring the maximum weight down to the design landing weight. The average rate of fuel jettisoning must be at least 1% of the maximum weight per minute, except that the time required to jettison the fuel need not be less than 10 minutes. (b) Fuel jettisoning must be demonstrated at maximum weight with flaps and landing gear up and in \u2013 (1) A power-off glide at 1\u00b74 VS1; and (2) A climb, at the speed at which one-engine in-operative en-route climb data has been established in accordance with CS 23.69(b), with the critical engine inoperative and the remaining engine at maximum continuous power; and (3) Level flight at 1\u00b74 VS1, if the results of the tests in the conditions specified in sub-paragraphs (1) and (2) show that this condition could be critical. (c) During the flight tests prescribed in sub-paragraph (b) , it must be shown that \u2013 (1) The fuel jettisoning system and its operation are free from fire hazard; (2) The fuel discharges clear of any part of the aeroplane; (3) Fuel or fumes do not enter any parts of the aeroplane; and (4) The jettisoning operation does not adversely affect the controllability of the aeroplane. (d) For reciprocating engine powered aeroplanes, the jettisoning system must be designed so that it is not possible to jettison the fuel in the tanks used for take-off and landing below the level allowing 45 minutes flight at 75% maximum continuous power. However, if there is an auxiliary control independent of the main jettisoning control, the system may be designed to jettison all the fuel. (e) For turbine engine-powered aeroplanes, the jettisoning system must be designed so that it is not possible to jettison fuel in the tanks used for take-off and landing below the level allowing climb from sea level to 3048 m (10 000 ft) and thereafter allowing 45 minutes cruise at a speed for maximum range. (f) The fuel jettisoning valve must be designed to allow flight-crew members to close the valve during any part of the jettisoning operation. (g) Unless it is shown that using any means (including flaps, slots and slats) for changing the airflow across or around the wings does not adversely affect fuel jettisoning, there must be a placard, adjacent to the jettisoning control, to warn flight-crew members against jettisoning fuel while the means that change the airflow are being used. (h) The fuel jettisoning system must be designed so that any reasonably probable single malfunction in the system will not result in a hazardous condition due to unsymmetrical jettisoning of, or inability to jettison, fuel.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel jettisoning system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

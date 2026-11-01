@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1322",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Warning, caution, and advisory lights",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Warning, caution, and advisory lights",
+      "text": "If warning, caution or advisory lights are installed in the cockpit, they must, unless otherwise approved the Agency, be: (a) Red, for warning lights (lights indicating a hazard which may require immediate corrective action); (b) Amber, for caution lights (lights indicating possible need for future corrective action); (c) Green, for safe operation lights; and (d) Any other colour, including white, for lights not described in sub-paragraphs (a) to (c), provided the colour differs sufficiently from the colours prescribed in sub-paragraphs (a) to (c) to avoid possible confusion.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

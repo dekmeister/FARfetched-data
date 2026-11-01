@@ -1,0 +1,50 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1401",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Anti-collision light system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Anti-collision light system",
+      "text": "(a) General. The aeroplane must have an anti-collision light system that \u2013 (1) Consists of one or more approved anti-collision lights located so that their light will not impair the crew\u2019s vision or detract from the conspicuity of the position lights; and (2) Meets the requirements of sub-paragraphs (b) to (f) of this paragraph. (b) Field of coverage. The system must consist of enough light to illuminate the vital areas around the aeroplane considering the physical configuration and flight characteristics of the aeroplane. The field of coverage must extend in each direction within at least 75\u00ba above and 75\u00ba below the horizontal plane of the aeroplane, except that a solid angle or angles of obstructed visibility totalling not more than 0\u00b703 steradians is allowable within a solid angle equal to 0\u00b715 steradians centred about the longitudinal axis in the rearward direction. (c) Flashing characteristics. The arrangement of the system, that is, the number of light sources, beam width, speed of rotation, and other characteristics, must give an effective flash frequency of not less than 40, nor more than 100 cycles per minute. The effective flash frequency is the frequency at which the aeroplane\u2019s complete anti-collision light system is observed from a distance, and applies to each section of light including any overlaps that exist when the system consists of more than one light source. In overlaps, flash frequencies may exceed 100, but not 180 cycles per minute. (d) Colour. Each anti-collision light must be either aviation red or aviation white and must meet the applicable requirements of CS 25.1397. (e) Light intensity. The minimum light intensities in all vertical planes, measured with the red filter (if used) and expressed in terms of \u2018effective\u2019 intensities, must meet the requirements of sub-paragraph (f) of this paragraph. The following relation must be assumed: \u222b I(t) dt ;t2 Ie = t1 0 \u22c5 2 + (t 2 \u2212 t1) where: Ie = effective intensity (candela (candles) I(t) = instantaneous intensity as a function of time t2\u2013t1 = flash time interval (seconds) Normally, the maximum value of effective intensity is obtained when t2 and t1 are chosen so that the effective intensity is equal to the instantaneous intensity at t2 and t1. (f) Minimum effective intensities for anti-collision lights. Each anti-collision light effective intensity must equal or exceed the applicable values in the following table: Angle above or below Effective intensity the horizontal plane: (candela (candles)) 0\u00ba to 5\u00ba 407 (400) 5\u00ba to 10\u00ba 244 (240) 10\u00ba to 20\u00ba 81 (80) 20\u00ba to 30\u00ba 41 (40) 30\u00ba to 75\u00ba 20",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Anti-collision light system",
+      "text": "(a) General. The aeroplane must have an anticollision light system that \u2013 (1) Consists of one or more approved anti-collision lights located so that their light will not impair the crew\u2019s vision or detract from the conspicuity of the position lights; and (2) Meets the requirements of sub-paragraphs (b) to (f) of this paragraph. (b) Field of coverage. The system must consist of enough light to illuminate the vital areas around the aeroplane considering the physical configuration and flight characteristics of the aeroplane. The field of coverage must extend in each direction within at least 75\u00b0 above and 75\u00b0 below the horizontal plane of the aeroplane, except that a solid angle or angles of obstructed visibility totalling not more than 0\u00b703 steradians is allowable within a solid angle equal to 0\u00b715 steradians centred about the longitudinal axis in the rearward direction. (c) Flashing characteristics. The arrangement of the system, that is, the number of light sources, beam width, speed of rotation, and other characteristics, must give an effective flash frequency of not less than 40, nor more than 100 cycles per minute. The effective flash frequency is the frequency at which the aeroplane\u2019s complete anti-collision light system is observed from a distance, and applies to each section of light including any overlaps that exist when the system consists of more than one light source. In overlaps, flash frequencies may exceed 100, but not 180 cycles per minute. (d) Colour. Each anti-collision light must be either aviation red or aviation white and must meet the applicable requirements of CS 25.1397. (e) Light intensity. The minimum light intensities in all vertical planes, measured with the red filter (if used) and expressed in terms of \u2018effective\u2019 intensities, must meet the requirements of sub-paragraph (f) of this paragraph. The following relation must be assumed: t \u222bt I(t)dt2 Ie = 1 0 \u00b7 2 + (t2 \u2212 t1) where: Ie = effective intensity (candela (candles) I(t) = instantaneous intensity as a function of time t2\u2013t1 = flash time interval (seconds) Normally, the maximum value of effective intensity is obtained when t2 and t1 are chosen so that the effective intensity is equal to the instantaneous intensity at t2 and t1. (f) Minimum effective intensities for anticollision lights. Each anti-collision light effective intensity must equal or exceed the applicable values in the following table: Angle above or below the horizontal plane: 0\u00b0 to 5\u00b0 5\u00b0 to 10\u00b0 10\u00b0 to 20\u00b0 20\u00b0 to 30\u00b0 30\u00b0 to 75\u00b0 Effective intensity (candela (candles)) 407 (400) 244 (240) 81 (80) 41 (40)",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

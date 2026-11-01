@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "977",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel tank outlet",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel tank outlet",
+      "text": "(a) There must be a fuel strainer for the fuel tank outlet or for the booster pump. This strainer must: (1) For reciprocating engine-powered rotorcraft have 3 to 6 meshes per cm (8 to 16 meshes per inch); and (2) For turbine engine-powered rotorcraft, prevent the passage of any object that could restrict fuel flow or damage any fuel system component. (b) The clear area of each fuel tank outlet strainer must be at least 5 times the area of the outlet line. (c) The diameter of each strainer must be at least that of the fuel tank outlet. (d) Each finger strainer must be accessible for inspection and cleaning.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

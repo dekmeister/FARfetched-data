@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1061",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Installation",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Installation",
+      "text": "(a) General. Each liquid-cooled engine must have an independent cooling system (including coolant tank) installed so that \u2013 (1) Each coolant tank is supported so that tank loads are distributed over a large part of the tank surface; (2) There are pads or other isolation means between the tank and its supports to prevent chafing; and (3) Pads or any other isolation means that is used must be non-absorbent or must be treated to prevent absorption of flammable fluids; and (4) No air or vapour can be trapped in any part of the system, except the coolant tank expansion space, during filling or during operation. (b) Coolant tank. The tank capacity must be at least 3\u00b78 litres (0\u00b783 Imperial gallon/1 US-gallon), plus 10% of the cooling system capacity. In addition \u2013 (1) Each coolant tank must be able to withstand the vibration, inertia and fluid loads to which it may be subjected in operation; (2) Each coolant tank must have an expansion space of at least 10% of the total cooling system capacity; and (3) It must be impossible to fill the expansion space inadvertently with the aeroplane in the normal ground attitude. (c) Filler connection. Each coolant tank filler connection must be marked as specified in CS 23.1557 (c). In addition \u2013 (1) Spilled coolant must be prevented from entering the coolant tank compartment or any part of the aeroplane other than the tank itself; and (2) Each recessed coolant filler connection must have a drain that discharges clear of the entire aeroplane. (d) Lines and fittings. Each coolant system line and fitting must meet the requirements of CS 23.993, except that the inside diameter of the engine coolant inlet and outlet lines may not be less than the diameter of the corresponding engine inlet and outlet connections. (e) Radiators. Each coolant radiator must be able to withstand any vibration, inertia and coolant pressure load to which it may normally be subjected. In addition \u2013 (1) Each radiator must be supported to allow expansion due to operating temperatures and prevent the transmittal of harmful vibration to the radiator; and (2) If flammable coolant is used, the air intake duct to the coolant radiator must be located so that (in case of fire) flames from the nacelle cannot strike the radiator. (f) Drains. There must be an accessible drain that \u2013 (1) Drains the entire cooling system (including the coolant tank, radiator and the engine) when the aeroplane is in the normal ground attitude; (2) Discharges clear of the entire aeroplane; and (3) Has means to positively lock it closed.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Installation",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

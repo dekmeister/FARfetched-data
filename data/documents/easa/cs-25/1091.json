@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1091",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Air intake",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Air intake",
+      "text": "(a) The air intake system for each engine must supply \u2013 (1) The air required by that engine under each operating condition for which certification is requested; and (2) The air for proper fuel metering and mixture distribution with the air intake system valves in any position. (b) Reserved. (c) Air intakes may not open within the cowling, unless that part of the cowling is isolated from the engine accessory section by means of a fireproof diaphragm. (d) (1) There must be means to prevent hazardous quantities of fuel leakage or overflow from drains, vents, or other components of flammable fluid systems from entering the engine air intake system; and (2) The aeroplane must be designed to prevent water or slush on the runway, taxiway, or other airport operating surfaces from being directed into the engine air intake ducts in hazardous quantities, and the air intake ducts must be located or protected so as to minimise the ingestion of foreign matter during take-off, landing and taxying. (See AMC 25.1091 (d)(2).) (e) If the engine air intake system contains parts or components that could be damaged by foreign objects entering the air intake, it must be shown by tests or, if appropriate, by analysis that the air intake system design can withstand the foreign object ingestion test conditions of CS\u2013E 790 and CS\u2013E 800 without failure of parts or components that could create a hazard. (See AMC 25.1091(e).)",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Air intake",
+      "text": "(See AMC 25.1091) (a) The air intake system for each engine must supply \u2013 (1) The air required by that engine under each operating condition for which certification is requested; and (2) The air for proper fuel metering and mixture distribution with the air intake system valves in any position. (b) Reserved. (c) Air intakes may not open within the cowling, unless that part of the cowling is isolated from the engine accessory section by means of a fireproof diaphragm. (d) (1) There must be means to prevent hazardous quantities of fuel leakage or overflow from drains, vents, or other components of flammable fluid systems from entering the engine air intake system; and (2) The aeroplane must be designed to prevent water or slush on the runway, taxiway, or other airport operating surfaces from being directed into the engine air intake ducts in hazardous quantities, and the air intake ducts must be located or protected so as to minimise the ingestion of foreign matter during take-off, landing and taxying. (See AMC 25.1091(d)(2)) (e) If the engine air intake system contains parts or components that could be damaged by foreign objects entering the air intake, it must be shown by tests or, if appropriate, by analysis that the air intake system design can withstand the foreign object ingestion test conditions of CS-E 790 and CS-E 800 without failure of parts or components that could create a hazard. (See AMC 25.1091(e))",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

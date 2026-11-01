@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "479",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Level landing conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Level landing conditions",
+      "text": "(a) Attitudes. Under each of the loading conditions prescribed in sub-paragraph (b), the rotorcraft is assumed to be in each of the following level landing attitudes: (1) An attitude in which all wheels contact the ground simultaneously. (2) An attitude in which the aft wheels contact the ground with the forward wheels just clear of the ground. (b) Loading conditions. The rotorcraft must be designed for the following landing loading conditions: (1) Vertical loads applied under CS 27.471. (2) The loads resulting from a combination of the loads applied under sub-paragraph (b)(1) with drag loads at each wheel of not less than 25% of the vertical load at that wheel. (3) If there are two wheels forward, a distribution of the loads applied to those wheels under sub-paragraphs (b)(1) and (2) in a ratio of 40:60. (c) Pitching moments. Pitching moments are assumed to be resisted by: (1) In the case of the attitude in sub-paragraph (a)(1), the forward landing gear, and (2) In the case of the attitude in sub-paragraph (a)(2), the angular inertia forces.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

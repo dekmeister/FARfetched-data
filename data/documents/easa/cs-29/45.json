@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "45",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "General",
+      "text": "(a) The perform ance prescribed in this subpart must be determined: (1) With normal piloting skill; and (2) Without except ionally favourabl e conditions. (b) Compliance with th e p erformance requirements of this subpart must be shown: (1) For still air at sea-lev el with a standard atmosphere; and (2) For t he approved range of atmospheric variables. (c) The available power m ust correspond t o engine power, not exceeding the approved power, less: (1) Installation losses; and (2) The power absorbed by the accessories and services at the values for which certification is requested and approved. (d) For reci procating engi ne-powered rotorcraft, the perform ance, as affected by engine power, m ust be based on a rel ative hum idity of 80% in a standard atmosphere. (e) For turbine engine-powered rotorcraft, the performance, as affected by engine power, must be based on a relative humidity of: (1) 80%, at and bel ow standard temperature; and (2) 34%, at and above st andard temperature plus 28\u00b0C (50\u00b0F). Between th ese two tem peratures, the relative humidity must vary linearly. (f) For turbine-engine-powered rotorcraft, a means m ust be provi ded t o perm it t he pi lot to determine prior to take-off that each engine is capable of developing t he power necessary t o achieve the applicable rotorcraft perform ance prescribed in this subpart.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

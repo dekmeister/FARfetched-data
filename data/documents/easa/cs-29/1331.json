@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1331",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Instruments using a power supply",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Instruments using a power supply",
+      "text": "For Category A rotorcraft: (a) Each requi red fl ight i nstrument usi ng a power supply must have \u2013 (1) Two independent sources of power; (2) A m eans of selecting either power source; and (3) A visual m eans integral with each instrument to indicate when the power adequate to sustain proper i nstrument performance is not being supplied. The power m ust be m easured at or near t he poi nt where it enters the instrument. For electrical instrum ents, the power is considered to be adequate when the voltage is within approved limits; and (b) The installation and power suppl y system must b e su ch th at failu re o f an y flig ht in strument connected t o one source, or of t he energy supply from one source, or a faul t i n any part of t he power di stribution sy stem does not i nterfere wi th the proper supply of energy from any other source.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

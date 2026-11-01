@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "625",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Fitting factors",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Fitting factors",
+      "text": "For each fitting (a part or terminal used to join one structural member to another), the following apply: (a) For each fitting whose strength is not proven by limit and ultimate load tests in which actual stress conditions are simulated in the fitting and surrounding structures, a fitting factor of at least 1\u00b715 must be applied to each part of \u2013 (1) The fitting; (2) The means of attachment; and (3) The bearing on the joined members. (b) No fitting factor need be used \u2013 (1) For joints made under approved practices and based on comprehensive test data (such as continuous joints in metal plating, welded joints, and scarf joints in wood); or (2) With respect to any bearing surface for which a larger special factor is used. (c) For each integral fitting, the part must be treated as a fitting up to the point at which the section properties become typical of the member. (d) For each seat, berth, safety belt, and harness, the fitting factor specified in CS 25.785(f)(3) applies.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

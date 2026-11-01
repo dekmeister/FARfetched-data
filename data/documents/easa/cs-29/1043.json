@@ -1,0 +1,50 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1043",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Cooling tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "text": "(a) General. For the tests p rescribed in CS 29.1041 (c), the following apply: (1) If t he t ests are conducted under conditions devi ating from the maximum ambient atm ospheric tem perature specified in sub-paragraph (b), t he recorded powerplant temperatures must be correct ed under sub-paragraphs (c) and (d), unl ess a m ore rat ional correction method is applicable. (2) No corrected temperature determined under sub-paragraph (a)(1) may exceed established limits. (3) The fuel used duri ng the cooling tests must be of t he m inimum grade approved for the engines, and t he m ixture set tings m ust be those used in normal operation. (4) The t est procedures m ust be as prescribed in CS 29.1045 to 29.1049. (5) For t he purposes of the cooling tests, a temperature is \u2018stab ilised\u2019 when its rate of change is less than 1\u00b0C (2\u00b0F) per minute. (b) Maximum ambient atmospheric temperature. A ma ximum ambient atmospheric temperature corresponding to sea-level conditions of at least 38\u00b0C (100\u00b0F) m ust be est ablished. The assumed temperature l apse rat e i s 2.0\u00b0C (3.6\u00b0F) per thousand feet of altitude above sea-level until a tem perature of \u201356.5\u00b0C (\u201369.7\u00b0F) is reached, above which altitude the temperature is considered constant at \u201356.5\u00b0C (\u201369.7\u00b0F). However, for winterisation installations, th e ap plicant m ay select a m aximum am bient atm ospheric temperature corresponding to sea-level conditions of less than 38\u00b0C (100\u00b0F). (c) Correction factor (except cylinder barrels). Unless a m ore rational correction applies, t emperatures of engi ne fl uids and powerplant components (except cy linder barrel s) for which temperature limits are established, must be corrected by adding to them the difference between the m aximum am bient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum component or fl uid t emperature recorded during the cooling test. (d) Correction factor for cylinder barrel temperatures. Cylin der b arrel tem peratures must be correct ed by addi ng t o t hem 0.7 times the difference between the m aximum ambient atmospheric tem perature and the tem perature of the am bient air at the time of the first occurrence of t he m aximum cy linder barrel t emperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "text": "(a) General. For the tests prescribed in CS 29.1041(c), the following apply: (1) If the tests are conducted under conditions deviating from the maximum ambient atmospheric temperature specified in sub-paragraph (b), the recorded powerplant temperatures must be corrected under sub-paragraphs (c) and (d), unless a more rational correction method is applicable. (2) No corrected temperature determined under sub-paragraph (a)(1) may exceed established limits. (3) The fuel used during the cooling tests must be of the minimum grade approved for the engines, and the mixture settings must be those used in normal operation. (4) The test procedures must be as prescribed in CS 29.1045 to 29.1049. (5) For the purposes of the cooling tests, a temperature is \u2018stabilised\u2019 when its rate of change is less than 1\u00b0C (2\u00b0F) per minute. (b) Maximum ambient atmospheric pressure. A maximum ambient atmospheric temperature corresponding to sea-level conditions of at least 38\u00b0C (100\u00b0F) must be established. The assumed temperature lapse rate is 2.0\u00b0C (3.6\u00b0F) per thousand feet of altitude above sea-level until a temperature of \u201356.5\u00b0C (\u201369.7\u00b0F) is reached, above which altitude the temperature is considered constant at \u201356.5\u00b0C (\u201369.7\u00b0F). However, for winterisation installations, the applicant may select a maximum ambient atmospheric temperature corresponding to sea-level conditions of less than 38\u00b0C (100\u00b0F). (c) Correction factor (except cylinder barrels). Unless a more rational correction applies, temperatures of engine fluids and powerplant components (except cylinder barrels) for which temperature limits are established, must be corrected by adding to them the difference between the maximum ambient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum component or fluid temperature recorded during the cooling test. (d) Correction factor for cylinder barrel temperatures. Cylinder barrel temperatures must be corrected by adding to them 0.7 times the difference between the maximum ambient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum cylinder barrel temperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "681",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Limit load static tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Limit load static tests",
+      "text": "(a) Compliance with the limit load requirements of this CS\u201325 must be shown by tests in which \u2013 (1) The direction of the test loads produces the most severe loading in the control system; and (2) Each fitting, pulley, and bracket used in attaching the system to the main structure is included. (b) Compliance must be shown (by analyses or individual load tests) with the special factor requirements for control system joints subject to angular motion.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

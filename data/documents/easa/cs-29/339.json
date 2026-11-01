@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "339",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Resultant limit manoeuvring loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Resultant limit manoeuvring loads",
+      "text": "The lo ads resu lting fro m th e ap plication of limit manoeuvring load factors are assum ed to act at the centre of each rotor hub and at each auxiliary lifting surface, and to act in directions and wi th di stributions of l oad am ong t he rot ors and auxiliary lifting surfaces, so as to represent each critical m anoeuvring condition, including power-on and power-off fl ight with the maximum design rotor tip sp eed ratio . Th e ro tor tip sp eed ratio is the ratio o f th e ro torcraft flig ht v elocity component i n t he pl ane of t he rot or disc to the rotational tip sp eed o f th e rotor blades and is expressed as follows: V cos a \u03bc = \u2126R where: V = The ai rspeed al ong t he fl ight pat h (m/s (fps)); a = The angle between th e projection, i n t he plane of sy mmetry, of t he axi s of no feathering and a l ine perpendicular to the flight path (radians, positive when axis is pointing aft); \u2126 = The angular velocity of rot or (radians per second); and R = The rotor radius (m (ft)).",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

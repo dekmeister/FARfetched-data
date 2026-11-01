@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "201",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Wings level stall",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wings level stall",
+      "text": "(a) It must be possible to produce and to correct roll by unreversed use of the rolling control and to produce and to correct yaw by unreversed use of the directional control, up to the time the aeroplane stalls. (b) The wings level stall characteristics must be demonstrated in flight as follows. Starting from a speed at least 18.5 km/h (10 knots) above the stall speed, the elevator control must be pulled back so that the rate of speed reduction will not exceed 1.9 km/h (one knot) per second until a stall is produced, as shown by either \u2013 (1) An uncontrollable downward pitching motion of the aeroplane; or (2) A downward pitching motion of the aeroplane which results from the activation of a device (e.g. stick pusher); or (3) The control reaching the stop. (c) Normal use of elevator control for recovery is allowed after the downward pitching motion of (b) (1) or (b) (2) has unmistakably been produced, or after the control has been held against the stop for not less than the longer of 2 seconds or the time employed in the minimum steady flight speed determination of CS 23.49. (d) During the entry into and the recovery from the manoeuvre, it must be possible to prevent more than 15\u00b0 of roll or yaw by the normal use of controls. (e) Compliance with the requirements must be shown under the following conditions: (1) Wing flaps. Retracted, fully extended and each intermediate normal operating position; (2) Landing gear. Retracted and extended; (3) Cowl flaps. Appropriate to configuration; (4) Power (i) Power off; and (ii) 75% maximum continuous power. If the power-to-weight ratio at 75% of maximum continuous power results in extreme nose-up attitudes, the test may be carried out with the power required for level flight in the landing configuration at maximum landing weight and a speed of 1\u00b74 VS0, but the power may not be less than 50% maximum continuous power. (5) Trim. The aeroplane trimmed at a speed as near 1\u00b75 VS1 as practicable. (6) Propeller. Full increase rpm position for the power off condition.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Wings level stall",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

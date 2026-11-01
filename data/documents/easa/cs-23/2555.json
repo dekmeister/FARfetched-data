@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2555",
+  "current_grouping": "Subpart F \u2014 Systems And",
+  "canonical_title": "Installation of recorders (e.g. cockpit voice recorders and flight data recorders)",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Systems And",
+      "title_at_revision": "Installation of recorders (e.g. cockpit voice recorders and flight data recorders)",
+      "text": "If recording is required by the operating rules, the system: (a) is installed so as to ensure accurate and intelligible recording and safeguarding of the required data, also in conditions encountered during crash, water immersion or fire; (b) is powered by the most reliable power source and remains powered for as long as possible without jeopardising service to essential or emergency loads and emergency operation of the aeroplane; (c) includes features to facilitate the localisation of a memory medium after an accident; and (d) is installed so that it automatically records when the aeroplane is capable of moving under its own power.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

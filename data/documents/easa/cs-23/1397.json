@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1397",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Colour specifications",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Colour specifications",
+      "text": "Each position light colour must have the applicable International Commission on Illumination chromaticity co-ordinates as follows: (a) Aviation red \u2013 \u201cy\u201d is not greater than 0\u00b7335; and \u201cz\u201d is not greater than 0\u00b7002. (b) Aviation green \u2013 \u201cx\u201d is not greater than 0\u00b7440\u20130\u00b7320y; \u201cx\u201d is not greater than y\u20130\u00b7170; and \u201cy\u201d is not less than 0\u00b7390-0\u00b7170x. (c) Aviation white \u2013 \u201cx\u201d is not less than 0\u00b7300 and not greater than 0\u00b7540; \u201cy\u201d is not less than \u201cx\u20130\u00b7040\u201d or \u201cy\u00b0\u20130\u00b7010\u201d, whichever is the smaller; and \u201cy\u201d is not greater than \u201cx+0\u00b7020\u201d nor \u201c0\u00b7636\u2013 0\u00b7400x\u201d; Where \u201cy\u00b0\u201d is the \u201cy\u201d co-ordinate of the Planckian radiator for the value of \u201cx\u201d considered.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Colour specifications",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

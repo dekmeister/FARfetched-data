@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "777",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Cockpit controls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Cockpit controls",
+      "text": "(a) Each cockpit control must be located to provide convenient operation and to prevent confusion and inadvertent operation. (b) The direction of movement of cockpit controls must meet the requirements of CS 25.779. Wherever practicable, the sense of motion involved in the operation of other controls must correspond to the sense of the effect of the operation upon the aeroplane or upon the part operated. Controls of a variable nature using a rotary motion must move clockwise from the off position, through an increasing range, to the full on position. (c) The controls must be located and arranged, with respect to the pilots' seats, so that there is full and unrestricted movement of each control without interference from the cockpit structure or the clothing of the minimum flight crew (established under CS 25.1523) when any member of this flight crew from 1.58 m (5ft 2 inches) to 1\u00b791 m (6ft 3 inches) in height, is seated with the seat belt and shoulder harness (if provided) fastened. (d) Identical powerplant controls for each engine must be located to prevent confusion as to the engines they control. (e) Wing-flap controls and other auxiliary lift device controls must be located on top of the pedestal, aft of the throttles, centrally or to the right of the pedestal centre line, and not less than 25 cm (10 inches) aft of the landing gear control. (f) The landing gear control must be located forward of the throttles and must be operable by each pilot when seated with seat belt and shoulder harness (if provided) fastened. (g) Control knobs must be shaped in accordance with CS 25.781. In addition, the knobs must be of the same colour and this colour must contrast with the colour of control knobs for other purposes and the surrounding cockpit. (h) If a flight engineer is required as part of the minimum flight crew (established under CS 25.1523), the aeroplane must have a flight engineer station located and arranged so that the flight-crew members can perform their functions efficiently and without interfering with each other.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-13",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Cockpit controls",
+      "text": "(a) Each cockpit control must be located to provide convenient operation and to prevent confusion and inadvertent operation. (b) The direction of movement of cockpit controls must meet the requirements of CS 25.779. Wherever practicable, the sense of motion involved in the operation of other controls must correspond to the sense of the effect of the operation upon the aeroplane or upon the part operated. Controls of a variable nature using a rotary motion must move clockwise from the off position, through an increasing range, to the full on position. (c) The controls must be located and arranged, with respect to the pilots' seats, so that there is full and unrestricted movement of each control without interference from the cockpit structure or the clothing of the minimum flight crew (established under CS 25.1523) when any member of this flight crew from 1.58 m (5ft 2 inches) to 1\u00b791 m (6ft 3 inches) in height, is seated with the seat belt and shoulder harness (if provided) fastened. (d) Identical powerplant controls for each engine must be located to prevent confusion as to the engines they control. (e) Wing-flap controls and other auxiliary lift device controls must be located on top of the pedestal, aft of the throttles, centrally or to the right of the pedestal centre line, and not less than 25 cm (10 inches) aft of the landing gear control. (f) The landing gear control must be located forward of the throttles and must be operable by each pilot when seated with seat belt and shoulder harness (if provided) fastened. (g) Control knobs must be shaped in accordance with CS 25.781. In addition, the knobs must be of the same colour and this colour must contrast with the colour of control knobs for other purposes and the surrounding cockpit. (h) If a flight engineer is required as part of the minimum flight crew (established under CS 25.1523), the aeroplane must have a flight engineer station located and arranged so that the flight-crew members can perform their functions efficiently and without interfering with each other. (i) Pitch and roll control forces and displacement sensitivity shall be compatible so that normal inputs on one control axis will not cause significant unintentional inputs on the other.",
+      "publication_cite": "ED Decision 2013/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1982/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-09",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2013/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2013010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

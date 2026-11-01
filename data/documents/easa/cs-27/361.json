@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "361",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Engine torque",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Engine torque",
+      "text": "(a) For turbine engines, the limit torque may not be less than the highest of: (1) The mean torque for maximum continuous power multiplied by 1.25; (2) The torque required by CS 27.923; (3) The torque required by CS 27.927; or (4) The torque imposed by sudden engine stoppage due to malfunction or structural failure (such as compressor jamming). (b) For reciprocating engines, the limit torque may not be less than the mean torque for maximum continuous power multiplied by: (1) 1.33, for engines with five or more cylinders; and (2) Two, three, and four, for engines with four, three, and two cylinders, respectively.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

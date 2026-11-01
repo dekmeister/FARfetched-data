@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "301",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Loads",
+      "text": "(a) Strength requirements are specified in terms o f lim it lo ads (th e m aximum lo ads to be expected in service) an d u ltimate lo ads (lim it loads m ultiplied b y p rescribed facto rs of safety). Unless otherwise provided, prescri bed l oads are limit loads. (b) Unless ot herwise provi ded, the specified air, ground, and water loads m ust be placed in equilibrium with inertia forces, considering each item of mass in the rotorcraft. These loads must be distributed t o cl osely approximate or conservatively represent actual conditions. (c) If deflections under l oad woul d significantly change t he distribution of external or internal loads, th is red istribution m ust b e tak en into account.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "734",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Protection against wheel and tyre failures",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-14",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Protection against wheel and tyre failures",
+      "text": "(See AMC 25.734) The safe operation of the aeroplane must be preserved in case of damaging effects on systems or structures from: \u2022 tyre debris; \u2022 tyre burst pressure; \u2022 flailing tyre strip; and \u2022 wheel flange debris.",
+      "publication_cite": "ED Decision 2013/033/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/16746/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2013-02",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2013/033/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2013033r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

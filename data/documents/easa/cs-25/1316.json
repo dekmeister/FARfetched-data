@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1316",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Electrical and electronic system lightning",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "System lightning protection",
+      "text": "(a) For functions whose failure would contribute to or cause a condition that would prevent the continued safe flight and landing of the aeroplane, each electrical and electronic system that performs these functions must be designed and installed to ensure that the operation and operational capabilities of the systems to perform these functions are not adversely affected when the aeroplane is exposed to lightning. (b) For functions whose failure would contribute to or cause a condition that would reduce the capability of the aeroplane or the ability of the flight crew to cope with adverse operating conditions, each electrical and electronic system that performs these functions must be designed and installed to ensure that these functions can be recovered in a timely manner after the aeroplane is exposed to lightning. (c) Compliance with the lightning protection criteria prescribed in sub-paragraphs (a) and (b) of this paragraph must be shown for exposure to a severe lightning environment. The aeroplane must be designed for and it must be verified that aircraft electrical/electronic systems are protected against the effects of lightning by: (1) Determining the lightning strike zones for the aeroplane; (2) Establishing the external lightning environment for the zones; (3) Establishing the internal environment; (4) Identifying all the electrical and electronic systems that are subject to the requirements of this paragraph, and their locations on or within the aeroplane; (5) Establishing the susceptibility of the systems to the internal and external lightning environment; (6) Designing protection; and (7) Verifying that the protection is adequate.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-17",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electrical and electronic system lightning",
+      "text": "protection (See AMC 20-136) (a) Each electrical and electronic system that performs a function whose failure would prevent the continued safe flight and landing of the aeroplane must be designed and installed so that: (1) the function is not adversely affected during and after the time the aeroplane is exposed to lightning; and (2) the system automatically recovers normal operation of that function, in a timely manner, after the aeroplane is exposed to lightning, unless the system\u2019s recovery conflicts with other operational or functional requirements of the system that would prevent continued safe flight and landing of the aeroplane. (b) Each electrical and electronic system that performs a function whose failure would reduce the capability of the aeroplane or the ability of the flight crew to respond to an adverse operating condition must be designed and installed so that the function recovers normal operation in a timely manner after the aeroplane is exposed to lightning.",
+      "publication_cite": "ED Decision 2015/019/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/18864/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2014-16",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2015/019/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2015019r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

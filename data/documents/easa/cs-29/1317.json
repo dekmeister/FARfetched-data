@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1317",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "High-Intensity Radiated Fields",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-4",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "High-Intensity Radiated Fields",
+      "text": "(HIRF) protection (a) Each electrical and electronic system that performs a function whose failure would prevent the continued safe flight and landing of the rotorcraft, must be designed and installed in a way that: (1) the function is not adversely affected during and after the time the rotorcraft\u2019s exposure to HIRF environment I as described in Appendix E; (2) the system automatically recovers normal operation of that function, in a timely manner after the rotorcraft\u2019s exposure to a HIRF environment I as described in Appendix E unless the system\u2019s recovery conflicts with other operational or functional requirements of the system that would prevent continued safe flight and landing of the rotorcraft; (3) the system is not adversely affected during and after the time the rotorcraft\u2019s exposure to a HIRF environment II as described in Appendix E; and (4) each function required during operation under visual flight rules is not adversely affected during and after the time the rotorcraft\u2019s exposure to a HIRF environment III as described in Appendix E. (b) Each electrical and electronic system that performs a function whose failure would significantly reduce the capability of the rotorcraft or the ability of the flight crew to respond to an adverse operating condition must be designed and installed in a way that the system is not adversely affected when the equipment providing the function is exposed to equipment HIRF test level 1 or 2, as described in Appendix E. (c) Each electrical and electronic system that performs a function whose failure would reduce the capability of the rotorcraft or the ability of the flight crew to respond to an adverse operating condition must be designed and installed in a way that the system is not adversely affected when the equipment providing the function is exposed to equipment HIRF test level 3, as described in Appendix E.",
+      "publication_cite": "ED Decision 2016/025/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21644/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2014-16",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/025/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016025r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

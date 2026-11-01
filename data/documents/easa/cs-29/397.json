@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "397",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Limit pilot forces and torques",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Limit pilot forces and torques",
+      "text": "(a) Except as provi ded in sub-paragraph (b) , the limit pilot forces are as follows: (1) For foot controls, 578 N (130 lbs). (2) For st ick cont rols, 445 N (100 lbs) fore and aft, and 298 N (67 lbs) laterally. (b) For flap, tab , stab iliser, ro tor b rake an d landing gear operat ing cont rols, t he following apply: (1) Crank, wheel , and l ever cont rols, (25.4 + R) x 2.919 N, where R = radius in millimetres ( \u23a1\u23a21 + R \u23a4\u23a5 x 50 lbs, where R = \u23a3 3 \u23a6 radius in i nches), but not l ess t han 222 N (50 lbs) nor more than 445 N (100 l bs) for hand-operated controls or 578 N (130 l bs) for foot - operated cont rols, appl ied at any angle within 20\u00b0 of the plane of motion of the control. (2) Twist cont rols, 356 x R Newton-millimetres, where R = rad ius in m illimetres (80 x R i nch-pounds where R = radi us i n inches).",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

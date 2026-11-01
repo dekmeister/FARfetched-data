@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "255",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Out-of-trim characteristics",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Out-of-trim characteristics",
+      "text": "(See AMC 25.255) (a) From an initial condition with the aeroplane trimmed at cruise speeds up to VMO/MMO, the aeroplane must have satisfactory manoeuvring stability and controllability with the degree of out-of-trim in both the aeroplane nose-up and nose-down directions, which results from the greater of \u2013 (1) A three-second movement of the longitudinal trim system at its normal rate for the particular flight condition with no aerodynamic load (or an equivalent degree of trim for aeroplanes that do not have a power-operated trim system), except as limited by stops in the trim system, including those required by CS25.655 (b) for adjustable stabilisers; or (2) The maximum mistrim that can be sustained by the autopilot while maintaining level flight in the high speed cruising condition. (b) In the out-of-trim condition specified in sub-paragraph (a) of this paragraph, when the normal acceleration is varied from + 1 g to the positive and negative values specified in sub-paragraph (c) of this paragraph \u2013 (1) The stick force vs. g curve must have a positive slope at any speed up to and including VFC/MFC; and (2) At speeds between VFC/MFC and VDF/MDF, the direction of the primary longitudinal control force may not reverse. (c) Except as provided in sub-paragraphs (d) and (e) of this paragraph compliance with the provisions of sub-paragraph (a) of this paragraph must be demonstrated in flight over the acceleration range \u2013 (1) \u20131g to 2\u00b75 g; or (2) 0 g to 2\u00b70 g, and extrapolating by an acceptable method to \u2013 1 g and 2\u00b75 g. (d) If the procedure set forth in sub-paragraph (c)(2) of this paragraph is used to demonstrate compliance and marginal conditions exist during flight test with regard to reversal of primary longitudinal control force, flight tests must be accomplished from the normal acceleration at which a marginal condition is found to exist to the applicable limit specified in sub-paragraph (c)(1) of this paragraph. (e) During flight tests required by sub-paragraph (a) of this paragraph the limit manoeuvring load factors prescribed in CS25.333 (b) and 25.337, and the manoeuvring load factors associated with probable inadvertent excursions beyond the boundaries of the buffet onset envelopes determined under CS 25.251 (e), need not be exceeded. In addition, the entry speeds for flight test demonstrations at normal acceleration values less than 1 g must be limited to the extent necessary to accomplish a recovery without exceeding VDF/MDF. (f) In the out-of-trim condition specified in sub-paragraph (a) of this paragraph, it must be possible from an overspeed condition at VDF/MDF, to produce at least 1\u00b75 g for recovery by applying not more than 556 N (125 lbf) of longitudinal control force using either the primary longitudinal control alone or the primary longitudinal control and the longitudinal trim system. If the longitudinal trim is used to assist in producing the required load factor, it must be shown at VDF/MDF that the longitudinal trim can be actuated in the aeroplane nose-up direction with the primary surface loaded to correspond to the least of the following aeroplane nose-up control forces: (1) The maximum control forces expected in service as specified in CS 25.301 and 25.397. (2) The control force required to produce 1\u00b75 g. (3) The control force corresponding to buffeting or other phenomena of such intensity that it is a strong deterrent to further application of primary longitudinal control force.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

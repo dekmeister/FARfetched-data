@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "863",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Flammable fluid fire protection",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Flammable fluid fire protection",
+      "text": "(a) In each area where flammable fluids or vapours might escape by leakage of a fluid system, there must be means to minimise the probability of ignition of the fluids and vapours and the resultant hazard if ignition does occur. (b) Compliance with sub-paragraph (a) must be shown by analysis or tests and the following factors must be considered: (1) Possible sources and paths of fluid leakage and means of detecting leakage. (2) Flammability characteristics of fluids, including effects of any combustible or absorbing materials. (3) Possible ignition sources, including electrical faults, over-heating of equipment and malfunctioning of protective devices. (4) Means available for controlling or extinguishing a fire, such as stopping flow of fluids, shutting down equipment, fireproof containment, or use of extinguishing agents. (5) Ability of aeroplane components that are critical to safely of flight to withstand fire and heat. (c) If action by the flightcrew is required to prevent or counteract a fluid fire (e.g. equipment shut-down or actuation of a fire extinguisher), quick acting means must be provided to alert the crew. (d) Each area where flammable fluids or vapours might escape by leakage of a fluid system must be identified and defined.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Flammable fluid fire protection",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

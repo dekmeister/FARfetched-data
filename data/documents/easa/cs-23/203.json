@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "203",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Turning flight and accelerated turning stalls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Turning flight and accelerated turning stalls",
+      "text": "Turning flight and accelerated turning stalls must be demonstrated in tests as follows: (a) Establish and maintain a co-ordinated turn in a 30\u00b0 bank. Reduce speed by steadily and progressively tightening the turn with the elevator until the aeroplane is stalled, as defined in CS 23.201 (b). The rate of speed reduction must be constant, and \u2013 (1) For a turning flight stall, may not exceed 1.9 km/h (one knot) per second; and (2) For an accelerated turning stall, be 5.6 to 9.3 km/h (3 to 5 knots) per second with steadily increasing normal acceleration. (b) After the aeroplane has stalled, as defined in CS 23.201 (b) it must be possible to regain level flight by normal use of the flight controls but without increasing power and without \u2013 (1) Excessive loss of altitude; (2) Undue pitch-up; (3) Uncontrollable tendency to spin; (4) Exceeding a bank angle of 60\u00b0 in the original direction of the turn or 30\u00b0 in the opposite direction, in the case of turning flight stalls; (5) Exceeding a bank angle of 90\u00b0 in the original direction of the turn or 60\u00b0 in the opposite direction, in the case of accelerated turning stalls; and (6) Exceeding the maximum permissible speed or allowable limit load factor. (c) Compliance with the requirements must be shown under the following conditions: (1) Wing flaps. Retracted, fully extended and each intermediate normal operating position; (2) Landing gear. Retracted and extended; (3) Cowl flaps. Appropriate to configu-ration; (4) Power (i) Power off; and (ii) 75% maximum continuous power. If the power-to-weight ratio at 75% of maximum continuous power results in extreme nose-up attitudes, the test may be carried out with the power required for level flight in the landing configuration at maximum landing weight and a speed of 1\u00b74 VS0, but the power may not be less than 50% maximum continuous power. (5) Trim. The aeroplane trimmed at a speed as near 1\u00b75 VS1 as practicable. (6) Propeller. Full increase rpm position for the power off condition.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Turning flight and accelerated turning stalls",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1165",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Engine ignition systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine ignition systems",
+      "text": "(a) Each battery ignition system must be supplemented by a generator that is automatically available as an alternate source of electrical energy to allow continued engine operation if any battery becomes depleted. (b) The capacity of batteries and generators must be large enough to meet the simultaneous demands of the engine ignition system and the greatest demands of any electrical system components that draw from the same source. (c) The design of the engine ignition system must account for \u2013 (1) The condition of an inoperative generator; (2) The condition of a completely depleted battery with the generator running at its normal operating speed; and (3) The condition of a completely depleted battery with the generator operating at idling speed if there is only one battery. (d) There must be means to warn appropriate crew members if malfunctioning of any part of the electrical system is causing the continuous discharge of any battery used for engine ignition. (e) Each turbine engine ignition system must be independent of any electrical circuit that is not used for assisting, controlling or analysing the operation of that system. (f) In addition, for commuter category aeroplanes, each turbopropeller ignition system must be an essential electrical load.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine ignition systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

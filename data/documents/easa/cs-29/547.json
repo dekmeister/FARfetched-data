@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "547",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Main and tail rotor structure",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Main and tail rotor structure",
+      "text": "(a) A rotor is an assem bly of rotating components, which includes the rotor hub, blades, blade dampers, the pitch control m echanisms, and all other parts that rotate with the assembly. (b) Each rotor assem bly m ust be desi gned as prescribed i n t his paragraph and must function safely fo r th e critical flig ht lo ad an d operating conditions. A desi gn assessm ent m ust be performed, including a d etailed failu re an alysis to identify all failu res th at will prevent continued safe flight or safe l anding, and m ust i dentify t he means to m inimise t he l ikelihood of t heir occurrence. (c) The rot or st ructure m ust be designed to withstand th e fo llowing lo ads p rescribed in CS 29.337 to 29.341, and CS 29.351: (1) Critical flight loads. (2) Limit loads occurri ng under norm al conditions of autorotation. (d) The rot or st ructure m ust be designed to withstand loads simulating: (1) For t he rot or bl ades, hubs and flapping hinges, the impact force of each blade against its stop during ground operation; and (2) Any ot her cri tical condi tion expected in normal operation. (e) The rot or st ructure m ust be designed to withstand th e limit to rque at any rotational speed, including zero. In addition: (1) The limit torque need not be great er than the torque defi ned by a t orque l imiting device (where provi ded), and m ay not be l ess than the greater of: (i) The maximum torque likely to be tran smitted to th e rotor structure, in either direction, by t he rot or dri ve or by sudden application of the rotor brake; and (ii) For th e m ain ro tor, th e lim it engine torque specified in CS 29.361. (2) The limit torque m ust b e eq ually and rationally distributed to the rotor blades.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

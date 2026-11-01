@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "525",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Application of loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Application of loads",
+      "text": "(a) Unless otherwise prescribed, the seaplane as a whole is assumed to be subjected to the loads corresponding to the load factors specified in CS 23.527. (b) In applying the loads resulting from the load factors prescribed in CS 23.527, the loads may be distributed over the hull or main float bottom (in order to avoid excessive local shear loads and bending moments at the location of water load application) using pressures not less than those prescribed in CS 23.533 (b). (c) For twin float seaplanes, each float must be treated as an equivalent hull on a fictitious seaplane with a weight equal to one-half the weight of the twin float seaplane. (d) Except in the take-off condition of CS 23.531, the aerodynamic lift on the seaplane during the impact is assumed to be \u00b2/3 of the weight of the seaplane.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Application of loads",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

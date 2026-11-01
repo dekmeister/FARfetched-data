@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1011",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "General",
+      "text": "(a) Each engine must have an independent oil system that can supply it with an appropriate quantity of oil at a temperature not above that safe for continuous operation. (b) The usable oil capacity may not be less than the product of the endurance of the aeroplane under critical operating conditions and the approved maximum allowable oil consumption of the engine under the same conditions, plus a suitable margin to ensure system circulation.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "931",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Shafting critical speed",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Shafting critical speed",
+      "text": "(a) The critical speeds of any shaft ing m ust be det ermined by dem onstration except that analytical m ethods m ay be used i f rel iable methods of analysis are available for the particular design. (b) If any critical speed lies with in, o r clo se to, t he operat ing ranges for idling, power-on, and autorotative conditions, the stresses o ccurring at that sp eed m ust b e with in safe lim its. Th is must be shown by tests. (c) If anal ytical m ethods are used and show that no critical sp eed lies with in th e p ermissible operating ranges, t he m argins bet ween the calculated critical speeds and th e lim its o f th e allowable operating ranges m ust be adequat e t o allow for possible vari ations bet ween t he computed and actual values.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

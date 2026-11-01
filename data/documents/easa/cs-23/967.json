@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "967",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel tank installation",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel tank installation",
+      "text": "(a) Each fuel tank must be supported so that tank loads are not concentrated. In addition \u2013 (1) There must be pads, if necessary, to prevent chafing between each tank and its supports; (2) Padding must be non-absorbent or treated to prevent the absorption of fuel; (3) If a flexible tank liner is used, it must be supported so that it is not required to withstand fluid loads; (4) Interior surfaces adjacent to the liner must be smooth and free from projections that could cause wear, unless \u2013 (i) Provisions are made for protection of the liner at those points; or (ii) The construction of the liner itself provides such protection. (5) A positive pressure must be maintained within the vapour space of each bladder cell under all conditions of operation except for a particular condition for which it is shown that a zero or negative pressure will not cause the bladder cell to collapse; and (6) Siphoning of fuel (other than minor spillage) or collapse of bladder fuel cells may not result from improper securing or loss of the fuel filler cap. (b) Each tank compartment must be ventilated and drained to prevent the accumulation of flammable fluids or vapours. Each compartment adjacent to a tank that is an integral part of the aeroplane structure must also be ventilated and drained. (c) No fuel tank may be on the engine side of the firewall. There must be at least 13 mm (\u00bd in) of clearance between the fuel tank and the firewall. No part of the engine nacelle skin that lies immediately behind a major air opening from the engine compartment may act as the wall of an integral tank. (d) Each fuel tank must be isolated from personnel compartments by a fume-proof and fuel-proof enclosure that is vented and drained to the exterior of the aeroplane. The required enclosure must sustain any personnel compartment pressurisation loads without permanent deformation or failure under the conditions of CS 23.365 and 23.843. A bladder type fuel cell, if used, must have a retaining shell at least equivalent to a metal fuel tank in structural integrity. (e) Fuel tanks must be designed, located and installed \u2013 (1) So as to retain fuel when subjected to the inertia loads resulting from the ultimate static load factors prescribed in CS 23.561 (b) (2); and (2) So as to retain fuel under conditions likely to occur when an aeroplane lands on a paved runway at a normal landing speed under each of the following conditions: (i) The aeroplane in a normal landing attitude and its landing gear retracted. (ii) The most critical landing gear leg collapsed and the other landing gear legs extended. In showing compliance with sub-paragraph (e) (2) , the tearing away of an engine mount must be considered unless all the engines are installed above the wing or on the tail or fuselage of the aeroplane. (3) For commuter category aeroplanes, fuel tanks within the fuselage contour must be able to resist rupture and be in a protected position so that exposure of the tanks to scraping action with the ground is unlikely.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel tank installation",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2225",
+  "current_grouping": "Subpart C \u2014 Structures",
+  "canonical_title": "Component loading conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structures",
+      "title_at_revision": "Component loading conditions",
+      "text": "(a) The applicant must determine the loads acting upon all relevant structural components, in response to: (1) interaction of systems and structures; (2) structural design loads; (3) flight load conditions; and (4) ground and water load conditions. (b) The complete pressurised cabin, including doors, windows, canopy and valves, is exposed as a pressure vessel for the maximum relief valve setting multiplied by a factor of 1.33, without considering other loads.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

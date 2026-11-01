@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "505",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Ski landing conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Ski landing conditions",
+      "text": "If certification fo r sk i o peration is req uested, the ro torcraft, with sk is, m ust be designed to withstand the following loading conditions (where P is the m aximum static weight on each ski with the rotorcraft at design maximum weight, and n is the limit l oad fact or det ermined under C S 29.473(b)): (a) Up-load conditions in which: (1) A vertical load of Pn and a horizontal l oad of Pn/ 4 are simultaneously applied at the pedestal bearings; and (2) A vert ical l oad of 1.33 P i s appl ied at the pedestal bearings. (b) A side load condition in which a side load of 0.35 Pn i s applied at the pedestal bearings in a horizontal plane perpendicular to the centreline of the rotorcraft. (c) A torque-load condition in which a torque load of 1.33 P (i n foot -pounds) is applied to the ski about the vertical axis through the centreline of the pedestal bearings.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

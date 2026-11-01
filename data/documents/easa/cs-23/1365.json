@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1365",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Electric cables and equipment",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electric cables and equipment",
+      "text": "(a) Each electric connecting cable must be of adequate capacity. (b) Any equipment that is associated with any electrical cable installation and that would overheat in the event of a circuit overload or fault must be flame resistant and must not emit dangerous quantities of toxic fumes. (c) Means of identification must be provided for electrical cables, connectors and terminals. (d) Electrical cables must be installed such that the risk of mechanical damage and/or damage caused by fluids, vapours or sources of heat, is minimised. (e) Main power cables (including generator cables) must be designed to allow a reasonable degree of deformation and stretching without failure and must \u2013 (1) Be separated from flammable fluid lines; or (2) Be shrouded by means of electrically insulated flexible conduit or equivalent, which is in addition to the normal cable insulations. (f) Where a cable cannot be protected by a circuit protection device or other overload protection it must not cause a fire hazard under fault conditions.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electric cables and equipment",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

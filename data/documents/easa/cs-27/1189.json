@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1189",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Shut-off means",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Shut-off means",
+      "text": "(a) There must be means to shut off each line carrying flammable fluids into the engine compartment, except: (1) Lines, fittings, and components forming an integral part of an engine; (2) For oil systems for which all components of the system, including oil tanks, are fireproof or located in areas not subject to engine fire conditions; and (3) For reciprocating engine installations only, engine oil system lines in installations using engines of less than 8195 cm3 (500 cubic inches) displacement. (b) There must be means to guard against inadvertent operation of each shutoff, and to make it possible for the crew to reopen it in flight after it has been closed. (c) Each shut-off valve and its control must be designed, located, and protected to function properly under any condition likely to result from an engine fire.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "123",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "En-route flight paths",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "En-route flight paths",
+      "text": "(See AMC 25.123) (a) For the en-route configuration, the flight paths prescribed in sub-paragraphs (b) and (c) of this paragraph must be determined at each weight, altitude, and ambient temperature, within the operating limits established for the aeroplane. The variation of weight along the flight path, accounting for the progressive consumption of fuel and oil by the operating engines, may be included in the computation. The flight paths must be determined at any selected speed, with \u2013 (1) The most unfavourable centre of gravity; (2) The critical engines inoperative; (3) The remaining engines at the available maximum continuous power or thrust; and (4) The means for controlling the engine-cooling air supply in the position that provides adequate cooling in the hot-day condition. (b) The one-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient of climb of 1\u00b71% for two-engined aeroplanes, 1\u00b74% for three-engined aeroplanes, and 1\u00b76% for four-engined aeroplanes. (c) For three- or four-engined aeroplanes, the two-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient climb of 0\u00b73% for three-engined aeroplanes and 0\u00b75% for four-engined aeroplanes.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "En-route flight paths",
+      "text": "(See AMC 25.123) (a) For the en-route configuration, the flight paths prescribed in sub-paragraphs (b) and (c) of this paragraph must be determined at each weight, altitude, and ambient temperature, within the operating limits established for the aeroplane. The variation of weight along the flight path, accounting for the progressive consumption of fuel and oil by the operating engines, may be included in the computation. The flight paths must be determined at a selected speed not less than VFTO, with \u2013 (1) The most unfavourable centre of gravity; (2) The critical engines inoperative; (3) The remaining engines at the available maximum continuous power or thrust; and (4) The means for controlling the engine-cooling air supply in the position that provides adequate cooling in the hot-day condition. (b) The one-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient of climb of 1\u00b71% for two-engined aeroplanes, 1\u00b74% for three-engined aeroplanes, and 1\u00b76% for four-engined aeroplanes. (1) In non-icing conditions; and (2) In icing conditions with the \u201cEn-route Ice\u201d accretion defined in Appendix C, if: (i) A speed of 1.18VSR with the \u201cEn-route Ice \u201d accretion exceeds the en-route speed selected in non-icing conditions by more than the greater of 5.6 km/h (3 knots) CAS or 3% of VSR, or (ii) The degradation of the gradient of climb is greater than one-half of the applicable actual-to-net flight path reduction defined in sub-paragraph (b) of this paragraph. (c) For three- or four-engined aeroplanes, the two-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient climb of 0\u00b73% for three-engined aeroplanes and 0\u00b75% for four-engined aeroplanes.",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 16/2004"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-16",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "En-route flight paths",
+      "text": "(See AMC 25.123) (a) For the en-route configuration, the flight paths prescribed in sub-paragraphs (b) and (c) of this paragraph must be determined at each weight, altitude, and ambient temperature, within the operating limits established for the aeroplane. The variation of weight along the flight path, accounting for the progressive consumption of fuel and oil by the operating engines, may be included in the computation. The flight paths must be determined at a selected speed not less than VFTO, with \u2013 (1) The most unfavourable centre of gravity; (2) The critical engines inoperative; (3) The remaining engines at the available maximum continuous power or thrust; and (4) The means for controlling the engine-cooling air supply in the position that provides adequate cooling in the hot-day condition. (b) The one-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient of climb of 1\u00b71 % for two-engined aeroplanes, 1\u00b74 % for three-engined aeroplanes, and 1\u00b76 % for four-engined aeroplanes. (1) In non-icing conditions; and (2) In icing conditions with the most critical of the \u201cEn-route Ice\u201d accretion(s) defined in Appendix C and O, as applicable, in accordance with CS 25.21(g), if: (i) A speed of 1.18VSR with the \u201cEn-route Ice \u201d accretion exceeds the en-route speed selected in non-icing conditions by more than the greater of 5.6 km/h (3 knots) CAS or 3 % of VSR, or (ii) The degradation of the gradient of climb is greater than one-half of the applicable actual-to-net flight path reduction defined in sub-paragraph (b) of this paragraph. (c) For three- or four-engined aeroplanes, the two-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient climb of 0\u00b73 % for three-engined aeroplanes and 0\u00b75 % for four-engined aeroplanes.",
+      "publication_cite": "ED Decision 2015/008/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/22035/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-03",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2015/008/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2015008r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "En-route flight paths",
+      "text": "(See AMC 25.123) (a) For the en-route configuration, the flight paths prescribed in sub-paragraphs (b) and (c) of this paragraph must be determined at each weight, altitude, and ambient temperature, within the operating limits established for the aeroplane. The variation of weight along the flight path, accounting for the progressive consumption of fuel and oil by the operating engines, may be included in the computation. The flight paths must be determined at a selected speed not less than VFTO, with \u2013 (1) The most unfavourable centre of gravity; (2) The critical engines inoperative; (3) The remaining engines at the available maximum continuous power or thrust; and (4) The means for controlling the engine-cooling air supply in the position that provides adequate cooling in the hot-day condition. (b) The one-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient of climb of 1\u00b71% for two-engined aeroplanes, 1\u00b74% for three-engined aeroplanes, and 1\u00b76% for four-engined aeroplanes. (1) In non-icing conditions; and (2) In icing conditions with the \u201cEn-route Ice\u201d accretion defined in Appendices C and O, as applicable, in accordance with CS 25.21(g), if: (i) A speed of 1.18VSR with the most critical of the \u201cEn-route Ice \u201d accretion(s) exceeds the en-route speed selected in non-icing conditions by more than the greater of 5.6 km/h (3 knots) CAS or 3% of VSR, or (ii) The degradation of the gradient of climb is greater than one-half of the applicable actual-to-net flight path reduction defined in sub-paragraph (b) of this paragraph. (c) For three- or four-engined aeroplanes, the two-engine-inoperative net flight path data must represent the actual climb performance diminished by a gradient climb of 0\u00b73% for three-engined aeroplanes and 0\u00b75% for four-engined aeroplanes.",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "574",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Metallic damage tolerance and fatigue evaluation of commuter category aeroplanes",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Metallic damage tolerance and fatigue evaluation of commuter category aeroplanes",
+      "text": "For commuter category aeroplanes:- (a) Metallic damage tolerance. An evaluation of the strength, detail design, and fabrication must show that catastrophic failure due to fatigue, corrosion, defects, or damage will be avoided throughout the operational life of the aeroplane. This evaluation must be conducted in accordance with the provisions of CS 23.573, except as specified in sub-paragraph (b), for each part of the structure that could contribute to a catastrophic failure. (b) Fatigue (safe-life) evaluation. Compliance with the damage tolerance requirements of sub-paragraph (a) is not required if it can be established that the application of those requirements is impractical for a particular structure. This structure must be shown, by analysis supported by test evidence, to be able to withstand the repeated loads of variable magnitude expected during its service life without detectable cracks. Appropriate safe-life scatter factors must be applied.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Metallic damage tolerance and fatigue evaluation of commuter category aeroplanes",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

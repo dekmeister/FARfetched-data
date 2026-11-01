@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1549",
+  "current_grouping": "Subpart G \u2014 Operating Limitations",
+  "canonical_title": "Powerplant instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Powerplant instruments",
+      "text": "For each required powerplant instrument, as appropriate to the type of instrument: (a) Each maximum and, if applicable, minimum safe operating limit must be marked with a red radial or a red line; (b) Each normal operating range must be marked with a green arc or green line, not extending beyond the maximum and minimum safe limits; (c) Each take-off and precautionary range must be marked with a yellow arc or yellow line; (d) Each engine or propeller range that is restricted because of excessive vibration stresses must be marked with red arcs or red lines; and (e) Each OEI limit or approved operating range must be marked to be clearly differentiated from the markings of sub-paragraphs (a) to (d) except that no marking is normally required for the 30-second OEI limit.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-10",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations",
+      "title_at_revision": "Powerplant instruments",
+      "text": "For each required powerplant instrument, as appropriate to the type of instrument: (a) Each maximum and, if applicable, minimum safe operating limit must be marked with a red line; (b) Each normal operating range must be depicted as a green or unmarked range; (c) Each take-off and precautionary range must be marked with a yellow range or yellow line; (d) Each engine or propeller range that is restricted because of excessive vibration stresses must be marked with red ranges or red lines; and (e) Each OEI limit or approved operating range must be marked to be clearly differentiated from the markings of sub-paragraphs (a) to (d) except that no marking is normally required for the 30-second OEI limit.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

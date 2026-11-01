@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1593",
+  "current_grouping": "Subpart G \u2014 Operating Limitations",
+  "canonical_title": "Exposure to volcanic cloud hazards",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-4",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Exposure to volcanic cloud hazards",
+      "text": "(See AMC 27.1593) If required by an operating rule, the susceptibility of rotorcraft features to the effects of volcanic cloud hazards must be established.",
+      "publication_cite": "ED Decision 2016/024/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21677/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-17",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/024/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016024r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-10",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations",
+      "title_at_revision": "Exposure to volcanic cloud hazards",
+      "text": "If required by an operating rule, the susceptibility of rotorcraft features to the effects of volcanic cloud hazards must be established.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137572/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

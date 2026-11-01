@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "361",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Engine torque",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Engine torque",
+      "text": "(a) Each engine mount and its supporting structure must be designed for the effects of \u2013 (1) A limit engine torque corresponding to take-off power and propeller speed acting simultaneously with 75% of the limit loads from flight condition A of CS 23.333 (d); (2) A limit engine torque corresponding to maximum continuous power and propeller speed acting simultaneously with the limit loads from flight condition A of CS 23.333 (d); and (3) For turbo-propeller installations, in addition to the conditions specified in sub-paragraphs (a) (1) and (a) (2) , a limit engine torque corresponding to take-off power and propeller speed, multiplied by a factor accounting for propeller control system malfunction, including quick feathering, acting simultaneously with 1g level flight loads. In the absence of a rational analysis, a factor of 1\u00b76 must be used. (b) For turbine-engine installations, the engine mounts and supporting structure must be designed to withstand each of the following: (1) A limit engine torque load imposed by sudden engine stoppage due to malfunction or structural failure (such as compressor jamming); and (2) A limit engine torque load imposed by the maximum acceleration of the engine. (c) The limit engine torque to be considered under sub-paragraph (a) must be obtained by multiplying the mean torque by a factor of \u2013 (1) 1\u00b725 for turbo-propeller installations; (2) 1\u00b733 for engines with five or more cylinders; and (3) Two, three, or four, for engines with four, three or two cylinders, respectively.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Engine torque",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

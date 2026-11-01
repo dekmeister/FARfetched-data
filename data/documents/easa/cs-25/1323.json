@@ -1,0 +1,104 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1323",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Airspeed indicating system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Airspeed indicating system",
+      "text": "For each airspeed indicating system, the following apply: (a) Each airspeed indicating instrument must be approved and must be calibrated to indicate true airspeed (at sea-level with a standard atmosphere) with a minimum practicable instrument calibration error when the corresponding pitot and static pressures are applied. (b) Each system must be calibrated to determine the system error (that is, the relation between IAS and CAS) in flight and during the accelerated take-off ground run. The ground run calibration must be determined \u2013 (1) From 0\u00b78 of the minimum value of V1, to the maximum value of V2, considering the approved ranges of altitude and weight; and (2) With the wing-flaps and power settings corresponding to the values determined in the establishment of the take-off path under CS 25.111 assuming that the critical engine fails at the minimum value of V1. (c) The airspeed error of the installation, excluding the airspeed indicator instrument calibration error, may not exceed 3% or five knots, whichever is greater, throughout the speed range, from \u2013 (1) VMO to 1\u00b723 VSR1 with wing-flaps retracted; and (2) 1\u00b723 VSR0 to VFE with wing-flaps in the landing position. (d) From 1\u00b723 VSR to the speed at which stall warning begins, the IAS must change perceptibly with CAS and in the same sense, and at speeds below stall warning speed the IAS must not change in an incorrect sense. (See AMC 25.1323 (d).) (e) From VMO to VMO + 2 3 (VDF \u2013 VMO) the IAS must change perceptibly with CAS and in the same sense, and at higher speeds up to VDF the IAS must not change in an incorrect sense. (See AMC 25.1323 (e)) (f) There must be no indication of air-speed that would cause undue difficulty to the pilot during the take-off between the initiation of rotation and the achievement of a steady climbing condition. (g) The effects of airspeed indicating system lag may not introduce significant takeoff indicated airspeed bias, or significant errors in takeoff or accelerate-stop distances. (h) Each system must be arranged, so far as practicable, to prevent malfunction or serious error due to the entry of moisture, dirt, or other substances. (See AMC 25.1323 (h).) (i) Each system must have a heated pitot tube or an equivalent means of preventing malfunction due to icing. (See AMC to 25.1323 (i) and 25.1325(b).) (j) Where duplicate airspeed indicators are required, their respective pitot tubes must be far enough apart to avoid damage to both tubes in a collision with a bird.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-16",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Airspeed indicating system",
+      "text": "For each airspeed indicating system, the following apply: (a) Each airspeed indicating instrument must be approved and must be calibrated to indicate true airspeed (at sea-level with a standard atmosphere) with a minimum practicable instrument calibration error when the corresponding pitot and static pressures are applied. (b) Each system must be calibrated to determine the system error (that is, the relation between IAS and CAS) in flight and during the accelerated take-off ground run. The ground run calibration must be determined \u2013 (1) From 0\u00b78 of the minimum value of V1, to the maximum value of V2, considering the approved ranges of altitude and weight; and (2) With the wing-flaps and power settings corresponding to the values determined in the establishment of the take-off path under CS 25.111 assuming that the critical engine fails at the minimum value of V1. (c) The airspeed error of the installation, excluding the airspeed indicator instrument calibration error, may not exceed 3% or five knots, whichever is greater, throughout the speed range, from \u2013 (1) VMO to 1\u00b723 VSR1 with wing-flaps retracted; and (2) 1\u00b723 VSR0 to VFE with wing-flaps in the landing position. (d) From 1\u00b723 VSR to the speed at which stall warning begins, the IAS must change perceptibly with CAS and in the same sense, and at speeds below stall warning speed the IAS must not change in an incorrect sense. (See AMC 25.1323 (d).) (e) From VMO to VMO + 2 3 (VDF \u2013 VMO) the IAS must change perceptibly with CAS and in the same sense, and at higher speeds up to VDF the IAS must not change in an incorrect sense. (See AMC 25.1323 (e)) (f) There must be no indication of air-speed that would cause undue difficulty to the pilot during the take-off between the initiation of rotation and the achievement of a steady climbing condition. (g) The effects of airspeed indicating system lag may not introduce significant takeoff indicated airspeed bias, or significant errors in takeoff or accelerate-stop distances. (h) Each system must be arranged, so far as practicable, to prevent malfunction or serious error due to the entry of moisture, dirt, or other substances. (See AMC 25.1323 (h).) (i) Reserved (j) Where duplicate airspeed indicators are required, their respective pitot tubes must be far enough apart to avoid damage to both tubes in a collision with a bird.",
+      "publication_cite": "ED Decision 2015/008/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/22035/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-03",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2015/008/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2015008r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Airspeed indicating system",
+      "text": "(See AMC 25.1323) For each airspeed indicating system, the following apply: (a) Each airspeed indicating instrument must be approved and must be calibrated to indicate true airspeed (at sea-level with a standard atmosphere) with a minimum practicable instrument calibration error when the corresponding pitot and static pressures are applied. (b) Each system must be calibrated to determine the system error (that is, the relation between IAS and CAS) in flight and during the accelerated take-off ground run. The ground run calibration must be determined \u2013 (1) From 0\u00b78 of the minimum value of V1, to the maximum value of V2, considering the approved ranges of altitude and weight; and (2) With the wing-flaps and power settings corresponding to the values determined in the establishment of the take-off path under CS 25.111 assuming that the critical engine fails at the minimum value of V1. (c) The airspeed error of the installation, excluding the airspeed indicator instrument calibration error, may not exceed 3 % or five knots, whichever is greater, throughout the speed range, from \u2013 (1) VMO to 1\u00b723 VSR1 with wing-flaps retracted; and (2) 1\u00b723 VSR0 to VFE with wing-flaps in the landing position. (d) From 1\u00b723 VSR to the speed at which stall warning begins, the IAS must change perceptibly with CAS and in the same sense, and at speeds below stall warning speed the IAS must not change in an incorrect sense. (See AMC 25.1323 (d)) (e) From VMO to VMO + 2 3 (VDF \u2013 VMO) the IAS must change perceptibly with CAS and in the same sense, and at higher speeds up to VDF the IAS must not change in an incorrect sense. (See AMC 25.1323 (e)) (f) There must be no indication of air-speed that would cause undue difficulty to the pilot during the take-off between the initiation of rotation and the achievement of a steady climbing condition. (g) The effects of airspeed indicating system lag may not introduce significant takeoff indicated airspeed bias, or significant errors in takeoff or accelerate-stop distances. (h) Each system must be arranged, so far as practicable, to prevent malfunction or serious error due to the entry of moisture, dirt, or other substances. (See AMC 25.1323 (h)) (i) Reserved (j) Where duplicate airspeed indicators are required, their respective pitot tubes must be far enough apart to avoid damage to both tubes in a collision with a bird.",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Airspeed indicating system",
+      "text": "(See AMC 25.1323) For each airspeed indicating system, the following apply: (a) Each airspeed indicating instrument must be approved and must be calibrated to indicate true airspeed (at sea-level with a standard atmosphere) with a minimum practicable instrument calibration error when the corresponding pitot and static pressures are applied. (b) Each system must be calibrated to determine the system error (that is, the relation between IAS and CAS) in flight and during the accelerated takeoff ground run. The ground run calibration must be determined \u2013 (1) From 0\u00b78 of the minimum value of V1, to the maximum value of V2, considering the approved ranges of altitude and weight; and (2) With the wing-flaps and power settings corresponding to the values determined in the establishment of the take-off path under CS 25.111 assuming that the critical engine fails at the minimum value of V1. (c) The airspeed error of the installation, excluding the airspeed indicator instrument calibration error, may not exceed 3% or five knots, whichever is greater, throughout the speed range, from \u2013 (1) VMO to 1\u00b723 VSR1 with wing-flaps retracted; and (2) 1\u00b723 VSR0 to VFE with wing-flaps in the landing position. (d) From 1\u00b723 VSR to the speed at which stall warning begins, the IAS must change perceptibly with CAS and in the same sense, and at speeds below stall warning speed the IAS must not change in an incorrect sense. (See AMC 25.1323(d).) (e) From VMO to VMO + \u2154 (VDF \u2013 VMO) the IAS must change perceptibly with CAS and in the same sense, and at higher speeds up to VDF the IAS must not change in an incorrect sense. (See AMC 25.1323(e)) (f) There must be no indication of air-speed that would cause undue difficulty to the pilot during the take-off between the initiation of rotation and the achievement of a steady climbing condition. (g) The effects of airspeed indicating system lag may not introduce significant takeoff indicated airspeed bias, or significant errors in takeoff or accelerate-stop distances. (h) Each system must be arranged, so far as practicable, to prevent malfunction or serious error due to the entry of moisture, dirt, or other substances. (See AMC 25.1323(h).) (i) Reserved (j) Where duplicate airspeed indicators are required, their respective pitot tubes must be far enough apart to avoid damage to both tubes in a collision with a bird.",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

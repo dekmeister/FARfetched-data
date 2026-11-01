@@ -1,0 +1,84 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1309",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Equipment, systems, and installations",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Equipment, systems, and installations",
+      "text": "(a) The equipment, systems, and installations whose functioning is required by this CS\u201327 must be designed and installed to ensure that they perform their intended functions under any foreseeable operating condition. (b) The equipment, systems, and installations of a multi-engine rotorcraft must be designed to prevent hazards to the rotorcraft in the event of a probable malfunction or failure. (c) The equipment, systems, and installations of single-engine rotorcraft must be designed to minimise hazards to the rotorcraft in the event of a probable malfunction or failure. (d) In showing compliance with sub-paragraph (a), (b), or (c), the effects of lightning strikes on the rotorcraft must be considered in accordance with CS 27.610.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-4",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Equipment, systems, and installations",
+      "text": "(a) The equipment, systems, and installations whose functioning is required by this CS\u201327 must be designed and installed to ensure that they perform their intended functions under any foreseeable operating condition. (b) The equipment, systems, and installations of a multi-engine rotorcraft must be designed to prevent hazards to the rotorcraft in the event of a probable malfunction or failure. (c) The equipment, systems, and installations of single-engine rotorcraft must be designed to minimise hazards to the rotorcraft in the event of a probable malfunction or failure.",
+      "publication_cite": "ED Decision 2016/024/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21677/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2014-16",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/024/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016024r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-10",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Equipment, systems, and installations",
+      "text": "(a) Equipment and systems required to comply with type-certification requirements, airspace requirements or operating rules, or whose improper functioning would lead to a hazard, must be designed and installed so that they perform their intended function throughout the operating and environmental conditions for which the rotorcraft is certified. (b) The equipment and systems covered by sub-paragraph (a), considered separately and in relation to other systems, must be designed and installed such that: (1) each catastrophic failure condition is extremely improbable and does not result from a single failure; (2) each hazardous failure condition is extremely remote; and (3) each major failure condition is remote. (c) The operation of equipment and systems not covered by sub-paragraph (a) must not cause a hazard to the rotorcraft or its occupants throughout the operating and environmental conditions for which the rotorcraft is certified. (d) Information concerning an unsafe system operating condition must be provided in a timely manner to the flight crew member responsible for taking corrective action. The information must be clear enough to avoid likely flight crew member errors.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

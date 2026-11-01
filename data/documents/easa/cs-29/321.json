@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "321",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "General",
+      "text": "(a) The flight load factor must be assum ed to act n ormal to th e lo ngitudinal ax is of the rotorcraft, and to be equal i n m agnitude and opposite i n di rection t o t he rot orcraft i nertia load factor at the centre of gravity. (b) Compliance with th e flig ht load requirements of this Subpart must be shown: (1) At each weight from the design minimum weight to t he desi gn m aximum weight; and (2) With any pract ical di stribution of disposable load within the operating limitations in the rotorcraft flight manual.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "141",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "General",
+      "text": "The rotorcraft must: (a) Except as specifically required in the applicable paragraph, m eet t he flight characteristics requirements of this Subpart: (1) At th e ap proved o perating altitudes and temperatures; (2) Under any critical loading condition within t he range of wei ghts and centres of gravity for which certification is requested; and (3) For power-on operat ions, under any condition of speed, power, and rot or rpm for which certification is requested; and (4) For power-off operations, under any condition of speed, and rot or rpm for whi ch certification is req uested th at is attainable with the controls rigged in accordance with the approved rigging instructions and tolerances; (b) Be ab le to m aintain any required flight condition and m ake a sm ooth transition from any flight condi tion t o any ot her fl ight condition without exceptional piloti ng skill, alertness, or strength, and without danger of exceeding the limit load factor under any operating condition probable for the type, including: (1) Sudden failure of one engi ne, for multi-engine rotorcraft m eeting Categ ory A engine isolation requirements; (2) Sudden, complete power fai lure, for other rotorcraft; and (3) Sudden, com plete cont rol system failures specified in CS 29.695; and (c) Have any additional characteristics required for ni ght or i nstrument operat ion, if certification for those ki nds of operat ion i s requested. R equirements for hel icopter instrument flight are contained in appendix B.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

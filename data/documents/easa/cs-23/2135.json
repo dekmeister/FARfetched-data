@@ -1,0 +1,66 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2135",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Controllability",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Controllability",
+      "text": "(a) The aeroplane must be controllable and manoeuvrable, without requiring exceptional piloting skills, alertness, or strength, within the operating envelope: (1) at all loading conditions for which certification is requested; (2) during all phases of flight; (3) with likely reversible flight control or propulsion system failure; and (4) during configuration changes. (b) The aeroplane must be able to complete a landing without causing substantial damage or serious injury using the steepest approved approach gradient procedures and providing a reasonable safe margin below VREF or above approach angle of attack. (c) VMC is the calibrated airspeed at which, following the sudden critical loss of thrust, it is possible to maintain control of the aeroplane. For multi-engine aeroplanes, the applicant must determine VMC, if applicable, for the most critical configurations used in take-off and landing operations. (d) If the applicant requests certification of an aeroplane for aerobatics, the applicant must demonstrate those aerobatic manoeuvres for which certification is requested and determine entry speeds.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    },
+    {
+      "designator": "CS23-6",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Controllability",
+      "text": "(a) The aeroplane must be controllable and manoeuvrable, without requiring exceptional piloting skills, alertness, or strength, within the operating envelope: (1) at all loading conditions for which certification is requested; (2) during all phases of flight; (3) with likely reversible flight control or propulsion system failure; and (4) during configuration changes. (b) The aeroplane must be able to make a safe landing, using the steepest approved approach gradient procedures and providing a reasonable safe margin below VREF or above the approach angle of attack. (c) VMC is the calibrated airspeed at which, following the sudden critical loss of thrust, it is possible to maintain control of the aeroplane. For multi-engine aeroplanes, the applicant must determine VMC, if applicable, for the most critical configurations used in take-off and landing operations. (d) If the applicant requests certification of an aeroplane for aerobatics, the applicant must demonstrate those aerobatic manoeuvres for which certification is requested and determine entry speeds.",
+      "publication_cite": "ED Decision 2023/002/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/143486/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-103",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/002/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023002r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 6 and AMC & GM to CS-23 Issue 5' (2026-04-15)"
+      }
+    }
+  ]
+}

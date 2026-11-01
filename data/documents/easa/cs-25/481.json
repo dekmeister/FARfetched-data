@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "481",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Tail-down landing conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Tail-down landing conditions",
+      "text": "(a) In the tail-down attitude, the aeroplane is assumed to contact the ground at forward velocity components, ranging from VL1 to VL2, parallel to the ground under the conditions prescribed in CS 25.473 with: (1) VL1 equal to VS0 (TAS) at the appropriate landing weight and in standard sea-level conditions; and (2) VL2 equal to VS0 (TAS) at the appropriate landing weight and altitudes in a hot-day temperature of 22.8\u00b0C (41\u00baF) above standard. The combination of vertical and drag components is considered to be acting at the main wheel axle centreline. (b) For the tail-down landing condition for aeroplanes with tail wheels, the main and tail wheels are assumed to contact the ground simultaneously, in accordance with Figure 3 of Appendix A. Ground reaction conditions on the tail wheel are assumed to act \u2013 (1) Vertically; and (2) Up and aft through the axle at 45\u00ba to the ground line. (c) For the tail-down landing condition for aeroplanes with nose wheels, the aeroplane is assumed to be at an attitude corresponding to either the stalling angle or the maximum angle allowing clearance with the ground by each part of the aeroplane other than the main wheels, in accordance with Figure 3 of Appendix A, whichever is less.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

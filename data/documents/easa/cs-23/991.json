@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "991",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel pumps",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel pumps",
+      "text": "(a) Main pumps. For main pumps, the following apply: (1) For reciprocating engine installations having fuel pumps to supply fuel to the engine, at least one pump for each engine must be directly driven by the engine and must meet CS 23.955. This pump is a main pump. (2) For turbine engine installations, each fuel pump required for proper engine operation, or required to meet the fuel system requirements of this subpart (other than those in sub-paragraph (b)), is a main pump. In addition \u2013 (i) There must be at least one main pump for each turbine engine; (ii) The power supply for the main pump for each engine must be independent of the power supply for each main pump for any other engine; and (iii) For each main pump, provision must be made to allow the by-pass of each positive displacement fuel pump other than a fuel injection pump approved as part of the engine. (b) Emergency pumps. There must be an emergency pump immediately available to supply fuel to the engine if any main pump (other than a fuel injection pump approved as part of an engine) fails. The power supply for each emergency pump must be independent of the power supply for each corresponding main pump. (c) Warning means. If both the main pump and emergency pump operate continuously, there must be a means to indicate to the appropriate flight-crew members a malfunction of either pump. (d) Operation of any fuel pump may not affect engine operation so as to create a hazard, regardless of the engine power or thrust setting or the functional status of any other fuel pump.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel pumps",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

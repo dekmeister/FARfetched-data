@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1145",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Ignition switches",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Ignition switches",
+      "text": "(a) Ignition switches m ust control each ignition circuit on each engine. (b) There m ust be m eans to quickly shut off all i gnition by t he groupi ng of swi tches or by a master ignition control. (c) Each group of ignition switches, except ignition swi tches for t urbine engi nes for which continuous ignition is not required, and each master ignition control, m ust have a m eans t o prevent its inadvertent operation.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Ignition switches",
+      "text": "(a) For each engine, means must be provided in the cockpit so as to: (1) control, either directly by the crew or by the crew via a system (such as the FADEC), each ignition circuit; (2) readily allow the crew to conduct the flight and manage both ground start and in - flight restart; (3) check the health condition of each ignition circuit; and (4) maintain an isolation between each engine control. (b) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control. (c) Each group of ignition switches, except ignition switches for turbine engines for which continuous ignition is not required, and each master ignition control, must have a means to prevent its inadvertent operation.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

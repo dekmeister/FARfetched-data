@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1045",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Cooling test procedures",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling test procedures",
+      "text": "(a) General. For each stage of flight, the cooling tests must be conducted with the rotorcraft: (1) In the configuration most critical for cooling; and (2) Under the conditions most critical for cooling. (b) Temperature stabilisation. For the purpose of the cooling tests, a temperature is \u2018stabilised\u2019 when its rate of change is less than 1\u00b0C (2\u00b0F) per minute. The following component and engine fluid temperature stabilisation rules apply: (1) For each rotorcraft, and for each stage of flight: (i) The temperatures must be stabilised under the conditions from which entry is made into the stage of flight being investigated; or (ii) If the entry condition normally does not allow temperatures to stabilise, operation through the full entry condition must be conducted before entry into the stage of flight being investigated in order to allow the temperatures to attain their natural levels at the time of entry. (2) For each helicopter during the take-off stage of flight the climb at take-off power must be preceded by a period of hover during which the temperatures are stabilised. (c) Duration of test. For each stage of flight the tests must be continued until: (1) The temperatures stabilise or 5 minutes after the occurrence of the highest temperature recorded, as appropriate to the test condition; (2) That stage of flight is completed; or (3) An operating limitation is reached.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "672",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Stability augmentation and automatic and power operated systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Stability augmentation and automatic and power operated systems",
+      "text": "If the functioning of stability augmentation or other automatic or power-operated systems is necessary to show compliance with the flight characteristics requirements of CS-23, such systems must comply with CS 23.671 and the following: (a) A warning, which is clearly distinguishable to the pilot under expected flight conditions without requiring the pilot\u2019s attention, must be provided for any failure in the stability augmentation system or in any other automatic or power-operated system that could result in an unsafe condition if the pilot were not aware of the failure. Warning systems must not activate the control system. (b) The design of the stability augmentation system or of any other automatic or power-operated system must permit initial counteraction of failures without requiring exceptional pilot skill or strength, by either the deactivation of the system, or a failed portion thereof, or by overriding the failure by movement of the flight controls in the normal sense. (c) It must be shown that after any single failure of the stability augmentation system or any other automatic or power-operated system \u2013 (1) The aeroplane is safely controllable when the failure or malfunction occurs at any speed or altitude within the approved operating limitations that is critical for the type of failure being considered; (2) The controllability and manoeuvrability requirements of CS-23 are met within a practical operational flight envelope (for example, speed, altitude, normal acceleration, and aeroplane configuration) that is described in the Aeroplane Flight Manual; and (3) The trim, stability, and stall characteristics are not impaired below a level needed to permit continued safe flight and landing.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Stability augmentation and automatic and power operated systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

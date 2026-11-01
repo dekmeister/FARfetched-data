@@ -1,0 +1,86 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "D23",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Wheel Spin-Up Loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Wheel Spin-Up Loads",
+      "text": "D23.1 Wheel spin-up loads (a) The following method for determining wheel spin-up loads for landing conditions is based on NACA T.N. 863. However, the drag component used for design may not be less than the drag load prescribed in CS 23.479 (b). 1 2Iw (VH\u2212VC )nFV max FH max = re tz where \u2013 FH max = maximum rearward horizontal force acting on the wheel (in pounds); re = effective rolling radius of wheel under impact based on recommended operating tyre pressure (which may be assumed to be equal to the rolling radius under a static load of njWe) in feet; Iw = rotation mass moment of inertia of rolling assembly (in slug feet); VH = linear velocity of aeroplane parallel to ground at instant of contact (assumed to be 1\u00b72 VSO, in feet per second); VC = peripheral speed of tyre, if pre-rotation is used (in feet per second) (there must be a positive means of pre-rotation before pre-rotation may be considered); n = effective coefficient of friction (0\u00b780 may be used); FV max = maximum vertical force on wheel (pounds = njWe, where We and nj) are defined in CS 23.725; tz = time interval between ground contact and attainment of maximum vertical force on wheel (seconds). However, if the value of FH max, from the above equation exceeds 0\u00b78 FV max, the latter value must be used for FH max. (b) This equation assumes a linear variation of load factor with time until the peak load is reached and under this assumption, the equation determines the drag force at the time that the wheel peripheral velocity at radius re equals the aeroplane velocity. Most shock absorbers do not exactly follow a linear variation of load factor with time. Therefore, rational or conservative allowances must be made to compensate for these variations. On most landing gears, the time for wheel spin-up will be less than the time required to develop maximum vertical load factor for the specified rate of descent and forward velocity. For exceptionally large wheels, a wheel peripheral velocity equal to the ground speed may not have been attained at the time of maximum vertical gear load. However, as stated above, the drag spin-up load need not exceed 0\u00b78 of the maximum vertical loads. (c) Dynamic spring-back of the landing gear and adjacent structure at the instant just after the wheels come up to speed may result in dynamic forward acting loads of considerable magnitude. This effect must be determined, in the level landing condition, by assuming that the wheel spin-up loads calculated by the methods of this appendix are reversed. Dynamic spring-back is likely to become critical for landing gear units having wheels of large mass or high landing speeds.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-2",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Wheel Spin-Up Loads",
+      "text": "D23.1 Wheel spin-up loads (a) The following method for determining wheel spin-up loads for landing conditions is based on NACA T.N. 863. However, the drag component used for design may not be less than the drag load prescribed in CS 23.479 (b). 1 2Iw (VH\u2212VC )nFV max FH max = re tz where \u2013 FH max = maximum rearward horizontal force acting on the wheel (in pounds); re = effective rolling radius of wheel under impact based on recommended operating tyre pressure (which may be assumed to be equal to the rolling radius under a static load of njWe) in feet; Iw = rotation mass moment of inertia of rolling assembly (in slug feet2); VH = linear velocity of aeroplane parallel to ground at instant of contact (assumed to be 1\u00b72 VSO, in feet per second); VC = peripheral speed of tyre, if pre-rotation is used (in feet per second) (there must be a positive means of pre-rotation before pre-rotation may be considered); n = effective coefficient of friction (0\u00b780 may be used); FV max = maximum vertical force on wheel (pounds = njWe, where We and nj) are defined in CS 23.725; tz = time interval between ground contact and attainment of maximum vertical force on wheel (seconds). However, if the value of FH max, from the above equation exceeds 0\u00b78 FV max, the latter value must be used for FH max. (b) This equation assumes a linear variation of load factor with time until the peak load is reached and under this assumption, the equation determines the drag force at the time that the wheel peripheral velocity at radius re equals the aeroplane velocity. Most shock absorbers do not exactly follow a linear variation of load factor with time. Therefore, rational or conservative allowances must be made to compensate for these variations. On most landing gears, the time for wheel spin-up will be less than the time required to develop maximum vertical load factor for the specified rate of descent and forward velocity. For exceptionally large wheels, a wheel peripheral velocity equal to the ground speed may not have been attained at the time of maximum vertical gear load. However, as stated above, the drag spin-up load need not exceed 0\u00b78 of the maximum vertical loads. (c) Dynamic spring-back of the landing gear and adjacent structure at the instant just after the wheels come up to speed may result in dynamic forward acting loads of considerable magnitude. This effect must be determined, in the level landing condition, by assuming that the wheel spin-up loads calculated by the methods of this appendix are reversed. Dynamic spring-back is likely to become critical for landing gear units having wheels of large mass or high landing speeds.",
+      "publication_cite": "ED Decision 2010/007/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1609/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Editorial correction"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2010/007/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2010007r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 / Amendment 2 corrigendum' (2010-09-28)"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Wheel Spin-Up Loads",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

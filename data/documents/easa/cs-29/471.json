@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "471",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "General",
+      "text": "(a) Loads and equilibrium. For l imit ground loads: (1) The limit ground l oads obt ained i n the l anding condi tions i n t his C S-29 m ust be considered to be exte rnal loads that would occur in the rotorcraft structure if it were acting as a rigid body; and (2) In each specified landing condition, the external loads must be placed in equilibrium with l inear and angul ar i nertia loads in a rational or conservative manner. (b) Critical centres of gravity. The critical centres of gravity within th e ran ge fo r wh ich certification is requested m ust be selected so that the m aximum design loads are obtained in each landing gear element.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

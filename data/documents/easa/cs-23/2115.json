@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2115",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Take-off performance",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Take-off performance",
+      "text": "(a) The applicant must determine aeroplane take-off performance accounting for: (1) stall speed safety margins; (2) minimum control speeds; and (3) climb gradients. (b) For single-engine aeroplanes and Levels 1, 2, and 3 low-speed multi-engine aeroplanes, take-off performance includes the determination of ground roll and initial climb distance to 15 m (50 ft) above the take-off surface. (c) For high-speed multi-engine aeroplanes of Levels 1, 2, and 3, and for all Level-4 multi-engine aeroplanes, take-off performance includes a determination of the following distances after a sudden critical loss of thrust: (1) an aborted take-off at critical speed; (2) ground roll and initial climb to 11 m (35 ft) above the take-off surface; and (3) net take-off flight path.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

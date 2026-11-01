@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1709",
+  "current_grouping": "Subpart H \u2014 Electrical Wiring Interconnection System",
+  "canonical_title": "System Safety; EWIS",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-5",
+      "grouping_at_time": "Subpart H \u2014 Electrical Wiring Interconnection System",
+      "title_at_revision": "System Safety; EWIS",
+      "text": "(See AMC 25.1709) EWIS must be designed and installed so that: (a) Each catastrophic failure condition (1) is extremely improbable; and (2) does not result from a single failure; and (b) Each hazardous failure condition is extremely remote.",
+      "publication_cite": "ED Decision 2008/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2007-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2008/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2008006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "473",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Ground load conditions and assumptions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Ground load conditions and assumptions",
+      "text": "(a) The ground load requirements of this subpart must be complied with at the design maximum weight except that CS 23.479, 23.481 and 23.483 may be complied with at a design landing weight (the highest weight for landing conditions at the maximum descent velocity) allowed under sub-paragraphs (b) and (c) . (b) The design landing weight may be as low as \u2013 (1) 95% of the maximum weight if the minimum fuel capacity is enough for at least one-half hour of operation at maximum continuous power plus a capacity equal to a fuel weight which is the difference between the design maximum weight and the design landing weight; or (2) The design maximum weight less the weight of 25% of the total fuel capacity. (c) The design landing weight of a twin-engine aeroplane may be less than that allowed under sub-paragraph (b) if \u2013 (1) The aeroplane meets the one-engine-inoperative climb requirements of CS 23.67; and (2) Compliance is shown with the fuel jettisoning system requirements of CS 23.1001. (d) The selected limit vertical inertia load factor at the centre of gravity of the aeroplane for the ground load conditions prescribed in this subpart may not be less than that which would be obtained when landing with a descent velocity (V), in feet per second, equal to 4\u00b74 (W/S) \u00bc, except that this velocity need not be more than 3.0 m (10 ft) per second and may not be less than 2.1 m (7 ft) per second. (e) Wing lift not exceeding two-thirds of the weight of the aeroplane may be assumed to exist throughout the landing impact and to act through the centre of gravity. The ground reaction load factor may be equal to the inertia load factor minus the ratio of the above assumed wing lift to the aeroplane weight. (f) If energy absorption tests are made to determine the limit load factor corresponding to the required limit descent velocities, these tests must be made under CS 23.723 (a). (g) No inertia load factor used for design purposes may be less than 2\u00b767, nor may the limit ground reaction load factor be less than 2\u00b70 at design maximum weight, unless these lower values will not be exceeded in taxying at speeds up to take-off speed over terrain as rough as that expected in service.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Ground load conditions and assumptions",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

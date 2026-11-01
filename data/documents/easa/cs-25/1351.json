@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1351",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "General",
+      "text": "(a) Electrical system capacity. The required generating capacity, and number and kinds of power sources must \u2013 (1) Be determined by an electrical load analysis; and (2) Meet the requirements of CS 25.1309. (b) Generating system. The generating system includes electrical power sources, main power busses, transmission cables, and associated control, regulation, and protective devices. It must be designed so that \u2013 (1) Power sources function properly when independent and when connected in combination; (2) No failure or malfunction of any power source can create a hazard or impair the ability of remaining sources to supply essential loads; (3) The system voltage and frequency (as applicable) at the terminals of all essential load equipment can be maintained within the limits for which the equipment is designed, during any probable operating condition; (4) System transients due to switching, fault clearing, or other causes do not make essential loads inoperative, and do not cause a smoke or fire hazard; (5) There are means accessible where necessary, in flight, to appropriate crew members for the individual and rapid disconnection of each electrical power source (see AMC 25.1351(b)(5)); and (6) There are means to indicate to appropriate crew members the generating system quantities essential for the safe operation of the system, such as the voltage and current supplied by each generator (see AMC 25.1351(b)(6)). (c) External power. If provisions are made for connecting external power to the aeroplane, and that external power can be electrically connected to equipment other than that used for engine starting, means must be provided to ensure that no external power supply having a reverse polarity, a reverse phase sequence (including crossed phase and neutral), open circuit line, incorrect frequency or voltage, can supply power to the aeroplane\u2019s electrical system. (d) Operation without normal electrical power. (See AMC 25.1351 (d).) The following apply: (1) Unless it can be shown that the loss of the normal electrical power generating system(s) is Extremely Improbable, alternate high integrity electrical power system(s), independent of the normal electrical power generating system(s), must be provided to power those services necessary to complete a flight and make a safe landing. (2) The services to be powered must include \u2013 (i) Those required for immediate safety and which must continue to operate following the loss of the normal electrical power generating system(s), without the need for flight crew action; (ii) Those required for continued controlled flight; and (iii) Those required for descent, approach and landing. (3) Failures, including junction box, control panel or wire bundle fires, which would result in the loss of the normal and alternate systems must be shown to be Extremely Improbable.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "General",
+      "text": "(See AMC 25.1351) (a) Electrical system capacity. The required generating capacity, and number and kinds of power sources must \u2013 (1) Be determined by an electrical load analysis; and (2) Meet the requirements of CS 25.1309. (b) Generating system. The generating system includes electrical power sources, main power busses, transmission cables, and associated control, regulation, and protective devices. It must be designed so that \u2013 (1) Power sources function properly when independent and when connected in combination; (2) No failure or malfunction of any power source can create a hazard or impair the ability of remaining sources to supply essential loads; (3) The system voltage and frequency (as applicable) at the terminals of all essential load equipment can be maintained within the limits for which the equipment is designed, during any probable operating condition; (4) System transients due to switching, fault clearing, or other causes do not make essential loads inoperative, and do not cause a smoke or fire hazard; (5) There are means accessible where necessary, in flight, to appropriate crew members for the individual and rapid disconnection of each electrical power source (see AMC 25.1351(b)(5)); and (6) There are means to indicate to appropriate crew members the generating system quantities essential for the safe operation of the system, such as the voltage and current supplied by each generator (see AMC 25.1351(b)(6)). (c) External power. If provisions are made for connecting external power to the aeroplane, and that external power can be electrically connected to equipment other than that used for engine starting, means must be provided to ensure that no external power supply having a reverse polarity, a reverse phase sequence (including crossed phase and neutral), open circuit line, incorrect frequency or voltage, can supply power to the aeroplane\u2019s electrical system. (d) Operation without normal electrical power. (See AMC 25.1351 (d)) The following apply: (1) Unless it can be shown that the loss of the normal electrical power generating system(s) is Extremely Improbable, alternate high integrity electrical power system(s), independent of the normal electrical power generating system(s), must be provided to power those services necessary to complete a flight and make a safe landing. (2) The services to be powered must include \u2013 (i) Those required for immediate safety and which must continue to operate following the loss of the normal electrical power generating system(s), without the need for flight crew action; (ii) Those required for continued controlled flight; and (iii) Those required for descent, approach and landing. (3) Failures, including junction box, control panel or wire bundle fires, which would result in the loss of the normal and alternate systems must be shown to be Extremely Improbable.",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

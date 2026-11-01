@@ -1,0 +1,77 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "631",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Bird strike",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Birdstrike",
+      "text": "The rotorcraft m ust be des igned to as sure capability of continued safe flight and landing (for Category A) or safe landing (for Category B) after impact with a 1 kg bird, when the velocity of the rotorcraft (relative to the bird along the flight path of the rotorcraft) is equal to VNE or VH (whichever is the lesser) at altitudes up to 2438 m (8 000 ft). Compliance m ust be shown by tests, or by analysis based on tests carried out on sufficiently representative structures of similar design.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-10",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Bird strike",
+      "text": "The rotorcraft must be designed to ensure a continued safe flight and landing (for Category A) or a safe landing (for Category B) after a strike with a 1.0-kg (2.2-lb) bird when the velocity of the rotorcraft relative to the bird along the flight path of the rotorcraft is equal to VNE or VH \u2018True Airspeed\u2019 (TAS), whichever is less, at altitudes up to 2 438 m (8 000 ft). The applicant must demonstrate compliance through tests, or analysis based on tests that are carried out on sufficiently representative structures of similar design.",
+      "publication_cite": "ED Decision 2021/016/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/134339/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2021-02",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/016/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021016r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Bird strike",
+      "text": "(See AMC1 29.631) The rotorcraft must be designed to ensure a continued safe flight and landing (for Category A) or a safe landing (for Category B) after a strike with a 1.0-kg (2.2-lb) bird when the velocity of the rotorcraft relative to the bird along the flight path of the rotorcraft is equal to VNE or VH \u2018True Airspeed\u2019 (TAS), whichever is less, at altitudes up to 2 438 m (8 000 ft). The applicant must demonstrate compliance through tests, or analysis based on tests that are carried out on sufficiently representative structures of similar design.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

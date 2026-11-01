@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1505",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Maximum operating limit speed",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Maximum operating limit speed",
+      "text": "The maximum operating limit speed (VMO/MMO, airspeed or Mach number, whichever is critical at a particular altitude) is a speed that may not be deliberately exceeded in any regime of flight (climb, cruise, or descent), unless a higher speed is authorised for flight test or pilot training operations. VMO/MMO must be established so that it is not greater than the design cruising speed VC and so that it is sufficiently below VD/MD or VDF/MDF, to make it highly improbable that the latter speeds will be inadvertently exceeded in operations. The speed margin between VMO/MMO and VD/MD or VDF/MDF may not be less than that determined under CS 25.335(b) or found necessary during the flight tests conducted under CS 25.253.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

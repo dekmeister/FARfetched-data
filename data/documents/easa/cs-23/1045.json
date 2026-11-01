@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1045",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Cooling test procedures for turbine engine-powered aeroplanes",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling test procedures for turbine engine-powered aeroplanes",
+      "text": "(a) Compliance with CS 23.1041 must be shown for all phases of operation. The aeroplane must be flown in the configurations, at the speeds and following the procedures recommended in the aeroplane flight manual for the relevant stage of flight, corresponding to the applicable performance requirements, which are critical relative to cooling. (b) Temperatures must be stabilised under the conditions from which entry is made into each stage of flight being investigated, unless the entry condition normally is not one during which component and engine fluid temperatures would stabilise (in which case, operation through the full entry condition must be conducted before entry into the stage of flight being investigated in order to allow temperatures to reach their natural levels at the time of entry). The take-off cooling test must be preceded by a period during which the powerplant component and engine fluid temperatures are stabilised with the engines at ground idle. (See AMC 23.1045 (b)) (c) Cooling tests for each stage of flight must be continued until \u2013 (1) The component and engine fluid temperatures stabilise; or (2) The stage of flight is completed; or (3) An operating limitation is reached.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling test procedures for turbine engine-powered aeroplanes",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

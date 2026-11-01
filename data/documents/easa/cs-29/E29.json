@@ -1,0 +1,70 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "E29",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "HIRF Environments and Equipment HIRF Test Levels",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-4",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "HIRF Environments and Equipment HIRF Test Levels",
+      "text": "This Appendix specifies the HIRF environments and equipment HIRF test levels for electrical and electronic systems under CS 29.1317. The field strength values for the HIRF environments and equipment HIRF test levels are expressed in root-mean-square units measured during the peak of the modulation cycle. (a) HIRF environment I is specified in the following table: Table I \u2014 HIRF Environment I STRENGTH (V/m) PEAK AVERAGE 10 kHz\u2013 50 50 2 MHz 2\u201330 MHz 100 100 30\u2013100 MHz 50 50 100\u2013400 MHz 100 100 400\u2013700 MHz 700 50 700 MHz\u2013 700 100 1 GHz 1\u20132 GHz 2000 200 2\u20136 GHz 3000 200 6\u20138 GHz 1000 200 8\u201312 GHz 3000 300 12\u201318 GHz 2000 200 18\u201340 GHz 600 200 In this table, the higher field strength applies to the frequency band edges. (b) HIRF environment II is specified in the following table: Table II \u2014 HIRF Environment II STRENGTH (V/m) PEAK AVERAGE 10\u2013500 kHz 20 20 500 kHz\u2013 30 30 2 MHz 2\u201330 MHz 100 100 30\u2013100 MHz 10 10 100\u2013200 MHz 30 10 200\u2013400 MHz 10 10 400 MHz\u2013 700 40 1 GHz 1\u20132 GHz 1300 160 2\u20134 GHz 3000 120 4\u20136 GHz 3000 160 6\u20138 GHz 400 170 8\u201312 GHz 1230 230 12\u201318 GHz 730 190 18\u201340 GHz 600 150 In this table, the higher field strength applies to the frequency band edges. (c) HIRF environment III is specified in the following table: Table III \u2014 HIRF Environment III STRENGTH (V/m) PEAK AVERAGE 10\u2013100 kHz 150 150 100 kHz\u2013 200 200 400 MHz 400\u2013700 MHz 730 200 700 MHz\u2013 1400 240 1 GHz 1\u20132 GHz 5000 250 2\u20134 GHz 6000 490 4\u20136 GHz 7200 400 6\u20138 GHz 1100 170 8\u201312 GHz 5000 330 12\u201318 GHz 2000 330 18\u201340 GHz 1000 420 In this table, the higher field strength applies at the frequency band edges. (d) Equipment HIRF Test Level 1 (1) From 10 kilohertz (kHz) to 400 megahertz (MHz), use conducted susceptibility tests with continuous wave (CW) and 1 kHz square wave modulation with 90 % depth or greater. The conducted susceptibility current must start at a minimum of 0.6 milliamperes (mA) at 10 kHz, increasing 20 decibels (dB) per frequency decade to a minimum of 30 mA at 500 kHz. (2) From 500 kHz to 40 MHz, the conducted susceptibility current must be at least 30 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 30 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 3 mA at 400 MHz. (4) From 100 MHz to 400 MHz, use radiated susceptibility tests at a minimum of 20 volts per meter (V/m) peak with CW and 1 kHz square wave modulation with 90 % depth or greater. (5) From 400 MHz to 8 gigahertz (GHz), use radiated susceptibility tests at a minimum of 150 V/m peak with pulse modulation of 4 % duty cycle with a 1 kHz pulse repetition frequency. This signal must be switched on and off at a rate of 1 Hz with a duty cycle of 50 %. (e) Equipment HIRF Test Level 2. Equipment HIRF Test Level 2 is HIRF environment II in Table II of this Appendix reduced by acceptable aircraft transfer function and attenuation curves. Testing must cover the frequency band of 10 kHz to 8 GHz. (f) Equipment HIRF Test Level 3 (1) From 10 kHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 0.15 mA at 10 kHz, increasing 20 dB per frequency decade to a minimum of 7.5 mA at 500 kHz. (2) From 500 kHz to 40 MHz, use conducted susceptibility tests at a minimum of 7.5 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 7.5 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 0.75 mA at 400 MHz. (4) From 100 MHz to 8 GHz, use radiated susceptibility tests at a minimum of 5 V/m.",
+      "publication_cite": "ED Decision 2016/025/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21644/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/025/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016025r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "HIRF Environments and Equipment HIRF Test Levels",
+      "text": "This Appendix specifies the HIRF environments and equipment HIRF test levels for electrical and electronic systems under CS 29.1317. The field strength values for the HIRF environments and equipment HIRF test levels are expressed in root-mean-square units measured during the peak of the modulation cycle. (a) HIRF environment I is specified in the following table: Table I \u2014 HIRF Environment I 10 kHz\u20132 MHz 2\u201330 MHz 30\u2013100 MHz 100\u2013400 MHz 400\u2013700 MHz 700 MHz\u20131 GHz 1\u20132 GHz 2\u20136 GHz 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 50 50 100 100 50 50 100 100 700 50 700 100 2000 200 3000 200 1000 200 3000 300 2000 200 600 200 In this table, the higher field strength applies to the frequency band edges. (b) HIRF environment II is specified in the following table: Table II \u2014 HIRF Environment II 10\u2013500 kHz 500 kHz\u20132 MHz 2\u201330 MHz 30\u2013100 MHz 100\u2013200 MHz 200\u2013400 MHz 400 MHz\u20131 GHz 1\u20132 GHz 2\u20134 GHz 4\u20136 GHz 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 20 20 30 30 100 100 10 10 30 10 10 10 700 40 1300 160 3000 120 3000 160 400 170 1230 230 730 190 600 150 In this table, the higher field strength applies to the frequency band edges. (c) HIRF environment III is specified in the following table: Table III \u2014 HIRF Environment III 10\u2013100 kHz 100 kHz\u2013400 MHz 400\u2013700 MHz 700 MHz\u20131 GHz 1\u20132 GHz 2\u20134 GHz 4\u20136 GHz 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 150 150 200 200 730 200 1400 240 5000 250 6000 490 7200 400 1100 170 5000 330 2000 330 1000 420 In this table, the higher field strength applies at the frequency band edges. (d) Equipment HIRF Test Level 1 (1) From 10 kilohertz (kHz) to 400 megahertz (MHz), use conducted susceptibility tests with continuous wave (CW) and 1 kHz square wave modulation with 90 % depth or greater. The conducted susceptibility current must start at a minimum of 0.6 milliamperes (mA) at 10 kHz, increasing 20 decibels (dB) per frequency decade to a minimum of 30 mA at 500 kHz. (2) From 500 kHz to 40 MHz, the conducted susceptibility current must be at least 30 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 30 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 3 mA at 400 MHz. (4) From 100 MHz to 400 MHz, use radiated susceptibility tests at a minimum of 20 volts per meter (V/m) peak with CW and 1 kHz square wave modulation with 90 % depth or greater. (5) From 400 MHz to 8 gigahertz (GHz), use radiated susceptibility tests at a minimum of 150 V/m peak with pulse modulation of 4 % duty cycle with a 1 kHz pulse repetition frequency. This signal must be switched on and off at a rate of 1 Hz with a duty cycle of 50 %. (e) Equipment HIRF Test Level 2. Equipment HIRF Test Level 2 is HIRF environment II in Table II of this Appendix reduced by acceptable aircraft transfer function and attenuation curves. Testing must cover the frequency band of 10 kHz to 8 GHz. (f) Equipment HIRF Test Level 3 (1) From 10 kHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 0.15 mA at 10 kHz, increasing 20 dB per frequency decade to a minimum of 7.5 mA at 500 kHz. (2) From 500 kHz to 40 MHz, use conducted susceptibility tests at a minimum of 7.5 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 7.5 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 0.75 mA at 400 MHz. (4) From 100 MHz to 8 GHz, use radiated susceptibility tests at a minimum of 5 V/m.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-12",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "HIRF Environments and Equipment HIRF Test Levels",
+      "text": "This Appendix specifies the HIRF environments and equipment HIRF test levels for electrical and electronic systems under CS 29.1317. The field strength values for the HIRF environments and equipment HIRF test levels are expressed in root-mean-square units measured during the peak of the modulation cycle. (a) HIRF environment I is specified in the following table: Table I \u2014 HIRF Environment I 10 kHz\u20132 MHz 2\u201330 MHz 30\u2013100 MHz 100\u2013400 MHz 400\u2013700 MHz 700 MHz\u20131 GHz 1\u20132 GHz 2\u20136 GHz 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 50 50 100 100 50 50 100 100 700 50 700 100 2000 200 3000 200 1000 200 3000 300 2000 200 600 200 In this table, the higher field strength applies to the frequency band edges. (b) HIRF environment II is specified in the following table: Table II \u2014 HIRF Environment II 10\u2013500 kHz 500 kHz\u20132 MHz 2\u201330 MHz 30\u2013100 MHz 100\u2013200 MHz 200\u2013400 MHz 400 MHz\u20131 GHz 1\u20132 GHz 2\u20134 GHz 4\u20136 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 20 20 30 30 100 100 10 10 30 10 10 10 700 40 1300 160 3000 120 3000 160 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 400 170 1230 230 730 190 600 150 In this table, the higher field strength applies to the frequency band edges. (c) HIRF environment III is specified in the following table: Table III \u2014 HIRF Environment III 10\u2013100 kHz 100 kHz\u2013400 MHz 400\u2013700 MHz 700 MHz\u20131 GHz 1\u20132 GHz 2\u20134 GHz 4\u20136 GHz 6\u20138 GHz 8\u201312 GHz 12\u201318 GHz 18\u201340 GHz FIELD STRENGTH (V/m) PEAK AVERAGE 150 150 200 200 730 200 1400 240 5000 250 6000 490 7200 400 1100 170 5000 330 2000 330 1000 420 In this table, the higher field strength applies at the frequency band edges. (d) Equipment HIRF Test Level 1 (1) From 10 kilohertz (kHz) to 400 megahertz (MHz), use conducted susceptibility tests with continuous wave (CW) and 1 kHz square wave modulation with 90 % depth or greater. The conducted susceptibility current must start at a minimum of 0.6 milliamperes (mA) at 10 kHz, increasing 20 decibels (dB) per frequency decade to a minimum of 30 mA at 500 kHz. (2) From 500 kHz to 40 MHz, the conducted susceptibility current must be at least 30 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 30 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 3 mA at 400 MHz. (4) From 100 MHz to 400 MHz, use radiated susceptibility tests at a minimum of 20 volts per meter (V/m) peak with CW and 1 kHz square wave modulation with 90 % depth or greater. (5) From 400 MHz to 8 gigahertz (GHz), use radiated susceptibility tests at a minimum of 150 V/m peak with pulse modulation of 4 % duty cycle with a 1 kHz pulse repetition frequency. This signal must be switched on and off at a rate of 1 Hz with a duty cycle of 50 %. (e) Equipment HIRF Test Level 2. Equipment HIRF Test Level 2 is HIRF environment II in Table II of this Appendix reduced by acceptable aircraft transfer function and attenuation curves. Testing must cover the frequency band of 10 kHz to 8 GHz. (f) Equipment HIRF Test Level 3 (1) From 10 kHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 0.15 mA at 10 kHz, increasing 20 dB per frequency decade to a minimum of 7.5 mA at 500 kHz. (2) From 500 kHz to 40 MHz, use conducted susceptibility tests at a minimum of 7.5 mA. (3) From 40 MHz to 400 MHz, use conducted susceptibility tests, starting at a minimum of 7.5 mA at 40 MHz, decreasing 20 dB per frequency decade to a minimum of 0.75 mA at 400 MHz. (4) From 100 MHz to 8 GHz, use radiated susceptibility tests at a minimum of 5 V/m.",
+      "publication_cite": "ED Decision 2024/009/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/140692/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2024/009/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2024009r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "917",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Design",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Design",
+      "text": "(a) Each rotor drive system must incorporate a unit for each engine to automatically disengage that engine from the main and auxiliary rotors if that engine fails. (b) Each rotor drive system must be arranged so that each rotor necessary for control in autorotation will continue to be driven by the main rotors after disengagement of the engine from the main and auxiliary rotors. (c) If a torque limiting device is used in the rotor drive system, it must be located so as to allow continued control of the rotorcraft when the device is operating. (d) The rotor drive system includes any part necessary to transmit power from the engines to the rotor hubs. This includes gear boxes, shafting, universal joints, couplings, rotor brake assemblies, clutches, supporting bearings for shafting, any attendant accessory pads or drives, and any cooling fans that are a part of, attached to, or mounted on the rotor drive system.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

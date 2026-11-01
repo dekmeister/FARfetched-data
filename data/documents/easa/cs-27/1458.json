@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1458",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Lightweight flight recorder",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-10",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Lightweight flight recorder",
+      "text": "(a) Each lightweight flight recorder required by the applicable operating rules must be approved and must be installed so that: (1) there is an aural or visual means for pre-flight checking of the recorder for proper recording of data in the storage medium; and (2) it automatically starts recording prior to the rotorcraft being capable of moving under its own power and automatically stops recording after the rotorcraft is no longer capable of moving under its own power. (b) The container of the recording medium must be located and mounted so as to reduce minimise the probability of the container rupturing or the recording medium being destroyed as a result of impact with the Earth\u2019s surface and subsequent heat damage caused by a post-impact fire, to an acceptable level. (c) The recording medium container of the lightweight flight recorder in sub-paragraph (a) must: (1) have a high proportion of its outer surface area coloured in bright orange; and (2) have dimensions that are adequate for visually locating it on an accident scene. (d) Each flight parameter to be recorded as required by the applicable operating rules must be recorded as digital data or by means of images. (e) If the lightweight flight recorder in sub-paragraph (a) records a flight parameter as required by the applicable operating rules by means of images, the image source must be installed to provide images with a quality sufficient for reading the values of this flight parameter during all phases of the flight. (f) If the lightweight flight recorder in sub-paragraph (a) records images or audio of the flight crew area: (1) an \u2018erase function\u2019 must be provided, which can be operated by the commander and which modifies image and audio recordings made before the operation of that function, so that those recordings cannot be retrieved using normal replay or copying techniques; and (2) the probability of inadvertent operation of the erase function and the probability of actuation of that function during crash impact must be minimised.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

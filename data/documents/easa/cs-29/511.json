@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "511",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Ground load: unsymmetrical loads on multiple-wheel units",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Ground load: unsymmetrical loads on multiple-wheel units",
+      "text": "(a) In dual-wheel gear units, 60% of the total ground reaction for the gear unit m ust be applied to one wheel and 40% to the other. (b) To provi de for t he case of one deflated tyre, 60% of the specified load for the gear unit must b e ap plied to either wheel, except that the vertical ground reaction m ay not be less than the full static value. (c) In d etermining th e to tal lo ad o n a gear unit, th e tran sverse sh ift in th e load centroid, due to unsy mmetrical l oad di stribution on the wheels, may be neglected.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

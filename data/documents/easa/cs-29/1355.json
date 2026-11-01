@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1355",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Distribution system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Distribution system",
+      "text": "(a) The di stribution sy stem i ncludes the distribution busses, their associated feeders, and each control and protective device. (b) If two independent sources of el ectrical power for part icular equi pment or sy stems are required by any applicable CS or operat ing rule, in the event of t he fai lure of one power source for such equi pment or sy stem, anot her power source (including i ts separat e feeder) m ust be provided automatically or be manually selectable to maintain equipment or system operation.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

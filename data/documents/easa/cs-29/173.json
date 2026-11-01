@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "173",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Static longitudinal stability",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static longitudinal stability",
+      "text": "(a) The longitudinal control must be designed so t hat a rearward m ovement of t he control is necessary to obtain a sp eed less th an th e trim speed, and a forward m ovement of t he control is necessary to obtain a speed m ore th an th e trim speed. (b) With the throttle and collective pitch held constant duri ng t he m anoeuvres speci fied i n CS 29.175(a) to (c), the slope of the control position versus speed curve m ust be positive throughout the full range of altitude for which certification is requested. (c) During the m anoeuvre specified in CS 29.175(d), the longitudinal control position versus speed curve m ay have a ne gative slope within the specified speed range i f the negative motion is not greater than 10% of total control travel.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-1",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static longitudinal stability",
+      "text": "(a) The longitudinal control must be designed so t hat a rearward m ovement of t he control is necessary to obtain an airs peed less th an th e trim speed, and a forward m ovement of t he control is necessary to obtain an airs peed more than the trim speed. (b) Throughout the full range of altitude for which certification is req uested, with th e th rottle and col lective pi tch hel d const ant duri ng t he manoeuvres specified in CS 29.175(a) through (d), the slope of the cont rol posi tion versus ai rspeed curve must be positive Ho wever, in limited flight conditions or m odes of operat ion det ermined by the Agency to be accepta ble, the slope of the control posi tion versus ai rspeed curve m ay be neutral or negat ive i f t he rotorcraft possesses flight ch aracteristics th at allo w th e p ilot to maintain airspeed wi thin \u00b19 km /h (\u00b15 knot s) of the desi red t rim ai rspeed wi thout exceptional piloting skill or alertness.",
+      "publication_cite": "ED Decision 2007/014/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1627/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 12/2006"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/014/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007014r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

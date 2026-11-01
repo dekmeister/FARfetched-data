@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1395",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Maximum intensities in over-lapping beams of forward and rear position lights",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Maximum intensities in over-lapping beams of forward and rear position lights",
+      "text": "No position light intensity may exceed the applicable values in the following table, except as provided in CS 25.1389 (b)(3): Maximum intensity Overlaps Area A Area B candela candela (candles) (candles) Green in dihedral angle L 10 1 Red in dihedral angle R 10 1 Green in dihedral angle A 5 1 Red in dihedral angle A 5 1 Rear white in dihedral 5 1 angle L Rear white in dihedral 5 1 angle R Where \u2013 (a) Area A includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 10\u00ba but less than 20\u00ba; and (b) Area B includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 20\u00ba.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

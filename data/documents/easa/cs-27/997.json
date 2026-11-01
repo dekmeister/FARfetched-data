@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "997",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel strainer or filter",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel strainer or filter",
+      "text": "There must be a fuel strainer or filter between the fuel tank outlet and the inlet of the first fuel system component which is susceptible to fuel contamination, including but not limited to the fuel metering device or an engine positive displacement pump, whichever is nearer the fuel tank outlet. This fuel strainer or filter must: (a) Be accessible for draining and cleaning and must incorporate a screen or element which is easily removable; (b) Have a sediment trap and drain except that it need not have a drain if the strainer or filter is easily removable for drain purposes; (c) Be mounted so that its weight is not supported by the connecting lines or by the inlet or outlet connections of the strainer or filter itself, unless adequate strength margins under all loading conditions are provided in the lines and connections; and (d) Provide a means to remove from the fuel any contaminant which would jeopardise the flow of fuel through rotorcraft or engine fuel system components required for proper rotorcraft fuel system or engine fuel system operation.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

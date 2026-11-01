@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1438",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Pressurisation and low pressure pneumatic systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Pressurisation and low pressure pneumatic systems",
+      "text": "Pneumatic systems (ducting and components) served by bleed air, such as engine bleed air, air conditioning, pressurisation, engine starting and hot-air ice-protection systems, which are essential for the safe operation of the aeroplane or whose failure may adversely affect any essential or critical part of the aeroplane or the safety of the occupants, must be so designed and installed as to comply the CS 25.1309 In particular account must be taken of bursting or excessive leakage. (See AMC 25.1438 paragraph 1 for strength and AMC 25.1438 paragraph 2 for testing.)",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Pressurisation and low pressure pneumatic systems",
+      "text": "(See AMC 25.1438) Pneumatic systems (ducting and components) served by bleed air, such as engine bleed air, air conditioning, pressurisation, engine starting and hot-air ice-protection systems, which are essential for the safe operation of the aeroplane or whose failure may adversely affect any essential or critical part of the aeroplane or the safety of the occupants, must be so designed and installed as to comply the CS 25.1309 In particular account must be taken of bursting or excessive leakage. (See AMC 25.1438 paragraph 1 for strength and AMC 25.1438 paragraph 2 for testing)",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

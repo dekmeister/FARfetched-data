@@ -1,0 +1,50 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1423",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Public address system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Public address system",
+      "text": "A public address system required by this CS must \u2013 (a) Be powerable when the aircraft is in flight or stopped on the ground, after the shutdown or failure of all engines and auxiliary power units, or the disconnection or failure of all power sources dependent on their continued operation, for \u2013 (1) A time duration of at least 10 minutes, including an aggregate time duration of at least 5 minutes of announcements made by flight and cabin crew members, considering all other loads which may remain powered by the same source when all other power sources are inoperative; and (2) An additional time duration in its standby state appropriate or required for any other loads that are powered by the same source and that are essential to safety of flight or required during emergency conditions. (b) The system must be capable of operation within 3 seconds from the time a microphone is removed from its stowage by a cabin crew member at those stations in the passenger compartment from which its use is accessible. (c) Be intelligible at all passenger seats, lavatories, and cabin crew member seats and work stations. (d) Be designed so that no unused, un-stowed microphone will render the system inoperative. (e) Be capable of functioning independently of any required crewmember interphone system. (f) Be accessible for immediate use from each of two flight-crew member stations in the pilot compartment. (g) For each required floor-level passenger emergency exit which has an adjacent cabin crew member seat, have a microphone which is readily accessible to the seated cabin crew member, except that one microphone may serve more than one exit, provided the proximity of the exits allows unassisted verbal communications between seated cabin crew members.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-2",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Public address system",
+      "text": "A public address system required by operational rules must \u2013 (a) Be powerable when the aircraft is in flight or stopped on the ground, after the shutdown or failure of all engines and auxiliary power units, or the disconnection or failure of all power sources dependent on their continued operation, for \u2013 (1) A time duration of at least 10 minutes, including an aggregate time duration of at least 5 minutes of announcements made by flight and cabin crew members, considering all other loads which may remain powered by the same source when all other power sources are inoperative; and (2) An additional time duration in its standby state appropriate or required for any other loads that are powered by the same source and that are essential to safety of flight or required during emergency conditions. (b) The system must be capable of operation within 3 seconds from the time a microphone is removed from its stowage by a cabin crew member at those stations in the passenger compartment from which its use is accessible. (c) Be intelligible at all passenger seats, lavatories, and cabin crew member seats and work stations. (d) Be designed so that no unused, un-stowed microphone will render the system inoperative. (e) Be capable of functioning independently of any required crewmember interphone system. (f) Be accessible for immediate use from each of two flight-crew member stations in the pilot compartment. (g) For each required floor-level passenger emergency exit which has an adjacent cabin crew member seat, have a microphone which is readily accessible to the seated cabin crew member, except that one microphone may serve more than one exit, provided the proximity of the exits allows unassisted verbal communications between seated cabin crew members.",
+      "publication_cite": "ED Decision 2006/005/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1563/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2006/005/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2006005r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

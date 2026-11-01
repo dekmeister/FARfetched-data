@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1189",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Shut-off means",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Shut-off means",
+      "text": "(See AMC 23.1189 (a) (5)) (a) For each twin-engined aeroplane the following apply: (1) Each engine installation must have means to shut off or otherwise prevent hazardous quantities of fuel, oil, de-icing fluid and other flammable liquids from flowing into, within, or through any engine compartment, except in lines, fittings and components forming an integral part of an engine. (2) The closing of the fuel shut-off valve for any engine may not make any fuel unavailable to the remaining engine that would be available to that engine with that valve open. (3) Operation of any shut-off means may not interfere with the later emergency operation of other equipment such as propeller feathering devices. (4) Each shut-off must be outside of the engine compartment unless an equal degree of safety is provided with the shut-off inside the compartment. (5) No hazardous amount of flammable fluid may drain into the engine compartment after shut-off . (6) There must be means to guard against inadvertent operations of each shut-off means and to make it possible for the crew to reopen the shut-off means in flight after it has been closed. (b) Turbine engine installations need not have an engine oil system shut-off if \u2013 (1) The oil tank is integral with, or mounted on, the engine; and (2) All oil system components external to the engine are fireproof or located in areas not subject to engine fire conditions. (c) Power-operated valves must have means to indicate to the flight crew when the valve has reached the selected position and must be designed so that the valve will not move from the selected position under vibration conditions likely to exist at the valve location.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Shut-off means",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

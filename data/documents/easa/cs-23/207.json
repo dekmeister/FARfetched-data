@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "207",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Stall warning",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Stall warning",
+      "text": "(a) There must be a clear and distinctive stall warning, with the flaps and landing gear in any normal position, in straight and turning flight. (b) The stall warning may be furnished either through the inherent aerodynamic qualities of the aeroplane or by a device that will give clearly distinguishable indications under expected conditions of flight. However, a visual stall warning device that requires the attention of the crew within the cockpit is not acceptable by itself. (c) During the stall tests required by CS 23.201 (b) and CS 23.203 (a) (1), the stall warning must begin at a speed exceeding the stalling speed by a margin of not less than 9.3 km/h (5 knots) and must continue until the stall occurs. (d) When following the procedures of CS 23.1585, the stall warning must not occur during a take-off with all engines operating, a take-off continued with one engine inoperative or during an approach to landing. (e) During the stall tests required by CS 23.203 (a) (2), the stall warning must begin sufficiently in advance of the stall for the stall to be averted by pilot action taken after the stall warning first occurs. (f) For aerobatic category aeroplanes, an artificial stall warning may be mutable, provided that it is armed automatically during take-off and re-armed automatically in the approach configuration.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Stall warning",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

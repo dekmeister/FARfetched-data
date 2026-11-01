@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "959",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Unusable fuel supply",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Unusable fuel supply",
+      "text": "The unusable fuel quantity for each fuel tank and its fuel system components must be established at not less than the quantity at which the first evidence of engine malfunction occurs under the most adverse fuel feed condition for all intended operations and flight manoeuvres involving fuel feeding from that tank. Fuel system component failures need not be considered.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

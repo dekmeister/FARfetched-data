@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "77",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Landing Decision Point:",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Landing Decision Point:",
+      "text": "Category A (a) The l anding deci sion poi nt (LDP) i s the last point i n t he approach and l anding pat h from which a balked landing can be accomplished in accordance with CS 29.85. (b) Determination of th e LDP m ust in clude the p ilot reco gnition tim e interval following failure of the critical engine.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

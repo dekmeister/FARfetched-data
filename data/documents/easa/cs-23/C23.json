@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "C23",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Basic Landing Conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Basic Landing Conditions",
+      "text": "C23.1 Basic landing conditions Tail wheel type Nose wheel type Condition Level landing Reference paragraph 23.479(a)(1) Vertical component at c.g. nW Fore and aft component at c.g. KnW Lateral component in either direction at c.g. 0 Shock absorber extension (hydraulic shock absorber) Note (2) Shock absorber deflection (rubber or spring shock absorber) 100% Tyre deflection { Static (n-L)W Vr Main wheel loads (both wheels) KnW { Dr Vf Tail (nose) wheel loads 0 Df Notes (1), (3), and (4) Level landing Level landing Tail-down Tail-down with inclined with nose wheel landing landing reactions just clear of ground 23.481(a)(1) 23.479(a) 23.479(a) 23.481(a) (2)(i) (2)(ii) (2) and (b) nW nW nW nW 0 KnW KnW 0 0 0 0 0 Note (2) Note (2) Note (2) Note (2) 100% 100% 100% 100% Static Static Static Static (n-L)Wb/d (n-L)Wa'/d' (n-L)W (n-L)W 0 KnWa'/d' KnW 0 (n-L)Wa/d (n-L)Wb'/d' 0 0 0 KnWb'/d' 0 0 (4) (1) (1), (3), and (3) and (4) (4) NOTE (1) K may be determined as follows: K=0.25 for W=1361 kg (3,000 pounds) or less; K=0.33 for W=2722 kg (6,000 pounds) or greater, with linear variation of K between these weights. NOTE (2) For the purpose of design, the maximum load factor is assumed to occur throughout the shock absorber stroke from 25% deflection to 100% deflection unless otherwise shown and the load factor must be used with whatever shock absorber extension is most critical for each element of the landing gear. NOTE (3) Unbalanced moments must be balanced by a rational conservative method. NOTE (4) L is defined in CS 23.725(b). NOTE (5) n is the limit inertia load factor, at the c.g. of the aeroplane, selected under CS 23.475 (d), (f), and (g).",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Basic Landing Conditions",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

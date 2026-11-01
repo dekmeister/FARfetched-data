@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2260",
+  "current_grouping": "Subpart C \u2014 Structures",
+  "canonical_title": "Materials and processes",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structures",
+      "title_at_revision": "Materials and processes",
+      "text": "(a) The applicant must determine the suitability and durability of materials used for parts, articles, and assemblies, the failure of which could prevent continued safe flight and landing, accounting for the effects of likely environmental conditions expected in service. (b) The methods and processes of fabrication and assembly used must produce consistently sound structures. If a fabrication process requires close control to reach this objective, the applicant must define the process with an approved process specification as part of the design data. (c) Except as provided for in CS 23.2260(f) and (g), the applicant must select design values that ensure material strength with probabilities that account for the criticality of the structural element. Design values must account for the probability of structural failure due to material variability. (d) If material strength properties are required, a determination of those properties must be based on sufficient tests of material meeting specifications to establish design values on a statistical basis. (e) If thermal effects are significant on a critical component or structure under normal operating conditions, the applicant must determine those effects. (f) Design values, greater than the minimums specified by CS 23.2260, may be used, where only guaranteed minimum values are normally allowed, if a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in the design. (g) An applicant may use other material design values if specifically approved by EASA.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

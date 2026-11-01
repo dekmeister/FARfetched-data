@@ -161,6 +161,8 @@ at the repo level:
 **Don't:**
 - Don't git add, git commit or git push. That will be done manually separately
   by the developer.
+- Don't create or work on a git branch unless the developer explicitly says
+  to. Work on `main` in both this repo and `tools/`.
 - Don't introduce an ORM.
 - Don't add application logic here. App code lives in FARFETCHed.
 - Don't commit `cert_basis.sqlite` or `cert_basis_report.json` — they are

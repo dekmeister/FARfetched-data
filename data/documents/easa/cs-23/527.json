@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "527",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Hull and main float load factors",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Hull and main float load factors",
+      "text": "(a) Water reaction load factors nw must be computed in the following manner: (1) For the step landing case C1Vso 2 nw = (Tan ) 2 / 3 \u03b2 W1/ 3 (2) For the bow and stern landing cases ( C1 Vso) K1 nw = x ( ) Tan / 3 \u03b2 W1/ 32 2 / 3 1 + rx 2 (b) The following values are used: (1) nw = water reaction load factor (that is, the water reaction divided by seaplane weight). (2) C1 = empirical seaplane operations factor equal to 0\u00b7012 (except that this factor may not be less than that necessary to obtain the minimum value of step load factor of 2\u00b733). (3) Vso = seaplane stalling speed in knots with flaps extended in the appropriate landing position and with no slipstream effect. (4) \u03b2 = Angle of dead rise at the longitudinal station at which the load factor is being determined in accordance with figure 1 of Appendix I of CS-23. (5) W = seaplane design landing weight in pounds. (6) Kl = empirical hull station weighing factor, in accordance with figure 2 of Appendix I of CS-23. (7) rx = ratio of distance, measured parallel to hull reference axis, from the centre of gravity of the seaplane to the hull longitudinal station at which the load factor is being computed to the radius of gyration in pitch of the seaplane, the hull reference axis being a straight line, in the plane of symmetry, tangential to the keel at the main step. (c) For a twin float seaplane, because of the effect of flexibility of the attachment of the floats to the seaplane, the factor K1 may be reduced at the bow and stern to 0\u00b78 of the value shown in figure 2 of Appendix I of CS-23. This reduction applies only to the design of the carry through and seaplane structure.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Hull and main float load factors",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

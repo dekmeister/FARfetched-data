@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "427",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Unsymmetrical loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Unsymmetrical loads",
+      "text": "(a) In designing the aeroplane for lateral gust, yaw manoeuvre and roll manoeuvre conditions, account must be taken of unsymmetrical loads on the empennage arising from effects such as slipstream and aerodynamic interference with the wing, vertical fin and other aerodynamic surfaces. (b) The horizontal tail must be assumed to be subjected to unsymmetrical loading conditions determined as follows: (1) 100% of the maximum loading from the symmetrical manoeuvre conditions of CS 25.331 and the vertical gust conditions of CS 25.341(a) acting separately on the surface on one side of the plane of symmetry; and (2) 80% of these loadings acting on the other side. (c) For empennage arrangements where the horizontal tail surfaces have dihedral angles greater than plus or minus 10 degrees, or are supported by the vertical tail surfaces, the surfaces and the supporting structure must be designed for gust velocities specified in CS 25.341(a) acting in any orientation at right angles to the flight path.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Unsymmetrical loads",
+      "text": "(a) In designing the aeroplane for lateral gust, yaw manoeuvre and roll manoeuvre conditions, account must be taken of unsymmetrical loads on the empennage arising from effects such as slipstream and aerodynamic interference with the wing, vertical fin and other aerodynamic surfaces. (b) The horizontal tail must be assumed to be subjected to unsymmetrical loading conditions determined as follows: (1) 100% of the maximum loading from the symmetrical manoeuvre conditions of CS 25.331 and the vertical gust conditions of CS 25.341(a) acting separately on the surface on one side of the plane of symmetry; and (2) 80% of these loadings acting on the other side. (c) For empennage arrangements where the horizontal tail surfaces have dihedral angles greater than plus or minus 10 degrees, or are supported by the vertical tail surfaces, the surfaces and the supporting structure must be designed for gust velocities specified in CS 25.341(a) acting in any orientation at right angles to the flight path. (d) Unsymmetrical loading on the empennage arising from buffet conditions of CS 25.305(e) must be taken into account.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 11/2004"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

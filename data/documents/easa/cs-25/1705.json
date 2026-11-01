@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1705",
+  "current_grouping": "Subpart H \u2014 Electrical Wiring Interconnection System",
+  "canonical_title": "Systems and Functions; EWIS",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-5",
+      "grouping_at_time": "Subpart H \u2014 Electrical Wiring Interconnection System",
+      "title_at_revision": "Systems and Functions; EWIS",
+      "text": "(a) EWIS associated with systems required for type certification or by operating rules must be considered an integral part of that system and must be considered in showing compliance with the applicable requirements for that system. (b) For systems to which the following rules apply, the components of EWIS associated with those systems must be considered an integral part of that system or systems and must be considered in showing compliance with the applicable requirements for that system. (1) CS 25.773(b)(2) Pilot compartment view. (2) CS 25.854 Lavatory fire protection (3) CS 25.858 Cargo compartment fire detection systems (4) CS 25.981 Fuel tank ignition prevention. (5) CS 25.1165 Engine ignition systems. (6) CS 25.1203 Fire-detector systems (7) CS 25.1303(b) Flight and Navigation Instruments (8) CS 25.1310 Power source Capacity and Distribution (9) CS 25.1316 System lightning protection (10) CS 25.1331(a)(2) Instruments using a power supply (11) CS 25.1351 General. (12) CS 25.1355 Distribution system. (13) CS 25.1360 Precautions against injury. (14) CS 25.1362 Electrical supplies for emergency conditions. (15) CS 25.1365 Electrical appliances, motors, and transformers. (16) CS 25.1431(c) and (d) Electronic equipment.",
+      "publication_cite": "ED Decision 2008/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2007-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2008/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2008006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

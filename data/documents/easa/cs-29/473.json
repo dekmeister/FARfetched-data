@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "473",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Ground loading conditions and assumptions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Ground loading conditions and assumptions",
+      "text": "(a) For specified landing conditions, a design maximum weight must be used that is not less than the maximum weight. A ro tor lift may be assumed to act through the centre of gravity throughout the landing impact. This lift m ay not exceed two-thirds of the design maximum weight. (b) Unless otherwise prescribed, for each specified landing condition, the rotorcraft must be designed for a limit load factor of not less than the limit inertia load fact or subst antiated under C S 29.725. (c) Triggering or act uating devices for additional or suppl ementary energy absorpt ion may not fai l under l oads est ablished i n t he t ests prescribed in CS 29.725 and 29.727, but the factor of safety prescribed i n C S 29.303 need not be used.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

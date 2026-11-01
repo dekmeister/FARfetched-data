@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1203",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fire detector system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fire detector system",
+      "text": "(a) There must be means that ensures the prompt detection of a fire in \u2013 (1) Each designated fire zone of \u2013 (i) Twin-engine turbine powered aeroplanes; (ii) Twin-engine reciprocating engine powered aeroplanes incorporating turbochargers; (iii) Aeroplanes with engine(s) located where they are not readily visible from the cockpit; and (iv) All commuter category aeroplanes. (2) The auxiliary power unit compartment of any aeroplane incorporating an auxiliary power unit. (b) Each fire detector system must be constructed and installed to withstand the vibration, inertia and other loads to which it may be subjected in operation. (c) No fire detector may be affected by any oil, water, other fluids, or fumes that might be present. (d) There must be means to allow the crew to check, in flight, the functioning of each fire detector electric circuit. (e) Wiring and other components of each fire detector system in a designated fire zone must be at least fire-resistant.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fire detector system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

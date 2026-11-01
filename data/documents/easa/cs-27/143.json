@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "143",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Controllability and manoeuvrability",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Controllability and manoeuvrability",
+      "text": "(a) The rotorcraft must be safely controllable and manoeuvrable: (1) During steady flight; and (2) During any manoeuvre appropriate to the type, including: (i) Take-off; (ii) Climb; (iii) Level flight; (iv) Turning flight; (v) Glide; (vi) Landing (power-on and power-off); and (vii) Recovery to power-on flight from a balked autorotative approach. (b) The margin of cyclic control must allow satisfactory roll and pitch control at VNE with: (1) Critical weight; (2) Critical centre of gravity; (3) Critical rotor rpm; and (4) Power off, except for helicopters demonstrating compliance with sub-paragraph (e), and power on. (c) A wind velocity of not less than 31 km/h (17 knots) must be established in which the rotorcraft can be operated without loss of control on or near the ground in any manoeuvre appropriate to the type, such as crosswind take-offs, sideward flight and rearward flight, with: (1) Critical weight; (2) Critical centre of gravity; (3) Critical rotor rpm; and (4) Altitude, from standard sea-level conditions to the maximum altitude capability of the rotorcraft or 2134 m (7 000 ft), whichever is less. (d) The rotorcraft, after (1) failure of one engine in the case of multi-engine rotorcraft that meet Category A engine isolation requirements, or (2) complete engine failure in the case of other rotorcraft, must be controllable over the range of speeds and altitudes for which certification is requested when such power failure occurs with maximum continuous power and critical weight. No corrective action time delay for any condition following power failure may be less than: (i) For the cruise condition, one second, or normal pilot reaction time (whichever is greater); and (ii) For any other condition, normal pilot reaction time. (e) For helicopters for which a VNE (power-off) is established under CS 27.1505 (c), compliance must be demonstrated with the following requirements with critical weight, critical centre of gravity, and critical rotor rpm: (1) The helicopter must be safely slowed to VNE (power-off), without exceptional pilot skill, after the last operating engine is made inoperative at power-on VNE; (2) At a speed of 1.1 VNE (power-off), the margin of cyclic control must allow satisfactory roll and pitch control with power off.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-1",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Controllability and manoeuvrability",
+      "text": "(a) The rotorcraft must be safely controllable and manoeuvrable: (1) During steady flight; and (2) During any manoeuvre appropriate to the type, including: (i) Take-off; (ii) Climb; (iii) Level flight; (iv) Turning flight; (v) Autorotation; (vi) Landing (power-on and power-off); and (vii) Recovery to power-on flight from a balked autorotative approach. (b) The margin of cyclic control must allow satisfactory roll and pitch control at VNE with: (1) Critical weight; (2) Critical centre of gravity; (3) Critical rotor rpm; and (4) Power off, except for helicopters demonstrating compliance with sub-paragraph (f), and power on. (c) Wind velocities from zero to at least 31 km/h (17 knots), from all azimuths, must be established in which the rotorcraft can be operated without loss of control on or near the ground in any manoeuvre appropriate to the type, such as crosswind take-offs, sideward flight and rearward flight: (1) With altitude, from standard sea-level conditions to the maximum take-off and landing altitude capability of the rotorcraft or 2134m (7000 ft) density altitude, whichever is less; with: (i) Critical weight; (ii) Critical centre of gravity; and (iii) Critical rotor rpm. (2) For take-off and landing altitudes above 2134m (7000 ft) density altitude with: (i) Weight selected by the applicant; (ii) Critical centre of gravity; and (iii) Critical rotor rpm. (d) Wind velocities from zero to at least 31 km/h (17 knots), from all azimuths, must be established in which the rotorcraft can be operated without loss of control out-of-ground effect, with: (1) Weight selected by the applicant; (2) Critical centre of gravity; (3) Rotor rpm selected by the applicant; and (4) Altitude, from standard sea-level conditions to the maximum take-off and landing altitude capability of the rotorcraft. (e) The rotorcraft, after (1) failure of one engine in the case of multi-engine rotorcraft that meet Category A engine isolation requirements, or (2) complete engine failure in the case of other rotorcraft, must be controllable over the range of speeds and altitudes for which certification is requested when such power failure occurs with maximum continuous power and critical weight. No corrective action time delay for any condition following power failure may be less than: (i) For the cruise condition, one second, or normal pilot reaction time (whichever is greater); and (ii) For any other condition, normal pilot reaction time. (f) For helicopters for which a VNE (power-off) is established under CS 27.1505 (c), compliance must be demonstrated with the following requirements with critical weight, critical centre of gravity, and critical rotor rpm: (1) The helicopter must be safely slowed to VNE (power-off), without exceptional pilot skill, after the last operating engine is made inoperative at power-on VNE; (2) At a speed of 1.1 VNE (power-off), the margin of cyclic control must allow satisfactory roll and pitch control with power off.",
+      "publication_cite": "ED Decision 2007/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1620/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 11/2006"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

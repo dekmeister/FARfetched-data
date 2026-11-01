@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1322",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Flight Crew Alerting",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Warning, caution, and advisory lights",
+      "text": "(See AMC 25.1322) If warning, caution, or advisory lights are installed in the cockpit, they must, unless otherwise approved by the Agency, be \u2013 (a) Red, for warning lights (lights indicating a hazard, which may require immediate corrective action); (b) Amber, for caution lights (lights indicating the possible need for future corrective action); (c) Green, for safe operation lights; and (d) Any other colour, including white, for lights not described in sub-paragraphs (a) to (c) of this paragraph, provided the colour differs sufficiently from the colours prescribed in sub-paragraphs (a) to (c) of this paragraph to avoid possible confusion.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-11",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Flight Crew Alerting",
+      "text": "(See AMC 25.1322) (a) Flight crew alerts must: (1) provide the flight crew with the information needed to: (i) identify non-normal operation or aeroplane system conditions, and (ii) determine the appropriate actions, if any; (2) be readily and easily detectable and intelligible by the flight crew under all foreseeable operating conditions, including conditions where multiple alerts are provided; (3) be removed when the alerting condition no longer exists. (b) Alerts must conform to the following prioritisation hierarchy based on the urgency of flight crew awareness and response: (1) Warning: For conditions that require immediate flight crew awareness and immediate flight crew response. (2) Caution: For conditions that require immediate flight crew awareness and subsequent flight crew response. (3) Advisory: For conditions that require flight crew awareness and may require subsequent flight crew response. (c) Warning and Caution alerts must: (1) be prioritised within each category, when necessary; (2) provide timely attention-getting cues through at least two different senses by a combination of aural, visual, or tactile indications; (3) permit each occurrence of the attention-getting cues required by sub-paragraph (c)(2) to be acknowledged and suppressed, unless they are required to be continuous. (d) The alert function must be designed to minimise the effects of false and nuisance alerts. In particular, it must be designed to: (1) prevent the presentation of an alert when it is inappropriate or unnecessary; (2) provide a means to suppress an attention-getting component of an alert caused by a failure of the alerting function that interferes with the flight crew\u2019s ability to safely operate the aeroplane. This means must not be readily available to the flight crew so that it could be operated inadvertently or by habitual reflexive action. When an alert is suppressed, there must be a clear and unmistakable annunciation to the flight crew that the alert has been suppressed. (e) Visual alert indications must: (1) conform to the following colour convention: (i) Red for Warning alert indications. (ii) Amber or yellow for Caution alert indications. (iii) Any colour except red or green for Advisory alert indications. (2) use visual coding techniques, together with other alerting function elements on the flight deck, to distinguish between Warning, Caution and Advisory alert indications, if they are presented on monochromatic displays that are incapable of conforming to the colour convention in paragraph (e)(1). (f) Use of the colours red, amber and yellow on the flight deck for functions other than flight crew alerting must be limited and must not adversely affect flight crew alerting.",
+      "publication_cite": "ED Decision 2011/004/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1590/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2009-12",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2011/004/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2011004r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1145",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Ignition switches",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Ignition switches",
+      "text": "(a) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control. (b) Each group of ignition switches, except ignition switches for turbine engines for which continuous ignition is not required, and each master ignition control must have a means to prevent its inadvertent operation.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

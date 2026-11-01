@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "499",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Supplementary conditions for nose wheels",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Supplementary conditions for nose wheels",
+      "text": "In determining the ground loads on nose wheels and affected supporting structures and assuming that the shock absorbers and tyres are in their static positions, the following conditions must be met: (a) For aft loads, the limit force components at the axle must be \u2013 (1) A vertical component of 2\u00b725 times the static load on the wheel; and (2) A drag component of 0\u00b78 times the vertical load. (b) For forward loads, the limit force components at the axle must be \u2013 (1) A vertical component of 2\u00b725 times the static load on the wheel; and (2) A forward component of 0\u00b74 times the vertical load. (c) For sideloads, the limit force components at ground contact must be \u2013 (1) A vertical component of 2\u00b725 times the static load on the wheel; and (2) A side component of 0\u00b77 times the vertical load. (d) For aeroplanes with a steerable nose wheel which is controlled by hydraulic or other power, at design take-off weight with the nose wheel in any steerable position the application of 1\u00b733 times the full steering torque combined with a vertical reaction equal to 1\u00b733 times the maximum static reaction on the nose gear must be assumed. However, if a torque limiting device is installed, the steering torque can be reduced to the maximum value allowed by that device. (e) For aeroplanes with a steerable nose wheel, that has a direct mechanical connection to the rudder pedals, the mechanism must be designed to withstand the steering torque for the maximum pilot forces specified in CS 23.397 (b).",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Supplementary conditions for nose wheels",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

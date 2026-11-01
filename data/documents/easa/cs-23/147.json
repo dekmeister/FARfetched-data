@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "147",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Directional and lateral control",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Directional and lateral control",
+      "text": "(a) For each twin-engined aeroplane, it must be possible, while holding the wings level within 5\u00b0, to make sudden changes in heading safely in both directions. This must be shown at 1\u00b74 VS1 with heading changes up to 15\u00b0 (except that the heading change at which the rudder force corresponds to the limits specified in CS 23.143 need not be exceeded), with the \u2013 (1) Critical engine inoperative and its propeller in the minimum drag position; (2) Remaining engine at maximum continuous power; (3) Landing gear \u2013 (i) Retracted; and (ii) Extended; and (4) Flaps retracted. (b) For each twin-engined aeroplane, it must be possible to regain full control of the aeroplane without exceeding a bank angle of 45\u00b0, reaching a dangerous attitude or encountering dangerous characteristics, in the event of a sudden and complete failure of the critical engine, making allowance for a delay of 2 seconds in the initiation of recovery action appropriate to the situation, with the aeroplane initially in trim, in the following conditions \u2013 (1) Maximum continuous power on each engine; (2) Wing flaps retracted; (3) Landing gear retracted; (4) Speed equal to that at which compliance with CS 23.69 (a) has been shown; (5) All propeller controls in the position in which compliance with CS 23.69 (a) has been shown. (c) For all aeroplanes, it must be shown that the aeroplane is safely controllable without the use of the primary lateral control system in any all-engine configuration(s) and at any speed or altitude within the approved operating envelope. It must also be shown that the aeroplane\u2019s flight characteristics are not impaired below a level needed to permit continued safe flight and the ability to maintain attitudes suitable for a controlled landing without exceeding the operational and structural limitations of the aeroplane. If a single failure of any one connecting or transmitting link in the lateral control system would also cause the loss of additional control system(s), the above requirement is equally applicable with those additional systems also assumed to be inoperative.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Directional and lateral control",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

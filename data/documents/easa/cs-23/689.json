@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "689",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Cable systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Cable systems",
+      "text": "(a) Each cable, cable fitting, turn-buckle, splice and pulley used must meet approved specifications. In addition \u2013 (1) No cable smaller than 3\u00b72 mm ( 81 in) diameter may be used in primary control systems; (2) Each cable system must be designed so that there will be no hazardous change in cable tension throughout the range of travel under operating conditions and temperature variations; and (3) There must be means for visual inspection at each fairlead, pulley, terminal and turnbuckle. (b) Each kind and size of pulley must correspond to the cable with which it is used. Each pulley must have closely fitted guards to prevent the cables from being misplaced or fouled, even when slack. Each pulley must lie in the plane passing through the cable so that the cable does not rub against the pulley flange. (c) Fairleads must be installed so that they do not cause a change in cable direction of more than 3\u00b0. (d) Clevis pins subject to load or motion and retained only by cotter pins may not be used in the control system. (e) Turnbuckles must be attached to parts having angular motion in a manner that will positively prevent binding throughout the range of travel. (f) Tab control cables are not part of the primary control system and may be less than 3.2mm (1/8 inch) diameter in aeroplanes that are safely controllable with the tabs in the most adverse positions.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Cable systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

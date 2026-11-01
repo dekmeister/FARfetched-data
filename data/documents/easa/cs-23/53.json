@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "53",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Take-off performance",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Take-off performance",
+      "text": "(a) For normal, utility and aerobatic category aeroplanes the take-off distance must be determined in accordance with sub-paragraph (b), using speeds determined in accordance with CS 23.51 (a) and (b). (b) For normal, utility and aerobatic category aeroplanes the distance required to take-off and climb to a height of 15 m (50 ft) above the take-off surface must be determined for each weight, altitude and temperature within the operational limits established for take-off with \u2013 (1) Take-off power on each engine; (2) Wing flaps in the take-off position(s); and (3) Landing gear extended. (c) For commuter category aeroplanes, take-off performance as required by CS 23.55 to CS 23.59 must be determined with the operating engines within approved operating limitations.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Take-off performance",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

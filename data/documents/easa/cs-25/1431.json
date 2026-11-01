@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1431",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Electronic equipment",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Electronic equipment",
+      "text": "(a) In showing compliance with CS 25.1309 (a) and (b) with respect to radio and electronic equipment and their installations, critical environmental conditions must be considered (b) Radio and electronic equipment must be supplied with power under the requirements of CS 25.1355 (c). (c) Radio and electronic equipment, controls and wiring must be installed so that operation of any one unit or system of units will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units, required by this CS\u201325. (d) Electronic equipment must be designed and installed such that it does not cause essential loads to become inoperative, as a result of electrical power supply transients or transients from other causes.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

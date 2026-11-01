@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1397",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Colour specifications",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Colour specifications",
+      "text": "Each posi tion l ight col our m ust have the applicable In ternational Co mmission o n Illumination chromaticity co-ordinates as follows: (a) Aviation Red: \u2018y\u2019 is not greater than 0.335; and \u2018z\u2019 is not greater than 0.002. (b) Aviation green: \u2018x\u2019 is not greater than 0.440\u20130.320y; \u2018x\u2019 is not greater than y\u20130.170; and \u2018y\u2019 is not less than 0.390\u20130.170x. (c) Av iation white: \u2018x\u2019 i s not l ess t han 0.300 and not great er t han 0.540; \u2018y\u2019 i s not l ess t han \u2018x\u20130.040\u2019 or \u2018yo\u20130.010\u2019, whichever is the smaller; and \u2018y\u2019 is not great er t han \u2018x+0.020\u2019 nor \u20180.636\u2013 0.400x\u2019. Where \u2018y o\u2019 is the \u2018y \u2019 co-ordinate of the Planckian radiator for the value of \u2018x\u2019 considered.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

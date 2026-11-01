@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "521",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
+  "canonical_title": "Float landing conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
+      "title_at_revision": "Float landing conditions",
+      "text": "If certification for float operation is requested, the rotorcraft, with floats, must be designed to withstand the following loading conditions (where the limit load factor is determined under CS 27.473 (b) or assumed to be equal to that determined for wheel landing gear): (a) Up-load conditions in which: (1) A load is applied so that, with the rotorcraft in the static level attitude, the resultant water reaction passes vertically through the centre of gravity; and (2) The vertical load prescribed in sub-paragraph (a)(1) is applied simultaneously with an aft component of 0.25 times the vertical component. (b) A side-load condition in which: (1) A vertical load of 0.75 times the total vertical load specified in sub-paragraph (a)(1) is divided equally among the floats; and (2) For each float, the load share determined under sub-paragraph (b)(1), combined with a total sideload of 0.25 times the total vertical load specified in sub-paragraph (b)(1), is applied to the float only.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

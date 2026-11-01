@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "25",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Weight limits",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Weight limits",
+      "text": "(a) Maximum weight. The maximum weight is the highest weight at which compliance with each applicable requirement of CS-23 (other than those complied with at the design landing weight) is shown. The maximum weight must be established so that it is \u2013 (1) Not more than the least of \u2013 (i) The highest weight selected by the applicant; or (ii) The design maximum weight, which is the highest weight at which compliance with each applicable structural loading condition of CS-23 (other than those complied with at the design landing weight) is shown; or (iii) The highest weight at which compliance with each applicable flight requirement is shown, and, (2) Not less than the weight with:- (i) Each seat occupied, assuming a weight of 77kg (170 lbs) for each occupant for normal and commuter category aeroplanes, and 86kg (190 lbs) for utility and acrobatic category aeroplanes, except that seats other than pilot seats may be placarded for a lesser weight; and (A) Oil at full capacity, and (B) At least enough fuel for maximum continuous power operation of at least 30 minutes for day-VFR approved aeroplanes and at least 45 minutes for night-VFR and IFR approved aeroplanes; or (ii) The required minimum crew, and fuel and oil to full tank capacity. (b) Minimum weight. The minimum weight (the lowest weight at which compliance with each applicable requirement of CS-23 is shown) must be established so that it is not more than the sum of \u2013 (1) The empty weight determined under CS 23.29; (2) The weight of the required minimum crew (assuming a weight of 77 kg (170 lb) for each crew member); and (3) The weight of \u2013 (i) For turbojet powered aeroplanes, 5% of the total fuel capacity of that particular fuel tank arrangement under investigation; and (ii) For other aeroplanes, the fuel necessary for one-half hour of operation at maximum continuous power.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Weight limits",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

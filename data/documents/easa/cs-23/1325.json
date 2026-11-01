@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1325",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Static pressure system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Static pressure system",
+      "text": "(a) Each instrument provided with static pressure case connections must be so vented that the influence of aeroplane speed, the opening and closing of windows, airflow variations, moisture, or other foreign matter will least affect the accuracy of the instruments except as noted in sub-paragraph (b) (3) . (b) If a static pressure system is necessary for the functioning of instruments, systems, or devices, it must comply with the provisions of sub-paragraphs (1) to (3) . (1) The design and installation of a static pressure system must be such that \u2013 (i) Positive drainage of moisture is provided; (ii) Chafing of the tubing and excessive distortion or restriction at bends in the tubing, is avoided; and (iii) The materials used are durable, suitable for the purpose intended and protected against corrosion. (2) A proof test must be conducted to demonstrate the integrity of the static pressure system in the following manner: (i) Unpressurised aeroplanes. Evacuate the static pressure system to a pressure differential of approximately 3.4\u22c5kPa (1 inch of mercury) or to a reading on the altimeter, 305 m (1 000 ft) above the aircraft elevation at the time of the test. Without additional pumping for a period of 1 minute, the loss of indicated altitude must not exceed 30 m (100 ft) on the altimeter. (ii) Pressurised aeroplanes. Evacuate the static pressure system until a pressure differential equivalent to the maximum cabin pressure differential for which the aeroplane is type certificated is achieved. Without additional pumping for a period of 1 minute, the loss of indicated altitude must not exceed 2% of the equivalent altitude of the maximum cabin differential pressure or 30 m (100 ft), whichever is greater. (3) If a static pressure system is provided for any instrument, device, or system required by the operating rules, each static pressure port must be designed or located in such a manner that the correlation between air pressure in the static pressure system and true ambient atmospheric static pressure is not altered when the aeroplane encounters icing conditions. An anti-icing means or an alternate source of static pressure may be used in showing compliance with this requirement. If the reading of the altimeter, when on the alternate static pressure system differs from the reading of the altimeter when on the primary static system by more than 15m (50 ft), a correction card must be provided for the alternate static system. (c) Except as provided in sub-paragraph (d) , if the static pressure system incorporates both a primary and an alternate static pressure source, the means for selecting one or the other source must be designed so that \u2013 (1) When either source is selected, the other is blocked off; and (2) Both sources cannot be blocked off simultaneously. (d) For unpressurised aeroplanes, sub-paragraph (c) (1) does not apply if it can be demonstrated that the static pressure system calibration, when either static pressure source is selected, is not changed by the other static pressure source being open or blocked. (e) Each static pressure system must be calibrated in flight to determine the system error. The system error, in indicated pressure altitude, at sea-level, with a standard atmosphere, excluding instrument calibration error, may not exceed \u00b19 m (\u00b1 30 ft) per 185 km/h (100 knot) speed for the appropriate configuration in the speed range between 1\u00b73 VSO with flaps extended and 1\u00b78 VS1 with flaps retracted. However, the error need not be less than \u00b19 m (\u00b1 30 ft). (f) Reserved. (g) For aeroplanes prohibited from flight under instrument flight rules (IFR) or known icing conditions in accordance with CS 23.1525, sub-paragraph (b) (3) does not apply.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Static pressure system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1460",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Data link recorders",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-9",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Data link recorders",
+      "text": "(See AMC 29.1460) (a) Each recorder performing the data link recording function required by the operating rules must be approved and must be installed so that it will record the data link communication messages related to air traffic service (ATS) communications to and from the rotorcraft. (b) Each data link recorder must be installed so that: (1)(i) it receives its electrical power from the bus that provides the maximum reliability for the operation of the recorder without jeopardising service to essential or emergency loads; and (1)(ii) it remains powered for as long as possible without jeopardising the emergency operation of the rotorcraft; and (2) there is an aural or visual means for pre-flight checking of the recorder for the proper recording of data in the storage medium. (c) The container of the recording medium must be located and mounted so as to minimise the probability of the container rupturing, the recording medium being destroyed, or the underwater locating device failing as a result of any possible combinations of: \u2014 impact with the Earth\u2019s surface; \u2014 the heat damage caused by a post-impact fire; and \u2014 immersion in water. (d) The container of the data link recorder must comply with the specifications applicable to the container of the cockpit voice recorder in CS 29.1457(g).",
+      "publication_cite": "ED Decision 2021/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/128366/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2019-12",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

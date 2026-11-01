@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "801",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Ditching",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Ditching",
+      "text": "(a) If certification with ditching provisions is requested, the rotorcraft must meet the requirements of this paragraph and CS 27.807(d), 27.1411 and 27.1415. (b) Each practicable design measure, compatible with the general characteristics of the rotorcraft, must be taken to minimise the probability that in an emergency landing on water, the behaviour of the rotorcraft would cause immediate injury to the occupants or would make it impossible for them to escape. (c) The probable behaviour of the rotorcraft in a water landing must be investigated by model tests or by comparison with rotorcraft of similar configuration for which the ditching characteristics are known. Scoops, flaps, projections, and any other factor likely to affect the hydrodynamic characteristics of the rotorcraft must be considered. (d) It must be shown that, under reasonably probable water conditions, the flotation time and trim of the rotorcraft will allow the occupants to leave the rotorcraft and enter the life rafts required by CS 27.1415. If compliance with this provision is shown by buoyancy and trim computations, appropriate allowances must be made for probable structural damage and leakage. If the rotorcraft has fuel tanks (with fuel jettisoning provisions) that can reasonably be expected to withstand a ditching without leakage, the jettisonable volume of fuel may be considered as buoyancy volume. (e) Unless the effects of the collapse of external doors and windows are accounted for in the investigation of the probable behaviour of the rotorcraft in a water landing (as prescribed in sub-paragraphs (c) and (d)), the external doors and windows must be designed to withstand the probable maximum local pressures.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS27-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Ditching",
+      "text": "(a) If certification with ditching provisions is requested by the applicant, the rotorcraft must meet the requirements of this CS and CS 27.563, CS 27.783(c), CS 27.805(c), CS 27.807(d), CS 27.1411, CS 27.1415, CS 27.1470, CS 27.1555(d) and CS 27.1561. (b) Each practicable design measure, compatible with the general characteristics of the rotorcraft, must be taken to minimise the probability that when ditching, the behaviour of the rotorcraft would cause immediate injury to the occupants or would make it impossible for them to escape. (c) An emergency flotation system that is stowed in a deflated condition during normal flight must: (1) be designed such that the effects of a water impact (i.e. crash) on the emergency flotation system are minimised; (2) have a means of automatic deployment following water entry. (d) The probable behaviour of the rotorcraft during ditching water entry must be shown to exhibit no unsafe characteristics. (e) The rotorcraft must be shown to resist capsize in the sea conditions selected by the applicant. The probability of capsizing in a 5-minute exposure to the sea conditions must be substantiated to be less than or equal to 3.0 % with a fully serviceable emergency flotation system and 30.0 % with the critical float compartment failed, with 95 % confidence. Allowances must be made for probable structural damage and leakage. (f) Unless the effects of the collapse of external doors and windows are accounted for in the investigation of the probable behaviour of the rotorcraft during ditching (as prescribed in (d) and (e)), the external doors and windows must be designed to withstand the probable maximum local pressures.",
+      "publication_cite": "ED Decision 2018/007/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/47279/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2018/007/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2018007r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

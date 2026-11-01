@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1049",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Hovering cooling test procedures",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Hovering cooling test procedures",
+      "text": "The hovering cool ing provi sions m ust be shown \u2013 (a) At m aximum wei ght or at t he greatest weight at which the rot orcraft can hover (i f l ess), at sea-level, with the power requi red to hover but not more than maximum continuous power, in the ground effect in still air, until at least 5 minutes after the occurrence of the highest tem perature recorded; and (b) With maximum cont inuous power, maximum weig ht, an d at th e altitude resulting in zero rate o f clim b fo r th is co nfiguration, u ntil at least 5 m inutes after the occurrence of the highest temperature recorded.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-11",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Hovering cooling test procedures",
+      "text": "The hovering cooling provisions must be shown \u2013 (a) At maximum weight or at the greatest weight at which the rotorcraft can hover (if less), at sea-level, with the power required to hover but not more than maximum continuous power, in the ground effect in still air, until at least 5 minutes after the occurrence of the highest temperature recorded; and (b) With maximum continuous power, maximum weight, and at the altitude resulting in zero rate of climb for this configuration, until at least 5 minutes after the occurrence of the highest temperature recorded. For rotorcraft for which a 30-minute power rating is claimed, the hovering cooling provisions must be shown: (a) At maximum weight or at the greatest weight at which the rotorcraft can hover (if less), at sea level, with the power required to hover but not more than 30-minute power rating, in the ground effect in still air, until: \u2014 at least 5 minutes after the occurrence of the highest temperature recorded, or \u2014 the continuous time limit of the 30-minute power rating if the highest temperature recorded is not stabilised before. (b) With 30-minute power rating, maximum weight, and at the altitude resulting in zero rate of climb for this configuration, until: \u2014 at least 5 minutes after the occurrence of the highest temperature recorded, or \u2014 the continuous time limit of the 30-minute power rating if the highest temperature recorded is not stabilised before.",
+      "publication_cite": "ED Decision 2023/001/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/137574/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/001/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

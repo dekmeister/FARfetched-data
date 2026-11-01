@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "87",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Height-velocity envelope",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Height-velocity envelope",
+      "text": "(a) If t here i s any com bination of hei ght and forward velocity (including hover) under whi ch a safe landing cannot be m ade aft er fai lure of t he critical engine and wi th t he rem aining engi nes (where appl icable) operat ing within approved limits, a hei ght-velocity envel ope m ust be established for: (1) All co mbinations o f p ressure altitude an d am bient tem perature fo r wh ich take-off and landing are approved; and (2) Weight, from the m aximum weight (at sea-level) to the highest weight approved for take-off and landing at each altitude. For helicopters, this weight need not exceed the highest wei ght al lowing hoveri ng out of ground effect at each altitude. (b) For sin gle en gine o r multi-engine rotorcraft that do not meet the Category A engine isolation requi rements, t he height-velocity envelope for com plete power fai lure m ust be established.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

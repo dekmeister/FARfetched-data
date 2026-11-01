@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "954",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel system lightning protection",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel system lightning protection",
+      "text": "The fuel system must be designed and arranged to prevent the ignition of fuel vapour within the system by: (a) Direct lightning strikes to areas having a high probability of stroke attachment; (b) Swept lightning strokes to areas where swept strokes are highly probable; or (c) Corona and streamering at fuel vent outlets.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1549",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Powerplant instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Powerplant instruments",
+      "text": "(See AMC 25.1549) For each required powerplant instrument, as appropriate to the type of instrument: (a) Each maximum and, if applicable, minimum safe operating limit must be marked with a red radial or a red line; (b) Each normal operating range must be marked with a green arc or green line, not extending beyond the maximum and minimum safe limits; (c) Each take-off and precautionary range must be marked with a yellow arc or a yellow line; and (d) Each engine or propeller speed range that is restricted because of excessive vibration stresses must be marked with red arcs or red lines.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

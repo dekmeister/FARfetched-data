@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1143",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Engine controls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine controls",
+      "text": "(a) There must be a separate power or thrust control for each engine. (b) Power and thrust controls must be arranged to allow \u2013 (1) Separate control of each engine; and (2) Simultaneous control of all engines. (c) Each power and thrust control must provide a positive and immediately responsive means of controlling its engine. (d) For each fluid injection (other than fuel) system and its controls not provided and approved as part of the engine, the flow of the injection fluid must be adequately controlled. (e) If a power or thrust control incorporates a fuel shut-off feature, the control must have a means to prevent the inadvertent movement of the control into the shut-off position. The means must \u2013 (1) Have a positive lock or stop at the idle position; and (2) Require a separate and distinct operation to place the control in the shut-off position.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

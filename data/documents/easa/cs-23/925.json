@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "925",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Propeller clearance",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Propeller clearance",
+      "text": "Propeller clearances with the aeroplane at the most adverse combination of weight and centre of gravity and with the propeller in the most adverse pitch position, may not be less than the following: (a) Ground clearance. There must be a clearance of at least 18 cm (7 in) (for each aeroplane with nose wheel landing gear) or 23 cm (9 in) (for each aeroplane with tail wheel landing gear) between each propeller and the ground with the landing gear statically deflected and in the level, normal take-off, or taxying attitude, whichever is the most critical. In addition, for each aeroplane with conventional landing gear struts using fluid or mechanical means for absorbing landing shocks, there must be positive clearance between the propeller and the ground in the level take-off attitude with the critical tyre completely deflated and the corresponding landing gear strut bottomed. Positive clearance for aeroplanes using leaf spring struts is shown with a deflection corresponding to 1\u00b75g. (b) Aft mounted propellers. In addition to the clearance specified in sub-paragraph (a) an aeroplane with an aft mounted propeller must be designed such that the propeller will not contact the runway surface when the aeroplane is in the maximum pitch attitude attainable during normal take-off and landings. (c) Water clearance. There must be a clearance of at least 46 cm (18 in) between each propeller and the water, unless compliance with CS 23.239 can be shown with a lesser clearance. (d) Structural clearance. There must be \u2013 (1) At least 25 mm (1 in) radial clearance between the blade tips and the aeroplane structure, plus any additional radial clearance necessary to prevent harmful vibration; (2) At least 12\u00b77 mm (\u00bd in) longitudinal clearance between the propeller blades or cuffs and stationary parts of the aeroplane; and (3) Positive clearance between other rotating parts of the propeller or spinner and stationary parts of the aeroplane.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Propeller clearance",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

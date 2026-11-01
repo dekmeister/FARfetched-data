@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "173",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Static longitudinal stability",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static longitudinal stability",
+      "text": "Under the conditions specified in CS 23.175 and with the aeroplane trimmed as indicated, the characteristics of the elevator control forces and the friction within the control system must be as follows: (a) A pull must be required to obtain and maintain speeds below the specified trim speed and a push required to obtain and maintain speeds above the specified trim speed. This must be shown at any speed that can be obtained, except that speeds requiring a control force in excess of 178 N (40 lbf) or speeds above the maximum allowable speed or below the minimum speed for steady unstalled flight, need not be considered. (b) The airspeed must return to within the tolerances specified when the control force is slowly released at any speed within the speed range specified in sub-paragraph (a) . The applicable tolerances are \u2013 (1) For all aeroplanes, plus or minus 10% of the original trim airspeed; and in addition; (2) For commuter category aeroplanes, plus or minus 7\u00b75% of the original trim airspeed for the cruising conditions specified in CS 23.175 (b). (c) The stick force must vary with speed so that any substantial speed change results in a stick force clearly perceptible to the pilot.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Static longitudinal stability",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

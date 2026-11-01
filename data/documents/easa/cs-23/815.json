@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "815",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Width of aisle",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Width of aisle",
+      "text": "a) Except as provided in sub-paragraph (b), for commuter category aeroplanes, the width of the main passenger aisle at any point between seats must equal or exceed the values in the following table: Minimum main passenger aisle width Number of Less than 63 cm 63 cm (25 in) Passenger (25 in) from floor and more from Seats floor cm (in) cm (in) b) When certification to the emergency exit provisions of \u00a7 23.807(d)(4) is requested, the main passenger aisle width at any point between the seats must equal or exceed the following values: Minimum main passenger aisle width Number of Less than 63 cm 63 cm (25 in) Passenger (25 in) from floor and more from Seats floor cm (in) cm (in) Less than 10 30 (12) 38 (15) 11 to 19 30 (12) 51 (20) A narrower width not less than 23 cm (9 in) may be approved when substantiated by tests found necessary by the Agency.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Width of aisle",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

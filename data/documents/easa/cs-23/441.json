@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "441",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Manoeuvring loads",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Manoeuvring loads",
+      "text": "(See AMC 23.441) (a) At speeds up to VA the vertical surfaces must be designed to withstand the following conditions. In computing the loads, the yawing velocity may be assumed to be zero: (1) With the aeroplane in unaccelerated flight at zero yaw, it is assumed that the rudder control is suddenly displaced to the maximum deflection, as limited by the control stops or by limit pilot forces. (2) With the rudder deflected as specified in sub-paragraph (1) , it is assumed that the aeroplane yaws to the overswing side-slip angle. In lieu of a rational analysis, an overswing angle equal to 1\u00b75 times the static sideslip angle of sub-paragraph (3) may be assumed. (3) A yaw angle of 15\u00b0 with the rudder control maintained in the neutral position (except as limited by pilot strength). (b) For commuter category aeroplanes, the loads imposed by the following additional manoeuvre must be substantiated at speeds from VA to VD/MD. When computing the tail loads:- (1) The aeroplane must be yawed to the largest attainable steady state sideslip angle, with the rudder at maximum deflection caused by any one of the following:- (i) Control surface stops; (ii) Maximum available booster effort; (iii) pilot rudder force as shown below:- Maximum Pilot Rudder Force RudderForce-N 800 Vs Va Vc Vd Design Airspeed (2) The rudder must be suddenly displaced from the maximum deflection to the neutral position. (c) The yaw angles specified in sub-paragraph (a) (3) may be reduced if the yaw angle chosen for a particular speed cannot be exceeded in \u2013 (1) Steady slip conditions; (2) Uncoordinated rolls from steep banks; or (3) Sudden failure of the critical engine with delayed corrective action.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Manoeuvring loads",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

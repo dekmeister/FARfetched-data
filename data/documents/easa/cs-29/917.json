@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "917",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Design",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Design",
+      "text": "(a) General. The rotor drive system includes any part necessary to transmit p ower fro m th e engines to the rotor hubs. Thi s i ncludes gearboxes, shaft ing, uni versal joi nts, couplings, rotor brake assem blies, cl utches, support ing bearings for shafting, any attendant accessory pads or drives, and any cool ing fans t hat are a part of, attached to, or mounted on the rotor drive system. (b) Design assessment. A design assessm ent must be perform ed to ensu re th at th e ro tor d rive system functions safel y over t he ful l range of conditions for whi ch cert ification i s sought . The design assessm ent m ust i nclude a det ailed failure analysis to id entify all failu res that will prevent continued safe fl ight or safe l anding, and m ust identify the means t o m inimise t he l ikelihood of their occurrence. (c) Arrangement. Rotor drive system s m ust be arranged as follows: (1) Each ro tor d rive system o f m ulti-engine rotorcraft m ust be arranged so that each rotor n ecessary fo r o peration an d co ntrol will continue to be dri ven by the remaining engines if any engine fails. (2) For single-engine rotorcraft, each rotor dri ve sy stem m ust be so arranged that each rotor necessary for control in autorotation will co ntinue to b e d riven by the main rotors after di sengagement of t he engine from the main and auxiliary rotors. (3) Each rotor drive sy stem m ust incorporate a unit for each engine to automatically di sengage t hat engi ne from t he main and auxiliary rotors if that engine fails. (4) If a torque limiting device is used in the rotor d rive system, it must be located so as to allo w co ntinued co ntrol o f th e rotorcraft when the device is operating. (5) If the rotors m ust be phased for intermeshing, each system m ust provide constant and positive phase relationship under any operating condition. (6) If a rotor dephasi ng devi ce i s incorporated, there m ust be m eans to keep the rotors locked in proper phase before operation.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Design",
+      "text": "(a) General. The rotor drive system includes any part necessary to transmit power from the engines to the rotor hubs. This includes gearboxes, shafting, universal joints, couplings, rotor brake assemblies, clutches, supporting bearings for shafting, any attendant accessory pads or drives, lubricating systems for drive system gearboxes, oil coolers and any cooling fans that are a part of, attached to, or mounted on the rotor drive system. (b) Design assessment. A design assessment must be performed to ensure that the rotor drive system functions safely over the full range of conditions for which certification is sought. The design assessment must include a detailed failure analysis to identify all failures that will prevent continued safe flight or safe landing, and must identify the means to minimise the likelihood of their occurrence. (c) Arrangement. Rotor drive systems must be arranged as follows: (1) Each rotor drive system of multi-engine rotorcraft must be arranged so that each rotor necessary for operation and control will continue to be driven by the remaining engines if any engine fails. (2) For single-engine rotorcraft, each rotor drive system must be so arranged that each rotor necessary for control in autorotation will continue to be driven by the main rotors after disengagement of the engine from the main and auxiliary rotors. (3) Each rotor drive system must incorporate a unit for each engine to automatically disengage that engine from the main and auxiliary rotors if that engine fails. (4) If a torque limiting device is used in the rotor drive system, it must be located so as to allow continued control of the rotorcraft when the device is operating. (5) If the rotors must be phased for intermeshing, each system must provide constant and positive phase relationship under any operating condition. (6) If a rotor dephasing device is incorporated, there must be means to keep the rotors locked in proper phase before operation.",
+      "publication_cite": "ED Decision 2018/007/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/47281/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2017-07",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2018/007/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2018007r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

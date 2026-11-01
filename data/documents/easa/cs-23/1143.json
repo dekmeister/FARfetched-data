@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1143",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Engine controls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine controls",
+      "text": "(See AMC 23.1143 (g)) (a) There must be a separate power or thrust control for each engine and a separate control for each supercharger that requires a control. (b) Power, thrust and supercharger controls must be arranged to allow \u2013 (1) Separate control of each engine and each supercharger; and (2) Simultaneous control of all engines and all superchargers. (c) Each power, thrust or supercharger control must give a positive and immediate responsive means of controlling its engine or supercharger. (d) The power, thrust or supercharger controls for each engine or supercharger must be independent of those for every other engine or supercharger. (e) For each fluid injection (other than fuel) system and its controls not provided as part of the engine, it must be shown that the flow of the injection fluid is adequately controlled. (f) If a power or thrust control, or a fuel control (other then a mixture control) incorporates a fuel shut-off feature, the control must have a means to prevent the inadvertent movement of the control into the shut-off position. The means must \u2013 (1) Have a positive lock or stop at the idle position; and (2) Require a separate and distinct operation to place the control in the shut-off position. (g) For reciprocating single-engine aeroplanes, each power or thrust control must be designed so that if the control separates at the engine fuel metering device, the aeroplane is capable of continuing safe flight.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine controls",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

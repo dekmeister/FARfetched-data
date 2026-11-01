@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1443",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Minimum mass flow of supplemental oxygen",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Minimum mass flow of supplemental oxygen",
+      "text": "(a) If continuous flow equipment is installed for use by flight-crew members, the minimum mass flow of supplemental oxygen required for each crew member may not be less than the flow required to maintain, during inspiration, a mean tracheal oxygen partial pressure of 149 mmHg when breathing 15 litres per minute, BTPS, and with a maximum tidal volume of 700 cm3 with a constant time interval between respirations. (b) If demand equipment is installed for use by flight-crew members, the minimum mass flow of supplemental oxygen required for each crew member may not be less than the flow required to maintain, during inspiration, a mean tracheal oxygen partial pressure of 122 mmHg, up to and including a cabin pressure altitude of 10668 m (35 000 ft), and 95% oxygen between cabin pressure altitudes of 10668 m (35 000) and 12192 m (40 000 ft), when breathing 20 litres per minute BTPS. In addition, there must be means to allow the crew to use undiluted oxygen at their discretion. (c) For passengers and cabin crew members, the minimum mass flow of supplemental oxygen required for each person at various cabin pressure altitudes may not be less than the flow required to maintain, during inspiration and while using the oxygen equipment (including masks) provided, the following mean tracheal oxygen partial pressures: (1) At cabin pressure altitudes above 3048 m (10 000 ft) up to and including 5639 m (18,500 ft), a mean tracheal oxygen partial pressure of 100 mmHg when breathing 15 litres per minute, BTPS, and with a tidal volume of 700 cm3 with a constant time interval between respirations. (2) At cabin pressure altitudes above 5639 m (18 500 ft) up to and including 12192 m (40,000 ft), a mean tracheal oxygen partial pressure of 83\u00b78 mmHg when breathing 30 litres per minute, BTPS, and with a tidal volume of 1100 cm3 with a constant time interval between respirations. (d) If first-aid oxygen equipment is installed, the minimum mass flow of oxygen to each user may not be less than 4 litres per minute, STPD. However, there may be a means to decrease this flow to not less than 2 litres per minute, STPD, at any cabin altitude. The quantity of oxygen required is based upon an average flow rate of 3 litres per minute per person for whom first-aid oxygen is required. (e) If portable oxygen equipment is installed for use by crew members, the minimum mass flow of supplemental oxygen is the same as specified in sub-paragraph (a) or (b) of this paragraph, whichever is applicable.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-28",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Minimum mass flow of supplemental oxygen",
+      "text": "(a) If continuous flow equipment is installed for use by flight-crew members, the minimum mass flow of supplemental oxygen required for each crew member may not be less than the flow required to maintain, during inspiration, a mean tracheal oxygen partial pressure of 149 mmHg when breathing 15 litres per minute, BTPS, and with a maximum tidal volume of 700 cm3 with a constant time interval between respirations. (b) If demand equipment is installed for use by flight-crew members, the minimum mass flow of supplemental oxygen required for each crew member may not be less than the flow required to maintain, during inspiration, a mean tracheal oxygen partial pressure of 122 mmHg, up to and including a cabin pressure altitude of 10668 m (35 000 ft), and 95% oxygen between cabin pressure altitudes of 10668 m (35 000) and 12192 m (40 000 ft), when breathing 20 litres per minute BTPS. In addition, there must be means to allow the crew to use undiluted oxygen at their discretion. (c) For passengers and cabin crew members, the minimum mass flow of supplemental oxygen required for each person at various cabin pressure altitudes may not be less than the flow required to maintain, during inspiration and while using the oxygen equipment (including masks) provided, the following mean tracheal oxygen partial pressures: (1) At cabin pressure altitudes above 3048 m (10 000 ft) up to and including 5639 m (18,500 ft), a mean tracheal oxygen partial pressure of 100 mmHg when breathing 15 litres per minute, BTPS, and with a tidal volume of 700 cm3 with a constant time interval between respirations. (2) At cabin pressure altitudes above 5639 m (18 500 ft) up to and including 12192 m (40,000 ft), a mean tracheal oxygen partial pressure of 83\u00b78 mmHg when breathing 30 litres per minute, BTPS, and with a tidal volume of 1100 cm3 with a constant time interval between respirations. (d) If first-aid oxygen equipment is installed, the minimum mass flow of oxygen to each user may not be less than 4 litres per minute, STPD. However, there may be a means to decrease this flow to not less than 2 litres per minute, STPD, at any cabin altitude. The quantity of oxygen required is based upon an average flow rate of 3 litres per minute per person for whom first-aid oxygen is required. (e) If portable oxygen equipment is installed for use by crew members, the minimum mass flow of supplemental oxygen is the same as specified in sub-paragraph (a) or (b) of this paragraph, whichever is applicable (see AMC 25.1443(e)).",
+      "publication_cite": "ED Decision 2023/021/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/139073/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-07",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/021/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023021r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

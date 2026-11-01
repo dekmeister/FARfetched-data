@@ -1,0 +1,50 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "991",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Fuel pumps",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel pumps",
+      "text": "(a) Main pumps. Each fuel pump required for proper engine operation, or required to meet the fuel system requirements of this Subpart (other than those in sub-paragraph (b) of this paragraph), is a main pump. For each main pump, provision must be made to allow the bypass of each positive displacement fuel pump approved as part of the engine. (b) Emergency pumps. There must be emergency pumps or another main pump to feed each engine immediately after failure of any main pump.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Fuel pumps",
+      "text": "(a) Main pumps. Each fuel pump required for proper engine operation, or required to meet the fuel system requirements of this Subpart (other than those in sub-paragraph (b) of this paragraph), is a main pump. For each main pump, provision must be made to allow the bypass of each positive displacement fuel pump other than a fuel injection pump approved as part of the engine. (b) Emergency pumps. There must be emergency pumps or another main pump to feed each engine immediately after failure of any main pump.",
+      "publication_cite": "ED Decision 2008/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1572/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2008/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2008006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

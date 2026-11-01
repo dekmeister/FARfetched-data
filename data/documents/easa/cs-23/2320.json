@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2320",
+  "current_grouping": "Subpart D \u2014 Design And",
+  "canonical_title": "Occupant physical environment",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And",
+      "title_at_revision": "Occupant physical environment",
+      "text": "(a) The applicant must design the aeroplane to: (1) allow clear communication between the flight crew and passengers; (2) protect the pilot against serious injury due to hazards originating from high energy, associated with systems and equipment; and (3) protect the occupants from serious injury due to breakage of windshields, windows, and canopies. (b) For Level-4 aeroplanes, each windshield and its supporting structure directly in front of the pilot must withstand, without penetration, the impact equivalent to a two-pound bird when the velocity of the aeroplane is equal to the aeroplane\u2019s maximum approach flap speed. (c) The aeroplane must provide each occupant with air at a breathable pressure, free of hazardous concentrations of gases, vapours and smoke during normal operations and likely failures. (d) If a pressurisation system is installed in the aeroplane, it must be designed to protect against: (1) decompression to an unsafe level; and (2) excessive differential pressure. (e) If an oxygen system is installed in the aeroplane, it must: (1) effectively provide oxygen to each user to prevent the effects of hypoxia; and (2) be free from hazards in itself, in its method of operation, and its effect upon other components.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

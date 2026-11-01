@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1093",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Induction system icing protection",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Induction system icing protection",
+      "text": "(a) Reciprocating engines. Each reciprocating engine air induction system must have means to prevent and eliminate icing. Unless this is done by other means, it must be shown that, in air free of visible moisture at a temperature of -1\u00b0C (30\u00b0F) \u2013 (1) Each aeroplane with sea-level engines using conventional venturi carburettors has a preheater that can provide a heat rise of 50\u00b0C (90\u00b0F) with the engines at 75% of maximum continuous power; (2) Each aeroplane with altitude engines using conventional venturi carburettors has a preheater that can provide a heat rise of 67\u00b0C (120\u00b0F) with the engines at 75% of maximum continuous power; (3) Each aeroplane with altitude engines using carburettors tending to prevent icing has a preheater that, with the engines at 60% of maxi-mum continuous power, can provide a heat rise of \u2013 (i) 56\u00b0C (100\u00b0F); or (ii) 22\u00b0C (40\u00b0F), if a fluid de-icing system meeting the requirements of CS 23.1095 to 23.1099 is installed; (4) Each single-engine aeroplane with a sea-level engine using a carburettor tending to prevent icing has a sheltered alternate source of air with a preheat of not less than that provided by the engine cooling air downstream of the cylinders; and (5) Each twin-engined aeroplane with sea-level engines using a carburettor tending to prevent icing has a preheater that can provide a heat rise of 50\u00b0C (90\u00b0F) with the engines at 75% of maximum continuous power. (6) Each aeroplane with sea level or altitude engine(s) using fuel injection systems not having fuel metering components projecting into the airstream on which ice may form, and introducing fuel into the air induction system downstream of any components or other obstruction on which ice produced by fuel evapouration may form, has a sheltered alternate source of air with a preheat of not less than 16\u00baC (60\u00baF) with the engines at 75 percent of its maximum continuous power. (b) Turbine engines (1) Each turbine engine and its air inlet system must operate throughout the flight power range of the engine (including idling), without the accumulation of ice on engine or inlet system components that would adversely affect engine operation or cause a serious loss of power or thrust \u2013 (i) Under the icing conditions specified in CS-Definitions; and (ii) In snow, both falling and blowing, within the limitations established for the aeroplane for such operation. (2) Each turbine engine must idle for 30 minutes on the ground, with the air bleed available for engine icing protection at its critical condition, without adverse effect, in an atmosphere that is at a temperature between -9\u00b0 and -1\u00b0C (between 15\u00b0 and 30\u00b0F) and has a liquid water content not less than 0\u00b73 grams per cubic metre in the form of drops having a mean effective diameter not less than 20 microns, followed by momentary operation at take-off power or thrust. During the 30 minutes of idle operation, the engine may be run up periodically to a moderate power or thrust setting in a manner acceptable to the Agency. (c) Reciprocating engines with superchargers. For aeroplanes with reciprocating engines having superchargers to pressurise the air before it enters the carburettor, the heat rise in the air caused by that supercharging at any altitude may be utilised in determining compliance with sub-paragraph (a) if the heat rise utilised is that which will be available, automatically, for the applicable altitudes and operating condition because of supercharging.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Induction system icing protection",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

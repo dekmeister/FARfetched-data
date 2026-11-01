@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "677",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Trim systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Trim systems",
+      "text": "(a) Proper precautions must be taken to prevent inadvertent, improper, or abrupt trim tab operation. There must be means near the trim control to indicate to the pilot the direction of trim control movement relative to aeroplane motion. In addition, there must be means to indicate to the pilot the position of the trim device with respect to both the range of adjustment and, in the case of lateral and directional trim, the neutral position. This means must be visible to the pilot and must be located and designed to prevent confusion. The pitch trim indicator must be clearly marked with a position or range within which it has been demonstrated that take-off is safe for all centre of gravity positions and each flap position approved for take-off. (b) Trimming devices must be designed so that, when any one connecting or transmitting element in the primary flight control system fails, adequate control for safe flight and landing is available with \u2013 (1) For single-engine aeroplanes, the longitudinal trimming devices; or (2) For twin-engine aeroplanes, the longitudinal and directional trimming devices. (c) Tab controls must be irreversible unless the tab is properly balanced and has no unsafe flutter characteristics. Irreversible tab systems must have adequate rigidity and reliability in the portion of the system from the tab to the attachment of the irreversible unit to the aeroplane structure. (d) It must be demonstrated that the aeroplane is safely controllable and that the pilot can perform all the manoeuvres and operations necessary to effect a safe landing following any probable powered trim system runaway that reasonably might be expected in service, allowing for appropriate time delay after pilot recognition of the trim system runaway. The demonstration must be conducted at the critical aeroplane weights and centre of gravity positions.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Trim systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

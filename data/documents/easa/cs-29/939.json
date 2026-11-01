@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "939",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Turbine engine operating characteristics",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Turbine engine operating characteristics",
+      "text": "(a) Turbine engine operating characteristics must be investigated in flight to determine that no adverse characteristics (such as stall, surge, or flameout) are present, to a hazardous degree, during normal and emergency operation within the range of operating limitations of the rotorcraft and of the engine. (b) The turbine en gine air in let system m ay not, as a resul t of airflow distortion during normal operation, cause vibration harmful to the engine. (c) For governor-cont rolled engi nes, i t must be shown that there exists no hazardous torsional instability o f th e d rive system associated with critical co mbinations o f p ower, rotational speed, and control displacement.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

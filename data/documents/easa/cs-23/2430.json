@@ -1,0 +1,66 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2430",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Powerplant installation, energy storage and distribution systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Powerplant installation, energy storage and distribution systems",
+      "text": "(a) Each system must: (1) Be designed to provide independence between multiple energy storage and supply systems so that a failure of any one component in one system will not result in the loss of energy storage or supply of another system. (2) Be designed to prevent catastrophic events due to lightning strikes taking into account direct and indirect effects for aeroplanes where the exposure to lightning is likely. (3) Provide energy to the powerplant installation with adequate margins to ensure safe functioning under all permitted and likely operating conditions, and accounting for likely component failures. (4) Provide the information established in CS 23.2445(a)(7) to the flight crew and provide uninterrupted supply of that energy when the system is correctly operated, accounting for likely energy fluctuations. (5) Provide a means to safely remove or isolate the energy stored within the system. (6) Be designed to retain the energy under all likely operating conditions and minimise hazards to the occupants during any survivable emergency landing. For Level-4 aeroplanes, failure due to overload of the landing system must be taken into account. (7) Prevent hazardous contamination of the energy supplied to each powerplant installation. (b) Each storage system must: (1) withstand the loads under likely operating conditions without failure, accounting for installation; (2) be isolated from personnel compartments and protected from likely hazards; (3) be designed to prevent significant loss of stored energy due to energy transfer or venting under likely operating conditions; (4) provide energy for at least one-half hour of operation at maximum continuous power or thrust; and (5) be capable of jettisoning energy safely if this functionality is provided. (c) Each energy-storage-refilling or -recharging system must be designed to: (1) prevent improper refilling or recharging; (2) prevent contamination of the stored energy during likely operating conditions; and (3) prevent the occurrence of any hazard to the aeroplane or to persons during refilling or recharging. (d) Likely errors during ground handling of the aeroplane must not lead to a hazardous loss of stored energy.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    },
+    {
+      "designator": "CS23-6",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Powerplant installation, energy storage and distribution systems",
+      "text": "(a) Each system must: (1) Be designed to provide independence between multiple energy storage and supply systems so that a failure of any one component in one system will not result in the loss of energy storage or supply of another system. (2) Be designed to prevent catastrophic events due to lightning strikes taking into account direct and indirect effects for aeroplanes where the exposure to lightning is likely. (3) Provide energy to the powerplant installation with adequate margins to ensure safe functioning under all permitted and likely operating conditions, and accounting for likely component failures. (4) Provide the information established in CS 23.2445(g) to the flight crew and provide uninterrupted supply of that energy when the system is correctly operated, accounting for likely energy fluctuations. (5) Provide a means to safely remove or isolate the energy stored within the system. (6) Be designed to retain the energy under all likely operating conditions and minimise hazards to the occupants during any survivable emergency landing. For Level-4 aeroplanes, failure due to overload of the landing system must be taken into account. (7) Prevent hazardous contamination of the energy supplied to each powerplant installation. (b) Each storage system must: (1) withstand the loads under likely operating conditions without failure, accounting for installation; (2) be isolated from personnel compartments and protected from likely hazards; (3) be designed to prevent significant loss of stored energy due to energy transfer or venting under likely operating conditions; (4) provide energy for at least one-half hour of operation at maximum continuous power or thrust; and (5) be capable of jettisoning energy safely if this functionality is provided. (c) Each energy-storage-refilling or -recharging system must be designed to: (1) prevent improper refilling or recharging; (2) prevent contamination of the stored energy during likely operating conditions; and (3) prevent the occurrence of any hazard to the aeroplane or to persons during refilling or recharging. (d) Likely errors during ground handling of the aeroplane must not lead to a hazardous loss of stored energy.",
+      "publication_cite": "ED Decision 2023/002/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/143486/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-103",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/002/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023002r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 6 and AMC & GM to CS-23 Issue 5' (2026-04-15)"
+      }
+    }
+  ]
+}

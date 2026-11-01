@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "493",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Braked roll conditions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Braked roll conditions",
+      "text": "(a) An aeroplane with a tail wheel is assumed to be in the level attitude with the load on the main wheels, in accordance with Figure 6 of Appendix A. The limit vertical load factor is 1\u00b72 at the design landing weight, and 1\u00b70 at the design ramp weight. A drag reaction equal to the vertical reaction multiplied by a coefficient of friction of 0\u00b78, must be combined with the vertical ground reaction and applied at the ground contact point. (b) For an aeroplane with a nose wheel, the limit vertical load factor is 1\u00b72 at the design landing weight, and 1\u00b70 at the design ramp weight. A drag reaction equal to the vertical reaction, multiplied by a coefficient of friction of 0\u00b78, must be combined with the vertical reaction and applied at the ground contact point of each wheel with brakes. The following two attitudes, in accordance with Figure 6 of Appendix A, must be considered: (1) The level attitude with the wheels contacting the ground and the loads distributed between the main and nose gear. Zero pitching acceleration is assumed. (2) The level attitude with only the main gear contacting the ground and with the pitching moment resisted by angular acceleration. (c) A drag reaction lower than that prescribed in this paragraph may be used if it is substantiated that an effective drag force of 0\u00b78 times the vertical reaction cannot be attained under any likely loading condition. (d) An aeroplane equipped with a nose gear must be designed to withstand the loads arising from the dynamic pitching motion of the aeroplane due to sudden application of maximum braking force. The aeroplane is considered to be at design takeoff weight with the nose and main gears in contact with the ground, and with a steady state vertical load factor of 1\u00b70. The steady state nose gear reaction must be combined with the maximum incremental nose gear vertical reaction caused by sudden application of maximum braking force as described in sub-paragraphs (b) and (c) of this paragraph. (e) In the absence of a more rational analysis, the nose gear vertical reaction prescribed in sub-paragraph (d) of this paragraph must be calculated in accordance with the following formula: WT \uf8f1 f\u03bcAE \uf8fc VN = \uf8f2B + \uf8fd A+B \uf8f3 A + B+ \u03bc E \uf8fe Where: VN = Nose gear vertical reaction WT = Design take-off weight A = Horizontal distance between the c.g. of the aeroplane and the nose wheel. B = Horizontal distance between the c.g. of the aeroplane and the line joining the centres of the main wheels. E = Vertical height of the c.g. of the aeroplane above the ground in the 1\u00b70 g static condition. \u03bc = Coefficient of friction of 0\u00b78. f = Dynamic response factor; 2\u00b70 is to be used unless a lower factor is substantiated. In the absence of other information, the dynamic response factor f may be defined by the equation. \u23a1 \u23a4 -\u03c0\u03be f = 1 + exp \u23a2 \u23a5 \u23a2 1 - \u03be 2 \u23a5 \u23a3 \u23a6 Where: \u03be is the critical damping ratio of the rigid body pitching mode about the main landing gear effective ground contact point.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

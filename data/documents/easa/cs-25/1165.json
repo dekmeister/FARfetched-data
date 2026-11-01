@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1165",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Engine ignition systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Engine ignition systems",
+      "text": "(a) Each battery ignition system must be supplemented by a generator that is automatically available as an alternate source of electrical energy to allow continued engine operation if any battery becomes depleted. (b) The capacity of batteries and generators must be large enough to meet the simultaneous demands of the engine ignition system and the greatest demands of any electrical system components that draw electrical energy from the same source. (c) The design of the engine ignition system must account for \u2013 (1) The condition of an inoperative generator; (2) The condition of a completely depleted battery with the generator running at its normal operating speed; and (3) The condition of a completely depleted battery with the generator operating at idling speed, if there is only one battery. (d) Reserved. (e) No ground wire for any engine may be routed through a fire zone of another engine unless each part of that wire within that zone is fireproof. (f) Each ignition system must be independent of any electrical circuit not used for assisting, controlling, or analysing the operation of that system. (g) There must be means to warn appropriate flight-crew members if the malfunctioning of any part of the electrical system is causing the continuous discharge of any battery necessary for engine ignition. (h) Each engine ignition system of a turbine powered aeroplane must be considered an essential electrical load.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

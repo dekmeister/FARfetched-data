@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2525",
+  "current_grouping": "Subpart F \u2014 Systems And",
+  "canonical_title": "System power generation, storage, and distribution",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Systems And",
+      "title_at_revision": "System power generation, storage, and distribution",
+      "text": "The power generation, storage, and distribution for any system must be designed and installed to: (a) supply the power required for operation of connected loads during all intended operating conditions; (b) ensure no single failure or malfunction will prevent the system from supplying the essential loads required for continued safe flight and landing; and (c) have enough capacity, if the primary source fails, to supply essential loads, including non-continuous essential loads for the time needed to complete the function, required for safe flight and landing.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

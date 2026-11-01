@@ -1,0 +1,64 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1302",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Installed systems and equipment for use by the flight crew",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Installed systems and equipment for use by the flight crew",
+      "text": "(See AMC 25.1302) This paragraph applies to installed equipment intended for flight-crew members\u2019 use in the operation of the aeroplane from their normally seated positions on the flight deck. This installed equipment must be shown, individually and in combination with other such equipment, to be designed so that qualified flight-crew members trained in its use can safely perform their tasks associated with its intended function by meeting the following requirements: (a) Flight deck controls must be installed to allow accomplishment of these tasks and information necessary to accomplish these tasks must be provided. (b) Flight deck controls and information intended for flight crew use must: (1) Be presented in a clear and unambiguous form, at resolution and precision appropriate to the task. (2) Be accessible and usable by the flight crew in a manner consistent with the urgency, frequency, and duration of their tasks, and (3) Enable flight crew awareness, if awareness is required for safe operation, of the effects on the aeroplane or systems resulting from flight crew actions. (c) Operationally-relevant behaviour of the installed equipment must be: (1) Predictable and unambiguous, and (2) Designed to enable the flight crew to intervene in a manner appropriate to the task. (d) To the extent practicable, installed equipment must enable the flight crew to manage errors resulting from the kinds of flight crew interactions with the equipment that can be reasonably expected in service, assuming the flight crew is acting in good faith. This sub-paragraph (d) does not apply to skill-related errors associated with manual control of the aeroplane.",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 15/2004"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-28",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Installed systems and equipment for use by the flight crew",
+      "text": "(See AMC 25.1302.) This paragraph applies to installed systems and equipment intended to be used by flight crew members when operating the aeroplane from their normally seated positions on the flight deck. Those installed systems and equipment must be shown, individually and in combination with other such systems and equipment, to be designed so that qualified flight crew members trained in their use can safely perform their tasks associated with the intended function of the systems and equipment by meeting the following requirements: (a) The controls and information that are necessary to accomplish these tasks must be provided. (b) The controls and information required by paragraph (a), which are intended for use by the flight crew, must: (1) be presented in a clear and unambiguous form, at resolution and with a precision appropriate to the flight crew tasks; (2) be accessible and usable by the flight crew in a manner appropriate to the urgency, frequency, and duration of their tasks; (3) make the flight crew members aware of the effects their actions may have on the aeroplane or its systems, if they require awareness for the safe operation of the aeroplane. (c) Operationally-relevant behaviour of the installed systems and equipment must be: (1) predictable and unambiguous; and (2) designed to enable the flight crew members to intervene in a manner that is appropriate to accomplish their tasks. (d) The installed systems and equipment must enable the flight crew to manage the errors that result from the kinds of flight crew interactions with the systems and equipment that can be reasonably expected in service, assuming the flight crew acts in good faith. This sub-paragraph (d) does not apply to skill-related errors associated with manual control of the aeroplane.",
+      "publication_cite": "ED Decision 2023/021/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/139073/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2022-07",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/021/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023021r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

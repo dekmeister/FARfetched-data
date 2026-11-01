@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1435",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Hydraulic systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Hydraulic systems",
+      "text": "(a) Design. Each hydraulic system must be designed as follows: (1) Each hydraulic system and its elements must withstand, without yielding, the structural loads expected in addition to hydraulic loads. (2) A means to indicate the pressure in each hydraulic system which supplies two or more primary functions must be provided to the flightcrew. (3) There must be means to ensure that the pressure, including transient (surge) pressure, in any part of the system will not exceed the safe limit above design operating pressure and to prevent excessive pressure resulting from fluid volumetric changes in all lines which are likely to remain closed long enough for such changes to occur. (4) The minimum design burst pressure must be 2\u00b75 times the operating pressure. (b) Tests. Each system must be substantiated by proof pressure tests. When proof-tested, no part of any system may fail, malfunction, or experience a permanent set. The proof load of each system must be at least 1\u00b75 times the maximum operating pressure of that system. (c) Accumulators. A hydraulic accumulator or reservoirs may be installed on the engine side of any firewall if \u2013 (1) It is an integral part of an engine or propeller system, or (2) The reservoir is non-pressurised and the total capacity of all such non-pressurised reservoirs is one litre (one US-quart) or less.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Hydraulic systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2120",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Climb requirements",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Climb requirements",
+      "text": "The design must comply with the following minimum climb performance out of ground effect: (a) with all engines operating and in the initial climb configuration(s): (1) for Level-1 and -2 low-speed aeroplanes, a climb gradient of 8.3 % for landplanes and 6.7 % for seaplanes and amphibians; and (2) for Level-1 and -2 high-speed aeroplanes and all Level-3 and -4 aeroplanes, a climb gradient at take-off of 4 %. (b) after a critical loss of thrust on multi-engine aeroplanes: (1) for Level-1 and -2 low-speed aeroplanes that do not meet single-engine crashworthiness requirements, a climb gradient of 1.5 % at a pressure altitude of 1 524 m (5 000 ft) in the cruise configuration; (2) for Level-1 and -2 high-speed aeroplanes, and Level-3 low-speed aeroplanes, a 1 % climb gradient at 122 m (400 ft) above the take-off surface with the landing gear retracted and flaps in the take-off configuration; and (3) for Level-3 high-speed aeroplanes and all Level-4 aeroplanes, a 2 % climb gradient at 122 m (400 ft) above the take-off surface with the landing gear retracted and flaps in the approach configuration; (c) a climb gradient of 3 % during balked landing, without creating undue pilot workload, with the landing gear extended and flaps in the landing configuration(s).",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

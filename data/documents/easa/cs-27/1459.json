@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "1459",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Flight recorders",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Flight recorders",
+      "text": "(a) Each flight recorder required by the applicable operating rules must be installed so that: (1) It is supplied with airspeed, altitude, and directional data obtained from sources that meet the accuracy requirements of CS 27.1323, CS 27.1325, and 27.1327, as applicable; (2) The vertical acceleration sensor is rigidly attached, and located longitudinally within the approved centre of gravity limits of the rotorcraft; (3) It receives its electrical power from the bus that provides the maximum reliability for operation of the flight recorder without jeopardising service to essential or emergency loads; (4) There is an aural or visual means for pre-flight checking of the recorder for proper recording of data in the storage medium; (5) Except for recorders powered solely by the engine-driven electrical generator system, there is an automatic means to simultaneously stop a recorder that has a data erasure feature and prevent each erasure feature from functioning, within 10 minutes after any crash impact; and (b) Each non-ejectable recorder container must be located and mounted so as to minimise the probability of container rupture resulting from crash impact and subsequent damage to the record from fire. (c) A correlation must be established between the flight recorder readings of airspeed, altitude, and heading and the corresponding readings (taking into account correction factors) of the first pilot\u2019s instruments. This correlation must cover the airspeed range over which the aircraft is to be operated, the range of altitude to which the aircraft is limited, and 360\u00b0 of heading. Correlation may be established on the ground as appropriate. (d) Each recorder container must: (1) Be either bright orange or bright yellow; (2) Have a reflective tape affixed to its external surface to facilitate its location underwater; and (3) Have an underwater locating device, when required by the applicable operating rules, on or adjacent to the container which is secured in such a manner that they are not likely to be separated during crash impact.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

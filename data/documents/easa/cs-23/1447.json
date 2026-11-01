@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1447",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Equipment standards for oxygen dispensing units",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Equipment standards for oxygen dispensing units",
+      "text": "If oxygen dispensing units are installed, the following apply: (a) There must be an individual dispensing unit for each occupant for whom supplemental oxygen is to be supplied. Each dispensing unit must \u2013 (1) Provide for effective utilisation of the oxygen being delivered to the unit. (2) Be capable of being readily placed into position on the face of the user. (3) Be equipped with a suitable means to retain the unit in position on the face. (4) If radio equipment is installed, the flight crew oxygen dispensing units must be designed to allow the use of that equipment and to allow communication with any other required crew member while at their assigned duty station. (b) If certification for operation up to and including 5486m (18 000 ft) (MSL) is requested, each oxygen dispensing unit must \u2013 (1) Cover the nose and mouth of the user; or (2) Be a nasal cannula, in which case one oxygen dispensing unit covering both the nose and mouth of the user must be available. In addition, each nasal cannula or its connecting tubing must have permanently affixed \u2013 (i) A visible warning against smoking while in use; (ii) An illustration of the correct method of donning; and (iii) A visible warning against use with nasal obstructions or head colds with resultant nasal congestion. (c) If certification for operation above 5486m (18 000 ft) (MSL) is requested, each oxygen dispensing unit must cover the nose and mouth of the user. (d) For a pressurised aeroplane designed to operate at flight altitudes above 7620m (25 000 ft) (MSL), the dispensing units must meet the following: (1) The dispensing units for passengers must be connected to an oxygen supply terminal and be immediately available to each occupant, wherever seated. (2) The dispensing units for crewmembers must be automatically presented to each crewmember before the cabin pressure altitude exceeds 4572m (15 000 ft), or the units must be of the quick-donning type, connected to an oxygen supply terminal that is immediately available to crewmembers at their station. (e) If certification for operation above 9144m (30 000 ft) is requested, the dispensing units for passengers must be automatically presented to each occupant before the cabin pressure altitude exceeds 4572m (15 000 ft). (f) If an automatic dispensing unit (hose and mask, or other unit) system is installed, the crew must be provided with a manual means to make the dispensing units immediately available in the event of failure of the automatic system.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Equipment standards for oxygen dispensing units",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

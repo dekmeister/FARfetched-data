@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1043",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Cooling tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "text": "(a) General. Compliance with CS 23.1041 must be shown on the basis of tests, for which the following apply: (1) If the tests are conducted under ambient atmospheric temperature conditions deviating from the maximum for which approval is requested, the recorded powerplant temperatures must be corrected under sub-paragraphs (c) and (d) , unless a more rational correction method is applicable. (2) Corrected temperatures determined under sub-paragraph (a) (1) must not exceed established limits. (3) The fuel used during the cooling tests must be of the minimum grade approved for the engine(s). (4) For turbocharged engines, each turbocharger must be operated through that part of the climb profile for which operation with the turbocharger is requested. (5) For reciprocating engines the mixture settings must be the leanest recommended for climb. (b) Maximum ambient atmospheric tempera-ture. A maximum ambient atmospheric temperature corresponding to sea-level conditions of at least 38\u00b0C (100\u00b0F) must be established. The assumed temperature lapse rate is 2\u00b0C (3\u00b76\u00b0F) per 305 m (thousand feet) of altitude above sea-level until a temperature of -56\u00b75\u00b0C (-69\u00b77\u00b0F) is reached, above which altitude the temperature is considered constant at -56\u00b75\u00b0C (-69\u00b77\u00b0F). However, for winterisation installations, the applicant may select a maximum ambient atmospheric temperature corresponding to sea-level conditions of less than 38\u00b0C (100\u00b0F). (c) Correction factor (except cylinder barrels). Temperatures of engine fluids and powerplant components (except cylinder barrels) for which temperature limits are established, must be corrected by adding to them the difference between the maximum ambient atmospheric temperature for the relevant altitude for which approval has been requested and the temperature of the ambient air at the time of the first occurrence of the maximum fluid or component temperature recorded during the cooling test. (d) Correction factor for cylinder barrel temperatures. Cylinder barrel temperatures must be corrected by adding to them 0\u00b77 times the difference between the maximum ambient atmospheric temperature for the relevant altitude for which approval has been requested and the temperature of the ambient air at the time of the first occurrence of the maximum cylinder barrel temperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

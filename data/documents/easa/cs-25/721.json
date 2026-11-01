@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "721",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "General (See AMC 25.963(d))",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "General",
+      "text": "(a) The main landing gear system must be designed so that if it fails due to overloads during take-off and landing (assuming the overloads to act in the upward and aft directions), the failure mode is not likely to cause \u2013 (1) For aeroplanes that have a passenger seating configuration, excluding pilots seats, of nine seats or less, the spillage of enough fuel from any fuel system in the fuselage to constitute a fire hazard; and (2) For aeroplanes that have a passenger seating configuration, excluding pilots seats, of 10 seats or more, the spillage of enough fuel from any part of the fuel system to constitute a fire hazard. (b) Each aeroplane that has a passenger seating configuration, excluding pilots seats, of 10 or more must be designed so that with the aeroplane under control it can be landed on a paved runway with any one or more landing gear legs not extended without sustaining a structural component failure that is likely to cause the spillage of enough fuel to constitute a fire hazard. (c) Compliance with the provisions of this paragraph may be shown by analysis or tests, or both.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "General (See AMC 25.963(d))",
+      "text": "(a) The landing gear system must be designed so that when it fails due to overloads during take-off and landing, the failure mode is not likely to cause spillage of enough fuel to constitute a fire hazard. The overloads must be assumed to act in the upward and aft directions in combination with side loads acting inboard and outboard. In the absence of a more rational analysis, the side loads must be assumed to be up to 20% of the vertical load or 20% of the drag load, whichever is greater. (b) The aeroplane must be designed to avoid any rupture leading to the spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway, under the following minor crash landing conditions: (1) Impact at 1.52 m/s (5 fps) vertical velocity, with the aeroplane under control, at Maximum Design Landing Weight, (i) with the landing gear fully retracted and, as separate conditions, (ii) with any other combination of landing gear legs not extended. (2) Sliding on the ground, with - (i) the landing gear fully retracted and with up to a 20\u00b0 yaw angle and, as separate conditions, (ii) any other combination of landing gear legs not extended and with 0\u00b0 yaw angle. (c) For configurations where the engine nacelle is likely to come into contact with the ground, the engine pylon or engine mounting must be designed so that when it fails due to overloads (assuming the overloads to act predominantly in the upward direction and separately predominantly in the aft direction), the failure mode is not likely to cause the spillage of enough fuel to constitute a fire hazard.",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 21/2005"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1517",
+  "current_grouping": "Subpart G \u2014 Operating Limitations And Information",
+  "canonical_title": "Rough air speed, VRA",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Rough air speed, VRA",
+      "text": "A rough air speed, VRA, for use as the recommended turbulence penetration airspeed must be established, which \u2013 (1) Is not greater than the design speed for maximum gust intensity, selected for VB; and (2) Is not less than the minimum value of VB specified in CS 25.335(d); and (3) Is sufficiently less than VMO to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently. In the absence of a rational investigation substantiating the use of other values, VRA must be less than VMO\u201365 km/h (35 kt) (TAS).",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations And Information",
+      "title_at_revision": "Rough air speed, VRA",
+      "text": "(a) A rough air speed VRA for use as the recommended turbulence penetration air speed, and a rough air Mach number MRA, for use as the recommended turbulence penetration Mach number, must be established to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently. (b) At altitudes where VMO is not limited by Mach number, in the absence of a rational investigation substantiating the use of other values, VRA must be less than VMO - 35 KTAS. (c) At altitudes where VMO is limited by Mach number, MRA may be chosen to provide an optimum margin between low and high speed buffet boundaries.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 11/2004"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

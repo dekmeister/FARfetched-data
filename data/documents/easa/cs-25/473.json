@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "473",
+  "current_grouping": "Subpart C \u2014 Structure",
+  "canonical_title": "Landing load conditions and assumptions",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart C \u2014 Structure",
+      "title_at_revision": "Landing load conditions and assumptions",
+      "text": "(a) For the landing conditions specified in CS 25.479 to 25.485, the aeroplane is assumed to contact the ground: (1) In the attitudes defined in CS 25.479 and CS 25.481. (2) With a limit descent velocity of 3\u00b705 m/sec (10 fps) at the design landing weight (the maximum weight for landing conditions at maximum descent velocity); and (3) With a limit descent velocity of 1\u00b783 m/sec (6 fps) at the design take-off weight (the maximum weight for landing conditions at a reduced descent velocity). (4) The prescribed descent velocities may be modified if it is shown that the aeroplane has design features that make it impossible to develop these velocities. (b) Aeroplane lift, not exceeding aeroplane weight, may be assumed, unless the presence of systems or procedures significantly affects the lift. (c) The method of analysis of aeroplane and landing gear loads must take into account at least the following elements: (1) Landing gear dynamic characteristics. (2) Spin-up and spring back. (3) Rigid body response. (4) Structural dynamic response of the airframe, if significant. (d) The landing gear dynamic characteristics must be validated by tests as defined in CS 25.723(a). (e) The coefficient of friction between the tyres and the ground may be established by considering the effects of skidding velocity and tyre pressure. However, this coefficient of friction need not be more than 0\u00b78.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

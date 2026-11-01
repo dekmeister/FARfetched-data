@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1043",
+  "current_grouping": "Subpart E \u2014 Powerplant",
+  "canonical_title": "Cooling tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "text": "(a) General. Compliance with CS 25.1041 must be shown by tests, under critical ground and flight operating conditions. For these tests, the following apply: (1) If the tests are conducted under conditions deviating from the maximum ambient atmospheric temperature, the recorded power-plant temperatures must be corrected under sub-paragraph (c) of this paragraph. (2) No corrected temperatures determined under sub-paragraph (1) of this paragraph may exceed established limits. (3) Reserved. (b) Maximum ambient atmospheric temperature. A maximum ambient atmospheric temperature corresponding to sea level conditions of at least 37.8\u00baC (100\u00baF) must be established. The assumed temperature lapse rate is 6.6\u00baC per thousand meter (3\u00b76\u00baF per thousand feet) of altitude above sea level until a temperature of -56.5\u00baC (\u201369\u00b77\u00baF) is reached, above which altitude the temperature is considered at -56.5\u00baC (\u201369\u00b77\u00baF). However, for winterization installations, the applicant may select a maximum ambient atmospheric temperature corresponding to sea-level conditions of less than 37.8\u00baC (100\u00baF). (c) Correction factor. Unless a more rational correction applies, temperatures of engine fluids and powerplant components for which temperature limits are established, must be corrected by adding to them the difference between the maximum ambient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum component or fluid temperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-18",
+      "grouping_at_time": "Subpart E \u2014 Powerplant",
+      "title_at_revision": "Cooling tests",
+      "text": "(See AMC 25.1043) (a) General. Compliance with CS 25.1041 must be shown by tests, under critical ground and flight operating conditions. For these tests, the following apply: (1) If the tests are conducted under conditions deviating from the maximum ambient atmospheric temperature, the recorded power-plant temperatures must be corrected under sub-paragraph (c) of this paragraph. (2) No corrected temperatures determined under sub-paragraph (1) of this paragraph may exceed established limits. (3) Reserved. (b) Maximum ambient atmospheric temperature. A maximum ambient atmospheric temperature corresponding to sea level conditions of at least 37.8\u00baC (100\u00baF) must be established. The assumed temperature lapse rate is 6.6\u00baC per thousand meter (3\u00b76\u00baF per thousand feet) of altitude above sea level until a temperature of -56.5\u00baC (\u201369\u00b77\u00baF) is reached, above which altitude the temperature is considered at -56.5\u00baC (\u201369\u00b77\u00baF). However, for winterization installations, the applicant may select a maximum ambient atmospheric temperature corresponding to sea-level conditions of less than 37.8\u00baC (100\u00baF). (c) Correction factor. Unless a more rational correction applies, temperatures of engine fluids and powerplant components for which temperature limits are established, must be corrected by adding to them the difference between the maximum ambient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum component or fluid temperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2016/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/21117/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2015-11",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2016/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2016010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

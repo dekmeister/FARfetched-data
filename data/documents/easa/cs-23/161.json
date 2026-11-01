@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "161",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Trim",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Trim",
+      "text": "(a) General. Each aeroplane must meet the trim requirements after being trimmed and without further pressure upon, or movement of, the primary controls or their corresponding trim controls by the pilot or the automatic pilot. In addition, it must be possible, in other conditions of loading, configuration, speed and power to ensure that the pilot will not be unduly fatigued or distracted by the need to apply residual control forces exceeding those for prolonged application of CS 23.143 (c). This applies in normal operation of the aeroplane and, if applicable, to those conditions associated with the failure of one engine for which performance characteristics are established. (b) Lateral and directional trim. The aeroplane must maintain lateral and directional trim in level flight with the landing gear and wing flaps retracted as follows: (1) For normal, utility and aerobatic category aeroplanes, at a speed of 0\u00b79 VH, VC or VMO/MMO, whichever is lowest; and (2) For commuter category aeroplanes, at all speeds from 1\u00b74 VSI to the lesser of VH or VMO/MMO. (c) Longitudinal trim. The aeroplane must maintain longitudinal trim under each of the following conditions: (1) A climb with; (i) Take-off power, landing gear retracted, wing flaps in the take-off position(s), at the speeds used in determining the climb performance required by CS 23.65; and (ii) Maximum continuous power at the speeds and in the configuration used in determining the climb performance required by CS 23.69 (a). (2) Level flight at all speeds from the lesser of VH and either VNO or VMO/MMO (as appropriate), to 1\u00b74 VS1, with the landing gear and flaps retracted. (3) A descent at VNO or VMO/MMO, whichever is applicable, with power off and with the landing gear and flaps retracted. (4) Approach with landing gear extended and with \u2013 (i) A 3\u00b0 angle of descent, with flaps retracted and at a speed of 1\u00b74 VS1; (ii) A 3\u00b0 angle of descent, flaps in the landing position(s) at VREF; and (iii) An approach gradient equal to the steepest used in the landing distance demonstrations of CS 23.75, flaps in the landing position(s) at VREF. (d) In addition, each twin-engined aeroplane must maintain longitudinal and directional trim and the lateral control force must not exceed 22 N (5 lbf), at the speed used in complying with CS 23.67 (a) or (b) (2) or (c) (3) as appropriate, with \u2013 (1) The critical engine in-operative and its propeller in the minimum drag position; (2) The remaining engine at maximum continuous power; (3) The landing gear retracted; (4) The wing flaps retracted; and (5) An angle of bank of not more than 5\u00b0. (e) In addition, each commuter category aeroplane for which, in the determination of the take-off path in accordance with CS 23.57, the climb in the take-off configuration at V2 extends beyond 122 m (400 ft) above the take-off surface, it must be possible to reduce the longitudinal and lateral control forces to 44\u00b75 N (10 lbf) and 22 N (5 lbf) respectively and the directional control force must not exceed 222 N (50 lbf) at V2 with \u2013 (1) The critical engine inoperative and its propeller in the minimum drag position; (2) The remaining engine at take-off power; (3) Landing gear retracted; (4) Wing flaps in the take-off position(s); and (5) An angle of bank not exceeding 5\u00b0.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Trim",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -406,50 +406,101 @@ Open data items (new):
 - Updates: item #2 (23-43 date) is fixed in code, pending the re-run; #6 to be
   re-checked after the re-run.
 
-## EASA CS close-out (2026-11-01) — state at commit
+## EASA CS close-out (2026-11-01) — promoted
 
-Done (tools commit "EASA: fix CS-25/27/29 extraction gaps, emit overrides"):
-extractor fixes for CS-25 Amdt 1/15/18/27/28, CS-27 Amdt 1, CS-29 Amdt 11/12
-(see tools/README.md §extract.py); `regulations/easa/overrides.tsv` (8
-reviewed `suppress` rows: CS 25.333/25.335 at CS25-8..10, CS 27.1316/1317 at
-CS27-5, which the CS27-5 PDF omits); emit keeps the title in force for
-capitalised/case-only titles. CS-29 Amdt 10 checked: ED Decision 2021/016/R
-(15 Dec 2021, in force the day after publication = 2021-12-18; listing
-"17/12/2011" is a typo); the file is the full "Corrigendum to Amendment 10",
-Annex to ED Decision 2022/010/R (2 May 2022). Emit with
-`--accept-needs-human`. Every paragraph now appears/disappears between
-amendments only where the manifest says so, or as a real creation the
-manifest labels differently (CS25-1 L25, CS25-10 1535, CS27-3 573, CS27-4 D27,
-CS29-4 E29). Staged into `tools/out/staged_easa/documents/` (CS-23 448
-provisions/845 versions, CS-25 403/998, CS-27 265/361, CS-29 320/456); a
-scratch `build.py` of data/ + staged EASA passes (schema v2, 0 errors).
-**Not promoted into data/ yet.**
+CS-23/25/27/29 are promoted into `data/documents/easa/` (1,440 files): CS-23
+448 provisions / 841 versions, CS-25 403 / 844, CS-27 265 / 344, CS-29 320 /
+425. `build.py` passes (schema v2). Smoke checks: CS 25.1309 has versions
+at Amdts 0, 5, 6, 19, 20, 24 (exactly the manifest's amendments); CS 23.2510
+starts at CS23-5 where CS 23.1309 is deleted; at CS23-6 the 68 provisions in
+force are all new-style 2xxx paragraphs. 60 random version snippets (15 per
+CS) were found in their source PDF.
 
-Still to do before promotion:
-1. Review the remaining `unexplained_change` rows in
-   `tools/out/reports/emit_easa_cs{n}_report.tsv` (about 5 CS-23, ~160 CS-25,
-   ~40 CS-27, ~80 CS-29). Most at CS25-27, CS27-10 and CS29-11 are genuine
-   editorial changes from re-typesets (AMC cross-references removed, "(l)" →
-   "(1)") — keep (PDF is the authority). Suppress the extraction artefacts:
-   table-cell order (CS 25.815, 25.1391, L25, R25, E29), formula pieces
-   (25.341, 25.405, 29.562, 29.725), footnotes leaking in (25.1199/1203,
-   29.853, 29.865), CS25-6 25.963 ρ→r font, CS27-7/8 broken font (old item 11),
-   D25 lead-in sentence at CS25-19/27. Add each to overrides.tsv with evidence.
-2. Review `manifest_change_not_in_text` (CS-25: 94) — many are amendments to
-   AMC only or sub-word changes; spot-check a sample.
-3. Spot checks against PDFs (plan step 5), then
-   `promote --staged tools/out/staged_easa/documents --dry-run`, promote, build,
-   smoke queries (CS 25.1309 versions, CS 23.2510 from CS23-5, whole-document
-   CS23-6 ref excludes deleted paragraphs).
+What changed in this pass (tools commit "EASA: close-out review …"):
+- **Extraction fixes that recovered lost CS text:** "(See AMC …)" notes
+  whose second line starts "AMC 25.812(b)(2) and …" were read as AMC
+  headings (re.I matched the lower-case "and"), cutting the rest of
+  CS 25.811, 25.1353(d)/(e), 25.145(b)(3), 25.571, 25.103(d), 29.1305(a)(26)
+  and Appendix N/H text at many amendments; "AMC to CS 25.1319" and "AMC
+  25.113(a)(2), (b)(2) and (c)(2) …" were not recognised (AMC text read into
+  the CS); from CS-25 Amdt 27, appendix sections after their AMC (H25.5,
+  N25.2, S25.10.., SAL 25.6) were dropped; general AMC ("AMC 25-1") after
+  Appendix S was read into S25; an AMC 25.1302 table row replaced the real
+  CS 25.1302 heading at Amdt 27 (17,000 words of AMC in the CS text);
+  wrapped appendix running headers at CS25-28 were read into the text.
+- **Manifest fixes:** the CS-25 Amdt 27/28 preamble page header ("CS-25
+  Amendment 27") was taken as a history section, crediting ~120 older
+  changes to Amdt 27; "Related Certification Specifications" lists and
+  tables inside AMCs in CS-25 Amdt 4/8, CS-27 Amdt 8 and CS-29 Amdt 9 change
+  information were read as amended paragraphs (~60 rows); a wrapped cell
+  "create additional hazards" was read as an instruction. CS-25
+  `manifest_change_not_in_text` fell from 94 to 20.
+- **Emit comparison:** Greek letters equal to their Symbol-font Latin twins
+  (ρ/r, δ/d, μ/m, Ω/W); title + text compared too (wrapped title lines).
+- **overrides.tsv:** 149 reviewed `suppress` rows (was 8), each with the
+  evidence. Kinds: Symbol-font/Latin-1 formula glyphs; formula or table cells
+  in another order; the CS 27/29.1401 effective-intensity formula read into
+  neighbouring paragraphs; footnotes, page headers, `[Amdt No]` markers and
+  figure captions read into the text; two-column interleaving; broken fonts
+  (CS27-7/8 C27, CS25-16 785, CS25-8 809 "Het Verloren Symbool"); drop
+  capitals. All apply; none stale, none against the manifest. This closes
+  items 4, 11 and 12 of "EASA CS ingestion".
+
+Reviewed and kept (the PDF is the authority; still listed as
+`unexplained_change` in `emit_easa_cs{n}_report.tsv`, 178 rows):
+- Re-typesets without preamble entries: CS-25 Amdt 27 (65: "(See AMC …)"
+  removed, "lbf" → "pounds", "25.491" → "25.415", "thrust" → "trust" typo),
+  CS-27 Amdt 10 (24) and CS-29 Amdt 11/12 (43: Amdt 12 also corrects Amdt
+  11 typos such as "must be must be"). Old item 13 decided: keep.
+- CS-25 Amdt 1 (10): real FAR-harmonisation rewrites (25.933, 25.1141, APU
+  Part A → Subpart J) and group headings that CS25-0 had read into the text.
+- Real one-word changes: CS 23.572 "pargarph" fix (CS23-1), 25.1182
+  "21.1187" → "25.1187" (CS25-14), 25.253 25.147(e) → (f) (CS25-11),
+  27.965 "cpm"/"rpm" (CS27-0 and CS27-10 print cpm, Amdts 1–9 rpm), 29.811
+  "0.76 mm" → "0.76 m" (CS29-10), 29.1 "This Airworthiness Code is" ↔
+  "These certification specifications are" flipping at Amdts 4/5/6.
+- CS 25.807(k) ("Each passenger entry door … must qualify as a Type A, Type
+  I, or Type II passenger emergency exit") appears only in the Amdt 27 PDF;
+  not in Amdt 26 or 28, and no change information mentions it. Two versions
+  result (added at 27, removed at 28). Ask EASA or check the ED Decisions.
+- CS 25.20(b)(1) at Amdt 28 prints "andd" (PDF typo, kept).
+- CS 25.397(d) side-stick ROLL rows: Amdt 27 prints them after a page break
+  (read into 25.399, suppressed); 25.397 at Amdt 27 therefore lacks them and
+  Amdt 28 restores them as a version.
+- Tables split between CS 25.509 and 25.511 (tow-point table) in CS25-0..21
+  give versions at CS25-1 and CS25-22; CS 25.331/333 at CS25-21 (figure text
+  moved back to 25.331); Appendix C Part II at CS25-3, F25 (two-column
+  reorders at Amdts 4, 11, 12), H25.6 at CS25-25, Q25 at CS25-19.
+
+Still open:
+1. **CS 25.773 at Amdt 16 is `TEXT MISSING`** (also unchanged at 17): the
+   heading sits on a two-column page and the body is not extracted, but the
+   text is in the PDF (CS25-17.pdf, `pdftotext -layout` line 7177). The
+   manifest says amended at 16, so it can't be suppressed. Transcribe by
+   hand (`provenance.source = "manual"`) or fix the column order.
+2. CS-25 `manifest_change_not_in_text` (20) and CS-27/29 (2 each): mostly
+   CS-25 Amdt 28 (AMC-only or sub-word changes). Not checked one by one.
+3. Subpart J (APU) of CS-25 is not split into provisions: its 25J9xx text
+   is part of CS 25.1591 (to Amdt 4) and 25.1731 (later). Needs a heading
+   rule for "CS 25J901" and a numbering decision.
+4. Letter-spaced text in old CS-29 PDFs ("m ight", "t he") is kept as is in
+   the stored text (comparisons ignore spacing). Display or search will
+   suffer; a de-spacing pass would need care.
+5. CS 23.851 at CS23-3 (old item 5) and the CS-23 Amdt 2 ED Decision number
+   (old item 2) remain.
+6. Group headings read into the end of the preceding paragraph in CS25-0
+   (e.g. "Emergency Landing Conditions" in 25.519) — cosmetic.
 
 Improvements for later:
 - Appendix titles: no canonical source; capitalised headings (CS-25 Amdt 27+)
   keep the earlier mixed-case title. Some old-layout titles are table headers
-  (L25 "Strength Value").
+  (L25 "Strength Value"). Paragraph titles that wrap keep only the first
+  line; the rest starts the text (consistently across amendments).
 - Column reading order (`order_page`) still fails where a figure splits a
   two-column page (CS25-8..10 p. 1-C-4); fixed by override, not code.
-- `_header_lines` (running-header second lines found by repetition) and the
-  `listed` heuristic are pattern-based; a new layout may need new rules.
+- `_header_lines`, the `listed` heuristic and the AMC heading pattern are
+  pattern-based; a new layout may need new rules. Watch for paragraphs whose
+  length jumps between amendments without a manifest entry.
 - discover should record the corrigendum Decision (2022/010/R) in the
   catalogue notes rather than only in this file.
 - Table representation (old item 8) and formula flattening remain.

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "1419",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Ice protection",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Ice protection",
+      "text": "(See AMC 23.1419) If certification with ice protection provisions is desired, compliance with the following requirements must be shown: (a) The recommended procedures for the use of the ice protection equipment must be set forth in the Aeroplane Flight Manual or in approved manual material. (b) An analysis must be performed to establish, on the basis of the aeroplane\u2019s operational needs, the adequacy of the ice protection system for the various components of the aeroplane. In addition, tests of the ice protection system must be conducted to demonstrate that the aeroplane is capable of operating safely in continuous maximum and intermittent maximum icing conditions as described in AMC-1. (c) Compliance with all or portions may be accomplished by reference, where applicable because of similarity of the designs to analysis and tests performed for the type certification of a type certificated aircraft. (d) When monitoring of the external surfaces of the aeroplane by the flight crew is required for proper operation of the ice protection equipment, external lighting must be provided which is adequate to enable the monitoring to be done at night.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Ice protection",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

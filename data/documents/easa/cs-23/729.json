@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "729",
+  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "canonical_title": "Landing gear extension and retraction system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-0",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Landing gear extension and retraction system",
+      "text": "(See AMC 23.729 (g) (a) General. For aeroplanes with retractable landing gear, the following apply: (1) Each landing gear retracting mechanism and its supporting structure must be designed for maximum flight load factors with the gear retracted and must be designed for the combination of friction, inertia, brake torque and air loads, occurring during retraction at any airspeed up to 1\u00b76 VS1 with flaps retracted and for any load factor up to those specified in CS 23.345 for the flaps-extended condition. (2) The landing gear and retracting mechanism, including the wheel well doors, must withstand flight loads, including loads resulting from all yawing conditions specified in CS 23.351, with the landing gear extended at any speed up to at least 1\u00b76 VS1 with the flaps retracted. (b) Landing gear lock. There must be positive means (other than the use of hydraulic pressure) to keep the landing gear extended. (c) Emergency operation. For a landplane having retractable landing gear that cannot be extended manually, there must be means to extend the landing gear in the event of either \u2013 (1) Any reasonably probable failure in the normal landing gear operation system; or (2) Any reasonably probable failure in a power source that would prevent the operation of the normal landing gear operation system. (d) Operation test. The proper functioning of the retracting mechanism must be shown by operation tests. (e) Position indicator. If a retractable landing gear is used, there must be a landing gear position indicator (as well as necessary switches to actuate the indicator) or other means to inform the pilot that each gear is secured in the extended (or retracted) position. If switches are used, they must be located and coupled to the landing gear mechanical system in a manner that prevents an erroneous indication of either \u201cdown and locked\u201d if each gear is not in the fully extended position, or of \u201cup and locked\u201d if each landing gear is not in the fully retracted position. (f) Landing gear warning. For land-planes, the following aural or equally effective landing gear warning devices must be provided: (1) A device that functions continuously when one or more throttles are closed beyond the power settings normally used for landing approach if the landing gear is not fully extended and locked. A throttle stop may not be used in place of an aural device. If there is a manual shut-off for the warning device prescribed in this paragraph, the warning system must be designed so that, when the warning has been suspended after one or more throttles are closed, subsequent retardation of any throttle to or beyond the position for normal landing approach will activate the warning device. (2) A device that functions continuously when the wing flaps are extended beyond the maximum approach flap position, using a normal landing procedure, if the landing gear is not fully extended and locked. There may not be a manual shut-off for this warning device. The flap position sensing unit may be installed at any suitable location. The system for this device may use any part of the system (including the aural warning device) for the device required in sub-paragraph (1). (g) Equipment located in the landing gear bay. If the landing gear bay is used as the location for equipment other than the landing gear, that equipment must be designed and installed to minimise damage.",
+      "publication_cite": "ED Decision 2003/014/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1615/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/014/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003014rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "title_at_revision": "Landing gear extension and retraction system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "issuer": "EASA",
+  "document": "cs-27",
+  "number": "21",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Proof of compliance",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS27-0",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Proof of compliance",
+      "text": "Each requirement of this Subpart must be met at each appropriate combination of weight and centre of gravity within the range of loading conditions for which certification is requested. This must be shown: (a) By tests upon a rotorcraft of the type for which certification is requested or by calculations based on, and equal in accuracy to, the results of testing; and (b) By systematic investigation of each required combination of weight and centre of gravity if compliance cannot be reasonably inferred from combinations investigated.",
+      "publication_cite": "ED Decision 2003/015/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1623/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/015/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003015rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

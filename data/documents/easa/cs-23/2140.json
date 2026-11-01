@@ -1,0 +1,38 @@
+{
+  "issuer": "EASA",
+  "document": "cs-23",
+  "number": "2140",
+  "current_grouping": "Subpart B \u2014 Flight",
+  "canonical_title": "Trim",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS23-5",
+      "grouping_at_time": "Subpart B \u2014 Flight",
+      "title_at_revision": "Trim",
+      "text": "(a) The aeroplane must maintain lateral and directional trim without further force upon, or movement of, the primary flight controls or corresponding trim controls by the pilot, or the flight control system, under the following conditions: (1) for Level-1, -2, and -3 aeroplanes, in cruise; (2) for Level-4 aeroplanes, in normal operations. (b) The aeroplane must maintain longitudinal trim without further force upon, or movement of, the primary flight controls or corresponding trim controls by the pilot, or the flight control system, under the following conditions: (1) climb, (2) level flight, (3) descent, (4) approach. (c) Residual control forces must not fatigue or distract the pilot during normal operations of the aeroplane and likely abnormal or emergency operations, including a critical loss of thrust on multi-engine aeroplanes.",
+      "publication_cite": "ED Decision 2017/013/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/116297/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2016-05",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2017/013/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2017013r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped",
+        "notes": "text from 'CS-23 Amendment 5 and AMC & GM to CS-23 Issue 3' (2020-07-01)"
+      }
+    }
+  ]
+}

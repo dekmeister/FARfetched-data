@@ -1,0 +1,57 @@
+{
+  "issuer": "EASA",
+  "document": "cs-29",
+  "number": "1337",
+  "current_grouping": "Subpart F \u2014 Equipment",
+  "canonical_title": "Power plant instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS29-0",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Powerplant instruments",
+      "text": "(a) Instruments and instrument lines (1) Each p owerplant an d auxiliary power u nit in strument lin e m ust m eet the requirements of CS 29.993 and 29.1183. (2) Each line carry ing flammable fluids under pressure must: (i) Have restricting ori fices or other safety devices at t he source of pressure to prevent the escape of excessive fluid if the line fails; and (ii) Be in stalled an d lo cated so that the escape of fluids would not create a hazard. (3) Each p ower p lant an d au xiliary power unit in strument th at u tilises flam mable fluids m ust be i nstalled and l ocated so that the escape of fluid would not create a hazard. (b) Fuel quantity indicator. There must be means to indicate to the flight-crew m embers the quantity, in US-gallons or equivalent units, of usable fuel in each tank during flight. In addition: (1) Each fuel quantity indicator must be calibrated to read \u2018zero\u2019 duri ng l evel fl ight when the quantity of fuel remaining in the tank is equal to the unusable fuel supply determined under CS 29.959; (2) When two or more tanks are closely interconnected by a gravity feed system and vented, and when i t i s i mpossible t o feed from each tank separately, at least one fuel quantity indicator must be installed; (3) Tanks with in terconnected outlets and airspaces m ay be treated as one tank and need not have separate indicators; and (4) Each exposed si ght gauge used as a fuel q uantity in dicator m ust be protected against damage. (c) Fuel flowmeter system. If a fuel flowmeter system is installed, each m etering component m ust have a m eans for by passing t he fuel suppl y i f m alfunction of that component severely restricts fuel flow. (d) Oil quantity indicator. There m ust be a stick gauge or equi valent m eans t o i ndicate t he quantity of oil: (1) In each tank; and (2) In each transmission gearbox. (e) Rotor d rive system tran smissions an d gearboxes utilising ferrom agnetic materials must be equipped with chi p det ectors desi gned t o indicate the presence of ferromagnetic particles resulting from dam age or excessi ve wear wi thin the t ransmission or gearbox. Each chip detector must: (1) Be designed to provide a signal to the indicator required by CS 29.1305 (a)(23); and (2) Be p rovided with a m eans to allow crew members to check, in flight, the function of each detector electrical circuit and signal.",
+      "publication_cite": "ED Decision 2003/016/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1630/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/016/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003016rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS29-10",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
+      "title_at_revision": "Power plant instruments",
+      "text": "(a) Instruments and instrument lines (1) Each powerplant and auxiliary power unit instrument line must meet the requirements of CS 29.993 and 29.1183. (2) Each line carrying flammable fluids under pressure must: (i) Have restricting orifices or other safety devices at the source of pressure to prevent the escape of excessive fluid if the line fails; and (ii) Be installed and located so that the escape of fluids would not create a hazard. (3) Each power plant and auxiliary power unit instrument that utilises flammable fluids must be installed and located so that the escape of fluid would not create a hazard. (b) Fuel quantity indicator. There must be means to indicate to the flight-crew members the quantity, in US-gallons or equivalent units, of usable fuel in each tank during flight. In addition: (1) Each fuel quantity indicator must be calibrated to read \u2018zero\u2019 during level flight when the quantity of fuel remaining in the tank is equal to the unusable fuel supply determined under CS 29.959; (2) When two or more tanks are closely interconnected by a gravity feed system and vented, and when it is impossible to feed from each tank separately, at least one fuel quantity indicator must be installed; (3) Tanks with interconnected outlets and airspaces may be treated as one tank and need not have separate indicators; and (4) Each exposed sight gauge used as a fuel quantity indicator must be protected against damage. (c) Fuel flowmeter system. If a fuel flowmeter system is installed, each metering component must have a means for bypassing the fuel supply if malfunction of that component severely restricts fuel flow. (d) Oil quantity indicator. There must be a stick gauge or equivalent means to indicate the quantity of oil: (1) In each tank; and (2) In each transmission gearbox. (e) Chip detection system. Rotor drive system transmissions and gearboxes utilising ferromagnetic materials must be equipped with chip detection systems designed and demonstrated to effectively indicate the presence of ferromagnetic particles resulting from damage or excessive wear within the transmission or gearbox. Each chip detection system must: (1) be designed to provide a signal to the warning or caution devices in accordance with CS 29.1305(a)(23); and (2) be provided with a means to allow crew members to check or to be informed of, in flight, whether the electrical circuit of the chip detection system function correctly.",
+      "publication_cite": "ED Decision 2021/016/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/134339/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2021-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/016/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021016r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

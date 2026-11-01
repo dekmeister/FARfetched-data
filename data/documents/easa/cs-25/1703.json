@@ -1,0 +1,37 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "number": "1703",
+  "current_grouping": "Subpart H \u2014 Electrical Wiring Interconnection System",
+  "canonical_title": "Function and Installation; EWIS",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-5",
+      "grouping_at_time": "Subpart H \u2014 Electrical Wiring Interconnection System",
+      "title_at_revision": "Function and Installation; EWIS",
+      "text": "(See AMC 25.1703) (a) Each EWIS component installed in any area of the aeroplane must: (1) Be of a kind and design appropriate to its intended function. (2) Be installed according to limitations specified for the EWIS components. (3) Function properly when installed. (4) Be designed and installed in a way that will minimise mechanical strain. (b) The selection of wires must take into account known characteristics of the wire in relation to each particular installation and application in order to minimise the risk of wire damage, including any arc tracking phenomena. (c) The design and installation of the main power cables, including generator cables, in the fuselage must allow for a reasonable degree of deformation and stretching without failure. (d) EWIS components located in areas of known moisture accumulation must be adequately protected to minimise any hazardous effect due to moisture. (e) EWIS modifications to the original type design must be designed and installed to the same standards used by the original aeroplane manufacturer or other equivalent standards acceptable to the Agency.",
+      "publication_cite": "ED Decision 2008/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1572/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2007-01",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2008/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2008006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}
