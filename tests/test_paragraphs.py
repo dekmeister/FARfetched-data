@@ -10,6 +10,7 @@ from pathlib import Path
 import pytest
 
 from build import (
+    SCHEMA_VERSION,
     BuildError,
     TextFormatError,
     build,
@@ -333,7 +334,7 @@ class TestBuild:
                 "JOIN document_revisions dr ON dr.id = pv.revision_id "
                 "ORDER BY dr.ordinal, pp.seq"
             ).fetchall()
-            assert conn.execute("PRAGMA user_version").fetchone()[0] == 3
+            assert conn.execute("PRAGMA user_version").fetchone()[0] == SCHEMA_VERSION
         assert got[0] == ("23-0", 0, 0, None, None)  # flat: one unlabelled row
         assert got[1:4] == [
             ("23-1", 0, 0, None, None),

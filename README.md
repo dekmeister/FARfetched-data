@@ -58,8 +58,9 @@ disagrees with the identity fields inside it.
 
 All schemas use `additionalProperties: false`. Dates are ISO `YYYY-MM-DD`.
 URLs must be `http(s)://`. `provenance` is always
-`{"source": "scraped" | "ocr" | "manual", "notes"?: string}` and absent means
-`"scraped"`.
+`{"source": "scraped" | "ocr", "notes"?: string}` and absent means
+`"scraped"`. There is no `"manual"`: every file in `data/` is built from
+source by [tools/](tools/), and a correction is an override row there.
 
 ### Document file (`data/documents/faa/23/_document.json`)
 
@@ -154,7 +155,7 @@ One file per provision. Ordinal and effective date come from the document file.
 | `publication_cite`   | string | yes      | Where the revision was published, e.g. `"35 FR 5665"`. Omit (or `""`) when unknown — including for original issues. The old `"Initial Adoption"` sentinel is rejected. |
 | `source_url`         | url    | yes      | Where the text was transcribed from. Prefer DRS `https://drs.faa.gov/browse/excelExternalWindow/{GUID}.0001`. |
 | `actions`            | array  | yes      | Rulemaking actions behind this version, as the source records them for this provision (see below). Omit when none are known. |
-| `provenance`         | object | yes      | Set `"manual"` on any version you hand-correct — the tooling refuses to overwrite it. See [tools/](tools/). Carried into the DB so the app can mark OCR or manual text. |
+| `provenance`         | object | yes      | How the text was obtained: `scraped` (default) or `ocr`. `notes` records any override applied to it. Carried into the DB so the app can mark OCR text. |
 
 Actions stay on the version rather than the revision because the source (DRS)
 records them per section, and the per-section lists for one amendment don't
@@ -219,7 +220,7 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
 Flattening a text (strip every line, drop blank ones, join with single spaces)
 gives its words; the tools assert that layout never changes them. The tools
 write two spaces per level, but the build accepts any consistent indentation.
-`tools/common/structure.py` produces the format from flat text; see
+`tools/s00_common/structure.py` produces the format from flat text; see
 [tools/README.md](tools/README.md).
 
 **Action fields**
@@ -355,9 +356,9 @@ in [build.py](build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **3**; v2 added
+`PRAGMA user_version` is the schema version (currently **4**; v2 added
 `provision_versions.deleted`, v3 added `provision_paragraphs` and the
-label-line text format). It is bumped
+label-line text format, v4 dropped `manual` from the `provenance` CHECK). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know. `build_info` is a single row: `schema_version`, `git_sha` of
 the data repo at build time (NULL if unavailable), `built_at` (UTC).
@@ -474,10 +475,10 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 
 ## Adding data
 
-**New aircraft:** parse the TCDS PDF with `tools.aircraft.faa_tcds`. It stages
+**New aircraft:** parse the TCDS PDF with `tools.s02_emit.faa.tcds.parse`. It stages
 `{manufacturer-slug}/{model-slug}.json` under `tools/out/staged/aircraft/`.
 Review the file, promote it into `data/aircraft/` with
-`tools.regulations.promote --aircraft`, then run `build.py` (see
+`tools.s03_promote.promote --aircraft`, then run `build.py` (see
 [tools/README.md](tools/README.md)). If the build reports unknown revisions
 or provisions, add them to the relevant document first. Aircraft files
 don't yet have a `provenance` field, so a hand-corrected aircraft file isn't
@@ -491,5 +492,6 @@ that document's `_document.json`.
 `_document.json`, then add a version to each provision file it changed.
 Ordinals must be unique within the document.
 
-Prefer the ingestion tooling in [tools/](tools/) over hand edits; hand edits
-must carry `provenance.source = "manual"`.
+Don't hand-edit `data/`: it is the output of [tools/](tools/), rebuilt from
+local source copies plus `tools/overrides/`. A hand edit would be overwritten
+by the next promotion. Fix the extractor, or add an override row.

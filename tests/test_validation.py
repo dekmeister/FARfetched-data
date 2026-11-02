@@ -67,6 +67,8 @@ INVALID_PROVISIONS = [
     ("initial_adoption_cite.json", "publication_cite"),
     ("bad_action_date.json", "issued_on"),
     ("legacy_field_names.json", "federal_register_cite"),
+    # No hand edits in data/: corrections are override rows in tools/.
+    ("manual_provenance.json", "manual"),
 ]
 
 INVALID_DOCUMENTS = [

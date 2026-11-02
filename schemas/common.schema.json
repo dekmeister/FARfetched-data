@@ -23,7 +23,7 @@
       "additionalProperties": false,
       "required": ["source"],
       "properties": {
-        "source": { "enum": ["scraped", "ocr", "manual"] },
+        "source": { "enum": ["scraped", "ocr"] },
         "notes": { "type": "string" }
       }
     }

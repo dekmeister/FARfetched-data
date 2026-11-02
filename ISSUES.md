@@ -4,8 +4,8 @@ Open issues and review notes. Items are things a later review should check or
 decide. Nothing here is a known build failure. Dates are 2026-10-31 unless noted.
 
 Source: the "authority-only amendments" work (data commit `66a087b`, tools
-commit `07c543c`). See `tools/docs/FAA_DRS.md` §3.8 and
-`tools/regulations/faa/authority_only.py`.
+commit `07c543c`). See `tools/s00_docs/FAA_DRS.md` §3.8 and
+`tools/s01_extract/faa/regs/authority_only.py`.
 
 ## Data questions (need a human or a source)
 
@@ -97,8 +97,8 @@ commit `07c543c`). See `tools/docs/FAA_DRS.md` §3.8 and
 
 ## TCDS parser trial: 20 Part 23 TCDS (2026-10-31)
 
-Source: `tools/aircraft/faa_tcds.py` run unchanged over 20 current Part 23 TCDS.
-Full evidence, per-TCDS table and suggested order: `reviews/TCDS_TRIAL_20.md`.
+Source: `tools/s02_emit/faa/tcds/parse.py` run unchanged over 20 current Part 23 TCDS.
+Full evidence, per-TCDS table and suggested order: `tools/s00_docs/reviews/TCDS_TRIAL_20.md`.
 4 of 20 gave usable output (all with defects), 2 lost the real basis, 14 gave
 nothing usable. Nothing was staged into `tools/out/` or `data/`.
 
@@ -144,20 +144,20 @@ nothing usable. Nothing was staged into `tools/out/` or `data/`.
     existing 172 at rev 42 in `build.py`, and the manufacturer would change
     from "Cessna Aircraft Company" to "Textron Aviation Inc.".
 
-**Status (2026-11-01, `reviews/PLAN_TCDS_PARSER.md`, tools/ commit ff2b6fc
+**Status (2026-11-01, `tools/s00_docs/reviews/PLAN_TCDS_PARSER.md`, tools/ commit ff2b6fc
 plus the follow-up below):** 16–24 resolved. 25 resolved except the schema
 point: restricted-category TCDS without a basis are reported and not staged
 (no schema change, by decision). The 3A12 swap is done:
 `data/aircraft/cessna-aircraft-company/172.json` (Rev 42) is replaced by
 `data/aircraft/textron-aviation-inc/172.json` (Rev 89, `caa/car-3` to
 `CAR3-12`). Each fix has a stage test in
-`tools/tests/aircraft/test_faa_tcds_stages.py` and goldens for 8 TCDS in
-`tools/tests/fixtures/tcds/`.
+`tools/s99_tests/emit/faa/tcds/test_stages.py` and goldens for 8 TCDS in
+`tools/s99_tests/fixtures/tcds/`.
 
 ## TCDS parser: corpus run and open items (2026-11-01)
 
 Coverage over the 939 current Aircraft TCDS
-(`uv run python -m tools.aircraft.faa_tcds_coverage`, report in
+(`uv run python -m tools.s02_emit.faa.tcds.coverage`, report in
 `tools/out/reports/tcds_coverage.tsv`):
 
 | | Old parser | Three-stage (ff2b6fc) | + heading fixes |
@@ -246,12 +246,12 @@ review. Only the 3A12 172 is promoted.
     it: "S/N 17261445, 17261578, 17265685 thru 17276259"). Check against the
     PDF when the 172 is reviewed.
 33. **`promote --dry-run` prints `WROTE`** for a conflict it would accept
-    (`tools/regulations/promote.py:239`), although nothing is written.
+    (`tools/s03_promote/promote.py:239`), although nothing is written.
     Cosmetic, but it reads like a real write.
 
 ## EASA CS ingestion (2026-10-31)
 
-Pipeline: `tools/regulations/easa/` (see `tools/docs/EASA_CS.md`). Reports
+Pipeline: `tools/s01_extract/easa/cs/`, `tools/s02_emit/easa/cs/` (see `tools/s00_docs/EASA_CS.md`). Reports
 named below are under `tools/out/reports/`.
 
 1. **CS-29 Amendment 10 exists only as a corrigendum.** The EASA listing has
@@ -340,13 +340,13 @@ Still to do:
 - `tools/out/staged/` also holds other sessions' output; promote with care
   (item 11 of "Code and process risks").
 
-## FAA extraction fix (reviews/PLAN_FAA_EXTRACTION_FIX.md) — state at commit (2026-11-01)
+## FAA extraction fix (tools/s00_docs/reviews/PLAN_FAA_EXTRACTION_FIX.md) — state at commit (2026-11-01)
 
 Done (tools/ commit "Fix FAA DRS text extraction …"): Steps 1–6 of the plan in
 code, with tests — cp1252/UTF-8 decoding, `SECTION RULE` capture ending at the
 next field block, shared `_html_to_text`, connectorValue fix, content-based
 verifier (U+FFFD / entity / 501 / action-tail fatal, `short_text` a warning),
-`Removed.` → `deleted: true`; `tools/regulations/faa/overrides.tsv` (18 rows)
+`Removed.` → `deleted: true`; `tools/overrides/faa_regs.tsv` (18 rows)
 used by manifest and extract; manifest month-first CSV dates (25-139),
 correction-not-dated rule (23-43, 25-148), `effective_date` overrides (2017
 rule → 2017-03-21, 36-55 → 2026-07-24), 29-39/29-40 relabel, B4
@@ -355,7 +355,7 @@ appendix strategy (whole-appendix doc → eCFR → subsections → TEXT MISSING)
 `worklist --refetch-data`, `covered_by_whole`, fetch-anyway for
 `cita_omits_designator`; `emit --plan` (TEXT MISSING for failed/unfetched
 rows, orphans reported, deletion rules checked, `kept_existing`). Docs:
-tools/README.md, tools/docs/FAA_DRS.md §3.3/§3.7/§4.5. ruff, mypy and 622 tests
+tools/README.md, tools/s00_docs/FAA_DRS.md §3.3/§3.7/§4.5. ruff, mypy and 622 tests
 pass. **No pipeline has been re-run yet: tools/out/ and data/ are unchanged.**
 
 Still to do (plan Step 7, in order):
@@ -511,7 +511,7 @@ Improvements for later:
 The plan (reviews/PLAN_PARA_STRUCTURE.md, deleted once implemented) made
 provision `text` label-line text (README §Text format), compiled into
 `provision_paragraphs`. The contract, the segmenter
-(`tools/common/structure.py`) and the emitter wiring are done. The FARfetched
+(`tools/s00_common/structure.py`) and the emitter wiring are done. The FARfetched
 app side is not started.
 
 **The checked-in `data/` fails the v3 build until the migration is
@@ -656,7 +656,7 @@ Decisions:
 
 Found on the way, not caused by this change:
 
-- **`tools/regulations/car/emit.py` reads `tools/out/extracted/car/`, but the
+- **`tools/s02_emit/car/emit.py` reads `tools/out/extracted/car/`, but the
   CAR extract lives in `tools/out/car/`.** As it stands the emitter finds no
   text (`no_text: 938`). Run with the path corrected, it emits 936 pairs and
   the result builds.
@@ -667,8 +667,8 @@ Found on the way, not caused by this change:
 
 ## EASA TCDS download (2026-11-02) — state
 
-First full run of `tools/aircraft/easa_tcds_catalogue.py` (see
-`tools/docs/EASA_TCDS.md`). Catalogue: 623 TCDS, 679 rows. Download: 650 files
+First full run of `tools/s01_extract/easa/tcds/catalogue.py` (see
+`tools/s00_docs/EASA_TCDS.md`). Catalogue: 623 TCDS, 679 rows. Download: 650 files
 (594 main, 56 annexes), 330 MB in `input/TCDS/EASA/` (annexes in `other/`);
 all 650 start with `%PDF-`. Nothing has been parsed yet.
 
@@ -682,7 +682,7 @@ all 650 start with `%PDF-`. Nothing has been parsed yet.
   A.452, A.454), Gulfstream IM.A.002/IM.A.016, Hughes 369HS, EH 101-300, Viper,
   FLAIR-2, Schroeder, Lindstrand HS-110, and A.022/A.629 ("Transferred to
   outside EU"). Any needed later must come from another source.
-- **4 scanned PDFs: OCR'd (2026-11-02)** with `tools.common.ocr`:
+- **4 scanned PDFs: OCR'd (2026-11-02)** with `tools.s00_common.ocr`:
   `EASA.A.200_Issue1`, `EASA.IM.A.343_Issue4`, `EASA.IM.E.077_Issue1`,
   `EASA.P.016_Issue1`. Sidecars `{stem}.txt` (layout) and `{stem}.raw.txt` sit
   next to the source PDFs in `input/TCDS/EASA/`; the OCR'd PDFs are in
@@ -700,6 +700,43 @@ all 650 start with `%PDF-`. Nothing has been parsed yet.
   table. Both are the right documents.
 - **Not done:** the Noise TCDS (TCDSN) is only recorded in the `noise_*`
   catalogue columns, not downloaded. No EASA TCDS parse/coverage stage exists.
-- **Full-suite pytest:** 4 real-data failures in `tools/tests/e2e/test_build.py`
+- **Full-suite pytest:** 4 real-data failures in `tools/s99_tests/e2e/test_build.py`
   (see the item above under Paragraph structure); not from this tool. The
   EASA tool's own tests, ruff and mypy are clean.
+
+## tools/ reorganisation and build-from-source (2026-11-02) — state
+
+Layout is now `tools/s00_common, s00_docs, s01_extract, s02_emit, s03_promote,
+s99_tests, overrides/` (see tools/README.md). `manual` provenance is gone
+(schema v4 rejects it). Hand corrections are `replace_text` rows in
+`tools/overrides/text.tsv`, applied in `structure_version`.
+
+Regeneration check run while doing this (scratch staging roots, nothing promoted):
+
+- **EASA CS-23/25/27/29: byte-identical.** `s02_emit.easa.cs.emit` from
+  `tools/out/extracted/easa/` reproduces `data/documents/easa/` exactly.
+- **FAA Part 23: not reproducible from the current local copies.** Emitting
+  with today's flags (`--seed-root data/documents/faa --replace --plan
+  tools/out/work/fetch_plan_faa_23.tsv`) differs from data/ in 394 files:
+  - 566 `actions[].issued_on` dates are a century late (`1967-04-05` →
+    `2067-04-05`) in `tools/out/extracted/faa/*.json` (400 files). They were
+    extracted before `s00_common/dates.py` got its two-digit-year pivot; data/
+    was corrected later, but the extract cache never was.
+  - The four "… Notice No." DRS action labels (TODO.md) are still in the
+    extracted text of 23 1457/23-58, 853/23-25, 65/23-21, 733/23-17 (and in
+    data/). The current extractor strips them; the cached files predate it.
+  - `fetch_plan_faa_23.tsv` (2026-10-31) is older than what produced data/
+    (promoted 2026-11-01): 102 data/ files are not in the plan, 8 plan files
+    are not in data/, 29 files differ in version count, 7 in
+    `canonical_title`, and one `_document.json` effective date differs by a
+    day (1996-03-12 vs 1996-03-11).
+  - Root cause for the first two: raw DRS responses are not kept, only the
+    decoded `extracted/faa/*.json`. A decoder fix can't be replayed offline.
+    It needs either a re-download or an offline re-decode from a raw copy
+    that doesn't exist yet.
+- **CAR: OCR sidecars live in the source tree.** `.txt` / `.raw.txt` next to
+  the PDFs in `input/Regs/CAR/3/` (written by an older OCR helper), while
+  `s00_common/ocr.py` now caches to `tools/ocr_cache/` (which holds only 5
+  EASA files). Re-running CAR extract would re-OCR everything and may not
+  reproduce today's text. CAR extract output also sits at `tools/out/car/`,
+  not `tools/out/extracted/car/` where the code now writes.

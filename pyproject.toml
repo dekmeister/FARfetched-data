@@ -19,5 +19,5 @@ dev = [
 line-length = 88
 
 [tool.pytest.ini_options]
-testpaths = ["tools/tests"]
+testpaths = ["tools/s99_tests"]
 addopts = "-q"

@@ -130,10 +130,12 @@ at the repo level:
   recovery work. Don't use this marker for anything else.
 - **`raw_reference` is sacred.** Never rewrite or normalise it. It's the
   unmodified TCDS text, kept for traceability against the original PDF.
-- **Only `tools/` writes to `data/`, and only via its promotion step.** Hand-edits
-  to `data/` are allowed but must be marked with
-  `provenance.source = "manual"` so the tools' tripwire protects them from
-  being overwritten. The mechanics live in [tools/CLAUDE.md](tools/CLAUDE.md).
+- **`data/` is built from source.** Only `tools/` writes to `data/`, and only
+  via its promotion step. Every file comes out of a pipeline run from local
+  source copies plus `tools/overrides/`. No hand edits, and no `manual`
+  provenance (the schema rejects it). A correction is an override row with
+  evidence, or an extractor fix. The mechanics live in
+  [tools/CLAUDE.md](tools/CLAUDE.md).
 - **Document file paths are flat:**
   `data/documents/{issuer}/{document}/{provision}.json`, with the revision
   list in `_document.json` alongside. Grouping (subpart) and the CFR title
@@ -146,9 +148,9 @@ at the repo level:
 
 - `pytest`. Build tests stage small synthetic data trees in `tmp_path` and
   exercise each cert-basis resolution rule and each fail-loud check; invalid
-  schema inputs live in `tests/fixtures/`. `tools/tests/e2e/` mirrors
-  `tests/` — keep the two copies identical (apart from the manifest path in
-  `test_manual_provenance.py`).
+  schema inputs live in `tests/fixtures/`. `tools/s99_tests/e2e/` mirrors
+  `tests/` (and `tools/s99_tests/fixtures/invalid_*` mirrors
+  `tests/fixtures/`) — keep the two copies identical.
 - Smoke test: run `build.py` against the real `data/`, open the resulting
   SQLite, and assert specific known queries return the expected rows (e.g.
   `SELECT * FROM latest_versions WHERE ...`).

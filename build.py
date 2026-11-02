@@ -23,7 +23,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 DOCUMENT_FILE = "_document.json"
 
@@ -69,7 +69,7 @@ CREATE TABLE document_revisions (
     designator       TEXT NOT NULL,
     ordinal          INTEGER NOT NULL CHECK (ordinal >= 0),
     effective_date   TEXT NOT NULL CHECK (date(effective_date) IS effective_date),
-    provenance       TEXT NOT NULL CHECK (provenance IN ('scraped', 'ocr', 'manual')),
+    provenance       TEXT NOT NULL CHECK (provenance IN ('scraped', 'ocr')),
     provenance_notes TEXT,
     UNIQUE (document_id, designator),
     UNIQUE (document_id, ordinal),
@@ -103,7 +103,7 @@ CREATE TABLE provision_versions (
     same_as_version_id INTEGER,
     publication_cite   TEXT,
     source_url         TEXT,
-    provenance         TEXT NOT NULL CHECK (provenance IN ('scraped', 'ocr', 'manual')),
+    provenance         TEXT NOT NULL CHECK (provenance IN ('scraped', 'ocr')),
     provenance_notes   TEXT,
     UNIQUE (provision_id, revision_id),
     UNIQUE (provision_id, id),
