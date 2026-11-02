@@ -22,30 +22,26 @@ published (the history builds up locally over re-runs); the listing must be
 sorted by title (the default sort drops and duplicates rows); 30 listing rows
 have no file link, so detail pages are the source of the downloads.
 
-## Not done yet: next session
+## Closed out (2026-11-02)
 
-1. **First real catalogue run did not finish.** It was killed at about 250 of
-   623 detail pages. The detail cache is in `tools/out/cache/easa_tcds/`, so a
-   re-run continues cheaply:
-   `uv run python -m tools.aircraft.easa_tcds_catalogue`
-   (Detail pages are refetched when there is no catalogue row yet. Because the
-   first run never wrote the catalogue, the re-run refetches all 623, about
-   16 min. Optional improvement: skip refetch when the cache is fresh and no
-   catalogue exists.)
-2. Check `tools/out/reports/easa_tcds_catalogue_report.tsv`
-   (no_downloads, no_issue_number, main_document_guessed). Sum the `length`
-   column to estimate the download size.
-3. `--download --dry-run`, then the full `--download` in tmux. Check
-   `warn_no_text` / `warn_code_mismatch` in
-   `tools/out/reports/easa_tcds_download_report.tsv`. Add anything odd to
-   ISSUES.md.
-4. Not yet run against the full suite: ruff/mypy are clean on the new files.
-   The full pytest run has 1 failure and 15 errors. These come from the
-   existing uncommitted build.py / CAR-3 label-line work in data/, not from
-   this tool.
-5. Possible follow-ups: download the TCDS for Noise (TCDSN), which is only
-   recorded in the `noise_*` columns for now; a coverage/parse stage for EASA
-   TCDS.
+1. Catalogue run: done, in one uninterrupted pass (~35 min including the
+   623 detail refetches; the "skip refetch when cache is fresh" improvement was
+   not made, as it only saves time on the first run). 623 TCDS, 679 rows,
+   `tools/out/work/easa_tcds_catalogue.tsv`.
+2. Catalogue report: 29 TCDS with no downloads, 15 no_issue_number (a subset of
+   the 29), 0 guessed main documents. Download size 344 MB estimated, 330 MB
+   actual.
+3. `--download --dry-run` then `--download`: 650 files, ok 644, warn_no_text 4,
+   warn_code_mismatch 2. Findings are in ISSUES.md §EASA TCDS download.
+4. Full pytest: the 15 errors are gone; 4 real-data e2e failures remain
+   (uncommitted `data/aircraft/` work, not this tool). ruff/mypy clean.
+5. Branch note was stale: both repos are on `main`.
 
-Note: both repos were on branch `easa-cs` (not `main`) during this session.
-I did not switch branches.
+OCR of the 4 scanned PDFs: done 2026-11-02 (see ISSUES.md).
+
+Still open (not blocking): Noise TCDS (TCDSN) download; an EASA TCDS parse/coverage stage; periodic re-runs to build issue
+history. Re-run: `uv run python -m tools.aircraft.easa_tcds_catalogue` then
+`... --download`.
+
+Uncommitted: the `reviews/` note, ISSUES.md, and downloaded PDFs under
+`input/` are for the developer to review and commit.

@@ -664,3 +664,42 @@ Found on the way, not caused by this change:
   (`test_one_row_per_tcds_line`, `test_172_basis_resolves_to_car_3_through_3_12`,
   two in `TestDA40Trace`): the working tree's uncommitted aircraft files
   differ from what they assert.
+
+## EASA TCDS download (2026-11-02) — state
+
+First full run of `tools/aircraft/easa_tcds_catalogue.py` (see
+`tools/docs/EASA_TCDS.md`). Catalogue: 623 TCDS, 679 rows. Download: 650 files
+(594 main, 56 annexes), 330 MB in `input/TCDS/EASA/` (annexes in `other/`);
+all 650 start with `%PDF-`. Nothing has been parsed yet.
+
+- **Only the current issue exists locally.** EASA publishes just the latest
+  issue, so history builds up only by re-running the downloader. Re-run
+  periodically; old `{code}_Issue{N}.pdf` files are kept.
+- **29 TCDS have no downloadable file** (catalogue `role=none`; the 15
+  `no_issue_number` report rows are a subset of these). Mostly withdrawn or
+  transferred: Scheibe gliders (A.100-A.107, A.577, A.578), CEAPR DR series
+  (A.510, A.551, A.552), BAC 1-11, Slingsby T67, SZD/IS gliders (A.441, A.446,
+  A.452, A.454), Gulfstream IM.A.002/IM.A.016, Hughes 369HS, EH 101-300, Viper,
+  FLAIR-2, Schroeder, Lindstrand HS-110, and A.022/A.629 ("Transferred to
+  outside EU"). Any needed later must come from another source.
+- **4 scanned PDFs: OCR'd (2026-11-02)** with `tools.common.ocr`:
+  `EASA.A.200_Issue1`, `EASA.IM.A.343_Issue4`, `EASA.IM.E.077_Issue1`,
+  `EASA.P.016_Issue1`. Sidecars `{stem}.txt` (layout) and `{stem}.raw.txt` sit
+  next to the source PDFs in `input/TCDS/EASA/`; the OCR'd PDFs are in
+  `tools/ocr_cache/`. Quality is readable but not clean: header/ID text is
+  the weak spot (`[M.E.077` for `IM.E.077`, `[-23` for `I-23`, `O1` for `01`,
+  `Lid.` for `Ltd.`, garbled "List of effective pages" tables). Spot-checked
+  page 1-2 only; a parser must not trust OCR'd codes or numbers without
+  checking them against the PDF. Hand-correct the sidecar and it is picked up
+  on re-run. `IM.A.343` says "Page 1 of 7" but the PDF has 8 pages.
+- **`EASA.BA.025_Issue3.pdf` is not a TCDS.** The "main" link on the site is a
+  Certification Information notice (2024-11) revoking the certificate. The
+  catalogue labels it `main`, so a parser must not treat it as a data sheet.
+- **2 `warn_code_mismatch` are false alarms:** `EASA.IM.BA.026_Issue11` prints
+  the code as `EASA.IM.BA.26`; `EASA.IM.E.049_Issue1` lays the code out in a
+  table. Both are the right documents.
+- **Not done:** the Noise TCDS (TCDSN) is only recorded in the `noise_*`
+  catalogue columns, not downloaded. No EASA TCDS parse/coverage stage exists.
+- **Full-suite pytest:** 4 real-data failures in `tools/tests/e2e/test_build.py`
+  (see the item above under Paragraph structure); not from this tool. The
+  EASA tool's own tests, ruff and mypy are clean.
