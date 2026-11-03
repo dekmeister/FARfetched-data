@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
+  "model_designation": "PZL M28 00",
+  "common_name": "PZL M28 00",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.058",
+        "revision": "12",
+        "revision_date": "2025-07-31",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7409/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23, including Amendment 23 - 34",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "FAR Part. 34 Subp. B, FAR Part. 36 App. G.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

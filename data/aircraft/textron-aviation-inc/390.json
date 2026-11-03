@@ -1,0 +1,133 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "390",
+  "common_name": "390",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.073",
+        "revision": "2",
+        "revision_date": "2018-03-13",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7378/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, effective February 1, 1965, as amended by Amendments 23-1 through 23-52.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-52"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "The EASA Aircraft Type Certification standard includes that of FAA TCDS A00010WI, based on individual EU member state acceptance or certification of this standard prior to 28 September 2003, Other standards conforming to TC/TCDS standards certificated by individual EU member States prior to 28 September 2003 are also acceptable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with FAR 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "23-096-SC and 23-096A-SC additional requirements for: Performance, stalling speed, takeoff speeds, takeoff performance, accelerate-stop distance, takeoff path, takeoff distance and takeoff run, takeoff flight path, climb, climb all engines operating, takeoff climb one engine inoperative, climb one engine inoperative, reference landing approach speed, landing distance, balked landing, longitudinal control, minimum control speed, control during landings, trim, stability, static longitudinal stability, demonstration of static longitudinal stability, static directional and lateral stability, dynamic stability, wings level stall, turning flight and accelerated turning stalls, stall warning vibration and buffeting, high speed characteristics, out- of-trim characteristics, flutter, takeoff warning system, engine fire extinguishing system, fire extinguishing agents, extinguishing agent containers, fire extinguishing system materials, airspeed indicating system, static pressure system, operating limitations and information, airspeed limitations, minimum control speed, minimum flight crew, markings and placards, airspeed indicator, airplane flight manual and approved manual material, operating limitations, operating procedures, and performance information. Effects of Contamination on Natural Laminar Flow Airfoils.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "23-122-SC-HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "exemption",
+          "raw_reference": "No. 6558 for landing gear loads from \u00a7\u00a7 23.25, 23.29, 23.235, 23.471, 23.473, 23.477, 23.479, 23.481, 23.483, 23.485, 23.493, 23.499, 23.723, 23.725, 23.726, 23.727, 23.959, 23.1583(c)(1) and (2), Appendix C23.1, Appendix D23.1 Compliance has been shown for the additional requirements as specified in the exemption and identified as paragraphs 1 through 25. Any change in type design must also show compliance with these additional requirements.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "exemption",
+          "raw_reference": "No. 7190 partial exemption from the requirements of 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "No. ACE-99-11 \u00a7 23.853(a) for small parts that would not contribute significantly to the propagation of fire.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "The compensating feature for this equivalent level of safety was compliance with the vertical burn requirements of FAR 23, Appendix F for larger interior furnishings and panels.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "No. ACE-00-02 \u00a7\u00a7 23.1305(a)(2), (a)(3), (c)(2), (c)(5) and 23.1549(a) through (c) as required by FAR",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "21.21(b) for direct reading digital only displays.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "No. ACE-05-04 to use 1-g stall speeds rather than traditional Vsmin stall speed as the reference datum for regulatory compliance.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Chapter 3 ICAO Annex 16, Volume II, Part II, Chapter 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

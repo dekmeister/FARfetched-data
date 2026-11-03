@@ -1,0 +1,47 @@
+{
+  "manufacturer": "Gulfstream Aerospace Corporation",
+  "model_designation": "GVIII-G800",
+  "common_name": "GVIII-G800",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.169",
+        "revision": "17",
+        "revision_date": "2026-07-14",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7278/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "T00015AT",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "30 June 2020",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "EASA Certification Specification (CS) 25, Amendment 24, effective as of 10 January 2020, with exceptions per 21.A.101 shown: APPLICABLE CS 25 Amendment NOTES AREA",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

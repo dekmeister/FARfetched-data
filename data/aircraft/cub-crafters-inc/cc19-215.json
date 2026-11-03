@@ -1,0 +1,69 @@
+{
+  "manufacturer": "Cub Crafters Inc.",
+  "model_designation": "CC19-215",
+  "common_name": "NXCub",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.638",
+        "revision": "3",
+        "revision_date": "2026-06-15",
+        "source_url": "https://www.easa.europa.eu/en/downloads/44663/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amendment 4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "exemption",
+          "raw_reference": "Not available under EASA regulation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "exemption",
+          "raw_reference": "5.Deviations None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-101 - CS 23.807 Emergency Exit.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "See TCDSN EASA.IM.A.638",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

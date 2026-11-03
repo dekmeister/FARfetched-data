@@ -1,0 +1,138 @@
+{
+  "manufacturer": "Daher Aircraft Design, LLC",
+  "model_designation": "Kodiak 200",
+  "common_name": "Kodiak 200",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00007SE",
+        "revision": "28",
+        "revision_date": "2025-11-06",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID128562299920251125193447.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, as amended through 23-63.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-63"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.2010 Accepted means of compliance and 14 CFR 23.2150 Stall characteristics, stall warning, and spins, as amended by 23-64.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "Project Specific Policy Memorandum (PSPM) for correction of Amendment 23-62 and prior amendment errors, as described in an FAA Memorandum, under the subject, \u201cProject Specific Policy Memorandum for 14 CFR Part 23, up to and including Amdt 62.\u201d ELOS Finding for Quest, Project No. AT13028SE-A, \u201cEquivalent Level of Safety Finding for 14 CFR \u00a723.1353(h), Storage Battery Design and Installation: in the event of a complete loss of the primary electrical generating system.\u201d dated August 31, 2020.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, as amended through 34-6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, as amended through 36-31.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.632",
+        "revision": "8",
+        "revision_date": "2026-01-19",
+        "source_url": "https://www.easa.europa.eu/en/downloads/22488/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt 5 (only applicable for 23.2010 and 23.2150)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt 4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "B-52 Human Factors - Integrated Avionics System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "E-11 Cold Soaked Fuel",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "E-52 Turbine Engine Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1 see EASA Type Certificate Data Sheet Noise ref TCDSN IM.A.632.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

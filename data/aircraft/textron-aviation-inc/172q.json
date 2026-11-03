@@ -1,0 +1,80 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "172Q",
+  "common_name": "172Q",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "3A12",
+        "revision": "89",
+        "revision_date": "2026-09-15",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 3 of CAR dated November 1, 1949, as amended by 3-1 through 3-12.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "CAA",
+              "document": "car-3",
+              "to": "CAR3-12"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "In addition, 23.1559 effective March 1, 1978;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "23.951(b)(2), Amendment 23-15 effective October 31, 1974; and 23.1545(a), Amendment 23-23 effective December 1, 1978.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-15",
+              "provisions": [
+                "951"
+              ],
+              "paragraph": "(b)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 dated December 1, 1969, plus amendments 36-1through 36-12.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "manufacturer": "Cirrus Design Corporation",
+  "model_designation": "SR20",
+  "common_name": "SR20",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00009CH",
+        "revision": "25",
+        "revision_date": "2025-12-26",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140348100520260127142917.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 of the Federal Aviation Regulations effective February 1, 1965, as amended by 23-1 thru 23-47, except as follows: 14 CFR 23.573, 23.575, 23.611, 23.657, 23.673 thru Amendment 23-48; 14 CFR 23.783, 23.785, 23.867, 23.1303, 23.1307, 23.1309, 23.1311, 23.1321, 23.1323, 23.1329, 23.1361, 23.1383, 23.1401, 23.1431, 23.1435 thru Amendment 23-49; 14 CFR 23.3, 23.25, 23.143, 23.145, 23.155, 23.1325, 23.1521, 23.1543, 23.1555, 23.1559, 23.1567, 23.1583, 23.1585, 23.1589 thru Amendment 23-50; 14 CFR 23.777, 23.779, 23.901, 23.907, 23.955, 23.959, 23.963, 23.965, 23.973, 23.975, 23.1041, 23.1091, 23.1093, 23.1107, 23.1121, 23.1141, 23.1143, 23.1181, 23.1191, 23.1337 thru Amendment 23-51; 14 CFR 23.1305 thru Amendment 23-52",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-47"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "573",
+                "575",
+                "611",
+                "657",
+                "673"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "783",
+                "785",
+                "867",
+                "1303",
+                "1307",
+                "1309",
+                "1311",
+                "1321",
+                "1323",
+                "1329",
+                "1361",
+                "1383",
+                "1401",
+                "1431",
+                "1435"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "3",
+                "25",
+                "143",
+                "145",
+                "155",
+                "1325",
+                "1521",
+                "1543",
+                "1555",
+                "1559",
+                "1567",
+                "1583",
+                "1585",
+                "1589"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "777",
+                "779",
+                "901",
+                "907",
+                "955",
+                "959",
+                "963",
+                "965",
+                "973",
+                "975",
+                "1041",
+                "1091",
+                "1093",
+                "1107",
+                "1121",
+                "1141",
+                "1143",
+                "1181",
+                "1191",
+                "1337"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-52",
+              "provisions": [
+                "1305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 dated December 1, 1969 as amended by 36-1 thru 36-21.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.561, 23.607, 23.629 thru Amendment 23-48.",
+          "applicability": "In addition to the certification basis stated above, for SR20 S/N 1423 thru 1877 and SR20 serials 1879 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for the SR20 Fuselage Redesign (G2 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "561",
+                "607",
+                "629"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.853 thru Amendment 23-49.",
+          "applicability": "In addition to the certification basis stated above, for SR20 S/N 1423 thru 1877 and SR20 serials 1879 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for the SR20 Fuselage Redesign (G2 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "853"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.161, 23.177, 23.201, 23.203, 23.233, 23.1581 thru Amendment 23-50.",
+          "applicability": "In addition to the certification basis stated above, for SR20 S/N 1423 thru 1877 and SR20 serials 1879 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for the SR20 Fuselage Redesign (G2 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "161",
+                "177",
+                "201",
+                "203",
+                "233",
+                "1581"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.925, 23.1043, 23.1047, 23.1183 thru Amendment 23-51.",
+          "applicability": "In addition to the certification basis stated above, for SR20 S/N 1423 thru 1877 and SR20 serials 1879 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for the SR20 Fuselage Redesign (G2 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "925",
+                "1043",
+                "1047",
+                "1183"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.901 thru Amendment 23-53.",
+          "applicability": "In addition to the certification basis stated above, for SR20 S/N 1423 thru 1877 and SR20 serials 1879 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for the SR20 Fuselage Redesign (G2 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-53",
+              "provisions": [
+                "901"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.473, 23.499, 23.725, 23.865 thru Amendment 23-48.",
+          "applicability": "In addition to the certification basis stated in the paragraphs above, for SR20 S/N 1878, 1886 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for SR20 Wing Redesign (G3 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "473",
+                "499",
+                "725",
+                "865"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.677, 23.723, 23.735, 23.1351, 23.1353, 23.1359, 23.1365 thru 23-49.",
+          "applicability": "In addition to the certification basis stated in the paragraphs above, for SR20 S/N 1878, 1886 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for SR20 Wing Redesign (G3 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "677",
+                "723",
+                "735",
+                "1351",
+                "1353",
+                "1359",
+                "1365"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.45, 23.49, 23.51, 23.53, 23.63, 23.71, 23.75, 23.77, 23.147, 23.157, 23.175, 23.1511, 23.1553, 23.1563 thru Amendment 23-50.",
+          "applicability": "In addition to the certification basis stated in the paragraphs above, for SR20 S/N 1878, 1886 and subsequent the certification basis is amended to include the following regulations at the amendment levels stated for SR20 Wing Redesign (G3 marketing designation)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "45",
+                "49",
+                "51",
+                "53",
+                "63",
+                "71",
+                "75",
+                "77",
+                "147",
+                "157",
+                "175",
+                "1511",
+                "1553",
+                "1563"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped with Garmin G1000 avionics or Garmin G1000 avionics with Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 2016 thru S/N 2219 and S/N 2221 thru 2338)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.207 thru Amendment 23-50.",
+          "applicability": "For aircraft equipped with Garmin G1000 NXi avionics or Garmin G1000 NXi avionics with Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "207"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped with Garmin G1000 NXi avionics or Garmin G1000 NXi avionics with Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1306 thru Amendment 23-61",
+          "applicability": "For aircraft equipped with Garmin G1000 NXi avionics or Garmin G1000 NXi avionics with Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.572 thru Amendment 23-48.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "572"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.697, 23.701, 23.787, 23.865, thru Amendment 23-49.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "697",
+                "701",
+                "787",
+                "865"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.33, 23.65, 23.69, 23.73, 23.153, 23.207, 23.235, 23.562, 23.1545, 23.1587 thru Amendment 23-50.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "33",
+                "65",
+                "69",
+                "73",
+                "153",
+                "207",
+                "235",
+                "562",
+                "1545",
+                "1587"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.925, 23.1043, 23.1047, 23.1183 thru Amendment 51.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "925",
+                "1043",
+                "1047",
+                "1183"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.903 thru Amendment 23-54.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54",
+              "provisions": [
+                "903"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.905, 23.907 thru Amendment 23-59.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "905",
+                "907"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1306 thru Amendment 23-61.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 36 dated December 1, 1969 as amended by 36-1 thru 36-30.",
+          "applicability": "For aircraft equipped with Lycoming Engines IO-390-C3B6 the certification basis is amended to include the following regulations at the amendment levels stated (Effective S/N 2220, 2339 and subsequent)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1303 thru Amendment 23-62",
+          "applicability": "The aircraft certification basis is amended to include the following regulation at the amendment level stated (Effective S/N 2650 and subsequent): (Note: The amended certification basis allows for the optional removal of the wet compass.)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.2610 (a)(c) thru Amendment 23-64 effective S/N 9750 and subsequent",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.853, 23.1311 and 23.1555 thru Amendment 23-62 effective S/N 9750 and subsequent",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "853",
+                "1311",
+                "1555"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft with a Lithium-ion Battery 14 CFR 23.2505, 23.2510 (a)(b)(c), 23.2525 (a)(b)(c), Amendment 23-64 with MOC per Issue Paper included with cert project.",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "23.2325(f) (23-64);",
+          "applicability": "For aircraft equipped with A337 Halotron BrX fire extinguisher, the aircraft certification basis, for installation specific items only, is amended to include the following regulation at the amendment levels stated: (Effective S/N 11118 and subsequent)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "ACE-96-5 for 14 CFR Section (\u00a7) 23.221 (Spinning); Refer to FAA Memorandum dated June 10, 1998 for models SR20, SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "ACE-01-01 for 14 CFR \u00a7 23.1143(g) (Engine Controls) and \u00a7 23.1147(b) (Mixture Controls); Refer to FAA Memorandum dated February 14, 2001 for model SR20.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "ACE-08-05 for 14 CFR \u00a7 23.777(d) (Cockpit Controls) and \u00a7 23.781(b) (Cockpit control knob shape); Refer to FAA Memorandum dated April 11, 2008 for models SR20, SR22. (effective with optional Garmin G1000 avionics installation, see certification basis above).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "23-ACE-88 for ballistic parachute, for models SR20, SR22, SR22T.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "special_condition",
+          "raw_reference": "23-134-SC for protection of systems for High Intensity Radiated Fields (HIRF), for models SR20, SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "special_condition",
+          "raw_reference": "23-163-SC for inflatable restraint system. Addition to the certification basis model SR20 effective S/N 1541 and subsequent; model SR22 S/N 1500, 1520 and subsequent; model SR22T (all serials).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.007",
+        "revision": "19",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7512/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in CRI A-1, Issue 5",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, Change 1, dated 11-Mar-1994",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-1, Cirrus Airframe Parachute System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-2, Spins",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-1, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-2, Protection from the Effects of Lightning Strikes, Direct Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-3, Protection from the Effects of Lightning Strikes, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Amdt 4, third edition, Chapter X",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "JAR 36, issued 23-May-1997",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "CRI A-3 (See Note 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

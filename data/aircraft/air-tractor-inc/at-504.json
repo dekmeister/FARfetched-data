@@ -1,0 +1,55 @@
+{
+  "manufacturer": "Air Tractor, Inc",
+  "model_designation": "AT-504",
+  "common_name": "AT-504",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.581",
+        "revision": "1",
+        "revision_date": "2026-08-26",
+        "source_url": "https://www.easa.europa.eu/en/downloads/144110/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 21.25(a)(1), (b)(1), (b)(2). Aircraft met structural requirements of FAR 23, Basis February 1, 1965, through Amendment 23-9. Flight criteria, propulsion and systems and equipment items met the requirements of Appendix B, CAM 8, November 15, 1951, as amended through January 20, 1956. Turbine engine effective December 28, 1984; FAR 23.33, 23.361, 23.371, 23.903(b), 23.905, 23.907, 23.929, 23.933(a), 23.939, 23.951(c), 23.954, 23.955, 23.961, 23.991(a)(2), 23.993, 23.997(d), 23.1045, 23.1091(c), 23.1093, 23.1111, 23.1121(g), 23.1141(e), and 23.1155. Control system requirements FAR 23.395, 23.397, 23.399 through Amendment 23-53. Emergency landing Dynamic Conditions requirements FAR 23-562 through Amendment 23-36. Equivalent Level of Safety Findings: ELOS #ACE-09-02 Dated February 11, 2009 -14 CFR Part 23 \u00a723.562, Amendment 23-36, Emergency landing Dynamic Conditions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Findings: ELOS #ACE-09-02 Dated February 11, 2009 -14 CFR Part 23",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a723.562, Amendment 23-36, Emergency landing Dynamic Conditions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "N/A (AT-504 is designed for agricultural aircraft operations)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

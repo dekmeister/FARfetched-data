@@ -1,0 +1,375 @@
+{
+  "manufacturer": "Embraer SA",
+  "model_designation": "EMB-500",
+  "common_name": "EMB-500",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.157",
+        "revision": "9",
+        "revision_date": "2026-06-19",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7286/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23 \u2013 \u201cNormal, Utility, Aerobatic and Commuter Category Aeroplanes\u201d of 14 November 2003, as applicable to Normal Category Certification; and additional requirements as per EASA CRI A-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Additionally: CS-23 amdt 5: CS 23.2300(a)(2); 23.2500(b); 23.2515; 23.2520 for aircraft fitted with DCA 0500-000-00005-2022/EASA related to HIRF and lightning protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS-ACNS (Subpart D) - initial issue of 17/12/2013 (see note 12) CS-ACNS (Subpart B) - initial issue of 17/12/2013 (see note 13)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "B-01 Human Factors in Integrated Avionics Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "B-02 CS-23 Subpart B (Performance).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "B-52 Flight Handling Special Condition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "B-53 Airspeed Calibration",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "B-55 Operating Limitations and Information.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "C-52 Bird strike",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "C-57 Fuel tank Crashworthiness",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "C-60 Interaction of systems and structures",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "C-61 Non-pressurised areas",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "C-64 Sonic Fatigue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "C-69 Yawing Manoevre",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "C-70 Round the clock gusts",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "D-03 Take off Configuration Warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Landing Gear",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "D-05 wheels and tyres",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "D-06 Brakes and Braking Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "D-07 Nose wheel Steering",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "D-08 Doors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "D-11 Belted Toilet Seat (for applicable areas affected by DCA 0500-025-00104-2009/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "D-12 Single Side Facing Seat (for applicable areas affected by DCA 0500-025-00079-2010/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "E-07 Negative Acceleration",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "E-08 Lines, fittings and components",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "E-51 Powerplant Fire Protection and Fuel Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "special_condition",
+          "raw_reference": "E-56 Fire extinguishers fuselage mounted engines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "E-58 FADEC integration",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "E-60 Hot Weather Operation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "special_condition",
+          "raw_reference": "F-01 Protection from HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "special_condition",
+          "raw_reference": "F-02 Protection from the indirect effects of lightning strike.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "F-56 Battery Endurance Requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "special_condition",
+          "raw_reference": "F-90 Security Protection of Aircraft Systems and Networks (for applicable areas affected by DCA 0500-046-00097-2020/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "special_condition",
+          "raw_reference": "F-92 Data Link Services for the Single European Sky (for applicable areas affected by DCA 0500-023- 00058-2011/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "special_condition",
+          "raw_reference": "F-93 Flight Recorders including Data Link Recording (for applicable areas affected by DCA 0500-031- 00043-2013/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "special_condition",
+          "raw_reference": "O-04 Towbarless Towing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "elos",
+          "raw_reference": "B-56 Dynamic Stability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "elos",
+          "raw_reference": "D-54 Ditching emergency exit for Passengers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "elos",
+          "raw_reference": "E-54 Digital Fuel Quantity indications",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "elos",
+          "raw_reference": "E-55 Digital only display of Turbine spool speed N2, oil pressure, oil temperature and fuel flow",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "elos",
+          "raw_reference": "E-57 Control markings usable fuel capacity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "elos",
+          "raw_reference": "F-55 LED Lights",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "other",
+          "raw_reference": "CS 34 - Aircraft Engine Emissions and Fuel Venting, of 17 October 2003;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "other",
+          "raw_reference": "CS 36 - Aircraft Noise, of 17 October 2003;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

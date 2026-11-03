@@ -1,0 +1,87 @@
+{
+  "manufacturer": "Baykar Piaggio Aerospace S.p.A.",
+  "model_designation": "Avanti II",
+  "common_name": "Avanti II",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.059",
+        "revision": "19",
+        "revision_date": "2025-09-02",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7407/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As per para A.II.4, except the requirements applicable to the areas affected by the PA-05 major change (see Appendix 1 \u2013 PA05 Major Change CRI A-01) as above, with the addition of ADS-B Out Specific Requirements included in the CS-ACNS Initial Issue (17 December 2013), section 4 \u201c1090 MHz Extended Squitter ADS-B\u201d as above, except the CS 23 requirements (first issue) applicable to the areas affected by the change (see Appendix 2 \u2013 MTOW Increased Major Change (80-0642) CRI A-01).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "As per para. A.II.5",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition RAI-NTO SE-5 [FAA 23-ACE-52 n\u00b0.2] \u201cProtection for Systems from Lightning and High Energy Radio Frequency\u201d is superseded, for this design change, by the new Special Condition originated by CRI F- 01 (HIRF Protection) and by the conclusions of CRI F-02 (Protection from the Effects of Lightning Strike: Indirect Effects).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition(s): SC-F23-1353-01. (CRI F-58).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "CRI B \u2013 02 Equivalent Level of Safety Airspeed Indicator Markings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "CRI F \u2013 05 Equivalent Level of Safety Powerplant Display Instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "CRI F \u2013 06 Equivalent Level of Safety Use of Digital only Display for Engine Oil Pressure and Temperature, Fuel Quantity and Flow",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "As per para. A.II.9",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

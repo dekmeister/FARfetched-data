@@ -1,0 +1,63 @@
+{
+  "manufacturer": "General Atomics AeroTec Systems GmbH",
+  "model_designation": "Dornier 228-201",
+  "common_name": "Dornier 228-201",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.359",
+        "revision": "8",
+        "revision_date": "2024-02-26",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7178/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "- Federal Aviation Regulations (FAR) Part 23 dated 1 February 1965 including Amendment 23-1 to 23-23 except for paragraph 23.1 which is based on Amendment 23-6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "- Appendix A to FAR Part 135 dated 1 December 1978 except for operating definition included in item 7(b) (required by LBA telex dated 24 February 1984).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "- SFAR 41C (ICAO Annex 8) of 13 September 1982",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "- Special Conditions for STOL Operation according to LBA-Letter I 22-2031a/84 dated 30 April 1984",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

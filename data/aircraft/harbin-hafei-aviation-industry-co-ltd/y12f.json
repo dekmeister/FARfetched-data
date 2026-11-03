@@ -1,0 +1,111 @@
+{
+  "manufacturer": "Harbin Hafei Aviation industry Co.\uff0c Ltd.",
+  "model_designation": "Y12F",
+  "common_name": "Y12F",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.679",
+        "revision": "1",
+        "revision_date": "2023-07-13",
+        "source_url": "https://www.easa.europa.eu/en/downloads/138274/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amendment 3, 13 July 2012.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1306 at Amendment 4, dated 15.07.2015",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1308 at Amendment 4, dated 15.07.2015",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS-ACNS, . Note 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "CS-MMEL, dated 31 January 2014",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "CS-FCD, dated 31 January 2014",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "IMA circuit protection Storage Battery Design and Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "ASI flap marking Marking of Aircraft Powerplant Instruments (Displays)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "Landing gear handle Design and Installation Probes OFF Caution",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "CS-34 Amendment 2, 12 January 2016.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "CS-36 Amendment 4, 12 January 2016.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

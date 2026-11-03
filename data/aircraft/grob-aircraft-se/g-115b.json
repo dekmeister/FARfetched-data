@@ -1,0 +1,61 @@
+{
+  "manufacturer": "GROB Aircraft SE",
+  "model_designation": "G 115B",
+  "common_name": "G 115B",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.364",
+        "revision": "4",
+        "revision_date": "2023-09-06",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7172/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "See 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23 dated 01-February-1965 including Amendments 1 \u2013 32",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-1"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "According to LBA letter dated 02-April-1993 concerning fatigue and damage tolerance substantiation of composite structures",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "L\u00e4rmschutzforderungen f\u00fcr Luftfahrzeuge (LSL), Issue 01-January-1991 (Note 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

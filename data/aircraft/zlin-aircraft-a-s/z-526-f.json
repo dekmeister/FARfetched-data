@@ -1,0 +1,135 @@
+{
+  "manufacturer": "ZLIN AIRCRAFT A.S.",
+  "model_designation": "Z 526 F",
+  "common_name": "Z 526 F",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.353",
+        "revision": "5",
+        "revision_date": "2013-09-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7180/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23 effective March 14, 1969",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.177(a)(2), (3) \u2013 In aerobatic (without auxiliary wing tip tanks) there is no tendency to raise the low wing in a slip. This deviation is admitted with regard to the purpose of the aircraft (aerobatic flying) and to the operational experience. It is possible to ensure the fulfilment of the requirement by the installation of the spring device, which the manufacturer delivers on request. In normal category, there is no deviation the requirement is met.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.207 \u2013 The requirement of \u201cclear and distinct stall warning\u201d is not met in aerobatic category in case of wing stalling with power and in turning flight stalls in normal category in all conditions. The deviation is admitted with regard to the operational experience.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c) \u2013 In the design and the construction of the airplane the Czechoslovak material standards (\u010cSN) and the specifications being in force for the Czechoslovak aircraft industry have been used. The deviation is admitted because the intent of the requirement is fulfilled.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.781 \u2013 The shape of the flaps and landing gear control knobs does not meet the requirement. The deviation is admitted with regard to the location and the sense of movement of these controls, which ensure the same level of safety.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.955 \u2013 The requirement of the fuel flow rate delivered by the fuel pump system to the engine is not met. The deviation is admitted with regard to the fact that the fuel flow is throttled by the valve LUN 7520.02 and is by 50 % higher than the take- off consumption of the engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991(b) \u2013 The aircraft is not equipped with emergency pump for fuel supply resume into the engine in case of main fuel pump failure. It is admitted with regard to the fact that: The engine is equipped with high-pressure injector, which is joined with low-pressure supply fuel pump into one aggregate. Any pertinent failure of this aggregate would cause contemporaneous breakdown of supply pump and injector. In that case, no emergency pump could ensure fuel supply and distribution to finish the flight without excessive efforts and attention distraction of the pilot. No failure of the low-pressure supply fuel pump has",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "occurred yet and its occurrence is extremely improbable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1145 \u2013 The requirement of means to prevent the inadvertent operation of ignition switches is not met. The deviation is admitted with regard to the location and the shape of the switch.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1183(a) \u2013 The requirement of the fire resistancy of the lines (hoses) is not met.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1191(g) \u2013 The requirement of the resistance of fittings against the flame penetration is not met. The deviation is admitted with regard to the operation experience.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1337(b) \u2013 The LUN 1600 indicator does not meet the requirement of the calibration of the fuel quantity indicator in gallons or pounds, where the calibration in litres is used. The deviation is admitted because the intent of the requirement is fulfilled and safety level is not affected.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1357(d) \u2013 The requirement of the battery circuit braker resetting is not met. The deviation is admitted with regard to the operational experience.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1389, \u00a7 23.1391, \u00a7 23.1393, \u00a7 23.1395 and \u00a723.1397 \u2013 Requirements concerning the location and intensities of position lights are not met. This is admitted because the airplane is certified for VFR-DAY flights and the position lights are fitted only for the facilitation of the manoeuvering the plane on the ground.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "manufacturer": "VULCANAIR S.P.A.",
+  "model_designation": "SF600A",
+  "common_name": "SF600A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.608",
+        "revision": "3",
+        "revision_date": "2023-08-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7052/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 effective 1 February 1965 including Amdt 1 through 35",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-35"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "\u00a7 23.965 (Fuel tank tests)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7\u00a7 23.2 and 23.1413 at Amdt 36",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "2",
+                "1413"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 23.951 at Amdt 40",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-40",
+              "provisions": [
+                "951"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7\u00a7 23.67, 23.75, 23.161, 23.331, 23.351, 23.421, 23.423, 23.425, 23.427, 23.441, 23.443, 23.455, 23.677, 23.701, 23.939, 23.1323 and 23.1325 at Amdt 42",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42",
+              "provisions": [
+                "67",
+                "75",
+                "161",
+                "331",
+                "351",
+                "421",
+                "423",
+                "425",
+                "427",
+                "441",
+                "443",
+                "455",
+                "677",
+                "701",
+                "939",
+                "1323",
+                "1325"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "Noise : ICAO Annex 16, Volume I, Chapter 10 Fuel venting & engine emission: Not Applicable",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

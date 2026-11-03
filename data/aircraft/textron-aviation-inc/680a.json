@@ -1,0 +1,609 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "680A",
+  "common_name": "680A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.033",
+        "revision": "9",
+        "revision_date": "2026-03-25",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7459/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "T00012WI",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "See FAA Type Certificate Data Sheet No. T00012WI",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25, Change 15, effective 01 August 2000, with additions specified in the tables below: CS-ACNS, Initial Issue, dated 17th December 2013",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "a) CS-25 Amendment 2, dated 2 October 2006",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "CS-25 Appendix C For entire airplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "b) CS-25 Amendment 4, dated 27 December 2007",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-4"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.1329 For auto-throttle aspects only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "c) CS-25 Amendment 9, dated 5 August 2010",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-9"
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.343 For entire airplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.571, 25.611(a), 25.623, 25.625(a)(b)(c), 25.631, 25.671, For the wing modification and 25.681, 25.683, 25.693, 25.697(d), 25.965(a), 25.967(b) winglet installation aspect.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.981 For winglet installation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.1385, 25.1387, 25.1389, 25.1391, 25.1393, 25.1395, For exterior position and anti- 25.1397, 25.1401 collision lights.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "d) CS-25, Amendment 11, dated 4 July 2011",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-11"
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7\u00a7 25.20, 25.21, 25.23, 25.25, 25.27, 25.29, 25.31, 25.101, For entire airplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "25.103, 25.105, 25.107, 25.109, 25.111, 25.113, 25.115, 25.117, 25.119, 25.121, 25.123(a)(b), 25.125, 25.143, 25.145, 25.147, 25.149, 25.161, 25.171, 25.173, 25.175, 25.177, 25.181, 25.201, 25.203, 25.207, 25.231, 25.233, 25.235, 25.237, 25.251, 25.253, 25.255, 25.301, 25.303, 25.305(a)(b)(c)(e), 25.307, 25.321, 25.331, 25.333, 25.335, 25.337, 25.341, 25.345, 25.349, 25.351, 25.361, 25.362, 25.363, 25.365, 25.367, 25.373, 25.391, 25.393, 25.395, 25.397(a)(c), 25.399, 25.405, 25.407, 25.409, 25.427, 25.445, 25.457, 25.459, 25.471, 25.473, 25.477, 25.479, 25.481, 25.483, 25.485, 25.487, 25.491, 25.581, 25.601, 25.603, 25.605, 25.607, 25.609, 25.613, 25.629, 25.651, 25.657, 25.773, 25.775, 25.777, 25.783, 25.807, 25.810, 25.820, 25.831, 25.832, 25.841, 25.843, 25.857, 25.858, 25.863, 25.865. 25.867, 25.871, 25.899, 25.903, 25.939, 25.951, 25.954, 25.955, 25.959, 25.961, 25.971, 25.993, 25.1001, 25.1041, 25.1043, 25.1045, 25.1163, 25.1165, 25.1182, 25.1185, 25.1187, 25.1191, 25.1193, 25.1195, 25.1207, 25.1323, 25.1325, 25.1419, 25.1431, 25.1439, 25.1441, 25.1443, 25.1445, 25.1449, 25.1455, 25.1461, Subpart G (except 25.1535)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.571, 25.631 For the fuselage and engine supports only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.809, 25.981(a)(d) For the fuselage only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.1459 When an optional flight data recorder is installed.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "e) CS-25, Amendment 17, dated 15 July 2015.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-17"
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.1316, 25.1317 For entire airplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "f) CS-25 amended by Reversion CRI C-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.302, 25.305(f) For entire airplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "g) CS-25 Amendment 25, dated 1 January 2021.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-25"
+            }
+          ]
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.1319 For GDL 60 only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "h) CS-25 Amendment 28, dated 19 December 2023.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-28"
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 paragraphs Applicability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.705 For ROAAS.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "CS-FCD Issue 2 CS-MMEL Issue 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-01 Human Factors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-04 Uncontrolled Thrust Increase",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-01 Interaction of Systems & Structures",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-13 Ground Gust Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-16 Sustained Engine Imbalance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-06 Single Place Sidefacing Seat/Sidefacing Divans",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-07 Interpretation of Halon Concentration Levels in Class C Compartments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-08 Improved Flammability Standards for Thermal Acoustic Insulation Materials",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-10 System Operation to 51,000 ft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-16 Towbarless Towing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-21 Pilot Compartment View \u2013 Hydrophobic Coatings in Lieu of Windshield Wipers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-02 Location of the Engine Fire Extinguishing System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-03 Fuel Tank Safety",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-01 Protection from Effect of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-34 Data Link Recording",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-43 Compliance to Single European Sky mandate for Mode S & ADS-B Out",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-48 Security Protection of Aircraft Systems and Networks",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-50 Flight Guidance Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 54,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-04 Door Between Passenger Compartments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 55,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-09 Emergency Exit Locator Signs/Marking Signs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 56,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-17 Use of Single Fire Suppression Bottle for Protection of APU and Baggage Compartment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 57,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-19 Flap Control Handle",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 58,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-22 Use of Water Barrier",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 59,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-24 Acceptable High Temperature Physiological Environment During Failure Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 60,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-25 Cabin Entry Door \u2013 Independence of Latch Security Mean and Locking System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 61,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-26 Unpressurized Doors \u2013 Independence of Latch Securing Means and Locking System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 62,
+          "entry_type": "elos",
+          "raw_reference": "ESF D-29 Combined Aircraft Pressurization Outflow and Positive Pressure Differential Relief Valves",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 63,
+          "entry_type": "elos",
+          "raw_reference": "ESF E-04 Thrust Reversers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 64,
+          "entry_type": "elos",
+          "raw_reference": "ESF F-05 Equipment, Systems & Installation Requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 65,
+          "entry_type": "elos",
+          "raw_reference": "ESF F-21 Draft Harmonized 25.1438 for the Pressurization and Pneumantic Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 66,
+          "entry_type": "elos",
+          "raw_reference": "ESF F-44 APU Instrumentation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 67,
+          "entry_type": "elos",
+          "raw_reference": "ESF F-45 Digital Display of Engine Instruments P-TS-00003990060091520 Indications Removal from Primary Flight Display During Ground Phases",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 68,
+          "entry_type": "other",
+          "raw_reference": "9.1 Noise requirements: Volume I, Sixth Edition (Amendment 10), of Annex 16 to the Chicago Convention, and as implemented in Decision No. 2003/4/RM amended by Decision No. 2013/003/R of the Executive Director of the Agency, on certification specifications providing for acceptable means of compliance for aircraft noise (CS-36, Amendment 3) Refer to the EASA Noise Type Certificate Data Sheet, TCDSN IM.A.033 9.2 Emission requirements: Chapter 2 of Part II of Volume II, Third Edition (Amendment 7), of Annex 16 to the Chicago Convention, and as implemented in Decision No. 2003/3/RM amended by Decision 2013/002/R of The Executive Director of the Agency, on certification specifications providing for acceptable means of compliance for aircraft engine emissions and fuel venting (CS-34, Amendment 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

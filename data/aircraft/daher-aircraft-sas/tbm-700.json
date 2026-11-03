@@ -1,0 +1,568 @@
+{
+  "manufacturer": "DAHER AIRCRAFT, SAS",
+  "model_designation": "TBM 700",
+  "common_name": "TBM 700",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A60EU",
+        "revision": "40",
+        "revision_date": "2026-04-24",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID103072862720260427180201.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34 and Sections 23.783, 23.811 and 23.807 of Amendments 36",
+          "applicability": "Airplanes not equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "783",
+                "811",
+                "807"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-17.",
+          "applicability": "Airplanes not equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Special Federal Aviation Regulation Number 27, effective February 1, 1974 including Amendments 27-1 through 27-6.",
+          "applicability": "Airplanes not equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34, Sections 23.783, 23.811 and 23.807 of Amendments 36 and Sections 23.49, 23.561, 23.562 and 23.785 of Amendment 44.",
+          "applicability": "Airplanes equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "783",
+                "811",
+                "807"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49",
+                "561",
+                "562",
+                "785"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10,1990, including Amendments 34-1 through Amendment 34-3.",
+          "applicability": "Airplanes equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-22.",
+          "applicability": "Airplanes equipped with modification No. MOD 70-139-00 (see note 6)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34, Section 23.1301 of Amendment 23-20, Sections 23.783, 23.811 and 23.807 of Amendments 36, Sections 23.1322 and 23.1331 of Amendment 43, Sections 23.49, 23.561, 23.562 and 23.785 of Amendment 44, Sections 23.1309, 23.1311 23.1321, 23.1323, 23.1353, 23.1365 and 23.1431 of Amendment 49 and Section 23.1308 of Amendment 57.",
+          "applicability": "Airplanes (s/n 434-999, except 687) equipped with modification No. MOD 70-0211-57 (\u201cFuel tanks extension\u201d), modification No. MOD 70-0176-00 (\u201cGarmin G1000\u201d), and optional modification No. MOD 70-0226-00 (\u201cSVS\u201d option to G1000) (see notes 8, 9, 10, 11, 12)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "783",
+                "811",
+                "807"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322",
+                "1331"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49",
+                "561",
+                "562",
+                "785"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1309",
+                "1311",
+                "1321",
+                "1323",
+                "1353",
+                "1365",
+                "1431"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, including Amendments 34-1 through Amendment 34-3.",
+          "applicability": "Airplanes (s/n 434-999, except 687) equipped with modification No. MOD 70-0211-57 (\u201cFuel tanks extension\u201d), modification No. MOD 70-0176-00 (\u201cGarmin G1000\u201d), and optional modification No. MOD 70-0226-00 (\u201cSVS\u201d option to G1000) (see notes 8, 9, 10, 11, 12)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-22.",
+          "applicability": "Airplanes (s/n 434-999, except 687) equipped with modification No. MOD 70-0211-57 (\u201cFuel tanks extension\u201d), modification No. MOD 70-0176-00 (\u201cGarmin G1000\u201d), and optional modification No. MOD 70-0226-00 (\u201cSVS\u201d option to G1000) (see notes 8, 9, 10, 11, 12)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34, Section 23.1301 of Amendment 23-20, Sections 23.783, 23.811 and 23.807 of Amendments 36, Sections 23.1322 and 23.1331 of Amendment 43, Sections 23.49, 23.561, 23.562 and 23.785 of Amendment 44, Sections 23.1309, 23.1311 23.1321, 23.1323, 23.1353, 23.1365 and 23.1431 of Amendment 49, Section 23.207 of Amendment 50, Section 23.1308 of Amendment 57 and Section 23.1306 of Amendment 61. (Note: Airplanes equipped with optional modification No. MOD70- 0423-34 \u201cLift transducer and AOA\u201d also include Section 23.207 of Amendment 50. Airplanes equipped with optional modification No. MOD70-0388- 25 \u201cAMSAFE Airbag Seatbelt on Pilot and Co-Pilot Seats\u201d also include FAA Special Conditions No. 23-276-SC.)",
+          "applicability": "Airplanes (s/n 687, 1000-1105) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1170-9999) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d) and optional modification MOD70-0539-00 (\u201cGarmin G1000 Nxi\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 25)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "783",
+                "811",
+                "807"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322",
+                "1331"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49",
+                "561",
+                "562",
+                "785"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1309",
+                "1311",
+                "1321",
+                "1323",
+                "1353",
+                "1365",
+                "1431"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "207"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "207"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10,1990, including Amendments 34-1 through Amendment 34-3.",
+          "applicability": "Airplanes (s/n 687, 1000-1105) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1170-9999) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d) and optional modification MOD70-0539-00 (\u201cGarmin G1000 Nxi\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 25)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-28.",
+          "applicability": "Airplanes (s/n 687, 1000-1105) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1170-9999) equipped with modification MOD 70-0176-00 (\u201cGarmin G1000\u201d) and optional modification MOD70-0539-00 (\u201cGarmin G1000 Nxi\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70- 0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), optional modification No. MOD70-407-00 (\u201cAural alerts evolution and V15 Software for G1000 Integrated Flight Deck on TBM850/900\u201c) and optional modification No. MOD70- 0407-00 Ed 2 Version C (\u201cESP and USP option to G1000\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 25)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34, Section 23.1301 of Amendment 23-20, Sections 23.783, 23.811 and 23.807 of Amendments 36, Sections 23.1322 and 23.1331 of Amendment 43, Sections 23.49, 23.561, 23.562 and 23.785 of Amendment 44, Sections 23.1309, 23.1311 23.1321, 23.1323, 23.1353, 23.1365 and 23.1431 of Amendment 49, Section 23.207 of Amendment 50, Section 23.1308 of Amendment 57 and Section 23.1306 of Amendment 61. (Note: Airplanes equipped with optional modification No. MOD70- 0423-34 \u201cLift transducer and AOA\u201d also include Section 23.207 of Amendment 50. Section 1308 of Amendment57 and Section 23.1306 of Amendment 61.",
+          "applicability": "Airplanes (s/n 1111-1215) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1216-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000) and optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 26): or Airplanes (s/n 1272, 1275-9999) equipped with optional modification No. MOD70-0476- 00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 (\u201cG3000 system Software V21.25\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31 and 32): or Airplanes (s/n 1333-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 Version E (G3000 system new Software SR 5.1.8) and optional modification No. MOD70-0650-34 (\u201cEmergency Autoland/HomeSafe system\u201d), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31, 32 and 33)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "783",
+                "811",
+                "807"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322",
+                "1331"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49",
+                "561",
+                "562",
+                "785"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1309",
+                "1311",
+                "1321",
+                "1323",
+                "1353",
+                "1365",
+                "1431"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "207"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "207"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10,1990, including Amendments 34-1 through Amendment 34-3.",
+          "applicability": "Airplanes (s/n 1111-1215) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1216-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000) and optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 26): or Airplanes (s/n 1272, 1275-9999) equipped with optional modification No. MOD70-0476- 00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 (\u201cG3000 system Software V21.25\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31 and 32): or Airplanes (s/n 1333-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 Version E (G3000 system new Software SR 5.1.8) and optional modification No. MOD70-0650-34 (\u201cEmergency Autoland/HomeSafe system\u201d), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31, 32 and 33)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-28.",
+          "applicability": "Airplanes (s/n 1111-1215) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22 and 23): or Airplanes (s/n 1216-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000) and optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d) and optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d) (see notes 18, 19, 20, 21, 22, 23, 24 and 26): or Airplanes (s/n 1272, 1275-9999) equipped with optional modification No. MOD70-0476- 00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 (\u201cG3000 system Software V21.25\u201d), modification No. MOD 70-0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70-0357-71 (\u201cTake- off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31 and 32): or Airplanes (s/n 1333-9999) equipped with optional modification No. MOD70-0476-00 (\u201cGarmin G3000\u201d including ESP and USP option to G3000), optional modification No. MOD70-0549-00 (\u201cGarmin G3000 2018\u201d) and optional modification No. MOD70-0649- 00 Version E (G3000 system new Software SR 5.1.8) and optional modification No. MOD70-0650-34 (\u201cEmergency Autoland/HomeSafe system\u201d), modification No. MOD 70- 0234-24 (\u201cNew electrical generation and primary distribution\u201d), MOD70-0322-00 (\u201cAerodynamic efficiency improvement\u201d), MOD70-0323-71 (\u201cPropulsion efficiency improvement\u201d), MOD70-0324-00 (\u201cHuman Machine Interface improvement\u201d), MOD70- 0357-71 (\u201cTake-off and landing operations at 850SHP\u201d), optional modification No MOD70-0345-61 (\u201cNew five-blade propeller\u201d), modification No. MOD70-0550-00 (\u201cAuto-throttle\u201d), modification No. MOD70-0619-11 (\u201cModification of cabin interior markings\u201d) and optional modification No. MOD70-0632-34 (\u201cMagnetometer MD032 integration\u201d) (see notes 18, 19, 20, 21, 22, 23, 24, 31, 32 and 33)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through 23-34, Section 23.1301 of Amendment 23-20, Sections 23.783, 23.811 and 23.807 of Amendments 36, Sections 23.1322 and 23.1331 of Amendment 43, Sections 23.49, 23.561, 23.562 and 23.785 of Amendment 44, Sections 23.1309, 23.1311 23.1321, 23.1323, 23.1353, 23.1365 and 23.1431 of Amendment 49, Section 23.207 of Amendment 50, Section 23.1308 of Amendment 57 and Section 23.1306 of Amendment 61. (Note: Airplanes equipped with optional modification No. MOD70- 0423-34 \u201cLift transducer and AOA\u201d also include Section 23.207 of Amendment 50. Section 1308 of Amendment 57 and Section 23.1306 of Amendment 61.",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10,1990, including Amendments 34-1 through Amendment 34-3.",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-28.",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 at Amendment 23-64 sections 23.2005, 23.2010, 23.2105, 23.2115(a)(1)(2)(3)(b), 23.2120(a)(1)(2)(c), 23.2125, 23.2135, 23.2140, 23.2145, 23.2155, 23.2160, 23.2200, 23.2205, 23.2210, 23.2215, 23.2225, 23.2230, 23.2235, 23.2240(a)(b)(c)(1)(2), 23.2245, 23.2300, 23.2335, 23.2400(a)(b)(c)(1)(2)(3)(4)(e), 23.2405, 23.2410, 23.2415, 23.2420, 23.2425, 23.2500(a)(1)(2), 23.2505, 23.2510, 23.2515, 23.2520, 23.2525, 23.2600, 23.2605, 23.2610, 23.2615, 23.2620, Appendix A",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d); Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0621-76 (\u201cEngine power increase, Engine control and e-Throttle\u201d), modification No. MOD70-0665-61 (\u201cFive blades Raptor Propeller\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, including Amendments 23-1 through Amendment 23-62. -Sections 23.201, 23.203, 23.207, 23.221",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d); Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0621-76 (\u201cEngine power increase, Engine control and e-Throttle\u201d), modification No. MOD70-0665-61 (\u201cFive blades Raptor Propeller\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10,1990, including Amendments 34-1 through Amendment 34-6.",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d); Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0621-76 (\u201cEngine power increase, Engine control and e-Throttle\u201d), modification No. MOD70-0665-61 (\u201cFive blades Raptor Propeller\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1 through Amendment 36-31, Appendix G.",
+          "applicability": "Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0646-21 (\u201cENVIRO components based ECS\u201d), modification No. MOD70-0753-00 (\u201cSoftware Upgrade\u201d), modification No. MOD70-0680-10 (\u201cWeight and balance modification\u201d); Airplanes (s/n 1408-9999) equipped with modifications No. MOD70-0621-76 (\u201cEngine power increase, Engine control and e-Throttle\u201d), modification No. MOD70-0665-61 (\u201cFive blades Raptor Propeller\u201d)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "ELOS ACE-02-01: 14 CFR \u00a723.807(a)(1), Emergency Exits; Refer to FAA letter dated October 7, 2001, applicable to cargo configured airplanes only (See Note 4.)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "ELOS ACE-14-01: 14 CFR \u00a723.777(d) Cockpit Controls Location and 14 CFR \u00a723.781(b), Shape \u2013 Single Power Lever for TBM 700 dated December 12, 2013, applicable to aircraft equipped with MOD70-0324-00 (see note 21)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT01004CE-A-P-2: 14 CFR \u00a723.1305(e),(j, and (m), amendment 23-24, Part Time and Full Time Digital Only Powerplant Indications, applicable for aircraft equipped with MOD70-0550-00 (see note 31)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT01078CE-A-S-2: 14 CFR part 23 \u00a723.671, 23.697, 23.729, 23.777, 23.779, 23.991, 23.1141, 23.1189, 23.1301, 23.1303, 23.1305, 23.1309, 23.1311, 23.1321, 23.1322, 23.1337, 23.1555, Airplanes equipped with DAHER modification No. MOD70-0650-34 (\u201cEmergency Autoland/HomeSafe System\u201d) s/n 1272, 1275-9999",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT11910IB-A-23.1303:14 CFR 21.21(b)(1), 23.1301, 23.1303, 23.1309, 23.1311, 23.1321, 23.1459 Indications removal from Primary Flight Displays during ground phase on Model Daher TBM700N airplane Airplanes equipped with DAHER modification No. MOD70-0876-00",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 23-276-SC Airbag seatbelt on Pilot and Co-Pilot Seats (See Note 24)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 23-296-SC Autothrust System effective August 30, 2019 (See Note 31)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "other",
+          "raw_reference": "Approved for flight into known icing.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "other",
+          "raw_reference": "Direction G\u00e9n\u00e9rale de l\u2019Aviation Civile (DGAC) originally type certified this aircraft under its type certificate number TC 181, and EASA Type Certificate Number EASA.A.010. The FAA validated this product under U.S. Type Certificate Number A60EU. Effective September 28, 2003, the European Aviation Safety Agency (EASA) began oversight of this product on behalf of France.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

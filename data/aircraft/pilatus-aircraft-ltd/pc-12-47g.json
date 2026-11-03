@@ -1,0 +1,452 @@
+{
+  "manufacturer": "Pilatus Aircraft Ltd.",
+  "model_designation": "PC-12/47G",
+  "common_name": "PC-12/47G",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.089",
+        "revision": "11",
+        "revision_date": "2025-07-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7348/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "US 14 CFR FAR Part 23, Normal Category, including Amendments 23-1 through 23-42, effective February 4th, 1991.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "The certification basis for the PC-12/47G is the EASA Certification Basis for PC-12/47E S/N 1720 and S/N 2001 upwards as defined in Section D.II.3.B.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "F-34 Lithium Battery Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "B-01 Release 02 Artificial Stall Barrier System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, for further details see EASA TCDSN A.089 Fuel Venting and Exhaust Emission ICAO Annex 16, Volume II",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A78EU",
+        "revision": "39",
+        "revision_date": "2025-07-02",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID189544976220250702193427.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Sections 21.29, 21.183(c) and 14 CFR 23, Normal Category, effective February 4, 1991, including Amendments 23-1 through 23-42 and:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-43) 23.1305, 23.1322, 23.1331, 23.1357",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1305",
+                "1322",
+                "1331",
+                "1357"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-44) 23.49, 23.562(d)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "562"
+              ],
+              "paragraph": "(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-45) 23.305(a), 23.361, 23.479 23.571(a), 23.613, 23.672, 23.773, 23.851, 23.1507, 23.1525",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "361",
+                "479",
+                "613",
+                "672",
+                "773",
+                "851",
+                "1507",
+                "1525"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "305"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "571"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-48) 23.301, 23.335, 23.337, 23.341, 23.347, 23.371, 23.443, 23.561(b2)(b3)(c3), 23.572, 23.607(c), 23.629",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "301",
+                "335",
+                "337",
+                "341",
+                "347",
+                "371",
+                "443",
+                "572",
+                "629"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "561"
+              ],
+              "paragraph": "(b2)(b3)(c3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "607"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-49) 23.691, 23.1307, 23.1311, 23.1321, 23.1323, 23.1326, 23.1329, 23.1351, 23.1353, 23.1359, 23.1361, 23.1365, 23.1431",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "691",
+                "1307",
+                "1311",
+                "1321",
+                "1323",
+                "1326",
+                "1329",
+                "1351",
+                "1353",
+                "1359",
+                "1361",
+                "1365",
+                "1431"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-50) 23.69, 23.143, 23.147, 23.562(d1), 23.175, 23.1543, 23.1555, 23.1589",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "69",
+                "143",
+                "147",
+                "175",
+                "1543",
+                "1555",
+                "1589"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "562"
+              ],
+              "paragraph": "(d1)"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-57) 23.1308",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-59) 23.905, 23.907(c)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "905"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "907"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-61) 23.1306",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-62) 23.63, 23.177, 23.181, 23.1303, 23.1309, 23.1310",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "63",
+                "177",
+                "181",
+                "1303",
+                "1309",
+                "1310"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-64) 23.2010, 23.2525, 23.2605, 23.2610, 23.2615",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "The detailed design standards used as a means of compliance in accordance with \u00a7 23.2010 are documented in Pilatus PC-12 DDS summary document PC12-DDS-001, Issue 01, dated 27 November 2024, or later revisions. See Note 20:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Section 36, effective November 18, 1969, including Amendments 36-1 through amendment 36-31, effective November 3, 2017.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Section 34, effective September 10, 1990, including amendments 34-1 as amended through Amendment 34-5A effective October 23, 2013.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-294-SC effective August 15, 2019 - Autothrust System \u2013 signed 8/1/2019.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-295-SC effective August 15, 2019 - Electronic Engine Control (EEC) \u2013 8/8/2019.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "\u2022 ACE-94-8 of June 21, 1994, Spin demonstration, FAR 23.221 a)2) as extended by FAA memorandum dated November 7, 2007. \u2022 ACE-05-18 of November 29, 2005, Cabin pressure indicator, FAR 23.841b) 6) as extended by FAA memorandum dated November 7, 2007. \u2022 ELOS AT00923CE-A-P-4 dated August 16, 2019, Use of Interconnected Fuel Tanks without Tank Airspaces, 14 CFR 23.975(a)(4), amendment 23-29.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "other",
+          "raw_reference": "Approved for Flight Into Known Icing.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "other",
+          "raw_reference": "Approved for RVSM \u2013 all PC-12/47G models with AFM 02523, Issue 02, Rev 00, or later EASA approved revisions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "Certification Maintenance Requirement (CMR), manual pitch trim system annunciation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

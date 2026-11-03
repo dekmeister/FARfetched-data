@@ -1,0 +1,429 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "767-200",
+  "common_name": "767-200",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.035",
+        "revision": "11",
+        "revision_date": "2025-02-04",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7454/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA TCDS A1NM",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA TCDS A1NM",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "In accordance with Regulation (EC) 1702/2003",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 25 at Amendment 25-1 through 25-37.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-37"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Part 25 of the Federal Aviation Regulations: Amendment 25-38 through 25-45, except portions of Amendment 25-38 (Section 25.979(d) and (e) and Section 25.1143(e));",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 40 (Sections 25.901(b)(1)(i), 25.1091(e) and 25.1093(b));",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 41 (Section 25.1438);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 42 (Section 25.109), Amendment 46 (Sections 25.345, 25.351(a), 25.629, 25.697, 25.803, 25.901(d), 25.1103(a), (b)(2),(d), (e), (f), 25.1142, 25.1522)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 49 (Section 25.733)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 54 (Section 25.365(e)(1), (2))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "D-GEN02 PTC Heat Release and Smoke Density (Note: to be applied to new seat installations after January 2011)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "H-01 Enhanced Airworthiness Programme for Aeroplane Systems - ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "- Special Condition No. 25-ANM-18 on Lightning Protection, Protection from Unwanted Effects of Radio Frequency (RF) Energy and Propulsion Control System for Pratt and Whitney PW4000 series engines, General Electric CF6-80C2 FADEC engine, and Rolls Royce RB211-524H-36 engine installations.",
+          "applicability": "Adopted FAA Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "- Special Condition No. 25-ANM-20 for installation of a longitudinal partition.",
+          "applicability": "Adopted FAA Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "- Ditching Provisions 25.801 (Over- water operation can be approved when the aircraft has been equipped and installation has been approved according to FAR 25.801)",
+          "applicability": "Compliance with the following optional requirements has been established",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "- Ice Protection Provisions 25.1419",
+          "applicability": "Compliance with the following optional requirements has been established",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from FAR 25: Exemption No. 4725 - Exemption from 25.785(h) - Allows one seat for a required flight attendant to be located near the overwing Type III exits.",
+          "applicability": "Adopted FAA Exemptions granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Safety Findings exist with respect to the following regulations: FAR 25.1093(b)(1) Induction System De-Icing and Anti-icing Protection",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1103(d) Induction System Ducts and Air Duct Systems",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1103(e) Induction System Ducts and Air Duct Systems RB211-524H Installation only. Generic ESF: G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1181(a)(6) Designated Fire Zones; Regions Included",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1203 Fire Detector System for Compartment Surrounding the Turbine and Jetpipe (Zone 4A/4B) RB211-524H Installation only.",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1305(a)(4), (a)(6), Powerplant Instruments (c)(1) and (c)(3)",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1387(b) and (c) Position Light System Dihedral Angles",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1393 Minimum Intensities in Any Vertical Plan of Forward and Rear Position Lights",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1395 Maximum Intensities in Overlapping Beams of Forward and Rear Position Lights",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1415(d) Emergency Locator Transmitter (ELT)",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.1549(b) Powerplant and Auxiliary Power Unit Instruments",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.365(e)(2) Pressurized Cabin Loads",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.803(c)(8) Emergency Evacuation Demonstration",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.807(a)(7)(iv)and (c) Passenger Emergency Exits",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.809 Emergency Exit Arrangement",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.813(c) Emergency Exit Access",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.811(f)(2) Exit Band Contrast",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.853(c) Compartment Interiors",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.791 Passenger Information Signs and Placards",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25 (Several) Use of 1-g stall speed (non-structural Sections) for some increased gross weight 767-200 aeroplanes",
+          "applicability": "Adopted FAA Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "other",
+          "raw_reference": "Noise: ICAO Annex 16, Volume I Fuel Venting & Emissions: ICAO Annex 16, Volume II",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "other",
+          "raw_reference": "Special Federal Aviation Regulation 27.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "other",
+          "raw_reference": "For all models, compliance with point 26.300(a) of Part 26 is demonstrated by complying with points",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "other",
+          "raw_reference": "- 26.301 Compliance Plan for (R)TC holders",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "other",
+          "raw_reference": "- 26.302 Fatigue and damage tolerance evaluation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "other",
+          "raw_reference": "- 26.303 Limit of Validity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "other",
+          "raw_reference": "- 26.304 Corrosion prevention and control programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "other",
+          "raw_reference": "- 26.305 Validity of the continuing structural integrity programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "other",
+          "raw_reference": "- 26.306 Fatigue critical baseline structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "other",
+          "raw_reference": "- 26.307 Damage tolerance data for existing changes to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "other",
+          "raw_reference": "- 26.308 Damage tolerance data for existing repairs to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "other",
+          "raw_reference": "- 26.309 Repair Evaluation Guidelines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

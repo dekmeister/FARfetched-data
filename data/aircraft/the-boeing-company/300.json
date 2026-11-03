@@ -1,0 +1,447 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "300",
+  "common_name": "300",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.205",
+        "revision": "6",
+        "revision_date": "2024-11-06",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7246/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA TCDS A2NM",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA TCDS A2NM",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "In accordance with Regulation (EC) 1702/2003.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Airworthiness Requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25 Change 14, effective 27 May 1994 JAR AWO Change 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25C-199 Interaction of Systems and Structure",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25B-215 Stall and Stall Warning Speeds and Manoeuvre Capability",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25BCD-236 Vibration, Buffet and Aeroelastic Stability",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25-240 Landing in Abnormal Configuration",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25BDG-244 Accelerate Stop Distances and Related Performance",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25B-261 Control Forces, Manoeuvre Stability, Minimum Control Speeds and Stalling",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25C-260 Loads \u2013 General",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25C-276 Brake Roll Condition",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25C-279 Shock Absorption Tests",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "- NPA 25 FD-243 Autopilot",
+          "applicability": "The following NPA\u2019s have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.571, Damage Tolerance and Fatigue Evaluation.",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.901(b)(1)(ii) 25.901(c), Engine Controls, Electronic.",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.783, Doors",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.562(c)(5),(c)(6) Emergency Landing Conditions",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.365(e)(2), Pressurised Compartment Loads-Equipment Bays",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25X519(b), Static Ground Load Conditions \u2013 Jacking",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.1419, Ice Protection Flight Deck Indication",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.901(c) 25A901(c), Engine, APU, Fuel Systems",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.775, Windshield and Windows",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.773(b)(2), Pilot Compartment View",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.1438, ECS Compartment Proof and Burst Test Pressure",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.1309, Equipment, Systems and Installation",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.963(g)(1), Fuel Tank Access Cover",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25X745(d), Nose Wheel Steering",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.729(f), Tyre and Wheel Threat",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "- Reversion from JAR 25.903(d)(1), Uncontained Engine Rotor Failures",
+          "applicability": "The following reversions from the defined certification basis have been applied",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "SC H-01 Enhanced Airworthiness Programme for Aeroplane Systems - ICA on EWIS JAA Special Conditions The following Special Conditions have been applied: - JAA/757-300/ND/CRI F-08 MMR Qualification and Installation - JAA/757-300/ND/CRI F-11 EGPWS - JAA/757-300/ND/CRI F-15 FANS-1 - JAA/757-300/SC/CRI D-02 Worn Brakes - JAA/757-300/SC/CRI D-20 Towbarless Towing, Nose Wheel Steering - JAA/757-300/SC/CRI E-02 Engine Type Certification - JAA/757-300/SC/CRI F-01 Protection from the effects of HIRF - JAA/757-300/SC/CRI F-02 Lightning Protection - Directs Effects - JAA/757-300/SC/CRI F-03 Lightning Protection - Indirect Effects - JAA/757-300/SC/CRI G-01 Computerised AFM - JAA/757-300/SC/CRI G-02 Aeroplane Flight Manual Adopted FAA Special Conditions see FAA TCDS A2NM Post-TC: Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "exemption",
+          "raw_reference": "- JAA/757-300/EX/CRI D-12 Partial Exemption from JAR 25.1435(b)(1)",
+          "applicability": "The following exemptions have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "exemption",
+          "raw_reference": "- JAA/757-300/EX/CRI E-06 Exemption from JAR 25.961(a)(5), JAR25.1521",
+          "applicability": "The following exemptions have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "exemption",
+          "raw_reference": "Adopted FAA Exemptions see FAA TCDS A2NM",
+          "applicability": "The following exemptions have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "other",
+          "raw_reference": "Adopted FAA Deviations see FAA TCDS A2NM",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI B-04 Equivalent Safety with JAR 25.1303(c)",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-05 Equivalent Safety with JAR 25.791 & 853",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-06 Equivalent Safety with JAR 25.807 & 813",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-07 Equivalent Safety with JAR 25.807 & 809",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-08 Equivalent Safety with JAR 25.810",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-10 Equivalent Safety with JAR 25.812",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-16 Equivalent Safety with JAR 25.810(a)(1)(iii)",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-17 Equivalent Safety with JAR 25X1436",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI D-19 Equivalent Safety with JAR 25.811(f)",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI E-01 Equivalent Safety with JAR 25.933(a)",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI F-10 Equivalent Safety with JAR 25.1389(b)(3)",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "elos",
+          "raw_reference": "- JAA/757-300/ES/CRI J-01 Equivalent Safety with JAR Subpart J as required by JAR 25.A901(b)(1) F-GEN9-1: Minimum Mass Flow of Supplemental Oxygen \"Component Qualification\"",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "elos",
+          "raw_reference": "F-GEN9-3: Crew Determination of Quantity of Oxygen in Passenger Oxygen System",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "elos",
+          "raw_reference": "ESF G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers) Adopted FAA Equivalent Safety Findings see FAA TCDS A2NM",
+          "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "other",
+          "raw_reference": "Noise: ICAO Annex 16, Volume I For noise records and values, refer to TCDSN No. EASA.IM.A.205",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "other",
+          "raw_reference": "Fuel Venting & Emissions: ICAO Annex 16, Volume II",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "other",
+          "raw_reference": "For all models, compliance with point 26.300(a) of Part 26 is demonstrated by complying with points: - 26.301 Compliance Plan for (R)TC holders - 26.302 Fatigue and damage tolerance evaluation - 26.303 Limit of Validity - 26.304 Corrosion prevention and control programme - 26.305 Validity of the continuing structural integrity programme - 26.306 Fatigue critical baseline structure - 26.307 Damage tolerance data for existing changes to fatigue critical structure - 26.308 Damage tolerance data for existing repairs to fatigue critical structure - 26.309 Repair Evaluation Guidelines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

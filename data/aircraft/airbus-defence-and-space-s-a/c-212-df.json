@@ -1,0 +1,63 @@
+{
+  "manufacturer": "Airbus Defence and Space S.A",
+  "model_designation": "C-212-DF",
+  "common_name": "C-212-DF",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.187",
+        "revision": "4",
+        "revision_date": "2026-10-12",
+        "source_url": "https://www.easa.europa.eu/en/downloads/132561/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Data Sheet from the Spanish Type Certificate Nr 01/82.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Spain",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 25, dated 1 February 1965, with Amendments 25-1 to 25-35, both inclusive In addition, for model C-212-DF the applicant voluntarily complies with paragraphs 25.855 and 25.857 in the revision status corresponding to Amendment 25-60",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "FAA special conditions No. 25-100-NW-6, dated 18-5-1981",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "FAR Part 34, dated 10 August 1990 ICAO Annex 16, Volume 2, 2nd Edition dated 1993 FAR Part 36, dated 1 December 1969 ICAO Annex 16, Volume 1, 3rd Edition dated 1993",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

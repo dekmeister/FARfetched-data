@@ -1,0 +1,535 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "767-400ER",
+  "common_name": "767-400ER",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.035",
+        "revision": "11",
+        "revision_date": "2025-02-04",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7454/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAA TCDS A1NM",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA Type Certification Data Sheet No. A1NM",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Applicable JAR Requirements at the Reference Date",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-25 Change 14 (Effective 27 May 1994)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Orange Paper 96/1 (Effective 19 April 1996) except for the reversions to earlier requirements as listed below JAR-AWO Change 2 (Effective 1 August 1996)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Boeing has elected to comply with the following NPA\u2019s: NPA 25C-199: Interaction of Systems and Structure NPA 25B-215: Stall and Stall Warning Speeds and Manoeuvre Capability NPA 25D-218 Doors NPA 25F-219 Flight in Icing Conditions NPA 25B, C, D-236: Vibration, Buffet and Aeroelastic Stability NPA 25B-240 Landing in Abnormal Configurations NPA 25B,D,G-244 Accelerate Stop Distances and Related Performance Matters NPA 25J-246 APU Instruments and Limitations NPA 25C-247: Yawing Manoeuvring Conditions NPA 25G-255 Aeroplane Flight Manual NPA 25C-260 & 282 Loads NPA 25C-271 Fatigue Safe-life Scatter Factors NPA 25D-275: Towbarless Towing, Nose Wheel Steering NPA AWO-2: Autoland Distance NPA AWO 5: CAT II Go-Around Performance NPA AWO 8 Longitudinal Touchdown Performance Limit and Deletion of MABH NPA AWO 10 Flight Manual RVR Limits and Structural Limit Loads",
+          "applicability": null,
+          "applicability_notes": "JAA Elect to Comply Airworthiness Standards",
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "D-GEN02 PTC Heat Release and Smoke Density (Note: to be applied to new seat installations after January 2011)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "H-01 Enhanced Airworthiness Programme for Aeroplane Systems - ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "The following JAA Special Conditions have been applied.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "JAA/767-400ER/SC/CRI D-09 Towbarless Towing, Nose Wheel Steering (INT/POL/25/6 Issue 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "JAA/767-400ER/SC/CRI F-01 Protection from the effects of HIRF (JAA Interim Policy INT/POL/25/2 Iss1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "JAA/767-400ER/SC/CRI F-02 Lightning Protection, Direct Effects (JAA Interim Policy INT/POL/25/3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "JAA/767-400ER/ND/CRI F-05 EGPWS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "exemption",
+          "raw_reference": "The following exemption has been granted.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "exemption",
+          "raw_reference": "JAA/767-400ER/EX/CRI D-03 Hydraulic System Proof Pressure Testing Partial Exemption from JAR 25.1435(b)(1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "The following reversions from the defined certification basis have been granted: A-11-01 Pressurised Compartment Loads",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.365(e)(2), Reversion to FAR 25.365(e)(2) Amdt 25-54",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "other",
+          "raw_reference": "A-11-02 Static Ground Load Conditions (Jacking)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "other",
+          "raw_reference": "JAR 25X519(b)(2), Reversion to FAR 25.519(b)(2) Amdt 25-0",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "A-11-03 Front Row HIC (Emergency Landing Dynamic Conditions)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.562(c)(5), (6), Reversion to FAR 25.562(c)(5), (6) Amdt 25-64",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "other",
+          "raw_reference": "A-11-04 Damage Tolerance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.571, Reversion to FAR 25.571 Amdt 25-45",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "other",
+          "raw_reference": "A-11-08 Doors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.783, Reversion to FAR 25.783 Amdt 25-23",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "other",
+          "raw_reference": "A-11-11 Powerplant and APU Safety Assessments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.901(c)/25A901(c), Reversion to FAR 25.901(c), Amdt 25-46",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "other",
+          "raw_reference": "A-11-12 Engine Rotor Non-Containment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.903(d), Reversion to FAR 25.903(d) Amdt 25-40",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "other",
+          "raw_reference": "A-11-13 Fuel Tank Access Covers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.963(g), Reversion to FAR 25.963(e) Amdt 25-69",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "other",
+          "raw_reference": "A-11-14 Equipment, Systems and Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.1309, Reversion to FAR 25.1309 Amdt 25-41",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "other",
+          "raw_reference": "A-11-15 Systems Lightning Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.1316, Reversion to FAR 25.1316 Amdt 25-80",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "other",
+          "raw_reference": "A-11-16 Ice Protection, Flight Deck Indication",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.1419(c), Reversion to FAR 25.1419(c) Amdt 25-23",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "other",
+          "raw_reference": "A-11-17 Pressurisation and Low Pressure Pneumatic System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "other",
+          "raw_reference": "JAR 25.1438, Reversion to FAR 25.1438 Amdt 25-41",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "elos",
+          "raw_reference": "Overspeed Warning Equivalent Safety with JAR 25.1303(c)(1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "elos",
+          "raw_reference": "Take-off Speeds, Vmu Equivalent Safety with JAR 25.1078(d)(e)(1)(iv)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "elos",
+          "raw_reference": "Material Strength Properties and Design Values Equivalent Safety with JAR 25.613 Exterior Exit Markings Equivalent Safety with JAR 25.811 (f)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "elos",
+          "raw_reference": "Pneumatic Systems - High Pressure Equivalent Safety with JAR 25X1436 Engine FADEC Equivalent Safety with JAR 25.901(b)(1)(ii)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "elos",
+          "raw_reference": "Thrust Reversers Equivalent Safety with JAR 25.901(c) and 933(a)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "elos",
+          "raw_reference": "Fan Cowl Flammable Fluid Zone Equivalent Safety with JAR 25.1181(a)(6)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "elos",
+          "raw_reference": "Oxygen Outlets in Work Areas Equivalent Safety with JAR 25.1447(c)(3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "elos",
+          "raw_reference": "Maximum Intensities in Overlapping Beams, Forward and Rear Position Lights Equivalent Safety with JAR 25.1395 FMCS Hazardously Misleading Navigation Information Equivalent Safety with JAR 25.1309 (AMJ25-11)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "elos",
+          "raw_reference": "APU Instruments and Limitations Equivalent Safety with JAR 25A1305(a)(2), 25D1305(a)(1), (a)(2), (a)(3), 25A1521, 25.1522 and 25A1549",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "elos",
+          "raw_reference": "APU Compartment Cowlings Equivalent Safety with JAR 25A1193(e)(3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "elos",
+          "raw_reference": "D-GEN7, Flammability Testing Hierarchy (JAR/CS 25.853(a) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "elos",
+          "raw_reference": "G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I (Third Edition)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 54,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume II (Second Edition)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 55,
+          "entry_type": "other",
+          "raw_reference": "For all models, compliance with point 26.300(a) of Part 26 is demonstrated by complying with points",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 56,
+          "entry_type": "other",
+          "raw_reference": "- 26.301 Compliance Plan for (R)TC holders",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 57,
+          "entry_type": "other",
+          "raw_reference": "- 26.302 Fatigue and damage tolerance evaluation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 58,
+          "entry_type": "other",
+          "raw_reference": "- 26.303 Limit of Validity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 59,
+          "entry_type": "other",
+          "raw_reference": "- 26.304 Corrosion prevention and control programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 60,
+          "entry_type": "other",
+          "raw_reference": "- 26.305 Validity of the continuing structural integrity programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 61,
+          "entry_type": "other",
+          "raw_reference": "- 26.306 Fatigue critical baseline structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 62,
+          "entry_type": "other",
+          "raw_reference": "- 26.307 Damage tolerance data for existing changes to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 63,
+          "entry_type": "other",
+          "raw_reference": "- 26.308 Damage tolerance data for existing repairs to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 64,
+          "entry_type": "other",
+          "raw_reference": "- 26.309 Repair Evaluation Guidelines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

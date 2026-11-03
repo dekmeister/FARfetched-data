@@ -2,10 +2,6 @@
   "manufacturer": "Diamond Aircraft Industries Inc.",
   "model_designation": "DA 40",
   "common_name": "DA 40",
-  "categories": [
-    "normal",
-    "utility"
-  ],
   "notes": null,
   "tcb": [
     {
@@ -16,6 +12,10 @@
         "revision_date": "2021-07-14",
         "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C67CC63755875EAE86258713004984D0.0001"
       },
+      "categories": [
+        "normal",
+        "utility"
+      ],
       "notes": null,
       "certification_basis": [
         {
@@ -106,6 +106,101 @@
           "display_order": 10,
           "entry_type": "other",
           "raw_reference": "The Austro Control Group (ACG) originally type certificated this aircraft under its Type Certificate Number FZ021-JAA. Effective September 28, 2003, the European Aviation Safety Agency (EASA) began oversight of this product under their Type Certificate Number A.022 on behalf of Austria. Effective November 15th, 2017 this type certificate was transferred to Diamond Aircraft Industries in Canada under the oversight of Transport Canada Civil Aviation (TCCA).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.022",
+        "revision": "24",
+        "revision_date": "2021-04-22",
+        "source_url": "https://www.easa.europa.eu/en/downloads/44254/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, Change -, issued 11-Mar-1994",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-1, Change 5, issued 15-Jul-1996",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-01) Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-03) Protection from the Effects of Lightning Strikes, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI O-01) Glider Towing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI O-02) Tow Cable Retraction Mechanisms",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, NPA 23-3, ACJ Material",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "ICAO, Annex 16, Volume 1, Third Edition, 1993",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "CRI A-03 for additional national requirements See Note 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "CRI A-03 1200, for Take Off mass of 1200 kg See Note 11",
           "applicability": null,
           "applicability_notes": null,
           "references": []

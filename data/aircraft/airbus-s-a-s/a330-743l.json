@@ -1,0 +1,815 @@
+{
+  "manufacturer": "AIRBUS S.A.S.",
+  "model_designation": "A330-743L",
+  "common_name": "A330-743L",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.004",
+        "revision": "70",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7518/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "- Certification Requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25 Change 13 effective on October 5, 1989 except as follows: \u25cf JAR 25.561 is applied at change 12 for wing tanks outside the fuselage contour; \u25cf JAR 25.415 is applied at change 14 for ground gust condition for control systems;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 15 related to the Overall A/C Design (Loads, Handling Qualities, Performances, Ditching, Rapid decompression, Acoustic Fatigue, Aeroelasticity, AFM, Lightning and HIRF protection, Engine/APU rotor burst): 25.21(a)(c)(d)(e)(f), 25.23, 25.25, 25.27, 25.29, 25.101, 25.103(a)(c)(d), 25.105(b)(c)(d), 25.107(a)(b)(c)(d)(e)(f)(g), 25.109, 25.111(a)(b)(d), 25.113, 25.115, 25.117, 25.119, 25.121(a), 25.123(a), 25.125, 25.143(a)(b1)(b3)(d)(e)(f)(g)(h)(k), 25.145(a)(b)(c)(e), 25.147(a)(c)(d)(f), 25.149, 25.161, 25.171, 25.177, 25.181, 25.201, 25.203, 25.231(a), 25.233, 25.235, 25.251(b)(c)(d)(e), 25.253(a)(b), 25.255, 25.301(b)(c), 25.302, 25.303, 25.305(c)(f), 25.321(b), 25.321(c), 25.321(d), 25.331(a), 25.331(b), 25.331(c), 25.333, 25.335(a)(b)(e), 25.335(b), 25.335(c), 25.335(d), 25.335(e), 25.337, 25.427, 25.341, 25.343(a)(b1)(b3), 25.345(a), 25.345(b), 25.345(d), 25.349, 25.351, 25.363, 25.365(e1)(e2)(e3)(f)(g), 25.367, 25.371, 25.373, 25.391, 25.445, 25.457, 25.471(b), 25.473, 25.477, 25.479, 25.481(a)(c), 25.483, 25.485, 25.489, 25.491, 25.493, 25.495, 25.499, 25.503, 25.507, 25.509, 25.511, 25.519, 25.561, 25.571(a)(b)(c)(d)(e), 25.581, 25.603(c), 25.629, 25.721(b), 25.773(b)(1)(i), 25.777(i), 25.791, 25.807(i), 25.812(a1)(f)(i)(j)(k), 25.899, 25.903(d1), 25.954, 25.1001(a)(b), 25.1309(a)(b)(c), 25.1323(c)(d), 25.1325(e), 25.1353(a), 25.1431(c)(d), 25.1501, 25.1503, 25.1505, 25.1507, 25.1511, 25.1513, 25.1515, 25.1516, 25.1517, 25.1519, 25.1527, 25.1531, 25.1533, 25.1581(a)(b)(d), 25.1583(a)(b)(c)(d)(e)(f)(h)(i)(k), 25.1585(a)(b)(c)(e)(f), 25.1587(b), 25.1591, 25J903(d1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "25.103(b), 25.105(a), 25.111(c), 25.119, 25.121(b)(c)(d), 25.123(b), 25.125, 25.207, 25.237, 25.251(a), 25.1419 (flight in icing conditions or load factor)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 17",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-17"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316, 25.1317 (Elect to Comply for Aircraft Electrical and Electronic System Lightning and HIRF protection)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraph applicable at Amdt 23",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-23"
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.1324 (post TC changes impacting Angle of Attack Installation)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 15 related to the significant structural changes applied on the A/C (lowered nose section containing the cockpit and the courier area, upper bubble, modified HTP with its auxiliary fins, shifted up VTP, dorsal fin and ventral fins, additional fuselage section, pressure bulkhead door and belly door, pressure roof between pressurized compartments and main deck cargo compartment): 25.302, 25.305(a)(b)(c), 25.307(a), 25.365(a)(b)(d)(e2), 25.509(b), 25.519, 25.561(b)(c)(d), 25.571(a1)(a2)(a3)(b)(c)(e1)(e3)(e4), 25.581, 25.601, 25.603, 25.605, 25.607, 25.609, 25.613, 25.619, 25.621, 25.625, 25.631, 25.683(b), 25.783(a), 25.789, 25.841(b7), 25.843(a), 25.903(d1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraph applicable at Amdt 8",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-8"
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.603 (materials of the modified FRE)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 15 related to the cargo function (unpressurized Main Deck Cargo Compartment (class E), Main Deck Cargo Door and its Cargo Door Actuation System (CDAS), Cargo Loading System (CLS) in the main deck cargo area): 25.001, 25.301(a), 25.305(a)(b), 25.307(a), 25.365(e), 25.561, 25.581, 25.601, 25.603, 25.605, 25.607, 25.609, 25.611, 25.613(a)(b)(c), 25.631, 25.783(a)(b)(c)(d)(e)(f)(g2)(h), 25.787, 25.789, 25.793, 25.809(b)(c), 25.811, 25.831, 25.832, 25.841, 25.843, 25.851(a)(b)(c), 25.853(a), 25.855(a)(b1)(c2)(d)(e)(f)(g)(i), 25.856(a), 25.857(e), 25.863, 25.0869(a), 25.899, 25.903(d1), 25.954, 25.1103(d), 25.1301(a)*, 25.1309(a)(b)(c)*, 25.1353(a)(e), 25.1357, 25.1360, 25.1365(d), 25.1431(a)(c)(d), 25.1435, 25.1438, 25.1455, 25.1461, 25.1519, 25.1527, 25.1541, 25.1557(a)(c)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraph applicable at Amdt 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "25.1419(a)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 17",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-17"
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316, 25.1317 (Elect to Comply for Aircraft Electrical and Electronic System Lightning and HIRF protection)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "* In this category related to cargo function, paragraphs CS25.1301(a) and CS25.1309(a)(b)(c) apply to the Main Deck Cargo Door, Cargo Access Door and CLS equipments. In addition, CS25.1309(a) applies also to ATA 390 and 391 (Lightning direct/indirect effect).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 15 related to the pressurized areas (Courier Area, cockpit, emergency escape path to evacuate through Cockpit Sliding Windows, pressure bulkhead door and belly door, avionic bay): 25.001, 25.365(e)(f)(g), 25.561(c), 25.571(e4), 25.581, 25.601, 25.603, 25.605, 25.607, 25.609, 25.611, 25.631, 25.777(i), 25.783(a)(b)(c)(d)(e)(f)(g2)(h), 25.789, 25.791, 25.803(a)(c), 25.807(a)(e)(f)(g)(i)(j), 25.809(a)(b)(c)(e)(g), 25.810(a1)(a2), 25.811, 25.812(h), 25.813(e), 25.831, 25.832, 25.841, 25.843, 25.851(a)(c), 25.853(a), 25.854, 25.855(d)(e)(h2)(i), 25.856(a), 25.857(e), 25.863, 25.0869(a), 25.899, 25.903(d1), 25.954, 25.1103(d), 25.1301(a)*, 25.1309(a)(b)(c)*, 25.1353(a)(e), 25.1357, 25.1360(a), 25.1365(d), 25.1411(c)(d)(f), 25.1431(a)(c)(d), 25.1435, 25.1438, 25.1461, 25.1527, 25.1541, 25.1557(a)(c)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following JAR 25 paragraphs applicable at change 14 (valid only for CIDS)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "25.789, 25.831(e), 25.853(a), 25.869(a), 25.903(d1), 25.1301, 25.1309, 25.1353(a)(b)(d), 25.1355(c), 25.1357(a), 25.1360(a), 25.1423, 25.1431",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraph applicable at Amdt 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "25.1419(a)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 17",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-17"
+            }
+          ]
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316, 25.1317 (Elect to Comply for Aircraft Electrical and Electronic System Lightning and HIRF protection) *In this category related to pressurized areas, paragraphs CS25.1301(a) and CS25.1309(a)(b)(c) apply to the Belly Door and the Pressure Bulkhead Door. In addition, CS25.1309(a) applies also to ATA 390 and 391 (Lightning direct/indirect effect).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 15 in the frame of the Courier Area STC: 25.301, 25.303, 25.305, 25. 307, 25.365(e)(f)(g), 25.561, 25.571, 25.601, 25.603, 25.605, 25.607, 25.609, 25.611(a), 25.613, 25.619, 25.623, 25.625, 25.787, 25.789, 25.791, 25.793, 25.803, 25.811(b)(c)(d)(g), 25.813, 25.815, 25.820, 25.831, 25.832, 25.853, 25.854, 856(a), 25.869(a1)(a2), 25.899, 25.1357, 25.1360, 25.1362, 25.1411, 25.1431, 25.1450, 25.1519, 25.1541, 25.1557, 25.1585",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following JAR 25 paragraphs applicable at change 14",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "25.1423 (public address system)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 17",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-17"
+            }
+          ]
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316, 25.1317 (Elect to Comply for Aircraft Electrical and Electronic System Lightning and HIRF protection)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "Plus the following CS 25 paragraphs applicable at Amdt 19",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-19"
+            }
+          ]
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "25.812(a)(b)(c)(d)(e)(f)(i)(j)(k)(l) (emergency lighting)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "- All weather operations JAR AWO change 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "Airborne Communication, Navigation, Surveillance CS-ACNS Initial Issue \u25cf Subpart B, Section 2 \u2013 for optional modifications (Post TC) installing FANS aiming at answering to SES mandate as defined in (EU) N\u00b0 29/2009 and amended by (EU) N\u00b0 310/2015 of 26 Febuary 2015. Note: For compliance to CS-ACNS Subpart B, Section 2, a deviation to CS- ACNS.B.DLS.B1.075 is accepted by DEV ACNS-B-GEN-01 to not include DM89 MONITORING [unit name] [frequency] in the downlink message set installed. \u25cf Subpart D \u2013 for optional modifications installing transponders aiming at answering to SES mandate as defined in (EU) No 1207/2011 and amended by (EU) No 1028/2014 of 26 September 2014. \u25cf Subpart E, Section 2 \u2013 for RVSM",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "\u25cf JAR AWO 140, 183 Change 2. \u25cf CS 25.1535 amdt 15 (ETOPS) \u25cf For A/C configuration with ELT-DT equipment MOD 210023",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-15",
+              "provisions": [
+                "1535"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 39,
+          "entry_type": "regulation",
+          "raw_reference": "- CS ACNS at Issue 3 Subpart E Section 3",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "regulation",
+          "raw_reference": "\u25cf The following part of the certification basis constitutes the minimum required safety level of CS 25.571 amdt 15. For changes that affect or introduce fatigue critical structures CS 25.571 amdt 15 applies, plus: 1. For structures susceptible to widespread fatigue damage (WFD): a. WFD evaluations must substantiate freedom from WFD up to the limit of validity (LOV); b. Inspections and other maintenance actions upon which the LOV is dependent must be established and submitted to EASA for approval;",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-15",
+              "provisions": [
+                "571"
+              ]
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-15",
+              "provisions": [
+                "571"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 41,
+          "entry_type": "regulation",
+          "raw_reference": "2. The list of fatigue critical modified structures (FCMS) must be developed or amended as necessary and made available to aircraft operators as part of the ICA of the change;",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "regulation",
+          "raw_reference": "3. The baseline corrosion prevention and control programme must be amended or supplemented to address the influence of the change on the effectiveness of the programme, as necessary.",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "regulation",
+          "raw_reference": "Note 1: Points 1 and 3 do not apply to changes introduced by STC. Note 2: Points 1, 2 and 3 do not apply to repairs. Note 3: CS 25.571 amdt 19 or later does not include the above exceptions for STC and repair applicants any longer. Note 4: This TCDS entry does not invalidate the 21.A.101 process by which a later CS",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-19",
+              "provisions": [
+                "571"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 44,
+          "entry_type": "regulation",
+          "raw_reference": "25.571 amendment may become applicable.",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "regulation",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "regulation",
+          "raw_reference": "\u25cf From 01 February 2026, for each Minor/Major Change on the A330-743L models, except those changes of design to TC, which are reconducted from other model(s) and where the change on this new model does not introduce any design\u2010related human performance change, CS 25.1302 at amendment 15 is applicable",
+          "applicability": "Additional Airworthiness Requirements (added Post TC)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-15",
+              "provisions": [
+                "1302"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 47,
+          "entry_type": "special_condition",
+          "raw_reference": "- JAA Numbering: SC A-4 Design Dive Speed (VD)",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "special_condition",
+          "raw_reference": "SC A-5 Limit pilot forces and torque",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "special_condition",
+          "raw_reference": "SC G-5 Resistance to fire terminology",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "special_condition",
+          "raw_reference": "SC P-32 Fuel Tank Safety",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-3 Landing gear warning",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-6 A330/A340 Lightning Protection Indirect Effects",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-10 A330/A340 Effect Of External Radiation Upon Aircraft Systems",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 54,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-13 Autothrust system",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 55,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-16 Control signal integrity",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 56,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-18 Unusual features not addressed by existing JAR",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 57,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-20 Emergency Electrical Power",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 58,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-21 Brakes Wear Limits",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 59,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-23 Electrical wiring and miscellaneous electrical requirements",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 60,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-24 Doors",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 61,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-38 Towbarless Towing",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 62,
+          "entry_type": "special_condition",
+          "raw_reference": "SC S-148 Longitudinal touchdown performance limit + MABH deletion",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 63,
+          "entry_type": "special_condition",
+          "raw_reference": "- EASA Numbering: SC B-01-700L Stalling and scheduled operating speeds",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 64,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-02-700L Electronic flight control system, control surface awareness",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 65,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-04-700L Static directional, lateral and longitudinal stability and low energy awareness",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 66,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-05-700L Flight enveloppe protections",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 67,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-06-700L Load factor limiting system",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 68,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-14-700L On-Ground Yaw Stabilisation Law \u2013 R* law",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 69,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-02-700L Courier Area: Allowed Occupants",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 70,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-03-700L Emergency evacuation",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 71,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-10-700L Brake kinetic energy capacity",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 72,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-50/700L/AIS Courier Area Airworthiness Requirements",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 73,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-126 Flight Recorders including Data Link Recording",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 74,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-131 Flight Instrument External Probes \u2013 Qualification in Icing Conditions New UTAS Pitot Probes",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 75,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-137 Security protection of aircraft systems and networks",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 76,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-GEN-01 Non-rechargeable lithium battery installation",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 77,
+          "entry_type": "special_condition",
+          "raw_reference": "SC H-01 Enhanced Airworthiness programme for Aeroplane Systems \u2013 ICA on EWIS",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 78,
+          "entry_type": "special_condition",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": "Original Special Conditions part of Certification Basis (at time of TC)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 79,
+          "entry_type": "other",
+          "raw_reference": "- Airborne Communication, Navigation, Surveillance ACNS-B-GEN-01 Deviation to CS-ACNS Initial Issue Subpart B, Section 2 (See Note in \u00a7II-2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 80,
+          "entry_type": "elos",
+          "raw_reference": "Improved flammability standards for thermal / acoustic insulation materials Main Deck Class E Cargo Compartment Cockpit sliding windows compliance aspects with CS 25.783 Pressure Bulkhead and Cargo Access Doors \u2013 Compliance aspects with CS 25.783 Cockpit Sliding Window Fasteners - Compliance aspects with CS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 81,
+          "entry_type": "elos",
+          "raw_reference": "25.607(a)(c) Main Deck Cargo Door visual indication provision as per CS 25.783(f) Landing Light Switch",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 82,
+          "entry_type": "elos",
+          "raw_reference": "ESF FCD-MULTI-01 CS-FCD T3 Evaluation Process (applicable from November 2021) Pneumatic Systems \u2013 harmonized 25.1438 (applicable from July 2025, EASA approval Letter ref. 10087589 - MOD 211280)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 83,
+          "entry_type": "other",
+          "raw_reference": "7.1 Noise See TCDSN no. EASA.A.004",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 84,
+          "entry_type": "other",
+          "raw_reference": "7.2 Fuel Venting ICAO Annex 16, Volume II, amendment 07, Part II, Chapter 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 85,
+          "entry_type": "other",
+          "raw_reference": "\u25cf ETOPS Technical Conditions \u25cf EASA Approved ETOPS Capability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 86,
+          "entry_type": "other",
+          "raw_reference": "Issue: 70 [A330-743L] Date: 30/10/2026",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

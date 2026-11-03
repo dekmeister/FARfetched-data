@@ -1,0 +1,357 @@
+{
+  "manufacturer": "GULFSTREAM AEROSPACE LP (GALP)",
+  "model_designation": "Gulfstream G280",
+  "common_name": "Gulfstream G280",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.348",
+        "revision": "6",
+        "revision_date": "2025-05-26",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7184/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "A7IL",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25, Amdt 25-1 trough 25-120 and Amdt 25-122 for\u00a725.1317",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 CS-25, Amendment 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 CS-AWO initial issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 For steep approach landing modification(G25-10059) CS 25 Amendment 13, Appendix Q",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-13"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 For pitot tube modification (G25-10089) CS 25 Amendment 26 for 25.1324",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-26",
+              "provisions": [
+                "1324"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 For total air temperature (TAT) probe modification (G25-20218) CS 25 Amendment 26 for 25.1324",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-26",
+              "provisions": [
+                "1324"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Original Special Conditions part of Certification Basis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "B-01 Human Factors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "B-02 Flight in Icing Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "B-09 Stall Protection System (SPS): Wing Anti-ice System (WAIS) Interaction with SPS Shaker and Pusher Settings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "C-01 Fuel Tank Integrity /Fuel Tank Access Covers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "C-04 Yawing Manoeuvring Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "D-02 High Altitude Operations/High Heat Loads",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Side Facing Seats / Sofas",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "D-12 Pilot compartment view \u2013 Hydrophobic coatings in lieu of windshield wipers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "D-14 Use of Magnesium Alloy in the Cabin",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "E-06 Uncontrollable high thrust",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "E-08 Falling and blowing snow",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "F-02 Towbarless Towing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "F-05 Application of ARAC Proposal 25.671",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "F-12 HIRF Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "F-13 Lightning Protection; Direct Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "F-14 Lightning Protection; Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "other",
+          "raw_reference": "E-13 Wing Anti Ice Deviation (see note 5)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "F-42 \u201cSpeed Brakes Extended\u201d caution message during steep approach landings (not applicable for aircraft which has MOD G25-10074 or SB 280-34-273 installed)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "D-05 Emergency Exit Locator Signs / Marking Signs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "D-06 Flammability of thermal and acoustical Insulation Materials",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "D-08 Fuselage Doors, Hatches and Exits",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "D-10 Pilot compartment view \u2013 Hydrophobic coatings reliability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "D-13 Emergency Exit markings Emergency Lighting",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "elos",
+          "raw_reference": "E-02 Digital only N2 Indication",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "E-10 APU mounting system fireproofness",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "E-11 Resistance to fire of APU compartment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "E-15 Turbine Engine Tailpipe Fire Detection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "F-15 External LED Navigation Lights",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Amendment 12, Chapter 14 for Noise",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume II (Third Edition), Amendment 6",
+          "applicability": "Fuel and exhaust emmisions",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

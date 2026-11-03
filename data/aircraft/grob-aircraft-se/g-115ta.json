@@ -1,0 +1,55 @@
+{
+  "manufacturer": "GROB Aircraft SE",
+  "model_designation": "G 115TA",
+  "common_name": "G 115TA",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.364",
+        "revision": "4",
+        "revision_date": "2023-09-06",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7172/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "See 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23 including Amendments 1 \u2013 45, excluding Amendment 44",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "\u201cProtection for Electrical and Electronic Systems from High Intensity Radiated Fields (HIRF)\u201d, LBA Az.: I 331 as of 07-May-1996",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "L\u00e4rmschutzforderungen f\u00fcr Luftfahrzeuge (LSL), Issue 01-January-1991 (Note 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

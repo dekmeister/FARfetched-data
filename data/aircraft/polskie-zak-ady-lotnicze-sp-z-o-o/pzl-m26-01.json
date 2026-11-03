@@ -1,0 +1,46 @@
+{
+  "manufacturer": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
+  "model_designation": "PZL M26 01",
+  "common_name": "PZL M26 01",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.057",
+        "revision": "2",
+        "revision_date": "2007-08-03",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7411/en"
+      },
+      "categories": [
+        "acrobatic",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Amdt. 28 with extension on Amdt. 36",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-28"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Annex 16, Section 10 of ICAO Convention; FAR Part 36, Appendix G",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

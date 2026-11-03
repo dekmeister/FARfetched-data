@@ -1,0 +1,93 @@
+{
+  "manufacturer": "Game Composites LLC",
+  "model_designation": "GB1 GameBird",
+  "common_name": "GB1 GameBird",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.610",
+        "revision": "4",
+        "revision_date": "2019-03-29",
+        "source_url": "https://www.easa.europa.eu/en/downloads/22400/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, Amendment 3 dated 20 July 2012",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-E23-0863-01 - Smoke system",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1309-03 - Protection from the Effects of Lightning Strike, Indirect Effects;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1309-02 - Protection from the Effects of HIRF (CRI F-52);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "ELOS-B23.0207-01 Stall warning; ELOS-D23- 0785d-01 - Double action seat belt system;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "ELOS-CS23.777/781- Position and shape of Engine Controls; ELOS-GB1-B23-0177a-01CS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "23.177(a) and (d), for CS-23 aerobatic aeroplanes;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "N/A (aerobatic only).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

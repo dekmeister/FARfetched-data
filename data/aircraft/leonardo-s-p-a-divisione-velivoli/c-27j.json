@@ -1,0 +1,199 @@
+{
+  "manufacturer": "Leonardo S.p.A. \u2013 Divisione Velivoli",
+  "model_designation": "C-27J",
+  "common_name": "C-27J",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.407",
+        "revision": "5",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7142/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25, Large Aeroplanes, Change 14, Amendment 25/96/1 dated 19 April 1996",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 1, Definitions, Change 5 dated 15 July 1996 JAR AWO Change 2, effective 01 August 1996",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Reversions to FAR 25 amdt 35 paragraphs are applicable to C-27J: 25.783 Doors 25.805 Flight crew emergency exits 25.809 Emergency exit arrangement 25.811 Emergency exit marking 25.812 Emergency lighting 25.813 Emergency exit access.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/C-01 Interaction of Systems and Structures CRI C-01 (NPA 25C-199)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/D-01 Class E Cargo Compartments CRI D-01",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/E-01 Propeller Reversing System CRI E-01",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/F-05 Electronic Hardware Design Assurance CRI F-05",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/F-01 Protection from Effects of HIRF CRI F-01 (INT/POL/25/2 Iss 2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/F-08 Flight in Icing Conditions CRI F-08 (NPA 25F-219)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C27J/F-10 Severe Icing Conditions CRI F-10 (INT/POL/25/11)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-27J/H-01 Enhanced Airworthiness Programme for CRI H-01 Aeroplane System \u2013 ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "exemption",
+          "raw_reference": "JAR 25.841 (a) Max cabin altitude 8000 ft CRI D-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "exemption",
+          "raw_reference": "JAR 25.841 (b)(6) Max cabin altitude warning at 10000 ft CRI D-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.779 (b)(2) Motion and effect of emergency landing gear control CRI D-03",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.791(b) Passenger information signs CRI D-04",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.1093 (b) Air intake system Ice Protection CRI E-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25A.1193(e)(3) Cowling and nacelle skin CRI J-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.1305 (e)(1) Torque indicator CRI F-12",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25A1549 APU Instruments\u2013Marking and Placards CRI J-03",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "The following paragraphs of FAR 25 are elected to comply: FAR 25.307 (a) Proof of structure amdt 25-87 FAR 25.631 Bird Strike Damage amdt 25-87 FAR 25.562 Emergency landing dynamic conditions amdt 25-87 FAR 25.671 (c)(1) Control Systems amdt 25-87 FAR 25.831 (g) Ventilation amdt 25-87 FAR 25.856 (a) Thermal Acoustic amdt 25-111 FAR 25.981 (b)(d) Fuel Tank Ignition Prevention amdt 25-125",
+          "applicability": null,
+          "applicability_notes": "Elect to Comply",
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "Noise: ICAO Annex 16, Volume I, Chapter 3 See EASA Type Certificate Data Sheet for Noise (TCDSN) EASA.A.407",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "Fuel venting and emissions: ICAO Annex 16, Volume II",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

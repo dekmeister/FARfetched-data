@@ -1,0 +1,175 @@
+{
+  "manufacturer": "Aircraft Industries, a.s.",
+  "model_designation": "L 410 NG",
+  "common_name": "L 410 NG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.026",
+        "revision": "35",
+        "revision_date": "2026-05-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7473/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, incl. Amdt. 4 and FAR-23, incl. Amdt. 41 CS-ACNS, Initial Issue Requirements elected to comply: CS-MCSD-001, Certification Memoranda, Issue 01 The L 410 NG model is a derivative of the L 410 UVP-E20 model at FAR 23 Amdt. 41 as a baseline product. L 410 NG type design certification basis as is stated in CRI A-01 consists of: \u2022 CS 23, Amendment 4 has been used for changed areas by significant change to type design according to 21.A.101(a) or Secondary change according to 21.A.101(b)(3) or Supplementary change according to 21.A.101(b)(1), with the exceptions listed below. See NOTE 3 for more detailed description. o FAR-23, Amendment 41: 23.1, 23.29, 23.143, 23.171, 23.173, 23.231, 23.303, 23.307, 23.333, 23.345, 23.363, 23.367, 23.391, 23.395, 23.397, 23.399, 23.405, 23.407, 23.409, 23.457, 23.459, 23.471, 23.481, 23.483, 23.493, 23.507, 23.509, 23.601, 23.603, 23.605, 23.609, 23.619, 23.625, 23.627, 23.641, 23.651, 23.671, 23.681, 23.683, 23.685, 23.693, 23.699, 23.726, 23.727, 23.771, 23.954, 23.969, 23.994, 23.995, 23.1093, 23.1111, 23.1149, 23.1182, 23.1327, 23.1335, 23.1367, 23.1381, 23.1419, 23.1501, 23.1513, 23.1519, 23.1523, 23.1524, 23.1529, 23.1541, 23.1547. o FAR-23, Amendment 42: 23.331, 23.351, 23.421, 23.423, 23.425, 23.427, 23.939. o FAR-23, Amendment 43: 23.937, 23.943, 23.951, 23.953, 23.957, 23.961, 23.967, 23.971, 23.977, 23.991, 23.993, 23.997, 23.999, 23.1011, 23.1189, 23.1322, 23.1357. o FAR-23, Amendment 45: 23.23, 23.141, 23.305, 23.321, 23.361, 23. 479, 23.485, 23.613, 23.655, 23.672, 23.731, 23.733, 23.773, 23.851, 23.1507, 23.1525, 23.1527, 23.1549, 23.1557. o FAR-23, Amendment 48: 23.301, 23.335, 23.337, 23.341, 23.343,23.347, 23.349, 23.371, 23.393, 23.415, 23.441, 23.443, 23.455, 23.473, 23.499, 23.572, 23.573, 23.574, 23.575, 23.607, 23.611, 23.657, 23.725, 23.865. o FAR-23, Amendment 49: 23.677, 23.723, 23.729, 23.745, 23.787, 23.791, 23.855, 23.867, 23.1307, 23.1321, 23.1326, 23.1329, 23.1351, 23.1359, 23.1361, 23.1365, 23.1435. o FAR-23, Amendment 50: 23.25, 23.69, 23.75, 23.145, 23.147, 23.149, 23.153, 23.155, 23.157, 23.161, 23.175, 23.207, 23.233, 23.235, 23.1325, 23.1511, 23.1521, 23.1543, 23.1553, 23.1581, 23.1589 o FAR-23, Amendment 51: 23.779, 23.925, 23.929, 23.933, 23.955, 23.959, 23.963, 23.965, 23.973, 23.975, 23.979, 23.1041, 23.1043, 23.1045, 23.1141, 23.1143, 23.1191, 23.1337 o FAR-23, Amendment 52: 23.1305 o FAR-23, Amendment 53: 23.901 o FAR-23, Amendment 57: 23.1308 o FAR-23, Amendment 58: 23.1457, 23.1459 o FAR-23, Amendment 59: 23.905, 23.907 o FAR-23, Amendment 61: 23.1306 \u2022 FAR-23, Amendment 41 has been used for not significant areas of the change to type design according to 21.A.101(b)(1) and not affected areas by the change according to 21.A.101(b)(2). \u2022 FAR-23, Amendment 41 has been used for following not affected FAR-23 sections: 23.21, 23.33, 23.373, 23.445, 23.477, 23.623, 23.659, 23.673, 23.675, 23.689, 23.697, 23.701, 23.721, 23.775, 23.781, 23.803, 23.813, 23.815, 23.831, 23.863, 23.871, 23.1013, 23.1015, 23.1017, 23.1019, 23.1021, 23.1023, 23.1027, 23.1091, 23.1103, 23.1105, 23.1121, 23.1123, 23.1145, 23.1153, 23.1155, 23.1163, 23.1165, 23.1183, 23.1193, 23.1195, 23.1197, 23.1199, 23.1201, 23.1203, 23.1383, 23.1384, 23.1387, 23.1389, 23.1391, 23.1393, 23.1395, 23.1397, 23.1401, 23.1411, 23.1415, 23.1437, 23.1438, 23.1449, 23.1461, 23.1551, 23.1561. \u2022 FAR-23, Amendment 43 has been used for following not affected FAR-23 sections: 23.1147, 23.1141. \u2022 FAR-23, Amendment 45 has been used for following not affected FAR-23 sections: 23.655, 23.679, 23.851. \u2022 FAR-23, Amendment 46 has been used for following not affected FAR-23 sections: 23.811. \u2022 FAR-23, Amendment 49 has been used for following not affected FAR-23 sections: 23.783, 23.785. \u2022 FAR-23, Amendment 62 has been used for following not affected FAR-23 sections: 23.807, 23.856. Changed areas by significant change to type design according to 21.A.101(a) ATA 08 LEVELING AND WEIGHING 08-10 WEIGHING AND BALANCING \u2022 Increase of MTOM. ATA 11 PLACARDS AND MARKINGS 11-20 INTERIOR PLACARDS \u2022 Redesigned cockpit. ATA 21 AIR CONDITIONING 21-60 TEMPERATURE CONTROL \u2022 Installation of automatic temperature control system. \u2022 Installation of new mechanically control shut-off flap and installation of modified temperature transmitters. \u2022 Installation of electromechanical regulation valve. \u2022 Modification of air condition control panel. ATA 22 AUTO FLIGHT 22-10 AUTOPILOT \u2022 Installation of GFC 700. ATA 24 ELECTRICAL POWER 24-50 AC ELECTRICAL LOAD DISTRIBUTION \u2022 Removal of 3x36V/400Hz inverters, installation of 1x36V/400 Hz invertor. 24-60 DC ELECTRICAL LOAD DISTRIBUTION \u2022 Modification of output part of electrical energy generating and distribution system. ATA 25 EQUIPMENT / FURNISHING 25-10 FLIGHT COMPARTMENT \u2022 Installation of modified instrument and control panels and installation of LED lights for lighting of cockpit. 25-60 EMERGENCY \u2022 ELT. ATA 26 FIRE PROTECTION 26-10 DETECTION 26-20 EXTINGUISHING \u2022 Modification of fire detection and fire extinguishing systems in front baggage compartment. ATA 27 FLIGHT CONTROLS 27-10 AILERON AND TAB \u2022 Upgraded electromechanical trim actuator with doubled push-pull rods and with internal deflection sensor. 27-20 RUDDER AND TAB \u2022 Upgraded electromechanical trim actuator with doubled push-pull rods and with internal deflection sensor. 27-30 ELEVATOR AND TAB \u2022 Doubled control rods for each RH and LH trim tab. 27-60 SPOILER, DRAG DEVICES AND VARIABLE AERODYNAMIC FAIRINGS \u2022 Ground spoiler can be activated by both members of flight crew. ATA 28 FUEL 28-10 STORAGE \u2022 Integral fuel tanks. \u2022 Increase of fuel capacity of wing tip tanks. 28-20 DISTRIBUTION \u2022 A completely new distribution system. 28-40 INDICATING \u2022 New fuel quantity measuring system connected to G3000. ATA 29 HYDRAULIC POWER 29-10 MAIN \u2022 Relocation of hydraulic aggregates on the wing structure and optimization of tubing track. \u2022 Upgrade of hydraulic equipment (ATA 27-Automatic bank control tab actuator, Ground spoiler actuator, Wing flap actuator, ATA 29-Hydraulic tank, Hydraulic accumulator, Hydraulic brake accumulator, Pressure relief valve, emergency / fire valve, Capacitance level gauge, Capacitive level sensor, Hydraulic fluid level indicator, ATA 32\u2013Hydraulic parking brake accumulator, Lock release cylinder, Emergency actuator of the lock, Main landing gear jack\u2013LH/RH, Nose landing gear jack, Nose wheel steering servo, Pressure transmitter (2500 psi), Pressure transmitter (1000psi)). 29-30 INDICATING \u2022 Quantity of hydraulic fluid in hydraulic tank. \u2022 New pressure sensors for EIS. ATA 30 ICE AND RAIN PROTECTION 30-10 AIRFOIL \u2022 Modernization of control box. 30-30 PITOT AND STATIC \u2022 Modernization of control and indicating box. 30-30 WINDOWS, WINDSHIELDS, AND DOORS \u2022 Modernization of cockpit windshields heating. 30-80 DETECTION \u2022 Adding RH side static ice detector and ice inspection lights. ATA 31 INDICATING / RECORDING SYSTEM 31-20 INDEPENDENT / STANDBY INSTRUMENTS 31-30 CENTRAL WARNING / CREW ALERTING 31-40 INTEGRATED DISPLAY SYSTEMS 31-50 CENTRAL WARNING SYSTEMS 31-60 ELECTRONIC FLIGHT INSTRUMENT SYSTEM (EFIS) \u2022 Installation of GARMIN G3000 and connected systems (ATA 22\u2013AUTOPILOT, ATA 23\u2013COM(VHF, HF, SATCOM, WiFi, AUDIO), ATA 34-NAV (AHRS/ADC/FMS, GPS, VOR/LOC/GS, MRKR, DME, XPDR, WX, TCAS, TAWS, R-ALT), ATA 77-EIS). \u2022 Installation of standby EFIS. \u2022 CVR/FDR. \u2022 Upgrading of system of measurement of electrical parameters of electrical sources to ensure theirs displaying on EIS. \u2022 Replacement of sensors of engine parameter (ATA 28-Fuel pressure transmitter, ATA 61- Pressure switch of automatic feathering, ATA 76-Torque limiter pressure switch, ATA 77\u2013 Torque transmitter, Signalization of pressure oil losing, Integrated speed transmitter of propellers and generators, Compensation line, ATA 79-Oil pressure transmitter, Minimum oil pressure switch). ATA 32 LANDING GEAR 32-10 MAIN GEAR AND DOORS \u2022 Modified Main landing gear\u2013left/right, modified Main landing gear shock absorber. 32-40 WHEELS AND BRAKES \u2022 Modified Nose landing gear wheel. \u2022 Modified Main landing gear wheel. \u2022 Modified Brake. \u2022 Modified Nose landing gear wheel tire. \u2022 Modified Main landing gear wheel tire. ATA 34 NAVIGATION 34-10 AIR DATA SYSTEM \u2022 Relocation of static pressure ports and modified installation of pitot tubes. ATA 53 FUSELAGE 53-10 MAIN FRAME",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Reinforcement of fuselage rear part by additional stringers. Stringers starts on the frame No. 18 and ended between frames No. 21 and No. 25. Remaining rear part of fuselage is identical with the model L 410 UVP-E20.",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Reinforcement of stringers under floor grids in fuselage middle part. 53-40 ATTACH FITTINGS",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modification of frames No. 12 and No. 14 in the area of hinges for attachment of the wing. ATA 55 STABILIZER 55-20 ELEVATOR",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Increase of maximum deflection of elevator trim tab. ATA 57 WINGS 57-00 GENERAL",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 New integral wing design and associated changes (fuel system in wing, electrical wiring routing in wing, piping of de-icing system, aileron control system routing, flap control system routing, ground spoilers control system routing, hydraulic tank relocation and hydraulic pipelines routing).",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modification of Automatic Bank Control system. ATA 61 PROPELLERS 61-10 PROPELLER ASSEMBLY",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modified Propeller. 61-20 CONTROLLING",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modified Propeller governor.",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modified Feathering pump. ATA 71 POWER PLANT 71-20 MOUNTS",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Engine mount material replacement and slight modification. ATA 72 ENGINE 72-00 GENERAL",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Installation of turboprop engine model H85-200 BC04. ATA 73 ENGINE \u2013 FUEL AND CONTROL 73-20 CONTROLLING - GOVERNING",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Modified Electronic limiter unit (ELU) SALM 601.",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 Replacement of current engine and propeller cable control systems by Teleflex.",
+          "applicability": "\u2022 Nose part between frames No. 1 to No. 4 is redesigned by extension of nose part about 600mm. No changes between FR.8 and FR.18, expect of",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23.0901-01, issue 2: Rate of Water Ingestion",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "Cockpit Controls Landing Gear Control Handle Position Airspeed Indicator",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "Powerplant instruments Magnetic compass",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "CS-36, Amendment 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "other",
+          "raw_reference": "CS-34, Amendment 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

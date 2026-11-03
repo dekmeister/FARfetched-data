@@ -1,0 +1,441 @@
+{
+  "manufacturer": "Cirrus Design Corporation",
+  "model_designation": "SR22",
+  "common_name": "SR22",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00009CH",
+        "revision": "25",
+        "revision_date": "2025-12-26",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140348100520260127142917.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 of the Federal Aviation Regulations effective February 1, 1965, as amended by 23-1 thru 23-53, except as follows: 14 CFR 23.301 thru Amendment 23-42 14 CFR 23.855, 23.1326, 23.1359, not applicable",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-53"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42",
+              "provisions": [
+                "301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "provisions": [
+                "855",
+                "1326",
+                "1359"
+              ],
+              "effect": "exclude"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 dated December 1, 1969, as amended by 36-1 thru 36-22",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped with Garmin G1000 avionics or Garmin G1000 avionics with Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 2979, 2992, 3002 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped with Garmin G1000 NXi avionics or Garmin G1000 NXi avionics with the Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 4433 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1306 thru Amendment 23-61.",
+          "applicability": "For aircraft equipped with Garmin G1000 NXi avionics or Garmin G1000 NXi avionics with the Garmin GFC-700 autopilot system, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 4433 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1326, 23.1359 thru Amendment 23-49.",
+          "applicability": "For aircraft equipped for optional Flight Into Known Icing operation, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 3003, 3310, 3326, 3403 and subsequent),",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1326",
+                "1359"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft equipped for optional Flight Into Known Icing operation, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 3003, 3310, 3326, 3403 and subsequent),",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1308 thru Amendment 23-57.",
+          "applicability": "For aircraft with 3600 lb max takeoff and landing weight limitation, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 3915 and subsequent)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 thru Amendment 36-28.",
+          "applicability": "For aircraft with 3600 lb max takeoff and landing weight limitation, the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated: (Effective S/N 3915 and subsequent)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 thru Amendment 36-30.",
+          "applicability": "For aircraft equipped with Special Missions provisions (ref. AFM supplement 13772-157), the certification basis, for installation specific items only, is amended to include the following regulation at the amendment level stated",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1303 thru Amendment 23-62",
+          "applicability": "The aircraft certification basis is amended to include the following regulation at the amendment level stated (Effective S/N 4993 and subsequent): (Note: The amended certification basis allows for the optional removal of the wet compass.)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.2610 (a)(c) thru Amendment 23-64 effective S/N 9750 and subsequent",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.853, 23.1311 and 23.1555 thru Amendment 23-62 effective S/N 9750 and subsequent",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "853",
+                "1311",
+                "1555"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft with a Lithium-ion Battery 14 CFR 23.2505, 23.2510 (a)(b)(c), 23.2525 (a)(b)(c), Amendment 23-64 with MOC per Issue Paper included with cert project.",
+          "applicability": "The aircraft certification basis is amended (effective S/N 9750 and subsequent) to include only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "23.2325(f) (23-64);",
+          "applicability": "For aircraft equipped with A337 Halotron BrX fire extinguisher, the aircraft certification basis, for installation specific items only, is amended to include the following regulation at the amendment levels stated: (Effective S/N 11118 and subsequent)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "ACE-96-5 for 14 CFR Section (\u00a7) 23.221 (Spinning); Refer to FAA Memorandum dated June 10, 1998 for models SR20, SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "ACE-00-09 for 14 CFR \u00a7 23.1143(g) (Engine Controls) and \u00a7 23.1147(b) (Mixture Controls); Refer to FAA Memorandum dated September 11, 2000 for model SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "ACE-08-05 for 14 CFR \u00a7 23.777(d) (Cockpit Controls) and \u00a7 23.781(b) (Cockpit control knob shape); Refer to FAA Memorandum dated April 11, 2008 for models SR20, SR22. (effective with optional Garmin G1000 avionics installation, see certification basis above).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "ACE-09-06 for 14 CFR \u00a7 23.1326(b)(1) (Pitot heat indication systems); for Flight Into Known Icing equipped airplanes only (Effective S/N 3003, 3310, 3326, 3403 and subsequent); Refer to FAA Memorandum dated April 20, 2009 for model SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "23-ACE-88 for ballistic parachute, for models SR20, SR22, SR22T.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "23-134-SC for protection of systems for High Intensity Radiated Fields (HIRF), for models SR20, SR22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "23-163-SC for inflatable restraint system. Addition to the certification basis model SR20 effective S/N 1541 and subsequent; model SR22 S/N 1500, 1520 and subsequent; model SR22T (all serials).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption No. 9849 to 14 CFR \u00a7 23.1419(a) for Flight Into Known Icing operations only on model SR22 (Effective S/N 3003, 3310, 3326, 3403 and subsequent). Exemption allows for a higher stall speed than that required by 14 CFR \u00a7 23.49(c) & (d) when operating in icing conditions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.007",
+        "revision": "19",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7512/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in CRI A-1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, Change 1, dated 11-Mar-1994",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-1: Cirrus Airframe Parachute System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-2, Spins",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-1: Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-2: Protection from the Effects of Lightning Strike; Direct Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-3: Protection from the Effects of Lightning Strike; Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-4: Human factors in integrated avionics",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-5: Equipment Systems and Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-6: Software",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-7: BRNAV",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-8: Use of Sandel HSI SN3308",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Amdt 4, third edition, Chapter X",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "other",
+          "raw_reference": "JAR 36, issued 23-May-1997",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "other",
+          "raw_reference": "CRI A-3 (See Note 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "manufacturer": "General Atomics AeroTec Systems GmbH",
+  "model_designation": "Do 128-6",
+  "common_name": "Do 128-6",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.360",
+        "revision": "3",
+        "revision_date": "2024-02-26",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7176/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "- FAR 23 dated 01 February 1965, including Amendment 23-1 through 23-6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "From engine installation affected regulations additional airworthiness requirements according to FAR 23 Amendment 23-23 compliance have been shown: 23.3 to 23.253, 23.361 to 23.363, 23.367, 23.371, 23.471, 23.511, 23.629, 23.723 to 23.727, 23.731 to 23.735, 23.771, 23.777, 23.831, 23.863 to 23.999, 23.1011 to 23.1301, 23.1303(a) to (d), 23.1305 to 23.1323, 23.1331 to 23.1367, 23.1437 to 23.1545, 23.1549 to 23.1559, 23.1563 to 23.1589.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Safety Finding according to LBA-Letter I 22-2031a/81 dated 25 February 1981 (concerning single engine emergency power and stall warning).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

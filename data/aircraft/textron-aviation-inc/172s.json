@@ -1,0 +1,690 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "172S",
+  "common_name": "172S",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "3A12",
+        "revision": "89",
+        "revision_date": "2026-09-15",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23 effective February 1, 1965, as amended by 23-1 through 23-6, except as follows: 23.423, 23.611, 23.619, 23.623, 23.689, 23.775, 23.871, 23.1323, 23.1563 as amended by Amendment 23-7. 23.807, 23.1524 as amended by Amendment 23-10. 23.507, 23.771, 23.853(a)(b)(c), 23.1365 as amended by Amendment 23-14. 23.951 as amended by Amendment 23-15. 23.607, 23.675, 23.685, 23.733, 23.787, 23.1309, 23.1322 as amended by Amendment 23-17. 23.1301 as amended by Amendment 23-20. 23.1353, 23.1559 as amended by Amendment 23-21. 23.603, 23.605, 23.613, 23.1329, 23.1545 as amended by Amendment 23-23. 23.441, 23.1549 as amended by Amendment 23-28. 23.779, 23.781 as amended by Amendment 23-33. 23.1, 23.51, 23.561 as amended by Amendment 23-34. 23.301, 23.331, 23.351, 23.427, 23.677; 23.701, 23.735, 23.831 as amended by Amendment 23-42. 23.961, 23.1093, 23.1143(g), 23.1147(b), 23.1303, 23.1357; 23.1361, 23.1385 as amended by Amendment 23-43. 23.562(a), 23.562(b)(2), 23.562(c)(1), 23.562(c)(2), 23.562(c)(3), 23.562(c)(4) as amended by Amendment 23-44. 23.33, 23.53, 23.305, 23.321; 23.485, 23.621, 23.655, 23.731 as amended by Amendment 23-45.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-6"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-7",
+              "provisions": [
+                "423",
+                "611",
+                "619",
+                "623",
+                "689",
+                "775",
+                "871",
+                "1323",
+                "1563"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-10",
+              "provisions": [
+                "807",
+                "1524"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-14",
+              "provisions": [
+                "507",
+                "771",
+                "1365"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-14",
+              "provisions": [
+                "853"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-15",
+              "provisions": [
+                "951"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-17",
+              "provisions": [
+                "607",
+                "675",
+                "685",
+                "733",
+                "787",
+                "1309",
+                "1322"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1353",
+                "1559"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23",
+              "provisions": [
+                "603",
+                "605",
+                "613",
+                "1329",
+                "1545"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-28",
+              "provisions": [
+                "441",
+                "1549"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-33",
+              "provisions": [
+                "779",
+                "781"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1",
+                "51",
+                "561"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42",
+              "provisions": [
+                "301",
+                "331",
+                "351",
+                "427",
+                "677",
+                "701",
+                "735",
+                "831"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "961",
+                "1093",
+                "1303",
+                "1357",
+                "1361",
+                "1385"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1143"
+              ],
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1147"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "562"
+              ],
+              "paragraph": "(c)(4)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "33",
+                "53",
+                "305",
+                "321",
+                "485",
+                "621",
+                "655",
+                "731"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 dated December 1, 1969, as amended by Amendments 36-1 through 36-21.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.303, 23.307, 23.601, 23.1163(a), 23.1367, 23.1381 as amended by Amendment 23- N/C. 23.1589 as amended by Amendment 23-13. 23.771(a) as amended by Amendment 23-14. 23.607 and (Electrical System) 23.1309(a)(1)(2)(c) as amended by Amendment 23-17. 23.1301, 23.1327, 23.1547(e) as amended by Amendment 23-20. 23.1501, 23.1541(a)(1)(2)(b)(1)(2) as amended by Amendment 23-21. 23.603, 23.605 as amended by Amendment 23-23. 23.1529 as amended by Amendment 23-26. 23.561(e), 23.1523, 23.1581(a)(2), 23.1583(a)(c)(d)(f) and 23.1585(a)(b)(d) as amended by Amendment 23-34. 23.301 as amended by Amendment 23-42. 23.1322, 23.1331, 23.1357(a)(b)(c)(d) as amended by Amendment 23-43. 23.305, 23.773(a)(1)(2), 23.1525, 23.1549 as amended by Amendment 23-45. 23.1303(a)(b)(c)(f), 23.1309(a)(1)(i)(ii)(2)(b)(1)(2)(i)(ii)(3)(4)(i)(ii)(iii)(iv)(c)(1)(2)(iii)(c)(3)(d)(e)(f)(1), 23.1311, 23.1321(a)(c)(d)(e), 23.1323(a) (b)(1)(2)(c), 23.1329(g)(h), 23.1351(a)(1)(2)(i)(b)(1)(iii)(2)(3)(c)(4)(d)(1), 23.1353(a)(b)(c)(d)(e), 23.1359(c), 23.1361, 23.1365(a)(b)(d)(e)(f), 23.1431(a)(b)(d)(e) as amended by Amendment 23-49. 23.1325(a)(b)(1)(2)(i)(3)(c)(d)(e), 23.1543(b)(c), 23.1545(a)(b)(1)(2)(3)(4), 23.1553, 23.1555(a)(b), 23.1563(a), 23.1567(a) as amended by Amendment 23-50. 23.777(a)(b), 23.955(a)(2), 23.1337(a)(1)(2)(b)(1)(c) as amended by Amendment 23-51. 23.1305(a)(1)(2)(3)(b)(2)(3)(i)(b)(4)(i)(5)(6)(i) as amended by Amendment 23-52. 23.901(a)(b) as amended by Amendment 23-53.",
+          "applicability": "Additions for the Garmin G1000 Integrated Cockpit System (ICS) Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1335 as amended by Amendment 23-20. 23.1329(a)(c)(d)(e)(f) as amended by Amendment 23-49.",
+          "applicability": "Additions for the Garmin GFC-700 Automatic Flight Control System (AFCS) only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1335"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1329"
+              ],
+              "paragraph": "(a)(c)(d)(e)(f)"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1327 as amended by Amendment 23-20. 23.1501 as amended by Amendment 23-21. 23.1529 as amended by Amendment 23-26. 23.1523(b), 23.1581(a)(1)(2) as amended by Amendment 23-34. 23.1322, 23.1331 as amended by Amendment 23-43. 23.1525 as amended by Amendment 23-45. 23.1303(a)(b)(f), 23.1309(a)(1)(2)(b)(c)(1)(2)(iii)(3)(d)(e)(f), 23.1311(a)(b), 23.1321(a)(c)(d)(e), 23.1323(a)(c), 23.1351(a)(1)(2)(i), 23.1359(c), 23.1365(a)(d)(e), 23.1431 (a)(b) as amended by Amendment 23-49. 23.1325(a)(b)(1)(i)(ii)(iii)(2)(i), 23.1543(b)(c), 23.1545(a)(b)(1)(2)(3)(4), 23.1555(a)(b) as amended by Amendment 23-50. 23.777(a)(b) as amended by Amendment 23-51. 23.1308(a)(b)(c) as amended by Amendment 23-57.",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20",
+              "provisions": [
+                "1327"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1501"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-26",
+              "provisions": [
+                "1529"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1523"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322",
+                "1331"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "1525"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(a)(b)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)(b)(c)(1)(2)(iii)(3)(d)(e)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1311"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1321"
+              ],
+              "paragraph": "(a)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1323"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(a)(1)(2)(i)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1359"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1365"
+              ],
+              "paragraph": "(a)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1325"
+              ],
+              "paragraph": "(a)(b)(1)(i)(ii)(iii)(2)(i)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)(b)(1)(2)(3)(4)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)(b)(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "23.1306(a)(b) as amended by Amendment 23-61. 23.2010 and 23.2510 as amended by Amendment 23-64 (see NOTE 6).",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S12701 and On.",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "Additions for 14 CFR Part 23 Amendment 64:",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.2000, 23.2005, 23.2010 as amended by Amendment 23-64 (see NOTE 7).",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S12701 and On.",
+          "applicability": "Additions for the Garmin GI 275 Electronic Flight Instrument Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.683, 23.867 as amended by Amendment 23-7. 23.613(a)(b) as amended by Amendment 23-45. 23.301(a), 23.337, 23.561(a)(b)(3)(e), 23.607(a)(b), 23.611 as amended by Amendment 23-48. 23.1329(b), 23.1351(g), 23.1353(h), 23.1359(a)(b), as amended by Amendment 23-49. 23.143(c), 23.1555(e)(2), 23.1581(a)(b)(1)(3)(c)(d)(f), 23.1583(h)(m), 23.1585(j) as amended by Amendment 23-50. 23.1337(b)(c) as amended by Amendment 23-51. 23.2515, 23.2520 as amended by Amendment 23-64 (see NOTE 8).",
+          "applicability": "Additions for the Garmin G1000 NXi Integrated Cockpit System Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S13231 and On.",
+          "applicability": "Additions for the Garmin G1000 NXi Integrated Cockpit System Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1309(a)(1)(2), 23.1353(h), 23.1431(b) as amended by Amendment 23-49. 23.1581(a)(2) as amended by Amendment 23-50. 23.901(a)(1)(2)(b)(1)(2) as amended by Amendment 23-53.",
+          "applicability": "Additions for the Dual Electronic Ignition System Only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-53",
+              "provisions": [
+                "901"
+              ],
+              "paragraph": "(a)(1)(2)(b)(1)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S13375 and On.",
+          "applicability": "Additions for the Dual Electronic Ignition System Only",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 regulations as amended by Amendment 23-64 (see NOTE 9): 14 CFR 23.2010 and 23.2325(g).",
+          "applicability": "Additions for new or changed non-rechargeable lithium battery installations",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S13689 and On.",
+          "applicability": "Additions for new or changed non-rechargeable lithium battery installations",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 regulations as amended by Amendment 23-64 (see NOTE 10): 14 CFR 23.2010, 23.2500, 23.2505 and 23.2510.",
+          "applicability": "Additions for new or changed installations affecting aeronautical security (cybersecurity)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "Effective at S/N 172S13689 and On.",
+          "applicability": "Additions for new or changed installations affecting aeronautical security (cybersecurity)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "Induction System Icing Protection 23.1093, refer to FAA letter dated 5/1/1998",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "Throttle Control 23.1143(g), refer to FAA letter dated 5/1/1998",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "Mixture Control 23.1147(b), refer to FAA letter dated 5/1/1998",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "Anti-Collision Light System 23.1401(d), refer to ACE-07-09, FAA letter dated 10/12/2007",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "Aviation White Color Requirement 23.1397(c), refer to ACE-07-10, FAA letter dated 11/29/2007",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "other",
+          "raw_reference": "Date of Application for Amended Type Certificate for Model 172S was November 13, 1997.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. 3A12 was amended May 1, 1998, for Model 172S.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "No. 23-159-SC, \u201cCessna Aircraft Company, Cessna Model 172S. Installation of Electronic Flight Instrument System and the Protection of the System from High Intensity Radiated Fields (HIRF).\"",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

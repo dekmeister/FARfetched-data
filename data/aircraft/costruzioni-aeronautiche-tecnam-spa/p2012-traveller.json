@@ -1,0 +1,185 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM SPA",
+  "model_designation": "P2012 Traveller",
+  "common_name": "P2012 Traveller",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.637",
+        "revision": "14",
+        "revision_date": "2026-06-09",
+        "source_url": "https://www.easa.europa.eu/en/downloads/69841/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt. 4 dated 15 July 2015.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-C23.div01 Human Factors \u2013Integrated Avionic System (CRI B- 52);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1353-02 Lithium battery installation (CRI F 58);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-CS-23.1305 Fuel low level annunciation means (CRI E-060);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-CS-23.803 Emergency evacuation for Air Medical service (CRI-D- 103), see note 7;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-O23.div-01 Usage of aeroplanes for parachuting activities (CRI O-08), see note 10;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "CRI-D-104 Diching emergency exit, see note 12;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 783(d)(e)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 803(a)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 807(d)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 811(b)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 813(a)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amdt.4 \u00a7 853(d)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.856",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.637;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

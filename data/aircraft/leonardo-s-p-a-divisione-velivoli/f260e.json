@@ -1,0 +1,95 @@
+{
+  "manufacturer": "LEONARDO S.p.A. \u2013 Divisione Velivoli",
+  "model_designation": "F260E",
+  "common_name": "F260E",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.586",
+        "revision": "3",
+        "revision_date": "2017-02-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7060/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Civil Air Regulation Part 3, dated May 15, 1956, including Amendments 3-1 through 3-8 and FAR Part 23 dated February 1, 1965, for the paragraph 23-961, 23-993, 23- 1353 and including Amendment 23-7 for the paragraph 23-735, 23-955;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 23-13 for the paragraph 23-1589; Amendment 23-18 for the paragraph 23-943, 23-959; Amendment 23-23 for the paragraph 23-345; Amendment 23-26 for the paragraph 23-729, 23-991; Amendment 23-29 for the paragraph 23-994, 23- 995; Amendment 23-34 for the paragraph 23-333, 23-863, 23-1581, 23-1583, 23- 1585, 23-1587; Amendment 23-36 for the paragraph 23-2; Amendment 23-38 for the paragraph 23-572; Amendment 23-40 for the paragraph 23-951; Amendment 23-41 for the paragraph 23-1309; Amendment 23-42 for the paragraph 23-221, 23- 341, 23-425, 23-443;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS Part 23 Amendment 1, dated February 12, 2009, for parag. 23.1353 (h).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "exemption",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, chapter 10.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "manufacturer": "Saab AB",
+  "model_designation": "SAAB 2000",
+  "common_name": "SAAB 2000",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.069",
+        "revision": "12",
+        "revision_date": "2022-08-16",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7386/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Original LFV TC A 1/94 was replaced by the EASA TC EASA.A.069.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "See below",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25 (CS-25) Change 13, including JAR 25.1419 (Ice Protection) and JAR 25.801 (Ditching), and excluding JAR 25.562(c)(5) for front row seats (See Note 4 and 5).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAR AWO (CS-AWO) at Change 1 for automatic landing and operations in low visibility.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI Topic",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "B-07 Propeller position in VMC demonstrations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "B-09 Stalling speeds",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "B-12 Stalls, Critical Engine Inoperative",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "B-15 Steep Approach Operation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "C-02 Tuned gust",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "C-06 Stalling speeds for structural design",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "C-07 Improved seat safety standard",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "C-08 Factors for engine torque",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "C-09 Rapid decompression",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "C-12 Rudder limiter \u2013 Interaction of systems and structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "C-13 PECS Interaction of systems and structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "D-01 Lightning protection \u2013 Indirect effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "D-02 Landing Gear Warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Cargo and service doors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "D-08 PECS Control signal integrity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "D-10 PECS Emergency Pitch Trim System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "E-08 Propeller reversing system",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "F-03 Operation without normal electrical power",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "F-04 Miscellaneous electrical requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "F-05 Effect of external radiation upon aircraft systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "F-09 Function and reliability testing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "special_condition",
+          "raw_reference": "F-11 Head-up Guidance System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "F-13 Non rechargeable Lithium Battery installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "H-01 Enhanced Airworthiness Programme for Airplane Systems \u2013 ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "exemption",
+          "raw_reference": "Item / CRI Topic",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "exemption",
+          "raw_reference": "F-10 Application of national operational regulations regarding oxygen for TC",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "No deviations have been granted.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "CRI Topic",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "B-08 Stall and Stall Warning speeds and manoeuvre capability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "D-05 Fire protection of engine and APU mounts",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "D-07 Emergency lights \u201cnot armed\u201d warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "elos",
+          "raw_reference": "D-12 Aisle width (Flight Inspection configuration; S/N 051 and 054) Improved flammability standards for thermal and acoustic insulation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "elos",
+          "raw_reference": "D-13 materials used in Large aeroplanes",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "elos",
+          "raw_reference": "J-02 APU Instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "other",
+          "raw_reference": "Topic",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "other",
+          "raw_reference": "B-01 Controllability and manoeuvrability, stick forces",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "other",
+          "raw_reference": "B-02 Stick pusher",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "other",
+          "raw_reference": "B-03 Flight in Icing Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "other",
+          "raw_reference": "B-04 Reduced and de-rated take-off thrust procedure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "other",
+          "raw_reference": "B-05 Temperature extrapolation limitations in take-off and climb",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "other",
+          "raw_reference": "B-06 Minimum Control Speed",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "other",
+          "raw_reference": "B-13 Take-off run on wet and contaminated runways",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "other",
+          "raw_reference": "B-16 Take-off and Landing in Tailwind greater than 10 knots",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "other",
+          "raw_reference": "B-17 Performance Credit for alternative forward centre of gravity limits Electrical bonding and protection against lightning and static",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "other",
+          "raw_reference": "C-05 electricity (direct effects)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "other",
+          "raw_reference": "C-10 Fuel tank crashworthiness",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "other",
+          "raw_reference": "D-03 Aeroplane wheel and wheel-brake assemblies",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "other",
+          "raw_reference": "D-09 PECS Applicability of ACJ 25.1329",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 54,
+          "entry_type": "other",
+          "raw_reference": "D-11 Automatic Flap retraction system (Mod. No. 5786)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 55,
+          "entry_type": "other",
+          "raw_reference": "E-03 Engine/Propeller control integration",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 56,
+          "entry_type": "other",
+          "raw_reference": "E-04 Aircraft propulsion system equipped with electronic controls",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 57,
+          "entry_type": "other",
+          "raw_reference": "F-02 Electronic instrument displays",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 58,
+          "entry_type": "other",
+          "raw_reference": "F-06 Alerting system",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 59,
+          "entry_type": "other",
+          "raw_reference": "F-07 Software verification",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 60,
+          "entry_type": "other",
+          "raw_reference": "F-08 System design and analysis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 61,
+          "entry_type": "other",
+          "raw_reference": "F-12 Head-up Guidance System, CAT III, One Engine Out Landing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 62,
+          "entry_type": "other",
+          "raw_reference": "J-01 APU rotor non-containment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 63,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.069",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

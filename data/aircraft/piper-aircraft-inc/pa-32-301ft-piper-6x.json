@@ -1,0 +1,159 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-32-301FT Piper 6X",
+  "common_name": "PA-32-301FT Piper 6X",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.239",
+        "revision": "1",
+        "revision_date": "2009-04-06",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7222/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-32-301FT Piper 6X aeroplane the applicable certification basis is based on CAR 3 and FAR23 (for details on the applicable amendments and paragraphs see C.V., note 5).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Avidyne Entegra System option the additional certification basis for installation specific items only is defined in CRI-A01 (for details on applicable paragraphs see C.V., note 6).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Garmin G1000 Integrated Flight Deck option the additional certification basis for installation specific items only is defined in CRI-A01 (for details on applicable paragraphs see C.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 for the basic PA-32-301FT Piper 6X aeroplane (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3, FAR 23 and JAR-23 for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Avidyne Entegra System option (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3, FAR 23 and CS-23 for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Garmin G1000 Integrated Flight Deck option (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "None for the basic PA-32-301FT Piper 6X aeroplane",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F05, Human Factors in Integrated Avionic Systems,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Avidyne Entegra System option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F05, Human Factors in Integrated Avionic Systems,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Garmin G1000 Integrated Flight Deck option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "None for the basic PA-32-301FT Piper 6X aeroplane",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "CRI-F03, Powerplant Instruments for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Avidyne Entegra System option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "CRI-F03, Powerplant Instruments for PA-32-301FT Piper 6X aeroplanes equipped with the factory installed Garmin G1000 Integrated Flight Deck option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

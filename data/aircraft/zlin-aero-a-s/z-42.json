@@ -1,0 +1,109 @@
+{
+  "manufacturer": "ZLIN AERO a.s.",
+  "model_designation": "Z 42",
+  "common_name": "Z 42",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.027",
+        "revision": "10",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7471/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt 23-6 (including)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "\u00a7 23.177(a)(2) \u2013 Good controllability around longitudinal axis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "of the aircraft.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c); \u00a7 23.615 \u2013 Used materials and results of calculation are sufficiently satisfactory (they are in compliance with \u010cSN and specifications effective for aeronautical industry).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.955 \u2013 The fuel flow is closed with battery stopcock and is higher by 50 % than the consumption at start.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991(b) \u2013 Failure of low-pressure fuel pump is extremely improbable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1013(e); \u00a7 23.1019 \u2013 The screen area at oil tank outlet is several times larger than the outlet pipe union section.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1183(\u2013) - The hoses materials safety is proved by operation experience.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1323 \u2013 Aerodynamical repair is on safe side; the speed reached at the cruising power of engine is lower than the speed at which already occurs undesirable distortion.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16/I, Chapter 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

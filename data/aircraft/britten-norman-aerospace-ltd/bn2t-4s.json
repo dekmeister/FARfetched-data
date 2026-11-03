@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Britten-Norman Aerospace Ltd",
+  "model_designation": "BN2T-4S",
+  "common_name": "BN2T-4S",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.388",
+        "revision": "4",
+        "revision_date": "2025-02-17",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7148/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "The following requirements were the basis of certification of the BN2T-4S type design: BCAR Section D \u2013 Aeroplanes \u2013 Issue 6, dated 1 November 1963, sub-sections D3 and D4, except that D4-2 paragraph",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "3.2.2 bird impact, is to be met with a 2 lb bird, in lieu of 4 lb bird. This is the bird mass considered in BCAR Section",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "K4-2 Paragraph 3.2.2, but D requires compliance at cruise speeds as well as climb and descent. See BCAR 23 and JAR 23 below for replacement requirements. BCAR Section K \u2013 Light Aeroplanes - Issue 6, dated 10 April 1974, sub-sections K1, K2, K5, K6 and K7. See JAR 23 below for replacement requirements. BCAR Section N \u2013 Noise \u2013 Issue 5, dated 1 August 1990. BCAR Section R \u2013 Radio \u2013 Issue 4, dated 10 April 1974 BCAR 23 Light Aeroplanes \u2013 Issue 1, dated December 1987.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "i) Flutter Paragraph 23.629 is employed in lieu of D3-9. Note: BCAR 23.471 to 23.511 are employed in lieu of D3-5. (Ref. CAA letter 13 March 1991).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 23 Normal, Utility, Aerobatic and Commuter category Aeroplanes (Draft Issue 4 dated January 1992): i) Performance aspects Employ: JAR 23.45 to 23.77 and 23.1587 together with the parts of JAR 23.1583 and 23.1585 relevant to the attainment of scheduled performance (ie 23.1583(c)(3), 23.1585(a)(3), (a)(6) and (c)(1) to (4) inclusive and 23.149 invoked by 23.51, 23.69 and 23.75. In lieu of: BCAR Section K chapters K2-2, K2-3, K2-4, K2-5 and paragraph K7-5, 7 and BCAR Blue Paper K789. ii) Handling Employ: JAR 23.149, 23.147(b) and 23.177(b) in lieu of BCAR K2-8, 4, K2-8, 6.5 and K2-10, 4.1 respectively. iii) Emergency Exits and Ventilation Employ: JAR 23.807 Emergency Exits, JAR 23.811 Emergency Exit marking, JAR 23.831 Ventilation. In lieu of: BCAR Section D (Issue 6) Chapter D4-3 Paragraph 5.2 Emergency Exits and D4-3 Paragraph 7 Ventilation. iv) Brakes Employ: JAR 23.735 In lieu of: BCAR D4-5, 3.5. EFIS requirements contained in CAA letter 9/40: 34-22-02/BKL, dated 5 November 1993 (see AAN 24419) BCAR Blue Papers: No K600, 5 April 1982: Powerplant Installations - Cooling Systems. No 647, 21 Nov 1979: Seats, Safety Belts and Harnesses No 673, 10 March 1978: Pilot Intercommunication in Light Aeroplanes. No K706, 31 August 1988: Electrical Supply, System and Equipment (Replaces BCAR Section J). No 731, 1 August 1979: Gyroscopic Rate of Turn indicators. No 738, 19 Sept 1979: Amendments to achieve consistency with Section N No K741, 18 April 1984: Autopilots and Flight Directors. No K775, 5 April 1982: Installation Assumptions involved in Engine Certification. CAA Airworthiness Notices: 5, Issue 1, 1 April 1972: Tyre Wear Limitations. 33, Issue 3, 1 Feb 1972: Unprotected Starter Circuits in aircraft not exceeding 12,500 lb. 36, Issue 11, 5 Nov 1993: Mandatory Modifications & Inspections. 39, Issue 4, 16 Sept 1988: Selection of Procurement of Electronic Components. 40, Issue 1, 1 Nov 1966: Carbon Monoxide Contamination in Aircraft. 41, Issue 8, 2 Oct 1981: Maintenance of Cockpit & Cabin Combustion Heaters and their associated Exhaust Systems. 42, Issue 1, 20 July 1979: Internal Emergency Lighting System. 45, Issue 1, 1 Nov 1983: Software Management. 45A, Issue 1, 1 July 1986: Software Management & Certification Guidelines. 53, Issue 1, 26 June 1970: Vertical Speed Indicators on Imported aircraft. 54, Issue 1, 26 June 1970: Instruments with unusual presentations. 55, Issue 2, 5 Oct 1973: Routine Maintenance of Propeller Blades. 58, Issue 4, 10 Dec 1986: Flame Resistant Furnishing Materials. 66, Issue 2, 18 Oct 1972: Aircraft Insurance. 75, Issue 9, 1 April 1983: Overhaul & Inspection Requirements for Variable Pitch Propellers. 76, Issue 3, 1 April 1980: Power Supply Systems for Aircraft Radio Installations. 82, Issue 1, 7 June 1973: Electrical Generation Systems \u2013 Aircraft not exceeding 5,700 kg maximum authorised weight. 87, Issue 1, 6 Nov 1987: Failure of Mechanical Products inc. Circuit Breakers. 91, Issue 3, 25 Oct 1994: Communications Transmitters in the VHF Radio Frequency Band 118-137MHz. 92, Issue 1, 15 Jan 1981: Cargo Containment. CAA Specifications: No. 1, Issue 5, 24 Sept 1979: Safety Belts. No. 3, Issue 3, 10 July 1953: Tests for Seats with safety belts attached. No. 4, Issue 2, 1 Feb 1962: Safety Harnesses. No. 13, Issue 1, 24 Sept 1979: Diagonal Shoulder Harness",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume I (see EASA TCDSN.A.388 for details)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

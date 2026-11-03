@@ -1,0 +1,87 @@
+{
+  "manufacturer": "OMA SUD SPA",
+  "model_designation": "SKYCAR",
+  "common_name": "SKYCAR",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.563",
+        "revision": "3",
+        "revision_date": "2010-07-09",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7078/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in CRI A-01, latest Issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, effective 14-Nov-2003",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23.1305 (b)(3) \u201cPowerplant instruments\u201d",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-01 HIRF Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "EASA Form NR 90 CS-23 Issue 02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "9. Equivalent Safety Findings: CRI F-11 \u201cInstallation of PFD with primary heading information on the top through heading tape\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-02 \u201cCowling and nacelle fire protection\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "CS-36 ICAO, Annex 16, Volume 1, Fourth Edition, July 2005",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

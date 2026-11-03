@@ -1,0 +1,101 @@
+{
+  "manufacturer": "ZLIN AIRCRAFT A.S.",
+  "model_designation": "Z 526 AFS",
+  "common_name": "Z 526 AFS",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.353",
+        "revision": "5",
+        "revision_date": "2013-09-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7180/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt. 23-9 included",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-9"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "exemption",
+          "raw_reference": "\u00a7 23.177 \u2013 Requirements are met with except for",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "flight characteristics at sideslips when aileron and",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "Findings: rudder control forces are inexpressive and, in some cases, the tendency to raise the low wing is not demonstrated according to regulation requirement. It is admitted with regard to very good aircraft controllability, to the fact that uncontrollable tendencies do not occur and to the fact that the aircraft is aerobatic for which higher manoeuverability is required.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.207 \u2013 Stall warning is inexpressive. It is admitted with regard to good flight characteristics at stall, to very good aircraft controllability and to the fact that dangerous tendencies do not occur.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c), \u00a7 23.615 \u2013 Materials and design values used for aircraft design and construction comply with the Czechoslovak State Standard and specifications valid for the Czechoslovak aviation industry. It is admitted with regard to the fact that the requirement sense is met.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.729(f)(1) \u2013 A warning device is not used. It is admitted with regard to the fact that the aircraft is intended for aerobatic flying only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991(b) \u2013 The aircraft is not equipped with emergency pump for fuel supply recovery in case of main fuel pump failure. It is admitted with regard to these reasons: - The engine is equipped with high-pressure pump, which is joined with low-pressure pump to a single aggregate. A failure of this aggregate could cause contemporaneous break of fuel supply by both supply and injection pumps. In such case no emergency pump could ensure sufficient fuel supply to finish the flight without abnormal pilot\u2019s skills or effort. A failure of low-pressure pump has not been occurred yet and its occurrence is extremely improbable. \u00a7 23.1183(a) \u2013 Requirement for hoses fire resistance is not met. \u00a7 23.1357(d) \u2013 Requirement for battery circuit breaker during flight is not met. It is admitted with regard to operation experiences.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

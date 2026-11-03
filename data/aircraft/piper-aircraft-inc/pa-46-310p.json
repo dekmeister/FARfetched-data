@@ -1,0 +1,110 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-46-310P",
+  "common_name": "PA-46-310P",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A25SO",
+        "revision": "42",
+        "revision_date": "2026-02-16",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A25SO issued September 27, 1983.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Date of application for Type Certificate, August 22, 1979.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23, effective February 1, 1965, as amended by Amendment 23-25, effective March 6, 1980; FAR 25.783(e) as amended by Amendment 25-54, effective October 14, 1980; FAR 25.831(c) and (d) as amended by Amendment 25-41, effective September 1, 1977; and FAR 36, Appendix F through Amendment 36-15, effective May 6, 1988 when equipped with 2 blade propeller or FAR 36, Appendix G through Amendment 36-16, effective December 18, 1988 when equipped with optional 3 blade propeller.",
+          "applicability": "PA-46-310P and PA-46-350P",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "No equivalent safety findings.",
+          "applicability": "PA-46-310P and PA-46-350P",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions No. 23-ACE-53, Docket No. 082CE.",
+          "applicability": "PA-46-310P and PA-46-350P",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.077",
+        "revision": "22",
+        "revision_date": "2026-02-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23, effective 1 February 1965, as amended by Amendment 23-25, effective 6 March 1980; FAR 25.783(e) as amended by Amendment 25-54, effective 14 October 1980; FAR 25.831(c) and (d) as amended by Amendment 25-41, effective 1 September 1977;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "No. 23-ACE-53, Docket No. 082CE",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Chapter 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-44-180T",
+  "common_name": "PA-44-180T",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A19SO",
+        "revision": "23",
+        "revision_date": "2026-09-29",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID125739696120260930182301.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A19SO issued March 10, 1978.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Date of application for Type Certificate, January 17, 1976.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 effective February 1, 1965, through Amendment 23-16 effective February 14, 1975; FAR 23.207 and 23.1091 as amended by Amendment 23-7 effective September 14, 1969; FAR 23.201 and 23.203 as amended by Amendment 23-14 effective December 20, 1973; FAR 23.1093 and 23.1557(c)(1) as amended by Amendment 23-18 effective May 2, 1977; FAR 23.1581(b)(2) as amended by Amendment 23-21 effective March 1, 1978; FAR 23.1545(a) as amended by Amendment 23-23 effective December 1, 1978; and FAR 36 effective December 1, 1969, through Amendment 36-9 effective April 3, 1978.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "Compliance with FAR 23.1441 as amended by Amendment 23-9 effective June 17, 1970, shown with optional supplemental oxygen.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "23.1305(a)(1)(2)(3)(b)(2)(3)(i)(4)(i)(5) as amended by Amendment 23-52 effective July 25, 1996; and Special Condition for HIRF (Docket No. CE238, Special Condition 23- 178-SC), January 13, 2006.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-52",
+              "provisions": [
+                "1305"
+              ],
+              "paragraph": "(a)(1)(2)(3)(b)(2)(3)(i)(4)(i)(5)"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers 4496174, 4496224 and up.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23.2010, 23.2505, 23.2510, 23.2605(b)(c) as amended by Amndt. 23 -64 14 CFR Part 23 23.2500(b), 23.2600(b) as amended by Amndt. 23 -65",
+          "applicability": "PA\u201044-180 aircraft equipped with Piper factory installed G1000 NXi System upgraded with software that incorporates a landing gear warning inhibit function and/or wireless local area network capabilities, as installed by Piper Drawing Number 107700-004 Rev K or later FAA approved revision, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4496616, 4496659 and up.",
+          "applicability": "PA\u201044-180 aircraft equipped with Piper factory installed G1000 NXi System upgraded with software that incorporates a landing gear warning inhibit function and/or wireless local area network capabilities, as installed by Piper Drawing Number 107700-004 Rev K or later FAA approved revision, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

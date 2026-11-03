@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Polskie Zaklady Lotnicze Sp. Z o.o.",
+  "model_designation": "PZL M18B",
+  "common_name": "PZL M18B",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.056",
+        "revision": "4",
+        "revision_date": "2020-09-02",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7413/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, including Amdt. 23-16 Restricted (overload): Civil Aeronautics Manual 8, Second Edition, on the basis of the Type Certificate in Normal Category under 14 CFR Part 23, including Amdt. 23-16",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-16"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "14 CFR Part 36",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

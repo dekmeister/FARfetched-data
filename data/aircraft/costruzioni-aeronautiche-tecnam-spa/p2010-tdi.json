@@ -1,0 +1,126 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM SPA",
+  "model_designation": "P2010 TDI",
+  "common_name": "P2010 TDI",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.576",
+        "revision": "13",
+        "revision_date": "2026-02-11",
+        "source_url": "https://www.easa.europa.eu/en/downloads/17746/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt.2 dated 28 September 2010 EASA CS-ACNS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-2"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52 (SC-B23.div-01 Human Factors \u2013 Integrated Avionic System);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-58 (SC-F23.1353-02 Lithium Battery Installations)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-103 (para.1) Installation of the diesel engine TAE 125-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-104 (SC-CS-23.1305- Fuel low level annunciation means)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "- see Explanatory Note TCDS EASA.A.576",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-103 (para.3) Installation of the diesel engine TAE 125-02",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "- see Explanatory Note TCDS EASA.A.576",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt.4 para. 23.1306 EASA CS-23 amdt.4 para. 23.1308",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4",
+              "provisions": [
+                "1306"
+              ]
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.576",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

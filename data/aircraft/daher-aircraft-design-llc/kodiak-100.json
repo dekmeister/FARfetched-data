@@ -1,0 +1,163 @@
+{
+  "manufacturer": "Daher Aircraft Design, LLC",
+  "model_designation": "Kodiak 100",
+  "common_name": "Kodiak 100",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00007SE",
+        "revision": "28",
+        "revision_date": "2025-11-06",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID128562299920251125193447.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 of the Federal Aviation Regulations (FAR) effective February 1, 1965, as amended by 23-1 through 23-55; FAR 34 as amended through 34-3, FAR 23.1306 for Lightning Protection, per Amdt 23-61, and FAR 36 as amended through 36-28.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-207-SC for high intensity radiated fields (HIRF) protection, effective January 31, 2007.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft equipped with the Garmin GFC 700 Automatic Flight Control System: FAR 23.1308(a), at amendment 23-57 for HIRF protection of the GFC 700 system and associated systems performing functions whose failure would prevent continued safe flight and landing.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "For aircraft serial number 100-0354 and up and aircraft serial numbers 100-0001 through 100-0353 that are equipped with the Mid-Continent MD302 standby attitude module and MD32 magnetometer:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1303(c) at amendment 23-62 for flight and navigation instruments and FAR 23.1331(c) at amendment 23-62 for instruments using a power source.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1331"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.632",
+        "revision": "8",
+        "revision_date": "2026-01-19",
+        "source_url": "https://www.easa.europa.eu/en/downloads/22488/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Original Issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "B-52 Human Factors - Integrated Avionics System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "E-11 Cold Soaked Fuel",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "E-52 Turbine Engine Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "F-52 Protection from effect of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "F-54 Protection from the effects of lightning strike; indirect effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1 see EASA Type Certificate Data Sheet Noise ref TCDSN IM.A.632.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

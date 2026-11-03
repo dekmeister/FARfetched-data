@@ -1,0 +1,117 @@
+{
+  "manufacturer": "ZLIN AIRCRAFT A.S.",
+  "model_designation": "Z 726 K",
+  "common_name": "Z 726 K",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.353",
+        "revision": "5",
+        "revision_date": "2013-09-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7180/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt. 23-13 included",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-13"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.177(a)(2), (3) \u2013 Some requirements for directional and lateral stability and aileron control stick force curve in straight, steady slips are not fully met. It is admitted with regard to very good aircraft controllability and to the fact that dangerous tendencies do not occur and abnormal pilot\u2019s skills or effort are not needed.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c), \u00a7 23.615 \u2013 Materials and design values used for aircraft design and construction comply with the Czechoslovak State Standard and specifications valid for the Czechoslovak aviation industry. It is admitted with regard to the fact that the requirement sense is met.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.955(c) \u2013 Requirement for flow rate of fuel supplied by fuel pump to the engine is not met. It is admitted with regard to the fact that fuel flow is higher than engine consumption at maximum power.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991(b) \u2013 The aircraft is not equipped with emergency pump for fuel supply recovery in case of main fuel pump failure. It is admitted with regard to these reasons: The engine is equipped with high-pressure pump, which is joined with low-pressure pump to a single aggregate. A failure of this aggregate could cause contemporaneous break of fuel supply by both supply and injection pumps. In such case, no emergency pump could ensure sufficient fuel supply to finish the flight without abnormal pilot\u2019s skills or effort. A failure of low-pressure pump has not been occurred yet and its occurrence is extremely improbable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.993(d), \u00a7 23.1183(a) \u2013 Requirement for hoses fire resistance is not met. It is admitted with regard to experiences from operation of the aircraft of former type.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1013(e), \u00a7 23.1019 \u2013 Oil tank outlet is provided with the screen, which does not restrict oil flow. A surface of the screen is multiple bigger than cross section of the outlet fitting, thus safety level is kept.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1145(c) \u2013 Requirement for protection of magnetos changeover switch against dangerous change over is not met. It is admitted with regard to the shape and location of the changeover switch.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1381 to 23.1401 \u2013 The aircraft is not equipped with lighting for night operation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1545(a), (b) \u2013 Requirement for a scale for CAS speed is not met. Airspeed indicator scale and its colour markings are done in IAS.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

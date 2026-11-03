@@ -1,0 +1,133 @@
+{
+  "manufacturer": "ZLIN AIRCRAFT a.s.",
+  "model_designation": "Z 43",
+  "common_name": "Z 43",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.028",
+        "revision": "8",
+        "revision_date": "2016-04-25",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7469/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt. 23-6 (including)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Z 43 EASA Form NR 90 CS-23 Issue 01",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.177(a) \u2013 Requirement for directional and lateral stability is not fully met. It is admitted with regard to the fact that both aileron and rudder control are of sufficient efficiency for instant stopping of aircraft rolling and leading to normal rectilinear flight.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c); 23.615 \u2013 Materials and their characteristics according to \u010cSN and aviation specifications have been used for aircraft design and construction. It is admitted with regard to the fact that an intent of the requirement is met.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.905 \u2013 V 500 Propeller is certified according to BCAR, Section C Regulation instead of Far Part 35.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.955 \u2013 Requirement for flow rate of fuel supplied by fuel pump to the engine is not met. It is admitted with regard to the fact that fuel flow is constructed by fuel valve and is higher than engine consumption at maximum power.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991 \u2013 The engine is equipped with high and low pressure pumps joined to a single aggregate. Any failure of this aggregate could cause contemporaneous failure of both supply and injection pumps. In such case, no emergency pump could ensure sufficient fuel supply to finish the flight without abnormal pilot\u2019s skills nor effort. A failure of low-pressure pump has not been occurred yet and its occurrence is extremely improbable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1013 (e), \u00a7 23.1019 \u2013 A by-pass is missing at the screen of oil tank outlet. It is admitted with regard to the fact that a surface of the screen is multiply bigger than cross section of the outlet fitting, thus safety level is kept.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1183(a) \u2013 Requirement for hoses fire resistance is not met. It is admitted with regard to experiences from operation of similar aircraft of this category.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1381 \u2013 \u00a7 23.1401 \u2013 Has not been proved, the aircraft is not admitted for night operation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex. 16/I, Chapter 6 FAR PART 36, App. G (Amdt. 36-20)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "Z 43",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "EASA Form NR 90 CS-23 Issue 01",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

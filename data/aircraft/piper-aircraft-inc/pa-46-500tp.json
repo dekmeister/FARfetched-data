@@ -1,0 +1,903 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-46-500TP",
+  "common_name": "PA-46-500TP",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A25SO",
+        "revision": "42",
+        "revision_date": "2026-02-16",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A25SO issued September 27, 1983.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Date of application for Type Certificate, August 22, 1979.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, effective February 1, 1965, as amended by Amendment 23-25, effective March 6, 1980 unless otherwise indicated herein; FAR 23.1529 as amended by Amendment 23-26, effective October 14, 1980; FAR 23.441 as amended by Amendment 23-28, effective April 28, 1982; FAR 23.994 and 23.995 as amended by Amendment 23-29, effective March 26, 1984; FAR 23.781 as amended by Amendment 23-33, effective August 11, 1986; FAR 23.173, 23.333, 23.443, and 23.1165 as amended by Amendment 23-34, effective February 17, 1987; FAR 23.2, 23.783(a), (b), (e)(2) and (e)(3), and 23.1413 as amended by Amendment 23-36, effective September 14, 1988; FAR 23.331, 23.351, 23.421, 23.423, 23.425, 23.427, 23.831, 23.939, and 23.1163 as amended by Amendment 23-42, effective February 4, 1991; FAR 23.905, 23.937, 23.943, 23.951, 23.957, 23.961, 23.967, 23.971, 23.977, 23.991, 23.993, 23.997, 23.999, 23.1011, 23.1019, 23.1021, 23.1027, 23.1103, 23.1123, 23.1145, 23.1189, 23.1193, 23.1322, 23.1331, 23.1357, 23.1385, 23.1387, 23.1441, 23.1443, and 23.1445 as amended by Amendment 23-43, effective May 10, 1993; FAR 23.23, 23.141, 23.181, 23.251, 23.305, 23.321, 23.361, 23.397, 23.479, 23.485, 23.571, 23.572, 23.621, 23.655, 23.731, 23.733, 23.773, 23.1507, 23.1525, 23.1527, 23.1549, 23.1557, and 23.1563 as amended by Amendment 23-45, effective September 7,1993; FAR 23.301, 23.335, 23.337, 23.341, 23.343, 23.345, 23.347, 23.349, 23.371, 23.391, 23.393, 23.399, 23.415, 23.457, 23.473, 23.499, 23.561, 23.575, 23.611, 23.629, 23.657, 23.673, 23.725, and 23.865 as amended by FAR 23-48, effective March 11,1996; FAR 23.677, 23.723, 23.735, 23.745, 23.775, 23.841, 23.853, 23.867, 23.1303, 23.1307, 23.1309, 23.1311, 23.1321, 23.1323, 23.1326, 23.1329, 23.1353, 23.1359, 23.1361, 23.1383, 23.1401, 23.1447, 23.1451, and 23.1453 as amended by Amendment 23-49, effective March 11, 1996; FAR 23.3, 23.25, 23.33, 23.45, 23.49, 23.51, 23.53, 23.63, 23.65, 23.69, 23.71, 23.73, 23.75, 23.77, 23.143, 23.145, 23.153, 23.155, 23.157, 23.161, 23.175, 23.177, 23.201, 23.203, 23.207, 23.221, 23.233, 23.235, 23.253, 23.1325, 23.1511, 23.1521, 23.1543, 23.1553, 23.1555, 23.1559, 23.1567, 23.1581, 23.1583, 23.1585, 23.1587, and 23.1589 as amended by Amendment 23-50, effective March 11, 1996; FAR 23.777, 23.779, 23.901, 23.903, 23.907, 23.925, 23.929, 23.933,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "23.955, 23.959, 23.963, 23.965, 23.973, 23.975, 23.1013, 23.1041, 23.1043, 23.1045, 23.1091, 23.1093, 23.1121, 23.1141, 23.1143, 23.1153, 23.1181, 23.1183, 23.1191, and 23.1337 as amended by Amendment 23-51, effective March 11, 1996; and FAR 23.1305 as amended by Amendment 23-52, effective July 25, 1996.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "955",
+                "959",
+                "963",
+                "965",
+                "973",
+                "975",
+                "1013",
+                "1041",
+                "1043",
+                "1045",
+                "1091",
+                "1093",
+                "1121",
+                "1141",
+                "1143",
+                "1153",
+                "1181",
+                "1183",
+                "1191",
+                "1337"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-52",
+              "provisions": [
+                "1305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "In addition, FAR 34.11, effective September 10, 1990, and FAR 36, Appendix G, Amendment 36-22.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety (ELOS) for FAR 23.955(f)(3), June 6, 2000.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-123-SC (Docket CE153), August 27, 1999.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "Compliance with the requirements of FAR 23.1419 as amended by Amendment 23-14, effective December 20, 1973, has been established , provided the required ice protection systems are installed and functioning properly.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1523 as amended by Amendment 23-34; FAR 23.613 as amended by Amendment 23-45; 14 CFR Part 23 regulations FAR 23.607 as amended by Amendment 23-48; FAR 23.1351, 23.1365, and 23.1431 as amended by Amendment 23-49;",
+          "applicability": "For aircraft equipped with Piper factory installed Avidyne Entegra system and S-Tec Magic 1500 DFCS (See Piper Report VB-1919), the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1523"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "613"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "607"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1351",
+                "1365",
+                "1431"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1545 and 23.1563 as amended by Amendment 23-50; Special Condition for HIRF (Docket # CE215, Special Condition 23-154-SC), January 7, 2005.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1545",
+                "1563"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697198, 4697216 and up.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1523 as amended by Amendment 23-34; 14 CFR 23.613, 23.672 as amended by Amendment 23-45; 14 CFR 23.607 as amended by Amendment 23-48; 14 CFR 23.1351, , 23.1365, and 23.1431 as amended by Amendment 23-49; 14 CFR 23.1545 and , 23.1563 as amended by Amendment 23-50; Special Condition for HIRF (Docket # CE215, Special Condition 23-154-SC), January 7, 2005.",
+          "applicability": "For aircraft equipped with Piper factory installed G1000 system and GFC700 AFCS (see Piper Report VB-1988), the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697340, 4697399and up.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "other",
+          "raw_reference": "PA-46-500TP serial numbers 4697001, 4697003 through 4697423 affected by Piper Service Bulletin SB1195B, only in the area of the communications antenna installations, the following additional certification basis is applicable:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.571(c), 23.573(b) as amended by Amendment 23-45, effective September 7, 1993.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "571"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "573"
+              ],
+              "paragraph": "(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "23.303, 23.307, 23.601, 23.609, 23.627, 23.843(b) as amended by Amendment 23-0 effective February 1, 1965; 23.625 as amended by Amendment 23-7 effective September 14, 1969; 23.29 as amended by Amendment 23-20 effective September 9, 1977; 23.29, as amended by Amendment 23-21 effective March 1, 1978; 23.603, 23.605(a) as amended by Amendment 23-23 effective December 1, 1978; 23.607, 23.613 as amended by Amendment 23-25 effective March 3, 1980; 23.1529 as amended by Amendment 23-26 effective October 14, 1980; 23.831(b) as amended by Amendment 23-42 effective February 4, 1991; 23.1322 (a)(b)(c)(d) as amended by Amendment 23-43effective May 10, 1993; 23.305 as amended by Amendment 23-45 effective September 7, 1993;",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "23.301(a)(b)(c), 23.337, 23.341(a)(c), 23.473, 23.561(a)(b))(3)(e)23.611 as amended by Amendment 23-48 effective March 11, 1996; 23.841(a)(b)(1)(2)(3)(4)(b)(5)(6)(7)(8)(9), 23.867, 23.1307, 23.1351(a)(1)(i) as amended by Amendment 23-49 effective March 11, 1996; 23.25, 23.1325(b)(1)(2)(ii)(3)23.1581(a)23.1583(h)(m)23.1585(j) as amended by Amendment 23-50 effective March 11, 1996; 23.1308(a)(b)(c) as amended by Amendment 23-57 effective September 5, 2007; 23.1306, as amended by Amendment 23-61 effective August 8, 2011; 23.1301(a)(b)(c), 23.1309(a)(1)(2)b)(c)(d) as amended by Amendment 23-62 effective January 31, 2012.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697549, 4697569, 4697582 and up.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "23.21, 23.23(a), 23.25(a)(b), 23.29, 23.143(a)(b), 23.207(b), 23.251, 23.301(a)(b)(c), 23.303, 23.305, 23.307, 23.337, 23.341(a)(c), 23.365(a)(b)(d), 23.473, 23.561(a)(b)(3)(e), 23.571(a), 23.601, 23.603, 23.605(a), 23.607, 23.609, 23.611, 23.613, 23.625, 23.627, 23.729(e)(f), 23.771(a), 23.773(a)(1)(2), 23.777(a)(b), 23.867, 23.1301 (a)(b)(c)(d),",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is; PA-46-500TP aircraft equipped with Piper factory installed G1000 Phase III Integrated Avionics the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "23.1305(a)(1)(2)(3)(c)(1)(2)(3)(4)(5)(6)(8),(e)(1)(2), 23.1306, 23.1307, 23.1308(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(d)(e), 23.1311(a)(1)(2)(3)(4)(5)(6)(7)(b)(c), 23.1321(a)(c)(d)(5)(e), 23.1322(a)(b)(c)(d)(e), 23.1323(a)(c), 23.1325(a)(b)(1)(2)(ii), 23.1326(a)(b), 23.1327(a), 23.1329(d)(e)(h), 23.1335, 23.1337(b)(1)(4), 23.1351(a)(1)(2)(i)(b)(1)(i)(3)(c)(4)(d), 23.1353(a)(b)(c)(d)(e)(h), 23.1357(a)(b)(c)(d), 23.1359(c), 23.1361(a)(c), 23.1365, 23.1367(a)(b)(c)(d), 23.1381(a)(b)(c), 23.1416(c), 23.1419(c), 23.1431(a)(b)(e), 23.1501(a)(b), 23.1523, 23.1525, 23.1529, 23.1541(a)(b), 23.1543(b)(c), 23.1545(a)(b)(1)(2)(3)(4), 23.1549(a)(b)(c), 23.1553, 23.1555(a)(b)(e)(1), 23.1581(a)(c), 23.1583(g)(h)(m), 23.1585(j), 23.1589 as amended by Amendment 23-61 effective June 8, 2011; 23.1303(a)(b)(c)(f) as amended by Amendment 23-62 effective January 31, 2012.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697549, 4697569, 4697582 and up.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed Enviro Cabin Pressure Control System, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "14CFR 23.23(a)(b)(3), 23.25(a)(b), 23.29, 23.301(a)(b)(c), 23.303, 23.305, 23.307, 23.337, 23.341(a)(c), 23.473, 23.561(a)(b)(3)(e), 23.601, 23.603, 23.605(a), 23.607, 23.609, 23.611, 23.613, 23.625, 23.627, 23.699, 23.771(a), 23.777(a)(b), 23.867, 23.1301(a)(b)(c)(d), 23.1305(a)(1)(2)(3)(c)(1)(2)(3)(4)(5)(6)(8)(e), 23.1306, 23.1308(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(d)(e), 23.1311(a)(1)(2)(3)(4)(5)(6)(7)(b)(c), 23.1321(a)(c)(d)(5)(e), 23.1322(a)(b)(c)(d)(e), 23.1323(a)(c), 23.1325(a)(b)(1)(2)(ii), 23.1326, 23.1327(a), 23.1329(a)(1)(b)(c)(d)(e)(f)(g)(h), 23.1335, 23.1337(b)(1)(4), 23.1351(a)(1)(2)(i)(c)(4)(d), 23.1353(h), 23.1357(a)(b)(c)(d), 23.1359(c), 23.1365, 23.1367(a)(b)(c)(d), 23.1381(a)(b)(c), 23.1431(a)(b)(e), 23.1501, 23.1523, 23.1525, 23.1529, 23.1541(a)(b), 23.1543(b)(c), 23.1545(a)(b), 23.1549(a)(b)(c), 23.1553, 23.1555(a)(b)(e)(1), 23.1581(a)(c), 23.1583(g)(h)(m), 23.1585(j), 23.1589(a) as amended by Amendment 23-61 effective June 8, 2011;",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed G1000NXi Integrated Avionics the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "29",
+                "303",
+                "305",
+                "307",
+                "337",
+                "473",
+                "601",
+                "603",
+                "607",
+                "609",
+                "611",
+                "613",
+                "625",
+                "627",
+                "699",
+                "867",
+                "1306",
+                "1326",
+                "1335",
+                "1365",
+                "1501",
+                "1523",
+                "1525",
+                "1529",
+                "1553"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "23"
+              ],
+              "paragraph": "(a)(b)(3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "25"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "301"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "341"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "561"
+              ],
+              "paragraph": "(a)(b)(3)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "605"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "771"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1301"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1305"
+              ],
+              "paragraph": "(a)(1)(2)(3)(c)(1)(2)(3)(4)(5)(6)(8)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1311"
+              ],
+              "paragraph": "(a)(1)(2)(3)(4)(5)(6)(7)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1321"
+              ],
+              "paragraph": "(a)(c)(d)(5)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1322"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1323"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1325"
+              ],
+              "paragraph": "(a)(b)(1)(2)(ii)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1327"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1329"
+              ],
+              "paragraph": "(a)(1)(b)(c)(d)(e)(f)(g)(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1337"
+              ],
+              "paragraph": "(b)(1)(4)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(a)(1)(2)(i)(c)(4)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1359"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1367"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1381"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1541"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1549"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)(e)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1583"
+              ],
+              "paragraph": "(g)(h)(m)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1585"
+              ],
+              "paragraph": "(j)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1589"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1303(a)(b)(c)(f) as amended by Amendment 23-62 effective January 31, 2012.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed G1000NXi Integrated Avionics the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(a)(b)(c)(f)"
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697626, 4697631 and up.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed G1000NXi Integrated Avionics the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.851, 23.1301 as amended by Amendment. 23-62 effective January 31, 2012.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed G1000NXi Integrated Avionics the additional certification basis for installation specific items only is; PA-46-500TP aircraft equipped with optional non-Halon fire extinguisher additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "Eligible Serial Numbers: 4697684 and up.",
+          "applicability": "PA-46-500TP aircraft equipped with Piper factory installed G1000NXi Integrated Avionics the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.077",
+        "revision": "22",
+        "revision_date": "2026-02-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-46-500TP aeroplane the applicable certification basis is FAR 23. For details on the applicable FAR 23 amendments see C.V., note 6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-46-500TP aeroplanes equipped with the factory installed Avidyne Entegra System and S-Tec Magic 1500 DFCS Autopilot option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01, issue 2, or later revision (for details on applicable paragraphs see C.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-46-500TP aeroplanes equipped with the factory installed G1000 integrated avionics and GFC700 AFCS option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01, issue 4, or later revision (for details on applicable paragraphs see C.V., note 11).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-46-500TP aeroplanes equipped with the factory installed G1000 Phase III option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01, issue 1, or later revision (for details on applicable paragraphs see C.V., note 12).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-46-500TP aeroplanes equipped with the factory installed G1000 NXI the additional certification basis for installation specific items only is CS-23 amdt.3 (for details on applicable paragraphs see C.V., note 14).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-46-500TP aeroplanes equipped with hand-held halon free Fire Extinguisher, the additional certification basis for installation is CS-23 (for applicable amendments see C.V., note 14)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 for the basic PA-46-500TP aeroplane (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-46-500TP aeroplanes equipped with the factory installed Avidyne Entegra System and S-Tec Magic 1500 DFCS option (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-46-500TP aeroplanes equipped with the factory installed G1000 integrated avionics and GFC700 AFCS option (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-46-500TP aeroplanes equipped with the factory installed G1000 Phase III option (for applicable amendments see C.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-46-500TP aeroplanes equipped with the factory installed G1000 NXI (for details on applicable paragraphs see C. II.4).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "No. 23-096-SC, Docket No. CE153, for the basic",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "PA-46-500TP aeroplane,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F05, Human Factors in Integrated Avionic Systems, for PA-46-500TP aeroplanes equipped with the factory installed Avidyne Entegra System and S- Tec Magic 1500DFCS option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F05, Human Factors in Integrated Avionic Systems, for PA-46-500TP aeroplanes equipped with the factory installed G1000 integrated avionics and GFC700 AFCS option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-46-500TP (Malibu Meridian) aeroplanes equipped with the factory installed Garmin G1000 Phase III option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), CRI F-05, Human Factors in Integrated Avionic Systems, CRI F-90, Security Protection of Aircraft Systems and Networks for PA-46-500TP aeroplanes equipped with the factory installed G1000 NXI.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "ELOS for 23.955(f)(3), see Certification Base for the basic PA-46-500TP aeroplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-201, Flight Instruments, Stabilized Magnetic Compass, for PA-46-500TP (Malibu Meridian) aeroplanes equipped with the factory installed Garmin G1000 Phase III option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-201, Flight Instruments, Stabilized Magnetic Compass, for PA-46-500TP aeroplanes equipped with the factory installed G1000 NXI",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Chapter 10 ICAO Annex 16, Volume 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

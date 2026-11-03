@@ -1,0 +1,69 @@
+{
+  "manufacturer": "ZLIN AERO a.s.",
+  "model_designation": "Z 142 C",
+  "common_name": "Z 142 C",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.027",
+        "revision": "10",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7471/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt 23-20 (including)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.177 (a)(2), (3) \u2013 Ample controllability of the airplane in specified conditions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1013(e); \u00a7 23.1019(b) \u2013 The active strainer input area is thirty-times larger than the critical outlet section. The strainer blocking has never occured during operation. Dangerous blocking is prevented by scheduled inspection periods. The airplane is provided with a duplicate oil pressure checking system.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1323 \u2013 At the speeds above 240 km/h, the accomplished correction is on the safe side.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16/I, Chapter 10 FAR PART 36, App. G",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

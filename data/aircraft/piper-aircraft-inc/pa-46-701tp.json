@@ -1,0 +1,305 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-46-701TP",
+  "common_name": "PA-46-701TP",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A25SO",
+        "revision": "42",
+        "revision_date": "2026-02-16",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A25SO issued September 27, 1983.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Date of application for Type Certificate, August 22, 1979.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "The PA-46-701TP is a derivative product from the PA-46-600TP.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "As such, the PA-46-701TP certification basis was derived from the PA-46-600TP, which includes regulations applicable to the basic PA-46-500TP.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Those regulations that are affected by the change (from the PA-46-500TP) are 14 CFR Part 23, effective February 1, 1965, as amended by 14 CFR Part 23 Amendment 23-62, effective January 31, 2012.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, effective February 1, 1965, as amended by 14 CFR Part 23 Amendment 23- 62, effective January 31, 2012.",
+          "applicability": "The following regulations at the amendment levels specified herein provide clarification of the applicable certification basis",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "Except as follows: 14 CFR 23.701, 23.783, 23.785, 23.807 as amended by Amendment 23-25 effective March 6, 1980 14 CFR 23.1419 as amended by Amendment 23-43 effective May 10, 1993 14 CFR 23.251, 23.571, 23.572 as amended by Amendment 23-45 effective September 7, 1993 14 CFR 23.783(a)(b)(e)(2)(3), 23.1353 as amended by Amendment 23-49 effective March 11, 1996",
+          "applicability": "The following regulations at the amendment levels specified herein provide clarification of the applicable certification basis",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-25",
+              "provisions": [
+                "701",
+                "783",
+                "785",
+                "807"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1419"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "251",
+                "571",
+                "572"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "783"
+              ],
+              "paragraph": "(a)(b)(e)(2)(3)"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23.2010(a)(b), 23.2500(a)(2)(b), 23.2505, 23.2510, 23.2600(b), 23.2605(a)(b)(c), 23.2610(a)(b)(c) as amended by Amendment 23-64, effective August 30, 2017; For aircraft equipped with the Normal Use Autothrottle option, the additional certification basis for installation specific items only is: 14 CFR 23.2010(a)(b), 23.2500(a)(1)(2)(b), 23.2510(a)(b)(c), 23.2600(a)(b), 23.2605(a)(b)(c) as amended by Amendment 23-64, effective August 30, 2017. 14 CFR 34.11 as amended by Amendment 34-4 effective June 29, 2009 14 CFR 36 as amended by Amendment 36-31 effective November 3, 2017 14 CFR 23.562 and 23.573 are not included in the certification basis Aircraft is approved for Flight Into Known Icing.",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "This aircraft is approved for single pilot operation.",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "The following ELOS apply to this model:",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Digital Display of Engine and Propeller Flight Data 14 CFR 23.1305(c)(2)(5), 23.1311(a)(6), and 23.1549 ELOS #AT13893AT-A-F-1:",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Control Forces 14 CFR 23.145(b)(2)(4) ELOS #AT13893AT-A-A-1:",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Material Design Values 14 CFR 23.613 ELOS #AT13893AT-A-G-9: Amendment 23-62 Equivalent Level of Safety 14 CFR 23.45, 23.51, 23.63, 23.73, 23.77, 23.161, 23.181, 23.221, 23.251, 23.253, 23.831, 23.1527, 23.1545, 23.1583 ELOS - FAA Project AT2572AT-A:",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety for 14 CFR 23.955(f)(3), June 6, 2000 14 CFR 23.955(f)(3) Eligible Serial Numbers: 46020001 and up",
+          "applicability": "For landing gear warning inhibit function and wireless local area network capabilities, the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.077",
+        "revision": "22",
+        "revision_date": "2026-02-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-46-701TP aeroplane, the applicable certification basis is 14 CFR Part 23 and CS-23. For details on the applicable FAR 23 and CS-23 certification basis see F.V., note 6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 and CS-23 for the basic PA-46-701TP aeroplane, (for applicable amendments see F.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52, Human Factors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-01, Handling characteristics for high performance aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-58, Turbine engine installation, rain ingestion",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-601, Security Protection of Aircraft Systems and Networks",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "CRI B-101, Longitudinal control forces",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-601, Material strength properties",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-601, Fuel flow, no pilot action required after engine start",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-602, Digital only display of powerplant instruments and omission of coloured caution and normal operating range arcs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-606, Flight instruments, stabilized magnetic compass",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Part II, Chapter 10, Amendment 13, in accordance with CS-36, Amdt. 6 ICAO Annex 16, Volume II, Part II, Amendment 10, in accordance with CS-34, Amdt. 4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

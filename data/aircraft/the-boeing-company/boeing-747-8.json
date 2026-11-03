@@ -1,0 +1,77 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "Boeing 747-8",
+  "common_name": "Boeing 747-8",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.196",
+        "revision": "19",
+        "revision_date": "2024-12-17",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7250/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "14 December 2011 (FAA Type Certification Data Sheet No. A20WE)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Part 25 through Amendment 25-120 Part 26, as amended at the time of certification Part 34, as amended at the time of certification Part 36, through Amdt 36-28",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "For details of Exceptions, Exemptions, Special Conditions and Equivalent Safety Findings granted by FAA, refer to FAA TCDS A20WE.",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 at Amendment 2 and, for unaffected areas, Boeing 747-400 EASA Type Certification Data Sheet IM.A.196 (Section 3 above),",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-2"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Note: Further details may be seen under CRI A-01 \u201cEASA Certification Basis\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "4.1 Reversions from CS 25 Amendment 2: Area/System Applicable Part 25 Section Title Reversion Amdt Comments Level Aero - Configurations 25.1323(b) and (c) Airspeed indicating system. CFR 25-108 25.1325(b) and (e) Static air vent and pressure CFR 25-108 altimeter systems. Airframe - Empennage: 25.305(b) Strength and deformation. CFR 25-0 Outboard Elevator Balance Weight Tower 25.607 Self-locking nuts. CFR 25-0 25.613 Material strength properties CFR 25-46 and design values. 25.615 Design properties. CFR 25-23 Airframe - Empennage: 25.365(e)(2) Pressurized compartment CFR 25-54 Area/System Applicable Part 25 Section Title Reversion Amdt Comments Level Forward fin box of vertical stab loads. - unpressurized area Airframe - Fuselage: 25.365(e)(2) Pressurized cabin loads. CFR 25-54",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

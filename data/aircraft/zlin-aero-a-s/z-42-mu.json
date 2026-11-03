@@ -1,0 +1,125 @@
+{
+  "manufacturer": "ZLIN AERO a.s.",
+  "model_designation": "Z 42 MU",
+  "common_name": "Z 42 MU",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.027",
+        "revision": "10",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/7471/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR PART 23, Amdt 23-13 (including)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-13"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.33 \u2013 In the Flight manual is a notice \u2013 limitation of revolutions of the propeller is met in normal category at maximal flight weight up to a height of 600 m MSA.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.177(a)(2) \u2013 Sufficient controllability in critical regimes of flight.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.613(c); \u00a7 23.615 \u2013 Used materials and calculation results are convenient.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.955 \u2013 The fuel flow is higher than the consumption at take-off regime.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.991(b) \u2013 The engine is equipped with a high-pressure pump connected with a low-pressure pump to one aggregate, the low-pressure pump breakdown is extremely improbable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1013(e); \u00a7 23.1019 \u2013 The screen area at oil tank outlet is several times larger than the outlet pipe union section.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1183(\u2013) - The hoses material safety is verified by experiences from operation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1323 \u2013 At the speeds over 200 km/h, there is made a correction on the safe side.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "\u00a7 23.1389(b); \u00a723.1391; \u00a723.1393; \u00a723.1395; \u00a723.1397; \u00a7",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "23.1401 \u2013 Landing lights, anti-collision lights are convenient with respect to the night flights exclusiveness.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16/I, Chapter 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

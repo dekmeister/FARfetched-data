@@ -1,0 +1,111 @@
+{
+  "manufacturer": "Airbus Defence and Space S.A",
+  "model_designation": "CN-235",
+  "common_name": "CN-235",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.186",
+        "revision": "8",
+        "revision_date": "2025-12-09",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7262/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "DGAC-ES, 01/86",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Spain",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Regulation (EC) 1702/2003, Annex Part 21.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "US Code of Federal Regulations, Title 14, Part 25 (FAR 25), effective from 1 Feb 1965, including all amendments from 25-1 to 25-54.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "TC-holder elected to comply with optional requirement FAR 25.1419: Ice protection.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-H-01 \u201dEnhanced Airworthiness Programme for Aeroplane Systems \u2013 ICA on EWIS\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption to FAR 25.571(e)(2), granted by DGAC-ES on 24 July 1986.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "ESF to FAR 25.1305(a)(2): \u201cFuel quantity indicator\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I (Noise), 3rd issue, November 1993.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume II (Fuel system ventilation and exhaust gas), 3rd issue, November 1993.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": ".",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

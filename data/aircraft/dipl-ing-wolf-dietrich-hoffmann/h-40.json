@@ -1,0 +1,69 @@
+{
+  "manufacturer": "Dipl.-Ing. Wolf Dietrich Hoffmann",
+  "model_designation": "H 40",
+  "common_name": "H 40",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.541",
+        "revision": "1",
+        "revision_date": "2016-03-14",
+        "source_url": "https://www.easa.europa.eu/en/downloads/20638/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23, Amdt. 23-36",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Refer to LBA letter, dated 27.10.1989",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "- LBA-Richtlinie Nr. 2.39 (Issue 01.06.1984)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "- LBA Special Condition 1 (Issue 27.10.1989)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I (refer see TCDSN A.541)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

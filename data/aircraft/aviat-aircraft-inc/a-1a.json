@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Aviat Aircraft Inc.",
+  "model_designation": "A-1A",
+  "common_name": "A-1A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.294",
+        "revision": "4",
+        "revision_date": "2016-03-12",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7200/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 of Federal Aviation Regulations dated 1.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "February 1965, Amendment 23-1 thru 23-31 The EASA Aircraft Type Certification standard includes that of FAA TCDS A22NM, based on individual EU member state acceptance or certification of this standard prior to 28 September 2003; Other standards conforming to TC/TCDS standards certified by individual EU member States prior to 28 September 2003 are also acceptable.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "A-1A",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "3 Special Conditions: None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "1395 to 1467",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

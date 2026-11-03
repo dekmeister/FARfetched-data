@@ -1,0 +1,69 @@
+{
+  "manufacturer": "AIRBUS POLAND S.A.",
+  "model_designation": "PZL-104 Wilga 80",
+  "common_name": "PZL-104 Wilga 80",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.061",
+        "revision": "5",
+        "revision_date": "2022-08-25",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7403/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 dated February 1, 1965 as amended through Amendment 23-20 effective September 1, 1977.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Canadian Engineering and Inspection Manual, Part II, Chap. 1. Section 1.1.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "Canada 1971 for version with ski landing gear",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "ICAO, Annex 16, Volume 1, Chapter 6;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "Edition 1978",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

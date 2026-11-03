@@ -1,0 +1,199 @@
+{
+  "manufacturer": "EMBRAER",
+  "model_designation": "EMB-505",
+  "common_name": "EMB-505",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.158",
+        "revision": "11",
+        "revision_date": "2024-08-29",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7282/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EA-2009T12",
+          "applicability": null,
+          "applicability_notes": "State of Design Authority Type Certificate No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "RBHA 23 - Requisitos de Aeronavegabilidade. Avi\u00f5es Categoria Normal, Utilidade, Acrob\u00e1tica e Transporte Regional (Airworthiness Standards. Normal, Utility, Acrobatic, and Commuter Category Airplanes), corresponding to U.S. 14 CFR Part 23 including amendments 23-1 through 23-57; and additional requirements as per ANAC FCAR HT-01, additionally: For aircraft equipped with Autothrust System (Current Speed Control \u2013 CSC or Autothrottle \u2013 AT), for the components and areas affected by the system installation: RBAC 23 (\u201cRequisitos de Aeronavegabilidade: Avi\u00f5es Categoria Normal\u201d), which is equivalent to 14 CFR Part 23, amendment: [23-]64 (23.2010, 23.2500(b), 23.2510, 23.2600(b) and 23.2605(b) and (c)).",
+          "applicability": null,
+          "applicability_notes": "ANAC Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23 \u2013 \u201cNormal, Utility, Aerobatic and Commuter Category Aeroplanes\u201d of 14 November 2003, as applicable to Commuter Category Certification; and additional requirements as per EASA CRI A-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS-ACNS (Subpart D, section 4) - initial issue of 17/12/2013 (see note 10)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Additionally, for aircraft equipped with Autothrust System (Current Speed Control \u2013 CSC), for the components and areas affected by the system installation the following additional regulations apply: CS 23 at amendment 5 (23.2010, 23.2500(b), 23.2510, 23.2600(b) and 23.2605(b) and (c))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Part 23 Jets - Handling and Performance Requirements High Speed Characteristics Part 23 Jets - Stall Speed Determination Human Factors - Integrated Avionics System Performance Credit for APR during Go-Around Sonic Fatigue Pressurization into Non-Pressurized Areas Speed Margins Yawing Maneuver Dynamic Response Out of Trim Characteristics (Structures)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Take-Off Warning System Extension and Retraction System Wheels Brakes and Braking Systems Doors Bird Strike Steering Systems Operation above 41.000 ft Belted Toilet Seat \u2013 Single Place Side facing Seat (for applicable areas affected by DCA 0505-025-00077-2010/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Sideward Seating Arrangement (for applicable areas affected by DCA 0505-025-01013- 2010/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "Inflatable Restraints (for applicable areas affected by DCA 0505-025-01013-2010/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "Fuel Tank Crashworthiness Fuel System Hot Weather Operation, Turbine Fuel Lines, Fittings and Components Powerplant Fire Extinguishing Systems Negative Acceleration Fuel Tank Ignition Prevention Cold Soaked Fuel Battery Endurance Requirement (High Altitude)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "Hydraulic Systems Interaction of Systems and Structures Protection from effect of HIRF FADEC Integration Lithium Battery Installations Ice Protection, Special Condition for Auto-Activated Anti-ice Systems Security Protection of Aircraft System and Networks (for applicable areas affected by DCA 0505-046-00212-2019/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "Data link services for single European Sky. (for applicable areas affected by DCA 0505- 023-00059-2011/EASA or 0505-023-00060-2011/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "Flight recorders including data link recording. (for applicable areas affected by DCA 0505-023-00059-2011/EASA or 0505-023-00060-2011/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "Flight Guidance System \u2013 Autothrottle under Part 23 (for applicable areas affected by DCA 0505-022-00111-2017/EASA when embodied in the aircraft).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "Effects Reference take-off speed for part 23 jets noise certification Steep Approach and Landing (for applicable areas affected by DCA 0505-000-00057- 2011/EASA when embodied in the aircraft).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "Towbar less towing (for applicable areas affected by DCA 0505-032-00051-2012/EASA when embodied in the aircraft).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "Motion and Effect of Cockpit Controls (for applicable areas affected by DCA 0505-025- 00124-2017/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "Ditching emergency exit for passenger Video Monitors Deployed from Aisle Ceiling (for applicable areas affected by DCA 0505-000-00057-2011/EASA when embodied in the aircraft).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "Digital only N2 and Fuel Flow Usable Fuel Quantity Markings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "ELOS ATR/ APR Use of LED for Navigation Lights and Anti-Collision Lights Powerplant Instruments \u2013 Normal Operation Range Color Powerplant Instruments - Normal Operating Range Color and CSC Authority Indication (for applicable areas affected by DCA 0505-022-00075-2020/EASA when embodied in the aircraft)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "CS 34 - Aircraft Engine Emissions and Fuel Venting, of 17 October 2003",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "CS 36 - Aircraft Noise, of 17 October 2003",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

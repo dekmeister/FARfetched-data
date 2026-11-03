@@ -1,0 +1,324 @@
+{
+  "manufacturer": "TUSA\u015e\u2010T\u00dcRK HAVACILIK VE UZAY SANAY\u0130\u0130 A.\u015e.",
+  "model_designation": "TT32",
+  "common_name": "TT32",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.500",
+        "revision": "1",
+        "revision_date": null,
+        "source_url": "https://www.easa.europa.eu/en/downloads/21107/en"
+      },
+      "categories": [
+        "acrobatic",
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23 \u2013 \u201cNormal, Utility, Aerobatic and Commuter Category Aeroplanes\u201d, Amendment 3;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CS-36 Amendment 3 (ICAO Annex 16, Volume I, Sixth Edition (Amendment 10) ;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS-34 Amendment 1 (Part II, Chapter 2 of ICAO Annex 16, Volume II, Third Edition (Amendment 7) and; additional requirements as per DGCA-TR CRI A-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23 \u2013 \u201cNormal, Utility, Aerobatic and Commuter Category Aeroplanes\u201d amendment 3 and additional requirements as per EASA CRI A-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "B-01 Stalls (Stall Power)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "C-03 Speed Margin",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "C-04 Yawing Manoeuvre",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "C-05 Dynamic Response",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "D-01 Take-Off Warning System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "D-02 Landing Gear Extension and Retraction System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "D-03 Wheels",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Brakes and Braking Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "D-06 Bird Strike",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "D-12 Hydraulic Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "D-102 Emergency Exits - Canopy Fracturing System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "D-103 Ejection Seats",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "E-14 Turbine Engine Installation - Rain Ingestion",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "E-52 Cold Soaked Fuel",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "F-01 Battery Endurance Requirement",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "F-52 Protection from Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "F-54 Protection from the Effects of Lightning Strike, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "D-05 Depressurization Beyond Safe Limits (Exceedance of 15,000 ft Cabin Altitude Limit)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "D-07 23.841.b.6 Cabin Pressure Altitude Warning Indication",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "D-10 Operation above 25.000 ft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "D-101 Fire Extinguishers in cockpit-non installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "D-105 Emergency Evacuation Provisions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "D-106 Emergency Landing Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "D-107 Emergency Landing Conditions-Lumbar Loads",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "E-18 Starter Generator Air Inlet in Cowling",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "F-03 \"OBOGS (On Board Oxygen Generating System)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "F-10 Emergency Oxygen System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "elos",
+          "raw_reference": "F-40 Cabin Pressure Rate of Change Indicator",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "other",
+          "raw_reference": "EASA Noise certification basis: CS-36 Amendment 3 (ICAO Annex 16, Volume I, Sixth Edition (Amendment 10)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "other",
+          "raw_reference": "EASA Emissions(Prevention of Intentional Fuel Venting) certification basis: CS-34 Amendment 1 (Part II, Chapter 2 of ICAO Annex 16, Volume II, Third Edition (Amendment 7)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "other",
+          "raw_reference": "CRI N-01 Noise requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "other",
+          "raw_reference": "CRI N-02 Prevention of Intentional Fuel Venting",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

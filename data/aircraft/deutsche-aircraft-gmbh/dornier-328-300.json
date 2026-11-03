@@ -1,0 +1,167 @@
+{
+  "manufacturer": "Deutsche Aircraft GmbH",
+  "model_designation": "DORNIER 328\u2010300",
+  "common_name": "DORNIER 328\u2010300",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.096",
+        "revision": "9",
+        "revision_date": "2023-03-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7337/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25, Large Aeroplanes Change 14, Amendment 25/96/1 (27.11.1996) JAR\u2010AWO at Change 2, (effective 01.08.96)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 1, Definitions Change 5 (15.07.1996) REGULATION (EU) 2020/1159, dated 5 August 2020, Part 26.300(a); 26.301 (a); 26.302; 26.304(a) (b);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "26.305(a) (b); 26.306(a) (b) (c); 26.307; 26.308; 26.309",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Protection from Effects of HIRF Lighting Protection, Direct Effects Lightning Protection Indirect Effects Accelerate\u2010Stop Distances and related Performances Worn Brakes Yawing Manoeuvring Conditions Fuel Tank Crashworthiness Reference Stall Speed Accelerate\u2010Stop Distance Criteria Function and Reliability Testing Steep Approach Landing Interaction of Systems and Structure Flap Gates Aeroplane Wheels and Wheel\u2010Brakes Assembly",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Bullet Proof Cockpit Door Barometric Scales ICA for Electrical Wiring Interconnection System (EWIS)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "(PTC) Non\u2010rechargeable Lithium Battery Installations, effective for changes applied for after 01 July 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Additional National Requirement",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "exemption",
+          "raw_reference": "F\u20103.1 Exemption from JAR 25.1439(b), 25.1441 (a), 25.1447 (b) and (c) Oxygen Requirements",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "exemption",
+          "raw_reference": "Note: Compliance must be shown prior to national operational approvals.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "ADS\u2010B Out Extended Squitter Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "D\u20102.1 Lavatory Fire Protection (JAR 25.854 (a))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "F\u20102.1 Hydraulic System Static Test, (JAR 25.1435 (b)(1))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "D\u20105 (PTC) Emergency Exit Marking",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.811 (f)(3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "E\u20104.4(PTC) Fuel Tank Expansion Space JAR 25.969",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "D\u20102.2(PTC) Towbarless Towing (CS 25.745(d)(1))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "Aircraft Noise: ICAO Annex 16, Volume I, Aircraft Noise, Third Edition, July 1993, Chapter 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "Aircraft Engine Emissions: ICAO Annex 16, Volume II, Aircraft Engine Emissions, Second Edition, July 1993, Part III, Chapter 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

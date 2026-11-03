@@ -1,0 +1,135 @@
+{
+  "manufacturer": "AEROSPACE COMPOSITES GmbH",
+  "model_designation": "EA 400",
+  "common_name": "EXTRA 400",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.011",
+        "revision": "7",
+        "revision_date": "2025-10-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7504/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 45 (9th of July 1993) For operation in known icing conditions additionally compliance has been shown with: FAR 23.49 Amdt. 23-50",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "49"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1093 Amdt. 23-51",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "1093"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1323 Amdt. 23-51",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "1323"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 23.1323 Amdt. 23-1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Fire Protection of Engine mount Fuselage Connection (LBA I 335-1086.SF2/94, dated 6th of April 1994)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Roll Control in Supercooled Large Droplets (LBA-",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "212.SF 1/02, dated 27th of September 2002)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "See Equivalent Level of Safety Item List Doc. No.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "EA-05406.01",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "L\u00e4rmschutzforderung f\u00fcr Luftfahrzeuge (LSL), dated 1st of January 1991",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

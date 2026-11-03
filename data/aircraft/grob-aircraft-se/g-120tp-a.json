@@ -1,0 +1,93 @@
+{
+  "manufacturer": "GROB Aircraft SE",
+  "model_designation": "G 120TP-A",
+  "common_name": "G 120TP-A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.565",
+        "revision": "4",
+        "revision_date": "2024-03-08",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7076/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, Amendment 1, issued 12 February 2009 If equipped i.a.w. OCN 565-83 with MCN 565-684: CS-ACNS, Issue 1 If equipped i.a.w. O\u00c4M 565-17: CS-ACNS, Issue 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-1"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1309-02 Protection from Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1309-03 Protection from Effects of Lightning strikes, Indirect Effects If equipped i.a.w. O\u00c4M 565-17: SC-B23.div-01 Human Factors \u2013 Integrated Avionics Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "If equipped i.a.w. OCN 565-83 with MCN 565-684: Deviation CS-ACNS#1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "CS 23.777(g) Location of Landing Gear Control Lever If equipped i.a.w. O\u00c4M 565-17: CS 23.1321(d)(4): Location of Heading Indicator PFD",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "Chapter 10 of ICAO Annex 16, Volume I, Fifth Edition, Amendment 9",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "CS-36, Amendment 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "CS-34, Original issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

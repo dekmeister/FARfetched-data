@@ -1,0 +1,53 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM S.p.A.",
+  "model_designation": "P2006T NG",
+  "common_name": "P2006T NG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.185",
+        "revision": "19",
+        "revision_date": "2026-04-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7264/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt. 6, dated 27 Feb 2023, see Note 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-ACNS issue 4, dated 06 April 2022.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.185",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

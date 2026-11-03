@@ -1,0 +1,63 @@
+{
+  "manufacturer": "GA8 Airvan Pty Ltd",
+  "model_designation": "GA8-TC 320",
+  "common_name": "GA8-TC 320",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.042",
+        "revision": "9",
+        "revision_date": "2018-11-02",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7440/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in CRI A-01, latest Issue, and below",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Serial Nos GA8-08-130 and subsequent CS23 Ammendment 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "as under B.II.5",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-O23-div-01, Use of aeroplanes for parachuting activities (see Note 6)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "Applicable chapter of ICAO, Annex 16, Vol. 1, (see TCDSN)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

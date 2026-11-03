@@ -1,0 +1,253 @@
+{
+  "manufacturer": "Diamond Aircraft Industries GmbH",
+  "model_designation": "DA 62",
+  "common_name": "DA 62",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A57CE",
+        "revision": "34",
+        "revision_date": "2025-07-08",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID158115701820250709134158.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Joint Aviation Requirements (JAR) 23, Amdt. 1, dated February 01, 2001.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "A list of Significant Regulatory Differences was addressed using 14 CFR Part 23 amendment compared to CS-23, Original Issue. The certification basis is equivalent to 14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through Amendment 23-55.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-55"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a723.1306 Electrical and electronic system lightning protection.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a723.1308 High-intensity Radiated Fields (HIRF) Protection. [please add]",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December, 1969, including Amendments 36-1 through Amendments 36-28.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "23-169-SC applicable to the derivative model DA-62 for Diesel Cycle Engine Using Turbine (Jet) Fuel.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "ACE-05-05 - Ignition Switches with the Austro AE300 Diesel Engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "ACE-05-06C - Cockpit Controls and Motion and Effect of Cockpit Controls with the Austro AE300 Diesel Engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "ACE-05-07 - Liquid Cooling with the Austro AE300 Diesel Engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "ACE-10-07 - Fuel Pump Installations with the Austro AE300 Diesel Engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.573 Damage tolerance and fatigue evaluation of structures (CS 23, amendment 2)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.603 Materials and workmanship (CS 23, amendment 2)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.613 Material strength and properties and design values (CS 23, amendment 2)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.629 Flutter (CS 23, amendment 2)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.775 Windshields and windows (CS 23, amendment 4)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1419 Ice protection (CS 23, amendment 4)",
+          "applicability": "FAA agrees with the EASA assessment for the changed product rule regarding the changes for this derivative model. The following are required regulations determined by the EASA that applicable due to the significantly changed areas",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.851 Fire extinguishers (CS 23, amendment 2)",
+          "applicability": "Based on editorial changes or references to guidance material the following later amendments apply",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.909 Turbo charger system (CS 23, amendment 2)",
+          "applicability": "Based on editorial changes or references to guidance material the following later amendments apply",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.0049 Stalling Speed (CS 23, amendment 1)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "other",
+          "raw_reference": "CS 23.149(d) Vsse (CS 23 Initial issue)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.562 Emergency landing dynamic conditions (CS 23, amendment 1)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "CS 23.807 Emergency Exits (CS 23, Initial issue)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "other",
+          "raw_reference": "CS 23.1093 Induction system icing protection (CS 23, Initial issue)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1326 Pitot heat indication system (CS 23, amendment 3)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1431 Electronic equipment (CS 23, amendment 3)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "CS 23.1507 Maneuvering speed (CS 23, Initial issue)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "other",
+          "raw_reference": "CS 23.1563 Airspeed placards (CS 23, Initial issue)",
+          "applicability": "DAI elected to comply with the following requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "other",
+          "raw_reference": "The European Aviation Safety Agency (EASA) certificated this aircraft under their Type certificate Number A.005.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "manufacturer": "DASSAULT AVIATION",
+  "model_designation": "Falcon 6X",
+  "common_name": "Falcon 6X",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.580",
+        "revision": "4",
+        "revision_date": "2025-09-03",
+        "source_url": "https://www.easa.europa.eu/en/downloads/138391/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-25 Amendment 21",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-21"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CS-26 Issue 4 CS-AWO Initial Issue CS-ACNS Initial Issue CS-SIMD Initial Issue CS-FCD Initial Issue CS-MMEL Initial Issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 CS 25.705 Amendment 24 for aircraft equipped with M-OPT0129 \u2013 \u201cROAAS function\u201d.",
+          "applicability": "Except",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-24",
+              "provisions": [
+                "705"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "\u2022 CS-AWO Issue 2 for aircraft equipped M-OPT001 \u201cHead-Up Display (LH Station) and M- OPT0002 - Enhanced Flight Vision System with 100ft operational credits",
+          "applicability": "Except",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Note: CS-CCD \u201cCabin Crew Data\u201d is not applicable since the maximum passenger configuration is below 20.",
+          "applicability": "Except",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "High Incidence Protection System (icing and non-icing conditions)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Motion and effect of cockpit controls Flight envelope protection Static Directional, Lateral and Longitudinal Stability and Low energy awareness Rudder Control Reversal Load Conditions High Altitude Operations Control Surface Position Awareness / Electronic Flight Control System and Flight control jams Pilot Compartment view - Hydrophobic coatings in lieu of windshield wipers All Engines Failed Condition Use of Flaperons for Lift and Roll Control Personal injury criteria of dynamic testing of side facing sofas Water / Ice in Fuel System Flight Recorders including Data Link recording Security Protection of Aircraft Systems and Networks Non-rechargeable Lithium Battery Installations Airframe Ice Protection System performance above CS 25 Appendix C Installation of a therapeutic oxygen system Rechargeable Lithium Battery Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Performance Requirements for Operations on Contaminated Runways and Landing Distance Assessment at Time of Arrival OSD Maintenance Certifying Staff (MCSD) Certification Basis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "Wheel Flange Debris and Fuel Tank Protection Data Link Services for the Single European Sky Flight Crew Alerting Flight Crew Alerting (for aircraft equipped with M-OPT001 and M-OPT002)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "Flight Control System Failure Criteria Pack off operations Servicing Doors Combined Aircraft Pressurization Outflow and Positive Pressure Differential Relief Valves Fuel Tank Expansion Ignition Switches Powerplant Instruments - Colour Markings Nacelle behind fire wall: TRAS compartment, absence of fire detection system Thrust Reverser Testing Landing Light Switch Use of IRS for DFDR vertical acceleration Minimum Mass Flow of Passenger Supplemental Oxygen",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "ESF to requirement CS25.1326(b)(2) - Flight instrument external probes heating systems alert Terrain Information Display and Synthetic Vision System Indication removal from Primary Flight Displays during ground phases (for aircraft equipped with M-OPT0131)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "CS-34 Amendment 4 ICAO, Annex 16, Volume II, amendment 8, Part II, Chapter 2 for fuel venting ICAO, Annex 16, Volume II, amendment 10, Part III, Chapter 2 and 4 for emissions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "CS-36 Amendment 5 ICAO, Annex 16, Volume I, amendment 12, Part II, Chapter 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "The following paragraphs of Commission Implementing Regulation (EU)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "2020/1159: Part 26.300, 26.301, 26.303, 26.304, 26.305",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

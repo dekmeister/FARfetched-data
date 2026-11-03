@@ -1,0 +1,377 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "767-300F",
+  "common_name": "767-300F",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.035",
+        "revision": "11",
+        "revision_date": "2025-02-04",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7454/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAA TCDS A1NM",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "The 767-300F Type Certification Basis includes the following requirements in addition to the 767-300 certification basis detailed above: 25.561 Amendment 25-64 Applies to seats for supernumeraries, galley and rigid barrier.",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-64",
+              "provisions": [
+                "561"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "25.783 Amendment 25-72 Applies to main deck cargo door.",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-72",
+              "provisions": [
+                "783"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from FAR 25: Exemption No. 5993 Exemption from 25.807(c)(1) and 25.857(e) - Allows for the carriage of up to seven persons including the flight crew members, when the aeroplane is equipped with a floor level exit with escape slide, and a right hand flight crew window emergency exit that is operable from the outside. Exemption No. 5993A Exemption from 25.809(f)(1) - Allows for the carriage of persons other than flight crew members. In lieu of an escape slide, the emergency evacuation assist means at the entry door shall be an inertial reel descent device and harness provided for each occupant. See Note below.",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 25.1447(c)(1) and 25.1447(c)(3) - Equipment Standards for Oxygen Dispensing Units.",
+          "applicability": "Equivalent Safety Findings exist with respect to the following regulations",
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Note: Exemption 5993A for the 767-300F requires that the procedures found to be acceptable during the emergency evacuation demonstration be incorporated into the approved operator's procedures. Any deviation requires coordination with FAA Seattle Aircraft Certification Office.",
+          "applicability": "Equivalent Safety Findings exist with respect to the following regulations",
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "In accordance with Regulation (EC) 1702/2003",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "For secondary changes, not affected areas and unrelated changes and/or features/functions, plus those requirements that are applicable to affected areas but do not contribute materially to the level of safety for the affected change (Part 21.101(b)): EASA Validation Basis 767-300 as defined in EASA TCDS IM.A.035 Section 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "For Significant Changes/ Related Changes and/ or affected features/ functions, following Part 21.A.101, the following requirements at JAR 25 Change 13 plus Orange Papers 25/90-1 and 25/91-1 are applicable: Main Deck Cargo Door and aft lobe large cargo door (Changed Areas only): 25.783 (Main Deck Cargo Door only) New Strengthened Main Deck Floor, sections 41, 43, 45 & 46 FAR 25.561 (c) (2) Amendment [25-64] instead of JAR 25.561(c)(2) Change 13 for APU fuel line Section 38 For cargo barrier wall None Wing, local Monocoque, Keel & Wheel Well Pressure Deck Reinforcement and Landing Gear (Changed Areas only): None Loads and Flutter (Changed Areas only): None Oxygen System (Changed Areas only): 25.1439, 25.1439(a), 25.1439(b), 25.1439(b)(1) (Access to Main Deck Class E see also CRI D-2), 25.1439(b)(2) (Access to Main Deck Class E see also CRI D-2), 25.1439(b)(3), 25.1439(b)(4) (Access to Main Deck Class E see also CRI D-2), 25.1441(b), 25.1441(c) (False indication of Flight Crew O2 availability see also CRI D-5), 25.1441(d) (Flight Crew Mask), 25.1443, 24.1443(b), 25.1443(e) (Access to Main Deck Class E see also CRI D-2), 25.1447(a), 25.1447 (c)(1) (Courier Compt CRI D-04), 25.1447(c)(2), 25.1447(c)(3) (Courier Compt CRI D-04, oxygen outlets CRI F-3 ), 25.1449, 25.1451, 25.1453 Escape Systems (Changed Areas only): 25.801(a), 25.801(b), 25.801(d), 25.803(a), 25.803(b), 25.803(c), 25.807(a), 25.807(b), 25.807(c), 25.807(d), 25.809 (a), 25.809 (b), 25.809 (f) (1), 25.809 (f) (1) (i), 25.809 (f) (1) (ii), 25.809 (f) (1) (iii), 25.809 (h), 25.1411 (c), 25.1411 (d) (4) Water Waste System (Changed Areas only): 25.1455, 25.607 (c ), 25.611, 25.787 (c ), 25.855 (a) (see also SC S-2), 25.855 (b), 25.855 (c), 25.855 (d), 25.857 (c ) (3), 25.857 (e) (4), 25.1541 (a) (b), 25.1557 (a) Environmental Control System (Changed Areas only): 25.858 (a), 25.858 (b), 25.858 (c), 25.858 (d) Cargo System (Changed Areas only): 25.607 (c ), 25.611, 25.787 (c ), 25.855 (a), 25.855 (b), 25.855 (c ), 25.855 (d), 25.857 (c ) (3), 25.857 (e) (4), 25.1541 (a) (b), 25.1557 (a) Galley (Changed Areas only): 25.301, 25.303, 25.305 (a), 25.305 (b), 25.305 (c), 25.307 (a), 25.365 (e), 25.365 (f), 25.365 (g), 25.561, 25.601, 25.603, 25.605, 25.609, 25.787 (a), 25.787 (b), 25.789 Fire Containment/Flammability (Changed Areas only): 25.853 (a), 25.853 (b), 25.853 (b) (1), 25.853 (b) (2), 25.853 (b) (3), 25.853 (c), 25.856 (a) (see ESF D-3), Supernumerary seats 25.301, 25.303, 25.305 (a), 25.305 (b), 25.305 (c), 25.307 (a), 25.561 (a) (b) (c ) (d), 25.562 (b), 25.562 (c), 25.562 (c) (5), 25.562 (c) (6), , 25.601, 25.603 (A), 25.603 (b), 25.605 (a), 25.605 (b), 25.609, 25.613 (a), 25.613 (b), 25.613 (c), 25.613 (e), 25.621, 25.625, 25.785 (a), 25.785 (i) (1), 25.785 (i) (3), 25.787 (a), 25.787 (b), 25.789 (a), Payloads (Changed Areas only) 25.562 (c) (5), 25.562(c)(6), 25.562(c)(8), 25.601, 25.783 (g), 25.783 (h), 25.783 (h) (1) (2), 25.783 (j), 25.785 (a), 25.785 (b), 25.785 (c), 25.785 (d), 25.785 (e), 25.785 (g), 25.785 (h), 25.785 (k), 25.787 (a), 25.787 (b), 25.793, 25.801 (a), 25.801 (b), 25.809 (a), 25.809 (b), 25.809 (c ), 25.811 (a) (courier compartment CRI D-4), 25.811 (b), 25.811 (c ), 25.811 (e) (courier compartment CRI D-4), 25.811 (f), 25.811 (g), 25.812 (a) (1), 25.812 (b) (2), 25.812 (e), 25.851 (a) (5) (6), 25.853 (c ), 25.853 (e), 25.853 (f), 25.857 (e) (5), 25.1411 (a), 25.1411 (b), 25.1411 (c ), 25.1411 (d), 25.1411 (e), 25.1411 (f), 25.1413 (d), 25.1415 (a), 25.1415 (b), 25.1415 (c ), 25.1415 (d), 25.1439 (a), 25.1447 (a), 25.1447 (c ) (Courier Compartment see also CRI D-4), 25.1447 (c ) (1) (Courier Compartment see also CRI D-4), 25.1541, 25.1557 (a), 25.1557 (c ), 25.1561, AFM (Changed areas only): 25.1591, 25X1591",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "JAR AWO change I plus: - Orange paper AWO 91/1, - NPA JAR AWO 3, - NPA JAR AWO 8",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "S-02 Class E Cargo Compartment Fire Protection of Essential Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "JAR 25.Appendix F part III, JAR 25.855, FAR 25.1309",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "D-02 Access to Class E Cargo compartments in Flight",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "JAR 25.855, JAR 25.857, JAR 25.1309, JAR 25.1439, JAR 25.1443",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Courier Compartment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "JAR 25.857(e), [JAR 25.1447 (c) (1)], [JAR 25.1447 (c) (3)]",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "D-GEN02 PTC Heat Release and Smoke Density (Note: to be applied to new seat installations after January 2011)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "H-01 Enhanced Airworthiness Programme for Aeroplane Systems - ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "Part 21A.16(b)(3), 21A.21(c)(3), CS 25.1529 & Appendix H INT/POL 25/7 Rapid Decompression (Structures)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "JAR 25.365 INT/POL 25/9 Fuel Tank Crashworthiness (Structures)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "JAR 25.963 NPA 25B 242 Landing Data Extrapolation NPA 25G 255 Flight Manuals AMJ 25X1591 Wet and Contaminated Runways",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "D-07 * Exterior Markings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "JAR 25.811(f)(1)(2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "D-03 Flammability standard for thermal /acoustic insulation materials",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "FAR 25.856(a)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "F-03 * Oxygen outlets in working areas",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "JAR 24.1447(c)(3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "* Boeing has agreed with EASA to utilize existing EASA CRI F-03 Issue 2 and CRI D-07, both applicable to 767-400ER, for the 767-300F project",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "Generic ESF: D-GEN7, Flammability Testing Hierarchy (JAR/CS 25.853(a) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "Fuel Venting & Emissions: ICAO Annex 16, Volume II, chapter 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "other",
+          "raw_reference": "For all models, compliance with point 26.300(a) of Part 26 is demonstrated by complying with points",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "other",
+          "raw_reference": "- 26.301 Compliance Plan for (R)TC holders",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "other",
+          "raw_reference": "- 26.302 Fatigue and damage tolerance evaluation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "other",
+          "raw_reference": "- 26.303 Limit of Validity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "other",
+          "raw_reference": "- 26.304 Corrosion prevention and control programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "other",
+          "raw_reference": "- 26.305 Validity of the continuing structural integrity programme",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "other",
+          "raw_reference": "- 26.306 Fatigue critical baseline structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "other",
+          "raw_reference": "- 26.307 Damage tolerance data for existing changes to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "other",
+          "raw_reference": "- 26.308 Damage tolerance data for existing repairs to fatigue critical structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "other",
+          "raw_reference": "- 26.309 Repair Evaluation Guidelines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

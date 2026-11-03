@@ -1,0 +1,577 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "208",
+  "common_name": "208",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A37CE",
+        "revision": "25",
+        "revision_date": "2025-08-01",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID139525973020250804161345.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 36 as amended by Amendments 36-1 through 36-12.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23 as amended by Amendments 23-1 through 23-28.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-28"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "SFAR 27 as amended by Amendments 27-1 through 27-4.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety (ELOS) applicable to Models 208 and 208B, not equipped with the Garmin G1000 Integrated Cockpit System: FAR 23.955(f)(2), Fuel System.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: FAR Part 36 as amended by Amendments 36-1 through 36-18.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller; FAR Part 36 as amended by Amendments 36-1 through 36-18.",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: FAR Part 23 as amended by Amendments 23-1 through 23-28.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller; FAR Part 23 as amended by Amendments 23-1 through 23-28.",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: SFAR 27 as amended by Amendments 27-1 through 27-4.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller; SFAR 27 as amended by Amendments 27-1 through 27-4.",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: ELOS applicable to Models 208 and 208B, not equipped with the Garmin G1000 Integrated Cockpit System: FAR 23.955(f)(2), Fuel System.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: Special Conditions: 23-ACE-3; Dynamic Evaluation, Engine Installation.",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: Addition of CFR 23.1459 for FDR and 23.1457 for CVR, Amendment 23-25. Effective for S/N 2080356 and On and 208B0932 and On. Applies to G1000 Model 208B S/N 208B2197, 208B5000 and On equipped with P&WC PT6A-140 (867 SHP) engine and Hartzell propeller: 1. FAR Part 36 (Acoustics) as amended by Amendments 36-1 through 36-28. 2. FAR Part 23 as amended by Amendments 23-1 through 23-28 with additions for the Garmin G1000 and P&WC PT6A-140 engine. 3. FAR Part 34 (Emissions) original. 4. Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Additions for the Garmin G1000 Integrated Cockpit System (ICS) applicable to the following Serial Numbers (S/N): 1. 2080416, 2080500 and On 2. 208B1190, 208B1216, 208B2000 thru 208B2196, and 208B2198 thru 208B4999 3. 208B2197 and 208B5000 and On, equipped with P&WC PT6A-140 (867 SHP) Engine. Original paragraphs amended by 23-1 through 23-28 and addressed during the G1000 certification are included (14CFR): 1. Part 23 as amended by Amendment N/C: 23.303, 23.305(a)(b), 23.307(a), 23.601, 23.609, 23.671(a), 23.1367, 23.1381. 2. Part 23 as amended by Amendment 23-7: 23.561(e), 23.611, 23.689(a), 23.867(a)(b). 3. Part 23 as amended by Amendment 23-13: 23.1589. 4. Part 23 as amended by Amendment 23-14: Electrical aspects of 23.1365(a)(b), 23.1419(b)(c), 23.771(a). 5. Part 23 as amended by Amendment 23-17: 23.607, 23.685(a), and electrical aspects of 23.1309(a)(1)(2)(c), 23.1165(b)(c).",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-20: 23.1301, 23.1327, 23.1335, 23.1547(b)(e), electrical aspects of 23.1351(a)(b)(c)(d)(e), and electrical aspects of 23.1361(a)(b)(c).",
+          "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-21: 23.1501, 23.1541(a)(1)(2)(b)(1)(2), 23.1353(g).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1501"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1541"
+              ],
+              "paragraph": "(a)(1)(2)(b)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(g)"
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-23: 23.603(a)(b), 23.605.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23",
+              "provisions": [
+                "605"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23",
+              "provisions": [
+                "603"
+              ],
+              "paragraph": "(a)(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-26: 23.1529.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-26",
+              "provisions": [
+                "1529"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-28: 23.301(a)(d).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-28",
+              "provisions": [
+                "301"
+              ],
+              "paragraph": "(a)(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-34: 23.853(e), 23.1523, 23.1581(a)(b)(d), 23.1583(a)(1)(b)(h), 23.1585(a).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1523"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "853"
+              ],
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(b)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1583"
+              ],
+              "paragraph": "(a)(1)(b)(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34",
+              "provisions": [
+                "1585"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-35: 23.1459, 23.1457.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-35",
+              "provisions": [
+                "1459",
+                "1457"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-43: 23.1322, 23.1331, and 23.1357(a)(b)(c)(d)(e).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322",
+                "1331"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-45: 23.773(a)(1)(2), 23.1525, 23.1549.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "1525",
+                "1549"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "773"
+              ],
+              "paragraph": "(a)(1)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-49: 23.677(d), 23.1303(a)(b)(c)(d)(e)(1)(f), avionic aspects of 23.1309(a)(1)(2)(b)(1)(2)(3)(4) (c)(1)(2)(iii)(3)(d)(e)(f)(1), 23.1311, 23.1321(a)(c)(d)(e), 23.1323(a)(b)(1)(2)(c), 23.1329, 23.1351(c)(4)(d)(1), 23.1361(c), 23.1365(a)(b)(d)(e), 23.1431(a)(b)(d)(e).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-50: 23.1325(a)(b)(1)(i)(ii)(iii)(b)(2)(i)(3)(c)(1)(2)(d)(e), 23.1543(b)(c), 23.1553, 23.1545(a)(b)(4)(d), 23.1555(a)(b), 23.1567(a).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1553"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1325"
+              ],
+              "paragraph": "(a)(b)(1)(i)(ii)(iii)(b)(2)(i)(3)(c)(1)(2)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)(b)(4)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1567"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-51: 23.777(a)(b), 23.955(a)(1)(2)(f), 23.959, 23.1337(a)(1)(2)(b)(1)(4)(c)(d), 23.1183, 23.1203(b)(c)(d)(e).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "959",
+                "1183"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "955"
+              ],
+              "paragraph": "(a)(1)(2)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "1337"
+              ],
+              "paragraph": "(a)(1)(2)(b)(1)(4)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "1203"
+              ],
+              "paragraph": "(b)(c)(d)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-52: 23.1305(a)(1)(2)(3)(5)(c)(1-10)(e)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-53: 23.901(a)(b)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-53",
+              "provisions": [
+                "901"
+              ],
+              "paragraph": "(a)(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 as amended by Amendment 23-57: 23.1308",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "Additions for new or changed lithium battery installations: 1. 14 CFR Part 23 as amended by Amendment 23-64 (see NOTE 9):",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "23.2000, 23.2005, 23.2010, 23.2325(g), 23.2510",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "other",
+          "raw_reference": "Additions for new or changed installations affecting aeronautical security (cybersecurity): 1. 14 CFR Part 23 as amended by Amendment 23-64 (see NOTE 9):",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "23.2000, 23.2005, 23.2010, 23.2500, 23.2505, 23.2510",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "ELOS: 1.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "other",
+          "raw_reference": "Applicable to Model 208 and 208B equipped with the Garmin G1000 Integrated Cockpit System: a. 23.1305(c)(2)(5), Amendment 52; Powerplant instruments. b. 23.1549(a)(b)(c), Amendment 45; Powerplant and auxiliary power unit instruments.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "Additionally, with guidance from AC 23.1311-1B, Installation of Electronic Display (Section 9 \u2013 Powerplant Displays), Section 9.4 Direct-Reading Alphanumeric-Only Displays. 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "other",
+          "raw_reference": "Applicable to Model 208 with Garmin G1000 and Model 208B with or without Garmin G1000 and equipped with the optional TKS ice protection system: 23.207(c) Amendment 7; Stall Warning. 3.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "other",
+          "raw_reference": "Applicable to Model 208B equipped with P&WC PT6A-140 Engine: 23.145, Amendment 17; Longitudinal Control.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

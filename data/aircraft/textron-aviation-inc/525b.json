@@ -1,0 +1,403 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "525B",
+  "common_name": "525B",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A1WI",
+        "revision": "34",
+        "revision_date": "2026-01-05",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 through 23-54. 23.773, 23.775, 23.807(e), 23.865, 23.933, 23.1309, 23.1311, 23.1419, 23.1431, 23.1441, 23.1453 as amended through Amendment 23-40. 23.1451 as amended at Amendment 23-49 for 525B0001 thru 525B0056 and 525B0058 thru 525B0450. 23.1309 as amended at Amendment 23-49 for the engine FADEC installation only. 23.562 as amended at Amendment 23-50 for emergency landing dynamic conditions for each seat/restraint system as required by Exemption No. 7981. 23.1309(a) as amended at Amendment 23-62, for PED tolerance only. 14 CFR Part 23 regulations 23.2000, 23.2005, 23.2010, 23.2325(g), 23.2410, 23.2510, 23.2525, and 23.2605 as amended through Amendment 23-64 (see NOTE 13) for new or changed lithium battery systems only.",
+          "applicability": "Exceptions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 through 23-54. Additions (525B0057, 525B0451 & On):",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "23.1306 Lightning Protection 23-62",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "High-Intensity Radiated 23.1308 23-62 Fields (HIRF) Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "23.1451 Fire Protection for 23-62 Oxygen Equipment",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1451"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "23.1555 Control Markings 23-62",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1555"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "23.1309 23-62",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "(System Safety Aspects) 23.2505 23-64",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "Autothrottle Functionality 23.2510 23-64",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "23.2605(a)(b)(c) 23-64",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) 23-65",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "23.2505 23-64 Cybersecurity 23.2510 23-64",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) 23-65",
+          "applicability": "525B0057, 525B0900 & On (see NOTE 13)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 of the CFR effective September 10, 1990, as amended by amendment 34-1 thru 34-3.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 of the CFR effective December 1, 1969, as amended by amendment 36-1 thru 36-28.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-ACE-55, paragraphs 2, 3, 4 and 37.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-102-SC, High Altitude Operation (45,000 ft.). Additional requirements for ventilation, air conditioning, pressurized cabins, oxygen equipment and supply, supplemental oxygen, oxygen distribution and equipment (see NOTE 6.)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-145-SC, Flight Performance, Flight Characteristics, and Operating Limitations. Special Conditions SC 23.51 Takeoff speeds; SC 23.63 Climb: General; SC 23.67 Climb: One engine inoperative; SC 23.149 Minimum control speed; SC 23.161 Trim; SC 23.173 Static longitudinal stability; SC 23.177 Static directional and lateral stability; SC 23.201 Wings level stall; SC 23.203 Turning flight and accelerated turning stalls; SC 23.251 Vibration and buffeting; SC 23.253 High speed characteristics; SC 23.1505 Airspeed limitations; SC 23.1545 Airspeed indicator; SC 23.1583 Operating limitations; and SC 23.1585 Operating procedures.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 7981 to permit certification in the Commuter category.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 8323 for use of a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. (1) No. ACE-00-01A: 23.1305(c)(2)(5), 23.1549(a)(b)(c)(d), direct reading, digital only displays for the high- pressure turbine speed (N2), and fuel flow indications.",
+          "applicability": "Applicable to airplanes 525B0001 thru 525B0056, 525B0058 thru 525B0450",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. (1) No. ACE-14-12: 23.1549(a)(b)(c), Electronic Display of the Engine Parameters; N2, Oil Pressure, Oil Temperature, and Fuel Flow, on a Garmin 3000 Integrated Flight Deck. (2) No. ACE-99-07A: 23.841(b)(6), Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations. (3) No. ACE-00-05A: 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure. (4) No. ACE-02-18: 23.783(f)(1) Passenger Entry Door Opening Dimensions. (5) No. ACE-02-20: 23.815(b) Cabin Aisle Width. (6) No. ACE-03-07: 23.853(d)(2) No Smoking Placard Lettering Size. (7) No. ACE-04-06: 23.1447(e) Passenger Oxygen Dispensing Units. (8) No. ACE-11-07: 23.855(c)(3) Cargo and Baggage Compartment Fire Protection. NOTE: No Cessna Model 525B aircraft will be configured to meet ELOS ACE-11-07.",
+          "applicability": "Applicable to airplanes 525B0057, 525B0451 & On",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.078",
+        "revision": "19",
+        "revision_date": "2026-05-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7368/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, Initial issue, dated 14 November 2003 with the following paragraphs retained at 14 CFR 23 through Amendment 40: \u00a7\u00a7 23.773, 23.775, 23.807, 23.865, 23.1309 (CS23.1309 for the engine FADEC installation only), 23.1419, 23.1431, 23.1441, 23.1451, and 23.1543",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with CS 23.1416 and 23.1419 (See Note 8)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(a) as amended through Amendment 3, for Portable Electronic Device (PED) tolerance only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, regulations 23.0000, 23.2005, 23.2010, 23.2325(a)(2), 23.2410, 23.2510, 23.2525 and 23.2605, Amendment 6 (see Note 11) for new or changed lithium battery systems only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "(525B-0057 and 525B-0451 and On) CS-ACNS, issue 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CS23 Jets beyond 5670 kg (12500 lbs) Human Factors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CS23 Jet requirements High Altitude Operation FADEC Integration Protection from the Effects of HIRF Protection from the Direct Effects of Lightning strike Protection from the Indirect Effects of Lightning strike Equipment Systems and Installations Databases and Configuration Files Digital Devices Design Assurance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "(525B0057, 525B0451 and on)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "Human Factors - Integrated Avionics Systems and associated",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-B 23.div-01, Issue 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "Flight Recorders including Data Link Recording and associated",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.1457-01, Issue 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "No. 7981 to permit certification in the Commuter category.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "other",
+          "raw_reference": "No. 5759 granted to use a relaxed \u201cDutch Roll\u201d damping criteria above 18, 000 feet in lieu of damping criteria of 14 CFR 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "Digital reading N2 Cabin Pressurisation high altitude TO/L Cabin Pressurisation Excursion Passenger Entry Door Aisle Width No Smoking Placard letter size Passenger Oxygen Dispensing Unit",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I ICAO Annex 16, Volume II, Part II (further details refer to TCDSN.IM.078)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

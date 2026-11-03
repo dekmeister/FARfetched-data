@@ -1,0 +1,72 @@
+{
+  "manufacturer": "Symphony Aircraft Industries Inc",
+  "model_designation": "OMF-100-160",
+  "common_name": "OMF-100-160",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.031",
+        "revision": "1",
+        "revision_date": "2005-02-15",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7463/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in LBA CRI A-01, latest Issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, Original issued 11 March 1994",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1326, Amdt. 49",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1326"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "Noise: ICAO Annex 16, 3rd Edition 1993, Volume 1, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "Emission: N/A",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "manufacturer": "Airbus Defence and Space S.A",
+  "model_designation": "C-212-CB",
+  "common_name": "C-212-CB",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.187",
+        "revision": "4",
+        "revision_date": "2026-10-12",
+        "source_url": "https://www.easa.europa.eu/en/downloads/132561/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Data Sheet from the Spanish Type Certificate (DGAC-ES) Nr 01/82",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Spain",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 25, dated 1 February 1965, with Amendments 25-1 to 25-35, both inclusive.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-35"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "14 C.F.R. FAR Part 36 Issued Dec. 1, 1969 including Amendments 36-1 through 36-17.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I (Noise), 3rd issue, November 1993 14 C.F.R. FAR Part 34 Issued Aug. 10, 1990 ICAO Annex 16, Volume II (Fuel system ventilation and exhaust gas) 2nd issue ,November 1993",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

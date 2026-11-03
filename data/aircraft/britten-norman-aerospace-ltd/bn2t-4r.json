@@ -1,0 +1,319 @@
+{
+  "manufacturer": "Britten-Norman Aerospace Ltd",
+  "model_designation": "BN2T-4R",
+  "common_name": "BN2T-4R",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.388",
+        "revision": "4",
+        "revision_date": "2025-02-17",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7148/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "The following requirements were the basis of certification of the BN2T-4R type design: BCAR Section D \u2013 Aeroplanes \u2013 Issue 6, dated 1 November 1963, sub-sections D3 (except D3-5) and D4, except that D4- 2 paragraph 3.2.2 bird impact requirement, is met with a 2 lb bird which is the equivalent of the BCAR Section K Chapter 4.2 paragraph 3.2.2 requirement.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "BCAR Section K \u2013 Light Aeroplanes - Issue 6, dated 10 April 1974 sub-section K1, K2 (except K2-2, 2-8 paras 4 and 6.5, 2-10 para 4.1-3, -4, -5), K5, K6 and K7 (except K7-5, 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "BCAR Section N \u2013 Noise \u2013 Issue 5, dated 1 August 1990.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "BCAR Section R \u2013 Radio \u2013 Issue 4, dated 10 April 1974 BCAR 23 Light Aeroplanes \u2013 Issue 1, dated December 1987, Paragraphs 23.471 to 23.511 inclusive and 23.629.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 23 \u2013 Normal, Utility, Aerobatic and Commuter category Aeroplanes \u2013 Draft Issue 4: 23.45-23.77 inclusive, 23.147 (b), 23.149, 23.177(b), 23.1583(c)(3), 23.1585(a)(3),(a)(6) and (c)(1) to (c)(4) inclusive and 23.1587.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "BCAR Blue Papers: K600, 5 April 1982: Powerplant Installations cooling system.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "647, 21 Nov 1979: Seats, Safety Belts & Harnesses.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "673, 10 March 1978: Pilot Intercommunication in Light Aeroplanes.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "K706, 31 August 1988: Electrical Supply, Systems & Equipment (replacing BCAR Section J).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "731, 1 August 1979: Gyroscopic Rate of Turn Indicators.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "738, 19 Sept 1979: Amendments to Archive Consistency with Section N.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "K741, 18 April 1984: Autopilots and Flight Directors.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "K775, 5 April 1982: Installations Assumptions involved in engine certification.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "CAA Airworthiness Notices: 5, Issue 1, 1 April 1972: Tyre Wear Limitations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "11, Issue 8, 1 Nov 1983: Acceptance of Aeronautical Parts.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "33, Issue 3, 1 Feb 1972: Unprotected Starter Circuits in Aircraft not exceeding 12,500 lb.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "36, Issue 9, 2 Oct 1981: Mandatory Modifications & Inspections.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "39, Issue 4, 16 Sept 1988: Selection of Procurement of Electronic Components.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "40, Issue 1, 1 Nov 1966: Carbon Monoxide Contamination in Aircraft.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "41, Issue 8, 2 Oct 1981: Maintenance of Cockpit & Cabin Combustion Heaters and their associated Exhaust Systems 42, Issue 1, 20 July 1979: Internal Emergency Lighting System.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "45, Issue 1, 1 Nov 1983: Software Management 45A, Issue 1, 1 July 1986: Software Management & Certification Guidelines.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "53, Issue 1, 26 June 1970: Vertical Speed Indicators on Imported aircraft.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "54, Issue 1, 26 June 1970: Instruments with unusual presentations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "55, Issue 2, 5 Oct 1973: Routine Maintenance of Propeller Blades.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "58, Issue 4, 10 Dec 1986: Flame Resistant Furnishing Materials.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "66, Issue 2, 18 Oct 1972: Aircraft Insurance.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "75, Issue 9, 1 April 1983: Overhaul & Inspection Requirements for Variable Pitch Propellers.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "76, Issue 3, 1 April 1980: Power Supply Systems for Aircraft Radio Installations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "82, Issue 1, 7 June 1973: Electrical Generation Systems \u2013 Aircraft not exceeding 5,700 kg Maximum authorised weight.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "87, Issue 1, 6 Nov 1987: Failure of Mechanical Products inc. Circuit Breakers.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "91, Issue 2, 1 Nov 1983: Communications Transmitters in the VHF Radio Frequency Band 118 \u2013 137MHz.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "92, Issue 1, 15 Jan 1981: Cargo Containment.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "CAA Specifications: No. 1, Issue 5, 24 Sept 1979: Safety Belts.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "No. 3, Issue 3, 10 July 1953: Tests for Seats with safety belts attached.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "No. 4, Issue 2, 1 Feb 1962: Safety Harnesses.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "No. 13, Issue 1, 24 Sept 1979: Diagonal Shoulder Harness",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume I (see EASA TCDSN.A.388 for details)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

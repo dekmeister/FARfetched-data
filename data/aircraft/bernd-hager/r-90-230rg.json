@@ -1,0 +1,53 @@
+{
+  "manufacturer": "Bernd Hager",
+  "model_designation": "R 90-230RG",
+  "common_name": "R 90-230RG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.539",
+        "revision": "4",
+        "revision_date": "2022-02-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/17339/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Part 23 incl. amendment 23-1 through 23-34, effective 17-Feb-1987",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Refer to LBA-Letter from 07-Jan-1991 1. Primary structures designed with composite material 2. Protection of Systems From Lightning and HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "LSL Chapter VI and X dated 01-Jan-1991",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

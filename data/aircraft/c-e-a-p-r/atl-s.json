@@ -1,0 +1,55 @@
+{
+  "manufacturer": "C.E.A.P.R.",
+  "model_designation": "ATL \u201cS\u201d",
+  "common_name": "ATL \u201cS\u201d",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.374",
+        "revision": "1",
+        "revision_date": "2013-05-10",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7160/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 as amended by amendment 23-1 through 1-28 dated 28 April 1982",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "DGAC France CTC23 issue 1 dated 20/12/84",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Vol.1. Chap 6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

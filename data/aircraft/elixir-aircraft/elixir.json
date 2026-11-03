@@ -1,0 +1,53 @@
+{
+  "manufacturer": "ELIXIR AIRCRAFT",
+  "model_designation": "Elixir",
+  "common_name": "Elixir",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.633",
+        "revision": "7",
+        "revision_date": "2026-04-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/111973/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 [Certification Specifications for Normal, Utility, Aerobatic and Commuter Category Aeroplanes] Amdt. 5, dated March 29th, 2017 CS-ACNS, Issue 4, dated 05 April 2022",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-5"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "in addition, for aircraft modified by Elixir Aircraft modification MOD-2023-14: CS-23 [Certification Specifications for Normal, Utility, Aerobatic and Commuter Category Aeroplanes] Amdt. 6, dated March 8th, 2023, Sections 23.2100, 23.2105, 23.2110, 23.2115, 23.2120, 23.2125, 23.2130, 23.2135, 23.2140, 23.2145, 23.2150, 23.2155, 23.2160, 23.2165, 23.2170, 23.2200, 23.2210, 23.2215, 23.2220, 23.2225, 23.2230, 23.2235, 23.2240, 23.2245, 23.2250, 23.2255, 23.2260, 23.2265, 23.2270, 23.2300, 23.2305, 23.2340, 23.2400, 23.2445, 23.2500, 23.2510, 23.2530, 23.2535, 23.2610, 23.2615, 23.2620, 23.2625",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "See TCDSN EASA.A.633.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

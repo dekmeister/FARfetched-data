@@ -1,0 +1,1409 @@
+{
+  "manufacturer": "Pilatus Aircraft Ltd.",
+  "model_designation": "PC-12/47E",
+  "common_name": "PC-12/47E",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.089",
+        "revision": "11",
+        "revision_date": "2025-07-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7348/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "US 14 CFR FAR Part 23, Normal Category, including Amendments 23-1 through 23-42, effective February 4th, 1991.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "US 14 CFR FAR Part 23, Sections 23.49(c) (23-44)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "23.143 c (23-50)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "23.301 (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "301"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "23.305 a (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "23.335 a,b,c,d (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "23.361 a,b2 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "23.371 a (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "23.479 b,c (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "23.561 b2-3,c3 (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "23.562 d (23-44)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "23.562 d1 (23-50)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "23.571 a (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "23.572 a1,b1 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "23.607 c (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "23.613 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "613"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "23.629 a,b,c,d,e,f2 (23-48)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "23.773 a1-2 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "23.1303 a,b,c,d,e,f (23-49) see Note 7 Section D.IV",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "23.1303 c (23-62) see Note 7 Section D.IV",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "23.1305 c3 (23-43)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "23.1307 (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "23.1311 (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1311"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "23.1322 e (23-43)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "23.1323 c (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "23.1326 a,b (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "23.1329 (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1329"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "23.1331 a,b1-2, c (23-43)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "23.1351 b2-3,c,c1-5,g (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "23.1353 h (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "23.1357 a,e (23-43)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "23.1359 (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1359"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "23.1361 a,b,c (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "23.1365 b,c,c1,d,e,f (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "23.1431 a,b,c,d,e (23-49)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "23.1507 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "1507"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "23.1525 (23-45)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "1525"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "23.1543 c (23-50)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "regulation",
+          "raw_reference": "23.1555 e2 (23-50)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.851 Amdt 4 (See Note 6)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4",
+              "provisions": [
+                "851"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 41,
+          "entry_type": "regulation",
+          "raw_reference": "3.A.2. Special Conditions: B-3 Steep Approach Landings",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "regulation",
+          "raw_reference": "C-1 Horizontal Tail Loads",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "regulation",
+          "raw_reference": "C-2 Horizontal Tail Loads (Rocking Motions)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "regulation",
+          "raw_reference": "C-3 Dynamic Behaviour of the Landing Gear",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "regulation",
+          "raw_reference": "C-4 Seat Head Rest & Supporting Structure aft Facing Seats",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "regulation",
+          "raw_reference": "D-1 Hinges (Strength & Rigidity)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "regulation",
+          "raw_reference": "D-2 Doors and Exits",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "regulation",
+          "raw_reference": "E-2 Composite Cowling (Toxics)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "regulation",
+          "raw_reference": "F-1 Protection from the Effects of HIRF",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "regulation",
+          "raw_reference": "F-2 Protection from the Indirect Effects of Lightning",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "regulation",
+          "raw_reference": "F-3 Human Factors Aspects of Flight Deck Design",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "regulation",
+          "raw_reference": "F-9 Integrated Modular Avionics (IMA)",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "regulation",
+          "raw_reference": "3.A.3. Exemptions: None",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 54,
+          "entry_type": "regulation",
+          "raw_reference": "3.A.4. Deviations: None",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 55,
+          "entry_type": "regulation",
+          "raw_reference": "3.A.5. Equivalent Safety Findings: B-1 Stall Identification & Recovery Characteristics",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 56,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.221(a)(2) [FOCA CQF 91-04] Spin Resistance",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 57,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.841(b)(6) [FOCA CQF 21-03] Pressure cabin warning altitude",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 58,
+          "entry_type": "regulation",
+          "raw_reference": "F-10 Individual Circuit Protection with IMA System",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 59,
+          "entry_type": "regulation",
+          "raw_reference": "F-11 ASI Flaps Markings",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 60,
+          "entry_type": "regulation",
+          "raw_reference": "F-12 Probes OFF Caution",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 61,
+          "entry_type": "regulation",
+          "raw_reference": "3.A.6. Environmental Protection: Noise: US Federal Aviation Regulation Part 36, Appendix G, including Amendments 36-1 through 36-28, effective January 4th, 2006. ICAO Annex 16: Environmental Protection, Third Edition, Amdt 7, effective March 21st, 2002; Volume 1, Part II, Chapter 6 and 10. Emissions: US Federal Aviation Regulation Part 34, (Fuel venting/emissions), effective September 10th, 1990.",
+          "applicability": "3.A.1 The certification basis for MSN 545 and MSN 1001 to MSN 1944 consists of the airworthiness requirements as per D.II.2 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 62,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.1 The certification basis for the major changes listed in the Note 12, which are installed on S/N 1720 and S/N 2001 and subsequent, consists of the airworthiness requirements as per D.II.2 and",
+          "applicability": "3.B The certification basis for MSN 1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 63,
+          "entry_type": "regulation",
+          "raw_reference": "US 14 CFR FAR Part 23, Sections 23.613 (23-45);",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "613"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 64,
+          "entry_type": "regulation",
+          "raw_reference": "23.907 (c) (23-59);",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "907"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 65,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 paragraphs at Amendment 4 23.63; 23.69; 23.147; 23.175; 23.177; 23.181;",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 66,
+          "entry_type": "regulation",
+          "raw_reference": "23.337; 23.341; 23.347; 23.361; 23.443; 23.572;",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 67,
+          "entry_type": "regulation",
+          "raw_reference": "23.629; 23.672; 23.677 (a)(d); 23.851; 23.905;",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 68,
+          "entry_type": "regulation",
+          "raw_reference": "23.1306; 23.1308; 23.1309; 23.1321; 23.1365;",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 69,
+          "entry_type": "regulation",
+          "raw_reference": "23.1589.",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 70,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.2 Special Conditions E-01 Turbine Engine Installation \u2013 Rain Ingestion;",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 71,
+          "entry_type": "regulation",
+          "raw_reference": "F-23 Auto Throttle (AT);",
+          "applicability": "3.A.1 as amended by",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 72,
+          "entry_type": "regulation",
+          "raw_reference": "F-01 Protection from the Effects of HIRF (Sec. 23.1308 is applicable);",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 73,
+          "entry_type": "regulation",
+          "raw_reference": "F-02 Protection from the Indirect Effects of Lightning Strike (Sec. 23.1306 and 23.867 are applicable);",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 74,
+          "entry_type": "regulation",
+          "raw_reference": "F-09 Integrated Modular Avionics (IMA) (AMC 20-170 is applicable).",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 75,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.3 Exemptions Reserved",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 76,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.4 Deviations Reserved",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 77,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.5 Equivalent Safety Findings E-03 Interconnected Fuel Tanks without Interconnected Tank Airspaces",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 78,
+          "entry_type": "regulation",
+          "raw_reference": "3.B.6 Environmental Protection Noise Requirements: As per TCDSN EASA.A.089 Issue 8: ICAO Annex 16, Volume I Edition / Amendment Chapter 10 (10.4b). Fuel Venting and Exhaust Emission Requirements: As per 3.A.6 Emissions",
+          "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A78EU",
+        "revision": "39",
+        "revision_date": "2025-07-02",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID189544976220250702193427.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Sections 21.29, 21.183(c) and 14 CFR 23, Normal Category, effective February 4, 1991, including Amendments 23-1 through 23-42 and:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-43) 23.1305(c3), 23.1322(e), 23.1331(a)(b1)(b2)(c), 23.1357(a)(e)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1305"
+              ],
+              "paragraph": "(c3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1322"
+              ],
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1331"
+              ],
+              "paragraph": "(a)(b1)(b2)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-44) 23.49(c), 23.562(d)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "49"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-44",
+              "provisions": [
+                "562"
+              ],
+              "paragraph": "(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-45) 23.305(a), 23.361 (a)(b2), 23.479(b)(c), 23.571(a), 23.572(a1)(b1), 23.613, 23.773(a1)(a2), 23.851 (See Note 19). 23.1507, 23.1525",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-48) 23.301, 23.335(a)(b)(c)(d), 23.371(a), 23.561(b2)(b3)(c3), 23.607(c), 23.629(a)(b)(c)(d)(e)(f2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "301"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "335"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "371"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "561"
+              ],
+              "paragraph": "(b2)(b3)(c3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "607"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "629"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)(f2)"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-49) 23.1303(a)(b)(c)(d)(e)(f), 23.1307, 23.1311, 23.1323(c), 23.1326(a)(b), 23.1329, 23.1351(b2)(b3)(c)(c1)(c2)(c3)(c4)(c5)(g), 23.1353(h), 23.1359, 23.1361(a)(b)(c), 23.1365(b)(c)(c1)(d)(e)(f), 23.1431(a)(b)(c)(d)(e)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1307",
+                "1311",
+                "1329",
+                "1359"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1323"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1326"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(b2)(b3)(c)(c1)(c2)(c3)(c4)(c5)(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1361"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1365"
+              ],
+              "paragraph": "(b)(c)(c1)(d)(e)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-50) 23.143(c), 23.562(d1), 23.1543(c), 23.1555(e2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "143"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "562"
+              ],
+              "paragraph": "(d1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(e2)"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-62) 23.1303 (c) \u2013 (Airplanes where the Magnetic Standby Compass is not installed (Note 15)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Section 36, effective November 18, 1969, including Amendments 36-1 through amendment 36-28, effective January 4, 2006,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Section 34, effective September 10, 1990, including amendments 34-1 as amended through Amendment 34-3 effective February 3, 1999;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "ACE-94-8 of June 21, 1994, Spin demonstration, FAR 23.221 a)2) as extended by FAA memorandum dated November 7, 2007.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "ACE-05-18 of November 29, 2005, Cabin pressure indicator, FAR 23.841b) 6) as extended by FAA memorandum dated November 7, 2007.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "ACE-07-14 of January 7, 2008, Probes OFF Caution, FAR 23.1326(b)(1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "ACE-07-15 of January 8, 2008, ASI Flap Markings, FAR 23.1545(b)(4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "ACE-08-02 of February 26, 2008, Circuit Protective Devices, FAR 23.1357(b)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "Protection of Systems for HIRF, Number 23-216-SC, effective date November 30, 2007",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "Approved for Flight Into Known Icing. See NOTE 4.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "Section 611(b) of the FAA Act of 1958",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "other",
+          "raw_reference": "Certification Maintenance Requirement (CMR), manual pitch trim system annunciation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "other",
+          "raw_reference": "Date of Application for U.S. Amended Type Certificate for PC-12/47E model December 6, 2004.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "other",
+          "raw_reference": "The Swiss Federal Office of Civil Aviation (FOCA) originally type certificated this aircraft under its type certificate Number F-56-30. The FAA validated this product under U.S. Type Certificate Number A78EU. Effective June 23, 2006, the European Aviation Safety Agency (EASA) began oversight of this product on behalf of Switzerland. The EASA TCDS No. EASA.A.089.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "[FAR 23 Paragraph (Amdt level)] - Below are the areas of change that are at a higher amendment than the PC-12/47E and are the new certification basis for airplanes with the Pratt and Whitney PT6E-67XP engine.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-45) 23.361, 23.672",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "361",
+                "672"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-48) 23.337, 23.341, 23.347, 23.443, 23.572, 23.629",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "337",
+                "341",
+                "347",
+                "443",
+                "572",
+                "629"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-49) 23.677, 23.1321, 23.1365",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "677",
+                "1321",
+                "1365"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-50) 23.69, 23.147, 23.175, 23.1589",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "69",
+                "147",
+                "175",
+                "1589"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-57) 23.1308",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-59) 23.905, 23.907(c)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "905"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-59",
+              "provisions": [
+                "907"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-61) 23.1306",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, (23-62) 23.63, 23.177, 23.181, 23.1309, 23.1310",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "63",
+                "177",
+                "181",
+                "1309",
+                "1310"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Section 34, effective September 10, 1990, including amendments 34-1 as amended through Amendment 34-5A effective October 23, 2013;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-294-SC effective August 15, 2019 - Autothrust System \u2013signed 8/1/2019;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-295-SC effective August 15, 2019 - Electronic Engine Control (EEC) \u2013 8/8/2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT00923CE-A-P-3 dated August 16, 2019, Digital Only Display - Powerplant Indications, 14 CFR 23.1305(e) amendment 23-34; 23.1549(a), (b), and (c), amendment 23-28;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT00923CE-A-P-4 dated August 16, 2019, Use of Interconnected Fuel Tanks without Tank Airspaces, 14 CFR 23.975(a)(4), amendment 23-29;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "ELOS AT00923CE-A-S-4 dated August 16, 2019, AutoThrottle (AT) Engage When Not Installed, 14 CFR 23.1301(b), amendment 23-20; 23.1555(a), amendment 23-21.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

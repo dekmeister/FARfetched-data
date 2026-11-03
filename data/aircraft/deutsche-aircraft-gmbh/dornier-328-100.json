@@ -1,0 +1,215 @@
+{
+  "manufacturer": "Deutsche Aircraft GmbH",
+  "model_designation": "DORNIER 328\u2010100",
+  "common_name": "DORNIER 328\u2010100",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.096",
+        "revision": "9",
+        "revision_date": "2023-03-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7337/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25, Large Aeroplanes Change 12, Amendment 88/1 (18.10.1988)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25.21 (b), Change 13, Amdt. 90/1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25.253(a)(4), Change 13, Amdt. 90/1 JAR\u2010AWO at Change1, (effective 11.29.1985)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 1, Definitions Change 4 (01.06.1987) REGULATION (EU) 2020/1159, dated 5 August 2020, Part 26.300(a); 26.301 (a); 26.302; 26.304(a) (b);",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "26.305(a) (b); 26.306(a) (b) (c); 26.307; 26.308; 26.309",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Stalling Speeds Minimum Control Speeds Accelerate\u2010Stop and related Performance Function and Reliability Testing Stalling Speeds for Structural Design Discrete Gust Requirements Interaction of Systems Improved Seat Safety Rapid Decompression Factors for Engine Torque Lightning Protection, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Landing Gear Warning Cargo and Service Doors Flap Gates Bullet Proof Cockpit Door Propeller Reversing System Electrical Standby Power High Intensity Radiated Fields (HIRF)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Miscellaneous Electrical Requirements Barometric Scales All Weather Operations ICA for Electrical Wiring Interconnection System (EWIS)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "(PTC) Steep Approach Operation (PTC) Flight Recorders and Data Link Recording PTC) Non\u2010rechargeable Lithium Battery Installations, effective for changes applied for after 01 July 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "Additional National Require\u2010",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "Minimum Additional National Requirements for post TC UK Special Conditions Do 328\u20101, For further details refer to CRI A\u20102.3, Issue 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from JAR 25.205 Stalls: Critical Engine Inoperative",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "exemption",
+          "raw_reference": "Temporary Exemption from JAR",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "exemption",
+          "raw_reference": "25.1439 (b), 25.1441 (a), 25.1447 (b) and (c)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "exemption",
+          "raw_reference": "Oxygen Requirements Compliance has to be shown prior to national operational approvals.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from JAR 25.562 (c)(5), HIC Values, Front Row Passenger Seats",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "ADS\u2010B Out Extended Squitter Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "Type III Exit Handle/Illumination",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "(D\u20102.1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "Emergency Exit Marking (D\u20105PTC)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "Climb (see Note 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "Towbarless Towing (CS 25.745(d)(1))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "other",
+          "raw_reference": "Aircraft Noise: ICAO Annex 16, Volume I, Aircraft Noise, Second Edition, July 1988, Chapter 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "other",
+          "raw_reference": "Aircraft Engine Emissions: ICAO Annex 16, Volume II, Aircraft Engine Emissions, First Edition, October 1981, Part II, Chapter 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

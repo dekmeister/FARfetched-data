@@ -1,0 +1,253 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "525A",
+  "common_name": "525A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A1WI",
+        "revision": "34",
+        "revision_date": "2026-01-05",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 thru 23-40; except for additional paragraphs listed, and for paragraphs for Engines and FADECs only as amended by Amendments 23-1 thru 23-54. Additions: 23.331, 23.351, 23.421, 23.423, 23.425, 23.427, 23.939, and 23.1163 as amended by Amendments 23-1 through 23-42. 23.943, 23.951, 23.957, 23.961, 23.967, 23.991, 23.993, 23.997, 23.999, 23.1001, 23.1011, 23.1019, 23.1041, 23.1061, 23.1189, 23.1322, 23.1357, 23.1391, 23.1393, 23.1395, 23.1443, 23.1445 as amended by Amendments 23-1 thru 23-43. 23.179, 23.305, 23.321, 23.361, 23.397, 23.479, 23.485, 23.613, 23.615, 23.621, 23.731, 23.1549 as amended by Amendments 23-1 thru 23-45. 23.335, 23.337, 23.341, 23.343, 23.345, 23.347, 23.371, 23.393, 23.399, 23.415, 23.441, 23.443, 23.455, 23.457, 23.473, 23.499, 23.561, 23.571, 23.572, 23.611, 23.629, 23.673, 23.725 as amended by Amendments 23-1 thru 23-48. 23.677, 23.723, 23.785, 23.787, 23.791, 23.853, 23.855, 23.1303, 23.1307, 23.1321, 23.1351, 23.1353, 23.1361, 23.1401 as amended by Amendments 23-1 thru 23-49. 23.233, 23.235, 23.1555, 23.1589 as amended by Amendments 23-1 thru 23-50. 23.901, 23.903, 23.929, 23.963, 23.965, 23.1013, 23.1043, 23.1143, 23.1183, 23.1191, 23.1337 as amended by Amendments 23-1 thru 23-51. 23.1309(a) as amended through Amendments 23-62, for PED tolerance only.",
+          "applicability": "525A0001 & On",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Addition for Engines and FADECs installation only (525A0300 & On): 23.777, 23.779, 23.865, 23.867, 23.901, 23.903, 23.955, 23.973, 23.1041, 23.1045, 23.1091, 23.1093, 23.1103, 23.1121, 23.1123, 23.1141, 23.1145, 23.1181, 23.1193, 23.1305, 23.1309, 23.1521, 23.1583, as amended by Amendments 23-1 thru 23-54.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54",
+              "provisions": [
+                "777",
+                "779",
+                "865",
+                "867",
+                "901",
+                "903",
+                "955",
+                "973",
+                "1041",
+                "1045",
+                "1091",
+                "1093",
+                "1103",
+                "1121",
+                "1123",
+                "1141",
+                "1145",
+                "1181",
+                "1193",
+                "1305",
+                "1309",
+                "1521",
+                "1583"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise Standards, as amended by Amendments 36-1 through 36-22.",
+          "applicability": "525A0001 thru 525A0299",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise Standards, as amended by Amendments 36-1 through 36-28.",
+          "applicability": "525A0300 & On",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, Fuel Venting and Exhaust Emission Requirements for Turbine Engine Powered Airplanes, as amended by Amendments 34-1 thru 34-3.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-ACE-55, additional requirements: Smoke evacuation, protection of electronic systems from lightning and High Intensity Radiated Electromagnetic Fields (HIRF), electronic flight instrument displays, thrust attenuating systems (thrust attenuating systems not applicable for S/N 525A0300 and On), engine fire extinguishing system, performance, including takeoff, takeoff speeds, accelerate-stop, takeoff path, takeoff distance and takeoff run, takeoff flight path, climb one engine inoperative, landing, balked landing, climb, minimum control speed, trim, static longitudinal stability, demonstration of static longitudinal stability, static directional and lateral stability, wings level stall, turning flight and accelerated stalls, stall warning, vibration and buffeting, high speed characteristics, airspeed indicating system, static pressure system, maximum operating speed limit, minimum flight crew, operating limitations, operating procedures, performance information, airspeed indicator, effects of contamination on Natural Laminar Flow airfoils, definitions, and AFM approved information.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-ACE-55, additional requirements: 23-102-SC, High Altitude Operation (45,000 ft.). Additional requirements for ventilation, air conditioning, pressurized cabins, oxygen equipment and supply, supplemental oxygen, oxygen distribution and equipment (see NOTE 6).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption Number 5759 granted to use a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-00-01: 23.1305(c)(2)(5), 23.1549(a)(b)(c)(d), direct reading, digital only displays for the high-pressure turbine speed (N2), and fuel flow indications.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-99-07: 23.841(b)(6) Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-00-05; 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure.\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with 23.1416, 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.078",
+        "revision": "19",
+        "revision_date": "2026-05-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7368/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "(525A0001 and On)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23, effective February 1, 1965, as amended by Amendments 23-1 through 23-40; except for additional paragraphs listed, and for paragraphs for Engines and FADECs only as amended by Amendments 23-1 through 23-54: Additions: 14 CFR \u00a7\u00a723.331, 23.351, 23.421, 23.423, 23.425, 23.427, 23.939, and 23.1163 as amended by Amendments 23-1 through 23-42; 14 CFR \u00a7\u00a723.943, 23.951, 23.957, 23.961, 23.967, 23.991, 23.993, 23.997, 23.999, 23.1001, 23.1011, 23.1019, 23.1041, 23.1061, 23.1189, 23.1322, 23.1357, 23.1391, 23.1393, 23.1395, 23.1443, and 23.1445 as amended by Amendments 23-1 through 23-43; 14 CFR \u00a7\u00a7 23.179, 23.305, 23.321, 23.361, 23.397, 23.479, 23.485, 23.613, 23.615, 23.621, 23.731 and 23.1549 as amended by Amendments 23-1 through 23-45; 14 CFR \u00a7\u00a723.335, 23.337, 23.341, 23.343, 23.345, 23.347, 23.371, 23.393, 23.399, 23.415, 23.441, 23.443, 23.455, 23.457, 23.473, 23.499, 23.561, 23.571, 23.572, 23.611, 23.629, 23.673, and 23.725 as amended by Amendments 23-1 through 23-48; 14 CFR \u00a7\u00a723.677, 23.723, 23.785, 23.787, 23.791, 23.853, 23.855, 23.1303, 23.1307, 23.1321, 23.1351, 23.1353, 23.1361, and 23.1401 as amended by Amendments 23-1 through 23-49; 14 CFR \u00a7\u00a723.233, 23.235, 23.1555, and 23.1589 as amended by Amendments 23-1 through 23-50; 14 CFR \u00a7\u00a723.901, 23.903, 23.929, 23.963, 23.965, 23.1013, 23.1043, 23.1143, 23.1183, 23.1191, and 23.1337 as amended by Amendments 23-1 through 23-51; CS 23.1309(a) as amended through Amendment 3, for Portable Electronic Device (PED) tolerance only. The EASA Aircraft Type Certification standard includes that of FAA TCDS A1WI, based on individual EU member state acceptance or certification of this standard prior to 28 September 2003; Other standards conforming to TC/TCDS standards certified by individual EU member States prior to 28 September 2003 are also acceptable. (525A0300 and On) Additions: The following paragraphs applicable for engines and FADEC\u2019s which are, CS23.777, 23.779, 23.865, 23.867, 23.901, 23.903, 23.955, 23.973, , 23.1041, 23.1045, 23.1091, 23.1093, 23.1103, 23.1121, 23.1123, 23.1141, 23.1145, 23.1181, , 23.1193, , 23.1305, 23.1309, 23.1521, and 23.1583; as amended by Amendments 23-1 through 23-54 for engine and FADEC installation only. (525A0001 and On) Compliance with ice protection has been demonstrated in accordance with CS \u00a7\u00a723.1416 and 23.1419;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "23-ACE-55, additional requirements for: Smoke evacuation, protection of electronic systems from lightning and high intensity radiated electromagnetic fields (HIRF), electronic flight instrument displays, thrust attenuating systems (thrust attenuating systems not applicable 525A0300 and On), engine fire extinguishing system, performance, including takeoff, takeoff speeds, accelerate-stop, takeoff path, takeoff distance and takeoff run, takeoff flight path , climb one engine inoperative, landing, balked landing, climb, minimum control speed, trim, static longitudinal stability, demonstration of static longitudinal stability, static directional and lateral stability, wings level stall, turning flight and accelerated stalls, stall warning, vibration and buffeting, high speed characteristics, airspeed indicating system, static pressure system, maximum operating speed limit, minimum flight crew, operating limitations, operating procedures, performance information, airspeed indicator, effects of contamination on Natural Laminar Flow airfoils, definitions, and AFM approved information.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "23-102-SC, High Altitude Operation (45,000 feet).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Additional requirements for ventilation, air conditioning, pressurized cabins, oxygen equipment and supply, supplemental oxygen, oxygen distribution and equipment. (See Note 6)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "No. 5759 granted to use a relaxed \u201cDutch Roll\u201d damping criteria above 18, 000 feet in lieu of damping criteria of 14 CFR 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "ACE-00-01: 14 CFR \u00a7\u00a723.1305(c)(2), (c)(5), and 23.1549(a) through (d), direct reading, digital only displays for the high- pressure turbine speed (N2), and fuel flow indications.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "ACE-99-07: 14 CFR \u00a7\u00a723.841(b)(6), Cabin Pressurization- High Altitude Takeoff and Landing Operations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "ACE-00-05: 14 CFR \u00a7\u00a723.841(a), to allow small temporary cabin altitude excursions above 15, 000 feet in the event of any probable pressurization system failure.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I ICAO Annex 16, Volume II, Part II (further details refer to TCDSN.IM.078)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "Requirements: (Reserved)",
+          "applicability": null,
+          "applicability_notes": "Additional National",
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "manufacturer": "Pilatus Aircraft Ltd",
+  "model_designation": "PC-24",
+  "common_name": "PC-24",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00072CE",
+        "revision": "12",
+        "revision_date": "2024-06-18",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID137622866120240621140107.0001"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR part 21.29, part 21.183(c) and 14 CFR Part 23, effective December 18, 1964, with amendments 1 through amendment 62 \u201cAirworthiness Standards for Commuter Category Airplanes\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Additional airplanes with main rechargeable Lithium Batteries (NOTE 7) comply with \u00a723.2010 and \u00a723.2525 at amendment 23-64.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Airplanes with the optional two-place side facing divan (NOTE 9) comply with \u00a723.2010, \u00a723.2270, and \u00a723.2525 at amendment 23-64. The detailed design standards used as a means of compliance in accordance with \u00a7 23.2010 are documented in Pilatus PC-24 DDS summary document PC24-DDS-001, Issue 01, dated 18 June 2024.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, effective September 10, 1990 including Amendments 34-1 through Amendment 34-5A \u201cFuel Venting and Exhaust Emission Requirements For Turbine Engine Powered Airplanes\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December 1, 1969 with Amendments 36-1 through Amendment 36-30, Stage 4, \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft MSN 501 and up (NOTE 8), 14 CFR part 36 effective December 1, 1969 with Amendments 36-1 through Amendment 36-31, Stage 4, \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-282-SC effective July 17, 2017 - Electronic Engine Control (EEC)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-283-SC effective July 17, 2017 - Autothrust System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "SC 23-284-SC effective July 17, 2017 - Pressure Defuel System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-G-9, dated Feb. 14, \u00a7\u00a7 23.45, 23.51, 23.63, 23.67, 23.73, 2017: Amendment 23-62 Corrections 23.77, 23.161, 23.181, 23.221, 23.251; 23.253, 23.571, 23.785, 23.831, 23.1195, 23.1197, 23.1199, 23.1201; 23.1527, 23.1545, and 23.1583.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-F-3, dated April 18, \u00a7\u00a7 1.1, 1.2, 23.49, 23.69, 23.143, 2017: 23.145, 23.147, 23.149, 23.157, Use of 1-g Stall Speed Criteria 23.175, 23.177, 23.201, 23.203, 23.207, 23.233, 23.729, 23.735, 23.1001, 23.1323, 23.1325, and 23.1587. ELOS Memo TC00607CE-A-G-9 ES23.51, ES23.67, ES23.73, ES23.161, and ES23.1545.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-E-14, dated Feb. 24, \u00a7 23.1353(h)(1)(ii) 2017: Storage Battery Design and Installation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-E-6, dated Mar. 21, \u00a7 23.1357(b) 2017: Integrated Modular Avionics (IMA) circuit protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-S-8, dated June 29, \u00a7\u00a7 23.1305(a)(2), (a)(3), (c)(2), and 2017: (c)(5); and 23.1549(a), (b), and (c) Digital Only Powerplant Indications",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-S-9, dated Oct. 26, 2017: \u00a7 23.1545(b)(4) Airspeed Indicator - Flap Markings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-S-15, Oct. 26 2017: \u00a7\u00a7 23.1303 (g)(3)(i), (ii), and (iv) Third Attitude Instrument Without Independent Power Source",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "TC00607CE-A-S-21, Nov. 6, 2017: \u00a723.1438(b) Pressurization and Pneumatic Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "No Exemptions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "The airplane is approved for flight into known or forecasted icing. Compliance has been demonstrated in accordance with 14 CFR \u00a7 23.1416 and 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "other",
+          "raw_reference": "8). The airplane is approved for ditching. Compliance with the provisions for ditching",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "manufacturer": "BRM Aero s.r.o.",
+  "model_designation": "Bristell B23-916",
+  "common_name": "Bristell B23-916",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.642",
+        "revision": "9",
+        "revision_date": "2026-04-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/119222/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 [Certification Specifications for Normal- Category Aeroplanes] Amdt. 5, dated 29 March 2017 CS-ACNS, Issue 4, dated 05 April 2022",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-5"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "see TCDSN EASA.A.642",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

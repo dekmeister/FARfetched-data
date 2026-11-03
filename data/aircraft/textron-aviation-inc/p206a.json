@@ -1,0 +1,93 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "P206A",
+  "common_name": "P206A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A4CE",
+        "revision": "52",
+        "revision_date": "2026-10-20",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID180785821720261021182159.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 3 of the Civil Air Regulations (CAR) effective May 15, 1956, as amended by 3-1 through 3-8.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "CAB",
+              "document": "car-3-reissue",
+              "to": "CAR3R-8"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "In addition, effective U20602589 and U20604650 and On, FAR 23.1559 effective March 1, 1978.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "Dual wheel amphibious float criteria Special Conditions dated January 14, 1969, and Amendment No. 1 dated February 20, 1969.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 and Amendments 1 through 6, S/N U20604075 and On.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Effective S/N U20606847 and On, FAR 23.1545 effective December 1, 1978.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "Application for Type Certificate (TC) dated November 9, 1962.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "TC No. A4CE issued July 19, 1963, obtained by the manufacturer under delegation option procedures.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "S/N U20602589 and U20603021 and On Airspeed Indicator CAR 3.757 (See NOTE 5) Operating Limitations CAR 3.778(a)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

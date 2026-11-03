@@ -1,0 +1,212 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "LC42-550FG",
+  "common_name": "LC42-550FG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00003SE",
+        "revision": "27",
+        "revision_date": "2016-06-22",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C50383E299DB7B3786257FDB0059CC6F.0001"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 23 of the Federal Aviation Regulations (FAR) effective February 1, 1965, as amended by 23-1 through 23-46, except for FAR 23.1305 and FAR 23.1359. FAR 23.1305 as amended through 23-52 and FAR 23.1359 as amended through 23-49.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-46"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-52",
+              "provisions": [
+                "1305"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1359"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 as amended on the date of certification.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "Application for type certificate, dated October 24, 2002.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.143 as amended through 23-50; FAR 23.301 (a) (b) (c) as amended through 23-48; FAR 23.561 (a) (b)(3) as amended through 23-48; FAR 23.611as amended through 23-48; FAR 23.777 (a) (b) (c)(3) (d) (f)(1) as amended through 23-51; FAR 23.867 as amended through 23-49; FAR 23.1303 (a) (b) (c) (f) as amended through 23-49; FAR 23.1305 (a)(1)(2)(3) (b)(2)(3)(i)(4)(i)(5)(6)(i) as amended through 23-52; FAR 23.1307 as amended through 23-49; FAR 23.1309 (a)(1)(2) (b) (c)(1)(2)(iii)(3) (d) (e) as amended through 23-49; FAR 23.1311 as amended through 23-49; FAR 23.1321 (a) (c) (d) (e) as amended through 23-49; FAR 23.1323 (a) as amended through 23-49;",
+          "applicability": "For LC42-550FG aircraft equipped with Columbia factory installed Garmin G-1000 system the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.1325 (b)(1)(ii)(iii)(2)(i) as amended through 23-50; FAR 23.1329 as amended through 23- 49; FAR 23.1337 (b)(1) as amended through 23-51; FAR 23.1351(a)(1)(2)(i) (b)(1)(2)(3) (c)(4)(d)(1) (g) as amended through 23-49; FAR 23.1353 (h) as amended through 23-49; FAR 23.1365 (a) (b) (d) (e) as amended through 23-49; FAR 23.1431 (a) (b) (d) (e) as amended through 23-49; FAR 23.1543 (b) (c) as amended through 23-50; FAR 23.1545 (a) (b)(1)(2)(3)(4) as amended through 23-50; FAR 23.1553 through amendment. 23-50; FAR 23.1555 (a) (b) (e)(2) as amended through 23-50; FAR 23.1563 (a) as amended through 23-50; FAR 23.1567 (a) as amended through 23-50; FAR 23.1581 (a) (b)(2)(3) (c) (f) as amended through 23-50; FAR 23.1583 (h) (m) (n) as amended through 23-50; FAR 23.1585 (j) through amendment. 23-50.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-160-SC is applicable to all airplanes regardless of which avionics package is installed.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "Stall and spin requirements of FAR\u2019s 23.201, 23.203, and 23.221 in accordance with ELOS No. ACE-98-1 as detailed in the FAA memo dated September 3, 1998 (FAA memo reference no. 98-190S-581) and ELOS No. ACE-98-2 as detailed in the FAA memo dated October 7, 1998 (FAA memo reference no. 98-190S-608).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "Emergency exit requirements of FAR 23.807 in accordance with ELOS No. ACE-99-02 as detailed in FAA memo dated February 2, 1999 (FAA memo reference no. 99-190S-64).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.516",
+        "revision": "5",
+        "revision_date": "2018-06-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7096/en"
+      },
+      "categories": [
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 23, Amdt 1 dated 01 February 2001",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52 Human Factors \u2013 Integrated Avionics",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-51 Equipment, Systems and Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-05 Databases and Configuration Files",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-06 Digital Devices Design Assurance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-07 Software Aspects of Certification, Application",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "of DO-178B Field Loadable Software and user modifiable Software",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-52 Protection from Effects of High Intensity Radiated Fields (HIRF)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-53 Protection from Effect of Lightning Strike - Direct Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-54 Protection from Effect of Lightning Strike - Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Part II (further details refer to TCDSN.IM.A.516)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

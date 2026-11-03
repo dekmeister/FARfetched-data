@@ -1,0 +1,239 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "525C",
+  "common_name": "525C",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A1WI",
+        "revision": "34",
+        "revision_date": "2026-01-05",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 of the Commuter Category as amended by Amendments 23-1 through 23-57, with exceptions addressed in Special Conditions, ELOS\u2019s, and Exemptions. In addition, the installation of the Full Authority Dual-Channel Electronic Control (FADEC) system must comply with the requirements of .23.1309(a)(b)(c)(d)(e) as amended through Amendment 23-57. 23.1306(b) as amended by Amendments 23-1 thru 23-61, is applicable to Global Positioning System (GPS) Sensor(s) for 525C0267 & On. 23.1457(a)(6) as amended by Amendments 23-1 thru 23-58, is applicable to Controller-Pilot Data Link Communications. 23.1309(a) as amended through Amendments 23-62, for PED tolerance only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, as amended by amendment 34-1 thru 34-4.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, as amended by amendment 36-1 thru 36-31.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-102-SC, High Altitude Operation (45,000 ft). Additional requirements for ventilation, air conditioning, pressurized cabins, oxygen equipment and supply, supplemental oxygen, oxygen distribution and equipment (see NOTE 6).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-145-SC, Flight Performance, Flight Characteristics, and Operating Limitations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-234-SC, Single Point Refuel/Defuel System.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-236-SC, Lithium-Ion Battery Installation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-239-SC, High Fuel Temperature.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-240-SC, Flight special conditions in lieu of 23.161(b)(2), Trim, and 23.181(a)(d), Dynamic Stability.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9495 to permit modification of the airplane landing gear loads and associated airframe loads in lieu of 23.473, 23.477, 23.479, 23.481, 23.483, 23.493, 23.723, 23.725, 23.726, 23.727, and C23.1 Appendix C of Title 14, CFR.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9593 to permit for the installation of a multi-place side-facing couch, in lieu of 23.562(a).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9906 to permit certification without a warning system indicating a failure of the pressure refueling automatic shutoff system as specified in the rule until August 1, 2010, in lieu of 23.979(b)(2). Exemption No. 9906A extends Exemption No. 9906 to February 1, 2011, and Exemption No. 9906B extends Exemption No. 9906A to May 1, 2011. To conduct operations after May 1, 2012, airplanes prior to S/N 525C0025 that do not have a warning system indicating the failure of the pressure refueling automatic shutoff system must comply with Service Bulletin SB525C-28-01.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9920 for use of a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9534 to permit certification in the commuter category, in lieu of 23.3(d).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9997 to allow type certification with the current engine low pressure rotary group shaft speed (N1) and interstage turbine temperature (ITT) displays until April 30, 2011, in lieu of 23.1549(a)(b)(c). To conduct operations after April 30, 2012, airplanes prior to 525C0025 must comply with Service Bulletin SB525C-34-02.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 9998 to allow type certification with the current engine oil pressure and temperature displays until April 30, 2011, in lieu of 23.1321(b), 23.1549(a)(b)(c). To conduct operations after April 30, 2012, airplanes prior to S/N 525C0025 must comply with Service Bulletin SB525C-34-02.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-00-05B: 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-08-01: 23.1555(d)(1), Useable Fuel Capacity Marking.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-08-03A: 23.841(b)(6), Cabin Pressurization - High Altitude Takeoff and Landing Operation.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-08-04: 23.815(b) Cabin Aisle Width.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-08-07: 23.853(d)(2) No Smoking Placard Lettering Size.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-08-08: 23.807(e) Emergency Exit Water Barrier.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-09-07: 23.1303(c) for a Direction Indicator (non-stabilized magnetic compass), (applicable to airplanes 525C0001 thru 525C0263).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-09-13: 23.1305(a)(1)(2)(3)(c)(1)(2)(5), 23.1549(a)(b)(c), 23.1553, Digital Displays of Powerplant and Fuel System Instrumentation, Fuel Flow, N2 Indication and Fuel Quantity.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. ACE-10-06: 23.1326(b) Pitot Heat Indication System.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "ELOS. No. TXTAV-015771-SE-5: 23.1303(c) Direction Indicator (non-stabilized magnetic compass) (applicable to airplanes 525C0264 & On).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "other",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with 23.1416 and 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

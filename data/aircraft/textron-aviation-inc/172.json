@@ -2,10 +2,6 @@
   "manufacturer": "Textron Aviation Inc.",
   "model_designation": "172",
   "common_name": "172",
-  "categories": [
-    "normal",
-    "utility"
-  ],
   "notes": null,
   "tcb": [
     {
@@ -16,6 +12,10 @@
         "revision_date": "2026-09-15",
         "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001"
       },
+      "categories": [
+        "normal",
+        "utility"
+      ],
       "notes": null,
       "certification_basis": [
         {

@@ -1,0 +1,91 @@
+{
+  "manufacturer": "AIRCRAFT INTEGRATED SOLUTIONS LTD",
+  "model_designation": "Ae 270",
+  "common_name": "Ae 270",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.060",
+        "revision": "5",
+        "revision_date": "2021-01-15",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7405/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23 Amdt. 23-55, Eff. 3/1/2002",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-55"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 34 Amdt. 34-3, Eff. 2/3/1999",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 36 Amdt. 36-24, Eff. 8/7/2002",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition to 14 CFR 23.137 FAA ELOS to 14 CFR 23.145(b)(2) FAA ELOS to 14 CFR 23.145(b)(4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23 Amdt. 23-55, Eff. 3/1/2002",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-55"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "14 CFR 36 Amdt. 36-24, Eff. 8/7/2002 ICAO Annex 16, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

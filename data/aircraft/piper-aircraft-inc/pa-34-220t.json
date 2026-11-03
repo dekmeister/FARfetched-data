@@ -1,0 +1,199 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-34-220T",
+  "common_name": "PA-34-220T",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.090",
+        "revision": "7",
+        "revision_date": "2020-01-28",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7346/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-34-220T (Seneca V) aeroplane the applicable certification basis is FAR 23. For details on the applicable FAR 23 amendments see A.V., note 6. For PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Avidyne Entegra System option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01, issue 1, or later revision (for details on applicable paragraphs see A.V., note 7). For PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G600/GNS430W/GWX68 and KTA-870 option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01-G600, release1, issue 1, or later revision (for details on applicable paragraphs see A.V., note 7). For PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option the additional certification basis for installation specific items only is CS-23 as defined in CRI A-01 G1000, issue 2, or later revision (for details on applicable paragraphs see A.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin GFC700 AFCS option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01 (for details on applicable paragraphs see A.V., note 7). For PA-34-220T (Seneca V) aeroplanes equipped with the Piper factory installed optional Garmin International G1000NXi Phase I/II installed in accordance with Piper Top Drawing 107200-004, the additional certification basis for installation specific items only is CS-23 as defined in A.V. note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 for the basic PA-34-220T (Seneca V) aeroplane (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Avidyne Entegra System option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G600/GNS430W/GWX68 and KTA-870 option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin GFC700 AFCS option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for PA-34-220T (Seneca V) aeroplanes equipped with the Piper factory installed optional Garmin International G1000NXi Phase I/II installed in accordance with Piper Top Drawing 107200-004 (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "None for the basic PA-34-220T (Seneca V) aeroplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F05, Human Factors in Integrated Avionic Systems, for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Avidyne Entegra System option. Special Condition SC-B23.div-01 \u201cHuman Factors in Integrated Avionic Systems\u201c (see Annex 1, Ref. CRI B- 52), CRI-F52, Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F54, Protection from the Effects of Lightning Strike; Indirect Effects, CRI-F66, Synthetic Vision, for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G600 option. Special Condition SC-B23.div-01 \u201cHuman Factors in Integrated Avionic Systems\u201c (see Annex 1, Ref. CRI B- 52),",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-66, Synthetic Vision, FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option. Special Condition SC-B23.div-01 \u201cHuman Factors in Integrated Avionic Systems\u201c (see Annex 1, Ref. CRI B- 52), Special condition \u201cSecurity Protection of Aircraft Systems and Networks\u201d (see Annex 1, Ref. CRI F-90) For PA-34-220T (Seneca V) aeroplanes equipped with the Piper factory installed optional Garmin International G1000NXi Phase I/II installed in accordance with Piper Top Drawing 107200-004",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin GFC700 AFCS option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "None for the basic PA-34-220T (Seneca V) aeroplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "CRI-F03, Powerplant Instruments for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Avidyne Entegra System option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "c) None for the factory installed G600 option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "d) FAR 23.1303(c), Amdt. 23-62, Use of a stabilized magnetic compass as minimum flight instrumentation, for the factory installed G1000 Integrated Avionics System option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "e) None for the factory installed Garmin GFC700 AFCS option",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "f) ESF for CS 23.1305 (b)(4) \u201cpowerplant instruments, fuel flow indication\u201d (see Annex 1, Ref. CRI F-203), ESF for CS 23.1303 (c) \u201cFLIGHT INSTRUMENTS, Stabilized Magnetic Compass\u201d (see Annex 1, Ref. CRI",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "elos",
+          "raw_reference": "F-201) for PA-34-220T (Seneca V) aeroplanes equipped with the Piper factory installed optional Garmin International G1000NXi Phase I/II installed in accordance with Piper Top Drawing 107200-004",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

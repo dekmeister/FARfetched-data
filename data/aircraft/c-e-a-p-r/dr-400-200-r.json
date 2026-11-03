@@ -1,0 +1,62 @@
+{
+  "manufacturer": "C.E.A.P.R.",
+  "model_designation": "DR 400/200 R",
+  "common_name": "DR 400/200 R",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.367",
+        "revision": "5",
+        "revision_date": "2023-10-16",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7170/en"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "France AIR2052",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "France AIR2052 amendment June 6th, 1966 FAR part 23 as amended by amendment 7",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-7"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "Canopy emergency release system Airplane and towed sailplane maximum masses are limited considering the minimum climb performances required.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Vol.1. Chap 10.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

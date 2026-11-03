@@ -1,0 +1,279 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "750 (Citation X)",
+  "common_name": "750 (Citation X)",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.097",
+        "revision": "3",
+        "revision_date": "2016-01-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7335/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "T00007WI",
+          "applicability": null,
+          "applicability_notes": "FAA Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "See FAA Type Certificate Data Sheet No. T00007WI",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "JAR\u201025, Change 13, effective 5 October 1989, Orange Paper 90/1, effective 11 May 1990, Orange Paper 91/1, effective 12 April 1991, Orange Paper 93/1, effective 8 March 1993 JAR AWO Change 1, effective 29 Nov. 1985 and JAR AWO Change 2, effective 01 August 1996 NPA AWO\u20105, CAT. II NPA AWO\u20109, CAT. II JAR APU Change 2, 26 September 1983, (Note: APU is classified as non\u2010essential on this aircraft.)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAA IL\u201023 RVSM, effective April 1994.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "NPA 25G\u2010255 Issue 1 from 28 August 1992, Flight Manuals \u2013 General NPA 25B\u2010240 Landing performance in abnormal configurations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI A\u201001 Thrust reversers (TGM/25/01) Yawing manoeuvring conditions (INT/POL/25/8)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B\u201007 Accelerate\u2010Stop Distances and Related Performance Matters, 16 February 1993 (INT/POL/25/5)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B\u201008 Performance Calculator (CPCalc) (TGL\u2010OPS Leaflet No. 36)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C\u201003 Interaction of Systems with Structures (TGM/GEN/01; NPA 25C\u2010199)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C\u201004 Ground Gust (TGM/GEN/01)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C\u201010 Personal injury criteria for dynamic testing of Single Place Side\u2010Facing Seats",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201001 Worn Brakes (INT/POL/25/6)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201002 Protection from the effects of HIRF (INT/POL/25/2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201003 Protection from the Effects of Lightning Strike; Direct Effects (INT/POL/25/3)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201004 Protection from the Effects of Lightning Strike; Indirect Effects (INT/POL/25/4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201009 Special Conditions for operation to 51000 feet Altitude",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D\u201011 Side\u2010facing Divan",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F\u201001 Basic RNAV (B\u2010RNAV) Systems Airworthiness Approval (TGL/3 Rev 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F\u201010 Enhanced Vision System (INT/POL/25/2; (INT/POL/25/4))",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "exemption",
+          "raw_reference": "Engine\u2010out lateral trim requirements of \u00a7 25.161(d) (FAA exemption number 6431)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "exemption",
+          "raw_reference": "(Ref: CRI A\u201001)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "ESF B\u201004 High Altitude Minimum Speed System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201005 Towing, towbarless towing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201006 Emergency Exit Marker and Location Signs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201007 Ditching Emergency Exits for Passengers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201008 Cabin Pressurization\u2010High Altitude Take\u2010off and Landing Operations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201010 Emergency Exit Access",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201012 Width of Aisle",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "ESF D\u201013 Testing Standard for Thermal Acoustic Insulation",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "ESF K\u201001 Approach Flight Path \u2013 Automatic Control, Audible Warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "other",
+          "raw_reference": "CRI A\u201003 Noise requirements: ICAO Annex 16, Volume I, 3rd edition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "CRI A\u201003 Emission requirements: ICAO Annex 16, Volume II, 2nd edition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

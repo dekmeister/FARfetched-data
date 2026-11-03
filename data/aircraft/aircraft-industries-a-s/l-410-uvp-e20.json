@@ -1,0 +1,85 @@
+{
+  "manufacturer": "Aircraft Industries, a.s.",
+  "model_designation": "L 410 UVP-E20",
+  "common_name": "L 410 UVP-E20",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.026",
+        "revision": "35",
+        "revision_date": "2026-05-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7473/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 at Amdt. 34",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "exemption",
+          "raw_reference": "- FAR 23.677 (a) For the aileron trim tab the neutral position is only enunciated. The Aeroplane Flight Manual requires that the neutral position must be checked before taxiing-out for take-off.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "exemption",
+          "raw_reference": "- FAR 23.1305 (v) There is no indication of proper functioning of the fuel heater. The heater operates automatically, there are no pilot-operated controls. A malfunction of the heater will not result in an emergency. A check of correct functioning of the fuel heater is required by the Maintenance Schedule after 300 flight hours.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "exemption",
+          "raw_reference": "- Note: Fuel heater was removed from type design by TDC ZTN 001, TDC ZKB 53 210 and TDC ZKB 53 689 for the airplanes manufactured after August 12/2009.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "exemption",
+          "raw_reference": "- FAR 23.1307 (b) (1) There is a separate switch for each electrical power source (2 storage batteries, 4 generators). These 6 switches are located next to each other on the overhead panel. This arrangement allows the switches to be switched off almost simultaneously. This arrangement prevents the possibility of a loss of all electrical power sources in the event of one master switch failure. Note: This exemption does not apply for aircraft since s/n 3011 inclusive and for the aircraft with the Master Switch arrangement installed iaw. Aircraft Industries Information Bulletin L410UVP- E/413b.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "For those exemptions specified in item 4 above appropriate measures were accepted showing, as a minimum, the same level of safety. These measures form parts of the certification data.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "L16/I, Part II, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1330 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "525",
+  "common_name": "525",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A1WI",
+        "revision": "34",
+        "revision_date": "2026-01-05",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 through 23-38, 23-40",
+          "applicability": "525-0001 thru 525-0599",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-40",
+              "skip": [
+                "23-39"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 thru 23-38, 23-40; except the following paragraphs applicable for Engines and FADECs: 23.611, 23.777, 23.779, 23.781, 23.865, 23.867, 23.901, 23.903, 23.939, 23.943, 23.951, 23.955, 23.961, 23.973, 23.1011, 23.1013, 23.1019, 23.1021, 23.1041, 23.1043, 23.1045, 23.1091, 23.1093, 23.1103, 23.1111, 23.1121, 23.1123, 23.1141, 23.1143, 23.1145, 23.1163, 23.1181, 23.1182, 23.1183, 23.1189, 23.1191, 23.1193, 23.1195, 23.1203, 23.1301, 23.1305, 23.1309, 23.1337, 23.1521, 23.1549, 23.1583 as amended through Amendment 23-1 thru 23-38, and 23-40 thru 23-54. 14 CFR 23.1309(a) as amended through Amendments 23-62, for Portable Electronic Device (PED) tolerance only.",
+          "applicability": "525-0600 thru 525-0684, 525-0686 thru 525-0701",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-40",
+              "skip": [
+                "23-39"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54",
+              "skip": [
+                "23-39"
+              ],
+              "provisions": [
+                "611",
+                "777",
+                "779",
+                "781",
+                "865",
+                "867",
+                "901",
+                "903",
+                "939",
+                "943",
+                "951",
+                "955",
+                "961",
+                "973",
+                "1011",
+                "1013",
+                "1019",
+                "1021",
+                "1041",
+                "1043",
+                "1045",
+                "1091",
+                "1093",
+                "1103",
+                "1111",
+                "1121",
+                "1123",
+                "1141",
+                "1143",
+                "1145",
+                "1163",
+                "1181",
+                "1182",
+                "1183",
+                "1189",
+                "1191",
+                "1193",
+                "1195",
+                "1203",
+                "1301",
+                "1305",
+                "1309",
+                "1337",
+                "1521",
+                "1549",
+                "1583"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965, as amended by Amendments 23-1 through 23-38, 23-40; except the following paragraphs applicable for Engines and FADECs: 23.611, 23.777, 23.779, 23.781, 23.865, 23.867, 23.901, 23.903, 23.939, 23.943, 23.951, 23.955, 23.961, 23.973, 23.1011, 23.1013, 23.1019, 23.1021, 23.1041, 23.1043, 23.1045, 23.1091, 23.1093, 23.1103, 23.1111, 23.1121, 23.1123, 23.1141, 23.1143, 23.1145, 23.1163, 23.1181, 23.1182, 23.1183, 23.1189, 23.1191, 23.1193, 23.1195, 23.1203, 23.1301, 23.1305, 23.1309, 23.1337, 23.1521, 23.1549, 23.1583 as amended through Amendment 23-1 thru 23-38, and 23-40 thru 23-54. 23.1309(a) as amended through Amendments 23-62, for PED tolerance only. Additions:",
+          "applicability": "525-0685, 525-0800 & On",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-40",
+              "skip": [
+                "23-39"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54",
+              "skip": [
+                "23-39"
+              ],
+              "provisions": [
+                "611",
+                "777",
+                "779",
+                "781",
+                "865",
+                "867",
+                "901",
+                "903",
+                "939",
+                "943",
+                "951",
+                "955",
+                "961",
+                "973",
+                "1011",
+                "1013",
+                "1019",
+                "1021",
+                "1041",
+                "1043",
+                "1045",
+                "1091",
+                "1093",
+                "1103",
+                "1111",
+                "1121",
+                "1123",
+                "1141",
+                "1143",
+                "1145",
+                "1163",
+                "1181",
+                "1182",
+                "1183",
+                "1189",
+                "1191",
+                "1193",
+                "1195",
+                "1203",
+                "1301",
+                "1305",
+                "1309",
+                "1337",
+                "1521",
+                "1549",
+                "1583"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "23.441 Maneuvering loads 23-48 Winglets only",
+          "applicability": "525-0685, 525-0800 & On; Winglets only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "441"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "23.443 Gust loads 23-48 Winglets only",
+          "applicability": "525-0685, 525-0800 & On; Winglets only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "443"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "23.445 Outboard fins 23-42 Winglets only",
+          "applicability": "525-0685, 525-0800 & On; Winglets only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-42",
+              "provisions": [
+                "445"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "23.575 Inspections and other procedures 23-48 Winglets only",
+          "applicability": "525-0685, 525-0800 & On; Winglets only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-48",
+              "provisions": [
+                "575"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "23.621 Casting factors 23-45 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "621"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "23.613 Material strength properties Main landing gear actuator 23-45 (c)(d)(e) and design values internal keylock and ramlock only",
+          "applicability": "525-0685, 525-0800 & On; Main landing gear actuator internal keylock and ramlock only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "613"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "23.867 Lightning protection of structure 23-49 Winglets only",
+          "applicability": "525-0685, 525-0800 & On; Winglets only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "867"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "23.929 Engine installation ice protection 23-51 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "929"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "23.953 Fuel system independence 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "953"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "23.957 Flow between interconnected tanks 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "957"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "23.959 Unusable fuel supply 23-51 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "959"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "23.971 Fuel tank sump 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "971"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "Fuel tank vents and carburetor 23.975 23-51 Entire aircraft vapor vents",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "975"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "23.977 Fuel tank outlet 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "977"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "23.991 Fuel pumps 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "991"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "23.993 Fuel system lines and fitting 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "993"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "23.997 Fuel strainer or filter 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "997"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "23.999 Fuel system drains 23-43 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "999"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "23.1001 Fuel jettisoning system 23-51 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51",
+              "provisions": [
+                "1001"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "23.1306 Lightning protection 23-61 For changed systems only",
+          "applicability": "525-0685, 525-0800 & On; For changed systems only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-61",
+              "provisions": [
+                "1306"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "High-Intensity Radiated 23.1308 23-57 For changed systems only Fields (HIRF) protection",
+          "applicability": "525-0685, 525-0800 & On; For changed systems only",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "23.1543 Instrument markings: general 23-50 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1543"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "23.1553 Fuel quantity indicator 23-50 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1553"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "23.1555 Control markings 23-62 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1555"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "23.1557 Miscellaneous markings and placards 23-45 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "1557"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "23.1559 Operating limitations placard 23-50 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1559"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "23.1563 Airspeed placards 23-50 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1563"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "23.1567 Flight maneuver placard 23-50 Entire aircraft",
+          "applicability": "525-0685, 525-0800 & On; Entire aircraft",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-50",
+              "provisions": [
+                "1567"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "23.1309 23-62",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "(System Safety Aspects) 23.2505 23-64",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "Autothrottle Functionality 23.2510 23-64",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "23.2605(a)(b)(c) 23-64",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) 23-65",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "23.2505 23-64 Cybersecurity 23.2510 23-64",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) 23-65",
+          "applicability": "525-0685, 525-1400 & On (see NOTE 10)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 regulations 23.2000, 23.2005, 23.2010, 23.2325(g), 23.2410, 23.2510, 23.2525, 23.2605 as amended through Amendments 23-64 (see NOTE 10) for new and amended lithium battery systems only.",
+          "applicability": "525-0001 & On",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise standards, as amended by Amendments 36-1 thru 36-18",
+          "applicability": "525-0001 thru 525-0599",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise standards, as amended by Amendments 36-1 thru 36-28",
+          "applicability": "525-0600 thru 525-0701, 525-0800 & On",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, Fuel Venting and Exhaust Emission Requirements for Turbine Engine Powered Airplanes, Amendment Original.",
+          "applicability": "525-0001 thru 525-0599",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, Fuel Venting and Exhaust Emission Requirements for Turbine Engine Powered Airplanes, as amended by Amendments 34-1 through 34-3.",
+          "applicability": "525-0600 thru 525-0684, 525-0686 thru 525-0701",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34 effective September 10, 1990, Fuel Venting and Exhaust Emission Requirements for Turbine Engine Powered Airplanes, as amended by Amendments 34-1 thru 34-5.",
+          "applicability": "525-0685, 525-0800 & On",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "other",
+          "raw_reference": "Compliance with the Noise Control Act of 1972.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions. 23-ACE-55, additional requirements for: Smoke evacuation, protection of electronic systems from lightning and high intensity radiated electromagnetic fields (HIRF), electronic flight instrument displays, thrust attenuating systems (thrust attenuating systems not applicable 525-0600 & On), engine fire extinguishing system, performance, including takeoff, takeoff speeds, accelerate-stop, takeoff path, takeoff distance and takeoff run, takeoff flight path, climb one engine inoperative, landing, balked landing, climb, minimum control speed, trim, static longitudinal stability, demonstration of static longitudinal stability, static directional and lateral stability, wings level stall, turning flight and accelerated stalls, stall warning, vibration and buffeting, high speed characteristics, airspeed indicating system, static pressure system, maximum operating speed limit, minimum flight crew, operating limitations, operating procedures, performance information, airspeed indicator, effects of contamination on Natural Laminar Flow airfoils, definitions, and AFM approved information.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions. Exemption No. 5759 granted to use a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety (ELOS). Applicable to airplanes 525-0360 thru 525-0701, equipped with Collins Proline 21 electronic displays of engine instruments: No. ACE-00-01: 23.1305(c)(2)(5), 23.1549(a)(b)(c)(d), direct reading, digital only displays for the high-pressure turbine speed (N2), and fuel flow indications.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety (ELOS). (1) No. ACE-13-09: 23.841(b)(6), Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations. (2) No. ACE-00-05C: 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure. (3) No. ACE-13-17: 23.1549(a)(b)(c), direct reading, digital only displays, for the high-pressure turbine speed (N2), oil pressure, oil temperature and fuel flow indications.",
+          "applicability": "Applicable to airplanes 525-0685, 525-0800 & On equipped with Garmin G3000",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "other",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with 23.1416, 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.078",
+        "revision": "19",
+        "revision_date": "2026-05-07",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7368/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "(525-0001 through 525-0599) Code of Federal Regulations Title 14, Part 23, effective February 1, 1965, as amended by Amendments 23-1 thorough 23-38, and 23-40; The EASA Aircraft Type Certification standard includes that of FAA TCDS A1WI, based on individual EU member state acceptance or certification of this standard prior to 28 September 2003; Other standards conforming to TC/TCDS standards certified by individual EU member States prior to 28 September 2003 are also acceptable. (525-0600 through 525-0684 and 525-0686 through 525-0701)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Code of Federal Regulations Title 14, Part 23, effective February 1, 1965, as amended by Amendments 23-1 through 23-38, and 23-40; except for the following paragraphs applicable for engines and FADEC\u2019s which are CS23.611, 23.777, 23.779, 23.781, 23.865, 23.867, 23.901, 23.903, 23.939, 23.943, 23.951, 23.955, 23.961, 23.973, 23.1011, 23.1013, 23.1019, 23.1021, 23.1041, 23.1043, 23.1045, 23.1091, 23.1093, 23.1103, 23.1111, 23.1121, 23.1123, 23.1141, 23.1143, 23.1145, 23.1163, 23.1181, 23.1182, 23.1183, 23.1189, 23.1191, 23.1193, 23.1195, 23.1203, 23.1301, 23.1305, 23.1309, 23.1337, 23.1521, 23.1549, 23.1583; as amended through Amendment 23-1 through 23-38, and 23-40 through 23-54.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(a) as amended through Amendment 3, for Portable Electronic Device (PED) tolerance only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "(525-0685 and 525-0800 and On) Code of Federal Regulations Title 14, Part 23, effective February 1, 1965, as amended by Amendments 23-1 through 23-38, and 23-40; except for the following paragraphs applicable for engines and FADEC\u2019s which are CS23.611, 23.777, 23.779, 23.781, 23.865, 23.867, 23.901, 23.903, 23.939, 23.943, 23.951, 23.955, 23.961, 23.973, 23.1011, 23.1013, 23.1019, 23.1021, 23.1041, 23.1043, 23.1045, 23.1091, 23.1093, 23.1103, 23.1111, 23.1121, 23.1123, 23.1141, 23.1143, 23.1145, 23.1163, 23.1181, 23.1182, 23.1183, 23.1189, 23.1191, 23.1193, 23.1195, 23.1203, 23.1301, 23.1305, 23.1309, 23.1337, 23.1521, 23.1549, 23.1583; as amended through Amendment 23-1 through 23-28, and 23-40 through 23-54.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(a) as amended through Amendment 3, for Portable Electronic Device (PED) tolerance only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-3",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Additions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment Title Comments Level Maneuvering Loads CS 23, Amdt 2 Winglets only Gust loads CS 23, Amdt 2 Winglets only Outboard fins CS 23, Amdt 2 Winglets only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-2"
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "23.575 Inspections and other procedures CS 23, Amdt 2 Winglets only Casting Factors CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "23.613 Material strength properties and CS 23, Amdt 2 Main landing gear design values actuator internal keylock and ramlock only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "23.867 Lightning protection of structure CS 23, Amdt 2 Winglets only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "23.929 Engine installation ice protection CS 23, Amdt 2 Entire aircraft Fuel system independence CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "23.957 Flow between interconnected tanks CS 23, Amdt 2 Entire aircraft Unusable fuel supply CS 23, Amdt 2 Entire aircraft Fuel Tank Sump CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "23.975 Fuel tank vents and carburetor vapor CS 23, Amdt 2 Entire aircraft vents Fuel tank outlet CS 23, Amdt 2 Entire aircraft Fuel pumps CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "23.993 Fuel system lines and fitting. CS 23, Amdt 2 Entire aircraft Fuel strainer or filter CS 23, Amdt 2 Entire aircraft Fuel system drains CS 23, Amdt 2 Entire aircraft Fuel jettisoning system CS 23, Amdt 2 Entire aircraft Lightning Protection CS 23, Amdt 2 For changed systems only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "23.1308 High-Intensity Radiated Fields (HIRF) CS 23, Amdt 2 For changed Protection systems only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "23.1543 Instrument markings: general CS 23, Amdt 2 Entire aircraft Fuel quantity indicator CS 23, Amdt 2 Entire aircraft Control markings CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "23.1557 Miscellaneous markings and placards CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "23.1559 Operating limitations placard CS 23, Amdt 2 Entire aircraft Airspeed placards CS 23, Amdt 2 Entire aircraft Flight maneuver placard CS 23, Amdt 2 Entire aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "(525-0685, 525-1400 and On)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "EASA Regulation No. EASA Amdt. Level",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(a)(1) CS 23 Amdt. 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(a)(3) CS 23 Amdt. 3 (System Safety Aspects)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(b)(1) CS 23 Amdt. 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "CS 23.1309(b)(3) CS 23 Amdt. 3 (System Safety Aspects)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "23.2505(a) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "(AMC2 23.2505, CS-23 Amdt 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "23.2510(a) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "23.2605(a)(b)(c) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "23.2505(a) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "(AMC2 23.2505, CS-23 Amdt 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "23.2510 CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "23.2500(b) CS 23 Amdt. 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "(525-0001 and On)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 regulations 23.2000, 23.2005, 23.2010, 23.2325(a)(2), 23.2410, 23.2510, 23.2525, and 23.2605, Amendment 6 (see note 9) for new or amended lithium battery systems only.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-6",
+              "provisions": [
+                "2000",
+                "2005",
+                "2010",
+                "2410",
+                "2510",
+                "2525",
+                "2605"
+              ]
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-6",
+              "provisions": [
+                "2325"
+              ],
+              "paragraph": "(a)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "Compliance with ice protection has been demonstrated in accordance with 14 CFR",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7\u00a723.1416 and 23.1419.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "CS-ACNS, Issue 2 CS-FCD, Issue 2 CS-MMEL Issue 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "special_condition",
+          "raw_reference": "23-ACE-55, additional requirements for: Smoke evacuation, protection of electronic systems from lightning and high intensity radiated electromagnetic fields (HIRF) , electronic flight instruments displays, thrust attenuating systems (thrust attenuating systems not applicable 525- 0600 and On), engine fire extinguishing system, performance, including takeoff, takeoff speeds, accelerate-stop, takeoff path, takeoff distance and takeoff run, takeoff flight path, climb one engine inoperative, landing, balked landing, climb, minimum control speed, trim, static longitudinal stability, demonstration of static longitudinal stability, static directional and lateral stability, wings",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "special_condition",
+          "raw_reference": "level stall, turning flight and accelerated stalls, stall warning, vibration and buffeting, high speed characteristics, airspeed indicating system, static pressure system, maximum operating speed limit, minimum flight crew, operating limitations, operating procedure, performance information, airspeed indicator, effects of contamination on Natural Laminar Flow airfoils, definitions, and AFM approved information.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "special_condition",
+          "raw_reference": "(525-0685 and 525-0800 and On equipped with Garmin G3000)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52 Human Factors - Integrated Avionics Systems and associated SC-B 23.div-01, Issue 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-93 Flight Recorders including Data Link Recording and associated SC-F23.1457-01, Issue",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F23.2555-01 Lightweight flight recorder",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "other",
+          "raw_reference": "relaxed \u201cDutch Roll\u201d damping criteria above 18,000 feet in lieu of damping criteria CS23.181(b).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "elos",
+          "raw_reference": "(525-0360 through 525-0701 equipped with Collins Proline 21 electronic displays of engine instruments): ACE-00-01: 14 CFR \u00a7\u00a723.1305(c)(2), (c)(5), and 23.1549(a) through (d), direct reading, digital only displays for the high-pressure turbine speed (N2), and fuel flow indications.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "elos",
+          "raw_reference": "(525-0685 and 525-0800 and On equipped with Garmin G3000)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "elos",
+          "raw_reference": "(a) Number ACE-13-09: 14 CFR \u00a7 23.841(b)(6), Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "elos",
+          "raw_reference": "(b) Number ACE-00-05C: 14 CFR \u00a7 23.841(a), to allow small temporary cabin altitude excursions above 15,000 feet in the event of any probable pressurization system failure.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "elos",
+          "raw_reference": "(c) Number ACE-13-17: 14 CFR \u00a7 23.1549(a) through (c), direct reading, digital only displays for the high-pressure turbine speed (N2), oil pressure, oil temperature and fuel flow indications",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "elos",
+          "raw_reference": "(525-0685, 525-1400 and On equipped with Garmin 3D Safetaxi)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "elos",
+          "raw_reference": "ESF PCRI-0000399-0060092582 Indications Removal from Primary Flight Displays During Ground Phases",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 53,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, ICAO Annex 16, Volume II, Part II (further details refer to TCDSN.IM.078)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

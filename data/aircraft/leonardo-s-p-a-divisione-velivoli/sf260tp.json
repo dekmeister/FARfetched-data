@@ -1,0 +1,95 @@
+{
+  "manufacturer": "LEONARDO S.p.A. \u2013 Divisione Velivoli",
+  "model_designation": "SF260TP",
+  "common_name": "SF260TP",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.586",
+        "revision": "3",
+        "revision_date": "2017-02-01",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7060/en"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Civil Air Regulation Part 23, dated May 15, 1956, including Amendments 3-1 through 3-8 and FAR Part 23 dated February 1, 1965, for the paragraph 23-251, 23- 907, 23-1105 and including Amendment 23-7 for paragraph 23-729, 23-735, 23- 937, 23-955, 23-1041, 23-1045, 23-1091, 23-1103, 23-1155, 23-1505, 23-1527;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 23-14 for paragraph 23-173, 23-201, 23-572, 23-929, 23-1017, 23- 1027; Amendment 23-15 for paragraph 23-951, 23-1013, 23-1015; Amendment 23- 16 for paragraph 23-335; Amendment 23-17 for paragraph 23-787, 23-933, 23-977, 23-1111, 23-1165, 23-1303, 23-1309; Amendment 23-18 for paragraph 23-939, 23- 943, 23-959, 23-1121, 23-1141, 23-1145, 23-1337; Amendment 23-20 for paragraph 23-1351(e); Amendment 23-21 for paragraph 23-45, 23-49, 23-65, 23- 75(d), 23-77, 23-175, 23-1043, 23-1353, 23-1521; Amendment 23-23 for paragraph 23-863, 23-1545, 23-1557, 23-1583; Amendment 23-26 for paragraph 23-253, 23- 361, 23-371, 23-991, 23-1305, 23-1529; Amendment 23-28 for paragraph 23-1549;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "Amendment 23-29 for paragraph 23-901, 23-903, 23-905, 23-995, 23-997, 23-1019, 23-1093, 23-1143, 23-1183, 23-1189; Amendment 23-31 for paragraph 23-629;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "exemption",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "N.A.",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "FAR Part 36, App. F (Acoustic Certification)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

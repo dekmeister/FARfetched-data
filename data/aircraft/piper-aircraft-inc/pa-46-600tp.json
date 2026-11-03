@@ -1,0 +1,1577 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-46-600TP",
+  "common_name": "PA-46-600TP",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A25SO",
+        "revision": "42",
+        "revision_date": "2026-02-16",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A25SO issued September 27, 1983.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Date of application for Type Certificate, August 22, 1979.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "The PA-46-600TP is a derivative product from the PA-46-500TP.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "As such, the regulations that were applicable to the basic PA-46-500TP that are not affected by the changed product (PA-46-600TP) remain at the original amendment levels.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Those regulations that are affected by the change are FAR 23, effective February 1, 1965, as amended by 14 CFR Part 23 Amendment 23-62, effective January 31, 2012",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.701, 23.783, 23.785, 23.807 as amended by Amendment 23-25 effective March 6, 1980 14 CFR 23.1419 as amended by Amendment 23-43 effective May 10, 1993 14 CFR 23.251, 23.571, 23.572 as amended by Amendment 23-45 effective September 7, 1993 14 CFR 23.783(a)(b)(e)(2)(3), 23.1353 as amended by Amendment 23-49 effective March 11, 1996 14 CFR 34.11 as amended by Amendment 34-4 effective June 29, 2009 14 CFR 36 as amended by Amendment 36-28 effective February 3, 2006 14 CFR 23.562 and 23.573 are not included in the certification basis Aircraft is approved for Flight Into Known Icing.",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "This aircraft is approved for single pilot operation.",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "The following ELOS have been issued for this model:",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Digital Display of Engine and Propeller Flight Data 14 CFR 23.1305(c)(2)(5), 23.1311(a)(6), 23.1549",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Control Forces 14 CFR 23.145(b)(2)(4) ELOS #AT13893AT-A-A-1:",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety Finding for Material Design Values 14 CFR 23.613",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "ELOS #AT13893AT-A-G-9: Amendment 23-62 Equivalent Level of Safety 14 CFR 23.45, 23.51, 23.63, 23.73, 23.77, 23.161, 23.181, 23.221, 23.251, 23.253, 23.831, 23.1527, 23.1545, 23.1583 ELOS - FAA Project AT2572AT-A:",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety for 14 CFR 23.955(f)(3), June 6, 2000 14 CFR 23.955(f)(3) Eligible Serial Numbers: 4698001 and up",
+          "applicability": "The following regulations have been granted approval at the amendment levels specified herein",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.25(a)(b), 23.29(a)(b), 23.33(a)(d)(1)(2)(ii), 23.45((a)(1)(2)(b)(1)(3)(d)(1)(2)(e)(1)(2)(f)(g)(1)(4), 23.49(a)(2)(3)(4)(5)(6)(b)(c)(1)(2)(d), 23.51(a)(2)(b)(2)(i)(ii), 23.53(a)(b)(1)(2)(3), 23.65(b)(1)(2)(3)(4), 23.69(a)(1)(2)(3)(4), 23.71, 23.75(a)(1)(b)(c)(d)(e), 23.77(b)(1)(2)(3)(4), 23.143, 23.145(b)(2)(4), 23.201(a)(b)(1)(3)(c)(d)(e)(f(1)(2)(5)(i)((iii)(6)(7), 23.203(a)(1)(2)(b)(1)(2)(3)(4)(4)(5)(6)(c)(1)(2)(5)(i)(iii)(6)(7), 23.251(a)(b)(c)(d), 23.301(a)(b)(c), 23.303, 23.305, 23.307, 23.337, 23.341(a)(c), 23.601, 23.603, 23.605(a), 23.607, 23.609, 23.611, 23.613, 23.625, 23.627, 23.629(a)(c)(e), 23.901(a)(b)(1)(2)(e), 23.903(e)(3)(f)(g), 23.905(a)(b)(c)(d), 23.907(a)(2)(b)(c), 23.925(a)(d), 23.929, 23.933(b), 23.1027, 23.1041, 23.1043(a)(1)(2)(3)(b)(c), 23.1045, 23.1153, 23.1301(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(d), 23.1501(a)(b), 23.1521(a)(b)(1)(4)(c)(1)(e), 23.1529, 23.1541(a)(1)(2), 23.1549, 23.1581(a), 23.1583(b)(m), 23.1585(a)(b)(j), 23.1587(a) as amended by Amendment 23-62, effective December 2, 2011;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Hartzell propeller model 5D3- N338A1/78D01B the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1419 as amended by Amendment 23-43 effective May 10, 1993;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Hartzell propeller model 5D3- N338A1/78D01B the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-43",
+              "provisions": [
+                "1419"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "21.93 as amended by Amendment 21-97, effective January 8, 2013.",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Hartzell propeller model 5D3- N338A1/78D01B the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "Eligible Serial Numbers: 4698001 & up",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Hartzell propeller model 5D3- N338A1/78D01B the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.23(a)(b)(3), 23.25(a)(b), 23.29, 23.301(a)(b)(c), 23.303, 23.305, 23.307, 23.337, 23.341(a)(c), 23.473, 23.561(a)(b)(3)(e) 23.601, 23.603, 23.605(a), 23.607, 23.609, 23.611, 23.613, 23.625, 23.627, 23.699(b)(1)(2), 23.729(e)(f), 23.771(a), 23.773(a)(1)(2), 23.777(a)(b), 23.867, 23.1301(a)(b)(c), 23.1303(a)(b)(c)(f), 23.1305(a)(1)(2)(3)(c)(1)(2)(3)(4)(5)(6)(8)(e), 23.1306, 23.1308(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(d), 23.1310(a)(1)(2)(4)(b), 23.1311(a)(1)(2)(3)(4)(5)(6)(7)(b)(c), 23.1321(a)(c)(d)(5)(e), 23.1322(a)(b)(c)(d)(e), 23.1323(a)(c), 23.1325(a)(b)(1)(2)(ii), 23.1326, 23.1327(a), 23.1329(a)(1)(b)(c)(d)(e)(f)(g)(h), 23.1335, 23.1337(b)(1)(4), 23.1351(a)(1)(2)(i)(c)(4)(d)(1), 23.1357(a)(b)(c)(d), 23.1359(c), 23.1365, 23.1367(a)(b)(c)(d), 23.1381(a)(b)(c), 23.1431(a)(b)(e), 23.1501, 23.1523, 23.1525, 23.1529, 23.1541(a)(b), 23.1543(b)(c), 23.1545(a)(b)(4)(d), 23.1549(a)(b)(c), 23.1553, 23.1555(a)(b)(e)(1), 23.1563(a)(b), 23.1567(a), 23.1581(a)(c), 23.1583(g)(h)(m), 23.1585(j), 23.1589(a) as amended by Amendment 23-62, effective January 31, 2012;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Garmin G3000 installed per Piper Drawing 46F34A000-002 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "29",
+                "303",
+                "305",
+                "307",
+                "337",
+                "473",
+                "601",
+                "603",
+                "607",
+                "609",
+                "611",
+                "613",
+                "625",
+                "627",
+                "867",
+                "1306",
+                "1326",
+                "1335",
+                "1365",
+                "1501",
+                "1523",
+                "1525",
+                "1529",
+                "1553"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "23"
+              ],
+              "paragraph": "(a)(b)(3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "25"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "301"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "341"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "561"
+              ],
+              "paragraph": "(a)(b)(3)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "605"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "699"
+              ],
+              "paragraph": "(b)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "729"
+              ],
+              "paragraph": "(e)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "771"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "773"
+              ],
+              "paragraph": "(a)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1301"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1303"
+              ],
+              "paragraph": "(a)(b)(c)(f)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1305"
+              ],
+              "paragraph": "(a)(1)(2)(3)(c)(1)(2)(3)(4)(5)(6)(8)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1310"
+              ],
+              "paragraph": "(a)(1)(2)(4)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1311"
+              ],
+              "paragraph": "(a)(1)(2)(3)(4)(5)(6)(7)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1321"
+              ],
+              "paragraph": "(a)(c)(d)(5)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1322"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1323"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1325"
+              ],
+              "paragraph": "(a)(b)(1)(2)(ii)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1327"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1329"
+              ],
+              "paragraph": "(a)(1)(b)(c)(d)(e)(f)(g)(h)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1337"
+              ],
+              "paragraph": "(b)(1)(4)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(a)(1)(2)(i)(c)(4)(d)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1359"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1367"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1381"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1541"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)(b)(4)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1549"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)(e)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1563"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1567"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1583"
+              ],
+              "paragraph": "(g)(h)(m)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1585"
+              ],
+              "paragraph": "(j)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1589"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "23.1353(h) as amended by Amendment 23-49, effective March 11, 1996;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Garmin G3000 installed per Piper Drawing 46F34A000-002 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "elos",
+          "raw_reference": "Eligible Serial Numbers: 4698061, 4698081 & up",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with Garmin G3000 installed per Piper Drawing 46F34A000-002 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.251 as amended by Amendment 23-45, effective September 7, 1993;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Emergency Autoland (HALO) option installed by Piper Drawing 46G00A000-002 and 46G22A000-001 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "251"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.1353(h) as amended by Amendment 23-49, effective March 11, 1996;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Emergency Autoland (HALO) option installed by Piper Drawing 46G00A000-002 and 46G22A000-001 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 23.21(b), 23.23(a)(b)(3), 23.25(a)(b), 23.29, 23.301(a)(b)(c), 23.303, 23.305, 23.307, 23.337, 23.341(a)(c), 23.405, 23.473, 23.561(a)(b)(3)(e), 23.601, 23.603,",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Emergency Autoland (HALO) option installed by Piper Drawing 46G00A000-002 and 46G22A000-001 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "23.605(a), 23.607, 23.609, 23.611, 23.613, 23.625, 23.627, 23.671(a), 23.681, 23.683, 23.685, 23.697(a), 23.729(e), 23.735(a)(b)(c)(d), 23.771(a), 23.777(a)(b), 23.779(a)(2)(b)(1)(2), 23.867, 23.905(b), 23.951(a)(b)(c), 23.954, 23.955(a)(f)(1), 23.961, 23.991(b), 23.993(a)(b)(c)(d)(e), 23.994, 23.995(b)(1)(c)(d), 23.1141(c)(e)(g)(2), 23.1155, 23.1189(c), 23.1301(a)(b)(c), 23.1303, 23.1305(a)(1)(2)(3)(5)(c)(1)(2)(3)(4)(5)(6)(8)(e)(1)(2), 23.1306, 23.1308(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(1)(2)(3)(d), 23.1310(a)(1)(2)(4)(b), 23.1311(a)(1)(2)(3)(6)(7)(b), 23.1321(a)(c)(e), 23.1322(a)(b)(c)(d)(e), 23.1326, 23.1327(a)(1), 23.1329(a)(1)(b)(c)(e)(f)(g), 23.1335, 23.1337(b)(1), 23.1351(a)(1)(2)(i), 23.1357(a)(b)(c)(d), 23.1359(c), 23.1365, 23.1367(a)(b)(c)(d), 23.1381(a)(b)(c), 23.1431(a)(b)(e), 23.1501, 23.1521(a)(b)(1)(3)(4)(c)(1)(3), 23.1523, 23.1525, 23.1529, 23.1541(a)(b), 23.1555(a)(b)(e)(1)(2), 23.1581(a)(c), 23.1583(g)(h)(m), 23.1585(j), 23.1589(a) as amended by Amendment 23-62, effective January 31, 2012;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Emergency Autoland (HALO) option installed by Piper Drawing 46G00A000-002 and 46G22A000-001 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "607",
+                "609",
+                "611",
+                "613",
+                "625",
+                "627",
+                "681",
+                "683",
+                "685",
+                "867",
+                "954",
+                "961",
+                "994",
+                "1155",
+                "1303",
+                "1306",
+                "1326",
+                "1335",
+                "1365",
+                "1501",
+                "1523",
+                "1525",
+                "1529"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "605"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "671"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "697"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "729"
+              ],
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "735"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "771"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "779"
+              ],
+              "paragraph": "(a)(2)(b)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "905"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "951"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "955"
+              ],
+              "paragraph": "(a)(f)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "991"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "993"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "995"
+              ],
+              "paragraph": "(b)(1)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1141"
+              ],
+              "paragraph": "(c)(e)(g)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1189"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1301"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1305"
+              ],
+              "paragraph": "(a)(1)(2)(3)(5)(c)(1)(2)(3)(4)(5)(6)(8)(e)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)(b)(c)(1)(2)(3)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1310"
+              ],
+              "paragraph": "(a)(1)(2)(4)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1311"
+              ],
+              "paragraph": "(a)(1)(2)(3)(6)(7)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1321"
+              ],
+              "paragraph": "(a)(c)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1322"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1327"
+              ],
+              "paragraph": "(a)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1329"
+              ],
+              "paragraph": "(a)(1)(b)(c)(e)(f)(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1337"
+              ],
+              "paragraph": "(b)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(a)(1)(2)(i)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1359"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1367"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1381"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1521"
+              ],
+              "paragraph": "(a)(b)(1)(3)(4)(c)(1)(3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1541"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)(e)(1)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1583"
+              ],
+              "paragraph": "(g)(h)(m)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1585"
+              ],
+              "paragraph": "(j)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1589"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "Eligible Serial Numbers: 4698061, 4698081 & up",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Emergency Autoland (HALO) option installed by Piper Drawing 46G00A000-002 and 46G22A000-001 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 21, 21.93 (b) as amended by Amendment 21-97 effective March 11, 2013;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, 23.1353 (h) as amended by Amendment 23-49 effective March 11, 1996;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-49",
+              "provisions": [
+                "1353"
+              ],
+              "paragraph": "(h)"
+            }
+          ]
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, 23.21 (b), 23.23 (a)(b)(3), 23.25 (a)(1)(iii), 23.143 (a)(1)(2)(3)(4)(5)(b)(c), 23.145 (b)(2)(4), 23.771 (a), 23.777 (a)(b), 23.779 (b), 23.781 (b), 23.1141 (c)(e), 23.1301 (a)(b), 23.1306, 23.1308 (a)(b)(c), 23.1309 (a)(1)(2)(b)(c)(1)(2)(3)(d), 23.1310 (a)(1)(2)(4)(b), 23.1311 (a)(2)(6)(7), 23.1321 (a)(c)(e), 23.1322 (a)(b)(c)(d)(e), 23.1327 (a)(1), 23.1335, 23.1351 (a)(1)(2)(i)(b)(1), 23.1357 (a)(b)(c)(d), 23.1359 (c), 23.1365, 23.1367 (a)(b)(c)(d), 23.1381 (a), 23.1431 (a)(b)(e), 23.1501 (a)(b), 23.1521 (a), 23.1523 (a)(b)(c), 23.1525, 23.1529, 23.1541 (a)(b), 23.1543 (b), 23.1555 (a)(b), 23.1581 (a)(c), 23.1583 (b)(1)(2)(m), 23.1585(j) as amended by Amendment 23-62 effective January 31, 2012;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1306",
+                "1335",
+                "1365",
+                "1525",
+                "1529"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "21"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "23"
+              ],
+              "paragraph": "(a)(b)(3)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "25"
+              ],
+              "paragraph": "(a)(1)(iii)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "143"
+              ],
+              "paragraph": "(a)(1)(2)(3)(4)(5)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "145"
+              ],
+              "paragraph": "(b)(2)(4)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "771"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "777"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "779"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "781"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1141"
+              ],
+              "paragraph": "(c)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1301"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1308"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1309"
+              ],
+              "paragraph": "(a)(1)(2)(b)(c)(1)(2)(3)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1310"
+              ],
+              "paragraph": "(a)(1)(2)(4)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1311"
+              ],
+              "paragraph": "(a)(2)(6)(7)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1321"
+              ],
+              "paragraph": "(a)(c)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1322"
+              ],
+              "paragraph": "(a)(b)(c)(d)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1327"
+              ],
+              "paragraph": "(a)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1351"
+              ],
+              "paragraph": "(a)(1)(2)(i)(b)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1357"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1359"
+              ],
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1367"
+              ],
+              "paragraph": "(a)(b)(c)(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1381"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1431"
+              ],
+              "paragraph": "(a)(b)(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1501"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1521"
+              ],
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1523"
+              ],
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1541"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1543"
+              ],
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1555"
+              ],
+              "paragraph": "(a)(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1583"
+              ],
+              "paragraph": "(b)(1)(2)(m)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62",
+              "provisions": [
+                "1585"
+              ],
+              "paragraph": "(j)"
+            }
+          ]
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, 23.2010 (a)(b), 23.2500 (a)(1)(2)(b), 23.2510 (a)(b)(c), 23.2600 (a)(b), 23.2605 (a)(b)(c) as amended by Amendment 23-64 effective August 30, 2017;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "Eligible Serial Numbers: 4698061, 4698081 & up",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR 21.93(b) as amended through Amendment 21-97, effective March 3, 2013; 14 CFR 23.1353(h) as amended through Amendment 23-49, effective March 11, 1996; 14 CFR 23.23(a)(b)(3), 23.25(a)(b), 23.301(a)(b)(c), 23.303, 23.305, 23.307(a), 23.561(a)(b)(3)(e), 23.603, 23.605(a), 23.607, 23.609(a), 23.611, 23.613(a)(b), 23.627, 23.771(a), 23.867, 23.1301(a)(b)(c), 23.1306, 23.1308(a)(b)(c), 23.1309(a)(1)(2)(b)(c)(d), 23.1310(a)(1)(2)(4)(b), 23.1311(a)(1)(2)(3)(4)(6)(7), 23.1321(e), 23.1322(e), 23.1351(a)(1)(2)(i), 23.1357(a)(b)(c)(d), 23.1359(c), 23.1365, 23.1431(a)(b)(e), 23.1501(a)(b), 23.1523, 23.1525, 23.1529, 23.1581(a)(c), 23.1583(g)(h)(m), 23.1585(j), 23.1589(a) as amended through Amendments 23-62, effective January 31, 2012;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is; For the PA-46-600TP M600 aircraft equipped with System Software Release 7 and GDL 60 Datalink installed by Piper Drawing 46F34A000 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "23.2010(a)(b), 23.2500(a)(2)(b), 23.2505, 23.2510, 23.2600(b), 23.2605(a)(b)(c), 23.2610(a)(b)(c) as amended through Amendment 23-64, effective August 30, 2017;",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "Eligible Serial Numbers 4698061, 4698081 & up",
+          "applicability": "For the PA-46-600TP M600 aircraft equipped with the Normal Use Autothrottle option installed by Piper Drawing 46G00A000-003 and 46F76A020-003 the additional certification basis for installation specific items only is",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.077",
+        "revision": "22",
+        "revision_date": "2026-02-18",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-46-600TP aeroplane and for the PA- 46-600TP M600 aircraft equipped with Garmin G3000 (Avionics upgrade) installed per Piper Drawing 46F34A000-002, the applicable certification basis is FAR 23 and CS-23. For details on the applicable FAR 23 and CS-23 certification basis see E.V., note 6, 9, 10 and 11.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 and CS-23 for the basic PA-46-600TP aeroplane and for the PA-46-600TP M600 aircraft equipped with Garmin G3000 (Avionics upgrade) installed per Piper Drawing 46F34A000-002, (for applicable amendments see E.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, Amendment 4, for all applicable CS-23 paragraphs of the basic PA-46-600TP and for the PA- 46-600TP M600 aircraft equipped with Garmin G3000 (Avionics upgrade) installed per Piper Drawing 46F34A000-002 (see E.II.4)",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply a)",
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52, Human Factors",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-01, Handling characteristics for high performance aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-58, Turbine engine installation, rain ingestion",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-601, Security Protection of Aircraft Systems and Networks",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "CRI B-101, Longitudinal control forces",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-601, Material strength properties",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-601, Fuel flow, no pilot action required after engine start",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-602, Digital only display of powerplant instruments and omission of coloured caution and normal operating range arcs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-606, Flight instruments, stabilized magnetic compass",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Part II, Chapter 10, in accordance with CS-36, Amdt. 4 ICAO Annex 16, Volume II, Part II, in accordance with CS-34, Amdt. 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

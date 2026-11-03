@@ -1,0 +1,63 @@
+{
+  "manufacturer": "Irkut Corporation JSC",
+  "model_designation": "RRJ-95B",
+  "common_name": "RRJ-95B",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.176",
+        "revision": "4",
+        "revision_date": "2021-02-09",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7268/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "IAC-AR original Certificate Data Sheet CT 322-RRJ-05 dated 28 January 2011.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "FATA original Certificate Data Sheet FATA-01020A dated 26 January 2018.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 6 of 18 Internet/Intranet.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "IAC AR requirements as listed in Sukhoi document No. RRJ0000-LS-204-021RU, Rev. G, and FATA requirements as listed in Sukhoi document No. RRJ0000-LS-204-021RU, Rev. H, are based on Russian Federation\u2019s Aviation Regulations, Part 25 Airworthiness Regulations of Transport Category Airplanes with Amendments 1-5.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "EASA Certification Specification 25, Amendment 1, effective as of 12 December 2005, except as identified below: Certification Specification All Weather Operations (CS AWO), Book 1 and 2 published 17October 2003. 5.1. Special Conditions 5.1.1. Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable CS 25 are based (EC 1702/2003 part 21. A16(a)(1) refers) B-01 Motion and Effects of Cockpit Controls B-03 Flight Envelope Protection B-04 Normal load factor limiting system B-05 Static Longitudinal Stability and Low energy awareness B-06 Stalling and operating speeds B-09 Flight in icing condition C-01 Interaction Systems and Structures C-03 Engine and APU Load Conditions C-06 Gust and Turbulence C-07 Design Manoeuvre Requirements C-11 Pilot Limit Forces C-12 Design Dive Speed C-14 Main Landing Gear Doors Load Condition D-01 Type C Passenger Exits D-06 Harmonized 671/672 D-07 Application of heat release and smoke density requirements to seat materials E-01 Reversing System Requirements F-01 HIRF Protection TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 7 of 18 Internet/Intranet. F-17 Aircraft Towing F-21 Flight Data Recorders F-24 Security Assurance Process to isolate or protect the Aircraft systems and networks from external network security threats 5.1.2. Special conditions issued because the intended use of the product is unconventional (EC 1702/2003 part 21. A16 (a) (2) refers) 5.1.3. Special conditions issued because experience from other products has shown that unsafe conditions may develop (EC 1702/2003 part 21. A16 (a) (3) refers) B-02 Consistency between Crew Procedures and Published Performance Data D-03 Fire protection of thermal and acoustic insulation material D-04 Fuselage Doors, Hatches and Exits D-08 Flight Controls system - application of ARAC proposal 25.671 E-02 Fuel Tank Safety E-04 Sustained Engine Imbalance E-07 Flawing and Blowing Snow E-08 Flammability Reduction System (Nitrogen Generation System) E-09 Fuel Quantity Indication System E-10 Water / Ice in Fuel System H-01 Enhanced Airworthiness Program for Airplane Systems \u2013 ICA on EWIS 5.1.4. Special conditions issued from an elect to comply by the applicant with NPA or other regulatory proposals 5.2. Exemptions 5.3. Deviations 5.4. Equivalent Safety Findings D-11 Green Aircraft Exit Configuration TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 8 of 18 Internet/Intranet. 5.5. Environmental Protection Requirements \u2022 ICAO Annex 16 Volume 1 \u201cAircraft Noise\u201d 3rd Edition, amendment 7, Part II \u201cAircraft Noise certification\u201d, Chapter 4 and \u2022 CS 36 amendment 1 (ED decision n\u00b0 2007/007/R dated 3 April 2007) \u2022 Part II, Chapter 2 of ICAO Annex 16 Volume II, 2nd Edition, Amendment 4 \u2022 CS 34 initial issue (ED decision n\u00b0 2003/3/RM dated 11 October 2003) 5.6. Environmental Protection Standards ICAO Annex 16, Volume I, Amendment 9 (Fifth Edition), Chapter 4 for Noise; and ICAO Annex 16, Volume II (Third Edition), Amendment 6, for Emissions. For details of the certified noise levels see TCDSN EASA.IM. A.176.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

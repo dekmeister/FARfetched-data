@@ -1,0 +1,53 @@
+{
+  "manufacturer": "Aviat Aircraft, Inc.",
+  "model_designation": "S-2",
+  "common_name": "S-2",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A8SO",
+        "revision": "28",
+        "revision_date": "2026-02-18",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140836265320260304194226.0001"
+      },
+      "categories": [
+        "acrobatic"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, effective February 1, 1965, including amendments 1 through 6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Application for type certificate, August 16, 1968.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36, dated December 1, 1969, plus amendments 36-1 through 36-11.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

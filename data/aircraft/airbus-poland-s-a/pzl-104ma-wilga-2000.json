@@ -1,0 +1,117 @@
+{
+  "manufacturer": "AIRBUS POLAND S.A.",
+  "model_designation": "PZL-104MA Wilga 2000",
+  "common_name": "PZL-104MA Wilga 2000",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.061",
+        "revision": "5",
+        "revision_date": "2022-08-25",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7403/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 dated February 1, 1965 as amended through Amendment 23-20 effective September 1, 1977;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-20"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Subpart B as amended through Amendment 23-45 effective September 7, 1993;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Subpart E & F as amended through Amendment 23-30 effective March 29, 1984;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-30"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Appendix F as amended through Amendment 23-34 effective January 15, 1987;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Appendix G as amended through Amendment 23-34 effective January 15, 1987;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-34"
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 dated December 1, 1969 as amended through Amendment 36-22 effective October 13, 1999;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "BCAR, Section K, Chapter K4-10 issued 10th April, 1974 - as far as glider and banner towing is concerned",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "ICAO, Annex 16, Volume 1, Chapter 10; Edition 1993",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "manufacturer": "AIRBUS POLAND S.A.",
+  "model_designation": "PZL\u00adKOLIBER 150A",
+  "common_name": "PZL\u00adKOLIBER 150A",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.091",
+        "revision": "3",
+        "revision_date": "2019-08-23",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7344/en"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 dated 1.02.1965 amended through Amendment 23\u00ad23 effective 1.12.1978\u037e",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.2 and FAR 23.561(b)(2) amended through Amendment 23\u00ad36 effective 14.09.1988\u037e",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Subpart F amended through Amendment 23\u00ad30 effective 29.03.1984\u037e",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Appendix G amended through Amendment 23\u00ad37 effective 18.08.1990\u037e",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 dated 1.12.1969 amended through Amendment 36\u00ad20 effective 16.09.1992.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "FAR 36, Appendix G, Amdt. 36\u00ad20, September 16, 1992 See Note 3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

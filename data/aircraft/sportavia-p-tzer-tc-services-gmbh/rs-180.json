@@ -1,0 +1,46 @@
+{
+  "manufacturer": "Sportavia-P\u00fctzer TC-Services GmbH",
+  "model_designation": "RS 180",
+  "common_name": "RS 180",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.544",
+        "revision": "1",
+        "revision_date": "2020-12-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/121106/en"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Amdt. 23-1 through 23-12",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-12"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "NfL II-47/75",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

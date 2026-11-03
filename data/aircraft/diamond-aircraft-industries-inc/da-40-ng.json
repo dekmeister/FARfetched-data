@@ -1,0 +1,346 @@
+{
+  "manufacturer": "Diamond Aircraft Industries Inc.",
+  "model_designation": "DA 40 NG",
+  "common_name": "DA 40 NG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A47CE",
+        "revision": "17",
+        "revision_date": "2021-07-14",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C67CC63755875EAE86258713004984D0.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Joint Aviation Requirements (JAR) 23, Initial Issue, dated March 11, 1994.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "NOTE: The DA 40 was certificated using the FAA/EASA validation certification procedures. A list of Significant Regulatory Differences were addressed. Therefore, the certification basis is equivalent to 14 CFR Part 23 effective February 1, 1965, including Amendments 23-1 through Amendment 23-51.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-250-SC applicable to the Model DA 40 NG, Diesel Cycle Engine, published on April 1, 2011.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-253-SC applicable to the Model DA 40 NG, Electronic Engine Control System published on October 28, 2011.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-107-SC applicable to the Model DA 40 for Protection of Systems for High Intensity Radiated Fields, published on June 7, 2001",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-04 to 14 CFR Part 23, \u00a7 23.777(d) for cockpit controls and 23.779(b) for Motion and Effect of cockpit controls for the Diamond Aircraft Industries Model DA 40 NG airplane.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-05 to 14 CFR Part 23, \u00a7 23.1145 Ignition Switches for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-06 to 14 CFR Part 23, \u00a7 23.1061 Liquid Cooling Installation for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-08 to 14 CFR Part 23, \u00a7 23.991(a)(1) and \u00a7 23.991(b) Fuel Pumps for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), that include serial numbers D4.111, D4.365, 40.N011 through 40.N366 (excluding 40.N183 through 40.N187, 40.N189 through 40.N211, 40.N213 through 40.N223, 40.N228 through 40.N234 and 40.N340 through 40.N344), and 40.NC001 and 40.NC002",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "14 Part 23, effective September 14, 1969, including Amendment 23-7 through 23- 51.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-51"
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-250-SC applicable to the Model DA 40 NG, Diesel Cycle Engine, published on April 1, 2011.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-253-SC applicable to the Model DA 40 NG, Electronic Engine Control System published on October 28, 2011.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition 23-107-SC applicable to the Model DA 40 for Protection of Systems for High Intensity Radiated Fields, published on June 7, 2001",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-04 to 14 CFR Part 23, \u00a7 23.777(d) for cockpit controls and 23.779(b) for Motion and Effect of cockpit controls for the Diamond Aircraft Industries Model DA 40 NG airplane.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-05 to 14 CFR Part 23, \u00a7 23.1145 Ignition Switches for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-06 to 14 CFR Part 23, \u00a7 23.1061 Liquid Cooling Installation for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety ACE-11-08 to 14 CFR Part 23, \u00a7 23.991(a)(1) and \u00a7 23.991(b) Fuel Pumps for the Diamond Aircraft Industries Model DA 40 NG airplanes with Austro E-4 Aircraft Diesel Engine.",
+          "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.NC003 and subsequent",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.022",
+        "revision": "24",
+        "revision_date": "2021-04-22",
+        "source_url": "https://www.easa.europa.eu/en/downloads/44254/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-23, issued 11-Mar-1994, incl. Amdt. 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI E-05) Reciprocating Engine using Jet Fuel",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI E-06) Use of Diesel Fuel and Diesel/Jet Fuel Blends for Reciprocating Engines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI E-09) Engine Vibration Level",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI E-10) Engine Torque",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-01) Protection from the Effects of HIRF",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-03) Protection from the Effects of Lightning Strikes, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-06) Installation of a FADEC Diesel Engine and Propeller",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "(CRI F-07) Human Factors in Integrated Avionic Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "elos",
+          "raw_reference": "(CRI D-01) Single Lever Power Control",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "(CRI E-07) Coolant Tank",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "(CRI E-08) Electronically-controlled Reciprocating Diesel Engine",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "elos",
+          "raw_reference": "(CRI E-11) Fuel System \u2013 Hot Fuel Temperature",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "elos",
+          "raw_reference": "(CRI E-12) Electric Fuel Pumps",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "elos",
+          "raw_reference": "(CRI B-01) Stall Warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "elos",
+          "raw_reference": "(CRI F-05) Powerplant Instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "ICAO, Annex 16, Volume 1, Chpt. 10, 5. Edition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "CS 36, Amendment 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

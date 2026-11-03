@@ -1,0 +1,55 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "510",
+  "common_name": "510",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.502",
+        "revision": "3",
+        "revision_date": "2018-06-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7108/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 Certification Basis in TCDS A00014WI, PLUS:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "Human Factors NPA 15/2004, \u00a71302 High Intensity Radiated Fields CS 23.1301, .1309 Aeroplane System Wiring CS 23.1309, .1529",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CS 23.1357 Battery Endurance Requirement CS 23.1353 Thickness of Bonded Fuel Tank Skins, CS 23.867 Lightning Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "External LED Navigation and Anti- CS 23.1385 Collision Lights",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

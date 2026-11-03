@@ -1,0 +1,280 @@
+{
+  "manufacturer": "Piper Aircraft, Inc.",
+  "model_designation": "PA-28-181 (Archer III)",
+  "common_name": "PA-28-181 (Archer III)",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.234",
+        "revision": "8",
+        "revision_date": "2026-04-09",
+        "source_url": "https://www.easa.europa.eu/en/downloads/17202/en"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "For the basic PA-28-181 (Archer III) aeroplane the applicable certification basis is CAR 3 and FAR 23. For details on the applicable CAR 3 and FAR 23 amendments see A.V., note 6.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with the factory installed Avidyne Entegra System option the additional certification basis for installation specific items only is CS-23 as defined in CRI-A01 Avidyne, issue 2, or later revision (for details on applicable paragraphs see A.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option the additional certification basis for installation specific items only is CS-23 as defined in CRI A-01 G1000, issue 1, or later revision (for details on applicable paragraphs see A.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 NXI phase I and II the additional certification basis for installation specific items only is CS-23 as defined in CRI A-01 Annex A04 (for details on applicable paragraphs see A.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with the factory installed Lycoming IO-360-B4A engine the additional certification basis for installation specific items only is CS-23 as defined in CRI A-01 Annex A05 (for details on applicable paragraphs see A.V., note 7).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G5 Standby Instrument option and G3X avionics (see note 10) the additional certification basis for installation specific items only is CS-23 as defined in A.V., note 7.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes equipped with main wing spar assembly defined by Piper drawing 28W57A013, the additional certification basis for installation specific items only is CS-23 as defined in A.V., note 7.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes (see note 10) with the hand-held halon free Fire Extinguisher, the additional certification basis for installation is CS-23 (for applicable amendments see A.V., note 11).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "For PA-28-181 (Archer III) aeroplanes with factory installed Garmin G1000NXi Integrated Avionics that incorporate System Software Release 7, the additional certification basis for installation is CS-23 (for applicable amendments see A.V., note 12).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 for the basic PA-28-181 (Archer III) aeroplane (for applicable amendments see A.II.4).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 and CS-23 for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Avidyne Entegra System option (for applicable amendments see A.II.4).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 and CS-23 for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 and CS-23 for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 NXI (phase I and phase II & GFC700 AFCS)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "Integrated Avionics System option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 and CS-23 for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Lycoming",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "IO-360-B4A engine option (for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and FAR 23 and CS-23 for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G5 Standby Instrument option and G3X avionics (see note 10)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "(for applicable amendments see A.II.4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3 and 14 CFR 23 and CS-23 for PA-28-181 Archer III aeroplanes with Garmin G1000NXi Integrated Avionics that incorporate System Software Release 7 (for applicable amendments see A.II.4.g).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "None for the basic PA-28-181 (Archer III) aeroplane.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F01, Protection from the Effects of HIRF, CRI-F02, Protection from the Effects of Lightning Strike; Indirect Effects,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI-F05, Human Factors in Integrated Avionic Systems, for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Avidyne Entegra System option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-52, Human Factors in Integrated Avionic Systems,FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-B23.div-01 (B-52), Human Factors in Integrated Avionic Systems, FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), CRI F-90, Security Protection of Aircraft Systems and Networks.for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 NXI (Phase I and Phase II). In addition CRI F-14 Electronic Stability and Protection (ESP) only for aeroplanes equipped with G1000 phase II option and the autopilot GFC-700.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-B23.div-01 (B-52) Human Factors in Integrated Avionic Systems for PA-28-181 (Archer III) aeroplanes equipped with Garmin G5 Standby Instrument and G3X avionics (see note 10).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "None for the basic PA-28-181 (Archer III) aeroplane",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "CRI-F03, Powerplant Instruments for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Avidyne Entegra System option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-201, Flight Instruments, Stabilized Magnetic Compass, CRI F-203, Power Plant Instruments, Fuel Flow Indication, for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "CRI F-201, Flight Instruments, Stabilized Magnetic Compass, CRI F-203, Power Plant Instruments, Fuel Flow Indication, for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 NXI (Phase I and Phase II)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "F-201, Flight Instruments, Stabilized Magnetic Compass, for PA-28-181 (Archer III) for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G5 Standby Instrument",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1, Chapter 10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

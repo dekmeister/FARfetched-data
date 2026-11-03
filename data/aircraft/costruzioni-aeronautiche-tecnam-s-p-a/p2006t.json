@@ -1,0 +1,212 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM S.p.A.",
+  "model_designation": "P2006T",
+  "common_name": "P2006T",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.185",
+        "revision": "19",
+        "revision_date": "2026-04-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7264/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt. 0 dated 14 Nov 2003.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-0"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt. 6 para 23.2515, 23.2520 (see Note 7 and Note 9)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-6",
+              "provisions": [
+                "2515",
+                "2520"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "HIRF protection (project reference CRI F-01), see note 8",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "Human Factors - Integrated Avionic System (project reference CRI B-52), see Note 2 and note 8",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Lithium battery installation (project reference CRI F 58); see Note 3 and note 8",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "CS23.807(e) Ditching Emergency Exits (CRI D-01), see note 8;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "CS23.783(b), Main door (CRI D-02), see note 8;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "CS23.865, Fire protection of flight controls, engine mounts and other flight structure (CRI D-03), see note 8;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "CS23.1061(b), CS23.1063, Liquid Cooling Coolant tank (CRI E- 01), see note 8.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.185",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A62CE",
+        "revision": "12",
+        "revision_date": "2025-10-02",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID132467602920251113165559.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23 effective February 1, 1965 including amdt 23-1 through 23-57",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36 effective December 1, 1969 including amdt 36-1 through 36-28",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent levels of safety (ELOS): findings made per the provisions of 14 CFR Part 21.21(b)(1) for: a) ELOS ACE-10-15: 14 CFR \u00a7 23. 807(e) Emergency Exits - overhead emergency exit size b) ELOS ACE-10-16: 14 CFR \u00a7 23. 783(b) Doors - proximity of propeller and main door c) ELOS ACE-10-17: 14 CFR \u00a7\u00a7 23.1061 (b), 23.1063 Liquid Cooling and Cooling Tank d) ELOS ACE-10-18: 14 CFR \u00a7 23.777 (d) Cockpit Controls Location - Carburetor Heat Location",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "Approved Kinds of Operation: Day and Night, Visual Flight Rules (VFR) and Instrument Flight Rules (IFR)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "Prohibited Kinds of Operation: Flight into known icing conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate No. A62CE was issued November 10, 2010.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "Date of Application for FAA Type Certificate was November 14, 2007.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "The European Aviation Safety Agency (EASA) originally type certified this aircraft under its type certificate number A.185.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "Maximum Operating Altitude 14000 ft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

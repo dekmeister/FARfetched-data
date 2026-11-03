@@ -1,0 +1,167 @@
+{
+  "manufacturer": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
+  "model_designation": "PZL M28 05",
+  "common_name": "PZL M28 05",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.058",
+        "revision": "12",
+        "revision_date": "2025-07-31",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7409/en"
+      },
+      "categories": [
+        "commuter"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR Pt. 23, Amendment 34, FAR Pt. 23, Amendment 42: Flight Data Recorder (23.1459), Voice Recorder (23.1457) FAR Pt. 23, Amendment 49: Installations, systems and airplane reliability analysis (23.1309) FAR Pt. 23, Amendment 50: Stall warning (23.207) FAR Pt. 34, Subpart B, FAR Pt. 36, Appendix G. for airplanes S/N AJE00301 and FAR 23, Amendment 42, FAR 23, Amendment 49 : 23.1309, FAR 23, Amendment 50 : 23.49, 23.201, 23.203, 23.205, 23.207 and 23.1545",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 48: 23.572, 23.574, 23.575, 23.629",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "for airplanes with ice protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 42, FAR 23, Amendment 43: 23.1419, FAR 23, Amendment 45: 23.1525,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 49 : 23.775, 23.1307, 23.1309, 23.1323, 23.1326, 23.1351, 23.1353, and 23.1431",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 50 : 23.49, 23.63, 23.67, 23.69, 23.75, 23.201, 23.203, 23.207, 23.1325, 23.1559, 23.1581, 23.1583 and 23.1585",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 51: 23.929, 23.975 and 23.1093",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 53: 23.901",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 54: 23.903",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 62: 23.73",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "for airplanes S/N AJE00301 and up, CS-23, Amendment 4: 23.1301, 23.1309, 23.1457, 23.1459",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, Amendment 58: 23.1457, 23.1459",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "For airplanes S/N AJE00301 and up, CS-23 Amendment 0: 23.613, 23.787, 23.1307, Air Ambulance variant (see Note 6) 23.1322, 23.1365, 23.1441",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 Amendment 4: 23.853, 23.1301, 23.1309, 23.1310, 23.1443, 23.1445, 23.1447, 23.1585",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "for airplanes S/N AJE00301 and up, CS-23 Amendment 0: 23.1321, 23.1322, 23.1325, with upgraded avionics (see NOTE 23.1365, 23.1543 CS-23 Amendment 4: 23.1301, 23.1303, 23.1306, 23.1308, 23.1309, 23.1310, 23.1311, 23.1323, 23.1331, 23.1431 CS-23, Amendment 6: 23.2010, 23.2525, 23.2610 The detailed design standards used as a means of compliance in accordance with para. 23.2010 are documented in PZL DDS Summary Report ref. no. DT/Z/530/M28/2025, Issue 1, dated 30-07-2025",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-B23.div-01 - Human Factors \u2013 Integrated Avionic System (for airplanes with upgraded avionics \u2013 PZL Change G38)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Safety Level FAR 23.1361(a) - Master Switch Arrangement",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "FAR Part. 34 Subp. B, FAR Part. 36 App. G., and: Annex 16 ICAO, Part II, Chapter 10: Aircraft Noise Certification,",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "717-200",
+  "common_name": "717-200",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.211",
+        "revision": "3",
+        "revision_date": "2025-07-04",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7240/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "01 September 1999 FAA Type Certificate Data Sheet A6WE See Note 1",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Date",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "08 August 1994",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "16 September 1999 (Date of first TC issuance within EU MS by LBA Germany)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "other",
+          "raw_reference": "See Note 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "The aircraft type and model numbers defined herein have been certificated in accordance with the Concurrent and Co-operative Certification Process (CCC)",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "Working Procedure, Draft Issue 8 dated 17-May-1994. Compliance has been found with the JAA/FAA Jointly Agreed Type Certification Basis, CIP A-01.",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "JAR 25, Change 14 with the Following Reversions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.519(b)(2) CIP C-04 Jacking and Tie Down Provisions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "25.562(b)(2), CIP C-12 Seats, Restraint System and Occupant (c)(5),(c)(6) Protection During Emergency Landing Dynamic Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.607 CIP D-01 Fasteners",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "25.783(f) CIP D-25 Changes to Doors and Latching for McDonnell Douglas 717 25. 809(b) CIP D-08 Ability to Operate Exits from Inside and Outside the Aircraft Under Adverse Aircraft Position",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "25.810(a)(1)(i) CIP D-09 Deactivation of the Type I Assist Means from Outside the Aircraft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.810(a)(1)(v) CIP D-10 Operation of Assist Means After Being Subjected to the Inertial Forces in FAR",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "\u00a7 25.561(b)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "25.979(b) CIP E-03 Pressure Refueling Automatic Shutoff 25A.1141(f)(2) CIP E-04 Auxiliary Power Unit (APU) Fuel/Fire Shutoff Indication",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "25.1309 CIP-F-06 Equipment Systems & Installation Safety Analysis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Special Conditions: CIP E-06 Windshear Triggered Auto-throttle System CIP F-03 High Intensity Radiated Fields (HIRF) Protection CIP F-04 Protection from the Indirect Effects of Lightning Strike CIP F-13 Dual Hydraulic System Failure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "JAR AWO at Change 1 plus NPA AWO-3, Issue 4 and NPA AWO-4, Issue 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "EASA Special Conditions: F-GEN11 Non-rechargeable Lithium batteries Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "SC H-01 ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Exemptions: None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Equivalent Safety Findings: 25.109(a) CIP B-01 Accelerate-Stop Distance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "25.807(a)(3) CIP D-06 Overwing, Type III, Aft, Step down Distance; Equivalent Safety Finding",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "25.811(e)(4) CIP D-11 Passenger Emergency Exit Markings for Door Operating Handle",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "25.813(c)(1) CIP D-14 Improved Access to Type III Emergency Exits",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "25.851(a) CIP D-13 Use of Symbol Only Placards in Lieu of Symbol and Lettering Placards for Fire Extinguisher Locations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "25.1397(a) CIP F-18 Red Anticollision Light",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "EASA Equivalent Safety Findings: F-GEN9-1: Minimum Mass Flow of Supplemental Oxygen \"Component Qualification\"",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "F-GEN9-3: Crew Determination of Quantity of Oxygen in Passenger Oxygen System JAA Elect to Comply Standards None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "Additional National Design Requirements (ANDR). Refer to CIP A-05",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume I (Noise) \u2013 Part II, Chapter 3 (see EASA TCDSN IM.A.211)",
+          "applicability": "Environmental Requirements for noise and vented fuel",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume II (Vented Fuel) \u2013 Part II, Chapter 2",
+          "applicability": "Environmental Requirements for noise and vented fuel",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "other",
+          "raw_reference": "For all models, compliance with point 26.300(a) of Part 26 is demonstrated by complying with points: - 26.301 Compliance Plan for (R)TC holders - 26.302 Fatigue and damage tolerance evaluation - 26.303 Limit of Validity - 26.304 Corrosion prevention and control programme - 26.305 Validity of the continuing structural integrity programme - 26.306 Fatigue critical baseline structure - 26.307 Damage tolerance data for existing changes to fatigue critical structure - 26.308 Damage tolerance data for existing repairs to fatigue critical structure - 26.309 Repair Evaluation Guidelines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

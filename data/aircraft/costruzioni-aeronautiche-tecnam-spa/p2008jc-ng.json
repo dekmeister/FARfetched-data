@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM SPA",
+  "model_designation": "P2008JC NG",
+  "common_name": "P2008JC NG",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.583",
+        "revision": "14",
+        "revision_date": "2026-03-31",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7062/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt.6 dated 27 February 2023 EASA CS-ACNS issue 4, dated 06 April 2022.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-6"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.583 Emission: N/A",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

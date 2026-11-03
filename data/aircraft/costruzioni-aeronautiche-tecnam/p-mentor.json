@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Costruzioni Aeronautiche TECNAM",
+  "model_designation": "P-Mentor",
+  "common_name": "P-Mentor",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.006",
+        "revision": "13",
+        "revision_date": "2022-11-24",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7514/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EASA CS-23 amdt.5, dated 29 March 2017 EASA CS-ACNS issue 2, dated 26 April 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-5"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "Refer to TCDSN EASA.A.006 Emission: N/A",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

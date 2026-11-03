@@ -1,0 +1,256 @@
+{
+  "manufacturer": "Baykar Piaggio Aerospace S.p.A.",
+  "model_designation": "Avanti",
+  "common_name": "Avanti",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.059",
+        "revision": "19",
+        "revision_date": "2025-09-02",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7407/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "RAI Regolamento Tecnico Part 223, including amendments 223-1 through 223-33, correspondent to FAR 23, effective February 1st 1965, including amendments 23-1 through 23-33",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "JAR AWO Subpart 2, Change 2, dated August 1st 1996",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "RVSM specific requirements included in the JAA Leaflet n. 6 rev.1 and in the FAA Interim Guidance Material 91 \u2013 RVSM, Ch. 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "as above, except CS-23 requirements (first issue) applicable to the areas affected by the change (see Appendix 2 \u2013 MTOW Increased Major Change (80-0642) CRI A-01).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Special Federal Aviation Regulations n. 27, effective 1st February 1974, including amendments 27-1 through 27-5.",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23.2, amendment 36.",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-36",
+              "provisions": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 91 Appendix A dated August 18, 1989. Applicable JAR 23 (first issue dated March 11, 1994) requirements for the following modifications 80-0228 \u201cVertical fin - aluminum alloy instead of composite\u201d 80-0229 \u201cAluminum canard wing instead of composite\u201d 80-0241 \u201cAluminum rudder and trim tab\u201d",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "and for the relevant Service Bulletins: 80-0106 \u201cReplacement of the Composite Forward Wing Assembly with the new metallic one\u201d 80-0142 \u201cReplacement of the Composite Material Tail- cone/Vertical Fin Assembly, with the Metal Construction Assembly, in the event of not repairable damages\u201d",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective 1st Dec. 1969, including amendments 36-1 through 36-16. EASA Certification Specifications CS-23, dated 23/11/2003, paragraph 23.1529.",
+          "applicability": null,
+          "applicability_notes": "Requirements elected to comply",
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "Issue Paper Special Condition",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "C-1 Composite Structures Fatigue/Damage Tolerance 23-ACE-29 No. 4",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "C-2 Full Scale Airload Verification 23-ACE-29 No. 5",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "C-3 Doors and Exits (Outward Opening) 23-ACE-29 No. 6",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "C-4 Lightning Protection of Composite Structure 23-ACE-29 No. 4",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "C-6 Forward and Main Wing Flap Interconnection 23-ACE-29 No. 7",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "C-7 Loads for P180 Configuration 23-ACE-29 No. 5",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "F-1 Buffet Onset Envelope 23-ACE-29 No. 1",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "F-2 Effect of Rain or Contamination on Laminar Flow Airfoils 23-ACE-29 No. 3",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "F-5 Inadvertent Excursion Beyond Maximum Operating Speed 23-ACE-29 No. 2",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "P-6 Propeller Ground Clearance 23-ACE-29 No. 8",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "P-7 Propeller marking 23-ACE-29 No. 9",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "P-8 Propeller Ice Protection and Exhaust Gas Impingement 23-ACE-29 No. 10",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "SE-4 Cockpit Smoke Evacuation 23-ACE-29 No. 11",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "SE-5 Protection for Systems from Lightning and High Energy Radio Frequency (HERF) 23-ACE-52 No. 2",
+          "applicability": "Special Conditions enclosed to the RAI paper n. 257.240/SCMA dated July 21, 1989 (Docket n. 031 CE, Special Conditions n. 23-ACE-29, and Special Condition FAA n. 23-ACE-52) which include the following Issue Papers",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "23.1305(g) Fuel pressure indication",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "23.1545(b)(5) Marking of Air Speed",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "Indicator for VYSE",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "other",
+          "raw_reference": "Noise: ICAO Annex 16,Ed. 1988, Vol. I, Chapter 10. [Airplanes incorporating the optional Mod. n. 80-0642 or SB 80-0215: ICAO Annex 16, Ed. 1993, Amdt. 7, Vol. I, Chapter 10/EASA-CS 36 (see Appendix 2 \u2013 MTOW Increased Major Change (80- 0642) CRI A-01)] Emissions: ICAO Annex 16, Ed. 1993, Vol. II, Part II, Chapter 2 (fuel venting).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

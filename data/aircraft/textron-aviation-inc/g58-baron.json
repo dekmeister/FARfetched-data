@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "G58 Baron",
+  "common_name": "G58 Baron",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.280",
+        "revision": "4",
+        "revision_date": "2018-06-21",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7202/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "As defined in FAA TCDS 3A16.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "CAR 3/FAR 23 as defined in FAA TCDS 3A16, and JAR-23, Change 1, plus Special Conditions as defined in Garmin G-1000 EASA CRI A-01, Issue 3, dated 19 May 2009.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions as defined in Garmin G-1000 EASA",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI A-01, Issue 3, dated 19 May 2009.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "As defined in FAA TCDS 3A16.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume 1. See EASA Type Certificate Data Sheet Noise reference TCDSN IM.A.280.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "manufacturer": "Airbus Defence and Space GmbH",
+  "model_designation": "SIAT 223 A1",
+  "common_name": "SIAT 223 A1",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.554",
+        "revision": "4",
+        "revision_date": "2020-10-15",
+        "source_url": "https://www.easa.europa.eu/en/downloads/18184/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23 incl. Amendment 23.1 and 23.2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Vol. I; for details see TCDSN.A.554",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

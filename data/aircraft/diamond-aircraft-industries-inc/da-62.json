@@ -1,0 +1,226 @@
+{
+  "manufacturer": "Diamond Aircraft Industries Inc.",
+  "model_designation": "DA 62",
+  "common_name": "DA 62",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00012NY",
+        "revision": "2",
+        "revision_date": "2023-07-13",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID136460497320230713194108.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Airworthiness Manual (AWM) 523, Change 523-16, dated 31 December 2016. This certification basis is equivalent to 14 CFR Part 23 Amendment 23-62.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "AWM 516, Change 516-11, dated 30 June 2015. This certification basis is equivalent to 14 CFR Part 36, effective December 1969, including Amendments 36-1 through Amendments 36-30.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, Fuel Venting and Exhaust Emissions Standards, effective September 10, 1990 and including all amendments through Amendment 34-5A.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "23-298-SC applicable to the model DA-62 for Diesel Cycle Engine Using Turbine (Jet) Fuel.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "23-297-SC applicable to the model DA-62 for Electronic Engine Control.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "TC08736NY-A-P-1A Fuel Pump Installation with Austro AE300 Diesel Engine",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "elos",
+          "raw_reference": "TC08736NY-A-P-1B Liquid Cooling with the Austro AE300 Diesel Engine",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "elos",
+          "raw_reference": "TC08736NY-A-P-1C Ignition Switches with the Austro AE300 Diesel Engine",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "elos",
+          "raw_reference": "Project Specific Policy Memorandum dated July 18, 2018 for Unintended Errors in 14 CFR Part 23 Exemption No. 17927 dated August 3, 2018. (See Note 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.629",
+        "revision": "8",
+        "revision_date": "2023-08-16",
+        "source_url": "https://www.easa.europa.eu/en/downloads/44256/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23, Amendment 4, issued 15-Jul-2015",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-4"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-02 Use of Jet Fuel for Reciprocating Engines",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-04 Liquid Cooling \u2013 Coolant Tank",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-05 Electronically-controlled Reciprocating Diesel Engine",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-06 Engine Vibration Level",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-07 Engine Torque",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-04 Power Plant Instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-07 Human Factors in Integrated Avionic System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-18 Cyber Security",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-21 Battery Endurance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-10 Electrical Fuel Pump",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "elos",
+          "raw_reference": "CRI B-03 Stalling Speed in Icing Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "other",
+          "raw_reference": "ICAO, Annex 16, Volume 1, Part II and as implemented in Decision No. 2003/4/RM amended by Decision 2007/007/R of The Executive Director of the Agency dated 2 April 2007, on certification specifications providing for acceptable means of compliance for aircraft noise",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

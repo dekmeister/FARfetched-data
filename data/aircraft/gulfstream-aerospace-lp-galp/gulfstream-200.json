@@ -1,0 +1,333 @@
+{
+  "manufacturer": "GULFSTREAM AEROSPACE LP (GALP)",
+  "model_designation": "GULFSTREAM 200",
+  "common_name": "GULFSTREAM 200",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.013",
+        "revision": "5",
+        "revision_date": "2025-05-26",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7500/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "A6IL",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25, effective Feb.1, 1965, including Amendments 25-1 through 25-82.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-82"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective Dec.1, 1969, including Amendments 36-1 through 36-21.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, effective Sep.10, 1990, including Amendments 34-1 through 34-2.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special conditions for operation up to 45000 feet, per FAA S.C. No. 25-ANM-106. Special conditions for High Intensity Radiated Fields (HIRF), per FAA S.C. No. 25-ANM-112.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Safety: FAR 25.1203(a) for Turbine Tail Pipe Fire Detection. Equivalent Safety: FAR 25.1305 & 25.1501(b) for Auxiliary Power Unit (APU) Instrumentation and Monitoring Requirements. Equivalent Safety: FAR 25.901, 25.1305, 25.1309, 25.1321, 25.1549 for Digital only display of turbine engine high/ intermediate pressure rotor speed (N2). Equivalent Safety: All Part 25 Sections, except structural, dealing with stall speeds/related factors for use of 1-g Stall Speed instead of minimum speed in the stall. Equivalent Safety: Sections: 1.1, 1.2, 25.101, 25.105, 25.109, 25.113, 25.115, 25,735 and 25.1587 for rejected take-off and landing performance criteria. Equivalent Safety: 25.933 (a)(1)(ii) for Thrust Reversers operation.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions for Pilot Compartment View: FAR 25.773(b) per CAAI I.P. F-3.",
+          "applicability": null,
+          "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Mandatory Requirements Applicable JAR Requirements at the Reference Date December 15, 1993",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-25, Change 13, effective 5.10.89 Amendment 90/1 issued 11.5.90 Amendment 91/1 issued 12.5.91 Amendment 93/1 issued 8.3.93 ICAO Annex 16 Vol 1 - 3rd edition, July 1993 on aircraft noise ICAO Annex 16 Vol 2 - 2nd edition, July 1993 engine emissions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "JAR-25, Change 14, effective 27 May 1994",
+          "applicability": "Elect to Comply Requirements The following requirements have effectivity dates later than the Reference Date but Gulfstream Aerospace LP has requested to have them included in the JAA Type Certification Basis",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "Issued in accordance with Paragraph 16 of JAR-21 The following Special Conditions as defined by JAA Interim Policies were identified as part of EASA\u2019s Type Certification Basis of the Gulfstream Aerospace LP GULFSTREAM 200 Corporate Jet.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "Novel or Unusual Design Features",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI C-04 Interaction of Systems and Structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "Unconventional Use",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI D-06 Operation up to 45.000 ft",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "General Experience",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-01 Accelerate-stop Distances and Related JAR 1.1, 1.2 and JAR 25.101, 105, Performance Matters 109, 113, 115, 735, 25X1591",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-02 Performance information for Take-off from JAR 25X1591 and AMJ 25X1591 Contaminated Runways",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI B-04 Stall and Stall Warning Speeds and Manoeuvre JAR 25.103, 107, 119,125, 143 and Capability 207",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI C-02 Yawing Manoeuvring Conditions Special JAR 25.351(a) Condition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI D-04 Worn Brakes JAR 25.735 Special Condition JAA / G200",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI E-03 Cowling and Nacelle Skin JAR 25.1193",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-06 Protection from the effects of HIRF JAR-25.1431",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-07 Lightning Protection - Direct Effects JAR 25X899, INT/POL/25/3 Issue 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "CRI F-08 Lightning Protection - Indirect Effects JAR 25.581, 25X89925.954, 25.1309 INT/POL/25/4 Issue 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "exemption",
+          "raw_reference": "Single Place Sidefacing Seat/ Sidefacing Divans JAR 25.562 / 25.785",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Safety Findings requested and concurred with in accordance with Paragraph 21 of JAR-21.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "elos",
+          "raw_reference": "CRI C-05 Flutter, Deformation and Fail Safe Criteria JAR 25.629",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-07 Single Place Sidefacing Seat/ Sidefacing Divans JAR 25.562 / 25.785",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-10 Retracting Mechanism JAR-25.729 (e)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-11 Retracting Mechanism, Landing Gear Position JAR-25.729 (e)(7) Indicator",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-12 Brake Overheat JAR-25.729 (f)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-13 Brakes, Akku Indication JAR-25.735 (i)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "CRI D-14 Cockpit Indication System Press. JAR-25.1436 (b) (2)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "CRI E-01 APU Instrumentation JAR 25.1305, 25.1501",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "CAAI/FAA Issue Papers (see CAAI /FAA ESFs) FAA Turbine Engine Tail Pipe Fire Detection JAR 25.1203 (a) IP P-1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "other",
+          "raw_reference": "Noise See TCDSN no. EASA.IM.A.013",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "other",
+          "raw_reference": "Fuel Venting ICAO Annex 16, Volume II, Part II, Chapter II",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

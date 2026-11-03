@@ -1,0 +1,156 @@
+{
+  "manufacturer": "BRM Aero s.r.o.",
+  "model_designation": "Bristell B23",
+  "common_name": "Bristell B23",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.A.642",
+        "revision": "9",
+        "revision_date": "2026-04-20",
+        "source_url": "https://www.easa.europa.eu/en/downloads/119222/en"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "CS-23 [Certification Specifications for Normal- Category Aeroplanes] Amdt. 5, dated 29 March 2017 CS-ACNS, Issue 2, dated 26 April 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "to": "CS23-5"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "see TCDSN EASA.A.642",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00121CE",
+        "revision": "0",
+        "revision_date": "2025-09-09",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID169387933320250909172510.0001"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, effective February 1, 1965, including amendment 23-1 through 23-64, \u201cAirworthiness Standards: Normal Category Airplanes.\u201d \u00a7 23.2005 Certification Level and Performance Level: Level 1, Low Speed",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 23, effective February 1, 1965, including amendment 23-1 through 23-64, \u201cAirworthiness Standards: Normal Category Airplanes.\u201d The detailed design standards used as a means of compliance in accordance with \u00a7 23.2010 are documented in Aircraft Design Certification GmbH DDS summary Report No. BRM Aero Bristell B23 with ADxC-73-DC-102, Issue A, dated 14-08-2025. (NOTE 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December 1, 1969 with Amendments 36-1 through Amendment 36-32 \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "Equivalent Level of Safety findings (ELOS): None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions: None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "exemption",
+          "raw_reference": "Exemptions: None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "The aircraft is certified for Day-Night Visual Flight Rules (VFR) only",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "The airplane is not approved for ditching.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "The airplane is not approved for flight into known icing conditions.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate A00121CE issued September 9, 2025.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "Date of application for FAA Type Certificate was February 18, 2021.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "The European Aviation Safety Agency (EASA) originally type certificated this aircraft under its type certificate number EASA.A.642",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

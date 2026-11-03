@@ -1,0 +1,70 @@
+{
+  "manufacturer": "Textron Aviation Inc.",
+  "model_designation": "172N",
+  "common_name": "172N",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "3A12",
+        "revision": "89",
+        "revision_date": "2026-09-15",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001"
+      },
+      "categories": [
+        "normal",
+        "utility"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Civil Air Regulations (CAR) Part 3 effective November 1, 1949, as amended by 3-1 through 3-12.",
+          "applicability": "Models 172 thru 172P",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "CAA",
+              "document": "car-3",
+              "to": "CAR3-12"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "In addition, effective at S/N 17271035 and On, 23.1559 effective March 1, 1978.",
+          "applicability": "Models 172 thru 172P",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36 dated December 1, 1969, plus Amendments 36-1 through 36-5 for Model 172N.",
+          "applicability": "Models 172 thru 172P",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "Airspeed Indicator CAR 3.757 (see NOTE 4 on use of CAS) (S/N 17261445, 17261578, 17265685 thru 17276259)",
+          "applicability": "Models 172 thru 172P; 17261445, 17261578, 17265685",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "elos",
+          "raw_reference": "Operating Limitations CAR 3.778(a)",
+          "applicability": "Models 172 thru 172P; 17261445, 17261578, 17265685",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}
