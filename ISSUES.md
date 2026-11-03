@@ -142,8 +142,8 @@ Parts 23, 25 and 29 and the tools changes for 29/25 are not yet.
   Part 36 was re-fetched (fresh DRS download, offline replay checked) and
   re-emitted to `tools/out/staged/documents/faa/36/` (40 provisions). It is
   **not promotable yet**: 32 versions are `TEXT MISSING` and 66 rows are
-  incomplete. See FAA-18. A plain `promote` would copy it into `data/`.
-- **FAA-18. Part 36 re-fetch: open items before promotion** (2026-11-04). The
+  incomplete. See FAA-23. A plain `promote` would copy it into `data/`.
+- **FAA-23. Part 36 re-fetch: open items before promotion** (2026-11-04). The
   maintainer chose to defer the FR evidence work, so these stay open:
   - **36-20 effective date (23 failed rows).** DRS says `09/11/1992` (Sept
     11); the manifest reads the CSV as 1992-11-09 because Sept 11 is before the
