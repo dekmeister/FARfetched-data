@@ -2,7 +2,10 @@
 
 **Status:** Implemented 2026-10-31, trimmed (schema version 1). The files
 below are the review as written; the implementation differs where noted
-here, and [../../README.md](../../README.md) is the contract as built.
+here. The contract as built is [../../docs/DATA_FORMAT.md](../../docs/DATA_FORMAT.md)
+and [../../docs/SQLITE.md](../../docs/SQLITE.md) (README.md until 2026-11-03;
+`plan.md`, cited below as evidence, was deleted on 2026-11-03 and is in git
+history).
 
 ## Implementation record
 

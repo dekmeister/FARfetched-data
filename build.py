@@ -121,7 +121,7 @@ CREATE TABLE provision_versions (
 
 CREATE INDEX idx_pv_revision ON provision_versions (revision_id);
 
--- A version's text split into blocks (README §Text format). Every version
+-- A version's text split into blocks (docs/DATA_FORMAT.md §Text format). Every version
 -- that has text has rows; a flat (single-line) text is one unlabelled row.
 CREATE TABLE provision_paragraphs (
     id                   INTEGER PRIMARY KEY,
@@ -471,7 +471,7 @@ def sort_key(number: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Provision text format: "label-line text" (README §Text format)
+# Provision text format: "label-line text" (docs/DATA_FORMAT.md §Text format)
 #
 # A text with one line is flat. A text with several lines is structured: one
 # block per line; a line may open with a label group such as `(a)`, `[(4)` or
@@ -627,7 +627,7 @@ def _path(stack: list[_Level]) -> str:
 
 def parse_paragraphs(text: str) -> ParsedText:
     """Split a provision text into paragraphs. Raise TextFormatError if the
-    text breaks the format (README §Text format)."""
+    text breaks the format (docs/DATA_FORMAT.md §Text format)."""
     lines: list[tuple[int, str]] = []
     for n, raw in enumerate(text.split("\n"), 1):
         if raw == "":

@@ -2,21 +2,36 @@
 
 Guidance for AI coding assistants working in this repository.
 
-This is the **data repo**. It contains JSON source files for FAA aircraft
-and regulations, plus a `build.py` that compiles them into a single
-`cert_basis.sqlite`. It contains no application code. The Flask web app
-lives in a separate repo and consumes the SQLite artifact.
+This is the **data repo**. It contains no application code. Three roles:
 
-- Project scope and roadmap: [plan.md](plan.md)
-- Data formats, field-by-field reference, SQLite schema, build behaviour:
-  [README.md](README.md)
+- **`tools/` produces `data/`.** JSON for documents, provisions and aircraft
+  is built from local source copies plus override rows, and promoted after
+  review. Nothing else writes `data/`.
+- **`build.py` checks and compiles.** It validates `data/`, resolves every
+  cert-basis reference, fails loud, and writes `cert_basis.sqlite`.
+- **`cert_basis.sqlite` is the contract with the app.** The FARFETCHed Flask
+  app lives in a separate repo and only reads this file.
+
+Where things are documented:
+
+- Overview, layout, commands: [README.md](README.md)
+- JSON field-level contract, text format, resolution rules:
+  [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md)
+- SQLite tables, contract version, build steps and report:
+  [docs/SQLITE.md](docs/SQLITE.md)
+- Schema versions and design rationale:
+  [docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md)
+- Open issues and the data-repo roadmap: [ISSUES.md](ISSUES.md). The app's
+  roadmap is in the FARFETCHed repo.
+- Design reviews and session handovers: [reviews/](reviews/)
 - Scraping/parsing/staging machinery lives in [tools/](tools/). Treat it as a
   self-contained internal sub-repo with its own [tools/CLAUDE.md](tools/CLAUDE.md)
   and [tools/README.md](tools/README.md). When working on data ingestion,
-  defer to those — don't restate their rules here.
+  defer to those — don't restate their rules here. Pipeline handovers and
+  dated records go in `tools/s00_docs/reviews/`.
 
-**Read README.md before proposing schema or format changes.** It is the
-field-level contract.
+**Read docs/DATA_FORMAT.md and docs/SQLITE.md before proposing schema or
+format changes.** They are the field-level contract.
 
 ## Project Context
 
@@ -36,20 +51,23 @@ field-level contract.
 
 ## Repo Layout
 
-See [README.md §Layout](README.md). Summary:
+See [README.md §Layout](README.md#layout). Summary:
 
 ```
 FARfetched-data/
-├── plan.md
-├── README.md
+├── README.md                   Front page for people
+├── ISSUES.md                   Open issues (by area, stable IDs) + roadmap
+├── docs/                       The contract: DATA_FORMAT, SQLITE, SCHEMA_HISTORY
+├── reviews/                    Contract reviews and parent-repo handovers
 ├── schemas/                    JSON Schema files (Draft 2020-12)
-├── data/
-│   ├── documents/{issuer}/{document}/{provision}.json
+├── data/                       Output of tools/ (never hand-edited)
+│   ├── documents/{issuer}/{document}/{_document,provision}.json
 │   └── aircraft/{manufacturer-slug}/{model-slug}.json
 ├── build.py
 ├── tests/
-└── tools/                      Internal sub-repo: ingestion scripts.
-                                See tools/CLAUDE.md and tools/README.md.
+├── tools/                      Internal sub-repo: ingestion scripts.
+│                               See tools/CLAUDE.md and tools/README.md.
+└── input/                      Local source copies, owned by tools (gitignored)
 ```
 
 ## Common Commands
@@ -61,7 +79,7 @@ uv sync
 # Build the SQLite artifact
 uv run python build.py
 
-# Validate without building (if implemented)
+# Validate without building (schema + text layout)
 uv run python build.py --check
 
 # Quality
@@ -106,10 +124,10 @@ sqlite3 cert_basis.sqlite 'SELECT COUNT(*) FROM aircraft;'
 
 ## Data conventions
 
-The field-level contract is in [README.md](README.md). Rules that matter
-at the repo level:
+The field-level contract is in [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md).
+Rules that matter at the repo level:
 
-- **Provision `text` is label-line text** (README §Text format): one
+- **Provision `text` is label-line text** (docs/DATA_FORMAT.md §Text format): one
   paragraph per line, depth from the labels, indentation checked relatively.
   A single-line text is flat. `build.py` parses and checks it; it never
   guesses a layout. The tools produce it, and layout may only add line breaks
@@ -118,7 +136,8 @@ at the repo level:
   job, not this repo's.
 - **No `status` column on versions.** Every provision version must have
   `text`. An aircraft that references an untranscribed revision can't be
-  added until it is transcribed. This is deliberate — see plan.md.
+  added until it is transcribed. This is deliberate — see
+  docs/SCHEMA_HISTORY.md.
 - **`text: "TEXT MISSING"` flags a known gap.** When an extractor knows
   a (provision, revision) pair *should* exist (the CSV/manifest says so)
   but the source is corrupted, OCR'd badly, or otherwise unreadable, it
@@ -142,7 +161,7 @@ at the repo level:
   are fields inside the files, not directories. Don't introduce additional
   path segments. The build checks every path against the file's contents.
 - **`additionalProperties: false`** in every JSON Schema. If you need a new
-  field, update the schema, the README, and the build.
+  field, update the schema, the docs (`docs/`), and the build.
 
 ## Testing
 
@@ -162,7 +181,8 @@ at the repo level:
 - Preserve `raw_reference` exactly as it appears on the TCDS.
 - Include `source_url` on every version, and `publication_cite` whenever it
   is known.
-- Add a schema change, a README update, and a test in the same commit.
+- Add a schema change, a `docs/` update (and a `docs/SCHEMA_HISTORY.md` row
+  for a contract change), and a test in the same commit.
 - Fail the build on any unresolved reference.
 
 **Don't:**
@@ -176,7 +196,7 @@ at the repo level:
   build outputs.
 - Don't mutate JSON files to work around a build failure. Fix the data or
   fix the schema.
-- Don't invent fields. If something new is needed, update schema, README,
+- Don't invent fields. If something new is needed, update schema, `docs/`,
   and build together.
 
 ## When In Doubt
