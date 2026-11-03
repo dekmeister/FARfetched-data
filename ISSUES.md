@@ -267,6 +267,10 @@ and [TCDS_TRIAL_20.md](tools/s00_docs/reviews/TCDS_TRIAL_20.md).
   allowed, so a wrong parse can only be fixed in the parser. Decide whether
   aircraft need an override TSV (probably no schema change) before running
   the parser wider. (was: TCDS #27, reframed by schema v4)
+  - 2026-11-03: assemble now reads two aircraft override files,
+    `aircraft_links.tsv` (which TCBs are one model) and `aircraft_holds.tsv`
+    (keep a model out of the staged tree). Neither corrects an entry; a
+    wrong entry is still parser-only.
 - **TCDS-3. A designation appears twice on one TCDS** (A19SO `PA-44-180`,
   A37CE `208B`; 49 TCDS in the corpus). Such models are not staged. Some are
   continuation pages repeating a multi-model heading (A3EU). Needs a merge
@@ -277,6 +281,10 @@ and [TCDS_TRIAL_20.md](tools/s00_docs/reviews/TCDS_TRIAL_20.md).
   CS-23 is now in `data/`, so the interpreter could resolve them to
   `EASA`/`cs-23`. Keep the "equivalent to 14 CFR Part 23 … through 23-55"
   line as FAA. (was: TCDS #30)
+  - 2026-11-03: the shared interpreter reads CS forms now, but the A57CE
+    DA 62 form `CS 23.573 Damage tolerance … (CS 23, amendment 2)` (title
+    then a trailing amendment) comes out `partial` (12 lines). Teach
+    `tcds_refs` the trailing `(CS 23, amendment N)` form.
 - **TCDS-5. Cover models not matched to headings:** 397 TCDS and 1,151
   designations (as of 2026-11-01). (was: TCDS #31)
   - Examples: 1A2/1A4 PA-18/PA-20 variants, 1G1/1G10, 1H11.
@@ -310,12 +318,26 @@ and [TCDS_TRIAL_20.md](tools/s00_docs/reviews/TCDS_TRIAL_20.md).
   `overrides/aircraft_links.tsv` row if it is one type design, else a
   holder/designation difference taken from the TCDS. Run
   `uv run python -m tools.s02_emit.aircraft.assemble` to list them.
+  - 2026-11-03: this was a whole-corpus FAA run. The staged tree is now
+    built from the 21 TCDS behind `data/aircraft/` only (TCDS-11), so these
+    collisions reappear only when the FAA parser runs wider.
+- **TCDS-11. Which FAA TCDS are staged is chosen by hand.** `assemble` stages
+  every fragment under `tools/out/derived/tcb/`, so the aircraft set is
+  whatever PDFs the FAA parser was last run on: today the 21 TCDS behind
+  `data/aircraft/`, passed one by one. A full `input/TCDS/FAA/` run would
+  stage ~1,450 files. This breaks the "one offline command rebuilds it"
+  rule. Close by recording the selection as data (e.g. a TCDS list in
+  `tools/overrides/` or the catalogue) that the parser or assemble reads.
 
 ### EASA TCDS (ETCDS-)
 
 State of the 2026-11-02 download: 623 TCDS, 650 files in `input/TCDS/EASA/`
-([tools/s00_docs/EASA_TCDS.md](tools/s00_docs/EASA_TCDS.md)). Nothing is
-parsed yet (ROADMAP-9).
+([tools/s00_docs/EASA_TCDS.md](tools/s00_docs/EASA_TCDS.md)). Parsed since
+2026-11-03 (`s02_emit/easa/tcds/parse.py`; CS-23/25 aeroplanes only): 284
+aircraft TCDS read, 263 models staged from 104 TCDS, 33 of them linked to
+the FAA TCDS of the same design. Handover:
+[2026-11-03-easa-tcds-handover.md](tools/s00_docs/reviews/2026-11-03-easa-tcds-handover.md).
+Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
 
 - **ETCDS-1. Only the current issue exists, locally and upstream.** EASA
   replaces files in place, so `input/TCDS/EASA/` is irreplaceable and needs
@@ -339,6 +361,68 @@ parsed yet (ROADMAP-9).
   - IM.A.343 says "Page 1 of 7" but the PDF has 8 pages.
 - **ETCDS-4. `EASA.BA.025_Issue3.pdf` is not a TCDS.** It is a revocation
   notice that the catalogue labels `main`. A parser must skip it.
+- **ETCDS-5. CS 25.851 is only partly laid out, so 3 models are held.**
+  At CS25-0 … CS25-18 the children of 25.851(a) (and (b), (c)) stay on one
+  line (`structure_report_easa_cs25.tsv`: `inline-skip (4)…(8), (b)`; the
+  inline extinguisher table "Passenger capacity Number of extinguishers"
+  sits in (a)(1)). The build then can't find cited paragraphs:
+  A330-841 (EASA.A.004 line 24, `CS 25.851(a)(c) Amdt 17` → (c) at CS25-12)
+  and EMB-545 / EMB-550 (EASA.IM.A.526 line 4, `CS 25.851(a)(6) at Amdt. 18`
+  → (a)(6) at CS25-18). They are in `tools/overrides/aircraft_holds.tsv`.
+  Close by fixing the 851 layout (structure rule or a `text.tsv` override
+  with evidence), then delete the three hold rows. Check other CS-25
+  provisions with `inline-skip` notes for the same risk.
+- **ETCDS-6. Shared basis sections are not attached to models.** A section
+  titled "General (All Models)" / "Data pertinent …" that holds a
+  certification basis (IM.A.071, IM.A.080, IM.A.188; reported as a warning)
+  is skipped, and its models get only their own section's entries, or none.
+  EASA.A.010 (TBM 700): Section A "GENERAL (ALL TBM700)" holds the basis and
+  Section B lists TBM700 A … N in one section, so nothing is staged and
+  the FAA A60EU TBM stays FAA-only. Needs a rule for inheriting a shared
+  basis (and for which models it covers).
+- **ETCDS-7. Series sections are not split into models** (42 TCDS, e.g.
+  A.004 A330, A.015, A.064, IM.A.196 747-400, IM.A.229 EMB-110 "(ALL
+  VARIANTS)"). Reported "several models in one section"; nothing staged.
+  Needs the model list (1.2 Models/Variants, the cover's "For Models") and a
+  rule for per-model scoped lines.
+- **ETCDS-8. 12 in-scope models refused as implausible designations**
+  (2026-11-03 guard): A.004 `Passenger Models:`, A.182 `BAe 146 Model` /
+  `AVRO 146-RJ Model`, IM.A.001 `EMBRAER ERJ 170-100 VARIANT` / `-200
+  VARIANT`, IM.A.003 `(-200 VARIANT)`, `(- 300ER VARIANT)`, `(- 200LR
+  VARIANT)`, `(F Freighter VARIANT)`, IM.A.035 `767-300BCF (Major Design
+  Change)`, IM.A.171 `EA500 DESIGNATION`, IM.A.643 `CL-215-6B11 (CL-215T
+  Variant) (Restricted Category)`. Each is a layout the designation reader
+  doesn't know (variant tables, "MODEL X DESIGNATION" titles). Fix per
+  layout; the guard stays.
+- **ETCDS-9. Table-shaped basis fields split badly.** 3-column SC / ESF
+  tables (Dornier A.096) come out as one entry per wrapped row, and
+  cross-field tables ("as per D.II.2 as amended by:") become separate
+  entries, like the FAA "additions" in TCDS-1.
+- **ETCDS-10. PC-12 paragraph letters are unread.** EASA.A.089 rows such as
+  `23.305 a (23-45)` (a letter without parentheses) resolve without the
+  paragraph or come out `partial`.
+- **ETCDS-11. Environmental sub-labels fold into the field label**
+  ("Environmental Protection … Noise: …"), so the `other` entry starts with
+  the sub-label. Cosmetic, but `raw_reference` should start at the value.
+- **ETCDS-12. Transport is inferred when no category is printed** (49
+  staged models, e.g. SAAB 340/2000 A.068/A.069, Dornier 328 A.096, CN-235
+  / C-295 A.186, C-212 A.187): a Part 25 basis → `transport`, with a report
+  note. Confirm this is acceptable, or require a printed category.
+- **ETCDS-13. "basis cites no CS/JAR/FAR 23 or 25" misses indirect bases**
+  (76 TCDS, many correct: sailplanes, CS-22). Some are aeroplanes whose basis
+  points elsewhere ("same as …", A330-941 in A.004, L-410). Distinguish the
+  two before trusting the out-of-scope count.
+- **ETCDS-14. Link decisions to review** (`tools/overrides/aircraft_links.tsv`,
+  33 rows, 2026-11-03):
+  - DA 40 (A47CE / IM.A.022) and DA 62 Inc (A00012NY / IM.A.629): the State
+    of Design is TCCA, which has no TCDS here; FAA was taken as primary
+    (same path either way).
+  - DA 62 on A57CE (GmbH, the EASA.A.005 derivative) is not linked to
+    IM.A.629: a different TC (A00012NY Note 9).
+  - DA 42 (EASA.A.005 primary): `manufacturer` becomes the EASA cover's
+    `DIAMOND AIRCRAFT INDUSTRIES GMBH` (was FAA's mixed case).
+  - LC42-550FG: EASA.IM.A.516 gives the FAA TC date as 30 March 2003; FAA
+    A00003SE says May 30, 2003.
 
 ### Text layout (TEXT-)
 
@@ -428,6 +512,12 @@ The code items are proposals awaiting a decision.
   test_build, `real_conn` in test_similarity). Proposal: one session-scoped
   fixture in `tests/conftest.py`. Also replace its `sys.path` insert with
   pytest `pythonpath = ["."]` in pyproject.
+- **BUILD-7. The app must read `tcb_categories` (contract v6).** Schema v6
+  moved categories from the model to the TCB: `model_categories` is gone
+  and `tcb_categories (tcb_id, category_id)` replaces it. FARFETCHed still
+  queries `model_categories`, so it breaks on the first v6
+  `cert_basis.sqlite`. Change the app before shipping a v6 build; a model's
+  categories are now the union over its TCBs, or per regulator.
 
 ### Tooling and process (PROC-)
 
@@ -512,7 +602,9 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   - Do a dry run of the release-fetch with a placeholder DB first (NFSN).
     (was: plan.md)
 - **ROADMAP-9. EASA TCDS:** a parse/coverage stage, then EASA cert bases
-  citing "CS-25 Amendment N". Also download the Noise TCDS (TCDSN), which is
+  citing "CS-25 Amendment N". 2026-11-03: parser, coverage and the
+  cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-5…14);
+  next are rotorcraft (CS-27/29) and the scope widening. Also download the Noise TCDS (TCDSN), which is
   only recorded in the catalogue's `noise_*` columns today.
 
 ## Closed

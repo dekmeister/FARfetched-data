@@ -39,7 +39,8 @@ Everything citable is a **document** with its own revision history:
 
 Advisory circulars, special conditions, ELOS findings, exemptions and
 handbooks use the same four layers, so a cert-basis reference always points
-at a provision version. An aircraft's cert basis is kept per TCDS, line by
+at a provision version. An aircraft's cert basis is kept per TCDS (one model can carry the State
+of Design's TCDS and a validation of it, each with its own categories), line by
 line: the verbatim line, what it means (references), and the provision
 versions it resolves to.
 
@@ -93,7 +94,9 @@ Data comes in only through the tools pipeline. See
 1. Refresh the local source copies (only when needed: downloading isn't
    building).
 2. Run the pipeline's extract and emit steps. Emit writes a staged tree under
-   `tools/out/staged/`.
+   `tools/out/staged/`. Aircraft: the TCDS parsers write per-TCDS fragments
+   and `tools.s02_emit.aircraft.assemble` stages them, joining an FAA and an
+   EASA TCDS of the same type design only through a reviewed link row.
 3. Review the diff with `python -m tools.s03_promote.promote --dry-run`, then
    promote.
 4. Run `uv run python build.py`. It must finish with zero unresolved
