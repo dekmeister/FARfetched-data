@@ -159,7 +159,10 @@ Each phase shippable/testable before starting the next.
   already allows them — needs ingestion)
 - Non-FAA issuers beyond EASA (TCCA, ...)
 - Cross-part equivalent-section mapping (`provision_relations`, deferred
-  from the 2026-10-31 review)
+  from the 2026-10-31 review). The computed half is done: schema v5's
+  `provision_similarity` (docs/SQLITE.md §Similarity). Hand-confirmed relations and
+  explicit cross-citations (e.g. MIL-HDBK-516 citing 14 CFR sections) are
+  still deferred.
 - ~~Repeal / `[Reserved]` representation~~ — schema v2 adds `deleted: true`
   versions (added for EASA CS-23 Amdt 5). FAA 23-64 (the 2017 Part 23
   rewrite) can now be ingested; `[Reserved]` text is still stored verbatim.

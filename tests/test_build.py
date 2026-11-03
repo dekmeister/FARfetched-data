@@ -197,6 +197,7 @@ class TestRealDataBuild:
             "cert_basis_ref_provisions",
             "cert_basis_ref_skips",
             "cert_basis_resolved",
+            "provision_similarity",
         }
 
     def test_23_1309_paragraph_paths(self, real_db: Path) -> None:
