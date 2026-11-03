@@ -34,7 +34,8 @@
       "designator": "23-3",
       "grouping_at_time": "Flight",
       "title_at_revision": "One-engine-inoperative stalls.",
-      "text": "[A multiengine airplane must not display any undue spinning tendency and must be safely recoverable without applying power to the inoperative engine when stalled with--\n(a) The critical engine inoperative ;\n(b) Flaps and landing gear retracted; and\n(c) The remaining engines operating at up to 75 percent of maximum continuous power, except that the power need not be greater than that at which the use of maximum control travel just holds the wings laterally level in approaching the stall. The operating engines may be throttled back during the recovery from the stall.] Error Error 501HTTP Web Server: Function Not Implemented Exception",
+      "text": "[A multiengine airplane must not display any undue spinning tendency and must be safely recoverable without applying power to the inoperative engine when stalled with--\n(a) The critical engine inoperative ;\n(b) Flaps and landing gear retracted; and\n(c) The remaining engines operating at up to 75 percent of maximum continuous power, except that the power need not be greater than that at which the use of maximum control travel just holds the wings laterally level in approaching the stall. The operating engines may be throttled back during the recovery from the stall.]",
+      "publication_cite": "30 FR 14240",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/891FCA50250C5D6285256687006C1764.0001",
       "actions": [
         {
@@ -100,6 +101,30 @@
           "notes": null
         }
       ]
+    },
+    {
+      "designator": "23-50",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Removed.",
+      "publication_cite": "61 FR 5183",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/63F8AC1590DB012D85256687006C54E4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "753",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Main float design.",
+  "subject_group": "Floats and Hulls",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Main float design.",
+      "text": "Each seaplane main float must be approved and must meet the requirements of Sec. 23.521.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6D45589B3369133085256687006E6651.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Main float design.",
+      "text": "[Each seaplane main float must meet the requirements of Sec. 23.521.]",
+      "publication_cite": "58 FR 42165",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CFBAF2B039DE6E2E85256687006EE653.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@
       "designator": "23-0",
       "grouping_at_time": "Design and Construction",
       "title_at_revision": "Design properties.",
-      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  (1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (&quot;A&quot; values) listed in MIL-HDBK-5 must be met. Examples of these items include--\n    (i) Wing lift struts;\n    (ii) Wing spars;\n    (iii) Sparcaps in regions such as wing cutouts and wing center sections where loads are transmitted through caps only; and\n    (iv) Primary attachment fittings dependent on single bolts for load transfer.\n  (2) Redundant structures in which the partial failure of individual elements would result in applied loads being safely distributed to other load carrying members may be designed on the basis of the &quot;90 percent probability&quot; (&quot;B&quot; values) listed in MIL-HDBK-5. Examples of these items are sheet-stiffener combinations and multirivet or multiple bolt connections.\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used if a &quot;premium selection&quot; of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.\n(c) Material correction factors for structural items such as sheets, sheet-stringer combinations, and riveted joints, may be omitted if sufficient test data are obtained to allow a probability analysis showing that 90 percent or more of the elements will equal or exceed allowable selected design values.",
+      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  (1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (\"A\" values) listed in MIL-HDBK-5 must be met. Examples of these items include--\n    (i) Wing lift struts;\n    (ii) Wing spars;\n    (iii) Sparcaps in regions such as wing cutouts and wing center sections where loads are transmitted through caps only; and\n    (iv) Primary attachment fittings dependent on single bolts for load transfer.\n  (2) Redundant structures in which the partial failure of individual elements would result in applied loads being safely distributed to other load carrying members may be designed on the basis of the \"90 percent probability\" (\"B\" values) listed in MIL-HDBK-5. Examples of these items are sheet-stiffener combinations and multirivet or multiple bolt connections.\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used if a \"premium selection\" of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.\n(c) Material correction factors for structural items such as sheets, sheet-stringer combinations, and riveted joints, may be omitted if sufficient test data are obtained to allow a probability analysis showing that 90 percent or more of the elements will equal or exceed allowable selected design values.",
       "publication_cite": "29 FR 17955",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/16847A67B13EF92285256687006D8B0B.0001",
       "actions": [
@@ -33,7 +33,8 @@
       "designator": "23-7",
       "grouping_at_time": "Design and Construction",
       "title_at_revision": "Design properties.",
-      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  [(1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (&quot;A&quot; values) when listed in MIL-HDBK-5 must be met.\n  (2) Redundant structures in which the partial failure of individual elements would result in applied loads being safely distributed to other load carrying members may be designed on the basis of the &quot;90 percent probability&quot; (&quot;B&quot; values) when listed in MIL-HDBK-5. Examples of these items are sheet-stiffener combinations and multirivet or multiple bolt connections.]\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used if a &quot;premium selection&quot; of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.\n(c) Material correction factors for structural items such as sheets, sheet-stringer combinations, and riveted joints, may be omitted if sufficient test data are obtained to allow a probability analysis showing that 90 percent or more of the elements will equal or exceed allowable selected design values.",
+      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  [(1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (\"A\" values) when listed in MIL-HDBK-5 must be met.\n  (2) Redundant structures in which the partial failure of individual elements would result in applied loads being safely distributed to other load carrying members may be designed on the basis of the \"90 percent probability\" (\"B\" values) when listed in MIL-HDBK-5. Examples of these items are sheet-stiffener combinations and multirivet or multiple bolt connections.]\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used if a \"premium selection\" of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.\n(c) Material correction factors for structural items such as sheets, sheet-stringer combinations, and riveted joints, may be omitted if sufficient test data are obtained to allow a probability analysis showing that 90 percent or more of the elements will equal or exceed allowable selected design values.",
+      "publication_cite": "34 FR 13086",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D03CCE541EF5CB8D85256687006D968B.0001",
       "actions": [
         {
@@ -51,6 +52,30 @@
           "notes": null
         }
       ]
+    },
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Removed.",
+      "publication_cite": "58 FR 42156",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8BC7377AAC08EF7F85256687006DC7E0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "1524",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Maximum passenger seating configuration.",
+  "versions": [
+    {
+      "designator": "23-10",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maximum passenger seating configuration.",
+      "text": "[The maximum passenger seating configuration must be established.]",
+      "publication_cite": "36 FR 2864",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AB0FD3D7F10E279C852566870071C87D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "70-25",
+          "issued_on": "1970-06-30",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "10405",
+          "issued_on": "1971-02-05",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

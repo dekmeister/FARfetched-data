@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "303",
+  "current_grouping": "Structure",
+  "canonical_title": "Factor of safety.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Factor of safety.",
+      "text": "Unless otherwise provided, a factor of safety of 1.5 must be used.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/79237434F4279AD585256687006CA996.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

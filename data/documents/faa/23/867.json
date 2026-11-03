@@ -3,7 +3,7 @@
   "document": "23",
   "number": "867",
   "current_grouping": "Design and Construction",
-  "canonical_title": "Lightning protection of structure.",
+  "canonical_title": "Electrical bonding and protection against lightning and static electricity.",
   "subject_group": "Electrical Bonding and Lightning Protection",
   "versions": [
     {
@@ -25,6 +25,30 @@
           "type": "final_rule",
           "reference": "8083",
           "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-49",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Electrical bonding and protection against lightning and static electricity.",
+      "text": "(a) The airplane must be protected against catastrophic effects from lightning.\n(b) For metallic components, compliance with paragraph (a) of this section may be shown by--\n  (1) Bonding the components properly to the airframe; or\n  (2) Designing the components so that a strike will not endanger the airplane.\n(c) For non-metallic components, compliance with paragraph (a) of this section may be shown by--\n  (1) Designing the components to minimize the effect of a strike; or\n  (2) Incorporating acceptable means of diverting the resulting electrical current so as not to endanger the airplane.",
+      "publication_cite": "61 FR 5165",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/712E485B8E0B06C185256687006F0FB7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-21",
+          "issued_on": "1994-07-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27806",
+          "issued_on": "1996-01-29",
           "source_url": null,
           "notes": null
         }

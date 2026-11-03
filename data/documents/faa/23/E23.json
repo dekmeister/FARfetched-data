@@ -1,0 +1,41 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "E23",
+  "current_grouping": "Appendix",
+  "canonical_title": "Appendix E",
+  "versions": [
+    {
+      "designator": "23-2",
+      "grouping_at_time": "Appendix",
+      "title_at_revision": "Appendix E",
+      "text": "TEXT MISSING",
+      "source_url": null,
+      "actions": []
+    },
+    {
+      "designator": "23-50",
+      "grouping_at_time": "Appendix",
+      "title_at_revision": "Removed and Reserved.",
+      "publication_cite": "61 FR 5183",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A8D54980234C1F90852566870072DDFE.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-22",
+          "issued_on": "1994-07-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27807",
+          "issued_on": "1996-01-29",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "871",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Leveling means.",
+  "subject_group": "Miscellaneous",
+  "versions": [
+    {
+      "designator": "23-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Leveling marks.",
+      "text": "There must be reference marks for leveling the airplane on the ground.",
+      "publication_cite": "29 FR 17955",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5A2FCBB73A21104B85256687006E795F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-17",
+          "issued_on": "1964-03-25",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "4080",
+          "issued_on": "1964-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "23-7",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Leveling means.",
+      "text": "[There must be means for determining when the airplane is in a level position on the ground.]",
+      "publication_cite": "34 FR 13092",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0C7626960E8AF9F585256687006E906A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-14",
+          "issued_on": "1967-04-05",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8083",
+          "issued_on": "1969-08-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

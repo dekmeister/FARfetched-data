@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "23",
+  "number": "537",
+  "current_grouping": "Structure",
+  "canonical_title": "Seawing loads.",
+  "subject_group": "Water Loads",
+  "versions": [
+    {
+      "designator": "23-45",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Seawing loads.",
+      "text": "[Seawing design loads must be based on applicable test data.]",
+      "publication_cite": "58 FR 42163",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/84136E0334AEDB2D85256687006DC27A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-18",
+          "issued_on": "1990-06-15",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "26269",
+          "issued_on": "1993-07-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
