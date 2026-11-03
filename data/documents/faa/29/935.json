@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "935",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Shafting joints.",
+  "subject_group": "Rotor Drive System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Shafting joints.",
+      "text": "Each universal joint, slip joint, and other shafting joints whose lubrication is necessary for operation must have provision for lubrication.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2069D09AF29057E585256613006CA467.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

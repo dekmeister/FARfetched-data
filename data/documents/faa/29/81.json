@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "81",
+  "current_grouping": "Flight",
+  "canonical_title": "Landing distance: Category A.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Landing distance: Category A.",
+      "text": "[The horizontal distance required to land and come to a complete stop (or to a speed of approximately 3 knots for water landings) from a point 50 feet above the landing surface (25 feet for Category A elevated heliport landing operations) must be determined from the approach and landing paths established in accordance with Sec. 29.79.]",
+      "publication_cite": "61 FR 21894",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/09551BADBD032D0C85256613006ADDB8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-44",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Landing distance: Category A.",
+      "text": "[The horizontal distance required to land and come to a complete stop (or to a speed of approximately 3 knots for water landings) from a point 50 ft above the landing surface must be determined from the approach and landing paths established in accordance with Sec. 29.79.]",
+      "publication_cite": "64 FR 45338",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/70EBC2F0CD786BE2852567E6005EEB1C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1999-08-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

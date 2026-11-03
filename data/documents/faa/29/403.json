@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "403",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Auxiliary rotor attachment structure.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Auxiliary rotor attachment structure.",
+      "text": "The attachment structure for each auxiliary rotor must be designed to withstand a limit load equal to the maximum loads occurring in the structure in any flight and landing condition.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C68119C1C8542F4085256613006B419C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-31",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Removed.",
+      "publication_cite": "55 FR 38966",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/53393A89253A07DE85256613006B476C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-10",
+          "issued_on": "1989-04-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25885",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

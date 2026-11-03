@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "619",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Special factors.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Special factors.",
+      "text": "(a) The special factors prescribed in Secs. 29.621 through 29.625 apply to each part of the structure whose strength is--\n  (1) Uncertain;\n  (2) Likely to deteriorate in service before normal replacement; or\n  (3) Subject to appreciable variability due to--\n    (i) Uncertainties in manufacturing processes; or\n    (ii) Uncertainties in inspection methods.\n(b) For each part of the rotorcraft to which Secs. 29.621 through 29.625 apply, the factor of safety prescribed in Sec. 29.303 must be multiplied by a special factor equal to--\n  (1) The applicable special factors prescribed in Secs. 29.621 through 29.625; or\n  (2) Any other factor great enough to ensure that the probability of the part being understrength because of the uncertainties specified in paragraph (a) of this section is extremely remote.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6BEA056A2BE5044585256613006BA4A7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

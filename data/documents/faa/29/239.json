@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "239",
+  "current_grouping": "Flight",
+  "canonical_title": "Spray characteristics.",
+  "subject_group": "Ground and Water Handling Characteristics",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Spray characteristics.",
+      "text": "If certification for water operation is requested, no spray characteristics during taxiing, takeoff, or landing may obscure the vision of the pilot or damage the rotors, propellers, or other parts of the rotorcraft.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D22A96B89D9FEE1A85256613006B1405.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

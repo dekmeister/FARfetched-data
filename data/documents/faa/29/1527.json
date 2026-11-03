@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1527",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Maximum operating altitude.",
+  "subject_group": "Operating Limitations",
+  "versions": [
+    {
+      "designator": "29-15",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maximum operating altitude.",
+      "text": "[The maximum altitude up to which operation is allowed, as limited by flight, structural, powerplant, functional, or equipment characteristics, must be established.]",
+      "publication_cite": "43 FR 2327",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F826D28CED5CFBB885256613006E5E74.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 6;  Notice No. 75-25; Issued on 05/29/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14684, 14324",
+          "issued_on": "1978-01-09",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

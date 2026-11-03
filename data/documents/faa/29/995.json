@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "995",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel valves.",
+  "subject_group": "Fuel System Components",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel valves.",
+      "text": "In addition to meeting the requirements of Sec. 29.1189, each fuel valve must--\n(a) Have positive stops or suitable index provisions in the \"on\" and \"off\" positions; and\n(b) Be supported so that no loads resulting from their operation or from accelerated flight conditions are transmitted to the lines attached to the valve.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/30F98FEA92928E6F85256613006CACC8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-13",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel valves.",
+      "text": "In addition to meeting the requirements of Sec. 29.1189, each fuel valve must--\n[(a) [Reserved.]]\n(b) Be supported so that no loads resulting from their operation or from accelerated flight conditions are transmitted to the lines attached to the valve.",
+      "publication_cite": "42 FR 15046",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B2ADE75263319BB485256613006CB507.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3;  Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

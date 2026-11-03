@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "49",
+  "current_grouping": "Flight",
+  "canonical_title": "Performance at minimum operating speed.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Performance at minimum operating speed.",
+      "text": "[(a) For each Category A helicopter, the hovering performance must be determined over the ranges of weight, altitude, and temperature for which takeoff data are scheduled--\n  (1) With not more than takeoff power;\n  (2) With the landing gear extended; and\n  (3) At a height consistent with the procedure used in establishing the takeoff, climbout, and rejected takeoff paths.\n(b) For each Category B helicopter, the hovering performance must be determined over the ranges of weight, altitude, and temperature for which certification is requested, with--\n  (1) Takeoff power;\n  (2) The landing gear extended; and\n  (3) The helicopter in ground effect at a height consistent with normal takeoff procedures.\n(c) For each helicopter, the out-of-ground effect hovering performance must be determined over the ranges of weight, altitude, and temperature for which certification is requested with takeoff power.\n(d) For rotorcraft other than helicopters, the steady rate of climb at the minimum operating speed must be determined over the ranges of weight, altitude, and temperature for which certification is requested with--\n  (1) Takeoff power; and\n  (2) The landing gear extended.]",
+      "publication_cite": "61 FR 21898",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/004A3DC2EAAC530785256613006A4DD1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

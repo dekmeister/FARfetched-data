@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "60",
+  "current_grouping": "Flight",
+  "canonical_title": "Elevated heliport takeoff path: Category A.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Elevated heliport takeoff path: Category A.",
+      "text": "[(a) The elevated heliport takeoff path extends from the point of commencement of the takeoff procedure to a point in the takeoff path at which the rotorcraft is 1,000 feet above the takeoff surface and compliance with Sec. 29.67(a)(2) is shown. In addition--\n  (1) The requirements of Sec. 29.59(a) must be met;\n  (2) While attaining VTOSS and a positive rate of climb, the rotorcraft may descend below the level of the takeoff surface if, in so doing and when clearing the elevated heliport edge every part of the rotorcraft clears all obstacles by at least 15 feet;\n  (3) The vertical magnitude of any descent below the takeoff surface must be determined; and\n  (4) After attaining VTOSS and a positive rate of climb, the landing gear may be retracted.\n(b) The scheduled takeoff weight must be such that the climb requirements of Sec. 29.67(a)(1) and (a)(2) will be met.\n(c) Takeoff distance will be determined in accordance with Sec. 29.61.]",
+      "publication_cite": "61 FR 21899",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/775FFD099986F6FB85256613006A807E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

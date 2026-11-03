@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "661",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Rotor blade clearance.",
+  "subject_group": "Rotors",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Rotor blade clearance.",
+      "text": "There must be enough clearance between the main rotor blades and other parts of the structure to prevent the blades from striking any part of the structure during any operating condition.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AF39103133BA875885256613006BB73C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-3",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Rotor blade clearance.",
+      "text": "There must be enough clearance between the [rotor blades] and other parts of the structure to prevent the blades from striking any part of the structure during any operating condition.",
+      "publication_cite": "33 FR 967",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/52C642B049DE5A3385256613006BB912.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

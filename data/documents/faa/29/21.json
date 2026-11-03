@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "21",
+  "current_grouping": "Flight",
+  "canonical_title": "Proof of compliance.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Proof of compliance.",
+      "text": "(a) Each requirement of this subpart must be met at each appropriate combination of weight and center of gravity within the range of loading conditions for which certification is requested. This must be shown--\n  (1) By tests upon a rotorcraft of the type for which certification is requested, or by calculations based on, and equal in accuracy to, the results of testing; and\n  (2) By systematic investigation of each required combination of weight and center of gravity, if compliance cannot be reasonably inferred from combinations investigated.\n(b) The controllability, stability, and trim of the rotorcraft must be shown for each altitude up to the maximum expected in operation.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0B15F33BBB84E0CD85256613006A3491.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Proof of compliance.",
+      "text": "[Each requirement of this subpart must be met at each appropriate combination of weight and center of gravity within the range of loading conditions for which certification is requested. This must be shown--]\n(a) By tests upon a rotorcraft of the type for which certification is requested, or by calculations based on, and equal in accuracy to, the results of testing; and (b)] By systematic investigation of each required combination of weight and center of gravity, if compliance cannot be reasonably inferred from combinations investigated.",
+      "publication_cite": "49 FR 44435",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/98C55335036DD11685256613006A36D5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

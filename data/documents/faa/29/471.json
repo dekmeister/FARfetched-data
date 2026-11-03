@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "471",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "General.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "General.",
+      "text": "(a) Loads and equilibrium. For limit ground loads--\n  (1) The limit ground loads obtained in the landing conditions in this part must be considered to be external loads that would occur in the rotorcraft structure if it were acting as a rigid body; and\n  (2) In each specified landing condition, the external loads must be placed in equilibrium with linear and angular inertia loads in a rational or conservative manner.\n(b) Critical centers of gravity. The critical centers of gravity within the range for which certification is requested must be selected so that the maximum design loads are obtained in each landing gear element.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DD222F17468CCE8F85256613006B6282.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

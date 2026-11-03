@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "87",
+  "current_grouping": "Flight",
+  "canonical_title": "Height-velocity envelope.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height-velocity envelope.",
+      "text": "[(a) If there is any combination of height and forward velocity (including hover) under which a safe landing cannot be made after failure of the critical engine and with the remaining engines (where applicable) operating within approved limits, a height-velocity envelope must be established for--\n  (1) All combinations of pressure altitude and ambient temperature for which takeoff and landing are approved; and\n  (2) Weight from the maximum weight (at sea level) to the highest weight approved for takeoff and landing at each altitude. For helicopters, this weight need not exceed the highest weight allowing hovering out-of-ground effect at each altitude.\n(b) For single-engine or multiengine rotorcraft that do not meet the Category A engine isolation requirements, the height-velocity envelope for complete power failure must be established.]",
+      "publication_cite": "61 FR 21901",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FBA3CEE9B877FD8B85256613006ADF63.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

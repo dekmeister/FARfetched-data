@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "957",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Flow between interconnected tanks.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Flow between interconnected tanks.",
+      "text": "(a) Where tank outlets are interconnected and allow fuel to flow between them due to gravity or flight accelerations, it must be impossible for fuel to flow between tanks in quantities great enough to cause overflow from the tank vent in any sustained flight condition.\n(b) If fuel can be pumped from one tank to another in flight--\n  (1) The design of the vents and the fuel transfer system must prevent structural damage to tanks from overfilling; and\n  (2) There must be means to warn the crew before overflow through the vents occurs.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BA4BE51955537A3185256613006CA16B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

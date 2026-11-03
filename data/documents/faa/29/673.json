@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "673",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Primary flight controls.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Primary flight controls.",
+      "text": "[Primary flight controls are those used by the pilot for immediate control of pitch, roll, yaw, and vertical motion of the rotorcraft.]",
+      "publication_cite": "49 FR 44437",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1375155F0CD6C07985256613006BC8EC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

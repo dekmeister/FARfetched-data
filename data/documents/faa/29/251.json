@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "251",
+  "current_grouping": "Flight",
+  "canonical_title": "Vibration.",
+  "subject_group": "Miscellaneous Flight Requirements",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Vibration.",
+      "text": "Each part of the rotorcraft must be free from excessive vibration under each appropriate speed and power condition.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5B0308C7E07CB9E385256613006B113E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

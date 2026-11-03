@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "161",
+  "current_grouping": "Flight",
+  "canonical_title": "Trim control.",
+  "subject_group": "Flight Characteristics",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Trim control.",
+      "text": "The trim control--\n(a) Must trim any steady longitudinal and lateral control forces to zero in level flight at any appropriate speed; and\n(b) May not introduce any undesirable discontinuities in control force gradients.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DE2665D53209FFB985256613006AFD55.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Trim control.",
+      "text": "The trim control--\n[(a) Must trim any steady longitudinal, lateral, and collective control forces to zero in level flight at any appropriate speed; and]\n(b) May not introduce any undesirable discontinuities in control force gradients.",
+      "publication_cite": "49 FR 44436",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6F21060CAE1ED14D85256613006B0095.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

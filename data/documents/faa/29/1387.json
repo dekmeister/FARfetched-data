@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1387",
+  "current_grouping": "Equipment",
+  "canonical_title": "Position light system dihedral angles.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Position light system dihedral angles.",
+      "text": "(a) Each forward and rear position light must, as installed, show unbroken light within the dihedral angles described in this section.\n(b) Dihedral angle L (left) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the rotorcraft, and the other at 110 degrees to the left of the first, as viewed when looking forward along the longitudinal axis.\n(c) Dihedral angle R (right) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the rotorcraft, and the other at 110 degrees to the right of the first, as viewed when looking forward along the longitudinal axis.\n(d) Dihedral angle A (aft) is formed by two intersecting vertical planes making angles of 70 degrees to the right and to the left, respectively, to a vertical plane passing through the longitudinal axis, as viewed when looking aft along the longitudinal axis.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3A0FB0E9B189B2B285256613006E0F7E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-9",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Position light system dihedral angles.",
+      "text": "[(a) Except as provided in paragraph (e) of this section, each forward and rear position light must, as installed, show unbroken light within the dihedral angles described in this section.]\n(b) Dihedral angle L (left) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the rotorcraft, and the other at 110\u00b0 to the left of the first, as viewed when looking forward along the longitudinal axis.\n(c) Dihedral angle R (right) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the rotorcraft, and the other at 110\u00b0 to the right of the first, as views when looking forward along the longitudinal axis.\n(d) Dihedral angle A (aft) is formed by two intersecting vertical planes making angles of 70\u00b0 to the right and to the left, respectively, to a vertical plane passing through the longitudinal axis, as viewed when looking aft along the longitudinal axis.\n[(e) If the rear position light, when mounted as far aft as practicable in accordance with Sec. 29.1385(c), cannot show unbroken light within dihedral angle A (as defined in paragraph (d) of this section), a solid angle or angles of obstructed visibility totaling not more than 0.04 steradians is allowable within that dihedral angle, if such solid angle is within a cone whose apex is at the rear position light and whose elements make an angle of 30\u00b0 with a vertical line passing through the rear position light.]",
+      "publication_cite": "36 FR 21279",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B14202F55C7C540585256613006E111E.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Not Applicable."
+        },
+        {
+          "type": "final_rule",
+          "reference": "11479",
+          "issued_on": "1971-10-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

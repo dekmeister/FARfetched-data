@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "737",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Skis.",
+  "subject_group": "Landing Gear",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Skis.",
+      "text": "(a) The maximum limit load rating of each ski must equal or exceed the maximum limit load determined under the applicable ground load requirements of this part.\n(b) There must be a stabilizing means to maintain the ski in an appropriate position during flight. This means must have enough strength to withstand the maximum aerodynamic and inertia loads on the ski.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/12D425142FBA919785256613006BE6E0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

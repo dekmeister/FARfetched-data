@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1203",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fire detector systems.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fire detector systems.",
+      "text": "(a) For rotorcraft other than category B rotorcraft with engines of 900 cubic inches displacement or less, there must be approved, quick-acting fire detectors in designated fire zones in numbers and locations ensuring prompt detection of fire in those zones.\n(b) Each fire detector must be constructed and installed to withstand any vibration, inertia, and other loads to which it would be subjected in operation.\n(c) No fire detector may be affected by any oil, water, other fluids, or fumes that might be present.\n(d) There must be means to allow crewmembers to check, in flight, the functioning of each fire detector system electrical circuit.\n(e) The wiring and other components of each fire detector system in an engine compartment must be at least fire resistant.\n(f) No fire detector system component for any fire zone may pass through another fire zone, unless--\n  (1) It is protected against the possibility of false warnings resulting from fires in zones through which it passes; or\n  (2) The zones involved are simultaneously protected by the same detector and extinguishing systems.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/48DA8A841B0B104785256613006D8371.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-3",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fire detector systems.",
+      "text": "[(a) For each turbine engine powered rotorcraft and Category A reciprocating engine powered rotorcraft, and for each Category B reciprocating engine powered rotorcraft with engines of more than 900 cubic inches displacement, there must be approved, quick-acting fire detectors in designated fire zones and in the combustor, turbine, and tailpipe sections of turbine installations (whether or not such sections are designated fire zones) in numbers and locations ensuring prompt detection of fire in those zones.]\n(b) Each fire detector must be constructed and installed to withstand any vibration, inertia, and other loads to which it would be subjected in operation.\n(c) No fire detector may be affected by any oil, water, other fluids, or fumes that might be present.\n(d) There must be means to allow crewmembers to check, in flight, the functioning of each fire detector system electrical circuit.\n(e) The wiring and other components of each fire detector system in an engine compartment must be at least fire resistant.\n(f) No fire detector system component for any fire zone may pass through another fire zone, unless--\n  (1) It is protected against the possibility of false warnings resulting from fires in zones through which it passes; or\n  (2) The zones involved are simultaneously protected by the same detector and extinguishing systems.",
+      "publication_cite": "33 FR 970",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/492B4BEEB69D540585256613006D95AD.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

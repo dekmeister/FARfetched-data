@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "411",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Ground clearance: tail rotor guard.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Ground clearance: tail rotor guard.",
+      "text": "(a) It must be impossible for the tail rotor to contact the landing surface during a normal landing.\n(b) If a tail rotor guard is required to show compliance with paragraph (a) of this section--\n  (1) Suitable design loads must be established for the guard; and\n  (2) The guard and its supporting structure must be designed to withstand those loads.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B69FF214BC01F53185256613006B4463.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

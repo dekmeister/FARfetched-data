@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "231",
+  "current_grouping": "Flight",
+  "canonical_title": "General.",
+  "subject_group": "Ground and Water Handling Characteristics",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "General.",
+      "text": "The rotorcraft must have satisfactory ground and water handling characteristics, including freedom from uncontrollable tendencies in any condition expected in operation.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/22FEA849F9AA21F985256613006B10A5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

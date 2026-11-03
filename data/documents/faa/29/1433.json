@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1433",
+  "current_grouping": "Equipment",
+  "canonical_title": "Vacuum systems.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Vacuum systems.",
+      "text": "(a) There must be means, in addition to the normal pressure relief, to automatically relieve the pressure in the discharge lines from the vacuum air pump when the delivery temperature of the air becomes unsafe.\n(b) Each vacuum air system line and fitting on the discharge side of the pump that might contain flammable vapors or fluids must meet the requirements of Sec. 29.1183 if they are in a designated fire zone.\n(c) Other vacuum air system components in designated fire zones must be at least fire resistant.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9D8C5477A17D361B85256613006E0A69.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

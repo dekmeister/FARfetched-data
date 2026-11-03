@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "397",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Limit pilot forces and torques.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Limit pilot forces.",
+      "text": "The limit pilot forces are as follows:\n(a) For foot controls, 130 pounds.\n(b) For stick controls, 100 pounds fore and aft, and 67 pounds laterally.\n(c) For wheel controls, 100 pounds fore and aft, and a lateral couple of 53D inch-pounds applied at the rim of the control wheel (where D is the wheel diameter in inches).",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D1BF8F08E2DAF3FC85256613006B4347.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-12",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Limit pilot forces (and torques.)",
+      "text": "[(a) Except as provided in paragraph (b) of this section, the limit pilot forces are as follows:\n  (1) For foot control, 130 pounds.\n  (2) For stick controls, 100 pounds fore and aft, and 67 pounds laterally.\n(b) For flap, tab, stabilizer, rotor brake, and landing gear operating controls, the following apply (R=radius in inches):\n  (1) Crank, wheel, and lever controls, X 50 pounds, but not less than 50 pounds nor more than 100 pounds for hand operated controls or 130 pounds for foot operated controls, applied at any angle within 20 degrees of the plane of motion of the control.\n  (2) Twist controls, 80R pounds.]",
+      "publication_cite": "41 FR 55471",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CE579F751B6DC98285256613006B4580.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "74-5",
+          "issued_on": "1974-02-14",
+          "source_url": null,
+          "notes": "Notice of Invitation to Submit Proposals; Notice No. 74-5; Issued on 2/14/74.\\t\\nNotice of Compilation of Proposals; Notice No. 74-5A; Issued on 5/22/74.\\nNotice of Availability of Agenda; Notice No. 74-5B; Issued on 10/3/74.\\nNotice of Clarifying Revisions; Notice No. 74-33; Issued on 10/3/74. \\nNotice of Conference; Notice No. 74-5C; Issued on 11/25/74.\\nNotice of Availability of Conference Summary; Notice No. 74-5D; Issued on 2/4/75.\\nNotice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 2/27/75.\\nNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 5/13/75.\\nNotice of Airworthiness Review Program No. 4; Notice No. 75-20; Issued on 5/13/75.\\nNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 5/19/75.\\nNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 5/29/75.\\nNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 6/9/75.\\nNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 6/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324",
+          "issued_on": "1976-12-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-47",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Limit pilot forces and torques.",
+      "text": "(a) Except as provided in paragraph (b) of this section, the limit pilot forces are as follows:\n  (1) For foot control, 130 pounds.\n  (2) For stick controls, 100 pounds fore and aft, and 67 pounds laterally.\n(b) For flap, tab, stabilizer, rotor brake, and landing gear operating controls, the following apply (R=radius in inches):\n  (1) Crank, wheel, and lever controls, X 50 pounds, but not less than 50 pounds nor more than 100 pounds for hand operated controls or 130 pounds for foot operated controls, applied at any angle within 20 degrees of the plane of motion of the control.\n  [(2) Twist controls, 80R inch-pounds.]",
+      "publication_cite": "66 FR 23538",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1F132E1DCF23ADAC86256A6900685E26.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "No NPRM issued."
+        },
+        {
+          "type": "final_rule",
+          "reference": "FAA-2001-9616",
+          "issued_on": "2001-05-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

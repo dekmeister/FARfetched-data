@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "969",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel tank expansion space.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank expansion space.",
+      "text": "Each fuel tank must have an expansion space of not less than two percent of the tank capacity. It must be impossible to fill the expansion space inadvertently with the rotorcraft in the normal ground attitude.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4942CF7FAE95E1D585256613006CA635.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-26",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank expansion space.",
+      "text": "[Each fuel tank or each group of fuel tanks with interconnected vent systems must have an expansion space of not less than 2 percent of the combined tank capacity. It must be impossible to fill the fuel tank expansion space inadvertently with the rotorcraft in the normal ground attitude.]",
+      "publication_cite": "53 FR 34217",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/513E45346362D6F585256613006CBA5E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-19",
+          "issued_on": "1984-10-10",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24337",
+          "issued_on": "1988-08-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

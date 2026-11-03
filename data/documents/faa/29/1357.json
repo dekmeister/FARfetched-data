@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1357",
+  "current_grouping": "Equipment",
+  "canonical_title": "Circuit protective devices.",
+  "subject_group": "Electrical Systems and Equipment",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Circuit protective devices.",
+      "text": "(a) Automatic protective devices must be used to minimize distress to the electrical system and hazard to the rotorcraft in the event of wiring faults or serious malfunction of the system or connected equipment.\n(b) For category A rotorcraft, there must be means in the generating system to automatically de-energize and disconnect from the main bus any power source developing hazardous overvoltage.\n(c) Each resettable circuit protective device must be designed so that, when an overload or circuit fault exists, it will open the circuit regardless of the position of the operating control.\n(d) If the ability to reset a circuit breaker or replace a fuse is essential to safety in flight, that device must be located and identified so that it can be readily reset or replaced in flight.\n(e) Each circuit for essential loads must have individual circuit protection.\n(f) If fuses are used, there must be spare fuses for use in flight equal to at least 50 percent of the number of fuses of each rating required for complete circuit protection.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AC1705C7AF009D7085256613006DE90B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Circuit protective devices.",
+      "text": "(a) Automatic protective devices must be used to minimize distress to the electrical system and hazard to the rotorcraft in the event of wiring faults or serious malfunction of the system or connected equipment.\n[(b) The protective and control devices in the generating system must be designed to de-energize and disconnect faulty power sources and power transmission equipment from their associated buses with sufficient rapidity to provide protection from hazardous overvoltage and other malfunctioning.]\n(c) Each resettable circuit protective device must be designed so that, when an overload or circuit fault exists, it will open the circuit regardless of the position of the operating control.\n[(d) If the ability to reset a circuit breaker or replace a fuse is essential to safety in flight, that circuit breaker or fuse must be located and identified so that it can be readily reset or replaced in flight.\n(e) Each essential load must have individual circuit protection. However, individual protection for each circuit in an essential load system (such as each position light circuit in a system) is not required.]\n(f) If fuses are used, there must be spare fuses for use in flight equal to at least 50 percent of the number of fuses of each rating required for complete circuit protection.\n[(g) Automatic reset circuit breakers may be used as integral protectors for electrical equipment provided there is circuit protection for the cable supplying power to the equipment.]",
+      "publication_cite": "49 FR 44440",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EC8E65B179BCD32285256613006DED50.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "83",
+  "current_grouping": "Flight",
+  "canonical_title": "Landing: Category B.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Landing: Category B.",
+      "text": "[(a) For each Category B rotorcraft, the horizontal distance required to land and come to a complete stop (or to a speed of approximately 3 knots for water landings) from a point 50 feet above the landing surface must be determined with--\n  (1) Speeds appropriate to the type of rotorcraft and chosen by the applicant to avoid the critical areas of the height-velocity envelope established under Sec. 29.87; and\n  (2) The approach and landing made with power on and within approved limits.\n(b) Each multiengined Category B rotorcraft that meets the powerplant installation requirements for Category A must meet the requirements of--\n  (1) Sections 29.79 and 29.81; or\n  (2) Paragraph (a) of this section.\n(c) It must be possible to make a safe landing on a prepared landing surface if complete power failure occurs during normal cruise.]",
+      "publication_cite": "61 FR 21900",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/08E54F649BF8BB6285256613006ADE46.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

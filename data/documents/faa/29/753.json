@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "753",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Main float design.",
+  "subject_group": "Floats and Hulls",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Main float design.",
+      "text": "(a) Bag floats. Each bag float must be designed to withstand--\n  (1) The maximum pressure differential that might be developed at the maximum altitude for which certification with that float is requested; and\n  (2) The vertical loads prescribed in Sec. 29.521(a), distributed along the length of the bag over three-quarters of its projected area.\n(b) Rigid floats. Each rigid float must be able to withstand the vertical, horizontal, and side loads prescribed in Sec. 29.521. An appropriate load distribution under critical conditions must be used.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CDD62146FAC5A19085256613006BE9BC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

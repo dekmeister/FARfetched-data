@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1105",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Induction system screens.",
+  "subject_group": "Induction System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Induction system screens.",
+      "text": "If induction system screens are used--\n(a) Each screen must be upstream of the carburetor;\n(b) No screen may be in any part of the induction system that is the only passage through which air can reach the engine, unless it can be deiced by heated air;\n(c) No screen may be deiced by alcohol alone; and\n(d) It must be impossible for fuel to strike any screen.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D425E91222760D6E85256613006D4726.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

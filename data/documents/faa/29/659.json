@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "659",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Mass balance.",
+  "subject_group": "Rotors",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Mass balance.",
+      "text": "The rotors and blades must be mass balanced as necessary to--\n(a) Prevent excessive vibration; and\n(b) Prevent flutter at any speed up to the maximum forward speed.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7BD1DB8587B2F03385256613006BB587.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-3",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Mass balance.",
+      "text": "[(a) The rotor and blades must be mass balanced as necessary to--\n  (1) Prevent excessive vibration; and\n  (2) Prevent flutter at any speed up to the maximum forward speed.\n(b) The structural integrity of the mass balance installation must be substantiated.]",
+      "publication_cite": "33 FR 967",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7AA13C405C5DD7C785256613006BB86F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

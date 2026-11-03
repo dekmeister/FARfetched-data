@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1013",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Oil tanks.",
+  "subject_group": "Oil System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil tanks.",
+      "text": "(a) Installation. Each oil tank installation must meet the requirements of Sec. 29.967. However, an engine oil tank may be in a designated fire zone if the tank and its supports are fireproof to the extent that damage by fire to any non-fireproof part will not cause leakage or spillage of oil.\n(b) Expansion space. Oil tank expansion space must be provided so that--\n  (1) Each oil tank has an expansion space of not less than the greater of--\n    (i) 10 percent of the tank capacity; or\n    (ii) 0.5 gallon;\n  (2) Each reserve oil tank not directly connected to any engine has an expansion space of not less than two percent of the tank capacity; and\n  (3) It is impossible to fill the expansion space inadvertently with the rotorcraft in the normal ground attitude.\n(c) Filler connection. Each recessed oil tank filler connection that can retain any appreciable quantity of oil must have a drain that discharges clear of the entire rotorcraft. In addition--\n  (1) Each oil tank filler cap must provide an oil-tight seal under the pressure expected in operation;\n  (2) For category A rotorcraft, each oil tank filler cap or filler cap cover must incorporate features that provide a warning when caps are not fully locked or seated on the filler connection; and\n  (3) Each oil filler must be marked under Sec. 29.1557(c)(2).\n(d) Vent. Oil tanks must be vented as follows:\n  (1) Each oil tank must be vented from the top part of the expansion space so that venting is effective under all normal flight conditions.\n  (2) Oil tank vents must be arranged so that condensed water vapor that might freeze and obstruct the line cannot accumulate at any point.\n(e) Outlet. There must be means to prevent entrance into the tank itself, or into the tank outlet, of any object that might obstruct the flow of oil through the system. No oil tank outlet may be enclosed by a screen or guard that would reduce the flow of oil below a safe value at any operating temperature.\n(f) Flexible liners. Each flexible oil tank liner must be approved or shown to be suitable for the particular installation.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F2D25FF22A6DB51E85256613006D1369.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-10",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil tanks.",
+      "text": "[(a) Installation. Each oil tank installation must meet the requirements of Sec. 29.967.]\n(b) Expansion space. Oil tank expansion space must be provided so that--\n  [(1) Each oil tank used with a reciprocating engine has an expansion space of not less than the greater of 10 percent of the tank capacity or 0.5 gallon, and each oil tank used with a turbine engine has an expansion space of not less than 10 percent of the tank capacity;]\n  (2) Each reserve oil tank not directly connected to any engine has an expansion space of not less than 2 percent of the tank capacity; and\n  (3) It is impossible to fill the expansion space inadvertently with the rotorcraft in the normal ground attitude.\n(c) Filler connection. Each recessed oil tank filler connection that can retain any appreciable quantity of oil must have a drain that discharges clear of the entire rotorcraft. In addition--\n  (1) Each oil tank filler cap must provide an oil-tight seal under the pressure expected in operation;\n  (2) For category A rotorcraft, each oil tank filler cap or filler cap cover must incorporate features that provide a warning when caps are not fully locked or seated on the filler connection; and\n  (3) Each oil filler must be marked under Sec. 29.1557(c)(2).\n(d) Vent. Oil tanks must be vented as follows:\n  (1) Each oil tank must be vented from the top part of the expansion space so that venting is effective under all normal flight conditions.\n  (2) Oil tank vents must be arranged so that condensed water vapor that might freeze and obstruct the line cannot accumulate at any point.\n[(e) Outlet. There must be means to prevent entrance into the tank itself, or into the tank outlet, of any object that might obstruct the flow of oil through the system. No oil tank outlet may be enclosed by a screen or guard that would reduce the flow of oil below a safe value at any operating temperature. There must be a shutoff valve at the outlet of each oil tank used with a turbine engine unless the external portion of the oil system (including oil tank supports) is fireproof.]\n(f) Flexible liners. Each flexible oil tank liner must be approved or shown to be suitable for the particular installation.",
+      "publication_cite": "39 FR 35462",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7DCF343162BEF40085256613006D1798.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-12",
+          "issued_on": "1971-04-26",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11010",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

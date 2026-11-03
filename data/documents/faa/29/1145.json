@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1145",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Ignition switches.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ignition switches.",
+      "text": "(a) Ignition switches must control each ignition circuit on each engine.\n(b) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control.\n(c) Each master ignition control must have a guard to prevent its inadvertent operation.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4A65049F1594FCDB85256613006CD9B0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-13",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ignition switches.",
+      "text": "(a) Ignition switches must control each ignition circuit on each engine.\n(b) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control.\n[(c) Each group of ignition switches, except ignition switches for turbine engines for which continuous ignition is not required, and each master ignition control must have a means to prevent its inadvertent operation.]",
+      "publication_cite": "42 FR 15046",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/98F1B2D01A2D3BA085256613006CE155.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3;  Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

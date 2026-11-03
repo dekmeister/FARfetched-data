@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "401",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Auxiliary rotor assemblies.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Auxiliary rotor assemblies.",
+      "text": "(a) Auxiliary rotor assemblies. Each auxiliary rotor assembly must be tested as prescribed in Sec. 29.923.\n(b) Assemblies with detachable blades. Each auxiliary rotor assembly with detachable blades must be designed to withstand the centrifugal loads resulting from the maximum design rotor r.p.m.\n(c) Highly stressed metal components. For each auxiliary rotor with highly stressed metal components, the vibration stresses must be determined in flight and shown not to exceed safe values for continuous operation.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CDA492E4516170B685256613006B44F3.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-4",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Auxiliary rotor assemblies.",
+      "text": "(a) Auxiliary rotor assemblies. Each auxiliary rotor assembly must be tested as prescribed in Sec. 29.923.\n(b) Assemblies with detachable blades. Each auxiliary rotor assembly with detachable blades must be designed to withstand the centrifugal loads resulting from the maximum design rotor r.p.m.\n[(c) Deleted.]",
+      "publication_cite": "33 FR 14106",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/140F47EF6F2103E085256613006B4810.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-44",
+          "issued_on": "1967-10-03",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8444",
+          "issued_on": "1968-09-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-31",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Removed.",
+      "publication_cite": "55 FR 38966",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/62CF95BB5CDD2DE185256613006B46C9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-10",
+          "issued_on": "1989-04-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25885",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

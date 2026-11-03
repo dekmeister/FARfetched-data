@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "53",
+  "current_grouping": "Flight",
+  "canonical_title": "Takeoff: Category A.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Takeoff: Category A.",
+      "text": "(a) General. The takeoff performance must be determined and scheduled so that, if one engine fails at any time after the start of takeoff, the rotorcraft can--\n  (1) Return to, and stop safely on, the takeoff area; or\n  (2) Continue the takeoff and climbout, and attain a configuration and airspeed allowing compliance with Sec. 29.67(a)(2).\n(b) Critical decision point. The critical decision point must be a combination of height and speed selected by the applicant in establishing the flight paths under Sec. 29.59. The critical decision point must be obtained so as to avoid the critical areas of the limiting height-speed envelope established under Sec. 29.79.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9854F5B2F767F2A685256613006A7CF1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Takeoff: Category A.",
+      "text": "[The takeoff performance must be determined and scheduled so that, if one engine fails at any time after the start of takeoff, the rotorcraft can--\n(a) Return to, and stop safely on, the takeoff area; or\n(b) Continue the takeoff and climbout, and attain a configuration and airspeed allowing compliance with Sec. 29.67(a)(2). ]",
+      "publication_cite": "61 FR 21899",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/240104B17013DED985256613006A8233.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

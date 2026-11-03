@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1431",
+  "current_grouping": "Equipment",
+  "canonical_title": "Electronic equipment.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Electronic equipment.",
+      "text": "(a) Radio communication and navigation equipment installations must be free from hazards in themselves, in their method of operation, and in their effects on other components, under any critical environmental conditions.\n(b) Radio communication and navigation equipment, controls, and wiring must be installed so that operation of any one unit or system of units will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units, required by this chapter.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7486AFBFD477F6C285256613006E05C1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

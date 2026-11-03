@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "61",
+  "current_grouping": "Flight",
+  "canonical_title": "Takeoff distance: Category A.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Takeoff distance: Category A.",
+      "text": "[(a) The normal takeoff distance is the horizontal distance along the takeoff path from the start of the takeoff to the point at which the rotorcraft attains and remains at least 35 feet above the takeoff surface, attains and maintains a speed of at least VTOSS, and establishes a positive rate of climb, assuming the critical engine failure occurs at the engine failure point prior to the takeoff decision point.\n(b) For elevated heliports, the takeoff distance is the horizontal distance along the takeoff path from the start of the takeoff to the point at which the rotorcraft attains and maintains a speed of at least VTOSS and establishes a positive rate of climb, assuming the critical engine failure occurs at the engine failure point prior to the takeoff decision point.]",
+      "publication_cite": "61 FR 21899",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F4B3F2E6BD55D94185256613006A810C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

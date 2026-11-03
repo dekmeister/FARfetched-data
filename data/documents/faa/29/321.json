@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "321",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "General.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "General.",
+      "text": "(a) The flight load factor must be assumed to act normal to the longitudinal axis of the rotorcraft, and to be equal in magnitude and opposite in direction to the rotorcraft inertia load factor at the center of gravity.\n(b) Compliance with the flight load requirements of this subpart must be shown--\n  (1) At each weight from the design minimum weight to the design maximum weight; and\n  (2) With any practical distribution of disposable load within the operating limitations in the Rotorcraft Flight Manual.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3F67CAF833D3911785256613006B2832.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "337",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Limit maneuvering load factor.",
+  "subject_group": "Flight loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Limit maneuvering load factor.",
+      "text": "The rotorcraft must be designed for--\n(a) A positive limit maneuvering load factor of 3.5 and a negative limit maneuvering load factor of 1.0; or\n(b) Any lesser positive limit maneuvering load factor not less than 2.0, and lesser negative limit maneuvering load factor not less than 0.5, for which--\n  (1) The probability of being exceeded is shown by analysis and flight tests to be extremely remote; and\n  (2) The selected values are appropriate to each weight condition between the design maximum and design minimum weights.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/45382643BF9B994A85256613006B25F8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-30",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Limit maneuvering load factor.",
+      "text": "The rotorcraft must be designed for--\n[(a) A limit maneuvering load factor ranging from a positive limit of 3.5 to a negative limit of -1.0; or\n(b) Any positive limit maneuvering load factor not less than 2.0 and any negative limit maneuvering load factor of not less than -0.5 for which--]\n  (1) The probability of being exceeded is shown by analysis and flight tests to be extremely remote; and\n  (2) The selected values are appropriate to each weight condition between the design maximum and design minimum weights.",
+      "publication_cite": "55 FR 8003",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9DEF90770C26A3EC85256613006B2A8B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "88-7",
+          "issued_on": "1988-03-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25570",
+          "issued_on": "1990-02-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

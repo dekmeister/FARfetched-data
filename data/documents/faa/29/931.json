@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "931",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Shafting critical speed.",
+  "subject_group": "Rotor Drive System",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Shafting critical speed.",
+      "text": "(a) It must be determined whether the critical speeds of any shafting lie outside the range of allowable engine speeds under idling, power on, and autorotative conditions.\n(b) Any critical vibration existing from (and including) clutch engagement to maximum overspeed, during acceleration or deceleration, must be shown to be within safe limits.\n(c) If the demonstration required by paragraph (b) of this section is made during the endurance testing, the test schedule may substitute the critical vibratory conditions for equivalent time in appropriate parts of the endurance test procedure.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/777D4DDF1ED1FF3B85256613006CA29D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-12",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Shafting critical speed.",
+      "text": "[(a) The critical speeds of any shafting must be determined by demonstration except that analytical methods may be used if reliable methods of analysis are available for the particular design.\n(b) If any critical speed lies within, or close to, the operating ranges for idling, power-on, and autorotative conditions, the stresses occurring at that speed must be within safe limits. This must be shown by tests. If analytical methods are used and show that no critical speed lies within the permissible operating ranges, the margins between the calculated critical speeds and the limits of the allowable operating ranges must be adequate to allow for possible variations between the computed and actual values.]",
+      "publication_cite": "41 FR 55472",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9381A02D204172AA85256613006CAF84.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "74-5",
+          "issued_on": "1974-02-14",
+          "source_url": null,
+          "notes": "Notice of Invitation to Submit Proposals; Notice No. 74-5; Issued on 2/14/74.\t\nNotice of Compilation of Proposals; Notice No. 74-5A; Issued on 5/22/74.\nNotice of Availability of Agenda; Notice No. 74-5B; Issued on 10/3/74.\nNotice of Clarifying Revisions; Notice No. 74-33; Issued on 10/3/74. \nNotice of Conference; Notice No. 74-5C; Issued on 11/25/74.\nNotice of Availability of Conference Summary; Notice No. 74-5D; Issued on 2/4/75.\nNotice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 2/27/75.\nNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 4; Notice No. 75-20; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 5/19/75.\nNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 5/29/75.\nNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 6/9/75.\nNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 6/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324",
+          "issued_on": "1976-12-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

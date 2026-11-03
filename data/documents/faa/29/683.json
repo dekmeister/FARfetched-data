@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "683",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Operation tests.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Operation tests.",
+      "text": "It must be shown by operation tests that, when the controls are operated from the pilot compartment with the control system loaded to correspond with loads specified for the system, the system is free from--\n(a) Jamming;\n(b) Excessive friction; and\n(c) Excessive deflection.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/94DF6A7E38E5AF5685256613006BC604.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

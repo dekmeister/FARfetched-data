@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1355",
+  "current_grouping": "Equipment",
+  "canonical_title": "Distribution system.",
+  "subject_group": "Electrical Systems and Equipment",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Distribution system.",
+      "text": "(a) The distribution system includes the distribution busses, their associated feeders, an each control and protective device.\n(b) Each system must be designed so that--\n  (1) For category A rotorcraft, individual distribution systems ensure that essential load circuits can be supplied in the event of reasonably probable faults or open circuits; and\n  (2) If two independent sources of electrical power for particular equipment or systems are required by this chapter, their energy supply is ensured.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E054CE43D3B2154185256613006DEA66.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-14",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Distribution system.",
+      "text": "(a) The distribution system includes the distribution busses, their associated feeders, and each control and protective device.\n[(b) Each system must be designed so that--\n  (1) For category A rotorcraft, essential load circuits can be supplied in the event of reasonably probable faults or open circuits; and]\n  (2) If two independent sources of electrical power for particular equipment or systems are required by this chapter, their energy supply is ensured.",
+      "publication_cite": "42 FR 36973",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/93D632D95227DE0D85256613006DEBBD.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 5;  Notice No. 75-23; Issued on 05/19/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14625",
+          "issued_on": "1977-07-11",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Distribution system.",
+      "text": "(a) The distribution system includes the distribution busses, their associated feeders, and each control and protective device.\n[(b) If two independent sources of electrical power for particular equipment or systems are required by this chapter, in the event of the failure of one power source for such equipment or system, another power source (including its separate feeder) must be provided automatically or be manually selectable to maintain equipment or system operation.]",
+      "publication_cite": "49 FR 44439",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/39D3C486DE44354A85256613006DECA1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "309",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Design limitations.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Design limitations.",
+      "text": "The following values and limitations must be established to show compliance with the structural requirements of this subpart:\n(a) The design maximum and design minimum weights.\n(b) The main rotor r.p.m. ranges, power on and power off.\n(c) The maximum forward speeds for each main rotor r.p.m. within the ranges determined under paragraph (b) of this section.\n(d) The maximum rearward and sideward flight speeds.\n(e) The center of gravity limits corresponding to the limitations determined under paragraphs (b), (c), and (d) of this section.\n(f) The rotational speed ratios between each powerplant and each connected rotating component.\n(g) The positive and negative limit maneuvering load factors.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7EF7B15881A09DBE85256613006B28BF.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

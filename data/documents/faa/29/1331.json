@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1331",
+  "current_grouping": "Equipment",
+  "canonical_title": "Instruments using a power supply.",
+  "subject_group": "Instruments: Installation",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instruments using a power supply.",
+      "text": "For category A rotorcraft--\n(a) Each required flight instrument using a power supply must have--\n  (1) Two independent sources of power;\n  (2) A means of selecting either power source; and\n  (3) A means to indicate the adequacy of the power being supplied; and\n(b) The installation and power supply system must be such that failure of any flight instrument connected to one source, or of the energy supply from one source, or a fault in any part of the power distribution system does not interfere with the proper supply of energy from any other source.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/32926272A54D103185256613006DD265.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-24",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instruments using a power supply.",
+      "text": "For category A rotorcraft--\n(a) Each required flight instrument using a power supply must have--\n  (1) Two independent sources of power;\n  (2) A means of selecting either power source; and\n  [(3) A visual means integral with each instrument to indicate when the power adequate to sustain proper instrument performance is not being supplied. The power must be measured at or near the point where it enters the instrument. For electrical instruments, the power is considered to be adequate when the voltage is within the approved limits; and]\n(b) The installation and power supply system must be such that failure of any flight instrument connected to one source, or of the energy supply from one source, or a fault in any part of the power distribution system does not interfere with the proper supply of energy from any other source.",
+      "publication_cite": "49 FR 44439",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/356ACCD7A1CC41C185256613006DD8CD.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

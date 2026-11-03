@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "339",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Resultant limit maneuvering loads.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Resultant limit maneuvering loads.",
+      "text": "The loads resulting from the application of limit maneuvering load factors are assumed to act at the center of each rotor hub and at each auxiliary lifting surface, and to act in directions and with distributions of load among the rotors and auxiliary lifting surfaces, so as to represent each critical maneuvering condition, including power-on and power-off flight with the maximum design rotor tip speed ratio. The rotor tip speed ratio is the ratio of the rotorcraft flight velocity component in the plane of the rotor disc to the rotational tip speed of the rotor blades, and is expressed as follows: where-- V= The airspeed along the flight path (f.p.s.); a= The angle between the projection, in the plane of symmetry, of the axis of no feathering and a line perpendicular to the flight path (radians, positive when axis is pointing aft); = The angular velocity of rotor (radians per second); and R= The rotor radius (ft.).",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/716AFEBB1115EFED85256613006B2686.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

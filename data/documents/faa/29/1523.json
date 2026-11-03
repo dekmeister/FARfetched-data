@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1523",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Minimum flight crew.",
+  "subject_group": "Operating Limitations",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Minimum flight crew.",
+      "text": "The minimum flight crew must be established so that it is sufficient for safe operation, considering--\n(a) The workload on individual crewmembers;\n(b) The accessibility and ease of operation of necessary controls by the appropriate crewmember; and\n(c) The kinds of operation authorized under Sec. 29.1525.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/35D250A80C46218C85256613006E3F7A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

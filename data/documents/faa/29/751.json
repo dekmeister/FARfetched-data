@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "751",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Main float buoyancy.",
+  "subject_group": "Floats and Hulls",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Main float buoyancy.",
+      "text": "(a) For main floats, the buoyancy necessary to support the maximum weight of the rotorcraft in fresh water must be exceeded by--\n  (1) 50 percent, for single floats; and\n  (2) 60 percent, for multiple floats.\n(b) Each main float must have at least five watertight compartments approximately equal in volume.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D95FC91DA17A22A085256613006BE807.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-3",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Main float buoyancy.",
+      "text": "(a) For main floats, the buoyancy necessary to support the maximum weight of the rotorcraft in fresh water must be exceeded by--\n  (1) 50 percent, for single floats; and\n  (2) 60 percent, for multiple floats.\n(b) Each main float must have [enough water-tight compartments so that, with any single main float compartment flooded, the mainfloats will provide a margin of positive stability great enough to minimize the probability of capsizing.]",
+      "publication_cite": "33 FR 967",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B8F840B281D6CDA585256613006BEAFB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

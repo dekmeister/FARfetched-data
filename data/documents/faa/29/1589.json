@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1589",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Loading information.",
+  "subject_group": "Rotorcraft Flight Manual",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Loading information.",
+      "text": "There must be loading instructions for each possible loading condition between the maximum and minimum weights determined under Sec. 29.25 that can result in a center of gravity beyond any extreme prescribed in Sec. 29.27, assuming any probable occupant weights.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/686DEA52B8C1A5FD85256613006E9518.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

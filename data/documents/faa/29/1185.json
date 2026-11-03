@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1185",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Flammable fluids.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Flammable fluids.",
+      "text": "(a) No tank or reservoir that is part of a system containing flammable fluids or gases may be in a designated fire zone unless the fluid contained, the design of the system, the materials used in the tank and its supports, the shutoff means, and the connections, lines, and controls provide a degree of safety equal to that which would exist if the tank or reservoir were outside such a zone.\n(b) Each fuel tank must be isolated from the engines by a firewall or shroud.\n(c) There must be at least one-half inch of clear airspace between each tank or reservoir and each firewall or shroud isolating a designated fire zone, unless equivalent means are used to prevent heat transfer from the fire zone to the flammable fluid.\n(d) Absorbent material close to flammable fluid system components that might leak must be covered or treated to prevent the absorption of hazardous quantities of fluids.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1C5CB9E86B86FC2485256613006D4864.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

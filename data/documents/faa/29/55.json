@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "55",
+  "current_grouping": "Flight",
+  "canonical_title": "Takeoff decision point (TDP): Category A.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "29-40",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Takeoff decision point (TDP): Category A.",
+      "text": "[(a) The TDP is the first point from which a continued takeoff capability is assured under Sec. 29.59 and is the last point in the takeoff path from which a rejected takeoff is assured within the distance determined under Sec. 29.62.\n(b) The TDP must be established in relation to the takeoff path using no more than two parameters; e.g., airspeed and height, to designate the TDP.\n(c) Determination of the TDP must include the pilot recognition time interval following failure of the critical engine.]",
+      "publication_cite": "61 FR 21899",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9A05B3C51A38EA1585256613006A7F4E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "90-1",
+          "issued_on": "1990-01-02",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24802",
+          "issued_on": "1996-05-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

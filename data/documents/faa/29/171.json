@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "171",
+  "current_grouping": "Flight",
+  "canonical_title": "Stability: general.",
+  "subject_group": "Flight Characteristics",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Stability: general.",
+      "text": "The rotorcraft must be able to be flown, without undue pilot fatigue or strain, in any normal maneuver for a period of time as long as that expected in normal operation. At least three landings and takeoffs must be made during this demonstration.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5E817226033FF9BA85256613006AFC2E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

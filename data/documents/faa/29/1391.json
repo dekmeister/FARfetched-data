@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "1391",
+  "current_grouping": "Equipment",
+  "canonical_title": "Minimum intensities in the horizontal plane of forward and rear position \nlights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Minimum intensities in the horizontal plane of forward and rear position \nlights.",
+      "text": "Each position light intensity must equal or exceed the applicable values in the following table: Dihedral angle (light included) Angle from right or left of longitudinal axis, measured from dead ahead Intensity (candles) L and R (forward red and green). 0o to 10o------------------------------- 40 10o to 20o----------------------------- 30 20o to 110o--------------------------- 5 A (rear white)-------------------------- 110o to 180o------------------------- 20",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/477858546AED117685256613006E0B28.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

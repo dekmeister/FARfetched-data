@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "29",
+  "number": "27",
+  "current_grouping": "Flight",
+  "canonical_title": "Center of gravity limits.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "29-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Center of gravity limits.",
+      "text": "The extreme forward and the extreme aft center of gravity must be established for each weight established under Sec. 29.25. Such an extreme may not lie beyond--\n(a) The extremes selected by the applicant;\n(b) The extremes within which the structure is proven; or\n(c) The extremes within which compliance with the applicable flight requirements is shown.",
+      "publication_cite": "29 FR 16150",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1DF701A868C3778785256613006A3522.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-30",
+          "issued_on": "1964-05-20",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5084",
+          "issued_on": "1964-10-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "29-3",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Center of gravity limits.",
+      "text": "The extreme forward and [aft centers of gravity and, where critical, the extreme lateral centers of gravity must be established for each weight established under Sec. 29.25. Such an extreme may not lie beyond--]\n(a) The extremes selected by the applicant;\n(b) The extremes within which the structure is proven; or\n(c) The extremes within which compliance with the applicable flight requirements is shown.",
+      "publication_cite": "33 FR 965",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A5CF3FACA394373185256613006A363C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
