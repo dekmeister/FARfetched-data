@@ -48,7 +48,7 @@ commit `07c543c`). See `tools/s00_docs/FAA_DRS.md` §3.8 and
 
 ## Code and process risks
 
-7. **DRS lookup cache never expires.** `tools/out/cache/drs/far_amendment/`
+7. **DRS lookup cache never expires.** `input/cache/drs/far_amendment/`
    caches hits and misses for good (`--force` refreshes). A designator that is
    a gap today and gets a DRS document later stays "none" until forced. Gaps
    are by definition below an existing ordinal, so this is unlikely, but a
@@ -740,3 +740,17 @@ Regeneration check run while doing this (scratch staging roots, nothing promoted
   EASA files). Re-running CAR extract would re-OCR everything and may not
   reproduce today's text. CAR extract output also sits at `tools/out/car/`,
   not `tools/out/extracted/car/` where the code now writes.
+
+### Update 2026-11-03
+
+Steps 4/5 are done in code (see
+`tools/s00_docs/reviews/2026-11-02-tools-reorg-handover.md` §2026-11-03): raw
+DRS copies kept in `input/cache/drs/far_doc/`, no stage reads data/, legacy FAA
+path removed, the FAA manifest reads `drs_csv` output, promote lists orphans.
+CAR and EASA CS regenerate byte-identical. The CAR sidecar item above is
+resolved: the sidecars are the source copy and `ocr.py` never re-OCRs a PDF that
+has one. FAA Part 23 is being re-fetched; the diff review and three date
+questions (23-51, 23-58, 23-63) are in
+`tools/s00_docs/reviews/2026-11-03-faa23-refetch-handover.md`. Item 11 (shared
+staging) is addressed: each emitter regenerates only the directories it owns,
+and promote reports orphans.

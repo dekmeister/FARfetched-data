@@ -148,9 +148,9 @@ at the repo level:
 
 - `pytest`. Build tests stage small synthetic data trees in `tmp_path` and
   exercise each cert-basis resolution rule and each fail-loud check; invalid
-  schema inputs live in `tests/fixtures/`. `tools/s99_tests/e2e/` mirrors
-  `tests/` (and `tools/s99_tests/fixtures/invalid_*` mirrors
-  `tests/fixtures/`) — keep the two copies identical.
+  schema inputs live in `tests/fixtures/`. They live only here;
+  `tools/s99_tests/e2e/` just checks that a staged tree builds.
+  `uv run pytest` runs `tests/` and `tools/s99_tests/`.
 - Smoke test: run `build.py` against the real `data/`, open the resulting
   SQLite, and assert specific known queries return the expected rows (e.g.
   `SELECT * FROM latest_versions WHERE ...`).
