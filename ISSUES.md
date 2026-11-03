@@ -43,10 +43,13 @@ old number:
 
 ### FAA regs (FAA-)
 
-**Pending work:** the FAA Part 23 re-fetch, emit and promote review is in
-progress. See
-[tools/s00_docs/reviews/2026-11-03-faa23-refetch-handover.md](tools/s00_docs/reviews/2026-11-03-faa23-refetch-handover.md).
-Several items below are expected to close with that promotion.
+**Pending work:** the FAA Part 23 re-fetch is rebuilt, reviewed and fixed
+(2026-11-03) but **not promoted**. The staged tree has no regression against
+data/ (checked per file and version). Promotion is the maintainer's call:
+`promote --dry-run < /dev/null`, `promote --aircraft --dry-run < /dev/null`,
+then `build.py` (zero unresolved references; row counts explained against the
+previous `cert_basis_report.json`) and `uv run pytest`. Then close FAA-2,
+FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
 
 - **FAA-1. 23-56 and 23-60 are undeclared and unexplained.** (was: Data #1)
   - DRS has no document for either. A Federal Register full-text search found
@@ -69,9 +72,9 @@ Several items below are expected to close with that promotion.
     23-50, 23-51, 23-58); all six affected DRS documents are
     `override_applied`, none `override_stale`.
   - The "… Notice No." action tails are gone from the diff.
-  - **Not promoted yet.** Blockers are FAA-13 and FAA-14 (data/ text that
-    the staged tree lacks) and the rest of the promote review. Details are in
-    the refetch handover.
+  - **Not promoted yet.** FAA-13 and FAA-14 (data/ text the staged tree
+    lacked) are fixed in the tools (2026-11-03); the promotion itself is the
+    maintainer's call. Details are in the refetch handover.
 - **FAA-3. DRS date outliers** (FAA-fix), each one document:
   - 23-2, Appendix E (DRS 07/08/1965; regs.csv also gives 8 Jul 1965 for
     this row, while §23.25 of the same amendment says 1965-08-01). **Open.**
@@ -80,6 +83,15 @@ Several items below are expected to close with that promotion.
     has no FR cite for 23-2 (Docket 2029, issued 1965-06-24). Not yet
     searched: 1965-06-25/26 and 07-02..07. Until an override with evidence
     exists, E23@23-2 is `TEXT MISSING` (a new file, so no regression).
+    Leads (2026-11-03): a web search snippet of the FAA Part 23 certification-
+    basis summary table (faa.gov, `.../small_airplanes/certification_basis/
+    part23_summary/`; returned 403 to a direct fetch, so unverified) lists
+    23-2 as effective 8/1/1965, "Limited Weight Credit for Airplanes Equipped
+    with Standby Power" (which fits Appendix E), between 23-1 (7/29/1965)
+    and 23-3 (11/11/1965). That matches §23.25's 1965-08-01 and the manifest.
+    The archives.federalregister.gov `issue_slice/1965/7/3/8516-8519.pdf` is a
+    Part 25 rule, not 23-2. archives.federalregister.gov slices have a text
+    layer (no OCR), but need exact page ranges.
   - 25-46 (12/02/1978 vs 1978-12-01)
   - 25-60 (06/18/1986 vs 1986-06-16)
   - 29-3 (09/17/1968 vs 1968-02-25)
@@ -87,41 +99,45 @@ Several items below are expected to close with that promotion.
   No `drs_date` override exists for these yet. Confirm each, then add an
   override with evidence. Without one, the row stays fatal and becomes TEXT
   MISSING at emit. (23-0, 23-50 closed 2026-11-03 with 23-48, 23-51, 23-58.)
-- **FAA-13. Part 23 versions wrongly dropped as `suspect_designator`.** Both
-  are real amendments; data/ has them and the staged tree does not. Checked
-  against the FR scans on 2026-11-03 (FAA-fix).
-  - **§23.1545@23-3** (30 FR 14240): the rule (FR 1965-11-13, "one-engine-
-    inoperative stalls", p. 14239) says Part 23 "is amended effective
-    November 11, 1965". It was published after its effective date on purpose
-    (good cause, further delay contrary to the public interest). The
-    "published after effective date" heuristic is a false positive for
-    retroactive effective dates.
-  - **§23.853@23-14 and §23.929@23-14:** the eCFR CITA prints `23 FR 31822`
-    and `33 FR 31822`. The rule is Docket 11011, Amdt 23-14, FR 1973-11-19
-    (Vol. 38), effective December 20, 1973 (matches regs.csv), and it amends
-    both sections. The cite should be **38 FR 31822**; the volume is a CITA
-    typo. data/ carries the bad cites.
-  - Fix: a reviewed override (for example a `cite` kind that corrects a CITA
-    volume and a kind that accepts a retroactive effective date) instead of
-    dropping the row. The three extracted files are listed as `orphan` in
-    `incomplete_faa_23.tsv` meanwhile.
-- **FAA-14. Appendix A to Part 23 cannot be assembled for 23-0, 23-7, 23-16,
-  23-28 and 23-48.** data/ has the text; the staged tree has TEXT MISSING.
-  DRS holds only the 23-64 whole appendix, and the DRS subsection set
-  differs from the manifest's, so the assembler refuses. This is a
-  regression against data/ and blocks promoting `A23.json`. Needs an
-  assembler fix or a reviewed text source.
-- **FAA-15. "Deleted."/"Removed and Reserved." DRS stubs fail verification
-  with `empty_text`:** §617, §643 and §721 @23-7 and E23@23-50 (plus
-  B23.1/B23.11@23-42, which are not emitted). They become TEXT MISSING at emit,
-  where `deleted: true` versions are probably intended. §1567@23-13 (DRS has
-  no 23-13 document) and §903@23-54 (`skip_human`) remain TEXT MISSING too.
-  None existed in data/.
+- **FAA-13. Part 23 versions wrongly dropped as `suspect_designator`.**
+  **Fixed 2026-11-03** (FAA-fix). All three are real; checked against the FR
+  scans. New override kinds in `tools/overrides/faa_regs.tsv`, with tests and
+  FAA_REGS.md:
+  - `retroactive` for §23.1545@23-3 (30 FR 14240): FR 1965-11-13 says Part 23
+    "is amended effective November 11, 1965" (good cause), so publication
+    after the effective date is deliberate.
+  - `fr_cite` for §23.853 and §23.929 @23-14: the eCFR CITA prints
+    `23 FR 31822` and `33 FR 31822`; the rule is 38 FR 31822 (Docket 11011,
+    FR 1973-11-19, effective 1973-12-20). data/ carried the bad cites; the
+    staged files now have 38 FR 31822.
+  - Still `suspect_designator` and not emitted (not in data/, unchanged):
+    §335/§443/§561@23-24, §1549@23-12, §1557@23-21.
+- **FAA-14. Appendix A to Part 23 for 23-0, 23-7, 23-16, 23-28 and 23-48.**
+  **Fixed 2026-11-03** (FAA-fix). DRS holds all 16 Appendix A subsection
+  documents ("Initial" is 23-0). `appendix_label` took its label from the
+  23-64 whole-appendix document ("Appendix A to Part 23") first, so the
+  listing check saw no subsections and refused to assemble. It now prefers a
+  subsection's label. The five versions assemble; against data/ the text
+  differs only by `&quot;` decoded, U+FFFD → `±`, and table cells spaced.
+- **FAA-15. "Deleted."/"Removed and Reserved." DRS stubs.** **Fixed
+  2026-11-03.** An empty body with DRS title "Deleted." or "Removed and
+  Reserved." is now a `deleted: true` version, like "Removed." (§617, §643,
+  §721 @23-7; E23@23-50). B23.1/B23.11@23-42 are still not emitted. Still
+  TEXT MISSING and not in data/: §1567@23-13 (DRS has no 23-13 document) and
+  §903@23-54 (`skip_human`).
 - **FAA-16. `faa_rules_published()` missed FR doc 96-2082** (61 FR 5171, Amdt
   23-50, 1996-02-09): the daily FAA listing returned four documents and not
   that one, although the FR API serves it by docket. Check the agency filter
   when relying on this lookup (see PROC-3). Also §23.573@23-48 text reflects
   the 2008 technical amendment (73 FR 19746), not the 1996 original wording.
+- **FAA-17. Parts 25, 27, 29 and 36 have no raw DRS copies.** They were
+  extracted with the old decoder, so none of the Part 23 fixes (U+FFFD,
+  trailing junk, entities, table spacing, `fr_cite`/`retroactive`/Deleted
+  stubs) is in them. Before promoting any of them, repeat the Part 23
+  procedure: a fresh DRS download for each (`extract` without `--offline`),
+  then `extract --redo --offline`, emit, and the per-file/version staged vs
+  data/ comparison (no lost version, no TEXT MISSING over text). Part 23 is
+  the worked example.
 - **FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number.** It is
   deliberately not declared. A TCDS citing "through 25-118" needs a human
   decision (probably 25-117). (was: Data #3)
@@ -286,6 +302,14 @@ and [TCDS_TRIAL_20.md](tools/s00_docs/reviews/TCDS_TRIAL_20.md).
   (Air Tractor A17SW; 7 of 201) are reported and not staged. The schema
   can't represent them, by decision. Revisit if they are wanted. (was: TCDS
   #25)
+- **TCDS-10. `aircraft.assemble` stages 1,446 of 1,470 fragments; 24 collide
+  on path.** The same designation appears under two FAA TCDS, for example
+  PA-36-285/-300/-375 (A9SO vs A10SO) and OH-13H (H5SW/H7SW). `assemble` fails
+  loud and leaves those models unstaged (so they are missing from the
+  `promote --aircraft` dry-run too). Each pair needs an
+  `overrides/aircraft_links.tsv` row if it is one type design, else a
+  holder/designation difference taken from the TCDS. Run
+  `uv run python -m tools.s02_emit.aircraft.assemble` to list them.
 
 ### EASA TCDS (ETCDS-)
 
@@ -379,6 +403,15 @@ The code items are proposals awaiting a decision.
     although the TCDS notes say only the 3A12 172 was promoted.
   - Decide whether those files are meant to be in `data/`. Then either
     commit them and update the tests, or remove them (re-promote later).
+  - Cause found 2026-11-03: they are in the pre-v6 shape (top-level
+    `categories`; schema v6 puts it in each `tcb`), so building the real
+    `data/` fails (`u206g.json: at tcb/0 'categories' is a required
+    property`). That also fails `test_da40_golden_is_the_promoted_file` and
+    `test_real_data_has_no_ecfr_marker_in_text`, and errors the root
+    `tests/test_similarity.py`. Re-staging and promoting aircraft
+    (`parse`, `aircraft.assemble`, `promote --aircraft`) replaces them: of
+    the 95 existing models, 88 are identical in the new shape and 7 differ
+    only by newly resolved Part 23 references.
 - **BUILD-2. The real-data tests assert exact row lists** for the 172 and
   DA 40, so any parser re-run breaks them. Proposal: assert invariants
   instead (the 172's CAR 3 lines resolve through CAR3-12; both DA 40 scopes
@@ -435,6 +468,11 @@ The code items are proposals awaiting a decision.
   output, 2026-10-31) and `input/regs.csv.work` (identical to `regs.csv`).
   Both are untracked; the user to decide whether to remove them. (tools
   handover 2026-11-02)
+- **PROC-10. `input/` is not in git and has no backup.** It now holds the DRS
+  raw copies (`input/cache/drs/far_doc/`, 569 downloads for Part 23 alone),
+  the govinfo FR scans used as override evidence (`input/cache/fr/`) and OCR
+  sidecars. `rm -rf tools/out` is safe; losing `input/` is not (DRS pages can
+  change or go). Related: ETCDS-1.
 
 ### Roadmap (ROADMAP-)
 
