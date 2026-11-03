@@ -112,10 +112,11 @@ def _stage(
 
 
 def _resolved(
-    out: Path, tcds_number: str | None = None
+    out: Path, tcds_number: str | None = None, model: str | None = None
 ) -> set[tuple[int, str, str, str | None]]:
     """(display_order, provision number, designator, paragraph) per resolved row,
-    optionally only for one TCDS."""
+    optionally only for one TCDS and/or one model designation (a TCDS covers
+    many models, each with its own TCB)."""
     with sqlite3.connect(out) as conn:
         rows = conn.execute(
             """
@@ -124,12 +125,14 @@ def _resolved(
             JOIN cert_basis_entries e ON e.id = r.entry_id
             JOIN tcb ON tcb.id = e.tcb_id
             JOIN tcds ON tcds.id = tcb.tcds_id
+            JOIN aircraft_models m ON m.id = tcb.model_id
             JOIN provision_versions pv ON pv.id = r.provision_version_id
             JOIN provisions p ON p.id = pv.provision_id
             JOIN document_revisions dr ON dr.id = pv.revision_id
-            WHERE ?1 IS NULL OR tcds.tcds_number = ?1
+            WHERE (?1 IS NULL OR tcds.tcds_number = ?1)
+              AND (?2 IS NULL OR m.model_designation = ?2)
             """,
-            (tcds_number,),
+            (tcds_number, model),
         ).fetchall()
     return set(rows)
 
@@ -231,12 +234,14 @@ class TestRealDataBuild:
 
     def test_one_row_per_tcds_line(self, real_db: Path) -> None:
         # 3A12 Rev 89, Model 172: the CAR 3 base, the §23.1559 addition and
-        # two equivalent-safety items.
+        # two equivalent-safety items. (3A12 holds 18 models: scope to one.)
         with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
                 "SELECT e.display_order, e.entry_type FROM cert_basis_entries e "
                 "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
-                "WHERE tcds.tcds_number = '3A12' ORDER BY e.display_order"
+                "JOIN aircraft_models m ON m.id = tcb.model_id "
+                "WHERE tcds.tcds_number = '3A12' AND m.model_designation = '172' "
+                "ORDER BY e.display_order"
             ).fetchall()
         assert rows == [
             (1, "regulation"),
@@ -246,7 +251,7 @@ class TestRealDataBuild:
         ]
 
     def test_172_basis_resolves_to_car_3_through_3_12(self, real_db: Path) -> None:
-        resolved = _resolved(real_db, "3A12")
+        resolved = _resolved(real_db, "3A12", "172")
         assert resolved
         assert {order for order, _, _, _ in resolved} == {1}
         assert all(d.startswith("CAR3-") for _, _, d, _ in resolved)
@@ -300,7 +305,7 @@ class TestDA40Trace:
         assert report["unresolved_references"] == []
 
     def test_both_scopes_hold_the_same_set_through_23_51(self, real_db: Path) -> None:
-        resolved = _resolved(real_db, "A47CE")
+        resolved = _resolved(real_db, "A47CE", "DA 40")
         by_line: dict[int, set[tuple[str, str]]] = {}
         for order, number, designator, _ in resolved:
             by_line.setdefault(order, set()).add((number, designator))
@@ -313,7 +318,7 @@ class TestDA40Trace:
         [("1305", "23-51"), ("1191", "23-51"), ("561", "23-48"), ("1585", "23-50")],
     )
     def test_spot_checks(self, real_db: Path, number: str, designator: str) -> None:
-        assert (2, number, designator, None) in _resolved(real_db, "A47CE")
+        assert (2, number, designator, None) in _resolved(real_db, "A47CE", "DA 40")
 
     def test_provisions_after_23_51_are_not_in_the_basis(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:
@@ -328,7 +333,7 @@ class TestDA40Trace:
                 )
             }
         assert later
-        assert not later & {n for _, n, _, _ in _resolved(real_db, "A47CE")}
+        assert not later & {n for _, n, _, _ in _resolved(real_db, "A47CE", "DA 40")}
 
     def test_non_part_23_lines_carry_no_refs(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:
@@ -336,8 +341,9 @@ class TestDA40Trace:
                 "SELECT e.display_order, e.entry_type, count(r.id) "
                 "FROM cert_basis_entries e "
                 "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
+                "JOIN aircraft_models m ON m.id = tcb.model_id "
                 "LEFT JOIN cert_basis_refs r ON r.entry_id = e.id "
-                "WHERE tcds.tcds_number = 'A47CE' "
+                "WHERE tcds.tcds_number = 'A47CE' AND m.model_designation = 'DA 40' "
                 "GROUP BY e.id ORDER BY e.display_order"
             ).fetchall()
         assert rows == [
