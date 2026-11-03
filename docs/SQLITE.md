@@ -22,7 +22,7 @@ read-only and check the contract version:
 ```python
 import sqlite3
 
-SUPPORTED_SCHEMA = 5
+SUPPORTED_SCHEMA = 6
 
 conn = sqlite3.connect("file:cert_basis.sqlite?mode=ro", uri=True)
 conn.execute("PRAGMA foreign_keys = ON")
@@ -39,7 +39,7 @@ in [build.py](../build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **5**). It is bumped
+`PRAGMA user_version` is the schema version (currently **6**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -84,9 +84,12 @@ generated: real regulations skip and repeat them.
 
 ### Aircraft / TCB tables
 
-`manufacturers`, `categories` (closed set), `aircraft_models`,
-`model_categories` (M:N), `tcds`, and `tcb` — one row per (model, TCDS)
-pair, owning the cert basis.
+`manufacturers`, `categories` (closed set), `aircraft_models`, `tcds`, and
+`tcb` — one row per (model, TCDS) pair, owning the cert basis. A model has
+one TCB per TCDS that covers it, e.g. the State-of-Design TCDS and a
+validating one from another regulator. `tcb_categories` (M:N) holds the
+categories as stated on that TCDS; regulators can differ, so categories
+belong to the TCB, not the model (v6).
 
 ### Certification basis (three layers)
 

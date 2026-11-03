@@ -14,7 +14,8 @@ change to the SQLite contract.
 | 2 | 2026-10-31 | `bf2d14a` | `deleted: true` versions and `provision_versions.deleted`, added for EASA CS-23 Amdt 5, where every old-numbered paragraph is deleted. |
 | 3 | 2026-11-01 | `402cd00` | Label-line paragraph text ([Text format](DATA_FORMAT.md#text-format)) and the `provision_paragraphs` table. |
 | 4 | 2026-11-02 | `a429789` | `manual` dropped from the `provenance` enum and CHECKs: `data/` is built from source. |
-| 5 | 2026-11-03 | (uncommitted at the time of writing) | `provision_similarity`, computed by the build ([Similarity](SQLITE.md#similarity)). |
+| 5 | 2026-11-03 | `77bfeba` | `provision_similarity`, computed by the build ([Similarity](SQLITE.md#similarity)). |
+| 6 | 2026-11-03 | (uncommitted at the time of writing) | Aircraft `categories` move from the model to each `tcb`; `model_categories` becomes `tcb_categories`. Needed to hold FAA and EASA bases on one model. |
 
 ## Changes in the v1 schema
 
@@ -56,6 +57,14 @@ what was implemented, what changed from the proposal, what was rejected
 - **Build from source (v4).** `data/` is an output of `tools/`. A correction
   is an override row with evidence, never a hand edit, so there is no
   `manual` provenance.
+- **One model, several TCDS; categories per TCB (v6).** A model is one type
+  design under one TC lineage. The State-of-Design TCDS gives its identity
+  (manufacturer, designation, file path); a validating TCDS from another
+  regulator is a further `tcb`. A category is a regulator's statement (FAA
+  "Normal", EASA "CS-23 Normal" or "Large Aeroplanes"), so it lives on the
+  TCB. Two TCDS are linked to one model only by a reviewed link row with
+  evidence, never by name: the same designation can be a different type
+  design (DA 62 under A57CE, Diamond GmbH, and under A00012NY, Diamond Inc).
 - **Similarity is computed, not authored (v5).** It suggests related
   provisions. Hand-confirmed relations (`provision_relations`) remain
   deferred: see ISSUES.md `ROADMAP-`.

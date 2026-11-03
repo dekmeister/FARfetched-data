@@ -61,11 +61,11 @@ def _aircraft(refs: list[dict]) -> dict:
         "manufacturer": "Dummy Mfg",
         "model_designation": "Dummy",
         "common_name": None,
-        "categories": ["normal"],
         "notes": None,
         "tcb": [
             {
                 "tcds": {"issuer": "EASA", "tcds_number": "EASA.A.000"},
+                "categories": ["normal"],
                 "notes": None,
                 "certification_basis": [
                     {

@@ -208,14 +208,18 @@ write two spaces per level, but the build accepts any consistent indentation.
 ## Aircraft model file (`data/aircraft/{manufacturer-slug}/{model-slug}.json`)
 
 One file per type-certificated model variant. `tcb` holds one entry per
-regulator that has issued a type certificate for the model.
+TCDS that covers the model: the State-of-Design TCDS first, then any
+validation by another regulator (e.g. FAA and EASA). The model's identity
+(`manufacturer`, `model_designation`, file path) comes from the State-of-Design
+TCDS. A second TCDS joins a model only through a reviewed link row in
+`tools/overrides/aircraft_links.tsv`, never by matching names: the same
+designation can be a different type design under another TC.
 
 ```json
 {
   "manufacturer": "Cessna Aircraft Company",
   "model_designation": "525",
   "common_name": "CitationJet",
-  "categories": ["normal"],
   "notes": null,
   "tcb": [
     {
@@ -226,6 +230,7 @@ regulator that has issued a type certificate for the model.
         "revision_date": null,
         "source_url": null
       },
+      "categories": ["normal"],
       "notes": null,
       "certification_basis": [
         {
@@ -255,9 +260,9 @@ regulator that has issued a type certificate for the model.
 | `manufacturer`                | string       | no       | Current TC holder as on the TCDS. |
 | `model_designation`           | string       | no       | Formal model identifier. |
 | `common_name`                 | string       | yes      | Popular name, if different. |
-| `categories`                  | enum array   | no       | Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
 | `notes`                       | string       | yes      | Editor notes, displayed to users. |
 | `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
+| `tcb[].categories`            | enum array   | no       | Categories as stated on this TCDS. Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
 | `tcb[].notes`                 | string       | yes      | TCB-level notes. |
 | `tcb[].certification_basis`   | array        | no       | One entry per TCDS line, in TCDS order. |
 

@@ -8,7 +8,6 @@
     "manufacturer",
     "model_designation",
     "common_name",
-    "categories",
     "notes",
     "tcb"
   ],
@@ -16,8 +15,16 @@
     "manufacturer": { "type": "string", "minLength": 1 },
     "model_designation": { "type": "string", "minLength": 1 },
     "common_name": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] },
+    "tcb": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/tcb" }
+    }
+  },
+  "$defs": {
     "categories": {
-      "description": "Must match _CATEGORY_NAMES in build.py.",
+      "description": "Airworthiness categories as stated on this TCDS. Must match _CATEGORY_NAMES in build.py.",
       "type": "array",
       "minItems": 1,
       "items": {
@@ -36,20 +43,13 @@
       },
       "uniqueItems": true
     },
-    "notes": { "type": ["string", "null"] },
-    "tcb": {
-      "type": "array",
-      "minItems": 1,
-      "items": { "$ref": "#/$defs/tcb" }
-    }
-  },
-  "$defs": {
     "tcb": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["tcds", "notes", "certification_basis"],
+      "required": ["tcds", "categories", "notes", "certification_basis"],
       "properties": {
         "tcds": { "$ref": "#/$defs/tcds" },
+        "categories": { "$ref": "#/$defs/categories" },
         "notes": { "type": ["string", "null"] },
         "certification_basis": {
           "type": "array",

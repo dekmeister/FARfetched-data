@@ -48,7 +48,7 @@ class TestClosedSetsAgree:
 
     def test_categories(self) -> None:
         aircraft = json.loads((SCHEMAS_DIR / "aircraft_model.schema.json").read_text())
-        enum = aircraft["properties"]["categories"]["items"]["enum"]
+        enum = aircraft["$defs"]["categories"]["items"]["enum"]
         assert enum == list(_CATEGORY_NAMES)
 
     def test_successors_are_seeded_first(self) -> None:
@@ -84,6 +84,7 @@ INVALID_AIRCRAFT = [
     ("extra_field.json", "secret_field"),
     ("empty_cert_basis.json", "certification_basis"),
     ("unknown_category.json", "nromal"),
+    ("model_level_categories.json", "categories"),
     ("legacy_issuer_code.json", "CAA (FAA)"),
     ("legacy_resolved_references.json", "resolved_references"),
     ("include_without_to.json", "'to' is a required property"),

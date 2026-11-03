@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 5
+SCHEMA_VERSION = 6
 
 DOCUMENT_FILE = "_document.json"
 
@@ -191,12 +191,6 @@ CREATE TABLE aircraft_models (
     UNIQUE (manufacturer_id, model_designation)
 ) STRICT;
 
-CREATE TABLE model_categories (
-    model_id    INTEGER NOT NULL REFERENCES aircraft_models(id),
-    category_id INTEGER NOT NULL REFERENCES categories(id),
-    PRIMARY KEY (model_id, category_id)
-) STRICT, WITHOUT ROWID;
-
 CREATE TABLE tcds (
     id            INTEGER PRIMARY KEY,
     issuer_id     INTEGER NOT NULL REFERENCES issuers(id),
@@ -215,6 +209,13 @@ CREATE TABLE tcb (
     notes    TEXT,
     UNIQUE (model_id, tcds_id)
 ) STRICT;
+
+-- Categories as stated on one TCDS for one model (regulators can differ).
+CREATE TABLE tcb_categories (
+    tcb_id      INTEGER NOT NULL REFERENCES tcb(id),
+    category_id INTEGER NOT NULL REFERENCES categories(id),
+    PRIMARY KEY (tcb_id, category_id)
+) STRICT, WITHOUT ROWID;
 
 -- One row per TCDS line, verbatim.
 CREATE TABLE cert_basis_entries (
@@ -1386,12 +1387,6 @@ def _insert_aircraft(
                 ),
             )
             model_id = cur.lastrowid
-            for cat_code in doc["categories"]:
-                conn.execute(
-                    "INSERT INTO model_categories (model_id, category_id) "
-                    "VALUES (?, ?)",
-                    (model_id, _category_id(conn, cat_code)),
-                )
 
             for tcb_entry in doc["tcb"]:
                 tcds_doc = tcb_entry["tcds"]
@@ -1404,6 +1399,12 @@ def _insert_aircraft(
                     ),
                 )
                 tcb_id = tcb_cur.lastrowid
+                for cat_code in tcb_entry["categories"]:
+                    conn.execute(
+                        "INSERT INTO tcb_categories (tcb_id, category_id) "
+                        "VALUES (?, ?)",
+                        (tcb_id, _category_id(conn, cat_code)),
+                    )
                 for entry in tcb_entry["certification_basis"]:
                     label = (
                         f"{s.path.name} {tcds_doc['tcds_number']} "

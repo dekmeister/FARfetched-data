@@ -77,11 +77,11 @@ def _aircraft(
         "manufacturer": "Dummy Mfg",
         "model_designation": model,
         "common_name": None,
-        "categories": ["normal"],
         "notes": None,
         "tcb": [
             {
                 "tcds": tcds or {"issuer": "FAA", "tcds_number": "DUMMY1"},
+                "categories": ["normal"],
                 "notes": None,
                 "certification_basis": entries,
             }
@@ -189,9 +189,9 @@ class TestRealDataBuild:
             "manufacturers",
             "categories",
             "aircraft_models",
-            "model_categories",
             "tcds",
             "tcb",
+            "tcb_categories",
             "cert_basis_entries",
             "cert_basis_refs",
             "cert_basis_ref_provisions",
@@ -418,6 +418,36 @@ class TestContract:
                 conn.execute(
                     "UPDATE document_revisions SET effective_date = '1970-13-01'"
                 )
+
+    def test_categories_are_per_tcb(self, tmp_path: Path) -> None:
+        # One model, validated by a second regulator that states another
+        # category: each TCB keeps what its own TCDS says.
+        entry = {
+            "display_order": 1,
+            "entry_type": "other",
+            "raw_reference": "x",
+            "applicability": None,
+            "applicability_notes": None,
+            "references": [],
+        }
+        aircraft = _aircraft([entry])
+        easa_tcb = {
+            "tcds": {"issuer": "EASA", "tcds_number": "EASA.A.000"},
+            "categories": ["commuter"],
+            "notes": None,
+            "certification_basis": [entry],
+        }
+        aircraft["tcb"].append(easa_tcb)
+        data = _stage(tmp_path, [_document("23", [0])], [], [aircraft])
+        out = tmp_path / "cert_basis.sqlite"
+        build(data, out)
+        with sqlite3.connect(out) as conn:
+            rows = conn.execute(
+                "SELECT tcds.tcds_number, c.code FROM tcb_categories tc "
+                "JOIN tcb ON tcb.id = tc.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
+                "JOIN categories c ON c.id = tc.category_id ORDER BY 1"
+            ).fetchall()
+        assert rows == [("DUMMY1", "normal"), ("EASA.A.000", "commuter")]
 
     def test_provenance_carried_into_db(self, tmp_path: Path) -> None:
         prov = _provision("23", "1", [])

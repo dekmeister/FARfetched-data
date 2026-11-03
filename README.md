@@ -49,7 +49,7 @@ versions it resolves to.
 |---|---|---|
 | [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md) | tools and data authors | The JSON contract: every field, the label-line text format, cert-basis resolution rules |
 | [docs/SQLITE.md](docs/SQLITE.md) | the app | Tables, contract version, similarity, what `build.py` checks and reports |
-| [docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md) | anyone changing the contract | Schema versions v1–v5 and the reasons behind them |
+| [docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md) | anyone changing the contract | Schema versions v1–v6 and the reasons behind them |
 | [ISSUES.md](ISSUES.md) | maintainers | Open data and pipeline issues, the roadmap, closed items |
 | [reviews/](reviews/) | maintainers | Design reviews and session handovers |
 | [tools/README.md](tools/README.md) | pipeline work | How sources become `data/` |
