@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "959",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Unusable fuel supply.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Unusable fuel supply.",
+      "text": "The unusable fuel supply for each tank must be established as not less than the quantity at which the first evidence of malfunction occurs under the most adverse fuel feed condition occurring under any intended operations and flight maneuvers involving that tank.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4C27CDDB96CCEF58852565F6006E3B3A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

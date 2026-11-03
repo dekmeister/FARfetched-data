@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "493",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Braked roll conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Braked roll conditions.",
+      "text": "Under braked roll conditions with the shock absorbers in their static positions--\n(a) The limit vertical load must be based on a load factor of at least--\n  (1) 1.33, for the attitude specified in Sec. 27.479(a)(1); and\n  (2) 1.0 for the attitude specified in Sec. 27.479(a)(2); and\n(b) The structure must be designed to withstand, at the ground contact point of each wheel with brakes, a drag load at least the lesser of--\n  (1) The vertical load multiplied by a coefficient of friction of 0.8; and\n  (2) The maximum value based on limiting brake torque.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/78BFFE37142E4507852565F6006C9E57.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

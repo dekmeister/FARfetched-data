@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1121",
+  "current_grouping": "Powerplant",
+  "canonical_title": "General.",
+  "subject_group": "Exhaust System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "For each exhaust system--\n(a) There must be means for thermal expansion of manifolds and pipes;\n(b) There must be means to prevent local hot spots;\n(c) Exhaust gases must discharge clear of the engine air intake, fuel system components, and drains;\n(d) No exhaust pipe may be adjacent to, or under, any carburetor or fuel system part that is not protected against leakage;\n(e) Exhaust gases may not impair pilot vision at night due to glare;\n(f) If significant traps exist, each turbine engine exhaust system must have drains discharging clear of the rotorcraft, in any normal ground and flight attitudes, to prevent fuel accumulation after the failure of an attempted engine start.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D864546BA7FBDAF5852565F6006ECEE9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-12",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "For each exhaust system--\n(a) There must be means for thermal expansion of manifolds and pipes;\n(b) There must be means to prevent local hot spots;\n(c) Exhaust gases must discharge clear of the engine air intake, fuel system components, and drains;\n[(d) Each exhaust system part with a surface hot enough to ignite flammable fluids or vapors must be located or shielded so that leakage from any system carrying flammable fluids or vapors will not result in a fire caused by impingement of the fluids or vapors on any part of the exhaust system including shields for the exhaust system; ]\n(e) Exhaust gases may not impair pilot vision at night due to glare;\n(f) If significant traps exist, each turbine engine exhaust system must have drains discharging clear of the rotorcraft, in any normal ground and flight attitudes, to prevent fuel accumulation after the failure of an attempted engine start;\n[(g) Each exhaust heat exchanger must incorporate means to prevent blockage of the exhaust port after any internal heat exchanger failure.]",
+      "publication_cite": "42 FR 15045",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9853FC1FC5283ED8852565F6006ECE66.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3;  Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

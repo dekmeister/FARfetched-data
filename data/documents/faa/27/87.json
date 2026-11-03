@@ -1,0 +1,78 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "87",
+  "current_grouping": "Flight",
+  "canonical_title": "Height-velocity envelope.",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height-velocity envelope.",
+      "text": "TEXT MISSING",
+      "publication_cite": "29 FR 15695",
+      "source_url": null,
+      "actions": []
+    },
+    {
+      "designator": "27-14",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height-velocity envelope.",
+      "text": "TEXT MISSING",
+      "publication_cite": "43 FR 2324",
+      "source_url": null,
+      "actions": []
+    },
+    {
+      "designator": "27-21",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height-velocity envelope.",
+      "text": "TEXT MISSING",
+      "publication_cite": "49 FR 44433",
+      "source_url": null,
+      "actions": []
+    },
+    {
+      "designator": "27-44",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height--speed envelope.",
+      "text": "(a) If there is any combination of height and forward speed (including hover) under which a safe landing cannot be made under the applicable power failure condition in paragraph (b) of this section, a limiting height-speed envelope must be established (including all pertinent information) for that condition, throughout the ranges of--\n  [(1) Altitude, from standard sea level conditions to the maximum altitude capability of the rotorcraft, or 7000 feet density altitude, whichever is less; and\n  (2) Weight, from the maximum weight at sea level to the weight selected by the applicant for each altitude covered by paragraph (a)(1) of this section. For helicopters, the weight at altitudes above sea level may not be less than the maximum weight or the highest weight allowing hovering out-of-ground effect, whichever is lower. For helicopters, the weight at altitudes above sea level may not be less than the maximum weight or the highest weight allowing hovering out of ground effect, which is lower.]\n(b) The applicable power failure conditions are--\n  (1) For single-engine helicopters, full autorotation;\n  [ (2) For multiengine helicopters, OEI (where engine isolation features ensure continued operation of the remaining engines), and the remaining engine(s) within approved limits and at the minimum installed specification power available for the most critical combination of approved ambient temperature and pressure altitude resulting in 7000 feet density altitude or the maximum altitude capability of the helicopter, whichever is less, and]\n  (3) For other rotorcraft, conditions appropriate to the type.",
+      "publication_cite": "73 FR 10999",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D00C229A84796ED486257405005972F9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-51",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Height-velocity envelope.",
+      "text": "(a) If there is any combination of height and forward velocity (including hover) under which a safe landing cannot be made under the applicable power failure condition in paragraph (b) of this section, a limiting height-velocity envelope must be established (including all pertinent information) for that condition, throughout the ranges of\u2014\n  (1) Altitude, from standard sea level conditions to the maximum altitude capability of the rotorcraft, or 7000 feet density altitude, whichever is less; and\n  (2) Weight, from the maximum weight at sea level to the weight selected by the applicant for each altitude covered by paragraph (a)(1) of this section. For helicopters, the weight at altitudes above sea level may not be less than the maximum weight or the highest weight allowing hovering out-of-ground effect, whichever is lower.\n(b) The applicable power failure conditions are\u2014\n  (1) For single-engine helicopters, full autorotation;\n  (2) For multiengine helicopters, OEI (where engine isolation features ensure continued operation of the remaining engines), and the remaining engine(s) within approved limits and at the minimum installed specification power available for the most critical combination of approved ambient temperature and pressure altitude resulting in 7000 feet density altitude or the maximum altitude capability of the helicopter, whichever is less, and\n  (3) For other rotorcraft, conditions appropriate to the type. (Secs. 313(a), 601, 603, 604, Federal Aviation Act of 1958 (49 U.S.C. 1354(a), 1421, 1423, 1424), sec. 6(c), Dept. of Transportation Act (49 U.S.C. 1655(c)))",
+      "publication_cite": "88 FR 8737",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CFR_20230411_0027_B_27-87_000000.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Doc. No. 5074, 29 FR 15695, Nov. 24, 1964, as amended by Amdt. 27-14, 43 FR 2324, Jan. 16, 1978; Amdt. 27-21, 49 FR 44433, Nov. 6, 1984; Amdt. 27-44, 73 FR 10999, Feb. 29, 2008; Amdt. 27-51, 88 FR 8737, Feb. 10, 2023"
+        }
+      ]
+    }
+  ]
+}

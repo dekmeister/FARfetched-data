@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1381",
+  "current_grouping": "Equipment",
+  "canonical_title": "Instrument lights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instrument lights.",
+      "text": "The instrument lights must--\n(a) Make each instrument, switch, and other devices for which they are provided easily readable; and\n(b) Be installed so that--\n  (1) Their direct rays are shielded from the pilot's eyes; and\n  (2) No objectionable reflections are visible to the pilot.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/82E6016C39E76B28852565F6006F9499.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

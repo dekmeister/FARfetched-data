@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "351",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Yawing conditions.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "27-26",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Yawing conditions.",
+      "text": "[(a) Each rotorcraft must be designed for the loads resulting from the maneuvers specified in paragraphs (b) and (c) of this section with--\n  (1) Unbalanced aerodynamic moments about the center of gravity which the aircraft reacts to in a rational or conservative manner considering the principal masses furnishing the reacting inertia forces; and\n  (2) Maximum main rotor speed.\n(b) To produce the load required in paragraph (a) of this section, in unaccelerated flight with zero yaw, at forward speeds from zero up to 0.6 VNE--\n  (1) Displace the cockpit directional control suddenly to the maximum deflection limited by the control stops or by the pilot force specified in Sec. 27.395(a);\n  (2) Attain a resulting sideslip angle or 90\u00b0, whichever is less; and\n  (3) Return the directional control suddenly to neutral.\n(c) To produce the load required in paragraph (a) of this section, in unaccelerated flight with zero yaw, at forward speeds from 0.6 VNE up to VNE or VH, whichever is less--\n  (1) Displace the cockpit directional control suddenly to the maximum deflection limited by the control stops or by the pilot force specified in Sec. 27.395(a);\n  (2) Attain a resulting sideslip angle or 15\u00b0, whichever is less, at the lesser speed of VNE or VH;\n  (3) Vary the sideslip angles of paragraphs (b)(2) and (c)(2) of this section directly with speed; and\n  (4) Return the directional control suddenly to neutral.]",
+      "publication_cite": "55 FR 7999",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/25B52CDFCA223556852565F6006C177D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "88-7",
+          "issued_on": "1989-03-01",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25570",
+          "issued_on": "1990-02-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-34",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Yawing conditions.",
+      "text": "(a) Each rotorcraft must be designed for the loads resulting from the maneuvers specified in paragraphs (b) and (c) of this section with--\n  (1) Unbalanced aerodynamic moments about the center of gravity which the aircraft reacts to in a rational or conservative manner considering the principal masses furnishing the reacting inertia forces; and\n  (2) Maximum main rotor speed.\n(b) To produce the load required in paragraph (a) of this section, in unaccelerated flight with zero yaw, at forward speeds from zero up to 0.6 VNE--\n  (1) Displace the cockpit directional control suddenly to the maximum deflection limited by the control stops or by the [maximum pilot force specified in Sec. 27.397(a);]\n  (2) Attain a resulting sideslip angle or 90\u00b0, whichever is less; and\n  (3) Return the directional control suddenly to neutral.\n(c) To produce the load required in paragraph (a) of this section, in unaccelerated flight with zero yaw, at forward speeds from 0.6 VNE up to VNE or VH, whichever is less--\n  (1) Displace the cockpit directional control suddenly to the maximum deflection limited by the control stops or by the [maximum pilot force specified in Sec. 27.397(a);]\n  (2) Attain a resulting sideslip angle or 15\u00b0, whichever is less, at the lesser speed of VNE or VH;\n  (3) Vary the sideslip angles of paragraphs (b)(2) and (c)(2) of this section directly with speed; and\n  (4) Return the directional control suddenly to neutral.",
+      "publication_cite": "62 FR 46173",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/83FEC7628EE13CAF852565F6006C1A4E.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Not Applicable."
+        },
+        {
+          "type": "final_rule",
+          "reference": "29008",
+          "issued_on": "1997-08-25",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

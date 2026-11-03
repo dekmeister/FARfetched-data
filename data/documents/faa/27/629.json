@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "629",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Flutter.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Flutter.",
+      "text": "Each part of the rotorcraft must be free from flutter under each appropriate speed and power condition.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B191B33B964C86AD852565F6006CF417.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-26",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Flutter.",
+      "text": "Each [aerodynamic surface] of the rotorcraft must be free from flutter under each appropriate speed and power condition.",
+      "publication_cite": "55 FR 8000",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5C70E846942CD361852565F6006CF739.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "88-7",
+          "issued_on": "1989-03-01",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25570",
+          "issued_on": "1990-02-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "674",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Interconnected controls.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "27-26",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Interconnected controls.",
+      "text": "[Each primary flight control system must provide for safe flight and landing and operate independently after a malfunction, failure, or jam of any auxiliary interconnected control.]",
+      "publication_cite": "55 FR 8001",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3B18E45BEEA8A87D852565F6006D163F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "88-7",
+          "issued_on": "1989-03-01",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25570",
+          "issued_on": "1990-02-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

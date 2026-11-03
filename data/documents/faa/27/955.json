@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "955",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel flow.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel flow.",
+      "text": "(a) Each fuel system must provide at least 100 percent of the fuel flow required under the intended operating conditions and maneuvers. This must be shown as follows:\n  (1) Fuel must be delivered to each engine at a pressure within the limits specified in the engine type certificate.\n  (2) The quantity of fuel in the tank may not exceed that established as the unusable fuel supply for that tank under Sec. 27.959 plus that necessary to show compliance with this section.\n  (3) Each main pump must be used that is necessary for each operating condition and attitude for which compliance with this section is shown, and the appropriate emergency pump must be substituted for each main pump so used.\n(b) If an engine can feed from more than one fuel tank, the fuel system must feed promptly when fuel becomes low in one tank and another tank is selected.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/53D9FB69D6343436852565F6006E3D59.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-1",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel flow.",
+      "text": "(a) Each fuel system must provide at least 100 percent of the fuel flow required under the intended operating conditions and maneuvers. This must be shown as follows:\n  (1) Fuel must be delivered to each engine at a pressure within the limits specified in the engine type certificate.\n  (2) The quantity of fuel in the tank may not exceed that established as the unusable fuel supply for that tank under Sec. 27.959 plus that necessary to show compliance with this section.\n  (3) Each main pump must be used that is necessary for each operating condition and attitude for which compliance with this section is shown, and the appropriate emergency pump must be substituted for each main pump so used.\n[(b) If an engine can be supplied with fuel from more than one tank, the fuel system must feed promptly when fuel becomes low in one tank and another tank is selected.]",
+      "publication_cite": "32 FR 6914",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3D1F0C04B9FA49A6852565F6006E3CD5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-43",
+          "issued_on": "1965-12-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7095",
+          "issued_on": "1967-04-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-23",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel flow.",
+      "text": "[(a) General. The fuel system for each engine must be shown to provide the engine with at least 100 percent of the fuel required under each operating and maneuvering condition to be approved for the rotorcraft including, as applicable, the fuel required to operate the engine(s) under the test conditions required by Sec. 27.927. Unless equivalent methods are used, compliance must be shown by test during which the following provisions are met except that combinations of conditions which are shown to be improbable need not be considered.\n  (1) The fuel pressure, corrected for critical accelerations, must be within the limits specified by the engine type certificate data sheet.\n  (2) The fuel level in the tank may not exceed that established as unusable fuel supply for the tank under Sec. 27.959, plus the minimum additional fuel necessary to conduct the test.\n  (3) The fuel head between the tank outlet and the engine inlet must be critical with respect to rotorcraft flight attitudes.\n  (4) The critical fuel pump (for pump-fed systems) is installed to produce (by actual or simulated failure) the critical restriction to fuel flow to be expected from pump failure.\n  (5) Critical values of engine rotation speed, electrical power, or other sources of fuel pump motive power must be applied.\n  (6) Critical values of fuel properties which adversely affect fuel flow must be applied.\n  (7) The fuel filter required by Sec. 27.997 must be blocked to the degree necessary to simulate the accumulation of fuel contamination required to activate the indicator required by Sec. 27.1305(q).\n(b) Fuel transfer systems. If normal operation of the fuel system requires fuel to be transferred to an engine feed tank, the transfer must occur automatically via a system which has been shown to maintain the fuel level in the engine feed tank within acceptable limits during flight or surface operation of the rotorcraft.\n(c) Multiple fuel tanks. If an engine can be supplied with fuel from more than one tank, the fuel system must, in addition to having appropriate manual switching capability, be designed to prevent interruption of fuel flow to that engine, without attention by the flightcrew, when any tank supplying fuel to that engine is depleted of usable fuel during normal operation, and any other tank that normally supplies fuel to the engine alone contains usable fuel.]",
+      "publication_cite": "53 FR 34212",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EA583E607BE5EFD0852565F6006E3A18.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-19",
+          "issued_on": "1984-10-10",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24337",
+          "issued_on": "1988-08-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1187",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Ventilation [and drainage.]",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ventilation.",
+      "text": "Each compartment containing any part of the powerplant installation must have provision for ventilation.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7488FB364BF3E021852565F6006F2FFB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-37",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ventilation [and drainage.]",
+      "text": "[ Each compartment containing any part of the powerplant installation must have provision for ventilation and drainage of flammable fluids. The drainage means must be--\n(a) Effective under conditions expected to prevail when drainage is needed, and\n(b) Arranged so that no discharged fluid will cause an additional fire hazard.]",
+      "publication_cite": "64 FR 45095",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DF587ADAED66528F852567E60052E750.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "98-4",
+          "issued_on": "1998-06-09",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "29247",
+          "issued_on": "1999-08-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

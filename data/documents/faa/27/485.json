@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "485",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Lateral drift landing conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Lateral drift landing conditions.",
+      "text": "(a) The rotorcraft is assumed to be in the level landing attitude, with--\n  (1) Side loads combined with one-half of the maximum ground reactions obtained in the level landing conditions of Sec. 27.479 (b)(1); and\n  (2) The loads obtained under subparagraph (1) of this paragraph applied--\n    (i) At the ground contact point; or\n    (ii) For full-swiveling gear, at the center of the axle.\n(b) The rotorcraft must be designed to withstand, at ground contact--\n  (1) When only the aft wheels contact the ground, side loads of 0.8 times the vertical reaction acting inward on one side, and 0.6 times the vertical reaction acting outward on the other side, all combined with the vertical loads specified in paragraph (a); and\n  (2) When all wheels contact the ground simultaneously--\n    (i) For the aft wheels, the side loads specified in subparagraph (1) of this paragraph; and\n    (ii) For the forward wheels, a side load of 0.8 times the vertical reaction combined with the vertical load specified in paragraph (a) of this section.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/179D2E78C88F37A9852565F6006C648E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

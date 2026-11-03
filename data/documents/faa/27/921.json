@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "921",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Rotor brake.",
+  "subject_group": "Rotor Drive System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Rotor brake.",
+      "text": "If there is a means to control the rotation of the rotor drive system independently of the engine, any limitations on the use of that means must be specified, and the control for that means must be guarded to prevent inadvertent operation.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D9D123651971DB38852565F6006DCE5A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-20",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

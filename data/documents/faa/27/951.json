@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "951",
+  "current_grouping": "Powerplant",
+  "canonical_title": "General.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure a flow of fuel at a rate and pressure established for proper engine functioning under any likely operating condition, including the maneuvers for which certification is requested.\n(b) Each fuel system must be arranged so that--\n  (1) No fuel pump can draw fuel from more than one tank at a time; or\n  (2) There are means to prevent introducing air into the system.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9FF69923FB56EB5D852565F6006E3E65.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-9",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure a flow of fuel at a rate and pressure established for proper engine functioning under any likely operating condition, including the maneuvers for which certification is requested.\n(b) Each fuel system must be arranged so that--\n  (1) No fuel pump can draw fuel from more than one tank at a time; or\n  (2) There are means to prevent introducing air into the system.\n[(c) Each fuel system for a turbine engine must be capable of sustained operation throughout its flow and pressure range with fuel initially saturated with water at 80\u00b0 F and having 0.75cc of free water per gallon added and cooled to the most critical condition for icing likely to be encountered in operation.]",
+      "publication_cite": "39 FR 35461",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B09CA1558279708C852565F6006E378C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "71-12",
+          "issued_on": "1971-04-26",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "11010",
+          "issued_on": "1974-09-20",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

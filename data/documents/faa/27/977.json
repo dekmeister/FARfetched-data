@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "977",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel tank outlet.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank outlet.",
+      "text": "There must be a large-mesh finger strainer for the fuel tank outlet.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4748FF56672AC5B8852565F6006E7CEC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-11",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank outlet.",
+      "text": "[(a) There must be a fuel strainer for the fuel tank outlet or for the booster pump. This strainer must--\n  (1) For reciprocating engine powered rotorcraft, have 8 to 16 meshes per inch; and\n  (2) For turbine engine powered rotorcraft, prevent the passage of any object that could restrict fuel flow or damage any fuel system component.\n(b) The clear area of each fuel tank outlet strainer must be at least five times the area of the outlet line.\n(c) The diameter of each strainer must be at least that of the fuel tank outlet.\n(d) Each finger strainer must be accessible for inspection and cleaning.]",
+      "publication_cite": "41 FR 55470",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A3AB16D46BEF17EA852565F6006E7BE5.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "74-5",
+          "issued_on": "1974-02-14",
+          "source_url": null,
+          "notes": "Notice of Invitation to Submit Proposals; Notice No. 74-5; Issued on 2/14/74.\t\nNotice of Compilation of Proposals; Notice No. 74-5A; Issued on 5/22/74.\nNotice of Availability of Agenda; Notice No. 74-5B; Issued on 10/3/74.\nNotice of Clarifying Revisions; Notice No. 74-33; Issued on 10/3/74. \nNotice of Conference; Notice No. 74-5C; Issued on 11/25/74.\nNotice of Availability of Conference Summary; Notice No. 74-5D; Issued on 2/4/75.\nNotice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 2/27/75.\nNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 4; Notice No. 75-20; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 5/19/75.\nNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 5/29/75.\nNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 6/9/75.\nNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 6/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324",
+          "issued_on": "1976-12-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

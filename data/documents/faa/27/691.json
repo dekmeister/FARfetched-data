@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "691",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Autorotation control mechanism.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Autorotation control mechanism.",
+      "text": "Each main rotor blade pitch control mechanism must allow rapid entry into autorotation after power failure.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DB3558F12E97735F852565F6006D2B2D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

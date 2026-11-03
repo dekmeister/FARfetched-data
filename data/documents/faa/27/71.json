@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "71",
+  "current_grouping": "Flight",
+  "canonical_title": "Autorotation performance",
+  "subject_group": "Performance",
+  "versions": [
+    {
+      "designator": "27-21",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Glide performance.",
+      "text": "[For single-engine helicopters and multiengine helicopters that do not meet the Category A engine isolation requirements of Part 29 of this chapter, the minimum rate of descent airspeed and the best angle-of-glide airspeed must be determined in autorotation at--\n(a) Maximum weight; and\n(b) Rotor speed(s) selected by the applicant.]",
+      "publication_cite": "49 FR 44433",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/70CB1EA294BF0830852565F600658EE5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-44",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Autorotation performance",
+      "text": "For single-engine helicopters and multiengine helicopters that do not meet the Category A engine isolation requirements of Part 29 of this chapter, the minimum rate of descent airspeed and the best angle-of-glide airspeed must be determined in autorotation at--\n(a) Maximum weight; and\n(b) Rotor speed(s) selected by the applicant.",
+      "publication_cite": "73 FR 10987",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E78D534040F49AF68625740500597371.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

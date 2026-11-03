@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "931",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Shafting critical speed.",
+  "subject_group": "Rotor Drive System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Shafting critical speed.",
+      "text": "(a) The critical speeds of any shafting must be determined by demonstration, except that analytical methods may be used if reliable methods of analysis are available for the particular design.\n(b) If any critical speed lies within, or close to, the operating ranges for idling, power on, and autorotative conditions, the stresses occurring at that speed must be within safe limits. This must be shown by tests.\n(c) If analytical methods are used and show that no critical speed lies within the permissible operating ranges, the margins between the calculated critical speeds and the limits of the allowable operating ranges must be adequate to allow for possible variations between the computed and actual values.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/85449D69E074F3D1852565F6006E380E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

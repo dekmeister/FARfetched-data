@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1397",
+  "current_grouping": "Equipment",
+  "canonical_title": "Color specifications.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Color specifications.",
+      "text": "Each position light color must have the applicable International Commission on Illumination chromaticity coordinates as follows:\n(a) Aviation red-- \"y\" is not greater than 0.335; and \"z\" is not greater than 0.002.\n(b) Aviation green-- \"x\" is not greater than 0.440--0.320y; \"x\" is not greater than y--0.170; and \"y\" is not less than 0.390--0.170x.\n(c) Aviation white-- \"x\" is not less than 0.350; \"x\" is not greater than 0.540; and \"y-y0\" is not numerically greater than 0.01, \"y0\" being the y coordinate of the Planckian radiator for which x0=x.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5D65056F660D17A0852565F6006FC41F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-6",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Color specifications.",
+      "text": "Each position light color must have the applicable International Commission on Illumination chromaticity coordinates as follows:\n(a) Aviation red-- \"y\" is not greater than 0.335; and \"z\" is not greater than 0.002.\n(b) Aviation green-- \"x\" is not greater than 0.440--0.320y; \"x\" is not greater than y--0.170; and \"y\" is not less than 0.390--0.170x.\n(c) Aviation white-- [\"x\" is not less than 0.300 and not greater than 0.540; \"y\" is not less than \"x--0.040\" or \"yo ---0.010\", whichever is the smaller; and \"y\" is not greater than \"x + 0.020\" nor \"0.636--0.400x\"; Where \"yo\" is the \"y\" coordinate of the Planckian radiator for the value of \"x\" considered.]",
+      "publication_cite": "36 FR 12972",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/45F3754B8DCBAAF1852565F6006FC31A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "70-21",
+          "issued_on": "1970-05-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "10129",
+          "issued_on": "1971-07-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

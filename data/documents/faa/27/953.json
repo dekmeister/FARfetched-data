@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "953",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel system independence.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system independence.",
+      "text": "(a) Each fuel system for multiengine rotorcraft must allow fuel to be supplied to each engine through a system independent of those parts of each system supplying fuel to other engines. However, separate fuel tanks need not be provided for each engine.\n(b) If a single fuel tank is used on a multiengine rotorcraft, the following must be provided:\n  (1) Independent tank outlets for each engine, each incorporating a shutoff valve at the tank. This shutoff valve may also serve as the firewall shutoff valve required by Sec. 27.995 if the line between the valve and the engine compartment does not contain a hazardous amount of fuel that can drain into the engine compartment.\n  (2) At least two vents arranged to minimize the probability of both vents becoming obstructed simultaneously.\n  (3) Filler caps designed to minimize the probability of incorrect installation or inflight loss.\n  (4) A fuel system in which those parts of the system from each tank outlet to any engine are independent of each part of each system supplying fuel to other engines.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BAA0436A45E6E1BA852565F6006E3891.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

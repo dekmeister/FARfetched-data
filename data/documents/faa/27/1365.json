@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1365",
+  "current_grouping": "Equipment",
+  "canonical_title": "Electric cables.",
+  "subject_group": "Electrical Systems and Equipment",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Electric cables.",
+      "text": "(a) Each electric connecting cable must be of adequate capacity.\n(b) Each cable that would overheat in the event of circuit overload or fault must be at least flame resistant and may not emit dangerous quantities of toxic fumes.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1E67FCE4036E7FC4852565F6006F9760.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-35",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Electric cables.",
+      "text": "(a) Each electric connecting cable must be of adequate capacity.\n(b) Each cable that would overheat in the event of circuit overload or fault must be at least flame resistant and may not emit dangerous quantities of toxic fumes.\n[(c) Insulation on electrical wire and cable installed in the rotorcraft must be self-extinguishing when tested in accordance with Appendix F, Part I(a)(3) of part 25 of this chapter.]",
+      "publication_cite": "63 FR 43285",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4764FB9FED20C63E85256660004F1910.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "97-8",
+          "issued_on": "1997-05-30",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "28929",
+          "issued_on": "1998-08-07",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

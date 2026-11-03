@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "679",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Control system locks.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Control system locks.",
+      "text": "If there is a device to lock the control system with the rotorcraft on the ground or water, there must be means to--\n(a) Give unmistakable warning to the pilot when the lock is engaged; and\n(b) Prevent the lock from engaging in flight.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FDB8A0335FD8D8F3852565F6006D1346.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "427",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Unsymmetrical loads.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "27-26",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Unsymmetrical loads.",
+      "text": "[(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and rotor wake effects in combination with the prescribed flight conditions.\n(b) To meet the design criteria of paragraph (a) of this section, in the absence of more rational data, both of the following must be met:\n  (1) One hundred percent of the maximum loading from the symmetrical flight conditions in Sec. 27.413 acts on the surface on one side of the plane of symmetry, and no loading acts on the other side.\n  (2) Fifty percent of the maximum loading from the symmetrical flight conditions in Sec. 27.413 acts on the surface on each side of the plane of symmetry but in opposite directions.\n(c) For empennage arrangements where the horizontal tail surfaces are supported by the vertical tail surfaces, the vertical tail surfaces and supporting structure must be designed for the combined vertical and horizontal surface loads resulting from each prescribed flight condition, considered separately. The flight conditions must be selected so the maximum design loads are obtained on each surface. In the absence of more rational data, the unsymmetrical horizontal tail surface loading distributions described in this section must be assumed.]",
+      "publication_cite": "55 FR 7999",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D8A634DA8A0DB73E852565F6006C4D7A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "88-7",
+          "issued_on": "1989-03-01",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25570",
+          "issued_on": "1990-02-12",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-27",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Unsymmetrical loads.",
+      "text": "(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and rotor wake effects in combination with the prescribed flight conditions.\n(b) To meet the design criteria of paragraph (a) of this section, in the absence of more rational data, both of the following must be met:\n  [(1) One hundred percent of the maximum loading from the symmetrical flight conditions in acts on the surface on one side of the plane of symmetry, and no loading acts on the other side.\n  (2) Fifty percent of the maximum loading from the symmetrical flight conditions in acts on the surface on each side of the plane of symmetry but in opposite directions.]\n(c) For empennage arrangements where the horizontal tail surfaces are supported by the vertical tail surfaces, the vertical tail surfaces and supporting structure must be designed for the combined vertical and horizontal surface loads resulting from each prescribed flight condition, considered separately. The flight conditions must be selected so the maximum design loads are obtained on each surface. In the absence of more rational data, the unsymmetrical horizontal tail surface loading distributions described in this section must be assumed.",
+      "publication_cite": "55 FR 38966",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/83A035FEE06E413B852565F6006C4DF1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "89-10",
+          "issued_on": "1989-04-19",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "25885",
+          "issued_on": "1990-09-17",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

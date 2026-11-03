@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "907",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Engine vibration.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Engine vibration.",
+      "text": "(a) Each engine must be installed to prevent the harmful vibration of any part of the engine or rotorcraft.\n(b) The addition of the rotor and the rotor drive system to the engine may not subject the principal rotating parts of the engine to excessive vibration stresses. This must be shown by a vibration investigation.\n(c) No part of the rotor drive system may be subjected to excessive vibration stresses.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3971072A8EEA2347852565F6006DD2D9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

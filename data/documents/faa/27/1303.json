@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1303",
+  "current_grouping": "Equipment",
+  "canonical_title": "Flight and navigation instruments.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Flight and navigation instruments.",
+      "text": "The following are the required flight and navigation instruments:\n(a) An airspeed indicator.\n(b) An altimeter.\n(c) A magnetic direction indicator.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0634E915715CED91852565F6006F5645.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

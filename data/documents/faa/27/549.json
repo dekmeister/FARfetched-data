@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "549",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Fuselage, landing gear, and rotor pylon structures.",
+  "subject_group": "Main Component Requirements",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Fuselage, landing gear, and rotor pylon structures.",
+      "text": "(a) Each fuselage, landing gear, and rotor pylon structure must be designed as prescribed in this section. Resultant rotor forces may be represented as a single force applied at the rotor hub attachment point.\n(b) Each structure must be designed to withstand--\n  (1) The critical loads prescribed in Secs. 27.337 through 27.341;\n  (2) The applicable ground loads prescribed in Secs. 27.235, 27.471 through 27.485, 27.493, 27.497, 27.501, 27.505, and 27.521; and\n  (3) The loads prescribed in Sec. 27.547 (d)(2) and (e).\n(c) Auxiliary rotor thrust, and the balancing air and inertia loads occurring under accelerated flight conditions, must be considered.\n(d) Each engine mount and adjacent fuselage structure must be designed to withstand the loads occurring under accelerated flight and landing conditions, including engine torque.\n(e) For critical parts (parts whose sudden failure would threaten the structural integrity of the rotorcraft), the following apply:\n  (1) Each part must be designed to withstand any repeated loading condition likely to occur within its established service life.\n  (2) Stresses must be determined in flight---\n    (i) For each attitude appropriate to the rotorcraft; and\n    (ii) For each attitude, throughout the ranges of limitations prescribed in Sec. 27.309.\n  (3) The service life of each part must be established by--\n    (i) Fatigue tests; or\n    (ii) Any other acceptable method.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/534FA099D6AE9A2D852565F6006CA254.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-3",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Fuselage, landing gear, and rotor pylon structures.",
+      "text": "(a) Each fuselage, landing gear, and rotor pylon structure must be designed as prescribed in this section. Resultant rotor forces may be represented as a single force applied at the rotor hub attachment point.\n(b) Each structure must be designed to withstand--\n  (1) The critical loads prescribed in Secs. 27.337 through 27.341;\n  (2) The applicable ground loads prescribed in Secs. 27.235, 27.471 through 27.485, 27.493, 27.497, 27.501, 27.505, and 27.521; and\n  (3) The loads prescribed in Sec. 27.547 (d)(2) and (e).\n(c) Auxiliary rotor thrust, and the balancing air and inertia loads occurring under accelerated flight conditions, must be considered.\n(d) Each engine mount and adjacent fuselage structure must be designed to withstand the loads occurring under accelerated flight and landing conditions, including engine torque.\n[(e) Deleted.]",
+      "publication_cite": "33 FR 14105",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/36EDEC2098E4796B852565F6006C9DD4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-44",
+          "issued_on": "1967-10-03",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8444",
+          "issued_on": "1968-09-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "729",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Retracting mechanism.",
+  "subject_group": "Landing Gear",
+  "versions": [
+    {
+      "designator": "27-21",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Retracting mechanism.",
+      "text": "[For rotorcraft with retractable landing gear, the following apply:\n(a) Loads. The landing gear, retracting mechanism, wheel-well doors, and supporting structure must be designed for--\n  (1) The loads occurring in any maneuvering condition with the gear retracted;\n  (2) The combined friction, inertia, and air loads occurring during retraction and extension at any airspeed up to the design maximum landing gear operating speed; and\n  (3) The flight loads, including those in yawed flight, occurring with the gear extended at any airspeed up to the design maximum landing gear extended speed.\n(b) Landing gear lock. A positive means must be provided to keep the gear extended.\n(c) Emergency operation. When other than manual power is used to operate the gear, emergency means must be provided for extending the gear in the event of--\n  (1) Any reasonably probable failure in the normal retraction system; or\n  (2) The failure of any single source of hydraulic, electric, or equivalent energy.\n(d) Operation tests. The proper functioning of the retracting mechanism must be shown by operation tests.\n(e) Position indicator. There must be a means to indicate to the pilot when the gear is secured in the extreme positions.\n(f) Control. The location and operation of the retraction control must meet the requirements of Secs. 27.777 and 27.779.\n(g) Landing gear warning. An aural or equally effective landing gear warning device must be provided that functions continuously when the rotorcraft is in a normal landing mode and the landing gear is not fully extended and locked. A manual shutoff capability must be provided for the warning device and the warning system must automatically reset when the rotorcraft is no longer in the landing mode.]",
+      "publication_cite": "49 FR 44434",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6BDC6F9E6601C66B852565F6006D4DCC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

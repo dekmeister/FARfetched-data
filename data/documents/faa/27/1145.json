@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1145",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Ignition switches.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ignition switches.",
+      "text": "(a) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control.\n(b) Each master ignition control must have a guard to prevent its inadvertent operation.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E6917473D5F411C5852565F6006F148E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-12",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Ignition switches.",
+      "text": "(a) There must be means to quickly shut off all ignition by the grouping of switches or by a master ignition control.\n[(b) Each group of ignition switches, except ignition switches for turbine engines for which continuous ignition is not required, and each master ignition control must have a means to prevent its inadvertent operation.]",
+      "publication_cite": "42 FR 15045",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1CCC917C48DF17CE852565F6006F11A6.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2;  Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3;  Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

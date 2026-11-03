@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "31",
+  "current_grouping": "Flight",
+  "canonical_title": "Removable ballast.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Removable ballast.",
+      "text": "Removable ballast may be used in showing compliance with the flight requirements of this subpart.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/80555D170C09D7DC852565F600655436.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

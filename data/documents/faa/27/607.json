@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "607",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Fasteners.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Self-locking nuts.",
+      "text": "No self-locking nut may be used on any bolt subject to rotation in operation.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/047B1C9FD3E8D262852565F6006CD8E7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-4",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Fasteners.",
+      "text": "[(a) Each removable bolt, screw, nut, pin, or other fastener whose loss could jeopardize the safe operation of the rotorcraft must incorporate two separate locking devices. The fastener and its locking devices may not be adversely affected by the environmental conditions associated with the particular installation.\n(b) No self-locking nut may be used on any bolt subject to rotation in operation unless a nonfriction locking device is used in addition to the self-locking device.]",
+      "publication_cite": "33 FR 14533",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/61D29219EBD3E787852565F6006CDA6E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "67-49",
+          "issued_on": "1967-11-07",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "8527",
+          "issued_on": "1968-09-20",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

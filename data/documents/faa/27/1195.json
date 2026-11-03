@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1195",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fire detector systems.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "27-5",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fire detector systems.",
+      "text": "[Each turbine engine powered rotorcraft must have approved quick-acting fire detectors in numbers and locations ensuring prompt detection of fire in the engine compartment which cannot be readily observed in flight by the pilot in the cockpit.]",
+      "publication_cite": "36 FR 5493",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/689977A42B9CCB46852565F6006F2EF5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "69-7",
+          "issued_on": "1969-03-04",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9464",
+          "issued_on": "1971-03-16",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

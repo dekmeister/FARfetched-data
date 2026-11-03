@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "321",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "General.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "General.",
+      "text": "(a) For rotorcraft, flight load factors are rotor load factors. The net load factor acting at the center of gravity must be obtained by proper consideration of the balancing loads in each flight condition specified in this part.\n(b) Compliance with the flight load requirements of this subpart must be shown--\n  (1) At each weight from the design minimum weight to the design maximum weight; and\n  (2) With any practical distribution of disposable load within the operating limitations in the Rotorcraft Flight Manual.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D429E9263C37666C852565F6006C1971.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-11",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "General.",
+      "text": "[(a) The flight load factor must be assumed to act normal to the longitudinal axis of the rotorcraft, and to be equal in magnitude and opposite in direction to the rotorcraft inertia load factor at the center of gravity.]\n(b) Compliance with the flight load requirements of this subpart must be shown--\n  (1) At each weight from the design minimum weight to the design maximum weight; and\n  (2) With any practical distribution of disposable load within the operating limitations in the Rotorcraft Flight Manual.",
+      "publication_cite": "41 FR 55468",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4BA217DD4EFF934B852565F6006C16FB.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "74-5",
+          "issued_on": "1974-02-14",
+          "source_url": null,
+          "notes": "Notice of Invitation to Submit Proposals; Notice No. 74-5; Issued on 2/14/74.\t\nNotice of Compilation of Proposals; Notice No. 74-5A; Issued on 5/22/74.\nNotice of Availability of Agenda; Notice No. 74-5B; Issued on 10/3/74.\nNotice of Clarifying Revisions; Notice No. 74-33; Issued on 10/3/74. \nNotice of Conference; Notice No. 74-5C; Issued on 11/25/74.\nNotice of Availability of Conference Summary; Notice No. 74-5D; Issued on 2/4/75.\nNotice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 2/27/75.\nNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 4; Notice No. 75-20; Issued on 5/13/75.\nNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 5/19/75.\nNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 5/29/75.\nNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 6/9/75.\nNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 6/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324",
+          "issued_on": "1976-12-13",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

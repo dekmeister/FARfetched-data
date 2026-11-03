@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "301",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Loads.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Loads.",
+      "text": "(a) Strength requirements are specified in terms of limit loads (the maximum loads to be expected in service) and ultimate loads (limit loads multiplied by prescribed factors of safety). Unless otherwise provided, prescribed loads are limit loads.\n(b) Unless otherwise provided, the specified air, ground, and water loads must be placed in equilibrium with inertia forces, considering each item of mass in the rotorcraft. These loads must be distributed to closely approximate or conservatively represent actual conditions.\n(c) If deflections under load would significantly change the distribution of external or internal loads, this redistribution must be taken into account.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/488CAF4111B7D99B852565F6006A07C8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

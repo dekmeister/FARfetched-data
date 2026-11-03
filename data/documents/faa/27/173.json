@@ -1,0 +1,106 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "173",
+  "current_grouping": "Flight",
+  "canonical_title": "Static longitudinal stability.",
+  "subject_group": "Flight Characteristics",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Static longitudinal stability.",
+      "text": "(a) The longitudinal cyclic control must be designed so that, for the ranges of altitude and rotor r.p.m. for which certification is requested, and with throttle and collective pitch held constant during the maneuvers specified in Sec. 27.175--\n  (1) A rearward movement of the control is necessary to obtain airspeeds less than the trim speed; and\n  (2) A forward movement of the control is necessary to obtain airspeeds greater than the trim speed.\n(b) The stick position versus speed curve may have a negative slope within the speed ranges specified for each maneuver in Sec. 27.175(a) through (c) if the necessary negative stick travel is not greater than ten percent of the total stick travel.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2807A33BBAA4E38B852565F60065B795.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-2",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Static longitudinal stability.",
+      "text": "(a) The longitudinal cyclic control must be designed so that, for the ranges of altitude and rotor r.p.m. for which certification is requested, and with throttle and collective pitch held constant during the maneuvers specified in Sec. 27.175--\n  (1) A rearward movement of the control is necessary to obtain airspeeds less than the trim speed; and\n  (2) A forward movement of the control is necessary to obtain airspeeds greater than the trim speed.\n[(b) The stick position versus speed curve may have a negative slope within the speed range specified for the maneuver in Sec. 27.175(d) if the necessary negative stick travel does not exceed 1 inch measured at the top of the pilot's normal hand position.]",
+      "publication_cite": "33 FR 962",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D019EE2DC7AE842E852565F60065B513.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-21",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Static longitudinal stability.",
+      "text": "[(a) The longitudinal control must be designed so that a rearward movement of the control is necessary to obtain a speed less than the trim speed, and a forward movement of the control is necessary to obtain a speed more than the trim speed.\n(b) With the throttle and collective pitch held constant during the maneuvers specified in Sec. 27.175(a) through (c), the slope of the control position versus speed curve must be positive throughout the full range of altitude for which certification is requested.\n(c) During the maneuver specified in Sec. 27.175(d), the longitudinal control position versus speed curve may have a negative slope within the specified speed range if the negative motion is not greater than 10 percent of total control travel.]",
+      "publication_cite": "49 FR 44433",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1F9506B704ED41A0852565F60065B803.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-44",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Static longitudinal stability.",
+      "text": "[ (a) The longitudinal control must be designed so that a rearward movement of the control is necessary to obtain an airspeed less than the trim speed, and a forward movement of the control is necessary to obtain an airspeed more than the trim speed.]\n[(b) Throughout the full range of altitude for which certification is requested, with the throttle and collective pitch held constant during the maneuvers specified in Sec. 27.175(a) through (d), the slope of the control position versus airspeed curve must be positive. However, in limited flight conditions or modes of operation determined by the Administrator to be acceptable, the slope of the control position versus airspeed curve may be neutral or negative if the rotorcraft possesses flight characteristics that allow the pilot to maintain airspeed within 5 knots of the desired trim airspeed without exceptional piloting skill or alertness]",
+      "publication_cite": "73 FR 10999",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/53454E1B745FE9488625740500597436.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "82-12",
+          "issued_on": "1982-04-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "23266",
+          "issued_on": "1984-08-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

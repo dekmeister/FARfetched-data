@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1553",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Fuel quantity indicator.",
+  "subject_group": "Markings and Placards",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Fuel quantity indicator.",
+      "text": "If the unusable fuel supply for any tank exceeds one gallon, or five percent of the tank capacity, whichever is greater, a red arc must be marked on its indicator extending from the calibrated zero reading to the lowest reading obtainable in level flight.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/805FBF93C9A031C0852565F600702199.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

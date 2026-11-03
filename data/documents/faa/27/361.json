@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "361",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Engine torque.",
+  "subject_group": "Flight Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Engine torque.",
+      "text": "The limit engine torque may not be less than the mean torque multiplied by a factor of--\n(a) 1.25, for turbine engines;\n(b) 1.33, for engines with five or more cylinders; and\n(c) Two, three, and four, for engines with four, three, and two cylinders, respectively.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C12DAF48B07003AE852565F6006C19DF.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-23",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Engine torque.",
+      "text": "[(a) For turbine engines, the limit torque may not be less than the highest of--\n  (1) The mean torque for maximum continuous power multiplied by 1.25;\n  (2) The torque required by Sec. 27.923;\n  (3) The torque required by Sec. 27.927; or\n  (4) The torque required by sudden engine stoppage due to malfunction or structural failure (such as compressor jamming).\n(b) For reciprocating engines, the limit torque may not be less than the mean torque for maximum continuous power multiplied by--\n  (1) 1.33, for engines with five or more cylinders; and\n  (2) Two, three, and four, for engines with four, three, and two cylinders, respectively.]",
+      "publication_cite": "53 FR 34210",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F0D5EFFCE12BD3DC852565F6006C15EC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-19",
+          "issued_on": "1984-10-10",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24337",
+          "issued_on": "1988-08-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

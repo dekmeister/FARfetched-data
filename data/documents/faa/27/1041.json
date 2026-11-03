@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "1041",
+  "current_grouping": "Powerplant",
+  "canonical_title": "General.",
+  "subject_group": "Cooling",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "(a) Each powerplant cooling system must be able to maintain the temperatures of powerplant components and engine fluids within the limits established for those components and fluids under any critical surface (ground or water) and flight operating conditions.\n(b) Compliance with paragraph (a) of this section must be shown in tests conducted under the conditions prescribed in that paragraph.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DD72C1E02B3E1A6D852565F6006EB860.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-2",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "[(a) Each powerplant cooling system must be able to maintain the temperatures of powerplant components and engine fluids within the limits established for those components and fluids under any critical surface (ground or water) and flight operating conditions, and after normal engine shutdown.]\n(b) Compliance with paragraph (a) of this section must be shown in tests conducted under the conditions prescribed in that paragraph.",
+      "publication_cite": "33 FR 962",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AF9B2B04745BA64A852565F6006EB9E6.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-23",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "General.",
+      "text": "[(a) Each powerplant cooling system must be able to maintain the temperatures of powerplant components within the limits established for these components under critical surface (ground or water) and flight operating conditions for which certification is required and after normal shutdown. Powerplant components to be considered include but may not be limited to engines, rotor drive system components, auxiliary power units, and the cooling or lubricating fluids used with these components.]\n(b) Compliance with paragraph (a) of this section must be shown in tests conducted under the conditions prescribed in that paragraph.",
+      "publication_cite": "53 FR 34213",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9867F8575B7B077B852565F6006EB8EC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-19",
+          "issued_on": "1984-10-10",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24337",
+          "issued_on": "1988-08-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

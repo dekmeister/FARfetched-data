@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "831",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Ventilation.",
+  "subject_group": "Personnel and Cargo Accommodations",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Ventilation.",
+      "text": "(a) The ventilating system for the pilot and passenger compartments must be designed to prevent the presence of excessive quantities of fuel fumes and carbon monoxide.\n(b) The concentration of carbon monoxide may not exceed one part in 20,000 parts of air during forward flight or hovering in still air. If the concentration exceeds this value under other conditions, there must be suitable operating restrictions.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0B3624993F10C5F0852565F6006D8F35.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

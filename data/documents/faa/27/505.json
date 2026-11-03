@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "505",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Ski landing conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Ski landing conditions.",
+      "text": "If certification for ski operation is requested, the rotorcraft, with skis, must be designed to withstand the following loading conditions (where P is the maximum static weight on each ski with the rotorcraft at design maximum weight, and n is the limit load factor determined under Sec. 27.473(b)).\n(a) Up-load conditions in which--\n  (1) A vertical load of Pn and a horizontal load of Pn/4 are simultaneously applied at the pedestal bearings; and\n  (2) A vertical load of 1.33 P is applied at the pedestal bearings.\n(b) A side-load condition in which a side load of 0.35 Pn is applied at the pedestal bearings in a horizontal plane perpendicular to the centerline of the rotorcraft.\n(c) A torque-load condition in which a torque load of 1.33 P (in foot pounds) is applied to the ski about the vertical axis through the centerline of the pedestal bearings.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F60E57F2BCCE5E29852565F6006CA1D2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "27",
+  "number": "473",
+  "current_grouping": "Strength Requirements",
+  "canonical_title": "Ground loading conditions and assumptions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "27-0",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Ground loading conditions and assumptions.",
+      "text": "(a) For specified landing conditions, a design maximum weight must be used that is not less than the maximum weight. A rotor lift may be assumed to act through the center of gravity throughout the landing impact. This lift may not exceed--\n  (1) One-half of the design maximum weight; or\n  (2) Any greater lift proven to be appropriate by tests or data that are applicable to the particular rotorcraft.\n(b) Unless otherwise prescribed, for each specified landing condition, the rotorcraft must be designed for a limit load factor of not less than the limit inertia load factor substantiated under Secs. 27.725 and 27.727.",
+      "publication_cite": "29 FR 15695",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C08F5BCEF928B6C6852565F6006C638A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-29",
+          "issued_on": "1964-05-18",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5074",
+          "issued_on": "1964-10-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "27-2",
+      "grouping_at_time": "Strength Requirements",
+      "title_at_revision": "Ground loading conditions and assumptions.",
+      "text": "[(a) For specified landing conditions, a design maximum weight must be used that is not less than the maximum weight. A rotor lift may be assumed to act through the center of gravity throughout the landing impact. This lift may not exceed two-thirds of the design maximum weight.\n(b) Unless otherwise prescribed, for each specified landing condition, the rotorcraft must be designed for a limit load factor of not less than the limit inertia load factor substantiated under Sec. 27.725.]",
+      "publication_cite": "33 FR 963",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D6D2D05D2CBD2927852565F6006C6615.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-42",
+          "issued_on": "1965-12-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7087",
+          "issued_on": "1968-01-19",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
