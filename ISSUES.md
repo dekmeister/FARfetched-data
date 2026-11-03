@@ -59,27 +59,69 @@ Several items below are expected to close with that promotion.
     ("unknown revision"). That is intended until a source turns up.
 - **FAA-2. Part 23 revision dates and re-fetch regressions.** (was: Data #2,
   FAA-fix)
-  - The re-fetch diff will change these dates:
+  - Re-fetch done 2026-11-03; staged tree rebuilt offline and reproducible.
+    `_document.json` dates now differ from data/ as intended:
     - 23-51: 1996-03-12 → 1996-03-11
-    - 23-58: 2009-07-09 → 2008-04-07 (**user decision needed**: DRS also
-      files a 2009-07-09 document)
+    - 23-58: 2009-07-09 → 2008-04-07 (maintainer decision 2026-11-03; DRS
+      dates §23.1457/§23.1459 with the correction E9-16056, 74 FR 32799)
     - 23-63 → 2017-03-21 (override)
-  - The diff should also drop the four "… Notice No." action tails
-    (1457/23-58, 853/23-25, 65/23-21, 733/23-17).
-  - On that run, confirm that every `tools/overrides/faa_regs.tsv` row is
-    `override_applied` and none is `override_stale`.
-  - Details are in the refetch handover.
+  - Five `drs_date` override rows were added with FR evidence (23-0, 23-48,
+    23-50, 23-51, 23-58); all six affected DRS documents are
+    `override_applied`, none `override_stale`.
+  - The "… Notice No." action tails are gone from the diff.
+  - **Not promoted yet.** Blockers are FAA-13 and FAA-14 (data/ text that
+    the staged tree lacks) and the rest of the promote review. Details are in
+    the refetch handover.
 - **FAA-3. DRS date outliers** (FAA-fix), each one document:
-  - 23-0 (DRS 02/02/1965 vs 1965-02-01)
-  - 23-2 (07/08/1965 vs 1965-08-01)
-  - 23-50 (03/12/1996 vs 1996-03-11)
+  - 23-2, Appendix E (DRS 07/08/1965; regs.csv also gives 8 Jul 1965 for
+    this row, while §23.25 of the same amendment says 1965-08-01). **Open.**
+    FR 1965-07-08, -06-29, -06-30 and -07-01 (govinfo scans, OCR) hold no
+    Part 23 rule other than Amdt 23-1 (30 FR 8261, 06-29), and the manifest
+    has no FR cite for 23-2 (Docket 2029, issued 1965-06-24). Not yet
+    searched: 1965-06-25/26 and 07-02..07. Until an override with evidence
+    exists, E23@23-2 is `TEXT MISSING` (a new file, so no regression).
   - 25-46 (12/02/1978 vs 1978-12-01)
   - 25-60 (06/18/1986 vs 1986-06-16)
   - 29-3 (09/17/1968 vs 1968-02-25)
 
   No `drs_date` override exists for these yet. Confirm each, then add an
   override with evidence. Without one, the row stays fatal and becomes TEXT
-  MISSING at emit.
+  MISSING at emit. (23-0, 23-50 closed 2026-11-03 with 23-48, 23-51, 23-58.)
+- **FAA-13. Part 23 versions wrongly dropped as `suspect_designator`.** Both
+  are real amendments; data/ has them and the staged tree does not. Checked
+  against the FR scans on 2026-11-03 (FAA-fix).
+  - **§23.1545@23-3** (30 FR 14240): the rule (FR 1965-11-13, "one-engine-
+    inoperative stalls", p. 14239) says Part 23 "is amended effective
+    November 11, 1965". It was published after its effective date on purpose
+    (good cause, further delay contrary to the public interest). The
+    "published after effective date" heuristic is a false positive for
+    retroactive effective dates.
+  - **§23.853@23-14 and §23.929@23-14:** the eCFR CITA prints `23 FR 31822`
+    and `33 FR 31822`. The rule is Docket 11011, Amdt 23-14, FR 1973-11-19
+    (Vol. 38), effective December 20, 1973 (matches regs.csv), and it amends
+    both sections. The cite should be **38 FR 31822**; the volume is a CITA
+    typo. data/ carries the bad cites.
+  - Fix: a reviewed override (for example a `cite` kind that corrects a CITA
+    volume and a kind that accepts a retroactive effective date) instead of
+    dropping the row. The three extracted files are listed as `orphan` in
+    `incomplete_faa_23.tsv` meanwhile.
+- **FAA-14. Appendix A to Part 23 cannot be assembled for 23-0, 23-7, 23-16,
+  23-28 and 23-48.** data/ has the text; the staged tree has TEXT MISSING.
+  DRS holds only the 23-64 whole appendix, and the DRS subsection set
+  differs from the manifest's, so the assembler refuses. This is a
+  regression against data/ and blocks promoting `A23.json`. Needs an
+  assembler fix or a reviewed text source.
+- **FAA-15. "Deleted."/"Removed and Reserved." DRS stubs fail verification
+  with `empty_text`:** §617, §643 and §721 @23-7 and E23@23-50 (plus
+  B23.1/B23.11@23-42, which are not emitted). They become TEXT MISSING at emit,
+  where `deleted: true` versions are probably intended. §1567@23-13 (DRS has
+  no 23-13 document) and §903@23-54 (`skip_human`) remain TEXT MISSING too.
+  None existed in data/.
+- **FAA-16. `faa_rules_published()` missed FR doc 96-2082** (61 FR 5171, Amdt
+  23-50, 1996-02-09): the daily FAA listing returned four documents and not
+  that one, although the FR API serves it by docket. Check the agency filter
+  when relying on this lookup (see PROC-3). Also §23.573@23-48 text reflects
+  the 2008 technical amendment (73 FR 19746), not the 1996 original wording.
 - **FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number.** It is
   deliberately not declared. A TCDS citing "through 25-118" needs a human
   decision (probably 25-117). (was: Data #3)
@@ -383,6 +425,9 @@ The code items are proposals awaiting a decision.
 - **PROC-7. `promote --dry-run` prints `WROTE`** for a conflict it would
   accept, although nothing is written (`s03_promote/promote.py`, conflict
   loop). Cosmetic, but misleading. (was: TCDS #33; confirmed 2026-11-03)
+  Also: the dry-run still asks `overwrite …? [y/N]` per conflict. It
+  auto-skips only when stdin is closed; with an open non-tty stdin (a
+  background job) it blocks forever. Run it with `< /dev/null`.
 - **PROC-8. FAA extract is serial.** A `ThreadPoolExecutor` with about 10
   workers would give roughly 5–10× on 1,000+ row batches. The DRS JWT cookie
   needs a lock around refresh, or per-worker sessions. (was: TODO.md)
