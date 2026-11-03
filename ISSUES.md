@@ -138,11 +138,43 @@ Parts 23, 25 and 29 and the tools changes for 29/25 are not yet.
 - **FAA-17. Parts 25, 27 and 29 re-fetched; Part 36 is not.** Done
   2026-11-03/04 by the Part 23 procedure (fresh DRS download, `extract --redo`,
   emit, review, promote). Part 36 still has no raw DRS copies and the old
-  decoder's output. Do the same before promoting it. A
-  `tools/out/staged/documents/faa/36/` tree exists (41 files, made 2026-11-03
-  23:11 by something other than the Part 25/27/29 runs) and is **unreviewed**:
-  a plain `promote` would copy it into `data/`. Promote with `--staged` on a
-  scratch root, or regenerate Part 36 first.
+  decoder's output. Do the same before promoting it. **Update 2026-11-04:**
+  Part 36 was re-fetched (fresh DRS download, offline replay checked) and
+  re-emitted to `tools/out/staged/documents/faa/36/` (40 provisions). It is
+  **not promotable yet**: 32 versions are `TEXT MISSING` and 66 rows are
+  incomplete. See FAA-18. A plain `promote` would copy it into `data/`.
+- **FAA-18. Part 36 re-fetch: open items before promotion** (2026-11-04). The
+  maintainer chose to defer the FR evidence work, so these stay open:
+  - **36-20 effective date (23 failed rows).** DRS says `09/11/1992` (Sept
+    11); the manifest reads the CSV as 1992-11-09 because Sept 11 is before the
+    FR publication of 57 FR 46243 (1992-10-07, J36). Every 36-20 document
+    fails `date_mismatch` and becomes `TEXT MISSING` (§1, §6, §11, §801-805,
+    §1581, Appendix J). The FR API does not cover 1992. Evidence needed: the
+    rule behind Doc. No. 26910 (57 FR 42854, 1992-09-16; its designator is
+    unresolved) and 57 FR 46243. The govinfo FR-1992-09-16 and FR-1992-10-07
+    PDFs are about 214 MB each (the download needs resume, `curl -C -`; a
+    plain `curl -m 300` truncates at ~90 MB and leaves an unreadable PDF).
+    archives.federalregister.gov issue slices returned 403 for guessed page
+    ranges. Then add a `drs_date` or `effective_date` row.
+  - **G36.103@36-16 (11/22/1988) and I36.1@36-0 (10/01/1998)** also fail
+    `date_mismatch`. G36.103's DRS date is the FR publication date of 53 FR
+    47400; the amendment took effect 1988-12-22 (13 CSV rows agree). I36.1's
+    date is unexplained. Both need `drs_date` rows with evidence.
+  - **Whole-appendix assembly (11+ `TEXT MISSING`).** DRS holds Part 36
+    appendices only as subsections, and a failed subsection blocks the
+    assembly (Appendices G, H, J). Appendix J @36-25/@36-30 also fail the
+    listing check (DRS holds J36 subsections only at 36-20). Appendices A, B
+    @36-24/@36-26 are `suspect_designator` (cites published after the
+    effective date; 67 FR 63195).
+  - **Appendix C @36-24** is expected `TEXT MISSING` (FAA-10).
+  - **36-18** has no effective date and is not emitted. **§600@36-14** has
+    an empty body.
+  - **Ordinal order (deferred).** 36-54 (2002-08-07) is numbered above 36-32
+    (2022) and 36-20 is dated before 36-19. Cert-basis resolution ranks by
+    ordinal, so "through 36-26" omits 36-54. Left as is for now; decide
+    before promotion whether to override or document it.
+  - 29 `orphan` extracted files are not plan rows (mostly Appendix C/D/E
+    subsections); review with the above.
 - **FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number.** It is
   deliberately not declared. A TCDS citing "through 25-118" needs a human
   decision (probably 25-117). (was: Data #3)
@@ -419,17 +451,6 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
   - IM.A.343 says "Page 1 of 7" but the PDF has 8 pages.
 - **ETCDS-4. `EASA.BA.025_Issue3.pdf` is not a TCDS.** It is a revocation
   notice that the catalogue labels `main`. A parser must skip it.
-- **ETCDS-5. CS 25.851 is only partly laid out, so 3 models are held.**
-  At CS25-0 … CS25-18 the children of 25.851(a) (and (b), (c)) stay on one
-  line (`structure_report_easa_cs25.tsv`: `inline-skip (4)…(8), (b)`; the
-  inline extinguisher table "Passenger capacity Number of extinguishers"
-  sits in (a)(1)). The build then can't find cited paragraphs:
-  A330-841 (EASA.A.004 line 24, `CS 25.851(a)(c) Amdt 17` → (c) at CS25-12)
-  and EMB-545 / EMB-550 (EASA.IM.A.526 line 4, `CS 25.851(a)(6) at Amdt. 18`
-  → (a)(6) at CS25-18). They are in `tools/overrides/aircraft_holds.tsv`.
-  Close by fixing the 851 layout (structure rule or a `text.tsv` override
-  with evidence), then delete the three hold rows. Check other CS-25
-  provisions with `inline-skip` notes for the same risk.
 - **ETCDS-6. Shared basis sections are not attached to models.** A section
   titled "General (All Models)" / "Data pertinent …" that holds a
   certification basis (IM.A.071, IM.A.080, IM.A.188; reported as a warning)
@@ -500,9 +521,16 @@ for the per-document tables and how to list each kind.
   - Otherwise, review the flagged rows.
 - **TEXT-2. Real paragraphs may be kept inline** (`inline-skip`, 360). If the
   predecessor label was a stray cross-reference, a real paragraph is merged
-  and its path goes missing. (was: Para #2)
+  and its path goes missing. (was: Para #2) 2026-11-04: spaced cross-refs
+  (`AMC 25.851 (a)(2)`, `Sec. 25.111 (c)(2)`) no longer count, and a nested
+  note (`(See AMC 25.851(a))`) is a boundary; EASA CS `inline-skip` 297 → 113
+  versions. FAA/CAR counts change on their next emit.
 - **TEXT-3. Splits after `, and` / `, or`** (`weak-split`, 116) can create
-  false paragraphs mid-sentence. (was: Para #3)
+  false paragraphs mid-sentence. (was: Para #3) The same risk for
+  `fit-split` (2026-11-04: a label with no boundary, taken as the next value
+  or after a short heading; EASA CS 176 versions). A sample of 45 read right
+  (`(b) Reserved (c)`, labels after a table, comma lists); review the rest
+  from `structure_report_*.tsv`.
 - **TEXT-4. Ambiguous labels resolved by heuristic** (`tie`, 49). A wrong
   guess nests a paragraph under the wrong parent. (was: Para #4)
 - **TEXT-5. Label gaps may hide misreads** (`gap`, 174 versions; build
@@ -511,8 +539,11 @@ for the per-document tables and how to list each kind.
   them are unverifiable. (was: Para #6; CAR part → CAR-1)
   - FAA (3): 23.45@23-21 (DRS dropped a `(`), 23.1147@23-43 (`(a)[(1)`),
     and H23@23-43 (per-section `(a)` runs).
-  - EASA (128): lists without an introducer, flattened tables, and appendix
-    sub-sections.
+  - EASA (88; was 128 before the 2026-11-04 structure rules): lists without
+    an introducer, flattened tables, and appendix sub-sections. New in that
+    change: 25.773@CS25-27 goes flat because the source labels two
+    paragraphs `(ii)` in (b)(3); the old layout filed the rest under the
+    wrong parent.
 - **TEXT-7. FAA change brackets span paragraphs** (`bracket-spans`, 452).
   Rendered per paragraph, they look unbalanced. The app needs a rule.
   (was: Para #7)
@@ -661,11 +692,19 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
     (was: plan.md)
 - **ROADMAP-9. EASA TCDS:** a parse/coverage stage, then EASA cert bases
   citing "CS-25 Amendment N". 2026-11-03: parser, coverage and the
-  cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-5…14);
+  cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-6…14);
   next are rotorcraft (CS-27/29) and the scope widening. Also download the Noise TCDS (TCDSN), which is
   only recorded in the catalogue's `noise_*` columns today.
 
 ## Closed
+
+- **ETCDS-5 (CS 25.851 layout, 3 models held):** fixed 2026-11-04. The
+  extinguisher table rows (`7 to 30....... 1`) were dropped as contents
+  lines; the EASA CS extractor now keeps number-range table rows (also CS
+  23.815). `structure.py` reads `(See AMC 25.851(a))` as a note boundary,
+  `AMC 25.851 (a)(2)` as a cross-reference, and `fit-split` takes `(2)`
+  after the table (TEXT-3). The A330-841 and EMB-545/550 holds are removed;
+  `aircraft_holds.tsv` is empty.
 
 - **Data #2 (23-43 date):** `data/` holds 1993-05-10, which matches the CITA
   cite 58 FR 18970. The manifest logic was fixed in the FAA extraction fix.
