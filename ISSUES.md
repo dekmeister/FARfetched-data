@@ -43,13 +43,15 @@ old number:
 
 ### FAA regs (FAA-)
 
-**Pending work:** the FAA Part 23 re-fetch is rebuilt, reviewed and fixed
-(2026-11-03) but **not promoted**. The staged tree has no regression against
-data/ (checked per file and version). Promotion is the maintainer's call:
-`promote --dry-run < /dev/null`, `promote --aircraft --dry-run < /dev/null`,
-then `build.py` (zero unresolved references; row counts explained against the
-previous `cert_basis_report.json`) and `uv run pytest`. Then close FAA-2,
-FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
+**Pending work:** FAA Parts 23, 25, 27 and 29 are re-fetched with the current
+decoder and **promoted into `data/documents/faa/`** (23 on 2026-11-03; 27, 29
+and 25 on 2026-11-03/04). Each staged tree is identical to `data/`, and a trial
+build of `data/documents/` alone passes. **Not done:** the aircraft side
+(BUILD-1: `data/aircraft/` is still the v5 shape, so the real `data/` does not
+build and the real-data tests fail), and Part 36 (FAA-17). Close FAA-2, FAA-8,
+FAA-13..16, TEXT-9 and BUILD-1 once aircraft is re-staged, promoted and
+`build.py` and `uv run pytest` are green. Part 27 is committed (parent `69afe1b`, tools `559f141`);
+Parts 23, 25 and 29 and the tools changes for 29/25 are not yet.
 
 - **FAA-1. 23-56 and 23-60 are undeclared and unexplained.** (was: Data #1)
   - DRS has no document for either. A Federal Register full-text search found
@@ -92,13 +94,16 @@ FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
     The archives.federalregister.gov `issue_slice/1965/7/3/8516-8519.pdf` is a
     Part 25 rule, not 23-2. archives.federalregister.gov slices have a text
     layer (no OCR), but need exact page ranges.
-  - 25-46 (12/02/1978 vs 1978-12-01)
-  - 25-60 (06/18/1986 vs 1986-06-16)
-  - 29-3 (09/17/1968 vs 1968-02-25)
+  - 25-46 (12/02/1978 vs 1978-12-01), 25-60 (06/18/1986 vs 1986-06-16) and
+    29-3 (09/17/1968 vs 1968-02-25): **overrides added 2026-11-04**. Each is a
+    single DRS document (§25.629, §25.855, §29.1505) disagreeing with the
+    amendment's other DRS documents (33 of 34, 2 of 3, 57 of 58). Why that one
+    differs is not established (pre-1994, no FR API); a later correction is
+    possible and would already be in its text. Reviewed on majority evidence
+    only, so confirm if it matters.
 
-  No `drs_date` override exists for these yet. Confirm each, then add an
-  override with evidence. Without one, the row stays fatal and becomes TEXT
-  MISSING at emit. (23-0, 23-50 closed 2026-11-03 with 23-48, 23-51, 23-58.)
+  Only 23-2 is still open. (23-0, 23-50 closed 2026-11-03 with 23-48, 23-51,
+  23-58.)
 - **FAA-13. Part 23 versions wrongly dropped as `suspect_designator`.**
   **Fixed 2026-11-03** (FAA-fix). All three are real; checked against the FR
   scans. New override kinds in `tools/overrides/faa_regs.tsv`, with tests and
@@ -130,14 +135,14 @@ FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
   that one, although the FR API serves it by docket. Check the agency filter
   when relying on this lookup (see PROC-3). Also §23.573@23-48 text reflects
   the 2008 technical amendment (73 FR 19746), not the 1996 original wording.
-- **FAA-17. Parts 25, 27, 29 and 36 have no raw DRS copies.** They were
-  extracted with the old decoder, so none of the Part 23 fixes (U+FFFD,
-  trailing junk, entities, table spacing, `fr_cite`/`retroactive`/Deleted
-  stubs) is in them. Before promoting any of them, repeat the Part 23
-  procedure: a fresh DRS download for each (`extract` without `--offline`),
-  then `extract --redo --offline`, emit, and the per-file/version staged vs
-  data/ comparison (no lost version, no TEXT MISSING over text). Part 23 is
-  the worked example.
+- **FAA-17. Parts 25, 27 and 29 re-fetched; Part 36 is not.** Done
+  2026-11-03/04 by the Part 23 procedure (fresh DRS download, `extract --redo`,
+  emit, review, promote). Part 36 still has no raw DRS copies and the old
+  decoder's output. Do the same before promoting it. A
+  `tools/out/staged/documents/faa/36/` tree exists (41 files, made 2026-11-03
+  23:11 by something other than the Part 25/27/29 runs) and is **unreviewed**:
+  a plain `promote` would copy it into `data/`. Promote with `--staged` on a
+  scratch root, or regenerate Part 36 first.
 - **FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number.** It is
   deliberately not declared. A TCDS citing "through 25-118" needs a human
   decision (probably 25-117). (was: Data #3)
@@ -151,15 +156,19 @@ FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
     the eCFR-derived manifest never listed. They need the section pipeline.
   - 11 `cita_has_unresolved_entry` rows need a human (FAA-fix).
 - **FAA-7. Authority-only declarations for Parts 25/27/29/36 aren't in
-  data/:** 25-85, 27-31, 27-39, 29-37, 29-46, 36-21, 36-23. They will flow in
-  with each part's first promotion; check that they're there. (was: Data #6)
+  data/:** 25-85, 27-31, 27-39, 29-37, 29-46, 36-21, 36-23. **Done for Parts
+  25, 27 and 29** (declared in each promoted `_document.json`); Part 36 will
+  follow its promotion. (was: Data #6)
 - **FAA-8. §23.303, §23.871 and §23.1524 are missing from
   `data/documents/faa/23/`** (confirmed 2026-11-03). (was: TCDS #28)
   - They leave 3A12 172R/172S lines unresolved (`doc_not_in_dataset`).
   - They're in the Part 23 manifest and expected with the re-fetch promotion.
   - Re-parse 3A12 afterwards.
 - **FAA-9. 29-58's FR docket (2022-23327) also names 25-146,** while DRS
-  dates 25-146 in 2018. Check before Part 25 promotion. (FAA-fix)
+  dates 25-146 in 2018. **Resolved 2026-11-04.** 87 FR 75704 (effective
+  2022-12-09) misprints 25-148 as "25-146"; the correction 2023-00139
+  (88 FR 2813) names 25-148. DRS dates all six 25-148 documents with the
+  correction date (as it does 29-58), so a `drs_date` override was added.
 - **FAA-10. Expected `TEXT MISSING`, not recoverable from DRS:** §G25.1@25-141
   (figure only) and Part 36 Appendix C@36-24 (no DRS text). Recheck if
   another source turns up. (FAA-fix)
@@ -171,6 +180,55 @@ FAA-3 (if resolved), FAA-8, FAA-13..16, TEXT-9 and BUILD-1.
   cite, the cite comes from the amendment manifest
   (`fr_cite_source=manifest_amendment`). That is the rule's first page, not
   the section's own page. Refine per section if needed. (was: TODO.md)
+
+- **FAA-18. `TEXT MISSING` left in Parts 25, 27 and 29 (2026-11-04, 15
+  versions).** DRS has no document and the date predates eCFR point-in-time
+  data, so none is recoverable now:
+  - Part 25: §733@25-48, §1181@25-11, Appendix M25@25-125.
+  - Part 27: §87@27-0, 27-14, 27-21 (Height-velocity envelope).
+  - Part 29: §967@29-26, §1019@29-10, §1093@29-3, §1303@29-12, §1521@29-3.
+  - Part 29 Appendix B29@29-39: the subsection set differs from DRS's listing
+    (B29.8 exists only at 29-31).
+  - Part 27 §401, §403 and §413 @27-27 (`Removed`): two DRS documents each,
+    `csv_duplicate`, so the worklist skips them. Both candidates are
+    equivalent "Removed" stubs, so they would be `deleted` versions. An
+    override kind that accepts a duplicate, or a worklist rule for
+    all-stub duplicates, would clear them. Until then §27.401/403/413 look
+    live after 27-27.
+- **FAA-19. `suspect_designator` rows withheld from emit** (2026-11-04):
+  - §351, §391, §395 @29-26 print "Amdt. 29-26, 55 FR 8002, Mar. 6, 1990".
+    The real versions are 29-30 (from regs.csv) and are in `data/`. The 29-26
+    rows are an eCFR typo. Same for §573@29-59 (typo for 29-54) and
+    §1415@25-50 (the real version is 25-52).
+  - §343 and §345 @25-72 are **not explained**: the CITA prints "Amdt. 25-72,
+    55 FR 37607, Sept. 12, 1990", after 25-72's effective date (1990-08-20),
+    but DRS holds both as 25-72 and the extract passes. The Sept. 12 cite may
+    be a later correction. Needs the FR page (pre-1994, no FR API). Until
+    then, §343 and §345 have no 25-72 version, so a 25-72 basis resolves to
+    the previous amendment's text.
+  - Part 23 has the same class (FAA-13).
+- **FAA-20. Amendment-level FR cites for 25-148 and 25-151 are the
+  corrections', not the rules'** (88 FR 2813 and 88 FR 44032). The rules are
+  87 FR 75704 and 88 FR 39152. The section-level cites in the CITA are right.
+  Related to FAA-12. Check the `source_url`/`publication_cite` this gives
+  those versions.
+- **FAA-21. The 25-151 override was backwards and was replaced
+  (2026-11-04).** The old row said DRS 2023-07-17 → 2023-07-11. The rule
+  2023-12454 (88 FR 39152) is effective 2023-07-17 and 2023-07-11 is the
+  correction's date. Now: `effective_date` 2023-07-17 (regs.csv held one
+  document of each date) plus `drs_date` 2023-07-11 → 2023-07-17 for §25.841.
+  The FR docket line of the rule misprints "Amdt. No. 25-148".
+- **FAA-22. Extractor and manifest changes made for Parts 27, 25 and 29**
+  (documented in FAA_REGS.md and the `overrides.py` docstring, with tests):
+  - Stub versions: a DRS title of "Re-designated", "Reserved." or "Revoked."
+    with no body, and a "Removed" stub whose body is only the action preamble
+    ("89-10; Issued on 04/19/89."), are `deleted: true` versions.
+  - New override kind `fr_designator`: pins a bare FR cite to the amendment it
+    corrects (61 FR 43952 is a correction of 29-39, but its docket line prints
+    29-40, which made a phantom §29.1305@29-40).
+  - `cita_has_unresolved_entry` joins `FETCH_ANYWAY`, so a csv row with a GUID
+    and only that report item is fetched and checked by the extractor. This
+    recovered §2@27-28, §2@29-32, §519@25-81, §1302@25-137, §1583@25-0.
 
 ### CAR (CAR-)
 
