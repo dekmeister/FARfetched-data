@@ -44,14 +44,15 @@ old number:
 ### FAA regs (FAA-)
 
 **Pending work:** FAA Parts 23, 25, 27 and 29 are re-fetched with the current
-decoder and **promoted into `data/documents/faa/`** (23 on 2026-11-03; 27, 29
-and 25 on 2026-11-03/04). Each staged tree is identical to `data/`, and a trial
-build of `data/documents/` alone passes. **Not done:** the aircraft side
-(BUILD-1: `data/aircraft/` is still the v5 shape, so the real `data/` does not
-build and the real-data tests fail), and Part 36 (FAA-17). Close FAA-2, FAA-8,
-FAA-13..16, TEXT-9 and BUILD-1 once aircraft is re-staged, promoted and
-`build.py` and `uv run pytest` are green. Part 27 is committed (parent `69afe1b`, tools `559f141`);
-Parts 23, 25 and 29 and the tools changes for 29/25 are not yet.
+decoder and **promoted into `data/documents/faa/`** (2026-11-03/04), and the
+aircraft are re-staged and promoted in the v6 shape (322 models, 33 with an
+EASA TCB). `build.py` is clean (zero unresolved references) and `uv run
+pytest`, ruff and mypy pass. All of it is committed. **Ready to close, the
+maintainer's call:** FAA-2, FAA-8, FAA-13..16, FAA-9 (already marked), TEXT-9
+and BUILD-1. **Not done:** Part 36 (FAA-17), the three held EASA models
+(ETCDS-5; promote the CS 25.851 layout fix, re-assemble, release the holds),
+and a re-promote of 34 Part 25/27/29 files whose layout changes once the
+uncommitted `s00_common/structure.py` edits land (words identical).
 
 - **FAA-1. 23-56 and 23-60 are undeclared and unexplained.** (was: Data #1)
   - DRS has no document for either. A Federal Register full-text search found
@@ -569,24 +570,18 @@ From the 2026-11-03 parent review
 ([reviews/2026-11-03-parent-reorg-handover.md](reviews/2026-11-03-parent-reorg-handover.md)).
 The code items are proposals awaiting a decision.
 
-- **BUILD-1. 4 real-data tests fail on the working tree:**
-  `test_one_row_per_tcds_line`, `test_172_basis_resolves_to_car_3_through_3_12`,
-  and two in `TestDA40Trace`.
-  - `data/aircraft/` holds 70 untracked model files (14 manufacturers),
-    although the TCDS notes say only the 3A12 172 was promoted.
-  - Decide whether those files are meant to be in `data/`. Then either
-    commit them and update the tests, or remove them (re-promote later).
-  - Cause found 2026-11-03: they are in the pre-v6 shape (top-level
-    `categories`; schema v6 puts it in each `tcb`), so building the real
-    `data/` fails (`u206g.json: at tcb/0 'categories' is a required
-    property`). That also fails `test_da40_golden_is_the_promoted_file` and
-    `test_real_data_has_no_ecfr_marker_in_text`, and errors the root
-    `tests/test_similarity.py`. Re-staging and promoting aircraft
-    (`parse`, `aircraft.assemble`, `promote --aircraft`) replaces them: of
-    the 95 existing models, 88 are identical in the new shape and 7 differ
-    only by newly resolved Part 23 references.
+- **BUILD-1. Real-data tests failed on pre-v6 aircraft files. Fixed
+  2026-11-04.** `data/aircraft/` held 95 models in the pre-v6 shape (top-level
+  `categories`), so the real `data/` did not build. Re-staging (`parse` for
+  the 21 FAA TCDS and all EASA TCDS, `aircraft.assemble`) and `promote
+  --aircraft` replaced them: 58 differ only by categories moving into the
+  TCB, 33 gained an EASA TCB through reviewed link rows, 4 (172R, 172S, 206H,
+  T206H) gained a Part 23 reference. 227 models are new. The 3A12 and A47CE
+  tests now scope to one model (a TCDS covers many), and the DA 40 golden
+  test compares the FAA TCB. The old 95 files were untracked, so there is no
+  git copy of them.
 - **BUILD-2. The real-data tests assert exact row lists** for the 172 and
-  DA 40, so any parser re-run breaks them. Proposal: assert invariants
+  DA 40 (now scoped to one model), so any parser re-run breaks them. Proposal: assert invariants
   instead (the 172's CAR 3 lines resolve through CAR3-12; both DA 40 scopes
   hold 23-51; no unresolved references).
 - **BUILD-3. `cert_basis_report.json` is written non-atomically, after the DB
