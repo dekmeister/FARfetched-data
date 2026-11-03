@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "619",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Special factors.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Special factors.",
+      "text": "The factors of safety prescribed in Sec. 25.303 must be multiplied by the special factors of safety prescribed in Secs. 25.621 through 25.625 for each part of the structure whose strength is--\n(a) Uncertain;\n(b) Likely to deteriorate in service before normal replacement; or\n(c) Subject to appreciable variability because of uncertainties in manufacturing processes or inspection methods.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7D9CDA8CA4097FD8852566720050299B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Special factors.",
+      "text": "[The factor of safety prescribed in Sec. 25.303 must be multiplied by the highest pertinent special factor of safety prescribed in Secs. 25.621 through 25.625 for each part of the structure whose strength is--]\n(a) Uncertain;\n(b) Likely to deteriorate in service before normal replacement; or\n(c) Subject to appreciable variability because of uncertainties in manufacturing processes or inspection methods.",
+      "publication_cite": "35 FR 5674",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/53F3EBF3FB403C6385256672005048FB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

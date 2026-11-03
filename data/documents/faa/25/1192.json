@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1192",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Engine accessory section diaphragm.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Engine accessory section diaphragm.",
+      "text": "[For reciprocating engines, the engine power section and all portions of the exhaust system must be isolated from the engine accessory compartment by a diaphragm that complies with the firewall requirements of Sec. 25.1191.]",
+      "publication_cite": "35 FR 5678",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7877F85DAE18160A85256673004D27E2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

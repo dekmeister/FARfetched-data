@@ -1,0 +1,774 @@
+{
+  "issuer": "FAA",
+  "doc_kind": "regulation",
+  "code": "14 CFR 25",
+  "slug": "25",
+  "title": null,
+  "revisions": [
+    {
+      "designator": "25-0",
+      "ordinal": 0,
+      "effective_date": "1965-02-01"
+    },
+    {
+      "designator": "25-1",
+      "ordinal": 1,
+      "effective_date": "1965-06-07"
+    },
+    {
+      "designator": "25-2",
+      "ordinal": 2,
+      "effective_date": "1965-03-26"
+    },
+    {
+      "designator": "25-3",
+      "ordinal": 3,
+      "effective_date": "1965-05-28"
+    },
+    {
+      "designator": "25-4",
+      "ordinal": 4,
+      "effective_date": "1965-04-30"
+    },
+    {
+      "designator": "25-5",
+      "ordinal": 5,
+      "effective_date": "1965-07-29"
+    },
+    {
+      "designator": "25-6",
+      "ordinal": 6,
+      "effective_date": "1965-08-01"
+    },
+    {
+      "designator": "25-7",
+      "ordinal": 7,
+      "effective_date": "1965-11-14"
+    },
+    {
+      "designator": "25-8",
+      "ordinal": 8,
+      "effective_date": "1966-02-05"
+    },
+    {
+      "designator": "25-9",
+      "ordinal": 9,
+      "effective_date": "1966-06-30"
+    },
+    {
+      "designator": "25-10",
+      "ordinal": 10,
+      "effective_date": "1966-10-10"
+    },
+    {
+      "designator": "25-11",
+      "ordinal": 11,
+      "effective_date": "1967-06-04"
+    },
+    {
+      "designator": "25-12",
+      "ordinal": 12,
+      "effective_date": "1967-08-01"
+    },
+    {
+      "designator": "25-13",
+      "ordinal": 13,
+      "effective_date": "1967-07-27"
+    },
+    {
+      "designator": "25-14",
+      "ordinal": 14,
+      "effective_date": "1967-10-10"
+    },
+    {
+      "designator": "25-15",
+      "ordinal": 15,
+      "effective_date": "1967-10-24"
+    },
+    {
+      "designator": "25-16",
+      "ordinal": 16,
+      "effective_date": "1967-10-06"
+    },
+    {
+      "designator": "25-17",
+      "ordinal": 17,
+      "effective_date": "1968-06-20"
+    },
+    {
+      "designator": "25-18",
+      "ordinal": 18,
+      "effective_date": "1968-09-29"
+    },
+    {
+      "designator": "25-19",
+      "ordinal": 19,
+      "effective_date": "1968-11-16"
+    },
+    {
+      "designator": "25-20",
+      "ordinal": 20,
+      "effective_date": "1969-04-23"
+    },
+    {
+      "designator": "25-21",
+      "ordinal": 21,
+      "effective_date": "1970-02-05"
+    },
+    {
+      "designator": "25-22",
+      "ordinal": 22,
+      "effective_date": "1970-02-05"
+    },
+    {
+      "designator": "25-23",
+      "ordinal": 23,
+      "effective_date": "1970-05-08"
+    },
+    {
+      "designator": "25-24",
+      "ordinal": 24,
+      "effective_date": "1970-05-09"
+    },
+    {
+      "designator": "25-25",
+      "ordinal": 25,
+      "effective_date": "1970-09-18"
+    },
+    {
+      "designator": "25-26",
+      "ordinal": 26,
+      "effective_date": "1971-04-23"
+    },
+    {
+      "designator": "25-27",
+      "ordinal": 27,
+      "effective_date": "1971-08-11"
+    },
+    {
+      "designator": "25-28",
+      "ordinal": 28,
+      "effective_date": "1971-09-25"
+    },
+    {
+      "designator": "25-29",
+      "ordinal": 29,
+      "effective_date": "1971-10-21"
+    },
+    {
+      "designator": "25-30",
+      "ordinal": 30,
+      "effective_date": "1971-11-05"
+    },
+    {
+      "designator": "25-31",
+      "ordinal": 31,
+      "effective_date": "1972-01-10"
+    },
+    {
+      "designator": "25-32",
+      "ordinal": 32,
+      "effective_date": "1972-05-01"
+    },
+    {
+      "designator": "25-33",
+      "ordinal": 33,
+      "effective_date": "1972-10-21"
+    },
+    {
+      "designator": "25-34",
+      "ordinal": 34,
+      "effective_date": "1972-12-31"
+    },
+    {
+      "designator": "25-35",
+      "ordinal": 35,
+      "effective_date": "1974-03-01"
+    },
+    {
+      "designator": "25-36",
+      "ordinal": 36,
+      "effective_date": "1974-10-31"
+    },
+    {
+      "designator": "25-37",
+      "ordinal": 37,
+      "effective_date": "1975-02-14"
+    },
+    {
+      "designator": "25-38",
+      "ordinal": 38,
+      "effective_date": "1977-02-01"
+    },
+    {
+      "designator": "25-39",
+      "ordinal": 39,
+      "effective_date": "1977-02-10"
+    },
+    {
+      "designator": "25-40",
+      "ordinal": 40,
+      "effective_date": "1977-05-02"
+    },
+    {
+      "designator": "25-41",
+      "ordinal": 41,
+      "effective_date": "1977-09-01"
+    },
+    {
+      "designator": "25-42",
+      "ordinal": 42,
+      "effective_date": "1978-03-01"
+    },
+    {
+      "designator": "25-43",
+      "ordinal": 43,
+      "effective_date": "1978-04-12"
+    },
+    {
+      "designator": "25-44",
+      "ordinal": 44,
+      "effective_date": "1978-12-04"
+    },
+    {
+      "designator": "25-45",
+      "ordinal": 45,
+      "effective_date": "1978-12-01"
+    },
+    {
+      "designator": "25-46",
+      "ordinal": 46,
+      "effective_date": "1978-12-01"
+    },
+    {
+      "designator": "25-47",
+      "ordinal": 47,
+      "effective_date": "1979-12-24"
+    },
+    {
+      "designator": "25-48",
+      "ordinal": 48,
+      "effective_date": "1979-12-31"
+    },
+    {
+      "designator": "25-49",
+      "ordinal": 49,
+      "effective_date": "1979-12-31"
+    },
+    {
+      "designator": "25-50",
+      "ordinal": 50,
+      "effective_date": "1980-02-20"
+    },
+    {
+      "designator": "25-51",
+      "ordinal": 51,
+      "effective_date": "1980-03-06"
+    },
+    {
+      "designator": "25-52",
+      "ordinal": 52,
+      "effective_date": "1980-09-09"
+    },
+    {
+      "designator": "25-53",
+      "ordinal": 53,
+      "effective_date": "1980-08-31"
+    },
+    {
+      "designator": "25-54",
+      "ordinal": 54,
+      "effective_date": "1980-10-14"
+    },
+    {
+      "designator": "25-55",
+      "ordinal": 55,
+      "effective_date": "1982-04-28"
+    },
+    {
+      "designator": "25-56",
+      "ordinal": 56,
+      "effective_date": "1983-01-31"
+    },
+    {
+      "designator": "25-57",
+      "ordinal": 57,
+      "effective_date": "1984-03-26"
+    },
+    {
+      "designator": "25-58",
+      "ordinal": 58,
+      "effective_date": "1984-11-26"
+    },
+    {
+      "designator": "25-59",
+      "ordinal": 59,
+      "effective_date": "1984-11-26"
+    },
+    {
+      "designator": "25-60",
+      "ordinal": 60,
+      "effective_date": "1986-06-16"
+    },
+    {
+      "designator": "25-61",
+      "ordinal": 61,
+      "effective_date": "1986-08-20"
+    },
+    {
+      "designator": "25-62",
+      "ordinal": 62,
+      "effective_date": "1987-12-09"
+    },
+    {
+      "designator": "25-63",
+      "ordinal": 63,
+      "effective_date": "1988-05-06"
+    },
+    {
+      "designator": "25-64",
+      "ordinal": 64,
+      "effective_date": "1988-06-16"
+    },
+    {
+      "designator": "25-65",
+      "ordinal": 65,
+      "effective_date": "1988-10-11"
+    },
+    {
+      "designator": "25-66",
+      "ordinal": 66,
+      "effective_date": "1988-09-26"
+    },
+    {
+      "designator": "25-67",
+      "ordinal": 67,
+      "effective_date": "1989-07-24"
+    },
+    {
+      "designator": "25-68",
+      "ordinal": 68,
+      "effective_date": "1990-08-18"
+    },
+    {
+      "designator": "25-69",
+      "ordinal": 69,
+      "effective_date": "1989-10-30"
+    },
+    {
+      "designator": "25-70",
+      "ordinal": 70,
+      "effective_date": "1989-11-27"
+    },
+    {
+      "designator": "25-71",
+      "ordinal": 71,
+      "effective_date": "1990-05-10"
+    },
+    {
+      "designator": "25-72",
+      "ordinal": 72,
+      "effective_date": "1990-08-20"
+    },
+    {
+      "designator": "25-73",
+      "ordinal": 73,
+      "effective_date": "1990-09-10"
+    },
+    {
+      "designator": "25-74",
+      "ordinal": 74,
+      "effective_date": "1991-05-16"
+    },
+    {
+      "designator": "25-75",
+      "ordinal": 75,
+      "effective_date": "1992-01-06"
+    },
+    {
+      "designator": "25-76",
+      "ordinal": 76,
+      "effective_date": "1992-06-03"
+    },
+    {
+      "designator": "25-77",
+      "ordinal": 77,
+      "effective_date": "1992-07-29"
+    },
+    {
+      "designator": "25-78",
+      "ordinal": 78,
+      "effective_date": "1993-03-29"
+    },
+    {
+      "designator": "25-79",
+      "ordinal": 79,
+      "effective_date": "1993-09-27"
+    },
+    {
+      "designator": "25-80",
+      "ordinal": 80,
+      "effective_date": "1994-05-31"
+    },
+    {
+      "designator": "25-81",
+      "ordinal": 81,
+      "effective_date": "1994-05-31"
+    },
+    {
+      "designator": "25-82",
+      "ordinal": 82,
+      "effective_date": "1994-06-21"
+    },
+    {
+      "designator": "25-83",
+      "ordinal": 83,
+      "effective_date": "1995-03-06"
+    },
+    {
+      "designator": "25-84",
+      "ordinal": 84,
+      "effective_date": "1995-07-10"
+    },
+    {
+      "designator": "25-85",
+      "ordinal": 85,
+      "effective_date": "1995-12-28"
+    },
+    {
+      "designator": "25-86",
+      "ordinal": 86,
+      "effective_date": "1996-03-11"
+    },
+    {
+      "designator": "25-87",
+      "ordinal": 87,
+      "effective_date": "1996-07-05"
+    },
+    {
+      "designator": "25-88",
+      "ordinal": 88,
+      "effective_date": "1996-12-09"
+    },
+    {
+      "designator": "25-89",
+      "ordinal": 89,
+      "effective_date": "1997-01-02"
+    },
+    {
+      "designator": "25-90",
+      "ordinal": 90,
+      "effective_date": "1997-03-12"
+    },
+    {
+      "designator": "25-91",
+      "ordinal": 91,
+      "effective_date": "1997-08-28"
+    },
+    {
+      "designator": "25-92",
+      "ordinal": 92,
+      "effective_date": "1998-03-20"
+    },
+    {
+      "designator": "25-93",
+      "ordinal": 93,
+      "effective_date": "1998-03-19"
+    },
+    {
+      "designator": "25-94",
+      "ordinal": 94,
+      "effective_date": "1998-03-25"
+    },
+    {
+      "designator": "25-95",
+      "ordinal": 95,
+      "effective_date": "1998-04-30"
+    },
+    {
+      "designator": "25-96",
+      "ordinal": 96,
+      "effective_date": "1998-04-30"
+    },
+    {
+      "designator": "25-97",
+      "ordinal": 97,
+      "effective_date": "1998-06-26"
+    },
+    {
+      "designator": "25-98",
+      "ordinal": 98,
+      "effective_date": "1999-03-10"
+    },
+    {
+      "designator": "25-99",
+      "ordinal": 99,
+      "effective_date": "2000-06-07"
+    },
+    {
+      "designator": "25-100",
+      "ordinal": 100,
+      "effective_date": "2000-12-13"
+    },
+    {
+      "designator": "25-101",
+      "ordinal": 101,
+      "effective_date": "2001-01-18"
+    },
+    {
+      "designator": "25-102",
+      "ordinal": 102,
+      "effective_date": "2001-06-06"
+    },
+    {
+      "designator": "25-103",
+      "ordinal": 103,
+      "effective_date": "2001-06-15"
+    },
+    {
+      "designator": "25-104",
+      "ordinal": 104,
+      "effective_date": "2001-06-15"
+    },
+    {
+      "designator": "25-105",
+      "ordinal": 105,
+      "effective_date": "2001-07-26"
+    },
+    {
+      "designator": "25-106",
+      "ordinal": 106,
+      "effective_date": "2002-01-15"
+    },
+    {
+      "designator": "25-107",
+      "ordinal": 107,
+      "effective_date": "2002-05-24"
+    },
+    {
+      "designator": "25-108",
+      "ordinal": 108,
+      "effective_date": "2002-12-26"
+    },
+    {
+      "designator": "25-109",
+      "ordinal": 109,
+      "effective_date": "2003-01-13"
+    },
+    {
+      "designator": "25-110",
+      "ordinal": 110,
+      "effective_date": "2003-07-21"
+    },
+    {
+      "designator": "25-111",
+      "ordinal": 111,
+      "effective_date": "2003-09-02"
+    },
+    {
+      "designator": "25-112",
+      "ordinal": 112,
+      "effective_date": "2003-09-04"
+    },
+    {
+      "designator": "25-113",
+      "ordinal": 113,
+      "effective_date": "2004-04-15"
+    },
+    {
+      "designator": "25-114",
+      "ordinal": 114,
+      "effective_date": "2004-06-02"
+    },
+    {
+      "designator": "25-115",
+      "ordinal": 115,
+      "effective_date": "2004-08-02"
+    },
+    {
+      "designator": "25-116",
+      "ordinal": 116,
+      "effective_date": "2004-11-26"
+    },
+    {
+      "designator": "25-117",
+      "ordinal": 117,
+      "effective_date": "2004-12-17"
+    },
+    {
+      "designator": "25-119",
+      "ordinal": 119,
+      "effective_date": "2006-05-11"
+    },
+    {
+      "designator": "25-120",
+      "ordinal": 120,
+      "effective_date": "2007-02-15"
+    },
+    {
+      "designator": "25-121",
+      "ordinal": 121,
+      "effective_date": "2007-10-09"
+    },
+    {
+      "designator": "25-122",
+      "ordinal": 122,
+      "effective_date": "2007-09-05"
+    },
+    {
+      "designator": "25-123",
+      "ordinal": 123,
+      "effective_date": "2007-12-10"
+    },
+    {
+      "designator": "25-124",
+      "ordinal": 124,
+      "effective_date": "2008-04-07"
+    },
+    {
+      "designator": "25-125",
+      "ordinal": 125,
+      "effective_date": "2008-09-19"
+    },
+    {
+      "designator": "25-126",
+      "ordinal": 126,
+      "effective_date": "2008-12-23"
+    },
+    {
+      "designator": "25-127",
+      "ordinal": 127,
+      "effective_date": "2008-11-28"
+    },
+    {
+      "designator": "25-128",
+      "ordinal": 128,
+      "effective_date": "2009-05-29"
+    },
+    {
+      "designator": "25-129",
+      "ordinal": 129,
+      "effective_date": "2009-09-02"
+    },
+    {
+      "designator": "25-130",
+      "ordinal": 130,
+      "effective_date": "2010-10-15"
+    },
+    {
+      "designator": "25-131",
+      "ordinal": 131,
+      "effective_date": "2011-01-03"
+    },
+    {
+      "designator": "25-132",
+      "ordinal": 132,
+      "effective_date": "2011-01-14"
+    },
+    {
+      "designator": "25-133",
+      "ordinal": 133,
+      "effective_date": "2011-03-08"
+    },
+    {
+      "designator": "25-134",
+      "ordinal": 134,
+      "effective_date": "2011-08-08"
+    },
+    {
+      "designator": "25-135",
+      "ordinal": 135,
+      "effective_date": "2012-01-30"
+    },
+    {
+      "designator": "25-136",
+      "ordinal": 136,
+      "effective_date": "2012-03-12"
+    },
+    {
+      "designator": "25-137",
+      "ordinal": 137,
+      "effective_date": "2013-07-02"
+    },
+    {
+      "designator": "25-138",
+      "ordinal": 138,
+      "effective_date": "2014-05-12"
+    },
+    {
+      "designator": "25-139",
+      "ordinal": 139,
+      "effective_date": "2014-12-01"
+    },
+    {
+      "designator": "25-140",
+      "ordinal": 140,
+      "effective_date": "2015-01-05"
+    },
+    {
+      "designator": "25-141",
+      "ordinal": 141,
+      "effective_date": "2015-02-09"
+    },
+    {
+      "designator": "25-142",
+      "ordinal": 142,
+      "effective_date": "2016-04-18"
+    },
+    {
+      "designator": "25-143",
+      "ordinal": 143,
+      "effective_date": "2016-08-23"
+    },
+    {
+      "designator": "25-144",
+      "ordinal": 144,
+      "effective_date": "2017-03-21"
+    },
+    {
+      "designator": "25-145",
+      "ordinal": 145,
+      "effective_date": "2018-03-05"
+    },
+    {
+      "designator": "25-146",
+      "ordinal": 146,
+      "effective_date": "2018-11-19"
+    },
+    {
+      "designator": "25-147",
+      "ordinal": 147,
+      "effective_date": "2023-01-23"
+    },
+    {
+      "designator": "25-148",
+      "ordinal": 148,
+      "effective_date": "2022-12-09"
+    },
+    {
+      "designator": "25-149",
+      "ordinal": 149,
+      "effective_date": "2023-08-14"
+    },
+    {
+      "designator": "25-150",
+      "ordinal": 150,
+      "effective_date": "2023-08-25"
+    },
+    {
+      "designator": "25-151",
+      "ordinal": 151,
+      "effective_date": "2023-07-17"
+    },
+    {
+      "designator": "25-152",
+      "ordinal": 152,
+      "effective_date": "2024-09-26"
+    },
+    {
+      "designator": "25-153",
+      "ordinal": 153,
+      "effective_date": "2024-10-22"
+    }
+  ]
+}

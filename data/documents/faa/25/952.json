@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "952",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel system analysis and test.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "25-40",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system analysis and test.",
+      "text": "[(a) Proper fuel system functioning under all probable operating conditions must be shown by analysis and those tests found necessary by the Administrator. Tests, if required, must be made using the airplane fuel system or a test article that reproduces the operating characteristics of the portion of the fuel system to be tested.\n(b) The likely failure of any heat exchanger using fuel as one of its fluids may not result in a hazardous condition.]",
+      "publication_cite": "42 FR 15043",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/295C5F3E1AF04565852566730049FC59.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

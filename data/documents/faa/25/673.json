@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "673",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Two-control airplanes.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Two-control airplanes.",
+      "text": "Two-control airplanes must be able to continue safely in flight and landing if any one connecting element in the directional-lateral flight control system fails.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B43AB732C582936085256672005064C2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Removed.",
+      "publication_cite": "55 FR 29773",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7FCB1ED988C0F4B385256672005065A8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

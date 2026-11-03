@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "699",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Lift and drag device indicator.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Wing flap position indicator.",
+      "text": "(a) There must be means to indicate the takeoff, en route, approach, and landing flap positions.\n(b) If an extension of the flaps beyond the landing position is possible, the flap control must be clearly marked to identify this range of extension.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/079A31796FE81138852566720050B115.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Lift and drag device indicator.",
+      "text": "[(a) There must be means to indicate to the pilots the position of each lift or drag device having a separate control in the cockpit to adjust its position. In addition, an indication of unsymmetrical operation or other malfunction in the lift or drag device systems must be provided when such indication is necessary to enable the pilots to prevent or counteract an unsafe flight or ground condition, considering the effects on flight characteristics and performance.\n(b) There must be means to indicate to the pilots the takeoff, en route, approach, and landing lift device positions.\n(c) If any extension of the lift and drag devices beyond the landing position is possible, the controls must be clearly marked to identify this range of extension.]",
+      "publication_cite": "35 FR 5675",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0D8FA48BBD01DBBE852566720050B9BA.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

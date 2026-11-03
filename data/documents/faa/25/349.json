@@ -1,0 +1,106 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "349",
+  "current_grouping": "Structure",
+  "canonical_title": "Rolling conditions.",
+  "subject_group": "Flight Maneuver and Gust Conditions",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Rolling conditions.",
+      "text": "The airplane must be designed for rolling loads resulting from the conditions specified in paragraphs (a) and (b) of this section. Unbalanced aerodynamic moments about the center of gravity must be reacted in a rational or conservative manner, considering the principal masses furnishing the reacting inertia forces.\n(a) Maneuvering. The following conditions, speeds, and aileron deflections (except as the deflections may be limited by pilot effort) must be considered in combination with an airplane load factor of zero and of two-thirds of the positive maneuvering factor used in design. In determining the required aileron deflections, the torsional flexibility of the wing must be considered in accordance with Sec. 25.301(b):\n  (1) Conditions corresponding to steady rolling velocities must be investigated. In addition, conditions corresponding to maximum angular acceleration must be investigated for airplanes with engines or other weight concentrations outboard of the fuselage. For the angular acceleration conditions, zero rolling velocity may be assumed in the absence of a rational time history investigation of the maneuver.\n  (2) At VA , a sudden deflection of the aileron to the stop is assumed.\n  (3) At VC , the aileron deflection must be that required to produce a rate of roll not less than that obtained in subparagraph (2) of this paragraph.\n  (4) At VD , the aileron deflection must be that required to produce a rate of roll not less than one-third of that in subparagraph (2) of this paragraph.\n(b) Unsymmetrical gusts. The condition of unsymmetrical gusts must be considered by modifying the symmetrical flight conditions B' or C' (in Sec. 25.333(c)) whichever produces the greater load factor. It is assumed that 100 percent of the wing air load acts on one side of the airplane and 80 percent acts on the other side.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/162885D06EE076E785256672004ED051.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Rolling conditions.",
+      "text": "The airplane must be designed for rolling loads resulting from the conditions specified in paragraphs (a) and (b) of this section. Unbalanced aerodynamic moments about the center of gravity must be reacted in a rational or conservative manner, considering the principal masses furnishing the reacting inertia forces.\n(a) Maneuvering. The following conditions, speeds, and aileron deflections (except as the deflections may be limited by pilot effort) must be considered in combination with an airplane load factor of zero and of two-thirds of the positive maneuvering factor used in design. In determining the required aileron deflections, the torsional flexibility of the wing must be considered in accordance with Sec. 25.301(b):\n  (1) Conditions corresponding to steady rolling velocities must be investigated. In addition, conditions corresponding to maximum angular acceleration must be investigated for airplanes with engines or other weight concentrations outboard of the fuselage. For the angular acceleration conditions, zero rolling velocity may be assumed in the absence of a rational time history investigation of the maneuver.\n  (2) At VA , a sudden deflection of the aileron to the stop is assumed.\n  (3) At VC , the aileron deflection must be that required to produce a rate of roll not less than that obtained in subparagraph (2) of this paragraph.\n  (4) At VD , the aileron deflection must be that required to produce a rate of roll not less than one-third of that in subparagraph (2) of this paragraph.\n(b) Unsymmetrical gusts. The condition of unsymmetrical gusts must be considered by modifying the symmetrical flight conditions B' or C' (in Sec. 25.333(c)) whichever produces the [critical load]. It is assumed that 100 percent of the wing air load acts on one side of the airplane and 80 percent acts on the other side.",
+      "publication_cite": "35 FR 5672",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/99A9B31EE19DDDAE85256672004ED9C9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-86",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Rolling conditions.",
+      "text": "[The airplane must be designed for loads resulting from the rolling conditions specified in paragraphs (a) and (b) of this section. Unbalanced aerodynamic moments about the center of gravity must be reacted to in a rational or conservative manner, considering the principal masses furnishing the reaching inertia forces.]\n(a) Maneuvering. The following conditions, speeds, and aileron deflections (except as the deflections may be limited by pilot effort) must be considered in combination with an airplane load factor of zero and of two-thirds of the positive maneuvering factor used in design. In determining the required aileron deflections, the torsional flexibility of the wing must be considered in accordance with Sec. 25.301(b):\n  (1) Conditions corresponding to steady rolling velocities must be investigated. In addition, conditions corresponding to maximum angular acceleration must be investigated for airplanes with engines or other weight concentrations outboard of the fuselage. For the angular acceleration conditions, zero rolling velocity may be assumed in the absence of a rational time history investigation of the maneuver.\n  (2) At VA, a sudden deflection of the aileron to the stop is assumed.\n  (3) At VC, the aileron deflection must be that required to produce a rate of roll not less than that obtained in paragraph (a)(2) of this section.\n  (4) At VD, the aileron deflection must be that required to produce a rate of roll not less than one-third of that in paragraph (a)(2) of this paragraph.\n(b) Unsymmetrical gusts. [The airplane is assumed to be subjected to unsymmetrical vertical gusts in level flight. The resulting limit loads must be determined from either the wing maximum airload derived directly from Sec. 25.341(a), or the wing maximum airload derived indirectly from the vertical load factor calculated from Sec. 25.341(a). It must be assumed that 100 percent of the wing air load acts on one side of the airplane and 80 percent of the wing air load acts on the other side.]",
+      "publication_cite": "61 FR 5222",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/63CBCD2A2B4297F285256672004ED572.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-29",
+          "issued_on": "1994-09-08",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27902",
+          "issued_on": "1996-02-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-94",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Rolling conditions.",
+      "text": "The airplane must be designed for loads resulting from the rolling conditions specified in paragraphs (a) and (b) of this section. Unbalanced aerodynamic moments about the center of gravity must be reacted to in a rational or conservative manner, considering the principal masses furnishing the [reacting inertia forces.]\n(a) Maneuvering. The following conditions, speeds, and aileron deflections (except as the deflections may be limited by pilot effort) must be considered in combination with an airplane load factor of zero and of two-thirds of the positive maneuvering factor used in design. In determining the required aileron deflections, the torsional flexibility of the wing must be considered in accordance with Sec. 25.301(b):\n  (1) Conditions corresponding to steady rolling velocities must be investigated. In addition, conditions corresponding to maximum angular acceleration must be investigated for airplanes with engines or other weight concentrations outboard of the fuselage. For the angular acceleration conditions, zero rolling velocity may be assumed in the absence of a rational time history investigation of the maneuver.\n  (2) At VA, a sudden deflection of the aileron to the stop is assumed.\n  (3) At VC, the aileron deflection must be that required to produce a rate of roll not less than that obtained in paragraph (a)(2) of this section.\n  (4) At VD, the aileron deflection must be that required to produce a rate of roll not less than one-third of that in paragraph (a)(2) of this paragraph.\n(b) Unsymmetrical gusts. The airplane is assumed to be subjected to unsymmetrical vertical gusts in level flight. The resulting limit loads must be determined from either the wing maximum airload derived directly from Sec. 25.341(a), or the wing maximum airload derived indirectly from the vertical load factor calculated from Sec. 25.341(a). It must be assumed that 100 percent of the wing air load acts on one side of the airplane and 80 percent of the wing air load acts on the other side.",
+      "publication_cite": "63 FR 8848",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5F263191299420C585256672004ED748.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Not Applicable."
+        },
+        {
+          "type": "final_rule",
+          "reference": "29147",
+          "issued_on": "1998-02-20",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

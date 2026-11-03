@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1101",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Carburetor air preheater design.",
+  "subject_group": "Induction System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Carburetor air preheater design.",
+      "text": "Each carburetor air preheater must be designed and constructed to--\n(a) Ensure ventilation of the preheater when the engine is operated in cold air;\n(b) Allow inspection of the exhaust manifold parts that it surrounds; and\n(c) Allow inspection of critical parts of the preheater itself.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A2F6E8B6061618D585256673004BD2FB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

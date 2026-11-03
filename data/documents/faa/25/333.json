@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "333",
+  "current_grouping": "Structure",
+  "canonical_title": "Flight (maneuvering) envelope.",
+  "subject_group": "Flight Maneuver and Gust Conditions",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Flight envelope.",
+      "text": "(a) General. The strength requirements must be met at each combination of airspeed and load factor on and within the boundaries of the representative maneuvering and gust envelopes (V-n diagrams) of paragraphs (b) and (c) of this section. These envelopes must also be used in determining the airplane structural operating limitations as specified in Sec. 25.1501.\n(b) Maneuvering envelope.\n(c) Gust envelope.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/33CFEB3483910F0085256672004EA7F2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-86",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Flight (maneuvering) envelope.",
+      "text": "(a) General. [The strength requirements must be met at each combination of airspeed and load factor on and within the boundaries of the representative maneuvering envelope (V-n diagram) of paragraph (b) of this section. This envelope must also be used in determining the airplane structural operating limitations as specified in Sec. 25.1501.]\n(b) Maneuvering envelope.\n(c) [Removed.]",
+      "publication_cite": "61 FR 5220",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/220E178AB9B151DC85256672004EBEDF.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-29",
+          "issued_on": "1994-09-08",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27902",
+          "issued_on": "1996-02-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

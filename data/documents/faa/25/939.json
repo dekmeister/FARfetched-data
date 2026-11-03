@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "939",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Turbine engine operating characteristics.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Turbine engine powerplant operating characteristics.",
+      "text": "Turbine engine powerplant operating characteristics must be investigated in flight to determine that no adverse characteristics (such as stall, surge, or flameout) are present to a hazardous degree, during normal and emergency operation within the range of operating limitations of the airplane and of the engine.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1B812DF99C920BBE852566730049EE94.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-11",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Turbine engine operating characteristics.",
+      "text": "[(a) Turbine engine operating characteristics must be investigated in flight to determine that no adverse characteristics (such as stall, surge, or flameout) are present, to a hazardous degree, during normal and emergency operation within the range of operating limitations of the airplane and of the engine.\n(b) No hazardous malfunction of the turbine engine may occur when the airplane is operated at the negative acceleration, within the flight envelope prescribed in Sec. 25.333, that is most critical from a fuel flow standpoint. This must be shown for the greatest duration expected for that acceleration.\n(c) The turbine engine air inlet system may not, as a result of air flow distortion during normal operation, cause vibration harmful to the engine.]",
+      "publication_cite": "32 FR 6912",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/75E3E7E21820A3C285256673004A06C1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-43",
+          "issued_on": "1965-12-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7095",
+          "issued_on": "1967-04-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-40",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Turbine engine operating characteristics.",
+      "text": "(a) Turbine engine operating characteristics must be investigated in flight to determine that no adverse characteristics (such as stall, surge, or flameout) are present, to a hazardous degree, during normal and emergency operation within the range of operation limitations of the airplane and of the engine.\n[(b) [Reserved.]]\n(c) The turbine engine air inlet system may not, as a result of air flow distortion during normal operation, cause vibration harmful to the engine.",
+      "publication_cite": "42 FR 15043",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4D98AC6B4D56C67B85256673004A02EC.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

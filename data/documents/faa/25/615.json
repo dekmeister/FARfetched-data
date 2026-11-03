@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "615",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Design properties.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Design properties.",
+      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  (1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (\"A\" values) listed in MIL-HDBK-5 must be met.\n  (2) Redundant structures, in which the failure of individual elements would result in applied loads being safely distributed to other load-carrying members, may be designed on the basis of the \"90 percent probability (\"B\" values)\" listed in MIL-HDBK-5.\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used where only guaranteed minimum values are normally allowed if a \"premium selection\" of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A4BE5710A7AE700885256672005035C5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Design properties.",
+      "text": "(a) Design properties outlined in MIL-HDBK-5 may be used subject to the following conditions:\n  (1) Where applied loads are eventually distributed through a single member within an assembly, the failure of which would result in the loss of the structural integrity of the component involved, the guaranteed minimum design mechanical properties (\"A\" values) [when] listed in MIL-HDBK-5 must be met.\n  (2) Redundant structures, in which the failure of individual elements would result in applied loads being safely distributed to other load-carrying members, may be designed on the basis of the \"90 percent probability (\"B\" values)\" [when] listed in MIL-HDBK-5.\n(b) Design values greater than the guaranteed minimums required by paragraph (a) of this section may be used where only guaranteed minimum values are normally allowed if a \"premium selection\" of the material is made in which a specimen of each individual item is tested before use to determine that the actual strength properties of that particular item will equal or exceed those used in design.",
+      "publication_cite": "35 FR 5671",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B24B1137F8C1937D852566720050483D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Removed.",
+      "publication_cite": "55 FR 29773",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/79447E0EC5970AE98525667200503878.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

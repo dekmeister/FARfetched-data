@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1393",
+  "current_grouping": "Equipment",
+  "canonical_title": "Minimum intensities in any vertical plane of forward and rear position lights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Minimum intensities in any vertical plane of forward and rear position lights.",
+      "text": "Each position light intensity must equal or exceed the applicable values in the following table: Angle above or below the horizontal plane: Intensity 0\u00b0 -------------------------------------------------------------------------------------- 1.00 I. 0\u00b0 to 5\u00b0 ------------------------------------------------------------------------------- 0.90 I. 5\u00b0 to 10\u00b0 ----------------------------------------------------------------------------- 0.80 I. 10\u00b0 to 15\u00b0 --------------------------------------------------------------------------- 0.70 I. 15\u00b0 to 20\u00b0 --------------------------------------------------------------------------- 0.50 I. 20\u00b0 to 30\u00b0 --------------------------------------------------------------------------- 0.30 I. 30\u00b0 to 40\u00b0 --------------------------------------------------------------------------- 0.10 I. 40\u00b0 to 90\u00b0 --------------------------------------------------------------------------- 0.05 I.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/64C9FF9753FC3E3585256673004D87ED.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

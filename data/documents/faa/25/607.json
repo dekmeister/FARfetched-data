@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "607",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Fasteners.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Self-locking nuts.",
+      "text": "No self-locking nut may be used on any bolt subject to rotation during airplane operation.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4D6C5580C2EDBC9B8525667200502B54.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Fasteners.",
+      "text": "[(a) Each removable bolt, screw, nut, pin, or other removable fastener must incorporate two separate locking devices if--\n  (1) Its loss could preclude continued flight and landing within the design limitations of the airplane using normal pilot skill and strength; or\n  (2) Its loss could result in reduction in pitch, yaw, or roll control capability or response below that required by Subpart B of this chapter.\n(b) The fasteners specified in paragraph (a) of this section and their locking devices may not be adversely affected by the environmental conditions associated with the particular installation.\n(c) No self-locking nut may be used on any bolt subject to rotation in operation unless a nonfriction locking device is used in addition to the self-locking device.]",
+      "publication_cite": "35 FR 5674",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DE6971DD7884EC258525667200504629.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "409",
+  "current_grouping": "Structure",
+  "canonical_title": "Tabs.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Tabs.",
+      "text": "(a) Trim tabs. Trim tabs must be designed to withstand loads arising from all likely combinations of tab setting, primary control position, and airplane speed (obtainable without exceeding the flight load conditions prescribed for the airplane as a whole), when the effect of the tab is opposed by pilot effort forces up to those specified in Sec. 25.397(b).\n(b) Balancing tabs. Balancing tabs must be designed for deflections consistent with the primary control surface loading conditions.\n(c) Servo tabs. Servo tabs must be designed for deflections consistent with the primary control surface loading conditions obtainable within the pilot maneuvering effort, considering possible opposition from the trim tabs.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9DCFF8B756380F1C85256672004F3072.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

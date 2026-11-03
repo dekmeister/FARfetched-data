@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "953",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel system independence.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system independence.",
+      "text": "Each fuel system must meet the requirements of Sec. 25.903(b) by--\n(a) Allowing the supply of fuel to each engine through a system independent of each part of the system supplying fuel to any other engine; or\n(b) Any other acceptable method.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A5372105CE367B5D852566730049EAC9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

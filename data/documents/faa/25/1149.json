@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1149",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Propeller speed and pitch controls.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Propeller speed and pitch controls.",
+      "text": "(a) There must be a separate propeller speed and pitch control for each propeller.\n(b) The controls must be grouped and arranged to allow--\n  (1) Separate control of each propeller; and\n  (2) Simultaneous control of all propellers.\n(c) The controls must allow synchronization of all propellers.\n(d) The propeller speed and pitch controls must be to the right of, and at least one inch below, the pilot's throttle controls.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D03EDD2BC989694185256673004CD614.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

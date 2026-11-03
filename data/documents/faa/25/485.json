@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "485",
+  "current_grouping": "Structure",
+  "canonical_title": "Side load conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Side load conditions.",
+      "text": "(a) For the side load condition, the airplane is assumed to be in the level attitude with only the main wheels contacting the ground, in accordance with figure 5 of Appendix A.\n(b) Side loads of 0.8 of the vertical reaction (on one side) acting inward and 0.6 of the vertical reaction (on the other side) acting outward must be combined with one-half of the maximum vertical ground reactions obtained in the level landing conditions. These loads are assumed to be applied at the ground contact point and to be resisted by the inertia of the airplane. The drag loads may be assumed to be zero.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CC49ADBAD002907985256672004FC7A5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-91",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Side load conditions.",
+      "text": "[In addition to Sec. 25.479(d)(2) the following conditions must be considered:]\n(a) For the side load condition, the airplane is assumed to be in the level attitude with only the main wheels contacting the ground, in accordance with figure 5 of Appendix A.\n(b) Side loads of 0.8 of the vertical reaction (on one side) acting inward and 0.6 of the vertical reaction (on the other side) acting outward must be combined with one-half of the maximum vertical ground reactions obtained in the level landing conditions. These loads are assumed to be applied at the ground contact point and to be resisted by the inertia of the airplane. The drag loads may be assumed to be zero.",
+      "publication_cite": "62 FR 40705",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/25640DAA2DC3A56985256672004FD14E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "95-14",
+          "issued_on": "1995-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "28312",
+          "issued_on": "1997-07-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

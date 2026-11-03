@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "651",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Proof of strength.",
+  "subject_group": "Control Surfaces",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Proof of strength.",
+      "text": "(a) Limit load tests of control surfaces are required. These tests must include the horn or fitting to which the control system is attached.\n(b) Compliance with the special factors requirements of Secs. 25.619 through 25.625 and 25.657 for control surface hinges must be shown by analysis or individual load tests.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AEB4F141F45B0DA4852566720050613D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "943",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Negative acceleration.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-40",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Negative acceleration.",
+      "text": "[No hazardous malfunction of an engine, an auxiliary power unit approved for use in flight, or any component or system associated with the powerplant or auxiliary power unit may occur when the airplane is operated at the negative accelerations within the flight envelopes prescribed in Sec. 25.333. This must be shown for the greatest duration expected for the acceleration.]",
+      "publication_cite": "42 FR 15043",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9035542E9FC19681852566730049FB5E.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14606, 14324",
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

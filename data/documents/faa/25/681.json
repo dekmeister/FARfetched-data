@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "681",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Limit load static tests.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Limit load static tests.",
+      "text": "(a) Compliance with the limit load requirements of this Part must be shown by tests in which--\n  (1) The direction of the test loads produces the most severe loading in the control system; and\n  (2) Each fitting, pulley, and bracket used in attaching the system to the main structure is included.\n(b) Compliance must be shown (by analyses or individual load tests) with the special factor requirements for control system joints subject to angular motion.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/31828DD24D7079898525667200507B9A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

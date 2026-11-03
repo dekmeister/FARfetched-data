@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1333",
+  "current_grouping": "Equipment",
+  "canonical_title": "Instrument systems.",
+  "subject_group": "Instruments:  Installation",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Duplicate instrument systems.",
+      "text": "If duplicate flight instruments are required by any operating rule in this chapter--\n(a) Each operating system for flight instruments for the first pilot, and required to be duplicated at other flight crew stations, must be independent of the operating system for other flight crew stations;\n(b) Only the required flight instruments, and duplicates of required instruments, provided for the first pilot may be connected to the operating system provided for the first pilot; and\n(c) If instruments other than required instruments and their duplicates are connected to systems other than the first pilot's operating system, there must be means to disconnect or isolate these instruments in flight.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7EC74639DE0324EA85256673004D7D0D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instrument systems.",
+      "text": "[For systems that operate the instruments required by Sec. 25.1303(b) which are located at each pilot's station--\n(a) Means must be provided to connect the required instruments at the first pilot's station to operating systems which are independent of the operating systems at other flight crew stations, or other equipment.\n(b) The equipment, systems, and installations must be designed so that one display of the information essential to the safety of flight which is provided by the instruments, including attitude, direction, airspeed, and altitude will remain available to the pilots, without additional crewmember action, after any single failure or combination of failures that is not shown to be extremely improbable; and\n(c) Additional instruments, systems, or equipment may not be connected to the operating systems for the required instruments, unless provisions are made to ensure the continued normal functioning of the required instruments in the event of any malfunction of the additional instruments, systems, or equipment which is not shown to be extremely improbable.]",
+      "publication_cite": "35 FR 5679",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B239E1E7C97FE25285256673004DA725.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-41",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instrument systems.",
+      "text": "For systems that operate the instruments required by Sec. 25.1303(b) which are located at each pilot's station--\n[(a) Means must be provided to connect the required instruments at the first pilot's station to operating systems which are independent of the operating systems at other flight crew stations, or other equipment; ]\n(b) The equipment, systems, and installations must be designed so that one display of the information essential to the safety of flight which is provided by the instruments, including attitude, direction, airspeed, and altitude will remain available to the pilots, without additional crewmember action, after any single failure or combination of failures that is not shown to be extremely improbable; and\n(c) Additional instruments, systems, or equipment may not be connected to the operating systems for the required instruments, unless provisions are made to ensure the continued normal functioning of the required instruments in the event of any malfunction of the additional instruments, systems, or equipment which is not shown to be extremely improbable.",
+      "publication_cite": "42 FR 36970",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B27F53B349D812E186256E19005B709C.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\nNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 05/19/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14625",
+          "issued_on": "1977-07-11",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1023",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Oil radiators.",
+  "subject_group": "Oil System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil radiators.",
+      "text": "(a) Each oil radiator must be able to withstand, without failure, any vibration, inertia, and oil pressure load to which it would be subjected in operation.\n(b) Each oil radiator air duct must be located so that, in case of fire, flames coming from normal openings of the engine nacelle cannot impinge directly upon the radiator.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6E7251831FCE09AB85256673004A3383.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

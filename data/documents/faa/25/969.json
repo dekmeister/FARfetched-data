@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "969",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel tank expansion space.",
+  "subject_group": "Fuel System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank expansion space.",
+      "text": "Each fuel tank must have an expansion space of not less than two percent of the tank capacity. It must be impossible to fill the expansion space inadvertently with the airplane in the normal ground attitude.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/663C2817C6FE4E2C852566730049F418.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-11",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel tank expansion space.",
+      "text": "[Each fuel tank must have an expansion space of not less than 2 percent of the tank capacity. It must be impossible to fill the expansion space inadvertently with the airplane in the normal ground attitude. For pressure fueling systems, compliance with this section may be shown with the means provided to comply with Sec. 25.979(b).]",
+      "publication_cite": "32 FR 6913",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/70B46B052DB1A57E85256673004A0A3D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-43",
+          "issued_on": "1965-12-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7095",
+          "issued_on": "1967-04-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1381",
+  "current_grouping": "Equipment",
+  "canonical_title": "Instrument lights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instrument lights.",
+      "text": "(a) The instrument lights must--\n  (1) Make each instrument, switch, and other device for which they are provided easily readable; and\n  (2) Be installed so that--\n    (i) Their direct rays are shielded from the pilot's eyes; and\n    (ii) No objectionable reflections are visible to the pilot.\n(b) Unless undimmed instrument lights are satisfactory under each expected flight condition, there must be a means to control the intensity of illumination.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/6C6613FBC52ECD5E85256673004D88F1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instrument lights.",
+      "text": "(a) The instrument lights must--\n  [ (1) Provide sufficient illumination to make each instrument, switch and other device necessary for safe operation easily readable unless sufficient illumination is available from another source; and]\n  (2) Be installed so that--\n    (i) Their direct rays are shielded from the pilot's eyes; and\n    (ii) No objectionable reflections are visible to the pilot.\n(b) Unless undimmed instrument lights are satisfactory under each expected flight condition, there must be a means to control the intensity of illumination.",
+      "publication_cite": "55 FR 29785",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/690F02069DA602C785256673004D96E8.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

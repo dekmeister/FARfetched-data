@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1142",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Auxiliary power unit controls.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-46",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Auxiliary power unit controls.",
+      "text": "[Means must be provided on the flight deck for starting, stopping, and emergency shutdown of each installed auxiliary power unit.]",
+      "publication_cite": "43 FR 50598",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/300002C3FF708DE685256673004BD7D4.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75.\n\tNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 05/19/75.\n\tNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 06/09/75.\n\tNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 06/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324, 14606, 14625, 14685, 14779",
+          "issued_on": "1978-10-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

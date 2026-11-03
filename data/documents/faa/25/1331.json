@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1331",
+  "current_grouping": "Equipment",
+  "canonical_title": "Instruments using a power supply.",
+  "subject_group": "Instruments:  Installation",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instruments using a power supply.",
+      "text": "(a) For each rate-of-turn, bank and pitch, and direction indicator required by Sec. 25.1303 (a)(6), (7), and (8), that uses a power supply, the following apply:\n  (1) Each instrument must have a visual means integral with, or adjacent to, the instrument, to indicate when power adequate to sustain proper instrument performance is not being supplied. The power must be measured at or near the point where it enters the instruments. For electric instruments, the power is considered to be adequate when the voltage is within approved limits.\n  (2) Each instrument must have two independent power sources and a means for selecting either source. For duplicate independent instruments with independent power sources, source selection is not required.\n  (3) Each instrument and its related power supply system must be designed and installed so that failure of one instrument, or the failure of the energy supply from one source, or a fault in any part of the power distribution system, does not interfere with the proper supply of energy from the other source.\n(b) As used in this section, \"instrument\" includes devices that are physically contained in one unit, and devices that are composed of two or more physically separate units or components connected together (such as a remote indicating gyroscopic direction indicator that includes a magnetic sensing element, a gyroscopic unit, an amplifier, and an indicator connected together).",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/476B8EDB3D6FA83285256673004D8306.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instruments using a power supply.",
+      "text": "[ (a) For each instrument required by Sec. 25.1303(b) that uses a power supply, the following apply:\n  (1) Each instrument must have a visual means integral with, or adjacent to, the instrument, to indicate when power adequate to sustain proper instrument performance is not being supplied. The power must be measured at or near the point where it enters the instruments. For electric instruments, the power is considered to be adequate when the voltage is within approved limits.\n  (2) Each instrument must have two independent power sources and a means for selecting either source. For duplicate independent instruments with independent power sources, source selection is not required.]\n  (3) Each instrument and its related power supply system must be designed and installed so that failure of one instrument, or the failure of the energy supply from one source, or a fault in any part of the power distribution system, does not interfere with the proper supply of energy from the other source.\n(b) As used in this section, \"instrument\" includes devices that are physically contained in one unit, and devices that are composed of two or more physically separate units or components connected together (such as a remote indicating gyroscopic direction indicator that includes a magnetic sensing element, a gyroscopic unit, an amplifier, and an indicator connected together).",
+      "publication_cite": "35 FR 5671",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/175DD18D114E5EA386256F9D007337A2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-41",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Instruments using a power supply.",
+      "text": "(a) For each instrument required by Sec. 25.1303(b) that uses a power supply, the following apply:\n  [(1) Each instrument must have a visual means integral with the instrument, to indicate when power adequate to sustain proper instrument performance is not being supplied. The power must be measured at or near the point where it enters the instruments. For electric instruments, the power is considered to be adequate when the voltage is within approved limits.\n  (2) Each instrument must, in the event of the failure of one power source, be supplied by another power source. This may be accomplished automatically or by manual means.\n  (3) If an instrument presenting navigation data receives information from sources external to that instrument and loss of that information would render the presented data unreliable, the instrument must incorporate a visual means to warn the crew when such loss of information occurs, that the presented data should not be relied upon.]\n(b) As used in this section, \"instrument\" includes devices that are physically contained in one unit, and devices that are composed of two or more physically separate units or components connected together (such as a remote indicating gyroscopic direction indicator that includes a magnetic sensing element, a gyroscopic unit, an amplifier, and an indicator connected together.)",
+      "publication_cite": "42 FR 36970",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B437DDCB69EEA40385256673004D9AF1.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 05/19/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14625",
+          "issued_on": "1977-07-11",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

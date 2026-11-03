@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "23",
+  "current_grouping": "Flight",
+  "canonical_title": "Load distribution limits.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Load distribution limits.",
+      "text": "(a) Ranges of weights and centers of gravity within which the airplane may be safely operated must be established. If a weight and center of gravity combination is allowable only within certain load distribution limits (such as spanwise) that could be inadvertently exceeded, these limits and the corresponding weight and center of gravity combinations must be established.\n(b) The load distribution limits may not exceed--\n  (1) The selected limits;\n  (2) The limits at which the structure is proven; or\n  (3) The limits at which compliance with each applicable flight requirement of this subpart is shown.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/94A0238D3397B86B8525667200482FAA.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

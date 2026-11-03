@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1187",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Drainage and ventilation of fire zones.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Drainage and ventilation of fire zones.",
+      "text": "(a) There must be complete drainage of each part of each designated fire zone to minimize the hazards resulting from failure or malfunctioning of any component containing flammable fluids. The drainage means must be--\n  (1) Effective under conditions expected to prevail when drainage is needed; and\n  (2) Arranged so that no discharged fluid will cause an additional fire hazard.\n(b) Each designated fire zone must be ventilated to prevent the accumulation of flammable vapors.\n(c) No ventilation opening may be where it would allow the entry of flammable fluids, vapors, or flame from other zones.\n(d) Each ventilation means must be arranged so that no discharged vapors will cause an additional fire hazard.\n(e) Unless the extinguishing agent capacity and rate of discharge are based on maximum air flow through a zone, there must be means to allow the crew to shut off sources of forced ventilation to any fire zone except the engine power section of the nacelle and the combustion heater ventilating air ducts.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EE1B0795593395D985256673004D22EA.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

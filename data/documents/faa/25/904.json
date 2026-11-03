@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "904",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Automatic takeoff thrust control system (ATTCS).",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-62",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Automatic takeoff thrust control system (ATTCS).",
+      "text": "[Each applicant seeking approval for installation of an engine power control system that automatically resets the power or thrust on the operating engine(s) when any engine fails during the takeoff must comply with the requirements of Appendix I of this part.]",
+      "publication_cite": "52 FR 43156",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4F7667D760FD663A8525667200520C3F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-4",
+          "issued_on": "1984-01-27",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24046",
+          "issued_on": "1987-11-04",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

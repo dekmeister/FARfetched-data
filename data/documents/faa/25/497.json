@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "497",
+  "current_grouping": "Structure",
+  "canonical_title": "Tail-wheel yawing.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Tail-wheel yawing.",
+      "text": "(a) A vertical ground reaction equal to the static load on the tail wheel, in combination with a side component of equal magnitude, is assumed.\n(b) If there is a swivel, the tail wheel is assumed to be swiveled 90\u00b0 to the airplane longitudinal axis with the resultant load passing through the axle.\n(c) If there is a lock, steering device, or shimmy damper the tail wheel is also assumed to be in the trailing position with the side load acting at the ground contact point.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/592E2A9FA612D4BB85256672004FE48E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

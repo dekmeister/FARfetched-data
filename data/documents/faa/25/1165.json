@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1165",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Engine ignition systems.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Engine ignition systems.",
+      "text": "(a) Each battery ignition system must be supplemented by a generator that is automatically available as an alternate source of electrical energy to allow continued engine operation if any battery becomes depleted.\n(b) The capacity of batteries and generators must be large enough to meet the simultaneous demands of the engine ignition system and the greatest demands of any electrical system components that draw electrical energy from the same source.\n(c) The design of the engine ignition system must account for--\n  (1) The condition of an inoperative generator;\n  (2) The condition of a completely depleted battery with the generator running at its normal operating speed; and\n  (3) The condition of a completely depleted battery with the generator operating at idling speed, if there is only one battery.\n(d) Magneto ground wiring (for separate ignition circuits) that lies on the engine side of the fire wall, must be installed, located, or protected, to minimize the probability of simultaneous failure of two or more wires as a result of mechanical damage, electrical faults, or other cause.\n(e) No ground wire for any engine may be routed through a fire zone of another engine unless each part of that wire within that zone is fireproof.\n(f) Each ignition system must be independent of any electrical circuit not used for analyzing the operation of that system. There must be means to warn appropriate flight crewmembers if the malfunctioning of any part of the electrical system is causing the continuous discharge of any battery necessary for engine ignition.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/277658032C1D01E885256673004CD22B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Engine ignition systems.",
+      "text": "(a) Each battery ignition system must be supplemented by a generator that is automatically available as an alternate source of electrical energy to allow continued engine operation if any battery becomes depleted.\n(b) The capacity of batteries and generators must be large enough to meet the simultaneous demands of the engine ignition system and the greatest demands of any electrical system components that draw electrical energy from the same source.\n(c) The design of the engine ignition system must account for--\n  (1) The condition of an inoperative generator;\n  (2) The condition of a completely depleted battery with the generator running at its normal operating speed; and\n  (3) The condition of a completely depleted battery with the generator operating at idling speed, if there is only one battery.\n(d) Magneto ground wiring (for separate ignition circuits) that lies on the engine side of the fire wall, must be installed, located, or protected, to minimize the probability of simultaneous failure of two or more wires as a result of mechanical damage, electrical faults, or other cause.\n(e) No ground wire for any engine may be routed through a fire zone of another engine unless each part of that wire within that zone is fireproof.\n[(f) Each ignition system must be independent of any electrical circuit not used for assisting, controlling, or analyzing the operation of that system.]\n(g) There must be means to warn appropriate flight crewmembers if the malfunctioning of any part of the electrical system is causing the continuous discharge of any battery necessary for engine ignition.",
+      "publication_cite": "35 FR 5677",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4780084675E0E7A685256673004CE61E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Engine ignition systems.",
+      "text": "(a) Each battery ignition system must be supplemented by a generator that is automatically available as an alternate source of electrical energy to allow continued engine operation if any battery becomes depleted.\n(b) The capacity of batteries and generators must be large enough to meet the simultaneous demands of the engine ignition system and the greatest demands of any electrical system components that draw electrical energy from the same source.\n(c) The design of the engine ignition system must account for--\n  (1) The condition of an inoperative generator;\n  (2) The condition of a completely depleted battery with the generator running at its normal operating speed; and\n  (3) The condition of a completely depleted battery with the generator operating at idling speed, if there is only one battery.\n(d) Magneto ground wiring (for separate ignition circuits) that lies on the engine side of the fire wall, must be installed, located, or protected, to minimize the probability of simultaneous failure of two or more wires as a result of mechanical damage, electrical faults, or other cause.\n(e) No ground wire for any engine may be routed through a fire zone of another engine unless each part of that wire within that zone is fireproof.\n(f) Each ignition system must be independent of any electrical circuit, not used for assisting, controlling, or analyzing the operation of that system.\n(g) There must be means to warn appropriate flight crewmembers if the malfunctioning of any part of the electrical system is causing the continuous discharge of any battery necessary for engine ignition.\n[(h) Each engine ignition system of a turbine powered airplane must be considered an essential electrical load.]",
+      "publication_cite": "55 FR 29785",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9F105AFFAA9B636C85256673004CDE1A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1545",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Airspeed limitation information.",
+  "subject_group": "Markings and Placards",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Airspeed limitation information.",
+      "text": "The airspeed limitations required by Sec. 25.1583(a) must be easily read and understood by the flight crew.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9CDE9AC124FFC8E785256673004ED778.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

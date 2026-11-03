@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1153",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Propeller feathering controls.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Propeller feathering controls.",
+      "text": "(a) There must be a separate propeller feathering control for each propeller. The control must have means to prevent its inadvertent operation.\n(b) If feathering is accomplished by movement of the propeller pitch or speed control lever, there must be means to prevent the movement of this lever to the feathering position during normal operation.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5765C968C114213085256673004CD41F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-11",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Propeller feathering controls.",
+      "text": "(a) There must be a separate propeller feathering control for each propeller. The control must have means to prevent its inadvertent operation.\n[(b) If feathering is accomplished by movement of the propeller pitch or speed control lever, there must be means to prevent the inadvertent movement of this lever to the feathering position during normal operation.]",
+      "publication_cite": "32 FR 6913",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2B86D52933BA15D585256673004CE217.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-43",
+          "issued_on": "1965-12-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7095",
+          "issued_on": "1967-04-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

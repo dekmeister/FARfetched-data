@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1522",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Auxiliary power unit limitations.",
+  "subject_group": "Operating Limitations",
+  "versions": [
+    {
+      "designator": "25-46",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Auxiliary power unit limitations.",
+      "text": "[If an auxiliary power unit that meets the requirements of TSO-C77 (Sec. 27.183) is installed in the airplane, the limitations established for that auxiliary power unit under the TSO, including the categories of operation, must be specified as operating limitations for the airplane.]",
+      "publication_cite": "43 FR 50594",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4236592E13531C3C85256673004EFAD6.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75.\n\tNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 05/19/75.\n\tNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 06/09/75.\n\tNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 06/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324, 14606, 14625, 14685, 14779",
+          "issued_on": "1978-10-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Auxiliary power unit limitations.",
+      "text": "[If an auxiliary power unit is installed in the airplane, limitations established for the auxiliary power unit, including categories of operation, must be specified as operating limitations for the airplane.]",
+      "publication_cite": "55 FR 29786",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A2D7D948D3FFF0B585256673004EEE33.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "477",
+  "current_grouping": "Structure",
+  "canonical_title": "Landing gear arrangement.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Landing gear arrangement.",
+      "text": "Sections 25.479 through 25.485 apply to airplanes with conventional arrangements of main and nose gears, or main and tail gears, when normal operating techniques are used.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C945BC28AD3BB46585256672004FB65B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

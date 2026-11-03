@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "507",
+  "current_grouping": "Structure",
+  "canonical_title": "Reversed braking.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Reversed braking.",
+      "text": "(a) The airplane must be in a three point static ground attitude. Horizontal reactions parallel to the ground and directed forward must be applied at the ground contact point of each wheel with brakes. The limit loads must be equal to 0.55 times the vertical load at each wheel or to the load developed by 1.2 times the nominal maximum static brake torque, whichever is less.\n(b) For airplanes with nose wheels, the pitching moment must be balanced by rotational inertia.\n(c) For airplanes with tail wheels, the resultant of the ground reactions must pass through the center of gravity of the airplane.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A500558EEE2E37E685256672004FE723.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

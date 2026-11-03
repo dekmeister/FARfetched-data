@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1513",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Minimum control speed.",
+  "subject_group": "Operating Limitations",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Minimum control speed.",
+      "text": "The minimum control speed VMC determined under Sec. 25.149 must be established as an operating limitation.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F259C186EA4FB0A885256673004EE458.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

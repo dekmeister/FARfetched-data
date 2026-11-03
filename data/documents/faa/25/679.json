@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "679",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Control system gust locks.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Control system gust locks.",
+      "text": "(a) There must be a device to prevent damage to the control surfaces (including tabs), and to the control system, from gusts striking the airplane while it is on the ground or water. If the device, when engaged, prevents normal operation of the control surfaces by the pilot, it must--\n  (1) Automatically disengage when the pilot operates the primary flight controls in a normal manner; or\n  (2) Limit the operation of the airplane so that the pilot receives unmistakable warning at the start of takeoff.\n(b) The device must have means to preclude the possibility of it becoming inadvertently engaged in flight.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F3166E6B33DBDBEA85256672005079EC.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

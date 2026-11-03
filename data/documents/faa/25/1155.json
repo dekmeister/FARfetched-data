@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1155",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Reverse thrust and propeller pitch settings below the flight regime.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Reverse thrust controls.",
+      "text": "Reverse thrust controls must have a means to prevent their inadvertent operation. The means must have a positive lock or stop at the flight idle position and must require a separate and distinct operation by the crew to displace the control from the flight regime (forward thrust regime for turbojet powered airplanes).",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AB0CBC466A8E98B985256673004CDB20.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-11",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Reverse thrust and propeller pitch settings below the flight regime.",
+      "text": "[Each control for reverse thrust and for propeller pitch settings below the flight regime must have means to prevent its inadvertent operation. The means must have a positive lock or stop at the flight idle position and must require a separate and distinct operation by the crew to displace the control from the flight regime (forward thrust regime for turbojet powered airplanes).]",
+      "publication_cite": "32 FR 6913",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/9D11A98D14770DF085256673004CE311.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "65-43",
+          "issued_on": "1965-12-28",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "7095",
+          "issued_on": "1967-04-28",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

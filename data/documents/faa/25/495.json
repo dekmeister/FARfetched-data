@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "495",
+  "current_grouping": "Structure",
+  "canonical_title": "Turning.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Turning.",
+      "text": "In the static position, in accordance with figure 7 of Appendix A, the airplane is assumed to execute a steady turn by nose gear steering, or by application of sufficient differential power, so that the limit load factors applied at the center of gravity are 1.0 vertically and 0.5 laterally. The side ground reaction of each wheel must be 0.5 of the vertical reaction.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8A6E63D2AA7E58C085256672004FE1F9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

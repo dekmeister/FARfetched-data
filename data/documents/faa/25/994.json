@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "994",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel system components.",
+  "subject_group": "Fuel System Components",
+  "versions": [
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system components.",
+      "text": "[Fuel system components in an engine nacelle or in the fuselage must be protected from damage which could cause the release of fuel as a result of a wheels-up landing.]",
+      "publication_cite": "35 FR 5671",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/43392EF921864F9385256673004A365E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-57",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system components.",
+      "text": "[Fuel system components in an engine nacelle or in the fuselage must be protected from damage which could result in spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway.]",
+      "publication_cite": "49 FR 6848",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/5DD313417D50ABB685256673004A5134.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "77-6",
+          "issued_on": "1977-06-03",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "16919",
+          "issued_on": "1983-12-16",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-139",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel system components.",
+      "text": "Fuel system components in an engine nacelle or in the fuselage must be protected from damage that could result in spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway under each of the conditions prescribed in \u00a7 25.721(b).",
+      "publication_cite": "79 FR 59430",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EB4CC7DBEAD2120186257DA2006BBB58.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "-"
+        },
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Amendment 25-139, Published 10/2/2014"
+        }
+      ]
+    }
+  ]
+}

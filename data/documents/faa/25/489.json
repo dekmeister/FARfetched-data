@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "489",
+  "current_grouping": "Structure",
+  "canonical_title": "Ground handling conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Ground handling conditions.",
+      "text": "Unless otherwise prescribed, the landing gear and airplane structure must be investigated for the conditions in Secs. 25.491 through 25.509 with the airplane at the design takeoff weight. No wing lift may be considered. The shock absorbers and tires may be assumed to be in their static position.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C000FAA65C9D951185256672004FCCD9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Ground handling conditions.",
+      "text": "[Unless otherwise prescribed, the landing gear and airplane structure must be investigated for the conditions in Secs. 25.491 through 25.509 with the airplane at the design ramp weight (the maximum weight for ground handling conditions).] No wing lift may be considered. The shock absorbers and tires may be assumed to be in their static position.",
+      "publication_cite": "35 FR 5673",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/02D4619CD6A1782885256672004FD3D0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

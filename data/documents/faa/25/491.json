@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "491",
+  "current_grouping": "Structure",
+  "canonical_title": "Taxi, takeoff and landing roll.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Takeoff run.",
+      "text": "The landing gear and the airplane structure are assumed to be subjected to loads not less than those obtained under conditions described in Sec. 25.235.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8C92F2965C373CBF85256672004FCC07.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-91",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Taxi, takeoff and landing roll.",
+      "text": "[Within the range of appropriate ground speeds and approved weights, the airplane structure and landing gear are assumed to be subjected to loads not less than those obtained when the aircraft is operating over the roughest ground that may reasonably be expected in normal operation.]",
+      "publication_cite": "62 FR 40705",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7E7FA6B48B94030F85256672004FD235.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "95-14",
+          "issued_on": "1995-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "28312",
+          "issued_on": "1997-07-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

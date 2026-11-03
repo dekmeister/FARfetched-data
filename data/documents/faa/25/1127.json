@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1127",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Exhaust driven turbo-superchargers.",
+  "subject_group": "Exhaust System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Exhaust driven turbo-superchargers.",
+      "text": "(a) Each exhaust driven turbo-supercharger must be approved or shown to be suitable for the particular application. It must be installed and supported to ensure safe operation between normal inspections and overhauls. In addition, there must be provisions for expansion and flexibility between exhaust conduits and the turbine.\n(b) There must be provisions for lubricating the turbine and for cooling turbine parts where temperatures are critical.\n(c) If the normal turbo-supercharger control system malfunctions, the turbine speed may not exceed its maximum allowable value. Except for the waste gate operating components, the components provided for meeting this requirement must be independent of the normal turbo-supercharger controls.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/7F4469C369E2E05D85256673004BD6E4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

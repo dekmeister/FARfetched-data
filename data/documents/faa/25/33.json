@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "33",
+  "current_grouping": "Flight",
+  "canonical_title": "Propeller speed and pitch limits.",
+  "subject_group": "General",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Propeller speed and pitch limits.",
+      "text": "(a) The propeller speed and pitch must be limited to values that will ensure--\n  (1) Safe operation under normal operating conditions; and\n  (2) Compliance with the performance requirements in Secs. 25.45 through 25.75 for reciprocating engine powered airplanes, and Secs. 25.101 through 25.125 for turbopropeller powered airplanes.\n(b) There must be a propeller speed limiting means at the governor. It must limit the maximum possible governed engine speed to a value not exceeding the maximum allowable r.p.m.\n(c) The low pitch blade stop, or other means used to limit the low pitch position of the propeller blades, must be set so that the engine speed does not exceed 103 percent of the maximum allowable engine r.p.m. with--\n  (1) The propeller blades at the low pitch limit and governor inoperative; and\n  (2) Takeoff manifold pressure with the airplane stationary under standard atmospheric conditions.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C5173AA1E5CD91C88525667200484E24.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-57",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Propeller speed and pitch limits.",
+      "text": "(a) The propeller speed and pitch must be limited to values that will ensure--\n  (1) Safe operation under normal operating conditions; and\n  [(2) Compliance with the performance requirements in Secs. 25.101 through 25.125.]\n(b) There must be a propeller speed limiting means at the governor. It must limit the maximum possible governed engine speed to a value not exceeding the maximum allowable r.p.m.\n(c) The low pitch blade stop, or other means used to limit the low pitch position of the propeller blades, must be set so that the engine speed does not exceed 103 percent of the maximum allowable engine r.p.m. with--\n  (1) The propeller blades at the low pitch limit and governor inoperative; and\n  (2) Takeoff manifold pressure with the airplane stationary under standard atmospheric conditions.",
+      "publication_cite": "49 FR 6848",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E51A3D3EEBE473A2852566720048545D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "77-6",
+          "issued_on": "1977-06-03",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "16919",
+          "issued_on": "1983-12-16",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Propeller speed and pitch limits.",
+      "text": "(a) The propeller speed and pitch must be limited to values that will ensure--\n  (1) Safe operation under normal operating conditions; and\n  (2) Compliance with the performance requirements of Secs. 25.101 through 25.125.\n(b) There must be a propeller speed limiting means at the governor. It must limit the maximum possible governed engine speed to a value not exceeding the maximum allowable r.p.m.\n(c) [The means used to limit the low pitch position of the propeller blades must be set so that the engine does not exceed 103 percent of the maximum allowable engine rpm or 99 percent of an approved maximum overspeed, whichever is greater, with--\n  (1) The propeller blades at the low pitch limit and governor inoperative;\n  (2) The airplane stationary under standard atmospheric conditions with no wind; and\n  (3) The engines operating at the takeoff manifold pressure limit for reciprocating engine powered airplanes or the maximum takeoff torque limit for turbopropeller engine-powered airplanes.]",
+      "publication_cite": "55 FR 29774",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DF57B7475A21F253852566720048509B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

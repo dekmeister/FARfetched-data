@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1369",
+  "current_grouping": "Equipment",
+  "canonical_title": "Lightning strike protection.",
+  "subject_group": "Electrical Systems and Equipment",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Lightning strike protection.",
+      "text": "Parts that are electrically insulated from the basic airframe must be connected to it through lightning arrestors unless a lightning strike on the insulated part--\n(a) Is improbable because of shielding by other parts; or\n(b) Is not hazardous.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/39D591808793CC2085256673004D93E6.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Revoked.",
+      "publication_cite": "35 FR 5671",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/EFA3F8ED3EC4627C85256673004DA8E7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

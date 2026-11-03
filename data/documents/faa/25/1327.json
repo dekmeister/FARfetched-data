@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1327",
+  "current_grouping": "Equipment",
+  "canonical_title": "Magnetic direction indicator.",
+  "subject_group": "Instruments:  Installation",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Magnetic direction indicator.",
+      "text": "(a) Each magnetic direction indicator must be installed so that its accuracy is not excessively affected by the airplane's vibration or magnetic fields.\n(b) The compensated installation may not have a deviation, in level flight, greater than 10 degrees on any heading.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/327D126EDE984D1C85256673004D85E4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1416",
+  "current_grouping": "Equipment",
+  "canonical_title": "Pneumatic de-icer boot system.",
+  "subject_group": "Safety Equipment",
+  "versions": [
+    {
+      "designator": "25-46",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Pneumatic de-icer boot system.",
+      "text": "[If certification with ice protection provisions is desired and a pneumatic de-icer boot system is installed--\n(a) The system must meet the requirements specified in Sec. 25.1419.\n(b) The system and its components must be designed to perform their intended function under any normal system operating temperature or pressure, and\n(c) Means to indicate to the flight crew that the pneumatic de-icer boot system is receiving adequate pressure and is functioning normally must be provided.]",
+      "publication_cite": "43 FR 50594",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C32E7C3EFBC767D885256673004E1491.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75.\n\tNotice of Airworthiness Review Program No. 5; Notice No. 75-23; Issued on 05/19/75.\n\tNotice of Airworthiness Review Program No. 7; Notice No. 75-26; Issued on 06/09/75.\n\tNotice of Airworthiness Review Program No. 8; Notice No. 75-31; Issued on 06/30/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14324, 14606, 14625, 14685, 14779",
+          "issued_on": "1978-10-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Removed.",
+      "publication_cite": "55 FR 29773",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4443994A6A35912985256673004E049B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

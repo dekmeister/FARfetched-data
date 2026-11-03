@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1017",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Oil lines and fittings.",
+  "subject_group": "Oil System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Oil lines and fittings.",
+      "text": "(a) Each oil line must meet the requirements of Sec. 25.993 and each oil line and fitting in any designated fire zone must meet the requirements of Sec. 25.1183.\n(b) Breather lines must be arranged so that--\n  (1) Condensed water vapor that might freeze and obstruct the line cannot accumulate at any point;\n  (2) The breather discharge does not constitute a fire hazard if foaming occurs or causes emitted oil to strike the pilot's windshield; and\n  (3) The breather does not discharge into the engine air induction system.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AE5013623EEE241185256673004A3473.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

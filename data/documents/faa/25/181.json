@@ -1,0 +1,106 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "181",
+  "current_grouping": "Flight",
+  "canonical_title": "Dynamic stability.",
+  "subject_group": "Stability",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Dynamic longitudinal, directional, and lateral stability.",
+      "text": "Any short period oscillation occurring between stalling speed and maximum allowable speed appropriate to the configuration of the airplane (for example, VFE, VLE, or VFC / MFC ) must be heavily damped with the primary controls (1) free and (2) in a fixed position.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1238AF894434C90B85256672004AFD62.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-42",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Dynamic stability.",
+      "text": "[(a) Any short period oscillation, not including combined lateral-directional oscillations, occurring between stalling speed ad maximum allowable seed appropriate to the configuration of the airplane must be heavily damped with the primary controls--\n  (1) Free; and\n  (2) In a fixed position.\n(b) Any combined lateral-directional oscillations (\"Dutch roll\") occurring between stalling speed and maximum allowable speed appropriate to the configuration of the airplane must be positively damped with the controls free, and must be controllable with normal use of the primary controls without requiring exceptional pilot skill.]",
+      "publication_cite": "43 FR 2322",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/A911BE6BA8EF8A1685256672004B043B.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 05/29/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14684, 14324",
+          "issued_on": "1978-01-09",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Dynamic stability.",
+      "text": "(a) Any short period oscillation, not including combined lateral-directional oscillations, occurring between [1.2 VS] and maximum allowable speed appropriate to the configuration of the airplane must be heavily damped with the primary controls--\n  (1) Free; and\n  (2) In a fixed position.\n(b) Any combined lateral-directional oscillations (\"Dutch roll\") occurring between [1.2 VS] and maximum allowable speed appropriate to the configuration of the airplane must be positively damped with controls free, and must be controllable with normal use of the primary controls without requiring exceptional pilot skill.",
+      "publication_cite": "55 FR 29775",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F634533ACEB0B36F85256672004B141D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-108",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Dynamic stability.",
+      "text": "(a) Any short period oscillation, not including combined lateral-directional oscillations, occurring between [1.13 VSR] and maximum allowable speed appropriate to the configuration of the airplane must be heavily damped with the primary controls--\n  (1) Free; and\n  (2) In a fixed position.\n(b) Any combined lateral-directional oscillations (\"Dutch roll\") occurring between [1.13 VSR] and maximum allowable speed appropriate to the configuration of the airplane must be positively damped with controls free, and must be controllable with normal use of the primary controls without requiring exceptional pilot skill.",
+      "publication_cite": "67 FR 70827",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2D1BE63F4F1CD88086256C8D00487F4C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "95-17",
+          "issued_on": "1995-11-29",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

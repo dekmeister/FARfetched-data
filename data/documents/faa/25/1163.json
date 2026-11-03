@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1163",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Powerplant accessories.",
+  "subject_group": "Powerplant Controls and Accessories",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Powerplant accessories.",
+      "text": "(a) Engine-mounted accessories must be approved for installation on the engine concerned and use the provisions on the engine for mounting.\n(b) Electrical equipment subject to arcing or sparking must be installed to minimize the probability of contact with any flammable fluids or vapors that might be present in a free state.\n(c) If continued rotation of an engine-driven cabin supercharger or of any remote accessory driven by the engine is hazardous if malfunctioning occurs, there must be means to prevent rotation without interfering with the continued operation of the engine.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/4FE3708EDF18F49985256673004CDC1B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-57",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Powerplant accessories.",
+      "text": "[(a) Each engine-mounted accessory must--\n  (1) Be approved for mounting on the engine involved;\n  (2) Use the provisions on the engine for mounting; and\n  (3) Be sealed to prevent contamination of the engine oil system and the accessory system.]\n(b) Electrical equipment subject to arcing or sparking must be installed to minimize the probability of contact with any flammable fluids or vapors that might be present in a free state.\n(c) If continued rotation of an engine-driven cabin supercharger or of any remote accessory driven by the engine is hazardous if malfunctioning occurs, there must be means to prevent rotation without interfering with the continued operation of the engine.",
+      "publication_cite": "49 FR 6849",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3DFD27C16C378E4385256673004CE51B.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "77-6",
+          "issued_on": "1977-06-03",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "16919",
+          "issued_on": "1983-12-16",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

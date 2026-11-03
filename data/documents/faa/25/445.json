@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "445",
+  "current_grouping": "Structure",
+  "canonical_title": "Auxiliary aerodynamic surfaces.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Outboard fins.",
+      "text": "(a) If outboard fins are on the horizontal tail surface, the tail surfaces must be designed for the maximum horizontal surface load in combination with the corresponding loads induced on the vertical surfaces by endplate effects. These induced effects need not be combined with other vertical surface loads.\n(b) To provide for unsymmetrical loading when outboard fins extend above and below the horizontal surface, the critical vertical surface loading (load per unit area) determined under Sec. 25.391 must also be applied as follows:\n  (1) 100 percent to the area of the vertical surfaces above (or below) the horizontal surface.\n  (2) 80 percent to the area below (or above) the horizontal surface.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/50CF1FBE7C65F4A985256672004FB574.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-86",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Auxiliary aerodynamic surfaces.",
+      "text": "[(a) When significant, the aerodynamic influence between auxiliary aerodynamic surfaces, such as outboard fins and winglets, and their supporting aerodynamic surfaces, must be taken into account for all loading conditions including pitch, roll, and yaw maneuvers, and gusts as specified in Sec. 25.341(a) acting at any orientation at right angles to the flight path.]\n(b) To provide for unsymmetrical loading when outboard fins extend above and below the horizontal surface, the critical vertical surface loading (load per unit area) determined under Sec. 25.391 must also be applied as follows:\n  (1) 100 percent to the area of the vertical surfaces above (or below) the horizontal surface.\n  (2) 80 percent to the area below (or above) the horizontal surface.",
+      "publication_cite": "61 FR 5222",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3D0810B2A424CAF385256672004FB72D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-29",
+          "issued_on": "1994-09-08",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27902",
+          "issued_on": "1996-02-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

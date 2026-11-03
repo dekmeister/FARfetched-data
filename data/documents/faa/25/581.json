@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "581",
+  "current_grouping": "Structure",
+  "canonical_title": "Lightning protection.",
+  "subject_group": "Lightning Protection",
+  "versions": [
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Lightning protection.",
+      "text": "[(a) The airplane must be protected against catastrophic effects from lightning.\n(b) For metallic components, compliance with paragraph (a) of this section may be shown by--\n  (1) Bonding the components properly to the airframe; or\n  (2) Designing the components so that a strike will not endanger the airplane.\n(c) For nonmetallic components, compliance with paragraph (a) of this section may be shown by--\n  (1) Designing the components to minimize the effect of a strike; or\n  (2) Incorporating acceptable means of diverting the resulting electrical current so as not to endanger the airplane.]",
+      "publication_cite": "35 FR 5674",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1253F2695A58A81C8525667200502A6E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "487",
+  "current_grouping": "Structure",
+  "canonical_title": "Rebound landing condition.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Rebound landing condition.",
+      "text": "(a) The landing gear and its supporting structure must be investigated for the loads occurring during rebound of the airplane from the landing surface.\n(b) With the landing gear fully extended and not in contact with the ground, a load factor of 20.0 must act on the unsprung weights of the landing gear. This load factor must act in the direction of motion of the unsprung weights as they reach their limiting positions in extending with relation to the sprung parts of the landing gear.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0D3E535231E30F9D85256672004FCA4E.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "459",
+  "current_grouping": "Structure",
+  "canonical_title": "Special devices.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Special devices.",
+      "text": "The loading for special devices using aerodynamic surfaces (such as slots and spoilers) must be determined from test data.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8761AAD2FC44A37585256672004FB48D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Special devices.",
+      "text": "The loading for special devices using aerodynamic surfaces (such as slots [, slats,] and spoilers) must be determined from test data.",
+      "publication_cite": "55 FR 29776",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C787624FB4AB680185256672004FB8DB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

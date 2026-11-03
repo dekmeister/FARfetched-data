@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "362",
+  "current_grouping": "Structure",
+  "canonical_title": "Engine failure loads.",
+  "subject_group": "Supplementary Conditions",
+  "versions": [
+    {
+      "designator": "25-141",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Engine failure loads.",
+      "text": "(a) For engine mounts, pylons, and adjacent supporting airframe structure, an ultimate loading condition must be considered that combines 1g flight loads with the most critical transient dynamic loads and vibrations, as determined by dynamic analysis, resulting from failure of a blade, shaft, bearing or bearing support, or bird strike event. Any permanent deformation from these ultimate load conditions must not prevent continued safe flight and landing.\n(b) The ultimate loads developed from the conditions specified in paragraph (a) of this section are to be\u2014\n  (1) Multiplied by a factor of 1.0 when applied to engine mounts and pylons; and\n  (2) Multiplied by a factor of 1.25 when applied to adjacent supporting airframe structure.",
+      "publication_cite": "79 FR 73468",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/83CAF0442A00DAF186257DE80072BA11.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "-"
+        },
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Amendment 25-141, Published 12/14/2014"
+        }
+      ]
+    }
+  ]
+}

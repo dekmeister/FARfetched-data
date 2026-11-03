@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1555",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Control markings.",
+  "subject_group": "Markings and Placards",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Control markings.",
+      "text": "(a) Each cockpit control, other than primary flight controls and controls whose function is obvious, must be plainly marked as to its function and method of operation.\n(b) Each aerodynamic control must be marked under the requirements of Secs. 25.677 and 25.699.\n(c) For powerplant fuel controls--\n  (1) Each fuel tank selector control must be marked to indicate the position corresponding to each tank and to each existing cross feed position;\n  (2) If safe operation requires the use of any tanks in a specific sequence, that sequence must be marked on, or adjacent to, the selector for those tanks; and\n  (3) Each valve control for each engine must be marked to indicate the position corresponding to each engine controlled.\n(d) For accessory, auxiliary, and emergency controls--\n  (1) Each emergency control (including each fuel jettisoning and fluid shutoff control) must be colored red; and\n  (2) Each visual indicator required by Sec. 25.729(e) must be marked so that the pilot can determine at any time when the wheels are locked in either extreme position, if retractable landing gear is used.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D47F1A6068155BBB85256673004F3EA2.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "503",
+  "current_grouping": "Structure",
+  "canonical_title": "Pivoting.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Pivoting.",
+      "text": "(a) The airplane is assumed to pivot about one side of the main gear with the brakes on that side locked. The limit vertical load factor must be 1.0 and the coefficient of friction 0.8.\n(b) The airplane is assumed to be in static equilibrium, with the loads being applied at the ground contact points, in accordance with figure 8 of Appendix A.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8E2AE5961EBC3B1E85256672004FE2E0.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

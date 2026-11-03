@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "703",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Takeoff warning system.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-42",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Takeoff warning system.",
+      "text": "[A takeoff warning system must be installed and must meet the following requirements:\n(a) The system must provide to the pilots an aural warning that is automatically activated during the initial portion of the takeoff roll if the airplane is in a configuration, including any of the following, that would not allow a safe takeoff:\n  (1) The wing flaps or leading edge devices are not within the approved range of takeoff positions.\n  (2) Wing spoilers (except lateral control spoilers meeting the requirements of Sec. 25.671), speed brakes, or longitudinal trim devices are in a position that would not allow a safe takeoff.\n(b) The warning required by paragraph (a) of this section must continue until--\n  (1) The configuration is changed to allow a safe takeoff;\n  (2) Action is taken by the pilot to terminate the takeoff roll;\n  (3) The airplane is rotated for takeoff; or\n  (4) The warning is manually deactivated by the pilot.\n(c) The means used to activate the system must function properly throughout the ranges of takeoff weights, altitudes, and temperatures for which certification is requested.]",
+      "publication_cite": "43 FR 2323",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C376E9963AEA8603852566720050B3C8.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 6; Notice No. 75-25; Issued on 05/29/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": "14684, 14324",
+          "issued_on": "1978-01-09",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

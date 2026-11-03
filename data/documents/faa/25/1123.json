@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1123",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Exhaust piping.",
+  "subject_group": "Exhaust System",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Exhaust piping.",
+      "text": "(a) Exhaust piping must be heat and corrosion resistant, and must have provisions to prevent failure due to expansion by operating temperatures.\n(b) Piping must be supported to withstand any vibration and inertia loads to which it would be subjected in operation; and\n(c) Piping connected to components between which relative motion could exist must have means for flexibility.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BD476BDC9E41886685256673004BD200.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-40",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Exhaust piping.",
+      "text": "[For powerplant and auxiliary power unit installations, the following apply:]\n(a) Exhaust piping must be heat and corrosion resistant, and must have provisions to prevent failure due to expansion by operating temperatures.\n(b) Piping must be supported to withstand any vibration and inertia loads to which it would be subjected in operation; and\n(c) Piping connected to components between which relative motion could exist must have means for flexibility.",
+      "publication_cite": "42 FR 15044",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/02C0D165934F8B7785256673004BE522.0001",
+      "actions": [
+        {
+          "type": "other",
+          "reference": "75-10",
+          "issued_on": "1975-02-27",
+          "source_url": null,
+          "notes": "Notice of Airworthiness Review Program No. 2; Notice No. 75-10; Issued on 02/27/75.\n\tNotice of Airworthiness Review Program No. 3; Notice No. 75-19; Issued on 05/13/75."
+        },
+        {
+          "type": "final_rule",
+          "reference": null,
+          "issued_on": "1977-03-10",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

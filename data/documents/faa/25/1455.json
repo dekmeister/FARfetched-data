@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1455",
+  "current_grouping": "Equipment",
+  "canonical_title": "Draining of fluids subject to freezing.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Draining of fluids subject to freezing.",
+      "text": "If fluids subject to freezing may be drained overboard in flight or during ground operation, the drains must be designed and located to prevent the formation of ice on the airplane as a result of the drainage.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D4DFFB3EACD48FB885256673004EE059.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Draining of fluids subject to freezing.",
+      "text": "[If fluids subject to freezing may be drained overboard in flight or during ground operation, the drains must be designed and located to prevent the formation of hazardous quantities of ice on the airplane as a result of the drainage.]",
+      "publication_cite": "35 FR 5680",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C8C848EAD65FC74085256673004EFE29.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

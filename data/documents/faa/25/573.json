@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "573",
+  "current_grouping": "Structure",
+  "canonical_title": "Fatigue evaluation of landing gear.",
+  "subject_group": "Fatigue Evaluation",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Fatigue evaluation of landing gear.",
+      "text": "(a) The strength, detail design, and fabrication of those parts of the airplane landing gear and its attachment fittings in which fatigue may be critical, must be evaluated under either the provisions of paragraph (b) or (c) of this section.\n(b) The fatigue strength of the landing gear must be evaluated as follows:\n  (1) The evaluation must include--\n    (i) The typical loading spectrum expected in service;\n    (ii) Identification of principal structural elements and detail design points, the fatigue failure of which could cause catastrophic failure of the landing gear; and\n    (iii) Analysis or repeated load testing of the principal structural elements and detail design points identified in subdivision (ii) of this subparagraph.\n  (2) Where the evaluation indicates its necessity, inspection or other procedures must be established to prevent catastrophic fatigue failure.\n  (3) The service history of airplanes of similar structural design, taking due account of differences in operating conditions and procedures, may be used.\n(c) The fail-safe strength of the landing gear must be shown as follows:\n  (1) It must be shown by analysis or tests that catastrophic failure is not probable after fatigue failure, or obvious partial failure, of any single principal structural element.\n  (2) After these kinds of failure, the remaining structure must be able to withstand static loads corresponding to 80 percent of the limit loads resulting from the conditions prescribed in Sec. 25.473. These static loads are ultimate loads.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CEAC7AB930E227A885256672005034F4.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-45",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Reserved.",
+      "publication_cite": "43 FR 46242",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/249FA88A2C7AFA638525667200504060.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "77-15",
+          "issued_on": "1977-08-09",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "16280",
+          "issued_on": "1978-09-28",
+          "source_url": null,
+          "notes": null
+        }
+      ],
+      "deleted": true
+    }
+  ]
+}

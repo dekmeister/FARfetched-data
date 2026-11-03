@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "531",
+  "current_grouping": "Structure",
+  "canonical_title": "Hull and main float takeoff conditions.",
+  "subject_group": "Water Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Hull and main float takeoff condition.",
+      "text": "For the wing and its attachment to the hull or main float--\n(a) The aerodynamic wing lift is assumed to be zero; and\n(b) A downward inertia load, corresponding to a load factor computed from the following formula, must be applied: where-- n = inertia load factor; = empirical seaplane operations factor equal to 0.004; = seaplane stalling speed at the design takeoff weight within the flaps extended in the appropriate takeoff position; = angle of dead rise at the main step (degrees); and W = seaplane design takeoff weight in pounds.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B551276F24C261BD85256672004FF8AB.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Hull and main float takeoff conditions.",
+      "text": "For the wing and its attachment to the hull or main float--\n(a) The aerodynamic wing lift is assumed to be zero; and\n(b) A downward inertia load, corresponding to a load factor computed from the following formula, must be applied: where-- n = inertia load factor; = empirical seaplane operations factor equal to 0.004; = seaplane stalling speed [(knots)] at the design takeoff weight within the flaps extended in the appropriate takeoff position; = angle of dead rise at the main step (degrees); and W = [design water takeoff weight in pounds.]",
+      "publication_cite": "35 FR 5673",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2BF83FA6796EEC398525667200500CB1.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

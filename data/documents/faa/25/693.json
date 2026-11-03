@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "693",
+  "current_grouping": "Design and Construction",
+  "canonical_title": "Joints.",
+  "subject_group": "Control Systems",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Joints.",
+      "text": "Control system joints (in push-pull systems) that are subject to angular motion, except those in ball and roller bearing systems must have a special factor of safety of not less than 3.33 with respect to the ultimate bearing strength of the softest material used as a bearing. This factor may be reduced to 2.0 for joints in cable control systems. For ball or roller bearings, the approved ratings, including those established in MIL-HDBK-5 \"Metallic Materials and Elements for Flight Vehicle Structure\", may not be exceeded.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/2C7EE42A9AB582528525667200507829.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Design and Construction",
+      "title_at_revision": "Joints.",
+      "text": "[Control system joints (in push-pull systems) that are subject to angular motion, except those in ball and roller bearing systems, must have a special factor of safety of not less than 3.33 with respect to the ultimate bearing strength of the softest material used as a bearing. This factor may be reduced to 2.0 for joints in cable control systems. For ball or roller bearings, the approved ratings may not be exceeded.]",
+      "publication_cite": "55 FR 29777",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/0DAB298F33E868FB8525667200507E57.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

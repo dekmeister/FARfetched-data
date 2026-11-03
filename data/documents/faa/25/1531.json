@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1531",
+  "current_grouping": "Operating Limitations and Information",
+  "canonical_title": "Maneuvering flight load factors.",
+  "subject_group": "Operating Limitations",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Operating Limitations and Information",
+      "title_at_revision": "Maneuvering flight load factors.",
+      "text": "Load factor limitations, not exceeding the positive limit load factors determined from the maneuvering diagram in Sec. 25.333(b), must be established.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/460BA8EA33709B9685256673004EE24F.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

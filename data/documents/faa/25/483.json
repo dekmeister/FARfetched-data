@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "483",
+  "current_grouping": "Structure",
+  "canonical_title": "One-gear landing conditions.",
+  "subject_group": "Ground Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "One-wheel landing conditions.",
+      "text": "For the one-wheel landing condition, the airplane is assumed to be in the level attitude and to contact the ground on one side of the main landing gear, in accordance with Figure 4 of Appendix A. In this attitude--\n(a) The ground reactions must be the same as those obtained on that side under Sec. 25.479 (c)(2), and\n(b) Each unbalanced external load must be reacted by airplane inertia in a rational or conservative manner.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C66E11CA493FA2CA85256672004FCB34.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-91",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "One-gear landing conditions.",
+      "text": "[For the one-gear landing conditions, the airplane is assumed to be in the level attitude and to contact the ground on one main landing gear, in accordance with Figure 4 of Appendix A of this part. In this attitude--\n(a) The ground reactions must be the same as those obtained on that side under Sec. 25.479(d)(1), and]\n(b) Each unbalanced external load must be reacted by airplane inertia in a rational or conservative manner.",
+      "publication_cite": "62 FR 40705",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/96AC0375CB3B36B685256672004FD073.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "95-14",
+          "issued_on": "1995-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "28312",
+          "issued_on": "1997-07-14",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

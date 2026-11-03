@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "235",
+  "current_grouping": "Flight",
+  "canonical_title": "Taxiing condition.",
+  "subject_group": "Ground and Water Handling Characteristics",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Flight",
+      "title_at_revision": "Taxiing condition.",
+      "text": "The shock absorbing mechanism may not damage the structure of the airplane when the airplane is taxied on the roughest ground that may reasonably be expected in normal operation.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/F2AC7B4F03D07C1785256672004CEFD5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "399",
+  "current_grouping": "Structure",
+  "canonical_title": "Dual control system.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Dual control system.",
+      "text": "(a) Each dual control system must be designed for the pilots operating in opposition, using individual pilot forces not less than--\n  (1) 0.75 times those obtained under Sec. 25.395; or\n  (2) The minimum forces specified in Sec. 25.397(c).\n(b) The control system must be designed for pilot forces applied in the same direction, using individual pilot forces not less than 0.75 times those obtained under Sec. 25.395.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/1CB03BDFB20F048285256672004F340A.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

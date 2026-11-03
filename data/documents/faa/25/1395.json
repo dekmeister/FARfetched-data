@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1395",
+  "current_grouping": "Equipment",
+  "canonical_title": "Maximum intensities in overlapping beams of forward and rear position lights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Maximum intensities in overlapping beams of forward and rear position lights.",
+      "text": "No position light intensity may exceed the applicable values in the following table, except as provided in Sec. 25.1389 (b)(3). Overlaps Maximum intensity Area A (candles) Area B (candles) Green in dihedral angle L -------------------------------- 10 1 Red in dihedral angle R ---------------------------------- 10 1 Green in dihedral angle A ------------------------------- 5 1 Red in dihedral angle A ---------------------------------- 5 1 Rear white in dihedral angle L ------------------------- 5 1 Rear white in dihedral angle R ------------------------- 5 1 Where--\n(a) Area A includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 10 degrees but less than 20 degrees; and\n(b) Area B includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 20 degrees.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BE6797CFDAB9523585256673004D7DFD.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

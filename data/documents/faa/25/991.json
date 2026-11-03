@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "991",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fuel pumps.",
+  "subject_group": "Fuel System Components",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fuel pumps.",
+      "text": "(a) Main pumps. Each fuel pump required for proper engine operation, or required to meet the fuel system requirements of this subpart (other than those in paragraph (b) of this section), is a main pump. For each main pump, provision must be made to allow the bypass of each positive displacement fuel pump other than a fuel injection pump (a pump that supplies the proper flow and pressure for fuel injection when the injection is not accomplished in a carburetor) approved as part of the engine.\n(b) Emergency pumps. There must be emergency pumps or another main pump to feed each engine immediately after failure of any main pump (other than a fuel injection pump approved as part of the engine).",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C380685544B37E8885256673004A410C.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

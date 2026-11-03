@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1201",
+  "current_grouping": "Powerplant",
+  "canonical_title": "Fire extinguishing system materials.",
+  "subject_group": "Powerplant Fire Protection",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Powerplant",
+      "title_at_revision": "Fire extinguishing system materials.",
+      "text": "(a) No material in any fire extinguishing system may react chemically with any extinguishing agent so as to create a hazard.\n(b) Each system component in an engine compartment must be fireproof.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/8BFC11A49B82E4E385256673004D1FE7.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

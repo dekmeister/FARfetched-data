@@ -1,0 +1,58 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1433",
+  "current_grouping": "Equipment",
+  "canonical_title": "Vacuum systems.",
+  "subject_group": "Miscellaneous Equipment",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Vacuum systems.",
+      "text": "(a) There must be means, in addition to the normal pressure relief, to automatically relieve the pressure in the discharge lines from the vacuum air pump when the delivery temperature of the air becomes unsafe.\n(b) Each vacuum air system line and fitting on the discharge side of the pump that might contain flammable vapors or fluids must meet the requirements of Sec. 25.1183 if they are in a designated fire zone.\n(c) Other vacuum air system components in designated fire zones must be at least fire resistant.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/D84158103EBE322C85256673004DFD90.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-72",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Vacuum systems.",
+      "text": "[ There must be means, in addition to the normal pressure relief, to automatically relieve the pressure in the discharge lines from the vacuum air pump when the delivery temperature of the air becomes unsafe.]",
+      "publication_cite": "55 FR 29785",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/26446284AA97506B85256673004E19D9.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "84-21",
+          "issued_on": "1984-09-21",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "24344",
+          "issued_on": "1990-06-26",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

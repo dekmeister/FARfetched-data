@@ -1,0 +1,34 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "1383",
+  "current_grouping": "Equipment",
+  "canonical_title": "Landing lights.",
+  "subject_group": "Lights",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Equipment",
+      "title_at_revision": "Landing lights.",
+      "text": "(a) Each landing light must be approved, and must be installed so that--\n  (1) No objectionable glare is visible to the pilot;\n  (2) The pilot is not adversely affected by halation; and\n  (3) It provides enough light for night landing.\n(b) Except when one switch is used for the lights of a multiple light installation at one location, there must be a separate switch for each light.\n(c) There must be a means to indicate to the pilots when the landing lights are extended.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B405ECE26130025E85256673004D84EA.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

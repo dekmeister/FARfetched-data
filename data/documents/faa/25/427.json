@@ -1,0 +1,82 @@
+{
+  "issuer": "FAA",
+  "document": "25",
+  "number": "427",
+  "current_grouping": "Structure",
+  "canonical_title": "Unsymmetrical loads.",
+  "subject_group": "Control Surface and System Loads",
+  "versions": [
+    {
+      "designator": "25-0",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Unsymmetrical loads.",
+      "text": "(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and slipstream effects, in combination with the prescribed flight conditions.\n(b) In the absence of more rational data, the following apply:\n  (1) For airplanes that are conventional in regard to location of propellers, wings, tail surfaces, and fuselage shape--\n    (i) 100 percent of the maximum loading from the symmetrical flight conditions may be assumed to act on the surface on one side of the plane of symmetry; and\n    (ii) 80 percent of this loading may be assumed to act on the other side.\n  (2) For airplanes that are not conventional (such as where the horizontal tail surfaces have appreciable dihedral or are supported by the vertical tail surfaces), the surfaces and supporting structures may be designed for combined vertical and horizontal surface loads resulting from the prescribed maneuvers.",
+      "publication_cite": "29 FR 18291",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FA3F35E27ACF6E4185256672004F314D.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "64-28",
+          "issued_on": "1964-05-14",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "5066",
+          "issued_on": "1964-11-03",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-23",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Unsymmetrical loads.",
+      "text": "(a) Horizontal tail surfaces and their supporting structure must be designed for unsymmetrical loads arising from yawing and slipstream effects, in combination with the prescribed flight conditions.\n(b) In the absence of more rational data, the following apply:\n  (1) For airplanes that are conventional in regard to location of propellers, wings, tail surfaces, and fuselage shape--\n    (i) 100 percent of the maximum loading from the symmetrical flight conditions may be assumed to act on the surface on one side of the plane of symmetry; and\n    (ii) 80 percent of this loading may be assumed to act on the other side.\n  [(2) For empennage arrangements where the horizontal tail surfaces have appreciable dihedral or are supported by the vertical tail surfaces, the surfaces and supporting structure must be designed for the combined vertical and horizontal surface loads resulting from each prescribed flight load condition considered separately.]",
+      "publication_cite": "35 FR 5671",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/FE9CFE0705A6B87586256F9D00702FB5.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "68-18",
+          "issued_on": "1968-08-16",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "9079",
+          "issued_on": "1970-04-01",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "designator": "25-86",
+      "grouping_at_time": "Structure",
+      "title_at_revision": "Unsymmetrical loads.",
+      "text": "[(a) In designing the airplane for lateral gust, yaw maneuver and roll maneuver conditions, account must be taken of unsymmetrical loads on the empennage arising from effects such as slipstream and aerodynamic interference with the wing, vertical fin and other aerodynamic surfaces.\n(b) The horizontal tail must be assumed to be subjected to unsymmetrical loading conditions determined as follows:\n  (1) 100 percent of the maximum loading from the symmetrical maneuver conditions of Sec. 25.331 and the vertical gust conditions of Sec. 25.341(a) acting separately on the surface on one side of the plane of symmetry; and\n  (2) 80 percent of these loadings acting on the other side.\n(c) For empennage arrangements where the horizontal tail surfaces have dihedral angles greater than plus or minus 10 degrees, or are supported by the vertical tail surfaces, the surfaces and the supporting structure must be designed for gust velocities specified in Sec. 25.341(a) acting in any orientation at right angles to the flight path.\n(d) Unsymmetrical loading on the empennage arising from buffet conditions of Sec. 25.305(e) must be taken into account.]",
+      "publication_cite": "61 FR 5222",
+      "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CA2B752E4814025585256672004F3ACE.0001",
+      "actions": [
+        {
+          "type": "nprm",
+          "reference": "94-29",
+          "issued_on": "1994-09-08",
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "final_rule",
+          "reference": "27902",
+          "issued_on": "1996-02-02",
+          "source_url": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
