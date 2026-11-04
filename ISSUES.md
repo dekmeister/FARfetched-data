@@ -568,7 +568,7 @@ for the per-document tables and how to list each kind.
 
 From the 2026-11-03 parent review
 ([reviews/2026-11-03-parent-reorg-handover.md](reviews/2026-11-03-parent-reorg-handover.md)).
-The code items are proposals awaiting a decision.
+BUILD-5 is a proposal awaiting a decision (contract change).
 
 - **BUILD-1. Real-data tests failed on pre-v6 aircraft files. Fixed
   2026-11-04.** `data/aircraft/` held 95 models in the pre-v6 shape (top-level
@@ -580,22 +580,25 @@ The code items are proposals awaiting a decision.
   tests now scope to one model (a TCDS covers many), and the DA 40 golden
   test compares the FAA TCB. The old 95 files were untracked, so there is no
   git copy of them.
-- **BUILD-2. The real-data tests assert exact row lists** for the 172 and
-  DA 40 (now scoped to one model), so any parser re-run breaks them. Proposal: assert invariants
-  instead (the 172's CAR 3 lines resolve through CAR3-12; both DA 40 scopes
-  hold 23-51; no unresolved references).
-- **BUILD-3. `cert_basis_report.json` is written non-atomically, after the DB
-  swap** (`build.py`, end of `build()`). A failed write leaves a new DB next
-  to a stale report. Proposal: write `.new` and replace, report first.
-- **BUILD-4. `build.py --check` skips `_check_paths`.** Path/identity
-  mismatches only appear in a full build. Proposal: run it in `--check`.
+- **BUILD-2. The real-data tests asserted exact row lists. Fixed
+  2026-11-04.** The 3A12/172 entry list became an invariant over every TCB
+  (display_order runs 1..n), and the DA 40 list became "only lines 2 and 6,
+  both regulation, carry refs". The CAR3-12 cap, the 23-51 scopes, the spot
+  checks and the unresolved-references check stay.
+- **BUILD-3. `cert_basis_report.json` was written non-atomically, after the
+  DB swap. Fixed 2026-11-04.** The build now writes both `.new` files in full
+  before replacing either (test: `test_failed_report_write_keeps_the_old_pair`).
+  The two `os.replace()` calls are still two steps, so a crash between them
+  can still pair a new DB with an old report.
+- **BUILD-4. `build.py --check` skipped `_check_paths`. Fixed 2026-11-04.**
+  `--check` now calls `build.check()`: schemas, then paths and text layout.
 - **BUILD-5. `build_info.git_sha` doesn't reveal a dirty tree.** A build that
   includes uncommitted files records HEAD. Proposal: a `git_dirty` column.
   That is a contract change (v6): ask first.
-- **BUILD-6. The tests build the real `data/` twice** (`real_db` in
-  test_build, `real_conn` in test_similarity). Proposal: one session-scoped
-  fixture in `tests/conftest.py`. Also replace its `sys.path` insert with
-  pytest `pythonpath = ["."]` in pyproject.
+- **BUILD-6. The tests built the real `data/` twice. Fixed 2026-11-04.**
+  One session-scoped `real_db` in `tests/conftest.py`; `real_conn` uses it.
+  The `sys.path` insert is replaced by pytest `pythonpath = ["."]`. The full
+  run dropped from 1m51s to 1m16s.
 - **BUILD-7. The app must read `tcb_categories` (contract v6).** Schema v6
   moved categories from the model to the TCB: `model_categories` is gone
   and `tcb_categories (tcb_id, category_id)` replaces it. FARFETCHed still
