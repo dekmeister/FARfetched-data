@@ -22,15 +22,12 @@ Nothing here is a known build failure unless the item says so.
 [Roadmap](#roadmap-roadmap-) · [Closed](#closed)
 
 **History.** Until 2026-11-03 this file was a set of dated logs. The
-narratives moved, word for word, to `tools/s00_docs/reviews/`:
-
-- [2026-11-01-tcds-corpus-run.md](tools/s00_docs/reviews/2026-11-01-tcds-corpus-run.md)
-- [2026-11-01-easa-cs-closeout.md](tools/s00_docs/reviews/2026-11-01-easa-cs-closeout.md)
-- [2026-11-01-paragraph-structure-migration.md](tools/s00_docs/reviews/2026-11-01-paragraph-structure-migration.md)
-
-The authority-only, FAA extraction-fix and tools-reorg logs are in git
-history and in the handovers in that folder. "was:" notes give each item's
-old number:
+narratives were moved to `tools/s00_docs/reviews/` and have since been
+deleted, along with the authority-only, FAA extraction-fix, tools-reorg and
+TCDS-parser logs and plans, once completed. They are in the git history of
+`tools/` (the 2026-11-01 TCDS corpus run, EASA CS close-out and paragraph
+structure migration records, and the plans and handovers). "was:" notes give
+each item's old number:
 
 - Data #n / Risks #n: the authority-only sections
 - TCDS #n
@@ -280,7 +277,7 @@ uncommitted `s00_common/structure.py` edits land (words identical).
 
 ### EASA CS (EASA-)
 
-Background: [2026-11-01-easa-cs-closeout.md](tools/s00_docs/reviews/2026-11-01-easa-cs-closeout.md).
+Background: the EASA CS close-out record (`2026-11-01-easa-cs-closeout.md`, deleted; tools/ history).
 Reports are `tools/out/reports/emit_easa_cs{n}_report.tsv`.
 
 - **EASA-1. CS-29 Amdt 10 exists only as a corrigendum** (ED Decision
@@ -341,8 +338,9 @@ Reports are `tools/out/reports/emit_easa_cs{n}_report.tsv`.
 
 ### FAA TCDS / aircraft (TCDS-)
 
-Background: [2026-11-01-tcds-corpus-run.md](tools/s00_docs/reviews/2026-11-01-tcds-corpus-run.md)
-and [TCDS_TRIAL_20.md](tools/s00_docs/reviews/TCDS_TRIAL_20.md).
+Background: the TCDS corpus run record (`2026-11-01-tcds-corpus-run.md`) and
+the 20-TCDS trial (`TCDS_TRIAL_20.md`), both deleted once their findings were
+fixed or moved here; they are in the tools/ git history.
 
 - **TCDS-1. Cirrus-style "additions" layered on a base line** (A00009CH
   SR20/22/22T and others). (was: TCDS #26)
@@ -509,8 +507,9 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
 Paragraph structure (label-line text, schema v3). The words are intact by
 assertion; these items affect which paragraph a sentence appears to belong
 to. Counts are upper bounds from the migration report: see
-[2026-11-01-paragraph-structure-migration.md](tools/s00_docs/reviews/2026-11-01-paragraph-structure-migration.md)
-for the per-document tables and how to list each kind.
+the migration record (`2026-11-01-paragraph-structure-migration.md`, deleted;
+tools/ history) for the per-document tables. List each kind with
+`awk -F'\t' '$6 ~ /KIND/' tools/out/reports/structure_report_migration.tsv`.
 
 - **TEXT-1. Trailing unlabelled paragraphs are attached to the last item**
   (`possible-trailing`, up to 462 versions). (was: Para #1)
@@ -713,7 +712,7 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   directories it owns, and promote lists orphans (tools handover 2026-11-03).
 - **Risks #15 (overwritten work files):** historical. The work files are
   regenerated from local copies now.
-- **TCDS #16–#24:** fixed in tools `ff2b6fc` (`PLAN_TCDS_PARSER.md`), with a
+- **TCDS #16–#24:** fixed in tools `ff2b6fc` (plan `PLAN_TCDS_PARSER.md`, since deleted; in tools/ history), with a
   stage test each in `tools/s99_tests/emit/faa/tcds/test_stages.py`.
 - **TCDS #25:** fixed, except restricted-category TCDS (now TCDS-9). The 3A12
   swap to Rev 89 (`textron-aviation-inc/172.json`) is done.

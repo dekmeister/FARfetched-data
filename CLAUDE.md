@@ -30,6 +30,14 @@ Where things are documented:
   defer to those — don't restate their rules here. Pipeline handovers and
   dated records go in `tools/s00_docs/reviews/`.
 
+**Plans, reviews and handovers are temporary.** Once one is completed, delete
+it, in a dedicated commit (nothing else in that commit), so git history keeps
+it. Before deleting, move anything still open into [ISSUES.md](ISSUES.md) and
+fix links that point at the file. A file with steps or items still open stays.
+Don't keep completed ones as records. Don't delete without the developer's
+confirmation: list the candidates and write the `git rm` commands to a review
+script, per the root CLAUDE.md.
+
 **Read docs/DATA_FORMAT.md and docs/SQLITE.md before proposing schema or
 format changes.** They are the field-level contract.
 
