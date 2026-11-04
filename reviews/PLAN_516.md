@@ -245,7 +245,10 @@ manifest exists.
 
 ## Next session
 
-1. **Re-emit and promote, so `data/` carries `key`.** Until then
+1. ~~**Re-emit and promote, so `data/` carries `key`.**~~ Done 2026-11-05: 3,663
+   files promoted (3,549 `key` only, 114 `key` + layout), build v7 OK with
+   98,145 resolved rows, 0 unresolved, paragraph refs 397/4, full
+   `pytest` green. Commit of `data/` left to the user. Original note: Until then
    `build.py` fails on the real `data/` ("'key' is a required property"),
    and so do the real-data tests (`TestRealDataBuild`, `TestDA40Trace`,
    the similarity golden set, `TestRealData`, and
