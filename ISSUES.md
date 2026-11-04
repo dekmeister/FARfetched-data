@@ -489,23 +489,6 @@ fixed or moved here; they are in the tools/ git history.
   rule. Close by recording the selection as data (e.g. a TCDS list in
   `tools/overrides/` or the catalogue) that the parser or assemble reads.
 
-### EASA TCDS (ETCDS-)
-
-State of the 2026-11-02 download: 623 TCDS, 650 files in `input/TCDS/EASA/`
-([tools/s00_docs/EASA_TCDS.md](tools/s00_docs/EASA_TCDS.md)). Parsed since
-2026-11-03 (`s02_emit/easa/tcds/parse.py`; CS-23/25 aeroplanes only): 284
-aircraft TCDS read, 263 models staged from 104 TCDS, 33 of them linked to
-the FAA TCDS of the same design. Handover:
-[2026-11-03-easa-tcds-handover.md](tools/s00_docs/reviews/2026-11-03-easa-tcds-handover.md).
-Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
-
-- **ETCDS-1. Only the current issue exists, locally and upstream.** EASA
-  replaces files in place, so `input/TCDS/EASA/` is irreplaceable and needs
-  a backup. Re-run the downloader periodically to build up history.
-- **ETCDS-2. 29 TCDS have no downloadable file.** They are mostly withdrawn
-  or transferred (catalogue `role=none`; the 15 `no_issue_number` rows are a
-  subset):
-  - Scheibe gliders (A.100–A.107, A.577, A.578)
 - **TCDS-12. Part 36 arrives: re-parse the FAA TCDS that cite it** (2026-11-04,
   after Part 36 is promoted). Trial on a copy of `data/` and the staged Part
   36, parsing the 21 FAA TCDS behind `data/aircraft/` into a scratch directory:
@@ -527,6 +510,23 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
     .187, .586, EASA.IM.A.013, .162, .196, .352) need the EASA parser re-run
     after promotion (ETCDS work in progress).
 
+### EASA TCDS (ETCDS-)
+
+State of the 2026-11-02 download: 623 TCDS, 650 files in `input/TCDS/EASA/`
+([tools/s00_docs/EASA_TCDS.md](tools/s00_docs/EASA_TCDS.md)). Parsed since
+2026-11-03 (`s02_emit/easa/tcds/parse.py`; CS-23/25 aeroplanes only): 284
+aircraft TCDS read, 263 models staged from 104 TCDS, 33 of them linked to
+the FAA TCDS of the same design. Handover:
+[2026-11-03-easa-tcds-handover.md](tools/s00_docs/reviews/2026-11-03-easa-tcds-handover.md).
+Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
+
+- **ETCDS-1. Only the current issue exists, locally and upstream.** EASA
+  replaces files in place, so `input/TCDS/EASA/` is irreplaceable and needs
+  a backup. Re-run the downloader periodically to build up history.
+- **ETCDS-2. 29 TCDS have no downloadable file.** They are mostly withdrawn
+  or transferred (catalogue `role=none`; the 15 `no_issue_number` rows are a
+  subset):
+  - Scheibe gliders (A.100–A.107, A.577, A.578)
   - CEAPR DR series (A.510, A.551, A.552)
   - BAC 1-11 and Slingsby T67
   - SZD/IS gliders (A.441, A.446, A.452, A.454)
@@ -786,6 +786,13 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-6…14);
   next are rotorcraft (CS-27/29) and the scope widening. Also download the Noise TCDS (TCDSN), which is
   only recorded in the catalogue's `noise_*` columns today.
+- **ROADMAP-10. NATO USAR (STANAG 4671 / AEP-4671).** Blocked on schema v7
+  (provision key vs printed number, [reviews/PLAN_516.md](reviews/PLAN_516.md)
+  Part A). Ed. 1 → Ed. B reuses numbers for different requirements
+  (U1717/U1719/U1720 moved to U1712–U1714), and Ed. 1 prints 1367 twice. The
+  known edition gap: STANAG 4671 Ed. 2 / AEP-4671 Ed. A (Feb 2017) aren't
+  freely available, so the history is Ed. 1 → Ed. B. Prompt, findings and open
+  questions: [reviews/PLAN_NATO_USAR.md](reviews/PLAN_NATO_USAR.md).
 
 ## Closed
 
