@@ -46,7 +46,8 @@ aircraft are re-staged and promoted in the v6 shape (322 models, 33 with an
 EASA TCB). `build.py` is clean (zero unresolved references) and `uv run
 pytest`, ruff and mypy pass. All of it is committed. **Ready to close, the
 maintainer's call:** FAA-2, FAA-8, FAA-13..16, FAA-9 (already marked), TEXT-9
-and BUILD-1. **Not done:** Part 36 (FAA-17), the three held EASA models
+and BUILD-1. **Not done:** Part 36 is staged and ready to promote (FAA-23;
+then re-parse its TCDS, TCDS-12), the three held EASA models
 (ETCDS-5; promote the CS 25.851 layout fix, re-assemble, release the holds),
 and a re-promote of 34 Part 25/27/29 files whose layout changes once the
 uncommitted `s00_common/structure.py` edits land (words identical).
@@ -133,62 +134,98 @@ uncommitted `s00_common/structure.py` edits land (words identical).
   that one, although the FR API serves it by docket. Check the agency filter
   when relying on this lookup (see PROC-3). Also §23.573@23-48 text reflects
   the 2008 technical amendment (73 FR 19746), not the 1996 original wording.
-- **FAA-17. Parts 25, 27 and 29 re-fetched; Part 36 is not.** Done
+- **FAA-17. Parts 25, 27 and 29 re-fetched; Part 36 is staged.** Done
   2026-11-03/04 by the Part 23 procedure (fresh DRS download, `extract --redo`,
-  emit, review, promote). Part 36 still has no raw DRS copies and the old
-  decoder's output. Do the same before promoting it. **Update 2026-11-04:**
-  Part 36 was re-fetched (fresh DRS download, offline replay checked) and
-  re-emitted to `tools/out/staged/documents/faa/36/` (40 provisions). It is
-  **not promotable yet**: 32 versions are `TEXT MISSING` and 66 rows are
-  incomplete. See FAA-23. A plain `promote` would copy it into `data/`.
-- **FAA-23. Part 36 re-fetch: open items before promotion** (2026-11-04). The
-  maintainer chose to defer the FR evidence work, so these stay open:
-  - **36-20 effective date (23 failed rows).** DRS says `09/11/1992` (Sept
-    11); the manifest reads the CSV as 1992-11-09 because Sept 11 is before the
-    FR publication of 57 FR 46243 (1992-10-07, J36). Every 36-20 document
-    fails `date_mismatch` and becomes `TEXT MISSING` (§1, §6, §11, §801-805,
-    §1581, Appendix J). The FR API does not cover 1992. Evidence needed: the
-    rule behind Doc. No. 26910 (57 FR 42854, 1992-09-16; its designator is
-    unresolved) and 57 FR 46243. The govinfo FR-1992-09-16 and FR-1992-10-07
-    PDFs are about 214 MB each (the download needs resume, `curl -C -`; a
-    plain `curl -m 300` truncates at ~90 MB and leaves an unreadable PDF).
-    archives.federalregister.gov issue slices returned 403 for guessed page
-    ranges. Then add a `drs_date` or `effective_date` row.
-  - **G36.103@36-16 (11/22/1988) and I36.1@36-0 (10/01/1998)** also fail
-    `date_mismatch`. G36.103's DRS date is the FR publication date of 53 FR
-    47400; the amendment took effect 1988-12-22 (13 CSV rows agree). I36.1's
-    date is unexplained. Both need `drs_date` rows with evidence.
-  - **Whole-appendix assembly (11+ `TEXT MISSING`).** DRS holds Part 36
-    appendices only as subsections, and a failed subsection blocks the
-    assembly (Appendices G, H, J). Appendix J @36-25/@36-30 also fail the
-    listing check (DRS holds J36 subsections only at 36-20). Appendices A, B
-    @36-24/@36-26 are `suspect_designator` (cites published after the
-    effective date; 67 FR 63195).
-  - **Appendix C @36-24** is expected `TEXT MISSING` (FAA-10).
-  - **36-18** has no effective date and is not emitted. **§600@36-14** has
-    an empty body.
-  - **Ordinal order (deferred).** 36-54 (2002-08-07) is numbered above 36-32
-    (2022) and 36-20 is dated before 36-19. Cert-basis resolution ranks by
-    ordinal, so "through 36-26" omits 36-54. Left as is for now; decide
-    before promotion whether to override or document it.
-  - 29 `orphan` extracted files are not plan rows (mostly Appendix C/D/E
-    subsections); review with the above.
+  emit, review, promote). Part 36 was re-fetched and re-emitted to
+  `tools/out/staged/documents/faa/36/` (39 provisions + `_document.json`,
+  34 revisions) and is **ready to promote**: `promote --dry-run --new-only`
+  lists exactly those 40 files (the 112 conflicts in the dry run are the
+  in-progress EASA CS-23 layout, not Part 36). `build.py` on a copy of
+  `data/` plus the staged Part 36 is clean (zero unresolved references).
+  The real step is the maintainer's: `uv run python -m tools.s03_promote.promote
+  --new-only`, `build.py`, then TCDS-12.
+- **FAA-23. Part 36 re-fetch: what was resolved and what is left**
+  (2026-11-04). Fetch report: 0 failed rows (was 26); 8 versions are
+  `TEXT MISSING` (below).
+  - **36-20 is effective 1992-09-11** (DRS was right; the manifest had
+    flipped it to 1992-11-09). FR 92-22382 (57 FR 42846-42857, 1992-09-16),
+    Docket 26910, "Amendment Nos. 21-71 and 36-20": "Effective September 11,
+    1992". The 57 FR 46243 cite on Appendix J is only the FR correction
+    notice of that rule (it fixes three words of Appendix J), and the
+    manifest took it for the first publication, which made the D/M date look
+    too early. Rows: `effective_date`, two `cita_designator` (the unnumbered
+    "Doc. No. 26910" cites), `retroactive` (the correction). EASA TCDS
+    EASA.A.089 (PC-12) independently says "Amendments 36-1 through 36-20,
+    effective September 11, 1992" (EASA.A.091 gives 16.09.1992, the
+    publication date). Code: `fix_month_first_dates` keeps a date the
+    `effective_date` override decided.
+  - **36-54 does not exist: it is a misprint of 36-24.** The docket line of
+    FR 02-15835 (67 FR 45194, effective 2002-08-07) reads "Amdt No. 21-81,
+    36-54 & 91-275"; its correction C2-15835 (67 FR 63194, 2002-10-10) prints
+    "36-24". DRS holds 40 documents labelled 36-24 at that date and none
+    36-54, and eCFR copied the misprint into nine CITAs. New override kind
+    `rule_designator`. Effect: nine sections and Appendices A, B, G, H are
+    no longer `TEXT MISSING` for a phantom amendment, and the "36-54 is
+    numbered above 36-32" ordinal problem is gone, with no schema change.
+    The 67 FR 63195/63196 cites on §2 and Appendices A, B are that
+    correction (`retroactive` row). One ordinal oddity is real and stays:
+    36-20 (effective 1992-09-11) is numbered after 36-19 (effective
+    1992-12-31); the build resolves by ordinal, which follows the FR order.
+  - **36-18 is effective 1990-08-18** (a conforming change inside the Part 91
+    revision, 54 FR 34292, Docket 18334; only change in Part 36: §36.1583(b)
+    "§ 91.56" → "§ 91.815"). `effective_date` row.
+  - G36.103@36-16 (DRS gives the FR publication date) and I36.1@36-0 (an
+    "Initial" "Reserved." placeholder re-dated 10/01/1998): `drs_date` rows.
+  - Extractor changes (tests, FAA_REGS.md): assembly skips a subsection that is
+    a removed/reserved stub (H36.303@36-14 "Reserved."); the stub-title regex
+    accepts "§- 36.699 [Reserved]" and a body that only repeats the removal
+    ("Removed and reserved.", §201@36-24 is now `deleted`); `csv_duplicate`
+    rows are fetched (the kept row is checked against the manifest), which
+    resolved §9@36-13 and §201@36-24.
+  - **Still `TEXT MISSING` (8 versions), none recoverable from DRS:**
+    - §1583@36-18: no DRS document and pre-2017 (the text is the 36-11 text
+      with the one cross reference changed).
+    - Appendices A and B @36-24 and @36-26: DRS holds no text for the 2002
+      rewrite (whole-appendix documents exist from 36-31; the DRS
+      subsections A36.x/B36.x are the pre-2002 appendices at 36-9..36-15).
+    - Appendix J @36-25 and @36-30: DRS holds J36 subsections only at 36-20.
+    - Appendix F @36-9: the CITA lists 36-9, DRS has no F36 text at 36-9.
+      Not checked in the FR (43 FR 8754, 1978).
+  - **Not in the dataset, by design or gap:** Appendix C @36-24 (FAA-10),
+    and Appendix C before 2002: DRS subsections C36.1..C36.9 (36-0..36-15)
+    are extracted but never planned (eCFR has no Appendix C, so the manifest
+    has no C36 rows before its removal; 24 of the 26 `orphan` files). D36 and
+    E36 are "reserved" placeholders (the other 2 orphans). §600@36-14
+    ("§36.699 [Reserved]", empty, first version) and I36.1 are reserved
+    placeholders and are not emitted (`deletion_rule`).
+  - Reviewed, no action: `effective_before_pub` (36-20), `effective_long_after_pub`
+    (36-7, 36-18), 36-21 (DRS 1995-12-29 vs FR 12-28, the manifest uses DRS),
+    36-30 `fr_api_designator_mismatch`, §1583 `unparsed_cita`
+    ("Redesignated by Amdt. 36-14"), 41 `appendix_subsection` skips (the
+    appendix resolves as a whole).
+  - FR evidence PDFs used: govinfo issues FR-1992-09-16, FR-1992-10-07 and
+    FR-1989-08-18 (~214, 228 and 97 MB; plain `curl -C -` restarts from zero
+    after a timeout, 8 MB `Range` chunks work). They were not kept.
 - **FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number.** It is
   deliberately not declared. A TCDS citing "through 25-118" needs a human
   decision (probably 25-117). (was: Data #3)
 - **FAA-5. 27-41 and 29-48 have no DRS document** and are undeclared. Same
   question as FAA-1. (was: Data #4)
 - **FAA-6. Part 36 numbering.** (was: Data #5)
-  - The manifest assumes contiguous numbering, so the Part 36 gap list is
-    mostly noise: 36-32 is from 2022 and 36-54 from 2002. 36-33..36-53 have
-    no DRS document and probably never existed (unconfirmed).
+  - The manifest assumes contiguous numbering, so the Part 36 gap list lists
+    36-33..36-54: 36-32 is from 2022. 36-33..36-54 have no DRS document and
+    probably never existed (unconfirmed; the "36-54" of 2002 was a misprint of
+    36-24, FAA-23).
   - 36-1, 36-2, 36-3, 36-5, 36-11 and 36-32 have real sections in DRS that
-    the eCFR-derived manifest never listed. They need the section pipeline.
-  - 11 `cita_has_unresolved_entry` rows need a human (FAA-fix).
+    the eCFR-derived manifest never listed; the section pipeline now emits
+    them.
+  - The 11 `cita_has_unresolved_entry` rows are fetched and checked; 36-20's
+    are resolved by `cita_designator` rows (FAA-23).
 - **FAA-7. Authority-only declarations for Parts 25/27/29/36 aren't in
   data/:** 25-85, 27-31, 27-39, 29-37, 29-46, 36-21, 36-23. **Done for Parts
-  25, 27 and 29** (declared in each promoted `_document.json`); Part 36 will
-  follow its promotion. (was: Data #6)
+  25, 27 and 29** (declared in each promoted `_document.json`); the staged
+  Part 36 `_document.json` declares 36-21 and 36-23 and goes in with its
+  promotion. (was: Data #6)
 - **FAA-8. §23.303, §23.871 and §23.1524 are missing from
   `data/documents/faa/23/`** (confirmed 2026-11-03). (was: TCDS #28)
   - They leave 3A12 172R/172S lines unresolved (`doc_not_in_dataset`).
@@ -200,8 +237,9 @@ uncommitted `s00_common/structure.py` edits land (words identical).
   (88 FR 2813) names 25-148. DRS dates all six 25-148 documents with the
   correction date (as it does 29-58), so a `drs_date` override was added.
 - **FAA-10. Expected `TEXT MISSING`, not recoverable from DRS:** §G25.1@25-141
-  (figure only) and Part 36 Appendix C@36-24 (no DRS text). Recheck if
-  another source turns up. (FAA-fix)
+  (figure only) and Part 36 Appendix C@36-24 (no DRS text; the version is
+  dropped by the deletion rule, FAA-23). Recheck if another source turns up.
+  (FAA-fix)
 - **FAA-11. Part 23 must be manifested with `--as-of 2017-08-29`.** The
   default is the newest eCFR date, which is the post-rewrite Part 23. The
   docs say so, but nothing enforces it (`manifest.py` defaults to
@@ -224,7 +262,9 @@ uncommitted `s00_common/structure.py` edits land (words identical).
     equivalent "Removed" stubs, so they would be `deleted` versions. An
     override kind that accepts a duplicate, or a worklist rule for
     all-stub duplicates, would clear them. Until then §27.401/403/413 look
-    live after 27-27.
+    live after 27-27. **2026-11-04:** the worklist now fetches a kept
+    `csv_duplicate` row (FAA-23); re-run Part 27 `worklist`/`extract`/`emit`
+    to see whether those three clear, and review the staged diff.
 - **FAA-19. `suspect_designator` rows withheld from emit** (2026-11-04):
   - §351, §391, §395 @29-26 print "Amdt. 29-26, 55 FR 8002, Mar. 6, 1990".
     The real versions are 29-30 (from regs.csv) and are in `data/`. The 29-26
@@ -450,6 +490,27 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
   or transferred (catalogue `role=none`; the 15 `no_issue_number` rows are a
   subset):
   - Scheibe gliders (A.100–A.107, A.577, A.578)
+- **TCDS-12. Part 36 arrives: re-parse the FAA TCDS that cite it** (2026-11-04,
+  after Part 36 is promoted). Trial on a copy of `data/` and the staged Part
+  36, parsing the 21 FAA TCDS behind `data/aircraft/` into a scratch directory:
+  **19 TCDS, 69 models and 88 certification-basis entries gain `references`**
+  (no other entry in the 95 FAA models changes). Run the FAA parser over those
+  21 PDFs, `aircraft.assemble`, review, `promote --aircraft` (see TCDS-11 for
+  the TCDS list). Interpreter fixes made on the way (tests in
+  `s99_tests/emit/faa/tcds/test_references.py`):
+  - `36-1through` (no space, printed on A47CE) was read as the designator
+    "36-1t", so seven Diamond lines (A47CE, A57CE) stayed unresolved.
+  - A range with no numbered end, "Amendments 36-1 through amendment in effect
+    at the time of U.S. Type Certification" (PC-12, A78EU), resolved to
+    `to: 36-1`. It now stays unresolved.
+  - Still unresolved lines that cite Part 36 (7 entries, each needs a human):
+    "FAR 36 as amended on the date of certification" (A00003SE, 4 models), the
+    PC-12 open range (A78EU, 2) and "FAR 36, Appendix G, Amendment 36-22"
+    inside a composite line (A25SO PA-46-500TP: scope it to Appendix G@36-22).
+  - The 11 EASA TCDS that cite FAR Part 36 (EASA.A.026, .056, .057, .059, .089,
+    .187, .586, EASA.IM.A.013, .162, .196, .352) need the EASA parser re-run
+    after promotion (ETCDS work in progress).
+
   - CEAPR DR series (A.510, A.551, A.552)
   - BAC 1-11 and Slingsby T67
   - SZD/IS gliders (A.441, A.446, A.452, A.454)
@@ -672,9 +733,9 @@ history at `a65ac16`).
 Data-repo roadmap, moved from the former `plan.md` (deleted 2026-11-03). The
 app's roadmap is in the FARFETCHed repo's `plan.md`.
 
-- **ROADMAP-1. Promote FAA Parts 25, 27, 29 and 36.** They are extracted but
-  not in `data/`. Do it after the Part 23 re-fetch closes (FAA-2), with
-  FAA-7 and FAA-9.
+- **ROADMAP-1. Promote FAA Part 36.** Parts 25, 27 and 29 are promoted;
+  Part 36 is staged and ready (FAA-17, FAA-23). Promote it, run `build.py`,
+  re-parse its TCDS (TCDS-12), then close this item.
 - **ROADMAP-2. Special conditions, ELOS and exemptions as documents.**
   `doc_kind` already allows them; they need ingestion and a provision model.
   FAA special conditions are on DRS. (was: plan.md Deferred, TODO.md)
