@@ -335,6 +335,21 @@ Reports are `tools/out/reports/emit_easa_cs{n}_report.tsv`.
   - discover should record the corrigendum Decision (2022/010/R) in the
     catalogue notes
   - `amdt_markers` are unused by emit, but could cross-check versions
+- **EASA-16. Subpart (grouping) labels: what's left** (2026-11-04). Fixed:
+  wrapped running headers cut titles short ("Subpart D — Design And"), and
+  appendices took the last subpart; they are now "Appendix", as in FAA.
+  Still open:
+  - The PDFs themselves vary singular/plural: CS-25 H "Electrical Wiring
+    Interconnection System" (21 versions) vs "…Systems" (1, CS 25.1731).
+    The extractor matches whole words only, so these aren't merged. Pick one
+    (override or rule).
+  - `.title()` gives "Design And Construction". FAA has "Design and
+    Construction".
+  - EASA values keep the "Subpart X — " prefix. FAA values don't
+    ("Equipment"). Cross-issuer consistency is a contract/display decision.
+  - Real renames across amendments stay distinct: CS-23 "Structure" →
+    "Structures", "Equipment" → "Systems And Equipment", and so on (Amdt 5
+    rewrite).
 
 ### FAA TCDS / aircraft (TCDS-)
 
