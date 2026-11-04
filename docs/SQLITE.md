@@ -149,7 +149,7 @@ provisions in force.
 ```bash
 uv run python build.py                     # reads data/, writes cert_basis.sqlite
 uv run python build.py --data-dir X --out Y.sqlite
-uv run python build.py --check             # schema + text layout validation only
+uv run python build.py --check             # steps 1–2 and the text layout only
 ```
 
 `build.py`:
@@ -176,6 +176,12 @@ uv run python build.py --check             # schema + text layout validation onl
    `unresolved_references` (always empty on a successful build).
 
 Every constraint violation fails the build with the offending file named.
-Output is atomic: the build writes `cert_basis.sqlite.new`, then
-`os.replace()`s it into place, removing any stale `-wal`/`-shm` sidecars.
+Output is atomic: the build writes `cert_basis.sqlite.new` and
+`cert_basis_report.json.new` in full, then `os.replace()`s the DB and then
+the report into place, removing any stale `-wal`/`-shm` sidecars. A failed
+write leaves the previous pair untouched.
+
+`--check` runs steps 1 and 2 and the text-format check from step 4, without
+writing anything. Checks that need the whole tree in a database (revisions,
+aliases, references, dates, foreign keys) only run in a full build.
 

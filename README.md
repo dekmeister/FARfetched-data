@@ -79,7 +79,7 @@ FARfetched-data/
 
 ```bash
 uv sync                                   # install
-uv run python build.py --check            # validate data/ (schema + text layout)
+uv run python build.py --check            # validate data/ (schema, paths, text layout)
 uv run python build.py                    # build cert_basis.sqlite + report
 uv run pytest                             # tests/ and tools/s99_tests/
 uv run ruff check . && uv run mypy .      # lint and types

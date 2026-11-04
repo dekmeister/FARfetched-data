@@ -4,12 +4,12 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from collections.abc import Iterator
 from pathlib import Path
 
 import pytest
 
 from build import (
-    REPO_ROOT,
     SIMILARITY_MIN_DOC_SIZE,
     SIMILARITY_TOP_PER_DOCUMENT,
     SimilaritySource,
@@ -297,13 +297,10 @@ CONTROLS = [
 
 
 @pytest.fixture(scope="module")
-def real_conn(tmp_path_factory: pytest.TempPathFactory) -> sqlite3.Connection:
-    data = REPO_ROOT / "data"
-    if not (data / "documents").is_dir():
-        pytest.skip("no checked-in data")
-    out = tmp_path_factory.mktemp("real") / "cert_basis.sqlite"
-    build(data, out)
-    return sqlite3.connect(out)
+def real_conn(real_db: Path) -> Iterator[sqlite3.Connection]:
+    conn = sqlite3.connect(real_db)
+    yield conn
+    conn.close()
 
 
 def _match(

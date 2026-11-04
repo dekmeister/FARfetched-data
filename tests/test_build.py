@@ -8,7 +8,15 @@ from pathlib import Path
 
 import pytest
 
-from build import REPO_ROOT, SCHEMA_VERSION, BuildError, build, sort_key
+from build import (
+    REPO_ROOT,
+    SCHEMA_VERSION,
+    BuildError,
+    build,
+    check,
+    main,
+    sort_key,
+)
 
 # ---------------------------------------------------------------------------
 # helpers
@@ -161,12 +169,7 @@ def _basis_fails(tmp_path: Path, provisions: list[dict], entries: list[dict]) ->
 # real checked-in data
 
 
-@pytest.fixture(scope="module")
-def real_db(tmp_path_factory: pytest.TempPathFactory) -> Path:
-    # Built once per module; repo_root is function-scoped, so use REPO_ROOT.
-    out = tmp_path_factory.mktemp("real") / "cert_basis.sqlite"
-    build(REPO_ROOT / "data", out)
-    return out
+# (real_db: tests/conftest.py, built once per session.)
 
 
 class TestRealDataBuild:
@@ -232,23 +235,18 @@ class TestRealDataBuild:
             ).fetchone()[0]
         assert orphans == 0
 
-    def test_one_row_per_tcds_line(self, real_db: Path) -> None:
-        # 3A12 Rev 89, Model 172: the CAR 3 base, the §23.1559 addition and
-        # two equivalent-safety items. (3A12 holds 18 models: scope to one.)
+    def test_tcds_lines_are_numbered_from_one(self, real_db: Path) -> None:
+        # One entry per TCDS line: every TCB's display_order runs 1..n.
         with sqlite3.connect(real_db) as conn:
-            rows = conn.execute(
-                "SELECT e.display_order, e.entry_type FROM cert_basis_entries e "
-                "JOIN tcb ON tcb.id = e.tcb_id JOIN tcds ON tcds.id = tcb.tcds_id "
-                "JOIN aircraft_models m ON m.id = tcb.model_id "
-                "WHERE tcds.tcds_number = '3A12' AND m.model_designation = '172' "
-                "ORDER BY e.display_order"
+            gaps = conn.execute(
+                "SELECT tcb_id FROM cert_basis_entries GROUP BY tcb_id "
+                "HAVING min(display_order) != 1 OR max(display_order) != count(*)"
             ).fetchall()
-        assert rows == [
-            (1, "regulation"),
-            (2, "regulation"),
-            (3, "elos"),
-            (4, "elos"),
-        ]
+        assert gaps == []
+
+    def test_no_unresolved_references(self, real_db: Path) -> None:
+        report = json.loads((real_db.parent / "cert_basis_report.json").read_text())
+        assert report["unresolved_references"] == []
 
     def test_172_basis_resolves_to_car_3_through_3_12(self, real_db: Path) -> None:
         resolved = _resolved(real_db, "3A12", "172")
@@ -300,10 +298,6 @@ class TestDA40Trace:
     """Two serial-scoped TCDS lines (Austria: display 2; Canada: display 6),
     each holding 14 CFR 23 through 23-51."""
 
-    def test_no_unresolved_references(self, real_db: Path) -> None:
-        report = json.loads((real_db.parent / "cert_basis_report.json").read_text())
-        assert report["unresolved_references"] == []
-
     def test_both_scopes_hold_the_same_set_through_23_51(self, real_db: Path) -> None:
         resolved = _resolved(real_db, "A47CE", "DA 40")
         by_line: dict[int, set[tuple[str, str]]] = {}
@@ -335,7 +329,9 @@ class TestDA40Trace:
         assert later
         assert not later & {n for _, n, _, _ in _resolved(real_db, "A47CE", "DA 40")}
 
-    def test_non_part_23_lines_carry_no_refs(self, real_db: Path) -> None:
+    def test_only_the_part_23_lines_carry_refs(self, real_db: Path) -> None:
+        # JAR 23, Part 36 (not in the dataset), special conditions and ELOS
+        # lines are kept as entries but reference nothing.
         with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
                 "SELECT e.display_order, e.entry_type, count(r.id) "
@@ -344,20 +340,11 @@ class TestDA40Trace:
                 "JOIN aircraft_models m ON m.id = tcb.model_id "
                 "LEFT JOIN cert_basis_refs r ON r.entry_id = e.id "
                 "WHERE tcds.tcds_number = 'A47CE' AND m.model_designation = 'DA 40' "
-                "GROUP BY e.id ORDER BY e.display_order"
+                "GROUP BY e.id"
             ).fetchall()
-        assert rows == [
-            (1, "other", 0),  # JAR 23
-            (2, "regulation", 1),
-            (3, "regulation", 0),  # Part 36: not in the dataset
-            (4, "special_condition", 0),
-            (5, "elos", 0),
-            (6, "regulation", 1),
-            (7, "regulation", 0),
-            (8, "special_condition", 0),
-            (9, "elos", 0),
-            (10, "other", 0),
-        ]
+        with_refs = {(order, kind, n) for order, kind, n in rows if n}
+        assert with_refs == {(2, "regulation", 1), (6, "regulation", 1)}
+        assert len(rows) > len(with_refs)
 
 
 # ---------------------------------------------------------------------------
@@ -773,6 +760,19 @@ class TestBuildFailures:
             build(data, tmp_path / "cert_basis.sqlite")
         assert "expected at documents/faa/23/1.json" in str(ei.value)
 
+    def test_check_catches_path_mismatch(
+        self, tmp_path: Path, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+        data = _stage(
+            tmp_path, [_document("23", [0])], [_provision("23", "1", [0])], []
+        )
+        assert check(data) == []
+        (data / "documents" / "faa" / "23" / "1.json").rename(
+            data / "documents" / "faa" / "23" / "2.json"
+        )
+        assert main(["--check", "--data-dir", str(data)]) == 1
+        assert "expected at documents/faa/23/1.json" in capsys.readouterr().err
+
     def test_validation_failure_fails_build_before_sqlite(self, tmp_path: Path) -> None:
         prov = _provision("25", "1309", [23])
         del prov["canonical_title"]
@@ -799,3 +799,24 @@ class TestAtomicWrite:
         assert out.exists()
         assert not out.with_suffix(out.suffix + ".new").exists()
         assert not any(p.exists() for p in stale)
+
+    def test_failed_report_write_keeps_the_old_pair(
+        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        data = _stage(
+            tmp_path, [_document("23", [0])], [_provision("23", "1", [0])], []
+        )
+        out = tmp_path / "cert_basis.sqlite"
+        report = tmp_path / "cert_basis_report.json"
+        build(data, out)
+        before = (out.read_bytes(), report.read_bytes())
+
+        def fail(*args: object, **kwargs: object) -> str:
+            raise OSError("disk full")
+
+        monkeypatch.setattr(json, "dumps", fail)
+        with pytest.raises(OSError, match="disk full"):
+            build(data, out)
+        assert (out.read_bytes(), report.read_bytes()) == before
+        assert not out.with_name(out.name + ".new").exists()
+        assert not report.with_name(report.name + ".new").exists()

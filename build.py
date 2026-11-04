@@ -912,8 +912,12 @@ def check_text(label: str, designator: str, text: str) -> ParsedText | str:
 
 def check_text_format(data_dir: Path) -> list[str]:
     """Format errors in every provision text under data_dir (for --check)."""
+    return _text_format_errors(_load_provisions(data_dir))
+
+
+def _text_format_errors(provisions: list[Source]) -> list[str]:
     errors: list[str] = []
-    for s in _load_provisions(data_dir):
+    for s in provisions:
         p = s.doc
         label = f"{p['issuer']}/{p['document']}/{p['number']}"
         for v in p.get("versions", []):
@@ -1838,13 +1842,36 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
         _remove_sqlite_file(tmp)
         raise BuildError(unresolved)
 
+    # Write the report beside the DB before either is swapped in, so a failed
+    # write can't leave a new DB next to a stale report.
+    report_path = out_path.with_name(out_path.stem + "_report.json")
+    report_tmp = report_path.with_name(report_path.name + ".new")
+    try:
+        report_tmp.write_text(json.dumps(report, indent=2) + "\n")
+    except BaseException:
+        report_tmp.unlink(missing_ok=True)
+        _remove_sqlite_file(tmp)
+        raise
+
     for suffix in ("-wal", "-shm"):
         out_path.with_name(out_path.name + suffix).unlink(missing_ok=True)
     tmp.replace(out_path)
-
-    report_path = out_path.with_name(out_path.stem + "_report.json")
-    report_path.write_text(json.dumps(report, indent=2) + "\n")
+    report_tmp.replace(report_path)
     return report
+
+
+def check(data_dir: Path) -> list[str]:
+    """Everything `build` checks before inserting: schemas, paths, text layout.
+
+    Cross-file checks (revisions, aliases, references, dates) need the build.
+    """
+    validation_errors = validate_data_dir(data_dir)
+    if validation_errors:
+        return [str(e) for e in validation_errors]
+    provisions = _load_provisions(data_dir)
+    errors = _check_paths(_load_documents(data_dir), provisions)
+    errors.extend(_text_format_errors(provisions))
+    return errors
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -1864,14 +1891,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="Validate schemas and text layout only; do not build SQLite.",
+        help="Validate schemas, file paths and text layout; do not build SQLite.",
     )
     args = parser.parse_args(argv)
 
     if args.check:
-        errors: list[object] = list(validate_data_dir(args.data_dir))
-        if not errors:
-            errors.extend(check_text_format(args.data_dir))
+        errors = check(args.data_dir)
         if errors:
             for e in errors:
                 print(e, file=sys.stderr)
