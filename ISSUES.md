@@ -569,7 +569,6 @@ for the per-document tables and how to list each kind.
 From the 2026-11-03 parent review
 (handover `reviews/2026-11-03-parent-reorg-handover.md`, removed; see git
 history at `a65ac16`).
-BUILD-5 is a proposal awaiting a decision (contract change).
 
 - **BUILD-1. Real-data tests failed on pre-v6 aircraft files. Fixed
   2026-11-04.** `data/aircraft/` held 95 models in the pre-v6 shape (top-level
@@ -593,9 +592,11 @@ BUILD-5 is a proposal awaiting a decision (contract change).
   can still pair a new DB with an old report.
 - **BUILD-4. `build.py --check` skipped `_check_paths`. Fixed 2026-11-04.**
   `--check` now calls `build.check()`: schemas, then paths and text layout.
-- **BUILD-5. `build_info.git_sha` doesn't reveal a dirty tree.** A build that
-  includes uncommitted files records HEAD. Proposal: a `git_dirty` column.
-  That is a contract change (v6): ask first.
+- **BUILD-5. `build_info.git_sha` didn't reveal a dirty tree. Fixed
+  2026-11-04, report-only.** The report now carries `git_dirty` and
+  `git_dirty_paths` (uncommitted changes under `data/`), and a dirty build
+  prints a warning. The SQLite contract is unchanged: no column, no version
+  bump. Ship DBs built from a committed tree.
 - **BUILD-6. The tests built the real `data/` twice. Fixed 2026-11-04.**
   One session-scoped `real_db` in `tests/conftest.py`; `real_conn` uses it.
   The `sys.path` insert is replaced by pytest `pythonpath = ["."]`. The full
