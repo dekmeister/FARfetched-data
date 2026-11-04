@@ -172,8 +172,17 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    every table, `text_missing` and `deleted` counts, provenance counts,
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
-   (provisions with matches and score bands), and
-   `unresolved_references` (always empty on a successful build).
+   (provisions with matches and score bands), `git_dirty` /
+   `git_dirty_paths` (see below), and `unresolved_references` (always empty
+   on a successful build).
+
+`build_info.git_sha` records HEAD of the repo holding `data/`. It doesn't
+say whether the build also read uncommitted files. The report does:
+`git_dirty` is `true` when anything under `data/` is modified, added or
+untracked, with the repo-relative paths in `git_dirty_paths`; `false` when
+clean; `null` when `data/` isn't in a git work tree. A dirty build also
+prints a warning. This is deliberately report-only, not part of the SQLite
+contract: a DB to ship should be built from a committed tree.
 
 Every constraint violation fails the build with the offending file named.
 Output is atomic: the build writes `cert_basis.sqlite.new` and

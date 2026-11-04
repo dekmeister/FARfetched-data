@@ -1496,6 +1496,33 @@ def _git_sha(data_dir: Path) -> str | None:
     return out.stdout.strip() or None
 
 
+def _git_dirty_paths(data_dir: Path) -> list[str] | None:
+    """Uncommitted changes under data_dir (repo-relative), or None outside git.
+
+    Reported, not stored in the DB: build_info.git_sha names HEAD, and this
+    says whether the build also included files HEAD doesn't have.
+    """
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(data_dir), "status", "--porcelain=v1", "-z"]
+            + ["--untracked-files=all", "--", "."],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return None
+    paths: list[str] = []
+    fields = iter(out.stdout.split("\0"))
+    for entry in fields:
+        if not entry:
+            continue
+        paths.append(entry[3:])
+        if "R" in entry[:2] or "C" in entry[:2]:
+            next(fields, None)  # the rename/copy source follows
+    return sorted(paths)
+
+
 # ---------------------------------------------------------------------------
 # Provision similarity (docs/SQLITE.md §Similarity)
 #
@@ -1735,6 +1762,8 @@ class BuildReport(TypedDict):
     paragraph_refs_verified: int
     paragraph_refs_unverifiable: int
     similarity: dict[str, int]
+    git_dirty: bool | None
+    git_dirty_paths: list[str]
     unresolved_references: list[str]
 
 
@@ -1743,6 +1772,7 @@ def _build_report(
     unresolved: list[str],
     text_stats: TextStats,
     para_stats: ParagraphRefStats,
+    dirty_paths: list[str] | None,
 ) -> BuildReport:
     tables = [
         r[0]
@@ -1775,6 +1805,8 @@ def _build_report(
         "paragraph_refs_verified": para_stats.verified,
         "paragraph_refs_unverifiable": para_stats.unverifiable,
         "similarity": _similarity_report(conn),
+        "git_dirty": None if dirty_paths is None else bool(dirty_paths),
+        "git_dirty_paths": dirty_paths or [],
         "unresolved_references": unresolved,
     }
 
@@ -1830,7 +1862,9 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
         fk_errors = conn.execute("PRAGMA foreign_key_check").fetchall()
         if fk_errors:
             raise BuildError([f"foreign key violation: {r}" for r in fk_errors])
-        report = _build_report(conn, unresolved, text_stats, para_stats)
+        report = _build_report(
+            conn, unresolved, text_stats, para_stats, _git_dirty_paths(data_dir)
+        )
         conn.commit()
     except Exception:
         conn.close()
@@ -1927,6 +1961,14 @@ def main(argv: list[str] | None = None) -> int:
         f"resolved={t['cert_basis_resolved']})",
         file=sys.stderr,
     )
+    if report["git_dirty"]:
+        n = len(report["git_dirty_paths"])
+        print(
+            f"WARNING: built from {n} uncommitted path(s) under {args.data_dir}; "
+            "build_info.git_sha names HEAD, which doesn't hold them. "
+            "See git_dirty_paths in the report.",
+            file=sys.stderr,
+        )
     return 0
 
 

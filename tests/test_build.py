@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -820,3 +821,52 @@ class TestAtomicWrite:
         assert (out.read_bytes(), report.read_bytes()) == before
         assert not out.with_name(out.name + ".new").exists()
         assert not report.with_name(report.name + ".new").exists()
+
+
+class TestGitDirty:
+    """The report says whether data/ had uncommitted changes (BUILD-5)."""
+
+    @staticmethod
+    def _git(repo: Path, *args: str) -> None:
+        subprocess.run(
+            ["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@t"]
+            + list(args),
+            check=True,
+            capture_output=True,
+        )
+
+    def _report(self, data: Path, out: Path) -> dict:
+        build(data, out)
+        return json.loads(out.with_name("cert_basis_report.json").read_text())
+
+    def test_clean_modified_and_untracked(self, tmp_path: Path) -> None:
+        data = _stage(
+            tmp_path, [_document("23", [0])], [_provision("23", "1", [0])], []
+        )
+        (tmp_path / "other.txt").write_text("outside data/: not reported")
+        self._git(tmp_path, "init", "-q")
+        self._git(tmp_path, "add", "data")
+        self._git(tmp_path, "commit", "-q", "-m", "init")
+        out = tmp_path / "out" / "cert_basis.sqlite"
+        out.parent.mkdir()
+
+        report = self._report(data, out)
+        assert (report["git_dirty"], report["git_dirty_paths"]) == (False, [])
+
+        prov = _provision("23", "1", [0])
+        prov["canonical_title"] = "Changed"
+        (data / "documents" / "faa" / "23" / "1.json").write_text(json.dumps(prov))
+        (data / "documents" / "faa" / "23" / "2.json").write_text(
+            json.dumps(_provision("23", "2", [0]))
+        )
+        report = self._report(data, out)
+        assert report["git_dirty"] is True
+        assert report["git_dirty_paths"] == [
+            "data/documents/faa/23/1.json",
+            "data/documents/faa/23/2.json",
+        ]
+
+    def test_outside_git_is_unknown(self, tmp_path: Path) -> None:
+        data = _stage(tmp_path, [_document("23", [0])], [], [])
+        report = self._report(data, tmp_path / "cert_basis.sqlite")
+        assert (report["git_dirty"], report["git_dirty_paths"]) == (None, [])
