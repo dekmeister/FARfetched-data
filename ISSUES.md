@@ -567,7 +567,8 @@ for the per-document tables and how to list each kind.
 ### Build / contract (BUILD-)
 
 From the 2026-11-03 parent review
-([reviews/2026-11-03-parent-reorg-handover.md](reviews/2026-11-03-parent-reorg-handover.md)).
+(handover `reviews/2026-11-03-parent-reorg-handover.md`, removed; see git
+history at `a65ac16`).
 BUILD-5 is a proposal awaiting a decision (contract change).
 
 - **BUILD-1. Real-data tests failed on pre-v6 aircraft files. Fixed

@@ -10,7 +10,7 @@ change to the SQLite contract.
 
 | Version | Date | Commit | Change |
 |---|---|---|---|
-| 1 | 2026-10-31 | `7569c83` | Generic issuer → document → revision → provision model, and the three-layer cert basis (entries, refs, resolved). Came out of the [2026-10-31 schema review](../reviews/2026-10-31-db-schema/). |
+| 1 | 2026-10-31 | `7569c83` | Generic issuer → document → revision → provision model, and the three-layer cert basis (entries, refs, resolved). Came out of the 2026-10-31 schema review (`reviews/2026-10-31-db-schema/`, removed; in git history at `a65ac16`). |
 | 2 | 2026-10-31 | `bf2d14a` | `deleted: true` versions and `provision_versions.deleted`, added for EASA CS-23 Amdt 5, where every old-numbered paragraph is deleted. |
 | 3 | 2026-11-01 | `402cd00` | Label-line paragraph text ([Text format](DATA_FORMAT.md#text-format)) and the `provision_paragraphs` table. |
 | 4 | 2026-11-02 | `a429789` | `manual` dropped from the `provenance` enum and CHECKs: `data/` is built from source. |
@@ -31,7 +31,7 @@ and fields went away in that change:
 - References name designators, not ordinals, and have no `from`: "as amended
   by 23-1 thru 23-38" always includes the base revision.
 
-The review's [README](../reviews/2026-10-31-db-schema/README.md) records
+The review's README (in git history) records
 what was implemented, what changed from the proposal, what was rejected
 (per-revision actions) and what was deferred.
 
