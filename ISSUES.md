@@ -379,10 +379,26 @@ Reports are `tools/out/reports/emit_easa_cs{n}_report.tsv`.
   wrapped running headers cut titles short ("Subpart D — Design And"), and
   appendices took the last subpart; they are now "Appendix", as in FAA.
   Still open:
-  - The PDFs themselves vary singular/plural: CS-25 H "Electrical Wiring
-    Interconnection System" (21 versions) vs "…Systems" (1, CS 25.1731).
-    The extractor matches whole words only, so these aren't merged. Pick one
-    (override or rule).
+  - **Fixed and promoted (2026-11-04):** CS-25 H "Electrical Wiring
+    Interconnection System" vs "…Systems". Not PDF noise: CS25-27 renamed
+    the subpart (every Subpart H page header prints "SYSTEMS"), and
+    `current_grouping` came from each paragraph's last *version*, so
+    CS 25.1701–1729 (unchanged since CS25-5) kept the old name. Emit now
+    takes it from the newest PDF that prints the paragraph. Re-emitted to
+    staging: exactly those 15 files changed; promoted, and the committed
+    `build.py` builds clean with all 16 under "…Systems".
+  - **CS-23 sidebar shows two Subpart C/E/F/G** (handed to the app). Not a
+    label bug: every provision under the old names ("Structure",
+    "Powerplant", "Equipment", "Operating Limitations And Information",
+    and the old B/D paragraphs) is deleted at CS23-5 (the Amdt 5 rewrite);
+    every live one is under the new names. A deleted provision has no
+    present-day subpart, so it keeps the last one it was printed under.
+    Decided 2026-11-04: the data stays as printed (renaming the old
+    groups in the data would invent a grouping the source never printed);
+    the app merges, per document, values with the same "Subpart X" prefix
+    into one display group with both names ("Subpart C — Structures /
+    Structure", live name first) and marks removed provisions. No contract
+    change. Close here once the FARfetched change lands.
   - `.title()` gives "Design And Construction". FAA has "Design and
     Construction".
   - EASA values keep the "Subpart X — " prefix. FAA values don't
