@@ -1,6 +1,7 @@
 {
   "issuer": "CAA",
   "document": "car-3",
+  "key": "757",
   "number": "757",
   "current_grouping": "Instrument Markings",
   "canonical_title": "Air-speed indicator",
@@ -10,7 +11,7 @@
       "designator": "CAR3-0",
       "grouping_at_time": "Instrument Markings",
       "title_at_revision": "Air-speed indicator.",
-      "text": "(a) True indicated air speed shall be used:\n  (1) The never-exceed speed, Vne\u0097a radial red line (see \u00a7 3.739). red line in (1) above to the upper limit of the (2) The caution range\u0097a yellow arc extending from the red line in (1) above to the upper limit of the green arc specified in (3) below. (3) The normal operating range\u0097a green arc with the lower limit at Vs1, as determined in \u00a7 3.82 with maximum weight, landing gear and wing flaps retracted, and the upper limit at the maximum structural cruising speed established in \u00a7 3.740. (4) The flap operating range\u0097a white arc with the lower limit at Vso as determined in \u00a7 3.82 at the maximum weight, and the upper limit at the flaps-extended speed in \u00a7 3.742.\n(b) When the never-exceed and maximum structural cruising speeds vary with altitude, means shall be provided which will indicate the appropriate limitations to the pilot throughout the operating altitude range.",
+      "text": "(a) True indicated air speed shall be used:\n  (1) The never-exceed speed, Vne\u0097a radial red line (see \u00a7 3.739). red line in (1) above to the upper limit of the\n  (2) The caution range\u0097a yellow arc extending from the red line in (1) above to the upper limit of the green arc specified in (3) below.\n  (3) The normal operating range\u0097a green arc with the lower limit at Vs1, as determined in \u00a7 3.82 with maximum weight, landing gear and wing flaps retracted, and the upper limit at the maximum structural cruising speed established in \u00a7 3.740.\n  (4) The flap operating range\u0097a white arc with the lower limit at Vso as determined in \u00a7 3.82 at the maximum weight, and the upper limit at the flaps-extended speed in \u00a7 3.742.\n(b) When the never-exceed and maximum structural cruising speeds vary with altitude, means shall be provided which will indicate the appropriate limitations to the pilot throughout the operating altitude range.",
       "source_url": null,
       "provenance": {
         "source": "ocr"

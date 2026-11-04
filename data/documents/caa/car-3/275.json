@@ -1,6 +1,7 @@
 {
   "issuer": "CAA",
   "document": "car-3",
+  "key": "275",
   "number": "275",
   "current_grouping": "Float Seaplanes",
   "canonical_title": "Landing with vertical reactions",
@@ -10,7 +11,7 @@
       "designator": "CAR3-0",
       "grouping_at_time": "Float Seaplanes",
       "title_at_revision": "Landing with vertical reactions.",
-      "text": "(a) The limit load factor shall be 4.33 acting vertically, except that it need not exceed a value given by the following formula: n = 3.0 + 0.133 W/S (b) The propeller axis (or equivalent reference line) shall be assumed to be horizontal, and the resultant water reaction to be vertical and passing through the center of gravity of the airplane. (c) Factors of safety. The factors of safety shall be the same as those specified in \u00a73.273(c).",
+      "text": "(a) The limit load factor shall be 4.33 acting vertically, except that it need not exceed a value given by the following formula: n = 3.0 + 0.133 W/S\n(b) The propeller axis (or equivalent reference line) shall be assumed to be horizontal, and the resultant water reaction to be vertical and passing through the center of gravity of the airplane.\n(c) Factors of safety. The factors of safety shall be the same as those specified in \u00a73.273(c).",
       "source_url": null,
       "provenance": {
         "source": "ocr"
