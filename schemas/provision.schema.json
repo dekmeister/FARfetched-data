@@ -2,12 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/provision.schema.json",
   "title": "Provision",
-  "description": "One citable provision (CFR section, CS paragraph, ...) and its text at each revision. Lives at documents/{issuer}/{document}/{number}.json.",
+  "description": "One citable provision (CFR section, CS paragraph, handbook criterion, ...) and its text at each revision. `key` is its identity and file name (documents/{issuer}/{document}/{key}.json); `number` is a printed label that a document may reuse or renumber.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "issuer",
     "document",
+    "key",
     "number",
     "current_grouping",
     "canonical_title",
@@ -16,7 +17,14 @@
   "properties": {
     "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
     "document": { "$ref": "common.schema.json#/$defs/slug" },
-    "number": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9.-]*$" },
+    "key": {
+      "description": "Stable, opaque identity of the provision within its document; the file name. Equal to `number` unless the document reuses or renumbers numbers.",
+      "$ref": "#/$defs/number"
+    },
+    "number": {
+      "description": "The number as printed at the provision's latest version.",
+      "$ref": "#/$defs/number"
+    },
     "current_grouping": { "type": ["string", "null"] },
     "canonical_title": { "type": "string", "minLength": 1 },
     "subject_group": { "type": ["string", "null"] },
@@ -27,6 +35,7 @@
     }
   },
   "$defs": {
+    "number": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9.-]*$" },
     "version": {
       "type": "object",
       "additionalProperties": false,
@@ -38,6 +47,10 @@
       ],
       "properties": {
         "designator": { "$ref": "common.schema.json#/$defs/designator" },
+        "number": {
+          "description": "The number as printed at this revision. Absent = the top-level `number`.",
+          "$ref": "#/$defs/number"
+        },
         "grouping_at_time": { "type": ["string", "null"] },
         "title_at_revision": { "type": "string", "minLength": 1 },
         "text": {

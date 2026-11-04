@@ -4,7 +4,7 @@
   "title": "Shared definitions",
   "description": "Definitions shared by every other schema, so closed sets can't drift apart. The issuer enum must match _ISSUERS in build.py.",
   "$defs": {
-    "issuer": { "enum": ["FAA", "CAA", "CAB", "EASA"] },
+    "issuer": { "enum": ["FAA", "CAA", "CAB", "EASA", "DOD"] },
     "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
     "designator": { "type": "string", "pattern": "^\\S(.*\\S)?$" },
     "date": { "type": "string", "format": "date" },

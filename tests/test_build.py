@@ -56,6 +56,7 @@ def _provision(slug: str, number: str, ordinals: list[int]) -> dict:
     return {
         "issuer": "FAA",
         "document": slug,
+        "key": number,
         "number": number,
         "current_grouping": "A",
         "canonical_title": f"Dummy §{slug}.{number}",
@@ -112,7 +113,7 @@ def _stage(
     for p in provisions:
         doc_dir = data / "documents" / p["issuer"].lower() / p["document"]
         doc_dir.mkdir(parents=True, exist_ok=True)
-        (doc_dir / f"{p['number']}.json").write_text(json.dumps(p))
+        (doc_dir / f"{p['key']}.json").write_text(json.dumps(p))
     (data / "aircraft").mkdir(parents=True, exist_ok=True)
     for a in aircraft:
         slug = a["model_designation"].replace(" ", "-").lower()
@@ -266,7 +267,13 @@ class TestRealDataBuild:
                     "LEFT JOIN issuers s ON s.id = i.successor_id"
                 ).fetchall()
             )
-        assert rows == {"FAA": None, "CAA": "FAA", "CAB": "FAA", "EASA": None}
+        assert rows == {
+            "FAA": None,
+            "CAA": "FAA",
+            "CAB": "FAA",
+            "EASA": None,
+            "DOD": None,
+        }
 
     def test_text_missing_flag_matches_sentinel(self, real_db: Path) -> None:
         with sqlite3.connect(real_db) as conn:
@@ -664,6 +671,18 @@ class TestResolutionFailures:
             ),
             (
                 [
+                    _ref("23-62", provisions=["2"]),
+                    {
+                        "issuer": "FAA",
+                        "document": "23",
+                        "effect": "exclude",
+                        "provisions": ["1"],
+                    },
+                ],
+                "removes nothing",
+            ),
+            (
+                [
                     {
                         "issuer": "FAA",
                         "document": "23",
@@ -671,7 +690,7 @@ class TestResolutionFailures:
                         "provisions": ["1"],
                     }
                 ],
-                "removes nothing",
+                "no include ref in 23 to read its number at",
             ),
         ],
     )

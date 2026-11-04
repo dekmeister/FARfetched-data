@@ -205,6 +205,7 @@ def _stage(tmp_path: Path, provisions: dict[str, list[dict]]) -> Path:
                 {
                     "issuer": "EASA",
                     "document": "cs-23",
+                    "key": number,
                     "number": number,
                     "current_grouping": None,
                     "canonical_title": versions[-1]["title_at_revision"],

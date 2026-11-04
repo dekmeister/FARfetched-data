@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 6
+SCHEMA_VERSION = 7
 
 DOCUMENT_FILE = "_document.json"
 
@@ -77,23 +77,31 @@ CREATE TABLE document_revisions (
     UNIQUE (document_id, id)
 ) STRICT;
 
+-- `key` is the provision's identity; `number` is the label printed at its
+-- latest version. A document may reuse a number for another provision, or
+-- renumber one, so `number` is not unique (docs/SCHEMA_HISTORY.md, v7).
 CREATE TABLE provisions (
     id               INTEGER PRIMARY KEY,
     document_id      INTEGER NOT NULL REFERENCES documents(id),
+    key              TEXT NOT NULL,
     number           TEXT NOT NULL,
     sort_key         TEXT NOT NULL,
     canonical_title  TEXT NOT NULL,
     current_grouping TEXT,
     subject_group    TEXT,
-    UNIQUE (document_id, number),
+    UNIQUE (document_id, key),
     UNIQUE (document_id, id)
 ) STRICT;
+
+CREATE INDEX idx_provisions_number ON provisions (document_id, number);
 
 CREATE TABLE provision_versions (
     id                 INTEGER PRIMARY KEY,
     document_id        INTEGER NOT NULL,
     provision_id       INTEGER NOT NULL,
     revision_id        INTEGER NOT NULL,
+    -- The number as printed at this revision.
+    number             TEXT NOT NULL,
     grouping_at_time   TEXT,
     title_at_revision  TEXT NOT NULL,
     text               TEXT,
@@ -120,6 +128,13 @@ CREATE TABLE provision_versions (
 ) STRICT;
 
 CREATE INDEX idx_pv_revision ON provision_versions (revision_id);
+
+-- Two versions printed at one revision can't share a number. A deletion is
+-- exempt: the revision that deletes a provision may reuse its number for a
+-- new one. (That a number names at most one provision in force at every
+-- revision is checked in Python: versions are sparse.)
+CREATE UNIQUE INDEX idx_pv_printed_number ON provision_versions
+    (document_id, revision_id, number) WHERE deleted = 0;
 
 -- A version's text split into blocks (docs/DATA_FORMAT.md §Text format). Every version
 -- that has text has rows; a flat (single-line) text is one unlabelled row.
@@ -304,6 +319,7 @@ _ISSUERS: dict[str, tuple[str, str, str | None, str | None]] = {
     "CAA": ("Civil Aeronautics Administration", "naa", "US", "FAA"),
     "CAB": ("Civil Aeronautics Board", "naa", "US", "FAA"),
     "EASA": ("European Union Aviation Safety Agency", "naa", "EU", None),
+    "DOD": ("U.S. Department of Defense", "military", "US", None),
 }
 
 # Closed set of airworthiness categories. Must match the `categories` enum in
@@ -445,7 +461,7 @@ def _check_paths(documents: list[Source], provisions: list[Source]) -> list[str]
                 f"{s.path}: expected under documents/{expected[0]}/{expected[1]}/"
             )
     for s in provisions:
-        want = f"{s.doc['issuer'].lower()}/{s.doc['document']}/{s.doc['number']}"
+        want = f"{s.doc['issuer'].lower()}/{s.doc['document']}/{s.doc['key']}"
         got = f"{s.path.parent.parent.name}/{s.path.parent.name}/{s.path.stem}"
         if got != want:
             errors.append(f"{s.path}: expected at documents/{want}.json")
@@ -919,7 +935,7 @@ def _text_format_errors(provisions: list[Source]) -> list[str]:
     errors: list[str] = []
     for s in provisions:
         p = s.doc
-        label = f"{p['issuer']}/{p['document']}/{p['number']}"
+        label = f"{p['issuer']}/{p['document']}/{p['key']}"
         for v in p.get("versions", []):
             if isinstance(v.get("text"), str):
                 res = check_text(label, v.get("designator", "?"), v["text"])
@@ -945,7 +961,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
     stats = TextStats()
     for s in provisions:
         p = s.doc
-        label = f"{p['issuer']}/{p['document']}/{p['number']}"
+        label = f"{p['issuer']}/{p['document']}/{p['key']}"
         doc_id = _document_id(conn, p["issuer"], p["document"])
         if doc_id is None:
             raise BuildError(
@@ -961,15 +977,25 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
         }
         ordinal_of = {d: o for d, (_, o) in revisions.items()}
         resolved = _resolve_alias_versions(label, p["versions"], ordinal_of)
+        latest_number = resolved[-1].get("number", p["number"])
+        if latest_number != p["number"]:
+            raise BuildError(
+                [
+                    f"{s.path}: number {p['number']!r} is not the number printed "
+                    f"at the latest version ({latest_number!r} at "
+                    f"{resolved[-1]['designator']!r})"
+                ]
+            )
 
         with _integrity_context(s.path):
             cur = conn.execute(
                 "INSERT INTO provisions "
-                "(document_id, number, sort_key, canonical_title, "
+                "(document_id, key, number, sort_key, canonical_title, "
                 " current_grouping, subject_group) "
-                "VALUES (?, ?, ?, ?, ?, ?)",
+                "VALUES (?, ?, ?, ?, ?, ?, ?)",
                 (
                     doc_id,
+                    p["key"],
                     p["number"],
                     sort_key(p["number"]),
                     p["canonical_title"],
@@ -985,14 +1011,16 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
                 same_as = v["same_as_designator"]
                 pv_cur = conn.execute(
                     "INSERT INTO provision_versions "
-                    "(document_id, provision_id, revision_id, grouping_at_time, "
-                    " title_at_revision, text, deleted, same_as_version_id, "
-                    " publication_cite, source_url, provenance, provenance_notes) "
-                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    "(document_id, provision_id, revision_id, number, "
+                    " grouping_at_time, title_at_revision, text, deleted, "
+                    " same_as_version_id, publication_cite, source_url, "
+                    " provenance, provenance_notes) "
+                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     (
                         doc_id,
                         prov_id,
                         revisions[v["designator"]][0],
+                        v.get("number", p["number"]),
                         v.get("grouping_at_time"),
                         v["title_at_revision"],
                         v["text"],
@@ -1041,6 +1069,53 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
     return stats
 
 
+def _number_clashes(conn: sqlite3.Connection) -> list[str]:
+    """At every revision of a document, a printed number names at most one
+    provision in force. Versions are sparse (a provision keeps its number
+    until its next version), so this is a sweep in revision order, not a
+    constraint the DDL can state."""
+    errors: list[str] = []
+    rows = conn.execute(
+        "SELECT d.id, i.code, d.slug, dr.ordinal, dr.designator, p.id, p.key, "
+        "       pv.number, pv.deleted "
+        "FROM provision_versions pv "
+        "JOIN provisions p ON p.id = pv.provision_id "
+        "JOIN documents d ON d.id = pv.document_id "
+        "JOIN issuers i ON i.id = d.issuer_id "
+        "JOIN document_revisions dr ON dr.id = pv.revision_id "
+        "ORDER BY d.id, dr.ordinal, p.id"
+    ).fetchall()
+    doc: int | None = None
+    number_of: dict[int, str] = {}  # provision id -> number, while in force
+    holders: dict[str, set[int]] = {}  # number -> provision ids in force
+    keys: dict[int, str] = {}
+    i = 0
+    while i < len(rows):
+        doc_id, issuer, slug, ordinal, designator = rows[i][:5]
+        if doc_id != doc:
+            doc, number_of, holders = doc_id, {}, {}
+        touched: set[str] = set()
+        while i < len(rows) and rows[i][0] == doc_id and rows[i][3] == ordinal:
+            _, _, _, _, _, pid, key, number, deleted = rows[i]
+            keys[pid] = key
+            old = number_of.pop(pid, None)
+            if old is not None:
+                holders[old].discard(pid)
+            if not deleted:
+                number_of[pid] = number
+                holders.setdefault(number, set()).add(pid)
+                touched.add(number)
+            i += 1
+        for number in sorted(touched):
+            if len(holders[number]) > 1:
+                names = ", ".join(sorted(keys[pid] for pid in holders[number]))
+                errors.append(
+                    f"{issuer}/{slug} at {designator}: number {number!r} is "
+                    f"printed by more than one provision in force ({names})"
+                )
+    return errors
+
+
 # ---------------------------------------------------------------------------
 # Cert-basis resolution
 
@@ -1050,7 +1125,9 @@ class DocIndex:
     """In-memory view of one document, for resolving cert-basis refs."""
 
     document_id: int
-    provisions: dict[str, int] = field(default_factory=dict)  # number -> id
+    slug: str = ""
+    # printed number -> ids of every provision that has ever carried it
+    carriers: dict[str, set[int]] = field(default_factory=dict)
     revisions: dict[str, tuple[int, int]] = field(
         default_factory=dict
     )  # designator -> (id, ordinal)
@@ -1058,6 +1135,30 @@ class DocIndex:
     versions: dict[int, list[tuple[int, int, int]]] = field(default_factory=dict)
     numbers: dict[int, str] = field(default_factory=dict)  # provision id -> number
     deleted: set[int] = field(default_factory=set)  # deleted provision version ids
+    printed: dict[int, str] = field(default_factory=dict)  # version id -> number
+
+    def provision_at(self, number: str, ordinal: int) -> tuple[int | None, str]:
+        """The provision that carried printed `number` at the revision with
+        this ordinal (the number of its latest version up to it, skips not
+        applied). One in force wins over one the revision range deleted.
+        Return (id, "") or (None, why)."""
+        if number not in self.carriers:
+            return None, f"unknown provision {self.slug}.{number}"
+        live: list[int] = []
+        gone: list[int] = []
+        for pid in sorted(self.carriers[number]):
+            at = [(o, pv) for o, _, pv in self.versions.get(pid, []) if o <= ordinal]
+            if not at:
+                continue
+            pv = max(at)[1]
+            if self.printed[pv] == number:
+                (gone if pv in self.deleted else live).append(pid)
+        found = live or gone
+        if len(found) == 1:
+            return found[0], ""
+        if not found:
+            return None, f"no provision {self.slug}.{number} at that revision"
+        return None, f"{self.slug}.{number} names {len(found)} provisions there"
 
     def pick(self, provision_id: int, to_ordinal: int, skip: set[int]) -> int | None:
         """Version of a provision in force at `to`, ignoring skipped revisions."""
@@ -1069,29 +1170,62 @@ class DocIndex:
         return best[1] if best else None
 
 
-def _doc_index(conn: sqlite3.Connection, document_id: int) -> DocIndex:
-    idx = DocIndex(document_id)
+def _doc_index(conn: sqlite3.Connection, document_id: int, slug: str) -> DocIndex:
+    idx = DocIndex(document_id, slug)
     for pid, number in conn.execute(
         "SELECT id, number FROM provisions WHERE document_id = ?", (document_id,)
     ):
-        idx.provisions[number] = pid
         idx.numbers[pid] = number
     for rid, designator, ordinal in conn.execute(
         "SELECT id, designator, ordinal FROM document_revisions WHERE document_id = ?",
         (document_id,),
     ):
         idx.revisions[designator] = (rid, ordinal)
-    for pid, ordinal, rid, pv_id, deleted in conn.execute(
-        "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id, pv.deleted "
+    for pid, ordinal, rid, pv_id, deleted, number in conn.execute(
+        "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id, pv.deleted, pv.number "
         "FROM provision_versions pv "
         "JOIN document_revisions dr ON dr.id = pv.revision_id "
         "WHERE pv.document_id = ?",
         (document_id,),
     ):
         idx.versions.setdefault(pid, []).append((ordinal, rid, pv_id))
+        idx.carriers.setdefault(number, set()).add(pid)
+        idx.printed[pv_id] = number
         if deleted:
             idx.deleted.add(pv_id)
     return idx
+
+
+def _doc_index_for(
+    conn: sqlite3.Connection,
+    key: tuple[str, str],
+    doc_indexes: dict[tuple[str, str], DocIndex],
+) -> DocIndex | None:
+    if key not in doc_indexes:
+        doc_id = _document_id(conn, *key)
+        if doc_id is None:
+            return None
+        doc_indexes[key] = _doc_index(conn, doc_id, key[1])
+    return doc_indexes[key]
+
+
+def _exclude_ordinals(
+    conn: sqlite3.Connection,
+    refs: list[dict],
+    doc_indexes: dict[tuple[str, str], DocIndex],
+) -> dict[tuple[str, str], int]:
+    """Per document, the highest `to` among an entry's include refs: the
+    revision at which its exclude refs' numbers are read."""
+    out: dict[tuple[str, str], int] = {}
+    for ref in refs:
+        if ref.get("effect", "include") != "include" or "to" not in ref:
+            continue
+        key = (ref["issuer"], ref["document"])
+        doc = _doc_index_for(conn, key, doc_indexes)
+        rev = doc.revisions.get(ref["to"]) if doc else None
+        if rev is not None:
+            out[key] = max(out.get(key, rev[1]), rev[1])
+    return out
 
 
 @dataclass(frozen=True)
@@ -1114,16 +1248,17 @@ def _insert_ref(
     ref: dict,
     doc_indexes: dict[tuple[str, str], DocIndex],
     label: str,
+    exclude_at: dict[tuple[str, str], int],
 ) -> tuple[Ref | None, list[str]]:
-    """Insert one ref and its children. Return it resolved, or the errors."""
+    """Insert one ref and its children. Return it resolved, or the errors.
+
+    `provisions` are printed numbers, read at the ref's `to` (an exclude ref:
+    at `exclude_at`, the entry's highest include `to` in the document)."""
     where = f"{label} ref {seq}"
     key = (ref["issuer"], ref["document"])
-    if key not in doc_indexes:
-        doc_id = _document_id(conn, *key)
-        if doc_id is None:
-            return None, [f"{where}: unknown document {key[0]}/{key[1]}"]
-        doc_indexes[key] = _doc_index(conn, doc_id)
-    doc = doc_indexes[key]
+    doc = _doc_index_for(conn, key, doc_indexes)
+    if doc is None:
+        return None, [f"{where}: unknown document {key[0]}/{key[1]}"]
 
     errors: list[str] = []
     to_rev: tuple[int, int] | None = None
@@ -1141,10 +1276,18 @@ def _insert_ref(
         else:
             skip.append(rev[0])
     provisions: list[int] = []
+    at = to_rev[1] if to_rev else exclude_at.get(key)
     for number in ref.get("provisions", []):
-        pid = doc.provisions.get(number)
+        if at is None:
+            if "to" not in ref:
+                errors.append(
+                    f"{where}: exclude of {key[1]}.{number} has no include ref "
+                    f"in {key[1]} to read its number at"
+                )
+            continue
+        pid, why = doc.provision_at(number, at)
         if pid is None:
-            errors.append(f"{where}: unknown provision {key[1]}.{number}")
+            errors.append(f"{where}: {why}")
         else:
             provisions.append(pid)
     if errors:
@@ -1320,8 +1463,7 @@ def _check_paragraph_refs(
             )
         elif missing:
             number, designator = conn.execute(
-                "SELECT p.number, dr.designator FROM provision_versions pv "
-                "JOIN provisions p ON p.id = pv.provision_id "
+                "SELECT pv.number, dr.designator FROM provision_versions pv "
                 "JOIN document_revisions dr ON dr.id = pv.revision_id "
                 "WHERE pv.id = ?",
                 (r.provision_version_id,),
@@ -1431,9 +1573,12 @@ def _insert_aircraft(
                     entry_id = entry_cur.lastrowid
                     assert entry_id is not None
                     refs: list[Ref] = []
+                    exclude_at = _exclude_ordinals(
+                        conn, entry["references"], doc_indexes
+                    )
                     for seq, ref in enumerate(entry["references"]):
                         r, errs = _insert_ref(
-                            conn, entry_id, seq, ref, doc_indexes, label
+                            conn, entry_id, seq, ref, doc_indexes, label, exclude_at
                         )
                         failures.extend(errs)
                         if r is not None:
@@ -1753,6 +1898,7 @@ def _similarity_report(conn: sqlite3.Connection) -> dict[str, int]:
 class BuildReport(TypedDict):
     schema_version: int
     tables: dict[str, int]
+    documents: dict[str, dict[str, int]]
     text_missing: int
     deleted: int
     provenance: dict[str, int]
@@ -1787,6 +1933,29 @@ def _build_report(
     return {
         "schema_version": SCHEMA_VERSION,
         "tables": counts,
+        "documents": {
+            f"{issuer}/{slug}": {
+                "revisions": revs,
+                "provisions": provs,
+                "versions": vers,
+                "renumbered": renum,
+            }
+            for issuer, slug, revs, provs, vers, renum in conn.execute(
+                """
+                SELECT i.code, d.slug,
+                  (SELECT count(*) FROM document_revisions r
+                   WHERE r.document_id = d.id),
+                  (SELECT count(*) FROM provisions p WHERE p.document_id = d.id),
+                  (SELECT count(*) FROM provision_versions v
+                   WHERE v.document_id = d.id),
+                  (SELECT count(DISTINCT v.provision_id) FROM provision_versions v
+                   JOIN provisions p ON p.id = v.provision_id
+                   WHERE v.document_id = d.id AND v.number <> p.number)
+                FROM documents d JOIN issuers i ON i.id = d.issuer_id
+                ORDER BY i.code, d.slug
+                """
+            )
+        },
         "text_missing": conn.execute(
             "SELECT count(*) FROM provision_versions WHERE text_missing"
         ).fetchone()[0],
@@ -1853,6 +2022,9 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
         text_stats = _insert_provisions(conn, provisions)
         if text_stats.errors:
             raise BuildError(text_stats.errors)
+        clashes = _number_clashes(conn)
+        if clashes:
+            raise BuildError(clashes)
         _insert_similarity(conn)
         para_stats = ParagraphRefStats()
         unresolved = _insert_aircraft(conn, aircraft, para_stats)

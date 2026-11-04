@@ -15,16 +15,18 @@ Contents: [File paths](#file-paths) · [Document file](#document-file-datadocume
 
 ```
 data/documents/{issuer}/{document}/_document.json
-data/documents/{issuer}/{document}/{provision}.json
+data/documents/{issuer}/{document}/{key}.json
 data/aircraft/{manufacturer-slug}/{model-slug}.json
 ```
 
-Document file paths are flat by design: issuer + document + provision number
+Document file paths are flat by design: issuer + document + provision key
 are the only parts of a citation that are truly stable. Grouping (subpart)
 and the CFR title live inside the files, so a provision can be re-subparted
-without a rename. `{issuer}` is the issuer code in lower case and
-`{document}` is the document's `slug`. The build fails if a file's path
-disagrees with the identity fields inside it.
+without a rename. `{issuer}` is the issuer code in lower case,
+`{document}` is the document's `slug` and `{key}` the provision's `key`
+(see [Provision file](#provision-file-datadocumentsfaa231309json): for FAA,
+CAR and EASA it is the section or paragraph number). The build fails if a
+file's path disagrees with the identity fields inside it.
 
 ## Common rules
 
@@ -56,7 +58,7 @@ belong to the revision as a whole.
 
 | Field       | Type   | Nullable | Purpose |
 |-------------|--------|----------|---------|
-| `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). |
+| `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`, `DOD`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). `DOD` is the U.S. Department of Defense (MIL-HDBK-516). |
 | `doc_kind`  | enum   | no       | `regulation`, `certification_spec`, `amc_gm`, `advisory_circular`, `handbook`, `special_condition`, `elos`, `exemption`, `standard`. |
 | `code`      | string | no       | Human citation: `"14 CFR 23"`, `"CAR 3"`, `"CS-23"`. |
 | `slug`      | string | no       | Path segment, lower case: `"23"`, `"car-3"`, `"cs-23"`. Unique per issuer. |
@@ -76,10 +78,18 @@ belong to the revision as a whole.
 
 One file per provision. Ordinal and effective date come from the document file.
 
+A provision is one requirement followed through the document's revisions.
+Its `key` is its identity; its `number` is a printed label. In the CFR, CAR
+and the EASA CS the two are the same and a number is never reused. A
+document such as MIL-HDBK-516 reuses a number for an unrelated requirement
+in a later edition, and renumbers a requirement that carries on (516B 5.2.3
+is 5.2.2 in 516B Change 1), so there the label is recorded per version.
+
 ```json
 {
   "issuer": "FAA",
   "document": "23",
+  "key": "1309",
   "number": "1309",
   "current_grouping": "Equipment",
   "canonical_title": "Equipment, systems, and installations.",
@@ -108,7 +118,8 @@ One file per provision. Ordinal and effective date come from the document file.
 |--------------------|--------|----------|---------|
 | `issuer`           | enum   | no       | Must match the directory and the document file. |
 | `document`         | string | no       | The document's `slug`. Must match the directory. |
-| `number`           | string | no       | Provision number, e.g. `"1309"`, `"1309a"`, `"A23"` (appendix). Must match the file name. |
+| `key`              | string | no       | Stable, opaque identity within the document; must match the file name. Same pattern as `number`. Equal to `number` unless the document reuses or renumbers numbers; then it is the number at first appearance, with a suffix when that was already used as a key (`"4.1.3-516a"`). Never shown as a citation. |
+| `number`           | string | no       | Number as printed at the latest version, e.g. `"1309"`, `"1309a"`, `"A23"` (appendix), `"4.1.3"`. The latest version must not carry a different per-version `number`. |
 | `current_grouping` | string | yes      | Present-day subpart (or equivalent). Display only. |
 | `canonical_title`  | string | no       | Present-day heading. |
 | `subject_group`    | string | yes      | Intra-subpart grouping label (FAA DRS). |
@@ -119,6 +130,7 @@ One file per provision. Ordinal and effective date come from the document file.
 | Field                | Type   | Nullable | Purpose |
 |----------------------|--------|----------|---------|
 | `designator`         | string | no       | Must be declared in the document file. One version per designator. |
+| `number`             | string | yes      | The number as printed at this revision, when it differs from the top-level `number` (a renumbered provision). Absent = the top-level `number`. Two versions printed at one revision may not share a number (a deletion excepted), and at every revision a number names at most one provision in force. |
 | `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision. |
 | `title_at_revision`  | string | no       | Heading as it read at this revision. |
 | `text`               | string | one of   | Full text at this revision, in the label-line format (see [Text format](#text-format)). No tabs or carriage returns. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
@@ -285,7 +297,7 @@ designation can be a different type design under another TC.
 | `document`   | string        | The document's `slug`. |
 | `to`         | designator    | Include refs only: the highest revision in force. **The base revision is always included**, so "as amended by 23-1 thru 23-13" is `to: "23-13"`. |
 | `skip`       | designators   | Revisions left out of a non-contiguous set ("23-1 thru 23-38, 23-40" → `to: "23-40", skip: ["23-39"]`). Each must be earlier than `to`. |
-| `provisions` | numbers       | Scope the ref to these provisions. Absent = the whole document. |
+| `provisions` | numbers       | Scope the ref to these provisions, by **printed number**, as the TCDS writes them (see rule 6). Absent = the whole document. |
 | `paragraph`  | string        | Verbatim qualifier, e.g. `"(a)"` or `"(a)(1)(2)(b)"`. Needs exactly one `provisions` entry. Checked against the resolved version's paragraphs (below), never rewritten. |
 | `effect`     | enum          | `include` (default) or `exclude`. An exclude ref needs `provisions` and takes no `to`, `skip` or `paragraph`. |
 
@@ -311,9 +323,19 @@ legitimately hold one provision at different levels.
    `(a)(1)(2)(b)` is (a)(1), (a)(2) and (b). `(c3)` is read as `(c)(3)`. If
    the version is flat (one line, including `TEXT MISSING`) the qualifier
    can't be checked and is counted as `paragraph_refs_unverifiable`.
+6. A number in `provisions` names the provision that carried it at the ref's
+   `to` revision: the one whose latest version up to `to` (skips not
+   applied) prints that number. A provision in force wins over one the
+   range deleted. An exclude ref has no `to`; its numbers are read at the
+   highest `to` of the entry's include refs to the same document. Where
+   `key == number` and numbers are never reused (FAA, CAR, EASA) this is
+   simply the provision with that number.
 
 The build fails, rather than guessing, when:
 - a `to` or `skip` designator, provision, or document doesn't exist;
+- a number in `provisions` names no provision, or more than one, at the
+  revision it is read at, or an exclude ref has no include ref to the same
+  document to read it at;
 - a `skip` is not earlier than `to`;
 - two document-wide refs, or two scoped refs, resolve one provision to
   different versions;

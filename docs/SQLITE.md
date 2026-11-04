@@ -22,7 +22,7 @@ read-only and check the contract version:
 ```python
 import sqlite3
 
-SUPPORTED_SCHEMA = 6
+SUPPORTED_SCHEMA = 7
 
 conn = sqlite3.connect("file:cert_basis.sqlite?mode=ro", uri=True)
 conn.execute("PRAGMA foreign_keys = ON")
@@ -39,7 +39,7 @@ in [build.py](../build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **6**). It is bumped
+`PRAGMA user_version` is the schema version (currently **7**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -55,15 +55,27 @@ is a single row: `schema_version`, `git_sha` of the data repo at build time
 `document_revisions` — `(document_id, designator, ordinal, effective_date,
 provenance, provenance_notes)`.
 
-`provisions` — `(document_id, number, sort_key, canonical_title,
-current_grouping, subject_group)`. `sort_key` is computed (digit runs
-zero-padded) so §23.175 sorts before §23.1309: `ORDER BY sort_key`.
+`provisions` — `(document_id, key, number, sort_key, canonical_title,
+current_grouping, subject_group)`. `key` is the provision's identity,
+unique per document; `number` is the number printed at its latest version
+and is **not** unique: a document may have reused it for another provision
+(index on `(document_id, number)`). For FAA, CAR and EASA `key = number`.
+`sort_key` is computed from `number` (digit runs zero-padded) so §23.175
+sorts before §23.1309: `ORDER BY sort_key`. To find "the provision numbered
+X" as of a revision, match `provision_versions.number` at that revision, not
+`provisions.number`.
 
-`provision_versions` — one row per (provision × revision): `text`,
+`provision_versions` — one row per (provision × revision): `number` (as
+printed at that revision; show this, not `provisions.number`, for a
+historical version), `text`,
 `title_at_revision`, `grouping_at_time`, `publication_cite`, `source_url`,
 `provenance`, `provenance_notes`, `same_as_version_id`, `deleted` (1 = the
 revision deleted the provision; `text` is NULL exactly when `deleted = 1`),
-and the generated `text_missing` flag. Composite foreign keys through `document_id` make it
+and the generated `text_missing` flag. A partial unique index stops two
+versions printed at one revision from sharing a number (deletions exempt:
+the revision that deletes a provision may reuse its number), and the build
+checks that at every revision a number names at most one provision in
+force. Composite foreign keys through `document_id` make it
 impossible to pair a provision with another document's revision, or alias a
 version of another provision.
 
@@ -158,7 +170,8 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
 3. Seeds the closed lookup sets (`issuers`, `categories`).
 4. Inserts documents and revisions, then provisions, versions, actions and
    paragraphs. Fails if a version names an undeclared revision or a duplicate
-   one, or if an alias doesn't point at an earlier, non-deleted version of the
+   one, if the top-level `number` is not the latest version's, if a number
+   names two provisions in force at some revision, or if an alias doesn't point at an earlier, non-deleted version of the
    same provision, or a deletion doesn't follow a version in force, or a text
    breaks the [text format](DATA_FORMAT.md#text-format) (all such texts
    are listed at once).
@@ -169,7 +182,9 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    paragraph qualifiers.
 7. Fails on any date after the build day, and on any foreign-key violation.
 8. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
-   every table, `text_missing` and `deleted` counts, provenance counts,
+   every table, `documents` (per `ISSUER/slug`: revisions, provisions,
+   versions, and `renumbered` = provisions with a version printed under
+   another number), `text_missing` and `deleted` counts, provenance counts,
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
    (provisions with matches and score bands), `git_dirty` /

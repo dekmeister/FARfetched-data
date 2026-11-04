@@ -69,6 +69,8 @@ INVALID_PROVISIONS = [
     ("legacy_field_names.json", "federal_register_cite"),
     # No hand edits in data/: corrections are override rows in tools/.
     ("manual_provenance.json", "manual"),
+    # A per-version printed number follows the number pattern too.
+    ("dod_bad_version_number.json", "5.2 .3"),
 ]
 
 INVALID_DOCUMENTS = [
@@ -136,6 +138,7 @@ class TestPublicationCiteOptional:
     BASE: ClassVar[dict[str, Any]] = {
         "issuer": "FAA",
         "document": "25",
+        "key": "1309",
         "number": "1309",
         "current_grouping": "F",
         "canonical_title": "Equipment, systems, and installations",
@@ -158,6 +161,25 @@ class TestPublicationCiteOptional:
             "versions": [{**self.BASE["versions"][0], "publication_cite": ""}],
         }
         assert validate_provision_file(_write(tmp_path, doc)) == []
+
+
+def test_dod_provision_with_printed_numbers_validates(tmp_path: Path) -> None:
+    doc = json.loads(
+        (
+            Path(__file__).parent
+            / "fixtures"
+            / "invalid_provisions"
+            / "dod_bad_version_number.json"
+        ).read_text()
+    )
+    doc["versions"][0]["number"] = "5.2.3"
+    assert validate_provision_file(_write(tmp_path, doc)) == []
+
+
+def test_key_is_required(tmp_path: Path) -> None:
+    doc = {k: v for k, v in TestPublicationCiteOptional.BASE.items() if k != "key"}
+    errors = validate_provision_file(_write(tmp_path, doc))
+    assert any("'key' is a required property" in e.message for e in errors)
 
 
 def test_non_regulation_designators_are_free_form(tmp_path: Path) -> None:

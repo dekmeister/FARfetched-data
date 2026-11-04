@@ -15,7 +15,8 @@ change to the SQLite contract.
 | 3 | 2026-11-01 | `402cd00` | Label-line paragraph text ([Text format](DATA_FORMAT.md#text-format)) and the `provision_paragraphs` table. |
 | 4 | 2026-11-02 | `a429789` | `manual` dropped from the `provenance` enum and CHECKs: `data/` is built from source. |
 | 5 | 2026-11-03 | `77bfeba` | `provision_similarity`, computed by the build ([Similarity](SQLITE.md#similarity)). |
-| 6 | 2026-11-03 | (uncommitted at the time of writing) | Aircraft `categories` move from the model to each `tcb`; `model_categories` becomes `tcb_categories`. Needed to hold FAA and EASA bases on one model. |
+| 6 | 2026-11-03 | `e7ee945` | Aircraft `categories` move from the model to each `tcb`; `model_categories` becomes `tcb_categories`. Needed to hold FAA and EASA bases on one model. |
+| 7 | 2026-11-04 | (uncommitted at the time of writing) | Provision `key` (identity, file name) separated from the printed `number`; optional per-version `number` and `provision_versions.number`; `UNIQUE (document_id, number)` dropped. Cert-basis `provisions` are printed numbers read at the ref's `to`. Issuer `DOD`. Needed for MIL-HDBK-516, which reuses and renumbers paragraph numbers between editions. |
 
 ## Changes in the v1 schema
 
@@ -65,6 +66,15 @@ what was implemented, what changed from the proposal, what was rejected
   TCB. Two TCDS are linked to one model only by a reviewed link row with
   evidence, never by name: the same designation can be a different type
   design (DA 62 under A57CE, Diamond GmbH, and under A00012NY, Diamond Inc).
+- **A number is a label; the key is the identity (v7).** A provision is one
+  requirement followed through the revisions, and its `key` never changes.
+  The printed number is recorded per version, because a document may reuse
+  a number for an unrelated requirement (MIL-HDBK-516 4.1.3, 516 vs 516A) or
+  renumber one that carries on (516B 5.2.3 → 5.2.2 at Change 1). A TCDS
+  cites printed numbers, so references stay numbers and are read at their
+  revision. Deciding that two editions' paragraphs are one requirement is a
+  reviewed tools decision (`tools/overrides/dod_hdbk.tsv`); merges, splits
+  and links between provisions remain deferred (ISSUES.md `ROADMAP-4`).
 - **Similarity is computed, not authored (v5).** It suggests related
   provisions. Hand-confirmed relations (`provision_relations`) remain
   deferred: see ISSUES.md `ROADMAP-`.

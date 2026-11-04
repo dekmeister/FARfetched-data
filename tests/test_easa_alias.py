@@ -20,7 +20,7 @@ def _stage(tmp_path: Path, documents: list[dict], provisions: list[dict]) -> Pat
     for r in provisions:
         d = data / "documents" / r["issuer"].lower() / r["document"]
         d.mkdir(parents=True, exist_ok=True)
-        (d / f"{r['number']}.json").write_text(json.dumps(r))
+        (d / f"{r['key']}.json").write_text(json.dumps(r))
     (data / "aircraft").mkdir(parents=True, exist_ok=True)
     return data
 
@@ -42,6 +42,7 @@ def _section(section: str, versions: list[dict]) -> dict:
     return {
         "issuer": "EASA",
         "document": "cs-23",
+        "key": section,
         "number": section,
         "current_grouping": "A",
         "canonical_title": "Definitions",

@@ -245,6 +245,7 @@ def _provision(number: str, versions: list[dict]) -> dict:
     return {
         "issuer": "FAA",
         "document": "23",
+        "key": number,
         "number": number,
         "current_grouping": None,
         "canonical_title": "Title",
@@ -284,7 +285,7 @@ def _write(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> P
     doc_dir.mkdir(parents=True)
     (doc_dir / "_document.json").write_text(json.dumps(_DOC))
     for p in provisions:
-        (doc_dir / f"{p['number']}.json").write_text(json.dumps(p))
+        (doc_dir / f"{p['key']}.json").write_text(json.dumps(p))
     (data / "aircraft").mkdir()
     if refs is not None:
         (data / "aircraft" / "dummy.json").write_text(json.dumps(_aircraft(refs)))
