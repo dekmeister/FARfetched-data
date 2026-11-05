@@ -612,7 +612,8 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
 ### MIL-HDBK-516 (DOD-)
 
 Pipeline `dod/hdbk` ([tools/s00_docs/DOD_HDBK.md](tools/s00_docs/DOD_HDBK.md),
-plan [reviews/PLAN_516.md](reviews/PLAN_516.md) Part B). Reports are
+design record in git history, `reviews/PLAN_516.md` before it was deleted).
+Reports are
 `tools/out/reports/dod_hdbk_extract_report.tsv` and
 `emit_dod_hdbk_report.tsv`.
 
@@ -762,7 +763,7 @@ history at `a65ac16`).
   The same smell schema v7 fixed for provisions: a name used as a key. A
   manufacturer rename or a re-designated model splits one model's history,
   and the build matches on the strings. Consider a stable model key, as
-  `provisions.key`. (Noted in reviews/PLAN_516.md, 2026-11-03.)
+  `provisions.key`.
 
 ### Tooling and process (PROC-)
 
@@ -860,7 +861,7 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   only recorded in the catalogue's `noise_*` columns today.
 - **ROADMAP-10. NATO USAR (STANAG 4671 / AEP-4671).** Was blocked on schema
   v7 (provision key vs printed number), which is in since 2026-11-04
-  ([reviews/PLAN_516.md](reviews/PLAN_516.md) Part A); the MIL-HDBK-516
+  ([docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md)); the MIL-HDBK-516
   emitter (`s02_emit/dod/hdbk`) is a model for the continuity walk. Ed. 1 → Ed. B reuses numbers for different requirements
   (U1717/U1719/U1720 moved to U1712–U1714), and Ed. 1 prints 1367 twice. The
   known edition gap: STANAG 4671 Ed. 2 / AEP-4671 Ed. A (Feb 2017) aren't

@@ -5,7 +5,7 @@
 The NATO USAR ingestion was started on 2026-11-04 and stopped at the identity
 check. Paragraph numbers are not stable identities between STANAG 4671 Ed. 1
 and AEP-4671 Ed. B, so the pipeline needs schema v7 (provision `key` vs
-printed `number`, reviews/PLAN_516.md Part A). v7 isn't built yet
+printed `number`, docs/SCHEMA_HISTORY.md v7). v7 isn't built yet
 (`SCHEMA_VERSION = 6`, no `key` field). The developer will do MIL-HDBK-516
 (which brings v7) first. Nothing in the repo was changed.
 
@@ -24,7 +24,7 @@ as the existing regulation pipelines. This is implementation work, not a
 planning exercise.
 
 **Prerequisite:** schema v7 (provision `key` vs per-version printed `number`,
-PLAN_516 Part A) is implemented and committed, and the MIL-HDBK-516 pipeline
+docs/SCHEMA_HISTORY.md v7) is implemented and committed, and the MIL-HDBK-516 pipeline
 exists as the reference for key assignment and the continuity-decisions
 file. If v7 isn't in place, stop and say so.
 
@@ -207,7 +207,7 @@ Source quirks seen:
    look it up?
 5. **Issuer row.** `_ISSUERS["NATO"]` = ("North Atlantic Treaty
    Organization", kind?, country None, successor None). What is the
-   `kind`: `military`, as DOD in PLAN_516, or something else?
+   `kind`: `military`, as DOD is, or something else?
 6. **"Not Applicable" stubs.** Ed. B prints CS-23 numbers it doesn't adopt
    as stubs (`USAR.1329 … Not Applicable. See USAR.U1330`, and some without
    the `USAR.` prefix, e.g. `3 Aeroplane categories`). Should they be
