@@ -314,6 +314,20 @@ uncommitted `s00_common/structure.py` edits land (words identical).
 - **CAR-2. CAR "NOTE: The following interpretation …" paragraphs are
   editorial, not regulation text.** They now read as part of the paragraph
   before them (see TEXT-8). (was: Para #8)
+- **CAR-3. OCR junk left at the end of CAR 3 texts** after the next group's
+  centre heading was stripped (GitHub #2, fixed in extract
+  `_strip_trailing_headings`). Fix with `replace_text` overrides or an
+  extractor rule:
+  - Narrative amendment instructions read as text: CAB 211@R2, 686@R3 ("By
+    adding a new heading and … to read as follows:"), 587@R7 ("By amending
+    § 3.682 and the center heading …").
+  - Column-bleed fragments: CAB 681@R0 "e in excess", 256@R0 "Limit force";
+    CAA 596@CAR3-0 "ith at least two separate air intake", 747@CAR3-0
+    "‘termined by the availability and".
+  - Figure captions are kept on purpose; CAA 188@CAR3-0 has OCR garbage from
+    Fig. 3-2 in front of its caption.
+  - CAB 318@R0 "shall]": a stray bracket, probably OCR (the 1956 reissue
+    prints no amendment brackets). Check against the scan.
 
 ### EASA CS (EASA-)
 
