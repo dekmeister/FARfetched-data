@@ -47,7 +47,7 @@ belong to the revision as a whole.
   "doc_kind": "regulation",
   "code": "14 CFR 23",
   "slug": "23",
-  "title": "Airworthiness Standards: Normal Category Airplanes",
+  "title": "Airworthiness Standards: Normal, Utility, Acrobatic, and Commuter Category Airplanes",
   "revisions": [
     { "designator": "23-62", "ordinal": 62, "effective_date": "2012-01-31" }
   ]
@@ -122,7 +122,7 @@ is 5.2.2 in 516B Change 1), so there the label is recorded per version.
 | `number`           | string | no       | Number as printed at the latest version, e.g. `"1309"`, `"1309a"`, `"A23"` (appendix), `"4.1.3"`. The latest version must not carry a different per-version `number`. |
 | `current_grouping` | string | yes      | Present-day subpart (or equivalent). Display only. |
 | `canonical_title`  | string | no       | Present-day heading. |
-| `subject_group`    | string | yes      | Intra-subpart grouping label (FAA DRS). |
+| `subject_group`    | string | yes      | Intra-subpart grouping label (FAA DRS). For MIL-HDBK-516, the parent heading (`"4.1 Design criteria"`) under the section in `current_grouping`. |
 | `versions`         | array  | no       | One entry per revision that changed this provision. Non-empty. |
 
 **Per-version fields**
