@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.12",
+  "number": "8.2.9.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Leak monitoring and detection",
+  "subject_group": "8.2.9 Bleed air",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the bleed air duct system is monitored for leaks and structural integrity and that hot bleed air leaking from damaged ducting will not cause ignition of any flammable fluids or other materials or cause damage to SOF items.",
+      "text": "Verify that the bleed air duct system is monitored for leaks and structural integrity and that hot bleed air leaking from damaged ducting will not cause ignition of any flammable fluids or other materials or cause damage to SOF items.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity and that hot air leaking from damaged ducting will not cause ignition of any flammable fluids or other materials or cause damage to SOF items.",
+      "text": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity and that hot air leaking from damaged ducting will not cause ignition of any flammable fluids or other materials or cause damage to SOF items.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.2.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity.",
+      "text": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity. Verify that hot air leaking from damaged ducting does not cause ignition of any flammable fluids or other materials or cause damage to SOF items/CSIs. DoD/MIL Doc: JSSG-2009 Appendix D: D. 3.4.4.12, D.4.4.4.12, D.3.4.4.12.8/D.4.4.4.12.8 Bleed air leak detection MIL-HDBK-221: para 2.8 FAA Doc: 14CFR references: 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.2.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity.",
+      "text": "Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity. Verify that hot air leaking from damaged ducting does not cause ignition of any flammable fluids or other materials or cause damage to SOF items/CSIs. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.12, D.4.4.4.12, D.3.4.4.12.8/D.4.4.4.12.8 Bleed air leak detection MIL-HDBK-221: 2.8 FAA Doc: 14CFR references: 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.2.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Leak monitoring/detection",
+      "text": "Criterion: Verify that the bleed air or other compressed air duct system is monitored for leaks and structural integrity. Verify that hot air leaking from damaged ducting does not create an ignition source for any flammable fluids or other materials, or cause damage to safety of flight items/critical safety items. Standard: Verify a leak monitoring/detection system or methodology/process is employed to ensure safety of flight when using bleed air or compressed air sources on an air vehicle. Shutdown capability, with a crew station advisory or a crew station warning, is provided when a potentially damaging or fire-producing leak occurs. The sensors for the leak monitoring/detection system recover functionality following exposure to a leak and the functionality is verified. Method of Compliance: The standard is verified by the following activities: a. Perform assessment study to establish the set point for leak monitoring/detection system based upon the effect of leakage on installed environment conditions. The study includes the assessment on the propulsion system. b. Analysis determines the required performance parameters. c. Component and system testing verifies safety of flight performance with special focus on ensuring auto-ignition temperature limits are established for the installation environment and the fluids in this area. d. Fire hardening and fire protection criteria as defined in 8.4 (this document) are coordinated with the aforementioned compliance methods for this criterion. References: JSSG-2009: D.3.4.4.12, D.4.4.4.12; D.3.4.4.12.8, D.4.4.4.12.8 Bleed air leak detection MIL-HDBK-221: 2.8 MIL-HDBK-516: 8.4 14 CFR 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Leak monitoring and detection",
+      "text": "Standard: A leak monitoring and detection system is employed for bleed air or other compressed air sources as required for SOF. A WCA notifies the flight crew when a bleed air leak occurs. Leak detection system sensors maintain functionality following exposure to a leak, and functionality can be verified. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review drawings and design documents to verify that a leak detection system is provided as required and that leak detection sensors are located where leakage of high-temperature compressed air would create an ignition source or damage critical structure, wiring, or equipment. Analysis.\n  (1) Conduct analysis to verify that bleed air leak alarm thresholds meet temperature requirements for critical structure, flammable fluid auto-ignition temperatures, and nearby flight-critical equipment temperature limits. Demonstration.\n    (1) Conduct a ground demonstration to verify that leak detector functionality can be verified by the flight crew. Test.\n      (1) Lab test: Conduct component-level qualification testing to verify that leak detection sensors are actuated at the established alarm threshold temperatures.\n      (2) Lab test: Conduct system-level laboratory testing to verify that a bleed air leak WCA is annunciated in the event of a bleed air leak detection.\n      (3) Lab test: Conduct system-level laboratory testing to verify that bleed air leak detection sensors recover functionality following a leak detection after the source of the leak has been secured.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

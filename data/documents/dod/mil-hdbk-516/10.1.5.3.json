@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.5.3",
+  "number": "10.1.5.3",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Intensity and variability of exterior lighting",
+  "subject_group": "10.1.5 Aerial refueling sensing, data, visual cues, and lighting systems compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Intensity and variability of exterior lighting",
+      "text": "Standard: Exterior lights utilized during AR are independently controllable such that the intensity of each exterior light, or light group, can be varied to accommodate targeted tanker/receivers in all environmental lighting conditions as well as tanker/receiver orientations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of system specifications verifies lighting utilized during AR operations are independently controllable. Demonstration.\n  (1) Air vehicle ground demonstration verifies exterior lights utilized during AR are independently controllable. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Flight testing verifies each exterior light, or light group, can be varied to accommodate target air vehicle in all environmental lighting conditions. For human operated systems, qualitative crewmember assessments verify exterior lights can be independently controlled to accomplish all AR tasks within the full range of mission defined environmental conditions. Test points include day, twilight, night, with and without NVIS, throughout all phases of the AR process.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.1-516d",
+  "number": "8.2.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Equipment and subsystem interfaces",
+  "subject_group": "8.2 Environmental control systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Equipment and subsystem interfaces",
+      "text": "Standard: The ECS meets safety-critical interface requirements (e.g., temperature, pressure, airflow, humidity) for equipment and subsystems under normal and emergency operating conditions throughout the air vehicle flight envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review ICDs and subsystem specifications to establish safety-critical interface requirements for the ECS. Test.\n  (1) Lab test: Conduct system-level testing in an integration laboratory to verify that the ECS meets all safety-critical equipment and subsystem interface requirements (e.g., temperature, pressure, airflow, and humidity) in the installed environment. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify that the ECS meets safety-critical equipment and subsystem interface requirements throughout the flight envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

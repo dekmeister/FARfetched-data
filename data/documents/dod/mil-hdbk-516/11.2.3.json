@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.2.3",
+  "number": "11.2.3.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Control function integrity",
+  "subject_group": "11.2.3 Safety and flight critical control functions",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "11.2.3",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that data links used for safety- and flight-critical functions meet system safety-and flight-critical requirements to a.",
+      "text": "Verify that data links used for safety- and flight-critical functions meet system safety-and flight-critical requirements to a. Preclude loss of flight-critical functioning and ensure SOF integrity and continuity of service throughout the intended missions b. Preclude display of unsafe or misleading information to the operator or maintainer, and to satisfy fault-tolerant SOF requirements",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "11.2.3",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that data links, such as unmanned air vehicle (UAV)/remotely operated aircraft (ROA) command and control data links, manned systems with automatic/semi-automatic (man-in-the-loop) landing, formation, or other control functions with off-board aiding, used for safety- and flight-critical requirements to a.",
+      "text": "Verify that data links, such as unmanned air vehicle (UAV)/remotely operated aircraft (ROA) command and control data links, manned systems with automatic/semi-automatic (man-in-the-loop) landing, formation, or other control functions with off-board aiding, used for safety- and flight-critical requirements to a. Preclude loss of flight-critical functioning and ensure SOF integrity and continuity of service throughout the intended missions. b. Preclude display of unsafe or misleading information to the operator or maintainer, and to satisfy fault-tolerant SOF requirements DoD/MIL Doc: JSSG-2005: para 3.2.2, 4.2.2 FAA Doc: 14CFR reference 23.1301, 23.1309, 25.1301, 25.1309 AC 29-140, Guidelines for Design Approval of Aircraft Data Communications Systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "11.2.3",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that data links, such as unmanned air vehicle (UAV)/remotely operated aircraft (ROA) command and control data links, manned systems with automatic/semi-automatic (man-in-the-loop) landing, formation, or other control functions with off-board aiding, used for safety- and flight-critical requirements to a.",
+      "text": "Verify that data links, such as unmanned air vehicle (UAV)/remotely operated aircraft (ROA) command and control data links, manned systems with automatic/semi-automatic (man-in-the-loop) landing, formation, or other control functions with off-board aiding, used for safety- and flight-critical requirements to a. Preclude loss of flight-critical functioning and ensure SOF integrity and continuity of service throughout the intended missions. b. Preclude display of unsafe or misleading information to the operator or maintainer, and to satisfy fault-tolerant SOF requirements DoD/MIL Doc: JSSG-2005: 3.2.2, 4.2.2 FAA Doc: 14CFR reference 23.1301, 23.1309, 25.1301, 25.1309 AC 29-140, Guidelines for Design Approval of Aircraft Data Communications Systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Control function integrity",
+      "text": "Criterion: Verify that the integration of off-board system command and control, automatic/semi-automatic (man-in-the-loop) landing, formation, guidance, and other control used for safety and flight critical functions ensures safety of flight integrity and continuity of service throughout the intended missions. Standard: Requirements for data link communication systems (including but not limited to link availability, integrity, reliability, continuity of service) are defined and documented. The data link subsystems\u2019 installed performance meets these requirements throughout the operational environment. As a minimum, the following apply: a. The data communications bit error rate is sufficient to preclude loss of data (to include safety of flight data) that would adversely affect safety of flight. b. The system provides sufficient link margin, bandwidth, latency, throughput and antenna coverage to preclude loss of signal that would adversely affect safety of flight. Antenna nulls do not adversely affect safety of flight. For Army, system latency demonstrates both line of sight (LOS) and beyond line of sight (BLOS) to ensure it does not adversely affect safety. c. When safety of flight instrumentation telemetry is used, appropriate safety of flight data are made available to coordinators. Bit error rate of safety of flight data is specified and sufficient to preclude loss of data that would adversely affect safety of flight. d. Contingency systems and procedures are defined, documented, and verified. Safety of flight critical data links are redundant, include backup data link systems, and/or have contingent flight path/route management (e.g., automatic return-to-base) capabilities. e. Switchover of the command and control data link does not lead to an unsafe condition. Handover procedures are positive, controlled and result in a safe evolution. f. For Army, requirements are specified according to the criticality of the function and the class of airspace of the intended operation. Method of Compliance: Analysis, laboratory, open-air, and aircraft testing verify installed system performance to include: a. Data bit error rate. b. Link margin analysis, bandwidth, latency, throughput and antenna coverage. c. Instrumentation telemetry safety of flight data and bit error rate. d. Contingency systems and procedures. e. Switchover of command and control data link and handover procedure safety. f. For Army, compliance is determined by the criticality of the function. References: JSSG-2005: 3.2.2, 4.2.2 14 CFR 23.1301, 23.1309, 25.1301, 25.1309 FAA AC 20-140",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Control function integrity",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

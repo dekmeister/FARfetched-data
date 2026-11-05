@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.4",
+  "number": "17.2.1.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Electrical Interfaces",
+  "subject_group": "17.2.1 Electrical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "17.2.4",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that, to assure safe stores operation and interactions with the air vehicle, the proper electrical interfaces have been addressed for carriage and release envelopes for the required store configurations.",
+      "text": "Verify that, to assure safe stores operation and interactions with the air vehicle, the proper electrical interfaces have been addressed for carriage and release envelopes for the required store configurations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "17.2.4",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that electrical interfaces do not cause unsafe stores operation or interactions with the air vehicle for all required store configurations.",
+      "text": "Verify that electrical interfaces do not cause unsafe stores operation or interactions with the air vehicle for all required store configurations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "17.2.4",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Electrical interfaces",
+      "text": "Criterion: For all required store configurations, verify that electrical interfaces do not cause unsafe stores operation or interactions with the air vehicle. Standard: Aircraft electrical/logical interfaces are defined and prevent unintended release/launch/jettison and detonation of the stores. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Aircraft electrical/logical interfaces are verified by System Integration Laboratory test, EMI/EMC test, Hazards of Electromagnetic Radiation to Ordnance (HERO) test, flight test and requirements of MIL-HDBK-244. References: MIL-HDBK-244 MIL-STD-1760 SAE AS5726 Interface for Micro-munitions",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Electrical Interfaces",
+      "text": "Standard: Physical interfaces for air vehicle-to-store electrical connections are defined and prevent unintended operation, inadvertent release (launch or jettison), and inadvertent detonation of stores or store devices (e.g., squibbing batteries, control surfaces, or other electrically initiated devices). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify that electrical interfaces are defined for the air vehicle and store systems and meet applicable design standards. Electrical interfaces are defined in standards (e.g., MIL-STD-1760, SAE AS5726 for micro-munitions). For nonstandard interfaces, verify that the design cannot cause unintended or inadvertent operation and release of stores. Test.\n  (1) Ground or Lab test: Conduct testing to verify electrical interfaces comply to design standards and prevent inadvertent operation of stores, to include inadvertent release (launch or jettison) and inadvertent activation of squibs or other electrically initiated devices. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct testing to verify that electrical interfaces prevent inadvertent operation of stores, to include inadvertent release (launch or jettison) and inadvertent activation of squibs or other electrically initiated devices.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

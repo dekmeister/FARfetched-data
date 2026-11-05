@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.2.2",
+  "number": "16.2.2",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Special inspections",
+  "subject_group": "16.2 Inspection requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that special inspection procedures are available for unusual or specified conditions, such as a.",
+      "text": "Verify that special inspection procedures are available for unusual or specified conditions, such as a. Exceeding operating limits b. Severe vibration c. Engine stall d. Foreign object damage to engine or structure e. Excessive loss of oil f. Conditions requiring oil sampling and analysis g. Severe braking action, hard landing, and running off runway h. Air vehicle subject to excessive \u201cg\u201d loads or maneuvers outside the specified flight envelope i. Lost tools j. Emergency procedures implemented k. Dropped objects or parts",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that special inspection procedures are available for unusual or specified conditions, such as a.",
+      "text": "Verify that special inspection procedures are available for unusual or specified conditions, such as a. Exceeding operating limits b. Severe vibration c. Engine stall d. Foreign object damage to engine or structure e. Excessive loss of oil f. Conditions requiring oil sampling and analysis g. Severe braking action, hard landing, and running off runway h. Air vehicle subject to excessive \"g\" loads or maneuvers outside the specified flight envelope i. Lost tools j. Emergency procedures implemented k. Dropped objects or parts DoD/MIL Doc: MIL-PRF-5096: para 3.2.2.3.1 gives guidance regarding special inspections after a specific occurrence. JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5 FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that special inspection procedures are available for unusual or specified conditions, such as a.",
+      "text": "Verify that special inspection procedures are available for unusual or specified conditions, such as a. Exceeding operating limits b. Severe vibration c. Engine stall d. Foreign object damage to engine or structure e. Excessive loss of oil f. Conditions requiring oil sampling and analysis g. Severe braking action, hard landing, and running off runway h. Air vehicle subject to excessive \"g\" loads or maneuvers outside the specified flight envelope i. Lost tools j. Emergency procedures implemented k. Dropped objects or parts DoD/MIL Doc: MIL-PRF-5096: 3.2.2.3.1 gives guidance regarding special inspections after a specific occurrence. JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Special inspection procedures",
+      "text": "Criterion: Verify that special inspection procedures are available for unusual or specified conditions (e.g., exceeding operating limits; severe vibration; engine stall; foreign object damage (FOD) to engine or structure; excessive loss of fluid; conditions requiring fluid sampling and analysis; severe braking action, hard landing, and running off runway; air vehicle subject to excessive G loads or maneuvers outside the specified flight envelope; lost tools; emergency procedures implemented; dropped objects or parts; sudden stoppage inspection in event of compressor stall). Standard: Special inspection procedures have defined exceedance parameters (e.g., temperatures, speeds, G loads, vibration) and corresponding durations. Acceptable damage criteria are established which clearly delineate serviceability or repair requirements. Maintenance levels and personnel authorized to perform the required inspections are identified. Special inspection procedures provide troubleshooting instructions and identify items (e.g., support equipment, supplies, tools) needed to perform the inspections. Method of Compliance: Verify by analysis, test, and demonstration that instructions are documented for special inspections. Special inspection procedures have undergone quality assurance checks, and the checks and the content of the special inspection procedures have been verified by the Government. References: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-PRF-5096: 3.2.2.3.1 gives guidance regarding special inspections after a specific occurrence 14 CFR 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Special inspections",
+      "text": "Standard: The maintenance publications have special inspections for air vehicle exceedances as reported by the flight crew or diagnostic system, and abnormal events as reported by the flight crew or ground crew. Special inspection procedures define parameters and abnormal events which establish the need for the special inspection procedure to be performed. Damage criteria delineate serviceability, repair, or discard requirements. Special inspection procedures identify items (e.g., support equipment, supplies, and tools) needed to perform the inspections. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine maintenance publications to ensure instructions for special inspections establish allowable service limits, and standards for determining maintenance action.\n(2) Examine maintenance publications to ensure exceedances in speed, temperature, g loads, landing sink rate, and vibrations which are documented in the flight manual have corresponding inspection or maintenance actions.\n(3) Examine the maintenance publications to determine if use of emergency or alternate fuels requiring inspection after such usage per the operational materials have special inspection procedures documented.\n(4) Examine maintenance publications to determine if sudden stoppage events (e.g., rotor, propeller, and compressor) have special inspection procedures documented.\n(5) Examine maintenance publications to determine if FOD events (e.g., bird strikes, hail, and lost tool) have special inspection procedures documented.\n(6) Examine maintenance publications to ensure lightning strikes to the air vehicle have special inspection procedures documented.\n(7) Examine maintenance publications to ensure fires and use of firefighting equipment on the air vehicle have special inspection procedures documented.\n(8) Examine maintenance publications to ensure all RCM analysis event driven tasks have special inspection procedures documented.\n(9) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis.\n  (1) Conduct RCM analysis that meets SAE JA1011 to identify event driven task special inspections derived from abnormal events. A4A MSG-3 Volume 1 and Volume 2 (previously ATA MSG-3) meet the intent of this MoC. Demonstration.\n    (1) Perform air vehicle maintainability demonstrations to confirm the special inspection procedures are complete, accurate, and can be performed as written without introducing AW hazards. Maintenance publications will receive updates to address maintenance issues discovered during maintainability demonstrations. Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n    (2) Perform all air vehicle special inspection procedures on production-configured hardware using government maintenance personnel to ensure special inspection procedures do not introduce AW hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

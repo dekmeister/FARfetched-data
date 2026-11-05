@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.6",
+  "number": "7.4.26",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Engine to air vehicle clearances",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.8.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes.",
+      "text": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.5.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes.",
+      "text": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.5.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes.",
+      "text": "Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes. DoD/MIL Doc: JSSG-2001 B: 3.3.1.1/4.3.1.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.5.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Engine/air vehicle clearances",
+      "text": "Criterion: Verify that clearance between the air vehicle and engine (including associated components, plumbing, and harnesses) is maintained under all operating conditions within the ground and flight envelopes. Standard: Except at controlled interfaces, Engine/Air Vehicle physical separation is maintained under all operating conditions within the ground and flight envelopes. Static clearances of no less that one (1) inch is provided unless positive clearance is validated under operational loading. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. Engine/Air Vehicle clearance requirements are verified by inspection of design documentation. System clearances are validated by inspection of system design analysis and simulation which properly accounts for flight loads and thermal growth. S ystem design analysis and simulations are validated by first article inspections and flight tests.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Engine to air vehicle clearances",
+      "text": "Standard: Positive clearance between the engine to air vehicle (including associated components, plumbing, and harnesses) is maintained when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, ICD, or other substantiating records and reports) to verify the engine to air vehicle clearances. Analysis.\n  (1) Analysis is conducted to verify the engine to air vehicle clearances. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Flight testing is conducted to verify the engine to air vehicle clearances.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

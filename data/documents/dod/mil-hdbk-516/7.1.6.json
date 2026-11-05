@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.1.6",
+  "number": "7.1.5",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Critical safety items",
+  "subject_group": "7.1 Propulsion risk management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.1.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that critical safety items (CSI) and critical characteristics are identified.",
+      "text": "Verify that critical safety items (CSI) and critical characteristics are identified. DoD/MIL Doc: DoD 4140.1-R, Section C8.5, Material Management, DoD Flight Safety Critical Aircraft Part (FSCAP) Program. NAVAIRINST 4200.25D Management of Critical Application Items Including Critical Safety Items. Critical Item Management Desktop Guide (to NAVAIR 4200.25D) (Draft) JACG Instruction on Management of Aviation Critical Safety Items.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.1.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that critical safety items (CSI) and critical characteristics are identified.",
+      "text": "Verify that critical safety items (CSI) and critical characteristics are identified. DoD/MIL Doc: DoD 4140.1-R, Section C8.5, DoD Supply Chain Materiel Management Regulation DoD Aviation Critical Safety Item (CSI)/Flight Safety Critical Aircraft Part (FSCAP) NAVAIRINST 4200.25D Management of Critical Application Items Including Critical Safety Items. Critical Item Management Desktop Guide (to NAVAIR 4200.25D) (Draft) JACG Instruction on Management of Aviation Critical Safety Items.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Critical safety items",
+      "text": "Criterion: Verify that critical safety items (CSI) and critical characteristics are identified. Standard: Documentation identifies and categorizes all critical propulsion system parts, assemblies, or installations containing critical characteristics whose failure, malfunction, or absence may cause a catastrophic or critical failure resulting in the loss or serious damage to the air vehicle, an unacceptable risk of personal injury or loss of life, or an uncommanded engine shutdown that jeopardizes safety. Method of Compliance: Verification methods include analysis, inspection and review of documentation. Inspection of the Critical Safety Item (CSI) list and FMECA ensures that all items have been accounted for. References: DoDM 4140.01, Vol 11, Enc 3, Procedures 3, CSI-Specific Procedures NAVAIRINST 4200.56 Critical Item Management Desktop Guide (to NAVAIR 4200.56) JACG Aviation Critical Safety Item Management Handbook",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Critical safety items",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

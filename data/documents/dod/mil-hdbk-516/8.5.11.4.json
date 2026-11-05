@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.11.4",
+  "number": "8.5.11.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Arresting hook system with tire failure",
+  "subject_group": "8.5.11 Auxiliary deceleration devices",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure.",
+      "text": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure.",
+      "text": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure. Comm\u2019l Doc: SAE ARP-1538 DoD/MIL Doc: MIL-A-18717 MIL-A-83136 AFGS-87139: para 3.2.7.1 Arresting hook system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure.",
+      "text": "Verify that no part of the landing gear, air vehicle, or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure. Comm\u2019l Doc: SAE ARP-1538 DoD/MIL Doc: MIL-A-18717 MIL-A-83136 AFGS-87139: 3.2.7.1 Arresting hook system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Arresting hook system with tire failure",
+      "text": "Criterion: Verify, for all critical air vehicle conditions, that no part of the landing gear, air vehicle or stores snags the arresting cable when the air vehicle is rolling on rims after a tire failure. Standard: Air vehicle roll-over does not cause cable dynamics with ready-for-use arresting cable system such that unintended cable contact occurs with the air vehicle. Nose and main gear rims diameters are large enough to preclude snagging cable (static or dynamic conditions). Projections in front of the rims do not snag the cable or cause the cable to travel over the top of the wheel and snag the strut(s). Method of Compliance: Verification methods include analyses, test, inspections and demonstrations. Design analysis and component inspection verifies cable roll-over capability at all operational conditions. Flight testing and demonstration support the design analysis and the performance of the air vehicle while traversing cables. References: MIL-A-18717 MIL-A-83136 (cancelled; for information only) AFGS-87139: 3.2.7.1 Arresting hook system SAE ARP1538",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Arresting hook system with tire failure",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

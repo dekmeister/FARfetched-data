@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.6-516d",
+  "number": "8.4.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Single failures",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Single failures",
+      "text": "Standard: Single failures of the FPS that impact the ability of the system to properly function, meet fire protection requirements, or resulting hazards are identified and eliminated by FPS design change or documented procedures and inspections. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of FPS FMECA to show failure modes and criticalities from single point failures are identified and eliminated.\n(2) Conduct inspection of flight and maintenance manuals to show inspections and procedures required to eliminate FPS FMECA failure mode hazards are identified and implemented. Analysis.\n  (1) Conduct a FPS FMECA that show single failure hazards behave as predicted, and hazards from single point failures are eliminated as predicted. Test.\n    (1) Lab test: Conduct lab tests that show single failure hazards behave as predicted, and hazards from failures are eliminated as predicted.\n    (2) Ground test: Conduct ground test that validates Analysis MoC (1) and Test MoC (1) by showing single failure hazards behave as predicted, and hazards from failures are eliminated as predicted.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

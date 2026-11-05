@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.5.2.3",
+  "number": "7.4.31",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Bleed air contamination",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.5.2.3",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify customer bleed air contamination does not exceed safe limits.",
+      "text": "Verify customer bleed air contamination does not exceed safe limits. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.7.1, A.4.1.1.7.1, customer bleed air contaminants guidance",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.5.2.3",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify customer bleed air contamination does not exceed safe limits.",
+      "text": "Verify customer bleed air contamination does not exceed safe limits. DoD/MIL Doc: JSSG-2007A: A.3.1.1.7.1, A.4.1.1.7.1, customer bleed air contaminants guidance",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.5.2.3",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Bleed air contamination",
+      "text": "Criterion: Verify that customer bleed air contamination does not exceed safe limits. Standard: The engine(s) do(es) not introduce foreign matter or contaminants into the air vehicle environmental control system that could result in contaminating the pilot's breathable air supply. Method of Compliance: Customer bleed air contamination is verified by analysis and tests. Reference: JSSG-2007: A.3.1.1.7.1, A.4.1.1.7.1 customer bleed air contaminants guidance",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Bleed air contamination",
+      "text": "Standard: Engine generated substances contained in the customer bleed air are below the TLVs set by the American Conference of Governmental Industrial Hygienists when the engine(s) are operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review materials, coatings, and material interfaces used in the engine to identify engine-generated bleed air particles and contaminates. Analysis.\n  (1) Analysis verifies bleed air contamination levels are below TLV. Test.\n    (1) Lab test: Engine ground-based sea level and altitude cell testing verifies bleed air contamination levels are below TLV.\n    (2) Ground test: Installed engine ground testing verifies bleed air contamination levels are below TLV.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

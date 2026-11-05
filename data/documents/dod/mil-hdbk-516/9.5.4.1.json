@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.4.1",
+  "number": "9.1.1.5",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Emergency oxygen - ejection",
+  "subject_group": "9.1.1 Altitude protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.5.4.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify sufficient emergency oxygen is available during high altitude escape.",
+      "text": "Verify sufficient emergency oxygen is available during high altitude escape.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.5.4.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Emergency oxygen\u2013escape",
+      "text": "Criterion: Verify sufficient emergency oxygen is available during high altitude escape. Standard: A sufficient emergency oxygen supply to each crewmember is available for use during high altitude escape. This system is an integral part of the ejection seat or part of the parachute system. Emergency oxygen flow is automatically initiated and supplied to crewmembers at ejection. The duration of the supply is maximized to the greatest extent possible, but as a minimum, supplies enough oxygen to allow the crew to safely descend from the maximum altitude within the escape system envelope. Method of Compliance: Oxygen requirements are verified by system man rating consisting of initial simulated human exposures to operational environments, followed by human testing in mockups and simulators (including altitude chamber testing) to ensure that physiological needs are met. Emergency ejection actuation and supply are verified by sled tests.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Emergency oxygen - ejection",
+      "text": "Standard: A sufficient emergency oxygen quantity to each crewmember is available for use during escape altitudes above 14,500 feet. Emergency oxygen flow is automatically initiated and supplies a minimum of 94% oxygen to crewmembers within 0.5 seconds of exposure to atmosphere. The duration is sufficient to allow the crewmember to descend from the maximum air vehicle altitude. The system also provides an indication to the crewmembers that there is no longer enough oxygen for escape from maximum ejection altitude. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of the oxygen system concentration, flow, and quantity to ensure adequate supply to crewmembers.\n(2) Conduct analysis that predicts structural and functional integrity of the system in the escape system induced environment. Test.\n  (1) Lab test: Conduct lab tests in an altitude chamber of system to verify pressure and flow rates with simulated human breathing through altitude schedules expected during escape and descent to 14,500 feet.\n  (2) Lab test: Conduct human testing in mockups including altitude chamber to verify that flow rates and pressure support crewmember consciousness.\n  (3) Lab test: Conduct windblast testing to verify that the AFE required (e.g., oxygen mask, hoses, and connectors) continues to deliver emergency oxygen during the ejection, retains structural integrity, and is functional post-test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

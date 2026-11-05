@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.5.2",
+  "number": "17.1.5.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Engine effects",
+  "subject_group": "17.1.5 Store exhaust effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Engine effects",
+      "text": "Standard: Store exhaust (gases, particulates, and fluids) from firing, employing, or dispensing stores (e.g., gun operations, rocket motors, countermeasure dispensers) is not ingested by air vehicle engine. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine placement of stores with proximity to engine inlets and weapon event timeline through store employment to determine if potential exists for store exhaust to be ingested.\n(2) Examine store delivery procedures and identify post-launch maneuvers that may prevent ingesting store exhaust. Analysis.\n  (1) Conduct analysis of exhaust plume composition to identify potential to damage engine systems or degrade engine combustive performance.\n  (2) Conduct analysis of store exhaust plume dispersion and proximity to engine inlet systems to verify that engines do not ingest exhaust. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (1) Conduct flight demonstration of store employment to verify that exhaust is not ingested by the engines.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

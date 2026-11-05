@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.5.3",
+  "number": "11.1.5.3",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Interface/interconnect failures",
+  "subject_group": "11.1.5 Modes of operation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Interface/interconnect failures",
+      "text": "Criterion: Verify that interface/interconnect failures do not result in unsafe system operation. Standard: All interface and interconnection failures for normal, backup, and emergency modes, including transition between modes, are defined, documented and determined to be safe. Method of Compliance: All failures and mode transitions are compatible with safety of flight requirements and verified by FMEA, analysis, and testing. Laboratory and system level testing establish that each failure is safe. References: JSSG-2005: 3.3.5, 4.3.5; 3.2.2.2, 4.2.2.2; 3.2.2.3, 4.2.2.3 SAE ARP4761 SAE AR 5580 14 CFR 23.1301, 23.1309, 23.1329, 23.1335, 25.1301, 25.1309, 25.1329, 25.1335 plus any appropriate advisory circular(s)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Interface/interconnect failures",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

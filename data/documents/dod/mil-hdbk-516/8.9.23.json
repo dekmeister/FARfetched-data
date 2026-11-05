@@ -1,0 +1,42 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.23",
+  "number": "8.8.23",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Securing of air vehicle doors on the ground",
+  "subject_group": "8.8 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.9.23",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that for ground operation with power off, means are provided to hold the air vehicle doors in the open or closed position, and that manually operated hold-open latches are provided to secure doors in the open position, incorporate a lock, and are located in an area where personnel can access safely.",
+      "text": "Verify that for ground operation with power off, means are provided to hold the air vehicle doors in the open or closed position, and that manually operated hold-open latches are provided to secure doors in the open position, incorporate a lock, and are located in an area where personnel can access safely. Also verify that subsequent power operation of the doors, with these means left in place, will not result in damage. DoD/MIL Doc: JSSG 3.4.9.1.c, 3.4.9.1.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Securing of air vehicle doors on the ground",
+      "text": "Criterion: Verify that for ground operation with power off, means are provided to hold the air vehicle doors in the open or closed position, and that manually operated hold-open latches are provided to secure doors in the open position, incorporate a lock, and are located in an area where personnel can access safely. Verify that subsequent power operation of the doors, with these means left in place, will not result in damage. Standard: When the air vehicle is unpowered, doors remain in the position they were in when power was removed. Manual repositioning of the doors is possible and allows ground personnel to latch or secure the doors in the open and locked position. Those manual locking mechanisms are safely accessible for maintenance personnel. Locking mechanisms and structure used to retain the door can take the full actuation power and loads if applied without damage to, and without detrimental effects to, the air vehicle. Method of Compliance: Inspection of design documentation verifies that means are provided to lock doors in the desired positions when power is removed. Demonstration on an aircraft verifies that doors remain in either open, closed, or partially open position when power is removed. Demonstration is used to show that manual locks or latches safely secure the doors in the desired positions, and that the mechanisms are safely accessible to applicable personnel. Testing of the power operation of the doors with locking mechanism engaged is conducted to verify that no damage to airframe, doors, locking mechanisms, or actuators occurs. References: JSSG-2009: (Appendix I) I.3.4.9.1.c, I.3.4.9.1.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Securing of air vehicle doors on the ground",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

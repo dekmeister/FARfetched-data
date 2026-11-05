@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "18.1.3",
+  "number": "9.7.6",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Stowage compartment structure",
+  "subject_group": "9.7 Crash survivability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "18.1.3",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that, if stowage compartments are present, they are designed to contain the maximum weight of its contents and the critical load conditions in an emergency landing.",
+      "text": "Verify that, if stowage compartments are present, they are designed to contain the maximum weight of its contents and the critical load conditions in an emergency landing. The contents should not become a hazard to passengers due to shifting under emergency landing conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "18.1.3",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that, if stowage compartments are present, they are designed to contain the maximum weight of its contents and the critical load conditions in an emergency landing.",
+      "text": "Verify that, if stowage compartments are present, they are designed to contain the maximum weight of its contents and the critical load conditions in an emergency landing. The contents should not become a hazard to passengers due to shifting, such as under emergency landing conditions. DoD/MIL Doc: MIL-A-8865B; No information available in current JSSG. Information to be included in next revision of JSSG. FAA Doc: 14CFR references: 25.561, 25.787, 25.789, 23.787",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "18.1.3",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Stowage compartment structure",
+      "text": "Criterion: Verify that, if stowage compartments are present, they are designed to contain the maximum weight of its contents and the critical load conditions in an emergency landing. The contents should not become a hazard to passengers due to shifting, such as under emergency landing conditions. Standard (Air Force): Stowage compartments are designed to restrain the specified cargo weight to a minimum of 9 G fwd, 1.5 G aft, 1.5 G laterally, 2 G up , and 4.5 G down or to other levels of restraint as may be determined from results of trade studies and analyses. Method of Compliance (Air Force): Fixed or removable equipment located in a manner wherein failure could result in injury to personnel or prevent egress is secured to levels of restraint commensurate with aircraft crash load factors. Structural test and analysis verify the capability to withstand maximum content weights. Testing and analysis with simulated landing and in-flight load conditions verify that contents do not cause injury or other passenger hazards. References: MIL-A-8865B At the time of publication of this document, no information was available in the current JSSGs 14 CFR 25.561, 25.787, 25.789, 23.787",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Stowage compartment structure",
+      "text": "Standard: Stowage compartments contain the maximum weight of the contents under the air vehicle flight and crash loads. The contents do not shift and become a hazard to the air vehicle, become a projectile under flight and crash loads, or prevent egress during an emergency. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) As an alternative to Test MoC (1), structural analysis verifies that the stowage compartment retains the maximum mass under the specified flight and crash loads. Test.\n  (1) Lab test: As an alternative to Analysis MoC (1), testing verifies that the stowage compartment retains the maximum mass under the specified flight and crash loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

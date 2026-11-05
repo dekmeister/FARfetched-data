@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.2.1.2",
+  "number": "11.2.1.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Accuracy",
+  "subject_group": "11.2.1 Critical information",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Accuracy",
+      "text": "Criterion: Verify that accuracy of flight-critical information meets safety of flight requirements. Standard: Altitude, air speed, vertical velocity (or angle-of-attack), pitch, roll and heading data are sufficiently accurate to satisfy safety of flight requirements under all operational flight conditions/environments, profiles, specified geographic locations and with any single failure of a component. The specific requirements for data accuracy and reliability are defined in program detailed design information. Method of Compliance: Accuracy is validated through system level analysis, simulation and test. Safety Hazard Analysis (SHA) verifies that critical information related failures do not degrade accuracy below acceptable risk levels. Laboratory based failure mode tests verify acceptable performance for single failure operation. On aircraft ground testing verifies the accuracy of critical information. Flight testing verifies previous analysis and testing. References: MIL-STD-882 MIL-HDBK-87213: 3.2.1.25.4.1 and Appendix A SAE ARP4761 14 CFR 23.1311, 23.1323, 23.1325, 23.1326, 23.1327, 25.1323, 25.1325, 25.1326, 25.1327 FAA AC-27-1 and FAA AC-29-2 provide guidance on helicopter equipment, primarily in subpart \u201cF\u201d",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Accuracy",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

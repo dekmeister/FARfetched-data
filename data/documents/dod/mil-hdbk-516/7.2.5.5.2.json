@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.5.5.2",
+  "number": "7.2.5.5.2",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Vibratory compatibility",
+  "subject_group": "7.2.5.5 Environmental compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify the installed vibratory compatibility of the engine/airframe system.",
+      "text": "Verify the installed vibratory compatibility of the engine/airframe system. DoD/MIL Doc: JSSG-2001B: para 3.3.1.1.2/4.3.1.1, exhaust integration design and verification requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify the installed vibratory compatibility of the engine/airframe system.",
+      "text": "Verify the installed vibratory compatibility of the engine/airframe system. DoD/MIL Doc: JSSG-2001B: 3.3.1.1.2/4.3.1.1, exhaust integration design and verification requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Vibratory compatibility",
+      "text": "Criterion: Verify the installed vibratory compatibility of the engine with airframe-induced vibrations. Standard: Airframe-induced engine vibration does not exceed engine limits within the aircraft and engine operational envelope. If the system includes damping engine mounts, they adequately protect the engine against airframe induced vibrations. Method of Compliance: Verification methods include analysis, test, and review of documentation. Airframe induced engine vibration is established by analysis, and ground and flight vibration tests which identify the response characteristics of the aircraft/engine to forced vibrations and impulses. Analysis of vibration response data verifies that engine limits are not exceeded. References: JSSG-2001: 3.3.1.1.2 and 4.3.1.1 exhaust integration design and verification requirements",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Vibratory compatibility",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

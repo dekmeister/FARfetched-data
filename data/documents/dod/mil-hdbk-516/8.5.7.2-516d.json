@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.7.2-516d",
+  "number": "8.5.7.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Braking control (manned air vehicle)",
+  "subject_group": "8.5.7 Brake control and antiskid",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Braking control (manned air vehicle)",
+      "text": "Standard: Brake pedal characteristics (e.g., force, deflection, brake pedal shape, brake pedal travel, and foot position) allow the flight crew to apply varying input commands from brakes off to initial brake rotors contact pressure to maximum brake pressure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Conduct lab testing to verify system force, travel, and response assessments for the specified size range of flight crew for manned air vehicles.\n(2) Ground test: Perform on air vehicle ground testing to verify controllability of the braking system during taxiing, differential braking and turning operations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n(3) Flight test: Conduct flight testing to verify controllability of the braking system during all ground operations including the transition to and from flight.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.7.2",
+  "number": "9.5.7.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "CAD/PAD and propulsion subsystem reliability",
+  "subject_group": "9.5.7 Escape system reliability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "CAD/PAD and propulsion subsystem reliability",
+      "text": "Standard: Cartridge activated devices/Pyrotechnic actuated devices and propulsion component reliability are not less than 99.9% at the 90% confidence level in the intended operating environment. Cartridge activated devices are IAW MIL-C-83124, Requirements section and Quality Assurance Provisions section. Pyrotechnic actuated devices are IAW MIL-C-83125, Requirements section and Quality Assurance Provisions section. Rocket catapults, propellent actuated catapults, and rocket motors are IAW MIL-P-83126, Requirements section and Quality Assurance Provisions section. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Reliability for all CAD/PAD, and propulsion components are verified IAW the standard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

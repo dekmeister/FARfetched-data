@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.3-516a",
+  "number": "13.2.3",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Verify that neither fuel nor fuel vapors can be ignited as a result of the effects of lightning.",
+  "subject_group": "13.2 System-level E3 qualification",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that neither fuel nor fuel vapors can be ignited as a result of the effects of lightning.",
+      "text": "Verify that neither fuel nor fuel vapors can be ignited as a result of the effects of lightning.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that neither fuel nor fuel vapors can be ignited as a result of the effects of lightning.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

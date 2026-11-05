@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.1.2",
+  "number": "7.2.2",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Degraded performance",
+  "subject_group": "7.2 Propulsion performance and operability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.1.2",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that degraded engine performance meets requirements for safety considerations.",
+      "text": "Verify that degraded engine performance meets requirements for safety considerations. Degraded engine performance includes performance in any backup control mode, as well as performance after bird, ice, and sand ingestion. DoD/MIL Doc: JSSG-2007A: Backup control: A.3.7.2.1.1, A.4.7.2.1.1; Bird ingestion: JSSG-2007A A.3.3.2.1, A.4.3.2.1; Ice ingestion: A.3.3.1.4, A.4.3.1.4; and Sand ingestion: A.3.3.2.4, A.4.3.2.4 FAA Doc: 14CFR references: 33.1, 33.68, 33.89 AC 33-76",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.1.2",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Degraded performance",
+      "text": "Criterion: Verify that degraded installed propulsion system performance is assessed. Degraded engine performance includes performance in any backup control mode, as well as performance after bird, ice, water and sand ingestion. Standard: Installed engine thrust or power is characterized in backup control mode, at field removal limits (if defined), and after bird, ice, water and sand ingestion and meets applicable specification requirements. Method of Compliance: Verification is accomplished by engine testing and analyses. References: JSSG-2007: A.3.7.2.1.1, A.4.7.2.1.1 Backup control; A.3.3.2.1, A.4.3.2.1 Bird ingestion; A.3.3.2.3, A.4.3.2.3 Ice ingestion; A.3.3.2.4, A.4.3.2.4 Sand ingestion; A.3.4.1.6, A.4.4.1.6 Icing Conditions; A.3.11/A.4.11 Engine system and controls and externals verification; and A.3.12/A.4.12 Engine qualification 14 CFR 33.68, 33.76, 33.77, 33.89 FAA AC 33-76-1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Degraded performance",
+      "text": "Standard: Degraded installed engine thrust or power is characterized and meets the critical performance conditions of the air vehicle. Degraded engine performance includes performance: a. In backup control mode(s). b. At field removal limits. c. After ingestion event (e.g., bird, ice, hail, water, sand, dust, ash). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., ICDs, environmental criteria documents) to verify that degraded performance environments have been defined and utilized in the characterization of degraded performance. Analysis.\n  (1) Analyses performed with a model based on measured test data for characterization of degraded performance at conditions that have not been tested. Test.\n    (1) Lab test: Ground-based sea level and altitude cell tests to characterize and verify degraded performance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

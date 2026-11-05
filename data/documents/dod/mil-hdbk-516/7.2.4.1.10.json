@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.1.10",
+  "number": "7.4.9",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Variable geometry systems",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.10",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine variable geometry systems safely operate under all engine operating conditions.",
+      "text": "Verify that the engine variable geometry systems safely operate under all engine operating conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: para A.3.7/A.4.7, variable geometry system design and verification testing. JSSG-2007A: para A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance and fire proof testing. FAA Doc: 14CFR references: 25.671, 27.695, 29.695, 33.17, 33.72, 43.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.10",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine variable geometry systems safely operate under all engine operating conditions.",
+      "text": "Verify that the engine variable geometry systems safely operate under all engine operating conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: A.3.7/A.4.7, variable geometry system design and verification testing. JSSG-2007A: A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance and fire proof testing. FAA Doc: 14CFR references: 25.671, 27.695, 29.695, 33.17, 33.72, 43.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.10",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Variable geometry systems",
+      "text": "Criterion: Verify that the engine variable geometry systems safely operate under all engine operating conditions. Standard: Variable geometry system components such as pumps, actuators, bleed valves, plumbing and mechanical cables that are powered by electric, air, oil, fuel or mechanical means, operate with a full range of motion and adequate force margins to properly operate the engine variable geometry systems. Variable geometry system components maintain full functional capability when exposed to the maximum static and dynamic loads, temperatures and flows throughout the operating envelope. All variable geometry components and lines that carry fuel are fire resistant and those that carry oil are fire proof. For Full Authority Digital Engine Control (FADEC) systems, guide vane control is maintained under fixed fuel flow failure conditions. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis and bench testing of each variable geometry system component demonstrate the system's ability to meet engine specification requirements. Engine and flight testing of the variable geometry system demonstrate its ability to meet engine specification requirements. Fire resistance is demonstrated by testing with a 2000 \u00b0F flame for five (5) minutes without flame propagation. Fire proof is demonstrated by testing with a 2000 \u00b0F flame for 15 minutes without flame propagation. References: JSSG-2007: A.3.7, A.4.7 variable geometry system design and verification testing; and A.3.1.8.1, A.4.1.8.1 Flammable Fluid Systems - fire resistance and fire proof testing SAE AS1055 SAE AS4273 14 CFR 25.671, 27.695, 29.695, 33.17, 33.72, 43.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Variable geometry systems",
+      "text": "Standard: Variable geometry system components (e.g., pumps, actuators, bleed valves, plumbing, and mechanical cables) operate with a full range of motion and force margins to control the engine variable geometry systems under both steady state and transient conditions throughout the engine operating envelope. Variable geometry system components maintain full functional capability when exposed to the maximum static and dynamic loads, temperatures, and flows. Variable guide vane control is maintained under fixed fuel flow failure conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, design data records, inspection reports, or other substantiating records and reports) and verify design of the engine variable geometry system. Analysis.\n  (1) Analysis of components are conducted to verify design of the variable geometry system. Test.\n    (1) Lab test: Bench tests of the variable geometry system components are conducted to verify design of the variable geometry system.\n    (2) Lab test: Engine ground-based sea level and altitude cell tests of the variable geometry systems are conducted to verify design of the variable geometry system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight tests of the variable geometry system are conducted to verify the variable geometry system design.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

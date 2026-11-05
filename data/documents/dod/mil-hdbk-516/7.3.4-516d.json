@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.4-516d",
+  "number": "7.3.4",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Strength",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Strength",
+      "text": "Standard: The engine withstands limit and ultimate load conditions as follows: Limit Load Conditions: Engine structure does not exhibit detrimental permanent set, damage, reduction of life limits, or temporarily deflect to the extent that operation or performance is impaired when operated to limit load within the engine operating envelope. Ultimate Load Conditions: Engine structure does not fail and enables controlled spool down of rotors under ultimate load conditions. The engine does not experience uncontained failure or uncontained fire under ultimate load conditions. For ultimate load cases involving limit engine-generated loads and ultimate externally applied loads (e.g., maneuvers) the engine also maintains performance enabling successful recovery of the air vehicle. Blade out and crash are unique ultimate load conditions. Standards for blade out are IAW 7.3.12. Standards for crash conditions are: a. No failure of engine mounts resulting in liberation of the engine from the mount system. b. No uncontained failures or uncontained fires. For all strength assessments, positive margins of safety exist for the range of manufacturing tolerances and operational conditions. For turboprop and turboshaft engines, the maximum allowable steady-state delivered shaft torque (mechanical) limit is at least 20% greater than the rating value reported in technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyses are accomplished using defined load conditions per 7.3.2 to verify strength and deflection capability, and system-level impacts.\n(2) For turboprop and turboshaft engines, analysis verifies output shaft overtorque capability. Test.\n  (1) Lab test: Component and engine static frame testing is accomplished to verify analytical results. Component tests are conducted at the maximum operating temperature or at a test pressure adjusted to account for the differences between operating and test temperatures. Strain gauges and other instrumentation are used during tests to validate analysis methods. Tests are conducted progressively to limit or ultimate load conditions. Engine static frame tests include means of imparting gyroscopic loads from the rotor system.\n  (2) Lab test: Engine test in a ground-based sea level test cell is accomplished to verify analytical results (e.g., surge, stall, afterburner blowout).\n  (3) Lab test: For turboprop and turboshaft engines, conduct engine overtorque test in a ground-based sea level test cell accomplished per the conditions and success criteria as specified in 14 CFR 33.84.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

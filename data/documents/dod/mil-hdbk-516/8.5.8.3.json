@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.8.3",
+  "number": "8.5.7.7",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Parking brake torque",
+  "subject_group": "8.5.7 Brake control and antiskid",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.8.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If a parking brake is required, verify that it provides holding power for the required time and conditions.",
+      "text": "If a parking brake is required, verify that it provides holding power for the required time and conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.8.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If a parking brake is required, verify that it provides holding power for the required time and conditions.",
+      "text": "If a parking brake is required, verify that it provides holding power for the required time and conditions. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.9.5/4.4.1.9.5 Parking Brake; AFGS-87139: para 3.2.3.2.d Brake actuation system; MIL-B-8584 Design of Brake Systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.8.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If a parking brake is required, verify that it provides holding power for the required time and conditions.",
+      "text": "If a parking brake is required, verify that it provides holding power for the required time and conditions. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.9.5/4.4.1.9.5 Parking Brake AFGS-87139: 3.2.3.2.d Brake actuation system MIL-B-8584 Design of Brake Systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.8.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Parking brake",
+      "text": "Criterion: If a parking brake is required, verify that it provides holding power for the required time and conditions. Standard: The parking brake provides sufficient torque to hold the air vehicle static for the operational design conditions and for the specified time required by the system performance specification. Method of Compliance: Verification methods include tests and demonstrations. Simulator tests verify system design logic and functionality of the parking brake. Air vehicle demonstrations and tests verify performance of the parking brake. References: JSSG-2009: A.3.4.1.9.5, A.4.4.1.9.5 Parking Brake MIL-B-8584 AFGS-87139: 3.2.3.2.d Brake actuation system SAE AS8584",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Parking brake torque",
+      "text": "Standard: Parking brake static torque levels prevent the air vehicle from rolling at specified operational conditions and ship-based air vehicle the torque levels are IAW SAE AS8584B, Parking Brake System paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Static analysis shows brake produces sufficient torque and addresses timing values if needed to hold air vehicle at required specified operational conditions. Demonstration.\n  (1) Conduct ground demonstration to verify the parking brake ability to hold air vehicle under required engine thrust levels or the ship-based torque levels with no tire slippage on the wheel.\n  (2) For rotary-wing and VTOL, a flight demonstration is conducted to verify performance on maximum slope landings. Test.\n    (1) Lab test: Static torque lab test verifies the brake produces the required torque levels to hold air vehicle under required engine thrust levels or the ship-based torque levels with no tire slippage on the wheel.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

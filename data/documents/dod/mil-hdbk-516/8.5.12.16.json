@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.12.16",
+  "number": "8.5.15.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Technical manuals",
+  "subject_group": "8.5.15 Landing gear and deceleration systems overarching standards",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.12.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that flight and maintenance manuals include normal, back-up, and emergency operating procedures, limitations, restrictions, servicing, and maintenance information for all landing gear and deceleration systems.",
+      "text": "Verify that flight and maintenance manuals include normal, back-up, and emergency operating procedures, limitations, restrictions, servicing, and maintenance information for all landing gear and deceleration systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.12.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Criterion: Verify that flight and maintenance manuals include normal, back-up, and emergency operating procedures, limitations, restrictions, servicing, and maintenance information for all landing gear and deceleration systems. Standard: Technical data describe the installed landing and deceleration systems, normal and emergency operation, operating procedures and limitations, restrictions, servicing, and maintenance requirements. Method of Compliance: Verification methods include inspections and demonstrations. Technical data are verified by inspection of design documentation and technical manuals and by demonstration of technical manual procedures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Standard: Flight manuals will include landing gear and deceleration systems normal, backup, and emergency procedures, system parameters, indications, WCAs, restrictions, and air vehicle operating limitations. Maintenance manuals will include landing gear and deceleration systems life limits, limitations, and servicing procedures. The manuals' information is substantiated and reflects the as designed or modified system. The technical manuals incorporate unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, qualification testing findings). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manuals to verify that the flight crew is provided with information addressing WCAs, indications, limits of operation, normal, emergency, and backup procedures.\n(2) Review technical manuals to verify they incorporate unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, qualification testing findings). Analysis.\n  (1) Conduct supporting analyses to establish the basis for the published operating procedures, flight manual limits, and the system operating limits.\n  (2) Conduct supporting analyses to establish the basis for the published maintenance manual life limits, inspections, limitations, and servicing procedures including unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, qualification testing findings). Test.\n    (1) Ground test: Conduct on air vehicle testing to validate and verify flight manual normal, emergency, and backup procedures for landing gear and deceleration systems. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight testing to validate and verify flight manual normal, emergency, and backup procedures for landing gear and deceleration systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

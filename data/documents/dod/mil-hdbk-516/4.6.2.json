@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.6.2",
+  "number": "4.6.3",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Product baseline",
+  "subject_group": "4.6 Configuration management (CM)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "4.6.2",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that the product baseline has been properly documented, established, and brought under configuration control.",
+      "text": "Verify that the product baseline has been properly documented, established, and brought under configuration control.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "4.6.2",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that the product baseline is properly documented, established, and brought under configuration control.",
+      "text": "Verify that the product baseline is properly documented, established, and brought under configuration control. DoD/MIL Doc: MIL-STD-961E, Defense and Program Unique Specifications Format and Content, Appendix A; MIL-HDBK-61A, Configuration Management, sections 3, and 5.5.1 Configuration Baselines for definitions and purposes of configuration baselines FAA Doc: 14CFR reference: 23.21, 25.21, 23.601, 25.601, 23.1301, 25.1301",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Product baseline",
+      "text": "Criterion: Verify that the product baseline is established and under configuration control to preclude unauthorized changes. Standard: The product baseline is properly documented, approved and brought under control by a Configuration Management Process. Method of Compliance: The Configuration Management Plan is defined and implemented in accordance with the contract. Inspection of documentation verifies that the product baseline has been documented and approved. Inspection of the approved engineering documentation and engineering release system verifies adequate capture of the product baseline. References: MIL-HDBK-61: 5.5 Configuration Baselines; 6 Configuration Control MIL-STD-961: Appendix A NAVAIRINST 4130.1 14 CFR 23.21, 23.601, 23.1301, 25.21, 25.601, 25.1301",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Product baseline",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.1.10",
+  "number": "6.2.1.10",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "UAS degraded operation",
+  "subject_group": "6.2.1 VCF architecture design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "UAS degraded operation",
+      "text": "Criterion: For UAS operations in restricted airspace, warning areas, maritime environments, and combat zones, verify that the VCF will not degrade below Operational State III for single failures. Standard: For UAS operations in restricted airspace, warning areas, maritime environments, and combat zones, the VCF is robust and provides a minimum Operational State III for any single failure. There are no instabilities or limit cycle oscillations after any single failure. No single failure within the integrated VCF causes degradation of the air vehicle system stability preventing safe control and landing. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. The VCF after single failure is verified through simulation, software analysis, SIL, FMET (failure modes tests), and ground test, for both air vehicle and control station. Reference: JSSG-2008",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "UAS degraded operation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

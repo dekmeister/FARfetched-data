@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.11",
+  "number": "8.7.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Environmental conditions",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other vehicles expected in the operational ground/deck environment.",
+      "text": "Verify that all actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other vehicles expected in the operational ground/deck environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other vehicles expected in the operational ground/deck environment.",
+      "text": "Verify that all actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other vehicles expected in the operational ground/deck environment. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; I.4.4.9.4.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Environmental conditions",
+      "text": "Criterion: Verify that all actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other vehicles expected in the operational ground/deck environment. Standard: The mechanical subsystem is able to operate and complete all its functional actions (to include locking) under all expected mission and environmental conditions. Worst case conditions include operations in the air and on the ground. Method of Compliance: The design is verified by analysis. Component and system load testing verifies operation at worst case conditions. Testing up to design limits are conducted on the ground and in flight as applicable. References: JSSG-2009: (Appendix I) I.3.4.9.4; I.3.4.9.4.1, I.4.4.9.4.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Environmental conditions",
+      "text": "Standard: All actuation subsystems are able to be locked and unlocked, provide for folding, unfolding, and deploying, and can be folded, unfolded, and deployed within a wind environment that encompasses atmospheric and weather-induced conditions, wind-over-deck from carrier vessel movement, and downwash and jetwash conditions caused by other air vehicles expected in the operational ground and deck environment. The mechanical subsystem is able to operate and complete all its functional actions (to include locking) under all expected mission and environmental conditions. Worst-case conditions include operations in the air and on the ground. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to verify locks can withstand the environmental conditions without opening. Test.\n  (1) Lab test: Conduct component and system load testing to verify operation at worst-case conditions.\n  (2) Ground test: Conduct testing on air vehicle to verify operation of locks at worst-case conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct testing on air vehicle to verify operation of locks at worst-case conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

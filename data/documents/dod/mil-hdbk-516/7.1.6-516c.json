@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.1.6-516c",
+  "number": "7.1.6",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Propulsion system operation",
+  "subject_group": "7.1 Propulsion risk management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Propulsion system operation",
+      "text": "Criterion: Verify that the engine and associated components will operate safely within the flight and maneuver envelope and operational environment. Standard: Engine thrust or power, fuel consumption, endurance, and structural integrity are characterized with representative installation effects over the expected flight and maneuver envelope and are shown to support the safe operation of the air vehicle. Installation includes inlet effects due to external protuberances (sensors, probes), anti-ice devices, sand and dust separators, exhaust system effects due to infrared (IR) or noise suppressors, and customer extractions due to bleed air and mechanical power. Operational environments include cold and hot days, and weather such as rain, snow, or ice. Additionally, operational environments can include bird, ice, sand, volcanic ash ingestion, as well as hot gas ingestion from any source (including armament gases). Maneuver envelope includes rotational velocities, accelerations, and gyroscopic moment conditions. Method of Compliance: Verification methods include a combination of engine test, analysis and review of documentation. Testing is done at representative ground and altitude conditions to characterize and verify baseline performance, installation effects and deteriation caused by the operational environment. Analysis is performed with a model based on measured test data for characterization of performance at conditions that have not been tested. Analysis verifies that component deflections under gyroscopic loading conditions do not impair operation of the engine under ultimate loading levels and meet life requirements under limit load conditions. References: JSSG-2007: A.3.2, A.4.2 (Performance and Operability); A.3.3, A.4.3 (Environmental Conditions); A.3.4, A.4.4 (Integrity) 14 CFR 33.23, 33.5, 33.35, 33.7, 33.75, 33.8, 33.91",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Propulsion system operation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

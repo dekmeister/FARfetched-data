@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.2.4",
+  "number": "5.2.4",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Verify that, after each of the failures listed below as well as for air vehicle augmentation system failures, the air vehicle is free from flutter, divergence, and other related aeroelastic or aeroservoelastic instabilities. a.",
+  "subject_group": "5.2 Structural dynamics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that, after each of the failures listed below as well as for air vehicle augmentation system failures, the air vehicle is free from flutter, divergence, and other related aeroelastic or aeroservoelastic instabilities. a.",
+      "text": "Verify that, after each of the failures listed below as well as for air vehicle augmentation system failures, the air vehicle is free from flutter, divergence, and other related aeroelastic or aeroservoelastic instabilities. a. Failure, malfunction, or disconnection of any single element or component of the main flight control system, augmentation systems, automatic flight control systems, or tab control system. b. Failure, malfunction, or disconnection of any single element of any flutter damper connected to a control surface or tab. c. Failure of any single element in any hinge mechanism and its supporting structure of any control surface or tab. d. Failure of any single element in any actuator's mechanical attachment to the structure of any control surface or tab. e. Failure of any single element in the supporting structure of any pylon, rack, or external store. f. Failure of any single element in the supporting structure of any large auxiliary power unit. g. Failure of any single element in the supporting structure of any engine pod. h. For air vehicles with turbopropeller or prop-rotor engines:\n(1) Failure of any single element of the structure supporting any engine or independently mounted propeller shaft.\n(2) Any single failure of the engine structure that would reduce the yaw or pitch rigidity of the propeller rotational axis.\n(3) Absence of propeller aerodynamic forces resulting from the feathering of any single propeller, and for air vehicles with four or more engines, the feathering of the critical combination of two propellers.\n(4) Absence of propeller aerodynamic forces resulting from the feathering of any single propeller in combination with the failures specified above in (1) and (2). DoD/MIL Doc: JSSG-2006: para A3.7.3, A3.1.2, A3.7.1, A3.7.2, A.4.7",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that, after each of the failures listed below as well as for air vehicle augmentation system failures, the air vehicle is free from flutter, divergence, and other related aeroelastic or aeroservoelastic instabilities. a.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

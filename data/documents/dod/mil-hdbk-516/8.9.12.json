@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.12",
+  "number": "8.7.12",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Locking of structural load path mechanisms",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that mechanisms that provide a structural load path incorporate redundant means of locking the mechanism in position.",
+      "text": "Verify that mechanisms that provide a structural load path incorporate redundant means of locking the mechanism in position.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that mechanisms that provide a structural load path incorporate redundant means of locking the mechanism in position.",
+      "text": "Verify that mechanisms that provide a structural load path incorporate redundant means of locking the mechanism in position. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.2; 4.4.9.4.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Locking of structural load path mechanisms",
+      "text": "Criterion: Verify that mechanisms which provide a structural load path incorporate redundant means of locking the mechanism in position. Standard: Mechanical systems are designed for safe and durable operation in accordance with the damage tolerance and durability requirements of the cited aircraft structures specification. Particular attention is paid to safety of flight and critical single load path systems. These items are designed to have redundant means of locking the mechanism in position. Method of Compliance: Analysis, test and demonstration verify the locking function. The verification methods are consistent with the approach taken with respect to the airframe structure specification and are integrated within the air vehicle structural test programs. Where fail-safe criteria is used, inspection and maintenance procedures detect unsafe conditions. References: JSSG-2009: (Appendix I) I.3.4.9.4, I.3.4.9.4.2, I.4.4.9.4.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Locking of structural load path mechanisms",
+      "text": "Standard: Mechanisms which provide a SOF structural load path incorporate redundant means of locking the mechanism in position. Mechanical systems are designed IAW with the damage tolerance and durability requirements of the cited air vehicle structures specification. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct static analysis to verify the locking function has sufficient strength margins for limit and ultimate load conditions. Test.\n  (1) Lab test: Conduct testing to verify the locking function ability to support limit and ultimate load conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

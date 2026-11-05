@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.12.4",
+  "number": "8.3.13.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Safe fuel release",
+  "subject_group": "8.3.13 Electrical and electromagnetic effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.12.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that fuel jettison, fuel venting, fuel leaks, or fuel spills will not be ingested by the engine or flow into hazardous ignition areas or onto the environmental management system.",
+      "text": "Verify that fuel jettison, fuel venting, fuel leaks, or fuel spills will not be ingested by the engine or flow into hazardous ignition areas or onto the environmental management system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.12.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that fuel jettison, fuel venting, fuel leaks, or fuel spills can not be ingested by the engine, flow into hazardous ignition areas, onto the environmental management system, or become reingested into the air vehicle.",
+      "text": "Verify that fuel jettison, fuel venting, fuel leaks, or fuel spills can not be ingested by the engine, flow into hazardous ignition areas, onto the environmental management system, or become reingested into the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.2.6, E.4.4.5.2.6 FAA Doc: 14CFR references: 23.971, 23.999, 23.1001, 25.971, 25.999, 25.1001",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Safe fuel release",
+      "text": "Criterion: Verify that fuel jettison, fuel venting, fuel leaks, and fuel spills cannot be ingested by the engine(s), flow into hazardous ignition areas, onto the environmental management system, or become reingested into the air vehicle. Standard: Fuel dump, drainage, and vent outlets do not permit fuel impingement on the aircraft or come into contact with hazardous ignition areas (e.g., engine/auxiliary power unit intake and exhaust, environmental control systems). Method of Compliance: Ground and flight tests verify performance of the fuel jettison subsystem. Design analysis and ground demonstration verifies the safe location of the fuel jettison in relation to potential ignition sources (e.g., hot brakes, bleed air ducts, engine, APU). Ground and flight demonstrations verify that fuel does not re-enter the air vehicle after fuel jettison. Ground and flight tests verify that no drained flammable fluid impinges on potential ignition sources. References: JSSG-2009: E.3.4.5.2.6, E.4.4.5.2.6 MIL-F-17874 14 CFR 23.971, 23.999, 23.1001, 25.971, 25.999, 25.1001, 27.971, 27.999, 29.971, 29.999, 29.1001",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Safe fuel release",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

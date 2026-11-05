@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.2.5",
+  "number": "17.1.2.5",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Aeroelasticity",
+  "subject_group": "17.1.2 Stores structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Aeroelasticity",
+      "text": "Standard: The store and armament equipment can operate in the intended usage environment without structural failure due to aeroelastic instability. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the initial flutter and divergence analysis report is complete; the models are updated and correlated with all lab tests and GVTs; and analytical results show no instability with a 15% margin on airspeeds in the approved envelope. Analysis.\n  (1) Conduct an initial flutter and divergence analysis IAW MIL-M-8856, Aeroelasticity section and verify that there are no signs of instability within required margins of safety for the full envelope in all operating environments. Test.\n    (1) Lab test: Perform test to substantiate aerodynamic, mechanical, and mass models used for the flutter and divergence predictions.\n    (2) Ground test: Verify the freeplay and rigidity of control surfaces.\n    (3) Ground test: Conduct aeroelastic GVT IAW MIL-HDBK-1763, Test 120 to verify modal response of the air vehicle and store. Correlate models used for flutter and divergence analyses with stiffness response and modal parameters measured during GVT. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n  (2) Verify the final flutter and divergence analysis report is complete and shows no instability with a 15% margin on airspeeds in the approved envelope. Analysis.\n(2) Analyze manufacturing tolerances measured for the store and store control surface actuators and interfaces to define the largest sources for freeplay and ensure limits or engineering rationale are incorporated in final analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

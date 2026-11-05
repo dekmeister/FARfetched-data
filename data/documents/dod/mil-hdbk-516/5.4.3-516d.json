@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.4.3-516d",
+  "number": "5.4.3",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Safe-life fatigue",
+  "subject_group": "5.4 Durability and damage tolerance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Safe-life fatigue",
+      "text": "Standard: The air vehicle is designed with margin such that it will not initiate fatigue damage and maintains full static strength capability for the DSL. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the ASIP Master Plan or RSIP Master Plan, as specified in MIL-STD-1530 or MIL- STD-3063 respectively, documents the analysis and test verification methods required to certify the design for safe-life; that structural certification tasks are updated for modifications or changes to the air vehicle following initial AW certification basis; and all artifacts are developed IAW applicable sections of MIL-STD-1530 or MIL-STD-3063.\n(2) Verify detailed structural design criteria for safe-life, as specified in MIL-STD-1530 or MIL- STD-3063, documents the requirements to achieve structural integrity.\n(3) Verify test plans are scoped to apply a representative service life spectrum, monitor critical control points, and demonstrate static strength capability.\n(4) Verify the CPCP documents corrosion prevention systems, corrosion prevention and control measures, procedures, and processes are defined to ensure structural integrity and support the operational environment and maintenance capability throughout the specified service life of the air vehicle.\n(5) Verify the Durability and Damage Tolerance Control Plan or Fatigue and Fracture Control Plan defines the methodology used for safe-life analyses and identifies applicable structural elements to ensure structural integrity and supports the operational and maintenance capability required of the air vehicle structure.\n(6) Verify the NDIP defines the methods, instrumentation, procedures, intervals, and detection capabilities to ensure structural integrity is maintained. Analysis.\n  (1) Verify safe-life analyses predictions are compliant with structural design criteria and support flight test. Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n  (2) Verify the safe-life models are updated with the repeated loads from flight test; are correlated to the full-scale fatigue test; and analyses predictions are compliant with the structural design criteria. Test.\n    (1) Ground test: Verify the full-scale fatigue test uses representative loading spectra and demonstrates safe-life requirements are achieved; test results are used to establish maintenance requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

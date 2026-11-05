@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.1.6",
+  "number": "7.5.11",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Propeller control",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.1.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify the compatibility of the propeller and engine control systems under all steady state, transient, and emergency operating conditions.",
+      "text": "Verify the compatibility of the propeller and engine control systems under all steady state, transient, and emergency operating conditions. DoD/MIL Doc: JSSG-2009: para L.3.4.12.5, L.4.4.12.5, control system compatibility.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.3.1.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify the compatibility of the propeller and engine control systems under all steady state, transient, and emergency operating conditions.",
+      "text": "Verify the compatibility of the propeller and engine control systems under all steady state, transient, and emergency operating conditions. DoD/MIL Doc: JSSG-2009: L.3.4.12.5, L.4.4.12.5, control system compatibility.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.1.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Propeller control",
+      "text": "Criterion: Verify the compatibility of the propeller and engine control systems under all steady state, transient, and emergency operating conditions. Standard: Control of the propeller is accomplished by means of a propeller control system which is required to assure compatibility with the engine and air vehicle requirements under steady state, transient and emergency conditions. The control system architecture and related functional propeller capability requires a description that shows compliance with operational, environmental, and mission requirements. The propeller control system should include all necessary provisions required for proper and complete automatic, manual, or emergency control of the propeller. Method of Compliance: Verification methods include analysis, test, demonstration and inspection of documentation. Analysis includes detailed descriptions with associated schematics and drawings of the entire propeller control system and its component parts, their arrangement, functional relationships, and engine and engine control interfaces. Demonstration of satisfactory control of the propeller is accomplished through the control response test, the steady state check, the transient check and miscellaneous checks conducted as part of the engine and propeller test stand and air vehicle tests specified. References: JSSG-2009: L.3.4.12.5, L.4.4.12.5 control system compatibility",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Propeller control",
+      "text": "Standard: Propeller control system maintains propeller system operation without exceeding defined operating limits and without detrimental permanent deformation or damage when operated, under steady state and transient conditions, IAW 7.5.2 for the stated life documented in technical data. The propeller control system does not adversely affect the capability established in 7.5.1. The architecture accommodates all control mode operations (e.g., automatic, manual, or emergency) including all failure conditions (e.g., loss of oil pressure, control linkage failure, loss of electrical voltage or continuity, overspeed, overtorque) that result in loss of thrust to maintain level flight or non-recoverable in-flight shutdown. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., propeller control system design documentation, hardware drawings, system configuration descriptions, installed hardware, design data records, inspection reports, or other substantiating records/reports) to verify the architecture accommodates both steady state and transient engine operation, including failure conditions, across the entire flight and ground envelope. Test.\n  (1) Lab test: Engine-propeller system combination ground-based sea-level testing verifies stability of the control system and the control response to power and speed changes throughout the range of operation.\n  (2) Ground test: Installed engine-propeller system combination testing verifies stability of the control system and the control response to power and speed changes throughout the range of operation. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Air vehicle flight testing verifies stability of the propeller control system and the propeller control response to power and speed changes throughout the range of operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

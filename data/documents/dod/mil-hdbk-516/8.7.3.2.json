@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.3.2",
+  "number": "8.7.3.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Group B removal effect on air vehicle flying qualities",
+  "subject_group": "8.7.3 Removal of aerial refueling hardware",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Group B removal effect on air vehicle flying qualities",
+      "text": "Criterion: Verify that the air vehicle\u2019s flying qualities are acceptable when Group B aerial refueling hardware is removed. Standard: The air vehicle\u2019s flying qualities are acceptable when Group B aerial refueling hardware is removed (see 6.1, this document). Method of Compliance: Verification methods include analysis, demonstration and review of documentation. Analysis of system design and flight demonstration verifies that the flying qualities of the air vehicle are not adversely affected by the removal of Group B hardware associated with an aerial refueling system. For air vehicles with multiple Group B hardware, the analysis and flight demonstration evaluate all possible configurations due to the different combinations of Group B removals. References: JSSG-2001: 3.3.11.1.1\u20133.3.11.1.3 JSSG-2009: F.3.4.6.1.5, F.4.4.6.1.5 MIL-STD-1797 MIL-HDBK-516: 6.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Group B removal effect on air vehicle flying qualities",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

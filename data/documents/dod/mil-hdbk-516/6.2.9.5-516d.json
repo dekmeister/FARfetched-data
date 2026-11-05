@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.9.5-516d",
+  "number": "6.2.9.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Actuator structural integrity",
+  "subject_group": "6.2.9 Vehicle control function actuators",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Actuator structural integrity",
+      "text": "Standard: Actuators meet vibration and thermal environments in their installed location. Actuators meet all stiffness requirements under normal and failed conditions. Actuators can withstand limit loads of 1.15X the maximum possible aerodynamics loads without permanent deformation. Actuators can withstand ultimate loads of 1.5X the aerodynamics limit loads without structural failure. Aerodynamic aiding and opposing loads do not cause actuator buffeting. For dual tandem actuators, rip-stop design approach is implemented. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Design analysis verifies actuator stiffness. For hydro-mechanical actuators, stiffness analysis will include both high and low fluid temperatures.\n(2) Analysis verifies actuator capability to withstand aerodynamic limit and ultimate loads.\n(3) Provide actuator performance data under maximum aiding and opposing aerodynamic loads to verify absence of buffeting. Test.\n  (1) Lab test: Verify actuator meets vibration and thermal environments as specified in the environmental conditions when installed on the air vehicle.\n  (2) Lab test: Conduct actuator aerodynamics limit loads test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

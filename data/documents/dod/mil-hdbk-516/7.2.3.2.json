@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.3.2",
+  "number": "7.2.3.2",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Durability",
+  "subject_group": "7.2.3 Structures",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine has positive durability margins over the defined operational interval and duty cycle to preclude adverse safety, economic, or operational impacts.",
+      "text": "Verify that the engine has positive durability margins over the defined operational interval and duty cycle to preclude adverse safety, economic, or operational impacts. DoD/MIL Doc: MIL-HDBK-1783B: para A.4.9/A.5.9 through A.4.9.3/A.5.9.3 for LCF/durability/economic life design and compliance methods MIL-HDBK-1783B: para A.4.13/A.5.13 through A.4.13.3.3/A.5.13.3.3 for high cycle fatigue/vibration guidance MIL-HDBK-1783B: para A.4.12/A.5.12 for creep guidance MIL-HDBK-1783B: para A.4.11/A.5.11 for deterioration guidance MIL-HDBK-1783B: para A.4.14/A.5.14 for noise guidance MIL-HDBK-1783B: para A.4.15/A.5.15 for foreign object damage/domestic object damage (FOD/DOD) guidance MIL-HDBK-1783B: para A.4.16/A.5.16a and b, for durability and compliance criteria for repaired components FAA Doc: 14CFR references: 33.14, 33.5, 33.63, 33.83, 33.19",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine has positive durability margins over the defined operational interval and duty cycle to preclude adverse safety, economic, or operational impacts.",
+      "text": "Verify that the engine has positive durability margins over the defined operational interval and duty cycle to preclude adverse safety, economic, or operational impacts. DoD/MIL Doc: MIL-HDBK-1783B: A.4.9/A.5.9 through A.4.9.3/A.5.9.3 for LCF/durability/economic life design and compliance methods MIL-HDBK-1783B: A.4.13/A.5.13 through A.4.13.3.3/A.5.13.3.3 for high cycle fatigue/vibration guidance MIL-HDBK-1783B: A.4.12/A.5.12 for creep guidance MIL-HDBK-1783B: A.4.11/A.5.11 for deterioration guidance MIL-HDBK-1783B: A.4.14/A.5.14 for noise guidance MIL-HDBK-1783B: A.4.15/A.5.15 for foreign object damage/domestic object damage (FOD/DOD) guidance MIL-HDBK-1783B: A.4.16/A.5.16a and b, for durability and compliance criteria for repaired components FAA Doc: 14CFR references: 33.14, 33.5, 33.63, 33.83, 33.19",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Durability",
+      "text": "Criterion: Verify that the engine has positive durability margins over the defined operational interval and duty cycle to preclude adverse safety, economic, or operational effects. Standard: a. Positive low cycle fatigue life margins have been used for component design. b. Vibratory stresses are kept below 60 percent of the minimum Goodman allowable limit for one billion cycles. c. Material corrosion does not degrade the engine function, integrity or maintenance for the design service life (see to 19.2.1 and 19.2.2). d. Parts cannot creep to the extent that acceptable field engine operation is impaired for the operating conditions, operating interval and design usage. e. Maximum engine mechanical vibration limits are established as a function of frequency, engine order, and location and direction of measurement. Maximum engine mechanical vibration limits should be based on an acceptable margin of safety for structural capability. Damaging rotor critical speeds have probabilistic margin over the operating speed range to account for variation in influence parameters. When there is insufficient confidence in probabilistic solutions, a deterministic margin of at least 20 percent is specified for rotor critical speeds that exist above maximum operating speed or below idle speed. f. The engine meets the design service life requirements in the presence of the acoustic environment produced during installed and uninstalled operation at flight and ground conditions consistent with the design usage. g. Foreign object/domestic object damage (FOD/DOD): The engine is capable of operating for one inspection interval after ingestion of foreign or domestic objects which produce damage equivalent to a stress concentration factor (Kt) of three (3). If validated probabilistic methods are used, a failure threshold of one failure in 10 million engine flight hours is met. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. a. Low cycle fatigue (LCF) margin: Low cycle fatigue analyses and testing are accomplished. Testing consist of component and accelerated mission test (AMT) testing. Rotating components have cyclic life demonstrated by spin pit testing with thermal gradients applied, where appropriate. The spin pit testing is continued until crack initiation or five times (5X) the design service life. b. High cycle fatigue (HCF): Aeromechanical stress surveys are conducted using final configuration hardware and control schedules. Testing is conducted over the range of operating pressures and temperatures to clear the design flight envelope. Sensitivity testing over the expected range of influence parameters is part of the test program to demonstrate robustness to expected variations. Analytical models are validated using the HCF Test Protocol defined in JSSG-2007. c. Corrosion: A corrosion prevention and control plan is prepared. Corrosion resistance is verified through engine testing in a corrosive environment as defined in JSSG-2007. d. Creep: Analytical prediction of creep and component growth and percent stress rupture life, as a function of design life, is accomplished on each creep-critical component. Design operating stresses are established based on past experience that indicates a high probability that satisfactory creep and stress rupture life can be achieved (e.g., 0.2 percent plastic creep life, 0.005-inch diametrical rim growth, 50 percent stress rupture life). Component and engine AMT testing validates analytical predictions. e. Vibration: Engine AMT testing is accomplished at allowable field levels of vibration for the duration of the test to validate structural integrity of components and assemblies. Instrumented engine tests confirm rotor critical speed margins. f. Acoustic environment: The capability of the engine to meet the strength and durability requirements in the presence of the acoustic environment generated during engine operation is verified by test. Acoustic measurements are made during operation in the test cell at various conditions. Analysis of the data is made to establish whether pressure levels are of sufficient magnitude to cause structural cracking. Inspection of AMT engines is used to verify resistance to component structural cracking. g. FOD/DOD: Analysis of aeromechanical test results validates that airfoils stresses remain under the 100 percent Goodman allowable for a Kt=3 notch or probabilistic analysis verifies a failure rate of <1e-7. Goodman allowables are validated with fatigue tests of damaged airfoils. The applied damage produces a minimum stress concentration factor (Kt) of 3 at the critical location. References: JSSG-2007: A.3.4.1.5, A.4.4.1.5, Durability; A.3.4.1.5.2, A.4.4.1.5.2, LCF; A.3.3.1.5,A.4.3.1.5, Corrosive atmosphere; A.3.4.1.8,A.4.4.1.8, Vibration and dynamic response; A.3.4.1.5.1, A.4.4.1.5.1, High cycle fatigue (HCF) life guidance; A.3.2.1.4, A.4.2.1.4, Performance retention guidance; A.3.4.1.10, A.4.4.1.10 Acoustic noise; A.3.3.2.2, A.4.3.2.2, Foreign object damage (FOD) 14 CFR 33.14, 33.19, 33.5, 33.63, and 33.83.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Durability",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

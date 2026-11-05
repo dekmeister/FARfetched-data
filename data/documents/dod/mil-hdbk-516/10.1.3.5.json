@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.3.5",
+  "number": "10.1.3.5",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Prevention of overload",
+  "subject_group": "10.1.3 Mechanical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Prevention of overload",
+      "text": "Standard: The AR system has design features to prevent overloading (reaching ultimate loads) of components or structure due to binding, single point failures, or unexpected dynamic events. a. Boom Tanker. The boom tanker system incorporates an IDS that facilitates an immediate disconnect from the receptacle system latches. The system is available at any time (unlimited uses). b. Drogue Tanker. N/A c. Receptacle Receiver. The receptacle latches fail under 11,500 \u00b11,000 lbs tension and no loose debris is created following the failure. d. Probe Receiver. The probe system is designed to fail prior to failure of probe attachment and surrounding air vehicle structure (e.g., weak, fuse, or frangible component). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the standard by the following: a. Boom Tanker. Examination of system and design specifications verifies the boom tanker system incorporates an IDS that is available at all times for an unlimited amount of uses. b. Drogue Tanker. N/A c. Receptacle Receiver. Examination of system and design specifications verifies receptacle latches fail under 11,500 \u00b1 1,000 lbs tension and no FOD is generated during failure. d. Probe Receiver. Examination of system and design specifications verify probe system incorporates a weak link or structure that fails at loads less than the ultimate load. Analysis.\n  (1) Verify the standard by the following: a. Boom Tanker. Reliability analysis verifies the IDS will be available throughout the life of the boom system. b. Drogue Tanker. N/A c. Receptacle Receiver. Analysis of design verifies latches will fail under the required load. d. Probe Receiver. Analysis shows probe system incorporates a weak link or structure that fails at loads less than the ultimate load. Test.\n    (1) Lab test: Verify the standard by the following: a. Boom Tanker. Laboratory testing verifies IDS actuates when commanded, with tension load, and clears receptacle toggles. b. Drogue Tanker. N/A c. Receptacle Receiver. Laboratory testing verifies latches fail under static load of 11,500 \u00b11,000 lbs. d. Probe Receiver. Laboratory testing verifies weak link or probe structure fails prior to ultimate load. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Verify the standard by the following: a. Boom Tanker. Flight test verifies IDS actuates when commanded, under load, and clears receptacle toggles allowing boom retraction. Test points include corners of the boom envelope and normal and override signal amplifier modes. b. Drogue Tanker. N/A c. Receptacle Receiver. Flight test results show no incidents of latch complete failure at loads less than the specified value. d. Probe Receiver. Flight test results show no incidents of probe supporting structure damage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

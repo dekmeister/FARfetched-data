@@ -1,0 +1,62 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.2.2.2",
+  "number": "16.2.4",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Maintenance inspections and intervals",
+  "subject_group": "16.2 Inspection requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "16.2.2.2",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that all required inspection intervals are identified using relevant operational data.",
+      "text": "Verify that all required inspection intervals are identified using relevant operational data.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that all required inspection intervals are identified using relevant operational data.",
+      "text": "Verify that all required inspection intervals are identified using relevant operational data. DoD/MIL Doc: JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5; MIL-PRF-5096: para 3.2.1.1.1 gives guidance regarding frequency of maintenance items. FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that all required inspection intervals are identified using relevant operational data.",
+      "text": "Verify that all required inspection intervals are identified using relevant operational data. DoD/MIL Doc: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-PRF-5096: 3.2.1.1.1 gives guidance regarding frequency of maintenance items FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Inspections and intervals",
+      "text": "Criterion: Verify that all required inspection intervals are identified using relevant operational data. Standard: All features of the air vehicle system requiring periodic inspection (to include NDI) are identified in maintenance documentation. Inspection intervals are based on operational data whenever possible. Prior to fielding, inspection intervals are based on available analyses and test data. Method of Compliance: All required inspections and corresponding intervals are verified by the review of maintenance documentation. Inspection intervals are traceable to appropriate source data such as the FMECA, reliability and maintainability predictions, and reliability/fatigue testing results. References: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-PRF-5096: 3.2.1.1.1 gives guidance regarding frequency of maintenance items. 14 CFR 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Maintenance inspections and intervals",
+      "text": "Standard: Maintenance publications identify air vehicle and ground control station items requiring periodic inspections and the corresponding inspection intervals. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination. (1) Examine the maintenance publications to ensure maintenance inspections and intervals are derived from the FMECA and RCM analysis. (2) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis. (1) Conduct RCM analysis that meets SAE JA1011 to identify maintenance inspections and intervals. A4A MSG-3 Volume 1 and Volume 2 (previously ATA MSG-3) meet the intent of this MoC. (2) Conduct a FMECA to identify failure modes that require inspections to detect the failure. Demonstration. (1) Perform air vehicle maintainability demonstrations to confirm the inspection tasks are complete, accurate, and can be performed as written without introducing AW hazards. Prior to entering flight test, maintenance publications will receive updates to address maintenance issues discovered during maintainability demonstrations. Prior to entering operational test or operations, verify the standard by the following method(s): Analysis. (3) Perform a desktop-analysis of inspection intervals using the government verification team to ensure intervals from the RCM analysis are in the maintenance publications. Demonstration. (2) Perform all air vehicle inspection procedures on production-configured hardware using government maintenance personnel to ensure inspection procedures do not introduce AW hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

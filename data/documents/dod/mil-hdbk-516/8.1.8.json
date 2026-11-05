@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.8",
+  "number": "8.1.3.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Power sources and sizing",
+  "subject_group": "8.1.3 Power levels and transition",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.1.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle hydraulic and pneumatic systems' size/power meets demand.",
+      "text": "Verify that the air vehicle hydraulic and pneumatic systems' size/power meets demand.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.1.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle hydraulic and pneumatic systems' size/power meets demand.",
+      "text": "Verify that the air vehicle hydraulic and pneumatic systems' size/power meets demand. DoD/MIL Doc: JSSG-2009 Appendix B: B.3.4.2/B.4.4.2 Hydraulic Power Subsystem; B.3.4.2.1.2/B.4.4.2.1.2 System Fluid Capacity; and Appendix M: M.3.4.13/M.4.4.13 Pneumatic Subsystems. FAA Doc: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.1.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Power levels",
+      "text": "Criterion: Verify that the air vehicle hydraulic and pneumatic systems' size/power meets demand. Standard: The hydraulic and pneumatic power subsystem(s) is sized and configured to supply hydraulic and pneumatic power, as required at sufficient flow rates and pressure to the using systems and utility functions in all modes of ground and flight operation (including backup and emergency). The total fluid volume, including reserves, is sized to provide for system fluid exchanges, compressibility, thermal effects and leakage. Method of Compliance: Verification methods include test, analysis, demonstration, simulation, inspection and review of documentation. Analysis of steady state and dynamic performance, component qualification tests, full-scale mockup/simulator testing and ground/flight tests verify hydraulic and pneumatic systems power requirements. A hydraulic and pneumatic simulation (e.g., iron bird, computer model), capable of performing all normal, back-up and emergency functions, demonstrates adequate system fluid capacity. Acceptable fluid loss levels from the system overboard relief valves are verified by the simulator (i.e., iron bird). All combinations of internal and external environmental conditions within the performance envelope of the air vehicle (e.g., start up, take off, flight, weapons delivery, return to base, landing) are used for the test verifications. References: JSSG-2009: B.3.4.2, B.4.4.2 Hydraulic Power Subsystem; B.3.4.2.1.2, B.4.4.2.1.2 System Fluid Capacity; M.3.4.13, M.4.4.13 Pneumatic Subsystems MIL-STD-5522 ADS-50-PRF SAE AS5440",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Power sources and sizing",
+      "text": "Standard: The hydraulic and pneumatic system power sources and lines are sized to supply hydraulic and pneumatic power (flow rates and pressures) during normal, backup, and emergency operating modes to meet the demands of the air vehicle across its design envelope (ground and flight environmental conditions). The total hydraulic fluid volume, including reserves, is sized to provide for system fluid exchanges, simultaneous hydraulic system actuation, compressibility, thermal effects, and leakage. Reservoirs are designed and sized IAW SAE AS5586A, Reservoir Capacity paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system design documentation (e.g., system specifications, ICDs, and drawings) to verify hydraulic and pneumatic system design requirements (e.g., operating pressure, fluid type, system capacity, allowable leakage rates, and startup time) are defined.\n(2) Inspect system description documentation to verify which hydraulically and pneumatically powered subsystems are powered during normal (e.g., flight controls, weapon delivery), backup (e.g., landing gear extension), and emergency (e.g., landing gear extension blow down and flight controls) operating modes. Analysis.\n  (1) Conduct steady state and dynamic performance analysis to determine that system flow and pressure demands are met throughout all normal and backup modes of operation during critical phases of flight, under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear and weapons systems) operating simultaneously including a cold soaked system.\n  (2) Conduct steady state and dynamic performance analysis to verify that emergency hydraulic and pneumatic power systems (e.g., pumps, blow down bottles, accumulators) meet system flow and pressure demands of flight-critical systems to maintain stable flight and landing capability for the time it takes to land the air vehicle under all environmental and worst-case operating conditions (e.g., carrier landing which is a high system demand) as defined by the air vehicle requirements.\n  (3) Conduct analysis to verify fluid reservoirs are sized to contain the fluid volume required to meet the hydraulic systems\u2019 demands, including leakage rates, during all operating modes, and under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously including a cold soaked system. Test.\n    (1) Lab test: Conduct HITL (e.g., iron bird) testing to verify that power demands are met for air vehicle SCFs (e.g., flight controls movement, landing gear bay doors and extension) during steady state and dynamic (transient) operations, under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously. Simultaneous operation of multiple subsystems verifies there are no resulting failure modes, anomalies or issues that impact stability of flight controls or safety-critical utility systems.\n    (2) Lab test: Conduct HITL (e.g., iron bird) testing to verify that emergency hydraulic and pneumatic systems meet power demands for flight-critical systems to maintain stable flight and landing capability for the time it takes to land the air vehicle under worst-case operating conditions as defined by the air vehicle requirements. Exercising the system verifies there are no known failure modes, anomalies, or issues that would cause degradation or failure of SCFs of the air vehicle.\n    (3) Lab test: Conduct HITL (e.g., iron bird) testing to verify that fluid reservoirs are sized to contain the fluid volume required to meet the system(s) demands during all operating modes, under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously.\n    (4) Ground test: Conduct on air vehicle testing to verify that hydraulic and pneumatic normal and backup systems meet power demands of the air vehicle under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously including a cold soaked system.\n    (5) Ground test: Conduct on air vehicle testing to verify that emergency hydraulic and pneumatic systems meet power demands for flight-critical systems for the time it takes to land the air vehicle when operating under worst-case conditions as defined by the air vehicle requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (6) Flight test: Conduct flight testing to verify that normal and backup hydraulic and pneumatic systems meet the power demands of the air vehicle throughout the design envelope of the air vehicle under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously including a cold soaked system.\n    (7) Flight test: Conduct flight testing to verify that emergency hydraulic and pneumatic systems meet the power demands for flight-critical systems for the time it takes to land the air vehicle when operating under worst-case conditions as defined by the air vehicle requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.5.3-516c",
+  "number": "6.2.11.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Transients",
+  "subject_group": "6.2.11 Vehicle control function control law safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.5.3",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Transients",
+      "text": "Criterion: For both normal and failed conditions, verify that control law transients for normal gain and mode changes are safe. Standard: In general for manned aircrafts, transients limits for mode transitions is 0.05 g normal or lateral acceleration and between 1 to 5 degrees per second roll rate (with a recommendation of 3 degrees per second) at the pilot station and 5 degrees of sideslip for a period of 2 seconds. The cockpit control for pitch, roll, and yaw should not exceed 20, 10, and 10 lbs respectively. For unmanned aircrafts, transients are contained to preclude loss of control, damage to equipment, excitement of structural modes, or interruption of mission task. Separation, isolation, and redundancy of the control laws is provided between VCF and integrated systems to make the probability of propagation of common mode failure extremely remote (1x10^-9) or as specified by the procuring activity. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. For nominal and worst case flight conditions, analyses and tests for control law transient margins are verified by offline simulation, Handling Qualities Simulator (HQSim), SIL, FMET, hardware/software in the loop, ground, and flight tests. References: JSSG-2008: 3.1, 3.1.2, 3.1.2.1, 3.1.3, 3.1.5, 3.1.5.1, 3.1.5.2, 3.1.5.4, 3.1.5.5, 3.1.5.7, 3.1.5.8, 3.1.7, 3.1.7.2, 3.1.7.3, 3.1.9, 3.1.10, 3.1.11, 3.1.11.2, 3.1.11.4, 3.1.11.5, 3.1.11.6, 3.1.11.9, 3.1.11.10, 3.1.11.11.2, 3.1.11.11.3, 3.1.12, 3.1.12.1, 3.1.13.1, 3.1.13.2, 3.1.14.2.2, 3.1.14.2.4, 3.2.2.1, 3.2.2.2, 3.2.2.5, 3.3 through 3.3.4, 3.3.6, 3.3.6.2, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Transients",
+      "text": "Standard: For manned air vehicles: Air vehicle response due to gain transition does not exceed 0.05g normal or lateral acceleration (at the air vehicle CG), 3 degrees per second roll rate, 5 degrees of sideslip and does not last more than 2 seconds. The flight crew control forces do not exceed 10 lbs in pitch, 5-lb roll, and 5 lbs in yaw from trim. For UAVs: Air vehicle response due to gain transitions are contained to preclude loss of control, damage to equipment, excitement of structural modes, and interruption to SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to define gain transitions. Analysis.\n  (1) Conduct simulation analysis to verify air vehicle response due to gain transitions are within the standard.\n  (2) Conduct simulation analysis to verify gain transitions create flight crew control forces within the standard. Test.\n    (1) Lab test: Conduct PITL simulation to verify air vehicle response due to gain transitions and flight crew control forces are within the standard. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test to verify response to transient meets the standard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

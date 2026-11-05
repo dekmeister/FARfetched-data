@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.5.6",
+  "number": "9.5.5.6",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Multi-place and inter-seat sequencing systems",
+  "subject_group": "9.5.5 Escape path clearance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Multi-place and inter-seat sequencing systems",
+      "text": "Standard: For systems that allow for one or a portion of the crewmembers to use the escape system independently, the ability for remaining crewmembers to subsequently use the escape system is not precluded. Inter-seat systems operate IAW the selected modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine the air vehicle configuration and verify that the systems allow remaining crewmembers to use the escape system to leave the air vehicle. Test.\n  (1) Lab test: Inter-seat sequencing system breadboard testing shows that system meets the defined modes, logic timing, and signal energy requirements.\n  (2) Lab test: For functions controlled by software, software testing shows that the system meets its defined logic and timing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

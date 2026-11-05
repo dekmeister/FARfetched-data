@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9.9",
+  "number": "6.1.9.9",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Aborted recoveries and landings",
+  "subject_group": "6.1.9 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Aborted recoveries and landings",
+      "text": "Standard: The air vehicle is no worse than Level 2 handling qualities, or DIPES 3 for rotary-wing air vehicles, during shipboard aborted recoveries and landings. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of aborted recoveries/landings, while maintaining minimum air vehicle to ship clearances, to determine the control power, roll, heading and flight path control power and bandwidth, power and engine response, margin to control and flight envelope limits, and minimum and maximum approach speeds needed to complete the mission task, including 6-DOF simulations for automatic control modes, for each combination of air vehicle states, control modes, environmental conditions, and ship conditions: ship class, recovery/landings method(s) and locations, aborted recovery/landings flight paths and patterns, WOD magnitude and direction, steady and turbulence airwake and ship motion effects, and ship speed and turn rate. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation of land-based and shipboard aborted recovery/landing for each combination of air vehicle states, control modes, including reversionary modes, environmental conditions, and ship conditions: ship class, recovery/landings method(s) and locations, aborted recovery/landings flight paths and patterns, WOD magnitude and direction, steady and turbulence airwake and ship motion effects, and ship speed and turn rate. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct shore-based shipboard approach-style aborted recoveries/landings for nominal and critical combinations of air vehicle states, control modes, including reversionary modes, environmental conditions, and ship conditions: ship class, recovery/landings method(s) and locations, aborted recovery/landings flight paths and patterns, headwind and crosswind conditions from minimum to maximum shore-based WOD equivalent.\n  (3) Flight test: Conduct shipboard aborted recoveries/landings for nominal and critical combinations of air vehicle states, control modes, including reversionary modes, environmental conditions, and ship conditions: ship class, recovery/landings method(s) and locations, aborted recovery/landings flight paths and patterns, multiple levels of ship motion, WOD magnitudes and directions from minimum to maximum WOD.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

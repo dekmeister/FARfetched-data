@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.15.5",
+  "number": "6.2.15.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Loss of command and control and critical failures",
+  "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Loss of command and control and critical failures",
+      "text": "Standard: The air vehicle VCF provides robust contingency logic for lost communications, loss of command, and failures within the VCF and integrated subsystems. In case of total loss of communication or loss of command with the control station, the air vehicle is capable of autonomous guidance, navigation, and control for a safe landing. Total loss of communication or loss of command does not result in instability, LCO, exceeding transient limits, or VCF degradation below Operational State III. Contingency state is downlinked from the UAV and displayed to the flight crew. Changes in contingency state are clearly annunciated. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review contingency logic software requirements to verify lost communication, loss of command, and failures within the VCF and integrated subsystems are complete.\n(2) Ensure software requirements define contingency hierarchy, such that the most critical contingency takes precedent over other contingencies, and account for all operating modes (e.g., takeoff, landing, flight path overrides, autonomous navigation, waveoff). Analysis.\n  (1) Verify FMECA and SSHA identify failures and consequences for the integrated system.\n  (2) Analysis verifies contingency logic is implemented properly to handle loss of command, total loss of communication, and critical failures in all operating modes. Demonstration.\n    (1) For every contingency type, conduct lab test to verify the contingency logic is initiated, the UAV takes appropriate action, follows appropriate route, and either lands safely or terminates as designed. Test.\n      (1) Lab test: Conduct UAS SIL and FMET to simulate in-flight-critical failures, loss of command, and total loss of communication. Ensure contingency logic is properly initiated and does not result in instability, LCO, exceeding transient limits, or VCF degradation below Operational State III and that contingency state is properly displayed and annunciated.\n      (2) Lab test: Conduct UAS SIL and FMET to demonstrate contingency hierarchy implementation performs as designed and is robust for all operating modes (e.g., takeoff, landing, flight path overrides, autonomous navigation, waveoff). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n      (3) Flight test: Simulate a total loss of C2 communication with the UAV to verify that contingency logic is initiated and the UAV follows the loss of communication contingency route and lands safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

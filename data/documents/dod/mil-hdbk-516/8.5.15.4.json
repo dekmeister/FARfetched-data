@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.15.4",
+  "number": "8.5.15.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Flight crew interface",
+  "subject_group": "8.5.15 Landing gear and deceleration systems overarching standards",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Flight crew interface",
+      "text": "Standard: Warnings, cautions, and advisories are provided to the flight crew as a means to assess the landing gear and deceleration systems operational condition and the state of functionality. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system design documents to verify provisions for the necessary monitoring of the landing gear and deceleration systems operation and health are provided.\n(2) Conduct review of flight manuals to verify WCAs provide system status information, health, and actions required to flight crew. Test.\n  (1) Lab test: Conduct lab integration testing, including FMET, to verify compatibility of landing and deceleration systems with the controls and health monitoring systems.\n  (2) Ground test: Conduct ground tests of the installed systems to verify flight crew receives WCAs based of fault tolerances.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

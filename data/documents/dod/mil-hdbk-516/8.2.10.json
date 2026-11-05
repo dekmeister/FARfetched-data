@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.10",
+  "number": "8.2.8.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Environmental protection systems",
+  "subject_group": "8.2.8 Environmental protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.10",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that windshield rain/snow/ice removal provisions provide for safe operation.",
+      "text": "Verify that windshield rain/snow/ice removal provisions provide for safe operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.10",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, anti-ice and defog) provide for safe operation of the air vehicle in the specified environment.",
+      "text": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, anti-ice and defog) provide for safe operation of the air vehicle in the specified environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.2.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, ice protection and defog) provide for safe operation of the air vehicle in the specified environment.",
+      "text": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, ice protection and defog) provide for safe operation of the air vehicle in the specified environment. DoD/MIL Doc: JSSG-2009: para D.3.4.4.8/D.4.4.4.8 Transparent area fog and frost protection; D.3.4.4.9/D.4.4.4.9 Rain removal; D.3.4.4.10/D.4.4.4.10 Transparency cleaning; D.3.4.4.11/D.4.4.4.11 Ice protection FAA Doc: 14CFR references: 23.1419, 25.1419, 23 Miscellaneous (Safe Operations Certification)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.2.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, ice protection and defog) provide for safe operation of the air vehicle in the specified environment.",
+      "text": "Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, ice protection and defog) provide for safe operation of the air vehicle in the specified environment. DoD/MIL Doc: JSSG-2009: D.3.4.4.8/D.4.4.4.8 Transparent area fog and frost protection; D.3.4.4.9/D.4.4.4.9 Rain removal; D.3.4.4.10/D.4.4.4.10 Transparency cleaning; D.3.4.4.11/D.4.4.4.11 Ice protection FAA Doc: 14CFR references: 23.1419, 25.1419, 23 Miscellaneous (Safe Operations Certification)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.2.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Environmental protection",
+      "text": "Criterion: Verify that subsystems used for environmental protection (e.g., windshield rain/snow/ice removal, ice protection and defog) provide for safe operation of the air vehicle system throughout the specified design envelope. Standard: No single environmental protection subsystem failure (including control station functions that are critical to air vehicle system flight safety) results in flying qualities less than level three or loss of aircraft. Method of Compliance: The standard is verified by the following activities: a. Analysis and/or simulation determine the severity of the environment that drives protection needs for the air vehicle system. b. Capability analysis and test verify the adequacy of environmental protection system mechanisms required for air vehicle system safety of flight profile. c. FMECA and hazard analysis including the control station verifies that any failure of the environmental protection subsystem does not affect safety of flight operations. References: JSSG-2009 D.3.4.4.8, D.4.4.4.8 Transparent area fog and frost protection; D.3.4.4.9, D.4.4.4.9 Rain removal; D.3.4.4.10, D.4.4.4.10 Transparency cleaning; D.3.4.4.11, D.4.4.4.11 Ice protection 14 CFR References 23.1419, 25.1419 and 23 Miscellaneous (Safe Operations Certification)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Environmental protection systems",
+      "text": "Standard: The ECS provides environmental protection as required for SOF throughout the air vehicle flight envelope. Subsystems provide for removal of rain, snow, ice, and fog from transparencies, and protection of critical flight surfaces and engine inlets from ice accretion. Ice shed from air vehicle surfaces and propulsion components (propellers and spinners) does not present a hazard from ingestion into engines or impact on the airframe. No single environmental protection subsystem failure including control station SCFs results in loss of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to define the environmental conditions that drive protection requirements across the air vehicle flight envelope.\n(2) Conduct analysis to verify the capability of the environmental protection subsystems to maintain SOF under all environmental conditions throughout the air vehicle flight envelope.\n(3) Conduct FMECA and SHA for the air system to verify that no single point failure of the environmental protection subsystems results in loss of the air vehicle. Test.\n  (1) Lab test: Conduct lab testing of critical flight surfaces and engine inlets in an icing tunnel under simulated flight conditions to verify the results of analyses used to establish environmental protection requirements.\n  (2) Ground test: Conduct ground testing in a climatic chamber under simulated flight conditions to verify that environmental protection subsystems meet the required performance. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (3) Flight test: Conduct flight testing to verify that environmental protection subsystems function as intended and meet the required performance to maintain SOF under all environmental conditions throughout the air vehicle flight envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

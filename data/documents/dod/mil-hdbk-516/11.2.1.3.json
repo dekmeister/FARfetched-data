@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.2.1.3",
+  "number": "11.2.1.3",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Warnings, cautions, and advisories",
+  "subject_group": "11.2.1 Critical information",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Warnings, cautions, and advisories",
+      "text": "Criterion: Verify that cautions and warnings are legible in all mission environments and are provided in an organized, prioritized system, and that the presentation of high-priority information is not masked by older or lower priority warnings and cautions. Standard: Cockpit and control station Warnings, Cautions and Advisories (WCAs) meet the luminance and contrast requirements of MIL-STD-411. Where the operator is in a controlled ambient indoor lighting environment, WCAs are presented on a display capable of 200 cd/m\u00b2 peak luminance. WCAs are presented and prioritized in accordance with MIL-STD-411. No probable failure of the WCA system results in a \"safe\" indication while an unsafe condition requiring pilot or operator action exists. Method of Compliance: Luminance and contrast throughout the mission lighting environment is verified by test of each WCA display device. Legibility and balance of the entire installed system is verified by a lighting demonstration of the complete cockpit or control station. Performance of each warning and caution function and performance of prioritization schemes in the presence of worst-case multiple system failures is verified by FMECA and by testing. References: JSSG-2005: 3.2.1.8.5, 4.2.1.8.5 MIL-STD-411 MIL-HDBK-516: 9 MIL-HDBK-87213 14 CFR 23.1311, 23.1322, 25.1322. FAA AC-27-1 and FAA AC-29-2 provide guidance on helicopter equipment, primarily in subpart \u201cF\u201d",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Warnings, cautions, and advisories",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

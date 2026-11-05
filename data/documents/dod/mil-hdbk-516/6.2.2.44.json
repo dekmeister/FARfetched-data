@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.44",
+  "number": "6.2.2.44",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Verify that the actuator design meets safety requirements for a.",
+  "subject_group": "6.2.2 Basic VCF",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the actuator design meets safety requirements for a.",
+      "text": "Verify the actuator design meets safety requirements for a. Actuator redundancy techniques b. Failure isolation design capability and limitations c. Hydraulic contamination effects d. Bottoming and snubbing",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the actuator design meets safety requirements for a.",
+      "text": "Verify that the actuator design meets safety requirements for a. Actuator redundancy techniques b. Failure isolation design capability and limitations c. Hydraulic contamination effects d. Bottoming and snubbing",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the actuator design meets safety requirements for a.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

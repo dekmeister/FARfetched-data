@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.9.5",
+  "number": "6.2.15.6",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Remotely piloted operation",
+  "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.9.5",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Sensor operability",
+      "text": "Criterion: For UAS equipped with remote control capability, verify that sensors used to provide feedback to a remote operator are fully operational under natural and induced environmental conditions. Standard: Environmental effects do not degrade operator cognitive capabilities to recognize visually all flight safety and mission critical related problems. Provisions are incorporated to protect on-board devices (e.g., sensors, cameras) against FOD, obscuration of the sensor transparency, and laser threats. No single point failure within the remote control function of the UAS causes loss of information that the operator needs for safe operation. In case of total loss of the remote control capability, the UAS has contingency to switch to autonomous mode for safe control and landing. Method of Compliance: Verification methods include inspection, demonstration, SIL, FMET, and ground test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Remotely piloted operation",
+      "text": "Standard: For remotely piloted UAVs, sensors that provide feedback to the remote flight crew are fully operational under all natural and induced environmental conditions. The environmental effects on visual cues do not degrade flight crew capability to recognize hazards to SOF. Provisions are incorporated to protect onboard devices (e.g., sensors, cameras) against FOD, obscuration of the sensor transparency, and laser threats. Latencies between flight crew inputs and visual response do not induce instability or PIO and are sufficient to accomplish flight-critical tasks (e.g., takeoff, landing, aerial refueling). No single point failure within the remote-control function of the UAS causes loss of SOF information. In case of total loss of the remote-control capability, the UAV has contingency logic to switch to autonomous mode for control and landing. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review UAS system design, drawings, and architecture to identify single point failures in the control station, communications path, and air vehicle that impact the remote control function.\n(2) Review UAS system design and drawings to verify provisions are incorporated to protect onboard devices (e.g., sensors, cameras). Analysis.\n  (1) Verify FMECA and SHA are completed to identify failures, failure rates, and consequences of the remote-control function.\n  (2) Conduct PITL simulation analysis to determine latency requirements and verify worst-case latencies do not adversely impact C2 of the UAV. Test.\n    (1) Lab test: Conduct UAS component hardware functional and environmental qualification testing.\n    (2) Lab test: Conduct UAS SIL tests to verify UAS performance under required natural and induced environmental conditions. Tests are conducted with all applicable data links and include V&V of the latency requirements.\n    (3) Lab test: Conduct FMET and UAS SIL testing to verify fault identification and contingency logic.\n    (4) Ground test: Conduct ground test, with the UAV in motion (e.g., low speed taxi), to verify system functionality and that system latencies are within requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Flight testing in operationally representative environments demonstrates UAS remote control functionality and performance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

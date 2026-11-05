@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.3.2",
+  "number": "13.2.3.2",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "canonical_title": "Indirect effects",
+  "subject_group": "13.2.3 Lightning",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "title_at_revision": "Indirect effects",
+      "text": "Standard: The air vehicle withstands the indirect effects of lightning. The indirect effect coupling levels are determined by an air vehicle level analysis when the air vehicle is exposed to the external lightning environment defined in MIL-STD-464, Lightning paragraph or in SAE ARP5412, Idealized Standard External Lightning Environment section. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) As an alternative to Test MoC (1), determine air vehicle system-level lightning induced transient levels through air system level computational model and analysis utilizing validated models and methods with supporting documentation following guidance from SAE ARP5415, Verification by Analysis section. (2) Margin analysis to verify that the air vehicle components meet the established system-level lightning induced transient levels via equipment qualification testing MIL-STD-461 CS117 or RTCA DO-160, Lightning Induced Transient Susceptibility section. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (1) Ground test: As an alternative to Analysis MoC (1), determine system-level lightning induced transient levels through air vehicle tests using high level pulse or low-level CW techniques.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

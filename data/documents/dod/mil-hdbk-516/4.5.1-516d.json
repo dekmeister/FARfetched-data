@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.5.1-516d",
+  "number": "4.5.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Critical safety item and critical characteristic identification",
+  "subject_group": "4.5 Critical safety items and critical characteristics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Critical safety item and critical characteristic identification",
+      "text": "Standard: Air system, to include propulsion systems, CSIs are identified and documented to enable management of CSIs for continued AW. Associated product CCs (e.g., tolerance, surface finish, materials, and dimensions) and process CCs (e.g., manufacturing, assembly, and inspection processes) are defined in the technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the CSI list (e.g., CSI Management Plan) verifies documentation of CSIs.\n(2) Engineering technical data, including models and drawings, identifies the CSIs and their product CCs (e.g., tolerance, surface finish, materials, and dimensions) and process CCs (e.g., manufacturing, assembly, or inspection processes). Analysis.\n  (1) Assessment of current safety hazard, failure mode, functional thread and testing documentation (e.g., FMECA, SHA, SSHA, SCFTA, FMET, FTA, CSI determination decision documentation, to include any design-based factors or mitigations considered during the identification process) ensures identification of all CSIs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(3) The final product baseline and technical data, including models and drawings, identifies the CSIs and their product and process CCs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

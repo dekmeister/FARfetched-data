@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.10.1.5",
+  "number": "7.4.17",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Externals strength",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.10.1.5",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that all pressurized tubes/manifolds have design margin for their maximum operating conditions.",
+      "text": "Verify that all pressurized tubes/manifolds have design margin for their maximum operating conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.2.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all pressure vessels, tubes and manifolds have design margin for their maximum operating conditions.",
+      "text": "Verify that all pressure vessels, tubes and manifolds have design margin for their maximum operating conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: para A.3.4.1.6 to A.4.4.1.6, A.3.7.3.2, A.4.7.3.2 and A.3.7.8, A.4.7.8, pressure vessel proof and burst testing. JSSG-2007A: para A.3.1.8.1, A.4.1.8.1, Flammable Fluid Systems, fire resistance and fire proof testing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.2.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all pressure vessels, tubes and manifolds have design margin for their maximum operating conditions.",
+      "text": "Verify that all pressure vessels, tubes and manifolds have design margin for their maximum operating conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: A.3.7.3.2, A.4.7.3.2 and A.3.7.8, A.4.7.8, pressure vessel proof and burst testing. JSSG-2007A: A.3.1.8.1, A.4.1.8.1, Flammable Fluid Systems, fire resistance and fire proof testing. MIL-HDBK-1783B: A.4.10/A.5.10",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.2.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Externals maximum operating conditions",
+      "text": "Criterion: Verify that all pressure vessels, tubes and manifolds have design margin for their maximum operating conditions. Standard: Pressure vessels and lines withstand one and a half times (1.5X) (proof) normal operating pressures (without performance degradation or leakage) and two times (2X) (burst) maximum operating pressures (without permanent deformation or leakage). All pressure vessels and fluid carrying tubes/manifolds withstand the maximum amount of pressure cycles encountered during normal engine operation. All fuel components and lines are fire resistant and all oil carrying components and lines are fireproof. Safety critical electrical connectors contain redundant, visually verifiable, locking features. Tubing and lines meet damage tolerance (e.g., leak before burst) criteria. Method of Compliance: Verification methods include analysis, test, inspection, demonstration and review of documentation. Analysis and bench top (1.5X) proof and (2X) burst pressure component testing ensures adequate safety margin across the entire flight envelope. Analysis and bench top pressure cycle testing ensures the components and lines do not leak or rupture during operation. Fire resistance is demonstrated by testing with a 2000 \u00b0F flame for five (5) minutes with no flame propagation. Fireproof is demonstrated by testing with a 2000 \u00b0F flame for 15 minutes with no flame propagation. Inspection and analysis of engine externals drawings and hardware, mock-ups and an engine installation demonstration verify the existence of redundant locking features for critical connections. Analysis of design review information ensures a damage tolerance capability (e.g., leak before burst). References: JSSG-2007: A.3.1.4, A.4.1.4 Fasteners; A.3.1.8.1, A.4.1.8.1, Flammable fluid systems; A.3.4.1.6, A.4.4.1.6 Strength; A.3.7.3.2, A.4.7.3.2 Fuel system performance; A.3.7.8, A.4.7.8 Lubrication system SAE AS1055",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Externals strength",
+      "text": "Standard: Externals fluid carrying components (e.g., pressure vessels, tubes, fittings, and manifolds) have design margin for their maximum operating conditions and required duty cycles encountered during normal engine operation. Tubing and lines meet damage tolerance capability (e.g., leak before burst). Pressure vessels and lines withstand 1.5X normal operating pressures (proof test), without performance degradation or leakage and 2X maximum operating pressures (burst test), without permanent deformation or leakage. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, or other substantiating records and reports) and verify that externals fluid carrying components meet the engine design. Analysis.\n  (1) Analysis is accomplished to ensure damage tolerance capability (e.g., leak before burst). Test.\n    (1) Lab test: Bench top proof and burst testing ensures the components meet damage tolerance capability.\n    (2) Lab test: Bench top pressure cycle testing ensures the components and lines do not leak or rupture.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

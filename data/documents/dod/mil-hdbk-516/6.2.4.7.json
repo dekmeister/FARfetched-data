@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.4.7",
+  "number": "6.2.4.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Verify that vehicle control's and payload system's latency and synchronization responses are safe.",
+  "subject_group": "6.2.4 Flight worthiness evaluations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify vehicle control's and payload system's latency and synchronization responses are safe.",
+      "text": "Verify vehicle control's and payload system's latency and synchronization responses are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that vehicle control's and payload system's latency and synchronization responses are safe.",
+      "text": "Verify that vehicle control's and payload system's latency and synchronization responses are safe. DoD/MIL Doc: TBD: Refer to technical point of contact for this discipline (listed in section A.2). FAA Doc: TBD: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that vehicle control's and payload system's latency and synchronization responses are safe.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

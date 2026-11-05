@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.2-516c",
+  "number": "15.1.2",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "System processing architecture requirements",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "SPA requirements",
+      "text": "Criterion: Verify that the System Processing Architecture (SPA) safety requirements are fully defined and documented. Standard: Safety and performance requirements are allocated to the architecture. The SPA is defined. An analysis of the SPA is performed to address attributes such as functional requirements, processing demands, timing criticalities, data flow, interfacing elements, and fault tolerance. Federated and integrated elements of the SPA are identified. Method of Compliance: Verification methods include analysis and inspection. Verify that the analysis of the SPA is complete and is documented. Analysis determines if the SPA supports program safety and performance requirements. Ensure all technical and safety SPA risks are appropriately mitigated/captured. References: JSSG-2008 Appendix A: 3.1.7 - 3.1.12 System Architecture, Unique Function Integration, Failure Immunity and Safety, Failure Transients, Integration Management, Redundancy; 3.3.1 Processing Architecture MIL-STD-882: Task 203 of MIL-STD-882 E (see also MIL-STD-882D: A.4.3.1; A.4.3.2 Safety Performance Requirements; A.4.3.3 Safety Design Requirements) DoD JSSSEH: 4.3.5 addresses defining safety requirements for software systems USAF Weapon Systems Software Management Guidebook: G.2.1; G.2.2; G.2.3 NASA-STD-8719.13B: 4.4.2 software safety requirements designated; 6.2.2.2.f RTCA DO-178: 2.1 of RTCA DO-178C addresses how system design drives safety related requirements that flow to software (see also RTCA DO-178B: 2.1.1) SAE ARP4754A: 4.1.6 FAA AC 20-115C: provides guidance on the use of RTCA DO-178C, RTCA DO- 330, RTCA DO-331, RTCA DO-332, RTCA DO-333 (NOTE: FAA AC 20-115B was the companion guidance issued with RTCA DO-178B) DOT/FAA/AR-07/48: A.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "System processing architecture requirements",
+      "text": "Standard: 1. Verify that the SPA safety requirements are fully defined and documented. Safety and performance requirements are allocated to the architecture. The SPA is defined. An analysis of the SPA is performed to address attributes such as functional requirements, processing demands, timing criticalities, data flow, interfacing elements, and fault tolerance. Federated and integrated elements of the SPA are identified. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and examination. Verify the SPA is defined by examining design documentation. Verify that the analysis of the SPA is complete and is documented. Analysis determines if the SPA supports program safety and performance requirements. Ensure all technical and safety SPA risks are documented and appropriately corrected or mitigated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

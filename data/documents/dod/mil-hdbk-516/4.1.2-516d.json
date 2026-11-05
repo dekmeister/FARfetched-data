@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.1.2-516d",
+  "number": "4.1.2",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "System architecture and interface management",
+  "subject_group": "4.1 Operational usage",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "System architecture and interface management",
+      "text": "Standard: The system architecture hierarchy contains the relationship between the end item product and its components, including identification of interfaces and interactions required for safety-critical functionality. Internal and external interface definition contains the functional and physical characteristics of each interface with traceability to all levels identified in the system architecture hierarchy and aligns with the intended operational usage and allocated design requirements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) The system architecture provides a hierarchical view of the system design with identification of CIs and interfaces and interactions between components of the design. The hierarchy addresses different levels of assembly with consistent terminology throughout design documentation.\n(2) The system architecture identifies SCFs on the hierarchical view. Accompanying documentation to the system architecture captures the flow of each SCF through the physical architecture, including redundancy, and includes comprehensive horizontal and vertical traceability that defines all interfaces and interactions, internal and external, that support safety-critical functionality.\n(3) Definition of interfaces internal to the air system captures any interactions between and within CIs associated with or connected to SCF(s). This includes any interaction required to prevent, mitigate, or provide notification to crewmembers of degradation or failure of SCFs. The documented interfaces trace to the system architecture hierarchy and the allocated design requirements.\n(4) Definition of interfaces between the air system and external systems and equipment addresses connections to SCFs, including support activities necessary to execute these functions for the intended operational usage. This includes interfaces related to servicing, data transfer, stores integration, and AR that support execution of SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n  (1) Conduct analysis on configuration and requirement changes to determine impacts on interface definitions and verify that interface documentation is updated to preserve traceability, safety-critical functionality, and alignment with intended operational usage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

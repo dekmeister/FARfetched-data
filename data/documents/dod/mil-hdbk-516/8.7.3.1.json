@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.3.1",
+  "number": "8.7.3.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Group B removal effect on other-system interfaces",
+  "subject_group": "8.7.3 Removal of aerial refueling hardware",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "When hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle.",
+      "text": "When hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "When aerial refueling hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle.",
+      "text": "When aerial refueling hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "When aerial refueling hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle.",
+      "text": "When aerial refueling hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic, and fuel system) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix F: F.3.4.6.1.5, F.4.4.6.1.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Group B removal effect on other-system interfaces",
+      "text": "Criterion: When Group B aerial refueling hardware is removed, verify that interfaces with other systems (e.g., electrical, hydraulic and fuel) are properly covered, sealed, isolated, etc., to preclude introducing a new leak or ignition source in the air vehicle. Standard: Upon removal of Group B aerial refueling hardware, interfaces with other systems (e.g., electrical, hydraulic and fuel) are properly covered, sealed, isolated, etc., to preclude providing a new leak or ignition source in the air vehicle. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis of technical data verifies that interfaces have proper coverage, sealant and/or isolation. Component tests demonstrate that interfaces will not leak or be a source of ignition. Inspection of the air vehicle verifies that coverage, sealant and/or isolation are provided. Aircraft leak tests completed on fluid system interfaces confirm no source of leakage at interface. References: JSSG-2009: F.3.4.6.1.5, F.4.4.6.1.5; G.3.4.7.3, G.4.4.7.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Group B removal effect on other-system interfaces",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

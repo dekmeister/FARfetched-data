@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.1.8",
+  "number": "7.5.13",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Ice control system",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the propeller ice control system prevents the dangerous accumulation of ice during all operating conditions.",
+      "text": "Verify that the propeller ice control system prevents the dangerous accumulation of ice during all operating conditions. DoD/MIL Doc: JSSG-2009: para L.6.3.1, for guidance on propeller anti-icing systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.3.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the propeller ice control system prevents the dangerous accumulation of ice during all operating conditions.",
+      "text": "Verify that the propeller ice control system prevents the dangerous accumulation of ice during all operating conditions. DoD/MIL Doc: JSSG-2009: L.6.3.1, for guidance on propeller anti-icing systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Ice control system",
+      "text": "Criterion: Verify that the propeller ice control system prevents the dangerous accumulation of ice during all operating conditions. Standard: When required by operational and environmental usage, the propeller incorporates an ice control system for the blades, cuffs, and spinner. Electrical, fluid, gas, compound, or mechanical ice control systems are used when approved by the procuring activity. The ice control system(s) are specified in the model specification. The type of ice control is continuous, cyclic, or a combination of both as specified in the model specification. Unless continuous ice control is provided, operation of the ice control system is accomplished either automatically or manually as specified in the model specification. Continuous operation of the ice control system in flight does not damage the propeller system or compromise any other flight critical air vehicle (sub)system/component. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis, component and rig testing verify that the ice control system provides the necessary level of protection against ice formation throughout the required icing envelope and does not damage the propeller system or compromise any other flight critical air vehicle (sub)system/component. References: JSSG-2009: L.6.3.1 for guidance on propeller anti-icing systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Ice control system",
+      "text": "Standard: Propeller system ice control system (e.g., anti-ice, de-ice) prevents damaging ice buildup or provides non-damaging ice removal, in the defined icing environment IAW 7.5.2, at all speeds and power levels. The ice control system operation and ice removal does not result in damage to the propeller system structure, engine, or other air system subsystems/components. For an automatic ice control system, flight crew can override the control system and manually operate the ice controls system. Ice control system operational temperatures are monitored, and the systems are automatically turned off to prevent damage. Notification is provided to the flight crew in the event of ice control system malfunction. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, or other substantiating records and reports) to verify the ice control system prevents damaging ice buildup or provides non-damaging ice removal. Analysis.\n  (1) Analysis of the operational and environmental conditions defines the propeller system\u2019s critical icing conditions and verifies that the ice control system prevents damaging ice buildup or provides non-damaging ice removal. Demonstration.\n    (1) Bench testing of the control system demonstrates ice detection and activation of the ice control system. Test.\n      (1) Lab test: Bench testing and propeller system ground testing of ice control system components verify the system's ability to prevent or remove ice prior to it damaging the propeller system.\n      (2) Lab test: All ice control system controls are tested to ensure that the flight crew can override the control system and manually operate the ice control system.\n      (3) Lab test: Fault injection testing of the ice control system verifies the ability to properly recognize exceedances and initiate system function shutdown.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

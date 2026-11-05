@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.11.5",
+  "number": "8.5.11.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Drag chutes",
+  "subject_group": "8.5.11 Auxiliary deceleration devices",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the performance of drag chutes meets the specified deceleration requirements without any adverse loading or damage to air vehicle structure.",
+      "text": "Verify that the performance of drag chutes meets the specified deceleration requirements without any adverse loading or damage to air vehicle structure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the performance of drag chutes meets the specified deceleration requirements without any adverse loading or damage to air vehicle structure.",
+      "text": "Verify that the performance of drag chutes meets the specified deceleration requirements without any adverse loading or damage to air vehicle structure. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.8.2/A.4.4.1.8.2 Drag Chutes; and AFGS-87139 3.2.7.2 Drag Chutes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Drag chutes",
+      "text": "Criterion: Verify that the performance of drag chutes meets the specified deceleration requirements without any adverse loading or damage to air vehicle structure. Standard: The design of the chute and its attachments and deployments meets all specified performance requirements and deployment of the drag chute does not cause damage to the air vehicle. The air vehicle speeds for deployment and the drag performance of the chute are defined. The method for releasing the chute is compatible with system operations. Method of Compliance: Verification methods include analyses and tests. Design analysis verifies compliance at all specified operational conditions. Flight testing verifies the installation, functionality and performance capability of the drag chute system. References: JSSG-2009: A.3.4.1.8.2.1, A.4.4.1.8.2.1 Air vehicle drag chute performance AFGS-87139: 3.2.7.2 Drag Chutes",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Drag chutes",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.7.3",
+  "number": "5.7.3",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Verify that the control surfaces and tabs have either sufficient static and dynamic mass balance or the control circuit stiffness is sufficient to prevent flutter or sustained, limited amplitude instabilities.",
+  "subject_group": "5.7 Structural dynamics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the control circuit stiffness is sufficiently large and transonic buzz tendencies have been eliminated.",
+      "text": "Verify that the control circuit stiffness is sufficiently large and transonic buzz tendencies have been eliminated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the control surfaces and tabs have either sufficient static and dynamic mass balance or the control circuit stiffness is sufficient to prevent flutter or sustained, limited amplitude instabilities.",
+      "text": "Verify that the control surfaces and tabs have either sufficient static and dynamic mass balance or the control circuit stiffness is sufficient to prevent flutter or sustained, limited amplitude instabilities. Also verify that transonic buzz tendencies have been eliminated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the control surfaces and tabs have either sufficient static and dynamic mass balance or the control circuit stiffness is sufficient to prevent flutter or sustained, limited amplitude instabilities.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

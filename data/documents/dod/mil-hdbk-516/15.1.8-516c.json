@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.8-516c",
+  "number": "15.1.8",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Computer system integrity level processes",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "CSIL processes",
+      "text": "Criterion: Verify that every CSIL has a corresponding development process defined and applied and that each process is adequate to support the safety requirements of the classification. Standard: CSILs are identified and documented. For each CSIL, ensure the program process and planning documentation or applicable integrity program plans clearly define and document appropriate processes, and that those processes are applied. The defined development and test processes support safety requirements and CSILs. All SSEs, SSSEs, and SSHEs are designed, developed, integrated and tested to appropriate CSILs. Method of Compliance: Verification methods include analysis, and inspection of process documentation. Ensure CSILs are identified and documented. Verify through analysis the adequacy of the CSIL processes. Verify that appropriate CSIL processes are documented and followed. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.1.c); A.3.2.2.2.7 (Requirements Lessons Learned); A.3.3.2; A.3.5.7 JSSG-2008 Appendix B: B.4.1.5; B.4.1.8.5; B.A14.1.3 MIL-STD-882: (see also MIL-STD-882D) DoD JSSSEH: 4.2; 4.2.1.4; 4.2.1.5; 4.3.3; 4.4; C.1.6.2; E.1.2; G.2.2 USAF Weapon Systems Software Management Guidebook: 3.8; G.2.2; G.2.3; G.2.6; G.3.1 RTCA DO-178: For RTCA DO-178C: 2.3; 2.3.2; 2.3.3; 2.3.4 (see also RTCA DO- 178B: 2.1.1; 2.2.2; 2.2.3) RTCA DO-254: 2.1.1; 2.2 IEEE Std 1012-2012: Sec 5 software integrity levels SAE ARP4754: 4.1.2 development assurance levels SAE ARP4761: 3.4 references RTCA DO-178 FAA AC 20-115C FAA AC 20-152",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Computer system integrity level processes",
+      "text": "Standard: 1. Every CSIL has a corresponding development process defined and applied and each process is adequate to support the safety requirements of the classification. Computer system integrity levels are identified and documented. For each CSIL, ensure the program process and planning documentation or applicable integrity program plans clearly define and document appropriate processes, and that those processes are applied. The defined development and test processes support safety requirements and CSILs. All ESSs, SESSs, and HESSs are designed, developed, integrated, and tested to appropriate CSILs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and examination of process documentation. Ensure CSILs are identified and documented. Verify through analysis the adequacy of the CSIL processes. Verify that appropriate CSIL processes are documented and followed.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

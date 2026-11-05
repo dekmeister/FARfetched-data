@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.9.6",
+  "number": "9.6.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Occupant entrapment",
+  "subject_group": "9.6 Emergency egress and bailout",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.9.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that occupants cannot become trapped in lavatories, galleys, and other compartments during emergency evacuation situations, and that emergency lighting is available to aid egress.",
+      "text": "Verify that occupants cannot become trapped in lavatories, galleys, and other compartments during emergency evacuation situations, and that emergency lighting is available to aid egress.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.9.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that occupants cannot become trapped in lavatories, galleys, and other compartments during emergency evacuation situations, and that emergency lighting is available to aid egress.",
+      "text": "Verify that occupants cannot become trapped in lavatories, galleys, and other compartments during emergency evacuation situations, and that emergency lighting is available to aid egress. DoD/MIL Doc: MIL-PRF-85676",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.8.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupant entrapment",
+      "text": "Criterion: Verify that occupants cannot become trapped in lavatories, galleys, and other compartments during emergency evacuation situations, and that emergency lighting is available to aid egress. Standard: All lavatory doors are designed to preclude anyone from becoming trapped inside the lavatory. If a locking mechanism is installed, it is capable of being unlocked from the outside without the aid of special tools. Each enclosed cabin with passenger accommodations has at least one adequate and easily accessible external door. Enclosed spaces, such as lavatories and compartments, have emergency lighting to permit the occupants to perform flight safety critical functions and escape during a loss of electrical power to the normal space lighting. The lavatory and all enclosed spaces have ceiling-mounted emergency lighting that produces illumination on the floor and the door handle. The lighting automatically operates upon loss of power. For control stations located inside of permanent buildings, lavatories and emergency lighting are in accordance with local building codes. Method of Compliance: Verification is by inspection of drawings and emergency egress demonstrations. Lighting system tests and analysis verify functionality for all approved operating configurations and conditions. For control stations located inside of permanent buildings, compliance is shown by a certificate of occupancy from the local building inspector.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupant entrapment",
+      "text": "Standard: Internal air vehicle doors are designed to prevent any person from being trapped inside any internal occupiable compartments (e.g., lavatories, gallies, or crew rest compartments). Doors can be actuated by the intended anthropometric range. Locking and latching mechanisms can be unlocked and actuated from both the inside and outside of the compartment without the use of special tools. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine engineering drawings or digital models of occupiable compartments with latches and locking mechanisms and verify that the latching and locking mechanisms can be actuated from inside and outside the space without special tools. Demonstration.\n  (1) Demonstrate on a representative mockup or on an air vehicle that doors can be opened and unlocked from inside and outside the space without special tools.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

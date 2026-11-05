@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.3.10",
+  "number": "6.2.17.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Bus separation",
+  "subject_group": "6.2.17 Vehicle control function electrical power systems safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.3.10",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify electrical power bus separation for prevention of single failure points is safe.",
+      "text": "Verify electrical power bus separation for prevention of single failure points is safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.3.10",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that electrical power bus separation for prevention of single failure points is safe.",
+      "text": "Verify that electrical power bus separation for prevention of single failure points is safe. DoD/MIL Doc: JSSG-2008: para 3.0, 3.1, 3.1.2, 3.1.2.1, 3.1.3, 3.1.7.2, 3.1.7.3, 3.1.10, 3.1.11.11.2, 3.1.12, 3.1.12.1, 3.1.14.4, 3.2.1.3, 3.2.2.2.2, 3.2.2.2.5, 3.2.3.1, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.3.10",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that electrical power bus separation for prevention of single failure points is safe.",
+      "text": "Verify that electrical power bus separation for prevention of single failure points is safe. DoD/MIL Doc: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.2.1, 3.1.3, 3.1.7.2, 3.1.7.3, 3.1.10, 3.1.11.11.2, 3.1.12, 3.1.12.1, 3.1.14.4, 3.2.1.3, 3.2.2.2.2, 3.2.2.2.5, 3.2.3.1, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.11.5",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Bus separation",
+      "text": "Criterion: Verify that independent electrical power bus separation for prevention of single failure points is safe, and that a failure on one bus does not cause loss of function for the VCF. Standard: Loss of one electrical bus does not result in loss of VCF function. Ensure physical separation meets the guidelines of 12.2.6 inclusive (electrical wiring system installation). Method of Compliance: Verification methods include analysis, tests, simulation, inspection and review of documentation. Design documentation, installation drawings, and ground test verify separation/isolation of redundant buses. Tests performed on a subsystem mockup that accurately simulates the aircraft installation verifies safe operation. References: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.2.1, 3.1.3, 3.1.7.2, 3.1.7.3, 3.1.10, 3.1.11.11.2, 3.1.12, 3.1.12.1, 3.1.14.4, 3.2.1.3, 3.2.2.2.2, 3.2.2.2.5, 3.2.3.1, associated section 4 paragraphs. MIL-HDBK-516: 12 14 CFR 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Bus separation",
+      "text": "Standard: Vehicle control function electrical buses are physically separated such that failure on one bus will not propagate to another. If a dedicated VCF electrical bus is provided, devices not classified as flight-critical are not permitted use of the VCF bus. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Electrical power system architecture verifies functional separation, and dedicated VCF buses.\n(2) Electrical power system installation drawings verifies physical bus separation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

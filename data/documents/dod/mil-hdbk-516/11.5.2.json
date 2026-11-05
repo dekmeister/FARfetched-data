@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.5.2",
+  "number": "11.5.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Standard for mission crew manuals",
+  "subject_group": "11.5 Technical manuals",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Standard for mission crew manuals",
+      "text": "Standard: Mission crew manuals contain the engineering data to ensure that mission equipment address SOF and its operation. Mission crew manuals contain all the procedures for detection and flight crew or crewmember response to failures that could adversely impact SOF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review any mission equipment design requirements that may adversely impact SOF when integrated onto the air vehicle.\n(2) Review design documentation, mission crew, and supplemental data documentation to identify mission equipment and its interoperability with SCFs and SCIs.\n(3) Verify FMECA, FMEA, FMET, and SHA to analyze mission equipment failure modes.\n(4) Ensure that the mission crew manuals contain the correct procedures and WCAs necessary to instruct flight crew or crewmember action in the event of a mission equipment failure with the potential to adversely impact SOF. Analysis.\n  (1) Analysis of testing shows any problem reports are accounted for in the mission crew manual.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

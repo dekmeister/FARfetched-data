@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.6.1",
+  "number": "6.2.6.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Start-up built-in-test",
+  "subject_group": "6.2.6 Built-in-test",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Start-up built-in-test",
+      "text": "Standard: For VCF designs utilizing complex electronic hardware, Start-up BIT ensures the integrity of the processing function prior to BIT testing at higher subsystem and system levels. Where Start-Up BIT fails, the failure is detected, isolated, and annunciated to the flight crew. For in-air restarts/power-ups, the restart does not impact VCF functionality. If a fast/warm start-up is required to address a common mode all-channel reset in-flight, identify which Start-up BIT tests are run and the timing is sufficient to maintain air vehicle control within Operational State III. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to verify all complex electronic hardware has coverage of critical processing functionality during box-level power-up and prior to integration with the VCF.\n(2) Review design documentation to verify VCF system initialization/synchronization ensures the internal health of the hardware prior to integrating into the VCF, including cold start (on-ground) and any warm starts during operation. Analysis.\n  (1) For an all-channel in-air reset, determine the reset time allocation required to maintain air vehicle transients within limits and verify the time allocation is flowed to the box-level requirements. Test.\n    (1) Lab test: For complex electronic hardware, verify box-level FQT demonstrates Start-up BIT runs within its time allocation and provides coverage to determine box-level health prior to being utilized by the VCF.\n    (2) Lab test: For an all-channel in-air reset, hardware in the loop test demonstrates air vehicle transient response is within limits and maintains no worse than Operational State III.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

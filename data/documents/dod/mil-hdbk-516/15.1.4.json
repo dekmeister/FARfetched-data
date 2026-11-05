@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.4",
+  "number": "15.1.9",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Data flow and control flow",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.1.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow has been established.",
+      "text": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow has been established.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.1.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow are established.",
+      "text": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow are established. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.7; JSSG-2008 Appendix A: para 3.1.7.1 provides guidance for identifying subsystem interfaces and ensuring sufficient data communication timing margins. Paragraph 3.5.7 discusses the application of integrity processes in the design of system interfaces from both the hardware and software standpoint. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.1.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow are established.",
+      "text": "Verify that SOF hardware and software interfaces are clearly defined and documented and that control flow and information flow are established. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.7 JSSG-2008 Appendix A: 3.1.7.1 provides guidance for identifying subsystem interfaces and ensuring sufficient data communication timing margins. Paragraph 3.5.7 discusses the application of integrity processes in the design of system interfaces from both the hardware and software standpoint FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Data flow and control flow",
+      "text": "Criterion: Verify that interfaces (control and data flow) supporting SPA SSEs are clearly defined and documented. Standard: All SSE interfaces which handle control and data associated with safety critical functions have been clearly defined and documented. Interface requirements for safety are defined and accounted for throughout the development process (e.g., drive specific test processes). Safety critical interfaces are designed to ensure data/calculation/system-timing dependencies do not impede system performance in any operational mode or degrade architectural safety coverage. Method of Compliance: Verification methods include analysis, and inspection of documentation. The documentation is inspected for completeness in identifying and defining all SSE and non-SSE interfaces. Inspect test process documentation to ensure safety interfaces are fully verified. Analysis verifies interface dependencies do not impede system performance and safety. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management Systems/Flight Control Systems section (IX.6); 3.0 Computer Resources section (III.1.d.2); 3.1.7.1 provides guidance for identifying subsystem interfaces and ensuring sufficient data communication timing margins; 3.5.7 discusses the application of integrity processes in the design of system interfaces from both the hardware and software standpoint JSSG-2008 Appendix B: A8.6.1.3; A14.1.4.2 DoD JSSSEH: 4.3.6.3.2; 4.3.7.3.2; 4.3.7.3.2.2; 4.3.7.3.2.3; E.4.6 USAF Weapon Systems Software Management Guidebook: 3.6; 3.6.1; 3.11; F.2.2; F.4.2; F.5.2; F.6.2; F.7; G.2.2; G.2.4 IEEE Std 1012-2012: 8.3 Activity table V&V Task (2) Interface Analysis IEEE Std 1220-2005: 4.8; 5.2.1.1; 5.2.1.2 IEEE 12207.0-1996 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 5.3.4.1.b external interfaces to the software item must be documented SAE EIA SEB6-A: 3.2.1 CMU/SEI-2010-TR-033, CMMI for Development Ver. 1.3: SP 2.3 Requirements Development - identify interface requirements",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Data flow and control flow",
+      "text": "Standard: 1. Verify that interfaces (control and data flow) supporting SPA ESSs are clearly defined and documented. All ESS interfaces which handle control and data associated with SCFs have been identified as safety-critical and are documented. Interface requirements for safety are defined and accounted for throughout the development process (e.g., drive specific test processes). Safety-critical interfaces are designed to ensure data, calculation, and system timing dependencies do not impede system performance in any operational mode. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and examination of documentation. The documentation is examined for completeness in identifying and defining all ESS and ENSS interfaces. Examine test process documentation to ensure safety-critical interfaces are fully verified. Analysis verifies interface dependencies do not impede system performance and safety.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

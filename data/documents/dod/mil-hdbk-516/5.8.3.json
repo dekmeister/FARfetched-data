@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.8.3",
+  "number": "5.5.1",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Weight and center of gravity",
+  "subject_group": "5.5 Weight and balance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "5.8.3",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that adequate center of gravity margins to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling exist.",
+      "text": "Verify that adequate center of gravity margins to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling exist.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "5.5.2",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that center of gravity margins are properly defined to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling.",
+      "text": "Verify that center of gravity margins are properly defined to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling. Comm\u2019l Doc: SAWE RP No. 7: para 3.4.9, 3.5, 3.2.7.3.1, and 3.2.7.3.1.4 DoD/MIL Doc: JSSG-2006: para 3.2.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "5.5.2",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that center of gravity margins are properly defined to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling, and release of external sling loads, and air drop of internal cargo.",
+      "text": "Verify that center of gravity margins are properly defined to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling, and release of external sling loads, and air drop of internal cargo. Comm\u2019l Doc: SAWE RP No. 7: 3.4.9, 3.5, 3.2.7.3.1, and 3.2.7.3.1.4 DoD/MIL Doc: JSSG-2006: 3.2.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "5.5.2",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Weight and center of gravity",
+      "text": "Criterion: Verify that center of gravity margins are properly defined to handle aerodynamic, center of gravity, and inertia changes resulting from fuel usage, store expenditure, asymmetric fuel and store loading, fuel migration at high angle of attack and roll rates, and aerial refueling, and release of external sling loads, and air drop of internal cargo. Standard: a. The aircraft center of gravity remains within the approved flight envelope for all mission scenarios. b. The provisions for determining the vehicle weight and longitudinal, lateral, and vertical center of gravity of the vehicle have been provided. c. The center of gravity envelopes are commensurate with the requirements at all weights, and account for manufacturing variations, addition of planned equipment, variations in payload, flight attitudes, density of fuel and fuel system failures. d. A fuel system calibration methodology to determine the weight and center of gravity of the fuel has been defined. Method of Compliance: a. The center of gravity is verified to remain in the approved envelope for all mission scenarios as described in the master plan for controlling and managing Mass Properties in accordance with SAWE RP7 and delivered in accordance with DI-MGMT-81452. The Mass Properties Control and Management Process (MPCMP) Report contains elements for meeting program mass properties objectives and contractual requirements. Both technical and organizational needs are considered and necessary supporting plans for sensing and correcting weight and balance trends are identified. b. The provisions for determining the weight, center of gravity, and inertias are verified to adhere to stated requirements through inspections, analysis, test in accordance with SAWE RP7 and 8. The inertias are verified and documented as an Inertia (Mass Properties) Report for Aircraft in accordance with RP7 and delivered in accordance with DI-MGMT-81504. c. The center of gravity envelope is verified to encompass all possible mission and production variations to ensure safe flight in accordance with SAWE RP7 and 8. Mission calculations are verified and documented as part of Status, Estimated, Calculated, and Actual Weight Reports in accordance with SAWE RP7 and 8. d. The fuel system calibration methodology is verified by determination of trapped fuel weight and center of gravity, determination of unusable fuel weight and center of gravity, determination of the usable fuel mass properties (weight and center of gravity), and comparison of onboard fuel indicating equipment to actual usable fuel mass properties. A fuel cell calibration test is used to verify actual fuel system mass properties and documented in accordance with SAWE RP7. References: JSSG-2006: 3.2.6 SAWE RP7: 3.2.2, 3.2.7.3.1, 3.2.7.3.1.4, 3.4.9, 3.5 DI-MGMT-81501 DI-MGMT-81504 DI-MGMT-81452",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Weight and center of gravity",
+      "text": "Standard: Technical mass properties data for the air vehicle is defined and shown to remain within the air vehicle weight and CG limits for all defined missions, loadings, and configurations for the operating envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the ASIP Master Plan or RSIP Master Plan, as specified in MIL-STD-1530 or MIL- STD-3063 respectively, documents the analysis and test verification methods required to certify the design weight and CG; structural certification tasks are updated for modifications or changes to the air vehicle following initial AW certification basis; and all artifacts are developed IAW applicable sections of MIL-STD-1530 or MIL-STD-3063.\n(2) Verify detailed structural design criteria for mass properties, as specified in MIL-STD-1530 or MIL-STD-3063, documents the requirements to achieve structural integrity. Analysis.\n  (1) Verify for a new air vehicle, weight and balance data are shown to be within design limits for all defined flight and ground operations.\n  (2) Verify the air vehicle calculated basic weight and CG reflects the current configuration and is shown to not exceed any defined weight or CG limits.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

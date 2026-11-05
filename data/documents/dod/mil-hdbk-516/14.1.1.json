@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1",
+  "number": "14.1.1",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "System safety process",
+  "subject_group": "14.1 System safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that an effective system safety program is implemented that effectively mitigates risks/hazards and that documents and tracks the risks/hazards of the design/modification.",
+      "text": "Verify that an effective system safety program is implemented that effectively mitigates risks/hazards and that documents and tracks the risks/hazards of the design/modification.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that an effective system safety program is implemented that mitigates risks/hazards attributed to hardware, software, and human system integration and that the safety program documents and tracks the risks/hazards of the design/modification.",
+      "text": "Verify that an effective system safety program is implemented that mitigates risks/hazards attributed to hardware, software, and human system integration and that the safety program documents and tracks the risks/hazards of the design/modification. DoD/MIL Doc: MIL-STD-882D: para 1.1, 4.1, 4.2, 4.3, 4.4, 4.5; DoDI 5000.2 Enclosure 3 Table E3.T1, for details of PESHE content and relation to system safety. FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that an effective system safety program is implemented that mitigates risks/hazards attributed to hardware, software, and human system integration and that the safety program documents and tracks the risks/hazards of the design/modification.",
+      "text": "Verify that an effective system safety program is implemented that mitigates risks/hazards attributed to hardware, software, and human system integration and that the safety program documents and tracks the risks/hazards of the design/modification. DoD/MIL Doc: MIL-STD-882D: 1.1, 4.1, 4.2, 4.3, 4.4, 4.5 DoDI 5000.2 Enclosure 3 Table E3.T1, for details of PESHE content and relation to system safety FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "System safety process",
+      "text": "Criterion: Verify that an effective system safety program is implemented that mitigates risks/hazards attributed to hardware, software, and human system integration and that the safety program documents and tracks the risks/hazards of the design/modification. Standard: The system safety program meets the minimum mandatory requirements of MIL- STD-882 (e.g., system safety approach has been documented; hazards have been identified; hazards have been assessed; hazards have been mitigated; residual risks are at an acceptable level; residual risk has been accepted by appropriate authority; and hazards and residual risk have been tracked), and the system safety requirements are incorporated into the technical and programmatic documents. The Programmatic Environmental Safety and Health Evaluation (PESHE) includes all hazards identified for the program. Method of Compliance: Verification method includes inspection of documentation. Effectiveness of the system safety program is verified by inspection of technical and programmatic documents to verify: system safety approach has been documented; hazards have been identified; hazards have been assessed; hazards have been mitigated; residual risks are reduced; residual risk has been accepted by appropriate authority; and hazards and residual risk have been tracked. Inclusion of Environmental Safety and Occupational Health (ESOH) hazards in PESHE is verified by inspection. References: MIL-STD-882 DoDI 5000.2, Enclosure 3, Table E3.T1 (details of PESHE content and relation to system safety) SAE ARP4754 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "System safety process",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

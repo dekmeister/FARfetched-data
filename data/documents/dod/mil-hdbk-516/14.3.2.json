@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.2",
+  "number": "14.3.2",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Planning/accomplishing software safety analyses and assessments",
+  "subject_group": "14.3 Software safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a.",
+      "text": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a. Software safety analyses preparation b. Software safety requirements analysis c. Software safety code analysis d. Software safety test analysis e. Software safety change analysis",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a.",
+      "text": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a. Software safety analyses preparation b. Software safety requirements analysis DoD/MIL Doc: MIL-STD-882D: para 4, Appendix A. DoD/MIL Doc: Joint Software System Safety Committee, \u201cSoftware System Safety Handbook: A Technical & Managerial Team Approach,\u201d Dec 1999 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a.",
+      "text": "Verify the software safety program requires that appropriate software safety-related analyses be performed as part of the software development process. a. Software safety analyses preparation b. Software safety requirements analysis DoD/MIL Doc: MIL-STD-882D: 4, Appendix A DoD/MIL Doc: Joint Software System Safety Committee, \u201cSoftware System Safety Handbook: A Technical & Managerial Team Approach,\u201d Dec 1999 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Planning/accomplishing software safety analyses and assessments",
+      "text": "Criterion: Verify that the software safety program requires that appropriate software safety-designated analyses be performed as part of the software development process and verify accomplishment of related assessment tasks. Standard: A tailored set of analyses and assessments (or equivalent) required by the references of 14.3 (this document) is planned for and accomplished. Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of system safety, software safety, and software documentation that the tailored set of analyses and assessments (or equivalent) required by the references of 14.3 (this document) are planned for and accomplished. References: MIL-STD-882 JSSSEW JSSSEH RTCA DO-178 SAE ARP4761 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Planning/accomplishing software safety analyses and assessments",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

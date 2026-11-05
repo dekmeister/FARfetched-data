@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.30",
+  "number": "6.1.11.30",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Pitch and roll coupling for aggressive agility",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pitch and roll coupling for aggressive agility",
+      "text": "Standard: The air vehicle's pitch and roll coupling in hover and low airspeed (up to 45 KGS) for aggressive agility is no worse than Level 2 flying qualities as specified in MIL-DTL-32742, Pitch due to Roll and Roll due to Pitch Coupling for Aggressive Agility paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the ratio of the peak off-axis attitude response from trim to the desired (on-axis) attitude response from trim following an abrupt lateral or longitudinal cockpit control step as specified in MIL-DTL-32742, Pitch due to Roll and Roll due to Pitch Coupling for Aggressive Agility paragraph for each air vehicle configuration and loading within the SFE. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the ratio of the peak off-axis attitude response from trim to the desired (on-axis) attitude response from trim following an abrupt lateral or longitudinal cockpit control step as specified in MIL-DTL-32742, Pitch due to Roll and Roll due to Pitch Coupling for Aggressive Agility paragraph for each air vehicle configuration and loading within the SFE. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the ratio of the peak off-axis attitude response from trim to the desired (on-axis) attitude response from trim following an abrupt lateral or longitudinal cockpit control step as specified in MIL-DTL-32742, Pitch due to Roll and Roll due to Pitch Coupling for Aggressive Agility paragraph for selected combinations of air vehicle configuration and loading within the SFE.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

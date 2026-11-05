@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.1.1",
+  "number": "11.1.1.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Air data system",
+  "subject_group": "11.1.1 Avionics subsystems architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Air data system",
+      "text": "Criterion: Verify for the air data subsystem (including provision for displaying primary flight parameters) that the number and type of sensors, data processors, data busses, controls and displays, and communication devices are adequate for safety of flight considerations. Standard: The air data system provides vehicle and/or operator(s) with all needed air data information with sufficient accuracy and reliability to satisfy safety of flight requirements. The specific requirements are defined in program detailed design information. No single or dual air data system component failure results in the propagation (or absence) of information resulting in an adverse safety of flight condition (for Army; see also 14.2 of this document). Air data system external sensors are installed with sufficient separation and redundancy to ensure a single event (such as a bird strike or a lightning attachment) does not degrade air data system performance (for Army; see also 14.2 of this document). Air data system performance meets air vehicle Vertical Separation Minimums (VSM), Reduced Vertical Separation Minimums (RVSM), and Vertical Navigation (VNAV) requirements (as applicable). RVSM and VNAV performance matrices are tailored to the specific needs of the program. Method of Compliance: Performance of Air Data safety of flight components is verified through analysis and laboratory test. Air Data System safety of flight redundancy and performance are validated through system level analysis, simulation and test. Safety Hazard Analysis verifies that all air data system related failures have acceptable risk levels. Safe operation of the air vehicle following air data system failures is verified using FMECA. Laboratory based failure mode tests verify acceptable performance for single and dual failure operation. On-aircraft ground testing verifies performance and redundancy of the air data system safety critical functions. Flight testing verifies air data system level performance. References: JSSG-2005: 3.2.1.8.1 MIL-HDBK-516: 14.2 MIL-STD-882 MIL-STD-1787: 4.1.1 MIL-HDBK-87213: 3.1 GATOMC2 Communications, Navigation and Surveillance/Air Traffic Management (CNS/ATM) RVSM, Barometric Vertical Navigation (BARO VNAV), Area Navigation Vertical Navigation (RNAV VNAV), Performance Matrices provide CNS/ATM related air data system safety guidance. Contact GATOMC2 for current applicable performance matrices and current supporting civil documents. RTCA DO-200 RTCA DO-236, guidance on CNS/ATM related air data system requirements: SAE ARP4761 SAE ARP5580 14 CFR 23.1301, 23.1309, 23.1323, 23.1325, 23.1326, 25.1301, 25.1309, 25.1323, 25.1325, 25.1326 FAA AC 27-1 FAA AC 29-2 FAA AC 91-85",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Air data system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.8.3",
+  "number": "8.1.8.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Pressure spikes",
+  "subject_group": "8.1.8 Hydraulic and pneumatic pressure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Pressure spikes",
+      "text": "Standard: Hydraulic and pneumatic systems withstand pressure spikes across the design envelope of the air vehicle. System peak pressures do not exceed the limits for their respective pressure class IAW SAE AS5440B, Surge Pressure paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to verify peak pressures during system actuation of components do not exceed 135% of nominal system operating pressure. For 8000 psi systems, do not exceed 120% of nominal system operating pressure. Test.\n  (1) Lab test: Conduct HITL (e.g. iron bird) testing to verify peak pressures during any phase of the system operation do not exceed 135% of the nominal system operating pressure, when systems and components are exercised. For 8000 psi systems, do not exceed 120% of nominal system operating pressure.\n  (2) Ground test: Conduct on air vehicle test(s) to verify peak pressures during any phase of system operation does not exceed 135% of the nominal system operating pressure, when various systems and components are exercised. For 8000 psi systems, do not exceed 120% of nominal system operating pressure. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Monitor peak pressures during flight testing to verify peak pressures during any phase of system operation does not exceed 135% of the nominal system operating pressure, when various systems and components are exercised. For 8000 psi systems, do not exceed 120% of nominal system operating pressure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

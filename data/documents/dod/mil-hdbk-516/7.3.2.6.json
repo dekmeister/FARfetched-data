@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.6",
+  "number": "8.8.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Dynamic coupling",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.2.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that unfavorable dynamic coupling modes do not occur when the engine, engine accessories, rotor system, and all dynamic transmission components are operated as a combined dynamic system.",
+      "text": "Verify that unfavorable dynamic coupling modes do not occur when the engine, engine accessories, rotor system, and all dynamic transmission components are operated as a combined dynamic system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Dynamic coupling",
+      "text": "Criterion: Verify that unfavorable dynamic coupling modes do not occur when the engine, engine accessories, rotor system, and all dynamic transmission components are operated as a combined dynamic system. Standard: For sub-critical shafting, the operating speed is in the range of 20 to 30% below critical speed. For super-critical shafting, a sufficient design margin (e.g., adequate separation of speed, adequate damping) exists above and below applicable critical speeds to ensure safe operation. f supercritical shafting is used, during transient operation, damping is provided to the extent necessary to prevent stress and deflection amplitudes from exceeding design allowables. Range of vibratory characteristics at the power drive system interfaces are defined. Vibration limits are defined. The engine control system ensures adequate gain and phase margins to avoid torsional instabilities. Method of Compliance: Verification methods include analysis, test, demonstration and review of documentation. Verification is through similarity analysis or a combination of analyses, static (such as rap testing of components to confirm modal prediction) and dynamic testing. Analysis shows all critical speeds in relation to operational speeds throughout the range of possible shaft misalignments. The critical speeds of all shafting are determined by demonstration. Demonstration of critical speeds on supercritical shafts includes measurement of stresses at the critical speed to ensure they are within design limits. Substantiation data are provided to show the absence of dynamic coupling modes that are destructive or limit the use of the air vehicle for all permitted ground and flight modes. Analysis defines all power drive subsystem spring constants, inertia and damping coefficients for use in torsional stability assessments. The power drive subsystem dynamic analysis considers engine control system interfaces to avoid torsional instabilities in the power drive subsystem. Resonance frequencies and mode shapes are determined for each gear. For the gear resonance test, the dynamic stress levels in each gear are measured in locations sensitive to all significant vibratory modes. A speed scan from 0 to the speed of maximum overspeed is performed with: a. Minimum load. b. Approximately 50-percent load. c. Maximum load. Reference: JSSG-2009: K.4.4.11.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Dynamic coupling",
+      "text": "Standard: The rotary-wing drive system is free of damaging dynamic coupling modes when the engine, engine accessories, rotor system, and all dynamic transmission components are operated as a system. The engine control system ensures positive gain and phase margins are present to avoid torsional instabilities. Sub-critical shafting connecting components within the drive systems are 20% below the first critical speeds. Super-critical shafting, when used in the drive system, has positive strength margins, damping, and resonance separations 20% above and below any critical speeds to ensure ability to operate. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., system layout, hardware drawings, system configuration descriptions, and ICD) to verify defined transmission system and engine interfaces. Vibration characteristics, limits, and torsional stability requirements are defined within the air vehicle specification. Analysis.\n  (1) Conduct torsional stability analysis demonstrating no dynamic instabilities are present. Torsional stability analysis considers the engine control system interfaces with the drive subsystem throughout the flight envelope. The analysis defines all drive system spring constants, inertia, and damping coefficients utilized in the assessment with substantiation data to demonstrate by analysis the absence of dynamic coupling modes that would impact the air vehicle in all ground and flight conditions.\n  (2) Critical speed analysis is provided for all drive system shafting to identify the critical speed margins in relation to expected operating speeds. All sub-critical shafting is 20% below the first critical speed and super-critical shafting analysis shows damping provisions to prevent stress and deflection amplitudes from exceeding material design allowables. Test.\n    (1) Lab test: Conduct bench test of all shafting to verify shaft critical speeds are within predicted values.\n    (2) Ground test: Conduct bench test to verify stresses are within material design limits for all shafting operating at any critical speeds.\n    (3) Lab test: Conduct RAP testing on all shafting to verify modal analysis predictions (resonant frequencies).\n    (4) Ground test: Conduct restrained ground testing of air vehicle to verify no damaging dynamic coupling modes exist between the engine and drive system once installed in the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Conduct flight testing of air vehicle to verify no damaging dynamic coupling modes exist between the engine and drive system once installed in the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

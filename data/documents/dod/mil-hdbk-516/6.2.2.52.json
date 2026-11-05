@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.52",
+  "number": "6.2.2.52",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Verify that air data is safe for the following: a.",
+  "subject_group": "6.2.2 Basic VCF",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify air data is safe for the following: a.",
+      "text": "Verify air data is safe for the following: a. Implementation b. Accuracy c. Ground and air safety provisions d. Anti-ice or ice prevention e. Bird strike vulnerability",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that air data is safe for the following: a.",
+      "text": "Verify that air data is safe for the following: a. Implementation b. Accuracy c. Ground and air safety provisions d. Anti-ice or ice prevention e. Bird strike vulnerability",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that air data is safe for the following: a.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

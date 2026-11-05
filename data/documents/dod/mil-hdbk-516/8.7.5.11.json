@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.5.11",
+  "number": "8.7.5.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Hose jettison hazards",
+  "subject_group": "8.7.5 Compatibility with other systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Hose jettison hazards",
+      "text": "Criterion: Verify that no safety hazards are created by the jettisoning of an aerial refueling hose, or a portion of the hose. Standard: No safety hazards are created by the jettisoning of an aerial refueling hose, or a portion of the hose. Conditions to be considered include, but are not limited to: the hose or any sprayed fuel contacts the air vehicle, and fuel leakage within the store/pod (see 8.4, this document, for evaluation of fire hazards). Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation. Analysis, ground/flight test and inspection indicate that no safety hazards are created by the jettisoning of an aerial refueling hose, or a portion of the hose (see 8.4, this document, for evaluation of fire hazards). References: JSSG-2009: G.3.4.7.2, G.4.4.7.2; G.3.4.7.3, G.4.4.7.3 MIL-HDBK-516: 8.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Hose jettison hazards",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.5.2-516d",
+  "number": "6.2.5.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Failure accommodation",
+  "subject_group": "6.2.5 Redundancy management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Failure accommodation",
+      "text": "Standard: The system accommodates identified failures automatically or through flight crew action in time to meet PLOC, failure immunity, fail-safe, and transient requirements. The system may utilize multiple different accommodation approaches (e.g., reconfiguration through switching to an alternate redundant source, integrating multiple sources, estimating signals, or using a fixed value). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the VCF redundancy management design documentation to verify failure accommodation schemes are in place for all safety-critical signals and functions. Analysis.\n  (1) Air vehicle transient analysis utilizing finalized threshold and persistence values demonstrates transients are within air vehicle established limits for all safety-critical single failures and combinations for all air vehicle configurations across the envelope, including during the catapult shot, takeoff rotation, and landing gear contact (bolter and touch and go). Test.\n    (1) Lab test: Vehicle control function requirements-based testing (e.g., FQT) verifies failure accommodation schemes are properly implemented to meet system requirements.\n    (2) Lab test: Failure modes and effects testing demonstrates a safe reaction to (within air vehicle transient limits), and recovery from, all safety-critical single failures and combinations identified from the air vehicle transient analysis. Ensure failures are inserted throughout the envelope, including during the catapult shot, takeoff rotation, and landing gear contact (bolter and touch and go).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

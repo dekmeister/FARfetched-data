@@ -1,0 +1,42 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.10",
+  "number": "13.2.9",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Electromagnetic spectrum licensing and certification",
+  "subject_group": "13.2 System-level E3",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "13.2.10",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system meets the electromagnetic spectrum licensing requirements in accordance with DoD, national, and international regulations and has received electromagnetic spectrum certification.",
+      "text": "Verify that the system meets the electromagnetic spectrum licensing requirements in accordance with DoD, national, and international regulations and has received electromagnetic spectrum certification. DoD/MIL Doc: DoDD 4650.1, Management and Use of the Radio Frequency Spectrum. DD Form 1494, Application for Frequency Allocation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Electromagnetic spectrum licensing and certification",
+      "text": "Criterion: Verify that the air system meets the electromagnetic spectrum licensing requirements in accordance with DoD, national, and international regulations and has received electromagnetic spectrum certification. Standard: Spectrum certification denotes the supportability of an electronic system or spectrum dependent equipment in accordance with MIL-STD-464, 5.15, for operation in a designated frequency band to avoid interference with other system or equipment and for compliance with the national and international spectrum certification regulations cited in DoDI 4650.01, Policy and Procedures for Management and Use of the Electromagnetic Spectrum. Method of Compliance: Verification of supportability is accomplished via compliance with MIL- STD-464, 5.15. Certification is achieved through submittal and approval of DD Form 1494, Application for Frequency Allocation (EL-CID), which contains the information on the operating characteristics of the spectrum dependent equipment. References: DoDI 4650.01 DD Form 1494 (use of Equipment Location-Certification Information Database (EL-CID) is required).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Electromagnetic spectrum licensing and certification",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

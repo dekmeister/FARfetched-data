@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.5.2.4",
+  "number": "7.4.32",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Engine shutdown",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.5.2.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Engine shutdown",
+      "text": "Criterion: Verify the engine's ability to safely and reliably shutdown in the event of a platform initiated fuel shutoff. Standard: Engine shutdown does not affect platform controllability. The engine does not experience damage that jeopardizes the platform. The engine does not experience a post-shutdown fire. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis, rig testing (dry bench) and engine testing are conducted to assure that the engine will shutdown safely in the event of a platform initiated fuel shutoff.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Engine shutdown",
+      "text": "Standard: Air vehicle initiated fuel shutoff does not result in immediate or subsequent exceedance of any engine limits, cause engine damage that jeopardizes the air vehicle, or result in a post-shutdown fire. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies an air vehicle initiated fuel shutoff performs an engine shutdown without exceeding limits, damaging the air vehicle, or resulting in a fire. Test.\n  (1) Lab test: Rig testing verifies an air vehicle initiated fuel shutoff performs an engine shutdown without exceeding limits, damaging the air vehicle, or resulting in a fire.\n  (2) Lab test: Engine ground-based sea level cell testing verifies a test facility-initiated fuel shutoff performs an engine shutdown without exceeding limits, damaging the air vehicle, or resulting in a fire.\n  (3) Ground test: Installed engine testing verifies an air vehicle initiated fuel shutoff performs an engine shutdown without exceeding limits, damaging the air vehicle, or resulting in a fire.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

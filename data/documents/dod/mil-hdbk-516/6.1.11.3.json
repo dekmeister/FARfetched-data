@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.3",
+  "number": "6.1.11.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Flight control system mode annunciations",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Flight control system mode annunciations",
+      "text": "Standard: The air vehicle provides clear and easily interpretable annunciations to the pilot of the engaged or armed control system response type and the status of hold modes unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess that the air vehicle provides clear and easily interpretable annunciations to the pilot of the engaged or armed control system response type and the status of any hold modes as specified in MIL-DTL-32742, Annunciation of Response Type to the Pilot and Position Hold Annunciation paragraphs. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess that the air vehicle provides clear and easily interpretable annunciations to the pilot of the engaged or armed control system response type and the status of any hold modes as specified in MIL-DTL-32742, Annunciation of Response Type to the Pilot and Position Hold Annunciation paragraphs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess that the air vehicle provides clear and easily interpretable annunciations to the pilot of the engaged or armed control system response type and the status of any hold modes as specified in MIL-DTL-32742, Annunciation of Response Type to the Pilot and Position Hold Annunciation paragraphs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

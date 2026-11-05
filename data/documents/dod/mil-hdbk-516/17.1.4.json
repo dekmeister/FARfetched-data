@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.4",
+  "number": "17.1.4",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Explosive gas accumulations",
+  "subject_group": "17.1 Gun/rocket integration and interface",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the gun gas ventilation/purge system prevents accumulation of explosive gas mixture.",
+      "text": "Verify that the gun gas ventilation/purge system prevents accumulation of explosive gas mixture.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the gun/rocket gas ventilation/purge system prevents accumulation of explosive gas mixture.",
+      "text": "Verify that the gun/rocket gas ventilation/purge system prevents accumulation of explosive gas mixture.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Explosive gas accumulations",
+      "text": "Criterion: Verify that the gun/rocket gas ventilation/purge system prevents accumulation of any explosive gas mixture. Standard: Gases from gun/rocket operation do not accumulate beyond prescribed allowable toxic and/or explosive concentrations. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Verification is accomplished by initial installation testing, qualification testing, static ground fire testing, safety analysis, and live fire testing during Developmental Test and Evaluation (DT&E) and Operational Test and Evaluation (OT&E). Reference: MIL-HDBK-244",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Explosive gas accumulations",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

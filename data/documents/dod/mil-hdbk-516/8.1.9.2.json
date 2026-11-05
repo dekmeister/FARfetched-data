@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.9.2",
+  "number": "8.1.9.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fluid contaminant sampling",
+  "subject_group": "8.1.9 Impurities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fluid contaminant sampling",
+      "text": "Standard: Provisions exist for taking representative fluid samples and removal of particulates and contaminating fluids (e.g., water or non-hydraulic fluids) via bleed ports from the hydraulic system. Sampling locations are kept free from external contaminants. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation such as system design drawings and specifications to verify that sampling ports exist and are protected from external contaminants.\n(2) Review of documentation such as system design drawings and specifications to verify the location of fluid bleed ports.\n(3) Review of maintenance procedures to verify that methods for sampling and fluid contaminant removal are documented.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

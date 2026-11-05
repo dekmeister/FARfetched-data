@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.4.4-516c",
+  "number": "4.4.4",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Quality system",
+  "subject_group": "4.4 Manufacturing and quality",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Quality system",
+      "text": "Criterion: Verify that the as-built configuration matches the as-designed configuration. Standard: The quality system is effective in assuring conformance to product design and realization, including production allowances and tolerances. The quality system addresses defect prevention and achieving stable, capable processes. The quality system employs methods sufficient for conducting root cause analyses and implementing effective corrective actions. Method of Compliance: Compliance is determined by inspection of the Quality System's policies, processes and procedures and examples of Material Review Board records. References: AFLCMC/EZSM Manufacturing Development Guide, Section 4, \"Quality Systems\", and Section 5.6 \"Variability Reduction\" AFI 63-501 Aviation Critical Safety Item Management Handbook, Joint Aeronautical Commanders Group Aviation Source Approval and Management Handbook, Joint Aeronautical Commanders Group SAE AS6081 SAE AS6174 SAE AS9100 FAR Part 46, \"Quality Assurance\" 14 CFR 23.601-23.605, 25.601-25.603, 27.601-605, 29.601-29.605",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Quality system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

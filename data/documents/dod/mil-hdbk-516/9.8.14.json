@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.14",
+  "number": "20.1.14",
+  "current_grouping": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+  "canonical_title": "In-flight movement",
+  "subject_group": "20.1 Air transportability and airdrop",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.14",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that necessary in-flight movement or operation of transported items and mission equipment does not adversely affect aircraft flight systems or cause injury to aircrew and passengers.",
+      "text": "Verify that necessary in-flight movement or operation of transported items and mission equipment does not adversely affect aircraft flight systems or cause injury to aircrew and passengers. DoD/MIL Doc: MIL-HDBK-1791: para 4.2, 5.2, JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.14",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that necessary in-flight movement or operation of transported items and mission equipment does not adversely affect aircraft flight systems or cause injury to aircrew and passengers.",
+      "text": "Verify that necessary in-flight movement or operation of transported items and mission equipment does not adversely affect aircraft flight systems or cause injury to aircrew and passengers. DoD/MIL Doc: MIL-HDBK-1791: 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "In-flight movement",
+      "text": "Criterion: Verify that necessary in-flight movement or operation of transported items and mission equipment does not adversely affect aircraft flight systems or cause injury to aircrew and passengers. Standard: Movement or operation of non-fixed equipment or transported items during flight will not cause the aircraft to exceed limits (e.g., weight and balance) nor impose a risk to personnel (if applicable) within the aircraft. Items that may be moved in flight do not create a hazardous environment or fail in a fashion that causes flight or injury risks when accidentally dropped (e.g., during loading, installation, or removal). Method of Compliance: Analysis and testing verify that operation or movement of equipment does not put the air vehicle out of established balance limits if it is relocated or used anywhere within operational possibilities. Transported equipment which, in a dynamic situation, could impose risks to personnel is only moved in a manner that affords control of the object at all times. Items with components or materials that could pose a hazard are drop tested to verify safety of possible post drop configurations and any release of hazardous materials. References: Systems Specifications JSSG-2009: Appendix J MIL-STD-1791",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "In-flight movement",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

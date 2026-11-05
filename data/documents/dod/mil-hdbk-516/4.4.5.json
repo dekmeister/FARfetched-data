@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.4.5",
+  "number": "4.4.5",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Nondestructive inspections",
+  "subject_group": "4.4 Manufacturing and quality",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that nondestructive inspection (NDI) accept/reject criteria have been validated.",
+      "text": "Verify that nondestructive inspection (NDI) accept/reject criteria have been validated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that nondestructive inspection (NDI) accept/reject criteria have been validated.",
+      "text": "Verify that nondestructive inspection (NDI) accept/reject criteria have been validated. DoD/MIL Doc: JSSG-2006 Appendix A: A.3.11.6, A.4.11.6 FAA Doc: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Nondestructive inspections",
+      "text": "Criterion: Verify that nondestructive inspection (NDI) processes have been validated to assure conforming parts. Standard: Nondestructive inspection (NDI) methods and equipment have been qualified to suitable standards and meet the requirements of the applicable specification and application. The specification being used ensures any non-conformance adversely affecting the part will be detected. Accept and reject criteria for safety and flight critical hardware are based on validated models and data. Method of Compliance: Compliance is determined by inspection of NDI process, selection criteria, operator certification and method validation documentation. For new applications of specifications, test and inspection data confirms the inspection method is valid for the application. References: JSSG-2006: A.3.11.6, A.4.11.6 MIL-HDBK-1783 SAE ARP5089 SAE AS6081 SAE AS6174",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Nondestructive inspections",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

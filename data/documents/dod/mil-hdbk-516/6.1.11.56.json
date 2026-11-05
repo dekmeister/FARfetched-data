@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.56",
+  "number": "6.1.11.56",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Dihedral effect",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Dihedral effect",
+      "text": "Standard: In forward flight (greater than 45 KGS), the air vehicle's positive effective dihedral does not require more than 90% of the roll control power available and does not exceed 13.5 lbs of roll control force for sideslip angles that may be experienced while performing MTEs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the positive effective dihedral as specified in MIL-DTL-32742, Positive Effective Dihedral Limit paragraph for each air vehicle configuration and loading within the SFE while performing the MTEs as defined in MIL-DTL-32742, Mission Task Elements paragraph. Compliance is determined first by calculating the amount of roll controller deflection required to reach 90% of the maximum roll rate or bank angle specified in MIL-DTL-32742 Large Amplitude Roll Attitude Changes paragraph. Then ensuring that for the sideslips experienced while performing the designated MTEs, the roll control deflection does not exceed this computed displacement value. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the positive effective dihedral as specified in MIL-DTL-32742, Positive Effective Dihedral Limit paragraph for each air vehicle configuration and loading within the SFE while performing the MTEs as defined in MIL-DTL- 32742, Mission Task Elements paragraph. Compliance is determined first by calculating the amount of roll controller deflection required to reach 90% of the maximum roll rate or bank angle specified in MIL-DTL-32742, Large Amplitude Roll Attitude Changes paragraph. Then ensuring that for the sideslips experienced while performing the designated MTEs, the roll control deflection does not exceed this computed displacement value. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test, for selected combinations of air vehicle configuration and loading within the SFE, to assess the positive effective dihedral as specified in MIL-DTL-32742, Positive Effective Dihedral Limit paragraph for each air vehicle configuration and loading within the SFE while performing the MTEs as defined in MIL-DTL-32742, Mission Task Elements paragraph. Compliance is determined first by calculating the amount of roll controller deflection required to reach 90% of the maximum roll rate or bank angle specified in MIL-DTL-32742, Large Amplitude Roll Attitude Changes paragraph. Then ensuring that for the sideslips experienced while performing the designated MTEs, the roll control deflection does not exceed this computed displacement value.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

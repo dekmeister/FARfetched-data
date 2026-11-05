@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.8",
+  "number": "8.8.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Misalignment",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.2.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the torque and misalignment capabilities of drive shaft couplings are suitable for all possible combinations of torque and speed when installed in the aircraft at the maximum permissible misalignment.",
+      "text": "Verify that the torque and misalignment capabilities of drive shaft couplings are suitable for all possible combinations of torque and speed when installed in the aircraft at the maximum permissible misalignment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.3.2.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the torque and misalignment capabilities of drive shaft couplings are suitable for all possible combinations of torque and speed when installed in the aircraft at the maximum permissible misalignment.",
+      "text": "Verify that the torque and misalignment capabilities of drive shaft couplings are suitable for all possible combinations of torque and speed when installed in the aircraft at the maximum permissible misalignment. DoD/MIL Doc: JSSG-2007A: A.3.1.1.9, A.4.1.1.9, A.3.7.16, A.4.7.16 FAA Doc: 14CFR references: 33.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Misalignment",
+      "text": "Criterion: Verify that the torque and misalignment capabilities of drive shaft couplings are suitable for all possible combinations of torque and speed when installed in the aircraft at the maximum permissible misalignment. Verify that coupling design minimizes maintenance effort. Standard: Driveshaft coupling mechanisms demonstrate the endurance life specified in the air vehicle specification under conditions of maximum permissible misalignment and 110% of rated torque at any power level and duration allowed by the flight spectrum. Fatigue life calculations are based on minus 3-sigma working curves. Damage and fault tolerance testing on coupling components is conducted at test conditions based on worst case combinations of misalignment, torque and speed as dictated by expected air vehicle operating conditions. Fault tolerance testing demonstrates continued operation from initial failure indication to complete loss of function for a duration of at least three times the normal inspection interval. Testing includes anti-flail testing of coupling components where applicable. Replacement of coupling mechanisms does not require realignment of the associated shafting. Couplings are the dry type to avoid the necessity of doing maintenance checks before every flight. Method of Compliance: To substantiate compliance with the criterion, verification is by analysis and testing. Vibration and stress analyses of all components subjected to potential stress or vibration induced failure are conducted prior to component testing. The analysis includes prediction of the range of values for steady, cyclic and vibratory stresses, and the design point and life predictions relative to the analysis. Verification by analysis insures the loading reflects the influence of all environmental and operational factors on the life calculation methods of all fatigue sensitive coupling components. The following tests, as a minimum, are completed on couplings that are representative of the production units. a. Endurance Testing: Two couplings undergo an endurance fatigue test run at the maximum permissible misalignment and at 110% of the maximum torque seen by the coupling in service to validate required coupling fatigue life. b. Fault Tolerance Demonstration: Using one of the two endurance test couplings, testing is performed to demonstrate the flexible coupling\u2019s ability to transmit torque after a flexure failure. Prior to the test, the coupling is intentionally damaged by scratching and/or punching the flexure surface at a location approved by the Using Service. Testing demonstrates continued operation from initial failure indication to complete loss of function for a duration of at least three times (3X) the normal inspection interval. Visual and audible inspections of the specimens are performed during the test. The vibration characteristics of the coupling are monitored and recorded. If the coupling is so designed as to not become unserviceable within an acceptable period of testing, then a determination as to the safe inspection interval is made at that time. References: JSSG-2009: K.3.4.11.2, K.4.4.11.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Misalignment",
+      "text": "Standard: The drive shaft couplings can accommodate the maximum permissible misalignment of the drive shafts for all possible combinations of torque and speed, including airframe deflections. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., component specification, hardware drawings, system configuration descriptions, ICD, rotor drive system test reports, or other substantiating reports) to verify the couplings' maximum misalignment allowance is defined. Analysis.\n  (1) Conduct analysis of the airframe deflections, coupling interfaces, and manufacturing tolerances to define amount of allowable misalignment.\n  (2) Conduct vibration analysis to verify natural frequencies and acceleration loads at maximum misalignment identified in Analysis MoC (1).\n  (3) Conduct a stress analysis to verify the drive shafts and coupling mechanism components are capable of operating at 120% maximum torque at maximum permissible misalignment.\n  (4) Conduct fatigue analysis to verify design life. Analysis is based on minus 3-sigma, 50% confidence, material curves. The analysis includes prediction of the range of values for steady, cyclic, and vibratory stresses, and the life predictions relative to the analysis. Analysis ensures the loading reflects the influence of the environmental and operational factors on the life calculation methods of the drive coupling fatigue sensitive components.\n  (5) Conduct damage tolerance analysis based on worst case combinations of misalignment, torque and speed throughout the flight and ground envelope IAW 8.8.1 to verify crack growth rates within at least 3X the normal inspection interval. Test.\n    (1) Lab test: Conduct component-level testing at required torque and speed with shafts at maximum misalignment to verify drive system has positive strength margins of safety.\n    (2) Lab test: Conduct system-level testing to verify modal response.\n    (3) Lab test: Conduct endurance fatigue testing at maximum permissible misalignment on two production quality couplings to verify the coupling fatigue life.\n    (4) Lab test: Conduct damage tolerance testing on a bench setup to verify ability to transmit torque. If a flexible coupling is used, testing is conducted with a flexure failure on one side of the coupling. Testing is completed on one of the two endurance test couplings. Prior to the test, the coupling is intentionally damaged by scratching or punching the flexure surface at the most limiting and critical location. Testing validates continued operation from initial failure indication to complete loss of function per the standard, and visual and audible inspections of the specimens, performed during the testing, validate any inspection intervals documented in technical data. The vibration characteristics of the coupling are monitored and recorded during testing to validate vibration analysis. Fault tolerance testing ensures continued operation from initial failure indication to complete loss of function for a duration of at least 3X the normal inspection interval.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

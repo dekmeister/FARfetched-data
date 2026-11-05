@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.8.6",
+  "number": "6.1.7.6",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Control cross-coupling",
+  "subject_group": "6.1.7 Fixed-wing cross-axis response",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.8.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Control cross-coupling",
+      "text": "Criterion: Verify that control cross-coupling is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.4.6 Control cross-coupling. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.3.9 Interaxis coupling and 3.4.5 Interaxis coupling. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Control cross-coupling",
+      "text": "Standard: Controllers (continuous or discrete) that affect the motion of the air vehicle do not create a secondary response which results in flying qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the secondary response due to controller inputs as specified in MIL-STD-1797, Control Cross-Coupling paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the secondary response due to controller inputs as specified in MIL-STD-1797, Control Cross-Coupling paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the secondary response due to controller inputs as specified in MIL-STD-1797, Control Cross-Coupling paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.10.3",
+  "number": "6.1.10.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Carrier approach and landing",
+  "subject_group": "6.1.10 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Carrier approach and landing",
+      "text": "Criterion: Verify that carrier approach and landing are safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.6.3 Carrier approach and landing. Standards for UAS shipboard operations are provided by the airworthiness authority. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, design, test, or configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Carrier approach and landing",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.4.1",
+  "number": "17.1.4.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Store mass and physical properties",
+  "subject_group": "17.1.4 Store characteristics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Store mass and physical properties",
+      "text": "Standard: Store mass properties (including but not limited to weight, length, height, width, suspension spacing, CG, and moments of inertia) are defined for all variants intended for flight test and operational use. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of store, store components, and store materials to produce accurate estimates of store mass properties (e.g., weight, length, height, width, CG, moment of inertia) for all store configurations and allowable tolerances. Test.\n  (1) Ground test: Perform ground measurements to measure store mass properties and validate estimates produced via analytical methods.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

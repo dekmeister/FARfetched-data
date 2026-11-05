@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.7.1",
+  "number": "9.5.7.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Escape system design reliability",
+  "subject_group": "9.5.7 Escape system reliability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Escape system design reliability",
+      "text": "Standard: The minimum design reliability of the air vehicle escape system is at least 98%. The design reliability of the escape system is calculated from the reliability data of the elements and components in the operating environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Reliability analysis shows that the escape system meets the standard using design analysis and data for all escape system functional subsystems and components in the intended operating environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

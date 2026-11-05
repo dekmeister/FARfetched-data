@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1.4.4",
+  "number": "14.1.1.4.4",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Range safety",
+  "subject_group": "14.1.1.4 System safety program implementation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Range safety",
+      "text": "Criterion: Verify that the system safety program addresses range safety. Standard: The system safety program is responsive to test range safety requirements and official requests for safety analysis information. Method of Compliance: System safety program support for range safety is verified by inspection of system safety process documentation. References: MIL-STD-882 RCC 323 Range Safety Criteria for Unmanned Air Vehicles 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Range safety",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

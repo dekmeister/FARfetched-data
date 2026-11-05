@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.2.1",
+  "number": "10.1.2.1",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Aerial refueling envelope",
+  "subject_group": "10.1.2 Aerodynamic compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Aerial refueling envelope",
+      "text": "Standard: Tanker and receiver AR envelopes, altitude and airspeed are defined. Intersection of tanker and receiver envelope is defined and is operationally employable. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of flight manuals and system specifications for tanker and receiver air vehicles verify AR envelopes are documented. Analysis.\n  (1) Analysis of published AR envelope ensures both air vehicles have an operationally employable altitude and airspeed envelope. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Flight testing verifies AR operations can be executed within the limits of the AR envelope of the pairing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

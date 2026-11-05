@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.1.3",
+  "number": "8.4.1.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.4.1 Integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate crew station information is available to notify the flight crew of the system operating conditions.",
+      "text": "Verify that adequate crew station information is available to notify the flight crew of the system operating conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate crew station information is available to notify the operator(s) and crew of the system operating conditions. Standard: Warnings, cautions, advisories and other fire protection system information is defined and provided to appropriate operator, crew and maintenance personnel. Method of Compliance: Analysis, demonstration, inspection, ground tests and flight tests data verify that information is defined and reported to the appropriate operator, crew and maintenance personnel. References: MIL-HDBK-516: 9.2, 9.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

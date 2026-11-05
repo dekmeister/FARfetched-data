@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.5.5-516c",
+  "number": "6.1.5.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Failures",
+  "subject_group": "6.1.5 General flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Failures",
+      "text": "Criterion: Verify safety of flight following failures. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.1.5 Failures (see table XIX for guidance). b. 5.2.1.5.1 Transients following failures (see table XX for guidance). c. 5.2.1.5.2 Trim changes due to failures (see table XXI for guidance). For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.1.14 Rotorcraft failures, 3.7 Specific failures and 3.10.2 Failure of external load system. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.145 Longitudinal control, 23.147 Directional and lateral control, 23.149 Minimum control speed, 23.672 Stability augmentation and automatic and power-operated systems, 23.691 Artificial stall barrier system, 23.701 Flap interconnection 14 CFR 25.147 Directional and lateral control, 25.149 Minimum control speed, 25.671 General, 25.672 Stability augmentation and automatic and power-operated systems, 25.701 Flap and slat interconnection, 27.141 General, 27.143 Controllability and maneuverability 14 CFR 27; 27 Appendix B VII Stability Augmentation System (SAS)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Failures",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

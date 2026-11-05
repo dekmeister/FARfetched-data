@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.1.1.1",
+  "number": "12.1.10",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Notification of battery discharge",
+  "subject_group": "12.1 Electrical power generation system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "12.1.1.1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Notification of battery discharge",
+      "text": "Criterion: Verify that there is a means to notify the crew if an electrical malfunction is causing the continuous discharge of any safety of flight battery system. Standard: The electrical system is designed to provide crew and operator notification for any system malfunction that results in a continuous discharge mode of operation of any battery used in a flight critical/emergency battery system. Method of Compliance: Verification methods include analysis, test, and inspection of documentation. Verify that crew/operator receives notification for any system malfunction that results in a continuous discharge mode for any safety of flight batteries. Verify notification includes voltage and current of the battery system so that battery capacity can be evaluated. References: JSSG-2009: H.6.3.2. MIL-PRF-8565 MIL-PRF-81757 MIL-PRF-29595",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Notification of battery discharge",
+      "text": "Standard: The electrical system, of the air system, is designed to provide a signal to allow crewmember notification for any system malfunction that results in an unplanned discharge or degraded state of health of any battery used in an emergency battery system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Design documentation describes the battery threshold for go or no-go flight to ensure that battery capability exists to power those loads which are essential for continued controlled flight and landing.\n(2) Electrical schematics, ICDs, and flight manual show that indication exists to provide crewmember notification of unplanned discharge or degraded state of health of the battery. Test.\n  (1) Ground test: Air vehicle ground testing substantiates that a signal is provided to allow for crewmember notification when induced with an unplanned discharge or degraded state of health of any battery used in an emergency battery system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

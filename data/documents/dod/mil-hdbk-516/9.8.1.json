@@ -1,0 +1,75 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.1",
+  "number": "20.1.1",
+  "current_grouping": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+  "canonical_title": "Air vehicle structure",
+  "subject_group": "20.1 Air transportability and airdrop",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the air vehicle structure can support the loads imposed by the cargo during operational usage.",
+      "text": "Verify that the air vehicle structure can support the loads imposed by the cargo during operational usage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "9.8.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the air vehicle structure can support the loads (internal or external, as applicable) imposed by the cargo during operational usage.",
+      "text": "Verify that the air vehicle structure can support the loads (internal or external, as applicable) imposed by the cargo during operational usage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the air vehicle structure can support all loads (internal or external, as applicable) imposed by the transported items during operational usage.",
+      "text": "Verify that the air vehicle structure can support all loads (internal or external, as applicable) imposed by the transported items during operational usage. DoD/MIL Doc: JSSG-2000: para 3.1.7.2 JSSG-2001: para 3.4.5, 3.4.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the air vehicle structure can support all loads (internal or external, as applicable) imposed by the transported items during operational usage.",
+      "text": "Verify that the air vehicle structure can support all loads (internal or external, as applicable) imposed by the transported items during operational usage. DoD/MIL Doc: JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Air vehicle structure",
+      "text": "Criterion: Verify that the air vehicle structure can support all loads (internal or external, as applicable) imposed by the transported items during operational usage. Standard: The Operational Concept identifies applicable transported items (e.g., cargo, baggage, stowed equipment) and dictates range of structural requirements. Structural interfaces are calculated from worst case loading/flight conditions with the cargo floor and related systems. The aircraft's allowable structural limits for ground and flight operations exceed the identified cargo loads by a margin acceptable to the Program Office (see Section 5 for applicable design requirements.) Method of Compliance: Analysis and structural testing of subsystems or complete structures is performed. Structural testing verifies analytical results such that an acceptable margin of safety is attained for the design condition. References: JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6 MIL-HDBK-516: Section 5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Air vehicle structure",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.2",
+  "number": "15.1.6",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "System processing architecture interfaces",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.1.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all processing elements of the architecture, which interface (physically and functionally) with SOF functions, are designed as SOF.",
+      "text": "Verify that all processing elements of the architecture, which interface (physically and functionally) with SOF functions, are designed as SOF.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.1.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all processing elements of the architecture that interface (physically and functionally) with SOF functions are designed to meet SOF requirements.",
+      "text": "Verify that all processing elements of the architecture that interface (physically and functionally) with SOF functions are designed to meet SOF requirements. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3; JSSG-2008 Appendix A: para 3.3 Requirement Guidance and Lessons Learned for additional information concerning processing element selection. para 3.1.7.3, 3.1.8, 3.1.11, 3.14.4 and 3.2.2.6 provide guidance for integrating safety critical VCMS systems with non-safety critical processing elements. FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.1.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all processing elements of the architecture that interface (physically and functionally) with SOF functions are designed to meet SOF requirements.",
+      "text": "Verify that all processing elements of the architecture that interface (physically and functionally) with SOF functions are designed to meet SOF requirements. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3 JSSG-2008 Appendix A: 3.3 Requirement Guidance and Lessons Learned for additional information concerning processing element selection. 3.1.7.3, 3.1.8, 3.1.11, 3.14.4 and 3.2.2.6 provide guidance for integrating safety critical VCMS systems with non-safety critical processing elements FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "SPA interfaces",
+      "text": "Criterion: Verify that all SSEs of the SPA that interface (physically or functionally) with other processing elements (SSEs or non-SSEs) continue safe operation in the event there is a data channel failure or data corruption with the interfacing elements. Standard: The SPA physically and functionally separates SSEs from non-SSEs to maintain safe system operation. Failure of non-SSEs or the loss or corruption of data channels does not affect SSEs. All interfaces which handle data associated with SCFs have been identified (baselined and documented) as safety critical. SSE interfaces are designed to ensure data/calculation/system-timing dependencies do not impede system performance in any operational mode or degrade architectural safety coverage. Method of Compliance: Verification methods include analysis, interface testing, and inspection of documentation. The documentation is inspected for completeness in identifying all SSE and non-SSE interfaces. Verify through analysis (e.g., common mode) that the SPA requirements and design physically and functionally separate SSEs from non-SSEs. Verify through testing that non-SSEs do not affect SSEs. Testing of these interfaces addresses interface performance (e.g., interface loading, handshaking/protocols, timing/data/calculation/system dependencies) for all operational modes and failure modes to ensure safe system operation. References: JSSG-2008 Appendix A: 3.1.7.1 provides for basic partitioning of the architecture (hardware and software); 3.1.7.2 gives guidance regarding \"system arrangement\" (architecture design); 3.1.7.3 directly addresses isolation of less critical elements to prevent their failure from affecting critical functions, 3.1.8; 3.1.11, 3.14.4, 3.2.2.6, and 3.3.1 provide guidance for integrating safety critical VCMS systems with non-safety critical processing elements MIL-STD-882: For MIL-STD-882E, Task 208; B.2.2.5.a (see also MIL-STD-882D - A.4.3.3.b & d) DoD JSSSEH: 3.5; 4.3.6.2; 4.4.1.1; D.3.3 USAF Weapon Systems Software Management Guidebook: G.3.1 NASA-STD-8719.13B: 6.1.1.5 RTCA DO-254: 2.3.1 ARINC Specification 653 FAA AC 20-152 FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: 4.3.2 software fault isolation; A.1.15 isolation of safety-critical functions from non-critical functions DOT/FAA/AR-99/58: Partitions in Avionics Architectures",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "System processing architecture interfaces",
+      "text": "Standard: 1. Verify that all ESSs of the SPA that interface (physically or functionally) with other elements (ESSs or ENSSs) continue safe operation in the event there is a data channel failure or data corruption with the interfacing elements. The SPA physically and functionally separates ESSs from ENSSs to maintain safe system operation. Failure of ENSSs or the loss or corruption of data channels does not affect ESSs. All interfaces which handle data associated with SCFs have been identified (baseline established and documented) as safety-critical. Element Supporting Safety-Critical Function(s) interfaces are designed to ensure data, calculation, and system timing dependencies do not impede system performance in any operational mode or degrade architectural safety coverage. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, interface testing, and examination of documentation. The documentation is examined for completeness in identifying all ESS and ENSS interfaces. Verify through analysis (e.g., common mode) that the SPA requirements and design physically and functionally separate ESSs from ENSSs. Verify through testing that ENSSs do not adversely impact the integrity of SCF operation. Testing of these interfaces addresses interface performance (e.g., interface loading; handshaking; protocols; timing, data, calculation, and system dependencies) for all operational modes and failure modes to ensure safe system operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

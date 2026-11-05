@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.8.2",
+  "number": "6.1.7.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Lateral-directional control in dives and pullouts",
+  "subject_group": "6.1.7 Fixed-wing cross-axis response",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.8.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control in dives and pullouts",
+      "text": "Criterion: Verify that lateral-directional control in dives and pullouts is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.4.2 Lateral-directional control in dives and pullouts. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.253 High speed characteristics 14 CFR 25.253 High-speed characteristics",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control in dives and pullouts",
+      "text": "Standard: The roll and yaw control forces to maintain wings-level and zero sideslip, without retrimming, throughout dives and recoveries within the ROTH are no worse than the limits as specified in MIL-STD-1797, Lateral-Directional Control in Dives and Pullouts paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the roll and yaw control forces in dives and pullouts, including in the ROTH, as specified in MIL-STD-1797, Lateral-Directional Control in Dives and Pullouts paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the roll and yaw control forces in dives and pullouts, including in the ROTH, as specified in MIL-STD-1797, Lateral- Directional Control in Dives and Pullouts paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the roll and yaw control forces in dives and pullouts, including in the ROTH, as specified in MIL-STD-1797, Lateral-Directional Control in Dives and Pullouts paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

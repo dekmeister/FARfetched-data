@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.5.1",
+  "number": "8.2.5.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Environmental control system status and fault indications",
+  "subject_group": "8.2.5 Flight crew interfaces",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Environmental control system status and fault indications",
+      "text": "Standard: The air system provides the means at the flight crew station to indicate ECS parameters, system faults, degraded system performance, and flight-critical equipment temperature limit exceedances. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review drawings and flight crew interfaces to verify that ECS information is provided to the flight crew to monitor ECS performance and to notify of ECS failures, degradation, or flight-critical equipment temperature limit exceedances. Analysis.\n  (1) Conduct analysis, such as a SSHA and FMECA, to verify that ECS failures are identified. Test.\n    (1) Lab test: Conduct lab testing (e.g., HITL, FMET) or air vehicle simulations to verify that ECS information and notifications of ECS failures, degradation, and flight-critical equipment temperature limit exceedances are provided to the flight crew.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

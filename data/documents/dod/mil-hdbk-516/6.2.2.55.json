@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.55",
+  "number": "6.2.8.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Emergency procedures",
+  "subject_group": "6.2.8 Flight crew procedures",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "6.2.2.55",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that emergency procedures are appropriate and safe for the emergency that they address.",
+      "text": "Verify that emergency procedures are appropriate and safe for the emergency that they address.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.55",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that emergency procedures are appropriate and safe for the emergency that they address.",
+      "text": "Verify that emergency procedures are appropriate and safe for the emergency that they address. DoD/MIL Doc: ADS-51-HDBK ADS-33E-PRF Refer to Army Aviation technical point of contact for this discipline for specific guidance (listed in section A.2). FAA Doc: TBD: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.2.8",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Emergency procedures",
+      "text": "Criterion: Verify that emergency procedures are safe and appropriate. Standard: Development of VCF emergency procedures covers in-flight and ground failures. Emergency procedures are reviewed and coordinated with aircrew, maintainers, functional engineers and contractors. The emergency procedures in the flight manuals (e.g., operator manuals) and ground operation manuals are clear and unambiguous concerning problems and associated corrective actions. Procedures are configuration controlled and no procedure is released without meeting the above requirements and verification. Method of Compliance: Verification methods include analysis, test, demonstration, and review of documentation. Emergency procedures are verified by engineers, aircrew, maintainers and contractors for completeness and accuracy. Verification is accomplished through FMET (failure mode tests), SIL, and testing in a functional mockup or ground testing on the actual aircraft with the aircrew and ground personnel.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Emergency procedures",
+      "text": "Standard: For the VCF and applicable integrated subsystems, flight crew emergency procedures provide the flight crew with clear direction to mitigate hazards for identified failure modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manual to verify emergency procedures and corresponding limits are clear and represent the state of the VCF development going into flight test. Emergency procedure specific air vehicle limits are supported by the VCF design and analysis. Test.\n  (1) Lab test: Where possible, PITL FMET procedures are performed with the emergency procedures to demonstrate clarity and effectiveness. Any redlines from testing are reviewed and incorporated into the procedures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n  (2) Review the flight manual to verify emergency procedures and corresponding limits are clear and represent the state of the VCF design. a. Emergency procedure updates from flight test are incorporated in the flight manual. b. Emergency procedure specific air vehicle limits are supported by the VCF design, analysis, and flight test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.12",
+  "number": "8.3.20",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Electrical and electromagnetic effects",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the system has been designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks.",
+      "text": "Verify that the system has been designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the system is designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks.",
+      "text": "Verify that the system is designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.9, E.4.4.5.1.9, E.3.4.5.1.11, E.4.4.5.1.11, E.3.4.5.7, E.4.4.5.7, E.3.4.5.8.12, E.4.4.5.8.12, FAA Doc: 14CFR references: 23.863, 23.954, 23.971, 23.975, 25.863, 25.954, 25.971, 25.975, 25.981 AC 20-53A, AC 20-136, AC 25.981-2, AC 25.981-1B, AC 25-16",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.3.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the system is designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks.",
+      "text": "Verify that the system is designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.9, E.4.4.5.1.9, E.3.4.5.1.11, E.4.4.5.1.11, E.3.4.5.7, E.4.4.5.7, E.3.4.5.8.12, E.4.4.5.8.12 FAA Doc: 14CFR references: 23.863, 23.954, 23.971, 23.975, 25.863, 25.954, 25.971, 25.975, 25.981 AC 20-53A, AC 25.981-2, AC 25.981-1B, AC 25-16",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.13",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Electrical and electromagnetic effects",
+      "text": "Criterion: Verify that the system is designed to withstand the hazards associated with lightning, static electricity, fuel leaks, and the introduction of electrical power into fuel tanks. Standard: The fuel system is designed to withstand any fire or explosion hazards caused by direct lightning strikes. The fuel system design prevents static electricity discharge to minimize sparks from occurring and creating ignition hazards. Electromagnetic environmental effects on the fuel system are compliant with MIL-STD-464. Hazards from external fuel leakage are mitigated during normal operating conditions, including ground and in-flight refueling. Fuel tank and component sealing design criteria are adequately defined. Method of Compliance: Air vehicle inspection and measurements verify compliance with the air vehicle bonding and lightning protection requirements. Components qualification and drawing inspections verify compliance with the bonding and lightning protection requirements. Lightning ground tests verify adequacy of the protection designs. Fuel tank and component sealing are analyzed and tested at the component/simulator level to confirm sealant integrity. On aircraft leak checks are conducted to confirm final assembly. A FMECA verifies risk is mitigated to an acceptable level. References: JSSG-2009: E.3.4.5.1.9, E.4.4.5.1.9; E.3.4.5.1.11, E.4.4.5.1.11; E.3.4.5.7, E.4.4.5.7; E.3.4.5.8.11, E.4.4.5.8.11 MIL-STD-464 14 CFR 23.863, 23.954, 23.971, 23.975, 25.863, 25.954, 25.971, 25.975, 25.981, 27.863, 27.954, 27.971, 27.975, 29.863, 29.954, 29.971, 29.975 AC 20-53A AC 20-136 AC 25-16 AC 25.981-2 AC 25.981-1B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Electrical and electromagnetic effects",
+      "text": "Standard: The fuel system prevents fire or explosions due to static electricity discharges, lightning strikes, or the introduction of electrical power into fuel tanks for all flight and ground operations, AR, and fuel leak conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design requirements to show fuel tank and component sealing design criteria are defined. Analysis.\n  (1) Perform a FMECA to verify risks are mitigated to required levels.\n  (2) Perform analysis to show fuel tank and component sealing and sealant integrity will meet performance and life cycle requirements.\n  (3) Perform analysis that show E3 on the fuel system are IAW MIL-STD-464, Detailed Requirements section.\n  (4) Perform analysis that shows lightning protection features will prevent the creation of ignition sources during lightning strikes. Test.\n    (1) Lab test: Conduct tests that show fuel tank and component sealing integrity meet performance requirements.\n    (2) Ground test: Conduct air vehicle inspection and measurements to verify compliance with the air vehicle bonding and lightning protection requirements.\n    (3) Ground test: Conduct lightning ground tests to verify adequacy of the protection designs.\n    (4) Ground test: Conduct leak checks to confirm integrity of final assembly.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

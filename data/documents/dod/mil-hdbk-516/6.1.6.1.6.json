@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.6.1.6",
+  "number": "6.1.5.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Normal acceleration at the pilot station",
+  "subject_group": "6.1.5 Fixed-wing longitudinal flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.6.1.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Normal acceleration at the pilot station",
+      "text": "Criterion: Verify that normal acceleration at the pilot station is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.2.1.6 Normal acceleration at the pilot station. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Normal acceleration at the pilot station",
+      "text": "Standard: The dynamic normal acceleration response at the pilot station to the pitch controller does not result in flying qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the center of rotation in pitch is appropriately situated in relation to the pilot station as specified in MIL-STD-1797, Normal Acceleration at the Pilot Station paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the dynamic normal acceleration response at the pilot station as specified in MIL-STD-1797, Normal Acceleration at the Pilot Station paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the dynamic normal acceleration response at the pilot station as specified in MIL-STD-1797, Normal Acceleration at the Pilot Station paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

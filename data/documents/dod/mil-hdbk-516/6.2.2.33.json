@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.33",
+  "number": "6.2.13.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Structural mode interaction",
+  "subject_group": "6.2.13 Vehicle control function integrated systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.33",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins.",
+      "text": "Verify sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.33",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins.",
+      "text": "Verify that sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins. DoD/MIL Doc: JSSG-2008: para 3.0, 3.1, 3.1.2.1, 3.1.5, 3.1.5.6, 3.1.7.2, 3.1.11, 3.1.13, 3.1.15, 3.1.17, 3.2.2.2, 3.2.2.5, 3.2.2.5.1.1, 3.2.2.5.2, 3.2.2.5.4.3, 3.2.2.5.4.4, 3.3.4, 3.3.6.2, 3.5.7, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.33",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins.",
+      "text": "Verify that sensors are safely located to minimize/avoid structural mode coupling including vibration from configuration loading and gun fire, and to have safe sensitivity margins. DoD/MIL Doc: JSSG-2008: 3.0, 3.1, 3.1.2.1, 3.1.5, 3.1.5.6, 3.1.7.2, 3.1.11, 3.1.13, 3.1.15, 3.1.17, 3.2.2.2, 3.2.2.5, 3.2.2.5.1.1, 3.2.2.5.2, 3.2.2.5.4.3, 3.2.2.5.4.4, 3.3.4, 3.3.6.2, 3.5.7, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.7.4",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Structural mode interaction (SMI)",
+      "text": "Criterion: Verify that sensors are safely located to minimize/avoid SMI, including vibration from configuration loading and gun fire, and have safe margins. Standard: Sensors locations do not cause erroneous feedback. As integrated into the VCF, sensors do not aggravate SMI, including vibration from configuration loading and gun fire. As necessary, the VCF contains features (e.g., SMI filters) to minimize these interactions. Sensors location analyses account for sensitivities to actual manufacturing, variations in key stability derivatives, and structural mode frequencies. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. Verification of air vehicle structural interactions is verified by analysis, simulation, SMI, ground vibration test (GVT), and flight tests. Ground testing is conducted with the aircraft on a soft suspension system to eliminate any constraints imposed by the landing gears. Locations of sensors are verified by inspection. References: JSSG-2008: 3.0, 3.1, 3.1.2.1, 3.1.5, 3.1.5.6, 3.1.7.2, 3.1.11, 3.1.13, 3.1.15, 3.1.17, 3.2.2.2, 3.2.2.5, 3.2.2.5.1.1, 3.2.2.5.2, 3.2.2.5.4.3, 3.2.2.5.4.4, 3.3.4, 3.3.6.2, 3.5.7, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Structural mode interaction",
+      "text": "Standard: Vehicle control function sensors and bio-dynamic feedback do not drive closed loop SMI instability, including vibration from configuration loading and gun fire. As necessary, the VCF contains features (e.g., SMI filters) to minimize these interactions to at least 6 dB of gain margin at frequencies less than or equal to the first aeroelastic mode and 8 dB of gain margin at frequencies greater than the first aeroelastic mode. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the requirements and design of VCF features that minimize SMI for effectivity and adequacy.\n(2) Review of placement of sensors to be in appropriate places with respect to air vehicle structural dynamics. Analysis.\n  (1) Informed by ground test, analysis of SMI is conducted with variations in flight condition, CG, mass distribution (including fuel), and external store configuration to determine gain margin across the envelope for each control loop.\n  (2) Conduct pilot mode analysis to identify sources of bio-dynamic feedback. Test.\n    (1) Ground test: Conduct ground test (structural coupling test) to determine zero speed margins. Ground testing is conducted with the air vehicle on a soft suspension system to eliminate any constraints imposed by the landing gear. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Review flight test reports for VCF performance with respect to SMI.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

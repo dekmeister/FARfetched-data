@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.1.7",
+  "number": "7.5.7",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Vibration and balancing",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of balancing to remove vibration that could cause equipment to operate below specified requirements or cause excessive crew discomfort.",
+      "text": "Verify that the propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of balancing to remove vibration that could cause equipment to operate below specified requirements or cause excessive crew discomfort. DoD/MIL Doc: JSSG-2009: para L.3.4.12.6, L.4.4.12.6, guidance on vibration and balance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.3.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of balancing to remove vibration that could cause equipment to operate below specified requirements or cause excessive crew discomfort.",
+      "text": "Verify that the propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of balancing to remove vibration that could cause equipment to operate below specified requirements or cause excessive crew discomfort. DoD/MIL Doc: JSSG-2009: L.3.4.12.6, L.4.4.12.6, guidance on vibration and balance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Vibration and balancing",
+      "text": "Criterion: Verify that the propeller system is free of destructive vibrations at all steady state and transient operating conditions. Standard: The propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of being balanced to remove vibration that could cause equipment to operate outside specified requirements, cause equipment damage or cause excessive crew discomfort. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis shows all critical vibratory modes, their frequencies and stresses as a function of blade angle and rpm. This vibration analysis forms the basis for instrumentation and data reduction during testing. The vibratory characteristics of the propeller are verified from the data obtained during the vibratory stress surveys conducted during the whirl stand tests, the engine and propeller test stand tests and the air vehicle tests. Data representing all bending and twisting modes as well as unbalance are identified and compared to design calculated values and to specified limits. Verification of balancing methods is based on analysis of vibration data obtained during propeller and engine stand tests and flight tests. Verification of balancing and re-balancing provisions is accomplished by inspection of assembly and maintenance procedures. References: JSSG-2009: L.3.4.12.6, L.4.4.12.6 guidance on vibration and balance",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Vibration and balancing",
+      "text": "Standard: The propeller system is free of damaging vibration, damaging resonance conditions, or other damaging DR, regardless of excitation source, when operated, at all rotational speeds and thrust or power settings under installed or uninstalled steady state and transient conditions, IAW 7.5.2 for the stated life documented in technical data. a. Maximum mechanical vibration limits, for both installed and uninstalled operation, are defined for each measurement location and direction. b. Maintenance balance procedures are defined in technical data and eliminate vibration that could cause equipment to operate outside specified requirements, cause equipment damage, or that inhibits the flight crew from effectively accomplishing required functions during installed operation. c. Damaging critical speeds for propeller system do not occur in the speed range from 20% below the minimum operating speed to 20% above maximum allowable transient shaft rotational speed in both forward and reverse thrust modes. Damping and balancing allow any critical speed that exists from rest to 20% above maximum operating speed to be traversed with smooth operation and without damage. d. The propeller is free from flutter in both forward and reverse thrust modes under conditions up to 120% of maximum rated engine speed and at power settings up to the standard day maximum take-off power rating of the engine. e. Windmilling operation does not result in damaging vibration to the propeller system, engine, or air vehicle. f. Propeller system areas that could puddle oil or fluid have drains. g. No damaging vibration is transmitted to or from the engine through the propeller system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Propeller system vibration limits are defined in technical data.\n(2) Propeller system balance limits and procedures are defined for assembly and maintenance in technical data.\n(3) Examination of flight manuals and maintenance manuals verifies that vibration-driven or flutter-driven operating limitations are defined.\n(4) Review of product definition data and models verifies that propeller system oil and fluid drain features are present. Analysis.\n  (1) Analysis is accomplished to determine vibratory characteristics of the complete propeller system installed in the air vehicle. A dynamic model of the system including all relevant mass, stiffness, damping, and boundary conditions is developed to analyze critical speeds and associated DRs. Analysis and models are calibrated to test results.\n  (2) Flutter modeling and analysis is performed to verify stable operation of the propeller system and components under all operating conditions within the flight operating envelope of the air vehicle on which the propeller system is to be used. Analysis of test results is conducted to determine operating limits for self-excited vibrations and to verify responses do not occur in the operating range.\n  (3) Analysis is accomplished to determine the range of windmilling speeds, considering installation effect throughout the entire flight and ground envelope. Test.\n    (1) Lab test: Component bench tests are accomplished to validate blade natural frequencies and mode shapes.\n    (2) Lab test: Instrumented vibration surveys are accomplished in a whirl stand to verify the stress characteristics of the hub and blade and the flutter characteristics of the blade and propeller system.\n    (3) Lab test: Instrumented vibration stress survey of the propeller installed on the engine in a sea level test stand covering all appropriate conditions of engine operation verifies the stress characteristics of the engine and propeller system and verifies measured stresses for any vibratory response within the operating range are within the allowable material limits. Propeller and engine vibration monitoring confirms no damaging vibration is transmitted to or from the engine.\n    (4) Ground test: Instrumented ground vibratory stress survey of the propeller system on all nacelles of the air vehicle being certified verifies the stress characteristics of the propeller when operated in the air vehicle environment, verifies measured stresses for any vibratory response within the operating range are within the allowable material limits, and verifies no flutter occurs within defined operating limits. Static crosswind conditions are included in the evaluation. Installed vibration testing in air vehicle confirms no vibration that could cause equipment to operate outside specified requirements, cause equipment damage, or that inhibits the flight crew from effectively accomplishing required functions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Instrumented flight vibratory stress survey of the propeller system on all nacelles of the air vehicle being certified verifies the stress characteristics of the propeller when operated in the air vehicle environment, verifies measured stresses for any vibratory response within the operating range are within the allowable material limits, and verifies no flutter occurs within defined operating limits. Crosswind and maneuver conditions are included in the evaluation. Installed vibration testing in air vehicle confirms no vibration that could cause equipment to operate outside specified requirements, cause equipment damage, or that inhibits the flight crew from effectively accomplishing required functions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

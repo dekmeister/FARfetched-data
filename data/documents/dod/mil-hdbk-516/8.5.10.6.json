@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.6",
+  "number": "8.5.9.7",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Emergency extension times",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.10.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the emergency extension times are compatible with emergency landing requirements.",
+      "text": "Verify that the emergency extension times are compatible with emergency landing requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.10.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the emergency extension times are compatible with emergency landing requirements.",
+      "text": "Verify that the emergency extension times are compatible with emergency landing requirements. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.7/A.4.4.1.5.7 Emergency extension; AFGS-87139: para 3.2.6.3 Retraction-extension time. FAA Doc: 14CFR reference: 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.10.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the emergency extension times are compatible with emergency landing requirements.",
+      "text": "Verify that the emergency extension times are compatible with emergency landing requirements. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.7/A.4.4.1.5.7 Emergency extension AFGS-87139: 3.2.6.3 Retraction-extension time FAA Doc: 14CFR reference: 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.10.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Emergency extension",
+      "text": "Criterion: Verify that the emergency extension times are compatible with emergency landing requirements. Standard: When the alternate method of extension is used, such as freefall or backup/emergency power, the gear achieves its final down and locked position at limit speeds before power is lost or interrupted and prior to touchdown. Method of Compliance: Verification methods include analyses, test, simulations and demonstrations. The FMECA identifies all failures that could result in unsafe landing gear extension. For the emergency conditions defined by the analysis, the emergency extension times are compatible with air vehicle landing requirements. Simulator testing identifies emergency extend times and operation. Air vehicle checkouts verify installation and emergency extension performance. Flight testing validates the extend times and extension performance. References: JSSG-2009: A.3.4.1.5.7, A.4.4.1.5.7 Emergency extension AFGS-87139: 3.2.6.3 Retraction-extension time 14 CFR 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Emergency extension times",
+      "text": "Standard: Emergency landing gear extension achieves its final down and locked position at gear down limit speeds within the specified time limits before power is lost or interrupted and prior to touchdown. The emergency extension can be completed under all flight and ground thermal environmental envelopes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies the emergency extension times are compatible with the air vehicle landing requirements and thermal environments. Test.\n  (1) Ground test: Conduct ground tests to verify the emergency extension performance. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight tests to verify the extend times and extension performance under maximum design limit air and inertial loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

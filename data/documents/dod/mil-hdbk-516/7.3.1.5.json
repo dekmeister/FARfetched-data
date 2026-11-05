@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.1.5",
+  "number": "7.5.10",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Feathering system",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the manual and automatic feathering systems are operational for all steady state, transient, and emergency operating conditions.",
+      "text": "Verify that the manual and automatic feathering systems are operational for all steady state, transient, and emergency operating conditions. DoD/MIL Doc: JSSG-2009: para L.3.4.12.1, L.4.4.12.1, feathering systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.3.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the manual and automatic feathering systems are operational for all steady state, transient, and emergency operating conditions.",
+      "text": "Verify that the manual and automatic feathering systems are operational for all steady state, transient, and emergency operating conditions. DoD/MIL Doc: JSSG-2009: L.3.4.12.1, L.4.4.12.1, feathering systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.1.5",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Feathering system",
+      "text": "Criterion: Verify that the manual and automatic feathering systems are operational for all steady state, transient, and emergency operating conditions and are achieved in the specified amount of time. Standard: The propeller feathering system remains operable under all flight conditions, including windmilling dives. The command to feather results in an increase pitch action at the fastest rate available from the pitch actuating system. Pitch change traverses fully to the full feather position without further operator/pilot commands. An emergency means of initiating feathering is incorporated which is independent of the normal means for such operations. Upon receiving a signal from the airframe for feathering, the propeller pitch advances completely to the feather position within an appropriate period of time. The time required for the propeller to achieve full feather position is consistent with flight safety requirements as determined by asymmetric thrust on multi-engine air vehicles and loss of flight energy due to drag on single engine air vehicles. Rotation of the propeller is not required to complete the feathering cycle. Method of Compliance: Verification methods include analysis, test, demonstration and inspection of documentation. A Failure Modes, Effects and Criticality Analysis (FMECA) details all known potential failure modes and their associated probabilities. Risk levels meet the safety thresholds. Demonstration of satisfactory control of the propeller is accomplished through the control response test, the steady state check, the transient check and miscellaneous checks conducted as part of the engine and propeller test stand and air vehicle flight testing. References: JSSG-2009: L.3.4.12.1, L.4.4.12.1 feathering systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Feathering system",
+      "text": "Standard: Feathering propellers, when commanded, will feather and unfeather from all flight conditions and rotational speeds, to include emergency operations (e.g., windmilling dives), under steady state and transient conditions, IAW 7.5.2 for the stated life documented in technical data. When commanded to feather, the propeller pitch traverses to the full feather position at a rate compatible with the asymmetric thrust on a multi-engine air vehicle and without loss of flight energy due to drag on a single engine air vehicle. An emergency means of initiating feathering is incorporated which is independent of the normal means for such operations. Propeller pitch control systems that use engine oil to feather, incorporate a method to allow the propeller to feather if the engine oil system fails. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., propeller control system design documentation, hardware drawings, system configuration descriptions, design data records, ICD, test reports, or other substantiating records/reports) to verify the design. Analysis.\n  (1) Steady state, transient, and emergency operating conditions are analyzed to verify the control of the propeller feathering system. Test.\n    (1) Lab test: Propeller test stand testing provides the control response to steady state, transient, and emergency operating conditions to verify the control and feathering of the propeller.\n    (2) Lab test: Engine-propeller system combination ground-based cell testing provides the control response to steady state, transient, and emergency operating conditions to verify the control and feathering of the propeller. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight test of the engine-propeller combination provides the control response to steady state, transient, and emergency operating conditions to verify the control and feathering of the propeller.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

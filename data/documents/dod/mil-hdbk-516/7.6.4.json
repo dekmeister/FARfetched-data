@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.6.4",
+  "number": "7.4.11",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Lubrication system non-combustion",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.6.4",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the lubrication system and bearing compartments do not produce combustion.",
+      "text": "Verify that the lubrication system and bearing compartments do not produce combustion.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.13",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the lubrication system and bearing compartments do not support combustion.",
+      "text": "Verify that the lubrication system and bearing compartments do not support combustion. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: para A.3.7.8/A.4.7.8, Lubrication System JSSG-2007A: para A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance and fireproof testing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.13",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the lubrication system and bearing compartments do not support combustion.",
+      "text": "Verify that the lubrication system and bearing compartments do not support combustion. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: A.3.7.8/A.4.7.8, Lubrication System JSSG-2007A: A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance and fireproof testing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.13",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Lubrication system non-combustion",
+      "text": "Criterion: Verify that the lubrication system and bearing compartments do not support combustion. Standard: Lubrication and bearing compartments such as tanks, lines, gearboxes and sumps do not allow the collection or buildup of materials that initiates or supports combustion. Components that are exposed to both fuel and oil (e.g., heat exchangers, fuel lubricated oil pumps) do not allow engine fuel flow to enter the lubrication system, bearing compartments or gearboxes. All oil carrying components, lines and manifolds are fire proof. Method of Compliance: Verification methods include analysis, test and review of documentation. Analysis of bearing compartments, tanks, lines, gearboxes and sumps establish the system design parameters. Analysis and bench testing verifies fuel and oil carrying component failures do not allow mixing of the two systems. Fireproof is verified by testing where a 2000 \u00b0F flame is applied to the component or line for 15 minutes with no flame propagation. References: JSSG-2007: A.3.7.8, A.4.7.8 Lubrication System; and A.3.1.8.1, A.4.1.8.1 Flammable Fluid Systems - fire resistance and fireproof testing SAE AS1055",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Lubrication system non-combustion",
+      "text": "Standard: Lubrication system and bearing compartments (e.g., tanks, lines, gearboxes, sumps) do not allow the collection or buildup of materials that initiates or supports combustion. Components that are exposed to both fuel and oil (e.g., heat exchangers, fuel lubricated oil pumps) do not allow engine fuel flow to enter the lubrication system, bearing compartments or gearboxes. Fuel and oil carrying components do not allow mixing of the two systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, materials and manufacturing records, design data records, inspection reports, photographs, or other substantiating records and reports) and verify components cannot mix and lubrication systems will not initiate and support combustion. Analysis.\n  (1) Analysis verifies fuel and oil carrying components cannot mix and lubrication systems will not initiate and support combustion. Test.\n    (1) Lab test: Bench testing verifies fuel and oil components cannot mix and lubrication systems will not initiate and support combustion.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

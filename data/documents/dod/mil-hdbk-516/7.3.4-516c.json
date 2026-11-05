@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.4-516c",
+  "number": "7.3.4",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Other propulsion systems",
+  "subject_group": "7.3 Alternate propulsion systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Other propulsion systems",
+      "text": "Criterion: Verify the other propulsion systems (e.g., rotary, wankel, electric) are safe. Standard: The propulsion system provides safe operation under all intended conditions. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. References: 14 CFR 33 subpart C for design requirements for commercial applications 14 CFR 33 subpart D for verification requirements for commercial applications",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Other propulsion systems",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

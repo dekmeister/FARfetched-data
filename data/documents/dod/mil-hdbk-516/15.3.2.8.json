@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.2.8",
+  "number": "15.5.9",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Resource capacity",
+  "subject_group": "15.5 Software architecture and design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.2.8",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions.",
+      "text": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.2.8",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions.",
+      "text": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.5; JSSG-2008 Appendix A: para 3.3.5 contains guidance regarding reserve capacity. Para 3.1.14.6 contains guidance for worst case throughput and I/O spare. Para 3.5.7 establishes performance parameters for spare capacity and margin. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.2.8",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions.",
+      "text": "Verify that there is sufficient throughput margin for both input/output and processor capabilities (including memory) under worst-case mode performance scenarios for both average and peak worst-case loading conditions. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.5 JSSG-2008 Appendix A: 3.3.5 contains guidance regarding reserve capacity; 3.1.14.6 contains guidance for worst case throughput and I/O spare; 3.5.7 establishes performance parameters for spare capacity and margin FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Resource capacity",
+      "text": "Criterion: Verify that there is sufficient capacity and design margin for all processors, data channels (I/O, buses, etc.), and data storage devices. Standard: The system is designed to accommodate the software implementation with enough capacity (throughput, memory, bus, and I/O capacity) to complete all critical software tasks. Each processing component is designed with enough capacity that any limits (e.g., in major and minor frames) are not reached (for Air Force, exceeded) under peak/worst-case, full loading. Systems analysis develops throughput, memory, bus, and I/O utilization allocations. For Air Force, the throughput capacity of each processing core (e.g., a single core of a multi-core processor) and bus loading capacity does not exceed 90% utilization under peak/worst-case, fully loaded conditions. For Army, processing rates and margins do not reach the peak/worst-case, full loading rates and margins contractually specified for the life cycle phase. For Army, at no time during the life cycle do the processing rates and margins degrade to an unacceptable level. Method of Compliance: Verification methods include analysis and test. Throughput is measured as a series of benchmarks of the implemented system. Throughput allocations are verified in test under peak/worst-case, fully loaded conditions. Analysis and test verify that all processing and data channel rates are acceptable. Analysis verifies that load image size does not exceed available memory. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.5.c.3 and III.5.f); 3.1.14.6 contains guidance for worst case throughput and I/O spare; 4.1.18 Lessons Learned provides historical example of throughput issues; 3.3.5 contains guidance regarding reserve capacity; 3.5.7 establishes performance parameters for computing resource margin DoD JSSSEH: 4.3.8; 4.4.2.5; E.13.11 USAF Weapon Systems Software Management Guidebook: 3.8.b; G.3.1; G.3.3 NASA-NPR 7150.2 Rev A: 5.3.1.e computer resource utilization NASA-GB-8719.13: 6.6.6 timing, throughput and sizing analysis RTCA DO-178: 6.3.2.c of RTCA DO-178C (see also RTCA DO-178B: 6.3.2.c) RTCA DO-255: 2.6.1; 2.6.2; 2.6.3; 2.6.4; 2.6.5 IEEE Std 1012-2012: 9.2 Activity 1.c.1.iv IEEE 12207.2-1997 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 5.3.2 guidance for computer hardware resource utilization SAE EIA-632-1999: Table C.16.d FAA AC 20-115C FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.1.2 DOT/FAA/AR-07/48: 6.7 throughput limits conveyed; 7.1 worst-case execution times",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Resource capacity",
+      "text": "Standard: 1. Verify that there is sufficient capacity and design margin for all processors, data channels (e.g., I/O, buses), and data storage devices. The system is designed to accommodate the software implementation with enough capacity (throughput, memory, bus, and I/O capacity) to complete all critical processing tasks. Each processing component is designed with enough capacity that any limits (e.g., in major and minor frames) are not reached (for Air Force, exceeded) under peak, worst-case, full loading. Systems analysis develops throughput, memory, bus, and I/O utilization allocations. The processing throughput capacity (as measured at the minor frame boundary) of each processing core (e.g., a single core of an MCP) does not exceed 90% utilization under peak, worst-case, fully loaded conditions. For internal processor buses, utilization does not result in lost data, erroneous data, unacceptable delays, or other effects that can adversely impact the integrity of SCF operation. For all other buses (e.g., internal LRU, external LRU), bus loading capacity does not exceed 90% utilization under peak, worst-case, fully loaded conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Throughput is measured as a series of benchmarks of the implemented system. Throughput allocations are verified in test under peak, worst-case, fully loaded conditions (e.g., MCP environment with all software running simultaneously) that the air system could realistically encounter. Analysis and test verify that all processing and data channel rates are acceptable. Analysis verifies that load image size does not exceed available memory. Analysis and test verify that the memory usage and structure ensure the integrity of SCF operation under worst-case scenarios.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

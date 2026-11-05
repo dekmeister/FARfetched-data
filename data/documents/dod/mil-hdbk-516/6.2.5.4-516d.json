@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.5.4-516d",
+  "number": "6.2.5.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Nuisance failures",
+  "subject_group": "6.2.5 Redundancy management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Nuisance failures",
+      "text": "Standard: Failure detection performance is evaluated with credible worst-case component tolerances to ensure failure monitor threshold and persistence values do not result in nuisance failures at a rate that degrades failure response and PLOC compliance. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Vehicle control function component tolerance analysis demonstrates redundancy management and BIT monitor threshold and persistence values are set to provide robustness to nuisance failures while exposed to the component operating environment as well as component variations over life. Test.\n  (1) Lab test: Failures during formal hardware and system-level testing are analyzed to determine root cause. Where nuisance faults are the root cause, monitor thresholds and persistence values are updated as required to bound the perceived failure rates (the rate at which a component is predicted to be marked failed by the failure detection logic) to values that do not affect compliance to the failure response and PLOC standards. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Failures during flight test are analyzed to determine root cause. Where nuisance faults are the root cause, monitor thresholds and persistence values are updated as required to bound the perceived failure rates (the rate at which a component is predicted to be marked failed by the failure detection logic) to values that do not affect compliance to the failure response and PLOC standards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

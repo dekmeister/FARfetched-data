@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.8.5",
+  "number": "8.5.8.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Anti-skid system",
+  "subject_group": "8.5.8 Brake control and anti-skid control",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle.",
+      "text": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle.",
+      "text": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle. Comm\u2019l Doc: SAE ARP-1070. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.4/A.4.4.1.4.4.4 skid control with power interruption; and A.3.4.1.4.4.5/A.4.4.1.4.4.5 anti-skid engagement and disengagement; AFGS-87139: para 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes; MIL-B-8584 Design of Brake Systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle.",
+      "text": "Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability of the pilot to control the air vehicle. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.4/A.4.4.1.4.4.4 skid control with power interruption; and A.3.4.1.4.4.5/A.4.4.1.4.4.5 anti-skid engagement and disengagement AFGS-87139: 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes MIL-B-8584 Design of Brake Systems",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Anti-skid system",
+      "text": "Criterion: Verify that anti-skid system design can respond to any power interruptions or system malfunctions without compromising the ability to control the air vehicle. Standard: The braking and deceleration system responds to an internal anti-skid malfunction or to external power interruption. The anti-skid self-correcting features switch to alternate braking mode in a safe and controllable manner. The change in controlling function is designed to provide for safe recovery of the air vehicle from any failure state. Method of Compliance: Verification methods include analyses, tests and demonstrations. The FMECA identifies failures of the anti-skid system. Simulator testing verifies the modes of operation shown in the FMECA results. Air vehicle checkout verifies proper functioning of the anti-skid system as integrated within the brake control system. Flight and ground testing demonstrate the successful operation of the brake control/anti-skid systems and warnings/indications. References: JSSG-2009: A.3.4.1.4.4.4, A.4.4.1.4.4.4 skid control with power interruption; A.3.4.1.4.4.5, A.4.4.1.4.4.5 anti-skid engagement and disengagement AFGS-87139: 3.2.3.3 Anti-skid brake control; 3.2.4.3 Brakes MIL-B-8584 SAE ARP1070",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Anti-skid system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

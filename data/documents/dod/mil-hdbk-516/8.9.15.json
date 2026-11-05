@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.15",
+  "number": "8.8.15",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Safety devices for manual operation",
+  "subject_group": "8.8 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation.",
+      "text": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation.",
+      "text": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.5; 4.4.9.4.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.9.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation, and incorporate a controlled deployment speed at a specified safe rate.",
+      "text": "Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation, and incorporate a controlled deployment speed at a specified safe rate. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.5; 4.4.9.4.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Safety devices for manual operation",
+      "text": "Criterion: Verify that actuation subsystems that have a provision for manual operation include safety devices to prevent injury to maintainers in case of inadvertent application of power during a manually powered operation, and incorporate a controlled deployment speed at a specified safe rate. Standard: The design for deployment of mechanisms is safe when air vehicle power is off. Safety devices provide retention capability to keep mechanism in the locked and hold position for all cases when power or forces are applied to unlock and move the mechanism. Actuation subsystem has a reduced or controlled speed for maintenance operations. Method of Compliance: The design is substantiated by analysis. Component and system load testing verifies safe operation with locking/hold devices installed. Ground checkouts on the air vehicle up to design limit loads and deployment speeds validate the safe operation. References: JSSG-2009 (Appendix I) I.3.4.9.4; I.3.4.9.4.5; I.4.4.9.4.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Safety devices for manual operation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

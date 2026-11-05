@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.5.15",
+  "number": "6.1.5.15",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Pitch control for alternate recovery methods",
+  "subject_group": "6.1.5 Fixed-wing longitudinal flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pitch control for alternate recovery methods",
+      "text": "Standard: The air vehicle has sufficient control power to maintain control (pitch attitude, AOA, bank angle, heading, pitch rate, and specific excess energy) during approach to alternate or unique recovery methods. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the pitch control required to maintain control during an approach to alternate or unique recovery methods, in and out of ground effect, for each combination of regions of handling qualities, air vehicle states, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the pitch control required to maintain control during an approach to alternate or unique recovery methods for each combination of regions of handling qualities, air vehicle states, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the pitch control required to maintain control during an approach to alternate or unique recovery methods for selected combinations of regions of handling qualities, air vehicle states, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

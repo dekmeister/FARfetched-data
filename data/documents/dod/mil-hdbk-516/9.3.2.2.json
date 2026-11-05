@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.3.2.2",
+  "number": "9.3.2.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Night vision imaging system compatible emergency lighting",
+  "subject_group": "9.3.2 Emergency lighting",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Night vision imaging system compatible emergency lighting",
+      "text": "Standard: Night vision imaging system compatible emergency lighting conforms to MIL-STD 3009, Chromaticity Requirements table and NVIS Radiance Requirements Using English Units table. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: Night vision imaging system spectral radiance is tested IAW MIL-STD-3009, Warning, Master Caution, Caution Signal, and Emergency Exit Lighting Radiance paragraph.\n(2) Ground test: Night vision imaging system chromaticity is tested IAW MIL-STD-3009, Chromaticity Requirements table for NVIS green A/B or NVIS white.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

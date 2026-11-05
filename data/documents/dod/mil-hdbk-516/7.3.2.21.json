@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.21",
+  "number": "7.3.2.21",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Faults and warnings",
+  "subject_group": "7.3.2 Rotary wing systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Faults and warnings",
+      "text": "Criterion: Verify that the rotor and drive system health monitoring and prognostics systems provide adequate warnings in a timely manner to ensure safety of flight. Standard: All safety/mission-critical faults and warnings are available to operators/maintainers. Critical faults, affecting continued safe operation of the air vehicle, result in immediate notification to the operator. All faults requiring maintenance action are recorded for post-flight download. Critical rotor and drive system information, such as speed, control operating mode and fluid quantities and pressures, are provided to the maintainer. The rotor and drive system health monitoring system provides accurate information and minimizes false positive faults. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis and fault injection bench testing verify the capability of the monitoring system to detect and isolate all failures that affect safe operation of the air vehicle. Air vehicle level testing provides assurance that the operator is provided clear notification of any critical failure. Fault download testing verifies that the maintainers have full access to failure data. Analysis of all work station rotor and drive system data demonstrates that the maintainer can receive and properly interpret the information necessary to safely maintain the air vehicle. Inspection of the Interface Control Document (ICD) and operator\u2019s manual ensures that they match the rotor and drive system information being provided to the pilot/operator. Reference: ADS-79-HDBK",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Faults and warnings",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

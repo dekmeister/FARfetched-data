@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.1.4",
+  "number": "9.6.3.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Ground, ditching, or emergency egress assist devices",
+  "subject_group": "9.6.3 Emergency ground, ditching, and water egress",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.1.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements.",
+      "text": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.1.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements.",
+      "text": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements. DoD/MIL Doc: JSSG-2001: para 3.3.10.2.3 JSSG-2010: para 3.8, 4.8, 3.9, 4.9, 3.11, 4.11, 3.12, 4.12, 3.13, 4.13, 3.14, 4.14 FAA Doc: 14CFR reference: 23.803-23.815, 25.801-25.819, 23.1411, 23.1415, 25.1411, 25.1415",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.1.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements.",
+      "text": "Verify that devices for ground emergency egress assist (slides, descent reels, life rafts, etc.) and their deployment handles/actuators meet safety requirements. DoD/MIL Doc: JSSG-2001: 3.3.10.2.3 JSSG-2010: 3.8, 4.8, 3.9, 4.9, 3.11, 4.11, 3.12, 4.12, 3.13, 4.13, 3.14, 4.14 FAA Doc: 14CFR reference: 23.803-23.815, 25.801-25.819, 23.1411, 23.1415, 25.1411, 25.1415",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.1.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Ground/ditching emergency egress devices",
+      "text": "Criterion: Verify that devices for ground emergency egress assist (doors, slides, descent reels, life rafts, etc.) and their deployment mechanisms (handles, actuators, etc.) meet safety requirements. Standard: Ground emergency egress devices can be safely used by the intended crew/operator and passenger populations, without unacceptable risk of major injury. Deployment handles/actuators capable of creating a flight safety or injury hazard are designed to prevent inadvertent actuation during normal operations and incidental contact. The safety requirements of each individual emergency ground egress assist device bound and include the application requirements of the system into which the device is being incorporated. This includes the number and intended anthropometric range of occupants, the ground egress time requirements of the system, the operational environmental requirements of the system, and applicable physical and power integration requirements of the system. Method of Compliance: Safety of emergency egress devices is verified by system testing and analysis. Qualification testing confirming compliance with specified requirements for each device verifies safe operation. Analysis, inspection, and demonstration of capability when integrated into the host platform verify system level safety. Emergency egress demonstrations verify the ability to operate and use emergency egress devices without unacceptable major injuries. References: JSSG-2001: 3.3.10.2.3 JSSG-2010: 3.8, 4.8; 3.9, 4.9; 3.11, 4.11; 3.12, 4.12; 3.13, 4.13; 3.14, 4.14 USAAVSCOM TR 89-D-22E, 14 CFR 23.803-23.815, 25.801-25.819, 23.1411, 23.1415, 25.1411, 25.1415",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Ground, ditching, or emergency egress assist devices",
+      "text": "Standard: Ground, ditching, or emergency egress assist devices (e.g., doors, slides, descent reels, life rafts, and handles) are usable by the intended anthropometric range. The egress assist devices meet the ground egress time requirements in relevant operating environments. The devices are protected against inadvertent actuation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of drawings or digital models verifies that the egress assist devices are usable by the number and intended anthropometric population of occupants. Demonstration.\n  (1) Verify that all ground, ditching, or emergency egress devices can be used by participants representative of the intended anthropometric population.\n  (2) Verify that deployment handles and actuators are designed to prevent inadvertent actuation during normal operations and incidental contact by participants representative of the intended anthropometric population.\n  (3) Verify the ground egress time is met when using the ground emergency descent devices by participants representative of the intended anthropometric range IAW 9.6.3.5, 9.6.3.6, 9.6.3.7, or 9.6.3.8.\n  (4) Emergency ground egress demonstrations show that handles and actuators are accessible and operable by participants representative intended anthropometric range. Operation does not cause injury that would prevent egress.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.6-516d",
+  "number": "8.3.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Tank pressures and venting",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Tank pressures and venting",
+      "text": "Standard: Tank pressure does not exceed tank structural or functional limits due to a single failure under normal operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine requirements documentation to verify fuel tank and vent system pressure requirements are defined. Analysis.\n  (1) Perform system analysis that shows relief valves and vent paths maintain tank pressures within limits during maximum climb and descent rates, AR, jettison, refueling, defueling, fuel transfer activities, and Onboard Inert Gas Generating System operation, including with single failures.\n  (2) Conduct analysis to show thermal expansion of fuel does not create a hazard such as excessive fuel venting or spills. Test.\n    (1) Lab test: Conduct component tests that show pressure relief components meet performance requirements to control tank pressures.\n    (2) Ground test: Conduct ground tests that show the vent system maintains tank pressures within design limits for all air vehicle operations and conditions, including single failure modes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight tests that show the vent system maintains tank pressures per requirements for all air vehicle operations and conditions and validates lab and ground test results.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

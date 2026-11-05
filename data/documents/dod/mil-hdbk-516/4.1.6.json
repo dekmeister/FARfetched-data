@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.1.6",
+  "number": "4.1.6",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Flight and safety critical functions",
+  "subject_group": "4.1 Design criteria",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Flight and safety critical functions",
+      "text": "Criterion: Verify that the air systems design criteria identify flight and safety critical functions, and their degraded and failed modes and states. Verify that the air system and air vehicle detect and respond appropriately, predictably, safely and in a timely manner to flight and safety critical function degraded states or failures. Standard: The design criteria identify flight and safety critical functions, modes and states for the air system, including the air vehicle. The air system design criteria identify flight and safety critical function degraded states and failures. The air system detects and responds appropriately, predictably, safely and in a timely manner to flight or safety critical function degraded states or failures. The air vehicle detects and responds appropriately, predictably, safely and in a timely manner to air vehicle flight or safety critical function degraded states or failures, with or without operator intervention. The air vehicle detects and responds appropriately, predictably, safely and in a timely manner to loss of flight and safety critical command and control data link(s) between the operator and air vehicle. The air vehicle response to loss of command and control data link is appropriate and safe for the airspace in which the air system will be operated. The air system detects and responds appropriately, predictably, safely and in a timely manner to the sense and avoid function for the airspace in which the air system will be operated, with or without operator intervention. The air system (including air vehicle) responses to flight and safety critical function normal and degraded states or failures, and loss of flight and safety critical command and control data link(s): a. Activate appropriately and in a timely manner, b. Activate only when needed, c. Safely transition to pre-determined modes and states (see also 6.2.2.4 of this document), d. Activate pre-determined procedure(s) for restoring functionality, e. Alert airspace control or air traffic control, as necessary, and f. Prevent entry into pre-defined keep-out airspace or over-flight of pre-defined surface regions (see also 11.1.1.5 of this document). (For information, see also 6.2; 8.3.10; 11.1.1 and 11.2.3; Section 15; and 17.2.9 of this document.) Method of Compliance: Verification methods include analysis, test, simulation, demonstration, and inspection of documentation. Inspection of documentation verifies that design criteria and processes identify flight and safety critical functions, modes and states; flight and safety critical functions degraded states and failures; and loss of flight and safety critical command and control data link(s). Inspection of documentation verifies that design criteria and processes ensure air system responses are appropriate for the intended airspace. Analysis verifies that flight and safety critical functions, modes and states for the air system, including the air vehicle, are identified. Analysis verifies that flight and safety critical function degraded states and failures are identified. A combination of ground testing and simulation verifies that the air system (including air vehicle) detects and responds appropriately, predictably, safely and in a timely manner to:\n(1) flight or safety critical function normal and degraded states or failures, with or without operator intervention, (2) loss of flight and safety critical command and control data link(s), and (3) sense and avoid function, with or without operator intervention. This testing and simulation verifies that the air system (including air vehicle) responses: a. Activate appropriately and in a timely manner, b. Activate only when needed, c. Safely transition to pre-determined modes and states, d. Activate pre-determined procedure(s) for restoring functionality, e. Alert airspace control or air traffic control, as necessary, and f. Prevent entry into pre-defined keep-out airspace or over-flight of pre-defined surface regions. (For information, see also 6.2.2.4, 6.2.2.8, and 6.2.2.9 of this document.)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Flight and safety critical functions",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

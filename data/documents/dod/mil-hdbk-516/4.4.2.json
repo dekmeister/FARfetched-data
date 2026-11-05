@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.4.2",
+  "number": "4.4.2",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Critical processes",
+  "subject_group": "4.4 Manufacturing and quality",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that all critical process capabilities exist to meet key product characteristic requirements.",
+      "text": "Verify that all critical process capabilities exist to meet key product characteristic requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that all critical process capabilities exist to meet key product characteristic requirements.",
+      "text": "Verify that all critical process capabilities exist to meet key product characteristic requirements. Comm\u2019l Doc: AS 9100 DoD/MIL Doc: ASC/EN Manufacturing Development Guide, Section 6.6, \"Variability Reduction\", for additional information on Cpk, Critical Processes, and Process Control Plans; AFI 63-501 FAA Doc: 14CFR references: 23.601-23.605, 25.601-25.603",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Critical processes",
+      "text": "Criterion: Verify that all critical process capabilities exist to meet key product characteristic requirements (including critical characteristics). Standard: All key characteristics (including critical characteristics) are mapped to corresponding critical processes. Critical process capabilities are characterized, process capability indices (Cpk) are calculated and acceptable limits established. Process control plans for critical processes are defined and implemented throughout the supply chain. For Army and Navy only, quality control procedures for critical processes are defined and implemented throughout the supply chain. Method of Compliance: Critical process capabilities and control plans are verified by inspection of design documentation and process control documentation and if applicable, on-site audit documentation, throughout the supply chain. References: AFLCMC/EZSM Manufacturing Development Guide, Section 6.6, \"Variability Reduction\", for additional information on Cpk, Critical Processes, and Process Control Plans AFI 63-501 AMCOM REG 702-7 Aviation Critical Safety Item Management Handbook, Joint Aeronautical Commanders Group Aviation Source Approval and Management Handbook, Joint Aeronautical Commanders Group SECNAVINST 4140.2 SAE AS9100 SAE AS9103 14 CFR 23.601-23.605, 25.601-25.603, 27.601-605, 29.601-29.605",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Critical processes",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

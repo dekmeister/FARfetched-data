@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.15",
+  "number": "8.3.18",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions.",
+      "text": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.3.17",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions and warn of hazardous conditions.",
+      "text": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions and warn of hazardous conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.17",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions and warn of hazardous conditions.",
+      "text": "Verify that adequate controls and displays for the fuel system functions are provided for the appropriate crewmember(s) to indicate the necessary fuel system functions and warn of hazardous conditions. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.12, E.4.4.5.1.12, E.3.4.5.8.11, E.4.4.5.8.11, E.3.4.5.12, E.4.4.5.12, E.3.4.5.12.1, E.4.4.5.12.1, E.3.4.5.12.2, E.4.4.5.12.2, E.3.4.5.12.3, E.4.4.5.12.3, E.3.4.5.12.4, E.4.4.5.12.4, E.3.4.5.12.5, E.4.4.5.12.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate controls and displays for the fuel system functions are provided to the operator(s) to indicate the necessary fuel system functions and warn of hazardous conditions. Standard: Fuel system critical information and status (e.g., Warnings, Cautions, and Advisories) are monitored and reported to the operator(s) and maintenance crew, including in a night vision imaging systems (NVIS) environment, if applicable. Method of Compliance: Flight simulator, inspection and ground demonstration verify the adequacy of the refueling subsystem controls and displays. Flight simulator, ground tests and flight demonstration verify that the required fuel system monitored parameters (e.g., fuel pressure, fuel temperature, low level fuel, c.g. monitoring) are properly displayed and available to the operator(s). References: JSSG-2009: E.3.4.5.1.12, E.4.4.5.1.12; E.3.4.5.8.11, E.4.4.5.8.11; E.3.4.5.12, E.4.4.5.12; E.3.4.5.12.1, E.4.4.5.12.1; E.3.4.5.12.2, E.4.4.5.12.2; E.3.4.5.12.3, E.4.4.5.12.3; E.3.4.5.12.4, E.4.4.5.12.4; E.3.4.5.12.5, E.4.4.5.12.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

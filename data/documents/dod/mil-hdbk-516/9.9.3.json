@@ -1,0 +1,42 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.9.3",
+  "number": "9.8.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Intercom/ public address system",
+  "subject_group": "9.8 Lavatories, galleys, and areas not continuously occupied",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.9.3",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the fire alarm and intercom/public address system can be heard in all lavatories, galleys, and other compartments.",
+      "text": "Verify that the fire alarm and intercom/public address system can be heard in all lavatories, galleys, and other compartments.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Intercom/ public address system",
+      "text": "Criterion: Verify that the fire alarm and intercom/public address (PA) system can be heard in all lavatories, galleys, and all other compartments. Standard: The fire alarm, intercom and/or public address system is intelligible at all passenger seats, lavatories, flight attendant seats, work stations and control stations. System volume is sufficient to be detected in all compartments, during all normal flight noise levels. Alarm and intercom or PA systems are capable of functioning independently of any required crewmember interphone system. Alarm and intercom or PA systems are accessible for immediate use from at least two flight crewmember stations in the pilot compartment. For control stations located inside of permanent buildings, fire alarm and intercom/PA systems are in accordance with local building codes. Method of Compliance: Test and analysis of fire alarm, intercom, and public address systems verify functionality under all approved operating configurations and conditions. Subsystem integration testing and crew system simulation testing verify the ability of crew, operators and passengers to hear alarms and understand intercom/PA communications. For control stations located inside of permanent buildings, compliance is shown by a certificate of occupancy from the local building inspector.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Intercom/ public address system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

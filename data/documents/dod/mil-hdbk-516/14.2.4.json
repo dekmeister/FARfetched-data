@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.2.4",
+  "number": "14.2.4",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Subsystem protection",
+  "subject_group": "14.2 Safety design requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems.",
+      "text": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems.",
+      "text": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems. DoD/MIL Doc: MIL-STD-882D: para 4, Appendix A. FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems.",
+      "text": "Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems. DoD/MIL Doc: MIL-STD-882D: 4, Appendix A FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Subsystem protection",
+      "text": "Criterion: Verify that the design adequately protects the power sources, controls, and critical components of redundant subsystems. Standard: Power sources, controls, and critical components of redundant subsystems are separated/shielded per the general safety requirements of MIL-STD-882. Method of Compliance: Verification method includes inspection of documentation. Inspection of safety analyses/assessments and associated documentation verifies that power sources, controls, and critical components of redundant subsystems are separated/shielded per the general safety requirements of MIL-STD-882. References: MIL-HDBK-516: Section 12 MIL-STD-882 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Subsystem protection",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.5.5-516d",
+  "number": "6.2.5.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Resettable faults",
+  "subject_group": "6.2.5 Redundancy management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Resettable faults",
+      "text": "Standard: The VCF fault reset design identifies which signals/component failures are resettable and which failures are latched. Resettable failures are identified as automatic or flight crew initiated. Signal/component integrity and validity is confirmed before re-introduction into the control function. The re-engagement of a previously failed signal/component via fault reset does not result in exceeding air vehicle transient limits. In the case of multiple failures of a redundant signal/component, ensure that non-simultaneous failures are not capable of voting out/failing a valid signal/component. If a maximum number of resets exist to prevent an air vehicle hazard, rationale is documented and communicated for operational awareness and execution. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation for fault reset approach. Identify what faults are resettable.\n(2) Ensure lower-level design requirements capture the reset functionality. Analysis.\n  (1) Through air vehicle transient analysis, determine any envelope limitations required for fault resets to maintain air vehicle transient limits (e.g., airspeed, altitude, bank angle). Test.\n    (1) Lab test: Vehicle control function reset functionality is verified by software and system-level test, including FMET.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

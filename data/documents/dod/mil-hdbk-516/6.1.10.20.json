@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.10.20",
+  "number": "6.1.10.20",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Semi-jetborne roll rate response",
+  "subject_group": "6.1.10 Vertical/short takeoff and landing air vehicles",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Semi-jetborne roll rate response",
+      "text": "Standard: The air vehicle's semi-jetborne roll response, including the minimum bank angle change in one second, results in flying qualities to no worse than Level 2 and has a roll effective time delay no greater than 0.20 second for all air vehicle Classes. For Class IV air vehicles, the roll mode time constant is no greater than 1.0 second. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Assess the MIL-HDBK-516, Fixed-Wing Lateral-Directional Flying Qualities paragraphs and conduct analysis of semi-jetborne roll response to evaluate air vehicle capabilities, for all required semi-jetborne loadings and configurations, to include: a. Semi-jetborne formation, at discrete airspeeds or with inclusion of deceleration to a specific minimum airspeed. b. Semi-jetborne landings, including offset landings. c. STOs with specific stressing roll maneuvers such as formation STOs and STOs with aggressive course acquisition. Test.\n  (1) Lab test: Asses the MIL-HDBK-516, Fixed-Wing Lateral-Directional Flying Qualities paragraphs and conduct piloted simulation and evaluation to assess flying/handling qualities for each combination of air vehicle states, control modes, and environmental conditions, to include: a. Semi-jetborne formation, at discrete airspeeds or with inclusion of deceleration to a specific minimum airspeed. b. Semi-jetborne landings, including offset landings. c. STOs with specific stressing roll maneuvers such as formation STOs and STOs with aggressive course acquisition. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess flying/handling qualities for selected combinations of air vehicle states, control modes, and environmental conditions, to include: a. Semi-jetborne formation, at discrete airspeeds or with inclusion of deceleration to a specific minimum airspeed. b. Semi-jetborne landings, including offset landings. c. STOs with specific stressing roll maneuvers such as formation STOs and STOs with aggressive course acquisition.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

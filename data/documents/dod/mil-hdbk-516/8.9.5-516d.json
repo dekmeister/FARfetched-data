@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.5-516d",
+  "number": "8.9.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "External cargo hook service life",
+  "subject_group": "8.9 External cargo hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "External cargo hook service life",
+      "text": "Standard: The external cargo hook system (e.g., attaching hardware, release mechanism, carrying device structural systems and their attachments) has positive endurance margins to maintain residual strength throughout the specified service life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a loads analysis to define the usage spectrum used to determine the external cargo hook endurance life.\n(2) Conduct fatigue analysis on the external cargo hook system using the usage spectrum developed in Analysis MoC (1) to verify endurance capability to support loading throughout the specified service life. Test.\n  (1) Lab test: Conduct laboratory endurance testing on external cargo hook system components to verify ability to support usage spectrum loads and release capability throughout the service life. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify loads used in the usage spectrums established in Analysis MoC (1).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

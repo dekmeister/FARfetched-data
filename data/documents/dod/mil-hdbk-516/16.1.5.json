@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.1.5",
+  "number": "16.1.5",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Removal and installation procedures",
+  "subject_group": "16.1 Maintenance manuals and checklists",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that maintenance manuals incorporate procedures for system/component removal.",
+      "text": "Verify that maintenance manuals incorporate procedures for system/component removal. DoD/MIL Doc: JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5 FAA Doc: 14CFR reference Part 23, Appendix G and 14CFR reference Part 25, Appendix H",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that maintenance manuals incorporate procedures for system/component removal.",
+      "text": "Verify that maintenance manuals incorporate procedures for system/component removal. DoD/MIL Doc: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 FAA Doc: 14CFR reference Part 23, Appendix G and 14CFR reference Part 25, Appendix H",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Removal procedures",
+      "text": "Criterion: Verify that maintenance manuals incorporate procedures for system/component removal. Standard: For each level of maintenance, procedures for authorized system/subsystem/ component removal and installation are adequately covered in the appropriate maintenance manuals. Method of Compliance: The removal and installation instructions have undergone a quality assurance check, and the check and the content of removal and installation instructions have been verified by the Government. References: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 14 CFR Part 23, Appendix G; Part 25, Appendix H",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Removal and installation procedures",
+      "text": "Standard: Maintenance publications include procedures for removals and installations for each level of maintenance. Field level and depot level maintenance publications contain information to remove and install components, LRUs, subsystems, and systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Ensure maintenance publications have removal and installation procedures for each component, LRU, subsystem, and system.\n(2) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Demonstration.\n  (1) Perform air vehicle maintainability demonstrations to confirm the removal and installation procedures are complete, accurate, and can be performed as written without introducing AW hazards. Maintenance publications will receive updates to address maintenance issues discovered during maintainability demonstrations. Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n  (2) Perform all air vehicle removal and installation procedures on production-configured hardware using government maintenance personnel to ensure removal and installation procedures do not introduce AW hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

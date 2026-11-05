@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.4",
+  "number": "8.5.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Tire load and speed ratings",
+  "subject_group": "8.5 Landing gear and deceleration systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its rated inflation pressure.",
+      "text": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its rated inflation pressure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its rated inflation pressure and maximum wear limit (MWL).",
+      "text": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its rated inflation pressure and maximum wear limit (MWL). DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.2.2/A.4.4.1.2.2 Ground handling; A.3.4.1.3.1.4/A.4.4.1.3.1.4 Strength; and A.3.4.1.11.1.1/A.4.4.1.11.1.1 Air vehicle tire performance. AFGS-87139: para 3.1.8 Ground handling (operations), 3.2.4.1 Tires MIL-PRF-5041. FAA Doc: 14CFR reference: 23.473, 23.726, 23.733, 25.473, 25.726, & 25.733",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its intended inflation pressure and maximum wear limit (MWL).",
+      "text": "Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical C.G. and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its intended inflation pressure and maximum wear limit (MWL). DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.2.2/A.4.4.1.2.2 Ground handling; A.3.4.1.3.1.4/A.4.4.1.3.1.4 Strength; and A.3.4.1.11.1.1/A.4.4.1.11.1.1 Air vehicle tire performance. AFGS-87139: 3.1.8 Ground handling (operations), 3.2.4.1 Tires MIL-PRF-5041 FAA Doc: 14CFR reference: 23.473, 23.726, 23.733, 25.473, 25.726, & 25.733",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Tire load and speed ratings",
+      "text": "Criterion: Verify that all mission and all ground handling conditions, including maximum air vehicle deceleration at the most critical center of gravity (CG) and gross weight, have a maximum expected tire load and speed below that demonstrated for the selected tire at its intended inflation pressure and maximum wear limit (MWL). Standard: The tire design is compatible with all air vehicle performance requirements during taxi, turns, takeoff, and landing operations (including rolling over arresting gear cable). The tire design parameters account for all critical gross weights, CGs, and velocities such that the loads do not exceed aircraft structural or operational limits. Method of Compliance: Verification methods include analyses and tests. Performance analysis determines the maximum expected tire load and speed profiles for all missions and ground handling conditions. Laboratory tests verify the structural and performance capability of the tire when tested at maximum expected tire load and speeds. Tests include material, strength, roll distance, cable bruise, service life, overload operations and speed/load/time profiles that represent air vehicle performance. Flight test verifies tire carcass integrity and simulated loads used for qualification are not exceeded in the field operations. Operational tests verify tire life and tread design (wet and dry stopping performance). References: JSSG-2009: A.3.4.1.2.2, A.4.4.1.2.2 Ground handling; A.3.4.1.3.1.4, A.4.4.1.3.1.4 Strength; A.3.4.1.11.1.1, A.4.4.1.11.1.1 Air vehicle tire performance AFGS-87139: 3.1.8 Ground handling (operations), 3.2.4.1 Tires MIL-PRF-5041 14 CFR 23.473, 23.726, 23.733, 25.473, 25.726, 25.733",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Tire load and speed ratings",
+      "text": "Standard: The tire design will support all air vehicle performance requirements (e.g., taxi, turning, braking, takeoff and landing operations, wet and dry runway conditions, and arresting gear cable rollover and strikes) as specified in MIL-DTL-5041, Dynamic Durability paragraph. Tire design accounts for all critical weights up to maximum gross weight, critical and worst-case CG conditions, braking, flotation requirements, and air vehicle velocities so that the tires fully support the air vehicle's ground load envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct performance analysis, to include 6-DOF modeling, to define the maximum expected tire load and speed profiles for all operational requirements. For air vehicles which land on arresting cables, conduct analysis to determine loading on tires. Test.\n  (1) Lab test: Conduct tire testing on dynamometer as specified in MIL-DTL-5041, Dynamic Durability Test paragraph, at maximum expected tire loads, distances, and speeds, to verify tire load and speed rating, and pressure limits.\n  (2) Lab test: Conduct lab testing to verify the tire can withstand a minimum burst pressure of 3X the rated pressure for rotorcraft, 3.5X for land-based air vehicle, and 4X rated pressure for ship-based air vehicle.\n  (3) Lab test: Conduct lab testing to verify the amount tire deflects under maximum side load and maximum yaw angle as defined from the design multivariate load (e.g., drift, yaw, pitch, and roll sink rate) and pressure conditions including load in which tire bottoms.\n  (4) Lab test: Conduct tire tests IAW MIL-DTL-5041, Cable Bruise Test paragraph, to verify the tires can withstand the minimum cable bruise load. Testing is done for air vehicles which land directly on cables (e.g., carrier-based air vehicles). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Conduct flight testing to verify tire design integrity (e.g., tread adhesion, chunking, air retention, load support, cable bruising, and deceleration) and verify the design loads and speeds used in lab qualification testing of the tire are not exceeded during all air vehicle operational requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

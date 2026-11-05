@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.3-516d",
+  "number": "7.3.3",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Non-operating loads",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Non-operating loads",
+      "text": "Standard: The non-operating engine, including all engine mounted equipment and accessories, components, and operating fluids, tolerates a 4g axial, 2g lateral, and 3g vertical inertial limit load acting in any combination at the engine CG without deformation of ground handling mounts or damage to the engine; normal engine function is unaffected after the engine experiences this load case. Ultimate load case is 1.5X limit load case; ground handling mounts do not fail under this load case. Non-operating engine, engine modules and LRUs/weapons replaceable assemblies, when packaged in their respective transportation support equipment or containers, withstand the externally applied forces and vibrational loads induced during transportation within, and external to, the DoW transportation system IAW 7.3.1 without impact to structural integrity or engine performance. In the absence of other direction MIL-STD-810, Method 514.6 Annex C and Method 516.6, may be used for defining appropriate transportation vibration and shock environments and transportation sequences. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of engine design documentation verifies that non-operating load cases have been defined. Analysis.\n  (1) Analyses are accomplished to verify strength and deflection capability, and system-level impacts. Test.\n    (1) Lab test: Component static strength tests are conducted to verify limit load and ultimate load capability.\n    (2) Lab test: Engine test in a ground-based sea level test cell confirms no impact to structural integrity or engine function following exposure to engine transportation environment while using transportation support equipment defined in technical data.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

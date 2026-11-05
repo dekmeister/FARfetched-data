@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.1.1",
+  "number": "9.7.1.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Fixed-wing and rotary-wing seats",
+  "subject_group": "9.7.1 Seating system crash load capabilities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Fixed-wing and rotary-wing seats",
+      "text": "Standard: The seating, restraint system, and attachment to the air vehicle restrain occupants and maintain structural integrity during static and dynamic loading. The seating and restraint system are designed IAW SAE AS8049D, Strength section. The restraint system prevents \u201csubmarining\u201d or translation of the pelvis and lower part of the body under the lap belt. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Test the ultimate static loads of the seat, restraint system, and attachment to the associated air vehicle structure considering a nude occupant weight not less than 250 lbs. Testing and verification is accomplished IAW SAE AS8049D, Static Qualification Tests section and Static Test \u2013 Pass/Fail Criteria section.\n(2) Lab test: Test the seat and restraint system protection capability under dynamic conditions. Test the seat and restraint with associated air vehicle structure and a seated occupant with an ATD selected IAW SAE 8049D, Occupant Simulation section. Dynamic tests and verification are accomplished IAW SAE AS8049D, Dynamic Qualification Testing section and Dynamic Impact Test Pass/Fail Criteria section.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

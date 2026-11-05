@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.13",
+  "number": "20.5.3",
+  "current_grouping": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+  "canonical_title": "Cargo jettison capability",
+  "subject_group": "20.5 Weight and balance, center of gravity movement and jettison capability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.13",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "For airdrop or jettisonable cargo, verify the loaded items can be safely jettisoned during flight.",
+      "text": "For airdrop or jettisonable cargo, verify the loaded items can be safely jettisoned during flight.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.13",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify for airdrop or jettisonable cargo, that the loaded items can be safely jettisoned during flight.",
+      "text": "Verify for airdrop or jettisonable cargo, that the loaded items can be safely jettisoned during flight. DoD/MIL Doc: MIL-HDBK-1791: para 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.13",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify for airdrop or jettisonable cargo, that the loaded items can be safely jettisoned during flight.",
+      "text": "Verify for airdrop or jettisonable cargo, that the loaded items can be safely jettisoned during flight. DoD/MIL Doc: MIL-HDBK-1791: 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "20.1.13",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Cargo jettison capability",
+      "text": "Criterion: Verify for airdrop or jettisonable cargo, that the loaded items can be safely jettisoned during flight. Standard: Airdrop or jettisonable cargo within specified limits does not adversely affect the aircraft or personnel. Method of Compliance: The capability to airdrop the specified types and sizes of cargo is defined and substantiated through analysis and flight testing. The ability to jettison items of palletized cargo is demonstrated and documented. Extensive flight testing defines the range of hardware items and the required parameters necessary to perform preplanned airdrop and unplanned jettisoning of cargo loads. The range of testing includes maximum and minimum weights, locations, airspeeds, and other limitations as needed for technical input into the operational manuals. References: Systems Specifications JSSG-2009: Appendix J MIL-STD-1791",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+      "title_at_revision": "Cargo jettison capability",
+      "text": "Standard: Jettison emergency airdrop operations do not cause damage to the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review air vehicle capabilities documents, cargo system design data packages, and air transportability requirements to ensure air vehicle weight and balance limits are not exceeded during jettison operations. Analysis.\n  (1) Conduct high fidelity 6-DOF flying quality simulations of dynamic cargo jettison, including transients. Demonstration.\n    (1) Conduct a ground demonstration of emergency release procedures to show that crewmembers can safely jettison cargo in case of emergencies.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

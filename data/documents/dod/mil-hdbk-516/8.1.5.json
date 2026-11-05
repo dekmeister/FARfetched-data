@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.5",
+  "number": "8.1.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Flight crew displays",
+  "subject_group": "8.1 Hydraulic and pneumatic systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate crew station information is available to notify the flight crew of the hydraulic and pneumatic systems' operating conditions.",
+      "text": "Verify that adequate crew station information is available to notify the flight crew of the hydraulic and pneumatic systems' operating conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate crew station information is available to notify the flight crew of the hydraulic and pneumatic systems' operating conditions.",
+      "text": "Verify that adequate crew station information is available to notify the flight crew of the hydraulic and pneumatic systems' operating conditions. DoD/MIL Doc: JSSG-2009 Appendix B: B.3.4.2.1.3/B.4.4.2.1.3 System Fluid Monitoring; B.3.4.2.1.4.3/B.4.4.2.1.4.3 System Pressure Indication; B.3.4.2.1.4.4/B.4.4.2.1.4.4 System Low-Pressure Warning; B.3.4.2.2.3/B.4.4.2.2.3 Instrumentation interface(s); and Appendix M: M.3.4.13.3/M.4.4.13.3 Status Indication. FAA Doc: 14CFR references: 23.1435 a2, 25.1435 b1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate information is available to notify the operator(s) of the hydraulic and pneumatic systems' operating conditions. Standard: As necessary to safely operate the system: a. Means are provided to monitor hydraulic and pneumatic system parameters (e.g., fluid quantity, pressure, temperature). b. Warnings, cautions and advisories are provided. c. Information is provided to the operator(s) when a hydraulic and pneumatic subsystem is degraded or fails. Method of Compliance: Verification methods include test, simulation, inspection, and review of documentation. The hydraulic and pneumatic system parameters that are being monitored are verified by inspection, laboratory tests (e.g., failure modes and effects testing (FMET)) and air vehicle ground and flight tests, as are the warnings, cautions, advisories and information provisions. References: JSSG-2009: B.3.4.2.1.3, B.4.4.2.1.3 System Fluid Monitoring; B.3.4.2.1.4.3, B.4.4.2.1.4.3 System Pressure Indication; B.3.4.2.1.4.4, B.4.4.2.1.4.4 System Low-Pressure Warning; B.3.4.2.2.3, B.4.4.2.2.3 Instrumentation interface(s); M.3.4.13.3, M.4.4.13.3 Status Indication MIL-STD-5522 ADS-50-PRF SAE AS5440 14 CFR 23.1435 a2, 25.1435 b1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Flight crew displays",
+      "text": "Standard: The air system provides the means at crew station(s) for flight crew to indicate the hydraulic and pneumatic system parameters (e.g., fluid quantity, pressure, and temperature) and hydraulic system malfunctions and faults for each system IAW SAE AS5440B, System Pressure Indication paragraph, System Low-Pressure Warning Light paragraph, and Reservoir Fluid Level Indication paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review drawings, flight crew interfaces, and flight manual(s) to verify hydraulic and pneumatic system information is indicated to the flight crew. Analysis.\n  (1) Conduct analysis, such as a SSHA and FMECA, to verify that system failures and corrective actions are identified. Test.\n    (1) Lab test: Conduct laboratory testing (e.g., HITL and FMET) or air vehicle simulations to verify that hydraulic and pneumatic system status, malfunctions, and faults are indicated to the flight crew.\n    (2) Ground test: Conduct on air vehicle testing under both normal system operation and with simulated failures to verify that hydraulic and pneumatic system status, malfunctions, and faults are indicated to the flight crew. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Verify that the hydraulic and pneumatic system status, malfunctions, and faults are indicated to the flight crew.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "19.3",
+  "number": "19.3",
+  "current_grouping": "19. MATERIALS AND MATERIAL INTEGRITY",
+  "canonical_title": "Non-destructive inspection plan",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "19. MATERIALS AND MATERIAL INTEGRITY",
+      "title_at_revision": "Non-destructive inspection plan",
+      "text": "Standard: An NDIP exists, ensures that any damage on the air vehicle is smaller than the acceptable limits necessary to support the air vehicle design intent and maintain system integrity, and is IAW SAE AS6870. Method of Compliance: Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(1) All initial and recurring inspection intervals are included in the NDIP.\n(2) Non-destructive inspection process and procedures described in the NDIP are included in the maintenance publications.\n(3) Any special NDI demonstration programs conducted to satisfy the durability and/or damage tolerance requirements are included in the NDIP. Analysis.\n  (1) All inspections required for continuing AW over the expected system life on mission-critical, durability-critical, or SOF parts have a quantified capability that meets the requirements of ASIP (MIL-STD-1530), PSIP (MIL-STD-3024), RSIP (MIL-STD-3063), or MECSIP (MIL-STD- 1798) as applicable.\n  (2) Required inspection intervals are based on component failure modes, the selected life management approach, the governing integrity program requirements, and, if necessary, a validated inspection capability for the specific component.\n  (3) When flaw sizes are necessary for the life management approach of a component, and those flaw sizes are based on inspections, the inspections have a validated Probability of Detection IAW MIL-HDBK-1823.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

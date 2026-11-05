@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.12.15",
+  "number": "8.5.12.15",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.5.12 Ground handling",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate crew station information is available to notify the flight crew of the landing and deceleration system operational conditions and state of functionality.",
+      "text": "Verify that adequate crew station information is available to notify the flight crew of the landing and deceleration system operational conditions and state of functionality.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate crew/operator station information is available to provide notification of the landing and deceleration system operational conditions and state of functionality. Standard: The crew/operator station provides the means to assess landing and deceleration systems operating conditions to the extent necessary for flight safety. The system provides warnings, cautions and advisories to operators and maintainers for hazardous failure conditions of equipment and controls of the landing and deceleration systems. Method of Compliance: Verification methods include tests and inspections. Inspection of the design verifies provisions for the necessary monitoring of the system's operation and health. Integration tests, to include Failure Modes and Effects Tests (FMET), verify compatibility of landing and deceleration systems with the controls and monitoring systems. Ground tests of installed systems verify operating performance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

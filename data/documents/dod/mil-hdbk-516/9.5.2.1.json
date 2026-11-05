@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.2.1",
+  "number": "9.5.2.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Accelerations and angular velocities",
+  "subject_group": "9.5.2 Initiation to air vehicle separation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Accelerations and angular velocities",
+      "text": "Standard: Seat accelerations are IAW INFO PUB ASM 4048 Ed 2v2, Multiaxial Dynamic Response Criteria (MDRC) Limits paragraph using the moderate limits in the INFO PUB ASM 4048 Ed 2v2, DR Limit Values paragraph. The seat angular velocities are IAW the low limits in INFO PUB ASM 4048 Ed 2v2, Ejection Acceleration Limits, Short Duration Angular Velocity Limits. The acceleration time history generated during subsystem catapult testing, with representative ejection occupant and system weights, at a pre-ignition temperature of 165 \u2070F, result in DRIz values less than 22.0. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Demonstration.\n(1) Subsystem catapult testing is used to verify that DRIz values are less than 22.0 at 165 \u00b0F pre-ignition temperatures.\n(2) Data from system-level dynamic ejection sled testing is used to verify the MDRC, DR, and Angular Velocity limits at ambient temperatures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

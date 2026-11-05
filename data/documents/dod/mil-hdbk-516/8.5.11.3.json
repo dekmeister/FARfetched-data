@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.11.3",
+  "number": "8.5.10.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Hook actuation",
+  "subject_group": "8.5.10 Arresting hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.11.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the crew can operate the hook from the crew station in a timely manner and that the crew has the capability to determine the position of the hook.",
+      "text": "Verify that the crew can operate the hook from the crew station in a timely manner and that the crew has the capability to determine the position of the hook.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.11.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the hook can be deployed from the crew station in a timely manner and that a means is provided in the crew station to determine the position of the hook.",
+      "text": "Verify that the hook can be deployed from the crew station in a timely manner and that a means is provided in the crew station to determine the position of the hook. Comm\u2019l Doc: SAE ARP-1538 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.8.5 thru A.3.4.1.8.8/A.4.4.1.8.5 thru A.4.4.1.8.8; MIL-A-18717 MIL-A-83136 AFGS-87139: para 3.2.7.1 Arresting hook system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.11.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the hook can be deployed from the crew station in a timely manner and that a means is provided in the crew station to determine the position of the hook.",
+      "text": "Verify that the hook can be deployed from the crew station in a timely manner and that a means is provided in the crew station to determine the position of the hook. Comm\u2019l Doc: SAE ARP-1538 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.8.5 thru A.3.4.1.8.8/A.4.4.1.8.5 thru A.4.4.1.8.8 MIL-A-18717 MIL-A-83136 AFGS-87139: 3.2.7.1 Arresting hook system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.11.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Hook actuation",
+      "text": "Criterion: Verify that the hook can be deployed and, if applicable, retracted from the crew station in a timely manner and that a means is provided in the crew station to determine the position of the hook. Standard: The pilot or the operator can deploy and, if applicable, retract the hook from the crew station in a timely manner to meet all normal and emergency conditions. Indications confirm that the arresting hook is in the last commanded position. Method of Compliance: Verification methods include analyses and tests. FMECA identifies failures which would prevent deployment and, if applicable, retraction of the hook in a timely manner. Design analysis verifies compliance with operational conditions. Flight and ground testing verify the installation, functionality and performance capability of the arresting system and its indications. References: JSSG-2009: A.3.4.1.8.6, A.4.4.1.8.6 Position indication; A.3.4.1.8.8, A.4.4.1.8.8 Hook actuation criteria MIL-A-18717 MIL-A-83136 (cancelled; for information only) AFGS-87139: 3.2.7.1 Arresting hook system SAE ARP1538",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Hook actuation",
+      "text": "Standard: The arrestment hook system can be extended and retracted (if required) by the flight crew or autonomous system in time to meet all normal and emergency conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system schematics to verify redundant power sources are present for operational arresting hook systems. Analysis.\n  (1) Review of the arresting gear's FMECA and SSHA analysis identifies all failures that prevent extension and retraction (if required) of the hook.\n  (2) Conduct actuation load analysis to verify the arresting hook can be extended and retracted in time to meet all normal and emergency conditions (e.g., air loads and inertia). Demonstration.\n    (1) Conduct ground demonstration to verify the installation and functionality of the arresting hook actuation system for normal and emergency conditions. Test.\n      (1) Lab test: Conduct lab testing of actuation system to verify the arresting hook system's actuation components (e.g., actuators or motors) ability to meet limit and ultimate load conditions.\n      (2) Lab test: Conduct lab endurance testing to four lifetimes for emergency arresting hook systems and two lifetimes for carrier-based arresting hook systems on the actuation system (e.g., actuators and motors) to verify it meets the DSL. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n      (3) Flight test: Conduct flight testing up to gear down limit speeds to verify the performance capability of the hook actuation system to extend and position the arresting hook system for engagement.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

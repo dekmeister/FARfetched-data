@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.13",
+  "number": "8.2.9.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Bleed air shutoff",
+  "subject_group": "8.2.9 Bleed air",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.13",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that redundant bleed air shut-off provisions are available at, or as close as possible to, the engine bleed port.",
+      "text": "Verify that redundant bleed air shut-off provisions are available at, or as close as possible to, the engine bleed port.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.13",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that redundant bleed air shut-off provisions are available at, or as close as possible to, the bleed source.",
+      "text": "Verify that redundant bleed air shut-off provisions are available at, or as close as possible to, the bleed source.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.2.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that bleed air shut-off provisions are available at, or as close as possible to, the bleed source.",
+      "text": "Verify that bleed air shut-off provisions are available at, or as close as possible to, the bleed source. DoD/MIL Doc: JSSG-2009: para D.3.4.4.12.2/D.4.4.4.12.2 Bleed source shut off; D.3.4.4.12.3/D.4.4.4.12.3 Bleed distribution control; D.3.4.4.12.4/D.4.4.4.12.4 Isolation and crossover control; D.3.4.4.12.10/D.4.4.4.12.10 Uncontrolled bleed air FAA Doc: 14CFR references: 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.2.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that bleed air shut-off provisions are available at, or as close as possible to, the bleed source.",
+      "text": "Verify that bleed air shut-off provisions are available at, or as close as possible to, the bleed source. DoD/MIL Doc: JSSG-2009: D.3.4.4.12.2/D.4.4.4.12.2 Bleed source shut off; D.3.4.4.12.3/D.4.4.4.12.3 Bleed distribution control; D.3.4.4.12.4/D.4.4.4.12.4 Isolation and crossover control; D.3.4.4.12.10/D.4.4.4.12.10 Uncontrolled bleed air FAA Doc: 14CFR references: 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.2.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Bleed air shut-off",
+      "text": "Criterion: Verify that bleed air shut-off provisions are available at, or as close as possible to, the bleed source. Standard: Provisions exist for bleed air shut off in order to provide the air vehicle with secure means for preventing bleed air from jeopardizing safety of flight. No single point bleed air system failure causes an uncontrollable flow of high temperature bleed air into the interior of the air vehicle. Method of Compliance: Inspection of installation drawings, FMECA, hazard analyses, and air vehicle testing verifies redundant shut-off provisions. Simulation and testing demonstrates the timing and mechanisms used to ensure safety of flight operations in the event of bleed system failure. References: JSSG-2009: D.3.4.4.12.2, D.4.4.4.12.2 Bleed source shut off; D.3.4.4.12.3, D.4.4.4.12.3 Bleed distribution control; D.3.4.4.12.4, D.4.4.4.12.4 Isolation and crossover control; D.3.4.4.12.10, D.4.4.4.12.10 Uncontrolled bleed air 14 CFR 23.1109, 23.1111",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Bleed air shutoff",
+      "text": "Standard: Provisions exist for bleed air shutoff in order to provide the air vehicle with secure means for preventing bleed air from jeopardizing SOF. No single point bleed air system failure causes an uncontrollable flow of high temperature bleed air into the interior of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review installation drawings and CAD models to verify that shutoff provisions prevent leakage of bleed air from creating a fire hazard or jeopardizing critical structure, wiring, or equipment. Analysis.\n  (1) Conduct FMECA and SHA to verify that no single point bleed air system failure results in an uncontrolled flow of high temperature bleed air into the interior of the air vehicle or at the bleed source. Test.\n    (1) Lab test: Conduct system-level testing to verify that bleed air shutoff and isolation provisions stop the flow of bleed air as intended, and that the timing and redundancy of bleed air shutoff functionality meets system requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

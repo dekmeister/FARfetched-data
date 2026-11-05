@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "20.5.2",
+  "number": "20.5.2",
+  "current_grouping": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+  "canonical_title": "Cargo and payload CG movement during aerial delivery and dynamic operations",
+  "subject_group": "20.5 Weight and balance, center of gravity movement and jettison capability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+      "title_at_revision": "Cargo and payload CG movement during aerial delivery and dynamic operations",
+      "text": "Standard: The air vehicle accounts for cargo and payload weight shifts during airdrops and external load operations, ensuring that the air vehicle\u2019s CG always remains within published limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Ensure stability and control analyses are conducted to show air vehicle CG can be maintained during all flight phases. Analysis.\n  (1) Conduct high fidelity 6-DOF flying quality simulations of taxi, takeoff, climb, cruise, descent, approach, landing, and dynamic aerial delivery, including transients.\n  (2) Simulate the dynamic forces of airdrop on air vehicle weight and balance during airdrop operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.20",
+  "number": "8.8.20",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Oil filtration system",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Oil filtration system",
+      "text": "Standard: An oil filtration system is provided to remove fine particles whose size (e.g., 3 microns for first stage and 40 microns for the second stage) can cause physical damage or failure in the contacting and sliding elements of the rotary-wing drive system. The filtration system includes a bypass function if the filter becomes clogged to ensure gearbox continues to function. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design drawings to verify the installation of filters. Test.\n  (1) Lab test: Conduct a lab test of the filtration system to verify contamination removal and the ability to bypass the filter if clogged. For full qualification, the lab test includes: a. Filter element multi-pass filtration ratio. b. Maximum particle passed. c. Filter bypass performance. d. Impending bypass indicator performance. e. Cold start and temperature lockout. f. Filter assembly clean pressure drop. g. Filter assembly proof pressure. h. Filter housing burst test. i. Filter element bubble point. j. Filter element collapse pressure. k. Pressure build-up (dirt capacity).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

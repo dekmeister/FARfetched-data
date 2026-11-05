@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.17",
+  "number": "6.2.13.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Foreign object damage",
+  "subject_group": "6.2.13 Vehicle control function integrated systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.17",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the clearances available safely tolerate foreign object damage (FOD).",
+      "text": "Verify the clearances available safely tolerate foreign object damage (FOD).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.17",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the clearances available safely tolerate foreign object damage (FOD).",
+      "text": "Verify that the clearances available safely tolerate foreign object damage (FOD). DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.7.2, 4.1.7.2, 3.1.7.3, 4.1.7.3, 3.1.11.11, 4.1.11.11, 3.1.13, 4.1.13, 3.1.14, 4.1.14, 3.1.14.5, 4.1.14.5, 3.2.3, 4.2.3, 3.2.3.3, 4.2.3.3, 3.4.4, 4.4.4, 3.5.7, 4.5.7 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.17",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the clearances available safely tolerate foreign object damage (FOD).",
+      "text": "Verify that the clearances available safely tolerate foreign object damage (FOD). DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.7.2, 4.1.7.2, 3.1.7.3, 4.1.7.3, 3.1.11.11, 4.1.11.11, 3.1.13, 4.1.13, 3.1.14, 4.1.14, 3.1.14.5, 4.1.14.5, 3.2.3, 4.2.3, 3.2.3.3, 4.2.3.3, 3.4.4, 4.4.4, 3.5.7, 4.5.7 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.7.3",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Foreign object damage (FOD)",
+      "text": "Criterion: Verify that the physical clearances available can safely tolerate FOD. Standard: No probable combination of temperature effects, air loads, structural deflections, vibration, buildup of manufacturing tolerances, wear, sag, or installation results in insufficient clearance to tolerate FOD. Deformation damage to surfaces or associated structure from foreign objects (e.g., objects from tires, birds) does not result in insufficient clearances over the range of the aircraft operating envelope. Method of Compliance: Verification methods include analysis, inspection and review of documentation. Clearance criteria are verified by inspecting and measuring clearance area around wirings, cables, and plumbing systems and any other control mechanisms. Clearance analysis verifies that temperature effects, air loads, structural deflections, vibration, buildup of manufacturing tolerances, wear, installation, and flight loads are accounted for in establishing the clearance requirements. Installation drawings are verified for currency and accuracy. References: JSSG-2008: 3.0, 3.1, 3.1.7.2, 3.1.7.3, 3.1.11.11, 3.1.13, 3.1.14, 3.1.14.5, 3.2.3, 3.2.3.3, 3.4.4, 3.5.7, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Foreign object damage",
+      "text": "Standard: For mechanical elements of the VCF, physical clearances are designed to protect against jamming due to foreign objects under probable combinations of temperature effects, air loads, structural deflections, vibration, buildup of manufacturing tolerances, wear, sag, or installation. For FOD sensitive areas, protection schemes (e.g., cover, seals, armor plate) are in place to prevent FOD from entering the minimum mechanical clearance aperture resulting in binding or damage to elements. Deformation damage to surfaces or associated structure from foreign objects (e.g., objects from tires, birds) does not result in mechanical interference over the range of the air vehicle operating envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review FOD Control Plan or equivalent to define FOD sensitive areas and mitigations.\n(2) Review of requirements, design, and drawings to evaluate FOD protection and mitigation elements meet the intended purpose.\n(3) Inspection of installed air vehicle control system elements to ensure designed clearance is achieved. For mechanical elements with relative motion, measurements are taken throughout the full range of all elements within the local area. Analysis.\n  (1) Evaluate the deformation from FOD of flight control surfaces and air vehicle skin near regions of mechanical VCF to verify the deformation does not result in mechanical interference.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

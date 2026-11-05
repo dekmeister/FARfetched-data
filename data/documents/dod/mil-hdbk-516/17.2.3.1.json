@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.3.1",
+  "number": "17.2.3.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Armament and stores subsystem and component electromagnetic interference",
+  "subject_group": "17.2.3 Armament and stores electromagnetic environmental effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Armament and stores subsystem and component electromagnetic interference",
+      "text": "Standard: Store subsystems and components comply with their defined EMI control requirements, ensuring emissions and susceptibility remain within the safety-critical limits as specified in MIL-STD-461, Detailed Requirements section. All store modes and functions (e.g., inventory, carriage, employment, flight termination, and jettison) will be assessed to ensure no EMI anomalies are introduced that could disrupt or cause potential hazards to store and air system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation (e.g., installation drawings, ICDs, operational modes and characteristics) to verify the applicable store subsystem configurations of components, software, modes, and functions undergo the required EMI testing IAW MIL-STD-461, Detailed Requirements paragraphs. Analysis.\n  (1) Verify the store subsystems and components are developed under the same set of EMI control requirements as the host air system. If not, conduct a gap analysis to compare the store\u2019s equipment against the host air system\u2019s MIL-STD-461 requirements and applicable test limits. This analysis will identify EMI qualification differences and potential EMI hazards to the stores and host air system. Test.\n    (1) Lab test: For store equipment that is flight-critical or associated with SCFs, conduct the following EMI test IAW MIL-STD-461 test requirements: CE102, RE102, CS101, CS114, CS115, CS116, CS117, RS103, and if applicable for RF transceivers CE106, CS103, CS104, CS105. Verify the applicable store configuration(s) (e.g., hardware, software, modes, and functions) complete the required EMI testing and meet the safety-critical limits as specified by their EMI control requirements.\n    (2) Lab test: For store equipment that is not flight-critical or associated with SCFs, conduct the following EMI tests IAW MIL-STD-461 test requirements: CE102 and RE102. Verify the applicable store configuration(s) (e.g., hardware, software, modes, and functions) complete the required EMI testing and meet the safety-critical limits as specified by their EMI control requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

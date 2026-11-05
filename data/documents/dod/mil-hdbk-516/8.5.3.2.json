@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.3.2",
+  "number": "8.5.2.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Landing gear energy absorption",
+  "subject_group": "8.5.2 Landing gear structure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.3.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the functionality of the shock strut to perform all its required energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing.",
+      "text": "Verify the functionality of the shock strut to perform all its required energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.3.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the functionality of the shock strut to perform all its required energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing.",
+      "text": "Verify the functionality of the shock strut to perform all its required energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.3.1.8/A.4.4.1.3.1.8 Energy Absorption; 3.4.1.3.1.11/4.4.1.3.1.11 Repeated Operation AFGS-87139: para 3.2.2.1 General and 3.2.2.2 Shock absorption; MIL-T-6053 - presently inactive for new designs, plan to be converted into an SAE document MIL-L-8552 FAA Doc: 14CFR reference: 23.721-23.745, 13.1-13.2.4, 23.1501, 23.1529, 25.721-25.737, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.3.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the functionality of the shock strut to perform all its required suspension, stroking, and energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing.",
+      "text": "Verify the functionality of the shock strut to perform all its required suspension, stroking, and energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.3.1.8/A.4.4.1.3.1.8 Energy Absorption 3.4.1.3.1.11/4.4.1.3.1.11 Repeated Operation AFGS-87139: 3.2.2.1 General and 3.2.2.2 Shock absorption MIL-L-8552 Comm\u2019l Doc: SAE AS 6053 Tests, Impact, Shock Absorber, Landing Gear, Aircraft (formerly MIL-T- 6053) FAA Doc: 14CFR reference: 23.721-23.745, 13.1-13.2.4, 23.1501, 23.1529, 25.721-25.737, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.3.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Shock strut energy absorption",
+      "text": "Criterion: Verify the functionality of the shock strut to perform all its required suspension, stroking, and energy absorption for all ground operations, landing, and takeoffs with normal servicing and with acceptable levels of misservicing. Standard: Landing gear energy absorption capability supports the air vehicle at all times for all the design missions. Static and dynamic loads generated during taxi, takeoff and landing under all air vehicle operational weights and environments with properly serviced and misserviced shock struts are considered and included. Method of Compliance: Verification methods include analyses, tests, inspections and demonstrations. Shock strut energy analysis verifies that air vehicle loads are not exceeded for any shock strut pressure levels, including misserviced shock struts, and any air vehicle operational weights. Loads are validated by component test results. Checkout/inspection verifies that the gear can be serviced properly. Ground demonstration verifies that the gear performs as designed when serviced at the specified pressure levels. Flight testing validates the analysis and verifies the operational suitability of the shock strut. References: JSSG-2009: A.3.4.1.3.1.8, A.4.4.1.3.1.8 Energy Absorption; 3.4.1.3.1.11, 4.4.1.3.1.11 Repeated Operation AFGS-87139: 3.2.2.1 General, 3.2.2.2 Shock absorption MIL-T-6053 (Inactive for New Design) MIL-L-8552 14 CFR 23.721-23.745, 13.1-13.2.4, 23.1501, 23.1529, 25.721-25.737, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Landing gear energy absorption",
+      "text": "Standard: Landing gear energy absorption capability supports the air vehicle for landings at all operational weights and environments. The landing gear can absorb two successive landings within the time to meet air vehicle requirements with no degradation in capability. Landing gear static and dynamic loads generated during landing are considered. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review structural criteria document to verify landing load cases for nose and main landing gear. Analysis.\n  (1) Conduct multivariate dynamic analyses (e.g., 6-DOF landing simulation models) to verify approach speeds and landing sink rate conditions to establish the development landing load cases.\n  (2) Conduct analyses using methods IAW JSSG-2006, Land-based and Ship-based Aircraft Ground Loading Parameters paragraph, MIL-A-8863, or MIL-STD-3063 to define landing ground and deck load cases (e.g., level, tail down, and multivariate) including reserve energy for all USAF fixed-wing air vehicles and USAF and USN rotary-wing air vehicles.\n  (3) Conduct dynamic analysis of the shock absorber to verify damping characteristics and establish landing limit load cases (e.g., level, tail down, and multivariate) under normal serviced shock struts. The analysis includes a reserve energy drop to define landing ultimate load case for USAF air vehicles. Analysis identifies worst-case loads. Test.\n    (1) Lab test: Conduct full scale drop testing of nose (or tailwheel) and main landing gear assemblies with wheels spun up in a reverse direction to reflect landing speed at worst-case load conditions to verify metering and damping effectiveness, loads (e.g., spin up and spring back), clearances, strut frictions, stroking, and bottoming characteristics of the landing shock absorbers. The landing gear assembly includes shock absorber, wheels, tires, brakes, actuators, locks, and other structural members as used on the air vehicle. Conduct testing as follows: a. For USAF air vehicles, testing is conducted IAW SAE AS6053A, Design Landing Tests, Miscellaneous Landing Tests, Equipment Servicing, and Reserve Energy paragraphs. b. For USN air vehicles, drop testing cases can be defined based on nominal and worst-case landing conditions developed from Analysis MoCs (1) and (2). Resulting loads correlate with analytical predictions. c. For rotary-wing air vehicles, drop testing is based on a limit sink speed of 12 ft/s in combination with 1g rotor lift and other landing cases including all combinations of the following: all horizontal speeds from 30 kts rearward to the best forward speed for minimum rate of descent in autorotation, air vehicle pitch attitudes (ranging from 15- degrees nose down to 15-degrees tail down), combinations of sinking speed and roll angle lying on and within the envelopes, and brakes locked and unlocked operations for VLs. A reserve energy drop of 14.7 ft/s is performed. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test. (2) Flight test: Conduct flight testing to verify loads and accelerations from operations are within design envelopes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

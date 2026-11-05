@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.2.1",
+  "number": "7.4.14",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Controls and subsystems rotating components",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.2.1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Controls and subsystems rotating components",
+      "text": "Criterion: Verify that high-energy controls and subsystem rotating components are designed to be damage tolerant, or that there are provisions for containment of failed parts. Standard: The design of controls and subsystem components with rotating parts applies damage tolerance methodologies. Containment of failed components with rotating parts (e.g., pumps, turbochargers) provides protection against damage to neighboring critical systems or components. Method of Compliance: Verification methods include analysis and review of documentation . Analysis of components' damage tolerance design characteristics, location and orientation demonstrates their ability to continue to meet specification requirements when exposed to an uncontained failure of a neighboring system or component. Analysis of components' protections (shields, locations, orientations, etc.) demonstrates that they are protected and can continue to meet specification requirements when exposed to an uncontained failure of neighboring components. References: JSSG-2007: A.3.7, A.4.7 Subsystems, engine subsystem component design and verification; A.3.4.1.7, A.4.4.1.7 Damage Tolerance; and A.3.4.1.6.3, A.4.4.1.6.3 Containment, component containment design requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Controls and subsystems rotating components",
+      "text": "Standard: Engine controls and subsystem rotating components (e.g., oil pumps, fuel pumps, turbochargers, starters, generators, alternators) are designed to be damage tolerant. Components are designed with protections against damaging neighboring critical systems and components. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, or other substantiating records and reports) and verify the design of the controls and subsystems rotating components. Analysis.\n  (1) Analysis of components verifies damage tolerant capability. Analysis verifies the components are designed with protections against damaging neighboring critical systems and components, and with protections from an uncontained failure of neighboring components. Test.\n    (1) Lab test: Component testing (e.g., design verification testing, qualification and certification testing) verifies damage tolerant capability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

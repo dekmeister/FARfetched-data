@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.5",
+  "number": "14.3.5",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Identification of safety designated/significant software",
+  "subject_group": "14.3 Software safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Identification of safety designated/significant software",
+      "text": "Criterion: Verify that software elements which perform functions related to system hazards have been identified and handled as safety designated/significant software. Standard: Safety functions identified as system hazards are allocated to software functions. Software elements (e.g., CSCI, CSC, CSU, data, interfaces) related to each of those software functions are identified and assigned an appropriate safety criticality as defined by the system safety planning documentation. The software elements are handled (labeled, tracked, implemented, tested, etc.) as defined by the system safety planning documentation. Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of system safety and software safety documentation that safety related software functions have been identified. Verify by inspection of program, system safety and software safety documentation that the identified safety related software elements are handled (labeled, tracked, implemented, tested, etc.) as required by software/safety planning based on their safety criticality levels. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 SAE ARP4754 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Identification of safety designated/significant software",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

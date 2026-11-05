@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.5.2",
+  "number": "14.3.5.2",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Testing to criticality levels",
+  "subject_group": "14.3.5 Identification of safety designated/significant software",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Testing to criticality levels",
+      "text": "Criterion: Verify that each safety designated software function is tested commensurate with its assigned criticality level. Standard: Each safety designated software function is tested to the level required by its assigned criticality level. The testing requirements for the software criticality levels are documented in the system safety planning documents. Method of Compliance: Verification method includes inspection of documentation. Verify that the appropriate level of testing for designated safety software has been performed and required results were achieved. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 SAE ARP4754 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Testing to criticality levels",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

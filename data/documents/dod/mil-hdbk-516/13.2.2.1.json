@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.2.1",
+  "number": "13.2.2.1",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Verify that safety-critical subsystems have no undesirable responses while operating in the intended operational environment.",
+  "subject_group": "13.2.2 Verify that on-board equipment and subsystems exhibit electromagnetic compatibility while operating within the intended external operational electromagnetic environment",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that safety-critical subsystems have no undesirable responses while operating in the intended operational environment.",
+      "text": "Verify that safety-critical subsystems have no undesirable responses while operating in the intended operational environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that safety-critical subsystems have no undesirable responses while operating in the intended operational environment.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

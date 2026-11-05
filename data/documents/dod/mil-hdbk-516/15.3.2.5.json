@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.2.5",
+  "number": "15.5.7",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Restart and reset capabilities",
+  "subject_group": "15.5 Software architecture and design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.2.5",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight.",
+      "text": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.2.5",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight.",
+      "text": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3; JSSG-2008 Appendix A: Para 3.1.12.1 discusses redundancy management support for restart. Para 3.2.4.6 addresses software support for failure recovery. Para 3.1.17 provides guidance regarding failure propagation of computational failures. Para 3.3.2.2 discusses microprocessor timing and synchronization. Para 3.3.4 details issues surrounding synchronization rates. Para 4.1.13.2 provides lessons learned in verification of in-flight monitoring capability. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.2.5",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight.",
+      "text": "Verify that the SOF software design has the necessary interrupt, reinitialization, resynchronization, recheck, and reconfiguration provisions to restart or reset safely and quickly in flight. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3 JSSG-2008 Appendix A: 3.1.12.1 discusses redundancy management support for restart; 3.2.4.6 addresses software support for failure recovery; 3.1.17 provides guidance regarding failure propagation of computational failures; 3.3.2.2 discusses microprocessor timing and synchronization; 3.3.4 details issues surrounding synchronization rates; 4.1.13.2 provides lessons learned in verification of in-flight monitoring capability FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Restart and reset capabilities",
+      "text": "Criterion: Verify that SSSE designs have the necessary provisions to restart and/or reset the system safely while in flight. Standard: The system SSSEs are designed in conjunction with the digital hardware to reset/restart the computer system safely without inducing unacceptable effects (e.g., transients). Aspects of the design include channel/data resynchronization, the systems interrupt structure, the system reinitialization, re-check of system health, and reconfiguration to safe states. The design of flight critical functions accommodates transient time limits dependent on the air system\u2019s inherent stability/safety margins, envelope, and flight maneuvers before unrecoverable departure. Method of Compliance: Verification methods include analysis and test. Testing is accomplished at all levels (from software to integrated system) and includes FMET. Analysis coupled with test verifies that the reinitialization and reconfiguration capability, channel/data resynchronization, and system's interrupt structure meet the system reset/restart safety requirements. System integration tests ensure all safety related state transitions meet required timelines, are stable, secure, and do not result in loss of safety critical data. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (IX.7); 3.0 Computer Resources section (III.5.d.5); 3.1.12.1 discusses redundancy management support for restart; 4.1.13.2 provides lessons learned in verification of in-flight monitoring capability; 3.1.17 provides guidance regarding failure propagation of computational failures; 3.2.4.6 addresses software support for failure recovery; 3.3.2.2 discusses microprocessor timing and synchronization; 3.3.4 details issues surrounding synchronization rates DoD JSSSEH: F.5.3; F.3.1 NASA-NPR 7150.2 Rev A: 2.2.12.a DOT/FAA/AR-07/48: 4.3 restart LRU without affecting other applications",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Restart and reset capabilities",
+      "text": "Standard: 1. Verify that SESS designs have the necessary provisions to restart and/or reset the system safely while in flight operations. The system SESSs are designed in conjunction with the digital hardware to reset and/or restart the computer system safely without inducing unacceptable effects (e.g., transients). Aspects of the design include channel and data resynchronization, the systems interrupt structure, the system reinitialization, re-check of system health, and reconfiguration to safe states. The design of flight-critical functions accommodates transient time limits dependent on the air system\u2019s inherent stability and safety margins, envelope, and flight maneuvers before unrecoverable departure. In addition, for designs utilizing MCP environments: 2. This standard is applicable per processing core for the implementation of restart and/or reset capability within the MCP environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Testing is accomplished at all levels (from software to integrated system) and includes FMET. Analysis coupled with test verifies that the reinitialization and reconfiguration capability, channel and data resynchronization, and system's interrupt structure meet the system reset and/or restart safety requirements. System integration tests ensure all safety related state transitions meet required timelines, are stable and do not result in loss of safety-critical data. In addition, for designs utilizing MCP environments: 2. This MoC is applicable per processing core for the implementation of restart and/or reset capability within the MCP environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

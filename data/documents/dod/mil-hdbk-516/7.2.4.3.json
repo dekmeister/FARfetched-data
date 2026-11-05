@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.3",
+  "number": "7.2.4.3",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Computer resources and software",
+  "subject_group": "7.2.4 Engine subsystems, components, computer resources and software",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Computer resources and software",
+      "text": "See section 15. Comm\u2019l Doc: IEEE/EIA 12207.0, IEEE/EIA 12207.1, IEEE/EIA 12207.2 and RTCA DO 178. DoD/MIL Doc: JSSG-2007A: para 3.8/4.8 Software Resources. FAA Doc: 14 CFR reference: 33.28",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Computer resources and software",
+      "text": "See section 15 Comm\u2019l Doc: IEEE/EIA 12207.0, IEEE/EIA 12207.1, IEEE/EIA 12207.2 and RTCA DO 178 and 254 DoD/MIL Doc: JSSG-2007A: 3.8/4.8 Software Resources. FAA Doc: 14 CFR reference: 33.28",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Computer resources and software",
+      "text": "For subsystems that use computer systems and software, see Section 15 for additional specific criteria, standards and methods of compliance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Computer resources and software",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

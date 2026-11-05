@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.12",
+  "number": "8.6.12",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.6 Auxiliary power system/emergency power system(s) APS/EPS",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the crew station provides for adequate control and monitoring of the system.",
+      "text": "Verify that the crew station provides for adequate control and monitoring of the system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the crew station provides for adequate control and monitoring of the system.",
+      "text": "Verify that the crew station provides for adequate control and monitoring of the system. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.8, C4.4.3.8 FAA Doc: 14CFR reference: 23.1141 - 23.1142, 23.1549, 25.1141 - 25.1142, 25.1549",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that the crew station provides for adequate control and monitoring of the system. Standard: Crew/operator station provides means to control and assess APS/EPS operating condition to the extent necessary for flight safety. The system provides warnings, cautions and advisories to operators and maintainers for hazardous failure conditions of APS/EPS. Method of Compliance: Inspection of design verifies provisions for the necessary control and monitoring of the system operation and health. Integration tests, to include Failure Modes and Effects Testing (FMET), verify compatibility of APS/EPS with cockpit/control station and monitoring system. Ground tests of installed system verify operating performance. References: JSSG-2009, Appendix C 14 CFR 23.1141-23.1142, 23.1549, 25.1141-25.1142, 25.1549",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.8",
+  "number": "9.2.8",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Speech intelligibility",
+  "subject_group": "9.2 Crew stations, control stations and aircraft interiors",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that all audio communication systems have speech intelligibility of sufficient quality to ensure safe and effective aircraft operation.",
+      "text": "Verify that all audio communication systems have speech intelligibility of sufficient quality to ensure safe and effective aircraft operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Speech intelligibility",
+      "text": "Criterion: Verify that all audio communication systems have speech intelligibility of sufficient quality to ensure safe and effective aircraft system operation. Standard: All critical audio communications paths are to be evaluated using the Modified Rhyme Test (MRT), in accordance with ANSI/ASA S3.2. Critical communication paths may include but are not limited to: a. Pilot/operator audio communications with ground personnel or mission personnel. b. Pilot/operator communications with Air Traffic Control. c. Pilot/operator with another external air vehicle pilot/operator. d. Pilots to aircrew and passengers. An 80% (91% for Army) score on the modified rhyme test (MRT) conducted in accordance with ANSI/ASA S3.2 is considered adequate for all operational military aircraft communication paths essential to safety of flight. In support of initial ground testing and first flight predictive measures of speech intelligibility including the Articulation Index (AI), Speech Transmission Index (STI), and Speech Intelligibility Index (SII) may, at the discretion of the airworthiness authority, be used to predict communication performance for some environments. Method of Compliance: Speech intelligibility is verified by testing. Verify with talkers and listeners in the worst case noise environments where communications are required. Speech intelligibility scores cannot be combined for different personnel locations and flight conditions. Predictive measures are not used for full airworthiness compliance. References: MIL-STD-1472 MIL-STD-1474 ANSI/ASA S3.2 ANSI/ASA S3.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Speech intelligibility",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

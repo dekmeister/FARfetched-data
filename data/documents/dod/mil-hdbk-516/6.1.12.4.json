@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.12.4",
+  "number": "6.1.12.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Displays and instruments",
+  "subject_group": "6.1.12 Characteristics of the primary flight control system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Displays and instruments",
+      "text": "Criterion: Verify that displays and instruments are safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.8.4 Displays and instruments. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Reference: MIL-STD-1797: 5.2.8.4 Displays and instruments.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Displays and instruments",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

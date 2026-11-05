@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.4.1.1",
+  "number": "7.4.1.1",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Verify that the engine control system protects the engine from any out-of-limit conditions or instabilities such as over-speed, over-temperature, loss of commanded thrust, and surge/stall.",
+  "subject_group": "7.4.1 Verify that the engine control system performs safely under all required conditions",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the engine control system protects the engine from any out-of-limit conditions or instabilities such as over-speed, over-temperature, loss of commanded thrust, and surge/stall.",
+      "text": "Verify that the engine control system protects the engine from any out-of-limit conditions or instabilities such as over-speed, over-temperature, loss of commanded thrust, and surge/stall.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the engine control system protects the engine from any out-of-limit conditions or instabilities such as over-speed, over-temperature, loss of commanded thrust, and surge/stall.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

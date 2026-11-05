@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.6.1-516d",
+  "number": "4.6.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Flight manual format",
+  "subject_group": "4.6 Flight manuals",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Flight manual format",
+      "text": "Standard: Flight manuals conform to a format that enables crewmembers to distinguish emergency procedures, limitations, warnings, cautions, and notes from normal procedures. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Flight manuals and crewmember checklists are arranged IAW one of the following: a. MIL-DTL-7700, Flight Manual (-1) arrangement section. b. MIL-DTL-85025, Arrangement of publication section.\n(2) Flight manuals and crewmember checklists contain emergency procedures formatted IAW MIL-STD-38784, Emergency Page Markings paragraph, and one of the following: a. MIL-DTL-7700, Checklist Emergency Procedures Arrangement section. b. MIL-DTL-85025, Emergency Procedures Border paragraph, Steps in Emergency Procedures section, and Emergency Procedures subsection of the Pocket Checklist section.\n(3) Flight manuals contain limitations IAW one of the following: a. MIL-DTL-7700, Section V \u2013 Operating Limitations section. b. MIL-DTL-85205, Chapter 4 \u2013 Operating Limitations section.\n(4) Flight manuals and crewmember checklists contain warnings, cautions, and notes formatted IAW MIL-STD-38784, Warnings, Cautions, and Notes paragraph, and one of the following: a. MIL-DTL-7700, Warnings, Cautions, and Notes paragraph and Checklist Emergency Procedures Arrangement subsection. b. MIL-DTL-85205, Warnings, Cautions, and Notes subsections of the Technical Content Requirements for NATOPS Products section and Format Requirements for NATOPS Products section.\n(5) For air systems that do not require typical TO formatting, such as CDAs that use FAA-formatted material, USG approval of the technical data format and equivalent level of safety for the formatting standard is documented. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(6) Supplements required for operational test or operations conform to the formatting of the manual it supplements IAW MIL-STD-38784, Supplements section.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.4.4-516d",
+  "number": "5.4.4",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Service life",
+  "subject_group": "5.4 Durability and damage tolerance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Service life",
+      "text": "Standard: The service lives of the air vehicle and its parts are specified and maintained in terms of years, flight hours, flight cycles, landings, equivalent flight hours or other measures of damage in which the structure is expected to maintain its structural integrity when flown to the design loads spectra. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination. (1) Verify the ASIP Master Plan or RSIP Master Plan, as specified in MIL-STD-1530 or MIL- STD-3063 respectively, documents the analysis and test verification methods required to certify the DSL; that structural certification tasks are updated for modifications or changes to the air vehicle following initial AW certification basis; and all artifacts are developed IAW applicable sections of MIL-STD-1530 or MIL-STD-3063. (2) Verify detailed structural design criteria for service life, as specified in MIL-STD-1530 or MIL-STD-3063, documents the requirements to achieve structural integrity. (3) Verify the initial or modified service life is specified to an original design loads spectrum. (4) Verify the Force Structural Maintenance Plan is established or a documentation plan for inspections and modifications such that methodologies, intervals, location, and cost are detailed and support the continued AW throughout the specified service life. (5) Verify the air vehicle is designed with an individual aircraft tracking or individual rotary-wing tracking system to record usage parameters that supports updates to the inspection, modification, overhaul, and replacement times based on actual, measured usage of each air vehicle. Analysis. (1) Verify the durability, damage tolerance, and safe-life analyses predictions demonstrate residual strength and support flight test. Prior to entering operational test or operations, verify the standard by the following method(s): Examination. (6) Verify the Loads/Environmental Spectra Survey is developed and supports updates to the baseline operational loads spectrum. (7) Verify the Loads/Environmental Spectra Survey and individual aircraft tracking program support updates to individual air vehicle usage severity used to determine equivalent flight hours or other measures of damage. Analysis. (2) Verify durability, damage tolerance, and safe-life models are updated with repeated loads from flight test; are correlated to durability and damage tolerance tests; and analyses predictions demonstrate the service life is compliant with structural design criteria.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

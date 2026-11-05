@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.3.3",
+  "number": "17.3.3.3",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Interfaces",
+  "subject_group": "17.3.3 Stores interface and safe operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Interfaces",
+      "text": "Standard: The air system complies to all logical (digital and analog) interfaces (wired and wireless) that control armament and store SCFs. These interfaces prevent adverse effects from erroneous or spurious data, detect interface failures, maintain a defined state during power-up, operational transitions, and system errors or failures, and are verified for compliance with the ICD. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine interface documentation (e.g., ICD, interface change notices, store supplements, platform annexes, schematics) to identify all safety-critical interface requirements IAW JSSSEH and AOP-52, Interface Design Requirements sections that cover paths of communication and control (analog and digital) within the armament system as well as between the air vehicle and the store. Analysis.\n  (1) Analyze the functional interfaces to ensure SCFs are traced through the entire air vehicle to store interface. Test.\n    (1) Lab test: Conduct compatibility testing in a HITL environment with air system and store representative hardware, firmware, and software for all critical signals within the electrical signal set and logical message set for all relevant air system and store configurations. Verify that the desired loadouts and store configuration can operate safely with the air system\u2019s logical and electrical interface through inventory testing (e.g., power on multiple stores at once using air system representative interface, firing sequences). Verify critical interfaces function as designed to support transition from \u201csafe\u201d to operational (\u201carmed\u201d) state (e.g., intended release of energy and stores).\n    (2) Lab test: Conduct testing of electrical interface and components to ensure continuity, timing, sequence, fault tolerance, and ICD compliance.\n    (3) Ground test: Conduct functional store station checks to verify wiring continuity and correct pinout of armament system cabling from SMS through the store umbilical.\n    (4) Ground test: Conduct ground communication testing on air system with the store-in-the-loop to verify air system to store communication, BIT checks, and power management for all electrical signal sets and applicable logical message sets IAW MIL-HDBK-1763, Test 102.\n    (5) Ground test: Conduct ground communication testing with support equipment designed to test the air system or store interface (e.g., perform release and control checks) to ensure accurate stimulation of SCFs, interlocks, and compliance with the platform to store interface. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (6) Flight test: Conduct captive carriage flight test for final verification of compliant interfaces.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

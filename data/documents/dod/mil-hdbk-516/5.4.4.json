@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.4.4",
+  "number": "19.2",
+  "current_grouping": "19. MATERIALS AND MATERIAL INTEGRITY",
+  "canonical_title": "Corrosion prevention and control",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "5.4.4",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that corrosion prevention systems remain effective during the service life.",
+      "text": "Verify that corrosion prevention systems remain effective during the service life. Specific corrosion prevention and control measures, procedures, and processes are to be identified and established commensurate with the operational and maintenance capability required of the airframe. DoD/MIL Doc: JSSG-2006: para A.3.11.2 Corrosion Prevention and Control, pg 389 JSSG-2006: para A.4.11.2 Corrosion Prevention and Control, pg 392 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "5.4.4",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that corrosion prevention systems remain effective during the service life.",
+      "text": "Verify that corrosion prevention systems remain effective during the service life. Specific corrosion prevention and control measures, procedures, and processes are to be identified and established commensurate with the operational and maintenance capability required of the airframe. DoD/MIL Doc: JSSG-2006: A.3.11.2 Corrosion Prevention and Control, pg 389 JSSG-2006: A.4.11.2 Corrosion Prevention and Control, pg 392 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "5.4.4",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Corrosion prevention and control",
+      "text": "Criterion: Verify that corrosion prevention systems remain effective during the service life. Specific corrosion prevention and control measures, procedures, and processes are identified and established commensurate with the operational and maintenance capability required of the air vehicle structure. Standard: Corrosion prevention and control process is satisfactorily established to maintain structural integrity for the operational and maintenance capabilities throughout the service life of the air vehicle structure. A Corrosion Prevention and Control Plan (CPCP) is established. The CPCP charters a Corrosion Prevention Advisory Team (CPAT) and the Contractor Corrosion Team (CCT) to describe and establish the corrosion resistant design of the system. Method of Compliance: Verification methods include analysis, test, demonstration and inspection of documentation. Corrosion prevention and control measures are established and implemented via implementation of the CPCP and CPAT. a. The criteria for the selection of corrosion resistant materials and their subsequent treatments are defined. The specific corrosion control and prevention measures are defined and established as an integral part of airframe structures design, manufacturing, test, and usage and support activities. b. Organic and inorganic coatings for all airframe structural components and parts, and their associated selection criteria are defined. c. Procedures for requiring drawings to be reviewed by and signed off by materials and processes personnel are defined. d. Finishes for the airframe are defined. General guidelines are included for selection of finishes in addition to identifying finishes for specific parts, such that the intended finish for any structural area is identified (see also MIL-STD-7179). e. The organizational structure, personnel, and procedures for accomplishing these tasks are defined and established. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.11.2, A.4.11.2 (Army rotary wing) ADS-10-SP, ADS-24 (cancelled), ADS-27-SP, ADS-29 (cancelled), ADS-51, ADS-64-SP (inactive), AR-70-62 MIL-STD-1568 MIL-STD-7179 (Navy rotary wing) As identified in the AVPS Addendum for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "19. MATERIALS AND MATERIAL INTEGRITY",
+      "title_at_revision": "Corrosion prevention and control",
+      "text": "Standard: Corrosion prevention and control processes IAW MIL-STD-1568 are established in a CPCP to maintain structural integrity for the operational and maintenance capabilities throughout the service life of the air vehicle. Method of Compliance: Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(1) Review documentation to confirm the CPCP for the system meets the requirements IAW MIL-STD-1568.\n(2) Review the system design to ensure corrosion control and prevention measures are defined IAW MIL-STD-1568.\n(3) System corrosion design is verified by service history on systems with more than 5 years of service.\n(4) Ensure design finish specifications in the CPCP are documented IAW MIL-STD-1568.\n(5) Corrosion-prone areas requiring NDI are identified and access for inspection throughout the system lifecycle (both usage and calendar time) has been assessed during system development IAW MIL-STD-1568.\n(6) Non-inspectable areas have increased corrosion control and prevention measures IAW MIL- STD-1568. Analysis.\n  (1) Review the system design to ensure selected materials and corrosion preventative treatments meet the technical requirements of MIL-STD-1568, are an integral part of design, and they are included in all manufacturing, test, and usage support activities.\n  (2) Ensure finishes and finish processes specified in the engineering drawings and associated technical specifications conform to the definition of finishes and their associated selection criteria IAW MIL-STD-1568.\n  (3) Review the system corrosion design verification data to verify functionality per MIL-STD- 1568 is achieved.\n  (4) The requirements for NDI are established during system development and test or via operational corrosion history, and the CPCP includes procedures to modify the requirement IAW MIL-STD-1568.\n  (5) Elastomeric sealing compounds for electrical systems are IAW with SAE AS50881.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

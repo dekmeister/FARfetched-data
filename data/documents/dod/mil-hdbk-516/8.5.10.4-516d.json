@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.4-516d",
+  "number": "8.5.10.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Arresting hook position status",
+  "subject_group": "8.5.10 Arresting hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Arresting hook position status",
+      "text": "Standard: Arresting hook system deployed position status is indicated to the flight crew. Status is provided for all positions (e.g., stowed, locked up, and locked down). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of flight manual and crew station design documentation verifies the indication system is provided to the flight crew. Demonstration.\n  (1) Conduct arresting hook system actuations to verify indication system matches arresting hook position.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

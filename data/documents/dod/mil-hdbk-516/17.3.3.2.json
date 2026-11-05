@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.3.2",
+  "number": "17.3.3.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Stores critical function",
+  "subject_group": "17.3.3 Stores interface and safe operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Stores critical function",
+      "text": "Standard: Stores execute critical control functions (e.g., fuze function, arming, motor and engine start, wing and fin deployment) when commanded without inducing flight or safety-critical hazards to the air vehicle or crewmembers during all phases of flight. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The store hazards associated with critical functions identified have been individually assessed for each store and the contributors to AW impact have been evaluated to ensure there are no store induced hazards that could result in a flight or safety-critical hazard during the all phases of flight.\n(2) Ensure any hazard related to software, hardware, or energetic exceedances, generated as part of store or laser safety review boards (e.g., Non-Nuclear Munitions Safety Board, WSESRB, Army Weapon System Safety Review Board, Joint Explosive Safety Review Board, Laser Safety Review Board, Air Force Nuclear Weapon Center, Nuclear Surety) that impact the AW of the air system application are mitigated by the design.\n(3) Review safety review board concurrence memorandums to identify store induced hazards and to ensure recommended procedures, limitations, or mitigations have been documented in flight manuals.\n(4) Analyze approved store government agency certification and qualification artifacts for residual hazards including but not limited to: a. Final type qualification of energetics. b. Insensitive munition assessment of AUR specific to air vehicle environment. c. Interim hazard classification and final hazard classification. d. Handling, loading, and downloading. e. Ship suitability testing and ship weapon integration testing. f. Basic ship safety. Test.\n  (1) Ground or Lab test: Verify air vehicle design features mitigate any induced flight or safety-critical hazard from the store.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

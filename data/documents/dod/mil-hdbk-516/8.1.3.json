@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.3",
+  "number": "8.1.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Transition to backup systems",
+  "subject_group": "8.1 Hydraulic and pneumatic systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify normal, back-up, and emergency hydraulic (or pneumatic) system operation.",
+      "text": "Verify normal, back-up, and emergency hydraulic (or pneumatic) system operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify normal, back-up, and emergency hydraulic or pneumatic system operation.",
+      "text": "Verify normal, back-up, and emergency hydraulic or pneumatic system operation. DoD/MIL Doc: JSSG-2009 Appendix B: B.3.4.2.1.2/B.4.4.2.1.2 System Fluid Capacity; B.3.4.2.1.10/B.4.4.2.1.10 Emergency Operation; and Appendix M: M.3.4.13, M.4.4.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Transition to backup systems",
+      "text": "Criterion: Verify normal, back-up, and emergency hydraulic or pneumatic system operation. Standard: The hydraulic and pneumatic systems have sufficient power to maintain safe operation during normal, back-up and emergency operation for all conditions. Transition of power from the primary to the backup and emergency system is predictable, manageable and safe (e.g., minimal sag in power, no detrimental pressure spikes). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and review of documentation. Analysis and simulation coupled with demonstrations, iron bird testing, ground and flight tests, verify safe operation during normal, backup and emergency conditions. Actual operational conditions of the air vehicle are used for the test verifications. Start up, take off, flight, weapons delivery, return to base, and landing conditions are included. References: JSSG-2009: B.3.4.2.1.2, B.4.4.2.1.2 System Fluid Capacity; B.3.4.2.1.10, B.4.4.2.1.10 Emergency Operation; M.3.4.13, M.4.4.13 MIL-STD-5522 ADS-50-PRF SAE AS5440 14 CFR 25.1301, 25.1309",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Transition to backup systems",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

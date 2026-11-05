@@ -1,0 +1,71 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.2",
+  "number": "8.1.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Interfaces and redundancies",
+  "subject_group": "8.1 Hydraulic and pneumatic systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems were evaluated and verified.",
+      "text": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems were evaluated and verified.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems were evaluated and verified to be safe.",
+      "text": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems were evaluated and verified to be safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems are evaluated and verified to be safe.",
+      "text": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems are evaluated and verified to be safe. DoD/MIL Doc: JSSG-2009: para B.3.4.2, B.4.4.2, B.3.4.2.1.10/ B.4.4.2.1.10 Emergency Operation; B.3.4.2.1.9/B.4.4.2.1.9 Leakage Control; B.3.4.2.2/B.4.4.2.2 Interface requirements; B.3.4.2/B.4.4.2 Hydraulic power subsystem; and Appendix M: M.3.4.13/M.4.4.13 Pneumatic Subsystem.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems are evaluated and verified to be safe.",
+      "text": "Verify that interfaces and redundancies with the flight control, electrical, and avionics systems are evaluated and verified to be safe. DoD/MIL Doc: JSSG-2009: B.3.4.2, B.4.4.2, B.3.4.2.1.10/ B.4.4.2.1.10 Emergency Operation; B.3.4.2.1.9/B.4.4.2.1.9 Leakage Control; B.3.4.2.2/B.4.4.2.2 Interface requirements; B.3.4.2/B.4.4.2 Hydraulic power subsystem; and Appendix M: M.3.4.13/M.4.4.13 Pneumatic Subsystem.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Interfaces and redundancies",
+      "text": "Criterion: Verify that interfaces and redundancies with other systems (e.g., flight controls, electrical, propulsion and avionics) are evaluated and verified to be safe. Standard: Interface and redundancy requirements with other systems (e.g., flight controls, electrical, propulsion and avionics) are defined in program documentation such as Interface Control Documents (ICDs) and specifications. Hydraulic and pneumatic systems function safely and are compatible with other systems, subsystems and components. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Inspection of ICDs and specifications verify that the interfaces are defined. Analysis of steady state and dynamic performance, component qualification tests, full-scale functional hydraulic system mockup/simulator testing, ground and flight tests verify hydraulic and pneumatic system interfaces are safe. Failure mode testing in the simulator and aircraft verify adequacy of redundant systems. References: JSSG-2009: B.3.4.2, B.4.4.2; B.3.4.2.1.10, B.4.4.2.1.10 Emergency Operation; B.3.4.2.1.9, B.4.4.2.1.9 Leakage Control; B.3.4.2.2, B.4.4.2.2 Interface requirements; B.3.4.2, B.4.4.2 Hydraulic power subsystem; and M.3.4.13, M.4.4.13 Pneumatic Subsystem MIL-STD-5522 ADS-50-PRF SAE AS5440 FAA AC 25.1309-1A",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Interfaces and redundancies",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

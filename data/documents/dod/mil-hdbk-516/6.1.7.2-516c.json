@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.2-516c",
+  "number": "6.1.7.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Lateral-directional dynamic response characteristics",
+  "subject_group": "6.1.7 Lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional dynamic response characteristics",
+      "text": "Criterion: Verify that lateral-directional dynamic response characteristics are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.2 Lateral-directional dynamic response characteristics (see figures 119 through 122 for guidance). b. 5.2.3.2.1 Roll rate response to small roll commands (see figure 123 for guidance). c. 5.2.3.2.2 Bank angle response to roll commands (see figure 135 for guidance). d. 5.2.3.2.3 Roll rate response to large roll commands (see table L for guidance). e. 5.2.3.2.4 Lateral acceleration at the pilot station (see table LI for guidance). f. 5.2.3.2.5 Yaw response to small roll control commands (see figure 138 for guidance). g. 5.2.3.2.6 Yaw response to large roll control commands (see table LII for guidance). h. 5.2.3.2.7 Coordination in turn entry and exit (see figures 142 through 149 and tables LIII through LVI for guidance). i. 5.2.3.2.8 Linearity of roll response to roll controller (see figure 173 for guidance). For rotorcraft, the air vehicle meets standards within the following ADS-33-PRF paragraphs: a. 3.3.2 Small-amplitude pitch (roll) attitude changes. b. 3.3.3 Moderate-amplitude pitch (roll) attitude changes (attitude quickness). c. 3.3.4 Large-amplitude pitch (roll) attitude changes. d. 3.3.5 Small-amplitude yaw attitude changes. e. 3.3.6 Moderate-amplitude heading changes (attitude quickness). f. 3.3.8 Large-amplitude heading changes. g. 3.4.6 Roll attitude response to lateral controller. h. 3.4.7 Roll-sideslip coupling. i. 3.4.8 Yaw response to yaw controller. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional dynamic response characteristics",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

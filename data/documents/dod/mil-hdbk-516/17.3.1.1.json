@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.1.1",
+  "number": "17.3.1.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Stores management functionality",
+  "subject_group": "17.3.1 Safe operating condition",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Stores management functionality",
+      "text": "Standard: The SMS(s) manages the SCFs for controlling and operating stores (e.g., managing store inventory with associated mass properties, issuing squib fire voltages to release equipment, employment of armament, and release of countermeasures and electromagnetic radiation). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine SMS development documentation to verify that all SCFs and safety-critical components within the SMS architecture are identified, allocated with traceability, and that their required integrity levels are defined.\n(2) Evaluate the interface between the SMS and other air vehicle subsystems (e.g., flight controls) and each individual store to identify all safety-critical data paths and communication threads. Verify compliance to the ICD for each store and intermediate interface between armament systems. Analysis.\n  (1) Conduct an analysis to evaluate safety-critical functionality within the SMS and store(s). Analyze failure modes and hazards attributed to individual contributions of the software, firmware, and hardware components within the SMS and store(s) to determine where the SMS requires redundancy mechanisms. Analyze the FMECA SCFs for redundancy (i.e., single points of failure) and verify that mitigating procedures exist to address in flight failures. Test.\n    (1) Lab test: Conduct HITL and software-in-the-loop end-to-end testing to verify stores management and store functionality during carriage, conditioning (e.g., power-up, initialization, transfer alignment, pre-arming, targeting), and employment (e.g., release and jettison, pod operation). Conduct fault insertion testing (e.g., flipped bits, corrupted data sets) to verify functions are fault tolerant and demonstrate correct failure response.\n    (2) Ground test: Perform on air vehicle functional test of station and suspension and release equipment (e.g., release and control) using associated armament support equipment. Verify that any deficiencies identified in lab testing have been mitigated. Verify that data pertinent to the air vehicle-to-store interface (e.g., air vehicle identification and configuration, lever arms, store mass properties) is valid and complies to the ICD for each store and intermediate interface between armament systems IAW MIL-HDBK-244, Stores Management Equipment Test paragraph. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing to verify stores management functionality (e.g., store conditioning, managing of store inventory, pre-arming, firing, jettison, release, launch).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

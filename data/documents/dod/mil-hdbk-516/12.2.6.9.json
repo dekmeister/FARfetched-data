@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.2.6.9",
+  "number": "12.2.6.9",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Care in modification",
+  "subject_group": "12.2.6 Sufficiency of design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Care in modification",
+      "text": "Criterion: Verify that addition of a modification into existing wiring installations does not create cracking or conditions for chafing or other degradation of existing wiring insulation. Standard: Wire installation complies with good design practice, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including processes, drawings, documents, FMECA and assembled product, verify that the wiring installation is free of conditions that can lead to chafing or other wiring/harness degradations. References: For guidance/principles regarding the prevention of wire/cable/harness chafing: JSSG-2009: 3.3.8; A.3.4.1.5.8.1; B.3.4.2.1.17; H.6.3.1; L.3.4.12; M.6.3.1 SAE AS50881 NFPA 70 TM 55-1500-323-24 (Army only)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Care in modification",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

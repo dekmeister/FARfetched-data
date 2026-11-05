@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.14.3",
+  "number": "6.2.14.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Mode transition transients",
+  "subject_group": "6.2.14 Vehicle control function engage, disengage, and interlocks safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Mode transition transients",
+      "text": "Standard: Engaging, disengaging, and transitioning between modes maintains response characteristics consistent with the operational state of the air vehicle. The transients associated with the engage, disengage, and mode transitions are supported by the air vehicle dynamics without exceeding any air vehicle limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Complete FMECA and SSHA to identify failure cases and associated mode engagement or disengagement. Test.\n  (1) Lab test: Conduct 6-DOF simulation to verify transient behavior associated with mode engagement, disengagement, or transition.\n  (2) Lab test: Conduct PITL simulation to verify operational state following engagement, disengagement, and transition between modes in normal conditions and due to failures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (1) Conduct flight test operations evaluating mode transition transient behavior.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

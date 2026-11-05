@@ -1,0 +1,42 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.9.5",
+  "number": "9.8.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Safe operation under aircraft environmental exposures",
+  "subject_group": "9.8 Lavatories, galleys, and areas not continuously occupied",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.9.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that all equipment installed in lavatories, galleys, and other areas can be safely operated in the aircraft environment, and is designed to withstand all potential aircraft environmental exposures, including rapid decompression, without creating a safety hazard.",
+      "text": "Verify that all equipment installed in lavatories, galleys, and other areas can be safely operated in the aircraft environment, and is designed to withstand all potential aircraft environmental exposures, including rapid decompression, without creating a safety hazard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Safe operation under aircraft environmental exposures",
+      "text": "Criterion: Verify that all equipment installed in lavatories, galleys, and other areas can be safely operated in the aircraft environment and is designed to withstand all potential aircraft environmental exposures, including rapid decompression, without creating a safety hazard. Standard: All structural elements have sufficient strength, rigidity, and durability to resist accelerations and inertia loads for a safe installation on the aircraft without permanent deformations, loss of rigidity, or loss of proper structural functioning for the specified usage. Structural integrity is consistent with strength requirements for the aircraft. Sustenance and waste management equipment is made of quality parts, does not include sharp corners, uses adequate retention and latches, and does not create hazardous noise levels. The sustenance and waste management equipment is designed to withstand, without degradation, exposure to the natural and induced environments of an equipment life cycle . Equipment, including enclosed chambers, assemblies, and pressure vessels can withstand rapid decompression at maximum aircraft altitudes without structural failures, deformations, or material releases that can cause injury or create a flight safety hazard. Method of Compliance: Analyses, demonstrations, inspections, and tests are used to verify the sustenance and waste management system is properly designed. Safe operation is verified by system tests in actual or simulated flight environments. Structural analysis is accomplished to ensure that adequate installation strength is provided. Decompression tests verify ability of equipment to safely withstand rapid pressure changes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Safe operation under aircraft environmental exposures",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

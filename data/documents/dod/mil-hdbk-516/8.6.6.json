@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.6",
+  "number": "8.6.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Response to failures",
+  "subject_group": "8.6 Auxiliary power systems and emergency power systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the emergency power system (to include the APU or jet fuel starter (JFS) when deemed flight essential) is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements.",
+      "text": "Verify that the emergency power system (to include the APU or jet fuel starter (JFS) when deemed flight essential) is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the emergency power system (including the APU or jet fuel starter (JFS) when deemed flight essential) is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements.",
+      "text": "Verify that the emergency power system (including the APU or jet fuel starter (JFS) when deemed flight essential) is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.4, C.4.4.3.4 FAA Doc: 14CFR reference: 23.943, 25.901 (f), 25.943, TSO C77b: 4.1, 4.4.1, 4.4.2, 4.4.3, 4.7",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Response to failures",
+      "text": "Criterion: Verify that the emergency power system (including the Auxiliary Power Unit (APU) or jet fuel starter when deemed flight essential) is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements. Standard: The emergency power system is capable of responding to failures and providing adequate levels of bleed air, shaft, electrical and/or hydraulic power in sufficient time to meet design requirements. Method of Compliance: Inspection of program documentation and design analysis identify the APS/EPS sizing and performance requirements. Component tests verify the ability to start, operate, and endure the natural and induced environmental conditions (ambient temperature extremes, pressure, humidity, rain, sand and dust, etc.) and flight conditions (maneuvers, attitudes, negative \"G\", shock, etc.). Base level and simulated altitude chamber tests verify uninstalled performance and operability. Analysis and/or wind tunnel tests verify inlet and exhaust performance. Performance analysis (model) verifies installed performance throughout the operating and flight envelope. Integration tests (e.g., Vehicle Integration Facility) verify APS/EPS controller hardware/software compatibility with the air vehicle. Testing verifies sufficient start time design requirements. Installed system ground testing verifies proper operation and performance with air vehicle systems. Flight test results, including those of the inlet and exhaust systems, verify system starting, operability and performance and validate installed performance models. References: JSSG-2009: Appendix C FAA TSO-C77: 4.1, 4.4.1, 4.4.2, 4.4.3, 4.7 14 CFR 23.943, 25.901 (f), 25.943",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Response to failures",
+      "text": "Standard: The APS and emergency power system can respond to external failures while providing levels of bleed air, shaft, and electrical and hydraulic power in sufficient time to maintain stable flight and landing of the air vehicle during an emergency. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct performance-based modeling and analysis to verify that the APS and emergency power system has the power capacity to maintain sufficient pneumatic, shaft, electrical and hydraulic power for the duration of time needed to perform established emergency procedures and land while maintaining flight stability.\n(2) Conduct analysis to verify sufficient power levels are provided to deploy or start-up flight-critical equipment in the event of loss of main power systems (e.g., APU start-up in flight, main engine restart capability by the APS and emergency power system, deployment of ram air turbine, and emergency hydraulic pumps). Test.\n  (1) Lab test: Conduct altitude chamber testing to verify that the APS and emergency power system can start in time to provide full loading of systems. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Lab test: Conduct wind tunnel tests to verify deployment and performance of the emergency system (ram air turbine and APU) inlet and exhaust features within its operating environment.\n  (3) Flight test: Conduct flight testing to verify that the APS and emergency power system meets air vehicle design requirements for start time (e.g., from system startup to main engine start or full loading) and is capable of providing full loading of the APS and emergency power system throughout its design operating envelope and various flight conditions (e.g., maneuvers, attitudes, negative g, and shock), from ground to maximum service ceiling of system (e.g., maximum operating celling of 22,000 ft of electrical power, 16,000 ft for maximum pneumatic power).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

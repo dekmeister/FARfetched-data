@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.3.3",
+  "number": "9.3.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Operation in commercial airways",
+  "subject_group": "9.3 Air system lighting",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the lighting will allow the air vehicle to operate in commercial airways without restriction.",
+      "text": "Verify that the lighting will allow the air vehicle to operate in commercial airways without restriction.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the lighting allows the air vehicle to operate in commercial airways without restriction.",
+      "text": "Verify that the lighting allows the air vehicle to operate in commercial airways without restriction. DoD/MIL Doc: JSSG-2010-5: section 3.5.3 addresses exterior lighting subsystems FAA Doc: 14CFR references: 23.1381-23.1401, 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Operation in commercial airways",
+      "text": "Criterion: Verify that the lighting allows the air vehicle to operate in commercial airways without restriction. Standard: Air vehicle exterior lighting complies with all applicable regulations of 14 CFR, JSSG-2010-5 and MIL-L-85314. a. Taxi and landing lights are installed and provide sufficient light for night operations.\n(1) Taxi lights have a minimum intensity value of 50,000 candelas (cd) with a minimum beam spread of 10 degrees in the vertical plane and 40 degrees in the horizontal.\n(2) Landing lights have a minimum intensity value of 300,000 candelas (cd) with a minimum beam spread of 8 degrees in the vertical plane and 14 degrees in the horizontal.\n(3) For exterior lighting systems that combine taxi and landing lights, the intensity and beam spread of the landing lights of paragraph 1b are met. b. The position light system is installed in accordance with 14 CFR and the air vehicle type (e.g., FAR 23.1385-1397, 27.1385-1397). c. The riding (anchor) light required for water operations is installed in accordance with 14 CFR (e.g., FAR 23.1399, 27.1399). d. An anti-collision light system is installed in accordance with MIL-L-85314. Flashing characteristics, intensity, and the field of coverage are in accordance with 14 CFR (e.g., FAR 23.1401, 27.1401). Method of Compliance: a. Landing and taxi light performance is verified by geometric and photometric analysis in addition to demonstration of coverage, aimability, and minimized glare to the crew. Light intensity is verified by direct measurement of intensity in candelas. b. Position light location and chromaticity lighting requirements are verified by inspection, analysis and test per 4.5.3.2.1 of JSSG-2010-5. Position light distribution and intensity are verified by inspection, analysis, and test per 4.5.3.2.2 of JSSG-2010-5 requiring direct measurement of intensity in candelas. c. Riding light conspicuity and visual interference are verified by inspection and analysis. d. Anti-collision lights are verified by inspection, analysis and test of the aircraft configuration as it applies to the position of the lights, conspicuity, flashing characteristics, field of coverage and visual interference. Anti-collision light intensity is verified by direct measurement of intensity in candelas. References: JSSG-2010-5 MIL-L-85314 14 CFR 23.1383-23.1401; 25.1383-25.1403; 27.1383-25.1401; 29.1383-29.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Operation in commercial airways",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

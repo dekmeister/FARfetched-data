@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.13.2",
+  "number": "8.5.11.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Aborted landing",
+  "subject_group": "8.5.11 Parachute deceleration systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.13.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Aborted landing",
+      "text": "Criterion: Verify that the air vehicle provides for aborting the normal landing procedure up to just prior to initiation of the parachute landing system deployment sequence and that a safe transition to normal flight can be continued. Standard: When a parachute landing system is the primary means to recover the air vehicle after every flight, the air vehicle flight performance and handling qualities are adequate to provide for continued powered flight of the air vehicle up to the point of parachute deployment. Flight manual defines speeds, altitude and environmental conditions needed for the landing approach phase, abort, and continued flight. Method of Compliance: Flight testing verifies that landing can be aborted just prior to deployment of the parachute landing system. Flight testing verifies that the aircraft can sustain controlled flight subsequent to the abort, within the defined operational envelope. Reference: JSSG-2010: 3.12 Deployable Aerodynamic Decelerator (DAD) System",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Aborted landing",
+      "text": "Standard: When a parachute landing system is the primary means to recover the air vehicle after every flight, the air vehicle flight performance and handling qualities allow the transition from the landing approach phase back to normal flight in the event of aborted parachute deployment. The speeds, altitudes, and environmental conditions needed for the landing approach phase, abort, and continued flight are defined. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manual to verify that approach and abort procedures are defined. Analysis.\n  (1) Conduct parametric analysis to define speeds, altitudes, and environmental conditions needed for the landing approach phase, abort, and continued flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Conduct flight testing to verify that landing can be aborted just prior to deployment of the parachute landing system and that the air vehicle can maintain controlled flight subsequent to the abort.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

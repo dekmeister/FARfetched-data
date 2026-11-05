@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.1",
+  "number": "8.6.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Qualification of components",
+  "subject_group": "8.6 Auxiliary power systems and emergency power systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that system components are safe for the intended use and environment.",
+      "text": "Verify that system components are safe for the intended use and environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that system components are safe for the intended use and environment.",
+      "text": "Verify that system components are safe for the intended use and environment. DoD/MIL Doc: JSSG-2009: para 3.2.7 - 3.2.7.6.5, 4.2.7 - 4.3.7.6.5 FAA Doc: TSO C77b",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that system components are safe for the intended use and environment.",
+      "text": "Verify that system components are safe for the intended use and environment. DoD/MIL Doc: JSSG-2009: 3.2.7 - 3.2.7.6.5, 4.2.7 - 4.2.7.6.5 FAA Doc: TSO C77b",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Suitability of components",
+      "text": "Criterion: Verify that system components are safe for the intended use and environment. Standard: Component design and performance requirements, capabilities and limitations are established and substantiated. Method of Compliance: Inspection of design criteria documents establishes usage and environment (natural and induced) requirements for life, temperature, ambient pressure, shock, vibration, acoustics, explosive atmosphere, proof and burst pressure, acceleration, gyroscopic moments, humidity and moisture, sand and dust, rain, salt fog, fungus, attitude, electromagnetic environments, material compatibility, foreign object damage, steam and gun gas ingestion and others as derived from the air vehicle requirements that could affect safe usage of the equipment). Component safety of flight and qualification analyses and tests validate requirements, capabilities and limitations. References: JSSG-2009: Appendix C FAA TSO-C77",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Qualification of components",
+      "text": "Standard: All components, either individually or as part of the APS and emergency power system, have completed and passed qualification testing (e.g., environmental, durability, acceleration, gyroscopic moments, proof, and burst). Life limits and restrictions are defined for components which did not achieve full qualification. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of SOF testing documents or qualification test reports verifies the ability of the APS, emergency power system, and subsystem components to operate, perform their intended function, and meet specified requirements within the installed operating environment.\n(2) Review flight and maintenance manuals to verify life limits and procedures are documented due to incomplete qualification test or failures which occurred during qualification testing. Analysis.\n  (1) Conduct component SOF and qualification analysis to verify requirements, capabilities, and limitations. Test.\n    (1) Lab test: As an alternative to Test MoC (2), conduct qualification testing to verify the ability of the APS, emergency power system, and subsystem components to perform their intended function and meet specified requirements within the installed operating environment.\n    (2) Lab test: As an alternative to Test MoC (1), conduct SOF testing to verify components meet minimum testing requirements in the event full qualification is not achieved before first flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Lab test: Complete full qualification testing of SOF components to verify the ability of APS, emergency power system, and subsystem components to perform their intended function and meet specified requirements within the installed operating environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

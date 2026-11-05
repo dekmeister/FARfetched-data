@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.10.2",
+  "number": "7.4.19",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Gearboxes",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.10.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that engine gearboxes have design margin for their minimum/maximum operating conditions.",
+      "text": "Verify that engine gearboxes have design margin for their minimum/maximum operating conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.2.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that engine gearboxes have design margin for their maximum operating conditions.",
+      "text": "Verify that engine gearboxes have design margin for their maximum operating conditions. DoD/MIL Doc: JSSG-2007A: para A.3.7.16/A.4.7.16, Gearbox.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.2.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that engine gearboxes have design margin for their maximum operating conditions.",
+      "text": "Verify that engine gearboxes have design margin for their maximum operating conditions. DoD/MIL Doc: JSSG-2007A: A.3.7.16/A.4.7.16, Gearbox.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.2.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Gearboxes",
+      "text": "Criterion: Verify that propulsion gearboxes have design margin for their maximum operating conditions. Standard: The gearboxes provide(s) sufficient mechanical speed, power and torque to all mounted components. All internal gears are free from damaging resonance at all speeds up to the maximum overspeed condition. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis, bench and engine testing verify the gearbox ability to support all mounted components. Analysis and vibration testing identify and evaluate any internal gearing resonances. Analysis and testing verifies the gearbox is capable of simultaneous operation of all the drives when each drive is subjected to 1.2 times the maximum permissible torque or power rating specified for the individual drive. References: JSSG-2007: A.3.7.16, A.4.7.16 Gearbox",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Gearboxes",
+      "text": "Standard: Propulsion gearboxes support mounted components, provide mechanical speed, power, and torque to all mounted components, and transmit torque to the engine for starting. Internal gears, shafts, and rotating hardware are free from damaging resonances at all speeds up to the maximum overspeed condition. Gearboxes function without exceeding defined engine operating limits and without detrimental permanent deformation or damage when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, materials and manufacturing records, design data records, inspection reports, ICD or other substantiating records and reports) and verify design of the gearbox. Analysis.\n  (1) Analysis is accomplished to verify gearbox supports all mounted components.\n  (2) Analysis is accomplished to ensure that the gears, shafts, and rotating hardware are free of damaging resonance conditions at all speeds in the operating range to include at least 20% above the maximum steady-state operating speed and 20% below idle speed.\n  (3) Analysis is accomplished to ensure the gearbox is capable of operation when 1.25X the maximum permissible torque or power rating specified for each individual drive is applied simultaneously to all drives. Test.\n    (1) Lab test: Bench testing verifies the gearbox ability to support all mounted components.\n    (2) Lab test: Vibration testing verifies internal gears, shafts, and rotating hardware are free of damaging resonance conditions at all speeds in the operating range to include at least 20% above the maximum steady-state operating speed and 20% below idle speed.\n    (3) Lab test: Endurance testing verifies the gearbox is capable of operation when 1.25X the maximum permissible torque or power rating specified for each individual drive is applied simultaneously to all drives.\n    (4) Lab test: Engine ground-based sea level and altitude cell testing verifies the gearbox ability to support all mounted components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

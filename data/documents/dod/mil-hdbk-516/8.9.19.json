@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.19",
+  "number": "8.7.17",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Actuation subsystem attachment location",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.19",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle.",
+      "text": "Verify that the actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.19",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle.",
+      "text": "Verify that the actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.9; 4.4.9.4.9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.19",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation subsystem attachment location",
+      "text": "Criterion: Verify that the actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle. Standard: No structural failure of the mechanical system actuation system and its attachment fitting causes damage to air vehicle structure. Replacement of mechanical system attachment does not require the replacement of major structure such as bulk head, keel beams, etc. Method of Compliance: Analysis and inspection of drawings verify that mounting and attachment fittings are designed to be replaceable without major structural effects. The design loads and ultimate loads are verified by analysis. Laboratory testing verifies that system components meet design limit loads and ultimate loads. References: JSSG-2009: (Appendix I) I.3.4.9.4; I.3.4.9.4.9; I.4.4.9.4.9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation subsystem attachment location",
+      "text": "Standard: The actuation subsystem attachment is not an integral part of the air vehicle structure, such as a wing rib, but is a replaceable attachment designed so that, in case of an overload or fatigue failure, the attachment fails in lieu of a structural component failure on the primary air vehicle. No structural failure of the mechanical system actuation system and its attachment fitting causes damage to air vehicle structure. Replacement of mechanical system attachment does not require the replacement of major structure (e.g., bulkhead, and keel beams). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review drawings to verify that mounting and attachment fittings are designed to be replaceable without major structural effects. Analysis.\n  (1) Conduct an analysis to verify that mounting and attachment fittings are designed to be replaceable without major structural effects.\n  (2) Conduct static analysis to verify positive strength margins for design limit and ultimate loads. Test.\n    (1) Lab test: Conduct laboratory testing to verify that system components meet DLLs and ultimate loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "20.1.5",
+  "number": "20.1.5",
+  "current_grouping": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+  "canonical_title": "Restraint system function during aerial delivery operations",
+  "subject_group": "20.1 Air transportability and airdrop",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Restraint system function during aerial delivery operations",
+      "text": "Criterion: Verify that the aircraft cargo restraint system meets the restraint specifications for the aircraft and also permits conduct of cargo delivery operations (e.g., air transport, combat offload, airdrop). The restraint system may be required to be compatible with standard DoD cargo and restraint systems. Standard: For flight, loaded cargo items are secured against movement in all six degrees of freedom. Restraint criteria, specified for each type of aircraft, exceed cargo weight by static factors in order to secure cargo for crash and other severe flight conditions. For example, in USAF aircraft, the forward restraint criteria for crash is 3 x cargo weight or 3G\u2019s. Procedures and restrictions exist such that all restraints are applied before the aircraft begins ground movement and removal of the restraints are not accomplished until after the aircraft parks, except in the case of combat offload, emergency conditions and airdrop operations. Combat offload is permitted only with palletized loads, through release of the aft restraints while the aircraft is slowly rolling on the ground. Combat offload does not cause the aircraft to lose ground steering authority. Method of Compliance: The ability to maintain restraint is verified by structural analysis and test of restraining systems, and by compatibility when interfacing with standard DoD pallets/platforms, restraint devices, and other applicable cargo delivery systems. The system has the restraint capacity to the specified level of force in the forward, aft, lateral and vertical up direction, applied in each direction separately. References: Aircraft Specific Requirements, if different from USAF standards JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6 MIL-STD-1791, restraint criteria for transported cargo MIL-A-8865, restraint criteria for transported cargo",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Restraint system function during aerial delivery operations",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

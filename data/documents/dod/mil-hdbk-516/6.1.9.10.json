@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9.10",
+  "number": "6.1.9.10",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Vision aided shipboard operations",
+  "subject_group": "6.1.9 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Vision aided shipboard operations",
+      "text": "Standard: The air vehicle is no worse than Level 2 handling qualities, or DIPES 3 for rotary-wing air vehicles, using visual cues for both unassisted and vision aiding devices for shipboard operations, day and night. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of shore-based and shipboard takeoff/launch and landing/recovery operations using visual cues, including air vehicle cues to the ground crew aboard the ship (e.g., Landing Signal Officer), to determine the visual aide configuration(s) (types, locations, and variations) needed to complete the tasks for unassisted and vision aiding devices (e.g., NVDs) for each combination of air vehicle states, control modes, and environmental conditions: ambient lighting conditions from day to night, DVEs, ship class, launch/landing/recovery/landing method, approach and departure paths and patterns, minimum to maximum WOD magnitudes and headings, including gusts and turbulence, ship motion effects, ship speed, and turn rate. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation of shore-based and shipboard takeoff/launch and landing/recovery operations using visual cues, both unassisted and with vision aiding devices, and 6-DOF simulations for automatic control, for each combination of air vehicle states, control modes, and environmental conditions: visual aide configuration, ambient lighting conditions from day to night, DVEs, ship class, launch/landing/recovery/landing method, approach and departure paths and patterns, minimum to maximum WOD magnitudes and headings, including gusts and turbulence, ship motion effects, ship speed, and turn rate. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct shore-based takeoff/launch and landing/recovery operations using visual cues, both unassisted and with vision aiding devices for nominal and critical combinations of air vehicle states, control modes, and environmental conditions: visual aide configuration, ambient lighting conditions from day to night, DVEs, ship class, launch/landing/recovery/landing method, approach and departure paths/patterns, shore-based WOD equivalent magnitude and direction conditions from minimum to maximum winds.\n  (3) Flight test: Conduct shipboard takeoff/launch and landing/recovery operations using visual cues, both unassisted and with vision aiding devices for nominal and critical combinations of air vehicle states, control modes, and environmental conditions: visual aide configuration, ambient lighting conditions from day to night, DVEs, ship class, launch/landing/recovery/landing method, approach and departure paths/patterns, multiple levels of ship motion, ship speed and turn rate, WOD magnitudes and directions from minimum to maximum WOD.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

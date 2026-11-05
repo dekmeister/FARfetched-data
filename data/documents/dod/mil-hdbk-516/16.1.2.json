@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.1.2",
+  "number": "16.1.2",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Cautions and warnings",
+  "subject_group": "16.1 Maintenance manuals and checklists",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that cautions and warnings have been included in maintenance manuals, aircrew checklists, and ground crew checklists.",
+      "text": "Verify that cautions and warnings have been included in maintenance manuals, aircrew checklists, and ground crew checklists.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that cautions and warnings are included in maintenance manuals, aircrew checklists, and ground crew checklists.",
+      "text": "Verify that cautions and warnings are included in maintenance manuals, aircrew checklists, and ground crew checklists. DoD/MIL Doc: JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5 FAA Doc: 23.1501, 23.1529, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that cautions and warnings are included in maintenance manuals, aircrew checklists, and ground crew checklists.",
+      "text": "Verify that cautions and warnings are included in maintenance manuals, aircrew checklists, and ground crew checklists. DoD/MIL Doc: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 FAA Doc: 23.1501, 23.1529, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Cautions and warnings",
+      "text": "Criterion: Verify that cautions and warnings are included in maintenance manuals, aircrew checklists, and ground crew checklists. Standard: Warning and Caution notes are used when alternative design approaches cannot eliminate a hazard per MIL-STD-882. All required Cautions and Warnings are prominently displayed in the pilot or operator\u2019s checklist and the maintenance personnel's manuals and technical orders. Method of Compliance: Operator and maintenance actions requiring Cautions and Warnings are verified by review of the Failure Modes Effects Criticality Analysis (FMECA) and from the System Safety Hazard Analysis. The proper wording and placement of Cautions and Warnings per MIL-STD-38784 and MIL-DTL-85025 is verified by a review of the checklists and maintenance manuals. References: JSSG-2000: 3.6.1, 3.6.2 MIL-STD-882: A.4.3.3.i MIL-STD-38784: 3.2, A.3.2, A.3.3, A.3.4, A.3.5. MIL-DTL-85025 14 CFR 23.1501, 23.1529, 25.1501, 25.1503-25.1533, 25.1529, 25.1541, 25.1543, 25.1557, 25.1563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Cautions and warnings",
+      "text": "Standard: Maintenance publications and crewmember checklists document cautions and warnings for potential AW hazards introduced to the crewmembers or air system, IAW MIL- STD-38784, Warnings, cautions and notes paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine the maintenance publications and crewmember checklists to ensure they include cautions and warnings related to the prevention of AW hazards derived from the FMECA, FHA, and SSHA and ensure the cautions and warnings are formatted IAW MIL-STD-38784, Warnings, cautions and notes paragraph.\n(2) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis.\n  (1) Conduct a FMECA to identify potential AW hazards.\n  (2) Conduct an FHA IAW SAE ARP4761, Functional Hazard Assessment paragraphs to identify potential AW hazards.\n  (3) Conduct a SSHA IAW MIL-STD-882, Task 204 or a similar hazard analysis method to identify potential AW hazards. Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n  (4) Perform a desktop analysis of cautions and warnings using the government verification team to ensure AW hazards identified through the FMECA, FHA, and SSHA have cautions and warnings in the maintenance publications and crewmember checklists.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

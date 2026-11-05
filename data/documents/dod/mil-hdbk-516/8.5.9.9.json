@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.9.9",
+  "number": "8.5.9.9",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Release of uplocks provisions",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Release of uplocks provisions",
+      "text": "Standard: Landing gear position uplocks have redundant provisions (e.g., redundant power sources) or shear capability to prevent jamming or failure modes which would result in loss of gear extension capability. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct the landing gear actuation system's FMECA to verify the performance of the gear position restraints with and without failures.\n(2) Verify shear capability by conducting strength analysis to verify actuation system's ability to overcome uplocking mechanism to allow the landing gear extension. Demonstration.\n  (1) Conduct ground demonstration to verify the gear position restraints functionality with alternate or emergency power. Test.\n    (1) Lab test: Conduct function testing of the locks in a HITL (i.e., iron bird) or full-scale mockup to ensure no single point failure mode prevents the landing gear from extending.\n    (2) Lab test: Conduct lab testing of uplocks to verify the latches shear capability at the design actuation load. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n  (2) Conduct flight demonstration to verify the gear position restraints functionality with alternate or emergency power.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

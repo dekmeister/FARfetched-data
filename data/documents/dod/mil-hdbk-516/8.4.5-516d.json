@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.5-516d",
+  "number": "8.4.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Ignition sources",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Ignition sources",
+      "text": "Standard: Potential ignition sources are separated from flammable fluids and vapors by two fluid and vapor proof barriers. Equipment in flammable leakage zones and fire zones are shown to not be ignition sources under normal operating conditions. Surface temperatures in flammable and flammable leakage zones are below auto-ignition temperatures, and surface temperatures in fire zones are below hot surface ignition temperatures. Equipment in flammable zones are shown to be explosion proof (containment) under failure conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of design documents to verify that two vapor tight barriers exist between ignition sources and flammable fluids or vapors. Analysis.\n  (1) Conduct analysis that shows a component is intrinsically safe if intrinsic safety (e.g., possible internal ignition sources are hermetically sealed by the component) is being used instead of explosive atmosphere testing. Test.\n    (1) Lab test: Conduct lab tests that show that all equipment in flammable leakage zones and fire zones are explosive atmosphere qualified to MIL-STD-810, Method 511, Procedure I, or are intrinsically safe.\n    (2) Lab test: Conduct lab tests that show that all equipment in flammable zones are both explosive atmosphere qualified to MIL-STD-810, Method 511, Procedure I, and explosion containment qualified to MIL-STD-810, Method 511, Procedure II, or are intrinsically safe.\n    (3) Lab test: Conduct lab tests that show that all equipment and surfaces in flammable or flammable leakage zones do not have a worst-case surface temperature above the auto-ignition temperature of any flammable fluid or vapor in that zone.\n    (4) Lab test: Conduct lab tests that show that all equipment and surface temperatures in fire zones do not have a worst-case surface temperature above the hot surface ignition temperature of any flammable fluid or vapor in that zone.\n    (5) Ground test: Conduct ground tests that show that all equipment and surfaces in flammable or flammable leakage zones do not have a worst-case surface temperature above the auto-ignition temperature of any flammable fluid or vapor in that zone for all ground conditions.\n    (6) Ground test: Conduct ground tests that show that all equipment and surface temperatures in fire zones do not have a worst-case surface temperature above the hot surface ignition temperature of any flammable fluid or vapor in that zone for all ground conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (7) Flight test: Conduct flight tests that validate results of Test MoC (3), to show all equipment and surfaces in flammable or flammable leakage zones do not have a worst-case surface temperature above the auto-ignition temperature of any flammable fluid or vapor in that zone for all flight conditions.\n    (8) Flight test: Conduct flight tests that validate the results of Test MoC (4), to show that all equipment and surface temperatures in fire zones do not have a worst-case surface temperature above the hot surface ignition temperature of any flammable fluid or vapor in that zone for all flight conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

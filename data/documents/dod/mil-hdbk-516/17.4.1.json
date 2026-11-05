@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.4.1",
+  "number": "17.3.1.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Safety interlocks",
+  "subject_group": "17.3.1 Safe operating condition",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "17.4.1",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that appropriate safety lockout and interlocks are in place to assure that unsafe store operation does not take place.",
+      "text": "Verify that appropriate safety lockout and interlocks are in place to assure that unsafe store operation does not take place. DoD/MIL Doc: MIL-HDBK-244A: para 5.1.5.1 , 5.1.5.1.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "17.4.1",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that appropriate safety lockout and interlocks are in place to assure that unsafe store operation does not take place.",
+      "text": "Verify that appropriate safety lockout and interlocks are in place to assure that unsafe store operation does not take place. DoD/MIL Doc: MIL-HDBK-244A: 5.1.5.1 , 5.1.5.1.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "17.4",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Safety interlocks",
+      "text": "Criterion: Verify that appropriate safety lockout and interlocks are in place to assure that unsafe armament and/or store operation does not take place. Standard: Verify safety interlocks will prevent unplanned/inadvertent firing/initiation of armament and/or stores. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Verification is accomplished by initial installation testing, qualification testing, physical fit checks, static ground fire testing, Systems Integration Laboratory (SIL), safety analysis, safe separation test certification, Non-Nuclear Munitions Safety Board (NNMSB) certification, Weapon System Explosive Safety Review Board (WSESRB) concurrence, and live fire testing during Developmental Test and Evaluation (DT&E) and Operational Test and Evaluation (OT&E). Loading of aircraft is verified by Validation/Verification (Val/Ver) testing. References: MIL-HDBK-244 ADS-62-SP ADS-65-HDBK",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Safety interlocks",
+      "text": "Standard: The air system safety interlocks prevent inadvertent store operations (weapon or expendable release or launch, firing of guns, laser or other directed energy system firing, or pod operation resulting in RF emissions). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Ensure that safety interlocks within the air system architecture are designed to prevent inadvertent store operation that would result in a hazard to the air system (e.g., inadvertent release of store(s) due to stray voltage on the squib fire line for the ejection rack, inadvertent deployment of store inlet cover or wings, inadvertent radiation of EW stores).\n(2) Evaluate system documentation for all signal paths that enable store operations and determine if the air system has redundancy mechanisms in place to prevent inadvertent store operations. Evaluate system documentation to ensure no single point failure can result in an inadvertent store operation. Analysis.\n  (1) Evaluate maintenance panel and control design to ensure crewmembers can \u201cSAFE\u201d the store system.\n  (2) Conduct analysis of signals that enable or control store operation to identify redundancy mechanisms and determine where safety interlocks are required to eliminate single points of failure and prevent inadvertent store operations. Test.\n    (1) Lab test: Verify that at least two separate crewmember actions are required to employ or operate stores in high energy states.\n    (2) Lab test: Conduct HITL and software-in-the-loop testing with interlock hardware, software, and firmware for the purpose of end-to-end testing to verify the safety interlocks function as designed.\n    (3) Lab test: Conduct FMET to verify interlocks and redundancies protect against single mechanical or logical failure resulting in inadvertent store operation.\n    (4) Ground test: Conduct testing on air system to verify safety interlocks functionality, including that safety interlock overrides can be returned to nominal state. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Lab test, ground test, or flight test: Verify interlocks prevent inadvertent arming of the fuze, launching, firing, jettisoning, and employment of the store and that two separate actions are required to employ munitions or operate stores in high energy states.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.1.1.2",
+  "number": "9.1.1.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Supplemental oxygen",
+  "subject_group": "9.1.1 Altitude protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Supplemental oxygen",
+      "text": "Standard: Air vehicles flying with cabin pressure altitudes above 10,000 feet MSL will provide supplemental oxygen to all occupants or restrict flight time above 10,000 feet IAW TABLE VI. Flight Durations Where Supplemental Oxygen is not Required. The duration of the supply is sufficient for all occupants for the entire duration of flight at cabin pressure altitudes above 10,000 ft MSL. Air vehicles operating above 14,000 feet MSL always require supplemental oxygen. TABLE VI. Flight durations where supplemental oxygen is not required. Not to exceed 1 hour between 10,000 feet MSL and 12,500 feet MSL Not to exceed 30 minutes between 12,500 feet MSL and 14,000 ft MSL. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review FMECA to verify that all supplemental oxygen systems are covered.\n(2) Inspect component hardware configuration documents to confirm compliance with hardware drawings.\n(3) Inspect air vehicle drawings to verify the air vehicle supplemental oxygen system and individual dispensing units are available and accessible to every occupant. Analysis.\n  (1) Verify analysis of the supplemental oxygen system concentration, flow, and duration shows adequate supply to crewmembers and passengers. Test.\n    (1) Lab test: Conduct testing of supplemental oxygen system under MIL-STD-3050, Test Condition 4 at altitudes up to the maximum rated altitude of the air vehicle to verify a mean alveolar oxygen partial pressure of no less than 60.8 mmHg is maintained.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

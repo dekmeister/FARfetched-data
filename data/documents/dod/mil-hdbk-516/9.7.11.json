@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.11",
+  "number": "9.7.7",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Occupiable volume reduction \u2013 rotary-wing",
+  "subject_group": "9.7 Crash survivability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "9.7.11",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that, for rotary wing air vehicles, occupiable volume reduction as a result of design crash loads provides reasonable protection against occupant injury.",
+      "text": "Verify that, for rotary wing air vehicles, occupiable volume reduction as a result of design crash loads provides reasonable protection against occupant injury.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.7.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that, for rotary wing air vehicles, occupiable volume reduction resulting from design crash loads provides reasonable protection against occupant injury.",
+      "text": "Verify that, for rotary wing air vehicles, occupiable volume reduction resulting from design crash loads provides reasonable protection against occupant injury. DoD/MIL Doc: JSSG-2001: para 3.3.10.2.1, 4.3.10.2.1 JSSG-2010-7: para 3.7.3.2.1 FAA Doc: 14CFR reference: 27.562",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.7.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that, for rotary wing air vehicles, occupiable volume reduction resulting from design crash loads provides reasonable protection against occupant injury.",
+      "text": "Verify that, for rotary wing air vehicles, occupiable volume reduction resulting from design crash loads provides reasonable protection against occupant injury. DoD/MIL Doc: JSSG-2001: 3.3.10.2.1, 4.3.10.2.1 JSSG-2010-7: 3.7.3.2.1 FAA Doc: 14CFR reference: 27.562",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.7.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupiable volume reduction in rotary wing aircraft",
+      "text": "Criterion: Verify that, for rotary wing air vehicles, occupiable volume reduction resulting from design crash loads provides reasonable protection against occupant injury. Standard: When subjected to the design crash loads parameters, the rotary wing airframe provides containment of the occupants with no more than 15% reduction in volume and the prevention of intrusion into the occupant strike zone of injurious structures or objects. The mounting of engines, transmissions, fuel cells, rotor masts, and other high mass objects are designed to prevent their displacement in a manner that would be hazardous to the occupant volume. The transmission and rotor hub does not displace in a manner hazardous to the occupant volume during the following impact conditions: rollover about the aircraft's pitch or roll axes, main rotor obstacle strike that occurs within the outer 10% of the blade span assuming the obstacle is an 8-inch cylinder, ultimate load factors for high mass items around the occupant volume commensurate with the crash parameters of the airframe. Method of Compliance: Structural test and analysis and crash load tests verify that the design meets occupant volume requirements. References: JSSG-2001: 3.3.10.2.1, 4.3.10.2.1 JSSG-2010-7: 3.7.3.2.1 14 CFR 27.562",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupiable volume reduction \u2013 rotary-wing",
+      "text": "Standard: The rotary-wing structure does not impinge on occupants when subjected to the design crash loads. The structural volume reduction is 15% or less and does not displace or strike occupants. High mass objects (e.g., engines, transmissions, fuel cells, rotor masts, rotor hubs) are designed to prevent their displacement into the occupied spaces. High mass objects do not displace into the occupied volume during the following impact conditions: a. Rollover in the air vehicle pitch or roll axes. b. Main rotor obstacle strike within the outer 10% of the blade span assuming the obstacle is an 8-inch cylinder. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) As an alternative to Test MoC (1), structural analysis (e.g., FEA) verifies that the design meets occupant volume reduction criteria. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Lab test: As an alternative to Analysis MoC (1), crash load testing verifies that the design meets the occupant volume reduction criteria.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

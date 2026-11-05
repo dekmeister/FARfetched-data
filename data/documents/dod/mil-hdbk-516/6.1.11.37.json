@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.37",
+  "number": "6.1.11.37",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Maneuvering stability",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Maneuvering stability",
+      "text": "Standard: In forward flight (greater than 45 KGS), the incremental control force required to produce a change in normal LF and pitch rate is in the same sense (aft force \u2013 increase LF, forward force \u2013 decrease LF) as required to initiate the change and that there is no tendency for the air vehicle pitch attitude or AOA to diverge aperiodically. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the control feel and stability during constant airspeed maneuvering in forward flight for each air vehicle configuration and loading within the SFE. Obtain stick force per g to confirm desired sensing and examine pitch attitude and AOA response for positive stability. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the control feel and stability during constant airspeed maneuvering in forward flight for each air vehicle configuration and loading within the SFE. Obtain stick force per g to confirm desired sensing and examine pitch attitude and AOA response for positive stability. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the control feel and stability during constant airspeed maneuvering in forward flight for selected combinations of air vehicle configuration and loading within the SFE. Obtain stick force per g to confirm desired sensing and examine pitch attitude and AOA response for positive stability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

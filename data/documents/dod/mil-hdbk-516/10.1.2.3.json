@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.2.3",
+  "number": "10.1.2.3",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Flight performance impacts on targeted air vehicles",
+  "subject_group": "10.1.2 Aerodynamic compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Flight performance impacts on targeted air vehicles",
+      "text": "Standard: Aerodynamic effects between tanker and receiver do not result in a flight performance rating worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system) or instabilities for targeted air vehicles performing AR operations nor induce an environment that destabilizes targeted refueling equipment (e.g., induced boom oscillations, negative contacts, or soft drogue contacts). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis of aerodynamic environment and air vehicle characteristics show near field flow environment around air vehicle does not cause instabilities or adversely affect targeted air vehicles. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Flight test: Flight evaluations of air vehicle performance, including predictability of response, stability and control, control sensitivity, time delay, oscillations, PIO tendencies, undesirable motions, workload and HQRs verify flight performance is no worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system) for targeted air vehicle in refueling positions. Flight testing verifies stability of targeted AR equipment during refueling operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

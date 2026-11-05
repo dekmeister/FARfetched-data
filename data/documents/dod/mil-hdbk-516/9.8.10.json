@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.10",
+  "number": "20.7",
+  "current_grouping": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+  "canonical_title": "Personnel airdrop system structure",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible personnel airdrop equipment malfunctions.",
+      "text": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible personnel airdrop equipment malfunctions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment.",
+      "text": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment. DoD/MIL Doc: MIL-HDBK-1791: para 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment.",
+      "text": "Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment. DoD/MIL Doc: MIL-HDBK-1791: 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "20.1.10",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Personnel airdrop system structure",
+      "text": "Criterion: Verify that air vehicle personnel airdrop systems can withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment. Standard: Air vehicle subsystem components and supporting structure such as anchor cables, jump platforms, air deflectors, seating, floor structure, retrieval winches, retrieval cables, etc. are designed to withstand loads imposed by airdrop and retrieval of the specified numbers and weights of paratroopers and personnel recovery systems (e.g., parachute and deployment bags). The static line support system must withstand a minimum of 3,600 lb x 1.5 safety factor (5,400 lbs static) caused by a towed parachutist. Airdrop and retrieval components are designed to handle a single towed jumper weighing the maximum allowable single jumper weight (including equipment) and specified number of deployment bags consistent with the subject aircraft, if not otherwise specified, when operated by the minimum crew size required by the operational concept. Method of Compliance: Analysis of structural loads verified with instrumented results from flight testing demonstrates the aircraft structure and subsystems are not adversely affected by personnel airdrop and retrieval operations under a worst case scenario. References: Systems Specifications JSSG-2009: Appendix J ASC-TM-ENE-77-1 Refer to the appropriate design criteria report for the subject aircraft to obtain the maximum allowable retrieval weight and cone angle",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+      "title_at_revision": "Personnel airdrop system structure",
+      "text": "Standard: Air vehicle personnel airdrop system is designed to withstand the loads imposed by personnel during airdrop and possible malfunctions of personnel airdrop equipment IAW MIL- STD 1791-1, Personnel Airdrop paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Perform loads and strength analysis to verify airdrop systems, including towed jumper systems, will support the specified numbers and weights of paratroopers and personnel recovery systems defined for the air vehicle.\n(2) Simulate calculated forces on personnel airdrop systems including towed jumper retrieval systems. Demonstration.\n  (1) Conduct a ground demonstration to verify personnel airdrop system including towed jumper retrieval of the specified numbers and weights of paratroopers and personnel recovery systems IAW MIL-STD-1791-1, Personnel Airdrop paragraph. Test.\n    (1) Ground or Lab test: Perform system testing to verify personnel airdrop system, including towed jumper retrieval system, will withstand forces greater than the rated capacities of the personnel airdrop system.\n    (2) Lab test: Perform component testing to verify personnel airdrop system, including towed jumper retrieval system, and respective structure will withstand forces greater than the rated capacities of the personnel airdrop system.\n    (3) Ground or Lab test: Perform interface testing to verify personnel airdrop system, including towed jumper retrieval system, and respective back up structure will withstand forces greater than the rated capacities of the personnel airdrop system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

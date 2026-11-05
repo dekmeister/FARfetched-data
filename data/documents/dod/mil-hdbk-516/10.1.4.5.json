@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.4.5",
+  "number": "10.1.4.5",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Aerial refueling systems electromagnetic protection",
+  "subject_group": "10.1.4 Electrical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Aerial refueling systems electromagnetic protection",
+      "text": "Standard: The AR system is protected from EMI from any other installed system or from the targeted air vehicle emitting systems. a. Boom Tanker. The boom tanker AR system, including the boom nozzle and related components, boom control system, boom signaling system, and thru-the boom voice communication system, is protected from EMI from any of the air vehicle\u2019s own systems and from targeted air vehicle emitting systems. b. Drogue Tanker. The drogue tanker AR system, including the control, status, and emergency function components, is protected from EMI from any of the air vehicle\u2019s own systems and from targeted air vehicle emitting systems. c. Receptacle Receiver. The receiver AR system, including the receptacle and associated components, receptacle signaling system, and through-the boom voice communication system, is protected from EMI from any of the air vehicle\u2019s own systems and from targeted air vehicle emitting systems. d. Probe Receiver. The receiver AR system is protected from EMI from any of the air vehicle\u2019s own systems and from targeted air vehicle emitting systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of specifications ensures AR systems components are protected from EMI. Analysis.\n  (1) Electromagnetic environmental effects analysis of installed AR system verifies the amount of hardening or shielding for electrical equipment to protect from expected interference sources. Test.\n    (1) Lab test: Aerial refueling system electrical component laboratory testing verifies equipment is qualified to perform in simulated electromagnetic environment.\n    (2) Ground test: Air vehicle ground testing verifies AR equipment operation in system-level electromagnetic environmental testing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

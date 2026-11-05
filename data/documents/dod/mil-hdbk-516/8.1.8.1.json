@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.8.1",
+  "number": "8.1.8.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "System relief valves",
+  "subject_group": "8.1.8 Hydraulic and pneumatic pressure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "System relief valves",
+      "text": "Standard: System pressure relief valves and thermal expansion relief valves are provided to prevent sustained excessive pressures which may cause component structural failures IAW SAE AS5440B, Relief Valves, System, and Thermal Expansion paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of drawings verifies that pressure relief valve(s) and thermal expansion valve(s) are in place to prevent the hydraulic and pneumatic system from exceeding peak pressure limits.\n(2) Review component specification documents to verify that the relief valve(s) cracking and reseating pressures are within hydraulic and pneumatic system peak and rated pressure requirements. Hydraulic system pressure requirements are IAW SAE AS5440B, Surge Pressure paragraph and SAE AS5440B, Pressure Limitations paragraph. Analysis.\n  (1) Conduct analysis to verify that the relief valves have a capacity equal to or greater than the rated flow of the largest pump when two or more pumps have a common pressure line IAW SAE AS5440B, System Relief Valves paragraph. Test.\n    (1) Lab test: Conduct HITL (e.g., iron bird) testing to verify system pressure is maintained within system limits.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

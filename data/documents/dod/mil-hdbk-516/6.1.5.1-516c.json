@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.5.1-516c",
+  "number": "6.1.4.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Approach to dangerous conditions",
+  "subject_group": "6.1.4 Fixed-wing general flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.5.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Approach to dangerous flight conditions",
+      "text": "Criterion: Verify that approaches to dangerous flight conditions have been defined and assessed for safety of flight. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.1.1 Approach to dangerous flight conditions. b. 5.2.1.1.1 Warning and indication. c. 5.2.1.1.2 Operation of devices for indication, warning, prevention, and recovery. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.1.15 Rotorcraft limits. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.207 Stall warning, 23.703 Takeoff warning system, 23.729 Landing gear extension and retraction system; 14 CFR 25.207 Stall warning, 25.703 Takeoff warning system, 25.729 Retracting mechanism",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Approach to dangerous conditions",
+      "text": "Standard: When approaching dangerous flight conditions, it is possible by clearly discernible means for the pilot to recognize the impending dangers and take preventive action. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to identify potentially dangerous flight conditions (e.g., stall, spin, minimum control speeds) and onset conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess timely, clear, and unambiguous warnings and indications of approach to dangerous flight conditions for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess timeliness, clear and unambiguous warnings and indications of approach to dangerous flight conditions for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

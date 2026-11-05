@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.16.1",
+  "number": "6.2.16.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Hydraulic system integrity",
+  "subject_group": "6.2.16 Vehicle control function hydraulic power source safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Hydraulic system integrity",
+      "text": "Standard: Hydraulic system failures more probable than PLOC divided by ten do not degrade the VCF below Operational State IV. No single failure within the hydraulic system degrades VCF below Operational State II. Hydraulic system health monitoring is provided to the VCF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review air vehicle hydraulic system functional architecture schematic to identify the VCF interface design and failures points.\n(2) Review physical VCF and hydraulic system installation drawings.\n(3) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences of the hydraulic system.\n(4) Identify all hydraulic system fault monitoring and detection schemes. Test.\n  (1) Lab test: Conduct hydraulic system performance and integrity test on a flight representative hydraulic system.\n  (2) Lab test: Conduct FMET with flight representative hydraulic system and VCF HITL to verify fault detection, system redundancy, and fault tolerance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

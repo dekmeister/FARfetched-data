@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.1.6",
+  "number": "11.1.3.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Air traffic control surveillance",
+  "subject_group": "11.1.3 Identification",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "11.1.1.6",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Surveillance subsystem",
+      "text": "Criterion: Verify for the surveillance subsystem, to include detection and action/response functionality, that the number and type of sensors, data processors, data busses, controls and displays, and communication devices are capable of meeting safety of flight performance, including integrity, continuity of service, relative positioning, trajectory, timing and intent information. Standard: Requirements for surveillance systems (including requirements for air traffic coordination and Sense and Avoid (SAA)) are defined and documented for military and civilian air traffic coordination and surveillance. The surveillance subsystem installed performance meets these requirements. As a minimum, the following apply: a. IFF Mark XII/XIIA capabilities are implemented and certified in accordance with the DoD International AIMS program office technical standards (e.g., AIMS 97-1000 and AIMS 03-1000). b. Mode Select (S) and related capabilities are implemented in accordance with FAA and International Civil Aviation Organization (ICAO) performance requirements, as applicable. c. Traffic Alert and Collision Avoidance System (TCAS) capabilities are implemented in accordance with FAA and ICAO performance requirements, as applicable. Use of TCAS capabilities for formation/station keeping does not create an adverse safety of flight condition. d. Additional sensors for SAA (e.g., optical, radar, Automatic Dependent Surveillance- Broadcast (ADS-B)) are implemented in accordance with their applicable requirements. e. No single point failure results in an adverse safety of flight condition. (for Army: see also 14.2, this document) Method of Compliance: Analysis, laboratory, open-air, and aircraft testing verify installed system performance. Safety Hazard Analysis verifies that all surveillance system related failures have acceptable risk levels. a. AIMS certification is obtained. b. A FMEA and a quantitative probability analysis of the TCAS II equipment, Mode S transponder, and altitude information source are performed resulting in no single point critical safety of flight failures. NOTE: If commercial or commercial derivative aircraft, then FAA experimental type certification is achieved prior to first flight and complete type certification is achieved prior to production. References: JSSG-2005: 3.2.1.6, 4.2.1.6 MIL-HDBK-516: 14.2 MIL-STD-882 MIL-HDBK-87213: 3.1 Electronically/Optically Generated Airborne Displays DoD AIMS 97-1000/DoD AIMS 03-1000 provide the requirements for AIMS certification. AFI 11-202V3: 5.4.2 RTCA DO-181 RTCA DO-185 RTCA DO-200 RTCA DO-212 RTCA DO-297 SAE ARP4761 SAE ARP5580 14 CFR 23.1301, 23.1309, 25.1301, 25.1309 FAA AC 20-131 FAA AC 20-138 FAA AC 20-170 FAA AC 27-1 FAA AC 29-2 FAA TSO C151 FAA TSO C153",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Air traffic control surveillance",
+      "text": "Standard: The availability, continuity, and integrity of ATC surveillance systems support safety-critical surveillance. Surveillance performance complies with national and worldwide civil airspace requirements in the intended area of operations for CNS/ATM capabilities such as Mode S, and ADS-B Out. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Document the surveillance subsystem architecture and identify the safety-critical hardware and software item list.\n(2) Determine the CNS/ATM impacts, tailor the requirements from airspace authorities such as the FAA and ICAO and document these requirements in the AW certification basis by reference.\n(3) Obtain AIMS box level certification. Analysis.\n  (1) Verify that the SSHA identifies hazards, their severity, along with any design and procedural mitigations.\n  (2) Verify failures that can result in critical or catastrophic severity hazards occur at a rate less than or equal to 10-7 per flight hour. Test.\n    (1) Lab test: Conduct HITL lab testing to verify performance requirements and tailored CNS/ATM requirements of the representative hardware and software configuration.\n    (2) Lab test: Conduct HITL lab testing to introduce system faults identified in analysis and evaluate the consequence of those failures.\n    (3) Ground test: Conduct AIMS ground testing with no noted safety related deficiencies. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n    (4) Obtain AIMS platform level certification.\n    (5) Show compliance with tailored CNS/ATM performance requirements. Test.\n(4) Flight test: Conduct flight testing to verify performance requirements and tailored CNS/ATM requirements.\n(5) Flight test: Conduct AIMS flight testing with no noted safety related deficiencies.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

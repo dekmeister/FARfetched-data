@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.38",
+  "number": "6.2.2.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Loss of function",
+  "subject_group": "6.2.2 VCF safety of design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.38",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the effects of loss of function(s) on safety.",
+      "text": "Verify the effects of loss of function(s) on safety.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.38",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the effects of loss of function(s) on safety.",
+      "text": "Verify the effects of loss of function(s) on safety. DoD/MIL Doc: JSSG-2008: para 3.0 thru 3.3.8, 4.0 thru 4.3.8 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.38",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the effects of loss of function(s) on safety.",
+      "text": "Verify the effects of loss of function(s) on safety. DoD/MIL Doc: JSSG-2008: 3.0 thru 3.3.8, 4.0 thru 4.3.8 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Loss of function",
+      "text": "Criterion: Verify the effects of loss of function(s) on safety. Standard: Complete hazard analysis, Failure Modes, Effects and Criticality Analysis (FMECA) combined with Failure Modes and Effects Testing (FMET) establishes the effects of loss of function(s). Piloted evaluations demonstrate flying qualities of Level II or better for failures more likely than Probability of Loss of Control (PLOC) of 1x10^-7 or as specified by the procuring activity. Separation/isolation/accommodation between internal and external VCF interfaces prevents propagated or common mode failures that are less than extremely remote (1x10^-9) or as specified by the procuring activity. The VCF does not have any single failure, combination of functionally independent single failures, or multiple failures greater than Probability of Loss of Control (PLOC). For UAS, in the event of unexpected loss or corruption of command link, the system will transition to a pre-determined and expected state and mode. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. Quantitative flight safety requirements are verified by analysis considering all failure modes that threaten flight safety, whether single or combination of failures, and whether extremely remote or not. Hazard analysis supported by Failure Modes, Effects and Criticality Analysis (FMECA) verifies that single point failures are less likely than 1x10^-9 per flight hour or as specified by the procuring activity. Effects of loss of function(s) are verified through testing, such as FMET (failure modes tests), performed on an Iron Bird (IB) or high fidelity integration lab with all hardware and software in the loop. Analyses of reliability, design integrity, and redundancy alone are not acceptable as the sole mitigation justification of these types of failure modes without understanding the complete system interaction. Command and control communications are integrated safely with other linked vehicles and ground control, are secure against unwanted intrusions, safely implement security techniques, and that the data link is sufficient to support command and control and any additional bandwidth for payload data. References: JSSG-2008: 3.0 through 3.3.8, 3.5.3, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Loss of function",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

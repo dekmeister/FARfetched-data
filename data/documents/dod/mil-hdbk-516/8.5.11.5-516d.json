@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.11.5-516d",
+  "number": "8.5.11.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Landing impact attenuators",
+  "subject_group": "8.5.11 Parachute deceleration systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Landing impact attenuators",
+      "text": "Standard: Landing impact attenuation systems (e.g., shock absorbers, landing air bags, and intentional crushable structure) in conjunction with the parachute landing system minimizes damage to air vehicle, allowing reuse of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct loads analysis based on the deceleration rate determined IAW 8.5.11.3, to verify sizing and performance parameters.\n(2) Conduct dynamic simulations to verifying attenuation system can absorb landing impact loads. Test.\n  (1) Flight test: Conduct flight testing of a representative installation to verify the attenuation systems produces the landing loads developed in Analysis MoC (1) and Analysis MoC (2). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test. (2) Flight test: Conduct flight testing to verify the attenuation systems prevents loss of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

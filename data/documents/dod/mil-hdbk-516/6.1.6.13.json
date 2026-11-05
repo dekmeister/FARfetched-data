@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.6.13",
+  "number": "6.1.6.13",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Turn coordination",
+  "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Turn coordination",
+      "text": "Standard: The air vehicle's turn coordination characteristics are no worse than Level 2 as specified in MIL-STD-1797, Coordination in Turn Entry and Exit paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the air vehicle's turn coordination characteristics as specified in MIL-STD-1797, Coordination in Turn Entry and Exit paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the air vehicle's turn coordination characteristics as specified in MIL-STD-1797, Coordination in Turn Entry and Exit paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the air vehicle's turn coordination characteristics as specified in MIL-STD-1797, Coordination in Turn Entry and Exit paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

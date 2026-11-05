@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.11.1",
+  "number": "6.2.11.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Nominal performance and robustness",
+  "subject_group": "6.2.11 Vehicle control function control law safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Nominal performance and robustness",
+      "text": "Standard: The VCF control law provides longitudinal, lateral, directional, lift, drag, performance limiting, and variable geometry control (if applicable) with VCF performance no worse than Operational State II. The VCF provides phase and gain margins as specified in SAE AS94900A and SAE ARP94910, Stability section, which are a function of frequency and flight envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation for appropriate and effective control in all required axes. Analysis.\n  (1) Verify gain and phase margin with quantitative analysis across the flight envelope and allowed mass properties. Parameter variations will be made such that mode and gain changes are captured.\n  (2) Regions of flight envelope or mass properties that do not meet the gain and phase standard will be further evaluated in PITL simulation with non-linear air vehicle and aerodynamic models by varying gain, control power, time delay, or other parameters to demonstrate equivalent robustness. Test.\n    (1) Lab test: Conduct PITL simulation to verify VCF performance is no worse than Operational State II. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test to verify VCF provides longitudinal, lateral, directional, lift, drag, performance limiting, and variable geometry control (if applicable) with VCF performance no worse than Operational State II.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

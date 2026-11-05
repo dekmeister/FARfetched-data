@@ -1,0 +1,52 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "18.2.3",
+  "number": "18.2.1",
+  "current_grouping": "18. PASSENGER SAFETY",
+  "canonical_title": "Ignition source isolation",
+  "subject_group": "18.2 Fire resistance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "18.2.3",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify, if cargo lamps are present, that they are designed to prevent contact with cargo.",
+      "text": "Verify, if cargo lamps are present, that they are designed to prevent contact with cargo.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify, sources of ignition are located and/or designed to prevent contact with cargo.",
+      "text": "Verify, sources of ignition are located and/or designed to prevent contact with cargo. DoD/MIL Doc: No information available in current JSSG. Information to be included in next revision of JSSG. AFMAN 24-204(I) identifies flammability limits for transported cargo. FAA Doc: 14CFR references: 25.787, 25.789, 23.787",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Ignition source isolation",
+      "text": "Criterion: Verify that sources of ignition are located and/or designed to prevent contact with cargo. Standard (Air Force): The cargo compartment design and location is suitable for transport of flammable cargo under all operational conditions. Ignition sources are protected or cargo is prevented from contact with any compartment structure containing potential ignition sources. Cargo transport manuals incorporate any size restrictions necessary to preclude possible contact with an ignition source. The cargo compartment is free of any heat, flame, or electrical discharge sources in the vicinity of the transported cargo. All components within the cargo compartment are certified for operation in an explosive atmosphere. Method of Compliance (Air Force): Sources, locations, and configurations of possible ignition sources are verified by vehicle and engineering drawing inspections. The inability of components and systems to ignite flammable materials, and to preclude ignition of an explosive atmosphere is verified by system testing. Cargo clearances and preventive means of contacting ignition sources is verified by engineering drawing and cargo loading manual inspections, and by cargo loading demonstration. References: At the time of publication of this document, no information was available in the current JSSGs AFMAN 24-204(I) identifies flammability limits for transported cargo 14 CFR 25.787, 25.789, 23.787",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Ignition source isolation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

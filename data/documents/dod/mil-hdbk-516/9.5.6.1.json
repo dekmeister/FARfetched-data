@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.6.1",
+  "number": "9.5.6.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Penetrating injury",
+  "subject_group": "9.5.6 Fragment injury",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Penetrating injury",
+      "text": "Standard: Any fragments, particles, or debris (e.g., transparency or hatch fragments, blast debris from fracturing system) do not cause injury to crewmembers during an ejection from an air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) COMPUTERMAN, a DoW accredited fragment penetration injury model, is used to calculate the survivability based on the fragmentation testing. The overall survivability of the crewmembers calculated by COMPUTERMAN due to penetrating fragments is not less than 98%. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Lab test: System-level testing is accomplished to verify that crewmembers are not injured by fragments during an ejection from an air vehicle. The test is accomplished using a representative mockup of the air vehicle with manikins equipped with ballistic gel or foam. The ballistic gel or foam is calibrated so that the energy of any shrapnel that penetrates the manikins can be calculated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

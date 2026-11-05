@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.4.4",
+  "number": "10.1.5.7",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Aerial refueling system data",
+  "subject_group": "10.1.5 Aerial refueling sensing, data, visual cues, and lighting systems compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.7.4.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that displays have been provided to the appropriate crewmembers to indicate the necessary information to conduct the aerial refueling operation safely.",
+      "text": "Verify that displays have been provided to the appropriate crewmembers to indicate the necessary information to conduct the aerial refueling operation safely. Display lights are variable intensity and NVG compatible (if appropriate).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.7.4.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that displays have been provided and properly located forto the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely.",
+      "text": "Verify that displays have been provided and properly located forto the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.7.4.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely.",
+      "text": "Verify that displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely. DoD/MIL Doc: JSSG-2010: para 3.2.13, 4.2.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.7.4.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely.",
+      "text": "Verify that displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely. DoD/MIL Doc: JSSG-2010: 3.2.13, 4.2.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.7.4.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Display provisions",
+      "text": "Criterion: Verify that displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate the necessary information to conduct the aerial refueling operation safely. Standard: Displays are provided and properly located for the appropriate crewmember(s)/operator(s) to indicate all necessary information to conduct the aerial refueling operation safely; including Warnings, Cautions, and Advisories. For aerial refueling system displays the following, as a minimum, are provided: RECEIVERS: a. Receptacle subsystems have the standard refueling status indicators with the standard color code of lights; i.e., READY (Aviation white/light blue), CONTACT (Green), and DISCONNECT (Amber). Receptacle subsystems have an indicator for receptacle position (OPEN/CLOSED) and functional mode (NORMAL/OVERRIDE). b. Probe subsystems have an indicator for probe position (EXTENDED/RETRACTED). TANKERS: a. Boom subsystems have an indicator for:\n(1) Fuel transfer rates and delivery pressures.\n(2) Boom position.\n(3) Load alleviation status (if applicable).\n(4) Boom flight control system mode (if applicable).\n(5) Boom nozzle load (if applicable).\n(6) Functional mode (NORMAL/OVERRIDE).\n(7) System status (READY, CONTACT, DISCONNECT). b. Drogue subsystems have indicators for:\n  (1) Subsystem operational status (i.e., ON/OFF, EXTEND, TRAIL, REWIND, STOWED).\n  (2) Fuel transfer rates and delivery pressures (if applicable).\n  (3) Ram air turbine speed (if applicable).\n  (4) Fuel temperature (if applicable).\n  (5) Hydraulic pressure (if applicable). For displays of other systems used during the aerial refueling process, refer to 9.2.1 and 9.2.3 (this document). Method of Compliance: Verification methods include analysis, demonstration, inspection, simulation and review of documentation. Inspection and analysis of technical data and evaluation of the system by crewmember(s)/operator(s)/automated system(s) during ground simulation/mock-up and flight demonstration verify that displays are provided and properly located. References: JSSG-2010: 3.2.13, 4.2.13 MIL-HDBK-516: 9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Aerial refueling system data",
+      "text": "Standard: Information is provided to the flight crew or automated system to facilitate AR operations. a. Boom Tanker. Information necessary for boom refueling includes but is not limited to boom position, fuel transfer rates, fuel pressures, fuel temperature, load alleviation status (if applicable), hydraulic system pressure, boom FCS mode (if applicable), boom nozzle load (if applicable), functional mode (e.g., NORMAL or OVERRIDE), system status (e.g., READY, CONTACT, DISCONNECT), and abnormal states. b. Drogue Tanker. Information necessary for drogue refueling includes but is not limited to: AR system operational status (e.g., ON/OFF, EXTEND, TRAIL, REWIND, STOWED), fuel transfer rates, fuel pressures, fuel temperature, ram air turbine speed (if applicable), and hydraulic system pressure (if applicable). c. Receptacle Receiver. Information necessary for boom refueling includes but is not limited to indicators of AR system status (e.g., READY, CONTACT, and DISCONNECT, receptacle position (e.g., OPEN/CLOSED), and functional mode (e.g., NORMAL/OVERRIDE)). d. Probe Receiver. Probe position and status (if applicable) is provided. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of design documentation verifies that the information necessary for AR operations is provided to the flight crew or automated system. Test.\n  (1) Lab test: Hardware-in-the-loop laboratory testing verifies information to facilitate AR operations is provided to the flight crew or automated system in a usable format. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Flight testing with targeted air vehicles verifies the information to facilitate AR operations is provided to the flight crew or automated system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

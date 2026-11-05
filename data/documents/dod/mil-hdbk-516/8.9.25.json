@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.25",
+  "number": "8.7.20",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Crewmember sequencing of controls",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.9.25",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the controls are capable of stopping or reversing door movement at any time in the cycle at the option of the operator by selecting the appropriate control option.",
+      "text": "Verify that the controls are capable of stopping or reversing door movement at any time in the cycle at the option of the operator by selecting the appropriate control option.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.25",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator sequencing of controls",
+      "text": "Criterion: Verify that the controls are capable of stopping or reversing door movement at any time in the cycle at the option of the operator by selecting the appropriate control option. Standard: The door will move to the last commanded position at any time in the control sequence. Commanded changes in door position during the cycling sequence do not cause jamming nor prevent the door from obtaining the last commanded position. Method of Compliance: FMECA verifies safe operation for all commanded door positions. Design analysis verifies that jamming will not occur. On aircraft testing verifies that door movement matches commanded position. References: JSSG-2009: (Appendix I) I.3.4.9.1.9a",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Crewmember sequencing of controls",
+      "text": "Standard: The controls are capable of stopping or reversing door movement at any time in the cycle at the option of the crewmember by selecting the appropriate control option. The door will move to the last commanded position at any time in the control sequence. Commanded changes in door position during the cycling sequence do not cause jamming nor prevent the door from obtaining the last commanded position. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a FMECA to verify operation for all commanded door positions.\n(2) Conduct an analysis to verify that jamming will not occur. Demonstration.\n  (1) Conduct ground demonstration on the air vehicle to verify that door movement matches commanded position.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

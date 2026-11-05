@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.16",
+  "number": "8.4.8",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Equipment separation",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.4.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components.",
+      "text": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.4.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components.",
+      "text": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.16, G.4.4.7.16, G.3.4.7.17, G.4.4.7.17, MIL-HDBK-221: para 2.7.2, 2.7.10, 2.10.4.2, 2.10.2.1 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.4.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components.",
+      "text": "Verify that proper separation is provided between oxidizers and flammable fluid systems or electrical components. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.16, G.4.4.7.16, G.3.4.7.17, G.4.4.7.17 MIL-HDBK-221: 2.7.2, 2.7.10, 2.10.4.2, 2.10.2.1 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.4.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Equipment separation",
+      "text": "Criterion: Verify that proper separation is provided between oxidizers, flammable fluid systems and electrical components. Standard: Flammable fluids and oxidizers are separated from electrical wiring by at least \u00bd inch. Electrical wiring is routed above flammable fluid lines so that leakage does not impinge on the wiring. Method of Compliance: Hazard analysis of the air vehicle verifies that provisions are implemented to provide for separation of combustible, oxidizers and ignition sources. Air vehicle inspections verify that appropriate clearances are provided between the electrical wiring and flammable fluid carrying lines under all operational conditions (minimum of \u00bd inch under worst case). Air vehicle inspections verify that oxygen equipment is not installed in a fire zone and that flammable fluid lines and oxygen lines are not routed together or in proximity to each other without proper isolation design. Ground and flight tests show that clearance requirements are met under all ground and flight conditions. Inspections indicate proper separation between a fuel tank and an ignition zone. References: JSSG-2009: G.3.4.7.22, G.4.4.7.22 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Equipment separation",
+      "text": "Standard: Flammable fluids and oxidizers are separated from electrical wiring by at least 0.5- inch. Electrical wiring is routed above flammable fluid lines so that any leakage does not impinge on the wiring. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspections of design drawings to verify that appropriate minimum clearances of at least 0.5-inch are provided between electrical wiring and flammable fluid carrying lines under all operational conditions, and electrical lines are routed above flammable fluid lines.\n(2) Conduct inspections of air vehicle as built to verify conformity to design drawings for clearances between the electrical wiring and flammable fluid carrying lines.\n(3) Conduct inspections of design drawings to verify oxygen equipment is not installed in a fire zone and flammable fluid lines and oxygen lines are not routed together or in proximity to each other without proper isolation design. Analysis.\n  (1) Conduct analysis to show minimum clearances between electrical wiring and flammable fluid carrying lines are maintained under all operational conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(4) Conduct post-flight inspections to verify minimum clearances between electrical wiring and flammable fluid carrying lines are maintained after exposure to operational loading conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

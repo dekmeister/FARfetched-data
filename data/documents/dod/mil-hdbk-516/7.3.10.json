@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.10",
+  "number": "7.3.24",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Life management",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.3.10",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that all inspection intervals and life-limited parts and components are identified in the technical manuals and a process to track life consumption is operational and current.",
+      "text": "Verify that all inspection intervals and life-limited parts and components are identified in the technical manuals and a process to track life consumption is operational and current.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.3.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all inspection intervals and life-limited components are identified in the technical manuals and a process to track life consumption is operational and current.",
+      "text": "Verify that all inspection intervals and life-limited components are identified in the technical manuals and a process to track life consumption is operational and current. DoD/MIL Doc: MIL-HDBK-1783B: para A.4.19/A.5.19 for component life management guidance. MIL-HDBK-1783B: para A.5.9.1.1 through A.5.9.1.6 for accelerated mission testing concepts",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.3.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all inspection intervals and life-limited components are identified in the technical manuals and a process to track life consumption is operational and current.",
+      "text": "Verify that all inspection intervals and life-limited components are identified in the technical manuals and a process to track life consumption is operational and current. DoD/MIL Doc: MIL-HDBK-1783B: A.4.19/A.5.19 for component life management guidance. MIL-HDBK-1783B: A.5.9.1.1 through A.5.9.1.6 for accelerated mission testing concepts",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.3.6",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Life management",
+      "text": "Criterion: Verify that all inspection intervals and life-limited components are identified in the technical manuals and a process to track life consumption is operational and current. Standard: Required maintenance actions (component inspection, repair, or replacement requirements) have been defined to ensure adequate structural integrity and operational readiness for the design service life. Required maintenance actions are based on duty cycles defined by operational usage of the airframe/engine. Individual component maintenance times are based on applicable parameters that contribute to life degradation. The critical component tracking system has been established and defines the analysis procedures, serialization, data collection, and computer programs necessary to establish maintenance times of individual components based on accrual of parameter events. Method of Compliance: Verification methods include inspection and review of documentation of the Engine Life Management Plan, applicable maintenance manuals (e.g., Technical Orders, Naval Aviation Technical Information Products (NATIPs) and the parts life tracking program. References: JSSG-2007: A.3.4.1.1, A.4.4.1.1 Design service life. 14 CFR 33.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Life management",
+      "text": "Standard: Life management actions required to maintain engine structural integrity and functionality (e.g., component inspection, repair, and replacement requirements) are defined and are based on 7.3.1. Individual component maintenance intervals are based on tracked usage parameters that contribute to life degradation (e.g., TACs, hours, augmentor lights), or on validated, configuration-controlled usage-based-lifing algorithms (e.g., advanced lifing algorithms). Components requiring usage tracking including safety-critical, fracture critical, CSI, and life limited components are identified. A usage tracking system, comprising the following functions, is implemented based on the unique tracking requirements of each tracked component: a. Analysis procedures. b. Serialization. c. Usage or damage data collection. d. Flight and ground software. The tracking system provides visibility of component-specific usage data required to maintain tracked components IAW propulsion technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of the Engine Life Management Plan, service management plan, and applicable maintenance manuals (e.g., TOs, Naval Aviation Technical Information Products) verifies that tracked components, required life management actions, and that the component life tracking program description and details are defined and documented. Analysis.\n  (1) Analysis is accomplished to determine the appropriate life tracking parameter and to validate algorithms for usage-based-lifing-tracked components. Usage-based lifing algorithms remain valid when exposed to expected or typical in-service usage variation and reproduce damage consistent with design system predictions for defined usage inputs. Test.\n    (1) Lab test: Component testing is accomplished to validate usage-based lifing algorithm predictions.\n    (2) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Post-test teardown and NDI of hardware verifies suitability of usage-based lifing algorithms. Minimum endurance test duration is twice the planned flight test duration. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Post-test teardown and NDI of hardware verifies suitability of usage-based lifing algorithms. Minimum endurance test duration is the scheduled depot inspection interval or half the cold part DSL.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

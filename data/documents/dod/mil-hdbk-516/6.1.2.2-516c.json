@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.2.2-516c",
+  "number": "6.1.2.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Allowable levels for air vehicle normal states",
+  "subject_group": "6.1.2 Primary flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Allowable levels for air vehicle normal states",
+      "text": "Criterion: Verify that allowable Levels for Air Vehicle Normal States have been defined and assessed for safety of flight. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.1.1.1 Allowable levels for air vehicle normal states (see table VII for guidance). For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.1.13 Levels for Normal States. Method of Compliance: Verification methods include analysis, simulation, and inspection of requirements, design, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Allowable levels for air vehicle normal states",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

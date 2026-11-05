@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.3.3",
+  "number": "17.2.3.3",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Armament and stores external radio frequency electromagnetic environments",
+  "subject_group": "17.2.3 Armament and stores electromagnetic environmental effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Armament and stores external radio frequency electromagnetic environments",
+      "text": "Standard: Stores can safely operate and are compatible with their defined external RF EME, as specified in MIL-STD-464, External RF EME paragraphs and MIL-HDBK-240-4, External RF EME Evaluation, External RF EME Test Planning, Conducting the Test, and Data Analysis sections, such that the store and host air system\u2019s SOF systems and associated SCFs are not degraded, and no potential EMI hazards such as unintentional detonation, release, launch, flight termination, or jettison of stores during inter system EME operations (e.g., inventory, carriage, employment, and jettison). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review store subsystem box-level EMI test results to establish a 200 v/m hardness immunity level for shielding effectiveness analysis. Verify SOF store subsystems are tested to CS114 (curve 5) and RS103 (200 v/m) safety-critical limits. Analysis.\n  (1) Verify the store is developed under the same external RF EME requirements as specified for the host air system. If not, conduct a gap analysis of stores and host air system external RF EME requirements to identify differences to be assessed.\n  (2) Conduct a shielding effectiveness analysis of the store. Identify and assess system performance where specified external RF EME levels are higher than box-level EMI test and shielding effectiveness analysis results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Ground test: As required, conduct a high-level RF EME test of the store system integrated on the air system (with EMC instrumented store installed if applicable). Analyze test results and anomalies. Alternatively, if the store has previously operated and been employed on a similar mission type air system that was previously tested to the specified external RF EME requirements, a similarity analysis may be conducted, provided the configurations are comparable.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

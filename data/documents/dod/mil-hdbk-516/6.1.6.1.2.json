@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.6.1.2",
+  "number": "6.1.6.1.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Longitudinal time responses to the pitch controller",
+  "subject_group": "6.1.6.1 Longitudinal response to the pitch controller",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal time responses to the pitch controller",
+      "text": "Criterion: Verify that longitudinal time responses to the pitch controller are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.2.1.2 Longitudinal time responses to the pitch controller. b. 5.2.2.1.2.1 Long-term longitudinal response (see table XXVIII for guidance). c. 5.2.2.1.2.2 Short-term pitch response to pitch controller (see tables XXIX and XXX and figures 32 through 39 for guidance). d. 5.2.2.1.2.3 Steady-state flight-path response to pitch controller (see table XXXI and figure 40 for guidance). e. 5.2.2.1.2.4 Speed response to attitude change.\n(1) 5.2.2.1.2.4.1 Direction of speed change.\n(2) 5.2.2.1.2.4.2 Relaxation in transonic flight. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.3.2.3 Mid-term response to control inputs, 3.3.3 Moderate-amplitude pitch (roll) attitude changes (attitude quickness), 3.3.4 Large-amplitude pitch (roll) attitude changes, 3.4.1.2 Mid-term response to control inputs and 3.4.4 Longitudinal static stability. For UAS, the delay is evaluated in the context of the full control system design. Delay is considered from the command to the AV response. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal time responses to the pitch controller",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

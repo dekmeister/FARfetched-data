@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.1.1",
+  "number": "9.5.1.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Thermal energy exposure",
+  "subject_group": "9.5.1 Initiation to touchdown",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Thermal energy exposure",
+      "text": "Standard: Thermal energy exposure, (e.g., thermal energy from operation of the escape system energy transmission system, propellant- or cartridge-actuated devices, the escape path clearance subsystem, and any rocket blast or rocket plumes associated with the escape process) is less than levels causing second degree burn injuries. Burn depth is less than 100 \u00b5m into the skin. Burns to the emergency and survival equipment do not prevent the equipment from performing the necessary functions (e.g., life preserver unit inflation or immersion suit protection). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the thermal data using BURNSIM, or other DoW approved model, and verify the corresponding burn depth as it relates to the heat flux. Test.\n  (1) Lab test: System-level tests are accomplished to verify the thermal energy exposure. Manikins are equipped with thermal gauge heat-flux transducers to determine the heat flux. Do not use temperature probes or thermocouples to determine heat flux due to excessive measurement error.\n  (2) Lab test: If damage to emergency or survival equipment is found, verify that the emergency and flight equipment still functions as intended.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

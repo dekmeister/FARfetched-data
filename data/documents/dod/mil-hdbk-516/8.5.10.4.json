@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.4",
+  "number": "8.5.9.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Position warning system",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.10.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the gear position warning system operates properly, and that the crew can override the warning systems.",
+      "text": "Verify that the gear position warning system operates properly, and that the crew can override the warning systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.10.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the gear position warning system operates properly and allows the crew to override the warning systems.",
+      "text": "Verify that the gear position warning system operates properly and allows the crew to override the warning systems. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.8.1/A.4.4.1.5.8.1 Gear position status indication; AFGS-87139: para 3.2.6.1 Retraction-extension system; and 3.2.6.2 Actuation system indication. FAA Doc: 14CFR reference: 23.729 & 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.10.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the gear position warning system operates properly and allows the crew to override the warning systems.",
+      "text": "Verify that the gear position warning system operates properly and allows the crew to override the warning systems. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.8.1/A.4.4.1.5.8.1 Gear position status indication AFGS-87139: 3.2.6.1 Retraction-extension system; and 3.2.6.2 Actuation system indication FAA Doc: 14CFR reference: 23.729 & 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.10.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Position warning system",
+      "text": "Criterion: Verify that the gear position warning system operates properly and allows the crew to override the warning systems. Standard: Visual and audible warnings are provided to the pilot/operator indicating when the air vehicle is close to the ground and close to landing speeds without gear down. The pilot/operator has time to extend the gear before landing and indications are given that the gear is in a safe position to land. Method of Compliance: Verification methods include analyses, test, simulation and demonstration. Design analysis verifies that appropriate integrated warnings, cautions and advisories are provided that address all normal and emergency conditions, and for all failure events as defined by the FMECA. Simulators/mock-ups confirm the logic analysis and validate the warnings and indications. Air vehicle checkouts verify proper installation and integration of the warning and indication system. Flight testing verifies correct functioning of the warning and indication system. References: JSSG-2009: A.3.4.1.5.8.1, A.4.4.1.5.8.1 Gear position status indication AFGS-87139: 3.2.6.1 Retraction-extension system; 3.2.6.2 Actuation system indication 14 CFR 23.729, 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Position warning system",
+      "text": "Standard: Visual and aural landing gear position warnings are provided to the flight crew indicating when the air vehicle is close to the ground and close to landing speeds without the landing gear extended. Warnings are provided to the flight crew in time to extend and confirm the gear is in the down and locked position. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies that warnings are provided for all normal and emergency conditions and addresses all failure events as defined by the FMECA. Test.\n  (1) Lab test: Conduct testing in the air vehicle simulator to verify flight crew receives a warning if the landing gear is not down and locked when air vehicle is close to the ground and close to landing speed. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to verify correct functioning of the warning and indication system to prevent landing without the landing gear down.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

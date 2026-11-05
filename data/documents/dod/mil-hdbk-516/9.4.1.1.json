@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.4.1.1",
+  "number": "9.4.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Primary flight displays",
+  "subject_group": "9.4 Human performance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.4.1.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the primary flight display suite provides the necessary information to the crewmembers to safely perform all basic and unique flight maneuvers including emergency conditions.",
+      "text": "Verify that the primary flight display suite provides the necessary information to the crewmembers to safely perform all basic and unique flight maneuvers including emergency conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.4.1.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the primary flight display suite provides the necessary information to the crewmembers to enable all basic and unique flight maneuvers to be performed safely, in both normal emergency conditions.",
+      "text": "Verify that the primary flight display suite provides the necessary information to the crewmembers to enable all basic and unique flight maneuvers to be performed safely, in both normal emergency conditions. DoD/MIL Doc: Air Force Flight Standards Agency white paper (Single Medium Flight Instrument Display Endorsement Process, Jan 01) provides procedures for requesting and getting PFR endorsement JSSG-2010-3: para 3.2, 4.2; MIL-STD-1787: Appendix E, Figures 91, 92, and 93 list the parameters for basic flight performance, unusual attitude and recovery performance, and dynamic maneuvering performance. FAA Doc: 14CFR references: 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.4.1.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the primary flight display suite provides the necessary information to the crewmembers to enable all basic and unique flight maneuvers to be performed safely, in both normal emergency conditions.",
+      "text": "Verify that the primary flight display suite provides the necessary information to the crewmembers to enable all basic and unique flight maneuvers to be performed safely, in both normal emergency conditions. DoD/MIL Doc: Air Force Flight Standards Agency white paper (Single Medium Flight Instrument Display Endorsement Process, Jan 01) provides procedures for requesting and getting PFR endorsement JSSG-2010-3: 3.2, 4.2 MIL-STD-1787: Appendix E, Figures 91, 92, and 93 list the parameters for basic flight performance, unusual attitude and recovery performance, and dynamic maneuvering performance FAA Doc: 14CFR references: 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.4.1.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Primary flight display suites",
+      "text": "Criterion: Verify that the primary flight display suite provides the necessary information to the pilot(s) and operator(s) to enable all basic and unique flight maneuvers to be performed safely, in both normal and emergency conditions. Standard: a. Flight symbology presents the information needed for all flight maneuvers to include takeoff, navigation, and landing. All crew stations from which a pilot or operator is to control an air vehicle have at least one complete set of primary flight reference (PFR) or primary flight display (PFD) data. All PFR displays or PFDs provide full-time presentation of critical flight data in accordance with MIL-STD-1472, MIL-STD-411, and MIL-STD-1787 for both fixed wing and rotary wing air vehicles (e.g., MIL-STD-1787 Table I (fixed wing)). b. Head-up displays (HUD), head-down displays (HDD) and helmet mounted display (HMD) symbology and information presentation are designed in accordance with MIL- STD-1787, MIL-STD-1472 and MIL-STD-411. If the HUD or HMD is designated as the PFR or PFD, then a head down, supplementary PFR or PFD is, as a minimum, selectable with a single control input from the pilot or operator. Method of Compliance: a. New PFR or PFD designs (or significant deviations from baseline designs) are verified by simulation and flight testing, including, but not limited to unusual attitude recovery (UAR); basic flight maneuvers; and mission demonstrations. Air Force PFR displays are endorsed by the Air Force Flight Standards Agency. All Navy PFDs are approved and certified by the airworthiness technical authority and SMEs identified by the NAVAIR Human Systems Chief Engineer. All Army PFDs are approved by the technical authority of the AED Crew Stations subject matter experts (SMEs). b. Compliance with MIL-STD-1787, MIL-STD-1472 and MIL-STD-411 symbology design is verified through analysis of hardware, engineering design drawings and documents related to the pilot vehicle interface as well as through inspection and demonstration during simulation and flight test. Selectability of supplemental PFR or PFD is verified by mockup demonstration and functional testing. References: MIL-STD-411 MIL-STD-1472 MIL-STD-1787 Air Force Flight Standards Agency white paper (Single Medium Flight Instrument Display Endorsement Process) 14 CFR 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Primary flight displays",
+      "text": "Standard: Primary flight displays, including WCAs, provide the necessary information to the pilots to enable performance of all flight maneuvers, in both normal and emergency conditions without endangering the air vehicle. All crew stations used by pilots to control an air system have access to at least one complete PFD. The PFD provides continuous presentation of primary flight information IAW with MIL-STD-1787, Aircraft Display Symbology all sections (except Missile Launch Zone and Attack Steering Depictions) and MIL-STD-411, Integrated Alert Displays section, or civilian best practices (e.g., FAA AC 25-11). Method of Compliance: Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n(1) Lab test: New PFD designs (or significant deviations from baseline designs) and a selection of supplemental PFDs are tested in simulation or flight test. Tests represent the full set of flight maneuvers (e.g., unusual attitude recoveries, basic flight maneuvers, and mission demonstrations).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

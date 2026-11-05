@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.2.1.9",
+  "number": "10.1.4.6",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Static discharge",
+  "subject_group": "10.1.4 Electrical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.7.2.1.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces.",
+      "text": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.7.2.1.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces.",
+      "text": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces. DoD/MIL Doc: JSSG-2001: para 3.2.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.7.2.1.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces.",
+      "text": "Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces. DoD/MIL Doc: JSSG-2001: 3.2.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.7.2.1.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Static discharge tolerance",
+      "text": "Criterion: Verify that each aerial refueling system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces. Standard: Each aerial refueling system involved in an engagement is designed to accommodate/dissipate the static discharge resultant of the electrical potential difference of the two aircraft. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis of design, inspection of drawings, and laboratory tests verify each aerial refueling system can withstand the static discharge encountered during the engagement of tanker and receiver interfaces. Reference: JSSG-2001: 3.2.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Static discharge",
+      "text": "Standard: The AR system can withstand the static discharge typically encountered during the engagement of tanker and receiver interfaces. AR system meets operational performance requirements when subjected to a 300-kilovolt discharge at the AR system interface. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis of system design verifies AR system components have static discharge protection provisions. Test.\n  (1) Lab test: AR system electrical component laboratory testing verifies equipment is qualified to withstand required static discharge levels. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Flight test verifies no incidents of static discharge result in negative impacts to tanker or receiver, such as electronic equipment failure or damage to components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

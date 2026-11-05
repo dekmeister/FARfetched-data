@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.9.5",
+  "number": "8.5.8.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Steering capability",
+  "subject_group": "8.5.8 Ground directional control",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.9.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control.",
+      "text": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.9.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control.",
+      "text": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.1/A.4.4.1.4.5.1 Steering Characteristics; MIL-S-8812; AFGS-87139: para 3.2.5.1 General and 3.2.5.2 Nose gear steering system. FAA Doc: 14CFR reference: 23.45, 23.497, 23.499, 23.745, 25.233, 25.45, 25.497, 25.499, & 25.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.9.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control.",
+      "text": "Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.1/A.4.4.1.4.5.1 Steering Characteristics MIL-S-8812 AFGS-87139: 3.2.5.1 General and 3.2.5.2 Nose gear steering system FAA Doc: 14CFR reference: 23.45, 23.497, 23.499, 23.745, 25.233, 25.45, 25.497, 25.499, & 25.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.9.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Steering capability",
+      "text": "Criterion: Verify that steering system operation during taxi, takeoff, and landing is sufficient to accomplish all the required ground maneuvering and parking, and is not sensitive to high-speed, ground rolling effects on directional control. Standard: The steering system provides minimum radius turn capability required for ground operations (taxi and parking). Steering system safely accommodates high speed operations (takeoff and landings) by integrating steering system responses with the flight control system and providing damping and steering gain control as required to maintain directional control. Method of Compliance: Analysis and ground, taxi and flight testing verify safe steering and directional control system performance. References: JSSG-2009: A.3.4.1.4.5.1, A.4.4.1.4.5.1 Steering Characteristics MIL-S-8812 AFGS-87139: 3.2.5.1 General; 3.2.5.2 Nose gear steering system. 14 CFR 23.45, 23.497, 23.499, 23.745, 25.233, 25.45, 25.497, 25.499, 25.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Steering capability",
+      "text": "Standard: The steering system allows the flight crew to perform all required ground and shipboard maneuvering, operations during parking, taxiing, takeoff, and landing. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Static torque analysis is conducted to verify actuators or motors are sized to turn the nose tire(s) without air vehicle movement on a surface with a 0.8 coefficient of friction.\n(2) Analysis verifies steering system meets minimum turning radius needed for air vehicle ground operations. Demonstration.\n  (1) Conduct ground demonstrations to verify flight crew's ability to capture the centerline using steering only, have direction control and perform other ground movements (e.g., minimum turn radius, 90-degree turns, enter and transit taxiways and runways, and align air vehicle to catapult equipment). Test.\n    (1) Lab test: Conduct laboratory testing of steering components to verify torque capability, rates (degrees/sec) and damping characteristics.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

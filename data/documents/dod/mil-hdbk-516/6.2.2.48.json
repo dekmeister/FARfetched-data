@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.48",
+  "number": "6.2.18.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Security",
+  "subject_group": "6.2.18 Vehicle control function computer processing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.48",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify all command and control communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "text": "Verify all command and control communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "6.2.2.48",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely.",
+      "text": "Verify all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.48",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely.",
+      "text": "Verify that all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely. DoD/MIL Doc: JSSG-2008: para 3.1.8, 4.1.8, 3.1.14.6, 4.1.14.6, 3.1.16, 4.1.16, 3.2, 4.2, 3.3.1, 4.3.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.48",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely.",
+      "text": "Verify that all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely. DoD/MIL Doc: JSSG-2008: 3.1.8, 4.1.8, 3.1.14.6, 4.1.14.6, 3.1.16, 4.1.16, 3.2, 4.2, 3.3.1, 4.3.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.9.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Security",
+      "text": "Criterion: Verify that all command and control communications are secure against unwanted intrusions and security techniques used are implemented safely. Standard: VCF command and control communications meet the system security requirements as specified in the air vehicle/weapon system specification. Command and control communication security implementation does not degrade VCF performance. Command and control system security levels are selected based upon the sensitivity of data. Integrity of information passed through security channels is guaranteed. The VCF contains features to prevent unauthorized access or use of the system to change or add data, limits, or information that could result in loss of the aircraft. Command and control communications security procedures apply to all field support as well as depot support. Any wireless computing and networking capabilities (aircraft and support systems) are secure from external influences. Method of Compliance: Verification methods include analysis, tests, simulation, demonstration, inspection, and review of documentation. The command and control communications security provisions are verified by inspection of requirements, analysis of the security provisions and their effectiveness, and demonstration of the security design methods and procedures. VCF performance with implemented security measures is verified through analysis, simulation and SIL test. References: JSSG-2008: 3.1.8, 3.1.14.6, 3.1.16, 3.2, 3.3.1, and associated section 4 paragraphs. 14 CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529 and 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Security",
+      "text": "Standard: Implementation of security features does not degrade VCF performance or prohibit critical VCF functions. For UAS, this includes C2 communication security implementation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the security provisions requirements specified in the Program Protection Implementation Plan air vehicle/weapon system specification, and component hardware and software specifications. Analysis.\n  (1) Conduct analysis of security provision's potential to degrade or disrupt the VCF. Test.\n    (1) Lab test: Conduct component and SIL tests to verify implementation of security requirements and provisions does not degrade VCF performance or prohibit critical VCF functions. Tests should include VCF performance during and after the activation of any security protection features. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct demonstration in flight test to verify VCF performance with implemented security measures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

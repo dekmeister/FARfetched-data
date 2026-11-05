@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "18.1.2",
+  "number": "9.7.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Restraint system release point \u2013 non-escape system",
+  "subject_group": "9.7 Crash survivability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "18.1.2",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that each restraint system has a single-point release for occupant evacuation.",
+      "text": "Verify that each restraint system has a single-point release for occupant evacuation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "18.1.2",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that each restraint system has a single-point release for passenger evacuation.",
+      "text": "Verify that each restraint system has a single-point release for passenger evacuation. DoD/MIL Doc: JSSG-2010-7: para 3.7.3.2.2 FAA Doc: 14CFR references: 25.785, 23.2, 23.562, 23.785",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "18.1.2",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that each restraint system has a single-point release for passenger evacuation.",
+      "text": "Verify that each restraint system has a single-point release for passenger evacuation. DoD/MIL Doc: JSSG-2010-7: 3.7.3.2.2 FAA Doc: 14CFR references: 25.785, 23.2, 23.562, 23.785",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "18.1.2",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Restraint system release point",
+      "text": "Criterion: Verify that each restraint system has a single-point release for passenger evacuation. Standard (Air Force): All passenger restraint systems have a single point release for the restraint system of each occupant. Method of Compliance (Air Force): Inspection and demonstration documentation exists to show that each passenger seat and restraint system has a single point release system for the restraint system. References: JSSG-2010-7: 3.7.3.2.2 14 CFR 25.785, 23.2, 23.562, 23.785",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Restraint system release point \u2013 non-escape system",
+      "text": "Standard: All restraint systems have a single point release for the restraint system of each occupant. The release can be disengaged by the seat occupant with a single gloved hand in normal and inverted orientations. The release point is designed to prevent inadvertent actuation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of engineering drawings verifies that each seat and restraint system has a single point release system. Demonstration.\n  (1) Demonstrate that occupants representing the intended anthropometric range can use the single point release while wearing all AFE.\n  (2) Demonstrate that the release does not inadvertently actuate under the anticipated environmental and operational conditions. Test.\n    (1) Lab test: Testing shows that the single point release can be activated and meet MIL-STD- 1472, Arm, Hand, and Thumb-finger Controls paragraph post-dynamic test for the intended user population.\n    (2) Lab test: Verify that the single point release is operable in an inverted position, with the weight of the occupant supported by the restraint system.\n    (3) Lab test: Verify that the single point release is functional under all anticipated environmental and operational conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

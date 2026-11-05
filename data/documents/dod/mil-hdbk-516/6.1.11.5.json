@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.5",
+  "number": "6.1.11.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Control power",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Control power",
+      "text": "Standard: The air vehicle has sufficient control power available in the pitch, roll, and yaw axis to generate an angular response not less than 7 deg/s from trim in both directions within 1.5 seconds. The air vehicle has sufficient control power available in the pitch, roll, and yaw axis to generate a delta angular response not less than 7 deg/sec in the restoring (towards trim) direction during non-trimmed flight within 1.5 seconds. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess that for all air vehicle configurations and loadings within the SFE, the air vehicle can generate a minimum angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input. Conduct analysis to assess that for all air vehicle configurations, loadings, and mission maneuvers within the SFE, the air vehicle can generate a minimum delta angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess that for all air vehicle configurations and loadings within the SFE, the air vehicle can generate a minimum angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input. Conduct piloted simulation and evaluation to assess that for all air vehicle configurations, loadings, and mission maneuvers within the SFE, the air vehicle can generate a minimum delta angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test for selected combinations of air vehicle configurations and loadings within the SFE, the air vehicle can generate a minimum angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input. Conduct flight test for selected combinations of air vehicle configurations, loadings, and mission maneuvers within the SFE, the air vehicle can generate a minimum delta angular pitch, roll, and yaw rate of 7 deg/s from trim in both directions within 1.5 seconds of the control input.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

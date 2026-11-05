@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.8",
+  "number": "6.1.7.8",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Lateral-directional control forces and displacements",
+  "subject_group": "6.1.7 Lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control forces and displacements",
+      "text": "Criterion: Verify that lateral-directional control forces and displacements are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.8 Lateral-directional control forces and displacements (see figures 169 through 171 and table LXVI for guidance). b. 5.2.3.8.1 Lateral-directional breakout forces (see table LXVII for guidance). c. 5.2.3.8.2 Roll control sensitivity (see table LXVIII and figure 173 for guidance). d. 5.2.3.8.3 Roll control force limits in rolls (see tables LXX and LXXI for guidance). e. 5.2.3.8.4 Yaw control forces in rolls (see table LXXII for guidance). f. 5.2.3.8.5 Control forces in steady turns. g. 5.2.3.8.6 Roll control displacement limits. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.6 Controller characteristics. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.143 General; 23.177 Static directional and lateral stability 14 CFR 25.143 General; 25.177 Static lateral-directional stability 14 CFR 27.151 Flight controls",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control forces and displacements",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.1.2",
+  "number": "11.1.1.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Propulsion system instrumentation",
+  "subject_group": "11.1.1 Avionics subsystems architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Propulsion system instrumentation",
+      "text": "Criterion: Verify that propulsion system instrumentation, with the ability to monitor performance, fuel status, and integrity of the system, is provided. Standard: The propulsion system provides the vehicle and/or operator(s) with all needed propulsion system information with sufficient accuracy and reliability to satisfy safety of flight requirements. The system displays engine power indication (RPM, temperature, percent thrust, or other parameter(s) as appropriate for the engine type) at all times. The system displays fuel quantity remaining, along with any necessary fuel location or balance information, at all times. Power and fuel indications may be replaced/obscured by other display data if: sufficient automatic monitoring of these parameters is provided to ensure that the pilot or operator will always be notified of impending abnormal or dangerous situations; and presentation of detailed status and trend information is always available with only one control action. Power and fuel status information are available after any single point failure. Method of Compliance: Required system displays are verified through inspection of the design. Testing verifies the accuracy of the information displayed. FMECA verifies that power and fuel status information are available after any single point failure. References: JSSG-2005: 3.2.1.8 (Control and displays) MIL-STD-1787: 4.1.1 provides guidance on displayed information MIL-HDBK-87213: 3.1 RTCA DO-186 RTCA DO-200 RTCA DO-219 SAE ARP4761 SAE ARP5580 FAA AC 20-138 FAA AC 20-145 14 CFR 23.1301, 13.1305, 23.1309, 25.1301, 25.1305, 25.1309 FAA AC-27-1 and FAA AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\"",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Propulsion system instrumentation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.1.2",
+  "number": "6.2.1.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "High-level architecture function",
+  "subject_group": "6.2.1 VCF architecture design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the VCF high-level architecture function to be safe for the supporting control function.",
+      "text": "Verify the VCF high-level architecture function to be safe for the supporting control function.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the VCF high-level architecture function to be safe for the supporting control function.",
+      "text": "Verify the VCF high-level architecture function to be safe for the supporting control function. DoD/MIL Doc: JSSG-2008: para 3.1.7 thru 3.1.7.3, 4.1.7 thru 4.1.7.3 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the VCF high-level architecture function to be safe for the supporting control function.",
+      "text": "Verify the VCF high-level architecture function to be safe for the supporting control function. DoD/MIL Doc: JSSG-2008: 3.1.7 thru 3.1.7.3, 4.1.7 thru 4.1.7.3 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "High-level architecture function",
+      "text": "Criterion: Verify the VCF high-level architecture function to be safe. Standard: Requirements are defined for architecture of vehicle control with other functions such as, but may not be limited to electrical power, hydraulics, avionics, inertial platforms, engines, and unique functions. Safety critical functions are properly managed for redundancy and integration. Non-safety critical functions are identified and properly accounted. Functional separation exists for all components and functions that affect air vehicle control. Separation and isolation exist between critical and non-critical systems. For normal operating conditions, the VCF control system has sufficient control power to maintain Level I flying qualities. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Testing of the VCF includes, but is not limited to component development, qualification, and FMET (failure modes testing). System Integration Laboratory (SIL), Vehicle Integration Facility (VIF), and hardware in the loop (also known as Iron Bird (IB)) are used to verify and validate integration of VCF with all other subsystems. The primary focus of SIL, VIF and hardware in the loop testing is to evaluate the operation of VCF under normal and failed states. FMET, or failure modes testing, is a particularly critical part of system level testing. Flying qualities analysis provides an assessment on the failure modes. Prior to first flight, Electromagnetic interference (EMI) and on aircraft ground testing are completed to demonstrate safe operation of the VCF and the integrated architecture under all natural and induced environments. References: JSSG-2008: 3.1.7 through 3.1.7.3, and associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "High-level architecture function",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

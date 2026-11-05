@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.15.2",
+  "number": "6.2.15.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Command and control situational awareness and health and status",
+  "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Command and control situational awareness and health and status",
+      "text": "Standard: The UAS C2 system provides situational awareness and health and status of the UAV to the flight crew. Specifically, the C2 system processes and displays real-time flight-critical parameters (e.g., altitude, airspeed, heading, control surface positions, flight mode), and health and status of the VCF and integrated subsystems (e.g., VCF computers, air data, inertial measurement units, navigation, actuators, propulsion, electrical power, hydraulics). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review software requirement specifications to ensure the requirements for situational awareness flight parameters and health and status are clearly defined. Test.\n  (1) Lab test: Conduct SIL testing to verify control station displays function properly and refresh per the design requirements. a. Verify that the subsystems health and status updates get downlinked to the control station and status is refreshed per the design requirements. b. Any faults are clearly annunciated or displayed to the flight crew.\n  (2) Ground test: Conduct ground testing (air vehicle and control station) to validate SIL testing and verify control station displays function properly and refresh per the design requirements: a. Verify that the subsystems health and status updates get downlinked to the control station and status is refreshed per the design requirements. b. Any faults are clearly annunciated or displayed to the flight crew. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (1) Conduct flight operations to verify display functionality and health and status data is provided to the control station for the various subsystems at the designed refresh rates.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

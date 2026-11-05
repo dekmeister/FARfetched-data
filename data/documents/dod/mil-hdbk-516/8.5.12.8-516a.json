@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.12.8-516a",
+  "number": "8.5.1.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Air vehicle turnover",
+  "subject_group": "8.5.1 Landing gear general arrangement",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.5.12.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle will not turnover for all mission side loads conditions.",
+      "text": "Verify that the air vehicle will not turnover for all mission side loads conditions. All taxi and turn conditions at all gross weights should be covered for all possible strut/tire conditions and for adversely sloped taxiways and runways.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.12.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle does not turnover or ground loop for all mission conditions that produce side-load.",
+      "text": "Verify that the air vehicle does not turnover or ground loop for all mission conditions that produce side-load. All taxi and turn conditions at all gross weights are evaluated for all possible strut/tire conditions and for adversely sloped taxiways and runways. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.1/A.4.4.1.1.1 Gear Arrangement; and A.3.4.1.1.2/A.4.4.1.1.2 Pitch Stability; AFGS-87139: para 3.2.1.2 Arrangement. FAA Doc: 14CFR reference: 23.473, 23.477, 23.485, 25.473, 25.477, 25.485",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.12.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle does not turnover or ground loop for all mission conditions that produce side-load.",
+      "text": "Verify that the air vehicle does not turnover or ground loop for all mission conditions that produce side-load. All taxi and turn conditions at all gross weights are evaluated for all possible strut/tire conditions and for adversely sloped taxiways and runways. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.1/A.4.4.1.1.1 Gear Arrangement; and A.3.4.1.1.2/A.4.4.1.1.2 Pitch Stability AFGS-87139: 3.2.1.2 Arrangement FAA Doc: 14CFR reference: 23.473, 23.477, 23.485, 25.473, 25.477, 25.485",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.12.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Turnover",
+      "text": "Criterion: Verify that the air vehicle does not turnover or ground loop for all mission, taxi and towing conditions that produce side-load. Standard: The turnover loads do not exceed a 0.5g load at the critical center of gravity location for all possible gear configurations. Taxi and towing conditions include all expected turning speeds and turn radii, all possible strut/tire conditions at all air vehicle weights and ground configurations including crowned and sloped surfaces. Method of Compliance: Verification methods include analyses, test, inspections and ground demonstrations. Design analysis and dimensional inspections verifies the air vehicle turnover angle and turn radius at turn off speeds. Air vehicle ground demonstration and test verify turn stability. References: JSSG-2009: A.3.4.1.1.1, A.4.4.1.1.1 Gear Arrangement; A.3.4.1.1.2, A.4.4.1.1.2 Pitch Stability AFGS-87139: 3.2.1.2 Arrangement 14 CFR 23.473, 23.477, 23.485, 25.473, 25.477, 25.485",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Air vehicle turnover",
+      "text": "Standard: For all possible landing gear configurations, the turnover loads do not exceed a 0.5g load at the critical CG location. Taxi and towing operations include all expected turn speeds and turn radii, all possible strut and tire conditions at all air vehicle weights, and all ground configurations including crowned and sloped surfaces. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct turnover analysis to verify lateral position of the main landing gear keeps the turnover angle from exceeding 54 degrees for ship-based air vehicles and 63 degrees for land-based air vehicles.\n(2) Conduct turning analysis to verify landing gear layout allows the air vehicle to conduct turns up to 0.5g.\n(3) Conduct turning radius analysis to verify the air vehicle has ability to maneuver from taxiways to runway and to depart runway to taxiway after flight. Test.\n  (1) Ground test: Conduct ground test to verify air vehicle's stability in turns.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

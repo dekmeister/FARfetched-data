@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.3.5",
+  "number": "17.2.3.5",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Armament and stores electrostatic charge control",
+  "subject_group": "17.2.3 Armament and stores electromagnetic environmental effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Armament and stores electrostatic charge control",
+      "text": "Standard: Store systems control and dissipate electrostatic charge buildup resulting from various sources, including p-static, fluid flow, air flow, vertical lift ESD, and other triboelectric charge-generating mechanisms IAW MIL-STD-464, Electrostatic Environments paragraphs; MIL- HDBK-240-3, Personnel-Borne Electrostatic Discharge (PESD) and Helicopter-Borne Electrostatic Discharge (HESD) paragraphs; and JOTP-062, PESD Requirements paragraphs and HESD Requirements paragraphs. This is critical to prevent ordnance hazards, personnel shock risks, degradation of SOF systems, including RF safety-critical receivers, during store inventory, carriage, employment, and jettison when applicable. Additionally, this applies to in flight reloading of munitions (e.g., guns, cannons, common launch tubes) for specific air systems and crewmembers. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review grounding and bonding specification documentation, drawings, and manufacturing bonding process for verification of mechanical interfaces to the store and air system. Test.\n  (1) Ground test: Take store bonding measurements as installed on the air system to verify bonding performance requirements for applicable mechanical interfaces. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Lab test: For air systems enabling crewmembers to reload munitions during flight operations, conduct ESD testing IAW MIL-HDBK-240-3, Personnel-Borne Electrostatic Discharge (PESD) section, to assess potential hazards to exposure of ordnance items, electrical interfaces, and related systems such as firing circuits and control electronics (e.g., weapon release, intent to launch), to crewmember handling during flight operations. If store is ESD sensitive, verify hazards are documented in the applicable maintenance and flight manuals.\n  (3) Lab test: For vertical lift air systems enabling crewmembers to reload munitions during flight operations, conduct ESD testing IAW MIL-HDBK-240-3, Helicopter-Borne Electrostatic Discharge (HESD) section, to assess potential hazards to exposure of ordnance items, electrical interfaces, and related systems such as firing circuits and control electronics (e.g., weapon release, intent to launch) to crewmember handling during vertical flight operations. If store is ESD sensitive, verify hazards are documented in the applicable maintenance and flight manuals.\n  (4) Ground test: Conduct air system level p-static test with store system installed on the air system. Verify that the store dissipates charges in a timely manner and does not generate discharge (e.g., arching or sparking) that could potentially create EMI hazards to safety-critical antenna-connected receivers.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

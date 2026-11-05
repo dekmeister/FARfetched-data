@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1.4.6",
+  "number": "14.1.1.4.6",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Radiation/LASER (light amplification by stimulated emission of radiation) safety",
+  "subject_group": "14.1.1.4 System safety program implementation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Radiation/LASER (light amplification by stimulated emission of radiation) safety",
+      "text": "Criterion: Verify that the system safety program addresses radiation/laser safety. Standard: Key design requirements for radiation/laser safety are established including: protective housing; safety interlocks; remote interlock connector; key control/arming device; emission indicator; beam stop/attenuator; location of controls; viewing optics; scanning safeguard; manual reset; labeling requirements; laser classification; hazard evaluation; protective eyewear; laser area control; and informational requirements. Method of Compliance: Verification method includes inspection of documentation. Evidence of a process to establish the key safety design requirements for radiation/laser safety is verified by inspection of safety analyses, design specifications and program functional baselines. References: MIL-STD-882 MIL-HDBK-828 MIL-STD-1425 ANSI Z136.1 (now owned by LIA) for definitions of key laser safety design requirements",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Radiation/LASER (light amplification by stimulated emission of radiation) safety",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

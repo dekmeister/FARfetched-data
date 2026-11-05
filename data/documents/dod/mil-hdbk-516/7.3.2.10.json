@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.10",
+  "number": "8.8.9",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rotor brake shutdown",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.2.10",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the normal and emergency braking systems (consisting of aerodynamic rotor drag and subsequent mechanical braking) are capable of stopping the rotor, from 100% speed, within specified times after engine shutdown.",
+      "text": "Verify that the normal and emergency braking systems (consisting of aerodynamic rotor drag and subsequent mechanical braking) are capable of stopping the rotor, from 100% speed, within specified times after engine shutdown.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.10",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Braking",
+      "text": "Criterion: Verify that the normal and emergency braking systems (consisting of aerodynamic rotor drag and subsequent mechanical braking) are capable of stopping the rotor, from 100% speed, within specified times after engine shutdown, and provide gust-lock capability. Standard: The rotor brake system is capable of stopping the rotor 400 times, without replacement of any part, from the required rotor speed as specified in the air vehicle specification, within the specified duration after engine shutdown. For emergency shutdown purposes, the braking system is capable of accomplishing two stops from 100 percent rotor speed within the shortest duration possible (the brake is permitted to be nonrepairable after the second emergency stop). The minimum stopping time is based on a structural analysis to protect power drive subsystem gears and components from overloads due to sudden stops. The braking system is capable of holding the rotor(s) stopped against a 45-knot wind, from any direction, while the air vehicle is not in use; and holds the rotor(s) stopped while the engine(s) are at ground idle. Engine control interlock safeguards are provided to prevent inadvertent actuation of the system. The brake cannot be applied if the commanded engine speed is above ground idle. When the rotor brake is applied, slippage of air vehicle under various ground conditions is prevented. There are no critical vibratory modes for the braking system from 0 to 120 percent of maximum operating speed. Method of Compliance: Verification methods include analysis, test, demonstration and review of documentation. Analyses verify margins against heat generation limits, provisions for isolation from flammable materials or fluids, and transmission energy absorption rate limit. Component bench and system level testing demonstrate the capability to keep the rotors from rotating when exposed to the specified conditions. Component bench and system level testing demonstrate the ability of the brake to stop the rotor within the specified stop time (at the specified engagement speed) and number of braking cycles from the specified speed for both normal and emergency operation. The brake's ability to perform the specified repeated single engine startup cycles at the specified power without failure is demonstrated in component endurance tests and a limited demonstration at the system level. The system level test demonstrates the ability of the engine interlock safeguard system to prevent actuation during specified periods. References: JSSG-2009: K.4.4.11.3 ADS-50-PRF",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rotor brake shutdown",
+      "text": "Standard: The rotor braking system(s), consisting of aerodynamic rotor drag and subsequent mechanical braking, are capable of stopping the rotor, from 100% speed, after engine shutdown. The rotor braking system, at a minimum: a. Can accomplish two emergency stops from 100% rotor speed within the shortest duration possible (the brake is permitted to be nonrepairable after the second emergency stop). The minimum stopping time is based on a structural analysis to protect the drive subsystem gears and components from overloads due to sudden stops. b. Prevents rotation of rotor, under various ground and shipboard conditions, when the rotor brake is applied. c. Has no critical vibratory modes or torsional dynamic instabilities from 0 to 120% of maximum operating speed. d. Can stop the rotor system at a specified engagement speed for a minimum of 400 cycles. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., system layout, hardware drawings, system configuration descriptions, and ICD) to verify power systems and interfaces are defined. Analysis.\n  (1) Conduct thermal analysis to verify rotor has mass to absorb heat and not lose torque stopping capability. Temperatures generated do not result in brake fires or loss of brake component structural integrity.\n  (2) Conduct a torque sizing analysis to verify ability of brake(s) to stop rotors for emergency stops.\n  (3) Conduct wear analysis to verify ability of brake(s) to stop the rotors for 400 engagements.\n  (4) Conduct static strength analysis to verify braking components meet limit and ultimate torque conditions. Ultimate load is defined as 2X limit torque.\n  (5) Conduct fatigue analysis to verify rotor braking system meets DSL. Test.\n    (1) Lab test: Component bench testing verifies the capability to keep the rotors from rotating, and the ability of the brake to stop the rotors for both normal and emergency stops in the required time as defined in the air vehicle specification.\n    (2) Lab test: Conduct wear tests to verify brake is capable of stopping the rotor 400X, without replacement of any part. Test cycles based on a mix of the normal operational and emergency rotor speeds as defined in the air vehicle specification.\n    (3) Lab test: Conduct static torque lab testing to verify brake(s) can produce and hold required torque.\n    (4) Lab test: Conduct lab testing to verify brake system ability to secure the rotors during repeated single engine startup cycles, at the specified power, without failure and verify the brake system cannot be engaged during flight.\n    (5) Ground test: Conduct ground testing on the air vehicle to verify the ability to stop rotors from the maximum rotor speed as defined in the air vehicle specification.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

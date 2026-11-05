@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.12.3",
+  "number": "8.4.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Drainage",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.12.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that drainage provisions have been provided to remove all normal and accidental fuel leakage to a safe location outside of the air vehicle.",
+      "text": "Verify that drainage provisions have been provided to remove all normal and accidental fuel leakage to a safe location outside of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.12.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that drainage provisions are provided to remove all normal and accidental fuel leakage to a safe location outside of the air vehicle.",
+      "text": "Verify that drainage provisions are provided to remove all normal and accidental fuel leakage to a safe location outside of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.6.2, E.4.4.5.6.2, E.3.4.5.1.10, E.4.4.5.1.10 FAA Doc: 14CFR references: 23.977, 23,997, 23.999, 25.977, 25.997, 25.999",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.13.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Drainage",
+      "text": "Criterion: Verify that drainage provisions are provided to remove all normal and accidental fuel leakage and water to a safe location outside of the air vehicle. Standard: Compartment and fuel tank drainage provisions are provided for the removal of fuel and water to a safe location outside of the air vehicle under ground and flight conditions. Method of Compliance: Drawing inspections verify that all areas surrounding fuel tanks or containing fuel system components are properly drained to remove fuel leakage and water to a safe location. Analysis and on-aircraft tests verify that the drain rates are in compliance with the air vehicle design requirements. References: JSSG-2009: E.3.4.5.6.2, E.4.4.5.6.2; E.3.4.5.1.10, E.4.4.5.1.10 MIL-F-17874 14 CFR 23.977, 23.997, 23.999, 25.977, 25.997, 25.999, 27.977, 27.997, 27.999, 29.977, 29.997, 29.999",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Drainage",
+      "text": "Standard: Drains are arranged to remove all flammable or reactive fluid leakage to a location outside the air vehicle. All compartments containing flammable fluid components, and areas surrounding fuel tanks, are drained. Drains are sized to accommodate all leakage, including failure cases. Drained fluids do not re-enter the air vehicle or create any additional hazard. Drain lines are not interconnected where the return of any fluid or vapor may create a fire hazard or damage any interconnected components. Interconnected component drains (e.g., engine combustor drains, pressurizing and dump valve drains, and afterburner or tailpipe drains) are not connected with each other or any other drain and flammable fluid drains are not manifolded with the fluid drains from ignition zones. If drain lines for different fluids are interconnected, fluids do not cause a hazard through contact or mixing. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Inspect design documentation to verify drainage features are provided in locations where flammable fluids are present during normal or failure conditions.\n(2) Conduct inspection of design documentation that shows flammable fluid drains are not connected to any zones or components that may be ignition sources. Analysis.\n  (1) Conduct analysis that show drain locations and drain paths do not allow flammable fluids to accumulate inside the air vehicle or drain lines for all steady-state flight and allowable ground attitudes.\n  (2) Conduct analysis that shows drains are sized to accommodate the flow rate of possible leakage, including failure cases, of the area or compartment it is expected to drain.\n  (3) Conduct analysis that shows drained fluids do not re-enter the air vehicle or create additional hazards after exiting the air vehicle.\n  (4) Conduct analysis that shows pressure differentials due to airflow do not inhibit the performance of drains or limit the ability of fluids to exit the air vehicle.\n  (5) Conduct analysis of design documentation that shows flammable fluid drains are not interconnected in a way that will allow fluids to create a fire hazard or to damage interconnected components.\n  (6) Perform analysis that shows fluids in any interconnected drains are compatible and will not cause a hazard when mixed. Test.\n    (1) Ground test: Conduct ground test that shows flammable fluids do not accumulate inside the air vehicle at allowed ground attitudes and drain system performance matches analysis. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test that shows flammable fluids are drained from the air vehicle under all steady-state flight conditions, do not re-enter the air vehicle or create an additional hazard, and drain system performance matches analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

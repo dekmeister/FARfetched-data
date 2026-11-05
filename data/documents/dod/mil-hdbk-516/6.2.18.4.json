@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.18.4",
+  "number": "6.2.18.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Common mode failure accommodation",
+  "subject_group": "6.2.18 Vehicle control function computer processing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Common mode failure accommodation",
+      "text": "Standard: The VCF software architecture and design provides mitigation for an in-flight, CMF resulting in an all-channel exception or reset. Mitigations may include an in-flight \u201cfast start\u201d mechanism or other design approach to handle processor exceptions. Vehicle control function transient and recovery analysis is provided to support the recovery time requirement. This requirement is flowed and captured in the VCF software requirements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the software architecture, along with the software high level design, to verify mitigations are in place for an in-flight, CMF resulting in an all-channel exception or reset. Analysis.\n  (1) Vehicle control function transient and recovery analysis is performed to support the recovery time requirement. Ensure the analysis captures the state of the control system during the recovery (e.g., actuator control held at last position or free floating). Test.\n    (1) Lab test: Failure modes and effects testing demonstrates VCF recovery response to a VCF software CMF.\n    (2) Lab test: Test cases are developed, and measurements taken, to verify that the software in all redundant channels can recover within the time constraints flowed from the VCF system design.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

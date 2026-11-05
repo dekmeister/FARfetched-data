@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.3.3.2-516d",
+  "number": "11.3.3.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Timeliness",
+  "subject_group": "11.3.3 Safety-critical controls",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Timeliness",
+      "text": "Standard: Timing of controls and control feedback allows control of all SCFs to be maintained. Avionic subsystem controls for controlling avionic modes and system function have timeliness and latency requirements defined and documented or in the absence of system specified timing and latency requirements the end-to-end timing and latency should be no more than 100 milliseconds, unless determined via test there is no delay long enough to impact the flight crew or system response time. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine program requirements for response time of controls. Analysis.\n  (1) Verify timing of system controls is defined and considered in design documentation and FMEA. Test.\n    (1) Lab test: Conduct laboratory testing to verify timing of controls meets program requirements or in the absence of system specified timing and latency requirements, the end-to-end timing and latency should be no more than 100 milliseconds, unless determined via test there is no delay long enough to impact the flight crew or system response time. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing validates analyses and lab test results and verifies timing of safety-critical avionics controls.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

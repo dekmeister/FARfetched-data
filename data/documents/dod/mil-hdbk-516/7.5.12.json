@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.5.12",
+  "number": "7.5.12",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Condition monitoring",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Condition monitoring",
+      "text": "Standard: The propeller drive system condition monitoring detects, isolates, and records faults. Faults indicating a hazardous condition result in immediate notification to the flight crew. The drive system condition monitors and sensors (e.g., speeds, oil debris, lubrication system pressures, temperatures, and quantities, control operating modes, usage) are configured and integrated into a diagnostic system that provides accurate information to the flight crew and ground crew. Faults are recorded and are maintained for post-flight download. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., system design documentation, ICD, hardware drawings, system configuration descriptions, installed hardware, design data records, inspection reports, or other substantiating records and reports) to verify that the monitoring system detects, isolates, notifies, and records faults. Test.\n  (1) Lab test: Closed loop, fault injection testing verifies the system identifies, isolates, records, and displays faults and failures.\n  (2) Ground test: Air vehicle ground testing verifies the system identifies, isolates, records, and displays faults and failures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Fight test: Air vehicle flight testing verifies the drive system condition monitoring system notifies flight crew of faults.\n  (4) Flight test: After flight testing is completed the faults are recorded and maintained for flight crew and ground crew download.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

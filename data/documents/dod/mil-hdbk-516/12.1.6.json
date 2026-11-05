@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.1.6",
+  "number": "12.1.6.3",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Battery charging",
+  "subject_group": "12.1.6 Battery operation and installation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "12.1.6",
+      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "title_at_revision": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe.",
+      "text": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "12.1.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe.",
+      "text": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe. DoD/MIL Doc: For guidance/principles regarding/affecting the integrated design and operation of battery subsystems within aircraft electrical systems: AFGS-87219 NAVSEA TM-S9310-AQ-SAF-010 JSSG-2009: Appendix H para H.6.4.2 FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "12.1.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe.",
+      "text": "Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe. DoD/MIL Doc: For guidance/principles regarding/affecting the integrated design and operation of battery subsystems within aircraft electrical systems: AFGS-87219 NAVSEA TM-S9310-AQ-SAF-010 JSSG-2009: Appendix H H.6.4.2 FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "12.1.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Battery charging",
+      "text": "Criterion: Verify that, if batteries are employed for SOF backup power, adequate charging methods and checks are provided and installation provisions for all batteries are safe. Standard: a. Safe battery cell temperatures and pressures are maintained during any probable charging and discharging conditions and under the most adverse cooling conditions likely to occur in service. b. No explosive or toxic gases emitted by any battery in normal operation or as the result of any probable malfunction in the battery subsystem, accumulate in hazardous quantities within the aircraft. c. Any corrosive fluids or gases which escape from the battery do not damage surrounding structures or adjacent essential equipment. d. Each battery installation has provisions to prevent any hazardous effect on structure or essential systems caused by the maximum amount of heat the battery can generate during a short circuit of the battery or of its individual cells. e. Battery charging systems are designed to automatically control the charging rate of the battery in order to prevent overheating. f. Nickel cadmium battery installations, including charging systems, are designed for safe operation. g. Lithium battery (both rechargeable and non-rechargeable) safety requirements are defined in NAVSEA TM-S9310-AQ-SAF-010. h. Lithium batteries are not connected to the aircraft electrical power by any means, charged or recharged using aircraft electrical power, unless they have been tested and passed the requirements of MIL-STD-704 in accordance with test procedures of MIL- HDBK-704. i. All batteries that have internal electronics and that are connected directly to the power bus have been tested and passed the requirements of MIL-STD-704 in accordance with test procedures of MIL-HDBK-704. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection. a. Bench and aircraft level testing verifies battery cell temperatures and pressures. b. Analysis and test verify that means exist to remove or safely contain any gases. c. Analysis, test and inspection verify that means exist to contain any fluids. d. Analysis and test verify that the design precludes damage from possible battery overheating. e. Analysis and subsystem tests verify proper operation of battery equipment/charger(s). f. Analysis, test and inspection verify proper operation of battery equipment/charger(s) and embedded electronics. g. Analysis and test verify safe application of the lithium batteries in every application. For Navy only, Naval Ordnance Safety Security Activity (NOSSA) approval is required for all Lithium Batteries. References: For guidance/principles regarding/affecting the integrated design and operation of battery subsystems within aircraft electrical systems: JSSG-2009: H.6.3.2 AFGS-87219 NAVSEA TM-S9310-AQ-SAF-010 14 CFR 23.1351-23.1367; 25.1351-25.1363",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Battery charging",
+      "text": "Standard: For secondary batteries that provide backup power to safety-critical systems, charging systems are in place to automatically charge the battery IAW the battery requirements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) The battery and changing system design documentation shows the charging system is compatible with the battery device. Test.\n  (1) Lab test: Electrical system tests, using production or production representative power system components, verifies the charging system meets the installed battery requirements.\n  (2) Ground test: Air vehicle ground testing verifies the charging system meets the installed battery requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

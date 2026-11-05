@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.2.1-516d",
+  "number": "4.2.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Configuration baseline",
+  "subject_group": "4.2 Configuration management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Configuration baseline",
+      "text": "Standard: The air system configuration is defined, approved, and maintained. Configuration management processes are in place to maintain and control the air system configuration baselines to preclude any unauthorized changes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Functional and allocated baseline establishment identifies verification methodologies for all specification requirements. Verification methodologies and traceability matrices confirm verifiability of all allocated design criteria and ensure required levels of AW for the defined operational flight envelope, environment, usage, and life.\n(2) Initial product baseline establishment defines the authorized physical configuration of the air system. It consists of applicable technical data necessary to define the configuration and the design features of the air system shown to comply with the AW criteria applicable to the air system. Applicable technical data includes models, engineering design data, associated lists, specifications, standards, performance requirements, quality assurance provisions, software documentation, and packaging details.\n(3) For air systems reliant upon DoW Component AW authority-accepted design approvals (e.g., FAA type design approval for CDA), systems engineering planning and specification documentation accounts for variations and deviations in configuration. At the discretion of the issuing authority, the variations and deviations do not invalidate the underlying design approval.\n(4) The completion and status of action items from technical reviews and audits demonstrates the execution of events to support positioning for AW approval to begin flight test.\n(5) Tools used for the creation, management, and maintenance of requirements and verification artifacts preclude unauthorized changes to the configuration baselines and include documentation defining the environment and intended use of the tool to ensure alignment with the overall needs of the air system and program. Analysis.\n  (1) As part of establishing the allocated baseline, the CIs are selected based on analysis of the air system to ensure the intended usage of the air system can be accomplished. Selection of CIs is conducted based on guidance contained in SAE EIA-649-1, Configuration Item Selection section. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n  (2) Final product baseline establishment defines the authorized physical configuration of the air system and the basis for review and evaluation of the detailed design for production, fielding and deployment, and operations and support of the equipment or system. It consists of applicable technical data necessary to define the configuration and the design features of the air system shown to comply with the AW criteria applicable to the air system. Applicable technical data includes models, engineering design data, associated lists, specifications, standards, performance requirements, quality assurance provisions, software documentation and packaging details.\n  (3) Product baseline management and maintenance includes documented process specifications necessary for manufacturing, operating, maintaining, or calibrating items within the design.\n  (4) The completion and status of action items from technical reviews and audits demonstrates the closure of events and validates that specification and operational requirements have been fulfilled.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

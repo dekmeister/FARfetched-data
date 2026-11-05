@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.4.1",
+  "number": "17.3.4.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Crewmember interface controls and displays",
+  "subject_group": "17.3.4 Positive control",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Crewmember interface controls and displays",
+      "text": "Standard: The controls and displays associated with the air system armament system enable the crewmembers to maintain oversight of the control and monitor all state and mode transitions during the employment of stores to prevent uncommanded operation. Note: Evaluation of this standard is supported by Section 9. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify that the PVI design allows the crewmember to have positive indication, display, and control of the store inventory, selection, status, C2 of critical state and mode transitions IAW JSSSEH, Operator/Computing System Interface section and AOP-52, Human Interface section. Identify the system safe states and recovery modes and evaluate the conditions for safe state return IAW AOP-52, System Design Requirements section.\n(2) Verify the design of the PVI is integrated with the crew alerting system and displays state and mode transition, degraded modes, and failure modes IAW JSSSEH, Safety-Critical Displays paragraph and Safety-Critical Alerts paragraph. Test.\n  (1) Lab test: Evaluate the PVI (to include control station as applicable) in the SIL to demonstrate that the crewmember can control all modes of the armament and store operation. Evaluate hazards and mitigation features IAW JSSSEH, User Interface Tests paragraph and AOP-52, Human Interface section by simulating hazardous conditions, fault injection, and verifying the air system\u2019s applicable display or alert response. Verify that all armament symbology and associated states and modes are correctly displayed on the air vehicle and control station displays, including but not limited to state and mode transition from \u201csafe operating\u201d condition to \u201carmed\u201d, launch conditions and employment zones, and that all controls operate and function as designed to prevent unintended operation of the store. Conduct robustness testing to evaluate state and mode transition.\n  (2) Ground test: Evaluate the PVI (to include control station as applicable) to demonstrate that the crewmember can control all modes of the armament operation IAW the air system specification and MIL-HDBK-244, Cockpit Controls, Displays and Management section, JSSSEH, User Interface Tests paragraph, and AOP-52, Human Interface section. Conduct testing to verify that all armament symbology is correctly shown on the air system displays (e.g., threat symbology, BIT status, expendable inventories) and that all safety-critical controls and indicators operate and function as designed to prevent unintended operation of the store. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Evaluate the PVI (to include control station as applicable) to demonstrate that the crewmember can control all modes of the armament operation IAW the air system specification and MIL-HDBK-244, Cockpit Controls, Displays and Management section. Conduct testing to verify that all armament symbology is correctly shown on the air system displays (e.g., threat symbology, BIT status, expendable inventories) and that all safety-critical controls and indicators operate and function as designed to prevent unintended operation of the store. Verify that in auto modes of operation or auto track, the store transitions to a safe state of operation if manual shutoff override command is engaged.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

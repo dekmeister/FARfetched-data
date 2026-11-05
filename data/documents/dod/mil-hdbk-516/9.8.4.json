@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.4",
+  "number": "20.1.4",
+  "current_grouping": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+  "canonical_title": "Aircraft weight and balance limits",
+  "subject_group": "20.1 Air transportability and airdrop",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the positioned cargo meets required flight weight and balance requirements.",
+      "text": "Verify that the positioned cargo meets required flight weight and balance requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the positioned cargo meets required flight weight and balance requirements.",
+      "text": "Verify that the positioned cargo meets required flight weight and balance requirements. DoD/MIL Doc: TO 1C-XX-1, TO 1C-XX-9, TO 1C-xx-5 contain approximate permissible cargo center of gravity graphs (chimney curves) for mission equipped aircraft. JSSG-2000: para 3.1.7.2 JSSG-2001: para 3.4.5, 3.4.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the positioned cargo meets required flight weight and balance requirements.",
+      "text": "Verify that the positioned cargo meets required flight weight and balance requirements. DoD/MIL Doc: NATOPS, TO 1C-XX-1, TO 1C-XX-9, TO 1C-xx-5 contain approximate permissible cargo center of gravity graphs (chimney curves) for mission equipped aircraft. JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Aircraft weight and balance limits",
+      "text": "Criterion: Verify that the aircraft, with positioned cargo, meets required aircraft operations weight and balance requirements. Standard: Overall weight, size and center of gravity (CG) location and other restrictions for cargo are compatible with aircraft structural, weight and balance limits. Loading locations (e.g., fuselage station, frame station) are specified if required to satisfy CG and structural limits. Repositioning is considered for cargo that can be moved within the confines of the compartment. Method of Compliance: Aircraft weight and balance limits are verified by analysis, simulation, flight testing and any combination of methods, conducted at critical and extreme points of the aircraft gross weight, cargo locations and operating envelope. References: Flight and cargo manuals applicable to each type of craft and Military Branch. JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Aircraft weight and balance limits",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

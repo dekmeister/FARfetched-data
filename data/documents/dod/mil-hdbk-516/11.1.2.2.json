@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.2.2",
+  "number": "11.1.2.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Navigation antenna performance",
+  "subject_group": "11.1.2 Navigation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Navigation antenna performance",
+      "text": "Standard: Antenna coverage and gain for the navigation subsystem support safety-critical navigation, and antenna co-site performance is compatible with other air vehicle RF systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination. (1) Document the navigation subsystem architecture and identify the safety-critical hardware and software item list. (2) Verify that antennas are compatible with paired LRUs and meet performance standards. Analysis. (1) Demonstrate that antenna patterns provide the necessary coverage to preclude signal loss and that the impact of antenna nulls is mitigated. (2) Perform a co-site analysis to ensure that co-site interference is mitigated. (3) Verify that the SSHA identifies hazards, their severity, along with any design and procedural mitigations. (4) Verify failures that can result in critical or catastrophic severity hazards occur at a rate less than or equal to 10-7 per flight hour. Test. (1) Ground test: Conduct ground testing to verify antenna performance requirements and validate the co-site analysis results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination. (3) Document a frequency management plan based on co-site analysis and testing. Test. (2) Flight test: Conduct flight testing to verify antenna performance requirements and validate co-site analysis and testing.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

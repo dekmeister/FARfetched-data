@@ -1,0 +1,63 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.4",
+  "number": "8.2.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Alternate cooling",
+  "subject_group": "8.2 Environmental control system (ECS)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that emergency (ram air) cooling provisions are available for safety-critical avionics, cockpit ventilation, and smoke clearance.",
+      "text": "Verify that emergency (ram air) cooling provisions are available for safety-critical avionics, cockpit ventilation, and smoke clearance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the availability of alternate means of cooling of safety-critical avionics and sufficient cockpit ventilation when the primary EMS is nonoperational.",
+      "text": "Verify the availability of alternate means of cooling of safety-critical avionics and sufficient cockpit ventilation when the primary EMS is nonoperational.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the availability of alternate means of cooling of safety-critical avionics and sufficient cockpit ventilation when the primary ECS is nonoperational.",
+      "text": "Verify the availability of alternate means of cooling of safety-critical avionics and sufficient cockpit ventilation when the primary ECS is nonoperational. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.5.2/D.4.4.4.5.2 Occupied compartment emergency ventilation and smoke removal; D.3.4.4.5.3/D.4.4.4.5.3 Avionic equipment and equipment compartment emergency cooling FAA Doc: 14CFR references: 23.831, 25.831",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Alternate cooling",
+      "text": "Criterion: Verify the availability of alternate means of thermal conditioning of safety-critical avionics (including the control station) and sufficient cockpit ventilation when the primary ECS is nonoperational. Standard: System design (including emergency equipment and/or auxiliary methods) provides an alternate means of thermal conditioning and ventilation to ensure system and personnel safety. Method of Compliance: Acceptable performance of alternate cooling methods is verified by the following: a. Thermal analysis predicts acceptable performance of alternate methodology and technology employed to provide thermal stability to air vehicle during primary ECS loss. b. Test performed both inflight and ground level to verify flowpath and ensure thermal balance exists to sustain safe operation conditions for the air vehicle system and personnel. References: JSSG-2009: D.3.4.4.5.2, D.4.4.4.5.2 Occupied compartment emergency ventilation and smoke removal; D.3.4.4.5.3, D.4.4.4.5.3 Avionic equipment and equipment compartment emergency cooling 14 CFR 23.831, 25.831, 27.831, 29.831",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Alternate cooling",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

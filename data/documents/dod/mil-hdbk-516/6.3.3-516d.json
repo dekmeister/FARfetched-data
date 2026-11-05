@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.3.3-516d",
+  "number": "6.3.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Engine-inlet-nozzle compatibility",
+  "subject_group": "6.3 Internal aerodynamics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Engine-inlet-nozzle compatibility",
+      "text": "Standard: The integrated propulsion system is free from instabilities caused by integration effects such as engine or nozzle control modulation caused by inlet distortion, inlet, engine, and nozzle airflow matching, and nozzle integration with the airframe. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to verify the inlet can operate through the range of engine and nozzle-induced backpressures. Inlets should maintain positive flow throughout the operating range including the effects of throttle transients, nozzle scheduling, fuel scheduling, and afterburner transients.\n(2) For highly integrated or embedded nozzles, conduct analysis to verify that the nozzle and afterbody aerodynamic flow path integrity is not compromised by hot streaks and quantify any impacts to propulsion system stability. At a minimum, assess the effects of changes in nozzle aerodynamic throat, flow separation, nozzle thrust coefficient, and discharge coefficient on integrated propulsion system performance. Test.\n  (1) Lab test: Conduct nozzle afterbody sub-scale test to evaluate throttle-dependent forces and moments produced by the integrated aft-body geometry. For highly integrated systems, the effects of inlet spillage on the throttle-dependent afterbody loads should be evaluated as part of the test.\n  (2) Lab test: Conduct ground test to evaluate the effects of active or passive thrust vectoring on inlet, engine, and nozzle operability. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (3) Flight test: Conduct flight tests to verify integrated propulsion system thrust. For in-flight thrust determination methodology, refer to SAE AIR1703.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

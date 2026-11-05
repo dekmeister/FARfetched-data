@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.2.2.3",
+  "number": "8.7.2.2.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Jettison of stores/pods",
+  "subject_group": "8.7.2.2 Air vehicle flight control/handling qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Jettison of stores/pods",
+      "text": "Criterion: Verify that when dictated by mission requirements, it is possible to safely jettison the aerial refueling stores/pods upon command by the aircrew/operator without resulting in unsafe flying qualities of the air vehicle. Standard: The in-flight jettisoning of an aerial refueling store/pod can be safely accomplished when commanded by the tanker aircrew/operator. The jettison event does not result in damage to, or unsafe flying qualities of, the air vehicle. Method of Compliance: Verification methods include analysis, test, and review of documentation. See 17.2.2 of this document. System design analyses, computational fluid dynamics (CFD) modeling, wind tunnel, and flight tests verify that the jettisoning of an aerial refueling store/pod does not result in damage to, or unsafe flying qualities of, the air vehicle. For air vehicles with multiple aerial refueling stores/pods, compliance verification is completed with each store/pod. References: JSSG-2001: 3.3.11.1.1 through 3.3.11.1.3 JSSG-2009: F.3.4.6.1.1, F.4.4.6.1.1 MIL-HDBK-516: 17.2.2 MIL-STD-1797",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Jettison of stores/pods",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

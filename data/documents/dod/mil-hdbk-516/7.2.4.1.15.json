@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.1.15",
+  "number": "7.4.13",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Engine bleed air system",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.15",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Engine bleed air system",
+      "text": "Criterion: Verify that engine bleed air system operation, including malfunctions, does not adversely affect safety of flight. Standard: Engine bleed air systems provide the proper amount of bleed air at the required temperatures and airflow conditions during ground and flight operation, under all atmospheric conditions and for all flight conditions in the air vehicle operating envelope. Air vehicle bleed airflow requirements are met across the entire flight envelope. For multi-engine platforms, bleed air is balanced such that power/thrust available is not adversely affected. For high pressure bleed systems, failures (e.g., impingement of high pressure air) do not cause damage or adversely affect safety of flight. Method of Compliance: Bleed air interface airflow and quality is verified by test and demonstration. Bleed air tests are usually conducted in conjunction with engine performance tests at sea level and altitude. The tests should include the air vehicle requirements and the maximum bleed flow specified by the engine contractor. References: JSSG-2007: A.3.1.1.7, A.4.1.1.7",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Engine bleed air system",
+      "text": "Standard: Engine bleed air system provides bleed air extraction at the required temperatures and airflows when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. For high pressure bleed systems, failures resulting in impingement of high-pressure air do not cause damage or malfunction that may lead to loss of air vehicle. For air vehicles with more than one engine, bleed air requirements are specified and managed through the ICD IAW capability established in 7.2 standards. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine drawings and the ICD to verify design of the engine bleed air system. Analysis.\n  (1) Analysis is conducted to verify design of the engine bleed air system. Test.\n    (1) Lab test: Engine ground-based sea level and altitude cell bleed air tests are conducted, in conjunction with engine performance tests, to verify the design of the engine bleed air system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

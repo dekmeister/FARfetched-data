@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.8.4",
+  "number": "9.2.8.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Visual alerts - display characteristics",
+  "subject_group": "9.2.8 Crewmember alerting systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Visual alerts - display characteristics",
+      "text": "Standard: Warning, caution, and advisory signals are visually detectable, distinguishable, and legible under all ambient lighting conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Demonstration.\n(1) Conduct a human-in-the-loop demonstration to verify the effectiveness of the visual alerts, to include the accurate perception and recognition by the crewmembers of the alerting condition(s) and corrective action(s) to take, in all ambient lighting conditions while wearing all possible combinations of gear included in the optical train. Conduct the demonstration in an environment that incorporates normal operational stressors to which crewmembers will be exposed in the context of a representative flight profile. The demonstration should include cascading failure scenarios. This evaluation should be in a production representative mock-up or in the crew station. Test.\n  (1) Lab test: Verify WCA signals are IAW the luminance requirements in MIL-STD-411, Luminance paragraphs under the Warning Signals, Caution Signals, Advisory Signals, and the Mechanical Visual Signals sections.\n  (2) Lab test: For NVIS compatible cockpits or crew stations, verify radiance for WCA signals are IAW MIL-STD-3009, NVIS Radiance Requirements table.\n  (3) Lab test: For NVIS compatible cockpits or crew stations, verify chromaticity for warning, cautions, and advisory signals are IAW MIL-STD-3009, Chromaticity Requirements table.\n  (4) Lab test: Verify contrast of WCA signals is IAW MIL-L-85762, Illuminated Visual Signals paragraphs in the Daylight Legibility and Readability section.\n  (5) Lab test: Verify WCA signals are color coded IAW MIL-STD-411, Color Coding paragraph.\n  (6) Lab test: Verify that visual signals that flash, are IAW MIL-STD-411, Visual Signal Flash Rate paragraph.\n  (7) Ground test: Verify WCA signals are IAW the luminance requirements in MIL-STD-411, Luminance paragraphs under the Warning Signals, Caution Signals, Advisory Signals, and the Mechanical Visual Signals sections.\n  (8) Ground test: For NVIS compatible cockpits or crew stations, verify radiance for warnings, cautions and advisories are IAW MIL-STD-3009, NVIS Radiance Requirements table.\n  (9) Ground test: For NVIS compatible cockpits or crew stations, verify chromaticity for warnings, cautions and advisories are IAW MIL-STD-3009, Chromaticity Requirements table.\n  (10) Ground test: Verify WCA signals contrast is IAW MIL-L-85762, Illuminated Visual Signals paragraphs in the Daylight Legibility and Readability section.\n  (11) Ground test: Verify WCA signals are color coded IAW MIL-STD-411, Color Coding paragraph.\n  (12) Ground test: Verify that visual signals that flash, are IAW MIL-STD-411, Visual Signal Flash Rate paragraph. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (13) Ground test: Review ground test results to verify the display characteristics of the crewmember alerting system.\n  (14) Flight test: Review flight test results to verify the display characteristics of the crewmember alerting system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

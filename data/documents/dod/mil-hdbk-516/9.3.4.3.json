@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.3.4.3",
+  "number": "9.3.4.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Position lights - maximum intensity overlap",
+  "subject_group": "9.3.4 External lights (visible mode) - position",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Position lights - maximum intensity overlap",
+      "text": "Standard: Intensities in the overlap regions do not exceed the values in TABLE X except for when the main beam intensities are substantially greater than the minima specified in TABLE VIII, and TABLE IX, and if the overlap intensities do not adversely affect the signal clarity of the main beam. When the peak intensity of the forward position lights is greater than 100 cd, the maximum overlap intensities between them may exceed the values in TABLE X provided that the overlap intensity in Area A is not more than 10% of peak position light intensity and the overlap intensity in Area B is not more than 2.5% of peak position light intensity. TABLE X. Maximum intensity overlap. Overlap Maximum Intensity Area A (cd) Area B (cd) Green in dihedral angle L 10 1 Red in dihedral angle R 10 1 Green in dihedral angle A 5 1 Red in dihedral angle A 5 1 Rear white in dihedral angle L 5 1 Rear white in dihedral angle R 5 1 Area A includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 10 degrees but less than 20 degrees. Area B includes all directions in the adjacent dihedral angle that pass through the light source and intersect the common boundary plane at more than 20 degrees. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: Maximum intensities in overlapping beams of forward and rear of position lights are verified by measurements of lights installed on the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

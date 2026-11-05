@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.10.1.1",
+  "number": "7.4.16",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Engine mounted components vibratory response",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.10.1.1",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that all external tubing/manifolds, clamps and electrical cabling do not contain natural frequencies within the engine and accessories operating ranges.",
+      "text": "Verify that all external tubing/manifolds, clamps and electrical cabling do not contain natural frequencies within the engine and accessories operating ranges.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.2.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all engine mounted tubing, manifolds and clamps do not contain natural frequencies within the engine and subsystems operating ranges.",
+      "text": "Verify that all engine mounted tubing, manifolds and clamps do not contain natural frequencies within the engine and subsystems operating ranges. DoD/MIL Doc: JSSG-2007A: para A.3.11/A.4.11, Controls and Externals Verification. FAA Doc: 14CFR references: 29.993",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.2.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that all engine mounted tubing, manifolds and clamps do not contain natural frequencies within the engine and subsystems operating ranges.",
+      "text": "Verify that all engine mounted tubing, manifolds and clamps do not contain natural frequencies within the engine and subsystems operating ranges. DoD/MIL Doc: JSSG-2007A: A.3.11/A.4.11, Controls and Externals Verification. FAA Doc: 14CFR references: 29.993",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.2.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Tubing/plumbing vibratory response",
+      "text": "Criterion: Verify that all engine mounted components do not contain natural frequencies within the engine and air vehicle operating ranges or that any such natural frequencies are sufficiently damped under maximum excitation levels in order that specified fatigue life is achieved. Standard: Engine mounted components, tubing, manifolds and clamps do not contain natural (resonant) frequencies within the engine or air vehicle (e.g., gearboxes, driveshaft(s), transmissions) operating range or have adequate damping provisions to prevent resonances, damage or failure. Engine mounted components, tubing, manifolds and clamps withstand an engine full blade out vibration excitation without failure. Method of Compliance: Verification methods include analysis, test and review of documentation. Analysis and vibration surveys (ping testing) and vibration (shaker table) testing on external components, tubes/manifolds and lines ensures natural frequencies are outside the engine and air vehicle operating range or are sufficiently damped to prevent damage or failure. Analysis and engine testing results confirms the externals capability to withstand excitations resulting from a blade out condition. References: JSSG-2007: A.3.4.1.5.1.1, A.4.4.1.5.1.1: A.3.4.1.5.1.2, A.4.4.1.5.1.2; A.4.11.2.1.5.2 SAE ARP994 14 CFR 33.63, 33.83",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Engine mounted components vibratory response",
+      "text": "Standard: Engine mounted components, tubing, manifolds, and clamps do not contain natural (resonant) frequencies within the engine or air vehicle (e.g., gearboxes, driveshaft(s), transmissions) operating range or have damping provisions to prevent resonances, damage, or failure. Damaging vibration and resonances do not occur in the operating speed range from 20% below idle speed to 20% above maximum operating speed. Engine mounted components, tubing, manifolds, and clamps withstand an engine full blade out vibration excitation without failure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, materials and manufacturing records, design data records, inspection reports, or other substantiating records and reports) and verify design of the engine mounted components, tubing, manifolds, and clamps. Analysis.\n  (1) Analysis verifies engine mounted components, tubing, manifolds, and clamps are free of critical resonant conditions at all speeds in the operating range.\n  (2) Analysis verifies engine mounted components, tubing, manifolds, and clamps withstand excitations resulting from a full blade out condition. Test.\n    (1) Lab test: Vibration surveys (ping testing) and vibration (shaker table) testing verifies the natural frequencies of the engine mounted components, tubing, manifolds, and clamps are outside the engine and air vehicle operating range.\n    (2) Lab test: Engine ground-based sea level cell testing verifies engine mounted components, tubing, manifolds, and clamps withstand excitations resulting from a full blade out condition.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

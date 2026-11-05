@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.2.1-516d",
+  "number": "8.4.2.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fireproof",
+  "subject_group": "8.4.2 Fire hardening",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fireproof",
+      "text": "Standard: Flammable fluid and oxidizer lines and tanks, structure, flight and engine controls, fire walls and fire barriers, and any other flight-critical components are fireproof and able to handle a worst-case fire created by the flammable materials present for a minimum of 15 minutes (e.g., JP-8 at 2000 \u00b0F and 10 BTU/s/ft2 ). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Flight-critical, safety-critical, and fire zone items are identified, and hazard analysis determines the level of fire proofness needed for each item.\n(2) Analysis shows that flight-critical, safety-critical, and fire zone items as well as the FPS itself can survive worst-case fire and heat conditions that may be encountered while continuing to perform intended function for the time needed (minimum of 15 minutes) to be fireproof as determined by the hazard analysis. Test.\n  (1) Lab test: Flight-critical, safety-critical, and fire zone items required to be fireproof are shown to survive worst-case fire and heat conditions that may be encountered while continuing to perform intended function for the time needed (minimum of 15 minutes) to be fireproof as determined by the hazard analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

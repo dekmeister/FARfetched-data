@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.3.3.3",
+  "number": "11.3.3.3",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Availability",
+  "subject_group": "11.3.3 Antenna performance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Availability",
+      "text": "Criterion: Verify that installed antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate gain and coverage to ensure adequate availability and continuity of service for safety of flight operations. Standard: Requirements for antenna based systems are defined and documented. The subsystems\u2019 installed performance meets these requirements. Systems provide sufficient link margin and antenna coverage to preclude loss of signal that would adversely affect safety of flight. Antenna nulls do not adversely affect safety of flight. Method of Compliance: Analysis, laboratory, open-air, and aircraft testing verify installed system performance. Link margins are verified through analysis, laboratory, open-air, and aircraft testing. Antenna coverage is verified with analysis, laboratory, open-air, and aircraft testing. References: JSSG-2005: 3.3.5, 4.3.5 14 CFR 23.1309",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Availability",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

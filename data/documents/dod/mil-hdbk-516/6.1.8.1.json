@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.8.1",
+  "number": "6.1.7.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Longitudinal control in sideslips",
+  "subject_group": "6.1.7 Fixed-wing cross-axis response",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.8.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal control forces in sideslips",
+      "text": "Criterion: Verify that longitudinal control forces in sideslips are safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.4.1 Longitudinal control forces in sideslips. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal control in sideslips",
+      "text": "Standard: The longitudinal control forces in sideslip are no worse than Level 2 as specified in MIL-STD-1797, Longitudinal Control Forces in Sideslips paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the longitudinal control force required to maintain a constant air speed in steady sideslips as specified in MIL-STD-1797, Longitudinal Control Forces in Sideslips paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the longitudinal control force required to maintain a constant air speed in steady sideslips as specified in MIL-STD-1797, Longitudinal Control Forces in Sideslips paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the longitudinal control force required to maintain a constant air speed in steady sideslips as specified in MIL-STD-1797, Longitudinal Control Forces in Sideslips paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

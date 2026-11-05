@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.3.1-516d",
+  "number": "4.3.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Zone establishment for air system environments",
+  "subject_group": "4.3 Operating environment",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Zone establishment for air system environments",
+      "text": "Standard: Zones established for the air system through analytical and measured characterization ensure total coverage for the intended environment. Zone establishment includes divisions of the air vehicle, internal and external, as well as the integrated air vehicle as a whole. Air system zones divide the system such that all items within a zone are expected to encounter the same natural and induced environment for the service life and CONOPS/OMS/MP. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Environment criteria documentation contains information on the air system, including all air vehicle components and control station components, with the intended natural and induced environmental conditions to understand the intended environment of the air system. Definition of the intended natural and induced environmental conditions addresses flight envelope and design usage for the air system in addition to the climatic information. This definition derives from sources including the CONOPS/OMS/MP, MIL-HDBK-310, MIL-STD-810, and JSSG-2001, Environment paragraph.\n(2) Air system specification documentation includes complete operating environment requirements for the flight envelope, design usage, CONOPS/OMS/MP, and intended climatic information that align to the environment criteria documentation. Design documentation shows requirement allocation into the design of the air system with zone identification and addresses environmental concerns at the integrated air vehicle level (e.g., water intrusion, solar radiation). The air system specification derives from sources including MIL-HDBK-310, MIL-STD-810, and JSSG-2001, Environment paragraph. Analysis.\n  (1) Conduct analysis to confirm environmental design requirements are consistent with MIL- HDBK-310 climatic information given planned areas of geographic deployment, handling, and logistics requirements as defined in the CONOPS/OMS/MP. The design requirements encompass the 1% frequencies listed in MIL-HDBK-310 for each environment except cold temperature (20% frequency) and rainfall (0.5% frequency).\n  (2) Conduct analysis of the allocated environmental requirements for the defined air system zones to confirm that all items within the same zone encounter commensurate natural and induced environments for the service life. Zone definition includes impacts from open doors on the ground or in flight, which may result in environmental impacts, such as intrusion of water, sand, and dust.\n  (3) Conduct analysis of air system design to characterize induced environments that are a combination of natural environmental forcing functions and the physical and chemical characteristics of the materiel itself, such as temperature, pressure, and solar radiation.\n  (4) Conduct analysis based on transportation and storage requirements to identify the environmental requirements for the defined air system zones, including the integrated air vehicle.\n  (5) For UAS control stations, conduct analysis based on transportation and mobility requirements to identify the appropriate vibration spectrum using guidance as specified in NATO Standard AEP-4671, Other Aspects of Transportation and Factors to Consider appendix. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight or Ground test: Conduct test to provide data to define, substantiate, and validate air vehicle zone identification and characterization.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

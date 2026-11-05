@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.3.8-516c",
+  "number": "6.2.3.8",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Physical constraints",
+  "subject_group": "6.2.3 VCF actuator safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Physical constraints",
+      "text": "Criterion: Verify that each flight control actuator is adequately constrained to limit the range of motion. Standard: The flight control actuator mechanical stop is designed for (as applicable) a maximum angular travel, a maximum linear travel, a maximum unloaded rate, maximum loaded rate and a nominal unloaded speed, a maximum output force when stalled, and a maximum hinge moment when surface has stalled. The actuator mechanical stop is capable of withstanding maximum loads in the event of miss-rigging. The VCF provides electronic or mechanical snubbing at 5% of stop-to-stop travel. Method of Compliance: Verification methods include analysis, test, and review of documentation. Bottoming, load limitations and snubbing are verified by analysis and test. References: JSSG-2008",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Physical constraints",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

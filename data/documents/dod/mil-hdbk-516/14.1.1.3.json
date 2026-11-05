@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1.3",
+  "number": "14.1.1.3",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Hazard/risk tracking and risk acceptance",
+  "subject_group": "14.1.1 System safety process",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that hazards/risks are tracked and residual risk documented.",
+      "text": "Verify that hazards/risks are tracked and residual risk documented.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that hazards/risks are tracked and residual risks documented.",
+      "text": "Verify that hazards/risks are tracked and residual risks documented. DoD/MIL Doc: MIL-STD-882D: para 4.1, 4.2, 4.3, 4.4, 4.5 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that hazards/risks are tracked and residual risks documented.",
+      "text": "Verify that hazards/risks are tracked and residual risks documented. DoD/MIL Doc: MIL-STD-882D: 4.1, 4.2, 4.3, 4.4, 4.5 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Hazard/risk tracking and risk acceptance",
+      "text": "Criterion: Verify that hazards/risks are tracked and residual risks documented. Standard: Hazard/risk tracking and residual risk documentation and acceptance are planned, documented and accomplished in accordance with MIL-STD-882. Risks are presented and accepted at the appropriate level and risk acceptances are documented in a hazard tracking system. Method of Compliance: Evidence of the closed loop hazard tracking system and the risk acceptance processes is verified by inspection of safety program documentation. References: MIL-STD-882 SAE ARP4754 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Hazard/risk tracking and risk acceptance",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

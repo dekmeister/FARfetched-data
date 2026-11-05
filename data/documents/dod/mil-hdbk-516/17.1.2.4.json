@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.2.4",
+  "number": "17.1.2.4",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Store damage tolerance",
+  "subject_group": "17.1.2 Stores structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Store damage tolerance",
+      "text": "Standard: The armament and store critical structure are damage tolerant (assuming defects) and maintain residual strength throughout the specified service life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Initial damage tolerance analysis verifies the design demonstrates residual strength commensurate with the specified service life. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n(2) Validate the damage tolerance analysis with loads collected from flight test and update damage tolerance analysis if necessary.\n(3) Verify that the damage tolerance analysis is correlated to all damage tolerance tests, and that the system demonstrates residual strength commensurate with the specified service life. Test.\n  (1) Lab test: For primary composite structures, verify damage tolerance of the store using representative, damaged structure at or below the visible damage threshold IAW MIL-M-8856, Laboratory and Ground Tests appendix. Store exhibits capability to withstand full static ultimate load with no damage growth under sustained and repeated loads commensurate with the environmental conditions expected during the specified service life.\n  (2) Flight test: In tandem with 17.1.2.1 and 17.2.2.1, conduct flight test with structurally representative IMV to measure repeated loads and dynamic environments experienced in the flight environment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

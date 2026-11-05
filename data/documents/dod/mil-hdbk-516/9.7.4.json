@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.4",
+  "number": "9.7.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Occupant strike envelope",
+  "subject_group": "9.7 Crash survivability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.7.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the strike envelope of the occupant during crash loads will be kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions.",
+      "text": "Verify that the strike envelope of the occupant during crash loads will be kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.7.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the strike envelope of the occupant during crash loads are kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions.",
+      "text": "Verify that the strike envelope of the occupant during crash loads are kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions. DoD/MIL Doc: JSSG-2001: para 3.3.10.2.2 JSSG-2010: para 3.7, 4.7, 3.13, 4.13 FAA Doc: 14CFR references: 23.561, 23.562, 25.561, 25.562, 25.563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.7.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the strike envelope of the occupant during crash loads are kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions.",
+      "text": "Verify that the strike envelope of the occupant during crash loads are kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions. DoD/MIL Doc: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7, 3.13, 4.13 FAA Doc: 14CFR references: 23.561, 23.562, 25.561, 25.562, 25.563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.7.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupant strike envelope",
+      "text": "Criterion: Verify that the strike envelope of the occupant during crash loads are kept free of objects that are risks to survival or may cause serious injury that renders the crewmember unable to perform post-crash egress functions. Standard: There are no objects in the crew station that would cause major injury within the throw distance of restrained occupants during design crash loads. Torso and head motion do not contact surfaces, edges, corners, or structures/equipment with sufficient velocity to cause injury. Method of Compliance: Analysis and test documentation shows that occupant body translation is determined for design crash loads and that no objects in the crew station that would cause major injury are within that translation volume. Analytical models of human body motion under crash load conditions verify that no strike hazards exist. References: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7; 3.13, 4.13 14 CFR 23.561, 23.562, 25.561, 25.562, 25.563, 27.561, 27.562, 27.563, 29.561, 29.562, 29.563.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Occupant strike envelope",
+      "text": "Standard: Objects in the occupant strike envelope do not cause injuries that would incapacitate or prevent egress from the air vehicle for restrained and seated occupants during design crash loads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) As an alternative to Test MoC (1), compliance can be shown by an accredited government model to evaluate the occupant strike envelope. Test.\n  (1) Lab test: As an alternative to Analysis MoC (1), conduct test to show that objects in the occupant strike envelope do not cause injury that would incapacitate or prevent egress for the intended anthropometric population from all restrained seated positions during design crash loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

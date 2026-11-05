@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.5.13",
+  "number": "8.7.5.13",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Stores integration",
+  "subject_group": "8.7.5 Compatibility with other systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Stores integration",
+      "text": "Criterion: Verify that the aerial refueling stores/pods meet the requirements of 17.2 (this document). Standard: See 17.2 (this document). Method of Compliance: See 17.2 (this document). References: JSSG-2009: G.3.4.7.2, G.4.4.7.2; G.3.4.7.3, G.4.4.7.3 MIL-HDBK-516: 17.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Stores integration",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

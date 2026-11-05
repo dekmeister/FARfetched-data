@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.2.6.6",
+  "number": "12.2.6.7",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Maintainability",
+  "subject_group": "12.2.6 Sufficiency of design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "12.2.6.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that maintainability is a factor in the design and installation procedures for wiring and components.",
+      "text": "Verify that maintainability is a factor in the design and installation procedures for wiring and components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "12.2.6.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that maintainability is a factor in the design and installation procedures for wiring and components.",
+      "text": "Verify that maintainability is a factor in the design and installation procedures for wiring and components. Comm\u2019l Doc: For guidance/principles leading toward maintainable design(s): SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles leading toward maintainable design(s): JSSG-2001: para 3.1.5, 4.1.5, 3.3.10.2.2, 4.1.8.2.5.1, 4.1.8.2.5.2, 4.4.8; JSSG-2009: Appendix H para 6.4.1.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "12.2.6.6",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that maintainability is a factor in the design and installation procedures for wiring and components.",
+      "text": "Verify that maintainability is a factor in the design and installation procedures for wiring and components. Comm\u2019l Doc: For guidance/principles leading toward maintainable design(s): SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles leading toward maintainable design(s): JSSG-2001: 3.1.5, 4.1.5, 3.3.10.2.2, 4.1.8.2.5.1, 4.1.8.2.5.2, 4.4.8 JSSG-2009: Appendix H 6.4.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Maintainability",
+      "text": "Criterion: Verify that maintainability is a factor in the design and installation procedures for wiring and components, including that all wiring and components are properly identified and that the identification does not adversely affect the performance or life of the wiring or components. Standard: Maintainability characteristics of wiring installation comply with good design practice, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including processes, drawings, documents, FMECA and assembled product verify that wiring installation is maintainable. References: For guidance/principles leading toward maintainable design(s): JSSG-2009: 6.4.1 SAE AS50881 NFPA 70",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Maintainability",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

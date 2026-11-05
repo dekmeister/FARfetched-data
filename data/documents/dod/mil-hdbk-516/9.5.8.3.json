@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.8.3",
+  "number": "9.5.8.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Probability of concussion - backup through-canopy ejection",
+  "subject_group": "9.5.8 Backup through-canopy ejection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Probability of concussion - backup through-canopy ejection",
+      "text": "Standard: Standard: The maximum P concussion during a through-canopy backup mode ejection is 15% when calculated using the probability of concussion equation (Rowson and Duma). \ud835\udc43\ud835\udc43\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50 = 1 1 + \ud835\udc52\ud835\udc52\u2212(\u221210.2+.0433\ud835\uddba\ud835\uddba+0.000873\ud835\udefc\ud835\udefc\u22120.00000092\ud835\uddba\ud835\uddba\ud835\udc4e\ud835\udc4e) Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Acceleration and rate data is used to calculate P concussion. Calculations will use the maximum angular resultant acceleration within a \u00b130ms time window centered around each resultant linear acceleration at each recorded time step. Test.\n  (1) Lab test: Data is collected from full system-level dynamic ejection sled testing using instrumented manikins.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

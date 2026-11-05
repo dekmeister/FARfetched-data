@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9.8",
+  "number": "6.1.9.8",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Shipboard recovery and landing",
+  "subject_group": "6.1.9 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Shipboard recovery and landing",
+      "text": "Standard: The air vehicle is no worse than Level 2 handling qualities, or DIPES 3 for rotary-wing air vehicles, for shipboard recovery and landing, not including carrier arresting gear recovery. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of land-based and shipboard recovery/landing to determine the control power, roll, heading and flight path control power and bandwidth, power and engine response, margin to control and flight envelope limits, and minimum and maximum approach speeds needed to complete the mission task, including 6-DOF simulations for automatic control modes, for each combination of air vehicle states, control modes, approach patterns, environmental conditions, and ship conditions: ship class, recovery/landing method(s) and locations, WOD magnitude and direction, steady and turbulence airwake and ship motion effects, and ship speed and turn rate. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation of land-based and shipboard recovery/landing for each combination of air vehicle states, control modes, including reversionary modes, approach patterns, environmental conditions, and ship conditions: ship class, recovery/landing method(s) and locations, approach speed, WOD magnitude and direction, steady and turbulence airwake and ship motion effects, and ship speed and turn rate. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct shore-based recoveries/landings for nominal and critical combinations of air vehicle states, control modes, including reversionary modes, approach patterns, environmental conditions, and ship conditions: ship class, recovery/landing method(s) and locations, approach speed, from minimum to maximum shore-based WOD equivalent magnitude and direction, steady and turbulence airwake and ship motion effects, and ship speed and turn rate.\n  (3) Flight test: Conduct shipboard recoveries/landings for nominal and critical combinations of air vehicle states, control modes, including reversionary modes, approach patterns, environmental conditions, and ship conditions: ship class, recovery/landing method(s) and locations, approach speed, WOD magnitude and direction, multiple levels of ship motion, and ship speed and turn rate.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

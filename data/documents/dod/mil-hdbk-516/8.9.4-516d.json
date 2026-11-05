@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.4-516d",
+  "number": "8.9.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Release of external cargo",
+  "subject_group": "8.9 External cargo hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Release of external cargo",
+      "text": "Standard: The external cargo hook system has controls which allows for the flight crew to release cargo (not at the pendant) as commanded for automatic and emergency operations for the loading envelope. The release system consists of a primary and a backup release (e.g., manual release) subsystems that are isolated from one another. The status (safe, unsafe, system malfunction) of the cargo system is continuously displayed to the flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of external cargo hook system documentation (e.g., drawings, system descriptions, system design analyses, and flight manual) to verify design features are in place to control release of external cargo and indicate status of the system. Analysis.\n  (1) Conduct FMECA and SSHA to identify all single point failures which results in a loss of jettison capability and any mitigations to those failures.\n  (2) Conduct kinematic analysis to verify release mechanism ability to jettison the external load. Demonstration.\n    (1) Conduct on air vehicle demonstration to verify the release subsystems operate the external cargo hook as intended and air vehicle provides status indications. Test.\n      (1) Lab test: Conduct laboratory endurance testing on the release mechanism for the external cargo hook system to verify ability to release loads throughout the service life. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n      (2) Flight test: Conduct flight testing to verify the release subsystems operate the external cargo hook as intended (e.g., at maximum bank angle and speed) and air vehicle provides status indications.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

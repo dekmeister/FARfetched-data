@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.14.11",
+  "number": "6.1.14.11",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Autorotation",
+  "subject_group": "6.1.14 Rotorcraft unique criteria",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Autorotation",
+      "text": "Criterion: Verify that autorotation characteristics are safe. Standard: The air vehicle meets the standards within the following ADS-33-PRF paragraphs: a. 3.4.5.1.3 Pitch control in autorotation. b. 3.7.2 Engine failures. c. 3.7.3 Loss of engine and/or electrical power. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 27.143 Controllability and maneuverability 14 CFR 29.143 Controllability and maneuverability",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Autorotation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

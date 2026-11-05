@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.6.3",
+  "number": "15.6.3",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Software build process",
+  "subject_group": "15.6 Software qualification and installation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software build process",
+      "text": "Criterion: Verify that the software build process for SSSEs is safe. Standard: A sound, repeatable process is defined and implemented for building the air system\u2019s software load images. The build process addresses equipment, security, time required (nominal versus emergency release), safety, and configuration management. The process ensures that the build product is not corrupted, is compatible (hardware and software), and is complete. The scope of the build process includes executables and data files. All air system loadable and non-loadable software elements are identified. Method of Compliance: Verification methods include analysis, test, and inspection of build process documentation. The software load image build process is verified to ensure that the generated products are complete, compatible, and are not corrupt. Configuration and process documents are reviewed for completeness to ensure that all CSCI developers\u2019 products are included, and version descriptions/configuration data are identified (e.g., unique CSCI constraints, sizing information, load image link data, data files). Verify the correctness and completeness of the compatibility matrix through analysis and test. Ensure that the process for generating build products is reliably repeatable. Verify that the build process addresses all air system loadable and manufacturer/depot loaded software and data files. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.5.l); 4.3 discusses verification of integrated processing capabilities; 3.2.2.2 discusses subsystem integration; 3.3.1 provides guidance for integrated architecture design; 3.3.6 addresses breaking down complex software into manageable CSCIs; 3.3.8 addresses software certification of hardware compatibility DoD JSSSEH: 4.3.6.3.2; 4.4; 4.4.1.6 USAF Weapon Systems Software Management Guidebook: 3.6.2; G.3.2; G.3.5.e and f RTCA DO-178: For RTCA DO-178C: 5.4; 5.4.2.a; 7.2.7; 7.5; 11.4.b.9; 11.16 (see also RTCA DO-178B) IEEE Std 828-2005: 3.3.7 FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software build process",
+      "text": "Standard: 1. Verify that the software build process for SESSs is safe. A sound, repeatable process is defined and implemented for generating the air system\u2019s software load images. The build process addresses the build environment (including what is necessary to verify the build), identification of optional build processes (e.g., nominal, emergency release), safety, and CM. The process ensures that the build product is not corrupted, is compatible (hardware and software), and is complete. The scope of the build process includes executables and data files. All air system loadable and non-loadable software elements are identified. The software build process accounts for unique build aspects of the hardware utilized (e.g., MCPs) and verifies that the resulting build meets all safety objectives required to operate safely in the hardware environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of build process documentation. The software load image build process is verified to ensure that the generated products are complete, compatible, and are not corrupt. Configuration and process documents are reviewed for completeness to ensure that all CSCI developers\u2019 products are included, and version descriptions and configuration data are identified (e.g., unique CSCI constraints, sizing information, load image link data, data files). Verify the correctness and completeness of the compatibility matrix through analysis and test. Ensure that the process for generating build products is reliably repeatable. Verify that the build process addresses all air system, manufacturer, and depot loadable software and data files. Examination of build process documentation verifies that the build process has properly accounted for unique hardware (e.g., MCPs) build requirements. Analysis and testing of the software build verifies that the build is correct and has incorporated all necessary safety attributes to meet required safety objectives.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

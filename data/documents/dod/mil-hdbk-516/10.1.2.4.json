@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.2.4",
+  "number": "10.1.2.4",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Autopilot performance",
+  "subject_group": "10.1.2 Aerodynamic compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Autopilot performance",
+      "text": "Standard: Autopilot and augmentation systems are assessed no worse than 6 from MIL-STD- 1797, Cooper-Harper pilot rating scale figure (or equivalent rating system) and perform in a consistent and adequate manner during AR operations. Autopilot and augmentation systems include autothrottle, stability augmentation system, CAS, stall inhibitor system, and stability enhancement function. System(s) response to targeted air vehicle motion and position does not impact ability to maintain commanded attitude, altitude, and airspeed. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis of autopilot and augmentation systems design and requirements verify systems account for aerodynamic effects of refueling operations with targeted air vehicle(s). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Flight test: Verify the standard by the following: a. Boom Tanker. Flight evaluations of air vehicle performance during AR, with autopilot and augmentation systems on, including predictability of response, stability and control, control sensitivity, time delay, oscillations, PIO tendencies, undesirable motions, workload and handling qualities verify tanker flight performance is assessed as no worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system). Test points include station keeping in contact and pre-contact positions in straight and level flight, turning, and toboggans with targeted receiver air vehicles, throughout the AR envelope. b. Drogue Tanker. Flight evaluations of air vehicle performance during AR, with autopilot and augmentation systems on, including predictability of response, stability and control, control sensitivity, time delay, oscillations, PIO tendencies, undesirable motions, workload and handling qualities verify tanker flight performance is assessed as no worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system). Test points include straight and level flight, turning, and toboggans with targeted receiver air vehicles, throughout the AR envelope. c. Receptacle Receiver. Flight evaluations of air vehicle performance during AR, with autopilot and augmentation systems on, including predictability of response, stability and control, control sensitivity, time delay, oscillations, PIO tendencies, undesirable motions, workload and handling qualities verify receiver flight performance is assessed as no worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system). Test points include station keeping in contact and pre-contact positions in straight and level flight, turning, and toboggans with targeted tanker air vehicle, throughout the AR envelope. d. Probe Receiver. Flight evaluations of air vehicle performance during AR, with autopilot and augmentation systems on, including predictability of response, stability and control, control sensitivity, time delay, oscillations, PIO tendencies, undesirable motions, workload and handling qualities verify receiver flight performance is assessed as no worse than 6 from MIL-STD-1797, Cooper-Harper pilot rating scale figure (or equivalent rating system). Test points include contacts at closure rates up to 10 ft/s, stabilizing post contact, maneuvering in and out of refuel zone, station keeping in straight and level flight and turns, and breakaway maneuvers throughout the AR envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

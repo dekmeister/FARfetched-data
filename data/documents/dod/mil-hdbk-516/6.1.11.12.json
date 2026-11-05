@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.12",
+  "number": "6.1.11.12",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Flight control system failures",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Flight control system failures",
+      "text": "Standard: Specific failures of the FCS to include complete or partial loss of any function of the FCS following a single failure, transient motions due to failures, trim changes following reversion to alternate control modes, and required or recommended configuration changes following failures result in handling qualities no worse than Level 3. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess that failures of the FCS to include complete or partial loss of any function of the FCS following a single failure, transient motions due to failures, trim changes following reversion to alternate control modes, and required or recommended configuration changes following failures result in handling qualities no worse than Level 3 as specified in ADS-33E-PRF, Failures of the Flight Control System paragraph for each air vehicle configuration and loading within the SFE. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess that failures of the FCS to include complete or partial loss of any function of the FCS following a single failure, transient motions due to failures, trim changes following reversion to alternate control modes, and required or recommended configuration changes following failures result in handling qualities no worse than Level 3 as specified in ADS-33E-PRF, Failures of the Flight Control System paragraph for each air vehicle configuration and loading within the SFE. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess that failures of the FCS to include complete or partial loss of any function of the FCS following a single failure, transient motions due to failures, trim changes following reversion to alternate control modes, and required or recommended configuration changes following failures result in handling qualities no worse than Level 3 as specified in ADS-33E-PRF Failures of the Flight Control System paragraph for selected combinations of air vehicle configuration and loading within the SFE.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

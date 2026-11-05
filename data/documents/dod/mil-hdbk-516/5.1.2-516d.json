@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.1.2-516d",
+  "number": "5.1.2",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Ground loads",
+  "subject_group": "5.1 Loads",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Ground loads",
+      "text": "Standard: The air vehicle design ground loads resulting from the maximum, minimum, and most critical combinations of all known externally or internally applied pressures, forces, or moments are defined and commensurate with all points within the structural design envelope accounting for: a. Takeoff, ground and water landing, taxiing, and towing. b. Emergency conditions. c. Turning, braking, pivoting, and steering. d. Shipboard launch and recovery. e. Jacking, hoisting, arrestment extension and retraction. f. Loads induced while parked and moored. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination. (1) Verify the ASIP Master Plan or RSIP Master Plan, as specified in MIL-STD-1530 or MIL- STD-3063 respectively, documents the analysis and test verification methods required to certify the ground design loads; structural certification tasks are updated for modifications or changes to the air vehicle following initial AW certification basis; and all artifacts are developed IAW applicable sections of MIL-STD-1530 or MIL-STD-3063. (2) Verify detailed structural design criteria for ground loads, as specified in MIL-STD-1530 or MIL-STD-3063, documents the requirements to achieve structural integrity. (3) Verify test plans are scoped to measure all significant ground loads to allow for tracking margins to achieve envelope expansion. Analysis. (1) Verify loads analysis models are updated with developmental tests, and predictions demonstrate ground loads are compliant with structural design criteria. Test. (1) Ground test: Verify the as-completed full-scale ground tests support initial ground operations and flight envelope IAW with EZ-SB-22-01. Verify loads calibration test results in loads equations that achieve accuracy requirements and the required loads parameters for ground and flight test. Prior to entering operational test or operations, verify the standard by the following method(s): Examination. (4) Verify strength summary and operating restrictions define the operational envelope and necessary restrictions; reflect all analyses and tests; satisfy the structural design criteria; and are consistent with EZ-SB-22-01. (5) Verify the flight manual is consistent with the envelope and limitations defined in the strength summary and operating restrictions for all air vehicle configurations; and contains all warnings, cautions, notes, and emergency procedures required to operate within the design loads. Analysis. (2) Verify loads analysis models are updated and correlated to ground test, and final analyses predictions demonstrate ground loads are compliant with structural design criteria and are incorporated into the strength summary and operating restrictions. Test. (2) Ground test: Verify full-scale drop test results are used to update the design. (3) Ground test: Verify loads ground test substantiates the models used for loads analyses predictions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

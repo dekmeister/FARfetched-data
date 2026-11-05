@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.15",
+  "number": "6.1.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Manuals",
+  "subject_group": "6.1 Flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.15",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Manuals",
+      "text": "Criterion: Verify that the Flight, Performance, and Operations Manuals, and any supplements, contain the air vehicle\u2019s operating limits and instructions (e.g., Cautions, Warnings, Advisories, Notes, Corrective Actions, etc.) to assure flight safety for all conditions, configurations, loadouts, etc. Standard: The manuals accurately document/identify aircraft operating limits and emergency characteristics and procedures. Method of Compliance: Review of the manuals verifies that the limits and emergency procedures documented are appropriate and adequate. Reference: MIL-STD-1797 Guidance and Lessons Learned",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Manuals",
+      "text": "Standard: The flight, performance, operations manuals, and any supplements, contain the air vehicle's FCS descriptions, flight characteristics, and operating limits that bound regions of handling qualities and procedures to assure flight safety and recovery from ROTH, RORH, and post-stall for all air vehicle states, flight phases, and environmental conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the manuals to assess the contents for accuracy, completeness, and significance to safety with respect to flying/handling qualities. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(2) Review of the manuals that are updated with ground and flight test results to assess the contents for accuracy, completeness, and significance to safety with respect to flying/handling qualities.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

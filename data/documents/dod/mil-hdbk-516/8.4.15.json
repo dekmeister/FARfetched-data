@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.15",
+  "number": "8.4.13",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Protection of inhabited areas",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.4.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hazardous quantities of smoke, flames or extinguishing agents are prevented from entering inhabited areas.",
+      "text": "Verify that hazardous quantities of smoke, flames or extinguishing agents are prevented from entering inhabited areas.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.4.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV control station, or UAV flight-critical sensor bays.",
+      "text": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV control station, or UAV flight-critical sensor bays.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.4.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV/ROA control station, or UAV/ROA flight-critical sensor bays.",
+      "text": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV/ROA control station, or UAV/ROA flight-critical sensor bays. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.22, G.4.4.7.22 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411 AC 25-9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.4.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV/ROA control station, or UAV/ROA flight-critical sensor bays.",
+      "text": "Verify that hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, UAV/ROA control station, or UAV/ROA flight-critical sensor bays. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.22, G.4.4.7.22 MIL-HDBK-221: 2.4.2, 2.19 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411 AC 25-9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.4.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Protection of inhabited and critical areas",
+      "text": "Criterion: Verify hazardous quantities of smoke, flames, or extinguishing agents are prevented from entering inhabited areas, control stations, or flight-critical sensor bays (e.g., for unmanned aircraft systems, remotely operated aircraft). Standard: Provisions exist to prevent smoke, vapors, extinguishing agents, flames or fumes from creating a safety of flight condition for the air vehicle, creating an unacceptable hazard to personnel or adversely affecting flight critical sensors. The unmanned aircraft system control station is protected to National Fire Protection Association standards. Method of Compliance: Provisions exist to prevent smoke, vapors, extinguishing agents, flames or fumes from creating a safety of flight condition for the air vehicle, creating an unacceptable hazard to personnel or adversely affecting flight critical sensors. The unmanned aircraft system control station is protected to National Fire Protection Association standards. References: JSSG-2009: G.3.4.7.7, G.4.4.7.7; G.3.4.7.22, G.4.4.7.22 MIL-HDBK-221: 2.7.9 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411 FAA AC 25-9 FAA AC 25.853-1 FAA AC 25.869-1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Protection of inhabited areas",
+      "text": "Standard: Provisions exist to prevent a SOF hazard or personnel injury hazard from smoke, vapors, extinguishing agents, flames, or fumes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of design documentation to show provisions exist to prevent smoke, vapors, extinguishing agents, flames, or fumes from potential fire locations from entering inhabited areas or creating additional hazards. Analysis.\n  (1) Conduct airflow analysis to show smoke, vapors, extinguishing agents, flames, or fumes from potential fire locations are prohibited from entering inhabited areas or creating additional hazards.\n  (2) Conduct analysis that shows extinguishing agent discharge in areas that may contain crewmembers or passengers will not create a personnel injury hazard. Test.\n    (1) Ground test: Conduct ground test to show smoke, vapors, extinguishing agents, flames, or fumes from potential fire locations are prohibited from entering inhabited areas or creating additional hazards. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test to show smoke, vapors, extinguishing agents, flames, or fumes from potential fire locations are prohibited from entering inhabited areas or creating additional hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

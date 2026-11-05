@@ -1,0 +1,72 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.2.2.1",
+  "number": "14.2.3",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Single point failure assessment",
+  "subject_group": "14.2 Safety design requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "14.2.2.1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that no single-point failure will unacceptably impact the safety of the system.",
+      "text": "Verify that no single-point failure will unacceptably impact the safety of the system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that no single-point failure will unacceptably impact the safety of the system.",
+      "text": "Verify that no single-point failure will unacceptably impact the safety of the system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that no single-point failure unacceptably affects the safety of the system.",
+      "text": "Verify that no single-point failure unacceptably affects the safety of the system. DoD/MIL Doc: MIL-STD-882D: para 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, Appendix C; Appendix A identifies severity levels FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that no single-point failure unacceptably affects the safety of the system.",
+      "text": "Verify that no single-point failure unacceptably affects the safety of the system. DoD/MIL Doc: MIL-STD-882D: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, Appendix C; Appendix A identifies severity levels FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Single point failure assessment",
+      "text": "Criterion: Verify that no single-point failure unacceptably affects the safety of the system. Standard: The risks of all hazards associated with single point failures do not exceed the hazard baseline set for the program. Residual risk is accepted in accordance with MIL-STD- 882. Method of Compliance: Verification method includes inspection of documentation. Evidence that the risks of all single point failure hazards do not exceed the hazard baseline set for the program and that the residual risk has been accepted is verified by inspection of the safety analyses for single point failures and the relevant data in the closed loop hazard tracking system. References: MIL-STD-882 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Single point failure assessment",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

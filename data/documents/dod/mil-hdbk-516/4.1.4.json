@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.1.4",
+  "number": "4.1.4",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Unmanned aircraft system flight termination system",
+  "subject_group": "4.1 Operational usage",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Unmanned aircraft system flight termination system",
+      "text": "Standard: The UAS FTS functions such that air system safety-critical functionality is not adversely impacted by FTS normal operations, functional failure, or physical failure, including installation. This includes assuring unintentional activation occurs with likelihood no greater than 10-7 per flight hour. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Allocation of specification requirements associated with the FTS occurs throughout the system architecture hierarchy and addresses the intended functions of the physical architecture, including hardware, software, and crewmember actions. This requirements allocation defines the methods of FTS activation (e.g., fuel starvation, zero-lift and zero-thrust, and explosive charge) and addresses requirements to prevent unintentional activation.\n(2) Review of design documentation and specification verification confirms a single crewmember action does not result in activation of the FTS. Analysis.\n  (1) Conduct FMECA, FMEA, or other analyses to identify failure conditions associated with physical or functional failures of the FTS and its components, including those that could lead to unintentional activation of the FTS.\n  (2) Conduct FTA to verify probability for an unintentional activation of the FTS occurs with a likelihood no greater than 10-7 per flight hour and that no single point failures in the FTS and connected systems cause unintentional activation of flight termination.\n  (3) Conduct analysis of SIL test results, including any unintended behavior, and failure mode analyses to confirm the FTS functions as intended and unintentional activation occurs with likelihood no greater than 10-7 per flight hour.\n  (4) Conduct analysis of the FTS, its components, and SIL test results to confirm that air system safety-critical functionality is not adversely impacted by FTS normal operations, functional failure, or physical failure, including installation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

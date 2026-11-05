@@ -1,0 +1,72 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.7",
+  "number": "8.7.2.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Built-in-test and fault isolation",
+  "subject_group": "8.7.2 Safe installation and operation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.7.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that BIT and fault isolation provisions are available to ensure safe operations under all configuration options.",
+      "text": "Verify that BIT and fault isolation provisions are available to ensure safe operations under all configuration options.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options. DoD/MIL Doc: JSSG-2009: para 3.2.9, 4.2.9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options. DoD/MIL Doc: JSSG-2009: 3.2.9, 4.2.9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Built-in-test and fault isolation",
+      "text": "Criterion: Verify that built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel to ensure safe ground or in-flight operations under all configuration options. Standard: Built-in-test (BIT) and fault isolation provisions are available to appropriate crewmember(s)/operator(s)/maintenance personnel during ground or in-flight operations under all configuration options without causing loss of air vehicle or creating hazards to personnel. Method of Compliance: Verification methods include test, demonstration, inspection and review of documentation. Inspection of technical data verifies BIT and fault isolation capabilities are provided. Demonstration verifies BIT and fault isolation provisions are available/accessible to appropriate personnel. Testing verifies proper operation and indication of BIT and fault isolation capabilities. References: JSSG-2009: F.3.4.6.2.2.2, F.4.4.6.2.2.2; F.3.4.6.2.3.2, F.4.4.6.2.3.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Built-in-test and fault isolation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

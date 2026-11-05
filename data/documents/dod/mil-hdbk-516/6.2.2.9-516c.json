@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.9-516c",
+  "number": "6.2.2.9",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Flight termination system",
+  "subject_group": "6.2.2 VCF safety of design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Flight termination system",
+      "text": "Criterion: If the Flight Termination System (FTS) utilizes the flight control system, verify that the probability of an erroneous termination command is at least one hundred times less likely than PLOC and is included in the PLOC calculations. Standard: The procuring agency determines an acceptable Probability of Loss of Control (PLOC) for the flight control system and states this in the flight control system specification. All factors contributing to PLOC are design controllable and verifiable through analysis. If the FTS utilizes the flight control system, safety provisions and interlocks are included to prevent an erroneous command from the FTS to the flight control system. These safety provisions and interlocks are redundant and robust to assure that the probability of erroneous FTS command to the flight control system is at least one hundred times less likely than PLOC. No single point failure in the FTS/flight control system causes unintentional activation of flight termination. Method of Compliance: Verification methods include analysis, test, demonstration, and review of documentation. The FTS/flight control system is analyzed and tested in a SIL for normal and failed conditions. The FTS is ground tested to demonstrate that the system can safely execute the intended termination function. The probability of receiving an erroneous termination command is verified by Failure Modes and Effects Criticality Analysis (FMECA). References: JSSG-2008",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Flight termination system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

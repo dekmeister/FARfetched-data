@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.5.7",
+  "number": "8.7.5.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Effects of electrical failure(s)",
+  "subject_group": "8.7.5 Compatibility with other systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.7.5.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that electrical failures within the aerial refueling system will not adversely affect the air vehicle electrical system.",
+      "text": "Verify that electrical failures within the aerial refueling system will not adversely affect the air vehicle electrical system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.7.5.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that electrical failures within the aerial refueling system do not adversely affect the air vehicle electrical system.",
+      "text": "Verify that electrical failures within the aerial refueling system do not adversely affect the air vehicle electrical system. DoD/MIL Doc: JSSG-2009 Appendix F: F.3.4.6.1.1, F.4.4.6.1.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Effects of electrical failure(s)",
+      "text": "Criterion: Verify that electrical failures within the aerial refueling system do not adversely affect the air vehicle electrical system or any other system. Standard: Failure modes associated with the aerial refueling system's electrical system have been assessed to show that the air vehicle's electrical system, or any other system, is not adversely affected. Failures in the aerial refueling electrical system do not prevent continuation of safe flight and landing. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Inspection of drawings, analysis, FMECA and ground test verify that electrical failures within the aerial refueling system do not adversely affect the air vehicle electrical system or any other system. References: JSSG-2009: F.3.4.6.1.1, F.4.4.6.1.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Effects of electrical failure(s)",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

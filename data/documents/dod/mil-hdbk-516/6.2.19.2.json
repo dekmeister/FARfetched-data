@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.19.2",
+  "number": "6.2.19.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Mixed criticality sensors",
+  "subject_group": "6.2.19 Inertial and navigation sensors",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Mixed criticality sensors",
+      "text": "Standard: Flight-critical sensors are connected directly to flight-critical computing. Inputs from sources not developed to flight-critical standards have dedicated monitors for health and validity which are developed to flight-critical standards and hosted on flight-critical hardware. Missing or erroneous sensor inputs from sources not developed to flight-critical standards do not result in exceeding air vehicle transient limits nor degrade the VCF below Operational State III. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Inspection of the VCF architecture shows flight-critical sensors connect directly to flight-critical computing without passing through non-flight-critical equipment.\n(2) Inspection of the VCF architecture shows monitors of inputs from sources not developed to flight-critical standards are hosted on flight-critical hardware. Analysis.\n  (1) Air vehicle transient analysis utilizing finalized monitor threshold and persistence values demonstrates transients are within air vehicle established limits. Test.\n    (1) Lab test: Conduct FMET SIL testing to verify monitor performance and associated transients.\n    (2) Lab test: Pilot-in-the-loop simulations show that missing or erroneous data from non-flight-critical sources does not degrade the VCF below Operational State III.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.1.2",
+  "number": "8.3.1.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.3.1 Integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.1.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate crew station information is available to notify the flight crew of the system operating conditions.",
+      "text": "Verify that adequate crew station information is available to notify the flight crew of the system operating conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate information is available to notify operator(s) of the system operating conditions. Standard: Fuel system information and status are monitored and reported to operators and maintenance personnel as appropriate. Method of Compliance: Analysis, modeling, simulation, ground tests and flight tests verify that safety of flight information (e.g., fuel quantity, pump status, CG of fuel in tanks (if applicable), leak detection) is reported to the appropriate operators and maintenance personnel. References: JSSG-2009: E.3.4.5.1.12, E.4.4.5.1.12; E.3.4.5.8.11, E.4.4.5.8.11; E.3.4.5.12, E.4.4.5.12; E.3.4.5.12.1, E.4.4.5.12.1; E.3.4.5.12.2, E.4.4.5.12.2; E.3.4.5.12.3, E.4.4.5.12.3; E.3.4.5.12.4, E.4.4.5.12.4; E.3.4.5.12.5, E.4.4.5.12.5",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

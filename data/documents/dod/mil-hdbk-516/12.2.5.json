@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.2.5",
+  "number": "12.2.5",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Avoidance of single point failures",
+  "subject_group": "12.2 Electrical system wiring",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "title_at_revision": "Verify that there are no single-point failures related to wiring associated with integrating redundant functions within an electronics enclosure.",
+      "text": "Verify that there are no single-point failures related to wiring associated with integrating redundant functions within an electronics enclosure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that design precludes single-point failures related to wiring when redundant functions are integrated within an electronics enclosure.",
+      "text": "Verify that design precludes single-point failures related to wiring when redundant functions are integrated within an electronics enclosure. Comm\u2019l Doc: For guidance/principles relating to design of equipment to minimize single point failures in redundant circuits: SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles relating to design of equipment to minimize single point failures in redundant circuits: MIL-HDBK-454, Guideline 69; JSSG-2009: Appendix H para H.6.4.1, 6.1; FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351-23.1367; 25.1301, 25.1309, 25.1351- 25.1363, 25.1529; SFAR No. 88--Fuel Tank System Fault Tolerance Evaluation Requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that design precludes single-point failures related to wiring when redundant functions are integrated within an electronics enclosure.",
+      "text": "Verify that design precludes single-point failures related to wiring when redundant functions are integrated within an electronics enclosure. Comm\u2019l Doc: For guidance/principles relating to design of equipment to minimize single point failures in redundant circuits: SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles relating to design of equipment to minimize single point failures in redundant circuits: MIL-HDBK-454, Guideline 69 JSSG-2009: Appendix H H.6.4.1, 6.1 FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351-23.1367; 25.1301, 25.1309, 25.1351- 25.1363, 25.1529 SFAR No. 88--Fuel Tank System Fault Tolerance Evaluation Requirements",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Avoidance of single point failures",
+      "text": "Criterion: Verify that design precludes single-point failures related to wiring when redundant functions are integrated within an electronics enclosure. Standard: Design complies with good engineering practice to avoid single point failures, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including drawings, documents, FMECA and assembled product verify the absence of single point failures. References: For guidance/principles relating to design of equipment to minimize single point failures in redundant circuits: JSSG-2009: H.6.1, H.6.3.1 MIL-HDBK-454, Guideline 69 SAE AS50881 NFPA 70 14 CFR 23.1301, 23.1309, 23.1351-23.1367; 25.1301, 25.1309, 25.1351-25.1363, 25.1529 14 CFR SFAR No. 88",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Avoidance of single point failures",
+      "text": "Standard: The electrical system is designed to preclude single point failures which impact SCFs when redundant functions are integrated within a new or existing electronics enclosure (e.g., circuit breaker panel, relay box, junction box). This does not include EWIS inside electronic equipment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) A wiring design documentation (e.g., schematics, drawings, and models) review verifies single point failures related to EWIS do not exist with respect to redundant functions. Analysis.\n  (1) Single point failures, which impact SCFs, are precluded in the FMECA. Test.\n    (1) Lab test: Testing of failure conditions within electronic enclosures, when related to redundant functions, verifies single point failures are precluded.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

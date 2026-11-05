@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.3.1.1",
+  "number": "11.3.1.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Avionics architecture of alerting systems",
+  "subject_group": "11.3.1 Warnings, cautions, and advisories",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Avionics architecture of alerting systems",
+      "text": "Standard: The avionics architecture responsible for supporting WCAs correctly senses the triggering event and outputs the expected WCA. The avionics architecture possesses the failure detection, throughput, determinism, and logic necessary for correct display of WCAs under worst-case operating conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review FMEA, FMECA, and WCA design information to determine avionics failures, throughput constraints, and non-deterministic aspects that impact the avionics architecture's ability to provide correct WCA operation in the presence of worst-case operating conditions. Test.\n  (1) Lab test: Lab testing (e.g., FMET, SIL) validates analysis and verifies correct performance of avionics architecture supporting WCAs in the presence of worst-case operating conditions.\n  (2) Ground test: Ground testing validates analyses and lab test results and verifies performance of SCFs related to the avionics architecture supporting WCAs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight Test: Record any critical failures related to the ability of the avionics architecture to support the performance of the WCAs. Noted failures do not result in the loss or degradation of correct WCA annunciation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.2.3",
+  "number": "12.2.3",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Circuit protection",
+  "subject_group": "12.2 Electrical system wiring",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "title_at_revision": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions.",
+      "text": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions.",
+      "text": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions. Comm\u2019l Doc: For guidance/principles regarding design and selection of aircraft wiring protection: SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles regarding design and selection of aircraft wiring protection: MIL-HDBK-454 MIL-STD-7080 JSSG-2009: Appendix H para H.3.4.8.5, H.4.4.8.5; FAA Doc: 14CFR references: 23.1357; 25.1357.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions.",
+      "text": "Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions. Comm\u2019l Doc: For guidance/principles regarding design and selection of aircraft wiring protection: SAE AS50881 NFPA 70 DoD/MIL Doc: For guidance/principles regarding design and selection of aircraft wiring protection: MIL-HDBK-454 MIL-STD-7080 JSSG-2009: Appendix H H.3.4.8.5, H.4.4.8.5 FAA Doc: 14CFR references: 23.1357; 25.1357",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Circuit protection",
+      "text": "Criterion: Verify that proper circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions. Standard: Circuit protection complies with good design practice, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including drawings, documents and assembled product verify proper circuit protection. References: For guidance/principles regarding design and selection of aircraft wiring protection: JSSG-2009: H.3.4.8.5 and H.4.4.8.5 MIL-HDBK-454 MIL-STD-7080 SAE AS50881 NFPA 70",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Circuit protection",
+      "text": "Standard: Circuit protection is provided for wiring associated with power distribution throughout its entire run, including circuits contained in or exiting from any electronic enclosures performing intermediate power switching or distribution functions IAW SAE AS50881, Current Carrying Capacity paragraphs and MIL-STD-7080, Circuit Protective Devices paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) A wiring design documentation (e.g., schematics, drawings and models) review verifies circuit protection devices are identified and are IAW MIL-STD-7080, Circuit Protective Devices paragraphs, for the application. Analysis.\n  (1) Utilizing the ELA and wiring analysis, a circuit protective device analysis verifies each circuit protective device is IAW SAE AS50881, Current Carrying Capacity paragraphs including continuous operating and transient conditions.\n  (2) A circuit protection coordination analysis verifies a fault is isolated at the lowest level of the distribution system. Include coordination with the power system fault isolation and recovery system process. Test.\n    (1) Lab test: Circuit protection coordination testing, using production or production representative power system and wiring system components, verifies a fault is isolated at the lowest level of the distribution system without propagation to other circuits or sources.\n    (2) Ground test: Air vehicle ground testing verifies the operation of the circuit protective devices.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.1.2-516b",
+  "number": "5.1.2",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Verify that the airframe has sufficient structural integrity for the air vehicle to take off, land, arrest, and operate on the ground.",
+  "subject_group": "5.1 Loads",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe has sufficient structural integrity for the air vehicle to take off, land, arrest, and operate on the ground.",
+      "text": "Verify that the airframe has sufficient structural integrity for the air vehicle to take off, land, arrest, and operate on the ground. DoD/MIL Doc: JSSG-2006: para A3.2.10, 3.2.10.1-6, A4.2.10, Figure 4 & 5. JSSG-2006: Figure 4, pg 459, \u201cDiscrete bumps and dips for slow speeds up to 50 knots-single and double excitations\u201d. (for standard development) JSSG-2006: Figure 5, pg 460, \u201cDiscrete bumps and dips for high speeds above 50 knots-single and double excitations\u201d. (for standard development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe has sufficient structural integrity for the air vehicle to take off, land, arrest, and operate on the ground.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

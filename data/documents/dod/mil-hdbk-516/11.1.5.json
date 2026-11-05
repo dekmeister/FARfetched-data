@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.1.5",
+  "number": "11.2.2.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Timing and latency anomalies",
+  "subject_group": "11.2.2 Off nominal conditions",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "11.1.5",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system. a.",
+      "text": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system. a. Verify that undetected failure modes (failures not automatically detected by diagnostics) will not result in unsafe system operation. b. Verify that timing or latency anomalies will not result in unsafe system operation. c. Verify that interface/interconnect failures will not result in unsafe system operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "11.1.5",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system.",
+      "text": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system. Verify the following events do not result in unsafe system operation: a. Undetected failure modes (failures not automatically detected by diagnostics). b. Timing or latency anomalies. c. Interface/interconnect failures. DoD/MIL Doc: JSSG-2005: para 3.3.5, 4.3.5 For undetected failure modes, and timing or latency anomalies: JSSG-2005: para 3.2.1.3.2, 4.2.1.3.2 For interface/interconnect failures: JSSG-2005: para 3.2.2.2, 4.2.2.2, 3.2.2.3, 4.2.2.3 FAA Doc: AC-23.1301, 23.1309, 23.1329, 23.1335, 25.1301, 25.1309, 25.1329, 25.1335 AC-27-1 and AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\" AC 20-145, Guidance for Integrated Modular Avionics (IMA) That Implement TSO-C153 Authorized Hardware Elements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "11.1.5",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system.",
+      "text": "Verify that all normal, backup, and emergency modes of operation are safe for the integrated system. Verify the following events do not result in unsafe system operation: a. Undetected failure modes (failures not automatically detected by diagnostics) b. Timing or latency anomalies c. Interface/interconnect failures DoD/MIL Doc: JSSG-2005: 3.3.5, 4.3.5 For undetected failure modes, and timing or latency anomalies: JSSG-2005: 3.2.1.3.2, 4.2.1.3.2 For interface/interconnect failures: JSSG-2005: 3.2.2.2, 4.2.2.2, 3.2.2.3, 4.2.2.3 FAA Doc: AC-23.1301, 23.1309, 23.1329, 23.1335, 25.1301, 25.1309, 25.1329, 25.1335 AC-27-1 and AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\" AC 20-145, Guidance for Integrated Modular Avionics (IMA) that Implement TSO-C153 Authorized Hardware Elements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "11.1.5.2",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Timing/latency anomalies",
+      "text": "Criterion: Verify that all normal, backup, and emergency modes of operation are safe for the integrated system. Verify that timing or latency anomalies do not result in unsafe system operation. Standard: Timing (e.g., priorities, margins, bounded timelines) and latency anomalies for normal, backup, and emergency modes are assessed, documented and shown to meet safety of flight requirements. Method of Compliance: Timing (e.g., priorities, bounded timelines) and latency anomalies for normal, backup, and emergency modes are verified by FMEA, analysis, and testing. Laboratory, ground and flight testing under fully loaded conditions verify that no timing or latency anomalies degrade safety of flight. References: JSSG-2005: 3.3.5, 4.3.5; 3.2.1.3.2, 4.2.1.3.2 SAE ARP4761 SAE ARP5580 FAA AC 20-145 14 CFR 23.1301, 23.1309, 23.1329, 23.1335, 25.1301, 25.1309, 25.1329, 25.1335 FAA AC 27-1 and FAA AC 29-2 provide guidance on helicopter equipment, primarily in subpart \"F\"",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Timing and latency anomalies",
+      "text": "Standard: Timing and latency anomalies are assessed and documented. The avionics system implements mitigation measures to ensure anomalies do not result in the loss or degradation of SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review FMEA documentation to identify latency and timing anomalies.\n(2) Review test plans and procedures to identify the worst-case operating conditions. Test.\n  (1) Lab test: Conduct laboratory testing under the worst-case operating conditions to verify the timing performance of SCFs. Timing and latency tested in the SIL match the predicted values in the system specifications.\n  (2) Ground test: Air vehicle ground tests will be used to validate laboratory test results. Any ground test issues impacting timing and latency do not impact performance of SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Record any timing and latency anomalies encountered that impact the performance of SCFs. Noted anomalies do not result in the loss or degradation of SCFs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.2.3",
+  "number": "17.2.2.3",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Explosive atmosphere and fire protection",
+  "subject_group": "17.2.2 Induced environments",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Explosive atmosphere and fire protection",
+      "text": "Standard: Harmful gases, particulates, and fluids from gun, rocket, or other store-related systems operation do not accumulate beyond prescribed allowable concentrations (e.g., explosive atmosphere, overpressure). Stores are capable of operating without producing ignition sources (e.g., sparks, arcing, auto-ignition, surface temperatures exceeding flash points), as fuel-air explosive atmospheres may contain harmful, flammable, and explosive vapors that may originate either from stores or from an external source. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine store-related systems (e.g., weapon bays/compartments that contain internal gun systems or store ejection systems/suspension and release equipment; store internal systems or subsystems) to determine if the potential exists for gases, particulates, or fluids to accumulate and identify potential sources of ignition.\n(2) Evaluate any purge and ventilation systems to verify they prevent gases from gun, rocket, or other store-related systems operation from accumulating beyond prescribed levels for harmful or explosive concentrations within expected flight test environments.\n(3) Examine the explosive atmosphere volume for fire detection and fire suppression systems. Analysis.\n  (1) Conduct analysis to verify that gases, particulates, and fluids from gun, rocket, or other store-related systems operation do not accumulate beyond prescribed allowable concentrations.\n  (2) Analyze stores and compartments/weapon bays to verify that there are no sources of ignition within proximity to any accumulated gases, particulates, or fluid.\n  (3) Verify that fire detection and suppression systems are located where needed and are capable of detecting expected concentration levels and informing flight crew. Test.\n    (1) Ground test: Conduct testing that verifies purge and ventilation systems sufficiently prevent gases, particulates, and fluids from guns, rockets, or other store-related systems operation from accumulating beyond allowable concentrations and pressures. Fire detection and suppression systems function as intended.\n    (2) Lab test: Conduct explosive atmosphere lab testing that verify stores demonstrate the ability to operate in fuel-air explosive atmospheres without causing ignition, and that stores demonstrate that an explosive or burning reaction occurring within the store will be contained and will not propagate outside the test item. Testing is accomplished IAW MIL-STD-810, Explosive Atmosphere method. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct testing that verifies purge and ventilation systems prevent gases from guns and rocket operations from accumulating beyond prescribed levels for explosive concentrations for operations that cannot be tested on the ground. Verify that sensors can function in the flight environment and inform the flight crew of hazard.\n    (4) Flight test: Conduct testing to verify that gases, particulates, and fluids from gun and rocket operation do not accumulate beyond prescribed allowable concentrations and pressures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

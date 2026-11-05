@@ -1,0 +1,72 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.1.15",
+  "number": "8.7.1.9",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fuel spray",
+  "subject_group": "8.7.1 Aerial refueling operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.7.1.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that amount of allowable fuel spray/leakage upon engagement and disconnect of the aerial refueling interfaces is safe.",
+      "text": "Verify that amount of allowable fuel spray/leakage upon engagement and disconnect of the aerial refueling interfaces is safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that any spray resultant of the aerial refueling process does not negatively impact the safe operation of the air vehicle(s).",
+      "text": "Verify that any spray resultant of the aerial refueling process does not negatively impact the safe operation of the air vehicle(s). (Fuel spray is typically created during the engagement and disengagement of the aerial refueling interfaces.)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that any spray resultant of the aerial refueling process does not negatively affect the safe operation of the air vehicle(s).",
+      "text": "Verify that any spray resultant of the aerial refueling process does not negatively affect the safe operation of the air vehicle(s). (Fuel spray is typically created during the engagement and disengagement of the aerial refueling interfaces.) DoD/MIL Doc: JSSG-2001: para 3.2.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that any spray resultant of the aerial refueling process does not negatively affect the safe operation of the air vehicle(s).",
+      "text": "Verify that any spray resultant of the aerial refueling process does not negatively affect the safe operation of the air vehicle(s). (Fuel spray is typically created during the engagement and disengagement of the aerial refueling interfaces.) DoD/MIL Doc: JSSG-2001: 3.2.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fuel spray",
+      "text": "Criterion: Verify that any fuel spray resultant of the engagement/disengagement process between the aerial refueling interface(s) of the tanker/receiver(s) does not negatively affect the safe operation of the air vehicle(s) or personnel. Standard: Any fuel spray resultant of the engagement/disengagement process between the aerial refueling interfaces of the tanker/receiver(s) does not cause hazards for the air vehicle(s) or personnel. Areas addressed include but are not limited to: engine inlet, ventilation inlets/outlets, air data sensors, antennae masts, low observable coatings/material, mission equipment, canopy, ignition sources, etc. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis of system design and review of flight test data verifies no hazards are caused by fuel spray resultant of the aerial refueling process. References: JSSG-2001: 3.2.3, 3.3.10 JSSG-2009: F.3.4.6.2.2.2, F.4.4.6.2.2.2, F.3.4.6.2.3.2, F.4.4.6.2.3.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fuel spray",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

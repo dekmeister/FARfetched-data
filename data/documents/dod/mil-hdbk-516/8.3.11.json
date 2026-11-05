@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.11",
+  "number": "8.3.18",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Contamination",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that procedures exist for controlling and purging impurities from the fuel system and that the fuel system's level of contamination is acceptable at all times.",
+      "text": "Verify that procedures exist for controlling and purging impurities from the fuel system and that the fuel system's level of contamination is acceptable at all times.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the design and procedures are adequate for controlling and purging impurities from the fuel system and that the fuel system's level of contamination is acceptable at all times.",
+      "text": "Verify that the design and procedures are adequate for controlling and purging impurities from the fuel system and that the fuel system's level of contamination is acceptable at all times. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.6.2, E.4.4.5.6.2, E.3.4.5.6.3, E.4.4.5.6.3, E.3.4.5.1.3, E.4.4.5.1.3 MIL-F-8615 FAA Doc: 14CFR references: 23.971, 23.973, 23.977, 23.997, 25.971, 25.973, 25.977, 25.997 AC 20-119",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Contamination",
+      "text": "Criterion: Verify that the design and procedures are adequate for controlling and purging impurities from the fuel system and that the fuel system's level of contamination is acceptable at all times. Standard: The fuel system components are qualified to safely operate with specified contaminant size, distribution, and quantity, including water (free water content and icing). The fuel system has provisions to drain water and contaminants from sump areas in the tanks and/or provide in-flight scavenge capability. Procedures for controlling and purging impurities are included in the maintenance and servicing procedures. Method of Compliance: Component qualification testing verifies the capability of components to operate at specified contamination levels. Ground tests verify compliance with fuel system purging requirements. Bench and ground testing verifies the performance of water scavenging system. Maintenance manuals are validated and verified. References: JSSG-2009: E.3.4.5.6.2, E.4.4.5.6.2; E.3.4.5.6.3, E.4.4.5.6.3; E.3.4.5.1.3, E.4.4.5.1.3 SAE ARP8615 MIL-F-17874 14 CFR 23.971, 23.973, 23.977, 23.997, 25.971, 25.973, 25.977, 25.997, 27.971, 27.973, 27.977, 27.997, 29.971, 29.973, 29.977, 29.997 AC 20-119",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Contamination",
+      "text": "Standard: The fuel system tolerates specified contamination without degradation, and includes design features (e.g., drains, screens, and filters) and procedures for detecting and removing any excessive contamination (including water) that would degrade fuel system performance or service life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review air vehicle requirements to verify the maximum contamination types and amounts that the fuel system can tolerate are defined.\n(2) Review maintenance manuals to verify the required inspections and procedures required to detect and remove excessive contamination are included. Analysis.\n  (1) Perform analysis that shows fuel system components are designed to operate with required levels of contamination without performance or service life degradation.\n  (2) Perform analysis that shows the fuel system is designed to control and purge contaminants to maintain them below required levels. Test.\n    (1) Lab test: Conduct individual component qualification testing to verify components can operate with required levels of contamination without performance or service life degradation.\n    (2) Ground test: Processes and procedures for detecting and removing contaminants are verified. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Monitor flight test to verify that the fuel system controls and removes excessive contaminants.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

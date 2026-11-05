@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.4",
+  "number": "8.1.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fluid operating temperatures",
+  "subject_group": "8.1 Hydraulic and pneumatic systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature.",
+      "text": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature.",
+      "text": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature. DoD/MIL Doc: JSSG-2009: para B.3.4.2.1.14/B.4.4.2.1.14 High Temperature Operation; B.3.4.2.1.14.1/B.4.4.2.1.14.1 Thermal Relief; B.3.4.2.1.15/B.4.4.2.1.15 Fire and Explosion Proofing",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature.",
+      "text": "Verify that hydraulic fluid temperatures do not exceed the maximum allowable temperature. DoD/MIL Doc: JSSG-2009: B.3.4.2.1.14/B.4.4.2.1.14 High Temperature Operation; B.3.4.2.1.14.1/B.4.4.2.1.14.1 Thermal Relief; B.3.4.2.1.15/B.4.4.2.1.15 Fire and Explosion Proofing",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fluid operating temperatures",
+      "text": "Criterion: Verify that hydraulic fluid operational temperatures remain between the minimum and maximum allowable limits. Standard: High/low temperature operating conditions are assessed to ascertain fluid thermal conditioning needs. High temperature conditions are controlled to prevent degradation of pressure seals and to prevent overpressurization or leakage due to thermal expansion which creates a fire hazard condition. Low temperature operating conditions (e.g., during start-up, in-flight cold-soak) are controlled to ensure adequate flow capability, minimize system leakage, and prevent filter bypass. Method of Compliance: Verification methods include analysis, test, simulation, inspection, and review of documentation. Analysis of steady state and dynamic performance, component tests and full-scale functional hydraulic power subsystem mockup/simulator testing, ground and flight tests verify hydraulic power subsystem temperatures remain between maximum and minimum allowable limits. Analysis, inspection of drawings, and tests verify protection features are functioning properly. References: JSSG-2009: B.3.4.2.1.14, B.4.4.2.1.14 High Temperature Operation; B.3.4.2.1.14.1, B.4.4.2.1.14.1 Thermal Relief; B.3.4.2.1.15, B.4.4.2.1.15 Fire and Explosion Proofing MIL-STD-5522 ADS-50-PRF SAE AS5440 14 CFR 25.1435",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fluid operating temperatures",
+      "text": "Standard: The air vehicle maintains hydraulic fluid operational temperatures within the minimum and maximum limits IAW SAE AS5440B, Fluid Temperature Limitations paragraph throughout the design envelope. The hydraulic system is designed to operate within the specified fluid temperature limits and contains features (e.g., relief valves, shut-off valves, and fuses) to prevent system failure, degraded system performance, or leakage which could create a fire hazard condition. Thermal conditioning functions (e.g., heat exchangers, warming circuits, warming orifices, and temperature transducers) are incorporated to maintain specified fluid operating temperatures to prevent high fluid temperature effects to include degradation of seals, over pressurization, and leakage as well as low fluid temperature effects to include high fluid viscosities, restricted flow, leakage, and filter bypass. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documents (e.g., system and fluid specifications, drawings, and design review data) to verify system temperature limits are defined. Inspection of drawings verifies features are included for thermal conditioning. Analysis.\n  (1) Conduct analysis of hydraulic systems to verify cold startup, steady state, and dynamic system operation, under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously and dormant systems activating during normal and worst-case operating environmental temperatures of the air vehicle. Hydraulic fluid temperatures are verified to meet interfacing system requirements and are maintained within fluid property limits and requirements. Cold soak and hot soak analysis verifies hydraulic system and components will function as intended during operational use. Thermal conditioning solutions are assessed for proper system sizing and ability to maintain fluid temperature limits. Test.\n    (1) Lab test: Conduct HITL (e.g., iron bird) testing to verify analysis showing hydraulic fluid temperatures are maintained within limits during cold startup, steady state, and dynamic system operation under worst-case flow and pressure demands generated by all combinations of multiple interfacing systems (e.g., flight controls, landing gear, and weapons systems) operating simultaneously and dormant systems activating. Testing also verifies features (e.g., relief valves, shut-off valves, and fuses) and thermal conditioning solutions perform as required to meet the demands of the air vehicle.\n    (2) Ground test: Conduct on air vehicle testing to verify analysis showing hydraulic fluid temperatures are maintained within limits during cold startup, steady state, and dynamic system operation, including multiple interfacing systems operating simultaneously and dormant systems activating during normal and worst-case operating environment temperatures of the air vehicle. Cold soak and hot soak testing verify hydraulic systems and components will function as required during operational use. Testing also verifies features (e.g., relief valves, shut-off valves, and fuses) and thermal conditioning solutions perform as required to meet the demands of the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight test to verify hydraulic fluid temperatures are maintained within limits during steady state and dynamic system operation throughout the design envelope of the air vehicle. Flight testing verifies in-flight dormant systems (e.g., weapons bay doors, refueling slipway, and cargo ramp) will function as intended during operational use. Testing also verifies thermal conditioning solutions perform as required to meet the demands of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

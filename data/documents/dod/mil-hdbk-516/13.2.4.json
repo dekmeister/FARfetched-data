@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.4",
+  "number": "13.2.4",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Verify that electrostatic charge control is safe.",
+  "subject_group": "13.2 System-level E3 qualification",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that electrostatic charge control is safe.",
+      "text": "Verify that electrostatic charge control is safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that electrostatic charge control is safe.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

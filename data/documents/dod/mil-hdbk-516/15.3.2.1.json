@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.2.1",
+  "number": "15.5.2",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Software control structure and execution rates",
+  "subject_group": "15.5 Software architecture and design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.2.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts.",
+      "text": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.2.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts.",
+      "text": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2001: para 3.3.3.1 JSSG-2008: para 3.3.4; JSSG-2001: para 3.3.3.1 provides guidance for establishing adequate computer hardware reserve capacity. JSSG-2008 Appendix A: para 3.3.1 establishes timing and control allocations based on operational requirements. Para 3.3.4 addresses synchronization, deterministic execution and frame rate issues. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.2.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts.",
+      "text": "Verify that the executive/control structure execution rates are sufficient and consistently obtainable for SOF requirements given the control structure, priority assignments, and interrupts. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2001: 3.3.3.1 JSSG-2008: 3.3.4 JSSG-2001: 3.3.3.1 provides guidance for establishing adequate computer hardware reserve capacity JSSG-2008 Appendix A: 3.3.1 establishes timing and control allocations based on operational requirements; 3.3.4 addresses synchronization, deterministic execution and frame rate issues FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software control structure and execution rates",
+      "text": "Criterion: Verify for each SSSE that the execution rates provided by the executive/control structure (considering priority assignments and interrupt design) are consistently obtainable and sufficient to safely provide the required performance for all SCFs supported. Standard: SSSE flow and execution is deterministic and all processes meet their deadlines under all conditions. Frame rates are compatible with real time system performance requirements and support execution rate requirements. SPA mechanization including priority task assignments, interrupt structure and overall processing control structure is sufficient for safety critical requirements/function processing. The executive structure or operating system is designed, developed, integrated and tested to its corresponding CSIL. Method of Compliance: Verification methods include analysis, test, and inspection. Analysis verifies execution rates directly correlate to required frame rates and allowable data latencies. Inspection of documentation verifies that the executive structure or operating system was developed as safety/flight critical. Software development lab tests verify that executive control structure meets required execution rates under fully loaded, worst case timing conditions. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.5.d.1 & 2, III.5.i.6); 3.3.1 establishes timing and control allocations based on operational requirements; 3.3.4 addresses synchronization, deterministic execution, and frame rate issues; 3.3.6.1 Requirement Guidance provides restrictions on coding for executive control functionality DoD JSSSEH: 4.3.7.3.2.3; 4.3.7.3.2.5; D.6.4; D.6.8; E.4.6; E.5.1.1; E.5.3; E.9.5; E.10.2; E.10.4 USAF Weapon Systems Software Management Guidebook: G.3.1 RTCA DO-178: (see also RTCA DO-178B) IEEE Std 1012-2012: 9.1 Activity table V&V Task (2) hardware and software allocation analysis (timing, response time, frequency, etc.) IEEE 12207.2-1997 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 6.4.2.5.b FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software control structure and execution rates",
+      "text": "Standard: 1. Verify for each SESS that the execution rates provided by the executive and control structure (considering priority assignments and interrupt design) are consistently obtainable and sufficient to safely provide the required performance for all SCFs supported. Software element supporting safety-critical function(s) flow and execution is deterministic. All processes and processing tasks meet their deadlines under all conditions. Processing frame rates are compatible with real-time system performance requirements and support execution rate requirements. System processing architecture mechanization including process and processing task priority assignments, interrupt structure, and overall processing control structure supports the integrity of SCF operation. The executive and control structure is designed, developed, integrated, and tested to the same CSIL (or higher) commensurate with the highest functional criticality of the system supported by the executive and control structure. In addition, for designs utilizing MCP environments: 2. This standard is applicable per each processing core (and VM as applicable) within an MCP supporting SCF processing. All instances of executive control coupling between processing cores (and VMs as applicable) are identified and do not adversely impact the integrity of SCF operation. 3. For each processing core (and VM as applicable) utilized within the MCP environment, the software control and execution structure of the hosted software elements are identified, to include: a. Processing rates for each process and processing task. b. Foreground vs background process and processing task structure and prioritizations. c. Major and minor frame structures and scheduling. d. Memory management approach for each process and processing task. e. Synchronization techniques used to synchronize processing cores (and VMs as applicable) to other processing cores (and VMs as applicable). f. Synchronization techniques used to synchronize processing cores (and VMs as applicable) to redundant processes and processing tasks external to the MCP. The software control and execution structure are designed to meet system performance requirements and support the integrity of SCF operation. 4. The executive and control structure enforces an AMP or BMP scheme for the operation of all processing cores processing a SESS. 5. The software control and execution structure accounts for interference channels and resource contention, and provides adequate mitigations to maintain the integrity of SCF operation. 6. All software interfaces with MCP hardware are identified and support the integrity of SCF operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination. Analysis verifies execution rates directly correlate to required processing frame rates and allowable data latencies. Examination of documentation verifies that the executive and control structure is developed to the same CSIL (or higher) commensurate with the highest functional criticality of the system supported by the executive and control structure. Software development lab tests verify that the executive and control structure meets required execution rates under fully loaded, worst-case timing conditions. In addition, for designs utilizing MCP environments: 2. Examination of software design documentation verifies the software executive structure for each processing core (and VM as applicable) is identified, and that all instances of executive control coupling between processing cores (and VMs as applicable) have been identified. Testing verifies that the executive and control structure is adequately verified and validated for use in the MCP environment. Analysis and testing verify that hypervisors are adequately verified and validated and shown to be safe and compatible with the chosen operating system(s). Analysis and testing under nominal and off-nominal conditions verify that all instances of executive control coupling between processing cores (and VMs as applicable) support the integrity of SCF operation. 3. Examination of software design documentation verifies that the software control and execution structure attributes identified in the standard have been identified. Analysis and testing verifies that the software control and execution structure meets requirements and is safe. 4. Examination of software architecture requirements and design verify that an AMP or BMP scheme is utilized for cores processing a SESS. Analysis, demonstration, and test verify that the executive and control structure enforces an AMP or BMP scheme for processing cores processing a SESS. 5. Analysis verifies that interference channels and resource contention are identified for the MCP environment and their potential impact on the integrity of SCF operation. Analysis and testing verify that the software control and execution structure provide adequate mitigations for every possible interference channel and resource contention identified that can impact the integrity of SCF operation. 6. Examination of MCP hardware-software interface design documentation verifies that the software interfaces with the MCP hardware have been identified. Testing verifies that the interface design supports SCF processing requirements and there are no issues with the compatibility of the interface design.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

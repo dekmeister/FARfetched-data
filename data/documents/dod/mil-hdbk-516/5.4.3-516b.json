@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.4.3-516b",
+  "number": "5.4.3",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Durability and damage tolerance control processes",
+  "subject_group": "5.4 Damage tolerance and durability (fatigue)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that a durability and damage tolerance control process is established and implemented in the engineering design and manufacturing process.",
+      "text": "Verify that a durability and damage tolerance control process is established and implemented in the engineering design and manufacturing process. DoD/MIL Doc: MIL-HDBK-6870 for guidance in the development of Nondestructive Inspection procedures. JSSG-2006: para A.3.13, pg 417 JSSG-2006: para A4.13, pg 419 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that a durability and damage tolerance control process is established and implemented in the engineering design and manufacturing process.",
+      "text": "Verify that a durability and damage tolerance control process is established and implemented in the engineering design and manufacturing process. DoD/MIL Doc: MIL-HDBK-6870 for guidance in the development of Nondestructive Inspection procedures. JSSG-2006: A.3.13, pg 417 JSSG-2006: A.4.13, pg 419 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Durability and damage tolerance control processes",
+      "text": "Criterion: Verify that a durability and damage tolerance control process is established and implemented in the engineering design and manufacturing process. Standard (Army and Air Force): a. The durability and damage tolerance control process is established to ensure that maintenance and fatigue/fracture critical parts meet the durability and damage tolerance requirements. b. For Army rotorcraft life cycle control of Flight Safety Parts (FSPs) fatigue strength is accomplished by following the guidance of AMCOMR 702-7. Standard (Navy): The durability and damage tolerance control process ensures that maintenance and fatigue/fracture critical parts meet durability and damage tolerance requirements. Navy Flight Safety Flight Parts control follows requirements defined in NAVAIRINST 4200.56. Method of Compliance (Army and Air Force): Verification methods include analysis, test, demonstration and inspection of documentation. a. The durability and damage tolerance control process is properly documented and implemented with the following tasks:\n(1) A disciplined procedure for durability design is implemented to minimize the possibility of incorporating adverse residual stresses, local design details, materials, processing, and fabrication practices.\n(2) Basic data (i.e., initial quality distribution, fatigue allowables, fracture toughness (KIC (plane strain fracture toughness), KC (plane stress fracture toughness), KISCC (stress corrosion cracking), da/dn (crack growth rate), etc.)) utilized in the initial trade studies and the final design and analyses are obtained from reliable sources or developed as parts of the program.\n(3) Criteria for identifying and tracing fatigue/fracture critical parts are established and are approved by the procuring agency. A fatigue/fracture critical parts list is established by the contractor and is kept current as the design of the airframe progresses.\n(4) Design drawings for the maintenance critical parts and fatigue/fracture critical parts identify critical locations, special processing (e.g., shot peening), and inspection requirements.\n(5) Material procurement and manufacturing process specifications is developed and updated as necessary to ensure that initial quality and fracture toughness properties of the critical parts exceed the design value.\n(6) Experimental determination sufficient to estimate initial quality by microscopic or fractographic examination is performed for those structural areas where cracks occur during full scale durability testing.\n(7) Complete nondestructive inspection requirements, process control requirements, and quality control requirements for maintenance, fatigue/fracture critical parts is established and approved by the procuring agency. This task includes the plan for certifying and monitoring subcontractor, vendor, and supplier controls.\n(8) The durability and damage tolerance control process includes any special nondestructive inspection demonstration programs conducted to satisfy the durability and/or damage tolerance requirements.\n(9) Traceability requirements are defined and imposed on those fatigue and fracture critical parts that receive processing and fabrication operations which could degrade the design material properties.\n(10) For all fracture critical parts that are designed for a degree of inspectability other than in-service non-inspectable, the necessary inspection procedures are defined for field use for each appropriate degree of inspectability. b. For Army rotorcraft, life cycle control of FSPs fatigue strength is accomplished as follows:\n  (1) A disciplined procedure for fatigue design is implemented to minimize the possibility of incorporating adverse residual stresses, with specific attention to local design detail, materials, processing and fabrication practices. The design considers a potential reduction in beneficial residual stresses for metal components and creation of defects in composite components due to the application of limit load.\n  (2) While analytical predictions of component fatigue strength are utilized in the early design phase, fatigue testing of a minimum of two representative flight components is to be performed to establish fatigue strength prior to first test flight. For fielding, the fatigue strength curve is established by testing six (6) production components. The fatigue design curve (working curve) is established utilizing an approved fatigue methodology report.\n  (3) FSPs are identified and controlled for the life cycle of the component. The engineering drawing identifies the component as an FSP and clearly identifies critical characteristics. The drawing specifies the inspection requirements for FSPs. The criteria for identifying and tracking FSPs is established and an FSP part list is developed and kept current for the life cycle of the aircraft.\n  (4) Manufacturing planning is developed for all FSPs. Parts manufactured utilizing these plans meet all necessary requirements. The manufacturing plan is frozen once the design is qualified. All changes to the frozen manufacturing plan pertaining to critical characteristics require approval by the procuring agency.\n  (5) Experimental determination, sufficient to estimate initial component quality, by microscopic or fractographic examination is performed for FSPs where cracks occur during fatigue testing.\n  (6) Maintenance and Overhaul (M&O) planning is developed for all FSPs. Each M&O process affecting an FSP critical characteristic as identified in the Depot Maintenance Work Requirement (DMWR) or other authorized M&O procedure is qualified to substantiate that there is no reduction in performance of the FSP. Changes to frozen M&O planning pertaining to critical characteristics require approval by the procuring agency.\n  (7) New component procurement and M&O procedures utilize manufacturing sources approved by the procuring agency. Method of Compliance (Navy): Method of Compliance is in general agreement with that specified above. Specific compliance requirements are defined in JSSG-2006 and applicable rotary wing AVPS structures addenda. Verification methods include analysis, test, demonstration and inspection of documentation to verify that control process is established and implemented in accordance with the requirements of NAVAIRINST 4200.56. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.13, A.4.13 (Army rotary wing) ADS-10-SP, ADS-24 (cancelled), ADS-27-SP, ADS-29 (cancelled), ADS-51, ADS-64-SP (inactive), AR-70-62, AMCOMR 702-7 (Navy rotary wing) As identified in the AVPS Addendum for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 NAVAIRINST 4200.56 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Durability and damage tolerance control processes",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

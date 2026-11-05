@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.4.2",
+  "number": "17.4.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Laser boresight",
+  "subject_group": "17.4 Laser integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Laser boresight",
+      "text": "Standard: The laser system retains boresight alignment with the airframe LOS to ensure laser pointing angular accuracy prevents laser energy from entering masked or cutout zones IAW MIL-STD-1425, Boresight section. The laser system alignment remains within tolerance for the full flight profile or provides a means to detect when it does not. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation (e.g., ICD, specifications, drawings, descriptions, flight manual) to verify boresight alignment process with airframe LOS, alignment accuracy errors, boresight drift, misalignment indications, and procedure for inflight alignment. Test.\n  (1) Ground test: Verify laser boresight alignment performance maintains clear separation between alignment and masking error bounds under static controlled conditions. Verify crewmembers can perform a laser boresight alignment procedure. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Verify laser boresight alignment and retention performance continues to maintain clear separation between alignment and masking error bounds during dynamic flight maneuvers. Verify misalignment indications and that crewmembers can perform an inflight laser boresight alignment procedure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

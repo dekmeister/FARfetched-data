@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.6.2",
+  "number": "5.6.2",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Verify that all pressure compartments (including fuel tanks) have proof pressure margin.",
+  "subject_group": "5.6 Functionality",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that all pressure compartments (including fuel tanks) have proof pressure margin.",
+      "text": "Verify that all pressure compartments (including fuel tanks) have proof pressure margin.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that all pressure compartments (including fuel tanks) have proof pressure margin.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

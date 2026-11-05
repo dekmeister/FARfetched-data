@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.18",
+  "number": "8.7.16",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Actuation without damage",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (for example, flaps) during folding and unfolding operations.",
+      "text": "Verify that utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (for example, flaps) during folding and unfolding operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (for example, flaps) during folding and unfolding operations.",
+      "text": "Verify that utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (for example, flaps) during folding and unfolding operations. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.8; 4.4.9.4.8",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation without damage",
+      "text": "Criterion: Verify that utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (e.g., flaps) during folding and unfolding operations. Standard: The actuation system control has interlocks or logic that will prevent actuation power or movement when other mechanical surfaces or flight control surfaces are in a position to be damaged or compromised. Method of Compliance: The design is verified by analysis of components and systems. Component and full scale system tests verify actuation logic and control to the extent that no actuation power is applied or movement occurs when other surfaces are in the way. Full scale checkouts on the air vehicle verify system interlock and control logic meet design requirements. References: JSSG-2009: (Appendix I) I.3.4.9.4; I.3.4.9.4.8; I.4.4.9.4.8",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation without damage",
+      "text": "Standard: Utility actuation subsystems incorporate some means to prevent damage to adjacent movable surfaces (e.g., flaps) during folding and unfolding operations. The actuation system control has interlocks or logic that will prevent actuation power or movement when other mechanical surfaces or flight control surfaces are in a position to be damaged or compromised. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of components and systems to verify actuation logic and control to the extent that no actuation power is applied, or movement occurs when other surfaces are in the way. Demonstration.\n  (1) Conduct checkouts on the air vehicle verify system interlock and control logic meet design requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

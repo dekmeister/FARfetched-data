@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.14",
+  "number": "8.6.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Technical manuals",
+  "subject_group": "8.6 Auxiliary power systems and emergency power systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.6.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "text": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.6.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "text": "Verify that the operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.6.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight/operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "text": "Verify that the flight/operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information. DoD/MIL Doc: JSSG-2000: para 3.6.2 FAA Doc: 14CFR reference: 23.1581 - 23.1585, G23.3 - G23.4, 25.1581 - 25.1585, H25.3 - H25.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.6.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight/operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information.",
+      "text": "Verify that the flight/operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information. DoD/MIL Doc: JSSG-2000: 3.6.2 FAA Doc: 14CFR reference: 23.1581 - 23.1585, G23.3 - G23.4, 25.1581 - 25.1585, H25.3 - H25.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.6.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Criterion: Verify that the flight/operator and maintenance manuals include normal and emergency operating procedures, limitations, servicing, and maintenance information. Standard: Technical data describes the installed APS/EPS, normal and emergency operation, operating procedures and limitations, servicing, and maintenance requirements. Method of Compliance: Technical data is validated by inspection of design documentation and technical manuals and demonstration of technical manual procedures. References: JSSG-2000: 3.6.2 14 CFR 23.1581-23.1585, G23.3-G23.4, 25.1581-25.1585, H25.3-H25.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Standard: Flight manuals will include AMAD and APS and emergency power system normal, backup, and emergency procedures, system parameters, indications, WCAs, restrictions, and air vehicle operating limitations. Maintenance manuals will include AMAD and APS and emergency power system life limits, inspections, limitations, and servicing procedures. The manuals' information is substantiated and reflects the as designed or modified system. The technical manuals incorporate unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, and qualification testing findings). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manuals to verify that the flight crew is provided information addressing WCAs, indications, limits of operation, normal, emergency and backup procedures.\n(2) Review technical manuals to verify they incorporate unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, and qualification testing findings). Analysis.\n  (1) Conduct supporting analyses to establish the basis for the published operating procedures, flight manual limits (e.g., emergency time to land in worst-case conditions), and the system operating limits.\n  (2) Conduct supporting analyses to establish the basis for the published maintenance manual life limits, inspections, limitations, and servicing procedures including unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, and qualification testing findings). Test.\n    (1) Ground test: Conduct on air vehicle testing to validate and verify flight manual normal and emergency procedures for AMAD and APS and emergency power system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test to validate and verify flight manual normal and emergency procedures for AMAD and APS and emergency power system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

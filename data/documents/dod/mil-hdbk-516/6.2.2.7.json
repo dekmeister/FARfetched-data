@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.7",
+  "number": "6.2.11.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Nonlinearities",
+  "subject_group": "6.2.11 Vehicle control function control law safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.7",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify functional control nonlinearities are safe.",
+      "text": "Verify functional control nonlinearities are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.7",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that functional control nonlinearities are safe.",
+      "text": "Verify that functional control nonlinearities are safe. DoD/MIL Doc: JSSG-2008: para 3.2.2.5.4 thru 3.2.2.5.4.5, 4.2.2.5.4 thru 4.2.2.5.4.5 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.7",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that functional control nonlinearities are safe.",
+      "text": "Verify that functional control nonlinearities are safe. DoD/MIL Doc: JSSG-2008: 3.2.2.5.4 thru 3.2.2.5.4.5, 4.2.2.5.4 thru 4.2.2.5.4.5 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.5.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Nonlinearities",
+      "text": "Criterion: Verify that VCF control law nonlinearities are safe. Standard: Nonlinearities within the integrated system (e.g., mechanical, electrical, hydraulic, digital, and analog interfaces) as well as computational paths nonlinearities as an aggregate cannot induce a departure from controlled flight, loss of control, or Pilot-in-the-loop oscillation (PIO). The VCF should have gain margins no worse than 6 dB and the phase margin no worse than 45 degrees throughout the entire flight envelope. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. Analysis and simulation verify the stability gain and phase margins to ensure safe system operation, both in the linear and nonlinear ranges. Hardware-in-the-Loop (HITL) testing identifies system nonlinearities and verifies safe operation. Ground and flight tests results verify safe VCF operation throughout the flight envelope. References: JSSG-2008: 3.2.2.5.4 through 3.2.2.5.4.5, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Nonlinearities",
+      "text": "Standard: Nonlinearities within the integrated system (e.g., mechanical, electrical, hydraulic, digital, and analog interfaces) as well as computational path nonlinearities do not degrade VCF below Operational State III or result in PIO. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to define sources of nonlinearities in the integrated system, including but not limited to: rate limiting, overshoot, and saturation.\n(2) Review simulations model documentation to verify nonlinearities are incorporated. Test.\n  (1) Lab test: Conduct piloted simulation to verify nonlinearities do not degrade VCF below Operational State III or cause PIO. Nonlinearities are intentionally exercised as part of this evaluation. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight: Conduct flight test to verify nonlinearities within the integrated system (e.g., mechanical, electrical, hydraulic, digital, and analog interfaces) as well as computational path nonlinearities do not degrade VCF below Operational State III or result in PIO.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.3.1",
+  "number": "5.3.2",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Materials and processes",
+  "subject_group": "5.3 Strength",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "5.3.1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated.",
+      "text": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "5.3.1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated.",
+      "text": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated. Materials repairs should have conditions and properties to satisfy design requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the allowables for materials are minimums; are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and are validated.",
+      "text": "Verify that the allowables for materials are minimums; are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and are validated. Verify that conditions and properties associated with material repairs satisfy design requirements. DoD/MIL Doc: MIL-STD-1568 MIL-HDBK-1587 JSSG-2006: para A3.2.19, A3.2.19.1, A3.2.19.2 (for standard development) JSSG-2006: para A4.2.19, A4.2.19.1, A4.2.19.2 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the allowables for materials are derived using statistical compensations appropriate to part criticality and the nature of the material; are established considering component and assembly variability, the expected environmental extremes, fabrication processes, repair techniques, and quality assurance procedures; and are validated.",
+      "text": "Verify that the allowables for materials are derived using statistical compensations appropriate to part criticality and the nature of the material; are established considering component and assembly variability, the expected environmental extremes, fabrication processes, repair techniques, and quality assurance procedures; and are validated. Verify that conditions and properties associated with material repairs satisfy design requirements. DoD/MIL Doc: MIL-STD-1568 MIL-HDBK-1587 JSSG-2006: A.3.2.19, A.3.2.19.1, A.3.2.19.2 (for standard development) JSSG-2006: A.4.2.19, A.4.2.19.1, A.4.2.19.2 (for compliance development)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Materials and processes",
+      "text": "Criterion: Verify that the allowables for materials are estimated minima derived using statistical compensations appropriate to part criticality and the nature of the material; are established considering component and assembly variability, the expected environmental extremes, fabrication processes, repair techniques, and quality assurance procedures; and are validated. Verify that conditions and properties associated with material repairs satisfy design requirements. Standard: Materials and processes are selected in accordance with the following requirements so that the air vehicle structure meets the operational and support requirements. a. Relevant producibility, maintainability, supportability, repairability, and availability experience with the same, or similar, materials processes are a governing factor for suitability of the air vehicle structure design. Material systems and materials processes selected for design are stable, remain fixed, and minimize unique maintenance and repair practices in accordance with the specified operational and support concepts. b. Material systems and materials processes (including radioactive materials and processes) are environmentally compliant, compliant with best occupational safety and health practices, and minimize hazardous waste generation. c. The processes and joining methods do not contribute to unacceptable degradation of the properties of the materials when the air vehicle structure is exposed to operational usage and support environments. Whenever materials are proposed for which only a limited amount of data is available, the acquisition activity is provided with sufficient background data so that a determination of the suitability of the material can be made. The allowable structural properties include all applicable statistical variability and environmental effects, such as exposure to climatic conditions of moisture and temperature; exposure to corrosive and corrosion causing environments; airborne or spilled chemical warfare agents; and maintenance induced environments commensurate with the usage of the air vehicle. Specific material requirements are:\n(1) \"A\" basis design allowables are used in the design of all critical parts. \"A\" basis design allowables are also used in the design of structure not tested to ultimate load in dynamic component or full scale air vehicle static testing. \"B\" basis design allowables can be used for all other structure.\n(2) \"S\" basis design allowables are acceptable for design when \"A\" or \"B\" basis allowables are not available, provided they are specified in a governing industry/government document that contains quality assurance provisions at the heat, lot, and batch level in the as-received material condition. Appropriate test coupons accompany the material in the as received condition and the material is subject to testing for verification of minimum design properties after final processing. The guidance contained in MIL-STD-1568, MIL-HDBK-1587, as well as CMH-17, ADS-13 and MMPDS-08 serves as the baseline approach for addressing materials/processes and corrosion requirements and is deviated from only with appropriate supporting engineering justification. The aforementioned documents provide extensive guidance/lessons learned for materials processes selection and application. Method of Compliance: Inspections, analyses, and tests verify that the materials and processes selected are in compliance with requirements. The following compliance section is applicable to all standards. Standardized test methods used to establish metallic and composite material systems properties are used. When such standardized methods (e.g., MIL-STD-1568, MIL-HDBK-1587, as well as CMH-17, ADS-13 and MMPDS-08) are not available, a program was undertaken to explore and develop standardized test methods. All test methods used in establishing material system performance is documented. The following requirements also apply: a. Materials and processes development and characterization and the selection process are documented. Second source materials (when established as a program requirement) are qualified and demonstrated through testing to have equivalent performance and fabrication characteristics as the selected baseline material. b. Environmentally conditioned tests are performed at the appropriate development test level to meet relevant design conditions. c. Materials and processes characteristics for critical parts comply with the requirements of parts control processes. d. Environmental compliance with all applicable environmental statutes and laws for all materials systems and processes selected is verified. This includes life cycle management of hazardous materials. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.2.19, A.4.2.19; A.3.2.19.1; A.3.2.19.2, A.4.2.19.2 (Army rotary wing) ADS-13, ADS-29 (cancelled) (Navy rotary wing) As identified in the AVPS Addendum for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 MIL-STD-1568 MIL-HDBK-1587 CMH-17 MMPDS-08 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Materials and processes",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.1.6",
+  "number": "9.6.3.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Onboard emergency egress equipment",
+  "subject_group": "9.6.3 Emergency ground, ditching, and water egress",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.1.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that egress equipment exists to aid escape in the event that exits are blocked, are damaged, or have failed.",
+      "text": "Verify that egress equipment exists to aid escape in the event that exits are blocked, are damaged, or have failed.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.1.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that egress equipment exists to aid escape in the event exits are blocked, damaged, or when exit opening actuation fails.",
+      "text": "Verify that egress equipment exists to aid escape in the event exits are blocked, damaged, or when exit opening actuation fails. DoD/MIL Doc: No information available in current JSSG. Information to be included in next revision of JSSG. FAA Doc: 121.309, 121.310",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.1.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Emergency egress/rescue equipment",
+      "text": "Criterion: Verify that egress equipment exists to aid escape in the event exits are blocked, damaged, or when exit opening actuation fails. Standard: Creation of necessary exits in aircraft transparencies and designated aircrew compartment surfaces can be performed by using either onboard devices (e.g., crash axe, canopy penetrator) and/or ground rescue tools (e.g., fire rescue axe, powered saw). Depending on the operational concept of the aircraft, the egress equipment exists either on the aircraft and/or with organizations where the aircraft could operate. If applicable, onboard egress equipment exists in every compartment where an occupant could be under landing and takeoff conditions. Method of Compliance: Emergency egress/rescue demonstrations, test, and analysis documentation verify that exits can be created in aircraft transparencies and designated aircrew compartments with either onboard devices or ground rescue tools. References: No information available in current JSSG. 14 CFR 121.309, 121.310",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Onboard emergency egress equipment",
+      "text": "Standard: Onboard emergency egress equipment (e.g., crash axe, canopy penetrator) are capable of creating necessary exits in transparencies and designated crewmember compartment surfaces. Onboard egress equipment should be in compartments occupied during takeoff and landing. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of drawings or digital mockups should verify onboard exit creating device provisions.\n(2) Examination of the physical air vehicle should show that provisions exist for onboard exit creating devices. Demonstration.\n  (1) Demonstrate emergency egress and rescue equipment to show that exits can be created in transparencies and designated crewmember compartments with onboard emergency egress equipment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1.4.7",
+  "number": "14.1.1.4.7",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Test safety and support",
+  "subject_group": "14.1.1.4 System safety program implementation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Test safety and support",
+      "text": "Criterion: Verify that the system safety program addresses test safety and support. Standard: System safety organization actively participates in test planning and post-test reviews to analyze all test-related hazards and recommended corrective actions to ensure hazard closeout or mitigation. Appropriate system safety requirements criteria are incorporated into the test program for validation and verification. Method of Compliance: Verification method includes inspection of documentation. System safety support of the test and evaluation process and incorporation of safety requirements criteria are verified by inspection of the system safety program plan, test-related hazard analyses and the Test and Evaluation Master Plan (TEMP). References: MIL-STD-882 SAE ARP4754 14 CFR Section 1309 of Parts 23, 25, 27, 29 and related advisory circulars.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Test safety and support",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

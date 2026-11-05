@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.2.3",
+  "number": "8.5.1.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Wheel well clearances",
+  "subject_group": "8.5.1 Landing gear general arrangement",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "For retractable gears, verify that there is sufficient clearance within the wheel well under all ground and flight conditions so that no part of the gear will contact the airframe or get stuck in the up position due to interference with any air vehicle structure.",
+      "text": "For retractable gears, verify that there is sufficient clearance within the wheel well under all ground and flight conditions so that no part of the gear will contact the airframe or get stuck in the up position due to interference with any air vehicle structure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "For retractable gears, verify that sufficient clearance exists within the wheel well under all ground and flight conditions so that no part of the gear contacts the airframe or becomes stuck in the up position due to interference with any air vehicle structure.",
+      "text": "For retractable gears, verify that sufficient clearance exists within the wheel well under all ground and flight conditions so that no part of the gear contacts the airframe or becomes stuck in the up position due to interference with any air vehicle structure. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.4/A.4.4.1.1.4 Retraction Clearances. AFGS-87139: para 3.2.1.2 Arrangement and 3.2.1.3.b Clearances (retractable landing gears). FAA Doc: 14CFR references: 23.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "For retractable gears, verify that sufficient clearance exists within the wheel well under all ground and flight conditions so that no part of the gear contacts the airframe or becomes stuck in the up position due to interference with any air vehicle structure or component.",
+      "text": "For retractable gears, verify that sufficient clearance exists within the wheel well under all ground and flight conditions so that no part of the gear contacts the airframe or becomes stuck in the up position due to interference with any air vehicle structure or component. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.4/A.4.4.1.1.4 Retraction Clearances AFGS-87139: 3.2.1.2 Arrangement and 3.2.1.3.b Clearances (retractable landing gears) FAA Doc: 14CFR references: 23.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Wheel well clearances",
+      "text": "Criterion: For retractable gears, verify that sufficient clearance exists within the wheel well under all ground and flight conditions so that no part of the gear contacts the airframe or becomes stuck in the up position due to interference with any air vehicle structure or component. Standard: Sufficient clearance is maintained between all landing gear components, air vehicle structure and air vehicle systems. Rotating parts do not unintentionally contact other components and systems over the landing gear's life including adverse wear effects. Loads from rotating parts do not exceed design requirements. Method of Compliance: Verification methods include analyses, tests, inspections and demonstrations. Clearance analyses, system inspections and system checkouts on the air vehicle verify clearances between landing gear and structure. Simulator testing verifies clearances under air loads. Flight and ground demonstrations verify suitable clearances for all takeoff and landing operations, both for normal and emergency operations. Lab testing verifies that rotating parts, including grown tires, do not exceed design requirements and clearances. Clearances due to wear effects are verified by simulation or inspection of lead the fleet aircraft. References: JSSG-2009: A.3.4.1.1.4, A.4.4.1.1.4 Retraction Clearances AFGS-87139: 3.2.1.2 Arrangement and 3.2.1.3.b Clearances (retractable landing gears) 14 CFR 23.745",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Wheel well clearances",
+      "text": "Standard: For retractable gear, a 0.5-inch minimum clearance is maintained within the wheel well between all landing gear components, air vehicle structure, and air vehicle systems including linkages, wiring, hydraulics, fuels, weapons systems, and ECSs during all flight conditions, and during both normal and emergency operation. A minimum clearance of 1 inch is provided between all stores and any portion of the landing gear. Clearance will be maintained over the landing gear system's life including adverse wear effects. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of drawings or model verifies clearances are present to allow the landing gear to move through the various stages of gear retraction and extension for all design, assembly, and manufacturing tolerances. Analysis.\n  (1) Kinematic analysis verifies the landing gear system and mechanism clearances for all combinations of free play, installation tolerances, and rigging are maintained through full range of landing gear and door motion and under all design loading conditions (e.g., air loads and temperature ranges) to allow the gear to reach the commanded position.\n  (2) Clearance analysis verifies the landing gear system maintains a 1-inch clearance with stores throughout the landing gear retraction and extension sequence. Demonstration.\n    (1) Conduct landing gear extend and retract system checkout on the air vehicle during production to verify clearances and no unintended interference conditions exist within wheel well. Test.\n      (1) Lab test: Conduct dynamometer testing to verify the thrown and grown tire envelopes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (2) Conduct flight demonstrations to verify clearances (e.g., no chafing or rubbing) are maintained during takeoff, flight, and landing operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

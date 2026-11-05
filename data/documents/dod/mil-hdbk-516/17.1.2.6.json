@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.2.6",
+  "number": "17.1.2.6",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Aeroservoelasticity",
+  "subject_group": "17.1.2 Stores structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Aeroservoelasticity",
+      "text": "Standard: The weapon control system has gain and phase margins to operate without instabilities induced through coupling of aerodynamic, structural, thermal, and inertial forces throughout the intended employment environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the ASE analysis shows the weapon control system has gain and phase margins to operate without instabilities induced through coupling of aerodynamic, structural, thermal, and inertial forces throughout the intended employment environment. Analysis.\n  (1) Conduce ASE analysis using models correlated with lab developmental and ground structural coupling tests. Analytical results show no instabilities. Test.\n    (1) Lab test: Conduct developmental tests on control systems to substantiate the aerodynamic, mechanical, flight control, and mass models used for the control system phase and gain predictions.\n    (2) Ground test: Conduct full-scale structural coupling tests to update and correlate the analysis for modal coupling with the FCS. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n  (2) Verify the ASE analysis report is complete with the models updated for all flight control software updates from flight test and analytical results show no instabilities. Analysis.\n(2) Update the ASE analysis for all flight control software updates derived from flight test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.6.1.7",
+  "number": "6.1.6.1.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Longitudinal control power",
+  "subject_group": "6.1.6.1 Longitudinal response to the pitch controller",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal control power",
+      "text": "Criterion: Verify that longitudinal control power is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.2.1.7 Longitudinal control power. b. 5.2.2.1.7.1 Longitudinal control margin (see nose-down control margin table for guidance). c. 5.2.2.1.7.2 Longitudinal control power in unaccelerated flight. d. 5.2.2.1.7.3 Longitudinal control power in maneuvering flight (see table XXXIV for guidance). e. 5.2.2.1.7.4 Load factor onset and peak pitch rate (see tables XXXV and XXXVI for guidance). f. 5.2.2.1.7.5 Longitudinal control power for takeoff (see table for guidance on blanks (1) and (2)).\n(1) 5.2.2.1.7.5.1 Longitudinal control power in catapult takeoff.\n(2) For launch assisted take-off the air vehicle system can safely transition to normal flight for all conditions in the launch envelope. g. 5.2.2.1.7.6 Longitudinal control power in landing (see tables for guidance on blanks (1) through (3)).\n  (1) For alternate or unique recovery methods the air vehicle system can safely land for all conditions in the recovery envelope. For rotorcraft, the air vehicle meets the standards within ADS-33-PRF, 3.4.2 Pitch control power. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: JSSG-2001 14 CFR 23.143 General; 23.145 Longitudinal control, 23.153 Control during landings 14 CFR 25.143 General, 25.145 Longitudinal control 14 CFR 27.143 Controllability and maneuverability",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Longitudinal control power",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

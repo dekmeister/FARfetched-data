@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.5",
+  "number": "8.5.9.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Gear down limit speed",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.10.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the time to move the gears to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "text": "Verify that the time to move the gears to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.5.10.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "text": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.10.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "text": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.5.1/A.4.4.1.5.5.1 Retraction; and A.3.4.1.5.5.2/A.4.4.1.5.5.2 Extension; AFGS-87139: para 3.2.6.3 Retraction-extension time. FAA Doc: 14CFR references: 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.10.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around.",
+      "text": "Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.5.1/A.4.4.1.5.5.1 Retraction; and A.3.4.1.5.5.2/A.4.4.1.5.5.2 Extension AFGS-87139: 3.2.6.3 Retraction-extension time FAA Doc: 14CFR references: 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.10.5",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Gear position speed",
+      "text": "Criterion: Verify that the time to move the gear to the command positions is compatible with air vehicle performance requirements for takeoff, landing, and go-around. Standard: For takeoff and go-around conditions, the gear is retracted before its design limit speeds are reached under maximum performance acceleration. Prior to landing, the gear has sufficient time to extend and lock. Method of Compliance: Verification methods include analyses, tests, simulations, and demonstrations. Design analysis establishes gear retract/extend times in relation to air vehicle performance. Simulator mock-up testing supports analysis and gear times. Air vehicle checkout demonstrations and flight testing verify retract/extend times for all operational performance speeds and accelerations. References: JSSG-2009: A.3.4.1.5.5.1, A.4.4.1.5.5.1 Retraction; A.3.4.1.5.5.2, A.4.4.1.5.5.2 Extension AFGS-87139: 3.2.6.3 Retraction-extension time. 14 CFR 23.729, 25.729, 25.1515, 25.1583",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Gear down limit speed",
+      "text": "Standard: For takeoff and go-around conditions, the landing gear is retracted and doors closed before its gear down design limit speeds are reached under maximum takeoff acceleration and that prior to landing, the landing gear can extend and lock at maximum gear down speed within specified time limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies the landing gear retract and extend times are compatible with air vehicle performance and operating conditions (e.g., temperature environment and air loads). Test.\n  (1) Ground test: Conduct ground test to verify the retract and extend times. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to verify the retract and extend times under air loads for all operational performance speeds and accelerations within specified time limits.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

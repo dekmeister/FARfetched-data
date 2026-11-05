@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.7",
+  "number": "17.4.7",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Ground lasing",
+  "subject_group": "17.4 Laser integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "17.3.7",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify the laser cannot inadvertently lase when the aircraft is on the ground.",
+      "text": "Verify the laser cannot inadvertently lase when the aircraft is on the ground.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "17.3.7",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Ground lasing",
+      "text": "Criterion: Verify that the laser cannot inadvertently lase when the aircraft is on the ground. Standard: The laser is controlled during ground operations to preclude inadvertent laser firing. Methods for preventing inadvertent laser firing include, but are not limited to, procedures for ground crew, redundant hardware (e.g., interlocks, interlock switches/weight on wheels), and software (e.g., armament, sensor). Method of Compliance: Verification methods include analysis, test, simulation, demonstration, and review of documentation. Verification is accomplished by initial installation tests, SIL testing, ground and flight test, and laser maintenance and operating procedures. References: MIL-STD-1425 ADS-62-SP ADS-65-HDBK",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Ground lasing",
+      "text": "Standard: The laser system is inhibited from arming and firing while the air vehicle is on the ground. An override for ground lasing is only available for maintenance operations IAW MIL- STD-1425, Airborne Lasers section. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the laser system design (e.g., ICD, specifications, drawings, descriptions, flight manual) includes a ground fire interlock to prevent arming and firing when the air vehicle is on the ground. Demonstration.\n  (1) Verify that the ground fire interlock (e.g., weight on wheels, software airspeed and altitude inhibitor) prevents the laser from arming and firing when the air vehicle is on the ground.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

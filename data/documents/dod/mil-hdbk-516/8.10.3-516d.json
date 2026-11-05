@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.10.3-516d",
+  "number": "8.10.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rescue hoist system service life",
+  "subject_group": "8.10 External rescue hoist",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rescue hoist system service life",
+      "text": "Standard: The rescue hoist system (e.g., attaching hardware, cable release, carrying device structural systems and their attachments) has positive durability margins to maintain residual strength and endurance throughout the specified service life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a loads analysis to define the usage spectrum used to determine the rescue hoist fatigue and endurance life.\n(2) Conduct fatigue analysis on the rescue hoist system using the usage spectrum developed in Analysis MoC (1) to verify durability capability to support loading throughout the specified service life.\n(3) Conduct analysis to verify the rescue hoist can operate for four lifetimes with the usage spectrum developed in Analysis MoC (1). Test.\n  (1) Lab test: Conduct laboratory fatigue testing on rescue hoist system, which is for a fixed hoist (not reeling), to verify service life and component life limits. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Lab test: Conduct endurance testing to verify the rescue hoist can operate during the reel in and out cycles for two lifetimes without degradation of performance or wear exceeding wear tolerances.\n  (3) Flight test: Conduct flight testing to verify the loads used in the usage spectrum.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

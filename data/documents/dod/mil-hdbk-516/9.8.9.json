@@ -1,0 +1,75 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.9",
+  "number": "20.1.9",
+  "current_grouping": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+  "canonical_title": "Cargo or CG movement in flight",
+  "subject_group": "20.1 Air transportability and airdrop",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads.",
+      "text": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "9.8.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations.",
+      "text": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations.",
+      "text": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations. DoD/MIL Doc: MIL-HDBK-1791: para 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations.",
+      "text": "Verify that air vehicle flight performance/control is not hazardously affected by movements in C.G. of airdrop loads or by load and C.G. movement experienced during external load operations. DoD/MIL Doc: MIL-HDBK-1791: 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Cargo or CG movement in flight",
+      "text": "Criterion: Verify that air vehicle flight safety is not hazardously affected by movements in CG of airdrop loads or by load and CG movement experienced during external load operations. Standard: Flight safety is maintained during airdrop of the designated payload weight at the required airspeeds (see also Section 6). Air vehicle can ground load the specified payload weight without adverse movement of the airframe. Stability struts for ground loading are permitted to satisfy this requirement. Method of Compliance: Analysis and test verify flight safety during airdrop of the designated payload weight at required airspeeds. Stability and control analyses and testing performed in Section 6 demonstrate the ability to maintain safe flight during the exit of the heaviest payloads. Loading demonstrations verify that the air vehicle has sufficient stability in ground mode to present a stable platform for loading operations. References: Systems Specifications JSSG-2009: Appendix J MIL-STD-1791",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Cargo or CG movement in flight",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

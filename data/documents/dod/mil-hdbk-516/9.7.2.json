@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.2",
+  "number": "9.7.1.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Energy attenuating seats \u2013 stroke clearance envelope",
+  "subject_group": "9.7.1 Seating system crash load capabilities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.7.2",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the stroke clearance envelope for energy absorbing seats is clear of structures and equipment that could impede seat stroke.",
+      "text": "Verify that the stroke clearance envelope for energy absorbing seats is clear of structures and equipment that could impede seat stroke.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.7.2",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the stroke clearance envelope for energy absorbing seats is clear of structures and equipment that could impede seat stroke.",
+      "text": "Verify that the stroke clearance envelope for energy absorbing seats is clear of structures and equipment that could impede seat stroke. DoD/MIL Doc: Refer to technical point of contact for this discipline (listed in section A.2). FAA Doc: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.7.2",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Seating stroke clearance envelopes",
+      "text": "Criterion: Verify that the stroke clearance envelope for energy absorbing seats is clear of structures and equipment that could impede seat stroke. Standard: Stroke volume for both the functioning of the seat and the occupant is provided in the aircraft installation for the impact velocity environment specified for the aircraft. Method of Compliance: Stroke clearance envelope is verified by dynamic seat tests, analysis and documentation inspection, indicating the occupied stroke volume for the design impact velocity of the aircraft and that volume exists and is unobstructed in the aircraft design.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Energy attenuating seats \u2013 stroke clearance envelope",
+      "text": "Standard: Ensure that the seat installation in the air vehicle provides the stroke volume necessary to allow energy attenuating functionality under air vehicle crash loads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the dynamic seat test data to verify that the air vehicle design does not obstruct the seat stroke envelope. Test.\n  (1) Lab test: Test the seat stroke volume via dynamic seat testing IAW 9.7.1.1 or 9.7.1.2, depending on air vehicle type.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

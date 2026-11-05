@@ -1,0 +1,52 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.1.3",
+  "number": "4.1.4",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Failure conditions",
+  "subject_group": "4.1 Design criteria",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "4.1.3",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that failure conditions have been adequately addressed in the design criteria.",
+      "text": "Verify that failure conditions have been adequately addressed in the design criteria.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that failure conditions have been adequately addressed in the design criteria.",
+      "text": "Verify that failure conditions have been adequately addressed in the design criteria.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Failure conditions",
+      "text": "Criterion: Verify that safety of flight related failure conditions have been adequately addressed in the design criteria. Standard: Safety of flight failure conditions (including applicable single point failures) have been identified. No single safety of flight failure condition results in a \"Catastrophic\" severity (i.e., death, permanent total disability, monetary loss equal to or exceeding $10 million or loss of air vehicle) with a frequency greater than \"improbable\" (i.e., a rate of less than one event per one million flight hours). Method of Compliance: Inspection of the hazard analysis verifies that safety critical hazards have been identified and that catastrophic failures are no more frequent than improbable. Analysis of the design verifies that the required level of safety is achieved. Operating limitations are defined. The analysis includes ground rules and assumptions. References: MIL-STD-882 NAVAIRINST 5000.21 NAVAIRINST 5100.3 AR 385-10 AR 385-16 DoDI 5000.36 SAE ARP4754 SAE ARP4761",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Failure conditions",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

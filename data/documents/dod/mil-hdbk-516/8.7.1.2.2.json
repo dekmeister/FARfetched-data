@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.1.2.2",
+  "number": "8.7.1.2.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Interface clearances",
+  "subject_group": "8.7.1.2 Interface compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Interface clearances",
+      "text": "Criterion: Verify that adequate clearance has been provided around each aerial refueling subsystem\u2019s interface to permit safe and successful engagement/disengagement procedures with the interface of the appropriate tanker/receiver aerial refueling subsystem. Standard: For probe/drogue aerial refueling subsystems, clearances comply with NATO STANAG 3447. For boom/receptacle aerial refueling subsystems, clearances comply with NATO STANAG 7191, ATP-3.3.4.5. Method of Compliance: Verification methods include analysis, inspection and review of documentation. Inspection of drawings, dimensional analysis of each aerial refueling subsystem interface, and dimensional analysis of the area surrounding each aerial refueling subsystem interface verify that there is adequate clearance around each aerial refueling subsystem interface. References: JSSG-2009: 3.4.6.2.3.2.2 and 4.4.6.2.3.2.2 ATP-3.3.4.5 NATO STANAG 3447 NATO STANAG 7191",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Interface clearances",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

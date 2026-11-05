@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "18.1.13",
+  "number": "9.2.9.5",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Public address system power",
+  "subject_group": "9.2.9 Mass notification systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "18.1.13",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that a public address system is installed that is powerable when the aircraft is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units.",
+      "text": "Verify that a public address system is installed that is powerable when the aircraft is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "18.1.13",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that a public address system is installed that is powerable when the air vehicle is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units.",
+      "text": "Verify that a public address system is installed that is powerable when the air vehicle is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "18.1.10",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that a public address system is installed that is powerable when the air vehicle is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units.",
+      "text": "Verify that a public address system is installed that is powerable when the air vehicle is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units. DoD/MIL Doc: No information available in current JSSG. Information to be included in next revision of JSSG. FAA Doc: 14CFR references: 25.1423",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "18.1.10",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Public address system power",
+      "text": "Criterion: Verify that a public address system is installed that is powerable when the air vehicle is in flight or stopped on the ground, including after the shutdown or failure of all engines and auxiliary power units. Standard (Air Force): A public address system is powerable when the aircraft is in flight or stopped on the ground, after the shutdown or failure of all engines and auxiliary power units, or the disconnection or failure of all power sources dependent on their continued operation, for: a. A time duration of at least ten minutes, including an aggregate time duration of at least five minutes of announcements made by flight and cabin crewmembers, considering all other loads which may remain powered by the same source when all other power sources are inoperative; and b. An additional time duration in its standby state appropriate or required for any other loads that are powered by the same source and that are essential to safety of flight or required during emergency conditions. Method of Compliance (Air Force): Test and analysis of public address systems verify that they work as required for all approved operating configurations and conditions. References: At the time of publication of this document, no information was available in the current JSSGs 14 CFR 25.1423",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Public address system power",
+      "text": "Standard: A PA system is operable when the air vehicle is in flight or stopped on the ground, after the shutdown or failure of all engines and auxiliary power units, or the disconnection or failure of all power sources dependent on their continued operation, for at least 10 minutes IAW 14 CFR 25.1423a. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis of the system to verify that the PA system is operable for at least 10 minutes IAW 14 CFR 25.1423a. Test.\n  (1) Ground test: Conduct a test of the PA system to verify that it is operable for at least 10 minutes IAW 14 CFR 25.1423a.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

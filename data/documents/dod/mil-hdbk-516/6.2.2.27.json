@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.27",
+  "number": "6.2.14.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Interlocks",
+  "subject_group": "6.2.14 Vehicle control function engage, disengage, and interlocks safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.27",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify nonoperative devices/programs can be safely locked out of any functions.",
+      "text": "Verify nonoperative devices/programs can be safely locked out of any functions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.27",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that nonoperative devices/programs can be safely locked out of any functions.",
+      "text": "Verify that nonoperative devices/programs can be safely locked out of any functions. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.13, 4.1.13, 3.1.13.1, 4.1.13.1, 3.1.13.3, 4.1.13.3, 3.1.14.7, 4.1.14.7, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.5.1.3, 4.2.2.5.1.3, 3.2.2.6, 4.2.2.6 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.27",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that nonoperative devices/programs can be safely locked out of any functions.",
+      "text": "Verify that nonoperative devices/programs can be safely locked out of any functions. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.13, 4.1.13, 3.1.13.1, 4.1.13.1, 3.1.13.3, 4.1.13.3, 3.1.14.7, 4.1.14.7, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.5.1.3, 4.2.2.5.1.3, 3.2.2.6, 4.2.2.6 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.8.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Interlocks",
+      "text": "Criterion: Verify that non-operative devices/programs can be safely locked out. Standard: Interlocks prevent hazardous operation or sequencing of non-operative devices/programs. Appropriate methods of interlocks are provided to ensure that the non-operative devices/programs can never be turned on inadvertently. Some methods may be: removal of memory or processor chip, double access to partitioned memory, removal of power, cockpit switches. Of particular concern are parts of Operational Flight Programs (OFPs) that deal with diagnostics. Built-In-Tests (BITs) that are not to be executed in-flight have interlocks that preclude them from ever starting. As a minimum, for the non-operative in-flight devices/programs, there are at least two (2) independent types of interlocks to prevent in-flight engagement. As a general rule, the redundancy of the interlocks matches the redundancy of the basic functions. Method of Compliance: Verification methods include analysis, tests (SIL, ground and flight), simulation, demonstration, inspection and review of documentation. FMET cases introduce attempts to access non-operative devices/programs including rogue partition(s). References: JSSG-2008: 3.0, 3.1, 3.1.13, 3.1.13.1, 3.1.13.3, 3.1.14.7, 3.2.2.2.2, 3.2.2.5.1.3, 3.2.2.6, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Interlocks",
+      "text": "Standard: The VCF includes redundant interlocks to prevent engagement of VCF modes resulting in a hazardous condition including, but not limited to, test specific functions in a non-test environment and in-flight engagement of on-ground system checks or diagnostics. For electronically linked dual stations, the VCF provides interlocks to react to inputs from one crew station at a time. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to identify interlocks for normal and failed system states.\n(2) Review technical documentation regarding mechanization of interlocks, including levels of redundancy and independence. Analysis.\n  (1) Conduct analysis to identify where interlocks are necessary for hazard mitigation. Test.\n    (1) Lab test: Conduct lab test of system interlocks to verify proper functionality in normal and failed system states. Confirm that devices or programs which are only meant for use on the ground cannot be engaged in-flight.\n    (2) Lab test: Conduct FMET to verify attempts to access non-operative devices or programs are not successful.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

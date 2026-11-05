@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.22",
+  "number": "8.8.15",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Contamination",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.22",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Contamination",
+      "text": "Criterion: Verify that components do not allow contaminants to become trapped in rotating components, on external surfaces, or around seals without the ability to run off or be removed. Standard: Components are designed to prevent contaminants/fluids from puddling or becoming trapped in rotating components or on external surfaces. Method of Compliance: Verification methods include inspection and review of documentation. Inspection of the design of components and external surfaces should determine if any areas that could trap contaminants/fluids exist. If contaminants/fluids can be trapped, verify that procedures are adequate to remove those contaminants/fluids.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Contamination",
+      "text": "Standard: Components are designed to prevent contaminants and fluids from puddling or becoming trapped internally on rotating components, on external gearbox surfaces, or around seals without the ability of the fluids to run off or be removed through drainage features to minimize corrosion. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, materials and manufacturing records, design data records, inspection reports, photographs, borescope video, or other substantiating records and reports) and inspect part characteristics and surface conditions to determine if any areas could trap contaminants and fluids. Analysis.\n  (1) Conduct an analyze of rotary-wing drive system design, configuration, and models to determine fluid sources, flows, leakage paths, and areas that could trap contaminants and fluids. The analysis of rotary-wing drive system design confirms drainage features are sized to remove or prevent puddling of contaminants and fluids. Demonstration.\n    (1) Conduct a demonstration on the air vehicle to verify that the drainage features are sized to remove or prevent puddling of contaminants and fluids.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

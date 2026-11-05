@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.2.4",
+  "number": "15.5.10",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Software element supporting safety-critical function(s) performance",
+  "subject_group": "15.5 Software architecture and design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.2.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that embedded SOF software provides acceptable performance and safety.",
+      "text": "Verify that embedded SOF software provides acceptable performance and safety.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.2.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that embedded SOF software provides acceptable performance and safety.",
+      "text": "Verify that embedded SOF software provides acceptable performance and safety. Comm\u2019l Doc: IEEE STD 12207 provides industry best practice software development guidance. RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.6; JSSG-2008: para 3.1.14.6, 3.2.4.6, 3.3.6+ and 3.3.7+ provide guidance regarding software design and development for safety critical systems. ASC Engineering Technical Guide version 1.1 dated 11 October 2002 established an integrity program for software development. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.2.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that embedded SOF software provides acceptable performance and safety.",
+      "text": "Verify that embedded SOF software provides acceptable performance and safety. Comm\u2019l Doc: IEEE STD 12207 provides industry best practice software development guidance. RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.6 JSSG-2008: 3.1.14.6, 3.2.4.6, 3.3.6+ and 3.3.7+ provide guidance regarding software design and development for safety critical systems ASC Engineering Technical Guide version 1.1 dated 11 October 2002 established an integrity program for software development FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Safety Supporting Software Elements (SSSE) performance",
+      "text": "Criterion: Verify that all SSSEs provide acceptable performance and safety. Standard: All performance and safety requirements are identified, documented, and traceable to software specifications. Software requirements and interfaces are accurate, consistent, unambiguous, stated in quantifiable terms with tolerances, sufficiently detailed, and verifiable. Ensure that the implementation satisfies the performance and safety requirements. Performance deficiencies have been identified and fully documented. The design implementation has not introduced unacceptable hazards. Method of Compliance: Verification methods include analysis, test, and inspection of requirements. Analysis and inspection are performed to determine proper flow down of system and safety requirements to the software specification. Hazard analysis is performed to ensure no new or unacceptable risks have been introduced by the design. Analyze discrepancy reports to determine failure trending and disposition. All performance and safety requirements are tested/verified. References: JSSG-2008 Appendix A: 3.1.14.6, 3.2.4.6, 3.3.6 and subparagraphs, and 3.3.7 and subparagraphs provide guidance regarding software design and development for safety critical systems MIL-STD-882: (see also MIL-STD-882D) DoD JSSSEH USAF Weapon Systems Software Management Guidebook RTCA DO-178: (see also RTCA DO-178B) IEEE Std 1228-1994: Annex - Discussion of Software Safety Analyses IEEE 12207 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): provides industry best practice software development guidance SAE EIA 632-1999: Requirement 16.c FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software element supporting safety-critical function(s) performance",
+      "text": "Standard: 1. Verify that all SESSs provide acceptable performance and safety. All performance and safety requirements are identified, documented, and traceable to software specifications. Software requirements and interfaces are accurate, consistent, unambiguous, stated in quantifiable terms with tolerances, sufficiently detailed, and verifiable. Ensure that the implementation satisfies the performance and safety requirements. Performance deficiencies have been identified and fully documented. The design implementation has not introduced unacceptable hazards. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of requirements. Analysis and examination are performed to determine proper flow down of system and safety requirements to the software specification. Hazard analysis is performed to ensure no new or unacceptable risks have been introduced by the design. Analyze discrepancy reports to determine failure trending and disposition. All performance and safety requirements are verified.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

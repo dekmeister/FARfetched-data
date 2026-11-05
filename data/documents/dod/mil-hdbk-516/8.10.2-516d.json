@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.10.2-516d",
+  "number": "8.10.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rescue hoist strength",
+  "subject_group": "8.10 External rescue hoist",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rescue hoist strength",
+      "text": "Standard: The rescue hoist has a limit LF of 3.5X the rated or working load capacity unless otherwise stated in the air vehicle specification. The rescue hoist has an ultimate LF of 1.5X the limit load acting within a cone of action of 30 degrees to the vertical. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a loads analysis to define the rated or working load capacity.\n(2) Conduct a static strength stress analysis to verify the rescue hoist system has positive strength margins to support limit load and ultimate load cases. Permanent deformations do not occur at DLL. Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failure occur at or below ultimate load. Test.\n  (1) Lab test: Conduct lab testing on rescue hoist system to verify ability to support limit and ultimate load cases. Permanent deformations do not occur at DLL. Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate load. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify loads and stresses based on Analysis MoC (1) and Analysis MoC (2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

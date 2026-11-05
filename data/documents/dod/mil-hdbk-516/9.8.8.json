@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.8",
+  "number": "20.1",
+  "current_grouping": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+  "canonical_title": "Clearances",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.8.8",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that cargo compartment dimensions allow enough room to safely load, transport, and/or airdrop required items.",
+      "text": "Verify that cargo compartment dimensions allow enough room to safely load, transport, and/or airdrop required items.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.8.8",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that cargo compartment dimensions allow enough room to load, transport, and/or airdrop required items safely.",
+      "text": "Verify that cargo compartment dimensions allow enough room to load, transport, and/or airdrop required items safely. DoD/MIL Doc: MIL-HDBK-1791: para 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.8.8",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that cargo compartment dimensions allow enough room to load, transport, and/or airdrop required items safely.",
+      "text": "Verify that cargo compartment dimensions allow enough room to load, transport, and/or airdrop required items safely. DoD/MIL Doc: MIL-HDBK-1791: 4.2, 5.2 JSSG-2009: Appendix J",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "20.1.8",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Cargo compartment dimensions",
+      "text": "Criterion: Verify that cargo compartment dimensions allow enough room to load, transport, and/or airdrop required items safely. Standard: For manned aircraft, the cargo compartment loading envelope provides a minimum of six inches clearance around the outside of the largest defined cargo item or defined operating space. For unmanned aircraft, the minimum cargo compartment clearance may be less than six inches, provided the size allows loading, unloading, restraint, airdrop, combat offload of the largest defined cargo item, or defined operating space. Cargo entrance geometry permits loading cargo with an underbelly clearance of at least one inch. Aircrew access and passenger escape envelopes are outside (but not overlapping) the cargo compartment loading envelope. Method of Compliance: Selected cargo loading demonstrations and analysis of loaded cargo via drawings indicates the clearance envelope is maintained throughout the loading and flight activities. References: Systems Specifications JSSG-2009: Appendix J MIL-STD-1791",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+      "title_at_revision": "Clearances",
+      "text": "Standard: Air vehicle dimensional envelope is defined and provides physical clearance with transported aerial delivery items approved for use in its technical data IAW MIL-STD-1791, Loading Unloading paragraph and Dimensions for Flight paragraph, and MIL-STD-1791-1, Tip-off Curve paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct dimensional analysis between air vehicle clearance limits and transported cargo capability to show clearance is maintained. Demonstration.\n  (1) Perform loading of representative cargo capability to verify air vehicle clearances are maintained.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

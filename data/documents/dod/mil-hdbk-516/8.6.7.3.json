@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.7.3",
+  "number": "8.6.7.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Compartment drainage of system/components",
+  "subject_group": "8.6.7 Safety considerations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Compartment drainage of system/components",
+      "text": "Criterion: Verify that provisions for compartment drainage of system/components adequately address safety. Standard: APS/EPS drain and vent systems accommodate the combined maximum system leakage and ventilation flow rates. No allowable flight conditions inhibit the function to the extent that APS/EPS operation is adversely affected or a hazardous condition is created. Storage or expulsion of the fluids and vapors does not create a hazardous condition. These provisions are compatible with applicable fire protection certification criteria, standards and methods of compliance of 8.4 (this document). Method of Compliance: Inspection of design verifies existence of provisions for drainage of flammable fluids and vapors within the APU which may occur during normal operation or abnormal events such as a false start. Aircraft manufacturing or system operational tests verify functional capability. References: JSSG-2009: 3.3.8, 4.3.8 MIL-HDBK-516: 8.4 FAA TSO-C77: 5.27, 5.42, 5.52 14 CFR 25.1187",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Compartment drainage of system/components",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

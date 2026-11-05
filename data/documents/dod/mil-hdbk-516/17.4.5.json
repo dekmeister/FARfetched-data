@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.4.5",
+  "number": "17.4.5",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Display indications",
+  "subject_group": "17.4 Laser integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Display indications",
+      "text": "Standard: The laser control display provides continuous indication of all safety-critical system states. At a minimum, the following are displayed: system armed status, active firing status, current pointing position, and any firing inhibition conditions (e.g., masking, safety interlocks) IAW MIL-STD-1425, Emission Indicator section. These indications are clearly visible to crewmembers to prevent inadvertent laser emissions or exposure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design (e.g., ICD, specifications, drawings, descriptions, flight manual) to verify laser system display indications, armed status, active firing status, current pointing position, and any firing inhibition conditions. Demonstration.\n  (1) Verify that the laser control display indications are clearly visible and show when the laser is armed, actively firing, pointing position, and when firing is inhibited due masking or safety interlocks.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

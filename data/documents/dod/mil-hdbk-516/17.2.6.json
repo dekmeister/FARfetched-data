@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.6",
+  "number": "17.2.6",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Safe store operations",
+  "subject_group": "17.2 Stores integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the stores operations do not adversely affect any safety aspect of the flight control of the air vehicle.",
+      "text": "Verify that the stores operations do not adversely affect any safety aspect of the flight control of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Safe store operations",
+      "text": "Criterion: Verify that the stores operations do not adversely affect any safety aspect of the flight control of the air vehicle. Standard: Store carriage, jettison or launch do not cause safety of flight problems by inducing dangerous aerodynamic loads and moments, engine damage, store-aircraft collision, damage to any aircraft surface, excessive load on aircraft ECS, damage to or interference (e.g., physical or EMI/EMC) with critical control functions. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Verification is accomplished by physical fit and function, loading/installation procedures, aeroelastic ground vibration test, wind tunnel tests, effects of aircraft on captive stores/suspension equipment, effects of stores/suspension equipment on aircraft, environmental vibration tests, aeroacoustic test, HERO test, EMI/EMC, ballistic tables, temperature extremes and thermal test, SIL, and DT&E/OT&E. For USAF, SEEK EAGLE Certification will also be used. References: MIL-HDBK-244 MIL-STD-1289 MIL-HDBK-1763",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Safe store operations",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.2",
+  "number": "6.2.12.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Functional characteristics",
+  "subject_group": "6.2.12 Vehicle control function pilot vehicle interface",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe.",
+      "text": "Verify functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe.",
+      "text": "Verify that functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.2.2.5.1.1, 4.2.2.5.1.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe.",
+      "text": "Verify that functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.2.2.5.1.1, 4.2.2.5.1.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.6.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Functional characteristics",
+      "text": "Criterion: Verify that functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash are safe. Standard: Functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash do not induce a failure or loss of control or a departure and that the combined probability of these items producing a failure is extremely remote (1x10^-9 or as specified by the procuring activity). Non-linear characteristics are properly accounted for in the design, math models, simulations or emulations. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, inspection and review of documentation. Characteristics are verified at a cockpit/operator evaluation facility, a handling qualities simulation facility or a SIL, and on-aircraft ground test. References: JSSG-2008: 3.0, 3.2.2.5.1.1, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.152.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Functional characteristics",
+      "text": "Standard: The inceptor device functional characteristics of friction levels, breakout forces, dead zones, hysteresis, and backlash do not induce a failure, loss of control, or departure. Non-linear characteristics are properly accounted for in the design, math models, simulations, or emulations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the design of inceptor devices to identify elements that provide for friction, breakout forces, dead zones, hysteresis, and backlash.\n(2) Review of the design of inceptor devices to identify failure modes of the elements that provide for friction, breakout forces, dead zones, hysteresis, and backlash.\n(3) Review of design of inceptor devices to identify non-linear characteristics. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences.\n  (2) Verify model, simulation, and emulation design account for non-linear characteristics. Test.\n    (1) Lab test: Conduct test in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to examine functional characteristics under normal and failure conditions, including expected variations in friction levels, breakout forces, dead zones, hysteresis, and backlash.\n    (2) Ground test: Conduct on-air vehicle ground test to verify functional characteristics are as designed. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct flight operations evaluating functional characteristics for acceptability across the ROTH during normal operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

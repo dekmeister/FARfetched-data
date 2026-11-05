@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.3.1",
+  "number": "9.2.3.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Verify that caution/warnings are accompanied by an alerting tone.",
+  "subject_group": "9.2.3 Verify that the master caution and warning systems' displays are located in the prime visual signal area and all warning and caution situations are displayed",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that caution/warnings are accompanied by an alerting tone.",
+      "text": "Verify that caution/warnings are accompanied by an alerting tone.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that caution/warnings are accompanied by an alerting tone.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

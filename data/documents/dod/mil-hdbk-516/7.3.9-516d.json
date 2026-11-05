@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.9-516d",
+  "number": "7.3.9",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Overspeed and overtemperature",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Overspeed and overtemperature",
+      "text": "Standard: The engine is capable of continued operation, without exceeding serviceable limits, during and after the following conditions: a. Normal operation throughout the engine operating envelope including maximum allowable transients up to the overspeed protection limit provided by the engine control b. Overspeed: Rotor speeds of 105% of maximum allowable steady-state speed for the high-pressure rotors, 107% of maximum allowable steady-state speed for the low-pressure rotors, and for turboprop and turboshaft engines, 115% of the output shaft rated speed reported in technical data, at maximum allowable turbine gas temperature for 5 minutes. c. Overtemperature: Gas temperatures 75 \u00b0F above the maximum allowable gas temperature (which includes adders for maximum transient temperature and uncertainties in temperature due to sensors and analytical determinations), at maximum allowable steady-state rotor speed for 5 minutes. Alternate expressions of the overtemperature condition (e.g., 50 \u00b0F above maximum allowable high pressure turbine blade metal temperature) may be proposed but will be substantiated and approved. The engine retains functional and structural capability to enable successful recovery of air vehicle after experiencing the maximum achievable instantaneous engine rotor speeds associated with any single control system failure. The engine or hardware does not need to maintain serviceable condition but enables successful recovery of the air vehicle as described above. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Engine overspeed limits, and control system thresholds and actions, are established and documented in technical data and design analysis documents. Analysis.\n  (1) An analysis of the overspeed, and overtemperature capability of the engine is provided. Plastic growth, and its effects, are determined for these conditions.\n  (2) Control system failures are analyzed to identify the single failure resulting in highest overspeed or greatest impact of rotor growth. Engine performance and operability following most limiting control system failure are analyzed, and resultant air vehicle recovery capability is reported. Test.\n    (1) Lab test: Engine overspeed test is conducted in a ground-based sea level test cell to substantiate or correlate analysis. All rotors are subjected to engine operation for a stabilized period of at least five minutes duration at the defined overspeed conditions. Following the test, parts and assemblies are within serviceable limits with no evidence of imminent failure. For engines with more than one rotor system, the test may be performed separately for each rotor system. Rig tests may be performed with justification. If a cold spin pit is used for hot flow components, speed is added to compensate for temperature effects.\n    (2) Lab test: Engine overtemperature test is conducted in a ground-based sea level test cell to substantiate or correlate analysis. Upon successful completion of the overspeed test, the same engine and hardware are operated at the defined overtemperature conditions for five minutes. Following the test, parts and assemblies are within serviceable limits and with no evidence of imminent failure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

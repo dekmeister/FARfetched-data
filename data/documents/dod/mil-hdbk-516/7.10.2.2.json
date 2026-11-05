@@ -1,0 +1,62 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.10.2.2",
+  "number": "7.2.4.2.8",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "PTO shaft",
+  "subject_group": "7.2.4.2 Components: mechanical and electrical",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.10.2.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that failure of the engine power take-off (PTO) coupling assembly will not adversely affect safe operation of the air vehicle.",
+      "text": "Verify that failure of the engine power take-off (PTO) coupling assembly will not adversely affect safe operation of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that failure of the engine power take-off (PTO) coupling assembly does not adversely affect safe operation of the air vehicle.",
+      "text": "Verify that failure of the engine power take-off (PTO) coupling assembly does not adversely affect safe operation of the air vehicle. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.10/A.4.1.1.10, Power Take-Off and A.3.7.16/A.4.7.16, Gearbox. MIL-HDBK-516 criteria 7.2.5.1.3.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that failure of the engine power take-off (PTO) coupling assembly does not adversely affect safe operation of the air vehicle.",
+      "text": "Verify that failure of the engine power take-off (PTO) coupling assembly does not adversely affect safe operation of the air vehicle. DoD/MIL Doc: JSSG-2007A: A.3.1.1.10/A.4.1.1.10, Power Take-Off and A.3.7.16/A.4.7.16, Gearbox. MIL-HDBK-516 criteria 7.2.5.1.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "PTO shaft",
+      "text": "Criterion: Verify that failure of the engine power take-off (PTO) coupling assembly or driveshaft does not adversely affect safe operation of the air vehicle. Standard: The design of the PTO/driveshaft coupling assembly prevents that assembly from unacceptably damaging surrounding hardware (e.g., anti-flail design). Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis and inspection of the PTO drawings and hardware ensures a failed coupling cannot unacceptably damage surrounding hardware and air vehicle. Testing verifies driveshaft coupling assembly life and anti-flail capability. References: JSSG-2007: A.3.1.1.10, A.4.1.1.10 Power Take-Off; and A.3.7.16, A.4.7.16 Gearbox",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "PTO shaft",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.9.4-516d",
+  "number": "8.5.9.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Gear status indication",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Gear status indication",
+      "text": "Standard: Flight crew has indication of each landing gear's position and any disagreement between commanded and actual gear position (i.e., up and locked and down and locked status). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies that all modes of landing gear operation and position are indicated to the flight crew during all normal and emergency conditions and addresses all failure events as defined by the landing gear system's FMECA. Demonstration.\n  (1) Conduct ground demonstration to verify that proper gear status indications are given to the flight crew. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n  (2) Conduct flight demonstration to verify that proper gear status indications are given to the flight crew.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

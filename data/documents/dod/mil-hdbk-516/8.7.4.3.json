@@ -1,0 +1,71 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.4.3",
+  "number": "8.7.4.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Control provisions",
+  "subject_group": "8.7.4 Design and performance requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that controls have been provided to the appropriate crewmember(s) to activate and control the identified functions of the aerial refueling system.",
+      "text": "Verify that controls have been provided to the appropriate crewmember(s) to activate and control the identified functions of the aerial refueling system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that controls have been provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system.",
+      "text": "Verify that controls have been provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system.",
+      "text": "Verify that controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system. DoD/MIL Doc: JSSG-2010: para 3.2.14, 4.2.14",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system.",
+      "text": "Verify that controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the identified functions of the aerial refueling system. DoD/MIL Doc: JSSG-2009 Appendix F: F.3.4.6.2.1.3, F.4.4.6.2.1.3 JSSG-2010: 3.2.14, 4.2.14",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Control provisions",
+      "text": "Criterion: Verify that controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control those critical system functions that are required to conduct the aerial refueling process safely. Standard: Controls are provided and properly located for the appropriate crewmember(s)/operator(s) to activate and control the critical system functions that are required to conduct the aerial refueling process safely. For aerial refueling system controls the following are provided: RECEIVERS: a. Receiver receptacle subsystems have, as a minimum, the following:\n(1) Press-to-Test (verify mode/status indicators properly working).\n(2) DISCONNECT (initiates a disconnect from the boom subsystem).\n(3) RESET (changes mode from DISCONNECT to READY).\n(4) Receptacle slipway lighting turns slipway lighting on/off and controls lighting intensity/mode.\n(5) Open and close receptacle doors.\n(6) Manual boom latch, if applicable. b. Probe subsystems have, as a minimum:\n  (1) A probe lighting control turns probe lighting on/off and controls lighting intensity/mode.\n  (2) A probe extension/retraction control (retractable probe installations only.) TANKERS: a. Boom subsystems have, as a minimum, the following:\n    (1) Aerial refueling pump activation.\n    (2) Fuel transfer control.\n    (3) Boom deployment/stowage.\n    (4) Boom control.\n    (5) Tanker internal fuel management.\n    (6) Boom nozzle/receptacle DISCONNECT.\n    (7) System status RESET.\n    (8) Emergency contact (permits engagement with a failure in the boom/receptacle status signal system). b. Drogue subsystems have, as a minimum, the following:\n      (1) Aerial refueling pump activation (if applicable).\n      (2) Fuel transfer control.\n      (3) Hose extension/retraction.\n      (4) Tanker internal fuel management.\n      (5) Hose jettison capability.\n      (6) Pod jettison capability (if applicable). For controls of other systems (such as interior/exterior lighting, communication, and viewing systems) used during the aerial refueling process, refer to 9.2.1, 9.2.2, 9.2.4, and 9.2.5 (this document). Method of Compliance: Verification methods include analysis, demonstration, inspection, simulation and review of documentation. Inspection and analysis of technical data and evaluation of the system by crewmember(s)/operator(s)/automated system(s) during ground simulation/mock-up and flight demonstration verify that controls are provided and properly located. References: JSSG-2009: F.3.4.6.2.1.3, F.4.4.6.2.1.3 JSSG-2010: 3.2.14, 4.2.14 MIL-HDBK-516: 9.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Control provisions",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

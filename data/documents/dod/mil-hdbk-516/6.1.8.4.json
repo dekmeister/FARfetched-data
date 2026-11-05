@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.8.4",
+  "number": "6.1.8.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Crosstalk between pitch and roll controllers",
+  "subject_group": "6.1.8 Cross-axis responses",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Crosstalk between pitch and roll controllers",
+      "text": "Criterion: Verify that crosstalk between pitch and roll controllers is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.4.4 Crosstalk between pitch and roll controllers. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Crosstalk between pitch and roll controllers",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

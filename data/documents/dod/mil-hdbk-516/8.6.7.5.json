@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.7.5",
+  "number": "8.6.7.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fire hardening of system/components",
+  "subject_group": "8.6.7 Safety considerations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fire hardening of system/components",
+      "text": "Criterion: Verify that provisions for fire hardening of system/components adequately address safety. Standard: Safety critical components withstand worst case temperatures and heat flux for the expected flammable fluids and operating conditions (e.g., for JP-8, 2000\u00b0F fire with a heat flux of 10 Btu/sec/ft\u00b2). These provisions are compatible with applicable fire protection certification criteria, standards and methods of compliance of 8.4. Method of Compliance: Analysis demonstrates material and component compliance with the established fireproof or fire-resistance air vehicle requirements. Laboratory component tests demonstrate compliance to the fire protection requirements when exposed to the required flame temperature and heat flux density for the required time (15 minutes for fireproof and 5 minutes for fire resistance). References: JSSG-2009: 3.3.3, 4.3.3, 3.3.8, 4.3.8, G.3.4.7, G.4.4.7 MIL-HDBK-516: 8.4 FAA TSO-C77: 5.2 14 CFR 23.1181-23.1203, 25.1181-25.1207",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fire hardening of system/components",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

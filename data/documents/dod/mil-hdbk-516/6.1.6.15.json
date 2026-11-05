@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.6.15",
+  "number": "6.1.6.15",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Time to bank for class IV air vehicle",
+  "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Time to bank for class IV air vehicle",
+      "text": "Standard: For the Class IV air vehicle, the air vehicle's time to bank during 360-degree rolls initiated at 1g is no worse than Level 2 as specified in MIL-STD-1797, Additional Roll Requirements for Class IV Air Vehicles paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Abrupt roll terminations do not cause air vehicle motions that result in roll reversal, roll ratcheting, loss of control, stall, or exceedance of structural limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the Class IV air vehicle's time to bank characteristics in the air-to-air combat and ground attack flight phases as specified in MIL-STD- 1797, Additional Roll Requirements for Class IV Air Vehicles paragraph and Roll Termination paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to verify the Class IV air vehicle's time to bank characteristics in the air-to-air combat and ground attack flight phases as specified in MIL-STD-1797, Additional Roll Requirements for Class IV Air Vehicles paragraph and Roll Termination paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the Class IV air vehicle's time to bank characteristics in the air-to-air combat and ground attack flight phases as specified in MIL-STD-1797, Additional Roll Requirements for Class IV Air Vehicles paragraph and Roll Termination paragraph, for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

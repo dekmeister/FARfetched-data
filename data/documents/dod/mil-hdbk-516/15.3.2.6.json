@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.2.6",
+  "number": "15.6.5",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Software load process",
+  "subject_group": "15.6 Software qualification and installation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.2.6",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the method of SOF software loading and verification is safe and carefully managed.",
+      "text": "Verify that the method of SOF software loading and verification is safe and carefully managed. (This includes the software operational flight program (OFP) loaded on individual black boxes or the air vehicle loadable OFP.)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.2.6",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the method of SOF software loading and verification is safe and carefully managed.",
+      "text": "Verify that the method of SOF software loading and verification is safe and carefully managed. (This includes the software operational flight program (OFP) loaded on individual black boxes or the air vehicle-loadable OFP.) Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.1.16; JSSG-2008 Appendix A: para 3.3.2 gives guidance for single point OFP load and verification. Para 3.3.7 addresses software change control. Para 3.3.8 addresses software certification of hardware compatibility. Para 3.1.14.6 discusses system invulnerability to software errors. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.2.6",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the method of SOF software loading and verification is safe and carefully managed.",
+      "text": "Verify that the method of SOF software loading and verification is safe and carefully managed. (This includes the software operational flight program (OFP) loaded on individual black boxes or the air vehicle-loadable OFP.) Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.1.16 JSSG-2008 Appendix A: 3.3.2 gives guidance for single point OFP load and verification; 3.3.7 addresses software change control; 3.3.8 addresses software certification of hardware compatibility; 3.1.14.6 discusses system invulnerability to software errors FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software load process",
+      "text": "Criterion: Verify that the software loading and load verification processes for all software are safe and correct. Standard: A sound, repeatable process is used to load software and associated data files onto the air system, ensuring all software load images have been properly loaded onto the corresponding hardware. The process ensures the loaded software and data files are correct, have not been corrupted, have not compromised compatibility (hardware and software), and are completely loaded. Method of Compliance: Verification methods include test and inspection. Verify through inspection that the software loading and load verification process is defined and implemented. Verify through test that the correct software load images and data files are consistently loaded by the software load process onto the air system. The correct loading of all manufacturer/depot loaded software (box loadable) is verified through inspection and test. Verify that systems utilized to load software have been configured to prevent unauthorized use. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (II.5.g); 3.3.2 and 3.3.2.3 provides guidance for single point OFP load and verification; 3.3.8 addresses software certification of hardware compatibility; 3.1.14.6 discusses system invulnerability to software errors DoD JSSSEH: D.6.6; E.1.3.2; E.6.2, E.7.7; E.9.8; E.12.3 USAF Weapon Systems Software Management Guidebook: G.3.2; G.5.1 RTCA DO-178: For RTCA DO-178C: 2.5.1; 2.5.5; 5.4; 6.3.5; 7.1.h; 7.2.1.d; 7.2.7.d; 7.4; 8.3.g; 11.4.b.8; 11.10.g; 11.16 (see also RTCA DO-178B) IEEE-Std-1012-2012: 9.8 Activity verify and validate software install SAE AS94900: 3.1.5.3.10.e ARINC REPORT 667-1: 1.9.3; 1.9.4 FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Software load process",
+      "text": "Standard: 1. Verify that the software loading and load verification processes for all software are safe and correct. A sound, repeatable process is used to load software and associated data files onto the air system, ensuring all software load images have been properly loaded onto the corresponding hardware. The process ensures the loaded software and data files are correct, have not been corrupted, have not compromised compatibility (hardware and software), and are completely loaded. The software load process accounts for unique loading aspects of the hardware (e.g., MCPs) environment and verifies that the load result meets all safety objectives that are required for the software to operate safely in the hardware environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include test and examination. Verify through examination that the software loading and load verification process is defined and implemented. Verify through test that the correct software load images and data files are consistently loaded by the software load process onto the air system. The correct loading of all manufacturer and depot loadable software (box loadable) is verified through examination and test. Examination of software load process documentation and loading instructions verifies that the load process has properly accounted for unique hardware (e.g., MCPs) loading requirements. Analysis and testing of the software load procedures validates that the load process is correct and has incorporated all necessary safety attributes to meet required safety objectives.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

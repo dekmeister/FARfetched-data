@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.4.3",
+  "number": "15.4.3",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Configuration management",
+  "subject_group": "15.4 Software development processes",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Configuration management",
+      "text": "Criterion: Verify that the configuration/change control management process is fully documented, followed, and is sufficiently suitable to control software supporting SCFs. Standard: Configuration management/change control processes are defined and documented for all hardware, software, and firmware. HWCIs (Hardware Configuration Items) and CSCIs (Computer Software Configuration Items) are defined and the associated criticality to supported SCFs is identified. The configuration/change control management process ensures that the physical and functional characteristics of a HWCI/CSCI are identified, documented, and verified. The Configuration Management (CM) process identifies means to record the specific configurations of HWCI/CSCI and establishes baselines for each CI (Configuration Item). Processes are defined/documented to control changes to a HWCI/CSCI baseline and its associated documentation throughout the life cycle of all HWCIs/CSCIs under CM control. Method of Compliance: Verification method includes inspection of process documentation, product configuration data, and quality assurance reports. Verify that the configuration management/change control process maintains the integrity of hardware and software configurations. Verify that all configurations are properly documented. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (I.6, III.5.i.1); 3.0 Computer Resources section (I.7, II.2, II.5.m, III.2, III.5.a & m); 3.1.11.8 Requirement Guidance; 3.3.7 Requirement Guidance item h; 3.1.14.6 JSSG-2008 Appendix B: 4.3.11; 4.4.5; A8.3.1 MIL-STD-882: For MIL-STD-882E: 4.3.8; Task 101.2.3 DoD JSSSEH: 2.5.3.2.5; 2.5.4; 4.3.7.3.2.6; C.1.6.1.2; C.6.6; C.11.3; D.6.9; E.2.1; E.3.4; E.12.4; E.12.5 USAF Weapon Systems Software Management Guidebook: 3.11; Appendix A MIL-HDBK-61 RTCA DO178: For RTCA DO-178C: 7.0 and subparagraphs; 11.4; 11.18; 12.1.5 (see also RTCA DO-178B) IEEE Std 828-2005 IEEE Std 1012-2012: 7.5 Activity IEEE Std 1074-1997: A.1.2.2 plan CM; A.5.2 software CM activities also references IEEE-Std-828 IEEE 12207.0-1996 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 6.2 CM process CMU/SEI-2010-TR-033, CMMI for Development Ver. 1.3: Configuration Management (pg. 137) SAE EIA-649 FAA AC 20-115C NASA STD 0005: 4.3.15 hardware and software change control",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Configuration management",
+      "text": "Standard: 1. Verify that the configuration and change control management process is fully documented, followed, and is sufficiently suitable to control all computer systems and software items across the system. Configuration management and change control processes are defined and documented for all hardware and software. Hardware configuration items and CSCIs are defined and the associated CSIL is identified. The configuration and change control management process ensures that the physical and functional characteristics of a HWCI and CSCI are identified, documented, and verified. The CM process identifies means to record the specific configurations of HWCIs and CSCIs and establishes baselines for each CI. Processes are defined and documented to control changes to the baselines and associated documentation of all HWCIs and CSCIs under CM control throughout the life cycle. The CM process accounts for managing the configuration of the technologies utilized (e.g., MCPs) including modifiable parameters and microcode. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes examination of process documentation, product configuration data, and quality assurance reports. Verify that the configuration and change control management process maintains the integrity of hardware and software configurations. Verify that all configurations are properly documented.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

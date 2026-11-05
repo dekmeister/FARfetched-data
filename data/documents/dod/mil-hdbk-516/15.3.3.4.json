@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.3.4",
+  "number": "15.2.8",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Security techniques",
+  "subject_group": "15.2 Design and functional integration of system processing architecture elements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.3.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "text": "Verify that all communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.3.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all data or communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "text": "Verify that all data or communications are secure against unwanted intrusions and that security techniques used are implemented safely. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.7; JSSG-2008 Appendix A: para 3.1.14.6.i and 4.1.14.6.d guidance addresses analysis, allocation and verification of security requirements. Para 3.3.4 directly addresses unauthorized modification and tampering with components. Para 3.3.7 establishes a place for traceable security requirements. AFPam 63-1701 provides guidance for implementation of Systems Security Engineering FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.3.4",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all data or communications are secure against unwanted intrusions and that security techniques used are implemented safely.",
+      "text": "Verify that all data or communications are secure against unwanted intrusions and that security techniques used are implemented safely. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.7 JSSG-2008 Appendix A: 3.1.14.6.i and 4.1.14.6.d guidance addresses analysis, allocation and verification of security requirements; 3.3.4 directly addresses unauthorized modification and tampering with components; 3.3.7 establishes a place for traceable security requirements AFPam 63-1701 provides guidance for implementation of Systems Security Engineering FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Security techniques",
+      "text": "Criterion: Verify that security techniques used are implemented safely. Standard: Security requirements have been applied to the processing architecture to protect SCFs. For identified security vulnerabilities, ensure that security techniques incorporated into the design have been implemented such that they do not have a compromising effect on SCFs. For Army and Navy, the SPA contains features to prevent unauthorized control of or access to the system (e.g., change or add data, limits, or information) that could result in loss of the air vehicle or other component/s of the air system. Method of Compliance: Verification methods include analysis, test, and inspection. Verify that security processes have identified potential security vulnerabilities. Verify that vulnerability mitigation techniques have been implemented, analyzed, and tested to ensure that SCFs are not compromised. References: JSSG-2008 Appendix A: 3.1.14.5 directly addresses unauthorized modification and tampering with components; 3.1.14.6 invulnerability to software error; 3.1.16 security; 3.3.1 processing architecture; 3.3.7 establishes requirement for tracing security requirements AFPAM 63-1701: provides guidance for implementation of Systems Security Engineering IEEE 12207.0-1996 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 6.4.2.4.d; 6.4.2.5.d design/code implements security and this is verified by rigorous methods",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Security techniques",
+      "text": "Standard: 1. Verify that implemented security techniques do not adversely impact the integrity of SCF operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Verify that security techniques have been analyzed and tested to ensure that they do not result in adverse impacts to the integrity of SCF operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.2.1.1-516c",
+  "number": "8.7.2.1.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Receptacle pressure box",
+  "subject_group": "8.7.2.1 Minimization of hazards",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Receptacle pressure box",
+      "text": "Criterion: For receptacle installations, verify that a pressure box is provided and any fluids that collect in this box do not migrate into adjacent compartments. Standard: The receptacle installation has a pressure box below it to collect fluids, including fuel spray that may occur during aerial refueling. The pressure box prevents migration of the fluids or vapors to hazardous ignition zones or occupied areas. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. The criterion is verified by inspection of drawings which validate the presence of the pressure box. Fuel- and vapor-containment capabilities of the pressure box are verified by analysis and test. References: JSSG-2009: 3.3.8, 4.3.8; F.3.4.6.2.2.4, F.4.4.6.2.2.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Receptacle pressure box",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

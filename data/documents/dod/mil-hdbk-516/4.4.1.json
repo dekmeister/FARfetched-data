@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.4.1",
+  "number": "4.4.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Key characteristics",
+  "subject_group": "4.4 Manufacturing and quality",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that critical elements (key product characteristics) have been identified.",
+      "text": "Verify that critical elements (key product characteristics) have been identified.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that key product characteristics have been identified.",
+      "text": "Verify that key product characteristics have been identified. Comm\u2019l Doc: ASME Y14.5 \"Dimensioning and Tolerancing\" AS 9100 DoD/MIL Doc: ASC/EN Manufacturing Development Guide, Section 6.5, \"Key Characteristics and Processes\", AFI 63-501 FAA Doc: 14CFR reference: 23.601-23.605, 25.601-25.603",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Key characteristics",
+      "text": "Criterion: Verify that key product characteristics (including critical characteristics) have been identified. Standard: Physical characteristics which are key to the successful function of critical safety items (CSIs) and flight critical components are defined and documented. Tolerance allowances for each characteristic and traceability through the design hierarchy are defined, and the effects of adverse tolerance accumulation at higher (e.g., above the CSI) levels of product assembly are analyzed and reflected in the design documentation. Method of Compliance: Key product characteristic (including critical characteristics) and tolerance definitions are verified by inspection and analysis of program design documentation at the applicable levels of the product hierarchy. Manufacturing process controls for specific key product characteristics identified as Critical to Safety (CTS) and manufacturing process parameters necessary to achieve and maintain acceptable process indices are verified by inspection and analysis of manufacturing process control documentation for the applicable stages of manufacture and assembly. References: AFLCMC/EZSM Manufacturing Development Guide, Section 6.5, \"Key Characteristics and Processes\" AFI 63-501 AMCOM REG 702-7 Management Aviation Critical Safety Item Management Handbook, Joint Aeronautical Commanders Group Aviation Source Approval and Management Handbook, Joint Aeronautical Commanders Group SECNAVINST 4140.2 ASME Y14.5 SAE AS9100 SAE AS9103 14 CFR 23.601-23.605, 25.601-25.603, 27.601-605, 29.601-29.605",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Key characteristics",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

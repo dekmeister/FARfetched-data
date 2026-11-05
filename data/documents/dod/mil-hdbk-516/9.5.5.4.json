@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.5.4",
+  "number": "9.5.5.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Canopy and hatch jettison",
+  "subject_group": "9.5.5 Escape path clearance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Canopy and hatch jettison",
+      "text": "Standard: Jettisonable components (e.g., canopies and hatches) and other debris do not collide with the air vehicle, crewmembers, or the escape system within the escape system performance envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the system using a validated model and verify the trajectory of jettisonable components. Analysis shows a clear escape path for all roll, pitch, and yaw angles possible within the escape system performance envelope.\n(2) Analysis shows that jettisonable components do not collide with an ejectee, escape system, or air vehicle during an escape event. Test.\n  (1) Lab test: Test the escape system during full system-level ejection sled testing and verify that jettisonable components do not collide with the air vehicle, crewmembers, or escape system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

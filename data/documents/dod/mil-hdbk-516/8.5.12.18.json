@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.12.18",
+  "number": "8.5.12.18",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Installation",
+  "subject_group": "8.5.12 Ground handling",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify the safe installation of the landing gear and deceleration system and their components.",
+      "text": "Verify the safe installation of the landing gear and deceleration system and their components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Installation",
+      "text": "Criterion: Verify the safe installation of the landing gear and deceleration systems and their components. Standard: The air vehicle installation meets all interfaces, functions, form, fit, and performance criteria as designed. Appropriate system and component checkout procedures are in place to determine form, fit and functions are as designed and perform as expected. Method of Compliance: Verification methods include tests and demonstrations. The landing gear system demonstrations and tests verify the hardware and software functionality, to the maximum extent possible, on the air vehicle. Air vehicle checkout and acceptance procedures verify installed performance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Installation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

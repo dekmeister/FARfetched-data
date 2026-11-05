@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.53",
+  "number": "6.2.2.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Environmental requirements",
+  "subject_group": "6.2.2 VCF safety of design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.53",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the environmental design and the equipment installation are safe.",
+      "text": "Verify that the environmental design and the equipment installation are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.53",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the environmental design and the equipment installation are safe.",
+      "text": "Verify that the environmental design and the equipment installation are safe. DoD/MIL Doc: JSSG-2008: para 3.1.14, 4.1.14, 3.4, 4.4, 3.5, 4.5(all) FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.53",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the environmental design and the equipment installation are safe.",
+      "text": "Verify that the environmental design and the equipment installation are safe. DoD/MIL Doc: JSSG-2008: 3.1.14, 4.1.14, 3.4, 4.4, 3.5, 4.5(all) FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Environmental requirements",
+      "text": "Criterion: Verify that VCF equipment meets all environmental requirements as installed on the aircraft. Standard: The VCF is designed to withstand the full range of natural and induced environment requirements established for the air vehicle without permanent degradation of performance below VCF Operational State I. Natural environments include, but are not limited to, lightning, dielectric strength, sand and dust, fungus, extreme temperatures, humidity, corrosion, and icing. Induced environments include, but are not limited to, Electromagnetic interference (EMI)/Electromagnetic Compatibility (EMC), fluctuating pressure, turbulent aerodynamic flow, acceleration, acoustic noise, vibration, shock, nuclear environment, and explosive atmosphere. Method of Compliance: Verification methods for all natural and induced environmental requirements include analysis, test and review of documentation. Natural and induced environmental requirements are assessed by component hardware qualification testing and analysis using military and industry standards as defined by the procuring activity. References: JSSG-2008: 3.1.14, 3.4, 3.5, associated section 4 paragraphs. MIL-STD-810 MIL-STD-461 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Environmental requirements",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2",
+  "number": "7.1.3",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Material and process characterization",
+  "subject_group": "7.1 Propulsion system safety and data",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.3.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated.",
+      "text": "Verify that the allowables for materials are minimums; were established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures; and have been validated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.3.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the allowables for materials are minimums and are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures.",
+      "text": "Verify that the allowables for materials are minimums and are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures. Verify that conditions and properties for material repairs satisfy design requirements. DoD/MIL Doc: MIL-HDBK-1783B: para A.4.6/A.5.6 for material characterization guidance FAA Doc: 14CFR references: 33.15",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.3.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the allowables for materials are minimums and are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures.",
+      "text": "Verify that the allowables for materials are minimums and are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures. Verify that conditions and properties for material repairs satisfy design requirements. DoD/MIL Doc: MIL-HDBK-1783B: A.4.6/A.5.6 for material characterization guidance FAA Doc: 14CFR references: 33.15",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.3.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Material characterization",
+      "text": "Criterion: Verify that the allowables for materials are minima and are established considering statistical variability, the expected environments, fabrication processes, repair techniques, and quality assurance procedures. Verify that conditions and properties for material repairs satisfy design requirements. Standard: Structural properties used in design are based on minimum material capabilities. All material properties except fracture toughness and crack growth are based on minus three sigma values with a 50% confidence level or minus two Sigma values with a 95% confidence level. Another option is to state that material properties will be based on B0.1 probability values. The confidence level for B0.1 is 50%. B50 properties may be used to characterize fracture toughness and crack growth rate. Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation. Test and modeling programs have been used to establish material structural properties. Anticipated properties under damage states (e.g., fretting) have been verified through combinations of laboratory specimens, sub-element and component testing, material damage models which have been validated against databases and supplemented with historical data which cover the range of potential damage states, or databases which cover the properties under damage states. Material properties established by test have been based on specimens fabricated from \"as produced\" parts, from parts produced by equivalent practices, or from parts sufficiently similar in processing and size, since critical structural properties are dependent upon the manufacturing processes. Damage states in the parts which may occur during field usage have been verified for their potential effect on high cycle fatigue life. References: JSSG-2007: A.3.4.1.3, A.4.4.1.3 Material characterization 14 CFR 33.15",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Material and process characterization",
+      "text": "Standard: The performance, functional, and mechanical behavior of all propulsion system materials, including abradables, seals, coatings, and of manufacturing, joining, and repair processes used in the design are fully characterized. Fully characterized means all as-produced material behavior is understood, and properties required to support the full engine life cycle have been defined to a statistical basis and data pedigree, compatible with intended function and operating environment, and component classification or criticality assessment. Allowable properties used in design reflect the effects of the design environment (e.g., load, temperature, time, chemicals) and the selected manufacturing, repair, quality assurance, and non-destructive evaluation processes including inherent process variability and allowable defects. All mechanical properties used in design except fracture toughness and crack growth (threshold and rate) are based on minimum material capabilities as defined by one of the following or equivalent: a. Minus three sigma (-3\u03c3) - 50% confidence level. b. Minus two sigma (-2\u03c3) - 95% confidence level. c. B0.1 - 50% confidence level. d. A-Basis as specified in MMPDS. Note: Average (B50) properties are used for fracture toughness, crack growth threshold, and crack growth rate. Physical properties, such as density, thermal expansion coefficient, elastic modulus, and Poisson's ratio, reflect mean values. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation for materials and allowables historically characterized, including characterization via component testing, verifies full characterization, applicability to the system being certified, and compliance with statistical standards. Existing data obtained through historical tests can be used only when equivalence of the manufacturing processes are substantiated (e.g., same methods of producing billets, forgings, heat-treat processes, machining, surface treatment).\n(2) Review of documentation verifies the extent of full characterization activities (e.g., rub rigs, weld trials, fluid exposure, defect studies). Analysis.\n  (1) Conduct analysis to define allowable properties under damage states (e.g., fretting) using data collected through a combination of laboratory specimens, sub-element and component testing, and material damage models which are validated against databases and supplemented with historical data covering the range of potential damage states, or databases covering the properties under damage states. Test.\n    (1) Lab test: Component material properties, established by test, are based on specimens fabricated from \"as produced\" parts, from parts produced by equivalent practices, or from parts similar in processing and size, since critical structural properties are dependent upon the manufacturing and post-production processes (e.g., heat treatment, stress relief, surface processes). Property variability in different regions of the same part will be characterized via test. Damage states in parts, which may occur during field usage, are verified by test for their potential effect (e.g., HCF life). The number of tests conducted for each curve or condition is sufficient to establish minimum material properties used in design or to establish the correlation between the data obtained from specimens cut from parts and the data base within the calibrated design methodology.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

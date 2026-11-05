@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.1.8",
+  "number": "16.1.8",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Non-destructive inspection procedures",
+  "subject_group": "16.1 Maintenance manuals and checklists",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Non-destructive inspections",
+      "text": "Criterion: To ensure continued airworthiness, verify that in-service, non-destructive inspection techniques, inspection intervals, damage limits and detailed repair procedures have been developed and documented in the technical manuals. Standard: Non-destructive inspection (NDI) techniques and repair procedures address damage that occurs during normal operations (e.g., erosion, delamination, corrosion, as well as battle damage). Inspection intervals are identified in accordance with 16.2.4. Damage limits are documented in maintenance and technical documentation. Repair procedures identify all materials, processes, tools, equipment, facilities, and training necessary to complete the repairs. Structural substantiation is provided demonstrating that completed repairs maintain structural integrity and return the system to a positive margin of safety for strength and fatigue life. Method of Compliance: Verification methods include inspection and review of NDI documentation, repair procedures, and relevant structural substantiation. Documentation is reviewed to verify that damage limits, inspection intervals, and necessary materials, processes, tools, equipment, facilities, and training are identified. Structural substantiation is reviewed to verify that positive margins of safety for strength and fatigue life are maintained.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Non-destructive inspection procedures",
+      "text": "Standard: Maintenance publications identify NDI procedures and associated intervals, damage limits, and repair procedures. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine maintenance publications to ensure NDI procedures and associated intervals, damage limits, and repair procedures are identified.\n(2) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis.\n  (1) Conduct a FMECA to identify failure modes that require NDI detection.\n  (2) Conduct SSHA IAW MIL-STD-882, Task 204 or a similar hazard analysis method to identify AW hazards that require mitigation by NDI. Demonstration.\n    (1) Perform air vehicle maintainability demonstrations to confirm the NDI procedures are complete, accurate, and can be performed as written without introducing AW hazards. Maintenance publications will receive updates to address maintenance issues discovered during maintainability demonstrations. Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n    (2) Perform all air vehicle NDI procedures on production-configured hardware using government maintenance personnel to ensure NDI procedures do not introduce AW hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

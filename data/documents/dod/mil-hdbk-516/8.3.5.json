@@ -1,0 +1,52 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.5",
+  "number": "8.3.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Pressure capability",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the plumbing and components in the fuel system (as completely assembled and installed within the air vehicle) can withstand exposure to the specified proof pressure limit for the subsystem without resulting in fuel leakage or system performance degradation.",
+      "text": "Verify that the plumbing and components in the fuel system (as completely assembled and installed within the air vehicle) can withstand exposure to the specified proof pressure limit for the subsystem without resulting in fuel leakage or system performance degradation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the plumbing and components in the fuel system (as completely assembled and installed within the air vehicle) can withstand exposure to the specified proof pressure limit for the subsystem without resulting in fuel leakage, critical system performance degradation or critical life limited durability.",
+      "text": "Verify that the plumbing and components in the fuel system (as completely assembled and installed within the air vehicle) can withstand exposure to the specified proof pressure limit for the subsystem without resulting in fuel leakage, critical system performance degradation or critical life limited durability. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.5, E.4.4.5.1.5, E.3.4.5.1.6, E.4.4.5.1.6, E.3.4.5.1.7, E.4.4.5.1.7, E.3.4.5.1.8, E.4.4.5.1.8, E.3.4.5.6.1, E.4.4.5.6.1 FAA Doc: 14CFR references: 23.993, 25.993",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Pressure capability",
+      "text": "Criterion: Verify that the plumbing and components in the fuel system (as completely assembled and installed within the air vehicle) can withstand exposure to the specified proof pressure limit for the subsystem, including negative pressure, without resulting in fuel leakage, critical system performance degradation or critical life limited durability; and can withstand exposure to the specified burst pressure without external fuel leakage. Verify that surge pressure does not exceed the proof pressure limit. Standard: All components, lines and connections are capable of withstanding a proof pressure (twice maximum operating pressure or the maximum observed pressure during qualification testing) without failure or distortion; a burst pressure of 1.5 times the proof pressure without rupture and a negative pressure of one atmosphere (14.7 psi) without air leakage and collapse or damage of the components. Surge pressure does not exceed the associated proof pressure of the fuel system. Method of Compliance: Component-level proof and burst pressure testing verifies capability of components to withstand specified proof and burst pressures. Bench testing verifies the capability of the engine feed line to withstand required pressure. Proof and surge pressure testing of the installed system (on air vehicle or acceptable fuel system simulator) verifies the capability of plumbing to withstand specified proof and surge pressures. References: JSSG-2009: E.3.4.5.1.5, E.4.4.5.1.5; E.3.4.5.1.6, E.4.4.5.1.6; E.3.4.5.1.7, E.4.4.5.1.7; E.3.4.5.1.8, E.4.4.5.1.8; E.3.4.5.6.1, E.4.4.5.6.1 MIL-F-17874 14 CFR 23.993, 25.993, 27.993, 29.993",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Pressure capability",
+      "text": "Standard: Operating, proof (limit), and burst pressure requirements are defined for all plumbing and components of the fuel system (not including fuel tanks) as completely assembled and installed within the air vehicle: a. Can withstand exposure to the specified proof pressure (2X operating) for five minutes without resulting in fuel leakage, system performance degradation, or decrease in life limit. b. Can withstand exposure to the specified burst pressure (3X operating) without external fuel leakage. c. Can withstand negative pressure of one atmosphere (14.7 psi) without collapse or damage of the fuel system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation (e.g., system specification and system design descriptions) to verify operating, proof, and burst pressures are defined for plumbing and components of the fuel system. Analysis.\n  (1) Conduct static analysis to verify each component in the fuel system can withstand operating, proof, burst, and negative pressures. Test.\n    (1) Lab test: Conduct laboratory testing of component and plumbing to verify the capability to withstand operating, proof, burst, and negative pressures.\n    (2) Ground test: Conduct air vehicle ground proof tests verify the capability of the system to withstand proof pressures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

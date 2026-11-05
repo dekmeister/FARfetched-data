@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.1.2-516c",
+  "number": "5.1.2",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Use of probabilistic vs deterministic loads",
+  "subject_group": "5.1 Loads",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Use of probabilistic vs deterministic loads",
+      "text": "Criterion: Verify that the limit loads used in the design of dynamic components and elements of the airframe subject to deterministic design criteria are the maximum and most critical combination of loads that can result from authorized ground and flight use of the air vehicle. These include loads during maintenance activity, system failures from which recovery is expected, and loads experienced throughout the specific lifetime usage. Standard (Navy and Air Force): Only where deterministic values have no precedence or basis, is a combined load-strength probability analysis to predict the risk of detrimental structural deformation and structural failure used. In those cases, the airframe may not experience detrimental structural deformations with a probability of occurrence equal to or greater than that specified in the AVPS Addendum for the respective air vehicle. The resulting limit design loads are the maximum loads anticipated on the aircraft during its lifetime of service (see 5.1.1 of this document). Standard (Army): Limit design loads are the maximum loads anticipated on the aircraft during its lifetime of service. For rotorcraft, the air vehicle structure is designed for load factors and airspeeds such that the structural design envelope exceeds the aircraft aerodynamic capability or operational limits. Limit loads for certain dynamic components may also require consideration of altitudes between sea level and service ceiling. Method of Compliance: Verification methods include analysis, test, demonstration and inspection of documentation. a. Correlated ground and flight loads analyses are provided in which details of magnitudes and distribution of all applied external loads are identified for multiple air vehicle configurations, weights, center of gravity, and maneuvers covering all attainable altitudes, speeds and load factors. Service and maximum loads expected to be encountered are established for operation under all flight conditions. Wind tunnel tests are utilized for development of aerodynamic loads. Stiffness and ground vibration tests are utilized to update flexibility vs. rigid characteristics of loads analytical model. Flight controls and aerodynamic flight tests are utilized to update aircraft simulation models. Loads calibration tests are utilized to develop ground/flight load equations. 80% and 100% flight loads surveys/demonstrations are utilized to correlate analytical model and to substantiate the design loads. b. For rotorcraft, loads analysis is performed for design load conditions specified in ADS-29 (cancelled). Structural demonstration flight testing is performed in accordance with ADS-24 (cancelled)) to demonstrate the safe operation of the aircraft to the maximum attainable operating limits consistent with the structural design and to verify that loads used in the structural analysis and static tests are not exceeded at the structural design limits of the airspeed and load factor envelope, or if analytical loads are exceeded during structural demonstration testing to establish the allowable flight envelope and the critical conditions for strength, rigidity, and operation. c. For Navy rotorcraft, loads analyses are performed for conditions specified in sections 3 and 4 of the AVPS Addendum and/or AR-56. Ground and flight testing is performed in accordance with section 4 of the AVPS, AR-89 and MIL-D-23222 to demonstrate compliance with design requirements and to demonstrate safe operating limits. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.1.1, A.3.1.2, A.3.2.14.3, A.4.1.1, A.4.1.2, A.4.2.14 (Army rotary wing) ADS-10-SP, ADS-24 (cancelled), ADS-27-SP, ADS-29 (cancelled), ADS-51, ADS-64-SP (inactive), AR-70-62 (Navy rotary wing) As identified in the AVPS Addendum for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Use of probabilistic vs deterministic loads",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

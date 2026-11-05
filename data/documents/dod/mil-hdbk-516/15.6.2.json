@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.6.2",
+  "number": "15.6.2",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Full qualification of software",
+  "subject_group": "15.6 Software qualification and installation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Full qualification of software",
+      "text": "Criterion: Verify that all SSSEs released for flight have been fully qualified. Standard: For each SSSE, identify the associated CSCI(s). Qualification is performed with the final configuration of each CSCI for flight release on its target hardware in the required test environment. All identified CSCIs are qualified with 100% of the software requirements having been tested/verified on the flight release configuration. Method of Compliance: Verification methods include analysis, test, and inspection of process documentation. Inspection verifies that 100% requirements testing (or other approved verification method, if required) is planned for SSSEs. Verify that SSSEs have 100% of their requirements tested/verified for every CSCI version release for flight. Analysis and inspection verify that all failed requirements have been dispositioned to assure safe flight. Ensure formal qualification test reports are submitted for each CSCI. References: JSSG-2008 Appendix A: 3.1.11.4 100% validation of I/O; 4.3 processing element verification; 4.3.6 Verification Rationale - software fulfills requirements; 6.3 Test Verification Review (TVR) and First Flight Readiness Review (FFRR) DoD JSSSEH: 4.4; 4.4.1.1; 4.4.1.2; 4.4.1.3; 4.4.1.4; 4.4.1.6; 4.4.2 USAF Weapon Systems Software Management Guidebook: 3.8; G.4.3; G.4.8 RTCA DO-178: For RTCA DO-178C: 5.5.b.1; 6.1.b-e; 6.3.1; 6.3.2; 6.3.3; 6.4.a; 6.4.3; 6.4.4 (see also RTCA DO-178B) IEEE 12207.0-1996 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 5.3.9 software qualification testing FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Full qualification of software",
+      "text": "Standard: 1. Verify that all SESSs released for flight operations have been fully qualified. For each SESS, identify the associated CSCI. Full FQT is performed on target hardware for configurations of CSCIs being released for flight operations. In addition, for designs utilizing MCP environments: 2. Software elements supporting safety-critical function(s) running on MCPs are fully qualified with the MCP configured and running with the full flight configuration of software loaded on the MCP and running in a flight representative environment that is realistically stressing the configuration under test. Test environment simulations and stubs can be utilized to create the full flight configuration of loaded software if those simulations and stubs are qualified to requirements and validated to show that their performance is equitable to the actual flight configuration. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of process documentation. Examination verifies that 100% requirements testing (or other approved verification method, if required) is planned for SESSs. Verify that SESSs have 100% of their requirements verified for every CSCI version release for flight operations. Analysis and examination verify that all failed requirements have been dispositioned to assure safe flight operations. Ensure FQT reports are submitted for each CSCI. In addition, for designs utilizing MCP environments: 2. Examination of SESS qualification plans, procedures, and reports verify that the qualification was performed with a full flight configuration of software planned for the MCP environment. Analysis and testing verify that any simulations and stubs meet acceptable performance within the qualification environment. Analysis of test results verify that the simulations and stubs functioned as expected during the qualification process.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

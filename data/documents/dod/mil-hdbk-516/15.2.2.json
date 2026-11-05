@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.2.2",
+  "number": "15.2.2",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Functional autonomy and critical data sources",
+  "subject_group": "15.2 Design and functional integration of system processing architecture elements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight due to failure in mission- or maintenance-related elements.",
+      "text": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight due to failure in mission- or maintenance-related elements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight-critical functions due to failure in mission- or maintenance-related elements.",
+      "text": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight-critical functions due to failure in mission- or maintenance-related elements. Comm\u2019l Doc: RTCA DO-178B RTCA DO-254 DoD/MIL Doc: JSSG-2008: para 3.3.1; JSSG-2008 Appendix A: para 3.3.1 contains guidance addressing redundant data path management, data validity and reasonableness. Para 3.1.7.3 and 3.1.8 provide guidance for interfacing between safety and non-safety critical subsystems. FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight-critical functions due to failure in mission- or maintenance-related elements.",
+      "text": "Verify that level of autonomy achieved by the flight-essential elements is sufficient to preclude loss of flight-critical functions due to failure in mission- or maintenance-related elements. Comm\u2019l Doc: RTCA DO-178B RTCA DO-254 DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: 3.3.1 contains guidance addressing redundant data path management, data validity and reasonableness; 3.1.7.3 and 3.1.8 provide guidance for interfacing between safety and non-safety critical subsystems FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Functional autonomy and critical data sources",
+      "text": "Criterion: Verify that safe functional autonomy is achieved by ensuring that SSEs do not rely on single source safety critical data or non-safety critical data to support SCFs. Standard: All data sources for SSEs are identified. Safety critical data are identified. The SSEs are designed to preclude reliance on single source safety critical data or from non-safety critical sources for safety critical applications. Method of Compliance: Verification methods include analysis and test. FMEA and FMET verify that loss of non-safety critical data or a safety critical source will not cause loss of SCF. References: JSSG-2008 Appendix A: 3.1.11.3 addresses single source data concerns; 3.3.1 contains guidance addressing redundant data path management, data validity and reasonableness; 3.1.7.3 and 3.1.8 provide guidance for interfacing between safety and non-safety critical subsystems DoD JSSSEH: 4.3.7.2.4; 4.3.7.3.2.2; 4.3.7.3.2.4 USAF Weapon Systems Software Management Guidebook: 3.8; G.2.3.f; G.4.1 NASA-GB-8719.13: 7.4.1 segregate safety-critical data from other data IEEE Std 1012-2012: 5.0 altering of critical data FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.3.1 protection against single system failure",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Functional autonomy and critical data sources",
+      "text": "Standard: 1. Verify that safe functional autonomy is achieved by ensuring that ESSs do not rely on single source safety-critical data or non-safety-critical data to support SCFs. All data sources for ESSs are identified. Safety-critical data are identified. The ESSs are designed to preclude reliance on single source safety-critical data or from non-safety-critical sources for safety-critical processes and processing tasks. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Failure mode effects analysis and FMET verify that loss of non-safety-critical data or a safety-critical source will not cause loss of SCF.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

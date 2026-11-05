@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.1.1",
+  "number": "12.1.1",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Power quantity",
+  "subject_group": "12.1 Electrical power generation system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "title_at_revision": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions.",
+      "text": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions.",
+      "text": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions. DoD/MIL Doc: For guidance/principles relating to assurance of electrical system capacity: MIL-E-7016 AFGS-87219 JSSG-2009: Appendix C para C.3.4.3.5.2, C.4.4.3.5.2; Appendix H para H.3.4.8.2, H.4.4.8.2; FAA Doc: 14CFR references: 23.1351; 25.1351.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions.",
+      "text": "Verify that sufficient power is available to meet the power requirements during all modes of operation and failure conditions. DoD/MIL Doc: For guidance/principles relating to assurance of electrical system capacity: MIL-E-7016 AFGS-87219 JSSG-2009: Appendix C C.3.4.3.5.2, C.4.4.3.5.2; Appendix H H.3.4.8.2, H.4.4.8.2 FAA Doc: 14CFR references: 23.1351; 25.1351",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Power quantity",
+      "text": "Criterion: Verify that sufficient power is available to meet the power requirements during all modes of operation, mission profiles, failure conditions and malfunction recovery procedures. Verification of sufficient power requires consideration of all sources, and includes evaluating battery rate(s) of discharge. Standard: Electrical load demand for each mission requirement is defined both without and with critical failures. Power supply capacity exceeds load demand for all operating conditions, including transient and probable failure conditions to include multiple power source failures for all combinations of failure conditions. In the event of a complete loss of the primary electrical power generating system, battery capability exists for providing thirty minutes (or more, if so specified) of electric power to those loads which are essential to continued safe flight and landing. This time period includes the time required for operator/pilot recognition and corrective load shedding action. Method of Compliance: The Electrical Loads Analysis properly documents the power requirements and conditions anticipated on the aircraft. Qualification, simulator, ground and flight tests verify that adequate power is available for all operating conditions. Failure conditions are analyzed in the Failure Modes, Effects and Criticality Analysis (FMECA). Analysis of the architecture verifies sufficient electrical flow paths for normal and abnormal conditions. Analysis of Electrical Loads Analysis substantiates the ability of the backup system components to power required equipment and systems. System tests are successfully performed, including battery tests under actual load conditions using a non-new, nominally aged battery to reflect end-of-service-life rated capacity. References: For guidance/principles regarding design and operation of safe electrical generation systems: JSSG-2009: H.3.4.8, H.4.4.8, H.3.4.8.4, H.4.4.8.4. MIL-HDBK-454 MIL-STD-464 MIL-PRF-21480 AFGS-87219 ADS-51-HDBK: Chapter/Section 8-7 For guidance/principles regarding/affecting the integrated design and operation of backup power within aircraft electrical systems: JSSG-2009: H.3.4.8, H.4.4.8, H.3.4.8.5, H.4.4.8.5. MIL-E-7016 AFGS-87219 14 CFR 23.1351-23.1367, 25.1351-25.1363.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Power quantity",
+      "text": "Standard: For the air system, sufficient power capacity is available to meet the power requirements during all modes of operation, MPs, failure conditions, and malfunction recovery procedures. Electrical load demand for each mission requirement is defined both without and with critical failures. Power supply capacity exceeds load demand for all operating conditions, including transient and failure conditions to include multiple power source failures and other emergency conditions. Battery power is available for all safety-critical systems for the period of time it takes to land the air vehicle under worst case operating conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Failure conditions of electrical power sources are identified and analyzed in the FMECA.\n(2) The ELA properly documents the power requirements and conditions anticipated on the air vehicle IAW MIL-E-7016, Requirements paragraphs, as tailored to each specific air vehicle.\n(3) The battery analysis verifies battery power is available for all safety-critical systems for the period of time it takes to land the air vehicle under worst case operating conditions. Test.\n  (1) Lab test: An electrical system test, using production or production representative power system components, verifies the ability of the electrical system to operate under the power requirements during all modes of operation, MPs, failure conditions, and malfunction recovery procedures.\n  (2) Ground test: Air vehicle ground testing substantiates that sufficient power capacity is available to meet air vehicle power requirements.\n  (3) Ground test: Power source capacity test verifies the system provides rated performance when loaded to 100% capacity.\n  (4) Ground test: Air vehicle level load measurements verify the loads are consistent with the ELA. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Air vehicle flight testing substantiates that sufficient power capacity is available to meet air vehicle power requirements.\n  (6) Flight test: Air vehicle level load measurements verify the loads are consistent with the ELA.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

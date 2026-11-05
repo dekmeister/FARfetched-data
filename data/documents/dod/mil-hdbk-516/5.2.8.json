@@ -1,0 +1,52 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.2.8",
+  "number": "5.2.8",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Environment design - vibration",
+  "subject_group": "5.2 Structural dynamics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that it can operate in the vibration environments induced by the operational use for the specified service life.",
+      "text": "Verify that the airframe is designed such that it can operate in the vibration environments induced by the operational use for the specified service life. Also verify that the airframe is designed such that no fatigue cracking or excessive vibration of the airframe structure or components occurs that would result in the air vehicle or the components of the air vehicle systems not being fully functional. DoD/MIL Doc: JSSG-2006: para A3.6.2, A4.6.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "5.2.5",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that it can operate in the vibration environments induced by the operational use for the specified service life.",
+      "text": "Verify that the airframe is designed such that it can operate in the vibration environments induced by the operational use for the specified service life. Also verify that the airframe is designed such that no fatigue cracking or excessive vibration of the airframe structure or components occurs that would result in the air vehicle or the components of the air vehicle systems not being fully functional. DoD/MIL Doc: JSSG-2006: A.3.6.2, A.4.6.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Environment design - vibration",
+      "text": "Criterion (Army and Air Force): Verify that the airframe is designed such that it can operate in the vibration environments induced by the operational use for the specified service life. Also verify that the airframe is designed such that no fatigue cracking or excessive vibration of the airframe structure or components occurs that would result in the air vehicle or the components of the air vehicle systems not being fully functional. Criterion (Navy): Verify that the aircraft is designed such that it can operate in the vibration environments induced by the operational usage environment for the specified service life. The aircraft, for all flight conditions, specified gross weight, centers of gravity, airspeeds, and when for rotorcraft operating at the specified rotor speed(s), is designed such that no fatigue cracking or excessive vibration of the airframe structure or components occurs that would result in the air vehicle or the components of the air vehicle systems not being fully functional. The vibration spectrum provided for design and qualification of equipment to be installed on the aircraft is acceptable. A separate set of spectra, addressing each portion of the flight envelope including maneuvers, is defined. (Aircraft are typically divided into selected zones based upon regions of influence of the source of (vibration).) Standard (Navy and Air Force): a. Identification of vibratory sources associated with the air vehicle and its usage. b. Estimates of vibration levels that are the basis for structural development testing as well as establishment of equipment qualification test criteria. These vibration levels are used to develop designs to control the environment in areas occupied/equipment. c. Utilization of MIL-STD-810 during air vehicle design and equipment development when reasonable measurements of equipment vibration are unavailable. Standard (Army): a. All vibratory sources associated with the air vehicle and its usage are identified. b. Estimates of vibration levels are the basis for preliminary structural development testing as well as establishment of equipment qualification test criteria. The levels are utilized for developing designs to control the environment in areas occupied by personnel and equipment. c. MIL-STD-810 is utilized during air vehicle equipment development when reasonable estimates of equipment vibration are unavailable. Method of Compliance (Army and Air Force): Verification methods include analyses and tests. The following compliance instruments are applicable in addressing the standards: a. Updated predictions of the vibration environment. b. Component tests verifying analytical fatigue life predictions and which demonstrate that components meet service usage requirements in the vibration environment. c. Ground and flight vibration tests which identify the response characteristics of the aircraft to forced vibrations and impulses. Method of Compliance (Navy): Verification methods include analyses, tests, and review of documentation. The following compliance instruments are applicable in addressing the standards: Analytical predictions of the vibration environment impact on service life updated by component tests, as well as ground and flight vibration tests which identify the vibratory response characteristics of the aircraft. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.6, A.4.6 (Army rotary wing) ADS-10-SP, ADS-24 (cancelled), ADS-27-SP, ADS-29 (cancelled), ADS-51, ADS-64-SP (inactive), AR-70-62 (Navy rotary wing) As identified in the AVPS Addendum for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 MIL-STD-810 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Environment design - vibration",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

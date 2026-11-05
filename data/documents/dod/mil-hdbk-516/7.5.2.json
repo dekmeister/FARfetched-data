@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.5.2",
+  "number": "7.5.2",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Verify that cockpit indications demonstrate safe operation, ranges, zones, and accuracy.",
+  "subject_group": "7.5 Engine monitoring system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that cockpit indications demonstrate safe operation, ranges, zones, and accuracy.",
+      "text": "Verify that cockpit indications demonstrate safe operation, ranges, zones, and accuracy.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that cockpit indications demonstrate safe operation, ranges, zones, and accuracy.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.7",
+  "number": "14.3.7",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Structural coverage analysis",
+  "subject_group": "14.3 Software safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Structural coverage analysis",
+      "text": "Criterion: Verify that software safety planning adequately plans for structural coverage analysis and that the planned analysis is accomplished. Standard: Adequate structural coverage analysis for the software criticality level is accomplished; results are recorded using formal procedures and are kept under configuration management. Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of the test plans that adequate structural coverage analysis is planned for and documented. Verify by inspection of structural coverage analysis results that adequate structural coverage testing and analysis were achieved. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Structural coverage analysis",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

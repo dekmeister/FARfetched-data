@@ -616,22 +616,6 @@ plan [reviews/PLAN_516.md](reviews/PLAN_516.md) Part B). Reports are
 `tools/out/reports/dod_hdbk_extract_report.tsv` and
 `emit_dod_hdbk_report.tsv`.
 
-- **DOD-1. MIL-HDBK-516 is staged, not promoted.** Continuity is decided
-  (2026-11-06): `tools/overrides/dod_hdbk.tsv` has 816 reviewed rows, and the
-  emit runs clean (0 `needs_human`, 0 `renumber_candidate`, 0 stale): 1,730
-  keys, 4,995 versions, 567 renumbered provisions. The build accepts it
-  (0 unresolved; FAA/EASA unchanged at 98,145 resolved rows). `promote
-  --dry-run`: 1,731 new DOD files, everything else identical. Close by
-  promoting and committing. Known limits of the review:
-  - Candidates come from text similarity (cosine >= 0.6) or near-identical
-    printed titles (516C/D). A move that was both reworded and retitled
-    (common in 516D) is found only if a reviewer spotted it: 516D still
-    starts more new keys than any other edition.
-  - Several splits gave the key by judgement (rule in DOD_HDBK.md): 516D
-    11.1.1.1 (comms, four-way split), 516D 8.4.4 (drainage/ventilation),
-    516C 14.1.1.4.1 and 11.3.3.1 (even list splits, item a), 516B w/CHANGE 1
-    5.1.3 (`new`: it duplicates 5.1.6 in the source).
-  - Merges are recorded only as one continuing key (ROADMAP-4).
 - **DOD-2. The 516/516A appendix cross-reference table is not ingested.**
   It maps each criterion to JSSG paragraphs and 14 CFR sections (after
   NOTES). Candidate input for ROADMAP-4 cross-document links.
@@ -652,6 +636,21 @@ plan [reviews/PLAN_516.md](reviews/PLAN_516.md) Part B). Reports are
 - **DOD-6. Superscripts are lost** in the text layer: `10-7 per flight
   hour` for 10⁻⁷ (23 places in 516C/516D). Fix with `text.tsv` rows if they
   matter.
+- **DOD-7. Limits of the continuity review** (816 rows in
+  `tools/overrides/dod_hdbk.tsv`; was DOD-1):
+  - Candidates come from text similarity (cosine >= 0.6) or near-identical
+    printed titles (516C/D). A move that was both reworded and retitled
+    (common in 516D) is found only if a reviewer spotted it: 516D still
+    starts more new keys than any other edition.
+  - Several splits gave the key by judgement (rule in DOD_HDBK.md): 516D
+    11.1.1.1 (comms, four-way split), 516D 8.4.4 (drainage/ventilation),
+    516C 14.1.1.4.1 and 11.3.3.1 (even list splits, item a), 516B w/CHANGE 1
+    5.1.3 (`new`: it duplicates 5.1.6 in the source).
+  - Merges are recorded only as one continuing key (ROADMAP-4).
+  - Deleted provisions keep the section title they were last printed under, so
+    the document page has two groups for sections 10, 15 and 20 (all deleted
+    provisions under the old title; 10 was replaced, 15 and 20 renamed). The
+    app merges only titles that extend one another (7, 13, 19).
 
 ### Text layout (TEXT-)
 
@@ -712,7 +711,9 @@ tools/ history) for the per-document tables. List each kind with
   (was: Para #10)
 - **TEXT-11. Tables and formulas are flattened into running text** (FAA and
   EASA; e.g. CS-23 Appendix C23). Consider a table representation later.
-  (was: EASA-ingest #8, #12)
+  (was: EASA-ingest #8, #12) Formulas and sub/superscripts (GitHub #4, CS-25
+  §25.331, CAR 3 §3.159) are planned, not started:
+  [reviews/PLAN_FORMULA_MARKUP.md](reviews/PLAN_FORMULA_MARKUP.md).
 
 ### Build / contract (BUILD-)
 
@@ -757,13 +758,13 @@ history at `a65ac16`).
   queries `model_categories`, so it breaks on the first v6
   `cert_basis.sqlite`. Change the app before shipping a v6 build; a model's
   categories are now the union over its TCBs, or per regulator.
-
-### Tooling and process (PROC-)
 - **BUILD-8. Aircraft model identity is `(manufacturer, model_designation)`.**
   The same smell schema v7 fixed for provisions: a name used as a key. A
   manufacturer rename or a re-designated model splits one model's history,
   and the build matches on the strings. Consider a stable model key, as
   `provisions.key`. (Noted in reviews/PLAN_516.md, 2026-11-03.)
+
+### Tooling and process (PROC-)
 
 - **PROC-1. The DRS amendment lookup cache never expires.**
   `input/cache/drs/far_amendment/` caches hits and misses for good. A gap
@@ -827,15 +828,15 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
     `provision_similarity` (v5).
   - "Related references" on TCDS entries, e.g. an exemption that applies to
     a regulation in the basis, without making it part of the basis.
-  - Needs a schema decision. (was: plan.md, TODO.md)
-- **ROADMAP-5. Structured serial applicability.** Today `applicability` is
   - MIL-HDBK-516 merges and splits between editions (516C §14 → 516D §4.4,
     §10 → §11, §18 → §9, 8.7 → new §10; criteria consolidated across
     sections). Schema v7 records each key's history but not that two keys
     became one. Evidence: the 516B Appendix A.3 table (section level), the
-    516D foreword ¶3, and the `renumber_candidate` report (DOD-1).
+    516D foreword ¶3, and the `renumber_candidate` report (DOD-7).
   - Cross-document links from 516B's `FAA Doc: 14CFR references` lines and
     the 516/516A appendix table (DOD-2) to the FAA provisions.
+  - Needs a schema decision. (was: plan.md, TODO.md)
+- **ROADMAP-5. Structured serial applicability.** Today `applicability` is
   verbatim (schema review Q-04). It also bears on TCDS-1.
 - **ROADMAP-6. Deferred schema items from the 2026-10-31 review:**
   `document_revisions.cancelled_on`; `provisions.parent_id` (until a
@@ -867,6 +868,13 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   questions: [reviews/PLAN_NATO_USAR.md](reviews/PLAN_NATO_USAR.md).
 
 ## Closed
+
+- **DOD-1 (MIL-HDBK-516 staged, not promoted):** promoted and committed
+  2026-11-06: 1,730 keys, 4,995 versions, 567 renumbered, build clean (0
+  unresolved, FAA/EASA at 98,145 resolved rows). The document page's 364
+  groups were fixed with it: `current_grouping` is the section and the parent
+  heading is `subject_group` (20 groups in the app). The review limits moved
+  to DOD-7.
 
 - **ETCDS-5 (CS 25.851 layout, 3 models held):** fixed 2026-11-04. The
   extinguisher table rows (`7 to 30....... 1`) were dropped as contents

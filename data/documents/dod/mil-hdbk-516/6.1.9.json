@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9",
+  "number": "6.1.9",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "High angle-of-attack",
+  "subject_group": "6.1 Flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "High angle-of-attack",
+      "text": "Criterion: Verify that high angle-of-attack characteristics have been defined and assessed for safety of flight. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.5 High angle of attack requirements (see table LXXX for guidance). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "High angle-of-attack",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

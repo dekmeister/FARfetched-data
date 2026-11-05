@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.13",
+  "number": "8.6.13",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Limits of operation",
+  "subject_group": "8.6 Auxiliary power system/emergency power system(s) APS/EPS",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter.",
+      "text": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter.",
+      "text": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter. DoD/MIL Doc: JSSG-2009: para 3.2.7.4.4, 4.2.7.4.4, 3.2.7.6, 4.2.7.6 FAA Doc: 14CFR reference: 23.1522, 23.1549, G23.3, 25.1522, 25.1549, H25.3, TSO C77b: 4.3, 4.4.1, 4.6.1, 5.7",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter.",
+      "text": "Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameter. DoD/MIL Doc: JSSG-2009: 3.2.7.4.4, 4.2.7.4.4, 3.2.7.6, 4.2.7.6 FAA Doc: 14CFR reference: 23.1522, 23.1549, G23.3, 25.1522, 25.1549, H25.3 TSO C77b: 4.3, 4.4.1, 4.6.1, 5.7",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Limits of operation",
+      "text": "Criterion: Verify that equipment service life, overhaul, and operating limits are safe and that life-limited components have a reliable means of tracking the limiting parameters. Standard: Required maintenance actions are defined to ensure safe operation over the design service life. Component maintenance times are based on the parameter(s) that causes life degradation. A critical component tracking system has been established and defines the analysis procedures, serialization, data collection, and computer programs necessary to establish maintenance times of individual components based on accrual or parameter events. Method of Compliance: Established lives and limits are verified by design analyses. Development tests validate critical calculated/modeled parameters such as stress and temperature spectrums. Durability/Accelerated Mission Testing validates established limits. Inspection of design and maintenance system verifies that provisions exist for tracking of critical components. References: JSSG-2009: 3.2.7.4.4, 4.2.7.4.4, 3.2.7.6, 4.2.7.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Limits of operation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

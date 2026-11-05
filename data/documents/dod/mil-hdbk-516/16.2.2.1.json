@@ -1,0 +1,62 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.2.2.1",
+  "number": "16.2.3",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Life-limited parts",
+  "subject_group": "16.2 Inspection requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "16.2.2.1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that life-limited items and replacement intervals are identified using relevant operational data.",
+      "text": "Verify that life-limited items and replacement intervals are identified using relevant operational data.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that life-limited items and replacement intervals are identified using relevant operational data.",
+      "text": "Verify that life-limited items and replacement intervals are identified using relevant operational data. DoD/MIL Doc: JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5; MIL-PRF-5096: para 3.2.2.4 gives guidance regarding flying time related or time change items. FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that life-limited items and replacement intervals are identified using relevant operational data.",
+      "text": "Verify that life-limited items and replacement intervals are identified using relevant operational data. DoD/MIL Doc: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-PRF-5096: 3.2.2.4 gives guidance regarding flying time related or time change items FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Life-limited parts",
+      "text": "Criterion: Verify that life-limited parts and replacement intervals are identified using relevant operational data. Standard: All known life-limited parts and their replacement intervals are identified in maintenance documentation. Replacements intervals are based on operational data whenever possible. Prior to fielding, replacement intervals are based on available analyses and test data. Method of Compliance: The identification of life-limited parts is verified by the review of maintenance documentation. Replacement intervals are traceable to appropriate source data such as the FMECA, reliability and maintainability predictions, and reliability/fatigue testing results, and the life-limited parts are identified in the appropriate technical data. References: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-PRF-5096: 3.2.2.4 gives guidance regarding flying time related or time change items 14 CFR 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Life-limited parts",
+      "text": "Standard: Maintenance publications identify LLPs and their replacement intervals. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine the maintenance publications to ensure they include LLPs derived from the RCM analysis.\n(2) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis.\n  (1) Conduct RCM analysis that meets SAE JA1011 to identify LLPs. A4A MSG-3 Volume 1 and 2 (previously ATA MSG-3) meet the intent of this MoC. Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n  (2) Perform a desktop analysis of LLPs using the government verification team to ensure LLPs identified from the RCM analysis are in the maintenance publications.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

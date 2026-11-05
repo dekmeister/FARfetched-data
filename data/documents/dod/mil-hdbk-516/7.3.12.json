@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.12",
+  "number": "7.3.12",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Blade out",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Blade out",
+      "text": "Standard: Subsequent to blade failure at maximum allowable transient rotor speed, including allocations for transient overshoot, control tolerance, and measurement tolerance, the engine does not experience or cause: a. Failure of: 1. Primary engine structure (e.g., cases, frames, ducts, struts, links). 2. Rotor structure or shafts. 3. Main shaft bearings, bearing supports, or bearing housings. 4. Engine mounts. b. Engine rotor overspeed. c. Loss of ability to shut down the engine. d. External leakage of flammable fluid. e. Uncontained fire. f. For multi-engine air vehicles, loading exceeding limit conditions in the other engines. g. Secondary failures that result in catastrophic air vehicle damage or loss of air vehicle control. The combined load case for blade out includes dynamic imbalance loads from blade loss plus normal engine operating loads at takeoff power setting and symmetric takeoff maneuver loads. Blade loss loads for conventional blades are based on the imbalance equivalent to fracture in two adjacent blade attachments at the minimum neck section above the outermost retention feature. For fan blades only this total imbalance may be reduced based on substantiated experience on a similar configuration; one full blade imbalance minimum. Blade loss loads for integrally bladed rotors are based on the imbalance equivalent to liberation of two airfoils at the outer tangency point of the blade root fillet or, for welded or bonded airfoils, at the bond plane. For fan blades only this total imbalance may be reduced based on substantiated experience on a similar configuration; 0.5-blade imbalance minimum. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis is conducted using a whole-engine rotor dynamics model to determine blade out loads throughout the engine and at interfaces (e.g. engine mounts), and to determine the limiting blade out condition for use in an engine-level blade out test. In determining the limiting blade out condition, blade loss in the fan, compressor, and turbine sections of the engine is considered.\n(2) Analysis is accomplished using the resultant blade out loads to verify blade out capability and system-level impacts. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Lab test: Engine test in a ground-based sea level test cell is accomplished at the limiting blade out condition to verify engine blade out capability and calibrate analytical predictions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

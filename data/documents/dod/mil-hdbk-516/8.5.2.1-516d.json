@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.2.1-516d",
+  "number": "8.5.2.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Prevention of penetration of occupied areas and fuel tanks",
+  "subject_group": "8.5.2 Landing gear structure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Prevention of penetration of occupied areas and fuel tanks",
+      "text": "Standard: Structural failure of any landing gear system component(s) will not result in any penetration of occupied areas, fuel tanks, and fuel components. Any penetration damage to hydraulics, electrical systems, and ECS does not cause a catastrophic failure. The failed landing gear does not prevent crewmember and passenger egress. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of landing gear system drawings verifies that expected structural failures of the landing gear system does not result in penetration of occupied areas, fuel tanks, and components. Analysis.\n  (1) Verify SHA is completed to show expected structural failures of the landing gear system does not result in penetration of occupied areas, flammable fluid carrying lines, and fuel tanks. Any penetration does not cause a catastrophic failure.\n  (2) Conduct modeling to verify that for expected structural failures of the landing gear system and resulting collapse of gear does not result in penetration of occupied areas and fuel tanks.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

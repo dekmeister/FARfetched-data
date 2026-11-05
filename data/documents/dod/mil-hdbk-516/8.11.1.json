@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.11.1",
+  "number": "8.10.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rescue hoist system operation",
+  "subject_group": "8.10 External rescue hoist",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.11.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the external rescue hoist system does not adversely affect safety to personnel or to the air vehicle system.",
+      "text": "Verify that the external rescue hoist system does not adversely affect safety to personnel or to the air vehicle system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.11.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the external rescue hoist system does not adversely affect safety to personnel or to the air vehicle system.",
+      "text": "Verify that the external rescue hoist system does not adversely affect safety to personnel or to the air vehicle system. DoD/MIL Doc: Refer to technical point of contact for this discipline (listed in section A.2).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "No adverse effects on safety",
+      "text": "Criterion: Verify that the external rescue hoist system does not adversely affect safety of personnel or the air vehicle system. Standard: The air vehicle maintains an acceptable level of dynamic stability for all mission operations on the ground and during flight whenever the hoist system is in operation. There are no adverse effects that would damage the air vehicle or harm personnel at any time the hoist system is used. Method of Compliance: Dynamic and stability analyses verify that the hoist system operation does not adversely affect all ground and flight operations and are validated using component characterization and air vehicle ground demonstrations tests. Flight testing verifies that all transitional operations (air-to-ground and visa-versa) and inflight operations have no adverse vibration or instability effects.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rescue hoist system operation",
+      "text": "Standard: The operation of the rescue hoist system allows personnel to be raised and lowered throughout the operating envelope without creating an AW hazard to the air vehicle and without causing harm to crewmembers, passengers, or ground crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of flight manuals verifies that the maximum and minimum loads and flight envelope operating limits (e.g., maneuvering, CG, weight, altitude, bank limits and airspeed) are defined. Analysis.\n  (1) Conduct dynamic and stability analyses to verify the operation of the rescue hoist system (personnel loadings and cable deployment) does not create an AW hazard impacting flight operations. Rescue hoist system reactions including spinning, oscillating, bouncing, swinging, trolling, deploying, and retracting do not affect the air vehicle during hover and transition into flight or hover. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Lab test: Conduct lab testing of rescue hoist and attachment hardware to verify rescue hoist system installation, rigging, clearances, control, functions, and performance to raise and lower the load.\n    (2) Flight test: Conduct flight testing of the rescue hoist system to verify that all transitional operations (air-to-ground and ground-to-air) and in flight operations do not create air vehicle, personnel, or coupled vibration effects causing damage to air vehicle systems, loss of control of the air vehicle, harm to crewmembers, passengers, or ground crew, or instability effects due to spinning, oscillating, bouncing, swinging, trolling, deploying, and retracting of the external load.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

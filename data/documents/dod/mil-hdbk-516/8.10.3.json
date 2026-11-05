@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.10.3",
+  "number": "8.9.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Securing of cargo",
+  "subject_group": "8.9 External cargo hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.10.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the cargo can be hooked safely to the hook and that the manuals contain the maximum and minimum loads for safe movement of cargo.",
+      "text": "Verify that the cargo can be hooked safely to the hook and that the manuals contain the maximum and minimum loads for safe movement of cargo.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.10.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the cargo can be hooked safely to the hook and that the manuals contain the maximum and minimum loads for safe movement of cargo.",
+      "text": "Verify that the cargo can be hooked safely to the hook and that the manuals contain the maximum and minimum loads for safe movement of cargo. DoD/MIL Doc: Refer to technical point of contact for this discipline (listed in section A.2). FAA Doc: 14CFR references: 133 Rotorcraft External-Load Operations, subpart D-Airworthiness Requirements, sec.133.45",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Securing of cargo",
+      "text": "Criterion: Verify that the cargo can be hooked safely to the hook and that the manuals contain the maximum and minimum loads for safe movement of cargo. Standard: The cargo hook system and the associated structure used to retain the cargo can take the full ground and flight loads without damage to and without any detrimental effects to the air vehicle and the cargo. Sufficient documentation and instructions to properly retain the cargo in position and to release it is provided so as not to cause and overloads throughout the operational missions Method of Compliance: Air Vehicle performance analysis predicts the worst case loads. Laboratory tests verify the structural and performance capability of the cargo hook system and structural attachment combination. This includes material selection, strength, service life, overload operation and cargo release profiles that supports the air vehicle performance and operations. Flight test and operational tests validate the analysis and component tests. Reference: 14 CFR: 133 Rotorcraft External-Load Operations, subpart D-Airworthiness Requirements, sec.133.45",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Securing of cargo",
+      "text": "Standard: The external cargo hook allows the load to be secured to the cargo hook and prevents inadvertent release of the cargo. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of external cargo hook system documentation (e.g., drawings and system descriptions) to verify design features are in place to secure and retain the external load. Analysis.\n  (1) Conduct kinematic analysis to verify retention mechanism ability to secure and retain the external load. Test.\n    (1) Lab test: Conduct laboratory testing to verify the endurance of the external cargo hook ability to secure and retain the external load. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight testing of the cargo hook system to verify ability to secure and retain the external load.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

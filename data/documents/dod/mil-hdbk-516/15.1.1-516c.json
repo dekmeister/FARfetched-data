@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.1-516c",
+  "number": "15.1.1",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Safety-critical functions",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Safety critical functions (SCFs)",
+      "text": "Criterion: Verify that the system's safety critical functions (SCFs) have been identified and documented. Standard: All SCFs have been identified based on the program safety definitions and the criticality of the functions implemented on the air system. Method of Compliance: Verification methods include analysis, and inspection of documentation. Verify that all air system functions have been identified. Verify that all SCFs from the complete list of air system functions are identified and documented. Verify that documentation identifies the analysis method used to determine SCFs. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.1.a); 3.1.2.1 for establishing safety criticality along with CNS/ATM safety performance references in the Electronic Systems Center (ESC) developed Generic Performance Matrices (10E-5 to 10E-7 hazard rates depending on flight phase) MIL-STD-882: 4.3.2 of MIL-STD-882E addresses the identification of hazards; Task 208 - Functional Hazard Analysis DoD JSSSEH: 4.1.3, 4.3.6, and appendix C.3.4 - identify and explain the purpose of a Safety Critical Functions list for software USAF Weapon System Software Management Guidebook: 3.8; G.2.3; G.2.4; G.2.5; G.3.1; G.4.1 NASA-STD-8719.13B: 4.0 safety-critical software determination IEEE Std 1228-1994: 4.4.1.b; 4.4.3.c.4 FAA AC 23.1309-1E, Para 16; and FAA AC 25.1309-1A, Para 8a; both address identification of critical functions in performing a Functional Hazard Analysis (FHA) FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.3.3",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Safety-critical functions",
+      "text": "Standard: 1. The SCFs (Section 4 verifies the identification of SCFs) which are supported by CS&S equipment to perform their intended function are identified. The subset of SCFs supported by CS&S equipment which are flight-critical are identified. For all SCFs which are supported by CS&S equipment, identify the SCFs which are either not implemented, inhibited, or partially implemented. In the case of an air system modification, new SCFs that are incorporated by the modification, which are supported by CS&S equipment, are identified and assessed to determine if they are flight-critical. Identify all SCFs supported by CS&S equipment that are directly or indirectly impacted by the modification. For all SCFs which are supported by CS&S equipment, identify the SCFs which are either not implemented, inhibited, or partially implemented. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes analysis. An analysis (e.g., SCFTA) is performed to functionally decompose each SCF and assess its allocation to equipment in the architecture to identify all SCFs supported by CS&S. Analysis identifies the subset of SCFs supported by CS&S equipment which are flight-critical. Analysis also identifies the SCFs which are either not implemented, inhibited, or partially implemented. For air system modifications, analysis identifies new SCFs incorporated by the modification that are supported by CS&S equipment and determines the SCFs which are flight-critical. A change impact analysis is performed, utilizing the SCFTA, to identify all SCF threads supported by CS&S equipment that are directly or indirectly impacted by the modification. Analysis identifies the SCFs which are either not implemented, inhibited, or partially implemented.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

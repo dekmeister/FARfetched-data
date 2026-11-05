@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.10.16",
+  "number": "6.1.10.16",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Ship assisted recovery devices",
+  "subject_group": "6.1.10 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Ship assisted recovery devices",
+      "text": "Criterion: Verify that ship assisted recovery devices are safe for ship recovery and traverse. Standard: Provide piloted simulation, land-based flight test data, or analysis against historical standards to show this is safe. A logical and measured flight test build-up from benign to more stressing conditions may be allowable in lieu of this data. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, design, test, or configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Ship assisted recovery devices",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.10",
+  "number": "8.3.16",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Technical manuals",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.10",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information.",
+      "text": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.10",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information.",
+      "text": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information. DoD/MIL Doc: JSSG-2009: para 3.2.6, 4.2.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.3.10",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information.",
+      "text": "Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information. DoD/MIL Doc: JSSG-2009: 3.2.6, 4.2.6; Appendix E, E.3.4.5.6.8, E.4.4.5.6.8",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.11",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Criterion: Verify that the flight and maintenance manuals include normal and emergency operating procedures, limitations, restrictions, servicing, and maintenance information. Standard: Engineering data (e.g., system operation descriptions, system parameters, normal and emergency operational limitations, and fuel system maintenance requirements) have been developed as an input to flight and maintenance manuals. The flight manual addresses fuel system normal and emergency procedures, warnings, cautions and advisories, and aircraft operating limitations. Maintenance manuals address fuel system servicing and maintenance procedures. Method of Compliance: Verification methods include analyses, test, demonstration of operating procedures, and inspection of flight, ground servicing and maintenance manuals (e.g., Technical Orders (TOs), Naval Air Training and Operating Procedures Standardization (NATOPS), Interactive Electronic Technical Manuals (IETMs)). Engineering data are validated during ground and flight testing. Ground testing, flight testing, and validation and verification of flight and maintenance manuals verify compliance with criteria. References: JSSG-2009: 3.2.6, 4.2.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Technical manuals",
+      "text": "Standard: Flight manuals include fuel system normal, alternate, emergency procedures, system parameters, indications, WCAs, restrictions, and air vehicle operating limitations. Maintenance manuals include fuel system life limits, and servicing procedures. The manuals' information is substantiated and reflects the as-designed or modified system. The technical manuals incorporate unique actions required to substantiate AW compliance (e.g., mitigation of system design limitations, qualification testing findings). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manuals to verify that the flight crew is provided with information addressing WCAs, indications, limits of operation, normal, emergency, and alternate procedures.\n(2) Review maintenance manuals to verify that manual(s) include inspections and safety-critical component life limits to address system design issues and incomplete qualification testing status. Analysis.\n  (1) Conduct supporting analyses to establish the basis for the published operating procedures, flight manual limits, and the system operating limits for the fuel system.\n  (2) Conduct supporting analyses to establish the basis for the published maintenance manual inspections and component life limits due to incomplete qualification status, field inspection results, and field service deficiency reports. Test.\n    (1) Lab test: Conduct lab testing to validate and verify flight manual normal and emergency procedures for the fuel system.\n    (2) Ground test: Conduct on air vehicle testing to validate and verify flight manual normal and emergency procedures for the fuel system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing to verify flight manual procedures for the fuel system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

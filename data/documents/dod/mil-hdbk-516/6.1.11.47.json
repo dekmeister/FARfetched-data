@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.47",
+  "number": "6.1.11.47",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Turn coordination",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Turn coordination",
+      "text": "Standard: The air vehicle's turn coordination in forward flight (greater than 45 KGS) does not result in handling qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess turn coordination performance as specified in MIL-DTL-32742, Roll-Sideslip Coupling and Turn Coordination paragraphs for each air vehicle configuration and loading within the SFE. An established threshold defining the lower limit of Level 2 flying qualities is not provided in MIL-DTL 32742, therefore compliance with the standard is expected to be qualitative only. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess turn coordination performance as specified in MIL-DTL-32742, Roll-Sideslip Coupling and Turn Coordination paragraphs for each air vehicle configuration and loading within the SFE. An established threshold defining the lower limit of Level 2 flying qualities is not provided in MIL-DTL 32742, therefore compliance with the standard is expected to be qualitative only. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess turn coordination performance as specified in MIL- DTL-32742, Roll-Sideslip Coupling and Turn Coordination paragraphs for selected combinations of air vehicle configuration and loading within the SFE. An established threshold defining the lower limit of Level 2 flying qualities is not provided in MIL-DTL 32742, therefore compliance with the standard is expected to be qualitative only.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.3.7-516c",
+  "number": "6.2.3.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Surface rate, hinge moment and stiffness",
+  "subject_group": "6.2.3 VCF actuator safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Surface rate, hinge moment and stiffness",
+      "text": "Criterion: Verify that the VCF actuation system meets surface rate, hinge moment and stiffness requirements under normal and failed conditions. Standard: Under the most adverse flight, environmental, and load conditions, no actuator hinge moment degradation or blow back causes departure from controlled flight, loss of control, or pilot coupling. Control surface rates are adequate to meet VCF gain and phase margin; prevent pilot-in-the-loop oscillations (PIOs); support dynamic control surface stiffness; and preclude structural coupling, aero-elastic coupling, and flutter. The characteristics of the backup hydraulic power system define the flight limitations, the adequacy of \"switch-over\" time constants, and the static and dynamic hinge moment stiffness. Method of Compliance: Verification methods include analysis, simulation, test, and review of documentation. The VCF surface rate and hinge moment are verified by analysis, simulation, pilot-in-the-loop (PITL), HITL, SIL, Iron Bird (IB), and ground testing. Pilot-in-the-loop (PITL) simulations, HITL, SIL, and Iron Bird (IB) testing verify that the hydraulic and actuator sizing is adequate for all probable combinations of operational states and hydraulic failure modes. With the primary hydraulic system, flying qualities are Level I with no hydraulic system or actuator saturation. With the backup hydraulic system, Operational State III or better is maintained. VCF actuation system stiffness requirements are validated by test. References: JSSG-2008: 3.1.5.6 through 3.1.5.7, 3.2.2.1, 3.2.1, 3.2.1.1, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Surface rate, hinge moment and stiffness",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

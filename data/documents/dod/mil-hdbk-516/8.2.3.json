@@ -1,0 +1,73 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.3",
+  "number": "8.2.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Integration",
+  "subject_group": "8.2 Environmental control system (ECS)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the EMS operates safely under installed operating conditions over the design envelope.",
+      "text": "Verify that the EMS operates safely under installed operating conditions over the design envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the EMS meets safety requirements when operating under installed conditions over the design envelope.",
+      "text": "Verify that the EMS meets safety requirements when operating under installed conditions over the design envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the ECS meets safety requirements when operating under installed conditions over the design envelope and maintains integration integrity to ensure the weapon system\u2019s SOF.",
+      "text": "Verify that the ECS meets safety requirements when operating under installed conditions over the design envelope and maintains integration integrity to ensure the weapon system\u2019s SOF. DoD/MIL Doc: JSSG-2009: para 3.3.6, 4.3.6, JSSG-2001: para 3.3.10, 3.3.10.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the ECS meets safety requirements when operating under installed conditions over the design envelope and maintains integration integrity to ensure the weapon system\u2019s SOF.",
+      "text": "Verify that the ECS meets safety requirements when operating under installed conditions over the design envelope and maintains integration integrity to ensure the weapon system\u2019s SOF. DoD/MIL Doc: JSSG-2009: 3.3.6, 4.3.6 JSSG-2001: 3.3.10, 3.3.10.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Integration",
+      "text": "Criterion: Verify that the ECS meets safety requirements when operating under intended conditions over the design envelope and maintains integration integrity to ensure the weapon system\u2019s safety of flight. Standard: The components and the ECS are designed to ensure an integrated/installed ECS in the air vehicle that meets safety requirements and weapons system environment profiles. Method of Compliance: ECS safety of flight and safety requirements are verified by the following activities: a. Component level safety of flight testing demonstrates safe operation under all intended conditions over the design envelope. b. ECS level integrated testing verifies safe operation of the air vehicle (bleed subsystem, environmental protection subsystem, and thermal conditioning function for flight control system). c. Simulator and/or air vehicle ground testing demonstrates safe operation under all intended conditions over the design envelope and including failure(s). d. Flight test data from ECS flight test profile(s) validates analysis results and predictions of critical design envelope points. e. FMECA and hazard analysis of the ECS including the control station system verifies that the ECS does not affect safety of flight operations. References: JSSG-2001: 3.3.10, 3.3.10.1 JSSG-2009: 3.3.6, 4.3.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Integration",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

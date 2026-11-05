@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.4.1",
+  "number": "10.1.4.1",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Signal coil electrical interface",
+  "subject_group": "10.1.4 Electrical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Signal coil electrical interface",
+      "text": "Standard: a. Boom Tanker. The tanker boom system sends disconnect commands and voice signal communications and receives voice signal and receptacle latch position information when coupled with a receptacle-equipped receiver. The tanker AR system detects a pulse coming from the receptacle of a connected receiver when the receptacle coil is excited between 18 and 30 V during a minimum of 3 ms. The boom nozzle coil induces in the receptacle coil electrical signal pulses IAW ATP-3.3.4.5, Signal Advance Characteristics figure and Signal Advance table. The signal amplifier provides electrical signal pulse and voice communication equivalent to a MIL-DTL-38449 Class 4 miniaturized electrical receptacle with intercommunication push to talk, PN M38449-4. b. Receptacle Receiver. The receiver receptacle system receives disconnect and voice signal communications and sends voice communications, receptacle latch position and disconnect signals when coupled with a boom-equipped tanker. The receptacle system detects a pulse coming from the nozzle when the nozzle coil is excited between 18 and 30 V during a minimum of 3 ms. The receptacle\u2019s coil induces in the nozzle coil electrical signal pulses IAW ATP-3.3.4.5, Signal Advance Characteristics figure and Signal Advance table. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the standard by the following: a. Boom Tanker. Examination of specifications and system design documentation show boom system is required to send and receive electrical signals pulses IAW the standard. b. Receptacle Receiver. Examination of specifications and system design documentation show receptacle system is required to send and receive electrical signals pulses IAW the standard. Test.\n  (1) Lab test: Verify the standard by the following: a. Boom Tanker. Testing in a laboratory environment verifies the boom system sends and detects electrical signal pulses IAW the standard. b. Receptacle Receiver. Testing in a laboratory environment verifies the receptacle system sends and detects electrical signal pulses IAW the standard. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Verify the standard by the following: a. Boom Tanker. Flight testing verifies disconnect commands and voice signal communications are sent by the boom tanker and are received by the targeted receiver air vehicles and receptacle latch position information and voice signals are received from targeted receiver air vehicles in each signal amplifier mode, using each disconnect method (e.g., boom operator disconnect switch, receiver pilot disconnect switch, co-pilot disconnect switch). b. Receptacle Receiver. Flight testing verifies receptacle system receives disconnect commands and voice signal communications sent by the boom tanker and sends voice communications, receptacle latch positions to targeted tanker air vehicles in each signal amplifier mode, using each disconnect method (e.g., boom operator disconnect switch, receiver pilot disconnect switch, co-pilot disconnect switch).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.9.6",
+  "number": "9.2.9.6",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Public address system feedback",
+  "subject_group": "9.2.9 Mass notification systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Public address system feedback",
+      "text": "Standard: Operation of the PA system from any speaking location and orientation does not induce audible feedback, ringing or echo at any listening location, including within any intercom network capable of monitoring the PA channel. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n(1) Verify on the air vehicle by activating the talker microphone at all operationally relevant locations throughout the air vehicle, and at relative orientations (e.g., forwards, sideways) of the talker to the microphone and the nearest loudspeaker. A swept tone (160-5000 Hz, repeating every 1.5 seconds) acoustically annunciated from a small portable speaker near the input microphone may be used as a stimulus to reduce the onset time of feedback.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

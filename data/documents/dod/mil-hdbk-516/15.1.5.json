@@ -1,0 +1,71 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.5",
+  "number": "15.1.5",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Probability loss of control and hazard mitigations",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that redundancy (hardware and software) has been incorporated to satisfy fault tolerant SOF requirements, including probability loss of control (PLOC) and reliability numbers.",
+      "text": "Verify that redundancy (hardware and software) has been incorporated to satisfy fault tolerant SOF requirements, including probability loss of control (PLOC) and reliability numbers.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that redundancy (hardware and software) has been incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers.",
+      "text": "Verify that redundancy (hardware and software) has been incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that redundancy (hardware and software) is incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers.",
+      "text": "Verify that redundancy (hardware and software) is incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.1; JSSG-2008 Appendix A: Paragraph 3.3.1 provides guidance for fault tolerant processing including fault detection and redundancy. Para 3.1.2, 3.1.7 and 3.1.5.7 provide guidance for allocating quantitative safety requirements to subsystem level in the context of VCMS and mission avionics allowing for variability factors. Para 3.1.9 gives guidance on establishing redundancy levels based on control criticality. Para 3.1.11+ and 3.1.12+ provide detailed guidance on the establishment of proper levels of redundancy. FAA Doc:AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that redundancy (hardware and software) is incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers.",
+      "text": "Verify that redundancy (hardware and software) is incorporated to satisfy fault tolerant SOF requirements, including probability of loss of control (PLOC) and reliability numbers. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: Paragraph 3.3.1 provides guidance for fault tolerant processing including fault detection and redundancy; 3.1.2, 3.1.7 and 3.1.5.7 provide guidance for allocating quantitative safety requirements to subsystem level in the context of VCMS and mission avionics allowing for variability factors; 3.1.9 gives guidance on establishing redundancy levels based on control criticality; 3.1.11+ and 3.1.12+ provide detailed guidance on the establishment of proper levels of redundancy FAA Doc:AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Probability of loss of control and hazard mitigations",
+      "text": "Criterion: Verify that the SPA is designed to meet Probability of Loss of Control (PLOC), Probability of Loss of Aircraft (PLOA), SCF processing, hazard mitigations, and reliability requirements. Standard: Proper levels of redundancy, sufficient cross checks, and hazard mitigations are incorporated in the SPA to ensure safety critical components accommodate failures while achieving safety/PLOC/PLOA and fail-operational/fail-safe requirements. Program PLOC and PLOA numbers are specified in system documents. SPA hardware components are designed to meet specified reliability requirements. For Air Force, aircraft designed to operate in all classes of air space are expected to achieve a PLOC of 10E-7. Method of Compliance: Verification method includes analysis. The analysis covers the design of all hardware and software elements of the SPA. References: JSSG-2008 Appendix A: 3.1; 3.1.2; 3.1.8; 3.3.1; 3.3.2; 3.1.11; 3.1.12 MIL-HDBK-217: Reliability Predictions of Electronic Equipment MIL-STD-882: For MIL-STD-882E, 4.3.4; 4.3.6; Task 101; Task 103.2.8.a; Task 203.2.3; Task 204.2; Task 301.2.b; Task 303 (see also MIL-STD-882D - 4.3; A.4.4.3) DoD JSSSEH: 4.3.8; 4.4.2.8; 4.4.4; C.9.3 USAF Weapon Systems Software Management Guidebook: G.2.6 NASA-STD-8719.13B: 6.2.2.2.b hazard identification RTCA DO-254: 2.3.1; 6.3.2; 10.3.1; 10.3.2.2 IEEE Std 1228-1994 SAE AS94900: 3.1.1.3 quantitative flight safety requirements FAA AC 20-152",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Probability loss of control and hazard mitigations",
+      "text": "Standard: 1. Verify that the SPA is designed to meet PLOC, PLOA, SCF processing, hazard mitigations, and reliability requirements. Air system PLOC and PLOA numbers are specified in system documents and allocated to the SPA. The SPA requirements and allocation in support of PLOC are aligned with the PLOC criteria in Section 6 of this handbook (PLOC does not exceed 10-7 per flight hour). Proper levels of redundancy, sufficient cross checks, and hazard mitigations are incorporated in the SPA to ensure safety-critical components accommodate failures while achieving safety, PLOC, PLOA, fail-operational, and fail-safe requirements. SPA electronic hardware components are designed to meet specified reliability requirements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the Standard that is being verified: 1. Verification method includes examination, analysis, and test. Examination of requirements verifies PLOC and PLOA numbers are specified. Analyses cover the design of all hardware and software elements of the SPA per the standard, and all associated assumptions of the analyses have been validated through analysis and test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

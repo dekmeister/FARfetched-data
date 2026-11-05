@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.8",
+  "number": "8.7.8",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Door status monitoring and indication",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.9.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the indication system will continuously monitor and provide an unsafe indication when the door, latching, or locking system is unsecured, and will provide a safe indication when the system is secured.",
+      "text": "Verify that the indication system will continuously monitor and provide an unsafe indication when the door, latching, or locking system is unsecured, and will provide a safe indication when the system is secured.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the indication system continuously monitors and provides an unsafe indication when the door, latching, or locking system is unsecured, and provides a safe indication when the system is secured.",
+      "text": "Verify that the indication system continuously monitors and provides an unsafe indication when the door, latching, or locking system is unsecured, and provides a safe indication when the system is secured. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4; MIL-87222 Mechanical Systems for Aircraft Doors and Canopies: para 3.1.7.1; 4.1.7.1 (presently in a cancelled status)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.9.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the indication system continuously monitors and provides an unsafe indication when the door, latching, or locking system is unsecured, and provides a safe indication when the system is secured.",
+      "text": "Verify that the indication system continuously monitors and provides an unsafe indication when the door, latching, or locking system is unsecured, and provides a safe indication when the system is secured. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4 MIL-M-87222 Mechanical Systems for Aircraft Doors and Canopies: 3.1.7.1; 4.1.7.1 - inactive for new design",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Door status monitoring and indication",
+      "text": "Criterion: Verify that the indication system continuously monitors and provides an unsafe indication when the door, latching, or locking system is unsecured, and provides a safe indication when the system is secured. Standard: The safe or unsafe status of the doors is continuously presented to the aircrew and ground operators. The system also assists in trouble shooting in the event of a malfunction. Indicator sensors directly sense the position of doors, latches and locks without the use of sensor targets. Mechanical indicators use positive mechanical linkage for extension and retraction. The indication system is designed such that the deflection of the aircraft structure under all ground and flight load conditions does not cause false indications. Method of Compliance: Analysis and demonstration verify that each indication system will continuously monitor and provide an unsafe indication when either the door, latching or locking system is unsecured and will provide a safe indication when the systems are secured. All malfunctions that could give a false indication are included. Particular emphasis is placed on those malfunctions that could give a safe indication for an unsafe condition. Inspection of aircraft drawings and demonstrations on a full scale article verify that the sensors will only respond to actual door system components position. Flight and ground test verify that the indication system will not report false indications due to the deflection of the aircraft structure under all ground and flight load conditions. References: JSSG-2009: (Appendix I) I.3.4.9.1, I.3.4.9.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Door status monitoring and indication",
+      "text": "Standard: The lock or unlocked status of the doors is continuously presented to the flight crew and ground crew. The system also assists in trouble shooting in the event of a malfunction. Indicator sensors directly sense the position of doors, latches, and locks without the use of sensor targets. Mechanical indicators use positive mechanical linkage for extension and retraction. The indication system is designed such that the deflection of the air vehicle structure under all ground and flight load conditions does not cause false indications. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of air vehicle drawings to verify that the sensors will only respond to actual door system components position. Analysis.\n  (1) Conduct an analysis to verify that each indication system will continuously monitor and provide an unsafe indication when either the door, latching, or locking system is unsecured and will provide a safe indication when the systems are secured. All malfunctions that could give a false indication are included. Particular emphasis is placed on those malfunctions that could give a safe indication for an unsafe condition. Demonstration.\n    (1) Conduct a demonstration to verify that each indication system will continuously monitor and provide an unsafe indication when either the door, latching, or locking system is unsecured and will provide a safe indication when the systems are secured. All malfunctions that could give a false indication are included. Particular emphasis is placed on those malfunctions that could give a safe indication for an unsafe condition. Test.\n      (1) Ground test: Conduct ground tests to verify that the indication system will not report false indications due to the deflection of the air vehicle structure under all ground load conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n      (2) Flight test: Conduct flight tests to verify that the indication system will not report false indications due to the deflection of the air vehicle structure under all flight load conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

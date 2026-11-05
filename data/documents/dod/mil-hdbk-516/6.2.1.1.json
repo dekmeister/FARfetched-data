@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.1.1",
+  "number": "6.2.2.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Functional criteria",
+  "subject_group": "6.2.2 Vehicle control function functional requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.1.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the functional criteria to be safe.",
+      "text": "Verify the functional criteria to be safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.1.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the functional criteria to be safe.",
+      "text": "Verify the functional criteria to be safe. DoD/MIL Doc: JSSG-2008: para 3.0 thru 3.8, 4.0 thru 4.8 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.1.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify the functional criteria to be safe.",
+      "text": "Verify the functional criteria to be safe. DoD/MIL Doc: JSSG-2008: 3.0 thru 3.8, 4.0 thru 4.8 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.1.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Functional criteria",
+      "text": "Criterion: Verify the functional criteria to be safe. Standard: The functional criteria are the requirements or other bases for establishing the parameters of the system. The VCF is a safety critical function that includes, but is not limited to control laws, auto control modes, aerodynamic control margins, computer resources including software, actuation, air data, inertia sensing feedback, Pilot Vehicle Interface (PVI), diagnostics, pre-flight, in-flight, and post-flight Built-In-Test (BIT). For Unmanned Aircraft Systems (UAS), VCF also includes control station interfaces required to safely control the vehicle. Any failure within the VCF and/or the integrated system is clearly identified and annunciated to the pilot/operator for corrective action to prevent loss of control or damage to the aircraft. The VCF also includes integration with all other subsystems required for safe operation of the aircraft. These subsystems include, but are not limited to hydraulics, Environmental Control System (ECS), Fuel Management System (FMS), Electrical Power System (EPS), avionics, propulsion, and Stores Management System (SMS). The safety criticality of VCF requires specific consideration for operational states, air vehicle performance, data latency, redundancy management, communications, displays, and Structural Mode Interaction (SMI). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Modeling and simulation is used to analyze and evaluate the VCF architecture. Testing of the VCF includes, but is not limited to component development, qualification, and Failure Modes and Effects Tests (FMET) or failure modes testing. System Integration Laboratory (SIL), Vehicle Integration Facility (VIF), and hardware in the loop (also known as Iron Bird (IB)) are used to verify and validate integration of VCF with all other subsystems. The primary focus of SIL, VIF and hardware in the loop testing is to evaluate the operation of VCF under normal and failed states. FMET, or failure modes testing, is a particularly critical part of system level testing. Prior to first flight, Ground Vibration Testing (GVT), Structural Mode Interaction (SMI), Electromagnetic interference (EMI), and on aircraft ground testing are completed to demonstrate safe operation of the VCF under all natural and induced environments. References: JSSG-2008: 3.0 through 3.8; associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Functional criteria",
+      "text": "Standard: Functional requirements and interfaces are defined with safety-critical requirements and interfaces identified. Bi-directional traceability demonstrates linkage between lower-level requirements and top-level SCFs. Requirements are defined for redundancy management and integration for all vehicle control aspects. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Functional block diagrams document VCF internal and external (hydraulics, electrical, ECS, propulsion, avionics) interfaces.\n(2) Interface control documents have been finalized and are under configuration control.\n(3) All SCFs and interfaces are documented.\n(4) Functional and interface requirements are documented in a system requirements specification.\n(5) Vehicle control function hardware CI requirements are documented.\n(6) Vehicle control function software configuration requirements are documented. Analysis.\n  (1) Vehicle control function requirements tool demonstrates bi-directional requirements traceability down to individual VCF hardware or software components.\n  (2) Modeling and simulation are used to verify functionality and interfaces.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

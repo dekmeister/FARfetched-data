@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.3.1",
+  "number": "9.5.3.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Accelerations and angular velocities",
+  "subject_group": "9.5.3 Escape system-air vehicle separation to ejection seat-occupant separation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Accelerations and angular velocities",
+      "text": "Standard: Seat accelerations are IAW the moderate limits within INFO PUB ASM 4048 Ed 2v2, Ejection Acceleration Limits for MDRC up to 450 KEAS. The MDRC limit may increase linearly from 1.0 at 450 KEAS to 1.7 at 600 KEAS. The seat angular velocities are IAW the low limits in INFO PUB ASM 4048 Ed 2v2, Ejection Acceleration Limits, Short Duration Angular Velocity Limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: System-level dynamic ejection sled testing verifies the MDRC and angular velocity at ambient temperatures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

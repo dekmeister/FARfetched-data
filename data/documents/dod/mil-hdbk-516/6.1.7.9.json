@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.9",
+  "number": "6.1.6.17",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Steady sideslips",
+  "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.7.9",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Steady sideslips",
+      "text": "Criterion: Verify that steady sideslips are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.9 Steady sideslips. b. 5.2.3.9.1 Yaw control force and deflection in steady sideslips. c. 5.2.3.9.2 Bank angle in steady sideslips. d. 5.2.3.9.3 Roll control force and deflection in steady sideslips. e. 5.2.3.9.4 Roll control power in steady sideslips. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.4.10 Lateral-directional characteristics in steady sideslips. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.177 Static directional and lateral stability. 14 CFR 25.177 Static lateral-directional stability. 14 CFR 27; 27 Appendix B V Static Lateral Directional stability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Steady sideslips",
+      "text": "Standard: In steady sideslips, the air vehicle has conventional roll and yaw control forces and inceptor deflections, and bank angle response as specified in MIL-STD-1797, Steady Sideslips paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the roll and yaw control and air vehicle's bank angle response in steady sideslips as specified in MIL-STD-1797, Steady Sideslips paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the roll and yaw control and air vehicle's bank angle response in steady sideslips as specified in MIL-STD-1797, Steady Sideslips paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the roll and yaw control and air vehicle's bank angle response in steady sideslips as specified in MIL-STD-1797, Steady Sideslips paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

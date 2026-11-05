@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.1",
+  "number": "8.5.9.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Landing gear retraction and extension operation",
+  "subject_group": "8.5.9 Landing gear retraction and extension",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.10.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion.",
+      "text": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.10.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion.",
+      "text": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.3/A.4.4.1.1.3 Extended clearances; A.3.4.1.1.4/A.4.4.1.1.4 Retraction Clearances; and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface; AFGS-87139: para 3.2.6.1 Retraction-extension system and 3.2.6.2 Actuation system indication. FAA Doc: 14CFR reference: 23.729 & 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.10.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion.",
+      "text": "Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.3/A.4.4.1.1.3 Extended clearances; A.3.4.1.1.4/A.4.4.1.1.4 Retraction Clearances; and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface AFGS-87139: 3.2.6.1 Retraction-extension system and 3.2.6.2 Actuation system indication FAA Doc: 14CFR reference: 23.729 & 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.10.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Landing gear retraction and extension operation",
+      "text": "Criterion: Verify safe operation of landing gear retraction, extension, and emergency extension; and verify that there are adequate clearances and suitable geometry for components having relative motion. Standard: The motion relationship and mechanical interface of the gear and door actuation and locking system are established for all modes of operation. Door sequencing during normal and emergency operations maintains all specified clearances and ensures that the gear can be extended for any expected set of adverse conditions. Method of Compliance: Verification methods include analyses, tests, inspections, simulations and demonstrations. Solid modeling and/or inspection verifies adequate clearances for various combinations of free play, installation tolerances, rigging, misalignment, etc. Mock-up or simulators validate adequate clearances are maintained under the full range of motion and under all loading conditions. Air vehicle checkouts verify proper functioning of the gear through the gear's full range of motion. Flight testing verifies operation under air loads and ensures no contact with air vehicle structure and other components within the wheel well. References: JSSG-2009: A.3.4.1.1.3, A.4.4.1.1.3 Extended clearances; A.3.4.1.1.4, A.4.4.1.1.4 Retraction Clearances; A.3.4.1.5.1, A.4.4.1.5.1 Retraction and extension actuation interface AFGS-87139: 3.2.6.1 Retraction-extension system; 3.2.6.2 Actuation system indication. 14 CFR 23.729, 25.729",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Landing gear retraction and extension operation",
+      "text": "Standard: Retraction and extension dynamics and mechanical interface of the landing gear and door, including locking system, are established for all modes of operation. Landing gear door sequencing during normal and emergency operations ensures that the landing gear can be extended during all designed for and approved operational conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to determine hinge moments, inertial loads, and actuator loads required to open and close the doors and retract and extend the landing gear against air loads.\n(2) Power (hydraulic, pneumatic or electrical) requirement analyses are conducted to establish system interface requirements for actuation power and rates. The analysis addresses the ground and flight temperature environments. Demonstration.\n  (1) Conduct ground demonstration (e.g., full scale mockup or air vehicle level) to verify proper functioning of the landing gear throughout the gears' full range of motion and operational modes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Conduct flight test to verify retract and extend operations under air and inertial loads and ensure no unintended contact and functionality of actuation with air vehicle structure or other components within the wheel well.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

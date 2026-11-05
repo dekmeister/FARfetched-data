@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.1.6",
+  "number": "5.1.4",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Repeated loads",
+  "subject_group": "5.1 Loads",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "5.1.6",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that all sources of repeated loads are considered and included in the development of the service loads spectra and do not detract from the airframe service life.",
+      "text": "Verify that the airframe is designed such that all sources of repeated loads are considered and included in the development of the service loads spectra and do not detract from the airframe service life. DoD/MIL Doc: JSSG-2006: para A3.2.14.3, A4.2.14.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "5.1.6",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that all sources of repeated loads are considered and included in the development of the service loads spectra and do not detract from the airframe service life.",
+      "text": "Verify that the airframe is designed such that all sources of repeated loads are considered and included in the development of the service loads spectra and do not detract from the airframe service life. DoD/MIL Doc: JSSG-2006: A.3.2.14.3, A.4.2.14",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Repeated loads",
+      "text": "Criterion: Verify that the air vehicle structure is designed such that all sources of repeated loads are considered and included in the development of the service loads spectra and do not detract from the airframe service life or dynamic component retirement intervals. Standard (Army and Air Force): a. Maneuvers - Designed such that final spectra accounts for variables such as maneuver capability, tactics, and flight control laws reflecting projected average usage with the design utilization distribution and also usage such that 90% of the fleet (95% for all fatigue damaging conditions for rotorcraft) is expected to meet the service life. b. Gusts - Designed such that gust load spectra developed by continuous turbulence analysis methods. c. Suppression system which enhances ride qualities such as active oscillation control, gust alleviation, flutter suppression and terrain following. d. Vibration and aeroacoustics. e. Landings - Designed with cumulative occurrences of sink speed per 1000 landings, by type of landing, typical of projected service usage. f. For rotorcraft - Designed with consideration of CF loads due to rotor start and stop cycle and torsional loads due to rotor braking cycles. g. Buffet due to non-linear flow caused by vortex shedding during high angle of attack maneuvers, rotary-wing blade stall and transonic shock instabilities - Designed such that analytical predictions of the structural response are generated during flight operations in the buffet regime and adjusted as needed by test data. h. Ground operation loads - Designed with:\n(1) the number of hard and medium braking occurrences per full stop landing along with associated braking effects;\n(2) number of pivoting occurrences; and\n(3) definition of roughness characteristics of the airfield(s) to be utilized and the number of taxi operations on each airfield. i. Pressurization - Designed with the total number of cycles projected for one service life. j. Impact, operational, and residual loads occurring from the normal operation of movable structures such as control surfaces. k. Store carriage and employment loads. l. Heat flux. Standard (Navy): All sources of repeated loads affecting the fatigue life, durability and damage tolerance of the air vehicle structure are considered to ensure that the required service life of the system is not degraded. The durability capability of the airframe is adequate to resist fatigue cracking, corrosion, thermal degradation, delamination, and wear during operation and maintenance such that the operational and maintenance capability of the airframe is not degraded and the service life, usage are not adversely affected. These requirements apply to metallic and nonmetallic structures, including composites, with appropriate distinctions and variations as indicated in applicable specifications, Airworthiness and Design Standards and Regulations, 3.2.14.3 of JSSG-2006 and the Addendum to the AVPS. Durability material properties are consistent with those properties of the same material, in the same component, used for loads, structural dynamics, strength, damage tolerance and durability. Typical repeated loads sources include: maneuvers, gusts, operation of suppression systems, vibration, take-off and landings, buffet, ground and shipboard operations, pressurization, weapons carriage and employment, environmental factors, impact conditions etc. A comprehensive database of load sources, exceedances and other parameters, based on data recorded from actual usage experience, ensures the greatest possible accuracy in the representation of the design usage and function of the aircraft. Method of Compliance (Army and Air Force): Verification methods include analysis, test, and inspection of documentation. a. The following methods of compliance are applicable to all of the conditions of the standard:\n  (1) Ground and flight loads analyses are correlated with test data.\n  (2) For rotorcraft, flight load survey testing is performed to gather loads for each regime in the usage spectrum. b. The following two compliances are applicable to item g of the standard: (1).Wind tunnel tests are utilized for development of buffet loads. (2).Buffet flight tests are utilized to verify analytical buffet predictions. c. The following compliance is applicable to item d of the standard:\n    (1) Updated predictions of the vibration and aeroacoustic environments are accomplished. Method of Compliance (Navy): Verification methods include ground and flight loads analyses, inspection of documentation, simulation, wind tunnel testing, static testing and flight test. References: (Navy/Air Force fixed wing) JSSG-2006: A.3.2.14.3, A.4.2.14.3; A.3.2.24, A.4.2.24 (Army rotary wing) ADS-10-SP, ADS-24 (cancelled), ADS-27-SP, ADS-29 (cancelled), ADS-51, ADS-64-SP (inactive), AR-70-62 Navy rotary wing) As identified in the Addendum to the AVPS for the respective air vehicle and/or AR-56, AR-89, MIL-D-23222 14 CFR 23, 25, 27, 29 STANAG 4671: USAR 321",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Repeated loads",
+      "text": "Standard: The loads spectra used to support the DSL of the air vehicle is defined using all sources of repeated loads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the ASIP Master Plan or RSIP Master Plan, as specified in MIL-STD-1530 or MIL- STD-3063 respectively, documents the analysis and test verification methods required to certify the repeated design loads; structural certification tasks are updated for modifications or changes to the air vehicle following initial AW certification basis; and all artifacts are developed IAW applicable sections of MIL-STD-1530 or MIL-STD-3063.\n(2) Verify detailed structural design criteria for repeated loads, as specified in MIL-STD-1530 or MIL-STD-3063, documents the requirements to achieve structural integrity.\n(3) Verify test plans are scoped to measure all significant repeated loads to allow for tracking margins to achieve envelope expansion. Analysis.\n  (1) Verify appropriate loads spectra are developed for all repeated load sources to support initial durability and damage tolerance analyses and flight test plans. Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n  (2) Verify loads spectra in the durability and damage tolerance analyses and loads analyses are updated based on flight and ground load testing to demonstrate repeated loads are compliant with structural design criteria. Test.\n    (1) Flight or Ground test: Verify flight and ground load test substantiates the models used for repeated loads predictions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

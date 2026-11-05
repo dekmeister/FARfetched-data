@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.2.1",
+  "number": "8.4.2.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Control station protection",
+  "subject_group": "8.4.2 Hazard protection zones",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Control station protection",
+      "text": "Criterion: Verify the design of the control station incorporates fire detection and protection under normal and single failure conditions. Standard: The control station is fire tolerant, provides protection to occupants and allows for continued safe operation of the air vehicle system in the event of a fire. Method of Compliance: Control station fire safety is verified by analysis, inspection and ground test. Single point failures and dual failures are analyzed for risk and mitigation. Reference: NFPA 1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Control station protection",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

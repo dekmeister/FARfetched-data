@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.9.4",
+  "number": "9.2.9.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Public address system operation",
+  "subject_group": "9.2.9 Mass notification systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Public address system operation",
+      "text": "Standard: The PA system is accessible for immediate use from each of two stations in the cockpit IAW 14 CFR 25.1423f. The system is capable of operation within three seconds from the time a microphone is removed from its stowage IAW 14 CFR 25.1423b. The system is designed so that no unused, unstowed microphone will render the system inoperative IAW 14 CFR 25.1423d. The system is capable of functioning independently of any required crewmember interphone or intercom system and is readily accessible, IAW AC-25-17A, to the crewmember designated to make announcements IAW 14 CFR 25.1423e and 14 CFR 25.1423g. Failure or inoperability of any PA loudspeaker does not degrade operation of other loudspeakers. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n(1) Demonstrate on production representative mockup or air vehicle that the PA system is accessible for immediate use from each of two stations in the cockpit.\n(2) Demonstrate on production representative mockup or air vehicle that an unstowed microphone will not render the PA system inoperative.\n(3) Demonstrate on production representative mockup or air vehicle that the PA system is capable of functioning independently from the integrated communication system.\n(4) Demonstrate on production representative mockup or air vehicle that the PA system is readily accessible from all required crewmember stations.\n(5) Demonstrate on production representative mockup or air vehicle that the PA system is not degraded if any of the PA loudspeakers is inoperable. Test.\n  (1) Ground test: Conduct a test of the PA system to verify that it is capable of operation within 3 seconds from when a microphone is removed from its stowage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

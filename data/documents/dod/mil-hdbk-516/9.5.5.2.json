@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.5.2",
+  "number": "9.5.5.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Escape path clearance envelope",
+  "subject_group": "9.5.5 Escape path clearance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Escape path clearance envelope",
+      "text": "Standard: The air vehicle escape path clearance subsystem ensures a clear escape path from the air vehicle for the crewmembers across the defined escape system envelope. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the ejection seat escape path clearance envelope to ensure that there is no interference between the air vehicle, other occupants (if the air vehicle is multi-place), and debris that would prevent operation of the ejection system.\n(2) Validated trajectory simulations show clearance of seat, occupant with the cockpit and air vehicle in the intended operating environments (e.g., temperature, altitude). Test.\n  (1) Lab test: Full system-level ejection sled tests are performed to verify escape path clearance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

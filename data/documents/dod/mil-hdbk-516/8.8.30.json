@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.30",
+  "number": "8.7.25",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Life limit of bearings",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.30",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Life limit of bearings",
+      "text": "Criterion: Verify that each flight safety critical bearing has defined safe life limits established to operate in worst case environmental conditions. Standard: Bearings will operate for the defined life limit under load and in specified environmental conditions. A safe life ensuring a probability of failure less than 1 x 10E-7 per flight hour is established. Method of Compliance: Analysis is used to verify the worst case environmental conditions. Analysis and component testing verify the integrity and durability of the bearings. One uncontaminated bearing is tested to establish a baseline life under a representative load and motion spectrum. A sample of bearings is tested with that same spectrum and worst case environmental contamination conditions for that type of bearing (e.g., plain lined, rolling element, or elastomeric). Results of testing are analyzed to determine bearing\u2019s safe life. References: JSSG-2009: (Appendix I) I.3.4.9.2, I.3.4.9.2.1 MIL-HDBK-1599",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Life limit of bearings",
+      "text": "Standard: Each flight safety-critical bearing has defined life limits established to operate under load in worst-case environmental conditions. A life limit ensuring a probability of failure less than 10-7 per flight hour is established. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to verify the worst-case environmental conditions.\n(2) Conduct and analysis to establish a baseline life under a representative load and motion spectrum. Test.\n  (1) Lab test: Conduct component testing to verify the integrity and durability of the bearings. One uncontaminated bearing is tested to establish a baseline life under a representative load and motion spectrum. A sample of bearings is tested with that same spectrum and worst-case environmental contamination conditions for that type of bearing (e.g., plain lined, rolling element, or elastomeric). Results of testing are analyzed to determine bearing safe life.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

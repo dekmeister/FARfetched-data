@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9.4",
+  "number": "6.1.8.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Stall prevention and recovery",
+  "subject_group": "6.1.8 Fixed-wing high angle of attack",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.9.4",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Stall prevention and recovery",
+      "text": "Criterion: Verify that stall prevention and recovery is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.5.4 Stall prevention and recovery . b. 5.2.5.4.1 Stall recovery (see table LXXXIV for guidance). c. 5.2.5.4.2 Control power for stall recovery. d. 5.2.5.4.3 One-engine-out stalls for multi-engine air vehicles (more than one engine) (see table LXXXV for guidance). For air vehicles with stall or loss of control prevention functions, prevention functions are effective and safe. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Also evaluate stall or loss of control prevention functions in all expected levels of atmospheric disturbances. Additional References: 14 CFR 23.201 Wings level stall; 23.203 Turning flight and accelerated turning stalls; 23.691 Artificial stall barrier system 14 CFR 25.201 Stall demonstration; 25.203 Stall characteristics",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Stall prevention and recovery",
+      "text": "Standard: A stall can be prevented by the use of the pitch control alone at the onset of the stall warning, and the maximum control forces required for stall recovery do not exceed the limits as specified in MIL-STD-1797, Stall Recovery paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the stall prevention and recovery as specified in MIL-STD-1797, Stall Recovery paragraph and Control Power for Stall Recover paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the stall prevention and recovery as specified in MIL-STD-1797, Stall Recovery paragraph and Control Power for Stall Recover paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the stall prevention and recovery as specified in MIL- STD-1797, Stall Recovery paragraph and Control Power for Stall Recover paragraph, for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

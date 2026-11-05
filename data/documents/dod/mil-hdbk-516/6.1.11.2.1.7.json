@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.2.1.7",
+  "number": "6.1.10.18",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Cross-axis coupling in hovering flight",
+  "subject_group": "6.1.10 Vertical/short takeoff and landing air vehicles",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.11.2.1.7",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Cross-axis coupling in hovering flight",
+      "text": "Criterion: Verify that cross-axis coupling in hovering flight is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.7.2.1.7 Cross-axis coupling in hovering flight. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, design, test, or configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Cross-axis coupling in hovering flight",
+      "text": "Standard: Any cross-axis coupling between attitude or lateral or longitudinal position and height (vertical) control in hovering flight does not result in air vehicle handling qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of all hover tasks to evaluate air vehicle capabilities for all required hover loadings and configurations, to include: a. Baseline control system. b. Precision hover modes. Analysis emphasis pre-simulation should be on command types and mapping of commands to inceptors in order to ensure low pilot compensation and minimization of potential cross-axis coupling via command-type mapping to inceptors and inceptor force and gradient design. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess flying/handling qualities as specified in MIL-STD-1797, Cross-axis Coupling in Hovering Flight paragraph for each combination of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Precision hover modes. Pilot will assess overall workload, pilot compensation, and any undesirable coupling into other axes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess flying/handling qualities as specified in MIL-STD- 1797, Cross-axis Coupling in Hovering Flight paragraph for selected combinations of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Precision hover modes. Pilot will assess overall workload, pilot compensation, and any undesirable coupling into other axes.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

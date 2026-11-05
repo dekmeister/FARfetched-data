@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.5.6",
+  "number": "10.1.5.6",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Aerial refueling status and commands",
+  "subject_group": "10.1.5 Aerial refueling sensing, data, visual cues, and lighting systems compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Aerial refueling status and commands",
+      "text": "Standard: Required data is exchanged between the air vehicle and the targeted air vehicle(s) during the AR process. System used to exchange data is compliant with appropriate classified information transfer requirements. Unmanned systems send and receive data within allowable design parameters. a. Boom Tanker. Tanker has a method to provide AR status, commands, and acknowledgements to receptacle-equipped receiver air vehicle. AR status and commands include but are not limited to disconnect, breakaway, receiver position and rate corrections (e.g., verbal corrections, PDLs or data package), clear to contact, lighting level changes, heading changes, altitude changes, airspeed changes, and EMCON signals. b. Drogue Tanker. Tanker has a method to provide AR status, commands, and acknowledgements to probe-equipped receiver air vehicle. AR status and commands include but are not limited to disconnect, breakaway, clear to contact, lighting level changes, heading changes, and EMCON signals. c. Receptacle Receiver. Receiver has a method to provide AR status, commands, and acknowledgements to boom-equipped tanker air vehicle. AR status and commands include but are not limited to contact, disconnect, breakaway, lighting level changes, heading changes, altitude changes, airspeed changes, and EMCON signals. d. Probe Receiver. Receiver has a method to provide AR status, commands, and acknowledgements to drogue-equipped tanker air vehicle. AR status and commands include but are not limited to disconnect, breakaway, lighting level changes, heading changes, altitude changes, airspeed changes, and EMCON signals. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of system specifications verifies that necessary data can be sent to and received from targeted air vehicles during the AR process. Analysis.\n  (1) Task and failure analyses identify communications, time constraints, and reliability requirements. Test.\n    (1) Lab test: Hardware-in-the-loop laboratory testing with simulated targeted system verifies necessary data is sent and received within allowable design parameters. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing with targeted air vehicles in operational conditions including EMCON scenarios verify necessary data is exchanged between air vehicles to enable AR operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

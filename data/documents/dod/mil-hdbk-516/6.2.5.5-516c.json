@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.5.5-516c",
+  "number": "6.2.5.5",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Aerodynamic and air data uncertainty",
+  "subject_group": "6.2.5 VCF control law safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Aerodynamic and air data uncertainty",
+      "text": "Criterion: Verify that the control law sensitivity to aerodynamic and air data uncertainty is safe for all flight phases. Standard: Sensitivity analysis varies key system parameters affecting aircraft stability and control to demonstrate design robustness. At all conditions analyzed, vehicle stability will be shown to be positive with at least Level III flying qualities. Key stability derivatives are varied by 25 percent in the most adverse direction. Sensitivity analyses include representations of errors which exist due to nonlinear and higher order dynamics. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. Stability margins are verified by analysis, modeling, simulation and test. References: JSSG-2008: 3.0, 3.1, 3.1.5, 3.1.5.7, 3.1.5.8, 3.1.5.9, 3.1.7.2, 3.1.7.3, 3.1.11.2, 3.1.11.10, 3.1.11.11.1, 3.1.17, 3.2.2.1, 3.2.2.2.9, 3.2.2.5.4, 3.2.2.5.4.2, 3.2.2.5.4.3, 3.2.2.5.4.4, 3.2.2.6, 3.3.2.1, 3.3.4, 3.5, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Aerodynamic and air data uncertainty",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

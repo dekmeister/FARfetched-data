@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.3",
+  "number": "15.1.4",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Safety-critical function threads",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.1.3",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all hardware and software safety/flight-critical items are identified and accounted for in the architecture.",
+      "text": "Verify that all hardware and software safety/flight-critical items are identified and accounted for in the architecture.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.1.3",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all hardware and software safety/flight-critical items are identified and their safety critical functions are allocated to components within the architecture.",
+      "text": "Verify that all hardware and software safety/flight-critical items are identified and their safety critical functions are allocated to components within the architecture. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.1.16; MIL-STD-882D Appendix A: para A.4.4.2 establishes hardware and software analysis in the hazard identification process. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.1.3",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that all hardware and software safety/flight-critical items are identified and their safety critical functions are allocated to components within the architecture.",
+      "text": "Verify that all hardware and software safety/flight-critical items are identified and their safety critical functions are allocated to components within the architecture. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.1.16 MIL-STD-882D Appendix A: A.4.4.2 establishes hardware and software analysis in the hazard identification process FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "SCF threads",
+      "text": "Criterion: Verify that all SPA supported SCF threads have been identified, documented and completely traced, and that all Safety Supporting Elements (SSEs) of the SPA have been identified. Standard: All SCF threads have been traced from the SPA to the component level. All SSEs, Safety Supporting Software Elements (SSSEs), Safety Supporting Hardware Elements (SSHEs) and non-SSEs have been identified and documented. Automating the SCF thread tracing capability allows for repeatability and expansion of analysis. Method of Compliance: Verification methods include analysis, and inspection of documentation. Verification includes functional thread analysis for each SCF from the SPA to the SSEs, SSSEs, SSHEs, and components. Ensure SSEs, SSSEs, SSHEs, and components are appropriately identified, labeled and traced to each SCF they support. Ensure non-SSEs are identified and documented. Verify the sufficiency of coverage and repeatability of the functional thread analysis conducted on the SCFs. References: JSSG-2008 Appendix A: 3.1.8; 3.1.9; 3.1.11.3; 3.1.12 MIL-STD-882: 4.3.2 of MIL-STD-882E addresses the identification of hazards; Task 208 - Functional Hazard Analysis DoD JSSSEH: 4.1.3, 4.3.4.2, 4.3.6, 4.3.7.2.3, and appendix C.3.4 - identifies and explains the purpose of an SCF list for software USAF Weapon Systems Software Management Guidebook: G.2.1; G.2.2; G.2.3 NASA-STD-8719.13B: 4.0 Safety-Critical Software Determination RTCA DO-178: For RTCA DO-178C: 2.1 System Requirements Allocation to Software; 2.3 System Safety Assessment; 2.3.2 Failure Condition Categorization; 2.3.3 Software Level Definition; 2.3.4 Software Level Determination; 4.4 Software Life Cycle Environmental Planning (see also RTCA DO-178B: 2.1; 2.2.1; 2.2.2; 2.2.3) RTCA DO-254: 2.0; 2.1.1 IEEE 12207.2-1997 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 5.3.2.1 Guidance 2 - trace requirements down to components FAA AC 20-115C FAA AC 20-152: provides guidance for the use of RTCA DO-254 FAA AC 25.1309-1A: 8a (see also FAA AC 23.1309-1E: Para 16) addresses identification of critical functions in performing a Functional Hazard Analysis (FHA) FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: 4.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Safety-critical function threads",
+      "text": "Standard: 1. Verify that all SPA supported SCF threads have been identified, documented, and completely traced. All SCF threads have been traced from the SPA to the component level. All elements supporting an SCF have been identified as part of the SCF thread and categorized as ESSs. Safety-critical function thread analysis also identifies any ENSSs whose integration with an ESS needs to be evaluated for potential adverse impact to SCF operation. Each SCF thread has been verified and validated at all levels of the design to ensure end-to-end coverage of the SCF in nominal and off-nominal conditions to ensure the integrity of SCF operation. In addition, for designs utilizing MCP environments: 2. For each SCF identify all MCPs utilized, processing cores utilized, and chip related resources (e.g., processor interconnects, I/O management, controllers, memory, buses) supporting the operation and performance of the SCF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes analysis. Verification includes functional thread analysis for each SCF from the SPA to the ESSs and components. Ensure ESSs and components are appropriately identified, labeled, and traced to each SCF they support. Ensure ENSSs whose integration with an ESS needs to be evaluated for potential adverse impact to SCF operation are identified and documented. Verify the sufficiency of coverage and repeatability of the functional thread analysis conducted on the SCFs. Safety-critical function V&V coverage analysis verifies that end-to-end coverage of each SCF is accomplished for nominal and off-nominal conditions to ensure the integrity of SCF operation. In addition, for designs utilizing MCP environments: 2. The SCFTA identifies all MCPs, processing cores, and chip related resources supporting the operation and performance of each SCF.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.20",
+  "number": "8.3.20",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Crashworthiness",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Crashworthiness",
+      "text": "Criterion: If applicable, verify that the fuel system design precludes fuel leakage following a survivable crash impact. Standard: Air vehicle fuel systems are designed in accordance with MIL-STD-1290. Criterion is applicable for all military rotary wing air vehicle systems. Applicability for light fixed wing air vehicle systems is determined in cooperation with the program and system safety offices. Applicability for unmanned aircraft systems is determined in cooperation with the Program and systems safety offices, taking into consideration acceptable aircraft loss rates and whether or not shipboard operations will be required. Generally, shipboard operations will require some level of crashworthiness to ensure the safety of the ship and its crew. Method of Compliance: Compliance with crashworthiness is verified through system level analysis and component/system level ground test (e.g., fuel cell, breakaway valve qualification). References: JSSG-2009: E.3.4.5.6.13, G.3.4.7.7 MIL-STD-1290 USAAVSCOM TR 89-D-22B 14 CFR 25.561, 25.863, 25.994, 27.561, 29.561, 27.863, 29.863, 27.952, 29.952",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Crashworthiness",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.5.1",
+  "number": "17.5.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Armament and store configuration",
+  "subject_group": "17.5 Armament and stores technical documentation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Armament and store configuration",
+      "text": "Standard: The full configuration (hardware and software) of armament system components and stores is defined in applicable technical data to prevent unauthorized flight configurations. Configuration data set defines the physical characteristics, store SCFs, authorized inspection criteria, store assembly, buildup of armament and stores systems, and operational service life limit definition. This includes any individual store configuration buildup manual and electronic tools that dictate the authorized configuration of the store or air vehicle armament system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify that the configuration data set, including mass properties, drawings, schematics, and VDDs define the system.\n(2) Verify that the system complies to the configuration data set.\n(3) Verify that only authorized store configurations are defined in applicable stores limitation sheets. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(4) Verify support equipment and test sets used to configure and load the store and store assembly publications are authorized to load the store and accurately depict the store configuration authorized for loading.\n(5) Verify approved configuration data set(s) are documented in USG verified flight manual(s) or equivalent supplement(s).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

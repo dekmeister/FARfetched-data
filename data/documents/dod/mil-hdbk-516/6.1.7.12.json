@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.12",
+  "number": "6.1.7.12",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Wings-level turn",
+  "subject_group": "6.1.7 Lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Wings-level turn",
+      "text": "Criterion: Verify that wings-level turn with the designated side force controller is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.12 Wings-level turn. b. 5.2.3.12.1 Dynamic response to direct side force controller (see table LXXVII for guidance). c. 5.2.3.12.2 Steady-state response to direct side force controller. d. 5.2.3.12.3 Direct side force controller forces and displacements. e. 5.2.3.12.4 Crew restraints. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Wings-level turn",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

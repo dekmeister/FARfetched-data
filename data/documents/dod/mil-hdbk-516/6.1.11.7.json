@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.7",
+  "number": "6.1.11.7",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Disturbance rejection",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Disturbance rejection",
+      "text": "Standard: The air vehicle flying qualities in response to atmospheric disturbances are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the air vehicle response to disturbance inputs as specified in MIL-DTL-32742, Short-term Pitch (Roll) Response to Disturbance Inputs, Short-term Yaw Response to Disturbance Inputs, Short-term Height Response to Disturbance Inputs, Short-term Position Response to Disturbance Inputs, Short-term Translational Rate Response to Disturbance Inputs paragraph in conjunction with qualitative results from piloted simulation for each air vehicle configuration and loading within the SFE. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the air vehicle response to disturbance inputs as specified in MIL-DTL-32742, for specified MTEs and other mission representative scenarios for each air vehicle configuration and loading within the SFE. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the air vehicle response to disturbance inputs as specified in MIL-DTL-32742 for specified MTEs and other mission representative scenarios for selected combination of air vehicle configuration and loading with the SFE. A final adjudication of airworthiness with respect to disturbance rejection should consider both quantitative and qualitative criteria with greater credence given to qualitative results.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

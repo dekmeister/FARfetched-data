@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.11-516d",
+  "number": "8.2.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Smoke and fume removal",
+  "subject_group": "8.2 Environmental control systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Smoke and fume removal",
+      "text": "Standard: The ECS provides a means for removal of smoke and fumes from all occupied compartments. Smoke, fumes, and noxious gases are cleared with sufficient rapidity to prevent asphyxiation, incapacitation, and loss of cockpit visibility. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review ECS design documentation and installation drawings to verify the availability of smoke and fume evacuation provisions.\n(2) Review flight manuals to verify the availability of smoke and fume evacuation procedures. Analysis.\n  (1) Conduct analysis to verify that smoke and fumes are cleared via fresh air exchange or by compartment pressure release. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n    (1) Flight test: Conduct flight testing to verify the effectiveness of smoke and fume removal provisions and procedures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

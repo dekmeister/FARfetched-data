@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.13.2",
+  "number": "6.1.4.26",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Secondary control devices and configuration changes",
+  "subject_group": "6.1.4 Fixed-wing general flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.13.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Operation of secondary control devices and in-flight configuration changes",
+      "text": "Criterion: Verify that operation of secondary control devices and in-flight configuration changes are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.9.2 Operation of secondary control devices and in-flight configuration changes. b. 5.2.9.2.1 Pitch trim changes (see table CIII and CIV for guidance). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Secondary control devices and configuration changes",
+      "text": "Standard: The transients and steady-state trim changes for normal operation of secondary control devices do not result in air vehicle worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the characteristics of secondary control devices and impact on flying qualities due to in-flight configuration changes as specified in MIL-STD- 1797, Transient Response Limits to Configuration or Control Mode Change table and Control Force Limits for Configuration or Control Mode Change table, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the characteristics of secondary control devices and impact on flying/handling qualities due to in-flight configuration changes as specified in MIL-STD-1797, Transient Response Limits to Configuration or Control Mode Change table and Control Force Limits for Configuration or Control Mode Change table, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the characteristics of secondary control devices and impact on flying/handling qualities due to in-flight configuration changes as specified within MIL-STD-1797, Transient Response Limits to Configuration or Control Mode Change table and Control Force Limits for Configuration or Control Mode Change table, for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

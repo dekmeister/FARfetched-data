@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.10.6-516d",
+  "number": "8.5.10.6",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Air vehicles not equipped with arresting hook",
+  "subject_group": "8.5.10 Arresting hook systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Air vehicles not equipped with arresting hook",
+      "text": "Standard: For air vehicle which do not have arresting hook installed, the air vehicle can traverse arresting gear cables, including support structures, at takeoff and landing speeds without causing loads exceedance on landing gear structure, damage to tire and wheels, and no part of the air vehicle including landing gear, doors, antennas, brakes, hydraulic lines, and stores will contact the arresting cable for all air vehicle configurations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a static loads analysis to verify the air vehicle's capability to rollover the arresting gear cable and impact of cable supports do not exceed the landing gear structural strength.\n(2) Conduct a dynamics analysis to verify the air vehicle does not cause the arresting gear cable to snag on any part of the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Ground test: Conduct ground test to verify air vehicle can rollover the arresting gear cable without overloading landing gear structure (e.g., tire contact with cable supports), cause the cable to contact any part of the air vehicle, and not damage the tires.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

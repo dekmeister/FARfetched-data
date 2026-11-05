@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.9.3-516d",
+  "number": "6.1.9.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Carrier approach",
+  "subject_group": "6.1.9 Shipboard operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Carrier approach",
+      "text": "Standard: The air vehicle is no worse than Level 2 handling qualities during carrier approach and landing to carrier arresting gear. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of shore-based and shipboard carrier approach and landing to determine the control power, roll and flight path control power and bandwidth, power and engine response, margin to stall speed, and defined minimum and maximum approach airspeed needed to complete the mission task, including 6-DOF simulations for automatic control modes, for each combination of air vehicle states, control modes, approach patterns, off-nominal approaches, environmental conditions, and ship conditions: ship class and arresting gear layout, WOD magnitude and direction, steady and turbulence carrier airwake and ship motion effects, ship speed and turn rate, subject to the constraints of the arresting gear capabilities and airframe structural limits. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation of land-based and shipboard carrier approach and landing as specified in SA FTM-01, Landing Tests section for each combination of air vehicle states, control modes, approach patterns, off-nominal approaches, environmental conditions, and ship conditions: ship class and arresting gear layout, approach speed, WOD magnitude and direction, steady and turbulence carrier airwake and ship motion effects, ship speed and turn rate, subject to the constraints of the arresting gear capabilities and airframe structural limits. Reversionary control modes are included in simulation evaluations to assess capabilities of potential backup systems and the potential for cognitive error between the primary system and the reversionary mode. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct shore-based arrested landings as specified in SA FTM-01, Landing Tests section for nominal and critical combinations of air vehicle states, control modes, approach patterns, off-nominal approaches, environmental conditions, and ship conditions: arresting gear type and layout, approach speed, headwind and crosswind conditions from minimum to maximum shore-based WOD equivalent, subject to the constraints of the arresting gear capabilities and airframe structural limits. Reversionary control modes will be included in test evaluations to assess capabilities of potential backup systems and the potential for cognitive error between the primary system and the reversionary mode.\n  (3) Flight test: Conduct shipboard arrested landings for nominal and critical combinations of air vehicle states, control modes, approach patterns, off-nominal approaches, environmental conditions, and ship conditions: arresting gear type and shipboard layout and configuration, multiple levels of ship motion, approach speed, WOD magnitudes and directions from minimum to maximum WOD, subject to the constraints of the arresting gear capabilities and airframe structural limits. Reversionary control modes will be included in test evaluations to assess capabilities of potential backup systems and the potential for cognitive error between the primary system and the reversionary mode.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.34",
+  "number": "6.2.10.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Accuracy and tolerances",
+  "subject_group": "6.2.10 Vehicle control function air data safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.34",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify sensitivities with variations in slope and bias conditions of air data functions have safe margins.",
+      "text": "Verify sensitivities with variations in slope and bias conditions of air data functions have safe margins.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.34",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that sensitivities with variations in slope and bias conditions of air data functions have safe margins.",
+      "text": "Verify that sensitivities with variations in slope and bias conditions of air data functions have safe margins. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.5, 4.1.5, 3.1.5.7, 4.1.5.7, 3.1.7, 4.1.7, 3.1.7.2, 4.1.7.2, 3.1.17, 4.1.17, 3.2.1.1, 4.2.1.1, 3.2.1.2, 4.2.1.2, 3.2.2.5, 4.2.2.5, 3.3.2.5.4.2, 4.3.2.5.4.2, 3.2.2.5.4.4, 4.2.2.5.4.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.34",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that sensitivities with variations in slope and bias conditions of air data functions have safe margins.",
+      "text": "Verify that sensitivities with variations in slope and bias conditions of air data functions have safe margins. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.5, 4.1.5, 3.1.5.7, 4.1.5.7, 3.1.7, 4.1.7, 3.1.7.2, 4.1.7.2, 3.1.17, 4.1.17, 3.2.1.1, 4.2.1.1, 3.2.1.2, 4.2.1.2, 3.2.2.5, 4.2.2.5, 3.3.2.5.4.2, 4.3.2.5.4.2, 3.2.2.5.4.4, 4.2.2.5.4.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.4.1",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Accuracy and tolerances",
+      "text": "Criterion: Verify that the accuracy and tolerances of the air data system are safe especially for sensitivities with variations in slope and bias conditions. Standard: Air data accuracy and tolerances are evaluated for: dynamic pressure, static pressure, altitude, angle of attack, angle of side slip, and Mach number. These air data systems establish an anticipated range of gain and phase errors which exist between predictions and flight test. The air data system parameters are repeatable within acceptable tolerances. The required accuracy is appropriate for safe operation of the VCF and has 10% margin for adverse effects. Accuracy analysis considers scaling, nonlinearity, higher order dynamics, resolution, lag, latency, manufacturing tolerances, aging, wear, maintenance, and any other parameters such as voting thresholds that affect overall accuracy. Areas to consider for air data system errors and failures may include, but are not limited to: a. Noise on air data signals. b. Calibration table errors in slope and bias. c. Blockages in pneumatic lines or total and static pressure ports. d. Total system performance tolerance. e. Intermittent signal failures (especially failures of duration shorter than the persistence counter). f. Lags - pneumatic, sensor, computational, electrical. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. Air data sensitivities, accuracy, and performance are verified by modeling, analysis, simulation, wind tunnels, ground, and flight test. Flight test includes comparison of flight test boom data with the aircraft air data system to validate accuracy and performance. References: JSSG-2008: 3.0, 3.1, 3.1.2.1, 3.1.5, 3.1.5.7, 3.1.7, 3.1.7.2, 3.1.7.3, 3.1.11.4, 3.1.11.6, 3.1.17, 3.2.1.1, 3.2.1.2, 3.2.2.4, 3.2.2.5, 3.2.2.5.4.4, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Accuracy and tolerances",
+      "text": "Standard: Air data accuracy and tolerances are defined for altitude, AOA, AOS, and airspeed or Mach, including Mach compressibility, which are either directly measured or derived from measurements such as dynamic pressure, static pressure, and total air temperature. Air data sources are qualified to the boundaries of the RORH accounting for airspeed, altitude, AOA, and AOS limits of the air vehicle. The VCF allows for 10% margin for adverse effects in the air data system without loss of control. The air data system provides the VCF with airspeed \u00b15 KCAS or \u00b10.02 Mach, altitude \u00b15 ft per 1000 (min \u00b120 ft), AOA \u00b11 degree, and AOS \u00b11 degree in the ROSH. Accuracy analysis considers scaling, nonlinearity, higher order dynamics, resolution, lag, latency, manufacturing tolerances, aging, wear, maintenance, and any other parameters such as voting thresholds that affect overall accuracy. When assessing air data system errors and failures, account for: a. Noise on air data signals. b. Calibration table errors in slope and bias. c. Blockages in pneumatic lines or total and static pressure ports. d. Total system performance tolerance. e. Intermittent signal failures (especially failures of duration shorter than the persistence counter). f. Lags: pneumatic, sensor, computational, electrical. g. Leaks. h. Contour changes near the sensors due to maintenance or repair. i. Installation irregularities. j. Minimum speed for air data validity. k. Other areas identified by the vendor that may affect accuracy or tolerance. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation for placement of air data sensors to minimize measurement errors and account for what errors remain. Analysis.\n  (1) Conduct air data sensitivity study to determine influence of variations in air data parameters on the VCF. Test.\n    (1) Lab test: Conduct lab test to verify measurement accuracy and tolerance of sensors.\n    (2) Lab test: Conduct wind tunnel test to establish desired location of sensors on the air vehicle and initial estimates for source error correction.\n    (3) Lab test: Conduct PITL simulation to verify the air vehicle does not lose control when modeling effects of errors in the air data system.\n    (4) Ground test: Conduct ground test to verify installation of air data system and pressure check of the system for leaks and rated pressures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Conduct high speed taxi runs to validate air data predictions.\n    (6) Flight test: Conduct flight testing with boom or other device throughout the ROSH to gather truth data for validating accuracy and performance of the air data system. Other techniques such as pacer air vehicle, tower flyby, and trailing cone may be used to collect additional verification data for the air data system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

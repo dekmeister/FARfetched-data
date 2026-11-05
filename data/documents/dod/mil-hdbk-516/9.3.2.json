@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.3.2",
+  "number": "9.3.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Lighting controllability and uniformity",
+  "subject_group": "9.3 Air system lighting",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the lighting is fully controllable and uniform, and does not produce unacceptable glare, shadows, and reflections.",
+      "text": "Verify that the lighting is fully controllable and uniform, and does not produce unacceptable glare, shadows, and reflections.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the lighting is fully controllable and uniform and does not produce unacceptable glare, shadows, or reflections.",
+      "text": "Verify that the lighting is fully controllable and uniform and does not produce unacceptable glare, shadows, or reflections. DoD/MIL Doc: JSSG-2010-5 FAA Doc: 14CFR references: 23.1381-23.1401, 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Lighting controllability and uniformity",
+      "text": "Criterion: Verify that the lighting is fully controllable and uniform and does not produce unacceptable glare, shadows, or reflections. Standard: a All devices that emit or transmit light within the flight deck, control station or other crew compartments, and are related by function or area, are attached to the aircraft power via a common dimmer control. b. At any given luminance level, lighting components within a lighting subsystem (primary instrument panel, secondary instrument panel, primary console, secondary console, warning, caution and advisory signals, utility, and compartment) provide luminance such that the average luminance ratio between lighted components is not greater than 2 to 1. For displays, luminance variation does not exceed 30 percent. c. Reflections from the canopy, windshields, and windows are minimized and reflections that affect the outside vision of the pilot and crewmembers are not sufficient to result in a hazard. Specular reflections resulting from aircraft lighting sources do not obscure the displayed information when viewed from the pilot's and crewmembers' design eye position(s). d. Reflections and glare from control station windows and lighting are minimized and do not affect the display and control readability. e. The lighting system is designed and installed so as to prevent the leakage of stray light and shield all illumination sources from direct view. Method of Compliance: a. Dimmability control is verified by lighting mockups and aircraft and control station demonstrations. b. Average luminance ratio is verified by measurements in a lighting mockup, control station or aircraft with each lighting subsystem independently energized to half brightness and maximum brightness and the contrast ratio between the brightest and dimmest lighting component of the subsystem. Visual inspection determines the brightest and dimmest lighting component of that subsystem. Display luminance (L) variation is determined by measuring the brightest and dimmest portion of a display at a given setting and applying the following formula: (Lmax - Lmin)/Lmax. The test is conducted at both high and low dimmer settings. c. Acceptability of specular reflections is verified under dark ambient conditions by unaided eye inspections at full bright lighting levels for each lighting subsystem. Any evidence of foreign matter, cracks, scratches, bubbles, delamination, warps or stray light is considered as cause for rejection. d. For control stations, acceptability of specular reflections is verified by unaided eye inspections over the expected range of ambient conditions. e. Prevention of light leakage and stray light is verified by visual inspection of the lighting sources as installed. References: JSSG-2010-5 14 CFR 23.1381-23.1401; 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Lighting controllability and uniformity",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

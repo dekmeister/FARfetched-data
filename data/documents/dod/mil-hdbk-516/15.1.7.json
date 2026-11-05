@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.7",
+  "number": "15.1.7",
+  "current_grouping": "15. COMPUTER RESOURCES",
+  "canonical_title": "Verify that single component failure does not impede redundant operations.",
+  "subject_group": "15.1 Air vehicle processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that single component failure will not impede redundant operations.",
+      "text": "Verify that single component failure will not impede redundant operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that single component failure does not impede redundant operations.",
+      "text": "Verify that single component failure does not impede redundant operations. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1; JSSG-2008 Appendix A: para 3.3.1 provides processing architecture design strategies to mitigate component failures. Para 3.1.9 contains single point failure guidance regarding in-flight hazards and redundancy. Para 3.1.11.1 addresses safe operation in the case of multiple failures. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that single component failure does not impede redundant operations.",
+      "text": "Verify that single component failure does not impede redundant operations. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: 3.3.1 provides processing architecture design strategies to mitigate component failures; 3.1.9 contains single point failure guidance regarding in-flight hazards and redundancy; 3.1.11.1 addresses safe operation in the case of multiple failures FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that single component failure does not impede redundant operations.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

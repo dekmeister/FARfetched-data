@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "19.4.2",
+  "number": "19.4.2",
+  "current_grouping": "19. MATERIALS AND MATERIAL INTEGRITY",
+  "canonical_title": "Special process integrity",
+  "subject_group": "19.4 Special processes and process integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "19. MATERIALS AND MATERIAL INTEGRITY",
+      "title_at_revision": "Special process integrity",
+      "text": "Standard: Each special process is controlled by a process specification that defines the critical process variables, the methods to monitor and control those variables, the manner in which to qualify the special process for use, the manner in which to verify process capability, and guidance on what changes to a qualified special process will require requalification of the process and the required extent of the requalification, so that the materials used in the air system design produced by the special process achieve their design performance for the duration of their design life. Method of Compliance: Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(1) Review documentation to confirm that each special process in the special process control plan has a corresponding process specification that meets the standard. Analysis.\n  (1) Review process specifications for special processes to confirm they will result in continual process integrity, thus meeting the standard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

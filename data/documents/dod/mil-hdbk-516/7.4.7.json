@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.4.7",
+  "number": "7.4.7",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Anti-ice and de-ice systems",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup/removal at all engine speeds and will not result in heat-induced damage to the engine\u2019s front frame structure.",
+      "text": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup/removal at all engine speeds and will not result in heat-induced damage to the engine\u2019s front frame structure.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup or provides safe and non-damaging ice removal at all engine speeds/power levels and will not result in heat-induced damage to the engine's front frame structure.",
+      "text": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup or provides safe and non-damaging ice removal at all engine speeds/power levels and will not result in heat-induced damage to the engine's front frame structure. DoD/MIL Doc: JSSG-2007A: para A.3.7.1/A.4.7.1, Anti-ice and De-ice Systems FAA Doc: 14CFR references: 25.1419",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup or provides safe and non-damaging ice removal at all engine speeds/power levels and will not result in heat-induced damage to the engine's front frame structure.",
+      "text": "Verify that the engine anti-ice/de-ice system prevents damaging ice buildup or provides safe and non-damaging ice removal at all engine speeds/power levels and will not result in heat-induced damage to the engine's front frame structure. DoD/MIL Doc: JSSG-2007A: A.3.7.1/A.4.7.1, Anti-ice and De-ice Systems FAA Doc: 14CFR references: 25.1419",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.8",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Anti-ice/de-ice systems",
+      "text": "Criterion: Verify that the engine anti-ice/de-ice system prevents damaging ice buildup or provides safe and non-damaging ice removal at all engine speeds/power levels and will not result in heat-induced damage to the engine's front frame structure. Standard: Anti-ice systems prevent ice from accumulating on the engine structure that could result in ingestion and subsequent mechanical damage to internal rotating components. De-ice systems remove existing ice accumulations before they can be ingested and cause mechanical damage to internal rotating components. If the engine control system is capable of automatically operating the anti-ice and de-ice systems without operator action, the operator can override the engine control system and operate the anti-ice or de-ice systems. Anti-ice and de-ice system operational temperatures are monitored and, where applicable, the systems are automatically turned off in the event engine front frame damage is likely to occur. Moisture cannot accumulate and freeze in areas (sensors, lines, etc.) that could result in control system malfunctions. Notification is provided to the operator in the event of anti-ice or de-ice system malfunction. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis of the air vehicle mission defines the engine's icing environment. Bench and engine tests of the anti-ice or de-ice plumbing, valves and sensors demonstrate the system's ability to prevent or remove ice prior to it damaging the engine. Bench testing of the control system demonstrates that it can identify the existence of icing conditions and turn on the anti-ice or de-ice system. All anti-ice and de-ice system controls are tested to ensure that the pilot or operator can override the control system and manually operate the anti-ice or de-ice system. Fault injection testing of the anti-ice and de-ice systems demonstrate the ability to properly recognize temperature exceedances and initiate system function shutdown. Analysis and inspection of all critical control system components verifies resistance to moisture collection and freezing. References: JSSG-2007: A.3.7.1, A.4.7.1 Anti-ice and De-ice Systems 14 CFR 25.1419",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Anti-ice and de-ice systems",
+      "text": "Standard: Engine anti-ice and de-ice systems prevent damaging ice buildup or provide non-damaging ice removal at all engine speeds and power levels and will not result in heat-induced damage to the engine's structure. Moisture cannot accumulate and freeze on critical control system components (e.g., sensors, lines) that result in control system malfunction. Anti-ice systems prevent ice from accumulating on the engine structure that could result in ingestion and subsequent mechanical damage to internal rotating components. De-ice systems remove existing ice accumulations before they can be ingested and cause mechanical damage to internal rotating components. For automatic anti-ice and de-ice systems, the flight crew can override the engine control system and manually operate the anti-ice or de-ice systems. Anti-ice and de-ice system operational temperatures are monitored, and the systems are automatically turned off or adjusted to prevent engine damage. Notification is provided to the flight crew in the event of anti-ice or de-ice system malfunction. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, or other substantiating records and reports) to verify design of the anti-ice and de-ice systems. Analysis.\n  (1) Analysis is accomplished to verify anti-ice and de-ice systems\u2019 ability to prevent or remove ice while operated at icing conditions as determined by the Critical Point Analysis. Demonstration.\n    (1) Bench testing of the control system demonstrates ice detection and activation of the anti-ice and de-ice system. Test.\n      (1) Lab test: Bench testing of the anti-ice and de-ice plumbing, valves, and sensors verify the system's ability to prevent or remove ice prior to it damaging the engine.\n      (2) Lab test: All anti-ice and de-ice system controls are tested to ensure that the flight crew can override the control system and manually operate the anti-ice and de-ice system.\n      (3) Lab test: Fault injection testing of the anti-ice and de-ice systems verifies the ability to properly recognize temperature exceedances and initiate system function shutdown.\n      (4) Lab test: Climatic ground-based cell testing verifies the anti-ice and de-ice systems\u2019 ability to prevent or remove ice prior to damaging the engine.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

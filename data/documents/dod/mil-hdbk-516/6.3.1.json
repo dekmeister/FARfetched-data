@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.3.1",
+  "number": "6.3.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Airframe-inlet compatibility",
+  "subject_group": "6.3 Internal aerodynamics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Engine-airframe compatibility",
+      "text": "Criterion: The installed propulsion system provides for engine and airframe compatibility to ensure safe operation of the air vehicle. Standard: Verify that the propulsion system is free of instabilities resulting from: a. Flow disturbances entering the engine from the inlet. b. Flow disturbances entering the engine from the afterburner/nozzle. c. Flow/mechanical/thermal interfaces with the airframe and subsystems. d. Operation of flight, engine and subsystem controls. Method of Compliance: a. Propulsion system instabilities are identified during design and development through test, analysis, and demonstration. These instabilities are addressed in a joint stability assessment performed by the airframe and engine contractors. Verify through inspection of documentation that the effects of steady-state total-pressure inlet distortion, maximum instantaneous total-pressure inlet distortion, temperature distortion, swirl distortion, and in-phase pressure oscillations (planar waves) are included in the joint stability assessment. Verify through inspection of documentation that flow disturbances from secondary air systems located in the inlet, steam ingestion, hot anti-icing air discharged into the inlet, armament gas and debris ingestion, inlet sand and dust separator effects, and distortion resulting from ice formation on the inlet are included in the joint stability assessment. NOTE: The joint stability assessment provides quantitative estimates of the effect of inlet distortion and other destabilizing influences on compressor stability margins . Recommended assessment procedures are outlined in SAE ARP1420 and SAE AIR1419. b. Exhaust system back pressure and nozzle matching effects are verified by analysis, test, and demonstration. c. Thermal boundary, fuel, air induction, exhaust and bleed air extraction system, ambient temperature, ambient pressure, vibratory environment, and altitude cold start and hot restart capability effects are verified by analysis, test, and demonstration. d. Steady state and transient response characteristics of the engine and engine control system, engine response to input signals at different frequencies, fuel flow modulation, engine control and vehicle control system communication, and auxiliary engine control function effects to propulsion system instabilities are verified by analysis, test, and demonstration. References: JSSG-2001, JSSG-2006, JSSG-2007, JSSG-2008 MIL-HDBK-516 MIL-STD-1797 SAE ARP1420 SAE AIR1419 14 CFR Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Airframe-inlet compatibility",
+      "text": "Standard: The integrated propulsion system is free of instabilities resulting from flow disturbances entering the inlet from the airframe and external sources. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Identify potential sources of non-uniform inlet flow caused by external sources such as forebody boundary layers, air data booms, pitot-static probes, weapons bay doors, external stores, pods, munitions, landing gear, catapult steam, wake from other air vehicles, exhaust from own or other air vehicles, ice accretion, hot de-icing air, armament gas, and debris. Consider all test and operational flight conditions including ground operations.\n(2) Identify potential impacts to propulsion system stability caused by any changes to airframe and integrated propulsion system geometry between ground-tested, flight-tested, and production air vehicles. Analysis.\n  (1) Estimate the magnitude and extent of potential non-uniform inlet flow using CFD. Use steady-state CFD to quantify inlet recovery, quantify distortion trends, and to identify regions where unsteady CFD is needed. Use unsteady CFD to estimate time-dependent effects of distortion. For processing and validation of CFD-based time-dependent distortion, refer to SAE AIR6345.\n  (2) Conduct analysis to identify airflow and air vehicle attitude limitations for high-speed inlet (supersonic or hypersonic) unstart.\n  (3) Conduct analysis using wind tunnel database and CFD to determine ground-to-flight geometry and Reynolds number scaling for measured inlet database. For methodology and instrumentation details refer to SAE AIR5687.\n  (4) Conduct analysis to quantify thrust, power, or torque impacts caused by inlet performance degradation and integration effects. Test.\n    (1) Lab test: Conduct sub-scale wind tunnel tests to measure inlet flow nonuniformities and to validate pre-test CFD. Test instrumentation includes distributed surface static pressures (or pressure sensitive paint), boundary layer rakes, and inlet rakes. Inlet rakes include steady state and dynamic instrumentation. For methodology and instrumentation details refer to SAE AIR1419, SAE ARP1420, and SAE ARP6420.\n    (2) Lab test: For high-speed inlets, conduct sub-scale wind tunnel tests to verify inlet unstart boundaries. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n    (3) Flight test: Conduct flight tests to verify inlet performance, to validate ground-to-flight database correlations, to validate propulsion system stability, and to assess effects of any changes between ground and flight test articles. Instrument flight test air vehicles with an AIP rake. For methodology and instrumentation details refer to SAE AIR1419, SAE AIR5867, SAE ARP1420, and SAE ARP6420.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

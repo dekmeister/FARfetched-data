@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.7",
+  "number": "8.4.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Protection of potential fire zones",
+  "subject_group": "8.4 Fire and hazard protection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.4.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided.",
+      "text": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.4.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided.",
+      "text": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.19, G.4.4.7.19, G.3.4.7.20, G.4.4.7.20, G.3.4.7.24, G.4.4.7.24, G.3.4.7.27, G.4.4.7.27 MIL-HDBK-221: para 2.12, 2.13 (All except any reference to Halon), 2.17 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.4.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided.",
+      "text": "Verify that all potential fire zones (e.g. engine, auxiliary power unit (APU) and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.19, G.4.4.7.19, G.3.4.7.20, G.4.4.7.20, G.3.4.7.24, G.4.4.7.24, G.3.4.7.27, G.4.4.7.27 MIL-HDBK-221: 2.12, 2.13 (All except any reference to Halon), 2.17 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.4.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fire detection",
+      "text": "Criterion: Verify that all potential fire zones (e.g., engine, auxiliary power unit and other compartments, such as engine-driven airframe accessory area) are designated as such and that suitable fire warnings and protection are provided. Standard: Appropriate warning and fire prevention methods such as shut-off of flammable fluids, elimination of ignition sources, ventilation, drainage, fire detection, fire hardening of components and fire containment have been used for fire zones. Method of Compliance: Analysis identifies all potential fire zones. Thermal analysis establishes the performance requirements of the fire detection systems (e.g., activation temp, activation time, clearance signal time, repeatability). Component tests verify that the alarm activation time meets the air vehicle response time criteria. Laboratory testing supports analysis and verifies performance of the fire detection systems under vibration, inertia, and other loads to which it is subjected in operation. Aircraft ground test verifies the operation of the fire detection, suppression and containment systems and its warnings. References: JSSG-2009: G.3.4.7.19, G.4.4.7.19; G.3.4.7.20, G.4.4.7.20; G.3.4.7.24, G.4.4.7.24; G.3.4.7.27, G.4.4.7.27 MIL-HDBK-221: 2.12, 2.13 (All except any reference to Halon) and 2.17 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Protection of potential fire zones",
+      "text": "Standard: Fire extinguishing systems are provided in APU compartments, engine compartments, and other identified fire zones. Detection systems provide timely and accurate indications so the flight crew may perform necessary actions to extinguish or suppress fires. Fire extinguishing and automated fire suppression systems extinguish or contain fires before they spread to another area of the air vehicle or create additional hazards (e.g., thermal failure of components outside the fire zone). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of requirement documents to verify fire detection, extinguishing, and automated fire suppression requirements are defined for each fire zone, and under what conditions the extinguishing and automated fire suppression systems are expected to operate.\n(2) Conduct inspection of design documents to verify fire detection, extinguishing, and automated suppression systems are provided for each fire zone.\n(3) Conduct inspection of design documents to show that fireproof protective devices are provided to isolate a fire within a defined fire zone from any portion of the air vehicle where a fire can create a hazard. Analysis.\n  (1) Conduct analysis for each potential fire location that shows that the fire detection system provides timely and accurate indications of all potential fire types so the flight crew may perform necessary actions to extinguish a fire without it spreading to another area of the air vehicle or creating another hazard.\n  (2) Conduct analysis that determines the extinguishing agent concentrations and duration levels required to extinguish any potential fire under all flight and ground conditions the fire extinguishing system is expected to operate.\n  (3) Conduct analysis that shows that the automated fire suppression system provides the required agent concentrations and duration levels required to extinguish any potential fire under all flight and ground conditions the automated fire suppression system is expected to operate. Test.\n    (1) Lab test: Conduct laboratory testing that verifies Analysis MoC (1) and shows performance of the fire detection system to provide timely and accurate indications of potential fires without false alarms. (2) Lab test: Conduct laboratory testing that validates Analysis MoC (2) and Analysis MoC (3) and shows extinguishing agent concentrations and duration levels are provided by the fire extinguishing system or automated fire suppression system under all conditions the fire extinguishing system or automated fire suppression system is expected to operate. (3) Ground test: Conduct ground test to show the fire detection system meets fire detection activation parameter requirements and provides timely and accurate indications to the flight crew for all potential fires during ground conditions. (4) Ground test: Conduct ground test that validates Analysis MoC (2), Analysis MoC (3), and Test MoC (2), and shows extinguishing agent concentrations and duration levels are provided by the fire extinguishing system or automated fire suppression system under all conditions the fire extinguishing system or automated fire suppression system is expected to operate. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test. (5) Flight test: Conduct flight test that validates analysis, lab, and ground testing, and shows extinguishing agent concentrations and duration levels are provided by the fire extinguishing system or automated fire suppression system under all conditions the extinguishing system or automated fire suppression system is expected to operate.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

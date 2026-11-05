@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.8.5",
+  "number": "9.2.8.5",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Master warning and master caution location",
+  "subject_group": "9.2.8 Crewmember alerting systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Master warning and master caution location",
+      "text": "Standard: Master cautions and master warnings are located within a 30-degree cone forward-facing centered on the design eyepoint. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review cockpit or crew station drawings or digital model to verify placement of the master caution and warning with respect to the design eye point. Test.\n  (1) Ground or Lab test: Measure the angle from the design eye point to the master caution and master warning indicators to verify the location is within the 30-degree cone.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

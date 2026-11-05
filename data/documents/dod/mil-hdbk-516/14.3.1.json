@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.1",
+  "number": "14.3.1",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Comprehensive approach to software safety",
+  "subject_group": "14.3 Software safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that a comprehensive software safety program is integrated in the overall system safety program.",
+      "text": "Verify that a comprehensive software safety program is integrated in the overall system safety program.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Verify that a comprehensive software safety program is integrated into the overall system safety program.",
+      "text": "Verify that a comprehensive software safety program is integrated into the overall system safety program. Comm\u2019l Doc: DO-178B to establish software integrity levels for commercial aircraft. DoD/MIL Doc: MIL-STD-882 provides mishap severity categories which can lead to establishment of software integrity levels. DoD/MIL Doc: Joint Software System Safety Committee, \u201cSoftware System Safety Handbook: A Technical & Managerial Team Approach,\u201d Dec 1999 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Comprehensive approach to software safety",
+      "text": "Criterion: Verify that a comprehensive software safety program is integrated into the overall system safety program. Standard: A comprehensive software safety program is integrated into the system safety program by ensuring the following: a. Adequate planning for software safety tasks; b. Adequate planning for analysis, traceability and testing is documented in safety management plans and test plans; c. Active participation of software safety in engineering processes/events (i.e., peer review, change boards, deviation processing etc.); d. Inclusion of software safety in the software development process and products; e. System safety allocates safety requirements to software safety in a timely manner; f. System/software hazard analyses substantiate that no single point failure caused by software results in loss of aircraft or system; g. Software causes of and mitigations for the system hazards are identified and integrated into the system safety process (i.e., hazard reports, hazard tracking system etc.); h. Software safety recommends system safety requirements to system safety in a timely manner; i. Systems engineering receives the final software safety input from system safety in a timely manner; j. Software integrity levels are established and enforced for the program in accordance with prescribed industry standards; k. Safety designated functions and their associated safety designated software are identified and analyzed; l. Test plans and procedures include testing of software safety functional requirements and design requirements. NOTE: The preceding should not be considered to be an all-encompassing exclusive list, and may be expanded depending on program scope and complexity. Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of program safety, software safety, and software documentation that the comprehensive software safety program has been integrated into the system safety program in a manner which meets the standard. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 RTCA DO-254 RTCA DO-278 SAE ARP4754 SAE ARP4761 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Comprehensive approach to software safety",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

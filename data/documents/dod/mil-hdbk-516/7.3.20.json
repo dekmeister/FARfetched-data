@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.20",
+  "number": "7.3.20",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Creep",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Creep",
+      "text": "Standard: Creep capability of static and rotating parts is such that the engine capability established in 7.2 standards is not adversely affected, engine operating limits are not exceeded, and detrimental permanent deformation or damage does not occur when the engine is operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analytical prediction of creep and component growth and percent stress rupture life, as a function of design life, is accomplished on each creep-critical component. Flight conditions at extremities of engine operating envelope and deteriorated conditions are included in creep and stress rupture design analysis. Design operating stresses are established based on experience (contractor design system) that indicates a high probability that creep and stress rupture life can be achieved (e.g., 0.2% plastic creep life, specified diametral rim growth, 50% stress rupture life). Test.\n  (1) Lab test: Component tests validate analytical predictions.\n  (2) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Testing validates analytical predictions. Inspection requirements for test engines include measurement of critical dimensions (e.g., snap and rim diameters, bolt circles, bores) prior to test and at each scheduled inspection interval. Verification of dimensional growth as a function of test time is conducted and included as a part of the interpretation and verification of test results. Minimum endurance test duration is twice the planned flight test duration. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Testing validates analytical predictions. Inspection requirements for test engines include measurement of critical dimensions (e.g., snap and rim diameters, bolt circles, bores) prior to test and at each scheduled inspection interval. Verification of dimensional growth as a function of test time is conducted and included as a part of the interpretation and verification of test results. Minimum endurance test duration is the scheduled depot inspection interval or half the cold part DSL.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

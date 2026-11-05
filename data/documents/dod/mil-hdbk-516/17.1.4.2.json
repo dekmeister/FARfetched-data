@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.1.4.2",
+  "number": "17.1.4.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Store drag index and aerodynamics",
+  "subject_group": "17.1.4 Store characteristics",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Store drag index and aerodynamics",
+      "text": "Standard: Store aerodynamic properties (e.g., drag index) are defined for all stores and carriage locations (e.g., weapon stations), for each unique store configuration, loadout and flight condition (e.g., air vehicle AOA, store incident angle, dynamic pressure) that changes the store drag, lift and aerodynamic responses. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze store aerodynamic properties through CFD to determine drag and lift indices for all mixed load configurations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n(2) Analyze production representative variant(s) of store to verify that all pre-test methods of determining drag and lift indices are representative of fielded configurations. Test.\n  (1) Lab test: Conduct wind tunnel testing to define freestream drag and lift indices and to measure air vehicle and store aerodynamic interactions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

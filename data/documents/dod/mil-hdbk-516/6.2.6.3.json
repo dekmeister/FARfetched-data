@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.6.3",
+  "number": "6.2.6.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Continuous built-in-test",
+  "subject_group": "6.2.6 Built-in-test",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Continuous built-in-test",
+      "text": "Standard: Continuous built-in-test does not adversely impact VCF real-time processing and provides fault coverage and health status to the VCF redundancy management function in support of failure detection and fault isolation requirements, as specified in 6.2.5.1. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Built-In-Test coverage analysis demonstrates CBIT, in coordination with redundancy management, provides real-time coverage for all VCF safety-critical functionality and component-level health. Test.\n  (1) Lab test: Formal qualification test, system-level testing, and FMET verifies CBIT functionality.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

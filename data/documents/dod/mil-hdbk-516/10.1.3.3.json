@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.3.3",
+  "number": "10.1.3.3",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Durability",
+  "subject_group": "10.1.3 Mechanical compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Durability",
+      "text": "Standard: The AR system and surrounding structure withstands the repeated impacts, and engagement and disengagement cycles experienced during the AR process over the life of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of system specifications and design criteria verifies repeated impacts, and engagement and disengagement cycle usage are established. Analysis.\n  (1) Analysis verifies AR system and surrounding structure design withstands all repeated impacts, and engagement and disengagement cycles over the life of the air vehicle. Test.\n    (1) Lab test: Verify the standard by the following: a. Boom Tanker. Laboratory testing of boom refueling system with representative AR receptacle verifies boom components and structure withstand repeated impacts and usage. Laboratory testing of boom refueling system verifies boom system withstands simulated in-contact refueling cycles. b. Drogue tanker. Laboratory testing of fuel reception coupling at angular positions of up to 15 degrees off-center with a simulated probe refueling system, closure rates up to 10 ft/s, and simulated drogue drag load at maximum design dynamic pressure verifies coupling withstands repeated impacts and usage without permanent deformation or creation of FOD. Laboratory testing of refueling drogue with a simulated probe refueling system, closure rates up to 10 ft/s, and simulated drogue drag load at maximum design dynamic pressure verifies drogue withstands repeated impacts and usage without permanent deformation or creation of FOD. Laboratory testing of hose reel system with simulated drogue drag loads verifies hose reel system withstands hose trail, hose response, disconnect, and hose rewind cycles. c. Receptacle Receiver. Laboratory testing with representative boom system verifies receptacle system withstands repeated impacts and usage, and engagement and disengagement cycles. d. Probe Receiver. Laboratory testing with representative reception coupling verifies probe system withstands repeated impacts and usage, and engagement and disengagement cycles. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing verifies the AR system and surrounding structure withstands repeated impacts and usage and validates analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.3.3",
+  "number": "8.1.3.3",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Interfaces",
+  "subject_group": "8.1.3 Power levels and transition",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Interfaces",
+      "text": "Standard: All interfaces (inputs and outputs) with the hydraulic and pneumatic system are fully defined. Hydraulic and pneumatic systems are powered by inputs from external power sources (e.g., gearboxes, air bottles, batteries, and ram air turbines). Power and drive system interfaces meet the demands of the hydraulic and pneumatic systems. Hydraulic and pneumatic systems provide output power to other interfacing systems (e.g., flight controls, landing gear, and weapon bay doors). The hydraulic and pneumatic systems provide the required power (pressure and flow) to meet the requirements of all interfacing components and systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review ICDs and system specification documentation to verify that interfaces with other systems are defined. Analysis.\n  (1) Conduct analysis to verify that the static and dynamic performance of the air vehicle\u2019s hydraulic and pneumatic systems meet the demands of interfacing systems. Test.\n    (1) Lab test: Conduct HITL testing to verify static and dynamic performance of the system meets the demands of interfacing systems.\n    (2) Ground test: Conduct on air vehicle testing to verify static and dynamic performance of the system meets the demands of interfacing systems. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing to verify static and dynamic performance of the system meets the demands of interfacing systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

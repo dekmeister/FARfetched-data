@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.3.5.2",
+  "number": "9.3.5.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Taxi lights",
+  "subject_group": "9.3.5 External lights (visible mode)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Taxi lights",
+      "text": "Standard: Taxi lights have a minimum intensity value of 50,000 cd with a minimum beam spread of 10 degrees in the vertical plane and 40 degrees total in the horizontal plane as measured from the centerline of the air vehicle. The beam spread is defined as the beam angle where the intensity drops to 10% of the maximum intensity. Taxi lights are free of dangerous glare or halation to the pilots. The chromaticity for taxi lights is Aviation White. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Taxi light(s) coverage, aimability, and intensity are verified by geometric and photometric analysis. Demonstration.\n  (1) Conduct a demonstration on the air vehicle to verify the taxi light(s) aimability and that the design of the landing light(s) minimizes glare to the pilots. Test.\n    (1) Lab test: Conduct component-level testing of the taxi light test article to measure chromaticity, beam spread, and intensity.\n    (2) Ground test: Perform testing on the air vehicle to measure the light intensity at required beam spread angles as measured from the air vehicle centerline.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.10",
+  "number": "9.2.9.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Pre-crash warning system operation",
+  "subject_group": "9.2.9 Mass notification systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.7.10",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position.",
+      "text": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.7.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position.",
+      "text": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position. DoD/MIL Doc: JSSG-2001: para 3.3.10.2.2 JSSG-2010: para 3.7, 4.7, 3.13, 4.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.7.9",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position.",
+      "text": "Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position. DoD/MIL Doc: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7, 3.13, 4.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.7.8",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Pre-crash warning system",
+      "text": "Criterion: Verify that pre-crash warning between aircrew and all compartments is possible without aircrew or occupants leaving their seating position. Standard: For troop and passenger carrying aircraft, the system provides a warning method or system that enables pilots, in the event of potential or impending mishap, to quickly and clearly convey a crash warning to aircraft occupants so that they can prepare for impact. Pre-crash warning displays are unambiguous and redundant (visual and auditory, for example). Pre-crash warnings do not cause confusion or induce panic. When visual and auditory displays are used in conjunction with each other, the auditory warning devices supplement or support the visual displays (MIL-STD-1800, cancelled). Pre-crash warnings are audible, readable and intelligible at all passenger seats, lavatories, and crew seats and work stations. Means of activating the warning are accessible for immediate use from each crew station in the pilot compartment. Method of Compliance: Pre-Crash warning systems are verified by inspection of drawings and passenger emergency egress demonstration tests. System functional tests verify the ability to activate the warning system from seated positions and the ability to convey a warning indication to all crew and passengers. References: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7; 3.13, 4.13",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Pre-crash warning system operation",
+      "text": "Standard: For passenger carrying air vehicles, a pre-crash warning system provides a warning method or system that enables pilots and crewmembers, in the event of a potential mishap, to quickly and clearly convey a message to all air vehicle occupants. The pre-crash warning annunciations will be distinct from other alarms and alerting signals. Pre-crash warning systems can have either visual or auditory annunciations or include both. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n(1) Conduct a demonstration to verify that the pre-crash warning system conveys a warning indication at all passenger seats, lavatories, and crewmember seats, and workstations under all operating and environmental conditions of the air vehicle. The demonstration will also verify that the pre-crash warning annunciations are distinct from other aural and visual annunciations. The demonstration should be done in a production representative mock-up or on the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

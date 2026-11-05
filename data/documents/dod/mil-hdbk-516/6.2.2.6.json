@@ -1,0 +1,75 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.2.6",
+  "number": "6.2.6.3",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Cockpit/operator control forces",
+  "subject_group": "6.2.6 VCF pilot vehicle interface (PVI) safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "6.2.2.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify cockpit control forces are safe.",
+      "text": "Verify cockpit control forces are safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "6.2.2.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify cockpit control forces are safe for any control mechanization.",
+      "text": "Verify cockpit control forces are safe for any control mechanization.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "6.2.2.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the cockpit control forces are safe for any control mechanization.",
+      "text": "Verify that the cockpit control forces are safe for any control mechanization. DoD/MIL Doc: JSSG-2008: para 3.2.2.3, 4.2.2.3, 3.2.2.5.1, 4.2.2.5.1, 3.2.2.5.1.1, 4.2.2.5.1.1, 3.2.2.5.1.3, 4.2.2.5.1.3 FAA Doc: 14CFR references: 23.779, 25.779, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321- 25.459, 23.1501-23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "6.2.2.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Verify that the cockpit control forces are safe for any control mechanization.",
+      "text": "Verify that the cockpit control forces are safe for any control mechanization. DoD/MIL Doc: JSSG-2008: 3.2.2.3, 4.2.2.3, 3.2.2.5.1, 4.2.2.5.1, 3.2.2.5.1.1, 4.2.2.5.1.1, 3.2.2.5.1.3, 4.2.2.5.1.3 FAA Doc: 14CFR references: 23.779, 25.779, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321- 25.459, 23.1501-23.1529, 25.1501-25.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Cockpit/operator control forces",
+      "text": "Criterion: Verify that the cockpit/operator control forces are safe for any control mechanization. Standard: Cockpit/operator control forces including trim for all axes meet the anticipated mission and flight condition with no obstructed movement for the crew. Probability of aircraft loss due to Pilot Vehicle Interface (PVI) failure is no greater than 1x10^-8 (one order of magnitude less than PLOC) or as specified by the procuring activity. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, inspection and review of documentation. Characteristics are verified at a cockpit/operator evaluation facility, a handling qualities simulation facility or a SIL, on-aircraft ground test, and flight test. References: JSSG-2008: 3.2.2.3, 3.2.2.5.1, 3.2.2.5.1.1, 3.2.2.5.1.3, associated section 4 paragraphs. 14 CFR 23.779, 25.779, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321- 25.459, 23.1501-23.1529, 25.1501-25.1529.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Cockpit/operator control forces",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

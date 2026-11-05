@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.4",
+  "number": "8.6.4.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Damage tolerance and containment",
+  "subject_group": "8.6.4 Containment of failed high speed rotating parts",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.6.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that high-speed rotating components have been designed to be damage tolerant; or, that there are provisions for containment of failed parts and that any potentially uncontained fragments will not damage SOF components or injure personnel.",
+      "text": "Verify that high-speed rotating components have been designed to be damage tolerant; or, that there are provisions for containment of failed parts and that any potentially uncontained fragments will not damage SOF components or injure personnel.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.6.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that high-speed rotating components are designed to be damage tolerant, or that there are provisions for containment of failed parts.",
+      "text": "Verify that high-speed rotating components are designed to be damage tolerant, or that there are provisions for containment of failed parts. Also, verify that any potentially uncontained fragments do not damage SOF components or CSIs or injure personnel. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.10.1, C.4.4.3.10.1 FAA Doc: 14CFR reference: 23.903 (b), 23.1461, 25.901(c), 25.1461, AC 20-128, TSO C77b: 5.9, 6.6, 6.7, 6.8",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.6.4",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Damage tolerance/containment",
+      "text": "Criterion: Verify that high-speed rotating components are designed to be damage tolerant, or that there are provisions for containment of failed parts. Also, verify that any potentially uncontained fragments do not damage safety of flight components or critical safety items, or injure personnel. Standard: High-speed rotating components maintain damage tolerance for two times the inspection interval, in the presence of material, manufacturing, processing, and handling defects for the design service life and design usage specified in the model specification. In the absence of damage tolerant design, containment prevents safety of flight components or critical safety items damage due to liberated parts. Method of Compliance: For damage tolerance approach: Inspection of material characterization data validates material properties used in failure mechanics analysis. Component development tests validate thermal and stress models. Design analysis of rotating components verifies adequate strength and fatigue life margins using minimum material properties. The FMECA verifies the control system's ability to prevent overspeed following any single or likely combination of failures. Disk burst and durability testing demonstrate adequate strength and life. Material and component manufacturing processes are validated by inspection. Trajectory and size analysis in an installed configuration verifies that loss of safety critical systems are extremely remote or less in the event of an uncontained failure. For containment approach: Analysis of maximum energy burst verifies containment of fragments and includes assessment of failure modes that may result in axial movement of the rotating group. Containment tests verify containment of hazardous fragments. References: JSSG-2009: Appendix C FAA AC 20-128 FAA TSO-C77: 5.9, 6.6, 6.7, 6.8 14 CFR 23.903(b), 23.1461, 25.901(c), 25.1461",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Damage tolerance and containment",
+      "text": "Standard: High speed rotating components are damage tolerant for minimum of 2X their inspection interval, even in the presence of material, manufacturing, processing, and handling defects for the DSL and design usage specified in the model specification. If design is not damage tolerant, rotating components have provisions in place to contain failed parts, preventing any potential damage to surrounding SCIs, SOF components, and injury to flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of material characterization data validates material properties used in failure mechanics analysis. Analysis.\n  (1) Conduct thermal analysis to verify the impact of worst-case operating temperatures on the material properties on the rotating component.\n  (2) Conduct stress analysis to verify the stress on the critical location on the rotating component.\n  (3) Conduct design analysis of complete operational environment of rotating components to verify burst strength using minimum material properties to set RPM limits.\n  (4) Conduct design analysis of complete operational environment of rotating components to assess minimal LCF life margin using minimum material properties.\n  (5) Conduct a damage tolerance analysis to determine residual FCG life, safe crack growth periods based on inspection intervals to support two inspections during FCG life.\n  (6) Conduct trajectory and size analysis in an installed configuration and environment (e.g., air vehicle vibrations) to verify that probability of loss of safety-critical systems and components is 10-8 or less in the event of an uncontained failure.\n  (7) As an alternative to Analysis MoCs (1-5), conduct an analysis of maximum energy burst (three pieces, 120-degree segments) to verify containment of fragments and includes assessment of the various failure modes that may result in axial movement of the rotating group. Test.\n    (1) Lab test: Conduct component-level testing to verify thermal analysis assumptions.\n    (2) Lab test: Conduct component-level testing to verify stress analysis assumptions.\n    (3) Lab test: Conduct a spin pit test at the component level to verify the component burst strength.\n    (4) Lab test: Conduct an AMT at the APS and emergency power system level to verify that the life of the rotating components is 2X its inspection interval and validates Analysis MoC (4) and Analysis MoC (5). (5) Lab test: As an alternative to Test MoCs (1-4), conduct a maximum energy hub burst test at the worst associated operating temperatures and stresses and at a minimum speed of 105% of the normal overspeed shutdown value to verify analysis and verify containment of hazardous fragments. All fragments stay within rotating component housing or within the secondary containment structure. (6) Lab test: As an alternative to Test MoCs (1-4), conduct a containment test of blade separation at a minimum speed of 105% of the normal overspeed shutdown with the rotor and static structure at the worst associated operating temperatures and stresses to verify analysis and verify containment of hazardous fragments.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

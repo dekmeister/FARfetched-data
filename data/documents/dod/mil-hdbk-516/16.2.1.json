@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "16.2.1",
+  "number": "16.2.1",
+  "current_grouping": "16. MAINTENANCE",
+  "canonical_title": "Preflight and post-flight checklists",
+  "subject_group": "16.2 Inspection requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that ground crew work cards for preflight inspection have been coordinated with the aircrew checklists.",
+      "text": "Verify that ground crew work cards for preflight inspection have been coordinated with the aircrew checklists.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that ground crew work cards for preflight inspection are coordinated with the aircrew checklists.",
+      "text": "Verify that ground crew work cards for preflight inspection are coordinated with the aircrew checklists. DoD/MIL Doc: JSSG-2000: para 3.6.1, 3.6.2 JSSG-2001: para 3.1.5 FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Verify that ground crew work cards for preflight inspection are coordinated with the aircrew checklists.",
+      "text": "Verify that ground crew work cards for preflight inspection are coordinated with the aircrew checklists. DoD/MIL Doc: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 FAA Doc: 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Preflight checklists",
+      "text": "Criterion: Verify that ground crew work cards for preflight inspection are coordinated with the aircrew checklists. Standard: Preflight checklists that are used by the ground crew and the aircrew or operator are consistent and well-coordinated with operators' manuals. Method of Compliance: Preflight checklists are verified by analysis, test and demonstration for consistency of content and continuity between the air and ground crew documentation. References: JSSG-2000: 3.6.1, 3.6.2 JSSG-2001: 3.1.5 MIL-DTL-85025 14 CFR 23.1501, 23.1529",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "16. MAINTENANCE",
+      "title_at_revision": "Preflight and post-flight checklists",
+      "text": "Standard: Preflight checklists used by the ground crew contain steps to prepare and inspect an air vehicle for the first operation of the day, and post-flight checklists used by the ground crew contain steps to service and inspect an air vehicle after the final operation of the day. Preflight and post-flight checklists do not cause AW hazards. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine ground crew and flight crew preflight checklists to ensure hazardous areas are clear prior to execution of preflight procedures.\n(2) Examine ground crew post-flight checklist to ensure installation of protective items and locking devices that should be installed prior to performing maintenance are documented (e.g., covers, plugs, and safety pins).\n(3) Examine ground crew preflight checklist to ensure removal of protective items and locking devices that should be removed prior to operation are documented (e.g., covers, plugs, and safety pins) unless contained in the flight crew or end-of-runway checklists.\n(4) Examine ground crew preflight checklist to ensure security of items that should be secured prior to operation are documented, unless contained in the flight crew checklist.\n(5) Examine ground crew preflight and post-flight checklists to ensure air vehicle configuration equipment requiring additional inspection or servicing tasks are addressed.\n(6) Examine maintenance publications to ensure items that are subject to damage by environmental forces (e.g., wind, rain, or corrosive environments) have inspections documented in the checklist.\n(7) Examine maintenance publications to ensure items that normally require service or verification of service prior to the first operation of the day have inspection or servicing tasks documented in the checklist.\n(8) Examine post-flight checklists to ensure items that are subject to loss of lubricants, fluids, or compressed gases during operation have inspections.\n(9) Examine maintenance publications to ensure items that are subject to damage from impact or foreign objects have inspections documented in the post-flight checklist.\n(10) Examine post-flight checklists to ensure items that require daily inspections have documented inspections.\n(11) Examine the maintenance publications to ensure they include preflight and post-flight checklists derived from the RCM analysis.\n(12) Examine the artifacts that demonstrate contractor certification or contractor validation to ensure the maintenance publications have undergone a quality check for currency and accuracy IAW TO 00-5-3, Contractor Certification Process and Certification Requirements paragraphs for the Air Force; NAVAIR 00-25-604, Contractor Validation Plan and Validation paragraphs for the Navy; and DA PAM 25-40, Validation paragraphs for the Army. Analysis.\n  (1) Conduct analysis to determine if AW hazards exist due to actions being performed simultaneously by flight crew and ground crew while executing their respective preflight procedures.\n  (2) Conduct RCM analysis that meets SAE JA1011 to identify inspection requirements for items that are subject to loss of lubricants, fluids, or compressed gases during operation and for items that require daily inspections. A4A MSG-3 Volume 1 and 2 (previously ATA MSG-3) meet the intent of this MoC. Prior to entering operational test or operations, verify the standard by the following method(s): Demonstration.\n    (1) Perform all air vehicle preflight and post-flight checklist procedures on production-configured hardware using government maintenance personnel to ensure preflight and post-flight checklist procedures do not introduce AW hazards.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

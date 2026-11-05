@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.1.6.3",
+  "number": "10.1.6.3",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Delivery pressure",
+  "subject_group": "10.1.6 Fuel system compatibility",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Delivery pressure",
+      "text": "Standard: Tanker fuel delivery pressure does not exceed 55 psi at any flowrate, from maximum to zero flow, to ensure pressures remain within tanker and receiver design limits for normal and single failure conditions during AR operations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of system specification verifies fuel delivery system is required to deliver fuel to receiver air vehicle at a maximum of 55 psi at all flowrates. Analysis.\n  (1) Analysis of fuel system design and fuel flow simulation verifies fuel delivery pressure will not exceed 55 psi for any flowrate condition. Test.\n    (1) Lab test: Lab test of the AR delivery system to a simulated receiver air vehicle, at all possible delivery flowrates, with and without single failures, verifies fuel delivery pressure does not exceed 55 psi at the receiver interface.\n    (2) Ground test: Ground test of the AR delivery system, including offloading from a tanker air vehicle to a receiver air vehicle or simulated receiver air vehicle, at worst-case delivery flowrates (including single failure conditions) verifies fuel delivery pressure does not exceed 55 psi at the receiver interface. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight testing of worst-case tanker fuel pump configuration (including single failure condition) with receiver air vehicle verifies delivery pressure does not exceed 55 psi.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

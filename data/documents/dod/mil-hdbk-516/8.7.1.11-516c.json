@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.1.11-516c",
+  "number": "8.7.1.11",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Computer system integration",
+  "subject_group": "8.7.1 Aerial refueling operations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Computer system integration",
+      "text": "Criterion: Verify that any aerial refuel system function which is supported by computer systems is compliant with Section 15. Standard: Computer system hardware/software in each aerial refueling system is developed under appropriate processes which take into consideration the safety aspects of the aerial refueling process. The computer hardware/software development process adequately accommodates the criticality of the aerial refueling system function(s) and considers potential hazards to the tanker/receiver aircraft during the aerial refueling process in single/multi-receiver aerial refueling formations. Method of Compliance: See Section 15. References: JSSG-2008 MIL-STD-882 RTCA DO-178 RTCA DO-254",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Computer system integration",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.6",
+  "number": "17.4.6",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Airframe contact",
+  "subject_group": "17.4 Laser integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "17.3.6",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the laser beam cannot contact any part of the airframe and/or rotor system.",
+      "text": "Verify that the laser beam cannot contact any part of the airframe and/or rotor system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "17.3.6",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Airframe contact",
+      "text": "Criterion: Verify that the laser beam cannot unintentionally contact any part of the airframe, rotor system, or payload/stores. Standard: The laser software and/or hardware inhibitor (laser masking) control the laser field of regard so that the beam will not strike any part of the aircraft or any peripherals (i.e., stores, sensors etc.). Laser energy is not reflected back into the eyes of the pilot, operator, crew, or personnel. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, and review of documentation. Verification is accomplished by initial installation tests, SIL testing, ground and flight test, and laser operating procedures. References: MIL-STD-1425 ADS-62-SP ADS-65-HDBK",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Airframe contact",
+      "text": "Standard: The laser system inhibitor, comprising of both software and hardware, controls the laser\u2019s FOR to prevent laser emission from striking any part of the air vehicle or externally mounted equipment (e.g., stores, sensors, pods) IAW MIL-STD-1425, Beam Pointing section. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design (e.g., ICD, specifications, drawings, descriptions, TO) to verify the laser inhibitor software and hardware controls are implemented to prevent laser emission from striking the air vehicle. Analysis.\n  (1) Conduct masking analysis of the air vehicle\u2019s OML for worst-case mission store configurations to identify laser sensor line of sight obstructions. Define masking cutout and warning zones with sensor FOR for azimuth and elevation viewing angles. Create a parametric masking matrix for all mission store configurations. Include laser system pointing errors by expanding cutout zones with worst-case angular margins to ensure full coverage of potential beam deviations. Test.\n    (1) Ground test: Verify masking matrix accuracy, laser cutout zones, and cockpit visual or aural indications. Document discrepancies and update masking profiles as required. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Verify the real-time laser inhibitor triggers and visual or aural indications are provided to the flight crew within designated laser masking sectors during dynamic air vehicle maneuvers. Document discrepancies and update masking profiles as required.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

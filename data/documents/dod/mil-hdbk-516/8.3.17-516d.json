@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.17-516d",
+  "number": "8.3.17",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fuel system center of gravity",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fuel system center of gravity",
+      "text": "Standard: Air vehicle CG is maintained within limits during any fuel system or air vehicle function, including release of stores, AR (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, catapult launches, arrested landings, thermal management, and engine feed. Single crewmember operated air vehicles will maintain CG within limits without action by the crewmember. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify that the flight manual defines operational CG limits and includes any fuel system procedures required to prevent any combination of functions and conditions from exceeding any CG limit. Analysis.\n  (1) Perform analysis of fuel system procedures and air vehicle operations to show that the air vehicle CG is maintained within limits for all functions and operating conditions. Test.\n    (1) Lab test: Conduct lab tests of the fuel system to show that the fuel system performs as required to maintain air vehicle CG within limits for all functions and operating conditions.\n    (2) Ground test: Conduct air vehicle ground tests to verify performance of the fuel system for CG management functions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight test to verify fuel system functions for CG management matches analysis and ground test results.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

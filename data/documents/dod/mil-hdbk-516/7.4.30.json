@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.4.30",
+  "number": "7.4.30",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Extractions",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Extractions",
+      "text": "Standard: The engine supplies extractions (e.g., bleed air, horsepower, electrical power) when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the ICD to verify extraction interfaces are fully defined. Analysis.\n  (1) Analysis verifies the engine extraction demands are supplied. Test.\n    (1) Lab test: Bench and rig testing verifies the engine extraction demands are supplied.\n    (2) Lab test: Engine ground-based sea level and altitude cell testing verifies the engine extraction demands are supplied. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight testing verifies the engine supplied extractions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

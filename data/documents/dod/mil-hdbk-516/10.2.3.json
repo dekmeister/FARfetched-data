@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.2.3",
+  "number": "10.2.2",
+  "current_grouping": "10. DIAGNOSTICS SYSTEMS",
+  "canonical_title": "Diagnostics system safety",
+  "subject_group": "10.2 Operation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "10.2.3",
+      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "title_at_revision": "Verify that measures have been taken to ensure that the diagnostic system itself will not induce undetected failures or otherwise damage the air vehicle.",
+      "text": "Verify that measures have been taken to ensure that the diagnostic system itself will not induce undetected failures or otherwise damage the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "10.2.3",
+      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "title_at_revision": "Verify that measures are taken to ensure the diagnostic system itself does not induce undetected failures or otherwise damage the air vehicle.",
+      "text": "Verify that measures are taken to ensure the diagnostic system itself does not induce undetected failures or otherwise damage the air vehicle. DoD/MIL Doc: JSSG-2000: para 3.3.2 JSSG-2001: para 3.3.7, 3.3.7.1; JSSG-2001 Air vehicle: para 3.3.7 Diagnostics. AFGS 87256 Integrated Diagnostics provides general guidance regarding diagnostics. FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "10.2.3",
+      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "title_at_revision": "Verify that measures are taken to ensure the diagnostic system itself does not induce undetected failures or otherwise damage the air vehicle.",
+      "text": "Verify that measures are taken to ensure the diagnostic system itself does not induce undetected failures or otherwise damage the air vehicle. DoD/MIL Doc: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7, 3.3.7.1 JSSG-2001 Air vehicle: 3.3.7 Diagnostics AFGS 87256 Integrated Diagnostics provides general guidance regarding diagnostics FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "title_at_revision": "Diagnostics system safety",
+      "text": "Criterion: Verify that measures are taken to ensure that the diagnostic system itself does not induce undetected failures or otherwise damage the air vehicle system. Standard: Diagnostic hardware and software are designed to be minimally invasive, and failures of the diagnostic sensors or software do not affect the safe operation of the air vehicle system. Method of Compliance: Fail safe operation of the air vehicle system in response to a diagnostic system failure is verified by a combination of analysis, component, subsystem, and system tests. Diagnostic hardware and software design are verified by inspection of design documentation. Non-permanent diagnostic equipment is verified to be safe. References: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7, 3.3.7.1 14 CFR 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "title_at_revision": "Diagnostics system safety",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

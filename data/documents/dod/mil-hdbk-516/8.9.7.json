@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.7",
+  "number": "8.7.7",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Door pressurization interlock",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.9.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all aircraft doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the aircraft to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "text": "Verify that all aircraft doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the aircraft to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "text": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "text": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4; MIL-87222 Mechanical Systems for Aircraft Doors and Canopies: para 3.1.5.8; 4.1.5.8 (presently in a cancelled status)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.9.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked.",
+      "text": "Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4 MIL-M-87222 Mechanical Systems for Aircraft Doors and Canopies: 3.1.5.8; 4.1.5.8 - inactive for new design",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.7",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Door pressurization interlock",
+      "text": "Criterion: Verify that all air vehicle doors, whose inadvertent opening would present a probable hazard to continued safe flight and landing, have provisions to prevent depressurization (or inadvertent pressurization) of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked. Standard: The door latches cannot be unlocked unless the air vehicle has been depressurized. The latching system incorporates an interlock that senses fuselage air pressure differential to prevent unsafe unlocking. The system also guards against unsafe pressurization before doors are latched and completely locked. Method of Compliance: Verify by analysis and demonstration that the locking system is incapable of unlocking at unsafe pressurization levels. Verify by testing on a full scale test model that a completely assembled lock and latching system will not unlock under unsafe pressurization levels, even when the locking system receives a command to unlock. Demonstration verifies that the system prevents depressurization when all doors are secured and compartments are pressurized. Demonstration verifies that the system prevents pressurization before doors are secured. All probable failure modes are tested on a full scale test article. Testing ensures that the pressurization prevention system will hold the locks in the closed position when the fuselage is pressurized and the locks are energized to open. References: JSSG-2009: (Appendix I) I.3.4.9.1, I.3.4.9.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Door pressurization interlock",
+      "text": "Standard: All air vehicle doors, whose inadvertent opening would present a probable hazard to continued flight and landing, have provisions to prevent depressurization (or inadvertent pressurization) of the air vehicle to an unsafe level if the doors are not fully closed, latched, and locked. The door latches cannot be unlocked unless the air vehicle has been depressurized. The latching system incorporates an interlock that senses fuselage air pressure differential to prevent unlocking. The system also guards against pressurization before doors are latched and completely locked. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to verify that the locking system is incapable of unlocking at unsafe pressurization levels. Demonstration.\n  (1) Conduct a demonstration to verify that the locking system is incapable of unlocking at unsafe pressurization levels. Demonstration verifies that the system prevents depressurization when all doors are secured and compartments are pressurized. Demonstration verifies that the system prevents pressurization before doors are secured. Test.\n    (1) Lab test: Conduct testing on a full scale test model to verify that a completely assembled lock and latching system will not unlock under unsafe pressurization levels, even when the locking system receives a command to unlock.\n    (2) Ground test: All probable failure modes are tested on a full scale test article. Testing ensures that the pressurization prevention system will hold the locks in the closed position when the fuselage is pressurized, and the locks are energized to open.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

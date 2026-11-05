@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.4.9",
+  "number": "7.4.9",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Verify that all engine hydraulic, fuel, or oil components properly operate the variable geometry of the engine.",
+  "subject_group": "7.4 Engine control and accessory systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that all engine hydraulic, fuel, or oil components properly operate the variable geometry of the engine.",
+      "text": "Verify that all engine hydraulic, fuel, or oil components properly operate the variable geometry of the engine. Variable geometry includes airflow path vanes, exhaust nozzles, thrust reversers, and vectored thrust components.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that all engine hydraulic, fuel, or oil components properly operate the variable geometry of the engine.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

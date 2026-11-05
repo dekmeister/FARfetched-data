@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.3",
+  "number": "9.5.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Life support interfaces",
+  "subject_group": "9.5 Life support systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example controls and displays, escape systems, communication, environmental management system (EMS)).",
+      "text": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example controls and displays, escape systems, communication, environmental management system (EMS)).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example, controls and displays, escape systems, communication, environmental management system (EMS)).",
+      "text": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example, controls and displays, escape systems, communication, environmental management system (EMS)). DoD/MIL Doc: JSSG-2010: para 3.6, 4.6, 3.9, 4.9, 3.10, 4.10, 3.13, 4.13; JSSG-2010-9 Personal Protective Equipment Handbook FAA Doc: 14CFR references: 23.1301, 23.1441, 25.1301, 25.1441",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example, controls and displays, escape systems, communication, environmental management system (EMS)).",
+      "text": "Where the life support system must interface with other air vehicle subsystems, verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of those subsystems (for example, controls and displays, escape systems, communication, environmental management system (EMS)). DoD/MIL Doc: JSSG-2010: 3.6, 4.6, 3.9, 4.9, 3.10, 4.10, 3.13, 4.13 JSSG-2010-9 Personal Protective Equipment Handbook FAA Doc: 14CFR references: 23.1301, 23.1441, 25.1301, 25.1441",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Life support interfaces",
+      "text": "Criterion: Verify that the operation of the life support system is not degraded by, and does not degrade, the normal or failure modes of operation of subsystems in which it interfaces (e.g., controls and displays, escape systems, communication, environmental management system (EMS)) Standard: The life support system is designed such that total aircraft and/or control station performance and capability are not compromised and hazards are minimized. Interface with aircraft occupants allows crew members and passengers to properly use the life support equipment and successfully perform other essential flight duties and operations. Design limits are specified for the life support subsystem where there is interface with other aircraft and/or control station subsystems so that proper equipment may be selected and accountability is provided should adjustments to these limits be required. No operational mode of the life support system degrades other aircraft and/or control station systems sufficiently to cause an unsafe condition. No normal or emergency operational mode for aircraft and/or control station subsystems causes a life support system failure or condition that can injure occupants, fail to meet physiological needs, or prevent sustained flight. Method of Compliance: The life support system's interface with other air vehicle subsystems is verified to ensure that the operation of any of the systems interfacing with the life support system does not result in the degradation of the system involved. Verification includes inspection of the hardware components, demonstrations using mock-ups and simulations, on-aircraft and/or control station system check-outs, and/or ground/flight tests. Analysis is used to verify specific aspects of the system where other methods of verification are not appropriate or possible. A Failure Modes Effects and Criticality Analysis (FMECA) also identifies potential failure mode causes, to include those that could be induced by life support system or subsystem operations. References: JSSG-2010: 3.6, 4.6; 3.9, 4.9; 3.10, 4.10; 3.13, 4.13 JSSG-2010-9 14 CFR 23.1301, 23.1441, 25.1301, 25.1441",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Life support interfaces",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

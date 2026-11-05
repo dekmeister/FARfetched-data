@@ -1,0 +1,52 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "18.1.17",
+  "number": "9.2.7",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Communication systems",
+  "subject_group": "9.2 Crew stations, control stations and aircraft interiors",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "18.1.17",
+      "grouping_at_time": "18. PASSENGER SAFETY",
+      "title_at_revision": "Verify that a system exists such that the flight deck can readily communicate with other aircrew.",
+      "text": "Verify that a system exists such that the flight deck can readily communicate with other aircrew.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that a system exists such that the flight deck can readily communicate with other aircrew.",
+      "text": "Verify that a system exists such that the flight deck can readily communicate with other aircrew. DoD/MIL Doc: JSSG-2010-4 FAA Doc: 14CFR references: 121.319",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Communication systems",
+      "text": "Criterion: Verify that a system exists such that the flight deck and/or operator(s) can effectively and efficiently communicate with other personnel, to include other aircrew members; support, launch and recovery personnel; and military and/or civilian airspace controllers. Standard: A means is provided to alert the aircrew in a timely manner and to give time-critical feedback of all events, conditions, and situations which could present a hazard to the safety of the occupants, endanger human life, or cause substantial damage to the aircraft. An intercom system is accessible for immediate use at any crew station and provides two way communication between all crew compartments. The intercom systems are capable of operation independent of any public address system. Method of Compliance: Functionality of communication systems is verified by system demonstration. References: JSSG-2010-4 14 CFR 121.319",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Communication systems",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

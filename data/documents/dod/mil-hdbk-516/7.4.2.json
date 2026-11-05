@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.4.2",
+  "number": "7.4.4",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Fault accommodation",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.4.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that any failure of the controls and accessories will result in a fail-operational and/or fail-safe condition.",
+      "text": "Verify that any failure of the controls and accessories will result in a fail-operational and/or fail-safe condition.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that any failure of the engine controls and associated subsystems results in a fail-operational or fail-safe condition.",
+      "text": "Verify that any failure of the engine controls and associated subsystems results in a fail-operational or fail-safe condition. DoD/MIL Doc: JSSG-2007A: para A.3.7.2/A.4.7.2, control systems guidance. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that any failure of the engine controls and associated subsystems results in a fail-operational or fail-safe condition.",
+      "text": "Verify that any failure of the engine controls and associated subsystems results in a fail-operational or fail-safe condition. DoD/MIL Doc: JSSG-2007A: A.3.7.2/A.4.7.2, control systems guidance. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.4",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Failure modes",
+      "text": "Criterion: Verify that any failure of the engine controls and supporting subsystems results in a fail-operational or fail-safe condition. Standard: Loss of redundancy does not affect control system capability. Failures may be accommodated by the following: a. Fail-operational capability provides full-up engine performance. b. Fail-safe capability allows continued engine operation at a degraded level of performance sufficient to sustain safe air vehicle operation. c. Failure accommodation on multi-engine platforms may include engine shutdown if loss of aircraft does not result. Method of Compliance: Verification methods include analysis, test, and review of documentation. Failure Modes, Effects and Criticality Analysis (FMECA) establishes a list of all known potential failure modes and their associated probabilities. Closed loop and fault injection bench testing ensures the control system can correctly identify and accommodate all known failures that can affect safe operation of the air vehicle. During engine sea level and altitude testing, faults are injected into the control system and the engine responds within specification limits. References: JSSG-2007: A.3.7.2, A.4.7.2 Control systems guidance 14 CFR 33.27, 33.28, 33.91",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Fault accommodation",
+      "text": "Standard: The engine control system fault accommodation detects control system failure(s) that will result in fail-operational, fail-degraded, or fail-safe operation of the engine. After any single failure or combination of failures of the engine control system which have a probability of occurrence greater than 10-7 per flight hour, the engine maintains a level of performance not worse than 7.2.2. For multi-engine (three or more engines) an engine shutdown is permissible if the shutdown does not result in loss of air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., design data records, hardware drawings, system configuration descriptions, FMECA, or other substantiating records and reports) and verify any failure of the engine controls and supporting subsystems results in a fail-operational, fail-degraded, or fail-safe condition. Test.\n  (1) Lab test: Closed loop and fault injection bench testing ensures the engine control system identifies and accommodates faults and failures, and the engine maintains a level of performance not worse than 7.2.2.\n  (2) Lab test: Engine ground-based sea level and altitude cell tests ensure the control system identifies and accommodates faults and failures, and the engine maintains a level of performance not worse than 7.2.2. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Flight testing for degraded engine control modes (e.g., reversionary, backup, engine out) verifies the engine maintains a level of performance not worse than 7.2.2 and that engine control failures do not propagate.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

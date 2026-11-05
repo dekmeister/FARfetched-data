@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.20",
+  "number": "8.8.16",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Accessibility",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.20",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Accessibility",
+      "text": "Criterion: Verify reasonable accessibility to rotor and drive system-related equipment for the performance of required servicing, inspections, and maintenance. Standard: Required installed rotor and drive system servicing, inspections, and maintenance activities can be accomplished by the multivariate maintainer population. Access accommodates the maintainer's anthropometric dimensions and strength limitations, taking into consideration all environmental conditions, and any required mission equipment (e.g., chemical protective gear, gloves). Method of Compliance: Verification methods include analysis, inspection and review of documentation. Inspection of design criteria (to include Interface Control Document data) verifies that required servicing, inspections and maintenance requirements have been established. Analysis of virtual models and/or physical mock-ups verifies accessibility to required servicing, inspection and maintenance areas. Verification of technical manuals (e.g., TOs) demonstrates ability to accomplish and verify required maintenance tasks. Reference: JSSG-2009: Appendix K",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Accessibility",
+      "text": "Standard: The rotary-wing drive systems are designed to allow servicing, inspections, and maintenance activities. Access accommodates the maintenance equipment, maintainer's anthropometric dimensions, strength limitations, and environmental conditions (e.g., chemical protective gear, gloves). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings and system configuration descriptions) to verify the installed drive system accessibility. Analysis.\n  (1) Conduct 3-D modeling (e.g., CAD simulation) and physical mock-ups to verify the installed drive system is accessibility. Demonstration.\n    (1) Conduct ground demonstration to verify accessibility of the installed drive systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

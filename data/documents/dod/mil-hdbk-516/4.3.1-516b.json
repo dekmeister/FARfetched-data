@@ -1,0 +1,41 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.3.1-516b",
+  "number": "4.3.1",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Selection of materials",
+  "subject_group": "4.3 Materials selection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that the material selection process uses validated and consistent material properties data, including design mechanical and physical properties such as material defects, and corrosion and environmental protection requirements.",
+      "text": "Verify that the material selection process uses validated and consistent material properties data, including design mechanical and physical properties such as material defects, and corrosion and environmental protection requirements. (For Navy aircraft, see section 19, Materials) FAA Doc: DOT/FAA/AR-MMPDS-01",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Selection of materials",
+      "text": "Criterion: For Army and Navy air systems, verify that the material selection process uses validated and consistent material properties data, including design mechanical and physical properties such as material defects, and corrosion and environmental protection requirements (see also Section 19, Materials; Section 5, Structures; and Section 7, Propulsion; Section 8, Air Vehicle Subsystems of this document). Standard: Material selection process uses materials covered by an industry specification, government specification (Military or Federal) or other specifications as approved by the procuring agency. Method of Compliance: Inspection of documentation confirms that materials are adequately covered by either: a. An Aerospace Materials Specification (AMS) issued by the SAE Aerospace Materials Division, b. An ASTM standard published by ASTM International (formerly the American Society for Testing and Materials), c. A government (Military or Federal) specification, or d. Other specifications as approved by the procuring agency. If an approved specification for the product is not available, an acceptable draft specification has been prepared. References: JSSG-2001 JSSG-2006 MIL-HDBK-516: Sections 19, 5, 7 and 8 MMPDS-08 CMH-17 ADS-13-HDBK",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Selection of materials",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

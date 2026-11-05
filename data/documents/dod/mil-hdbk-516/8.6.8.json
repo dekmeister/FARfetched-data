@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.8",
+  "number": "8.6.8",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Flammable fluid ingestion and exhaust gas impingement",
+  "subject_group": "8.6 Auxiliary power systems and emergency power systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the inlet and exhaust hazards (i.e., velocities, temperatures, acoustics, exhaust by-products, etc.) to the ground/flight/passenger personnel, air vehicle subsystems, and air vehicle structure are acceptable.",
+      "text": "Verify that the inlet and exhaust hazards (i.e., velocities, temperatures, acoustics, exhaust by-products, etc.) to the ground/flight/passenger personnel, air vehicle subsystems, and air vehicle structure are acceptable.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the inlet and exhaust hazards (i.e., velocities, temperatures, acoustics, exhaust by-products, etc.) to the ground/flight/passenger personnel, air vehicle subsystems, and air vehicle structure are acceptable.",
+      "text": "Verify that the inlet and exhaust hazards (i.e., velocities, temperatures, acoustics, exhaust by-products, etc.) to the ground/flight/passenger personnel, air vehicle subsystems, and air vehicle structure are acceptable. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.11, C.4.4.3.11 FAA Doc: 14CFR reference: 23.1091, 23.1103, 23.1121, 23.1123, 25.1091, 25.1103, 25.1121, 25.1123, TSO C77b: 5.3.1, 5.3.3, 5.6",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Flammable fluid ingestion/exhaust gas impingement",
+      "text": "Criterion: Verify that the inlet and exhaust hazards (i.e., velocities, temperatures, acoustics, exhaust by-products, etc.) to the ground/flight/passenger personnel, air vehicle subsystems, and air vehicle structure are acceptable. Standard: APS/EPS is not susceptible to leakage from flammable fluid lines, fitting, or components entering the inlet air stream. Exhaust gases are transported off the air vehicle. Exhaust plume does not: a. Impinge on aircraft structure or equipment to the extent that maximum temperatures are exceeded. b. Impinge on or mix (except when designed) with any flammable fluid drainage or vapor discharge to the extent that the fluid/vapor auto ignition temperature is achieved or exceeded. c. Impose an unavoidable hazard to flight/ground crew or impede a pre-flight/launch activity. Acoustic emissions do not exceed established levels. Method of Compliance: Inspection of design verifies that leakage from flammable fluid lines, fittings, or components cannot enter the intake air stream. Component and ground tests verify that the exhaust system prevents leakage of exhaust gas into the aircraft. Exhaust plume interaction with structure, fluid/vapor discharge, and flight/passenger/ground crew is validated by inspection of plume and thermal analysis and models. Design analysis verifies there is no plume attachment to the aircraft during in-flight operation. Flight tests validate the design analysis. Ground tests verify acoustical emission levels. Hazards are validated by inspection of system safety documentation. References: JSSG-2009: Appendix C FAA TSO-C77: 5.3.1, 5.3.3, 5.6 14 CFR 23.1091, 23.1103, 23.1121, 23.1123, 25.1091, 25.1103, 25.1121, 25.1123",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Flammable fluid ingestion and exhaust gas impingement",
+      "text": "Standard: APS and emergency power system inlet and exhaust characteristics (e.g., velocities, temperatures, acoustics, and exhaust by-products) do not cause damage to air vehicle subsystems and air vehicle structure. Exhaust plumes (gases) are transported off the air vehicle and do not impinge on air vehicle structure and equipment, such that maximum operating and structural temperatures are exceeded. Exhaust plumes do not impinge on flammable fluids or vapor discharge to the extent that auto ignition temperature limits of fluids or gases are exceeded. APS and emergency power system are not susceptible to leakage from flammable fluid lines, fitting, or components entering the inlet air stream. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of drawings or CAD models to verify that leakage and drainage of flammable fluid lines, fittings, or components cannot enter the intake air stream or exhaust plume of the APS and emergency power system. Analysis.\n  (1) Conduct CFD modeling or analysis of various air vehicles orientations and wind conditions to verify that exhaust gases do not impinge on air vehicle structure or equipment, exceeding structural integrity or maximum operating temperatures.\n  (2) Conduct design analysis or CFD modeling to verify there is no plume attachment to the air vehicle during in flight operation. Test.\n    (1) Ground test: Conduct ground testing to verify exhaust plume does not impinge on air vehicle, causing damage to structure or equipment when operated in various air vehicle orientations and wind directions.\n    (2) Ground test: Conduct ground testing to verify that the exhaust system prevents leakage of exhaust gas into the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight test to verify air vehicle skin temperature limits near exhaust plume are not exceeded and there is no noticeable equipment or structural damage or scarring of air vehicle skin due to plume attachment.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

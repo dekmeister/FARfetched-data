@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.9.6",
+  "number": "6.2.9.6",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Actuator pressure vessel integrity",
+  "subject_group": "6.2.9 Vehicle control function actuators",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Actuator pressure vessel integrity",
+      "text": "Standard: Actuators can withstand impulse pressures of 1.5X the normal pressure and burst pressure of 2.5X the normal pressure. Actuator pressure backlash and hysteresis do not exceed maximum of 1-degree deflection measured at the surface. Actuators internal and external leakage meet the allocation as specified by hydraulic system ICD. Actuator seals are designed to leak-before-burst. Actuators expected life operational cycles have been determined using operational usage profile. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify leak-before-burst design approach. Analysis.\n  (1) Provide actuator backlash and hysteresis analysis to determine maximum surface deflection.\n  (2) Provide analysis for actuator internal and external leakage. Test.\n    (1) Lab test: Conduct actuator impulse pressure testing. Impulse pressure testing is to be done at both fully retracted and fully extended linear actuator position.\n    (2) Lab test: Conduct actuator burst pressure testing.\n    (3) Lab test: Conduct actuator duty cycle testing to verify a minimum of 25% cycles of full life profile. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Lab test: Conduct actuator duty cycle testing to verify full life profile.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

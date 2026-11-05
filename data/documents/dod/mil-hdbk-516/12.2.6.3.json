@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.2.6.3",
+  "number": "12.2.6.3",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Wiring separation",
+  "subject_group": "12.2.6 Sufficiency of electrical wiring interconnect system installation",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that the wiring design and installation procedures maintain positive separation (taking into account movement caused by dynamic G loading, thermal effects and vibration) of wiring from all fluid/gas carrying lines and flight controls.",
+      "text": "Verify that the wiring design and installation procedures maintain positive separation (taking into account movement caused by dynamic G loading, thermal effects and vibration) of wiring from all fluid/gas carrying lines and flight controls.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that the wiring design and installation procedures maintain positive separation of wiring from all fluid or gas carrying lines and flight controls (taking into account movement caused by dynamic G loading, thermal effects and vibration).",
+      "text": "Verify that the wiring design and installation procedures maintain positive separation of wiring from all fluid or gas carrying lines and flight controls (taking into account movement caused by dynamic G loading, thermal effects and vibration). Comm\u2019l Doc: For guidance/principles regarding the fundamentals of sound design for effective separation of wiring from other subsystem components: SAE AS50881 NFPA 70 DoD/MIL Doc: JSSG-2009: para 3.3.8; Appendix B para B.3.4.2.1.17; Appendix H para H.6.4.1; Appendix M para M.6.4.1 for guidance/principles regarding the fundamentals of sound design for effective separation of wiring from other subsystem components",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that the wiring design and installation procedures maintain positive separation of wiring from all fluid or gas carrying lines and flight controls (taking into account movement caused by dynamic G loading, thermal effects and vibration).",
+      "text": "Verify that the wiring design and installation procedures maintain positive separation of wiring from all fluid or gas carrying lines and flight controls (taking into account movement caused by dynamic G loading, thermal effects and vibration). Comm\u2019l Doc: For guidance/principles regarding the fundamentals of sound design for effective separation of wiring from other subsystem components: SAE AS50881 NFPA 70 DoD/MIL Doc: JSSG-2009: 3.3.8; Appendix B B.3.4.2.1.17; Appendix H H.6.4.1; Appendix M M.6.4.1 for guidance/principles regarding the fundamentals of sound design for effective separation of wiring from other subsystem components",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Wiring separation",
+      "text": "Criterion: Verify that the wiring design and installation procedures maintain positive separation of wiring from all fluid or gas carrying lines, flight controls or other mechanical controls, and heat sources (taking into account movement caused by dynamic G loading, thermal effects and vibration); and that electrical power wiring is routed separately from flight control and avionics wiring. Standard: Wire installation complies with good design practice, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including drawings, documents, FMECA and assembled product verify that positive wiring separation is maintained. References: For guidance/principles regarding the fundamentals of sound design for effective separation of wiring from other subsystem components: JSSG-2009: 3.3.8; B.3.4.2.1.17; H.6.3.1; M.6.3.1 SAE AS50881 NFPA 70 TM 55-1500-323-24 (Army only)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Wiring separation",
+      "text": "Standard: The wiring design and installation procedures maintain positive separation of new or impacted existing wiring from fluid or gas carrying lines, flight controls and other mechanical systems, high temperature equipment, and equipment and structural hardpoints IAW SAE AS50881, Wiring Installation paragraphs and Protection and Support paragraphs. Positive separation considers movement caused by dynamic G loading, thermal effect, and vibration. Electrical power wiring is routed separately from sensitive circuits, unprotected and multiple source wiring, and essential equipment wiring IAW SAE AS50881, Wiring Installation paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) A wiring design documentation (e.g., schematics, drawings, and models) review verifies wiring maintains positive separation from fluid or gas carrying lines throughout the installation.\n(2) A wiring design documentation (e.g., schematics, drawings, and models) review verifies wiring maintains positive separation from flight controls and other mechanical systems throughout the installation.\n(3) A wiring design documentation (e.g., schematics, drawings, and models) review verifies wiring maintains positive separation from high temperature equipment throughout the installation.\n(4) A wiring design documentation (e.g., schematics, drawings, and models) review verifies wiring maintains positive separation from equipment and structural hardpoints throughout the installation.\n(5) A wiring design documentation (e.g., schematics, drawings, and models) review verifies electrical power wiring is routed separately from sensitive circuits throughout the installation.\n(6) A wiring design documentation (e.g., schematics, drawings, and models) review verifies electrical power wiring is routed separately from unprotected and multiple source wiring throughout the installation.\n(7) A wiring design documentation (e.g., schematics, drawings, and models) review verifies electrical power wiring is routed separately from essential equipment wiring throughout the installation.\n(8) A physical installation examination through the means of a first article inspection, verification, or quality assurance review verifies wiring installation IAW SAE AS50881, Wiring Installation paragraphs and Protection and Support paragraphs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

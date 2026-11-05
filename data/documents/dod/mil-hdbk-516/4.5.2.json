@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.5.2",
+  "number": "4.5.2",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Technical data",
+  "subject_group": "4.5 Operator\u2019s and maintenance manual/technical orders",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that the technical data reflect the defined functional and product baseline.",
+      "text": "Verify that the technical data reflect the defined functional and product baseline.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Verify that processes are in place to identify and document the technical data, and that the technical data reflects the defined functional and product baseline.",
+      "text": "Verify that processes are in place to identify and document the technical data, and that the technical data reflects the defined functional and product baseline. DoD/MIL Doc: MIL-STD-38784, Standard Practice for Manuals, Technical: General Style and Format Requirements. FAA Doc: 14CFR reference: 23.21, 25.21, 23.601, 25.601, 23.1301, 25.1301",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Technical data",
+      "text": "Criterion: Verify that processes are in place to identify and document the technical data, and that the technical data are consistent with the defined functional and product baseline. Standard: Process is defined, documented and implemented to establish and update product requirement, design, manufacturing, and maintenance data, which are used to generate technical manuals (e.g., flight manuals, operator's handbooks, maintenance manuals). Maximum timelines to accomplish updates are consistent with the criticality of the change activity (e.g., an identified safety hazard, or a \"performance based\" change having a safety effect). Method of Compliance: The adequacy of establishment and change processes for technical data is verified by inspection of process documentation. Inspection of examples of revised design or maintenance data verifies traceability to change events. References: MIL-STD-38784 14 CFR 23.21, 23.601, 23.1301, 25.21, 25.601, 25.1301",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Technical data",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.34",
+  "number": "6.1.11.34",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Vertical axis control power",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Vertical axis control power",
+      "text": "Standard: From an inertially stable out of ground effect hover with the wind from the most critical direction at a velocity of up to 35 kts, in the most critical air vehicle loading, at the most critical density altitude, the air vehicle achieves a minimum vertical climb rate of 55 ft/min in not more than 1.5 seconds, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the vertical axis control power as specified in as specified in MIL- DTL-32742, Vertical Axis Control Power paragraph for each air vehicle configuration within the SFE. Collective inputs need only be in the upward direction as this standard is an assessment of climb rate only. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the vertical axis control power as specified in as specified in MIL-DTL-32742, Vertical Axis Control Power paragraph for each air vehicle configuration within the SFE. Collective inputs need only be in the upward direction as this standard is an assessment of climb rate only. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the vertical axis control power as specified in as specified in MIL-DTL-32742, Vertical Axis Control Power paragraph for selected combinations of air vehicle configuration within the SFE. Collective inputs need only be in the upward direction as this standard is an assessment of climb rate only.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.12.1",
+  "number": "8.3.12",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Explosive atmosphere",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.12.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the fuel system has been designed and arranged to prevent the ignition of fuel vapor within the system.",
+      "text": "Verify that the fuel system has been designed and arranged to prevent the ignition of fuel vapor within the system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.12.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the fuel system is designed and arranged to prevent the ignition of fuel vapor within the system.",
+      "text": "Verify that the fuel system is designed and arranged to prevent the ignition of fuel vapor within the system. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.9, E.4.4.5.1.9, E3.4.5.1.11 & E4.4.5.1.11; Appendix G: 3.4.7, G4.4.7 FAA Doc: 14CFR references: 23.954, 23.975, 25.954, 25.975, 25.981 AC 20-53A, AC 20-136, AC 25-16, AC 25.981-1B, AC 25.981-2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.3.12.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the fuel system is designed and arranged to prevent the ignition of fuel vapor within the system.",
+      "text": "Verify that the fuel system is designed and arranged to prevent the ignition of fuel vapor within the system. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.9, E.4.4.5.1.9, E3.4.5.1.11 & E4.4.5.1.11; Appendix G: 3.4.7, G4.4.7 FAA Doc: 14CFR references: 23.954, 23.975, 25.954, 25.975, 25.981 AC 20-53A, AC 25-16, AC 25.981-1B, AC 25.981-2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.3.13.1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Explosive atmosphere",
+      "text": "Criterion: Verify that the fuel system is designed and arranged to prevent the ignition of fuel vapor within the system. Standard: All fuel subsystem components located in an explosive atmosphere are capable of operating without initiating an explosion, including under electrical fault conditions. All components inside of a fuel tank have energy levels low enough to prevent an ignition source, prevent introduction of an ignition source through the wiring or components, or are qualified as explosion proof in accordance with MIL-STD-810. Method of Compliance: A System Safety Hazard Analysis verifies the ability of the fuel systems components to operate, including single failure conditions, in flammable vapor-laden environments. Analyses and ground tests demonstrate that fuel tank surface temperatures do not exceed the auto-ignition temperature of the fuel. On-aircraft fuel system component bonding measurements demonstrate compliance with bonding requirements. Component explosive atmosphere tests verify the ability of the fuel system components to operate safely in a flammable vapor-laden environment. References: JSSG-2009: E.3.4.5.1.9, E.4.4.5.1.9; E.3.4.5.1.11, E.4.4.5.1.11 JSSG-2009: G.3.4.7, G.4.4.7 MIL-STD-810 SAE ARP5794 (at the time of publication of this document, this was a work in progress) SAE ARP8615 14CFR 23.954, 23.975, 25.954, 25.975, 25.981, 27.954, 27.975, 29.954, 29.975 AC 20-53A AC 20-136 AC 25-16 AC 25.981-1B AC 25.981-2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Explosive atmosphere",
+      "text": "Standard: The fuel system is designed and arranged to prevent the ignition of fuel or fuel vapors within the systems. Fuel system components are explosive atmosphere qualified for the category of fire hazard zone they reside in, and operate without creating a fire or explosion hazard, including single failure conditions. Components inside fuel tanks are intrinsically safe (power levels too low to be ignition sources, low surface temps, and hermetically sealed) including failure conditions or will be qualified as explosion proof. Fuel pumps are not ignition sources in failure or run-dry conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation to verify all air vehicle compartments containing fuel components are properly zoned.\n(2) Review of fuel system components installations verifies components are properly bonded and grounded. Analysis.\n  (1) Conduct a thermal analysis to show all fuel system surfaces do not exceed auto-ignition temperatures.\n  (2) Conduct thermal, containment, and ignition energy analysis of fuel system components to show them to be intrinsically safe.\n  (3) Conduct failure analysis of components to show they will not become ignition sources during single failure conditions, including electrical faults. Test.\n    (1) Lab test: Conduct explosive atmosphere testing IAW MIL-STD-810, Method 511 Explosive Atmosphere that shows fuel system components are explosive atmosphere qualified for the zone they are located in.\n    (2) Ground test: Conduct ground testing that shows fuel system bonding and grounding measurements meet design requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

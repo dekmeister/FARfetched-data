@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.4.10",
+  "number": "6.1.4.10",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Store separation",
+  "subject_group": "6.1.4 Fixed-wing general flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Store separation",
+      "text": "Standard: The intentional release or ejection of any stores does not result in dangerous flight characteristics or flying qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess store separation characteristics as specified in MIL-STD-1797, Release of Stores paragraph for all store loadout configurations, to include retained stores due to failures (e.g., missile hang fire, hung stores), for each combination of store release conditions, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct wind tunnel and piloted simulations and evaluations to assess the aerodynamic changes and handling qualities during a store separation event for all store loadout configurations for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n  (2) Conduct analysis of flight test data to assess the impact on flying qualities due to worse case lateral asymmetry, to include effects due to hung stores or missile hang fires. Test.\n(2) Flight test: Conduct flight test to assess the aerodynamic changes and handling qualities during a store separation event for all store loadout configurations for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Flight test data shows that worst-case lateral asymmetry, to include effects due to hung stores or missile hang fires, do not degrade flying qualities, induce departure from sustained flight, or prevent recovery of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

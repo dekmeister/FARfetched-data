@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.3.2",
+  "number": "11.5.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Standard for flight manuals",
+  "subject_group": "11.5 Technical manuals",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "11.3.2",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations.",
+      "text": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "11.3.2",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations.",
+      "text": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations. DoD/MIL Doc: JSSG -2005: para 3.2.2, 4.2.2 FAA Doc: 14CFR reference 23.1501, 25.1501. AC 27-1B, Subpart G, Certification of Normal Category Rotorcraft AC 29-2C, Certification of Transport Category Rotorcraft",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "11.3.2",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations.",
+      "text": "Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations. DoD/MIL Doc: JSSG -2005: 3.2.2, 4.2.2 FAA Doc: 14CFR reference 23.1501, 25.1501 AC 27-1B, Subpart G, Certification of Normal Category Rotorcraft AC 29-2C, Certification of Transport Category Rotorcraft",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "11.3.2",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Necessary limitations",
+      "text": "Criterion: Verify that flight manual and maintenance manual limits are adequate to conduct safe flight, including emergency operations. Standard: Flight and maintenance manuals contain all necessary limits to ensure safe flight including all limitations established as a result of all other airworthiness criteria assessments. All emergency operations are documented. Method of Compliance: All manuals have undergone a quality assurance review by the contractor and are verified by the government. An independent group of pilots, operators and maintenance experts conduct reviews of all flight and maintenance manuals to ensure all limitations and emergency operations are clearly identified and easily understood. References: JSSG-2005: 3.2.2, 4.2.2 MIL-HDBK-516: 4, 16 MIL-PRF-63029 14 CFR 23.1501, 25.1501, 27.1501, 29.1501 FAA AC 27-1: Subpart G FAA AC 29-2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Standard for flight manuals",
+      "text": "Standard: The flight manual contains the engineering data to ensure diagnostic systems address SOF parameters. Flight manuals contain all required avionics limits to ensure flight operations, including all limitations established as a result of all other avionics systems AW criteria assessments. All avionics related emergency operations are documented. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review specifications for SCFs and SCIs. For COTS and GOTS systems, review the original equipment design and specifications.\n(2) Review design documentation, operational manual, and supplemental data documentation to identify SCFs and SCIs. Analysis.\n  (1) Review FMECA, SHA, FMEA, and FMET to analyze the critical functional failure modes and to demonstrate linkage to WCAs.\n  (2) Analysis of the flight manual provides the accurate and complete output of the diagnostics systems to the flight crew, shows failures reported are linked to WCAs, and details the corrective actions the flight crew have to take and any options they may have.\n  (3) Analysis of the flight manual verifies that all required SOF avionics limits are included. Test.\n    (1) Ground or Lab test: When conducting the operations of SCFs and items, verify and demonstrate the accuracy and completeness of the flight manual. Conduct the operation of the normal and emergency procedures per specified program requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: When conducting the operations of SCFs and items, verify and demonstrate the accuracy and completeness of the flight manual. Conduct the operation of the normal and emergency procedures per specified program requirements.\n    (3) Flight test: Analyze all incidents, hazards, or mishaps related to flight operations that result from flight test to ensure AW avionics hazards requiring flight crew awareness or action to mitigate have procedures, and WCAs included in the flight manual.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.2.2",
+  "number": "17.2.2.2",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Store life cycle environmental profile",
+  "subject_group": "17.2.2 Induced environments",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Store life cycle environmental profile",
+      "text": "Standard: Stores are qualified to all operating conditions for the specific air vehicle application and store environments for the intended operational service life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify through analysis that the life cycle environmental profile of the store or equivalent stockpile-to-target sequence contains coverage of the air vehicle usage environment to include temperature, humidity, and altitude as well as environmental operating conditions that impact the serviceability of the store while installed on the air system (e.g., maritime, corrosion, erosion, and ablation).\n(2) Verify through comparison on basis of similarity to previously qualified stores that the store is capable of safe carriage and operation in the usage environment. Test.\n  (1) Lab test: Verify through environmental qualification test that the store is capable of safe carriage and operation in all usage environments. Test is accomplished IAW, but not limited to, applicable MIL-STD-810, Temperature, Humidity, Vibration and Altitude, Climatic Category, Salt Fog, Sand and Dust, and Acidic Atmosphere sections tailored to the air vehicle environmental profile.\n  (2) Ground or Lab test: Conduct test to measure the thermal environment created through store operations (e.g., gunfire operations, dispensing of countermeasures, rail launched rocket motors) as applicable to the specific air vehicle usage environment. Update analysis to include thermal environment measured through lab and ground testing. The tailored environments may also be measured through flight test with an IMV. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n    (1) Verify through examination that all environmental qualification data supports the intended operating life in all operating environments.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

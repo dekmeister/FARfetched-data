@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.1",
+  "number": "15.1.3",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "System processing architecture redundancy",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.1.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the flight-essential configurations have been identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities.",
+      "text": "Verify that the flight-essential configurations have been identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.1.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the flight-essential configurations are identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities.",
+      "text": "Verify that the flight-essential configurations are identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities. Comm\u2019l Doc: RTCA DO-178B, RTCA DO-254 DoD/MIL Doc: JSSG-2008: para 3.1.12, 3.3.1; JSSG-2008 Appendix A: 3.1.7, 3.1.12, 3.3.1 for further guidance concerning redundancy, system and processing architectures. MIL-STD 882D, sections 4.2, 4.7, 4.8 for further guidance concerning identification, review and tracking of safety hazards to establish program safety definitions. JSSG-2008 Appendix A: 3.1.2.1 for establishing safety criticality along with CNS/ATM safety performance references in the ESC developed Generic Performance Matrices (10E-5 to 10E-7 hazard rates depending on flight phase). FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.1.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that the flight-essential configurations are identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities.",
+      "text": "Verify that the flight-essential configurations are identified and proper levels of redundancy (hardware and software) exist at the system level to preclude loss of critical processing capabilities. Comm\u2019l Doc: RTCA DO-178B, RTCA DO-254 DoD/MIL Doc: JSSG-2008: 3.1.12, 3.3.1 JSSG-2008 Appendix A: 3.1.7, 3.1.12, 3.3.1 for further guidance concerning redundancy, system and processing architectures MIL-STD 882D, sections 4.2, 4.7, 4.8 for further guidance concerning identification, review and tracking of safety hazards to establish program safety definitions JSSG-2008 Appendix A: 3.1.2.1 for establishing safety criticality along with CNS/ATM safety performance references in the ESC developed Generic Performance Matrices (10E-5 to 10E-7 hazard rates depending on flight phase) FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "SPA redundancy",
+      "text": "Criterion: Verify that the SPA employs redundancy to preclude the loss of safety critical processing in the event of a single failure or data channel loss and supports fault tolerance requirements. Standard: The SPA has employed redundancy and fault tolerance to preclude the loss of SCFs due to the occurrence of single point failures or data channel loss. The SPA does not contain any components (e.g., digital hardware, interfaces, software components/modules, and operating system/executive) whose failures defeat the redundancy mechanization. Method of Compliance: Verification methods include analysis and testing of the SPA. Verify through analysis and testing, including Failure Modes and Effects Test (FMET), that a single point failure does not result in the loss of SCF. Verify techniques such as the following are employed to preclude the existence of single point failures: voting schemes, Cross Channel Data Links (CCDL) mechanization, data bus management, and input/output signal management approach. Verify that the SPA fault tolerance and redundancy management mechanization is capable of handling all single failures. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.1.b & e) 3.1.9; 3.1.11; 3.1.12; 3.3.1 for further guidance concerning redundancy, system and processing architectures MIL-STD-882: 4.3.4 of MIL-STD-882E, risk mitigation through design choices; Task 208.2.1.h (see also MIL-STD-882D - A.4.3.3.1.1.a Unacceptable Conditions; A.4.4.6.1 Testing for a Safe Design) DoD JSSSEH: C.8.4 Safety Tools & Training; E.6.2 Memory Checks - address identifying single point failures USAF Weapon Systems Software Management Guidebook: 3.8; G.2.3; G.2.6; G.3.1 NASA-STD-8739.8: 7.3.1 FAA CAST-24: 2.1 safe flight after single failure IEEE Std 1220-2005: 6.5.12 assess failure modes, effects, and criticality FAA AC 20-156: Aviation Databus Assurance FAA AC 23.1309-1E: 17.c.4 FMEA may be necessary to determine functional redundancy; 17.d.3 failure conditions FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.1.3; A.3.1 redundancy, error-correcting memory, voting",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "System processing architecture redundancy",
+      "text": "Standard: 1. Verify that the SPA has employed redundancy and fault tolerance to preclude the loss of SCFs due to the occurrence of single point failures or data channel loss. Fault tolerant requirements for the SPA have been identified and documented. The SPA does not contain any items (e.g., digital hardware, interfaces, software components/modules, and operating system) whose failures defeat the redundancy mechanization. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and testing of the SPA. Verify through analysis and testing, including FMET, that a single point failure does not result in the loss of SCF. Verify techniques such as the following are employed to preclude the existence of single point failures: voting schemes, cross channel data link mechanization, data bus management, and I/O signal management approach. Verify that the SPA fault tolerance and redundancy management mechanization is capable of handling all single failures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

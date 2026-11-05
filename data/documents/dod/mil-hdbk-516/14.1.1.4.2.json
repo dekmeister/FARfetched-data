@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.1.1.4.2",
+  "number": "4.4.5",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Foreign object damage prevention",
+  "subject_group": "4.4 System safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "14.1.1.4.2",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Foreign Object Damage (FOD) prevention",
+      "text": "Criterion: Verify that the system safety program addresses ground/industrial safety (foreign object damage prevention). Standard: Ground/Industrial safety requirements are established for activities at the plant to minimize the risk of Foreign Object Damage (FOD) or undetected damage to the assembled air vehicle and all required support equipment. Method of Compliance: Verification method includes inspection of documentation. Evidence of an established FOD prevention program is verified by review of FOD program documents and inspection of reports, or on-site certification by the Defense Contract Management Agency (DCMA) that an acceptable FOD program exists. References: MIL-STD-882 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Foreign object damage prevention",
+      "text": "Standard: The air system and peculiar support equipment will not result in FOD (to include FOD from system or subsystem components) that can be introduced into safety-critical systems and subsystems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation for the air system and peculiar support equipment (e.g., fabrication, manufacturing, assembly and installation drawings); and operating documentation (e.g., flight and maintenance manuals) to ensure design does not allow FOD introduction that could affect safety-critical systems.\n(2) Review design documentation of safety-critical systems to verify the systems incorporate FOD free design considerations, IAW NAS412, Product Design Considerations section.\n(3) Review design documentation to verify the design allows for FOD inspections of safety-critical systems, subsystems, and openings, compartments or cavities as described in NAS412, Product Design Considerations section.\n(4) Review FOD inspection results documentation to ensure that none of the FOD found is a result of system design or improper product design considerations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

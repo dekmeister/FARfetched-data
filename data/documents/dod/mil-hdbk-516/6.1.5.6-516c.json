@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.5.6-516c",
+  "number": "6.1.4.15",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Pilot-in-the-loop oscillations",
+  "subject_group": "6.1.4 Fixed-wing general flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.5.6",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pilot-in-the-loop oscillations",
+      "text": "Criterion: Verify that there are no pilot-in-the-loop-oscillations (PIO) tendencies. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.1.6 Pilot-in-the-loop oscillations. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.1.16 Pilot-induced oscillations. For unmanned air vehicles, pilot/system-induced oscillations do not interfere with the operation of the aircraft or accomplishment of mission tasks. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pilot-in-the-loop oscillations",
+      "text": "Standard: In any axis or in a combination of axes, there is no tendency for sustained or uncontrollable unintentional oscillations, in which the air vehicle attitude, angular rate, acceleration, or other quantity derived from these states, is approximately 180 degrees out of phase with the pilot's or control system's commands. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the frequency response as specified in MIL-STD- 1797, Pilot-in-the-loop Oscillations paragraph, Pitch PIOs paragraph, and Roll PIO paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation and perform operationally representative, high gain and bandwidth, closed-loop handling qualities tasks to assess PIO tendency as specified in MIL-STD-1797, Pilot-in-the-loop Oscillations paragraph, Pitch PIOs paragraph, and Roll PIO paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. This evaluation requires at least three developmental test pilots with various piloting techniques (e.g., high and low gain pilot bandwidth control and input frequency and amplitude). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess PIO tendency as specified in MIL-STD-1797, Pilot-in-the-loop Oscillations paragraph, Pitch PIOs paragraph, and Roll PIO paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. This evaluation requires at least three developmental test pilots with various piloting techniques (e.g., high and low gain pilot bandwidth control and input frequency and amplitude).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

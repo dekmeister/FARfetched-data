@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.1.9",
+  "number": "7.4.8",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Cooling and thermal management",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.9",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that engine cooling and thermal management systems safely remove excess heat from the engine and its subsystems (see 8.2.16).",
+      "text": "Verify that engine cooling and thermal management systems safely remove excess heat from the engine and its subsystems (see 8.2.16). DoD/MIL Doc: JSSG-2007A: para A.3.2.2.13/A.4.2.2.13. FAA Doc: 14CFR references: 27.1121",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.9",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that engine cooling and thermal management systems safely remove excess heat from the engine and its subsystems (see 8.2.16).",
+      "text": "Verify that engine cooling and thermal management systems safely remove excess heat from the engine and its subsystems (see 8.2.16). DoD/MIL Doc: JSSG-2007A: A.3.2.2.13/A.4.2.2.13 FAA Doc: 14CFR references: 27.1121",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.9",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Cooling and thermal management",
+      "text": "Criterion: Verify that engine cooling and thermal management systems safely remove excess heat from the engine and its subsystems and integrate with the air vehicle thermal management system, if applicable (see 8.2.15, this document). Standard: Cooling and thermal management systems function properly during ground and flight operation, under all atmospheric conditions and for all flight conditions/attitudes in the air vehicle operating envelope. Cooling and thermal management systems are properly sized to remove heat from those components (e.g., electronic controls, sensors, lubrication system) which could become damaged or operate erratically when exposed to excessive thermal loads. Engine and air vehicle cooling and thermal management systems function together, to ensure adequate thermal load dissipation for the entire air vehicle, including post-shutdown conditions such as engine soakback. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis and modeling of engine components determine their thermal loading and heat rejection characteristics. Results from this analysis and modeling are used to verify the engine components' ability to continue operation when exposed to engine induced thermal loads. Analysis and modeling of the combined air vehicle and engine thermal management systems ensures there are no conditions that result in exceedance of established loss of aircraft (LOA) rates. Engine testing is used to validate the results of thermal modeling and analyses. Aircraft installation surveys are performed to verify that component maximum operating temperatures and maximum non-operating temperatures are not exceeded. References: JSSG-2007: A.3.2.2.13, A.4.2.2.13; A.3.7.3.3, A.4.7.3.3 14 CFR 27.1121",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Cooling and thermal management",
+      "text": "Standard: Cooling and thermal management systems are sized to remove excess heat from the engine and subsystems (e.g., electronic controls, sensors, lubrication system). Cooling and thermal management systems function without exceeding defined engine operating limits and without detrimental permanent deformation or damage when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Engine and air vehicle cooling and thermal management systems are integrated and function together to ensure thermal load dissipation for the entire air vehicle, to include post-shutdown conditions such as engine soak back. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, design data records, inspection reports, ICD, or other substantiating records and reports) to verify design of the engine cooling and thermal management systems. Analysis.\n  (1) Analysis and modeling of engine components is accomplished to determine their thermal loading and heat rejection characteristics. Results are used to verify the engine components' ability to ensure thermal management systems are properly sized and integrated. Test.\n    (1) Lab test: Engine ground-based sea level and altitude cell testing are used to verify thermal management system functions and capability. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing is used to verify thermal management system functions and capability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

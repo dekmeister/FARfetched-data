@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.7.4.2",
+  "number": "8.7.4.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Functional modes",
+  "subject_group": "8.7.4 Design and performance requirements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that critical operational functions and functional modes have been provided in the aerial refueling system that ensure the aerial refueling process can be conducted safely.",
+      "text": "Verify that critical operational functions and functional modes have been provided in the aerial refueling system that ensure the aerial refueling process can be conducted safely.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that critical operational functions and functional modes are provided in the aerial refueling system to ensure the aerial refueling process can be conducted safely.",
+      "text": "Verify that critical operational functions and functional modes are provided in the aerial refueling system to ensure the aerial refueling process can be conducted safely. DoD/MIL Doc: JSSG-2009 Appendix F: F.3.4.6.2.2.7, F.4.4.6.2.2.7, F.3.4.6.2.3.1.2, F.4.4.6.2.3.1.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Functional modes",
+      "text": "Criterion: Verify that critical operational functions and functional modes are adequately provided in the aerial refueling system to ensure that the aerial refueling process can be conducted safely. Standard: Critical operational functions and functional modes are provided in the aerial refueling system to conduct the aerial refueling process without causing loss of aircraft or creating hazards to personnel. RECEIVERS: a. Receptacle subsystems have, as a minimum, the operational function of DISCONNECT (initiates a disconnect from the boom subsystem), a RESET function (changes receptacle system from DISCONNECT status to READY status), the operational modes of NORMAL/OVERRIDE (signal amplifier modes), a \"PRE-CHECK\" function (verifies operation of refuel valves), a \u201cthrough the boom\u201d communication capability, the capability to transition the receptacle from its open/close positions, and a reverse aerial refueling capability (if applicable). b. Probe subsystems have, as a minimum, probe extension/retraction function (if applicable) and a \"PRE-CHECK\" function (verifies functionality of refuel valves). TANKERS: a. Boom subsystems have, as a minimum, fuel transfer control, fuel pressure regulation, boom control, tanker internal fuel management (including unique fuel isolation, if applicable), manual/automatic DISCONNECT function, a \u201cthrough the boom\u201d communication capability, load alleviation capability, independent disconnect capability, aircrew/operator viewing capability (if applicable), capability to transition the boom from stowed/deployed positions and a reverse aerial refueling capability (if applicable). b. Drogue subsystems have, as a minimum, fuel transfer control, fuel pressure regulation, hose extension/retraction function, hose response capability, tanker internal fuel management (including unique fuel isolation), hose jettison capability, aircrew/operator viewing capability (if applicable), and pod jettison capability (if applicable). Method of Compliance: Verification methods include analysis, demonstration and review of documentation. Analysis of technical data verifies that functional modes have been provided. Ground and flight demonstrations verify that the functional modes permit aerial refueling to be conducted without causing loss of aircraft or creating hazards to personnel. References: JSSG-2009: F.3.4.6.2.2.7, F.4.4.6.2.2.7; F.3.4.6.2.3.1.2, F.4.4.6.2.3.1.2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Functional modes",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

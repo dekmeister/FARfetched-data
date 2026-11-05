@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.14.1",
+  "number": "8.5.14.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Towing to taxi air vehicle",
+  "subject_group": "8.5.14 Ground handling",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Towing to taxi air vehicle",
+      "text": "Standard: The landing gear system allows towing of the air vehicle at all mission weights, in all directions, and on all operational surfaces. The airframe and landing gear system accommodates connection to tow vehicles or tow bars. Towing procedures (including failures of towbar/fuse pins or towing device) and landing gear design features (e.g., torque arm disconnects) prevent damage to air vehicle and controls air vehicle movement. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review landing gear drawings to verify that any towing limitations are identified on landing gear (e.g., maximum tow angle).\n(2) Review braking schematics to verify air vehicle brakes can be applied in the event of towbar failure.\n(3) Review maintenance procedures to verify towing procedures (e.g., speeds, turning angles, and braking techniques) and limitations are documented to prevent possible landing gear overloading or loss of control of air vehicle. Analysis.\n  (1) Conduct load analysis to determine maximum tow loads due to tow bar interface tolerances, braking inputs, and tow speeds.\n  (2) Conduct sizing analysis to verify there is sufficient internal power to apply the air vehicle brakes to stop the air vehicle for towing emergencies. Demonstration.\n    (1) Conduct air vehicle demonstration to verify emergency tow brake function operation.\n    (2) Conduct ground testing to verify towing compatibility with towing equipment and loads do not exceed landing gear design limits.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

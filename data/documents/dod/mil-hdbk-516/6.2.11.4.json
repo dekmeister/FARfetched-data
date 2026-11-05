@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.11.4",
+  "number": "6.2.11.4",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Uncertainties",
+  "subject_group": "6.2.11 Vehicle control function control law safety",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Uncertainties",
+      "text": "Standard: Anticipated uncertainty in the following do not degrade the VCF below Operational State III: a. Aerodynamic parameters, including control surface effectiveness and stability derivatives. b. Air data parameters. c. Mass properties, including misfires and hung stores. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to identify sources and extent of uncertainties in aerodynamic parameters, air data parameters, and mass properties.\n(2) Conduct sensitivity analysis of the identified aerodynamic parameters, air data parameters, and mass properties uncertainties, including offline simulation. Test.\n  (1) Lab test: Based upon sensitivity analysis results, conduct PITL simulation using identified sources of critical aerodynamic parameter, air data parameter, and mass properties variation to verify anticipated uncertainty does not degrade the VCF below Operational State III.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

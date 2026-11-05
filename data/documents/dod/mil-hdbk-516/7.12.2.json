@@ -1,0 +1,73 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.12.2",
+  "number": "7.3.1.2",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Critical speeds",
+  "subject_group": "7.3.1 Propeller driven systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.12.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate technical orders.",
+      "text": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate technical orders.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "7.12.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance manuals (T.O.'s).",
+      "text": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance manuals (T.O.'s).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance technical manuals (T.O.'s).",
+      "text": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance technical manuals (T.O.'s). DoD/MIL Doc: JSSG-2009: para L.3.4.12/L.4.4.12 and L.3.4.12.6/L.4.4.12.6, propeller vibration and flutter criteria and compliance methods. FAA Doc: 14CFR references: 33.43, 33.83, 33.63",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance technical manuals (T.O.'s).",
+      "text": "Verify that any critical propeller speeds (e.g., speeds that excite resonant frequencies and cause detrimental blade stresses) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance technical manuals (T.O.'s). DoD/MIL Doc: JSSG-2009: L.3.4.12/L.4.4.12 and L.3.4.12.6/L.4.4.12.6, propeller vibration and flutter criteria and compliance methods FAA Doc: 14CFR references: 33.43, 33.83, 33.63",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Critical speeds",
+      "text": "Criterion: Verify that any critical speeds of the propeller system (e.g., speeds that can excite resonant frequencies and can cause detrimental stresses to propeller components) are outside the engine operating range or identified limitations are placed in the appropriate operators and maintenance technical manuals. Standard: The propeller system is free of destructive vibrations at all steady state and transient operating conditions and is capable of being balanced to remove vibration that could cause equipment to operate below specified requirements or cause excessive crew discomfort. The propeller is free from flutter in both forward and reverse thrust modes under conditions up to 120 percent of maximum rated engine speed and at power settings up to the standard day maximum take-off power rating of the engine. Propeller critical speeds existing below the operating range are at least 20 percent below the minimum steady state operating speed. Method of Compliance: Verification methods include analysis, a combination of stand, system ground tests, flight testing, and inspection of documentation. Analysis verifies critical speeds of the propeller system. Tests are as follows: a. Whirl Stand Tests: A vibration stress survey conducted on the whirl stand establishes the stress characteristics of the hub and blade and the flutter characteristics of the blade. The data obtained in this survey define the test operational limitations for subsequent testing of the propeller on the whirl rig. Blade angle settings for the test are selected so that, if flutter is present, a flutter boundary can be determined for the propeller. b. Propeller and Engine Test Stand Tests: A vibration stress survey of the propeller covering all appropriate conditions of engine operation on the test stand defines the stress characteristics of the engine and propeller system. Measured stresses for any vibratory modes within the operating range are within the allowable material limits. c. Flight Vibratory Stress Survey: A flight vibratory stress survey of the propeller on all nacelles of the air vehicle establishes the stress characteristics of the propeller when operated in the air vehicle environment. Measured stresses for any vibratory modes within the operating range are within the allowable material limits. Safe operation is demonstrated in all modes of use. Inspection of operators and maintenance technical manuals verifies that any appropriate limitations are defined. Reference: JSSG-2009: L.3.4.12, L.4.4.12; and L.3.4.12.6, L.4.4.12.6 propeller vibration and flutter criteria and compliance methods",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Critical speeds",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

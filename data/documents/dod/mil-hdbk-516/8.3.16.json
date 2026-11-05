@@ -1,0 +1,75 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.16",
+  "number": "8.3.19",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Diagnostics",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.3.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations. DoD/MIL Doc: JSSG-2009: para 3.2.9, 4.2.9 and Appendix E: E.3.4.5.8.11, E.4.4.5.8.11, E.3.4.5.12.5, E.4.4.5.12.5 FAA Doc: 14CFR references: 23.979, 25.979",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.3.18",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations.",
+      "text": "Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations. DoD/MIL Doc: JSSG-2009: 3.2.9, 4.2.9 and Appendix E: E.3.4.5.8.11, E.4.4.5.8.11, E.3.4.5.12.5, E.4.4.5.12.5 FAA Doc: 14CFR references: 23.979, 25.979",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Diagnostics",
+      "text": "Criterion: Verify that built-in-test (BIT) and fault isolation provisions are available to ensure safe fuel system operations. Standard: The fuel system provides BIT capability and fault isolation to identify failure modes to the operator(s) and facilitate maintenance troubleshooting procedures. Method of Compliance: Analysis of the design verifies that the necessary BIT and fault isolation provisions are provided. Fuel system simulator testing, ground demonstrations, and troubleshooting procedure reviews verify performance of the fault isolation provisions and BIT. References: JSSG-2009: 3.2.9, 4.2.9; E.3.4.5.8.11, E.4.4.5.8.11; E.3.4.5.12.5, E.4.4.5.12.5 14 CFR 23.979, 25.979, 29.979",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Diagnostics",
+      "text": "Standard: Built-in-test and fault isolation provisions identify fuel system faults and failures and accurately inform the flight crew so that appropriate actions may be taken to prevent further damage, correct faults, and continue flight and recovery of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Perform analysis of design to determine the faults and failures of the fuel system that require BIT monitoring and fault isolation to prevent hazardous conditions from developing from single failures or likely combinations of failures.\n(2) Perform analysis to determine flight crew actions required for each fault condition are identified and documented. Test.\n  (1) Lab test: Perform lab test to verify BIT, fault isolation, and flight crew notification performance for components and fuel subsystem.\n  (2) Ground test: Perform ground test to verify BIT, fault isolation, and flight crew notification performance for the air vehicle fuel system meets requirements and to confirm the analysis and lab results.\n  (3) Ground test: Conduct ground test to verify flight crew actions required to troubleshoot, correct faults, prevent further damage or system degradation, continue flight, and recover the air vehicle are correct. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (4) Flight test: Conduct flight test to verify BIT, fault isolation, and flight crew notification performance for the fuel system and to confirm the analysis, lab, and ground test results.\n  (5) Flight test: Conduct flight test to verify flight crew actions required to troubleshoot, correct faults, prevent further damage or system degradation, continue flight, and recover the air vehicle are correct.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

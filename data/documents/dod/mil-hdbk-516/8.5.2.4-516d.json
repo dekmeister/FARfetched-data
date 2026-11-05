@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.2.4-516d",
+  "number": "8.5.2.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rebound",
+  "subject_group": "8.5.2 Landing gear structure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rebound",
+      "text": "Standard: For nose, main, and tail landing gear, the rebound and dynamic characteristics for takeoff and landing conditions (e.g., design sink rates and landing weights) limit bouncing, rebounding, and damage to the landing gear which causes the air vehicle to become uncontrollable and results in a mishap. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a static strength analysis to verify that each landing gear can sustain rebound loading conditions without gross section yielding or detrimental deformations at or below 115% DLL. The DLL is based on a LF of 20 acting on the unsprung mass of the landing gear when the gear is fully extended and not in contact with the ground after landing impact. No rupture allowing release of piston occur at or below ultimate loads. Ultimate load is 1.5X DLL.\n(2) Conduct dynamic analysis to verify nose and main landing gear rebound characteristics on catapult launch. Test.\n  (1) Lab test: Conduct sudden extension tests at various gear stroke levels to verify rebound characteristics. Torque arms retain the piston and struts control gear extension to prevent overloading the gear components air vehicle remains controllable after initial landing impact.\n  (2) Lab test: Conduct drop testing to verify rebound characteristics. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Landing tests at various sink rates and air vehicle weights verify landing gear's ability to control rebounding to keep air vehicle controllable.\n  (4) Flight test: Conduct catapult or ski jump testing to verify nose gear rebound characteristics for shipboard usage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

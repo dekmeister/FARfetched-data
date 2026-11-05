@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.3.2",
+  "number": "15.2.4",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Critical discrepancies",
+  "subject_group": "15.2 Design and functional integration of system processing architecture elements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.3.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that critical hardware/software discrepancies have been identified and corrected or mitigated.",
+      "text": "Verify that critical hardware/software discrepancies have been identified and corrected or mitigated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.3.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that critical hardware/software discrepancies are identified and corrected or mitigated.",
+      "text": "Verify that critical hardware/software discrepancies are identified and corrected or mitigated. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.7; JSSG-2008 Appendix A: para 3.3.8 provides guidance under lessons learned for tracking and mitigating software discrepancies. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.3.2",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify that critical hardware/software discrepancies are identified and corrected or mitigated.",
+      "text": "Verify that critical hardware/software discrepancies are identified and corrected or mitigated. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.7 JSSG-2008 Appendix A: 3.3.8 provides guidance under lessons learned for tracking and mitigating software discrepancies FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Critical discrepancies",
+      "text": "Criterion: Verify that safety critical hardware and software discrepancies identified are safely corrected or mitigated. Standard: The system development process identifies and applies a discrepancy reporting process for software/hardware/system/laboratory/air vehicle/control segment/support segment problems, which documents/corrects/mitigates all safety critical faults at all testing levels. Typical areas to include: software (i.e., requirements, design, coding), hardware anomalies, test case inconsistencies, simulation anomalies, and lab/tool problems. A discrepancy review board is established which evaluates problem reports for safety effect, prioritization and urgency of correction required; and documents approved discrepancy mitigations and resolutions. If used for problem mitigation, operational safety restrictions (e.g., flight envelope, operating modes, fleet grounding) are documented in the flight clearance, flight manual or equivalent documentation. Method of Compliance: Verification method includes inspection of discrepancy reporting processes, discrepancy documentation, and technical manuals (e.g., Technical Orders, Flight Manuals, Operator\u2019s Manuals, NATOPS). Ensure that safety critical discrepancies are documented, appropriate restrictions are imposed when necessary, and details of the corrective/mitigation action are reviewed. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.5.i.5 and III.5.j); 3.3.8 provides guidance under lessons learned for tracking and mitigating software discrepancies JSSG-2008 Appendix B: A14.5.9.5; A14.5.10 MIL-STD-882: Task 304 of MIL-STD-882E DoD JSSSEH: 4.2.2; E.13.1 USAF Weapon Systems Software Management Guidebook: F.9.2; G.6 RTCA DO-178: For RTCA DO-178C: 2.2.2.d; 7.1.c; 7.2.3; 8.3.d; 11.14; 11.17; 11.20.k (see also RTCA DO-178B) FAA AC 20-115C",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Critical discrepancies",
+      "text": "Standard: 1. Verify that discrepancies impacting safety-critical hardware and software are identified and corrected or mitigated. The system development process identifies and applies a discrepancy reporting process for software, hardware, system, laboratory, air vehicle, control station, and support system problems, which documents and appropriately corrects or mitigates all safety-critical faults at all testing levels. Typical areas to include: software anomalies, hardware anomalies, test case inconsistencies, simulation anomalies, and lab and tool problems. A discrepancy review board is established which evaluates problem reports for safety effect, prioritization and urgency of correction required, and documents approved discrepancy mitigations and resolutions. If used for problem mitigation, operational safety restrictions (e.g., flight envelope, operating modes, fleet grounding) are documented in the flight clearance, flight manual, or equivalent documentation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes examination of discrepancy reporting processes, discrepancy documentation, and technical manuals (e.g., TOs, flight manuals, operator\u2019s manuals, NATOPS). Ensure that discrepancies impacting safety-critical hardware or software are documented, corrected or mitigated, and appropriate restrictions are imposed when necessary. Details of corrective or mitigation actions are reviewed.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

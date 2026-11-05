@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.41",
+  "number": "6.1.11.41",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Flight path response to collective controller",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Flight path response to collective controller",
+      "text": "Standard: The air vehicle's flight path response to collective inputs in forward flight (greater than 45 KGS) are no worse than Level 2 flying qualities as specified in MIL-DTL-32742 Flight Path Response to Collective Controller (Backside) paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the flight path response to collective inputs in forward flight as specified in MIL-DTL-32742, Flight Path Control and Flight Path Response to Collective Controller (Backside) paragraph for each air vehicle configuration and loading within the SFE. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the flight path response to collective inputs in forward flight as specified in MIL-DTL-32742 Flight Path Control and Flight Path Response to Collective Controller (Backside) paragraphs for each air vehicle configuration and loading within the SFE. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the flight path response to collective inputs in forward flight as specified in MIL-DTL-32742, Flight Path Control and Flight Path Response to Collective Controller (Backside) paragraphs for selected combinations of air vehicle configuration and loading within the SFE.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

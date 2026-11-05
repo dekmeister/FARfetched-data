@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "4.1.7",
+  "number": "4.1.7",
+  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "canonical_title": "Flight termination system",
+  "subject_group": "4.1 Design criteria",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Flight termination system",
+      "text": "Criterion: Verify that the flight termination function, if incorporated into the design, is safe, secure and reliable. Standard: Design criteria ensure that the flight termination function operates reliably and in a timely manner when commanded. The flight termination function results in a defined air vehicle flight state (e.g., zero lift, zero thrust). The likelihood of uncommanded flight termination is remote. A minimum of two operator actions is required to execute the flight termination function. Method of Compliance: Inspection of documentation verifies that design criteria are in place to ensure that the flight termination function operates reliably and appropriately, and only when required. Inspection of test and simulation data verifies that the flight termination function operates appropriately, only when required, and results in the expected defined flight state(s). Inspection of analysis documentation indicates that the flight termination function operates reliably. Reference: RCC 319-14",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "title_at_revision": "Flight termination system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

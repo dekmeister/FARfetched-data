@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.2.4.1.7",
+  "number": "7.4.6",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Ignition system",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine ignition system provides a safe ignition source for the main combustor and augmentor.",
+      "text": "Verify that the engine ignition system provides a safe ignition source for the main combustor and augmentor. DoD/MIL Doc: JSSG-2007A: para A.3.2.2.3.5/A.4.2.2.3.5, Auto-Relight and A.3.7.5/A.4.7.5, Ignition Systems FAA Doc: 14CFR references: 33.89, 33.69",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine ignition system provides a safe ignition source for the main combustor and augmentor.",
+      "text": "Verify that the engine ignition system provides a safe ignition source for the main combustor and augmentor. DoD/MIL Doc: JSSG-2007A: A.3.2.2.3.5/A.4.2.2.3.5, Auto-Relight and A.3.7.5/A.4.7.5, Ignition Systems FAA Doc: 14CFR references: 33.89, 33.69",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Ignition system",
+      "text": "Criterion: Verify that the engine ignition system provides a safe and effective ignition source for the main combustor and augmentor. Standard: Operation of the ignition exciters, igniters and cables ensures safe and reliable light-off of the main combustor and augmenter throughout the ground and air start envelopes. The engine control system detects a flameout and activates the ignition system (auto-relight) without operator involvement or the operator can manually activate the main and augmenter ignition systems. External cabling has been sufficiently insulated to prevent inadvertent conduction and shock hazard. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. The ignition system's ability to provide adequate spark energies to the main combustor and augmenter is verified by bench testing and full-up engine and flight testing. The control system's ability to correctly identify an engine flameout and automatically activate the ignition system without pilot/operator action is verified by full-up engine and flight testing. All ignition system functions are fully exercised by pilot/operator command with the engine installed in the air vehicle. References: JSSG-2007: A.3.2.2.3.5, A.4.2.2.3.5 Auto-Relight; and A.3.7.5, A.4.7.5 Ignition Systems 14 CFR 33.69, 33.89",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Ignition system",
+      "text": "Standard: The engine ignition system ignites the main combustor and augmentor throughout the ground and air start envelopes and under carbon and water fouling conditions. The engine control system detects a flameout and activates the ignition system (auto-relight) without flight crew involvement, or the flight crew can manually activate the main and augmentor ignition systems. Ignition system activation will not result in mechanical damage or inhibit a successful flight crew-initiated restart. For single engine applications, the main combustor ignition system should be redundant and provide a minimum of two separate igniters and two independent ignition exciter output circuits. External cabling is insulated to prevent inadvertent conduction and shock hazard. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, or other substantiating records and reports) to verify that each engine is equipped with a redundant main ignition system and external cabling is insulated. Analysis.\n  (1) Analysis verifies that the ignition system ignites the main combustor and augmentor throughout the ground and air start envelopes. Test.\n    (1) Lab test: Engine ground-based sea level cell test verifies the control system\u2019s ability to ignite the main combustor and augmentor throughout the ground and air start envelopes and correctly identify an engine flameout and automatically activate the ignition system without flight crew action. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Demonstrate the flight crew's ability to identify an engine flameout indication and activate the ignition system, throughout the ground and air start envelopes. Test.\n      (2) Flight test: Flight testing verifies the control system's ability to ignite the main combustor and augmentor throughout the ground and air start envelopes and correctly identify an engine flameout and automatically activate the ignition system without flight crew action.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

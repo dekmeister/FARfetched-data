@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.2.5-516d",
+  "number": "8.5.2.5",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Strut stiction",
+  "subject_group": "8.5.2 Landing gear structure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Strut stiction",
+      "text": "Standard: The shock strut design allows for controlled vertical movement during loading by minimizing strut friction to prevent binding of struts, damage to air vehicle or prevent weight on wheels interlocks activation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of load versus stroke and strut friction to verify the landing gear struts do not stick, preventing shock absorber from controlling vertical movement of air vehicle. Demonstration.\n  (1) Conduct ground demonstrations on air vehicle to verify struts move without binding. Test.\n    (1) Lab test: Lab test verifies the load versus stroke properties for the landing gear struts.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

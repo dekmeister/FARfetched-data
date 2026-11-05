@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.9",
+  "number": "7.2.7",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Inlet compatibility",
+  "subject_group": "7.2 Propulsion performance and operability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.8.9",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air induction system(s) functions under all expected ground, flight and environmental (including icing as applicable) conditions without adversely affecting engine operation or resulting in engine damage.",
+      "text": "Verify that the air induction system(s) functions under all expected ground, flight and environmental (including icing as applicable) conditions without adversely affecting engine operation or resulting in engine damage.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.5.3.1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the air induction system(s) functions under all expected ground, flight, and environmental (including ice, sand, and dust, as applicable) conditions without adversely affecting engine operation or resulting in engine damage.",
+      "text": "Verify that the air induction system(s) functions under all expected ground, flight, and environmental (including ice, sand, and dust, as applicable) conditions without adversely affecting engine operation or resulting in engine damage. DoD/MIL Doc: JSSG-2007A: para A.3.3.2.4, A.4.3.2.4, for sand and dust design and verification; A.3.3.2.3, A.4.3.2.3, for ice ingestion guidance; A.3.2.2.11, A.4.2.2.11, distortion guidance; and A.3.3.2.5, A.4.3.2.5, for atmospheric liquid water ingestion guidance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.5.3.1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the air induction system(s) functions under all expected ground, flight, and environmental (including ice, sand, and dust, as applicable) conditions without adversely affecting engine operation or resulting in engine damage.",
+      "text": "Verify that the air induction system(s) functions under all expected ground, flight, and environmental (including ice, sand, and dust, as applicable) conditions without adversely affecting engine operation or resulting in engine damage. DoD/MIL Doc: JSSG-2007A: A.3.3.2.4, A.4.3.2.4, for sand and dust design and verification; A.3.3.2.3, A.4.3.2.3, for ice ingestion guidance; A.3.2.2.11, A.4.2.2.11, distortion guidance; and A.3.3.2.5, A.4.3.2.5, for atmospheric liquid water ingestion guidance. JSSG-2001B: 3.3.1.1.1/4.3.1.1.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.5.3",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Inlet compatibility",
+      "text": "Criterion: Verify that the air induction system(s) functions under all expected ground, flight, and environmental (including ice, sand, and dust, as applicable) conditions without adversely affecting engine operation or resulting in engine damage. Standard: All expected ground, flight, induced and natural environmental conditions (e.g., inlet ice accretion and separation, distortion, sand and dust ingestion, water ingestion, gas ingestion) do not adversely affect engine performance and operability. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis and installed engine testing verify inlet performance for all expected environmental conditions. For icing environments, analysis, icing tunnel or ground icing tests and/or flight tests reveal acceptable icing build up and/or levels of shedding that are compatible with the engine(s). References: JSSG-2007: A.3.3.2.4, A.4.3.2.4 for sand and dust design and verification; A.3.3.2.3, A.4.3.2.3 for ice ingestion guidance; A.3.2.2.11, A.4.2.2.11 distortion guidance; and A.3.3.2.5, A.4.3.2.5 for atmospheric liquid water ingestion guidance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Inlet compatibility",
+      "text": "Standard: Inlet functions at all expected induced and natural environmental conditions do not adversely affect the engine beyond what satisfies 7.2 standards, do not result in exceeding defined engine operating limits, and do not result in detrimental permanent deformation or damage when operated under steady state and transient operating conditions, throughout the flight and ground envelope per 7.3.1 for the stated life documented in engine technical data. Inlet flow distortion characterization follows guidelines outlined in SAE AIR1419, SAE AIR5686, SAE AIR5687, SAE AIR5866, SAE ARP1420, and SAE ARP6420. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyses performed with a model calibrated to measured test data for characterization of inlet function at all environmental conditions not tested.\n(2) For icing, analysis is performed with a model calibrated to measured test data at icing conditions not tested. Test.\n  (1) Ground or Lab test: Installed engine testing to characterize and verify inlet function for environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Installed engine testing to characterize and verify inlet function for environmental conditions.\n  (3) Flight, Ground, or Lab test: For icing environments, icing tunnel tests or installed ground icing tests or flight tests verify ice accretion and level of shedding is compatible with the tolerance of the engine(s).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

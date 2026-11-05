@@ -1,0 +1,54 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.9.14",
+  "number": "8.7.14",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Actuation power and control",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.9.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that, when applicable, a means is provided for controlling utility actuation.",
+      "text": "Verify that, when applicable, a means is provided for controlling utility actuation. Where possible, include a separate means for \u201cmotion\u201d and \u201clocking\u201d control.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.9.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that, when applicable, a means is provided for controlling utility actuation.",
+      "text": "Verify that, when applicable, a means is provided for controlling utility actuation. Where possible, include a separate means for \"motion\" and \"locking\" control. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.4; 4.4.9.4.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.14",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation power and control",
+      "text": "Criterion: Verify that, when applicable, a means is provided for controlling utility actuation. Where possible, include a separate means for \"motion\" and \"locking\" control. Standard: The actuation power and control for moving the mechanism to its commanded position is independent from the power and control used to hold the mechanism in its initial and final commanded state. Method of Compliance: The design and operating characteristics are verified by analysis. System components are laboratory tested to the performance requirements. Full scale functional tests duplicating the system power and system control verify system performance, rigging, installation and indication requirements. Demonstrations on the air vehicle validate mechanical system installation, rigging, functionality, and performance. Normal and emergency functions are demonstrated and verified. References: JSSG-2009: (Appendix I) I.3.4.9.4, I.3.4.9.4.4; I.4.4.9.4.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Actuation power and control",
+      "text": "Standard: A means is provided for controlling utility actuation. The actuation power and control for moving the mechanism to its commanded position is independent from the power and control used to hold and lock the mechanism in its initial and final commanded state. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The design and operating characteristics are verified by analysis. Demonstration.\n  (1) Demonstrations on the air vehicle validate mechanical system installation, rigging, functionality, and performance. Normal and emergency functions are demonstrated and verified. Test.\n    (1) Lab test: System components are laboratory tested to the performance requirements.\n    (2) Lab test: Full scale functional tests duplicating the system power and system control verify system performance, rigging, installation, and indication requirements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.11.25",
+  "number": "6.1.11.25",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Yaw rate response to lateral gusts",
+  "subject_group": "6.1.11 Rotary-wing",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Yaw rate response to lateral gusts",
+      "text": "Standard: In hover and low airspeed (up to 45 KGS), in the 3 seconds following a step lateral gust input, the ratio of peak yaw rate to gust speed is no greater than 1.0 (deg/s)/(ft/s) unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess the yaw rate response to lateral gust inputs as specified in MIL- DTL-32742, Yaw Rate Response to Lateral Gusts paragraph for each air vehicle configuration and loading within the SFE. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the yaw rate response to lateral gust inputs as specified in MIL-DTL-32742, Yaw Rate Response to Lateral Gusts paragraph for each air vehicle configuration and loading within the SFE. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the yaw rate response to lateral gust inputs as specified in MIL-DTL-32742, Yaw Rate Response to Lateral Gusts paragraph for selected combinations of air vehicle configuration and loading within the SFE.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

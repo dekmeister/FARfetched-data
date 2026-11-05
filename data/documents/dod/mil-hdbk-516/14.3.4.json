@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "14.3.4",
+  "number": "14.3.4",
+  "current_grouping": "14. SYSTEM SAFETY",
+  "canonical_title": "Commercial off-the-shelf software integrity level confirmation",
+  "subject_group": "14.3 Software safety program",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Commercial off-the-shelf software integrity level confirmation",
+      "text": "Criterion: Verify that Commercial Off-the-Shelf (COTS) and reuse software (which includes application software and operating systems) are developed to the necessary software integrity level. Standard: The software criticality level for COTS and reuse software functions has been determined and their development has been confirmed to be at the required software integrity level as defined by software and/or safety planning. Method of Compliance: Verification methods include inspection of documentation. Verify by inspection of program, system safety, software safety and software engineering documentation that the software criticality level for COTS and reuse software by function is determined. Verify that the software is developed to the required software integrity level as defined by software and/or safety planning. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 SAE ARP4754 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29 and related advisory circulars FAA AC 20-148",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "14. SYSTEM SAFETY",
+      "title_at_revision": "Commercial off-the-shelf software integrity level confirmation",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

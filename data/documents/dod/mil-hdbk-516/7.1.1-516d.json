@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.1.1-516d",
+  "number": "7.1.1",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Extrinsic hazard controls",
+  "subject_group": "7.1 Propulsion system safety and data",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Extrinsic hazard controls",
+      "text": "Standard: Interface conditions, characteristics, and reliability requirements for propulsion system hazard controls (components, systems, and functions) that are not part of the propulsion system type design are defined and documented. Examples of such hazard controls may include bleed isolation valves, insulation, shielding for uncontained failures, ice detectors, fuel system fuses, leak detection systems, fire suppression systems, shaft shear sections, ventilation, mount fuses, instrumentation, and engine control system input or communication signals that are part of the propulsion system installation but not part of the propulsion system type design. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of ICD or other equivalent documentation verifies that interface conditions, characteristics, and reliability of required extrinsic hazard controls (not native to the propulsion system type design but required as part of the propulsion system installation) are defined.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

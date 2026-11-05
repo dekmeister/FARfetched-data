@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.10.2",
+  "number": "8.9.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Pilot/operator control of cargo hook system",
+  "subject_group": "8.9 External cargo hook systems (rotary wing)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.10.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the cargo hook system cockpit switches and indicators provide for both normal and emergency release of cargo.",
+      "text": "Verify that the cargo hook system cockpit switches and indicators provide for both normal and emergency release of cargo.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.10.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the cargo hook system cockpit switches and indicators provide for normal, automatic, and emergency release of cargo.",
+      "text": "Verify that the cargo hook system cockpit switches and indicators provide for normal, automatic, and emergency release of cargo. DoD/MIL Doc: Refer to technical point of contact for this discipline (listed in section A.2). FAA Doc: 14CFR references: 133 Amendment No. 133-11, 133 Amendment No. 133-9 (Rotorcraft External-Load Operations)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Pilot/operator control of cargo hook system",
+      "text": "Criterion: Verify that the cargo hook system cockpit switches and indicators provide for normal, automatic, and emergency release of cargo. Standard: The pilot or the operator has sufficient control and indications of the cargo hook system operation. Control and indication provisions allow release of the cargo as commanded for normal and emergency operations. The indications provide an accurate representation of the status of the cargo and of any malfunctions. Safe or unsafe status of the cargo is continuously presented to the aircrew/ground operators. The system also assists in trouble shooting in the event of a malfunction. The sensors only respond to the system components and not to sensor targets which could hang up and give a false indication. Mechanical indicators use positive mechanical linkage for hold or release, and deflection of the aircraft structure under all ground and flight load conditions does not cause false indications. Method of Compliance: Analysis and demonstration verifies that the cargo hook system operates correctly and provides proper status indication with air vehicle power and/or ground station power. Testing, such as the life cycle tests, regression tests and performance tests are conducted to include all malfunctions that could give a false indication. Test verify all malfunctions that could give a safe indication for an unsafe condition. FMECA substantiates probable failures and system indications associated with the failures Reference: 14 CFR 133 Amendment No. 133-11; 133 Amendment No. 133-9 (Rotorcraft External-Load Operations)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Pilot/operator control of cargo hook system",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.8.1",
+  "number": "6.2.8.1",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Pre-flight procedures",
+  "subject_group": "6.2.8 Flight crew procedures",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pre-flight procedures",
+      "text": "Standard: Flight crew pre-flight procedures are in place with clear GO/NOGO criteria for the VCF. Pre-flight procedures may include both automatic PFBIT as well as flight crew-initiated procedures, such as walk-arounds. Pre-flight procedures ensure PFBIT is performed prior to each flight and after any power cycle for which flight will follow. The flight crew has clear guidance on handling failures associated with PFBIT. Any workarounds for pre-flight failures and corresponding mitigations are documented and approved. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manual (or equivalent) to verify clear guidance is in place for flight crew pre-flight procedures. a. Pre-flight built-in-test is performed prior to each flight and after any power cycle for which flight will follow. b. The flight crew and test team have clear guidance on handling failures associated with PFBIT, including any specifics on failed pre-flight IBIT re-run criteria. c. Any workarounds for pre-flight failures and corresponding mitigations are documented and approved. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(2) Review the flight manual to verify clear guidance is in place for flight crew pre-flight procedures. a. Ensure PFBIT is part of the standard flight crew pre-flight procedure and checklist. Procedure and checklist are clear that pre-flight IBIT is performed prior to each flight and after any power cycle for which flight will follow. b. The flight crew has clear guidance on handling failures associated with PFBIT, including any specifics on failed pre-flight IBIT re-run criteria. c. Any workarounds for pre-flight failures and corresponding mitigations are documented and approved.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

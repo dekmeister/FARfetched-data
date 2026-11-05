@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.1.1",
+  "number": "13.1.1",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "canonical_title": "Flight-critical and safety-critical equipment",
+  "subject_group": "13.1 Component and subsystem electromagnetic environmental effects qualification",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that all flight-critical equipment complies with the electromagnetic interference requirements that are appropriate for the system application or appropriate flight restrictions are imposed in the flight manuals for exceptions.",
+      "text": "Verify that all flight-critical equipment complies with the electromagnetic interference requirements that are appropriate for the system application or appropriate flight restrictions are imposed in the flight manuals for exceptions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that all flight-critical equipment complies with all electromagnetic environmental effects requirements, including lightning susceptibility, that are appropriate for the system application; or verify that appropriate flight restrictions are imposed.",
+      "text": "Verify that all flight-critical equipment complies with all electromagnetic environmental effects requirements, including lightning susceptibility, that are appropriate for the system application; or verify that appropriate flight restrictions are imposed. Comm\u2019l Doc: RTCA DO-160 sections 18 through 22; SAE ARP5412, section 4. DoD/MIL Doc: MIL-STD-461, section 5; MIL-STD-464, section 5.4.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Flight/safety critical equipment requirements",
+      "text": "Criterion: Verify that all flight-critical and safety-critical equipment comply with all electromagnetic environmental effects requirements, including lightning susceptibility, that are appropriate for the system application; or verify that appropriate flight restrictions are imposed. Standard: All equipment and subsystems comply with the conducted and radiated emissions and conducted and radiated susceptibility requirements of MIL-STD-461, section 5, MIL-STD- 464, 5.5 or equivalent requirements from industry/commercial standards such as RTCA DO- 160, sections 18 through 22 and SAE ARP5412. Method of Compliance: Verification methods of MIL-STD-461, section 5 or equivalent verification methods from industry/commercial standards such as RTCA DO-160, sections 18 through 22 (for Army, Section 22 only) demonstrate that the equipment complies with the emissions and susceptibility requirements. References: MIL-STD-461: section 5 MIL-STD-464: 5.5 SAE ARP5412 RTCA DO-160: sections 18 through 22",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "title_at_revision": "Flight-critical and safety-critical equipment",
+      "text": "Standard: All flight-critical and safety-critical equipment comply with the EMI control requirements for emissions and susceptibility (considering air vehicle type, mission, equipment functionality, and installation) using the safety-critical limits as specified in MIL-STD-461, Detailed Requirements paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify that the equipment meets the applicable MIL-STD-461 test requirements and limits considering air vehicle type, mission, equipment functionality, and installation by reviewing and analyzing the EMI test procedures. Test.\n  (1) Lab test: Electromagnetic interference tests verify requirements were met using proper test setup for the system application, appropriate modes of operation are executed during testing, and compliance to the applicable limits.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

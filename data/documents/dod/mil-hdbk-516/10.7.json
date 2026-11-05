@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "10.7",
+  "number": "10.7",
+  "current_grouping": "10. AERIAL REFUELING",
+  "canonical_title": "Aerial refueling electronic hardware, software, and firmware",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "10. AERIAL REFUELING",
+      "title_at_revision": "Aerial refueling electronic hardware, software, and firmware",
+      "text": "Standard: Electronic hardware, software, and firmware used to perform AR operations which support an SCF are identified and documented as safety-critical. Control actions and movements of an AR system, and monitoring of loads, pressures, states, and positions of AR components are examples of safety-critical functionality. Note: All air system SCFs are first identified by Section 4 criteria. This standard provides the means to identify the SCF subset specific to AR operations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of development documentation verifies that electronic hardware, software, and firmware used to perform AR operations which support an SCF are identified as safety-critical. Analysis.\n  (1) SCFTA identifies all electronic hardware, software, and firmware items that support AR related SCFs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

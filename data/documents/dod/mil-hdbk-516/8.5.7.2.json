@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.7.2",
+  "number": "8.5.6.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Brake redundancies",
+  "subject_group": "8.5.6 Wheel brakes",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.7.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that failure of any brake (structural or control system) will not prevent the air vehicle from stopping within the runway length needed to conduct the missions.",
+      "text": "Verify that failure of any brake (structural or control system) will not prevent the air vehicle from stopping within the runway length needed to conduct the missions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.7.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that failure of any brake (structural or control system) does not prevent the air vehicle from stopping within the runway length needed to conduct the missions.",
+      "text": "Verify that failure of any brake (structural or control system) does not prevent the air vehicle from stopping within the runway length needed to conduct the missions. Comm\u2019l Doc: SAE ARP-1493 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.11.2.4/A.4.4.1.11.2.4 Nonfrangibility criteria (flat tire operation); A.3.4.1.11.3.3/A.4.4.1.11.3.3 Structural failure criteria; and A.3.4.1.11.3.4/A.4.4.1.11.3.4 Secondary braking capability (fail-safe). AFGS-87139: para 3.2.3.1.c Brake system, General and 3.2.4.3 Brakes; MIL-W-5013 Wheel and Brakes - presently inactive for new designs FAA Doc: 14CFR reference: 11.2.2.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.7.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that failure of any brake (structural or control system) does not prevent the air vehicle from stopping within the runway length needed to conduct the missions.",
+      "text": "Verify that failure of any brake (structural or control system) does not prevent the air vehicle from stopping within the runway length needed to conduct the missions. Comm\u2019l Doc: SAE ARP-1493 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.11.2.4/A.4.4.1.11.2.4 Nonfrangibility criteria (flat tire operation); A.3.4.1.11.3.3/A.4.4.1.11.3.3 Structural failure criteria; and A.3.4.1.11.3.4/A.4.4.1.11.3.4 Secondary braking capability (fail-safe). AFGS-87139: 3.2.3.1.c Brake system, General and 3.2.4.3 Brakes MIL-W-5013 Wheel and Brake Assemblies - inactive for new design FAA Doc: 14CFR reference: 11.2.2.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.7.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Brake redundancies",
+      "text": "Criterion: Verify that any failure of a hydraulic, electrical or mechanical component of the brake system or the loss of the primary operating power source does not prevent the air vehicle from stopping within the runway length needed to conduct the mission. Standard: Single point failures in the brake assembly do not adversely affect the brake\u2019s capability to produce torque. An alternate means of providing power to the brakes is provided that is capable of stopping the air vehicle within the operational runway lengths, if the primary power source fails. The alternate brake performance meets dry and wet runway operational criteria for all specified distances and surfaces. Method of Compliance: FMECA identifies safe and unsafe modes of operation in the brake system. Component testing verifies the FMECA results and brake redundancy. Air vehicle checkouts verify design functionality and integration. Laboratory testing verifies the performance of the deceleration systems for both normal and emergency or alternate modes. Flight testing verifies the performance of the deceleration systems normal mode. References: JSSG-2009: A.3.4.1.11.3.3, A.4.4.1.11.3.3 Structural failure criteria; and A.3.4.1.11.3.4, A.4.4.1.11.3.4 Secondary braking capability (fail-safe) AFGS-87139: 3.2.3.1.c Brake system, General; and 3.2.4.3 Brakes MIL-W-5013 (Inactive for New Design) SAE ARP1493 14 CFR 23.735, 25.735",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Brake redundancies",
+      "text": "Standard: Single point failures (e.g., electrical, pneumatic, hydraulic or mechanical connecting or transmitting element fails, or if any single source of brake operating energy supply is lost) in the brake system do not adversely affect the brake\u2019s capability to produce torque. An alternate means of powering the brakes is available to stop within the operational runway lengths and conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system schematics and drawings to verify alternative power sources and redundancies are provided for braking. Analysis.\n  (1) Conduct FMECA and SSHA to identify all single point failures in the braking system that could result in failure to stop the air vehicle, and mitigations are in place to prevent loss of brakes.\n  (2) Conduct static sizing analysis to verify the brake maintains torque to stop the air vehicle under single point failures. Demonstration.\n    (1) Conduct on air vehicle demonstration to verify alternative power source automatically becomes active under single point failures to the primary power source. Test.\n      (1) Lab test: Conduct lab testing (e.g., HITL or iron bird) to verify that brake system redundancies are capable of stopping the air vehicle within the operational runway lengths and conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

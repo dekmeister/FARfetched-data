@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.1",
+  "number": "8.1.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Redundant hydraulic system operation",
+  "subject_group": "8.1 Hydraulic and pneumatic systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If there is more than one hydraulic system (or pneumatic system), verify that safe operation can be continued if any one hydraulic (or pneumatic) system fails.",
+      "text": "If there is more than one hydraulic system (or pneumatic system), verify that safe operation can be continued if any one hydraulic (or pneumatic) system fails.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If there is more than one hydraulic system or pneumatic system, verify that safe operation can be continued if any one hydraulic or pneumatic system fails.",
+      "text": "If there is more than one hydraulic system or pneumatic system, verify that safe operation can be continued if any one hydraulic or pneumatic system fails. DoD/MIL Doc: JSSG-2009: para B.3.4.2, B.4.4.2, B.3.4.2.1.10, B.4.4.2.1.10, B.3.4.2.1.16, B.4.4.2.1.16, Emergency Operation and Appendix M: M.3.4.13/M.4.4.13, Pneumatic Subsystems. FAA Doc: 14CFR references: 25.1435 b4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "If there is more than one hydraulic system or pneumatic system, verify that safe operation can be continued if any one hydraulic or pneumatic system fails.",
+      "text": "If there is more than one hydraulic system or pneumatic system, verify that safe operation can be continued if any one hydraulic or pneumatic system fails. DoD/MIL Doc: JSSG-2009: B.3.4.2, B.4.4.2, B.3.4.2.1.10, B.4.4.2.1.10, B.3.4.2.1.16, B.4.4.2.1.16, Emergency Operation and Appendix M: M.3.4.13/M.4.4.13, Pneumatic Subsystems. FAA Doc: 14CFR references: 25.1435 b4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Redundant hydraulic system operation",
+      "text": "Criterion: If there is more than one hydraulic system or pneumatic system, verify that safe operation can be continued if any one hydraulic or pneumatic system fails. Standard: A single failure in a hydraulic and pneumatic power system component or a total hydraulic and pneumatic system failure does not result in loss of aircraft or unacceptable flying qualities. The platform is capable of safe flight and safe landing after a single failure. The hydraulic and pneumatic systems are configured such that any one system failure due to combat or other damage, which causes loss of fluid or pressure, does not result in complete loss of flight control. Systems are separated as far as possible (i.e., on opposite sides of the fuselage or the wing spar) to obtain maximum advantage of the dual system. When two or more using functions are pressurized by a common pressure source, the non-essential function is isolated from the essential function (e.g., landing gear is isolated in flight from flight controls to limit exposure of the hydraulic and pneumatic system to damage). If there are points on the platform where two or more hydraulic and pneumatic systems come together (e.g., valves, switching valves, actuators) and a single failure will result in the loss of two systems, safe operation of the air vehicle is maintained. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. System characteristics are verified by analysis (e.g., modeling and simulation) and testing (e.g., iron bird, ground and flight). Inspection of drawings, subsystem tests to include ground test and demonstration, hardware-in-the-loop testing, and flight tests verify safe operation in the event of failure. References: JSSG-2009: B.3.4.2, B.4.4.2; B.3.4.2.1.10, B.4.4.2.1.10; B.3.4.2.1.16, B.4.4.2.1.16 Emergency Operation; and M.3.4.13, M.4.4.13, Pneumatic Subsystems MIL-STD-5522 ADS-50-PRF SAE AS5440 14 CFR 25.1435 b4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Redundant hydraulic system operation",
+      "text": "Standard: The loss of any one hydraulic system will not result in flying qualities worse than Level 2 or loss of any SCF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review hydraulic system drawings and schematics for redundant sources of hydraulic power to ensure SCFs (e.g., flight control actuation, deceleration, and landing gear extension) are maintained in the event of the loss of one hydraulic system. Analysis.\n  (1) Conduct FMECA and hazard analyses (SSHA and SHA) to identify failures and their consequences. Verify that a loss of a single hydraulic system does not result in loss of SCFs.\n  (2) Conduct analysis of the hydraulic system to verify that in the event of a single system failure, pressures and flows of the redundant (normal or backup) hydraulic system meet demands for continued operation of SCFs. Test.\n    (1) Lab test: Conduct FMET using HITL (e.g., iron bird) which simulates the complete installation of critical hydraulic, flight control, landing gear and door components, and line lengths to introduce system faults and verify flying qualities and SCFs are maintained.\n    (2) Ground test: Conduct on air vehicle testing to validate analysis and laboratory test results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing to verify that the normal, backup, and emergency hydraulic systems\u2019 performance throughout the operational envelope prevents the loss of a SCF (e.g., handling qualities, flight control actuation, and emergency landing gear extension). Hydraulic system performance is monitored throughout the flight test program to document system performance if unplanned failures occur. Flight test data is examined and compared against previous analysis, ground, and lab test data, and reconciled accordingly to show redundancy is provided to maintain SCFs.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

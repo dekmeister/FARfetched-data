@@ -1,0 +1,76 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.9.2",
+  "number": "8.5.8.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Steering control system",
+  "subject_group": "8.5.8 Ground directional control",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.5.9.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the nose gear steering control system (in aircraft with nose wheel steering) protects against steering failures and that system failures will not cause loss of control of the air vehicle.",
+      "text": "Verify that the nose gear steering control system (in aircraft with nose wheel steering) protects against steering failures and that system failures will not cause loss of control of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.5.9.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the steering control system protects against steering failures and that system failures will not cause loss of control of the air vehicle.",
+      "text": "Verify that the steering control system protects against steering failures and that system failures will not cause loss of control of the air vehicle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.5.9.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the steering control system protects against steering failures and that system failures does not cause loss of control of the air vehicle.",
+      "text": "Verify that the steering control system protects against steering failures and that system failures does not cause loss of control of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.2/A.4.4.1.4.5.2 Response to nose wheel steering failure; and A.3.4.1.4.5.3/A.4.4.1.4.5.3 Emergency steering; AFGS-87139: para 3.2.5.1 General, 3.2.5.2 Nose gear steering system; MIL-S-8812.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.5.9.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the steering control system protects against steering failures and that system failures does not cause loss of control of the air vehicle.",
+      "text": "Verify that the steering control system protects against steering failures and that system failures does not cause loss of control of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.2/A.4.4.1.4.5.2 Response to nose wheel steering failure; and A.3.4.1.4.5.3/A.4.4.1.4.5.3 Emergency steering AFGS-87139: 3.2.5.1 General, 3.2.5.2 Nose gear steering system MIL-S-8812",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.9.2",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Steering control system",
+      "text": "Criterion: Verify that the steering control system protects against steering failures, including hard-overs, and that system failures do not cause loss of control of the air vehicle. Standard: All uncommanded steering events and hard-over commands are negated. The system disengages or corrects the command to the extent that the air vehicle remains in its original commanded direction or goes to a controllable configuration. Method of Compliance: Verification methods include analyses, tests and demonstrations. FMECA identifies all steering and directional control failures (including hard-overs and uncommanded events). Component failure mode testing verifies performance of all components and switching logic within the steering system. Air vehicle checkouts verify proper functioning of the steering control system with and without failures. Ground and flight testing verifies safe operation for all steering and directional control failures. References: JSSG-2009: A.3.4.1.4.5.2, A.4.4.1.4.5.2 Response to nose wheel steering failure; A.3.4.1.4.5.3, A.4.4.1.4.5.3 Emergency steering AFGS-87139: 3.2.5.1 General; 3.2.5.2 Nose gear steering system MIL-S-8812",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Steering control system",
+      "text": "Standard: The steering control system protects against uncommanded steering events, including hard-over commands, to prevent loss of control of the air vehicle. The steering system will disengage or correct the command to the extent that the air vehicle remains in its original commanded direction or switches to a controllable configuration (e.g., dynamically stable, free caster, self-centering). The control system accommodates high and low speed operations by integrating steering system responses with the FCS by limiting turn angle to prevent loss of control. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review of the steering system's FMECA and SSHA to verify that all steering and directional control failures, including hard-overs and uncommanded events, are identified and risks mitigated. Test.\n  (1) Lab test: Conduct component failure lab testing to verify performance of all components and switching logic within the steering system.\n  (2) Lab test: Conduct simulator testing to verify flight crew's ability to laterally control the air vehicle with the blending of maximum turn angle versus air vehicle speed through takeoff and landing rollouts.\n  (3) Lab test: Conduct FMET to verify control system can maintain directional control or have nose wheel revert to free caster or safe state after a single point failure without loss of control.\n  (4) Ground test: Conduct ground testing to verify flight crew can maintain lateral control of the air vehicle for the design conditions (cross winds, air vehicle speeds, and runway surface coefficient of frictions). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Conduct flight testing to verify flight crew can maintain lateral control of the air vehicle for the design conditions (cross winds, air vehicle speeds, and runway surface coefficient of frictions).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

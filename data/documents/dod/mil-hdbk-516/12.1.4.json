@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "12.1.4",
+  "number": "12.1.4",
+  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "canonical_title": "Power quality",
+  "subject_group": "12.1 Electrical power generation system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "title_at_revision": "Verify that required power quality is maintained for all operating conditions and load combinations.",
+      "text": "Verify that required power quality is maintained for all operating conditions and load combinations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that required power quality is maintained for all operating conditions and load combinations.",
+      "text": "Verify that required power quality is maintained for all operating conditions and load combinations. Comm\u2019l Doc: SAE AS1831 for guidance/principles regarding/affecting design and operation of electrical systems to provide compatible and predictable electric power quality. DoD/MIL Doc: For guidance/principles regarding/affecting design and operation of electrical systems to provide compatible and predictable electric power quality: AFGS-87219 MIL-STD-464 MIL-STD-704 MIL-HDBK-704 MIL-STD-1399-300 ADS-51-HDBK chapter/section 7 JSSG-2009: Appendix H para H.3.4.8.1, H.4.4.8.1 MIL-HDBK-704 for test methods and procedures for verification of power quality. FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Verify that required power quality is maintained for all operating conditions and load combinations.",
+      "text": "Verify that required power quality is maintained for all operating conditions and load combinations. Comm\u2019l Doc: SAE AS1831 for guidance/principles regarding/affecting design and operation of electrical systems to provide compatible and predictable electric power quality. DoD/MIL Doc: For guidance/principles regarding/affecting design and operation of electrical systems to provide compatible and predictable electric power quality: AFGS-87219 MIL-STD-464 MIL-STD-704 MIL-HDBK-704 MIL-STD-1399-300 ADS-51-HDBK chapter/section 7 JSSG-2009: Appendix H H.3.4.8.1, H.4.4.8.1 MIL-HDBK-704 for test methods and procedures for verification of power quality FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Power quality",
+      "text": "Criterion: Verify that required power quality is maintained for all operating conditions and load combinations. Standard: The electrical power system provides the required electric power quality (in accordance with MIL-STD-704 and for Army only ADS-37A-PRF) to each load circuit and load combination under all operating conditions. Operation of other aircraft systems does not degrade power quality below minimum acceptable levels. Method of Compliance: Verification methods include test and inspection of component qualification documentation. Component qualification and aircraft system level tests verify that power quality levels are maintained at the input terminals of the power utilization equipment for all electrically powered aircraft systems operating under all operating conditions and load combinations. References: For guidance/principles regarding/affecting design and operation of electrical systems to provide compatible and predictable electric power quality: JSSG-2009: H.3.4.8.1, H.4.4.8.1 MIL-STD-464 MIL-HDBK-704 for test methods and procedures for verification of power quality. MIL-STD-704 MIL-STD-1399-300 AFGS-87219 ADS-37A-PRF ADS-51-HDBK: Chapter/Section 8-7 14 CFR 23.1351-23.1367; 25.1351-25.1363.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "title_at_revision": "Power quality",
+      "text": "Standard: The EPS, for the air system, provides electric power quality to each safety-critical load circuit and load combination, defined in the ELA, under all operating conditions IAW MIL- STD-704, Detailed Requirements paragraphs. During the operation of other air vehicle systems, power quality is maintained IAW MIL-STD-704, Detailed Requirements paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) A power quality analysis verifies electrical power quality, IAW the interface requirements of MIL-STD-704, Detailed Requirements paragraphs, is provided at the input terminals of the safety-critical power utilization equipment under all operating conditions and load combinations. Test.\n  (1) Lab test: Electrical system evaluation lab tests, using production or production representative power system components, verifies power quality, IAW the interface requirements of MIL-STD- 704, Detailed Requirements paragraphs, is maintained at the input terminals of the safety-critical power utilization equipment under all operating conditions and load combinations.\n  (2) Ground test: Air vehicle level ground test verifies power quality, IAW the interface requirements of MIL-STD-704, Detailed Requirements paragraphs, is maintained at the point of regulation under all operating conditions and load combinations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Air vehicle level flight test verifies power quality, IAW the interface requirements of MIL-STD-704, Detailed Requirements paragraphs, is maintained at the point of regulation under all operating conditions and load combinations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

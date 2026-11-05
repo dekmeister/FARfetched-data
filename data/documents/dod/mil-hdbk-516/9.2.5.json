@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.2.5",
+  "number": "9.3.1.3",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Lighting for flight-critical and safety-critical tasks",
+  "subject_group": "9.3.1 Interior lighting",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.2.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and the system is NVIS and laser eye protection (LEP) compatible, if applicable.",
+      "text": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and the system is NVIS and laser eye protection (LEP) compatible, if applicable.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.3.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and that lighting systems are NVIS and laser eye protection (LEP) compatible, if applicable.",
+      "text": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and that lighting systems are NVIS and laser eye protection (LEP) compatible, if applicable. DoD/MIL Doc: JSSG-2010-5 JSSG-2010: para 3.1, 4.1, 3.2, 4.2, 3.3, 4.3, 3.4, 4.4, 3.5, 4.5, 3.14, 4.14; JSSG-2010-5: para 3.5.2.1.8, cockpit and crew station lighting MIL-STD-3009: para 5.7.2.2, addresses NVIS compatible aircraft lighting and Visual acuity charts. FAA Doc: 14CFR references: 23.1381-23.1401, 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.3.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and that lighting systems are NVIS and laser eye protection (LEP) compatible, if applicable.",
+      "text": "Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and that lighting systems are NVIS and laser eye protection (LEP) compatible, if applicable. DoD/MIL Doc: JSSG-2010-5 JSSG-2010: 3.1, 4.1, 3.2, 4.2, 3.3, 4.3, 3.4, 4.4, 3.5, 4.5, 3.14, 4.14 JSSG-2010-5: 3.5.2.1.8, cockpit and crew station lighting MIL-STD-3009: 5.7.2.2, addresses NVIS compatible aircraft lighting and Visual acuity charts FAA Doc: 14CFR references: 23.1381-23.1401, 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.3.4",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Lighting for flight-critical tasks",
+      "text": "Criterion: Verify that lighting and illumination exists for crewmembers to perform all flight-critical tasks and that lighting systems are NVIS and laser eye protection (LEP) compatible, if applicable. Standard: a. A lighting system with sufficient luminance is provided so as not to degrade crew and/or operator performance throughout the anticipated range of flight-critical tasks. Aircrew members and/or operators are able to rapidly and accurately obtain required crew and/or control station information without vision enhancing devices. During day operations, illuminated visual signals and cockpit, crew station, and/or control station displays that are related to flight-critical tasks are readable in the full range of anticipated ambient lighting conditions in accordance with MIL-L-85762 and MIL-STD-3009. b. Instruments and their collocated controls (if applicable) that are used during flight-critical tasks are readable and discernible. The visibility of any graduations, numerals, pointers, or other specific markings is not restricted. Luminance uniformity is maintained throughout the entire range of luminance control. At any given luminance level, lighting components within a lighting subsystem provide luminance such that the average luminance ratio between lighted components is not greater than two to one. c. Displays are located so that they are legible from the operator or crew member position, under all expected illumination conditions from full darkness to direct sunlight (up to 10,000 fc), with adequate luminance, contrast and lighting balance. At any given luminance level, displays provide luminance such that the luminance variation between the brightest and dimmest areas is not greater than 30 percent and the luminance range does not degrade the operator(s) or aircrews ability to perform any flight critical tasks. d. The crew and/or control station lights do not cause direct or indirect glare or reflection that interfere with the aircrew member and/or operator\u2019s interior and exterior aided or unaided vision. e. The crew station and air vehicle lighting does not degrade aircrew visibility while using night vision devices or laser eye protection devices, and is sufficient to maintain flight and conduct safety critical tasks. The lights do not have a direct or indirect effect on the image intensification capabilities of the NVIS. NVIS lighting is compliant with MIL-L- 85762 and MIL-STD-3009. Method of Compliance: Specified levels for luminance, chromaticity, and daylight contrast of electronic and/or electro-optical displays are agreed to in the lighting test plan and approved by the airworthiness lighting technical expert during the certification basis review. a. Sufficient luminance is verified by direct measurement using calibrated photometric equipment that verifies specified levels required by MIL-L-85762, MIL-STD-3009 and JSSG-2010-5. b. Sufficient daylight contrast is verified by direct measurement using calibrated photometric equipment that verifies specified levels required by MIL-L-85762. c. Chromaticity is verified by direct measurement using calibrated colorimetric equipment that verifies specified levels required by MIL-STD-3009. d. Readability and discernibility of instruments is verified by lighting mockup or laboratory (SIL) and aircraft/control station demonstrations with human subjects, in addition to inspections of installed equipment and testing (i.e., making instrumented measurements). e. Non-interference with interior and exterior aided and unaided vision is verified by lighting mockup or laboratory (SIL) and aircraft/control station demonstrations with human subjects, in addition to inspections of installed equipment and testing. f. LEP compatibility is verified by lighting wavelength analysis and mockup/aircraft demonstrations indicating visibility is acceptable to conduct flight critical tasks. g. NVIS radiance is verified by direct measurement using calibrated radiometric equipment that verifies specified levels required by MIL-STD-3009. h. NVIS compatibility is verified by analysis of visual acuity comparison data using the system level verification testing methods for NVIS compatibility as described in MIL- STD-3009 and using methods and procedures of MIL-L-85762. References: JSSG-2010 JSSG-2010-5 MIL-STD-3009 MIL-L-85762 MIL-HDBK-87213 14 CFR 23.1381-23.1401; 25.1381-25.1403",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Lighting for flight-critical and safety-critical tasks",
+      "text": "Standard: The crew station lighting enables crewmembers to perform all flight-critical and safety-critical tasks under all anticipated lighting conditions. Luminance uniformity is maintained throughout the entire range of luminance control. Panel and associated controls (e.g., bezels, knobs, dials) luminance criteria are specified in MIL-DTL-7788, Luminance of Markings section. Within a lighting circuit, provide luminance such that the average luminance ratio between lighted components is not greater than two to one. All displays that present flight-critical and safety-critical information will meet the following: a. For day operation, high ambient contrast for graphic symbols and alphanumerics will be IAW MIL-L-85762, High Ambient Daylight Contrast Requirements table. b. For night operations, the minimum luminance adjustment will be less than or equal to 0.03 fL and the maximum luminance adjustment will be 4.4-8.8 fL. c. Provide luminance, within each display, such that the luminance variation between the brightest and dimmest areas is not greater than 30%. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: Measure luminance of installed components to ensure compliance with standard.\n(2) Ground test: Test luminance uniformity across the crew station throughout the entire range of luminance control. For displays, at any given luminance level, the average luminance variation will not exceed 30%.\n(3) Ground test: Test luminance uniformity across the crew station throughout the entire range of luminance control. For panels and associated controls (e.g., bezels, knobs, dials), at any given luminance setting, the average luminance ratio between other lighted components within the crew station is not greater than two to one.\n(4) Ground test: Test high ambient contrast of displays IAW MIL-L-85762, Monochrome Electronic and Electro-optical Display Inspection paragraph, MIL-L-85762, Minimum Contrast Requirements paragraph, MIL-L-85762, Reflected Luminance Measurements paragraph, MIL-L- 85762, Diffuse Reflected Luminance Measurements paragraph, and MIL-L-85762, Specular Reflected Luminance Measurements paragraph.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

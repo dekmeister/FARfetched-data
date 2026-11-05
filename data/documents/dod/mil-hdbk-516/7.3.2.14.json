@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.14",
+  "number": "8.8.12",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Rotor meshing",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.2.14",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that inadvertent operation of externally phased intermeshing-rotor systems cannot occur if the rotors become dephased and that cockpit indications are provided to the pilot.",
+      "text": "Verify that inadvertent operation of externally phased intermeshing-rotor systems cannot occur if the rotors become dephased and that cockpit indications are provided to the pilot.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.14",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Rotor meshing",
+      "text": "Criterion: Verify that operation of externally phased intermeshing-rotor systems cannot occur if the rotors become dephased. Verify that indications are provided to the pilot/operator that the rotors are locked in phase. Standard: For intermeshing-rotor systems, phased externally, means are provided in the power drive subsystem to prevent operation with dephased rotors. Dephasing devices are provided with positive mechanical interlocks to prevent operation of rotors unless they are locked in phase. Means are included for pilot/operator indication that the rotors are locked in phase. Method of Compliance: Verification methods include analysis, demonstration, inspection and review of documentation. Analysis and demonstration are accomplished during system verification for the air vehicle. Pilot/operator indication is verified by inspection, analysis of drawings and by demonstration (see also 9.2). References: JSSG-2009: K.3.4.11.9 MIL-HDBK-516: 9",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Rotor meshing",
+      "text": "Standard: Operation of externally phased intermeshing-rotor systems cannot occur if the rotors become dephased. Positive mechanical and electrical interlocks are provided to prevent the operation of rotors unless they are locked in phase. Means are included for flight crew indication that the rotors are locked in phase. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, design data records, inspection reports, ICD, test reports, or other substantiating reports) and confirm that interlock prevents the engine from being started if rotors are not in phase. Demonstration.\n  (1) Conduct demonstration on the air vehicle of the positive mechanical and electrical interlocks to verify that engine cannot be started if rotors are not in phase and indications are provided to the flight crew when rotors are in phase and locked.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

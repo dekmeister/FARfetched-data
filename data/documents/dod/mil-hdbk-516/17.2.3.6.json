@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.2.3.6",
+  "number": "17.2.3.6",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Armament and stores hazards of electromagnetic radiation to ordnance",
+  "subject_group": "17.2.3 Armament and stores electromagnetic environmental effects",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Armament and stores hazards of electromagnetic radiation to ordnance",
+      "text": "Standard: Stores with EIDs, which includes stores with FTSs, as well as adjacent store configurations, are not inadvertently activated, nor experience degraded performance, due to exposure to external radiated EME. This includes both direct RF-induced actuation and coupling to associated firing circuits during air system and store operations (e.g., inventory, carriage, employment, and jettison). Compliance with this standard is supported by HERO assessments, as specified in MIL-STD-464, Hazards of Electromagnetic Radiation to Ordnance (HERO) paragraph, and MIL-HDBK-240-2, HERO Test Process, Test Plan, Conducting the Test, and Data Analysis sections. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Perform HERO Safe, Unsafe, and Susceptible analysis for armament and stores configured with EIDs and its corresponding circuitry IAW MIL-HDBK-235-1, Calculations section, and NAVSEA OP 3565 Volume 1, Calculation of Electromagnetic Fields appendix. This includes the worst-case load out location to air system RF transmitters and adjacent stores configured with RF transmitters. Verify calculated HERO Safe, Unsafe, and Susceptible standoff distances are documented in the applicable maintenance and flight manuals. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (1) Ground test: Conduct high-level HERO testing on an instrumented store installed on the applicable air systems to assess the worst-case store loadout locations, ensuring a 16.5 dB safety margin for EIDs and a 6 dB margin for the associated firing circuitry IAW MIL-STD-464, Hazards of Electromagnetic Radiation to Ordnance (HERO) paragraph.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.1.11",
+  "number": "15.1.11",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Notification of loss of critical processing",
+  "subject_group": "15.1 System processing architecture",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Notification of loss of critical processing",
+      "text": "Criterion: Verify that the operator is notified upon the loss of flight critical processing capability or redundancy in flight critical processing. Standard: Flight critical processing systems have been identified. Built-In-Test (BIT) detects loss of redundant processing capabilities for flight critical systems. Operator is alerted to the loss of flight critical processing or the loss of redundancy in a flight critical processing system either through the notification of the functional loss/degradation that results, or the loss of redundant processing capacity. The annunciation of loss or degraded processing is properly prioritized. Unless a more stringent requirement is specified, latency time from detection to annunciation for flight critical alerts is no more than 100ms. Method of Compliance: Verification methods include test, demonstration, and inspection. Inspection of safety documentation identifies flight critical processing systems. Verify that proper annunciations have been designed into the system by inspecting requirements, design documentation and flight manuals. Test and/or demonstration verify the annunciations and proper prioritization to the operator when loss of flight critical processing or loss of redundancy occurs. Verify using FMET and system performance testing that the system BIT and response characteristics are acceptable and latency requirements are met. References: JSSG-2008 Appendix A: 3.1.11.2 pilot notification of modes; 3.1.12 Redundancy; 3.2.2.5.1.4 Annunciations/Warnings MIL-STD-882: For MIL-STD-882E: 4.3.4.d; B.2.2.5.a (see also MIL-STD-882D - 4.4.c; A.4.3.3.1.2.i) DoD JSSSEH: 3.6.2; E.1.3.1; E.6.1; E.8.4; E.9.1.1; E.9.6; E.9.7; E.9.8; E.11.11 FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.4.2 all anomalies, faults, and failures should be reported to operator in real time",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Notification of loss of critical processing",
+      "text": "Standard: 1. Verify that the flight crew are notified upon the loss of flight-critical processing capability or redundancy in flight-critical processing. Flight-critical processing systems have been identified. Fault detection and redundancy management design detects loss of redundant processing capabilities for flight-critical systems. Flight crew are alerted to the loss of flight-critical processing or the loss of redundancy in a flight-critical processing system through the notification of either the functional loss or degradation that results, or the loss of redundant processing capacity. The annunciation of loss or degraded processing is properly prioritized. The loss or degradation of flight-critical processing is detected and annunciated with functional response characteristics and latency that ensures the integrity of SCF operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, demonstration, and examination. Examination of safety documentation identifies flight-critical processing systems. Analysis identifies the functional response characteristics and maximum acceptable latency necessary to ensure the integrity of SCF operation. Examination of requirements documentation verifies the maximum acceptable latency is established as a requirement for the design. Verify that proper annunciations have been designed into the system by examining requirements, design documentation, and flight manuals. Test and demonstration verify the annunciations and proper prioritization to the flight crew when loss or degradation of flight-critical processing or loss of redundancy occurs. Verify using FMET and system performance testing that the system fault detection and redundancy management design detects and annunciates loss or degradation of flight-critical processing with functional response characteristics and latency that ensures the integrity of SCF operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

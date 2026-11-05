@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.4",
+  "number": "15.3.4",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Environmental qualification",
+  "subject_group": "15.3 Hardware elements",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Environmental qualification",
+      "text": "Criterion: Verify that all hardware processing elements are capable of safely operating within planned operational environments. Standard: All processing elements have been identified. The environmental requirements (e.g., Environmental Criteria Document) have been defined for natural and induced environmental conditions expected for air system locations/envelopes/operational environments. All processing hardware meets defined environmental requirements and component integrity standards (e.g., MIL-STD-1796 and MIL-STD-810 ). Refer to 4.1.5 Standard of this document for natural and induced environmental qualification requirement details. Method of Compliance: Verification methods include analysis and test. Verify that environmental life requirements are met by hardware processing elements through test and analysis. All processing elements are qualified to defined environmental requirements, and those requirements reflect current environments expected. References: JSSG-2005 Appendix A: A.3.2.3 product integrity of avionic units JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (III.2.n); 4.0 Laboratory Tests section (3.a and Component Tests subsection); 4.1 Analysis and Test sections; 3.1.6 Reliability; 3.1.7.2 System Arrangement; 3.1.14.1 invulnerability to natural environments; 3.1.14.2 and various subparagraphs address electromagnetic effects; 3.1.14.3 invulnerability to induced environments; 3.1.15 design operational usage; 3.2.3.3 packaging and mounting; 3.3.2 processing hardware; 3.3.2.3 processing components; 3.4 Requirement Guidance item h component construction; 3.4.2 Durability MIL-HDBK-217: Reliability Predictions of Electronic Equipment MIL-STD-461: Electromagnetic Compatibility MIL-HDBK-516: Section 4 MIL-STD-810: Environmental Engineering Considerations and Laboratory Tests MIL-STD-1796: Avionics Integrity Program RTCA DO-160 IEEE Std 1012-2012: 8.2 Activity 7.a.1 CMU/SEI-2010-TR-033, CMMI for Development Ver. 1.3: Validation section SP 2.1 (pg. 398) product should perform as expected in operational environment FAA AC 23.1309 FAA AC 25.1309",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Environmental qualification",
+      "text": "Standard: 1. Verify that all hardware elements are capable of safely operating within planned operational environments. All hardware elements have been identified. The environmental requirements (e.g., environmental criteria document) have been defined for natural and induced environmental conditions expected for air system locations, envelopes, and operational environments. All hardware elements meet defined environmental requirements and component integrity standards (e.g., MIL-STD-1796 and MIL-STD-810). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Verify that environmental life requirements are met by hardware elements through test and analysis. All hardware elements are qualified to defined environmental requirements and those requirements reflect current environments expected.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

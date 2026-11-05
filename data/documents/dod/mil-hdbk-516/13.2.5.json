@@ -1,0 +1,63 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.5",
+  "number": "13.2.8",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Electrical bonding",
+  "subject_group": "13.2 System-level E3",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "13.2.5",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that electrical bonding is safe.",
+      "text": "Verify that electrical bonding is safe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "13.2.5",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system electrical bonding is adequate to ensure safe E3 system performance.",
+      "text": "Verify that the system electrical bonding is adequate to ensure safe E3 system performance.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system electrical bonding is adequate to ensure safe system operation.",
+      "text": "Verify that the system electrical bonding is adequate to ensure safe system operation. DoD/MIL Doc: MIL-STD-464, section 5.10",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Electrical bonding",
+      "text": "Criterion: Verify that the air system electrical bonding is adequate to ensure safe system operation. Standard: Electrical bonding is required for the control of the electromagnetic effects environments, and it is specified in accordance with the characteristics of the materials used. The air system bonding requirements are defined in MIL-STD-464, 5.11 (for Army, only 5.11.3c with 2.5 milli-ohms or less per faying surface lifetime). Method of Compliance: Verification is accomplished by bonding measurements or by validated bonding assembly/process specifications backed by empirical/test data. Reference: MIL-STD-464: 5.11",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Electrical bonding",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

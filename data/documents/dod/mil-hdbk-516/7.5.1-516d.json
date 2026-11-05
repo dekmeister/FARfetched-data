@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.5.1-516d",
+  "number": "7.5.1",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Performance and operability",
+  "subject_group": "7.5 Propeller and propeller drive systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Performance and operability",
+      "text": "Standard: Propeller steady-state performance, transient performance, and operability is characterized with representative installation effects over the range of flight conditions and operational environments expected and is shown to meet the critical performance conditions of the air system without exceeding defined engine operating limits and without detrimental permanent deformation or damage when operated, under steady state and transient conditions, IAW 7.5.2 for the stated life documented in technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., ICDs, environmental criteria documents) to verify that operational environments and installation effects have been defined and utilized in the characterization of performance and operability. Analysis.\n  (1) Analyses performed with a validated, configuration-controlled, steady state and transient, propeller performance model calibrated to measured test data for characterization of performance and operability. Test.\n    (1) Lab test: Whirl stand tests verify sea level static performance of the propeller.\n    (2) Lab test: Engine-propeller system combination ground-based cell tests characterize and verify steady state and transient performance and operability. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Engine-propeller system combination flight tests characterize and verify the installed steady state and transient performance and operability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

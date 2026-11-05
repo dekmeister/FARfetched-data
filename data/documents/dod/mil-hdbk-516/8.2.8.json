@@ -1,0 +1,73 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.8",
+  "number": "8.2.7",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Operator interface",
+  "subject_group": "8.2 Environmental control system (ECS)",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the EMS are installed in the crew station or other appropriate locations.",
+      "text": "Verify that adequate controls and displays for the EMS are installed in the crew station or other appropriate locations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "8.2.8",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the EMS are installed in the crew station/ground segment control station or other appropriate locations to allow the EMS to function as intended.",
+      "text": "Verify that adequate controls and displays for the EMS are installed in the crew station/ground segment control station or other appropriate locations to allow the EMS to function as intended.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the ECS are installed in the crew station/ground segment control station or other appropriate locations to allow the ECS to function as intended.",
+      "text": "Verify that adequate controls and displays for the ECS are installed in the crew station/ground segment control station or other appropriate locations to allow the ECS to function as intended. DoD/MIL Doc: JSSG-2009: para D.3.4.4.3/D.4.4.4.3 ECS crew station interface",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that adequate controls and displays for the ECS are installed in the crew station/ground segment control station or other appropriate locations to allow the ECS to function as intended.",
+      "text": "Verify that adequate controls and displays for the ECS are installed in the crew station/ground segment control station or other appropriate locations to allow the ECS to function as intended. DoD/MIL Doc: JSSG-2009: D.3.4.4.3/D.4.4.4.3 ECS crew station interface",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "text": "Criterion: Verify that adequate controls and displays for the environmental control system are installed in the crew station/control station or other appropriate locations to allow the environmental control system to function as intended. Standard: Adequate provisions exist from a controls and display perspective to ensure the functional integrity of the design for safety of flight operations. Sufficient cautions, warnings, and advisories are provided to alert the pilot, operator and/or crew to problems in time for corrective action to be taken from a safety of flight perspective. Method of Compliance: Inspection of drawings and the air vehicle system verifies the incorporation of the required controls, warning, cautions, and advisories. Analysis and test demonstrate functionality of all controls, sensors, and warning devices. References: JSSG-2009: D.3.4.4.3, D.4.4.4.3 ECS crew station interface",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Operator interface",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

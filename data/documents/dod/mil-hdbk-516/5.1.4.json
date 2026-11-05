@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "5.1.4",
+  "number": "5.1.4",
+  "current_grouping": "5. STRUCTURES",
+  "canonical_title": "Verify that the airframe is designed such that all loads resulting from or following single or multiple system failures are limit loads.",
+  "subject_group": "5.1 Loads",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that all loads resulting from or following single or multiple system failures are limit loads.",
+      "text": "Verify that the airframe is designed such that all loads resulting from or following single or multiple system failures are limit loads. Also verify that loads resulting from a single component failure are designed as limit loads regardless of probability of occurrence. DoD/MIL Doc: JSSG-2006: para A3.2.22, A4.2.22.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "5. STRUCTURES",
+      "title_at_revision": "Verify that the airframe is designed such that all loads resulting from or following single or multiple system failures are limit loads.",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.1.2-516b",
+  "number": "7.1.2",
+  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "canonical_title": "Engine out",
+  "subject_group": "7.1 Propulsion risk management",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that an engine out condition on multi-engine aircraft allows safe recovery of the aircraft.",
+      "text": "Verify that an engine out condition on multi-engine aircraft allows safe recovery of the aircraft. DoD/MIL Doc: JSSG-2007A: para A.3.2, A.4.2, A.3.11, A.4.11, A.3.12, A.4.12. FAA Doc: 14CFR references: 33.35, 33.5, 33.7, 33.8 AC 33-2B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that an engine out condition on multi-engine aircraft allows safe recovery of the aircraft.",
+      "text": "Verify that an engine out condition on multi-engine aircraft allows safe recovery of the aircraft. DoD/MIL Doc: JSSG-2007A: A.3.2, A.4.2, A.3.11, A.4.11, A.3.12, A.4.12 FAA Doc: 14CFR references: 33.35, 33.5, 33.7, 33.8 AC 33-2B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Engine out",
+      "text": "Criterion: Verify that an engine out condition on multi-engine aircraft allows safe recovery of the aircraft. Standard: Special control modes to address engine out conditions are characterized to allow safe recovery of the air vehicle (see also 6.3.4). Method of Compliance: Verification methods include a combination of engine test, analysis and review of documentation. Testing is done at representative ground and altitude conditions to characterize and verify special control mode performance. Analysis is performed with a model based on measured test data for characterization of performance at conditions that have not been tested. References: JSSG-2007: A.3.2, A.4.2; A.3.11, A.4.11; A.3.12, A.4.12. 14 CFR 33.35, 33.5, 33.7, 33.8 FAA AC 33-2",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Engine out",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

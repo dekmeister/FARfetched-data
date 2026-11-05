@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.7",
+  "number": "6.1.6.16",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Pedal force during wave off (go-around)",
+  "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.7.7",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Yaw control forces in waveoff (go-around)",
+      "text": "Criterion: Verify that yaw control forces in waveoff (go-around) are safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.3.7 Yaw control forces in waveoff (go-around) (see table LXV for guidance). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.143 General 14 CFR 25.143 General",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Pedal force during wave off (go-around)",
+      "text": "Standard: The pedal control force required to maintain straight flight during waveoff (go-around) due to thrust, configuration, and airspeed changes is no worse than Level 2 as specified in MIL-STD-1797, Yaw Control Forces in Waveoff (Go-Around) paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the air vehicle's yaw control force during waveoff (go-around) as specified in MIL-STD-1797, Yaw Control Forces in Waveoff (Go-Around) paragraph for each combination of air vehicle states and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the yaw control forces in during waveoff (go-around) as specified in MIL-STD-1797, Yaw Control Forces in Waveoff (Go- Around) paragraph for each combination of air vehicle states and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the yaw control forces in during waveoff (go-around) as specified in MIL-STD-1797, Yaw Control Forces in Waveoff (Go-Around) paragraph for selected combinations of air vehicle states and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.4.1.4",
+  "number": "11.4.1.4",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Critical failure (degradation) reporting",
+  "subject_group": "11.4.1 Air system diagnostics ability to detect and report critical failures",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Critical failure (degradation) reporting",
+      "text": "Standard: The avionics and diagnostics systems provide notification of all critical failures or degradations to the flight crew or responding system within 100 milliseconds. A different system specified value can be used if analysis and testing show there is no impact to the flight crew or system response time. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system and subsystem specifications to identify specified latency values for critical failures and degradation reporting.\n(2) Review design documentation to identify critical failure and degradation reporting methods.\n(3) Review FMEA, FMECA, SHA and SCFTA to identify critical failure and degradation reporting methods. Analysis.\n  (1) Conduct a timing analysis to verify critical failure reporting latency, to verify worst-case elapsed time from moment of failure to flight crew notification, is no greater than 100 milliseconds. A different specified value could be used if analysis and testing show there is no impact to the flight crew or system response time. Test.\n    (1) Lab test: Conduct laboratory testing to validate the analysis and demonstrate critical failures and degradations are reported and meet the timing requirements.\n    (2) Ground test: Conduct air vehicle ground testing to verify critical failures are reported. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: During flight testing, record any critical failures encountered. The avionics and diagnostics system demonstrate accurate and timely reporting of those failures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

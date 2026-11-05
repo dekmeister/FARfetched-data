@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.3.1",
+  "number": "13.2.3.1",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "canonical_title": "Direct effects",
+  "subject_group": "13.2.3 Lightning",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "title_at_revision": "Direct effects",
+      "text": "Standard: The air system withstands the direct effects of lightning when exposed to the external lightning environment defined in MIL-STD-464, Lightning paragraph or SAE ARP5412, Idealized Standard External Lightning Environment section, following RTCA DO-160, Lightning Direct Effects section by protecting against physical damage to air vehicle structures, systems, and components that does not result in handling qualities worse than Level 2 or adversely affecting SCFs. In addition, the fuel system design prevents the ignitions of fuel vapor from lightning direct effects by eliminating possible ignition sources or reducing flammability via active inerting of the fuel system. Physical damage from Lightning Direct Effects can include: a. Damage to the OML: 1. Skin puncture to fuel boundaries or pressurized bulkheads. 2. Foreign object debris to critical systems such as engine. 3. Structural damage to flight control surfaces. b. Fuel system sparks that ignite fuel ullage: 1. Sparking from skin fasteners and structural joints within fuel areas. 2. Excessive electrical current through fluid transport tubing flexible couplers. 3. Arcing from dielectric voltage breakdown between conductors. c. Damage to electronics: 1. Electrical transients on electrical wiring connected to externally exposed antennas, equipment, and harnesses subject to direct lightning attachment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Perform analysis to verify that laboratory testing does not result in damage that causes handling qualities to be worse than Level 2.\n(2) Perform analysis to verify that the laboratory test results do not adversely affect SCF culminating in a catastrophic or critical event. Test.\n  (1) Lab test: Full scale testing of radomes, canopies, externally mounted sensors, rotor blades and antennas.\n  (2) Lab test: Coupon testing to demonstrate no puncture of air vehicle skin/structure using representative samples that include features such as treatments, coatings, or fasteners.\n  (3) Lab test: For fuel systems design without active inerting, verify that ignition sources have been eliminated via high current testing of fuel system representative components following SAE ARP5416 Ignitable Mixture (Flammable Gas) Test Method or equivalent test methods such as RTCA DO-160 Ignitable Mixture (Flammable Gas) Test Method.\n  (4) Lab test: For fuel system design with active inerting, verify by measuring the oxygen content of the tanks that inerting is maintained throughout the flight envelope and ground operations.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

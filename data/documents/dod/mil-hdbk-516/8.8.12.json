@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.12",
+  "number": "7.2.9",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Thrust reverser or thrust vectoring",
+  "subject_group": "7.2 Propulsion performance and operability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.8.12",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems.",
+      "text": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.5.4.2",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems.",
+      "text": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.12 to A.4.1.1.13, for exhaust system and thrust reverser interfaces design and verification guidance. JSSG-2007A: para A.3.7.10, A.4.7.10, Exhaust Nozzle System and A.3.7.10.2, A.4.7.10.2, Vectored Nozzle.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.5.4.2",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems.",
+      "text": "Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle systems. DoD/MIL Doc: JSSG-2007A: A.3.1.1.12 to A.4.1.1.13, for exhaust system and thrust reverser interfaces design and verification guidance; A.3.7.10, A.4.7.10, Exhaust Nozzle System and A.3.7.10.2, A.4.7.10.2, Vectored Nozzle",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.5.4.2",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Thrust reverser/thrust vectoring",
+      "text": "Criterion: Verify that thrust reverser/thrust vectoring systems are fail-safe and compatible with engine and air vehicle (sub)systems. Standard: Thrust reverser/thrust vectoring operation does not adversely affect engine performance, operability or aircraft structure. No single failure or combination of failures results in an unacceptable risk in accordance with 7.1.1. Forces and moments and dynamic response from the thrust vector are quantified and compatible with aircraft flying qualities. Method of Compliance: Verification methods include analysis, test and review of documentation. Analyses (e.g., Failure Modes and Effects Criticality Analysis, System Safety Hazard Analysis) verify the design is free from single or combined failures modes that would create an unacceptable risk hazard. Analysis of reverser flow field patterns verifies acceptable conditions relative to impingement, inlet ingestion (e.g., propulsive, environmental control system, ventilation, auxiliary power system), and FOD/Sand and Dust generation. Ground tests demonstrate reverser safety features and compatibility with engines and airframe. Flight tests demonstrate safe reverser deployment and operation. References: JSSG-2007: A.3.1.1.12, A.4.1.1.13 for exhaust system and thrust reverser interfaces design and verification guidance; A.3.7.10, A.4.7.10 Exhaust Nozzle System; and A.3.7.10.2, A.4.7.10.2 Vectored Nozzle",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Thrust reverser or thrust vectoring",
+      "text": "Standard: Thrust reverser or thrust vectoring operation does not adversely affect engine beyond what satisfies 7.2 standards without exceeding defined engine operating limits and without detrimental permanent deformation or damage when operated under steady state and transient operating conditions, throughout the flight and ground envelope per 7.3.1 for the stated life documented in engine technical data. Forces and moments and DR from the thrust vector are quantified, documented, and compatible with the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation (e.g., ICD) shows operation of the reverser or vectoring is compatible with air vehicle flying qualities interface requirements. Analysis.\n  (1) Analysis of reverser or vectoring flow field patterns verifies compatibility relative to impingement, inlet ingestion (e.g., propulsive, ECS, ventilation, auxiliary power system), FOD, and sand and dust generation. Test.\n    (1) Ground or Lab test: Ground-based sea level cell tests or ground tests verify reverser or vectoring safety features and compatibility with engines and air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) During flight testing, demonstrate reverser deployment. Test.\n      (2) Flight test: Flight testing to characterize reverser or vectoring operation.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

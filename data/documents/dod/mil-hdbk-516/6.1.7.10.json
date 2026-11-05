@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.1.7.10",
+  "number": "6.1.6.18",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Lateral-directional control in crosswinds",
+  "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.1.7.10",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control in crosswinds",
+      "text": "Criterion: Verify that lateral-directional control in crosswinds is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.10 Lateral-directional control in crosswinds (see tables LXXIII and LXXIV for guidance) b. 5.2.3.10.1 Final approach in crosswinds c. 5.2.3.10.2 Take-off run and landing rollout in crosswinds (1) 5.2.3.10.2.1 Additional requirements for carrier-based air vehicles (2) For alternate and unique launch and recovery methods the air vehicle system exhibits safe flight characteristics for all flight conditions in the launch and recovery envelopes. d. 5.2.3.10.3 Taxiing wind speed limits. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.9.3 Wheeled rotorcraft ground requirements. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.233 Directional stability and control. 14 CFR 25.233 Directional stability and control; 25.237 Wind velocities. 14 CFR 27.143 Controllability and maneuverability.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Lateral-directional control in crosswinds",
+      "text": "Standard: During takeoff and landing, roll and yaw control forces in up to maximum crosswind are no worse than Level 2 as specified in MIL-STD-1797, Lateral-Directional Control in Crosswinds paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the roll and yaw control forces required for a takeoff or landing in up to maximum crosswinds as specified in MIL-STD-1797, Lateral- Directional Control in Crosswinds paragraph, Final Approach in Crosswinds paragraph, Takeoff Run and Landing Rollout in Crosswinds paragraph, and Taxiing Wind Speed Limits paragraph, for each combination of air vehicle states, runway conditions, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the roll and yaw control forces required for a takeoff or landing in up to maximum crosswinds as specified in MIL-STD-1797, Lateral-Directional Control in Crosswinds paragraph, Final Approach in Crosswinds paragraph, Takeoff Run and Landing Rollout in Crosswinds paragraph, and Taxiing Wind Speed Limits paragraph, for each combination of air vehicle states, runway conditions, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the roll and yaw control forces required for a takeoff or landing in up to maximum crosswinds as specified in MIL-STD-1797, Lateral-Directional Control in Crosswinds paragraph, Final Approach in Crosswinds paragraph, Takeoff Run and Landing Rollout in Crosswinds paragraph, and Taxiing Wind Speed Limits paragraph, for selected combinations of air vehicle states, runway conditions, and environmental conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

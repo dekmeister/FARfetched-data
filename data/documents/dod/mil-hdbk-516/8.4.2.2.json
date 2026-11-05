@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.4.2.2",
+  "number": "8.4.2.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fire resistant",
+  "subject_group": "8.4.2 Fire hardening",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fire resistant",
+      "text": "Standard: Material or components that function to isolate a fire and configure the air vehicle to fight a fire, such as valves, actuators, airflow controls, and powerplant (e.g., engine, APU) installation components such as fluid-carrying line, flammable fluid system components, drainage and ventilation collection systems, wiring, air ducts, fittings, and powerplant controls are fire resistant and able to function under worst-case conditions for a minimum of five minutes (e.g., JP-8 at 2000 \u00b0F and 10 BTU/s/ft2 ). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Safety-critical or fire zone items are identified, and hazard analysis determines the level of fire resistance needed for each item.\n(2) Analysis shows safety-critical and fire zone items can survive worst-case fire conditions that may be encountered while continuing to perform intended function for the time needed (minimum of five minutes) to be fire resistant as determined by the hazard analysis. Test.\n  (1) Lab test: Safety-critical or fire zone items are shown to survive worst-case fire conditions that may be encountered while continuing to perform intended function for the time needed (minimum of five minutes) to be fire resistant as determined by the hazard analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

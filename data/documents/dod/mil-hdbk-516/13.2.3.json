@@ -1,0 +1,63 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "13.2.3",
+  "number": "13.2.4",
+  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+  "canonical_title": "Lightning effects",
+  "subject_group": "13.2 System-level E3",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "13.2.3",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system has met all requirements for lightning direct and indirect effects, and any potential for ignition of fuel vapors has been eliminated.",
+      "text": "Verify that the system has met all requirements for lightning direct and indirect effects, and any potential for ignition of fuel vapors has been eliminated.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "13.2.2",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system has met all requirements for lightning either direct (physical) or indirect (electromagnetic) effects.",
+      "text": "Verify that the system has met all requirements for lightning either direct (physical) or indirect (electromagnetic) effects.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Verify that the system has met all requirements for lightning, either direct (physical) or indirect (electromagnetic) effects and that any potential for ignition of fuel vapors are eliminated.",
+      "text": "Verify that the system has met all requirements for lightning, either direct (physical) or indirect (electromagnetic) effects and that any potential for ignition of fuel vapors are eliminated. Comm\u2019l Doc: SAE ARP5412, section 4. DoD/MIL Doc: MIL-STD-464, section 5.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Lightning effects",
+      "text": "Criterion: Verify that the air system has met all requirements for lightning, either direct (physical) or indirect (electromagnetic) effects and that any potential for ignition of fuel vapors is eliminated. Standard: During flight, the air system can withstand the direct effects of lightning when exposed to the external lightning environment of 5.5 of MIL-STD-464 or an equivalent environment such as in SAE ARP5412 (SAE ARP5412 is non-applicable for Army). Also during flight, the air system can withstand the indirect effects of lightning which include current and voltage transients coupled to the wiring and air system equipment. The indirect effect requirements are determined by an aircraft level analysis when the aircraft is exposed to the external lightning environment defined in 5.5 of MIL-STD-464 or an equivalent environment such as in SAE ARP5412 (SAE ARP5412 is non-applicable for Army). The requirement for eliminating the potential for ignition of fuel vapors is achieved by eliminating possible ignition sources and reducing flammability when the air system is exposed to the external lightning environment of 5.5 of MIL-STD-464 or an equivalent environment such as in SAE ARP5412 (SAE ARP5412 is non-applicable for Army). The elimination of ignition sources can be accomplished by: a. Inerting fuel tanks or, b. If tanks are not inerted:\n(1) Providing electrical insulation for the tank's fasteners.\n(2) Electrically bonding the lines and wires penetrating the fuel tanks to the dry part of the fuel tank structure or interrupting the low electrical conductivity of these lines inside the fuel tanks using line isolators. Method of Compliance: Lightning Direct Effects: a. Coupon testing to demonstrate no puncture of aircraft skin/structure. This includes full scale testing of radomes and canopies. b. Fuel tanks:\n  (1) If fuel tanks are not inerted, electrical bonding measurements of lines and wiring penetrating fuel tanks, or via validated electrical bonding process specifications.\n  (2) If fuel tanks are inerted, verify by measuring the oxygen content of the tanks. Lightning Indirect Effects: a. Air system level analysis. b. Tests using high level pulse or low level continuous wave (CW) techniques and analysis of the test results. References: MIL-STD-464: 5.5 SAE ARP5412",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "title_at_revision": "Lightning effects",
+      "deleted": true,
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

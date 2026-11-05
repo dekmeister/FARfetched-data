@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "6.2.3.2-516c",
+  "number": "6.2.9.2",
+  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "canonical_title": "Actuator failure accommodation",
+  "subject_group": "6.2.9 Vehicle control function actuators",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "6.2.3.2",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Failure detection and isolation",
+      "text": "Criterion: Verify that the VCF actuation failure detection and isolation design is safe. Standard: Separation and isolation are provided for the VCF actuation to ensure that the probability of propagated or common mode failure is extremely remote (1x10^-9) or as specified by the procuring activity. Actuator combinations of redundancy and integration management are monitored, conditioned, and transmitted at a sufficient rate for Pilot Vehicle Interface (PVI) display requirements. A combination of a single hydraulic and single actuator failure does not reduce VCF performance below Operational State III. Actuator failure detection and isolation design addresses redundant servos and techniques for all single point failures. Actuator design accounts for hydraulic contamination effects, valve shearing force, or any other contaminations. Switching between redundant functions based on failure detection and isolation does not cause a disruption which would jeopardize the air vehicle or aircrew. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. Actuator failure testing is done to the lowest Line Replaceable Unit (LRU)/Line Replaceable Module (LRM). Hardware-In-The-Loop (HITL) FMET (failure modes tests) verifies failure detection, isolation and accommodation. A HITL and/or Iron Bird (IB) facility that integrates VCF control hardware with air vehicle subsystems (e.g., hydraulics and electrical power) provides a high fidelity facility to develop, integrate, and test the aircraft as a total system. Stability of the actuation system is verified by a combination of simulation and laboratory testing of individual components. Failure Modes and Effect Analysis (FMEA) is used to verify and assess failure scenarios and probabilities. References: JSSG-2008",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "title_at_revision": "Actuator failure accommodation",
+      "text": "Standard: Actuator failure detection and isolation supports the VCF function throughout the RORH flight envelope or permissible envelope. A combination of a single hydraulic, electrical, or electronic system failure and a single actuator failure does not reduce VCF performance below Operational State III. Vehicle control function actuators failure detection, isolation, and reconfiguration time is less than or equal to 100 milliseconds. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review the documents that list all monitored, detected, and annunciated actuator faults to verify fault coverage. Test.\n  (1) Lab test: Verify all actuator FMET test cases have been successfully completed.\n  (2) Lab test: Verify detection, isolation, and reconfiguration time associated with actuator failure accommodation meets the threshold in the standard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

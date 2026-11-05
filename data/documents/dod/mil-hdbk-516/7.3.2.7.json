@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.2.7",
+  "number": "8.8.21",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Control system stability",
+  "subject_group": "8.8 Rotary-wing drive system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.3.2.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine's control/rotor system torsional stability has required gain and phase margins and main rotor torque damping during steady-state and transient operation.",
+      "text": "Verify that the engine's control/rotor system torsional stability has required gain and phase margins and main rotor torque damping during steady-state and transient operation. FAA Doc: 14CFR references:29.939",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.3.2.7",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Control system stability",
+      "text": "Criterion: Verify that the engine's control/rotor system torsional stability has required gain and phase margins and main rotor torque damping during steady-state and transient operation. Standard: Engine control is stable throughout the operational envelope of the air vehicle and over the operating range of the engine. Control system gain margin is a minimum of 6dB for both single engine and multi-engine operation. Drive train resonant peaks are attenuated by at least 6dB below unity gain. Control system phase margin is between 30 degrees and 60 degrees for both single engine and multi-engine operation. Method of Compliance: Verification is by simulation, analysis, and test. The analysis includes linearized models of the engine control loops and the rotor system. The control design is verified throughout the operational envelope of the helicopter, including ambient conditions, engine power level, airspeed, and degraded lag damper operation, etc. Open and closed loop bench testing of the control with a simulation of the engines and helicopter shows stable operation and compliance with the design goals of the engine control system. Engine control system stability is evaluated by flight test. The pilot\u2019s and operator's controls (collective and/or cyclic) are cycled at the frequency of interest to demonstrate stable control response. Other methods that excite drive train torsional modes are also acceptable, such as fuel flow interrupts or pedal inputs. Testing is conducted at multiple power levels and rotor speeds as necessary to show stable response throughout the operational envelope of the helicopter. References: ADS-1-PRF ADS-50-PRF 14 CFR 29.939",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Control system stability",
+      "text": "Standard: Rotary-wing engine system control system maintains both stable operation and response during all steady state and transient operations of the flight envelope. Rotary-wing system control loops maintain a minimum of 6 dB gain margin and between 30 and 60 degrees of phase margin. Drive train resonant peaks are attenuated by a minimum of 6 dB below unity gain. Control systems maintain required margins for both single and multi-engine air vehicle operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., design data records, test reports, and other substantiating records and reports) and verify that the design meets phase and gain stability margins in the standard. Analysis.\n  (1) Torsional stability analysis verifies phase and gain stability margins meet the standard. Analysis includes linearized models of the engine control loops and rotor system for predicting performance throughout the flight envelope of the air vehicle. Test.\n    (1) Lab test: Conduct open and closed loop bench testing to verify control loops maintain a 6 dB gain margin and between 30 and 60 degrees of phase margin stable operation. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight testing to verify stable control response to flight crew commands.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

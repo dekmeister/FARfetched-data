@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.3.26",
+  "number": "7.3.26",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Bird ingestion",
+  "subject_group": "7.3 Propulsion structural integrity",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Bird ingestion",
+      "text": "Standard: Critical ingestion parameters affecting engine power loss and damage are defined for the independent Medium bird ingestion and Large bird ingestion conditions described below. Critical ingestion parameters include the following effects and are uniquely defined for static and rotating hardware capable of being struck by birds or bird debris: a. Bird ingestion speed. b. Critical target location(s), including entry into core. c. Rotor speed or engine power setting. Note: Critical bird ingestion speeds reflect the most critical conditions within the range of airspeeds used for flight operations, including low-level, high-speed operation and powered lift operation if applicable, up to 6000 ft AGL. Medium bird ingestion Following ingestion of one bird weighing 2.5 lbs at the determined critical ingestion parameters, the engine: a. Does not experience non-recoverable flameout or stall (IAW 7.2.6). b. Retains functional and structural capability to enable successful recovery of the air vehicle. Large bird ingestion Ingestion of one bird weighing 4.4 lbs at the determined critical ingestion parameters does not cause or result in: a. Catastrophic failure of: 1. Primary engine structure (e.g., cases, frames, ducts, struts, links). 2. Rotor structure and shafts. 3. Engine mount system leading to inadvertent engine separation. b. Uncontained failure or fire. c. External leakage of flammable fluid. d. Engine rotor overspeed. e. Loss of ability to shut down engine. f. Catastrophic damage to the air vehicle or adjacent engines. For inlet throat areas greater than 2092 in2 follow 14 CFR 33.76, Large Bird Weight Requirements table for large bird ingestion weight. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis is conducted to determine the critical ingestion conditions affecting engine power loss and damage.\n(2) Impact analysis is conducted for rotating and static hardware to assess strain, strain rate, deflection, deformation, and potential clashing or interaction with other components.\n(3) Dynamic analysis is conducted to assess effect of impact and component damage on imbalance, vibration, torque, deflection, and system-level effects. Test.\n  (1) Lab test: Full engine test in a ground-based sea level test cell is necessary to ensure all interactive and system-level effects of a bird strike are properly accounted for (e.g., imbalance, high vibration, rotor-to-stator contact, main shaft torque, progressive damage, performance or operability effects (see 7.2.2)).",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.2.16",
+  "number": "8.2.10",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Equipment thermal management",
+  "subject_group": "8.2 Environmental control systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.2.16",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle\u2019s thermal management system is stable for all flight conditions and environments.",
+      "text": "Verify that the air vehicle\u2019s thermal management system is stable for all flight conditions and environments.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.2.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle's thermal management system is stable for all flight conditions and environments.",
+      "text": "Verify that the air vehicle's thermal management system is stable for all flight conditions and environments. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.2, D.3.4.4.18, D.4.4.4.2, D.4.4.4.18 JSSG-2001: para 3.3.10, 3.3.10.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "8.2.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the air vehicle's thermal management system is stable for all flight conditions and environments.",
+      "text": "Verify that the air vehicle's thermal management system is stable for all flight conditions and environments. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.2, D.3.4.4.18, D.4.4.4.2, D.4.4.4.18 JSSG-2001: 3.3.10, 3.3.10.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.2.15",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Thermal management",
+      "text": "Criterion: Verify that the air vehicle's thermal management system is stable and meets all safety of flight performance requirements throughout the design envelope. Standard: Mass flow and delivery temperature of thermal management media are sufficient for the air vehicle system heat loads and provide the necessary thermal stability to ensure safety of flight conditions for the air vehicle system. Thermal conditioning ensures there is no loss of critical function. Method of Compliance: The standard is verified by the following activities: a. Analysis/simulation establishes the energy balance requirements for the air vehicle system. b. Dynamic control system analysis verifies that system stability exists to ensure safety of flight. c. Simulation profiles the system stability critical envelope points. This study is performed to bound the limitations of the ECS responsibility for thermal stability of the air vehicle system. d. Ground-based thermal survey of the air vehicle system validates the thermal analyses and system stability projections. e. Thermal survey conducted during air vehicle system flight testing validates the fidelity of model projections and viability of the design. References: JSSG-2001: 3.3.10, 3.3.10.1 JSSG-2009: D.3.4.4.2, D.4.4.4.2; D.3.4.4.18, D.4.4.4.18",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Equipment thermal management",
+      "text": "Standard: The ECS meets all SOF thermal conditioning requirements of the equipment specifications throughout the flight envelope. Mass flow and delivery temperature of thermal management media (e.g. bleed air, ram air, vapor cycle refrigerant, polyalphaolefin) meet thermal requirements of flight-critical equipment during continuous operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct thermal analysis to verify that ECS thermal conditioning meets the thermal management requirements of the air vehicle and maintains flight-critical equipment temperatures within operating limits across the flight envelope. Test.\n  (1) Lab test: Conduct system-level testing to verify that the ECS meets the thermal management requirements of flight-critical equipment in the installed environment. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (2) Flight test: Conduct flight testing to validate the thermal analysis and to verify that the ECS meets the thermal management requirements of flight-critical equipment throughout the flight envelope.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

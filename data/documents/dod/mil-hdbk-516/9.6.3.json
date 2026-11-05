@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.6.3",
+  "number": "9.8.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Transparency system structural and thermal capabilities",
+  "subject_group": "9.8 Transparency integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.6.3",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions.",
+      "text": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.6.3",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions.",
+      "text": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions. DoD/MIL Doc: JSSG-2010-14: para 3.14, 4.14 FAA Doc: 14CFR references: 23.775, 25.775",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.6.3",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions.",
+      "text": "Verify that the structural/thermal capability of the transparency system is adequate for all loads and flight conditions. DoD/MIL Doc: JSSG-2010-14: 3.14, 4.14 FAA Doc: 14CFR references: 23.775, 25.775",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.6.3",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Transparency system structural/thermal capabilities",
+      "text": "Criterion: Verify that the structural/thermal capability of the transparency system, including any remote sensing/camera system, is adequate for all loads and flight conditions. Standard: Transparency system, including any remote sensing/camera system does not fail when exposed to maximum thermal and structural load stresses that may be experienced in operational conditions. Method of Compliance: Structural analysis verifies stresses within material allowables. Coupon or full scale transparency tests verify thermal and flight load capabilities. References: JSSG-2010-14: 3.14, 4.14 14 CFR 23.775, 25.775, 27.775, 29.775",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Transparency system structural and thermal capabilities",
+      "text": "Standard: Transparency systems do not fail when exposed to maximum thermal and structural load stresses experienced in operational conditions. The maximum cabin pressure differential loads, combined with critical aerodynamic pressure and temperature effects, are considered and are consistent with the structural design requirements of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a structural analysis to verify that the maximum thermal and structural load stresses are within material allowables. Test.\n  (1) Lab test: Coupon or full-scale transparency tests verify that material properties are consistent with the maximum thermal and structural load capabilities.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

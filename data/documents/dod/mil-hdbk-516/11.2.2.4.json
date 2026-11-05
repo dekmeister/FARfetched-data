@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.2.2.4",
+  "number": "11.2.2.4",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Interfaces and failure propagation",
+  "subject_group": "11.2.2 Off nominal conditions",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Interfaces and failure propagation",
+      "text": "Standard: Physical and functional interface failures do not result in HMI or the loss of SCFs. All failures for backup and emergency modes, including transition between modes, are defined, documented, and tested. Failures do not propagate through SCF threads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify FMEA and SHA identify failures and their effects for interfaces and mode transitions to preclude loss or degradation of SCFs.\n(2) Analyze SCFTA to identify possible points of failure propagation for interface failures along the safety-critical avionics threads. Test.\n  (1) Lab test: Conduct subsystem- and system-level testing to verify there are no interface failures that could degrade SOF items or equipment. Conduct system-level FMET and monitor for propagation of failures along safety-critical threads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

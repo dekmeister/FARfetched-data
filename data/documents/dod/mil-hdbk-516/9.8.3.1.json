@@ -1,0 +1,43 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.8.3.1",
+  "number": "20.2",
+  "current_grouping": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+  "canonical_title": "Air vehicle restraint system structure",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "9.8.3.1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify cargo hook and backup structural load limits and verify that limits are included in applicable operators and maintenance manuals.",
+      "text": "Verify cargo hook and backup structural load limits and verify that limits are included in applicable operators and maintenance manuals.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "20.1.3.1",
+      "grouping_at_time": "20. AIR TRANSPORTABILITY, AIRDROP, MISSION/TEST EQUIPMENT AND CARGO/PAYLOAD SAFETY",
+      "title_at_revision": "Restraint system structure",
+      "text": "Criterion: Verify that cargo hook and restraint systems and the respective backup structural load limits are sufficient. Verify that limits are included in applicable operators and maintenance manuals. Standard: Cargo floor tiedown rings and backup structure have strength levels equal to or in excess of the tiedown devices and are capable of withstanding specified loads. Unless otherwise specified, tiedown devices have a minimum ultimate strength capability 1.5 times the rated or working load capacity. Individual tiedown rings that can be used by more than one tiedown device and can be subject to forces in more than one direction within the hemisphere above the floor plane can withstand total applied loads. Repair of tiedown rings is included in the maintenance manuals. The structural integrity of the cargo hook assembly, the restraint system, the attachment hardware, and supporting airframe withstands the prescribed loads for the subject aircraft. Limitations are explained in the operator manuals (see also Section 5 for further details). Method of Compliance: Through analysis and component testing, the attachment hardware, pan assemblies, and supporting airframe structure are verified to withstand pulling forces greater than the rated capacities of the restraint system. Ring assemblies are tested in vertical up, lateral, and longitudinal directions plus other directions as dictated by the analysis. References: Structural Design Criteria for subject aircraft JSSG-2000: 3.1.7.2 JSSG-2001: 3.4.5, 3.4.6 MIL-DTL-25959 MIL-PRF-27260",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "20. AERIAL DELIVERY: AIR TRANSPORT AND AIRDROP",
+      "title_at_revision": "Air vehicle restraint system structure",
+      "text": "Standard: The structural integrity of the restraint systems and their supporting components can withstand the required static loads and stresses imposed by aerial delivery, IAW MIL-STD-1791, Restraint Conditions paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify restraint limits are included in applicable cargo loading manual and maintenance manuals. Analysis.\n  (1) Perform loads and strength analysis to verify restraint system and respective structure will support the identified cargo loads.\n  (2) Perform loads and strength analysis to verify the restraint system and structure will restrain air vehicle maximum payload capacity under flight loads for each principal direction. Demonstration.\n    (1) Conduct a ground demonstration to verify that restraint devices can be anchored and applied to the maximum payload capability of the air vehicle cargo system without interference. Test.\n      (1) Ground test: Perform testing to verify restraint system and respective structure will withstand forces at the rated capacities of the restraint system IAW JSSG-2006, Static Strength paragraph.\n      (2) Ground or Lab test: Perform component testing to verify restraint system and respective back up structure will withstand forces at the rated capacities of the restraint system IAW JSSG-2006, Static Strength paragraph.\n      (3) Ground or Lab test: Perform interface testing to verify restraint system and respective back up structure will withstand forces at the rated capacities of the restraint system IAW JSSG-2006, Static Strength paragraph.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

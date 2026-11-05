@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.8.1",
+  "number": "9.5.8.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "DRIz - backup through-canopy ejection",
+  "subject_group": "9.5.8 Backup through-canopy ejection",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "DRIz - backup through-canopy ejection",
+      "text": "Standard: The seat pan acceleration time history generated in system-level ejection sled or in-flight tests at ambient conditions, do not yield a DRIz value in excess of 22.0 IAW the limits within INFO PUB ASM 4048 Ed 2v2, Ejection Acceleration Limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Data from full system-level dynamic ejection sled testing is analyzed to show compliance with the standard. Test.\n  (1) Lab test: Full system-level dynamic ejection sled testing is used to show compliance with the standard.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

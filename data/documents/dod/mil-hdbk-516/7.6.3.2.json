@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "7.6.3.2",
+  "number": "7.4.12",
+  "current_grouping": "7. PROPULSION",
+  "canonical_title": "Propulsion monitoring system",
+  "subject_group": "7.4 Propulsion components and subsystems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "7.6.3.2",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Verify that the lubrication system health monitoring devices will provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and mission aborts.",
+      "text": "Verify that the lubrication system health monitoring devices will provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and mission aborts.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "7.2.4.1.14",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine health monitoring and prognostics systems provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and power losses.",
+      "text": "Verify that the engine health monitoring and prognostics systems provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and power losses. DoD/MIL Doc: JSSG-2007A: para A.3.7.6/A.4.7.6, Engine Health Monitoring Systems (EHMS), the Interface Control Document (ICD) and the pilot's operating manual FAA Doc: 14CFR references: 33.28",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "7.2.4.1.14",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Verify that the engine health monitoring and prognostics systems provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and power losses.",
+      "text": "Verify that the engine health monitoring and prognostics systems provide adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and power losses. DoD/MIL Doc: JSSG-2007A: A.3.7.6/A.4.7.6, Engine Health Monitoring Systems (EHMS), the Interface Control Document (ICD) and the pilot's operating manual FAA Doc: 14CFR references: 33.28",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "7.2.4.1.14",
+      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "title_at_revision": "Propulsion monitoring system",
+      "text": "Criterion: Verify that the propulsion monitoring system provides adequate warnings in a timely manner to reduce occurrences of in-flight shutdowns and power losses. Standard: All safety/mission-critical faults and warnings are supplied to the operator/maintainer. The propulsion monitoring system detects, isolates and records all engine faults that affect continued safe operation of the air vehicle or require maintenance before next flight. Critical faults, affecting continued safe operation of the air vehicle, result in immediate notification to the operator. All faults requiring maintenance action are recorded for post-flight download. The propulsion monitoring and control systems provide accurate information and do not allow false positive faults to occur. Method of Compliance: Verification methods include analysis and review of documentation . Analysis and fault injection bench testing verifies the capability of the monitoring system to detect and isolate all failures that affect safe operation of the air vehicle. Engine/air vehicle testing provides assurance that the pilot/operator is provided clear notification of any critical failure. Engine fault download testing verifies the operators/maintainers have full access to failure data. Analysis of all cockpit and/or control station engine data demonstrates the pilot/operator can receive and properly interpret the information necessary to safely operate the air system. Inspection of the Interface Control Document (ICD) and pilot/operator manual covers the engine information being provided to the pilot/operator. References: JSSG-2007: A.3.7.6, A.4.7.6 Engine Health Monitoring Systems (EHMS) 14 CFR reference 33.28",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "7. PROPULSION",
+      "title_at_revision": "Propulsion monitoring system",
+      "text": "Standard: Propulsion monitoring system detects, isolates, and records engine faults that affect or could affect continued operation of the air vehicle. The flight crew is immediately notified of any safety faults that affect continued operation of the air vehicle. Propulsion monitoring system failure or malfunction does not cause a failure of any other safety-critical system. Faults are recorded and are maintained for post-flight maintenance download. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine the ICD and flight manual to ensure flight crew are alerted of all engine safety-critical faults. Analysis.\n  (1) Analysis is conducted to verify design of the propulsion monitoring system. Test.\n    (1) Lab test: Fault injection bench testing verifies that the propulsion monitoring system detects, isolates, records, and sends faults for display to the flight crew. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight test ensures fault detection notifies the flight crew of faults.\n    (3) Flight test: Post-flight testing ensures the faults are recorded and maintained for download.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

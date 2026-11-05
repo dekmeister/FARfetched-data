@@ -1,0 +1,64 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "15.3.3.1",
+  "number": "15.5.5",
+  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "canonical_title": "Failure management and redundancy management",
+  "subject_group": "15.5 Software architecture and design",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "15.3.3.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify the operation of BIT and redundancy/failure management algorithms.",
+      "text": "Verify the operation of BIT and redundancy/failure management algorithms.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "15.3.3.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify the operation of BIT and redundancy/failure management algorithms.",
+      "text": "Verify the operation of BIT and redundancy/failure management algorithms. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.6.2; JSSG-2008 Appendix A: para 3.3.6.2 establishes guidance for CSCI failure detection and execution of BIT. Para 3.1.13 (Requirement Guidance a. 2.) defines types of BIT and a list of typical items tested. Para 3.1.12 addresses redundancy management. FAA Doc: AC 20-115B,",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "15.3.3.1",
+      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "title_at_revision": "Verify the operation of BIT and redundancy/failure management algorithms.",
+      "text": "Verify the operation of BIT and redundancy/failure management algorithms. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.6.2 JSSG-2008 Appendix A: 3.3.6.2 establishes guidance for CSCI failure detection and execution of BIT; 3.1.13 (Requirement Guidance a. 2.) defines types of BIT and a list of typical items tested; 3.1.12 addresses redundancy management FAA Doc: AC 20-115B",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Failure management and redundancy management",
+      "text": "Criterion: Verify the safe operation of Built-In-Test (BIT), redundancy management, and failure management algorithms. Standard: For each subsystem\u2019s first failure instance, BIT is designed to detect, and the subsystem isolates and accommodates, 100% of the safety critical failures. For subsystems supporting safety critical functions that have been determined to require three (3) or more channels of redundancy, the subsystem is designed to detect and accommodate 95% of second like safety critical failures. The BIT redundancy management/failure management functionality meets specified safety requirements (e.g., PLOC). The BIT implementation is compatible with the levels of redundancy, redundancy management mechanizations, and failure management mechanizations employed. The system design addresses acceptable transient levels, prevention of propagation of failures, and re-admittance of failed elements. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection. Testing includes system integration testing with actual flight hardware, FMET, ground test, and flight test. A combination of analysis, demonstration, flight test, and inspection verifies meeting detection, isolation, and accommodation requirements such that, given a failure, the system will continue to perform its SCFs. System/subsystem integration testing and FMET ensure that the design accommodates transient levels, prevention of propagation of failures, and re-admittance of failed elements. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (IX.8 and IX.9); 3.0 Computer Resources section (III.5.d.6 and III.5.i.4); 4.1 Lessons Learned address certain BIT issues; 3.1.4 addresses survivability; 3.1.7.2 discusses overall system arrangement issues affecting invulnerability and failure immunity; 3.1.11.11.2 BIT testing of data connections; 3.1.12 addresses redundancy management; 3.1.13 (Requirement Guidance a.2) defines types of BIT and a list of typical items tested; 3.3.1 lessons learned provides guidance regarding fault management and systems partitioning; 3.3.2 provides guidance regarding failure propagation and redundancy; 3.3.6.2 establishes guidance for CSCI failure detection and execution of BIT JSSG-2008 Appendix B: A14.5.4.3 DoD JSSSEH: 4.3.7.2.1; 4.3.7.3.2.4; 4.4.1.3; 4.4.2.8; E.3.17; E.3.18; E.4.4; E.7.8; E.9.1.1; E.13.2 USAF Weapon Systems Software Management Guidebook: 3.8; G.2.2; G.2.3; G.2.5; G.2.6.e; G.3.1; G.4.1; G.4.3 NASA-STD-8739.8: 7.3.1",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "title_at_revision": "Failure management and redundancy management",
+      "text": "Standard: 1. Verify the safe operation of BIT, redundancy management, and failure management algorithms. For each subsystem\u2019s first failure instance, the fault detection and accommodation implementation is designed to detect, isolate, and accommodate 100% of critical failures to maintain the integrity of SCF operation. For subsystems supporting SCFs that have been determined to require three or more channels of redundancy, the fault detection and accommodation implementation is designed to detect and accommodate 95% of second like critical failures to maintain the integrity of SCF operation. The fault detection and accommodation implementation meets specified safety requirements (e.g., PLOC). The fault detection and accommodation implementation is compatible with the levels of redundancy, redundancy management mechanizations, and failure management mechanizations employed. The system design addresses acceptable transient levels, prevention of propagation of failures, and re-admittance of failed elements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, demonstration, and examination. Testing includes system integration testing with actual flight hardware, FMET, and ground test. A combination of analysis, demonstration, test, and examination verifies meeting detection, isolation, and accommodation requirements such that, given a failure, the system will maintain the integrity of SCF operation. System and subsystem integration testing, ground testing, and FMET ensure that the design accommodates transient levels, prevention of propagation of failures, and re-admittance of failed elements.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "17.3.1",
+  "number": "17.4.1",
+  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "canonical_title": "Crewmember exposure",
+  "subject_group": "17.4 Laser integration",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "17.3.1",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the crew and maintenance personnel are not exposed to laser radiation in excess of maximum permissible exposure limits in order to ensure safe conditions.",
+      "text": "Verify that the crew and maintenance personnel are not exposed to laser radiation in excess of maximum permissible exposure limits in order to ensure safe conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516A",
+      "number": "17.3.1",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the crew and maintenance personnel are not exposed to laser radiation (direct and reflected) in excess of maximum permissible exposure limits in order to ensure safe conditions.",
+      "text": "Verify that the crew and maintenance personnel are not exposed to laser radiation (direct and reflected) in excess of maximum permissible exposure limits in order to ensure safe conditions.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "17.3.1",
+      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "title_at_revision": "Verify that the crew and maintenance personnel are not exposed to laser radiation (direct and reflected) in excess of maximum permissible exposure limits in order to ensure safe conditions.",
+      "text": "Verify that the crew and maintenance personnel are not exposed to laser radiation (direct and reflected) in excess of maximum permissible exposure limits in order to ensure safe conditions. Comm\u2019l Doc: ANSI Z 136.1, Safe Use of Lasers, for the safety design requirements of laser systems. DoD/MIL Doc: MIL-STD-1425 for the safety design requirements of laser systems. AR-11-9, \u201cThe Army Radiation Safety Program\u201d; AFOSH STD 48-139, Laser Radiation Protection Program; RCC 316-98, Laser Range Safety FAA Doc: 21CFR Part 1040, Performance Standards for Light-emitting products",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "17.3.1",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Crew exposure",
+      "text": "Criterion: Verify that the crew and maintenance personnel are not exposed to laser radiation (direct and reflected) in excess of maximum permissible exposure limits in order to ensure safe conditions. Standard: The laser system and support equipment are designed to the lowest hazard classification and minimize the accessibility of the crew and maintenance personnel to hazardous emissions. Laser training procedures are defined for aircrew and maintenance personnel. Laser operational procedures are defined by the operator's manual. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Minimum crew and maintenance personnel exposure to laser radiation is verified by analyses (e.g., laser safety analysis), laser characteristics tests, laser control system (e.g., power on, weight on wheels) inspection/demonstration, accessibility checks, wire verification, ground test equipment checks, loading procedures checks, identification of safety equipment and inspection of training procedures. References: MIL-STD-1425, for the safety design requirements of laser systems MIL-HDBK-828 AR 11-9 AFOSH STD 48-139 ANSI Z136.1 (now owned by LIA), for the safety design requirements of laser systems 21 CFR Part 1040, Performance Standards for Light-emitting products",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "title_at_revision": "Crewmember exposure",
+      "text": "Standard: The integrated laser hardware and software design assures, during all modes of operation, crewmembers are not exposed to optical radiation emissions above the maximum permissible exposure limits, IAW ANSI Z136.1, Criteria for Exposures of Eye and Skin sections. Crewmembers will not operate laser(s) within the nominal ocular hazard distance or nominal skin hazard distance limits as defined by the service LSRA without the use of required personal protective equipment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the flight manual documents the laser system\u2019s hazard warning signs and labels, operational safety procedures, and personal protective equipment (if applicable) per the systems laser hazard classification.\n(2) If applicable, verify the LEP issued to crewmembers complies with the specifications defined in the LSRA\u2019s laser hazard assessment. The LEP will be rated for the laser system\u2019s operating wavelength(s) and will provide an optical density equal to or greater than the minimum optical density values identified to ensure eye protection. Test.\n  (1) Ground or Lab test: The LSRA will conduct a ground or laboratory test to characterize integrated laser system IAW ANSI Z136.4, Laser Measurements section. Test parameters at a minimum will include measurements of maximum output power or pulse energy, peak wavelength, pulse duration and repetition characteristics, minimum beam divergence, and laser beam diameter at the output aperture. Following data collection, LSRA will perform a laser hazard analysis to determine maximum permissible exposure limits, nominal ocular hazard distance for both unaided and aided (e.g., binocular) viewing scenarios, minimum required optical density for LEP, nominal skin hazard distance limits, and assign an appropriate laser hazard classification IAW ANSI Z136.1, Hazard Evaluation and Classification section.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

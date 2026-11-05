@@ -1,0 +1,53 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.3.6",
+  "number": "8.3.7",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Fuel flow to engine",
+  "subject_group": "8.3 Fuel system",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "8.3.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the fuel feed system provides a continuous supply of fuel to the engine at sufficient pressure throughout the flight and ground operation envelopes, including starting and all flight maneuvers.",
+      "text": "Verify that the fuel feed system provides a continuous supply of fuel to the engine at sufficient pressure throughout the flight and ground operation envelopes, including starting and all flight maneuvers.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "8.3.6",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Verify that the fuel feed system provides a continuous supply of fuel to the engine at sufficient pressure throughout the flight and ground operation envelopes, including starting and all flight maneuvers.",
+      "text": "Verify that the fuel feed system provides a continuous supply of fuel to the engine at sufficient pressure throughout the flight and ground operation envelopes, including starting and all flight maneuvers. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.2.1, E.4.4.5.2.1, E.3.4.5.2.2, E.4.4.5.2.2, E.3.4.5.2.4, E.4.4.5.2.4, E.3.4.5.2.5, E.4.4.5.2.5 FAA Doc: 14CFR references: 23.951, 23.953, 23.955, 23.959, 25.951, 25.953, 25.955, 25.959",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fuel flow",
+      "text": "Criterion: Verify that the fuel feed system provides a continuous supply of fuel to the engine at sufficient pressure throughout the flight and ground operation envelopes, including starting, fuel jettison and all flight maneuvers. Standard: The fuel system supplies the required amount of fuel (in accordance with engine interface requirements) at the required pressure and flow rate to the engines within the temperature limits during all phases of the mission, to include afterburner and inverted flight, if applicable. Fuel jettison operations do not degrade engine feed performance. Method of Compliance: Fuel feed system analysis and engineering modeling verify continuous fuel supply at the required pressure and flow rate under all specified conditions. Ground and flight tests verify the performance of the fuel feed system. References: JSSG-2009: G.3.4.7.3, G.4.4.7.3, G.3.4.7.6, G.4.4.7.6 MIL-F-17874 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Fuel flow to engine",
+      "text": "Standard: The fuel system supplies the engine(s) with the required amount of fuel IAW engine interface requirements (e.g., pressure, flow, and temperature) during all operations and phases of flight (e.g., afterburner use, inverted flight, fuel jettison, and AR). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to verify fuel delivery requirements to engine(s) are defined. Analysis.\n  (1) Conduct a fuel feed system flow analysis and engineering modeling to verify the fuel system provides the engine with fuel IAW engine interface requirements under all operational conditions and maneuvers. Test.\n    (1) Ground test: Conduct ground tests to verify the performance of the fuel feed system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight tests to verify the performance of the fuel feed system.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

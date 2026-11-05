@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.3.3.1",
+  "number": "11.3.3.1",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Reliability",
+  "subject_group": "11.3.3 Safety-critical controls",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Reliability",
+      "text": "Standard: Avionics controls reliably maintain control of all SCFs. Safety-critical avionics control modes will use a probability of failure of 10-7 unless a different value is specified and justified based upon the controlled function. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to verify control functionality in design documentation and FMEA. Test.\n  (1) Lab test: Conduct laboratory testing to verify reliability achieves a probability of failure of 10-7 or a different value if it is specified and justified based upon the function.\n  (2) Ground test: Ground testing validates analyses and lab test results and verifies reliability of safety-critical avionics controls. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Flight testing validates analyses and lab test results and verifies reliability of safety-critical avionics controls.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

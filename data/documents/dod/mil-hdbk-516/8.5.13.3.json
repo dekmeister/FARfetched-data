@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.5.13.3",
+  "number": "8.5.11.4",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Parachute load factors",
+  "subject_group": "8.5.11 Parachute deceleration systems",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.5.13.3",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Load factors",
+      "text": "Criterion: Verify that the air vehicle and parachute landing system can sustain limit load factors due to parachute generated accelerations, impact shock absorption, recovery surface dragging, sacrificial elements, parachute extracting devices and parachute installation. Standard: Installation and operation of the parachute landing system does not adversely affect the air vehicle\u2019s structure and equipment functionality beyond proposed limits. Static, dynamic and impact loads generated during parachute deployment, descent and landing are documented and sustainable. Parachute sizing and incorporation of impact attenuation subsystems (e.g., shock absorbers, landing bags and intentional crushable structure) are sufficient to recover the air vehicle within the operational envelope. Parachute components are designed with a 2.0 factor of safety. Parachute components which are reused do not adversely affect the ability to carry limit loads. Sacrificial elements (e.g., installation covers and doors) do not impact the air vehicle upon parachute deployment. The use of an extracting device (e.g., mechanical, pyrotechnics) does not cause any damage to the air vehicle and parachute landing system that impairs or jeopardizes a successful landing. Method of Compliance: Verification methods include analyses and tests. Design analysis verifies aircraft and parachute loading conditions. Laboratory testing verifies that system and components can sustain design loads and maintain functionality for all expected conditions without deformation or damage beyond operational concept limits. Flight testing verifies the loads and impact effects consistent with design analysis and laboratory results. References: JSSG-2010: 3.12 Deployable Aerodynamic Decelerator (DAD) System ASTM F2316-08",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Parachute load factors",
+      "text": "Standard: The air vehicle and parachute landing system can sustain limit and ultimate loads due to the parachute generated forces and accelerations. Parachute components are designed with a 1.5 factor of safety for ultimate load. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct initial loads analysis of parachute deployment loads based on the initial parachute sizing determined in standard 8.5.11.3. Test.\n  (1) Lab test: Conduct static load testing to verify that the parachute system and components (i.e., bridles, lanyards, harnesses, activation cables, and etc.) can sustain design loads and maintain functionality for all expected conditions without deformation or damage beyond operational limits. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n  (2) Verify ultimate load by conducting parachute strength Test MoC (2) or Test MoC (3). (3) Conduct static strength analysis of chute, chute attachment mechanisms and air vehicle attachment structure using the ultimate load factor of safety of 1.5 to verify components are designed for chute deployment loads. Test.\n(2) Flight test: As an alternative to Test MoC (3), conduct a minimum of three successful drop tests on the air vehicle of the parachute assembly under ultimate load conditions to demonstrate the parachute's strength. The maximum parachute opening force measured in the three tests will be the ultimate parachute opening load. The test parameters are: a. Minimum test weight is 1.25X air vehicle maximum gross takeoff weight. b. Minimum test speed is 1.1X air vehicle's maximum intended parachute deployment speed.\n(3) Flight test: As an alternative to Test MoC (2), conduct a minimum of three successful parachute strength tests with a dead weight. The maximum parachute opening force measured in the three tests will be the ultimate parachute opening load. The test parameters are: a. Minimum test weight is air vehicle maximum gross takeoff weight. b. Minimum test speed is air vehicle's maximum intended parachute deployment speed.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

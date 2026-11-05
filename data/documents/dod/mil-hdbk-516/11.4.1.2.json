@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "11.4.1.2",
+  "number": "11.4.1.2",
+  "current_grouping": "11. AVIONICS",
+  "canonical_title": "Identification of critical failure modes",
+  "subject_group": "11.4.1 Air system diagnostics ability to detect and report critical failures",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "11. AVIONICS",
+      "title_at_revision": "Identification of critical failure modes",
+      "text": "Standard: All failures which can impact SCF operation are identified and classified as critical failures. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Failure mode analysis (e.g., FMEA, FMECA) analyzes all failure modes of the air system and identifies the subset of failures which can impact SCF operation and classifies those failures as critical failures.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.4.1",
+  "number": "9.4.1",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Crewmember functional operations and workload",
+  "subject_group": "9.4 Human performance",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that all functional operations can be safely performed including tasks performed by crew and maintainers.",
+      "text": "Verify that all functional operations can be safely performed including tasks performed by crew and maintainers.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that all functional operations can be safely performed including tasks performed by aircrew, operators, and maintainers.",
+      "text": "Verify that all functional operations can be safely performed including tasks performed by aircrew, operators, and maintainers. DoD/MIL Doc: JSSG-2010: para 3.1, 4.1, 3.2, 4.2; JSSG-2010-1 - Handbook para 3.2.1 and 4.2.1 for Method of Compliance. Table 2 of the document provides a list of Figures of Merit. FAA Doc: 14CFR references: 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that all functional operations can be safely performed including tasks performed by aircrew, operators, and maintainers.",
+      "text": "Verify that all functional operations can be safely performed including tasks performed by aircrew, operators, and maintainers. DoD/MIL Doc: JSSG-2010: 3.1, 4.1, 3.2, 4.2 JSSG-2010-1 - Handbook 3.2.1 and 4.2.1 for Method of Compliance. Table 2 of the document provides a list of Figures of Merit FAA Doc: 14CFR references: 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Functional operations and workload",
+      "text": "Criterion: Verify that all functional operations can be safely performed including tasks performed by aircrew, operators, and maintainers. Verify that all normal and emergency procedures can be accomplished within acceptable workload limits. Standard: Aircrew, operator and maintenance tasks are defined and can be accomplished within the capabilities of the personnel without undue risk of injury, loss of situational awareness and loss of vehicle. Method of Compliance: All aircrew, operator and maintainer tasks are defined and documented by function and task analysis. Workload analysis and human in the loop simulation and/or flight test, using fully trained and qualified operators and maintainers, verify that trained personnel can perform the task in a safe manner. References: JSSG-2010: 3.1, 4.1; 3.2, 4.2 JSSG-2010-1 - Handbook 3.2.1 and 4.2.1 for Method of Compliance. Table II of the document provides a list of Figures of Merit MIL-STD-46855 14 CFR 23.1311-23.1322, 25.1321-25.1322",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Crewmember functional operations and workload",
+      "text": "Standard: All normal and emergency procedures can be accomplished within the limits defined by a government accepted workload assessment method (e.g., Bedford Workload Rating Scale). Workload assessments include evaluating crewmember situational awareness. Collect objective measures of performance (e.g., speed, accuracy, and heading) to corroborate the subjective scores. Crewmember tasks are documented and can be accomplished within the capabilities of the personnel. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) All crewmember tasks are defined and documented by functional and task analysis. Test.\n  (1) Lab test: Workload and situational awareness assessments, including objective and subjective measures, are accomplished with human-in-the-loop simulation using trained and qualified crewmembers. This assessment includes all normal procedures and a subset of worst-case emergency procedures. The emergency procedures assessed are associated with WCAs. Assessments are conducted in a simulator, using a high-fidelity simulation representative of the air system\u2019s operating environment, using government accepted methods. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Workload and situational awareness test results for normal procedures are verified during flight test, using qualified crewmembers. Crewmembers are familiarized with the system under test.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.8.31",
+  "number": "8.7.26",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Endurance of mechanisms",
+  "subject_group": "8.7 Mechanisms",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "8.8.31",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Endurance of mechanisms",
+      "text": "Criterion: Verify that all Safety of Flight critical mechanisms have sufficient endurance to preclude adverse safety effects throughout their service life. Standard: The mechanism is able to operate and complete all functional actions for four (4) times the Endurance Life Limit under all expected mission, environmental extremes and contaminated conditions simultaneously (e.g., cycles, vibrations, loads, temperature, contamination). Method of Compliance: The design is verified by analysis to show positive margin for four (4) times the Endurance Life Limit. Mechanism testing verifies successful completion of two (2) times the Endurance Life Limit without degradation of performance or wear exceeding wear tolerances. References: JSSG-2009: (Appendix I) I.3.4.9.4",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Endurance of mechanisms",
+      "text": "Standard: All SOF mechanisms have positive durability margins to maintain residual strength and endurance throughout the specified service life under all expected mission, environmental extremes, and contaminated conditions simultaneously (e.g., cycles, vibrations, loads, temperature, contamination). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to show positive margin to meet for 4X the endurance life limit. Test.\n  (1) Lab test: Conduct testing on mechanism to verifies successful completion of 2X the endurance life limit without degradation of performance or wear exceeding wear tolerances.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

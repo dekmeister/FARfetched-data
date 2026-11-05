@@ -1,0 +1,65 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.7.6",
+  "number": "9.7.4",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Post-crash operational exits",
+  "subject_group": "9.7 Crash survivability",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516",
+      "number": "9.7.6",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the exits are post-crash operational up to the design crash loads.",
+      "text": "Verify that the exits are post-crash operational up to the design crash loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B",
+      "number": "9.7.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the exits are post-crash operational up to the design crash loads.",
+      "text": "Verify that the exits are post-crash operational up to the design crash loads. DoD/MIL Doc: JSSG-2001: para 3.3.10.2.2 JSSG-2010: para 3.7, 4.7, 3.13, 4.13 FAA Doc: 14CFR references: 23.561, 23.562, 25.561, 25.562, 25.563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516B w/CHANGE 1",
+      "number": "9.7.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Verify that the exits are post-crash operational up to the design crash loads.",
+      "text": "Verify that the exits are post-crash operational up to the design crash loads. DoD/MIL Doc: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7, 3.13, 4.13 FAA Doc: 14CFR references: 23.561, 23.562, 25.561, 25.562, 25.563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516C",
+      "number": "9.7.5",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Post crash operational exits",
+      "text": "Criterion: Verify that the exits are post-crash operational up to the design crash loads. Standard: Aircraft exits designated for ground egress by aircraft occupants will function after exposure to the design crash loads of the aircraft platform. Function is defined by the exit opening. Method of Compliance: Mechanical and structural analysis, test, and demonstration show that the exit functions up to design crash loads. References: JSSG-2001: 3.3.10.2.2 JSSG-2010: 3.7, 4.7; 3.13, 4.13 14 CFR 23.561, 23.562, 25.561, 25.562, 25.563, 27.561, 27.562, 27.563, 29.561, 29.562, 29.563",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Post-crash operational exits",
+      "text": "Standard: Air vehicle exits used for ground egress can be opened by occupants after exposure to the design crash loads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the air vehicle structure using computational analysis (e.g., FEA) and show that exits can be opened by occupants after experiencing design crash loads.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

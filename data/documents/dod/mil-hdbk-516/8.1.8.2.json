@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.1.8.2",
+  "number": "8.1.8.2",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Back pressure",
+  "subject_group": "8.1.8 Hydraulic and pneumatic pressure",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Back pressure",
+      "text": "Standard: The hydraulic systems are designed such that proper functioning of components (e.g., internal actuator locks and brakes) and other subsystems are not affected by the dynamic back pressure in the return system. The hydraulic systems are designed such that failure of a component in the system does not prevent the proper functioning of other subsystems, emergency systems, or alternate systems due to back pressure in the return side of the system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct flow analysis of each system\u2019s return pressure to determine maximum back pressure levels to verify interfacing components are not inadvertently actuated (e.g., brakes). Demonstration.\n  (1) Conduct ground demonstration on air vehicle to verify each system's return pressure does not inadvertently actuate system components (e.g., brakes). Test.\n    (1) Lab test: Conduct HITL (e.g., iron bird) testing to measure maximum return back pressure to verify flow analysis.\n    (2) Lab test: Conduct HITL (e.g., iron bird) testing to verify that back pressures do not adversely affect SCFs IAW SAE AS5440B, Back Pressure paragraph and SAE AS5440B, Brakes paragraph.\n    (3) Ground test: Conduct on air vehicle testing to measure maximum return back pressure to verify flow analysis.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

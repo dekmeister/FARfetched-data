@@ -1,0 +1,31 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "8.6.7.1",
+  "number": "8.6.7.1",
+  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "canonical_title": "Structural mounting",
+  "subject_group": "8.6.7 Safety considerations",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516C",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Structural mounting",
+      "text": "Criterion: Verify that provisions for structural mounting adequately address safety. Standard: Mounts withstand maximum combination of static and dynamic loading throughout defined flight and ground envelopes and environments. Structural mounts are corrosion resistant and fireproof (as governed by 8.4 of this document). Method of Compliance: Inspection of design criteria verifies maximum static and dynamic mount loads including flight loads and loads that result from APU/EPU seizure, imbalance under a failed blade condition, and the critical vibration amplitudes and frequencies transmitted by the APU/EPU from the mounting points to the airframe through the normal operating range of the APU. Structural analysis verifies the ability to withstand specified limit loads without permanent deformation and ultimate loads without failure. Critical analysis assumptions are verified by stress, thermal, pressure or vibration surveys during ground and flight tests. References: JSSG-2009: 3.2.7, 4.2.7, 3.2.7.4.4, 4.2.7.4.4, 3.2.7.5, and 4.2.7.5 MIL-HDBK-516: 8.4 FAA TSO-C77: 4.8, 5.1.3, 5.2.5 14 CFR 25.901(c), (d)",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "title_at_revision": "Structural mounting",
+      "text": "Standard: Auxiliary power system and emergency power system mounts withstand maximum combination of static and dynamic loading throughout the design envelope of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to define static and dynamic load cases for the mounts.\n(2) Conduct structural FEA or modeling to verify the ability to withstand specified limit loads without permanent deformation and ultimate loads without failure throughout the design envelope of the air vehicle.\n(3) Conduct analysis to verify that maximum static and dynamic mount loads are not exceeded during imbalance under a failed blade condition, and the critical vibration amplitudes and frequencies transmitted by the APU and EPU from the mounting points to the airframe through the normal operating range of the APU and EPU. Test.\n  (1) Ground test: Conduct ground test surveys (e.g. stress, thermal, pressure, and vibration) to verify critical analysis assumptions made. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n    (1) Review of design criteria to verify maximum static and dynamic mount loads including flight loads and loads that result from APS and emergency power system seizure, imbalance under a failed blade condition, and the critical vibration amplitudes and frequencies transmitted by the APS and emergency power system mounting points to the airframe.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

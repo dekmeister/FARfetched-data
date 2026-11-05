@@ -1,0 +1,21 @@
+{
+  "issuer": "DOD",
+  "document": "mil-hdbk-516",
+  "key": "9.5.1.2",
+  "number": "9.5.1.2",
+  "current_grouping": "9. CREW SYSTEMS",
+  "canonical_title": "Impulse noise - chest",
+  "subject_group": "9.5.1 Initiation to touchdown",
+  "versions": [
+    {
+      "designator": "MIL-HDBK-516D",
+      "grouping_at_time": "9. CREW SYSTEMS",
+      "title_at_revision": "Impulse noise - chest",
+      "text": "Standard: Impulse noise levels measured at the chest at each crew station are less than 195 dBP IAW MIL-STD-1474, Impulsive Noise Non-auditory Effects Criteria paragraph, unless specific analysis is performed to assess the risk of blast lung (and other internal organ) injury (e.g., analysis IAW 9.5.1.4). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Sound pressure levels are measured during system-level tests IAW MIL-STD-1474, Impulsive Noise Non-auditory Effects Criteria paragraph.",
+      "source_url": "https://assist.dla.mil",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}
