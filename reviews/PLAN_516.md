@@ -36,9 +36,10 @@ this session):
 Schema v6 (EASA TCDS, categories per TCB) is committed (`e7ee945`), and v7
 is built on top of it.
 
-**Progress (2026-11-04):** Part A is implemented and committed, except
-re-emitting and promoting the data (Sequence step 2, see below). Part B has
-not started. Start the next session at [Next session](#next-session).
+**Progress (2026-11-06):** Part A is done and its data promoted. Part B is
+built, tested and its continuity decided (816 reviewed rows; emit clean;
+uncommitted). Open: commit and promotion.
+Start the next session at [Next session](#next-session).
 
 ## Part A — Schema v7: provision key vs printed number
 
@@ -157,7 +158,8 @@ manifest exists.
   - Borderline scores are reported `needs_human`, and the run stops unless
     each one is decided.
 - **Decisions file: `tools/overrides/dod_hdbk.tsv`.** Columns:
-  `designator number action target_key evidence note`, read with
+  `designator number action target_number evidence note` (was
+  `target_key`; see Continuity record), read with
   `s00_common/overrides.py:read_rows`.
   - `continue` makes the paragraph continue `target_key`. This is also how
     a renumbered requirement (5.2.3 → 5.2.2) keeps one key.
@@ -220,10 +222,9 @@ manifest exists.
    FAA/CAR/EASA and promote. `promote --dry-run` shows the added `key` on
    every provision file, *plus* layout-only text changes to 114 files (see
    Part A record).
-3. Extract all six editions. Review the extract report and the TOC
-   cross-check.
-4. Emit trial. Review needs_human rows and continuity decisions with the
-   user, then fill in `dod_hdbk.tsv`.
+3. ~~Extract all six editions. Review the extract report and the TOC
+   cross-check.~~ Done 2026-11-05 (see Part B record).
+4. ~~Emit trial; decide continuity into `dod_hdbk.tsv`.~~ Done 2026-11-06.
 5. Run `promote --dry-run`. The user promotes and commits.
 
 ## Verification
@@ -262,7 +263,102 @@ manifest exists.
    The user reviews the diff and promotes. Then `uv run pytest` should pass
    in full, and `uv run python build.py` should report 98,145 resolved rows
    (as of `4db1aee`'s data) and zero unresolved.
-2. Part B, from the top: `tools/s01_extract/dod/hdbk/extract.py`.
+2. ~~Part B, from the top.~~ Built 2026-11-05 (Part B record below). The
+   user commits the new pipeline in `tools/` and the ISSUES/plan edits here.
+3. ~~Decide continuity.~~ Done 2026-11-06 (Continuity record below):
+   816 reviewed rows, emit clean.
+4. **Open:** the user commits `tools/` (pipeline, `overrides/dod_hdbk.tsv`)
+   and this repo's doc edits, runs
+   ```bash
+   uv run python -m tools.s01_extract.dod.hdbk.extract
+   uv run python -m tools.s02_emit.dod.hdbk.emit
+   uv run python -m tools.s03_promote.promote --dry-run   # 1,731 new DOD files
+   ```
+   promotes, and commits `data/`. Then `uv run python build.py` and the
+   Verification smoke queries (all already pass on a scratch copy of
+   `data/` + the staged tree). After that, everything still open is in
+   ISSUES DOD-1…6, and this plan can be deleted (after the user confirms).
+
+## Continuity record (2026-11-05/06)
+
+The user asked for the calls to be made here. Rules (in DOD_HDBK.md
+"Continuity rules"): same requirement = same subject and kind of obligation;
+a split gives the key to the piece with the old title and main obligation,
+wherever printed; a merge continues the source whose subject and title it
+keeps; shared boilerplate ("Technical manuals", qualification tests) is not
+a match. Process: subagent reviews of every `needs_human` cell (105, then 74
+after the fixes below) and every `renumber_candidate` (572, in eight
+chunks), a second review of the low-confidence calls and of leads the
+reviewers found outside the candidate lists, and a final pass over 126
+516C→516D pairs with similar titles that the text score missed. Each row
+quotes both paragraphs. Fixes found on the way:
+
+- 516C service-qualified block heads (`Standard (Air Force):`,
+  `Standards:`) were not split, so the criterion swallowed the standard.
+- Continuity now compares the criterion first in every edition pair, so
+  references added in Change 1 don't make a paragraph look different.
+- 516B criteria ending "the following:" take the lettered list printed
+  after the references.
+- Parent paragraphs that print their own criterion (516 7.4.1 over 7.4.1.x;
+  516C 6.1.2 over 6.1.2.x) were dropped as groupings; they are provisions.
+- Decision rows name the continued provision by its printed number in the
+  previous edition (`target_number`), not by key: keys are re-derived when
+  the extraction changes, numbers in force are unique per edition.
+- The title rule for candidates is >= 0.9 title ratio with cosine >= 0.15
+  (was >= 0.95 and >= 0.3): 516D rewrites every standard.
+
+Result: 1,730 keys, 4,995 versions, 567 renumbered; the plan's smoke cases
+hold (516 4.1.3 → 516A 4.1.4 …; 516A 4.1.3 through 516C; 516B 5.2.3 →
+Chg 1 5.2.2 → 516C 5.2.3).
+
+## Part B record (2026-11-05)
+
+Built as planned, with these differences and findings (details in
+`tools/s00_docs/DOD_HDBK.md`):
+
+- **516B and Chg 1 are read with `-layout`**, not raw: their content stream
+  puts subsection numbers in a column apart from the titles. The others use
+  raw mode. The service "X" matrix is only in 516D's front matter (Table
+  IV), never in the criteria, so nothing strips it.
+- **Headings are accepted only as successors** of the previous heading, which
+  keeps wrapped cross-references in the text. Result: no rejected headings,
+  no number gaps, and the TOC agrees in every edition.
+- **Provisions are leaf headings.** Section and subsection text
+  (source-data lists, 516D subsection intros) is reported `grouping_text`
+  and not ingested (ISSUES DOD-3). Counts: 516 652, 516A 730, 516B 765,
+  Chg 1 768, 516C 905, 516D 993.
+- **Titles:** 516-516B print none; the criterion's first sentence is used
+  (`title_printed: false`, ISSUES DOD-5).
+- **Similarity** is a content-word cosine (`s00_common/text.py`), not
+  EASA's `strict_key`/`loose_key`/`bag`, which are exact-match tests; those
+  are still used to decide whether a continued text changed. Continue at
+  title ratio >= 0.8 or cosine >= 0.6; new below 0.3 (titles < 0.5);
+  needs_human between. Compared text: whole text within a family, else the
+  criterion, else the standard (516C → 516D).
+- **Renumbers are found, not applied.** After the same-number verdicts,
+  open paragraphs and open provisions are paired one to one, best first. A
+  borderline same-number cell that pairs better with another provision is
+  reported `renumber_candidate` instead of `needs_human`. This is how the
+  plan's case shows up: Chg 1 5.2.2 reads like 516B 5.2.3 (0.81), and the
+  rest of 5.2 shifted with it (5.2.5→5.2.3, 5.2.7→5.2.4, 5.2.8→5.2.5,
+  5.2.9→5.2.6).
+- **A number change alone makes a version**, so the build reads the right
+  printed number at that revision.
+- **Trial (`--accept-needs-human`):** 2,394 keys, 5,515 versions; 488
+  `number_reused`, 105 `needs_human`, 571 `renumber_candidate`. Copied
+  over `data/`, the build has 0 unresolved refs and the same 98,145
+  resolved rows; `user_version` 7; 516A 4.1.3 has versions 516A, 516B, 516C
+  and is deleted at 516D, and 516's 4.1.3 is another key. Structure: 960
+  structured, 3,136 flat-no-labels, 18 flat-failed (516D MoC numbering
+  restarts, ISSUES DOD-4), so nothing for `structure.py` now.
+- **Tests:** `s99_tests/extract/dod/hdbk` (fixtures per family in
+  `fixtures/dod_hdbk/`), `s99_tests/emit/dod/hdbk`, and a DOD e2e build with
+  a renumber (`renumbered: 1` in the report). Full `pytest`, ruff, mypy
+  green.
+- **Docs/ISSUES:** `tools/s00_docs/DOD_HDBK.md`, the tools README and
+  PIPELINE tables and offline-rebuild block, the empty
+  `tools/overrides/dod_hdbk.tsv`; ISSUES DOD-1…6, BUILD-8 (aircraft model
+  identity), ROADMAP-4 notes, ROADMAP-10 unblocked.
 
 ## Part A record (2026-11-04)
 

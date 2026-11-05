@@ -16,7 +16,8 @@ Nothing here is a known build failure unless the item says so.
 
 **Areas:** [FAA regs](#faa-regs-faa-) · [CAR](#car-car-) ·
 [EASA CS](#easa-cs-easa-) · [FAA TCDS / aircraft](#faa-tcds--aircraft-tcds-) ·
-[EASA TCDS](#easa-tcds-etcds-) · [Text layout](#text-layout-text-) ·
+[EASA TCDS](#easa-tcds-etcds-) · [MIL-HDBK-516](#mil-hdbk-516-dod-) ·
+[Text layout](#text-layout-text-) ·
 [Build / contract](#build--contract-build-) ·
 [Tooling and process](#tooling-and-process-proc-) ·
 [Roadmap](#roadmap-roadmap-) · [Closed](#closed)
@@ -608,6 +609,50 @@ Coverage: `uv run python -m tools.s02_emit.easa.tcds.coverage > /dev/null`.
   - LC42-550FG: EASA.IM.A.516 gives the FAA TC date as 30 March 2003; FAA
     A00003SE says May 30, 2003.
 
+### MIL-HDBK-516 (DOD-)
+
+Pipeline `dod/hdbk` ([tools/s00_docs/DOD_HDBK.md](tools/s00_docs/DOD_HDBK.md),
+plan [reviews/PLAN_516.md](reviews/PLAN_516.md) Part B). Reports are
+`tools/out/reports/dod_hdbk_extract_report.tsv` and
+`emit_dod_hdbk_report.tsv`.
+
+- **DOD-1. MIL-HDBK-516 is staged, not promoted.** Continuity is decided
+  (2026-11-06): `tools/overrides/dod_hdbk.tsv` has 816 reviewed rows, and the
+  emit runs clean (0 `needs_human`, 0 `renumber_candidate`, 0 stale): 1,730
+  keys, 4,995 versions, 567 renumbered provisions. The build accepts it
+  (0 unresolved; FAA/EASA unchanged at 98,145 resolved rows). `promote
+  --dry-run`: 1,731 new DOD files, everything else identical. Close by
+  promoting and committing. Known limits of the review:
+  - Candidates come from text similarity (cosine >= 0.6) or near-identical
+    printed titles (516C/D). A move that was both reworded and retitled
+    (common in 516D) is found only if a reviewer spotted it: 516D still
+    starts more new keys than any other edition.
+  - Several splits gave the key by judgement (rule in DOD_HDBK.md): 516D
+    11.1.1.1 (comms, four-way split), 516D 8.4.4 (drainage/ventilation),
+    516C 14.1.1.4.1 and 11.3.3.1 (even list splits, item a), 516B w/CHANGE 1
+    5.1.3 (`new`: it duplicates 5.1.6 in the source).
+  - Merges are recorded only as one continuing key (ROADMAP-4).
+- **DOD-2. The 516/516A appendix cross-reference table is not ingested.**
+  It maps each criterion to JSSG paragraphs and 14 CFR sections (after
+  NOTES). Candidate input for ROADMAP-4 cross-document links.
+- **DOD-3. Section and subsection intros are not provisions.** The section
+  text, the "TYPICAL CERTIFICATION SOURCE DATA" lists, and 516D's
+  subsection intros (`4.1 Operational usage.` + several paragraphs) sit
+  under headings with children. They are reported `grouping_text` (37–139
+  per edition) and dropped. They'd need a grouping-level text field. (A
+  parent that prints its own criterion is a provision since 2026-11-06.)
+- **DOD-4. 516D MoC items whose numbering restarts stay flat.** Under each
+  method (Examination, Analysis, Test) the `(1)` list restarts, and it
+  continues in the next phase: 18 versions are `flat-failed` (sequence
+  break at (2)/(3)); 933 of 993 516D versions are structured.
+- **DOD-5. Titles of 516-516B are first sentences.** Those editions print no
+  paragraph titles; `title_at_revision` is the criterion's first sentence
+  (printed text). A provision that lives into 516C takes its 516C title as
+  `canonical_title`; one deleted earlier keeps the sentence.
+- **DOD-6. Superscripts are lost** in the text layer: `10-7 per flight
+  hour` for 10⁻⁷ (23 places in 516C/516D). Fix with `text.tsv` rows if they
+  matter.
+
 ### Text layout (TEXT-)
 
 Paragraph structure (label-line text, schema v3). The words are intact by
@@ -714,6 +759,11 @@ history at `a65ac16`).
   categories are now the union over its TCBs, or per regulator.
 
 ### Tooling and process (PROC-)
+- **BUILD-8. Aircraft model identity is `(manufacturer, model_designation)`.**
+  The same smell schema v7 fixed for provisions: a name used as a key. A
+  manufacturer rename or a re-designated model splits one model's history,
+  and the build matches on the strings. Consider a stable model key, as
+  `provisions.key`. (Noted in reviews/PLAN_516.md, 2026-11-03.)
 
 - **PROC-1. The DRS amendment lookup cache never expires.**
   `input/cache/drs/far_amendment/` caches hits and misses for good. A gap
@@ -779,6 +829,13 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
     a regulation in the basis, without making it part of the basis.
   - Needs a schema decision. (was: plan.md, TODO.md)
 - **ROADMAP-5. Structured serial applicability.** Today `applicability` is
+  - MIL-HDBK-516 merges and splits between editions (516C §14 → 516D §4.4,
+    §10 → §11, §18 → §9, 8.7 → new §10; criteria consolidated across
+    sections). Schema v7 records each key's history but not that two keys
+    became one. Evidence: the 516B Appendix A.3 table (section level), the
+    516D foreword ¶3, and the `renumber_candidate` report (DOD-1).
+  - Cross-document links from 516B's `FAA Doc: 14CFR references` lines and
+    the 516/516A appendix table (DOD-2) to the FAA provisions.
   verbatim (schema review Q-04). It also bears on TCDS-1.
 - **ROADMAP-6. Deferred schema items from the 2026-10-31 review:**
   `document_revisions.cancelled_on`; `provisions.parent_id` (until a
@@ -800,9 +857,10 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-6…14);
   next are rotorcraft (CS-27/29) and the scope widening. Also download the Noise TCDS (TCDSN), which is
   only recorded in the catalogue's `noise_*` columns today.
-- **ROADMAP-10. NATO USAR (STANAG 4671 / AEP-4671).** Blocked on schema v7
-  (provision key vs printed number, [reviews/PLAN_516.md](reviews/PLAN_516.md)
-  Part A). Ed. 1 → Ed. B reuses numbers for different requirements
+- **ROADMAP-10. NATO USAR (STANAG 4671 / AEP-4671).** Was blocked on schema
+  v7 (provision key vs printed number), which is in since 2026-11-04
+  ([reviews/PLAN_516.md](reviews/PLAN_516.md) Part A); the MIL-HDBK-516
+  emitter (`s02_emit/dod/hdbk`) is a model for the continuity walk. Ed. 1 → Ed. B reuses numbers for different requirements
   (U1717/U1719/U1720 moved to U1712–U1714), and Ed. 1 prints 1367 twice. The
   known edition gap: STANAG 4671 Ed. 2 / AEP-4671 Ed. A (Feb 2017) aren't
   freely available, so the history is Ed. 1 → Ed. B. Prompt, findings and open
