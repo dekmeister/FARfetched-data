@@ -1,0 +1,342 @@
+{
+  "manufacturer": "Embraer S.A.",
+  "model_designation": "EMB-550",
+  "common_name": "EMB-550",
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.526",
+        "revision": "12",
+        "revision_date": "2026-09-23",
+        "source_url": "https://www.easa.europa.eu/en/downloads/17998/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "EA-2014T04",
+          "applicability": null,
+          "applicability_notes": "ANAC Type Certification Data Sheet No.",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "RBAC 25 - Airworthiness Requirements. Transport Category Airplanes, corresponding to U.S. 14 CFR Part 25, including amendments 25-1 through 25-128",
+          "applicability": null,
+          "applicability_notes": "ANAC Certification Basis",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-128"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25 - Certification Specifications for Large Airplanes, Amendment 7",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-7"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25.851(a)(6) at Amdt. 18 in regards to the equipment installation and qualification of Halon free hand-held Fire Extinguishers (ref. DCA 0550-026-00104-2018)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-18",
+              "provisions": [
+                "851"
+              ],
+              "paragraph": "(a)(6)"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "CS 25.705 at Amdt. 24 for aircraft equipped with Runway Overrun Awareness and Alerting System (ROAAS) (ref. DCA 0550-034-00156-2024 or with a factory-incorporated equivalent modification)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "to": "CS25-24",
+              "provisions": [
+                "705"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft including DCA 0550-000-00026-2016 \u201cEMB-550 Performance Enhancement\u201d the following EASA Airworthiness Requirements have been applied: Certification Specification 25, Amendment 18, dated 22 June 2016, except the following paragraphs for which EASA accepted a reversion to an earlier amendment in application to Part 21.A.101(b): a) CS 25 paragraphs at amendment 7: - 25.21 - 25.807 - 25.903 - 25.1043 - 25.1091 - 25.1093 - 25.1322 - 25.1360 - 25.1323 - 25.1325 - 25.1403 - 25.1459 - 25.1521 - 25.1533 - 25.1583 b) CS 25 paragraphs at amendment 11: - 25.253 c) CS 25 paragraphs at amendment 15: - 25.143",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-07 Static Longitudinal, Lateral & Directional Stability & Low Speed Awareness",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-08 Flight Envelope Protection",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-09 Motion and Effect of Cockpit Controls",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-10 Normal load factor limiting system",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-15 Flight Envelope Protection: Normal Load Factor (g) Limiting Function (this SC replaced EASA SC B-10 in the context of DCA 0550-000-00026-2016 and adopted ANAC FCAR EV-49)",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-11 Steep Approach and Landing Requirements",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-02 Design Manoeuvre Requirements",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-03 Dive Speed Definition with Speed Protection System",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-04 Towbarless Towing, Structures",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-15 Engine and APU failure loads",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-18 Limit Pilot Forces",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-23 Landing Pitchover Conditions",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-05 Pilot view \u2013 Hydrophobic coatings in lieu of windshield wipers",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-06 Towbarless Towing, Structures",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-07 Control Surface Position Awareness / Electronic Flight Control Systems",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-21 Inflatable Restraints",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-30 Stowage compartment Fire Protection",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-31 Electrical Equipment Bay Fire Detection and Smoke Penetration",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-45 Data Link Services",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-46 Data Link Recording",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-51 Enhanced Flight Vision System (ref. DCA 0550-031-00053-2014)",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-52 Aircraft Electronic System Security Protection from Unauthorized External Access (ref. DCA 0550-042-00001-2015)",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "SC SE-22 Installation of non-rechargeable lithium batteries (ANAC FCAR SC adopted by EASA ref. DCA 0550-025-00123-2023)",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Conditions issued because the intended use of the product is unconventional (21A.16B(a)2) : None identified",
+          "applicability": "Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable airworthiness code is based (21A.16B(a)1)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-10 Sustained Engine Imbalance",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-16 High Altitude Operations",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-03 Freezing Fog",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-07 Fuel low level warning",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-04 High Intensity Radiated Fields (HIRF)",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-15 Falling and Blowing Snow",
+          "applicability": "Special Conditions issued because experience from other products has shown that unsafe conditions may develop (21A.16B(a)3)",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}
