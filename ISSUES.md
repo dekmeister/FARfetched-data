@@ -690,9 +690,14 @@ Reports are `tools/out/reports/nato_usar_extract_report.tsv` and
 - **NATO-4. Tables and figures; layout.** Book 1's tables and figures are
   absent from the text layer or run into the text (Appendix C, the flight
   envelope under `333`, Appendix L's HIRF tables, Appendix K, 27,000
-  characters of mostly flat text). 34 texts are `flat-failed` in
-  `structure_report_nato_usar.tsv` (Ed. 1 and Ed. B versions together),
-  mostly lists whose labels skip or restart; they stay flat, which is valid.
+  characters of mostly flat text). 2026-11-06: Ed. 1 prints no colon before
+  its sub-lists, so its paragraphs ran together (e.g. 901 Ed1). The extractor
+  now keeps the source's line breaks before labels and emit lays them out
+  (`source_breaks`, tools/s00_docs/STRUCTURE.md). `flat-failed` went from
+  34 to 1 (Ed. 1 Appendix G, a scrambled table) and structured from 479 to
+  557 versions. Open: the tables of 415 and 423 (labelled rows, so
+  `line-fallback`: the table stays inline in (b)), and a sample review of
+  the 250 `line-split` versions (a spot check of 40 read right).
 - **NATO-5. Limits of the continuity review.** 505 provisions, 848 versions,
   promoted 2026-11-06 (506 new files, no conflicts). Eight decision rows (`tools/overrides/nato_usar.tsv`)
   cover the identity breaks. Not decided row by row: 8 same-number pairs that
