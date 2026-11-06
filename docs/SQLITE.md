@@ -39,7 +39,7 @@ in [build.py](../build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **7**). It is bumped
+`PRAGMA user_version` is the schema version (currently **8**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -84,7 +84,13 @@ version of another provision.
 `depth` (0 = top level, otherwise the number of labels in `path`), `label`
 (verbatim, e.g. `(ii)` or `[(4)`; NULL when unlabelled), `path` (e.g.
 `(a)(1)(ii)`; for an unlabelled block, its enclosing item's path; NULL at top
-level) and `text` (`''` for a label-only block such as `(c)` in `(c)(1)`).
+level), `section` and `heading`, and `text` (`''` for a label-only block such
+as `(c)` in `(c)(1)`). In a text with section headings (rule 7 of the text
+format), `section` is the section a block belongs to (`F23.2`; NULL before
+the first heading and in texts without one), `heading` is 1 on the heading
+block itself (top level, unlabelled), and every path starts with the section
+(`F23.2(b)(1)`), so paths stay unique within the version. CHECKs enforce
+both.
 Every version that has text has rows, aliases and `TEXT MISSING` included; a
 flat text is one unlabelled row, so the app has a single rendering path.
 `provision_versions.text` keeps the label-line string unchanged. Index on

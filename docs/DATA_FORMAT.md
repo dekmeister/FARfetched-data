@@ -199,6 +199,25 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
    indented less than they are. With no such item they are top-level text.
 6. **Label gaps** (`(a)` then `(c)`, or a text starting at `(b)`) are allowed,
    because real regulations drop paragraphs, and counted in the build report.
+7. **Section headings.** A line starting `Sec. ` and an appendix section
+   number (`Sec. F23.2 Part II--Test Method …`: a capital letter, digits, a
+   dot, digits) is a section heading. It closes every open level, so labels
+   restart under it, and every path after it starts with its number
+   (`F23.2(b)(1)`). Lines before the first heading have no section. A heading
+   must not be indented, and a section number may not repeat in one text.
+   This is how FAA appendices assembled from their DRS sections keep each
+   section's own `(a)…` run. A `paragraph` qualifier is a run of bare labels,
+   so it matches no path inside a sectioned text.
+
+   ```
+   Sec. F23.1 Part I--Acceptable Test Procedure …
+   (a) Conditioning. …
+   (b) Specimen configuration. …
+     (1) Thick foam parts …                  ← path F23.1(b)(1)
+   Sec. F23.2 Part II--Test Method …
+   Use this test method to evaluate …        ← top level, section F23.2
+   (a) Definitions. …                        ← path F23.2(a)
+   ```
 
 **Layout only.** Structuring may only add line breaks and indentation.
 Flattening a text (strip every line, drop blank ones, join with single spaces)

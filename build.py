@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 7
+SCHEMA_VERSION = 8
 
 DOCUMENT_FILE = "_document.json"
 
@@ -145,10 +145,17 @@ CREATE TABLE provision_paragraphs (
     depth                INTEGER NOT NULL CHECK (depth >= 0),
     label                TEXT,
     path                 TEXT,
+    section              TEXT,
+    heading              INTEGER NOT NULL CHECK (heading IN (0, 1)),
     text                 TEXT NOT NULL,
     UNIQUE (provision_version_id, seq),
     CHECK ((depth = 0) = (path IS NULL)),
-    CHECK (label IS NULL OR depth >= 1)
+    CHECK (label IS NULL OR depth >= 1),
+    -- A heading row opens a section: top level, unlabelled, naming it.
+    CHECK (heading = 0 OR (depth = 0 AND label IS NULL AND section IS NOT NULL)),
+    -- Inside a section, paths carry the section number: 'G23.3(a)(1)'.
+    CHECK (path IS NULL OR section IS NULL
+           OR substr(path, 1, length(section) + 1) = section || '(')
 ) STRICT;
 
 CREATE INDEX idx_pp_path ON provision_paragraphs (provision_version_id, path);
@@ -499,6 +506,9 @@ def sort_key(number: str) -> str:
 
 _LABEL_GROUP_RE = re.compile(r"(\[ ?)?((?:\([A-Za-z0-9]{1,5}\))+)(?= |$)")
 _LABEL_TOKEN_RE = re.compile(r"\(([A-Za-z0-9]{1,5})\)")
+# A section heading inside a provision text: an appendix assembled from its
+# sections (`Sec. F23.2 Part II--Test Method ...`). Labels restart under it.
+SECTION_HEADING_RE = re.compile(r"Sec\. ([A-Z]\d+\.\d+[a-z]?)(?= |$)")
 _ROMAN_DIGITS = {"i": 1, "v": 5, "x": 10}
 # Lower to upper bound of roman labels: i..xxxix. `l`, `c`, `d`, `m` are
 # letters, never numerals.
@@ -566,6 +576,8 @@ class Paragraph:
     label: str | None  # verbatim, e.g. '(ii)' or '[(4)'; None when unlabelled
     path: str | None  # '(a)(1)(ii)'; the enclosing item's path when unlabelled
     text: str  # '' for a label-only block
+    section: str | None = None  # 'F23.2' under a section heading, else None
+    heading: bool = False  # the block is the section heading itself
 
 
 @dataclass(frozen=True)
@@ -639,8 +651,9 @@ def _choose(stack: list[_Level], token: str, indent: int, line: int) -> _Reading
     return fitting[0]
 
 
-def _path(stack: list[_Level]) -> str:
-    return "".join(f"({lvl.token})" for lvl in stack)
+def _path(stack: list[_Level], section: str | None = None) -> str:
+    labels = "".join(f"({lvl.token})" for lvl in stack)
+    return f"{section or ''}{labels}" if labels else ""
 
 
 def parse_paragraphs(text: str) -> ParsedText:
@@ -666,11 +679,25 @@ def parse_paragraphs(text: str) -> ParsedText:
     stack: list[_Level] = []
     out: list[Paragraph] = []
     gaps = 0
+    section: str | None = None
+    sections: set[str] = set()
     for n, raw in lines:
         content = raw.lstrip(" ")
         indent = len(raw) - len(content)
         if content[0].isspace():
             raise TextFormatError(n, "indentation must be spaces")
+        h = SECTION_HEADING_RE.match(content)
+        if h:
+            # Rule 7: a section heading closes every open level.
+            if indent:
+                raise TextFormatError(n, "a section heading must not be indented")
+            section = h.group(1)
+            if section in sections:
+                raise TextFormatError(n, f"section {section} repeats")
+            sections.add(section)
+            stack = []
+            out.append(Paragraph(len(out), 0, None, None, content, section, True))
+            continue
         m = _LABEL_GROUP_RE.match(content)
         tokens = _LABEL_TOKEN_RE.findall(m.group(2)) if m else []
         if not (m and all(label_values(t) for t in tokens)):
@@ -681,7 +708,14 @@ def parse_paragraphs(text: str) -> ParsedText:
             )
             owner = stack[: k + 1]
             out.append(
-                Paragraph(len(out), len(owner), None, _path(owner) or None, content)
+                Paragraph(
+                    len(out),
+                    len(owner),
+                    None,
+                    _path(owner, section) or None,
+                    content,
+                    section,
+                )
             )
             continue
         assert m is not None
@@ -703,8 +737,9 @@ def parse_paragraphs(text: str) -> ParsedText:
                     len(out),
                     depth,
                     ((m.group(1) or "") if i == 0 else "") + f"({tok})",
-                    _path(stack[:depth]),
+                    _path(stack[:depth], section),
                     body if i == len(tokens) - 1 else "",
+                    section,
                 )
             )
     return ParsedText(tuple(out), True, gaps)
@@ -724,7 +759,9 @@ def paragraph_ref_paths(qualifier: str, paths: set[str]) -> list[str] | None:
     A qualifier lists paragraphs the way TCDSs write them: `(a)(1)(2)(b)` is
     (a)(1), (a)(2) and (b). Each token descends into the current paragraph or
     names a sibling of it or of one of its ancestors. `(c3)` is read as
-    `(c)(3)`.
+    `(c)(3)`. In a text with section headings every path starts with its
+    section (`G23.3(a)`), so a bare qualifier matches nothing there: it
+    doesn't say which section's `(a)` it means.
     """
     if re.sub(r"\([A-Za-z0-9]+\)|\s", "", qualifier):
         return None
@@ -950,9 +987,12 @@ def _insert_paragraphs(
 ) -> None:
     conn.executemany(
         "INSERT INTO provision_paragraphs "
-        "(provision_version_id, seq, depth, label, path, text) "
-        "VALUES (?, ?, ?, ?, ?, ?)",
-        [(pv_id, p.seq, p.depth, p.label, p.path, p.text) for p in parsed.paragraphs],
+        "(provision_version_id, seq, depth, label, path, section, heading, text) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            (pv_id, p.seq, p.depth, p.label, p.path, p.section, int(p.heading), p.text)
+            for p in parsed.paragraphs
+        ],
     )
 
 

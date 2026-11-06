@@ -195,6 +195,70 @@ class TestDepth:
 
 
 # ---------------------------------------------------------------------------
+# Rule 7: section headings (appendices assembled from their sections)
+
+APPENDIX_F23 = """\
+Sec. F23.1 Part I--Test Procedure
+(a) Conditioning.
+(b) Specimen configuration:
+  (1) Thick foam parts.
+Sec. F23.2 Part II--Test Method
+Use this test method to evaluate insulation.
+(a) Definitions.
+(b) Test apparatus.
+  (1) Radiant panel test chamber.
+    More of (b)(1)."""
+
+
+class TestSectionHeadings:
+    def test_labels_restart_under_each_section(self) -> None:
+        got = [
+            (p.depth, p.path, p.section, p.heading)
+            for p in parse_paragraphs(APPENDIX_F23).paragraphs
+        ]
+        assert got == [
+            (0, None, "F23.1", True),
+            (1, "F23.1(a)", "F23.1", False),
+            (1, "F23.1(b)", "F23.1", False),
+            (2, "F23.1(b)(1)", "F23.1", False),
+            (0, None, "F23.2", True),
+            (0, None, "F23.2", False),
+            (1, "F23.2(a)", "F23.2", False),
+            (1, "F23.2(b)", "F23.2", False),
+            (2, "F23.2(b)(1)", "F23.2", False),
+            (2, "F23.2(b)(1)", "F23.2", False),
+        ]
+
+    def test_text_before_the_first_heading_has_no_section(self) -> None:
+        got = parse_paragraphs("Intro.\nSec. A23.1 General.\n(a) A.").paragraphs
+        assert [(p.section, p.path) for p in got] == [
+            (None, None),
+            ("A23.1", None),
+            ("A23.1", "A23.1(a)"),
+        ]
+
+    def test_indented_heading_fails(self) -> None:
+        assert "must not be indented" in error("(a) A.\n  Sec. A23.1 General.")
+
+    def test_repeated_section_fails(self) -> None:
+        assert "repeats" in error("Sec. A23.1 One.\n(a) A.\nSec. A23.1 Again.")
+
+    def test_cross_reference_is_not_a_heading(self) -> None:
+        # Only an appendix section number (letter first) opens a section.
+        got = parse_paragraphs("(a) A.\nSec. 23.853 applies.").paragraphs
+        assert [p.section for p in got] == [None, None]
+
+    def test_single_line_stays_flat(self) -> None:
+        assert rows("Sec. A23.1 General. (a) A.") == [
+            (0, None, None, "Sec. A23.1 General. (a) A.")
+        ]
+
+    def test_bare_qualifier_matches_no_sectioned_path(self) -> None:
+        paths = {p.path for p in parse_paragraphs(APPENDIX_F23).paragraphs if p.path}
+        assert paragraph_ref_paths("(a)", paths) == ["(a)"]
+
+
+# ---------------------------------------------------------------------------
 # flatten and paragraph-ref qualifiers
 
 
@@ -347,6 +411,21 @@ class TestBuild:
         assert report["flat_versions"] == 1
         assert report["label_gaps"] == 1
         assert report["tables"]["provision_paragraphs"] == 1 + 14
+
+    def test_section_rows(self, tmp_path: Path) -> None:
+        p = _provision("1", [{"designator": "23-1", "text": APPENDIX_F23}])
+        db = _build(tmp_path, [p], None)
+        with sqlite3.connect(db) as conn:
+            got = conn.execute(
+                "SELECT seq, path, section, heading FROM provision_paragraphs "
+                "WHERE heading = 1 OR path = 'F23.2(b)(1)' ORDER BY seq"
+            ).fetchall()
+        assert got == [
+            (0, None, "F23.1", 1),
+            (4, None, "F23.2", 1),
+            (8, "F23.2(b)(1)", "F23.2", 0),
+            (9, "F23.2(b)(1)", "F23.2", 0),
+        ]
 
     def test_alias_and_text_missing_have_rows(self, tmp_path: Path) -> None:
         p = _provision(

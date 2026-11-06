@@ -17,6 +17,7 @@ change to the SQLite contract.
 | 5 | 2026-11-03 | `77bfeba` | `provision_similarity`, computed by the build ([Similarity](SQLITE.md#similarity)). |
 | 6 | 2026-11-03 | `e7ee945` | Aircraft `categories` move from the model to each `tcb`; `model_categories` becomes `tcb_categories`. Needed to hold FAA and EASA bases on one model. |
 | 7 | 2026-11-04 | (uncommitted at the time of writing) | Provision `key` (identity, file name) separated from the printed `number`; optional per-version `number` and `provision_versions.number`; `UNIQUE (document_id, number)` dropped. Cert-basis `provisions` are printed numbers read at the ref's `to`. Issuer `DOD`. Needed for MIL-HDBK-516, which reuses and renumbers paragraph numbers between editions. |
+| 8 | 2026-11-06 | (uncommitted at the time of writing) | Section headings in label-line text (rule 7): a top-level `Sec. F23.2 …` line closes every open level, and labels restart under it. `provision_paragraphs` gains `section` and `heading`, and paths inside a section carry its number (`F23.2(b)(1)`). Needed for FAA appendices assembled from their DRS sections, whose `(a)…` runs restart per section (GitHub #11). |
 
 The `NATO` issuer (STANAG 4671 / AEP-4671) was added on 2026-11-06 without a
 version bump: it is one more row in the closed `issuers` set and one more value

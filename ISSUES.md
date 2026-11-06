@@ -289,6 +289,12 @@ uncommitted `s00_common/structure.py` edits land (words identical).
   correction's date. Now: `effective_date` 2023-07-17 (regs.csv held one
   document of each date) plus `drs_date` 2023-07-11 → 2023-07-17 for §25.841.
   The FR docket line of the rule misprints "Amdt. No. 25-148".
+- **FAA-24. Literal `\n` in DRS titles.** Some DRS title metadata carries a
+  literal backslash-n (`Flame Propagation \nCharacteristics`). It shows up in
+  3 `title_at_revision` values and in 5 texts (faa/23/F23, faa/25/1707, A25, B25,
+  F25), where assembled appendices put section titles into the text. F23@23-62
+  is fixed by an override (GitHub #11). The rest want an extractor fix
+  (normalise it in the title, then re-assemble).
 - **FAA-22. Extractor and manifest changes made for Parts 27, 25 and 29**
   (documented in FAA_REGS.md and the `overrides.py` docstring, with tests):
   - Stub versions: a DRS title of "Re-designated", "Reserved." or "Revoked."
@@ -730,8 +736,12 @@ tools/ history) for the per-document tables. List each kind with
   report `label_gaps`). Most are in CS-25. (was: Para #5)
 - **TEXT-6. Flat-failed texts show as one block** (171). Paragraph refs to
   them are unverifiable. (was: Para #6; CAR part → CAR-1)
-  - FAA (3): 23.45@23-21 (DRS dropped a `(`), 23.1147@23-43 (`(a)[(1)`),
-    and H23@23-43 (per-section `(a)` runs).
+  - FAA (25 after the 2026-11-06 re-emit of Parts 23/25/27/29/36; list them
+    from `structure_report_faa.tsv`): e.g. 23.45@23-21 (DRS dropped a `(`),
+    23.1147@23-43 (`(a)[(1)`). H23@23-43 and F23@23-62 (per-section `(a)`
+    runs) are fixed by section headings (TEXT-12). H36@36-14/24 were laid out
+    before only because each section was nested under the one before; with
+    headings their own label breaks show, so they are flat like H36@36-25/30.
   - EASA (88; was 128 before the 2026-11-04 structure rules): lists without
     an introducer, flattened tables, and appendix sub-sections. New in that
     change: 25.773@CS25-27 goes flat because the source labels two
@@ -757,6 +767,23 @@ tools/ history) for the per-document tables. List each kind with
   (was: EASA-ingest #8, #12) Formulas and sub/superscripts (GitHub #4, CS-25
   §25.331, CAR 3 §3.159) are planned, not started:
   [reviews/PLAN_FORMULA_MARKUP.md](reviews/PLAN_FORMULA_MARKUP.md).
+- **TEXT-12. Section headings in assembled appendices** (GitHub #11, fixed
+  2026-11-06, schema v8). FAA appendices assembled from DRS sections
+  (`Sec. F23.1 … (a)…(h) Sec. F23.2 … (a)…`) restart their labels per
+  section. Before v8, 28 versions in 11 files (A23, G23, H25, A27, B27, A29,
+  B29, F36, G36, H36, J36) laid out silently wrong: each heading was swallowed
+  into the previous paragraph and the next section's `(a)` was nested under
+  the previous section's last item. 8 others were flat. Text format rule 7
+  now makes `Sec. X.N` a heading line, and paths carry the section
+  (`F23.2(b)(1)`). Open:
+  - A section's opening words stay on the heading line when the title has no
+    end mark (`Sec. F23.2 Part II--… Insulation Materials Use this test
+    method …`). A fix needs the title boundary, which the segmenter (a pure
+    function of the words) can't see.
+- **TEXT-13. A list that restarts inside one paragraph nests under its
+  predecessor.** F23.1(b)@23-62 has `(1)…(3)`, a sentence, then a second
+  `(1)…(4)`, which is laid out as `(b)(3)(1)…(4)`. The format has no way to
+  repeat a label under the same parent.
 
 ### Build / contract (BUILD-)
 
