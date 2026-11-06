@@ -1,0 +1,22 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1719-edb-v1",
+  "number": "U1719",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Exits.",
+  "subject_group": "UCS FIRE AND HAZARD PROTECTION",
+  "versions": [
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Exits.",
+      "text": "(a) Each exit in the UCS must be internally marked and readily identifiable from inside the UCS.\n(b) Means must be provided to assist UCS crew in locating the exit(s) in conditions of dense smoke.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

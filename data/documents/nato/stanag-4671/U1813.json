@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1813",
+  "number": "U1813",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Hydraulic systems indicator",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Hydraulic systems indicator",
+      "text": "There must be a means to indicate to the UAV crew the pressure in each hydraulic system which supplies two or more primary functions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Hydraulic systems indicator",
+      "text": "There must be a means to indicate to the UAS crew the pressure in each hydraulic system which supplies two or more primary functions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

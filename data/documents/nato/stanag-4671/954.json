@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "954",
+  "number": "954",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel system lightning protection",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel system lightning protection",
+      "text": "The fuel system must be designed and arranged to prevent the ignition of fuel vapour within the system in consistency with the lightning protection requirements defined in USAR.867 by (a) Direct lightning strikes to areas having a high probability of stroke attachment ; (b) Swept lightning strokes on areas where swept strokes are highly probable; and (c) Corona or streamering at fuel vent outlets.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

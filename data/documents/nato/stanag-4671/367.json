@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "367",
+  "number": "367",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Asymmetrical Loads Due to Engine Failure",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Unsymmetrical Loads Due to Engine Failure",
+      "text": "(a) The UAV must be designed for the unsymmetrical loads resulting from the failure of the critical engine. Turbopropeller UAV must be designed for the unsymmetrical loads resulting from the failure of the critical engine including the following conditions in combination with a single malfunction of the propeller drag limiting system, (1) At speeds between VMC and VD, the loads resulting from power failure because of fuel flow interruption are considered to be limit loads; (2) At speeds between VMC and VC, the loads resulting from the disconnection of the engine compressor from the turbine or from loss of the turbine blades are considered to be ultimate loads; (3) The time history of the thrust decay and drag build-up occurring as a result of the prescribed engine failures must be substantiated by test or other data applicable to the particular engine-propeller combination; and (4) Not applicable (see USAR.367 (c)).\n(b) Not applicable.\n(c) The timing and magnitude of the corrective action performed automatically by the flight control system must be conservatively estimated, considering the characteristics of the particular engine-propeller- UAV combination.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Asymmetrical Loads Due to Engine Failure",
+      "text": "(a) The UA must be designed for the asymmetrical loads resulting from the failure of the critical engine. Turbopropeller UA must be designed for the asymmetrical loads resulting from the failure of the critical engine including the following conditions in combination with a single malfunction of the propeller drag limiting system:\n  (1) At speeds between VMC and VD, the loads resulting from power failure because of fuel flow interruption are considered to be limit loads;\n  (2) At speeds between VMC and VC, the loads resulting from the disconnection of the engine compressor from the turbine or from loss of the turbine blades are considered to be ultimate loads;\n  (3) The time history of the thrust decay and drag build-up occurring as a result of the prescribed engine failures must be substantiated by test or other data applicable to the particular engine-propeller combination; and\n  (4) Not applicable. (see USAR.367 (c))\n(b) Not applicable.\n(c) The timing and magnitude of the corrective action performed automatically by the flight control system must be conservatively estimated, considering the characteristics of the particular engine-propeller-UA combination.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

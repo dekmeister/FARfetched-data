@@ -1,0 +1,33 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1717",
+  "number": "U1712",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "UCS electrical systems",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "number": "U1717",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "UCS electrical systems",
+      "text": "(a) Each electrical system in the UCS must be :\n  (1) free from hazards in itself, in its method of operation, and in its effects on other parts of the UCS (2) so designed that the risk of electrical shock is reduced to a minimum. (3) designed to be protected against electrostatic, lightning and EME hazards.\n(b) The total electrical heat emission must be taken into account in the design of the UCS",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "UCS electrical systems",
+      "text": "(a) Each electrical system in the UCS must be:\n  (1) free from hazards in itself, in its method of operation, and in its effects on other parts of the UCS.\n  (2) so designed that the risk of electrical shock is reduced to a minimum.\n  (3) designed to be protected against electrostatic, lightning and EME hazards.\n(b) The total electrical heat emission must be taken into account in the design of the UCS.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

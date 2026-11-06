@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1753",
+  "number": "U1753",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Ignition switches",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Ignition switches",
+      "text": "See AMC.1753 (b) (a) Ignition switches must control each ignition circuit on each engine. (b) There must be means readily available to the UAV crew to quickly shut off all ignition circuits on multi-engine UAV. (c) Ignition switches must have safeguards to prevent inadvertent operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Ignition switches",
+      "text": "See AMC.U1753 (b) (a) Ignition switches must control each ignition circuit on each engine. (b) There must be means readily available to the UAS crew to quickly shut off all ignition circuits on multi-engine UA. (c) Ignition switches must have safeguards to prevent inadvertent operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

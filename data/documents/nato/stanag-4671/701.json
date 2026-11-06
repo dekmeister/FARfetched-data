@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "701",
+  "number": "701",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Flap interconnection",
+  "subject_group": "CONTROL SYSTEMS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Flap interconnection",
+      "text": "(a) The main wing flaps and related movable surfaces as a system must (1) Be synchronised by a mechanical interconnection between the movable flap surfaces that is independent of the flap drive system or by an approved equivalent means; or (2) Be designed so that the occurrence of any failure of the flap system that would result in an unsafe flight characteristic of the UAV is extremely improbable; or\n(b) The UAV must be shown to have safe flight characteristics with any combination of extreme positions of individual movable surfaces (mechanically interconnected surfaces are to be considered as a single surface).\n(c) If an interconnection is used in multi-engine UAV, it must be designed to account for the unsymmetrical loads resulting from flight with the engine on one side of the plane of symmetry inoperative and the remaining engine at take-off power or thrust. For single-engine UAV and multi-engine UAV with no slipstream effects on the flaps, it may be assumed that 100% of the critical air load acts on one side and 70% on the other.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Flap interconnection",
+      "text": "See AMC.701 (a) The main wing flaps and related movable surfaces as a system must: (1) Be synchronised by means independent of the flap drive system; or (2) Be designed so that the occurrence of any failure of the flap system that would result in an unsafe flight characteristic of the UA is Extremely Improbable; or (b) The UA must be shown to have safe flight characteristics with any combination of extreme positions of individual movable surfaces (mechanically interconnected surfaces are to be considered as a single surface). (c) If an interconnection is used in multi-engine UA, it must be designed to account for the asymmetrical loads resulting from flight with the engine on one side of the plane of symmetry inoperative and the remaining engine at take-off power or thrust. For single-engine UA and multi-engine UA with no slipstream effects on the flaps, it may be assumed that 100% of the critical air load acts on one side and 70% on the other.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

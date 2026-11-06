@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "423",
+  "number": "423",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Manoeuvring Loads",
+  "subject_group": "HORIZONTAL TAIL SURFACES",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Manoeuvring Loads",
+      "text": "Each horizontal surface and its supporting structure, and the main wing of a canard or tandem wing configuration, if that surface has pitch control, must be designed for manoeuvring loads imposed by the following conditions:\n(a) A sudden movement of the pitching control, at the speed VA, as limited by the control stops, or, maximum force of the servocontrols or actuators, whichever is critical, to (1) the maximum aft movement, and, (2) the maximum forward movement.\n(b) A sudden aft movement of the pitching control at speeds above VA, followed by a forward movement of the pitching control resulting in the following combinations of normal and angular acceleration: Condition Normal Angular acceleration acceleration (n) (radian/sec2 ) Nose-up pitching 1.0 ) 5 . 1 ( 2 . 72 / / \u2212 + m m h km n n V \u239f \u239f \u23a0 \u239e \u239c \u239c \u239d \u239b \u2212 + ) 5 . 1 ( 39 / m m kt n n V Nose-down pitching nm ) 5 . 1 ( 2 . 72 / / \u2212 \u2212 m m h km n n V \u239f \u239f \u23a0 \u239e \u239c \u239c \u239d \u239b \u2212 \u2212 ) 5 . 1 ( 39 / m m kt n n V where nm = positive limit manoeuvring load factor used in the design of the UAV; and V/km/h = initial speed in km/h. The conditions in this paragraph involve loads corresponding to the loads that may occur in a \"checked manoeuvre\" (a manoeuvre in which the pitching control is suddenly displaced in one direction and then suddenly moved in the opposite direction). The deflections and timing of the \"checked manoeuvre\" must avoid exceeding the limit manoeuvring load factor. The total horizontal surface load for both nose-up and nose-down pitching conditions should be based on the actual control surface movement in response to the pitch demand and is the sum of the balancing loads at V and the specified value of the normal load factor n, plus the manoeuvring load increment due to the specified value of the angular acceleration.\n(c) A movement of the pitching control to cause a transition from steady level flight at a speed within the flight envelope protection maintained by the flight control system or on the boundary of the flight envelope as specified in USAR333 to the appropriate extreme steady normal acceleration condition.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Manoeuvring Loads",
+      "text": "Each horizontal surface and its supporting structure, and the main wing of a canard or tandem wing configuration, if that surface has pitch control, must be designed for manoeuvring loads imposed by the following conditions:\n(a) A sudden movement of the pitching control, at the speed VA, as limited by the control stops, the maximum rate allowed by the FCS, or, maximum force of the servocontrols or actuators, whichever is critical, to:\n  (1) the maximum aft movement, and\n  (2) the maximum forward movement.\n(b) A sudden aft movement of the pitching control at speeds above VA, followed by a forward movement of the pitching control, as limited by the control stops, the maximum rate allowed by the FCS, or, maximum force of the servocontrols or actuators, whichever is critical, resulting in the following combinations of normal and angular acceleration: Condition Normal Angular acceleration acceleration (n) (radian/sec2) Nose-up pitching 1.0 ) 5 . 1 ( 2 . 72 / / \uf02d \uf02b m m h km n n V \uf0f7 \uf0f7 \uf0f8 \uf0f6 \uf0e7 \uf0e7 \uf0e8 \uf0e6 \uf02d \uf02b ) 5 . 1 ( 39 / m m kt n n V Nose-down pitching nm ) 5 . 1 ( 2 . 72 / / \uf02d \uf02d m m h km n n V \uf0f7 \uf0f7 \uf0f8 \uf0f6 \uf0e7 \uf0e7 \uf0e8 \uf0e6 \uf02d \uf02d ) 5 . 1 ( 39 / m m kt n n V Where: nm = positive limit manoeuvring load factor used in the design of the UA; and V/km/h = initial speed in km/h. The conditions in this paragraph involve loads corresponding to the loads that may occur in a \"checked manoeuvre\" (a manoeuvre in which the pitching control is suddenly displaced in one direction and then suddenly moved in the opposite direction). The deflections and timing of the \"checked manoeuvre\" must avoid exceeding the limit manoeuvring load factor. The total horizontal surface load for both nose-up and nose-down pitching conditions should be based on the actual control surface movement in response to the pitch demand and is the sum of the balancing loads at V and the specified value of the normal load factor n, plus the manoeuvring load increment due to the specified value of the angular acceleration.\n(c) A movement of the pitching control to cause a transition from steady level flight at a speed within the flight envelope protection maintained by the flight control system or on the boundary of the flight envelope as specified in USAR.333 to the appropriate extreme steady normal acceleration condition.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

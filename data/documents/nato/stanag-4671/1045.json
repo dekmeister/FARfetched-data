@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1045",
+  "number": "1045",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Cooling test procedures for turbine engine-powered UA",
+  "subject_group": "COOLING",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Cooling test procedures for turbine engine-powered UAV",
+      "text": "See AMC.1045 and AMC.1045 (b) (a) Compliance with USAR.1041 must be shown for all phases of operation. The UAV must be flown in the configurations, at the speeds and following the procedures recommended in the UAV System Flight Manual for the relevant stage of flight, corresponding to the applicable performance requirements, which are critical relative to cooling. (b) Temperatures must be stabilised under the conditions from which entry is made into each stage of flight being investigated, unless the entry condition normally is not one during which component and engine fluid temperatures would stabilise (in which case, operation through the full entry condition must be conducted before entry into the stage of flight being investigated in order to allow temperatures to reach their natural levels at the time of entry). The take-off cooling test must be preceded by a period during which the powerplant component and engine fluid temperatures are stabilised with the engines at ground idle. (c) Cooling tests for each stage of flight must be continued until (1) The component and engine fluid temperatures stabilise; or (2) The stage of flight is completed; or\n(3) An operating limitation is reached.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Cooling test procedures for turbine engine-powered UA",
+      "text": "See AMC.1045 and AMC.1045 (b) (a) Compliance with USAR.1041 must be shown for all phases of operation. The UA must be flown in the configurations, at the speeds and following the procedures recommended in the UAS Flight Manual for the relevant stage of flight, corresponding to the applicable performance requirements, which are critical relative to cooling. (b) Temperatures must be stabilised under the conditions from which entry is made into each stage of flight being investigated, unless the entry condition normally is not one during which component and engine fluid temperatures would stabilise (in which case, operation through the full entry condition must be conducted before entry into the stage of flight being investigated in order to allow temperatures to reach their natural levels at the time of entry). The take-off cooling test must be preceded by a period during which the powerplant component and engine fluid temperatures are stabilised with the engines at ground idle. (c) Cooling tests for each stage of flight must be continued until:\n(1) The component and engine fluid temperatures stabilise; or\n(2) The stage of flight is completed; or\n(3) An operating limitation is reached.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

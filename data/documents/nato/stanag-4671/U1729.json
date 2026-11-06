@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1729",
+  "number": "U1729",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Fuel quantity and oil quantity data",
+  "subject_group": "DATA DISPLAYED IN THE UAS CONTROL STATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Fuel quantity and oil quantity data",
+      "text": "(a) Fuel quantity and consumption data. There must be means to indicate to the UAV crew the rate of fuel consumption and the quantity of usable fuel in each tank during flight. A calibrated scale in appropriate units and clearly marked to indicate those units, must be used. In addition (1) Tanks with interconnected outlets and airspaces may be considered as one tank and need not display separate data; and (2) No fuel quantity data is required for an auxiliary tank that is used only to transfer fuel to other tanks if the relative size of the tank, the rate of fuel transfer and operating instructions are adequate to (i) Prevent overflow; and (ii) Give to the UAV crew a prompt warning if a transfer malfunction occurs. (b) Oil quantity data. There must be a means to indicate in the UCS the quantity of oil in each tank in flight, if there is an oil transfer system or a reserve oil supply system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Fuel quantity and oil quantity data",
+      "text": "(a) Fuel quantity and consumption data. There must be means to indicate to the UAS crew the rate of fuel consumption and the quantity of usable fuel in each tank during flight. A calibrated scale in appropriate units and clearly marked to indicate those units, must be used. In addition:\n  (1) Tanks with interconnected outlets and airspaces may be considered as one tank and need not display separate data; and\n  (2) No fuel quantity data is required for an auxiliary tank that is used only to transfer fuel to other tanks if the relative size of the tank, the rate of fuel transfer and operating instructions are adequate to:\n    (i) Prevent overflow; and\n    (ii) Give to the UAS crew a prompt warning if a transfer malfunction occurs.\n(b) Oil quantity data. There must be a means to indicate in the UCS the quantity of oil in each tank in flight, if there is an oil transfer system or a reserve oil supply system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "351",
+  "number": "351",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Yawing Conditions",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Yawing Conditions",
+      "text": "The UAV must be designed for yawing loads on the vertical surfaces resulting from the loads specified in USAR.441 to USAR.445.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Yawing Conditions",
+      "text": "The UA must be designed for yawing loads on the vertical surfaces resulting from the loads specified in USAR.441 to USAR.445",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1829",
+  "number": "U1829",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "UAS safety status indication",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "UAV safety status indication",
+      "text": "An indication must be provided in the UCS which shows the safety status of the UAV so approaching ground staff can be notified if the UAV is in an unsafe state (e.g. radiation hazard present, laser energized, etc.).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "UAS safety status indication",
+      "text": "An indication must be provided in the UCS which shows the safety status of the UAS so approaching ground staff can be notified if the UA is in an unsafe state (e.g. radiation hazard present, laser energized, etc.)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1831",
+  "number": "U1831",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "General",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "General",
+      "text": "Each information, markings and placard displayed in the UCS prescribed in USAR.1541 (a) must be (a) continuously displayed in a conspicuous place relative to the object, indicator or data it is assumed to be associated with; and (b) easily interpreted unambiguously by the UAV crew.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "General",
+      "text": "Each information, markings and placard displayed in the UCS prescribed in USAR.1541 (a) must be:\n(a) continuously displayed in a conspicuous place relative to the object, indicator or data it is assumed to be associated with; and\n(b) easily interpreted unambiguously by the UAS crew.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

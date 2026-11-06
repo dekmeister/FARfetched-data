@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "735",
+  "number": "735",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Brakes",
+  "subject_group": "LANDING GEAR",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Brakes",
+      "text": "See AMC.735 (c) (a) The landing brake kinetic energy capacity rating of each main wheel brake assembly must not be less than the kinetic energy absorption requirements determined under either of the following methods: (1) The brake kinetic energy absorption requirements must be based on a conservative rational analysis of the sequence of events expected during landing at the design landing weight. (2) Instead of a rational analysis, the kinetic energy absorption requirements for each main wheel brake assembly may be derived from the following formula: KE = \u00bdMV\u00b2/N where KE = Kinetic energy per wheel (Joules); M = Mass at design landing weight (kg); V = UAV speed in m/s. V must be not less than VS0, the power off stalling speed of the UAV at sea level, at the design landing weight, and in the landing configuration; and N = Number of main wheels with brakes. (3) Arresting cable, barrier net or other unconventional braking/arresting devices are out of scope regarding brake energy absorption on wheels and must belong to Special Condition category. The design of any arrestor system shall ensure that it retards the air vehicle without imparting forces and accelerations in excess of those for which its airframe and internal equipment are designed. (b) Brakes must be able to prevent the wheels from rolling on a paved runway with take-off power or thrust in the critical engine, but need not prevent movement of the UAV with wheels locked. (c) During the landing distance determination required by USAR.75, the pressure in the wheel braking system must not exceed the pressure specified by the brake manufacturer. (d) If anti-skid devices are installed, the devices and associated systems must be designed so that no single probable malfunction or failure will result in a hazardous loss of braking ability or directional control of the UAV. (e) A rejected take-off at VRf shall not lead to a hazardous or more serious failure conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Brakes",
+      "text": "See AMC.735 (c) Arresting systems not covered by USAR.U590 are out of scope.\n(a) The landing brake kinetic energy capacity rating of each main wheel brake assembly must not be less than the kinetic energy absorption requirements determined under either of the following methods:\n  (1) The brake kinetic energy absorption requirements must be based on a conservative rational analysis of the sequence of events expected during landing at the design landing weight.\n  (2) Instead of a rational analysis, the kinetic energy absorption requirements for each main wheel brake assembly may be derived from the following formula: KE = \u00bdMV\u00b2/N Where: KE = Kinetic energy per wheel (Joules); M = Mass at design landing weight (kg); V = UA speed in m/s. V must be not less than VS0, the power off stalling speed of the UA at sea level, at the design landing weight, and in the landing configuration; and N = Number of main wheels with brakes.\n  (3) Arresting cable, barrier net or other unconventional braking/arresting devices are out of scope regarding brake energy absorption on wheels and must belong to Special Condition category. The design of any arrestor system shall ensure that it retards the aircraft without imparting forces and accelerations in excess of those for which its airframe and internal equipment are designed.\n(b) Brakes must be able to prevent the wheels from rolling on a paved runway with take-off power or thrust in the critical engine, but need not prevent movement of the UA with wheels locked.\n(c) During the landing distance determination required by USAR.75, the pressure in the wheel braking system must not exceed the pressure specified by the brake manufacturer.\n(d) If anti-skid devices are installed, the devices and associated systems must be designed so that no single probable malfunction or failure will result in a Hazardous loss of braking ability or directional control of the UA.\n(e) The rejected take-off brake kinetic energy capacity rating of each mainwheel brake assembly must not be less than the kinetic energy absorption requirements determined under either of the following methods:\n  (1) The brake kinetic energy absorption requirements must be based on a conservative rational analysis of the sequence of events expected during a rejected take-off at maximum weight.\n  (2) Instead of a rational analysis, the kinetic energy absorption requirements for each mainwheel brake assembly may be derived from the following formula: KE = \u00bd MV2/N Where: KE = Kinetic energy per wheel (Joules); M = Mass at maximum weight (kg); V = Ground speed in m/s associated with the maximum value of VRf selected in accordance with USAR.51 N = Number of main wheels with brakes.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

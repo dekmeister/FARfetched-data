@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U586",
+  "number": "U586",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Use of trolley or shuttle",
+  "subject_group": "FATIGUE EVALUATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Use of trolley or shuttle",
+      "text": "(a) Any structure such as trolley or shuttle which is used to transfer the accelerating forces to the air vehicle or to stabilise the air vehicle during launch, must be capable of withstanding the acceleration and subsequent decelerations without causing any damage to the air vehicle.\n(b) The interface of the trolley or shuttle and the UAV must be such as to ensure controlled, reliable and safe separation at lift off.\n(c) The moving trolley or shuttle must exhibit adequate control and stability, both during acceleration and subsequent retardation following separation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Use of trolley or shuttle",
+      "text": "(a) Any structure such as trolley or shuttle which is used to transfer the accelerating forces to the aircraft or to stabilise the aircraft during launch, must be capable of withstanding the acceleration and subsequent decelerations without causing any damage to the aircraft.\n(b) The interface of the trolley or shuttle and the UA must be such as to ensure controlled, reliable and safe separation at lift off.\n(c) The moving trolley or shuttle must exhibit adequate control and stability, both during acceleration and subsequent retardation following separation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

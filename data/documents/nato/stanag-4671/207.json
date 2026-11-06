@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "207",
+  "number": "207",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Stall warning",
+  "subject_group": "STALLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Stall warning",
+      "text": "Not applicable in this subpart (see USAR.1789 Low speed warning)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Stall warning",
+      "text": "Not applicable in this subpart. (see USAR.U1789 Low speed warning)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

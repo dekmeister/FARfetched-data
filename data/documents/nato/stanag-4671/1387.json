@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1387",
+  "number": "1387",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Position light system dihedral angles",
+  "subject_group": "LIGHTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Position light system dihedral angles",
+      "text": "(a) Except as provided in sub-paragraph (e), each position light must, as installed, show unbroken light within the dihedral angles described in this paragraph.\n(b) Dihedral angle L (left) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the UAV, and the other at 110\u00b0 to the left of the first, as viewed when looking forward along the longitudinal axis.\n(c) Dihedral angle R (right) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the UAV, and the other at 110\u00b0 to the right of the first, as viewed when looking forward along the longitudinal axis.\n(d) Dihedral angle A (aft) is formed by two intersecting vertical planes making angles of 70\u00b0 to the right and to the left, respectively, to a vertical plane passing through the longitudinal axis, as viewed when looking aft along the longitudinal axis.\n(e) If the rear position light, when mounted as far aft as practicable in accordance with USAR.1385 (c), cannot show unbroken light within dihedral angle A (as defined in sub-paragraph (d) ), a solid angle or angles of obstructed visibility totalling not more than 0.04 steradians is allowable within that dihedral angle, if such solid angle is within a cone whose apex is at the rear position light and whose elements make an angle of 30\u00b0 with a vertical line passing through the rear position light.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Position light system dihedral angles",
+      "text": "(a) Except as provided in sub-paragraph (e), each position light must, as installed, show unbroken light within the dihedral angles described in this paragraph.\n(b) Dihedral angle L (left) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the UA, and the other at 110\u00b0 to the left of the first, as viewed when looking forward along the longitudinal axis.\n(c) Dihedral angle R (right) is formed by two intersecting vertical planes, the first parallel to the longitudinal axis of the UA, and the other at 110\u00b0 to the right of the first, as viewed when looking forward along the longitudinal axis.\n(d) Dihedral angle A (aft) is formed by two intersecting vertical planes making angles of 70\u00b0 to the right and to the left, respectively, to a vertical plane passing through the longitudinal axis, as viewed when looking aft along the longitudinal axis.\n(e) If the rear position light, when mounted as far aft as practicable in accordance with USAR.1385 (c), cannot show unbroken light within dihedral angle A (as defined in sub-paragraph (d) ), a solid angle or angles of obstructed visibility totalling not more than 0.04 steradians is allowable within that dihedral angle, if such solid angle is within a cone whose apex is at the rear position light and whose elements make an angle of 30\u00b0 with a vertical line passing through the rear position light.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

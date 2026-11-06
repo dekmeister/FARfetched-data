@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1843",
+  "number": "U1843",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Fuel quantity data",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Fuel quantity data",
+      "text": "A red line must be marked on each data displayed in the UCS at the calibrated zero reading, as specified in USAR.1337 (b)(1).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

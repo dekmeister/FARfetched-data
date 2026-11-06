@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1061",
+  "number": "1061",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Installation",
+  "subject_group": "LIQUID COOLING",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Installation",
+      "text": "(a) General. Each liquid-cooled engine must have an independent cooling system (including coolant tank) installed so that:\n  (1) Each coolant tank is supported so that tank loads are distributed over a large part of the tank surface;\n  (2) There are pads or other isolation means between the tank and its supports to prevent chafing; and\n  (3) Pads or any other isolation means that is used must be non-absorbent or must be treated to prevent absorption of flammable fluids; and\n  (4) No air or vapour can be trapped in any part of the system, except the coolant tank expansion space, during filling or during operation.\n(b) Coolant tank. The tank capacity must be at least 3.8 litres (0.83 Imperial gallon/1 USgallon), plus 10% of the cooling system capacity. The Applicant may apply for a lower tank capacity on the basis of a rational analysis taking into account the cooling provisions for the engine. In addition (1) Each coolant tank must be able to withstand the vibration, inertia and fluid loads to which it may be subjected in operation; (2) Each coolant tank must have an expansion space of at least 10% of the total cooling system capacity; and (3) It must be impossible to fill the expansion space inadvertently with the UAV in the normal ground attitude.\n(c) Filler connection. Each coolant tank filler connection must be marked as specified in USAR.1557 (c). In addition (1) Spilled coolant must be prevented from entering the coolant tank compartment or any part of the UAV other than the tank itself; and (2) Each recessed coolant filler connection must have a drain that discharges clear of the entire UAV. (d) Lines and fittings. Each coolant system line and fitting must meet the requirements of USAR.993, except that the inside diameter of the engine coolant inlet and outlet lines may not be less than the diameter of the corresponding engine inlet and outlet connections. (e) Radiators. Each coolant radiator must be able to withstand any vibration, inertia and coolant pressure load to which it may normally be subjected. In addition (1) Each radiator must be supported to allow expansion due to operating temperatures and prevent the transmittal of harmful vibration to the radiator; and (2) If flammable coolant is used, the air intake duct to the coolant radiator must be located so that (in case of fire) flames from the nacelle cannot strike the radiator. (f) Drains. There must be an accessible drain that (1) Drains the entire cooling system (including the coolant tank, radiator and the engine) when the UAV is in the normal ground attitude; (2) Discharges clear of the entire UAV; and (3) Has means to positively lock it closed.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Installation",
+      "text": "(a) General. Each liquid-cooled engine must have an independent cooling system (including coolant tank) installed so that:\n  (1) Each coolant tank is supported so that tank loads are distributed over a large part of the tank surface;\n  (2) There are pads or other isolation means between the tank and its supports to prevent chafing; and\n  (3) Pads or any other isolation means that is used must be non-absorbent or must be treated to prevent absorption of flammable fluids; and\n  (4) No air or vapour can be trapped in any part of the system, except the coolant tank expansion space, during filling or during operation.\n(b) Coolant tank. The tank capacity must be at least 3.8 litres (0.83 Imperial gallon/1 US gallon), plus 10% of the cooling system capacity. The Applicant may apply for a lower tank capacity on the basis of a rational analysis taking into account the cooling provisions for the engine. In addition:\n  (1) Each coolant tank must be able to withstand the vibration, inertia and fluid loads to which it may be subjected in operation;\n  (2) Each coolant tank must have an expansion space of at least 10% of the total cooling system capacity; and\n  (3) It must be impossible to fill the expansion space inadvertently with the UA in the normal ground attitude.\n(c) Filler connection. Each coolant tank filler connection must be marked as specified in USAR.1557 (c). In addition:\n  (1) Spilled coolant must be prevented from entering the coolant tank compartment or any part of the UA other than the tank itself; and\n  (2) Each recessed coolant filler connection must have a drain that discharges clear of the entire UA.\n(d) Lines and fittings. Each coolant system line and fitting must meet the requirements of USAR.993, except that the inside diameter of the engine coolant inlet and outlet lines may not be less than the diameter of the corresponding engine inlet and outlet connections.\n(e) Radiators. Each coolant radiator must be able to withstand any vibration, inertia and coolant pressure load to which it may normally be subjected. In addition:\n  (1) Each radiator must be supported to allow expansion due to operating temperatures and prevent the transmittal of harmful vibration to the radiator; and\n  (2) If flammable coolant is used, the air intake duct to the coolant radiator must be located so that (in case of fire) flames from the nacelle cannot strike the radiator.\n(f) Drains. There must be an accessible drain that:\n  (1) Drains the entire cooling system (including the coolant tank, radiator and the engine) when the UA is in the normal ground attitude;\n  (2) Discharges clear of the entire UA; and\n  (3) Has means to positively lock it closed.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

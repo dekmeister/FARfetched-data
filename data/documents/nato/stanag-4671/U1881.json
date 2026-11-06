@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1881",
+  "number": "U1881",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "UA handover between two UCS",
+  "subject_group": "MISCELLANEOUS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "UAV hand over between two UCS",
+      "text": "See AMC.1881 (b), AMC.1881 (c) and AMC.1881 (d) Where the UAV System is designed for UAV hand over between two UCS:\n(a) The in-control UCS must be clearly identified to all UAV crew members.\n(b) Positive control must be maintained during handover.\n(c) The command and control functions that are transferred during handover must be approved by the Certifying Authority and defined in the UAV System Flight Manual.\n(d) Handover between two UCS must not lead to unsafe conditions.\n(e) The in-control UCS must have the required functionality to accommodate emergency situations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "UA handover between two UCS",
+      "text": "See AMC.U1881 (b), AMC.U1881 (c) and AMC.U1881 (d) Where the UAS is designed for UA handover between two UCS:\n(a) The in-control UCS must be clearly identified to all UAS crew members.\n(b) Positive control must be maintained during handover.\n(c) The command and control functions that are transferred during handover must be approved by the Certifying Authority and defined in the UAS Flight Manual.\n(d) Handover between two UCS must not lead to unsafe conditions.\n(e) The in-control UCS must have the required functionality to accommodate emergency situations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

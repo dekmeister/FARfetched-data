@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "349",
+  "number": "349",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Rolling Conditions",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Rolling Conditions",
+      "text": "The wing and wing bracing must be designed for the following loading conditions:\n(a) Unsymmetrical wing loads . Unless the following values result in unrealistic loads, the rolling accelerations may be obtained by modifying the symmetrical flight conditions in USAR.333 (d) as follows: in condition A, assume that 100% of the semi-span wing air load acts on one side of the UAV and 75% of this load acts on the other side.\n(b) The loads resulting from the aileron deflections and speeds specified in USAR.455, in combination with a UAV load factor of at least two thirds of the positive manoeuvring load factor used for design. Unless the following values result in unrealistic loads, the effect of aileron displacement on wing torsion may be accounted for by adding the following increment to the basic airfoil moment coefficient over the aileron portion of the span in the critical condition determined in USAR.333 (d) .",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Rolling Conditions",
+      "text": "The wing and wing bracing must be designed for the following loading conditions:\n(a) Asymmetrical wing loads. Unless the following values result in unrealistic loads, the rolling accelerations may be obtained by modifying the symmetrical flight conditions in USAR.333 (d) as follows: in condition A, assume that 100% of the semi-span wing air load acts on one side of the UA and 75% of this load acts on the other side.\n(b) The loads resulting from the aileron deflections and speeds specified in USAR.455, in combination with a UA load factor of at least two thirds of the positive manoeuvring load factor used for design. Unless the following values result in unrealistic loads, the effect of aileron displacement on wing torsion may be accounted for by adding the following increment to the basic airfoil moment coefficient over the aileron portion of the span in the critical condition determined in USAR.333 (d).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

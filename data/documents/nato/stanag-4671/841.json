@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "841",
+  "number": "841",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Pressurised compartments",
+  "subject_group": "PRESSURISATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Pressurised compartments",
+      "text": "(a) Not applicable\n(b) If necessary for structural protection, pressurised compartments should have the following valves (or their equivalent)\n  (1) A pressure relief valve (or its equivalent) to automatically limit the positive pressure differential to a predetermined value at the maximum rate of flow delivered by the pressure source. The pressure differential is positive when the internal pressure is greater than the external.\n  (2) A reverse pressure differential relief valve (or its equivalent) to automatically prevent a negative pressure differential that would damage the structure.\n  (3) Not applicable.\n  (4) Not applicable.\n  (5) Not applicable in this subpart (see USAR.1795 Pressurised compartment indicator).\n  (6) Not applicable.\n  (7) Not applicable in this subpart (see USAR.1795 Pressurised compartment indicator).\n  (8) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Pressurised compartments",
+      "text": "(a) Not applicable.\n(b) If necessary for structural protection, pressurised compartments should have the following valves (or their equivalent)\n  (1) A pressure relief valve (or its equivalent) to automatically limit the positive pressure differential to a predetermined value at the maximum rate of flow delivered by the pressure source. The pressure differential is positive when the internal pressure is greater than the external.\n  (2) A reverse pressure differential relief valve (or its equivalent) to automatically prevent a negative pressure differential that would damage the structure.\n  (3) Not applicable.\n  (4) Not applicable.\n  (5) Not applicable in this subpart. (see USAR.U1795 Pressurised compartment indicator)\n  (6) Not applicable.\n  (7) Not applicable in this subpart. (see USAR.U1795 Pressurised compartment indicator)\n  (8) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

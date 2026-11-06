@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "407",
+  "number": "407",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Trim Tab Effects",
+  "subject_group": "CONTROL SURFACE AND SYSTEM LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Trim Tab Effects",
+      "text": "The effects of trim tabs on the control surface design conditions must be accounted for only where the surface loads are limited by maximum effort of the actuating system. In these cases, the tabs are considered to be deflected in the direction that would assist the system. These deflections must correspond to the maximum degree of \"out of trim\" expected at the speed for the condition under consideration.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

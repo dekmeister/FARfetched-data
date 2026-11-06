@@ -1,0 +1,33 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1365",
+  "number": "1365",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Electric cables and equipment",
+  "subject_group": "ELECTRICAL SYSTEMS AND EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electric cables and equipment",
+      "text": "(a) Each electric connecting cable must be of adequate capacity.\n(b) Any equipment that is associated with any electrical cable installation and that would overheat in the event of a circuit overload or fault must be flame resistant\n(c) Means of identification must be provided for electrical cables, connectors and terminals.\n(d) Electrical cables must be installed such that the risk of mechanical damage and/or damage caused by fluids, vapours or sources of heat, is minimised.\n(e) Main power cables (including generator cables) must be designed to allow a reasonable degree of deformation and stretching without failure and must (1) Be separated from flammable fluid lines; or (2) Be shrouded by means of electrically insulated flexible conduit or equivalent, which is in addition to the normal cable insulations.\n(f) Where a cable cannot be protected by a circuit protection device or other overload protection it must not cause a fire hazard under fault conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped",
+        "notes": "printed as USAR.1367 (source printing error; tools/overrides/nato_usar_numbers.tsv)"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electric cables and equipment",
+      "text": "(a) Each electric connecting cable must be sized by gauge and temperature rating equal to or above the full load amperage of its respective circuit.\n(b) Any equipment that is associated with any electrical cable installation and that would overheat in the event of a circuit overload or fault must be flame resistant.\n(c) Means of identification must be provided for electrical cables, connectors and terminals.\n(d) Electrical cables must be installed such that the risk of mechanical damage and/or damage caused by fluids, vapours or sources of heat, is minimised.\n(e) Main power cables (including generator cables) must be designed to allow a reasonable degree of deformation and stretching without failure and must:\n  (1) Be separated from flammable fluid lines; or\n  (2) Be shrouded by means of electrically insulated flexible conduit or equivalent, which is in addition to the normal cable insulations.\n(f) Where a cable cannot be protected by a circuit protection device or other overload protection it must not cause a fire hazard under fault conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

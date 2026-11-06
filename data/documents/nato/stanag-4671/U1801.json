@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1801",
+  "number": "U1801",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Battery discharge warning",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Battery discharge warning",
+      "text": "See AMC.1801 There must be means to warn the UAV crew if malfunctioning of any part of the electrical system is causing the continuous discharge of any battery which is relevant for safe flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Battery discharge warning",
+      "text": "See AMC.U1801 There must be means to warn the UAS crew if malfunctioning of any part of the electrical system is causing the continuous discharge of any battery which is relevant for safe flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

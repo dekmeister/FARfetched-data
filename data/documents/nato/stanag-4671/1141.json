@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1141",
+  "number": "1141",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "UA Powerplant controls: General",
+  "subject_group": "POWERPLANT CONTROLS AND ACCESSORIES",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "UAV Powerplant controls: general",
+      "text": "See AMC.1141 (e) (a) Not applicable (b) Each flexible control must be shown to be suitable for the particular application. (c) Each control must be able to maintain any necessary position without tendency to creep due to control loads or vibration. (d) Each control must be able to withstand operating loads without failure or excessive deflection. (e) For turbine engine-powered UAV, no single failure or malfunction in any powerplant control system shall cause a hazardous or more serious event. (f) The portion of each powerplant control located in the engine compartment that is required to be operated in the event of fire must be at least fire resistant. (g) Not applicable in this subpart (see USAR.1803 Powerplant power assisted valve indicator))",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "UA Powerplant controls: General",
+      "text": "See AMC.1141 (e) (a) Not applicable. (b) Each flexible control must be shown to be suitable for the particular application. (c) Each control must be able to maintain any necessary position without tendency to creep due to control loads or vibration. (d) Each control must be able to withstand operating loads without failure or excessive deflection. (e) For turbine engine-powered UA, no single failure or malfunction in any powerplant control system shall cause a Hazardous or more serious event. (f) The portion of each powerplant control located in the engine compartment that is required to be operated in the event of fire must be at least fire resistant. (g) Not applicable in this subpart. (see USAR.U1803 Powerplant power assisted valve indicator) h) All engine controls which are part of the engine installation must be implemented properly to ensure that:\n(1) Each engine control performs its intended function.\n(2) Each engine control rigging, electrical connector, etc. must be able to withstand operating loads and vibration without failure or excessive deflection.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

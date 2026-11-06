@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1095",
+  "number": "1095",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Carburettor de-icing fluid flow rate",
+  "subject_group": "INDUCTION SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Carburettor de-icing fluid flow rate",
+      "text": "See AMC.1095 (a) If a carburettor de-icing fluid system is used, (a) It must be able to simultaneously supply each engine with a rate of fluid flow as agreed by the Certifying Authority. (b) The fluid must be introduced into the air induction system (1) Close to, and upstream of, the carburettor; and (2) So that it is equally distributed over the entire cross section of the induction system air passages.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Carburettor de-icing fluid flow rate",
+      "text": "See AMC.1095 (a) If a carburettor de-icing fluid system is used:\n(a) It must be able to simultaneously supply each engine with a rate of fluid flow as agreed with the Certifying Authority.\n(b) The fluid must be introduced into the air induction system:\n  (1) Close to, and upstream of, the carburettor; and\n  (2) So that it is equally distributed over the entire cross section of the induction system air passages.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

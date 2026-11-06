@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "345",
+  "number": "345",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "High Lift Devices",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "High Lift Devices",
+      "text": "See AMC.345 (d) (a) If flaps or similar high lift devices are to be used for take-off, approach or landing, the UAV, with the flaps fully extended at VF, is assumed to be subjected to symmetrical manoeuvres and gusts within the range determined by (1) Manoeuvring, to a positive limit load factor of 2.0 or according to those values defined by USAR.337 (c) application if lower; and (2) Positive and negative gust of 7.6 m/s (25 fps) acting normal to the flight path in level flight. (b) VF must be assumed to be not less than 1.4 VS or 1.8 VSF, whichever is greater, where VS is the computed stalling speed with flaps retracted at the design weight; and VSF is the computed stalling speed with flaps fully extended at the design weight. However, if an automatic flap load limiting device is used, the UAV may be designed for the critical combinations of airspeed and flap position allowed by that device. (c) In determining external loads on the UAV as a whole, thrust, slipstream and pitching acceleration may be assumed to be zero. (d) The flaps, their operating mechanism and their supporting structures, must be designed for the conditions prescribed in sub-paragraph (a) of this paragraph. In addition, with the flaps fully extended at speed VF the following conditions, taken separately, must be accounted for:\n(1) A head-on gust having a velocity of 7.6 m/s (25 fps) (EAS), combined with propeller slipstream corresponding to 75% of maximum continuous power or thrust; and\n(2) The effects of propeller slipstream corresponding to maximum take-off power or thrust.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "High Lift Devices",
+      "text": "See AMC.345 (d) (a) If flaps or similar high lift devices are to be used for take-off, approach or landing, the UA, with the flaps fully extended at VF, is assumed to be subjected to symmetrical manoeuvres and gusts within the range determined by: (1) Manoeuvring, to a positive limit load factor of 2.0 or according to those values defined by USAR.337 (c) application if lower; and (2) Positive and negative gust of 7.6 m/s (25 fps) acting normal to the flight path in level flight. (b) VF must be assumed to be not less than 1.4 VS or 1.8 VSF, whichever is greater, where VS is the computed stalling speed with flaps retracted at the design weight; and VSF is the computed stalling speed with flaps fully extended at the design weight. However, if an automatic flap load limiting device is used, the UA may be designed for the critical combinations of airspeed and flap position allowed by that device. (c) In determining external loads on the UA as a whole, thrust, slipstream and pitching acceleration may be assumed to be zero. (d) The flaps, their operating mechanism and their supporting structures, must be designed for the conditions prescribed in sub-paragraph (a) of this paragraph. In addition, with the flaps fully extended at speed VF the following conditions, taken separately, must be accounted for: (1) A head-on gust having a velocity of 7.6 m/s (25 fps) (EAS), combined with propeller slipstream corresponding to 75% of maximum continuous power or thrust; and (2) The effects of propeller slipstream corresponding to maximum take-off power or thrust.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

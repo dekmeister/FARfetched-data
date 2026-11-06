@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U50",
+  "number": "U50",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Minimum demonstration speed",
+  "subject_group": "PERFORMANCE",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Minimum demonstration speed",
+      "text": "If the stalling speed is not demonstrated by flight tests, a \u201cminimum demonstration speed\u201d will be considered.\n(a) The minimum demonstration speed Vmin DEMO is the minimum speed demonstrated by the Applicant by flight test, while possibly adjusting or inhibiting flight control protection features, using the procedure and meeting the flight characteristics specified in USAR.201.\n(b) The minimum demonstration speed Vmin DEMO must be less than r times the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system as defined in USAR.334. The r ratio shall not be above 0.95 and shall be agreed with the Certifying Authority.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Minimum demonstration speed",
+      "text": "If the stalling speed is not demonstrated by flight tests, a \u201cminimum demonstration speed\u201d must be demonstrated.\n(a) The minimum demonstration speed Vmin DEMO is the minimum speed demonstrated by the Applicant by flight test, while possibly adjusting or inhibiting flight control protection features, using the procedure and meeting the flight characteristics specified in USAR.201, USAR.203, USAR.U334 and AMC.203\n(b) The minimum demonstration speed Vmin DEMO must be less than r times the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system as defined in USAR.U334 and AMC.203 The r ratio shall not be above 0.95 and shall be agreed with the Certifying Authority.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

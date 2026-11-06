@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "963",
+  "number": "963",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel tanks: general",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel tanks: general",
+      "text": "(a) Each fuel tank must be able to withstand, without failure, the vibration, inertia, fluid and structural loads that it may be subjected to in operation.\n(b) Each flexible fuel tank liner must be shown to be suitable for the particular application.\n(c) Each integral fuel tank must have adequate facilities for interior inspection and repair.\n(d) The total usable capacity of the fuel tanks must be enough for at least \u00bd hour of operation at maximum continuous power or thrust.\n(e) Each fuel quantity indicator must be adjusted, as specified USAR.1729 (b), to account for the unusable fuel supply determined under USAR.959 (a).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Fuel tanks: general",
+      "text": "(a) Each fuel tank must be able to withstand, without failure, the vibration, inertia, fluid and structural loads that it may be subjected to in operation.\n(b) Each flexible fuel tank liner must be shown to be suitable for the particular application.\n(c) Each integral fuel tank must have adequate facilities for interior inspection and repair.\n(d) The total usable capacity of the fuel tanks must be enough for at least \u00bd hour of operation at maximum continuous power or thrust.\n(e) Each fuel quantity indicator must be adjusted, as specified USAR.U1729 (b), to account for the unusable fuel supply determined under USAR.959 (a).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

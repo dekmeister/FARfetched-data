@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1743",
+  "number": "U1743",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Fuel controls",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Fuel controls",
+      "text": "(a) There must be a means readily available to allow the UAV crew to rapidly shut off, in flight, the fuel to each engine individually. (b) In addition, there must be means to (1) Prevent inadvertent operation of each shut-off valve; and (2) Allow appropriate UAV crew to reopen each valve rapidly after it has been closed. (c) Where fitted, fuel tank selector must (1) Require a separate and distinct action to place the selector in the \u201cOFF\u201d position; and (2) Have the tank selector designed to operate so that it is impossible for the selector to pass through the \u201cOFF\u201d position when changing from one tank to another.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Fuel controls",
+      "text": "(a) There must be a means readily available to allow the UAS crew to rapidly shut off, in flight, the fuel to each engine individually.\n(b) In addition, there must be means to:\n  (1) Prevent inadvertent operation of each shut-off valve; and\n  (2) Allow appropriate UAS crew to reopen each valve rapidly after it has been closed.\n(c) Where fitted, fuel tank selector must:\n  (1) Require a separate and distinct action to place the selector in the \u201cOFF\u201d position; and\n  (2) Have the tank selector designed to operate so that it is impossible for the selector to pass through the \u201cOFF\u201d position when changing from one tank to another.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

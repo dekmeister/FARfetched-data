@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1435",
+  "number": "1435",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Hydraulic systems",
+  "subject_group": "MISCELLANEOUS EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Hydraulic systems",
+      "text": "(a) Design. Each hydraulic system must be designed as follows:\n  (1) Each hydraulic system and its elements must withstand, without yielding, the structural loads expected in addition to hydraulic loads.\n  (2) Not applicable in this subpart (see USAR.1813 Hydraulic systems indicator)\n  (3) There must be means to ensure that the pressure, including transient (surge) pressure, in any part of the system will not exceed the safe limit above design operating pressure and to prevent excessive pressure resulting from fluid volumetric changes in all lines which are likely to remain closed long enough for such changes to occur.\n  (4) The minimum design burst pressure must be 2.5 times the operating pressure.\n  (5) There must be adequate means to protect hydraulic systems critical to continued safe flight resulting from fluid loss.\n  (6) All materials in contact with the hydraulic fluid shall be compatible with the hydraulic fluid over the temperature range, functional, service and storage conditions the hydraulic system will experience.\n(b) Tests. Each system must be substantiated by proof pressure tests. When proof-tested, no part of any system may fail, malfunction, or experience a permanent set. The proof load of each system must be at least 1.5 times the maximum operating pressure of that system.\n(c) Accumulators. A hydraulic accumulator or reservoirs may be installed on the engine side of any firewall if (1) It is an integral part of an engine or propeller system, or (2) The reservoir is non-pressurised and the total capacity of all such non-pressurised reservoirs is one litre (one US-quart) or less.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Hydraulic systems",
+      "text": "(a) Design. Each hydraulic system must be designed as follows:\n  (1) Each hydraulic system and its elements must withstand, without yielding, the structural loads expected in addition to hydraulic loads.\n  (2) Not applicable in this subpart. (see USAR.U1813 Hydraulic systems indicator)\n  (3) There must be means to ensure that the pressure, including transient (surge) pressure, in any part of the system will not exceed the safe limit above design operating pressure and to prevent excessive pressure resulting from fluid volumetric changes in all lines which are likely to remain closed long enough for such changes to occur.\n  (4) The minimum design burst pressure must be 2.5 times the operating pressure.\n  (5) There must be adequate means to protect hydraulic systems critical to continued safe flight resulting from fluid loss.\n  (6) All materials in contact with the hydraulic fluid shall be compatible with the hydraulic fluid over the temperature range, functional, service and storage conditions the hydraulic system will experience.\n(b) Tests. Each system must be substantiated by proof pressure tests. When proof-tested, no part of any system may fail, malfunction, or experience a permanent set. The proof load of each system must be at least 1.5 times the maximum operating pressure of that system.\n(c) Accumulators. Hydraulic accumulators or reservoirs may be installed on the engine side of any firewall if:\n  (1) It is an integral part of an engine or propeller system, or\n  (2) The reservoir is non-pressurised and the total capacity of all such non-pressurised reservoirs is one litre (one US-quart) or less.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

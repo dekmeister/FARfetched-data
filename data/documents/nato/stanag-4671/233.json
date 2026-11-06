@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "233",
+  "number": "233",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Directional Stability and Control",
+  "subject_group": "GROUND HANDLING CHARACTERISTICS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Directional Stability and Control",
+      "text": "(a) A 90\u00b0 cross-component of wind velocity, demonstrated to be safe for taxiing (except for UAV not designed for taxiing), take-off and landing must be established and must be not less than 0.2 VS0.\n(b) Except where UAV is designed to be recovered by parachute only, it must be satisfactorily controllable in power-off landings at normal landing speed, without using brakes or engine power to maintain a straight path until the speed has decreased to less than 50% of the speed at touchdown.\n(c) Except for UAV not designed for taxiing it must have adequate directional control during taxiing.\n(d) Not applicable",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Directional Stability and Control",
+      "text": "(a) A 90\u00b0 cross-component of wind velocity, demonstrated to be safe for taxiing (except for UA not designed for taxiing), take-off and landing must be established and must be not less than 0.2 VS0\n(b) Except where UA is designed to be recovered by parachute only, it must be satisfactorily controllable in power-off landings at normal landing speed, without using brakes or engine power to maintain a straight path until the speed has decreased to less than 50% of the speed at touchdown.\n(c) Except for UA not designed for taxiing it must have adequate directional control during taxiing.\n(d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -687,9 +687,8 @@ Reports are `tools/out/reports/nato_usar_extract_report.tsv` and
   characters of mostly flat text). 91 texts are `flat-failed` in
   `structure_report_nato_usar.tsv` (Ed. 1 and Ed. B versions together),
   mostly lists whose labels skip or restart; they stay flat, which is valid.
-- **NATO-5. Staged, not promoted; limits of the continuity review.** 505
-  provisions, 848 versions are staged and `promote --dry-run` shows 506 new
-  files and no conflicts. Eight decision rows (`tools/overrides/nato_usar.tsv`)
+- **NATO-5. Limits of the continuity review.** 505 provisions, 848 versions,
+  promoted 2026-11-06 (506 new files, no conflicts). Eight decision rows (`tools/overrides/nato_usar.tsv`)
   cover the identity breaks. Not decided row by row: 8 same-number pairs that
   continue on an identical title with rewritten text (57, U2, 341, U850, 1195,
   1197, 1199, 1201). Partial splits and merges aren't recorded (ROADMAP-4).

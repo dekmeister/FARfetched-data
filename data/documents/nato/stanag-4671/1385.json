@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1385",
+  "number": "1385",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Position light system installation",
+  "subject_group": "LIGHTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Position light system installation",
+      "text": "(a) General. Each part of each position light system must meet the applicable requirements and each system as a whole must meet the requirements of USAR.1387 to USAR.1397.\n(b) Left and right position lights. Left and right position lights must consist of a red and a green light spaced laterally as far apart as practicable and installed on the UAV such that, with the UAV in the normal flying position, the red light is on the left side and the green light is on the right side.\n(c) Rear position light. The rear position light must be a white light mounted as far aft as practicable on the tail or on each wing tip.\n(d) Light covers and colour filters. Each light cover or colour filter must be at least flameresistant and may not change colour or shape or lose any appreciable light transmission during normal use.\n(e) The position lights must be able to be switched on and off from the UCS and while the UAV is in flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Position light system installation",
+      "text": "(a) General. Each part of each position light system must meet the applicable requirements and each system as a whole must meet the requirements of USAR.1387 to USAR.1397\n(b) Left and right position lights. Left and right position lights must consist of a red and a green light spaced laterally as far apart as practicable and installed on the UA such that, with the UA in the normal flying position, the red light is on the left side and the green light is on the right side.\n(c) Rear position light. The rear position light must be a white light mounted as far aft as practicable on the tail or on each wing tip.\n(d) Light covers and colour filters. Each light cover or colour filter must be at least flame resistant and may not change colour or shape or lose any appreciable light transmission during normal use.\n(e) The position lights must be able to be switched on and off from the UCS and while the UA is in flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

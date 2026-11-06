@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "901",
+  "number": "901",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Installation",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Installation",
+      "text": "See AMC.901 (a) For the purpose of USAR, the UAV powerplant installation includes each component that (1) Is necessary for propulsion; and (2) Affects the safety of the major propulsive units. (b) Each powerplant installation must be constructed and arranged to (1) Ensure safe operation over the full envelope of operating conditions (in particular, the maximum operating altitude) for which approval is requested. (2) Be accessible for necessary inspections and maintenance, (3) Account for all static, dynamic and oscillatory characteristics of the UAV System. (c) Engine covers, cowls and nacelles must be easily removable or openable by the inspection and maintenance staff to provide adequate access to and exposure of the engine compartment for the required pre-flight checks. (d) Each turbine engine installation must be constructed and arranged to (1) Result in carcass vibration characteristics that do not exceed those established during the type certification of the engine. (2) Provide continued safe operation without a hazardous loss of power or thrust while being operated in rain for at least 3 minutes with the rate of water ingestion being not less than 4% by weight, of the engine induction airflow rate at the maximum installed power or thrust approved for take-off and at flight idle. (e) The powerplant installation must comply with (1) The installation instructions provided under (i) The engine Type Certificate or any qualification accepted by the Certifying Authority, and (ii) The propeller Type Certificate or any qualification accepted by the Certifying Authority. (2) The applicable provisions of this subpart, (3) USAR.903 (a)(2) requirement. (f) Each auxiliary power unit installation must meet the applicable portions of USAR.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Installation",
+      "text": "See AMC.901 (a) For the purpose of USAR, the UA powerplant installation includes each component that: (1) Is necessary for propulsion; and (2) Affects the safety of the major propulsive units. (b) Each powerplant installation must be constructed and arranged to: (1) Ensure safe operation over the full envelope of operating conditions (in particular, the maximum operating altitude) for which approval is requested. (2) Be accessible for necessary inspections and maintenance, (3) Account for all static, dynamic and oscillatory characteristics of the UA. (c) Engine covers, cowls and nacelles must be easily removable or openable by the inspection and maintenance staff to provide adequate access to and exposure of the engine compartment for the required pre-flight checks. (d) Each turbine engine installation must be constructed and arranged to: (1) Result in carcass vibration characteristics that do not exceed those established during the type certification of the engine. (2) Provide continued safe operation without a Hazardous loss of power or thrust while being operated in rain for at least 3 minutes with the rate of water ingestion being not less than 4% by weight, of the engine induction airflow rate at the maximum installed power or thrust approved for take-off and at flight idle. (e) The powerplant installation must comply with: (1) The installation instructions provided under: (i) The engine Type Certificate or any qualification accepted by the Certifying Authority, and (ii) The propeller Type Certificate or any qualification accepted by the Certifying Authority. (2) The applicable provisions of this subpart, (3) USAR.903 (a)(2) requirement. (f) Each auxiliary power unit installation must meet the applicable portions of USAR.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

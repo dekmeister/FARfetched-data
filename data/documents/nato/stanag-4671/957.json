@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "957",
+  "number": "957",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Flow between interconnected tanks",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Flow between interconnected tanks",
+      "text": "(a) It must be impossible, in a gravity feed system with interconnected tank outlets, for enough fuel to flow between the tanks to cause an overflow of fuel from any tank vent under the conditions in USAR.959, except that full tanks must be used.\n(b) If fuel can be pumped from one tank to another in flight, the fuel tank vents and the fuel transfer system must be designed so that no structural damage to any UAV component can occur because of overfilling of any tank.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Flow between interconnected tanks",
+      "text": "(a) It must be impossible, in a gravity feed system with interconnected tank outlets, for enough fuel to flow between the tanks to cause an overflow of fuel from any tank vent under the conditions in USAR.959, except that full tanks must be used.\n(b) If fuel can be pumped from one tank to another in flight, the fuel tank vents and the fuel transfer system must be designed so that no structural damage to any UA component can occur because of overfilling of any tank.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

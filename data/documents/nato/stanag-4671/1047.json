@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1047",
+  "number": "1047",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Cooling test procedures for reciprocating engine-powered UA",
+  "subject_group": "COOLING",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Cooling test procedures for reciprocating engine-powered UAV",
+      "text": "See AMC.1047 Compliance with USAR.1041 must be shown for the climb (or descent, for multi-engined UAV with negative one-engine-inoperative rates of climb) stage of flight. The UAV must be flown in the configurations, at the speeds and following the procedures recommended in the UAV System Flight Manual, corresponding to the applicable performance requirements, which are critical relative to cooling.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Cooling test procedures for reciprocating engine-powered UA",
+      "text": "See AMC.1047 Compliance with USAR.1041 must be shown for the climb (or descent, for multi-engine UA with negative one-engine-inoperative rates of climb) stage of flight. The UA must be flown in the configurations, at the speeds and following the procedures recommended in the UAS Flight Manual, corresponding to the applicable performance requirements, which are critical relative to cooling.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

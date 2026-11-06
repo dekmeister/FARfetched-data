@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "161",
+  "number": "161",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Trim",
+  "subject_group": "CONTROLLABILITY AND MANOEUVRABILITY",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Trim",
+      "text": "The Flight Control System (FCS) must trim the UAV in such a manner that a maximum of control remains and that dynamic characteristics and safety margins are not compromised.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Trim",
+      "text": "The Flight Control System (FCS) must trim the UA in such a manner that a maximum of control remains and that dynamic characteristics and safety margins are not compromised.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

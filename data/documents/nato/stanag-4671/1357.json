@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1357",
+  "number": "1357",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Circuit protective devices",
+  "subject_group": "ELECTRICAL SYSTEMS AND EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Circuit protective devices",
+      "text": "See AMC.1357 (a) (a) Protective devices, such as fuses or circuit breakers, must be installed in all electrical circuits other than (1) The main circuits of starter motors used during starting only; and (2) Circuits in which no hazard is presented by their omission. (b) A protective device for a circuit essential to flight safety may not be used to protect any other circuit. (c) Where installed, each remote resettable circuit protective device (\u201ctrip free\u201d device in which the tripping mechanism cannot be over-ridden by the operating control) must be designed so that (1) A remote operation to be done by the UAV crew is required to restore service after tripping; and (2) If an overload or circuit fault exists, the device will open the circuit regardless of the position of the operating control.\n(3) Where automatic resettable circuit protection devices are used they must be designed so they comply with (c) (2) and restore circuit integrity on removal of fault condition. (d) Not applicable. (e) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Circuit protective devices",
+      "text": "See AMC.1357 (a) (a) Protective devices, such as fuses or circuit breakers, must be installed in all electrical circuits other than: (1) The main circuits of starter motors used during starting only; and (2) Circuits in which no hazard is presented by their omission. (b) A protective device for a circuit essential to flight safety may not be used to protect any other circuit. (c) Where installed, each remote resettable circuit protective device (\u201ctrip free\u201d device in which the tripping mechanism cannot be over-ridden by the operating control) must be designed so that: (1) A remote operation to be done by the UAS crew is required to restore service after tripping; and (2) If an overload or circuit fault exists, the device will open the circuit regardless of the position of the operating control. (3) Where automatic resettable circuit protection devices are used they must be designed so they comply with (c) (2) and restore circuit integrity on removal of fault condition. (d) Not applicable. (e) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

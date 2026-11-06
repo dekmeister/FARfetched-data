@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1751",
+  "number": "U1751",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Engine and APU controls",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Engine and APU controls",
+      "text": "The controls necessary to perform all functions in normal, abnormal and emergency modes must be provided to the UAV crew taking into account the level of automation substantiated by the flight control system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Engine and APU controls",
+      "text": "The controls necessary to perform all functions in normal, degraded and emergency modes must be provided to the UAS crew taking into account the level of automation substantiated by the flight control system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

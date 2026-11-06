@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "335",
+  "number": "335",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Design Airspeeds",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Design Airspeeds",
+      "text": "The selected airspeeds are equivalent airspeeds (EAS).\n(a) Design cruising speed, VC. For VC, the following apply (1) VC shall be defined according to UAV operating requirements. (2) Not applicable (3) Not applicable (4) At altitudes where an MD is established, a cruising speed MC limited by compressibility may be selected.\n(b) Design dive speed, VD. For VD the following apply:\n  (1) VD/MD may not be less than 1.25 VC/MC; however where credit may be claimed from existing experience and / or high speed flight envelope protection, lesser margin values may be considered.\n  (2) Not applicable\n  (3) Not applicable\n  (4) Compliance with sub-paragraph (1) of this paragraph need not be shown if VD/MD is selected so that the minimum speed margin between VC/MC and VD/MD is the greater of the following:\n    (i) The speed increase resulting when, from the initial condition of stabilised flight at VC/MC, the UAV is assumed to be upset, flown for 20 seconds along a flight path 7.5\u00b0 below the initial path and then pulled up with a load factor of 1.5 (0.5 g. acceleration increment). At least 75% maximum continuous power for reciprocating engines and maximum cruising thrust for turbines, or, if less, the thrust required for VC/MC for both kinds of engines, must be assumed until the pull-up is initiated, at which point power reduction devices may be used; and\n    (ii) Mach 0.05 (at altitudes where MD is established).\n(c) Design manoeuvring speed VA. For VA, the following applies:\n  (1) VA may not be less than VS.n1/2 where (i) VS is a computed stalling speed with flaps retracted at the design weight, normally based on the maximum UAV normal force coefficients, CNA; and (ii) n is the limit manoeuvring load factor used in design.\n  (2) The value of VA need not exceed the value of VC used in design.\n(d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Design Airspeeds",
+      "text": "The selected airspeeds are equivalent airspeeds (EAS).\n(a) Design cruising speed, VC. For VC, the following apply:\n  (1) VC shall be defined according to UAS operating requirements.\n  (2) Not applicable.\n  (3) Not applicable.\n  (4) At altitudes where an MD is established, a cruising speed MC limited by compressibility may be selected.\n(b) Design dive speed, VD. For VD the following apply:\n  (1) VD/MD may not be less than 1.25 VC/MC; however where credit may be claimed from existing experience and / or high speed flight envelope protection, lesser margin values may be considered.\n  (2) Not applicable.\n  (3) Not applicable.\n  (4) Compliance with sub-paragraph (1) of this paragraph need not be shown if VD/MD is selected so that the minimum speed margin between VC/MC and VD/MD is the greater of the following:\n    (i) The speed increase resulting when, from the initial condition of stabilised flight at VC/MC, the UA is assumed to be upset, flown for 20 seconds along a flight path 7.5\u00b0 below the initial path and then pulled up with a load factor of 1.5 (0.5g acceleration increment). At least 75% maximum continuous power for reciprocating engines and maximum cruising thrust for turbines, or, if less, the thrust required for VC/MC for both kinds of engines, must be assumed until the pull-up is initiated, at which point power reduction devices may be used; and\n    (ii) Mach 0.05 (at altitudes where MD is established).\n(c) Design manoeuvring speed VA. For VA, the following applies:\n  (1) VA may not be less than VS.n1/2 where:\n    (i) VS is a computed stalling speed with flaps retracted at the design weight, normally based on the maximum UA normal force coefficients, CNA; and\n    (ii) n is the limit manoeuvring load factor used in design and specified at USAR.337 (2) The value of VA need not exceed the value of VC used in design.\n(d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

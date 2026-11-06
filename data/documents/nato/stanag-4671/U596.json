@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U596",
+  "number": "U596",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "UA dragging on the ground",
+  "subject_group": "PARACHUTE LANDING SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "UAV dragging on the ground",
+      "text": "The parachute system must include means for preventing the dragging of the UAV by the wind after impact with the landing surface.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "UA dragging on the ground",
+      "text": "The parachute system must include means for preventing the dragging of the UA by the wind after impact with the landing surface.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

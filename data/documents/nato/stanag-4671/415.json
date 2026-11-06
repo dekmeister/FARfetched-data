@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "415",
+  "number": "415",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Ground Gust Conditions",
+  "subject_group": "CONTROL SURFACE AND SYSTEM LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Ground Gust Conditions",
+      "text": "(a) The control system must be investigated as follows for control surface loads due to ground gusts and taxiing downwind (if the UAV is designed to taxi):\n  (1) If an investigation of the control system for ground gust loads is not required by sub-paragraph (2) of this paragraph, but the Applicant elects to design a part of the control system for these loads, these loads need only be carried from control surface horns through the nearest stops or gust locks and their supporting structures.\n  (2) The effects of surface loads due to ground gusts and taxiing downwind must be investigated for the entire control system according to the formula H = K c S q where H = limit hinge moment (N.m); c = mean chord of the control surface aft of the hinge line (m); S = area of control surface aft of the Hinge line (m\u00b2); q = dynamic pressure (psf) based on a design speed not less than 2.01 W/S + 4.45 (m/s) (where W/S=wing loading at design maximum weight (lbs/ft2 )) except that the design speed need not exceed 26.8 m/s (88 fps); and K = limit hinge moment factor for ground gusts derived in subparagraph (b) of this paragraph. (For ailerons and elevators, a positive value of K indicates a moment tending to depress the surface and a negative value of K indicates a moment tending to raise the surface.\n(b) The limit hinge moment factor K for ground gusts must be derived as follows: Surface K Postion of controls (a) Aileron (b) Aileron 0.75 \u00b1 0.50 Mid-position Ailerons at full throw: + moment on one aileron, - moment on the other (c) Elevator (d) \u00b1 0.75 (c) Elevator full up (-) (d) Elevator full down (+) (e) Rudder (f) \u00b1 0.75 (e) Rudder in neutral (f) Rudder at full throw (c) At all weights between the Empty Weight and the maximum weight declared for tie-down stated in the appropriate Manual, any declared tie-down points and surrounding structure, control system, surfaces and associated gust locks must be designed to withstand the limit load conditions arising when tied-down, resulting from wind speeds of up to 120 km/h (65 knots) horizontally from any direction.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Ground Gust Conditions",
+      "text": "(a) The control system must be investigated as follows for control surface loads due to ground gusts and taxiing downwind (if the UA is designed to taxi):\n  (1) If an investigation of the control system for ground gust loads is not required by sub-paragraph (2) of this paragraph, but the Applicant elects to design a part of the control system for these loads, these loads need only be carried from control surface horns through the nearest stops or gust locks and their supporting structures.\n  (2) The effects of surface loads due to ground gusts and taxiing downwind must be investigated for the entire control system according to the formula: H = K c S q where H = limit hinge moment (Nm); c = mean chord of the control surface aft of the hinge line (m); S = area of control surface aft of the Hinge line (m\u00b2); q = dynamic pressure (psf) based on a design speed not less than 14.6\u221a \ud835\udc4a \ud835\udc46 + 14.6 (\ud835\udc53\ud835\udc5d\ud835\udc60) (where W/S=wing loading at design maximum weight (lbs/ft2)) except that the design speed need not exceed 26.8 m/s (88 fps); and K = limit hinge moment factor for ground gusts derived in subparagraph (b) of this paragraph. (For ailerons and elevators, a positive value of K indicates a moment tending to depress the surface and a negative value of K indicates a moment tending to raise the surface.\n(b) The limit hinge moment factor K for ground gusts must be derived as follows: Surface K Position of controls (a) Aileron (b) Aileron 0.75 \uf0b1 0.50 Mid-position locked Ailerons at full throw: + moment on one aileron, - moment on the other (c) Elevator (d) \uf0b1 0.75 (c) Elevator full up (-) (d) Elevator full down (+) (e) Rudder (f) \uf0b1 0.75 (e) Rudder in neutral (f) Rudder at full throw (c) At all weights between the Empty Weight and the maximum weight declared for tie-down stated in the appropriate Manual, any declared tie-down points and surrounding structure, control system, surfaces and associated gust locks must be designed to withstand the limit load conditions arising when tied-down, resulting from wind speeds of up to 120 km/h (65 knots) horizontally from any direction.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

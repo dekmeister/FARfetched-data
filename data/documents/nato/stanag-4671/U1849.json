@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1849",
+  "number": "U1849",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Operating limitations indications",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Operating limitations indications",
+      "text": "(a) There must be an indication in clear view of the UAV crew stating in the UCS that the UAV must be operated in accordance with the UAV System Flight Manual;\n(b) There must be an indication in clear view of the UAV crew that specifies the kind of operations to which the operation of the UAV is limited or from which it is prohibited under USAR.1525.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Operating limitations indications",
+      "text": "(a) There must be an indication in clear view of the UAS crew stating in the UCS that the UA must be operated in accordance with the UAS Flight Manual;\n(b) There must be an indication in clear view of the UAS crew that specifies the kind of operations to which the operation of the UA is limited or from which it is prohibited under USAR.1525",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "771",
+  "number": "771",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Pilot compartment",
+  "subject_group": "PAYLOAD AND EQUIPMENT COMPARTMENTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Pilot compartment",
+      "text": "Not applicable in this subpart (see USAR.1703 UAV crew workplace).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Pilot compartment",
+      "text": "Not applicable in this subpart. (see USAR.U1703 UAS crew workplace)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1803",
+  "number": "U1803",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Indicators for power-assisted valves in the powerplant",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Indicators for power-assisted valves in the powerplant",
+      "text": "See AMC.1803 For power-assisted valves in the powerplant, there must be a means in the UCS to indicate to the UAV crew when the valve (i) is in the fully open or fully closed position (ii) is moving between the fully open and fully closed position.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Indicators for power-assisted valves in the powerplant",
+      "text": "See AMC.U1803 For power-assisted valves in the powerplant, there must be a means in the UCS to indicate to the UAS crew when the valve:\n(a) is in the fully open or fully closed position.\n(b) is moving between the fully open and fully closed position.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

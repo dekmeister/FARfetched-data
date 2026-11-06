@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "775",
+  "number": "775",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Payload transparencies",
+  "subject_group": "PAYLOAD AND EQUIPMENT COMPARTMENTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Payload transparencies",
+      "text": "The design of payload transparencies and radomes in pressurised compartments must be based on factors specific to high altitude operation, including (1) The effects of continuous and cyclic pressurisation loading; (2) The inherent characteristics of the material used; (3) The effects of temperatures and temperature gradients; (4) The effects on the structural integrity of the UAV in the occurrence of wall pressurisation fracture, either by flaw or by explosion; and, (5) Safety-of-flight critical viewing areas of camera and sensor windows shall be maintained free of fog, frost and other obstructions for all steady state and transient ground and flight operating conditions within the specified UAV environmental envelope. They shall be designed to withstand foreign object damage (FOD) from birds, hail, runway, taxiway, and ramp debris.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Payload transparencies",
+      "text": "The design of payload transparencies and radomes in pressurised compartments must be based on factors specific to high altitude operation, including:\n(a) The effects of continuous and cyclic pressurisation loading;\n(b) The inherent characteristics of the material used;\n(c) The effects of temperatures and temperature gradients;\n(d) The effects on the structural integrity of the UA in the occurrence of wall pressurisation fracture, either by flaw or by explosion; and\n(e) Viewing areas of camera and sensor windows whose obstruction could result in an adverse safety effect shall be maintained free of fog, frost and other obstructions for all steady state and transient ground and flight operating conditions within the specified UAS environmental envelope. They shall be designed to withstand foreign object damage (FOD) from birds, hail, runway, taxiway, and ramp debris.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

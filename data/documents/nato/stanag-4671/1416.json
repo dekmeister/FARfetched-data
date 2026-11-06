@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1416",
+  "number": "1416",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "De-icer system",
+  "subject_group": "SAFETY EQUIPMENT AND EMERGENCY CAPABILITY",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "De-icer system",
+      "text": "If certification with ice protection provisions is desired and a de-icer system is installed (a) The system must meet the requirements specified in USAR.1419. (b) The system and its components must be designed to perform their intended function under any normal system operating temperature or pressure. (c) Not applicable in this subpart (see USAR.1811 Pneumatic de-icer boot system indicator)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "De-icer system",
+      "text": "If certification with ice protection provisions is desired and a de-icer system is installed:\n(a) The system must meet the requirements specified in USAR.1419\n(b) The system and its components must be designed to perform their intended function under any normal system operating temperature or pressure.\n(c) Not applicable in this subpart. (see USAR.U1811 Pneumatic de-icer boot system indicator)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

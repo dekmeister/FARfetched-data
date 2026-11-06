@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1326",
+  "number": "1326",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Pitot heat indication systems",
+  "subject_group": "MEASURING DEVICES INSTALLATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Pitot heat indication systems",
+      "text": "Not applicable in this subpart (see USAR.1819 Pitot heat indicator)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Pitot heat indication systems",
+      "text": "Not applicable in this subpart. (see USAR.U1819 Pitot heat indicator)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

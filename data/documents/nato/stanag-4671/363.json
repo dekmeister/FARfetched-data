@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "363",
+  "number": "363",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Sideload On Engine Mount",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Sideload On Engine Mount",
+      "text": "(a) The mounting arrangement for each engine and its supporting structure must be designed for a limit load factor in a lateral direction, for the sideload on the engine mount, of not less than (1) 1.33; or (2) One-third of the limit load factor for flight condition A.\n(b) The sideload prescribed in sub-paragraph (a) of this paragraph may be assumed to be independent of other flight conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

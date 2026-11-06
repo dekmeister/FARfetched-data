@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U290",
+  "number": "U290",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "UA performance before parachute landing",
+  "subject_group": "PARACHUTE LANDING SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "UAV performance before parachute landing",
+      "text": "(a) The UAV flight performance and control characteristics must be adequate for all intended parachute landing procedure under all specified operational conditions.\n(b) Two modes of landing by parachute can be foreseen:\n  (1) a normal landing mode where a parachute is used in a regular way after every flight, and, (2) an emergency landing mode where a parachute is used in case of emergency.\n(c) It must be possible to abort the normal landing procedure at any point prior to the initiation of the final deployment sequence and it must be shown that a safe transition to a normal flight mode or go around conditions can be made.\n(d) The normal and emergency parachute landing sequence must be precisely defined in the UAV System Flight Manual including for normal landing the approach phase and the go around procedure.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "UA performance before parachute landing",
+      "text": "(a) The UA flight performance and control characteristics must be adequate for all intended parachute landing procedure under all specified operational conditions.\n(b) Two modes of landing by parachute can be foreseen:\n  (1) a normal landing mode where a parachute is used in a regular way after every flight, and\n  (2) an emergency landing mode where a parachute is used in case of emergency.\n(c) It must be possible to abort the normal landing procedure at any point prior to the initiation of the final deployment sequence and it must be shown that a safe transition to a normal flight mode or go around conditions can be made.\n(d) The normal and emergency parachute landing sequence must be precisely defined in the UAS Flight Manual including for normal landing the approach phase and the go around procedure.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

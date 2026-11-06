@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U850",
+  "number": "U850",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Fire protection \u2013 General",
+  "subject_group": "FIRE PROTECTION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Fire protection \u2013 General",
+      "text": "Specific UAV fire protection requirements presented in USAR aim at minimizing the risk of fire that may lead to uncontrolled UAV flight and crash and potential damages to third parties. Compliance with those requirements must show that this general intent is met, in particular that:\n(a) Electrical installation and propulsion systems (including related materials) are adequately designed (see USAR.1359, USAR.1181 and appendix F), and,\n(b) Consideration must be given to protection of flight critical structure and systems (such as flight control system).\n(c) The flammability, toxicity, smoke effects and thermal decomposition of the materials must be considered in design.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Fire protection \u2013 General",
+      "text": "See AMC.U850 Specific UAS fire protection requirements presented in USAR aim at minimizing the risk of fire that may lead to uncontrolled UA flight and crash and potential damages to third parties.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

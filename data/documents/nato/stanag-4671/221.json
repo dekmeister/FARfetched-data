@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "221",
+  "number": "221",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Spinning and tumbling",
+  "subject_group": "SPINNING",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Spinning and tumbling",
+      "text": "The UAV must be designed characteristically incapable of intential spinning/tumbling (all spin and tumbling modes) due to the flight envelope protection maintained by the flight control system or other means to be substantiated by the Applicant unless in defined circumstances agreed to by the Certifying Authority (i.e. used as a flight termination system in compliance with USAR 1412).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Spinning and tumbling",
+      "text": "The UA must be designed characteristically incapable of intentional spinning/tumbling (all spin and tumbling modes) due to the flight envelope protection maintained by the flight control system or other means to be substantiated by the Applicant unless in defined circumstances agreed with the Certifying Authority (i.e. used as a flight termination system in compliance with USAR.U1412).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

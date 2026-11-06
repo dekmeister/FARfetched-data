@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1431",
+  "number": "1431",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Electronic equipment",
+  "subject_group": "MISCELLANEOUS EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electronic equipment",
+      "text": "(a) In showing compliance with USAR.1309 (b)(1) and (2) with respect to radio and electronic equipment and their installations, critical environmental conditions must be considered.\n(b) Radio and electronic equipment, controls, and wiring must be installed so that operation of any unit or system of units will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units.\n(c) Not applicable in this subpart (see USAR.1707 Communication system)\n(d) Not applicable in this subpart (see USAR.1707 Communication system)\n(e) Not applicable in this subpart (see USAR.1707 Communication system)\n(f) Electronic payload equipment and wiring must be installed so that operation will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units.\n(g) All sensitive and essential equipment as identified in (a) must be protected against internal and external sources of electromagnetic interference (EMI).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electronic equipment",
+      "text": "See AMC.1431 (a) In showing compliance with USAR.1309 (c)(1) and (2) with respect to radio and electronic equipment and their installations, critical environmental conditions must be considered. (b) Radio and electronic equipment, controls, and wiring must be installed so that operation of any unit or system of units will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units. (c) Not applicable in this subpart. (see USAR.U1707 Communication system) (d) Not applicable in this subpart. (see USAR.U1707 Communication system) (e) Not applicable in this subpart. (see USAR.U1707 Communication system) (f) Electronic payload equipment and wiring must be installed so that operation will not adversely affect the simultaneous operation of any other radio or electronic unit, or system of units. (g) All sensitive and essential equipment as identified in (a) must be protected against internal and external sources of electromagnetic interference (EMI) and, if applicable, electromagnetic pulse (EMP).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

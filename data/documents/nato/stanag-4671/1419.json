@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1419",
+  "number": "1419",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Ice protection",
+  "subject_group": "SAFETY EQUIPMENT AND EMERGENCY CAPABILITY",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Ice protection",
+      "text": "If certification with ice protection provisions is desired, compliance with the following requirements must be shown:\n(a) The recommended procedures for the use of the ice protection equipment must be set forth in the UAV System Flight Manual or in approved manual material.\n(b) An analysis must be performed to establish, on the basis of the UAV\u2019s operational needs, the adequacy of the ice protection system for the various components of the UAV. In addition, tests of the ice protection system must be conducted to demonstrate that the UAV is capable of operating safely in continuous maximum and intermittent maximum icing conditions\n(c) Compliance with all or portions may be accomplished by reference, where applicable because of similarity of the designs to analysis and tests performed for the type certification of a Type Certificated UAV.\n(d) When monitoring of the external surfaces of the UAV by the UAV crew is required for proper operation of the ice protection equipment, it must be ensured that the monitoring can be done in all operating and environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Ice protection",
+      "text": "(See AMC.1419) If certification with ice protection provisions is desired, compliance with the following requirements must be shown:\n(a) The recommended procedures for the use of the ice protection equipment must be set forth in the UAS Flight Manual or in approved manual material.\n(b) An analysis must be performed to establish, on the basis of the UAS\u2019s operational needs, the adequacy of the ice protection system for the various components of the UAS. In addition, tests of the ice protection system must be conducted to demonstrate that the UAS is capable of operating safely in continuous maximum and intermittent maximum icing conditions.\n(c) Compliance with all or portions may be accomplished by reference, where applicable because of similarity of the designs to analysis and tests performed for the type certification of a Type Certificated UAS.\n(d) When monitoring of the external surfaces of the UA by the UAS crew is required for proper operation of the ice protection equipment, it must be ensured that the monitoring can be done in all operating and environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

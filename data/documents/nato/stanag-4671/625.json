@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "625",
+  "number": "625",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Fitting factors",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Fitting factors",
+      "text": "No fitting factor need to be used for those primary attachments where a safety factor of 1.5 is applied (see USAR.303). For each fitting (a part or terminal used to join one structural member to another), the following applies: (a) For each fitting whose strength is not proven by limit and ultimate load tests in which actual stress conditions are simulated in the fitting and surrounding structures, a fitting factor of at least 1.15 must be applied to each part of (1) The fitting; (2) The means of attachment; and (3) The bearing on the joined members. (b) No fitting factor need be used for joint designs based on comprehensive test data (such as continuous joints in metal plating, welded joints and scarf joints in wood). (c) For each integral fitting, the part must be treated as a fitting up to the point at which the section properties become typical of the member. (d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Fitting factors",
+      "text": "For each fitting (a part or terminal used to join one structural member to another), the following applies:\n(a) For each fitting whose strength is not proven by limit and ultimate load tests in which actual stress conditions are simulated in the fitting and surrounding structures, a fitting factor of at least 1.15 must be applied to each part of:\n  (1) The fitting;\n  (2) The means of attachment; and\n  (3) The bearing on the joined members.\n(b) No fitting factor need be used for joint designs based on comprehensive test data (such as continuous joints in metal plating, welded joints and scarf joints in wood).\n(c) For each integral fitting, the part must be treated as a fitting up to the point at which the section properties become typical of the member.\n(d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

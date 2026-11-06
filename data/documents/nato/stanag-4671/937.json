@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "937",
+  "number": "937",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Turbopropeller-drag limiting systems",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Turbopropeller-drag limiting systems",
+      "text": "(a) Turbopropeller-powered UAV propeller-drag limiting systems must be designed so that no single failure or malfunction of any of the systems during normal or emergency operation results in propeller drag in excess of that for which the UAV was designed under the structural requirements of USAR. Failure of structural elements of the drag limiting systems need not be considered if the probability of this kind of failure is extremely remote.\n(b) As used in this paragraph, drag limiting systems include manual or automatic devices that, when actuated after engine power loss can move the propeller blades toward the feather position to reduce windmilling drag to a safe level.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Turbopropeller-drag limiting systems",
+      "text": "(a) Turbopropeller-powered UA propeller-drag limiting systems must be designed so that no single failure or malfunction of any of the systems during normal or emergency operation results in propeller drag in excess of that for which the UA was designed under the structural requirements of USAR. Failure of structural elements of the drag limiting systems need not be considered if the probability of this kind of failure is extremely remote.\n(b) As used in this paragraph, drag limiting systems include manual or automatic devices that, when actuated after engine power loss can move the propeller blades toward the feather position to reduce windmilling drag to a safe level.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

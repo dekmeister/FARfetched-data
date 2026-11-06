@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1097",
+  "number": "1097",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Carburettor de-icing fluid system capacity",
+  "subject_group": "INDUCTION SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Carburettor de-icing fluid system capacity",
+      "text": "(a) The capacity of each carburettor de-icing fluid system (1) May not be less than the greater of (i) That required to provide fluid at the rate specified in USAR.1095 for a time equal to 3% of the maximum endurance of the UAV; or (ii) 20 minutes at that flow rate; and (2) Need not exceed that required for a duration of operations as agreed with the Certifying Authority. (b) If the available preheat increases the temperature of more than 28\u00b0C (50\u00b0F) but less than 56\u00b0C (100\u00b0F), the capacity of the system may be decreased in proportion to the heat rise available in excess of 28\u00b0C (50\u00b0F).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Carburettor de-icing fluid system capacity",
+      "text": "(a) The capacity of each carburettor de-icing fluid system:\n  (1) May not be less than the greater of:\n    (i) That required to provide fluid at the rate specified in USAR.1095 for a time equal to 3% of the maximum endurance of the UA; or\n    (ii) 20 minutes at that flow rate; and\n  (2) Need not exceed that required for a duration of operations as agreed with the Certifying Authority.\n(b) If the available preheat increases the temperature of more than 28\u00b0C (50\u00b0F) but less than 56\u00b0C (100\u00b0F), the capacity of the system may be decreased in proportion to the heat rise available in excess of 28\u00b0C (50\u00b0F).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

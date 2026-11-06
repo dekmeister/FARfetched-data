@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "733",
+  "number": "733",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Tyres",
+  "subject_group": "LANDING GEAR",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Tyres",
+      "text": "(a) Each landing gear wheel must have a tyre whose approved tyre ratings (static and dynamic) are not exceeded (1) By a load on each main wheel tyre (to be compared to the static rating approved for such tyres) equal to the corresponding static ground reaction under the design maximum weight and critical centre of gravity; and (2) By a load on nose wheel tyres (to be compared with the dynamic rating approved for such tyres) equal to the reaction obtained at the nose wheel, assuming the mass of the UAV to be concentrated at the most critical centre of gravity and exerting a force of 1.0 Mg downward and 0.31 Mg forward (where Mg is the design maximum weight), with the reactions distributed to the nose and main wheels by the principles of statics and with the drag reaction at the ground applied only at wheels with brakes.\n(b) If specially constructed tyres are used, the wheels must be plainly and conspicuously marked to that effect. The markings must include the make, size, number of plies and identification marking of the proper tyre.\n(c) Each tyre installed on a retractable landing gear system must, at the maximum size of the tyre type expected in service, have a clearance to surrounding structure and systems that is adequate to prevent contact between the tyre and any part of the structure or systems.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Tyres",
+      "text": "(a) Each landing gear wheel must have a tyre whose approved tyre ratings (static and dynamic) are not exceeded:\n  (1) By a load on each main wheel tyre (to be compared to the static rating approved for such tyres) equal to the corresponding static ground reaction under the design maximum weight and critical centre of gravity; and\n  (2) By a load on nose wheel tyres (to be compared with the dynamic rating approved for such tyres) equal to the reaction obtained at the nose wheel, assuming the mass of the UA to be concentrated at the most critical centre of gravity and exerting a force of 1.0 Mg downward and 0.31 Mg forward (where Mg is the design maximum weight), with the reactions distributed to the nose and main wheels by the principles of statics and with the drag reaction at the ground applied only at wheels with brakes.\n(b) If specially constructed tyres are used, the wheels must be plainly and conspicuously marked to that effect. The markings must include the make, size, number of plies and identification marking of the proper tyre.\n(c) Each tyre installed on a retractable landing gear system must, at the maximum size of the tyre type expected in service, have a clearance to surrounding structure and systems that is adequate to prevent contact between the tyre and any part of the structure or systems.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

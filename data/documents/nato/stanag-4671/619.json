@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "619",
+  "number": "619",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Special factors",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Special factors",
+      "text": "The factor of safety prescribed in USAR.303 must be multiplied by the highest pertinent special factors of safety prescribed in USAR.621 to USAR.625 for each part of the structure whose strength is (1) Uncertain; (2) Likely to deteriorate in service before normal replacement; or (3) Subject to appreciable variability because of uncertainties in manufacturing processes or inspection methods.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Special factors",
+      "text": "The factor of safety prescribed in USAR.303 must be multiplied by the highest pertinent special factors of safety prescribed in USAR.621 to USAR.625 for each part of the structure whose strength is:\n(a) Uncertain;\n(b) Likely to deteriorate in service before normal replacement; or\n(c) Subject to appreciable variability because of uncertainties in manufacturing processes or inspection methods.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

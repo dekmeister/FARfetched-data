@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1727",
+  "number": "U1727",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Electronic data display",
+  "subject_group": "DATA DISPLAYED IN THE UAS CONTROL STATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Electronic data display",
+      "text": "See AMC.1727 and AMC.1727 (b) (a) Electronic data display systems must (1) Meet the arrangement and visibility requirements of USAR.1721; (2) Be easily legible under all the lighting conditions encountered by the workstation considering the expected electronic display brightness level at the end of an electronic display indicator\u2019s useful life. Specific limitations on display system useful life must be addressed in the instructions for continued airworthiness requirements of USAR.1529; (3) Incorporate sensory cues for the UAV crew that are easily comprehensible, and (4) Incorporate visual displays of indicators or data display markings, required by USAR.1831 to USAR.1843, or visual displays that alert the UAV crew to abnormal operational values or approaches to established limitation values, for each parameter required to be displayed in USAR. (b) The electronic display systems, including their subsystems and installations, and considering other UAV systems, must be designed so that one display of information essential for continued safe flight and landing will remain available to the UAV crew after any single failure or probable combination of failures.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Electronic data display",
+      "text": "See AMC.U1727 and AMC.U1727 (b) (a) Electronic data display systems must: (1) Meet the arrangement and visibility requirements of USAR.U1721; (2) Be easily legible under all the lighting conditions encountered by the workstation considering the expected electronic display brightness level at the end of an electronic display indicator\u2019s useful life. Specific limitations on display system useful life must be addressed in the instructions for continued airworthiness requirements of USAR.1529; (3) Incorporate sensory cues for the UAS crew that are easily comprehensible, and (4) Incorporate visual displays of indicators or data display markings, required by USAR.U1831 to USAR.U1843, or visual displays that alert the UAS crew to abnormal operational values or approaches to established limitation values, for each parameter required to be displayed in USAR. (b) The electronic display systems, including their subsystems and installations, and considering other UAs, must be designed so that one display of information essential for continued safe flight and landing will remain available to the UAS crew after any single failure or probable combination of failures. (c) Be designed such that failure of any single connection, processor, or display unit does not result in display of unsafe or misleading data without further indication of failure to the operator. Failure conditions of the electronic display shall be assessed according to USAR.1309",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

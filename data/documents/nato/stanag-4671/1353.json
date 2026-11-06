@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1353",
+  "number": "1353",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Storage battery or emergency power supply design and installation",
+  "subject_group": "ELECTRICAL SYSTEMS AND EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Storage battery or emergency power supply design and installation",
+      "text": "(a) Each storage battery or emergency power supply must be designed and installed as prescribed in this paragraph.\n(b) Safe cell temperatures and pressures must be maintained during any probable charging and discharging condition. No uncontrolled increase in cell temperature may result when the battery is recharged (after previous complete discharge)\n  (1) At maximum regulated voltage or power;\n  (2) During a flight of maximum duration; and\n  (3) Under the most adverse cooling condition likely to occur in service.\n(c) Compliance with sub-paragraph (b) must be shown by tests unless experience with similar batteries and installations has shown that maintaining safe cell temperatures and pressures presents no problem.\n(d) No explosive gases emitted by any battery or emergency power supply in normal operation, or as the result of any probable malfunction in the charging system or battery or emergency power supply installation, may accumulate in hazardous quantities within the UAV.\n(e) No corrosive fluids or gases that may escape from the battery or emergency power supply may damage surrounding structures or adjacent essential equipment.\n(f) Each battery or emergency power supply installation capable of being used to start an engine or auxiliary power unit must have provisions to prevent any hazardous effect on structure or essential systems that may be caused by the maximum amount of heat the battery or emergency power supply can generate during a short circuit of the battery or emergency power supply or of any individual cells.\n(g) Battery installations must have\n  (1) A system to control the charging rate of the battery automatically so as to prevent battery overheating; or\n  (2) A battery temperature sensing and over temperature warning system with a means for automatically disconnecting the battery from its charging source in the event of an over temperature condition; or\n  (3) A battery failure sensing and warning system with a means for disconnecting the battery from its charging source in the event of battery failure.\n(h) In the event of a complete loss of the primary electrical power generating system, any battery or emergency power supply must be capable of providing enough electrical power to those loads that are essential to perform emergency procedures as defined in USAR.1413 during the associated time duration. This time duration includes the time needed for the UAV crew to recognise the loss of generated power and to take appropriate action.\n(i) Where applicable, battery installations must be compliant with the appropriate national regulations regarding battery safety.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Storage battery or emergency power supply design and installation",
+      "text": "(a) Each storage battery or emergency power supply must be designed and installed as prescribed in this paragraph.\n(b) Safe cell temperatures and pressures must be maintained during any probable charging and discharging condition. No uncontrolled increase in cell temperature may result when the battery is recharged (after previous complete discharge)\n  (1) At maximum regulated voltage or power;\n  (2) During a flight of maximum duration; and\n  (3) Under the most adverse cooling condition likely to occur in service.\n(c) Compliance with sub-paragraph (b) must be shown by tests unless experience with similar batteries and installations has shown that maintaining safe cell temperatures and pressures presents no problem.\n(d) No explosive gases emitted by any battery or emergency power supply in normal operation, or as the result of any probable malfunction in the charging system or battery or emergency power supply installation, may accumulate in hazardous quantities within the UA.\n(e) No corrosive fluids or gases that may escape from the battery or emergency power supply may damage surrounding structures or adjacent essential equipment.\n(f) Each battery or emergency power supply installation capable of being used to start an engine or auxiliary power unit must have provisions to prevent any hazardous effect on structure or essential systems that may be caused by the maximum amount of heat the battery or emergency power supply can generate during a short circuit of the battery or emergency power supply or of any individual cells.\n(g) Battery installations must have:\n  (1) A system to control the charging rate of the battery automatically so as to prevent battery overheating; or\n  (2) A battery temperature sensing and over temperature warning system with a means for automatically disconnecting the battery from its charging source in the event of an over temperature condition; or\n  (3) A battery failure sensing and warning system with a means for disconnecting the battery from its charging source in the event of battery failure.\n(h) In the event of a complete loss of the primary electrical power generating system, any battery or emergency power supply must be capable of providing enough electrical power to those loads that are essential to perform emergency procedures as defined in USAR.U1413 during the associated time duration. This time duration includes the time needed for the UAS crew to recognise the loss of generated power and to take appropriate action.\n(i) Where applicable, battery installations must be compliant with the appropriate national regulations regarding battery safety.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

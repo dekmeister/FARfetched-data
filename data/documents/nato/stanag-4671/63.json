@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "63",
+  "number": "63",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Climb: General",
+  "subject_group": "PERFORMANCE",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Climb: General",
+      "text": "(a) Compliance with the requirements of USAR.65, USAR.66, USAR.67, USAR.69 and USAR.77 must be shown (1) Out of ground effect; and (2) At speeds which are not less than those at which compliance with the powerplant cooling requirements of USAR.1041 to USAR.1047 has been demonstrated. (3) Unless otherwise specified, with one engine inoperative, at a bank angle not exceeding 5 degrees. (4) For catapult assisted or rocket assisted take-off UAV when the UAV leaves the flight safety area associated to the launch safety trace required in USAR.283 (b) Compliance must be shown with USAR.65, USAR.67, where appropriate and USAR.77 at maximum take-off or landing weight, as appropriate in a standard atmosphere, or (c) At weights, as a function of airfield or launch site altitude and ambient temperature, within the operational limits established for take-off and landing respectively. (d) Not applicable",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Climb: General",
+      "text": "(a) Compliance with the requirements of USAR.65, USAR.66, USAR.67, USAR.69 and USAR.77 must be shown:\n  (1) Out of ground effect; and\n  (2) At speeds which are not less than those at which compliance with the powerplant cooling requirements of USAR.1041 to USAR.1047 have been demonstrated.\n  (3) Unless otherwise specified, with one engine inoperative, at a bank angle not exceeding 5 degrees.\n  (4) For catapult assisted or rocket assisted take-off UA when the UA leaves the flight safety area associated to the launch safety trace required in USAR.U283 (b) Compliance must be shown with USAR.65, USAR.67, where appropriate and USAR.77 at maximum take-off or landing weight, as appropriate in a standard atmosphere, or (c) At weights, as a function of airfield or launch site altitude and ambient temperature, within the operational limits established for take-off and landing respectively.\n(d) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

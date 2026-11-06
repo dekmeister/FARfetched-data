@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1793",
+  "number": "U1793",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Landing gear position indicator and warning",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Landing gear position indicator and warning",
+      "text": "See AMC.1793 (b) (a) Position indicator. If a retractable landing gear is used, there must be a landing gear position indicator in the UCS to inform the UAV crew that each gear is secured in the extended (or retracted) position. (b) Landing gear warning. If a retractable landing gear is used, an aural or equally effective landing gear warning devices must be provided to inform the crew of an imminent landing without the gear fully extended and locked. (c) Landing gear controlled by an automatic landing system (see USAR.1492) must comply with (a) and (b).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Landing gear position indicator and warning",
+      "text": "See AMC.U1793 (b) (a) Position indicator. If a retractable landing gear is used, there must be a landing gear position indicator in the UCS to inform the UAS crew that each gear is secured in the extended (or retracted) position. (b) Landing gear warning. If a retractable landing gear is used, an aural or equally effective landing gear warning devices must be provided to inform the crew of an imminent landing without the gear fully extended and locked. (c) Landing gear controlled by an automatic landing system (see USAR.U1490) must comply with (a) and (b).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

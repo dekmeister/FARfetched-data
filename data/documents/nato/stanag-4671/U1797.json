@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1797",
+  "number": "U1797",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Fuel pumps warning",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Fuel pumps warning",
+      "text": "Where a UAV is equipped with fuel pumps, if both the main pump and emergency pump operate continuously, there must be a means to indicate to the UAV crew a malfunction of either pump.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Fuel pumps warning",
+      "text": "Where a UA is equipped with fuel pumps, if both the main pump and emergency pump operate continuously, there must be a means to indicate to the UAS crew a malfunction of either pump.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

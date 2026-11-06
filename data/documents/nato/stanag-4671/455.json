@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "455",
+  "number": "455",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Ailerons",
+  "subject_group": "AILERONS AND SPECIAL DEVICES",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Ailerons",
+      "text": "The ailerons must be designed for the loads to which they are subjected, allowance may be made for the capability of the flight control system (such as rate of movement or limitations on deflection).\n(1) In the neutral position during symmetrical flight conditions; and\n(2) By the following deflections, except as limited by the maximum force provided by the servocontrols or actuators , during unsymmetrical flight conditions:\n  (i) Sudden maximum displacement of the aileron control at VA. Suitable allowance may be made for control system deflections.\n  (ii) Sufficient deflection at VC, where VC is more than VA, to produce a rate of roll not less than obtained in sub-paragraph (2)(i).\n  (iii) Sufficient deflection at VD to produce a rate of roll not less than onethird of that obtained in sub-paragraph (2)(i).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Ailerons",
+      "text": "The ailerons must be designed for the loads to which they are subjected, allowance may be made for the capability of the flight control system (such as rate of movement or limitations on deflection).\n(a) In the neutral position during symmetrical flight conditions; and\n(b) By the following deflections, except as limited by the maximum force provided by the servocontrols or actuators, during asymmetrical flight conditions:\n  (1) Sudden maximum displacement of the aileron control at VA. Suitable allowance may be made for control system deflections.\n  (2) Sufficient deflection at VC, where VC is more than VA, to produce a rate of roll not less than obtained in sub-paragraph (b)(i).\n  (3) Sufficient deflection at VD to produce a rate of roll not less than one third of that obtained in sub-paragraph (b)(i).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

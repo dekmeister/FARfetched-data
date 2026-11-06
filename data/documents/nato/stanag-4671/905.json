@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "905",
+  "number": "905",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Propellers",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Propellers",
+      "text": "See AMC.905 (d), AMC.905 (e) and AMC.905 (g) (a) Each propeller must have a Type Certificate or any qualification accepted by the Certifying Authority. (b) Engine power and propeller shaft rotational speed may not exceed the limits for which the propeller is certificated. (c) Each featherable propeller must have a means to unfeather it in flight. (d) Propeller systems that allow variation of blade pitch angle during flight shall be designed such that failure of the variable pitch mechanism or components or of its control system, causes the blades to revert to a condition that enables the UAV to continue in safe, controlled flight and landing. (e) If certified for icing conditions, all areas of the UAV forward of the pusher propeller that are likely to accumulate and shed ice into the propeller disc during any operating condition must be suitably protected to prevent ice formation, or it must be shown that any ice shed into the propeller disc will not create a hazardous condition. (f) Each pusher propeller must be marked so that the disc is conspicuous under normal daylight ground conditions. (g) If the engine exhaust gases are discharged into the pusher propeller disc, it must be shown by tests, or analysis supported by tests, that the propeller is capable of continuous safe operation. (h) All engine cowlings, access doors, and other removable items must be designed to ensure that they will not separate from the UAV and contact the pusher propeller.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Propellers",
+      "text": "See AMC.905 (d), AMC.905 (e) and AMC.905 (g) (a) Each propeller must have a Type Certificate or any qualification accepted by the Certifying Authority. (b) Engine power and propeller shaft rotational speed may not exceed the limits for which the propeller is certificated. (c) Each featherable propeller must have a means to unfeather it in flight. (d) Propeller systems that allow variation of blade pitch angle during flight shall be designed such that failure of the variable pitch mechanism or components or of its control system, causes the blades to revert to a condition that enables the UA to continue in safe, controlled flight and landing. (e) If certified for icing conditions, all areas of the UA that are likely to accumulate and shed ice into the propeller disc during any operating condition must be suitably protected to prevent ice formation, or it must be shown that any ice shed into the propeller disc will not create a Hazardous condition. (f) Each propeller must be marked so that the disc is conspicuous under normal daylight ground conditions. (g) If the engine exhaust gases are discharged into the pusher propeller disc, it must be shown by tests, or analysis supported by tests, that the propeller is capable of continuous safe operation. (h) All engine cowlings, access doors, and other removable items must be designed to ensure that they will not separate from the UA and contact the pusher propeller.\n(i) If certified for icing conditions, it must be shown that any ice shed from or by the propeller disc will not create an unsafe condition.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

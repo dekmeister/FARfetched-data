@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "141",
+  "number": "141",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "General",
+  "subject_group": "FLIGHT CHARACTERISTICS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "General",
+      "text": "(a) The UAV must meet the requirements of USAR.143 to USAR.253. When operated in the automatic control mode the UAV should be shown to have acceptable controllability, manoeuvrability and stability characteristics throughout the flight envelope protection (see USAR.334 and USAR.1329) maintained by the flight control system, without requiring exceptional skill or alertness from the UAV crew.\n(b) The UAV must demonstrate the fulfilment of the \u201cflight characteristics\u201d requirements at all practical loading conditions and all operating altitudes, not exceeding the maximum operating altitude established under USAR.1527, for which certification has been requested.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "General",
+      "text": "See AMC.141 (a) The UA must meet the requirements of USAR.143 to USAR.253 When operated in the automatic control mode the UA should be shown to have acceptable controllability, manoeuvrability and stability characteristics throughout the flight envelope protection (see USAR.U334 and USAR.U1330) maintained by the flight control system, without requiring exceptional skill or alertness from the UA crew. (b) The UA must demonstrate the fulfilment of the \u201cflight characteristics\u201d requirements at all practical loading conditions and all operating altitudes, not exceeding the maximum operating altitude established under USAR.1527, for which certification has been requested. (c) The UA must meet the \u201cflight characteristics\u201d requirements at all environmental conditions (including turbulence and gust) for which certification has been requested.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

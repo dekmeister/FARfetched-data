@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "53",
+  "number": "53",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Take-off Performance",
+  "subject_group": "PERFORMANCE",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Take-off Performance",
+      "text": "Except for catapult assisted or rocket assisted take-off UAV, the following applies :\n(a) The take-off distance must be determined in accordance with sub-paragraph (b), using speeds determined in accordance with USAR.51 (a) and (b). (b) The distance required to take-off and climb to a height of 15 m (50 ft) above the take-off surface must be determined for each weight, altitude and temperature within the operational limits established for take-off with (1) Take-off power or thrust on each engine; (2) Wing flaps in the take-off position(s); and (3) Landing gear extended in the take-off position (c) Take-off performance as required by USAR.53 (a) and USAR.55 must be determined with the operating engines within approved operating limitations. (d) Maximum rotation rate (if applicable) is to be determined such that resulting dynamic effects do not lead to unsafe conditions or reduction in loading or manoeuvers safety margins.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Take-off Performance",
+      "text": "Except for catapult assisted or rocket assisted take-off UA, the following applies:\n(a) The take-off distance must be determined in accordance with sub-paragraph (b), using speeds determined in accordance with USAR.51 (a) and (b). (b) The distance required to take-off and climb to a height of 15 m (50 ft) above the take-off surface must be determined for each weight, altitude and temperature within the operational limits established for take-off with:\n  (1) Take-off power or thrust on each engine;\n  (2) Wing flaps in the take-off position(s); and\n  (3) Landing gear extended in the take-off position.\n(c) Take-off performance as required by USAR.53 (a) and USAR.55 must be determined with the operating engines within approved operating limitations.\n(d) Maximum rotation rate (if applicable) is to be determined such that resulting dynamic effects do not lead to unsafe conditions or reduction in loading or manoeuvres safety margins.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

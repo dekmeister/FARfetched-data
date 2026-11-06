@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1839",
+  "number": "U1839",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Powerplant and auxiliary power unit data",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Powerplant and auxiliary power unit data",
+      "text": "For each required powerplant and auxiliary power unit, data shall be available in the UCS, as appropriate to the type of powerplant.\n(a) Each maximum and if applicable, minimum safe operating limit must be marked with a red radial or a red line;\n(b) Each normal operating range must be marked with a green arc or green line not extending beyond the maximum and minimum safe limits;\n(c) Each take-off and precautionary range must be marked with a yellow arc or a yellow line; and\n(d) Each engine, auxiliary power unit or propeller range that is restricted because of excessive vibration stresses must be marked with red arcs or red lines.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

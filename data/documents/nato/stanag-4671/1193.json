@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1193",
+  "number": "1193",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Cowling and nacelle",
+  "subject_group": "POWERPLANT FIRE PROTECTION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Cowling and nacelle",
+      "text": "See AMC.1193 (a) Each cowling must be constructed and supported so that it can resist any vibration, inertia and air loads to which it may be subjected in operation. (b) There must be means for rapid and complete drainage of each part of the cowling in the normal ground and flight attitudes. No drain may discharge where it will cause a fire hazard. (c) Cowling must be at least fireproof. (d) Each part around an opening in the engine compartment cowling must be at least fire-resistant for a distance of not less than 61 cm (24 in) from of the opening. (e) Each part of the cowling subjected to high temperatures due to its nearness to exhaust system ports or exhaust gas impingement, must be fireproof. (f) Each nacelle of a multi-engine UAV with turbocharged engines must be designed and constructed so that with the landing gear retracted, a fire in the engine compartment will not burn through a cowling or nacelle and enter a nacelle area other than the engine compartment.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Cowling and nacelle",
+      "text": "See AMC.1193 (a) Each cowling must be constructed and supported so that it can resist any vibration, inertia and air loads to which it may be subjected in operation. (b) There must be means for rapid and complete drainage of each part of the cowling in the normal ground and flight attitudes. No drain may discharge where it will cause a fire hazard. (c) Cowling must be fireproof. (d) Each part around an opening in the engine compartment cowling must be at least fire-resistant for a distance not less than 61 cm (24 in) from of the opening. (e) Not applicable. (f) Each nacelle of a multi-engine UA with turbocharged engines must be designed and constructed so that with the landing gear retracted, a fire in the engine compartment will not burn through a cowling or nacelle and enter a nacelle area other than the engine compartment.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

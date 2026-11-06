@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1359",
+  "number": "1359",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Electrical system fire protection",
+  "subject_group": "ELECTRICAL SYSTEMS AND EQUIPMENT",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electrical system fire protection",
+      "text": "(a) Components of the electrical system must meet the applicable fire protection requirements of USAR.U850 and USAR.U865.\n(b) Electrical cables, terminals and equipment in designated fire zones, that are used during emergency procedures, must be at least fire-resistant.\n(c) Insulation on electrical wire and cable must be self-extinguishing when tested at an angle of 60\u00b0 in accordance with the applicable portions of Appendix F of USAR or other approved equivalent methods. The average burn length must not exceed 76 mm (3 in) and the average flame time after removal of the flame source must not exceed 30 seconds. Drippings from the test specimen must not continue to flame for more than an average of 3 seconds after falling.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Electrical system fire protection",
+      "text": "(a) Components of the electrical system must meet the applicable fire protection requirements of USAR.U850 and USAR.865\n(b) Electrical cables, terminals and equipment in designated fire zones, that are used during emergency procedures, must be at least fire-resistant.\n(c) Insulation on electrical wire and cable must be self-extinguishing when tested at an angle of 60\u00b0 in accordance with the applicable portions of Appendix F of USAR or other approved equivalent methods. The average burn length must not exceed 76 mm (3 in) and the average flame time after removal of the flame source must not exceed 30 seconds. Drippings from the test specimen must not continue to flame for more than an average of 3 seconds after falling.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

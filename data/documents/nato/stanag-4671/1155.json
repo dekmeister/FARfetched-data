@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1155",
+  "number": "1155",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Turbine engine reverse thrust and propeller pitch settings below the flight regime",
+  "subject_group": "POWERPLANT CONTROLS AND ACCESSORIES",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Turbine engine reverse thrust and propeller pitch settings below the flight regime",
+      "text": "Not applicable in this subpart (see USAR.1761 Turbine engine reverse thrust and propeller pitch settings below the flight regime)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Turbine engine reverse thrust and propeller pitch settings below the flight regime",
+      "text": "Not applicable in this subpart. (see USAR.U1761 Turbine engine reverse thrust and propeller pitch settings below the flight regime)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

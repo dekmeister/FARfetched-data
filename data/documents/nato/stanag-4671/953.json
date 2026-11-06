@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "953",
+  "number": "953",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel system independence",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel system independence",
+      "text": "(a) Each fuel system for a multi-engine UAV must be arranged so that, in at least one system configuration, the failure of any one component will not result in the loss of power of more than one engine or require immediate action by the UAV crew to prevent the loss of power of more than one engine. Nevertheless, automatic actions are compliant with USAR.953.\n(b) If a single fuel tank (or series of fuel tanks interconnected to function as a single fuel tank) is used on a multi-engine UAV, the following must be provided:\n  (1) Independent tank outlets for each engine, each incorporating a shutoff valve at the tank. This shutoff valve may also serve as the firewall shutoff valve required if the line between the valve and the engine compartment does not contain more than one US quart of fuel (or any greater amount shown to be safe) that can escape into the engine compartment.\n  (2) At least two vents arranged to minimize the probability of both vents becoming obstructed simultaneously.\n  (3) Filler caps designed to minimize the probability of incorrect installation or inflight loss.\n  (4) A fuel system in which those parts of the system from each tank outlet to any engine are independent of each part of the system supplying fuel to any other engine.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Fuel system independence",
+      "text": "(a) Each fuel system for a multi-engine UA must be arranged so that, in at least one system configuration, the failure of any one component will not result in the loss of power of more than one engine or require immediate action by the UAS crew to prevent the loss of power of more than one engine. Nevertheless, automatic actions are compliant with USAR.953\n(b) If a single fuel tank (or series of fuel tanks interconnected to function as a single fuel tank) is used on a multi-engine UA, the following must be provided:\n  (1) Independent tank outlets for each engine, each incorporating a shutoff valve at the tank. This shutoff valve may also serve as the firewall shutoff valve required if the line between the valve and the engine compartment does not contain more than one litre (one US quart) of fuel (or any greater amount shown to be safe) that can escape into the engine compartment.\n  (2) At least two vents arranged to minimize the probability of both vents becoming obstructed simultaneously.\n  (3) Filler caps designed to minimize the probability of incorrect installation or inflight loss.\n  (4) A fuel system in which those parts of the system from each tank outlet to any engine are independent of each part of the system supplying fuel to any other engine.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

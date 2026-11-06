@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1731",
+  "number": "U1731",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "General",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "General",
+      "text": "See AMC.1731 (a) Each control in the UCS must be located and (except where its function is obvious) identified to provide convenient operation and to prevent confusion and inadvertent operation. (b) The controls must be located and arranged so that the UAV crew, when at their workstation have full and unrestricted movement of each control without interference from either their clothing or the UCS structure. (c) The control system must be designed so that the controls needed for continued safe flight and landing remain available to the UAV crew in normal, abnormal and emergency conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "General",
+      "text": "See AMC.U1731 (a) Each control in the UCS must be located and (except where its function is obvious) identified to provide convenient operation and to prevent confusion and inadvertent operation. (b) The controls must be located and arranged so that the UAS crew, when at their workstation have full and unrestricted movement of each control without interference from either their clothing or the UCS structure. (c) The control system must be designed so that the controls needed for continued safe flight and landing remain available to the UAS crew in normal, degraded and emergency conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1835",
+  "number": "U1835",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Airspeed data",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Airspeed data",
+      "text": "(a) If required to maintain safe flight, each airspeed data must be marked as specified in sub-paragraph (b), with the marks located at the corresponding indicated airspeeds.\n(b) The following markings must be made:\n  (1) For the never-exceed speed VNE, a red line.\n  (2) For the caution range, a yellow band extending from the red line specified in sub-paragraph (1) to the upper limit of the green band specified in sub-paragraph (3) .\n  (3) For the normal operating range, a green band with the lower limit at VS1 with maximum weight and with landing gear and wing flaps retracted, and the upper limit at the maximum structural cruising speed VNO established under USAR.1505 (b).\n  (4) For the flap operating range, a white band with the lower limit at VS0 at the maximum weight and the upper limit at the flaps-extended speed VFE established under USAR.1511.\n  (5) For multi-engine powered UAV, for the speed at which compliance has been shown with USAR.69 (b) relating to rate of climb, at maximum weight and at sea-level, a blue line.\n  (6) For multi-engine powered UAV, for the maximum value of minimum control speed (one or more engine inoperative) determined under USAR.149 (b), VMC, a red line. (c) If VNE or VNO vary with altitude, there must be means to indicate to the UAV crew the appropriate limitations throughout the operating altitude range. (d) Sub-paragraphs (b) (1) to (b) (3) and sub-paragraph (c) do not apply to UAV for which a maximum operating speed VMO/MMO is established under USAR.1505 (c). For those UAV System there must either be a maximum allowable airspeed indication showing the variation of VMO/MMO with altitude or compressibility limitations (as appropriate), or a red line marking for VMO/MMO must be made at lowest value of VMO/MMO established for any altitude up to the maximum operating altitude for the UAV. (e) There must be an airspeed indication in clear view of the UAV crew and as close as practicable to the airspeed indicator. This indication must list (1) The operating manoeuvring speed, Vo; (2) The maximum landing gear operating speed VLO; and (3) For multi-engine-powered UAV, the maximum value of the minimum control speed (one or more engine inoperative) determined under USAR.149 (b), VMC.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Airspeed data",
+      "text": "(a) If required to maintain safe flight, each airspeed data must be marked as specified in sub-paragraph (b), with the marks located at the corresponding indicated airspeeds.\n(b) The following markings must be made:\n  (1) For the never-exceed speed VNE, a red line.\n  (2) For the caution range, a yellow band extending from the red line specified in sub-paragraph (1) to the upper limit of the green band specified in sub-paragraph (3).\n  (3) For the normal operating range, a green band with the lower limit at VS1 with maximum weight and with landing gear and wing flaps retracted, and the upper limit at the maximum structural cruising speed VNO established under USAR.1505 (b).\n  (4) For the flap operating range, a white band with the lower limit at VS0 at the maximum weight and the upper limit at the flaps-extended speed VFE established under USAR.1511\n  (5) For multi-engine powered UA, for the speed at which compliance has been shown with USAR.69 (b) relating to rate of climb, at maximum weight and at sea-level, a blue line.\n  (6) For multi-engine powered UA, for the maximum value of minimum control speed (one or more engine inoperative) determined under USAR.149 (b), VMC, a red line. (c) If VNE or VNO vary with altitude, there must be means to indicate to the UAS crew the appropriate limitations throughout the operating altitude range. (d) Sub-paragraphs (b) (1) to (b) (3) and sub-paragraph (c) do not apply to UA for which a maximum operating speed VMO/MMO is established under USAR.1505 (c). For those UA there must either be a maximum allowable airspeed indication showing the variation of VMO/MMO with altitude or compressibility limitations (as appropriate), or a red line marking for VMO/MMO must be made at lowest value of VMO/MMO established for any altitude up to the maximum operating altitude for the UA. (e) There must be an airspeed indication in clear view of the UAS crew and as close as practicable to the airspeed indicator. This indication must list:\n    (1) The operating manoeuvring speed, Vo;\n    (2) The maximum landing gear operating speed VLO; and\n    (3) For multi-engine-powered UA, the maximum value of the minimum control speed (one or more engine inoperative) determined under USAR.149 (b), VMC.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

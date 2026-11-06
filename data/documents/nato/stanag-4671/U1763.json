@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1763",
+  "number": "U1763",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Carburettor air temperature controls",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Carburettor air temperature controls",
+      "text": "Where existing, there must be a separate carburettor air temperature control for each engine.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

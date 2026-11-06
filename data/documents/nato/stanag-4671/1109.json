@@ -1,0 +1,33 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1109",
+  "number": "1109",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Turbocharger bleed air system",
+  "subject_group": "INDUCTION SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Turbocharger bleed air system",
+      "text": "(a) The pressurized air system may not be subject to hazardous contamination following any probable failure of the turbocharger or its lubrication system.\n(b) The turbocharger supply air must be taken from a source where it cannot be contaminated by harmful or hazardous gases or vapours following any probable failure or malfunction of the engine exhaust, hydraulic, fuel, or oil system causing a fire hazard or safety issues for the UAV.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped",
+        "notes": "printed as USAR.1107 (source printing error; tools/overrides/nato_usar_numbers.tsv)"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Turbocharger bleed air system",
+      "text": "(a) The pressurized air system may not be subject to hazardous contamination following any probable failure of the turbocharger or its lubrication system.\n(b) The turbocharger supply air must be taken from a source where it cannot be contaminated by harmful or hazardous gases or vapours following any probable failure or malfunction of the engine exhaust, hydraulic, fuel, or oil system causing a fire hazard or safety issues for the UA.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

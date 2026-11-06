@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1702",
+  "number": "U1702",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "UCS infrastructure",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "UCS infrastructure",
+      "text": "(a) The physical parameters (e.g. size, temperature, power supply, earth bonding, maximum capacity, \u2026) deemed as essential for flight safety and that define the infrastructure suitable for the UCS must be stated in the UAV System Flight Manual.\n(b) Where the UCS infrastructure is part of the UAV System to be certified, its design must comply with the parameters prescribed in USAR.1702 (a)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "UCS infrastructure",
+      "text": "(a) The physical parameters (e.g. size, temperature, power supply, earth bonding, maximum capacity) deemed as essential for flight safety and that define the infrastructure suitable for the UCS must be stated in the UAS Flight Manual.\n(b) Where the UCS infrastructure is part of the UAS to be certified, its design must comply with the parameters prescribed in USAR.U1702 (a)",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

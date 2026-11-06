@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "201",
+  "number": "201",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Wings Level Stall",
+  "subject_group": "STALLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Wings Level Stall",
+      "text": "(a) Flight tests shall be conducted in straight flight for each relevant UAV flaps configuration, with the engine at idle position and for the most appropriate combination of weight and centre of gravity while reducing the speed at a decelerating rate of approximately 1kt/s (1) up to the time the UAV stalls, or (2) until Vmin DEMO, if the stalling speed is not to be demonstrated in compliance with USAR.50, and, (i) no stall tendency shall occur down to Vmin DEMO , (ii) Vmin DEMO shall be lower by the margin established under USAR.50 than the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system.\n(b) These flight tests may be conducted, while possibly adjusting or inhibiting flight control protection features.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Wings Level Stall",
+      "text": "See AMC.203 (a) Flight tests shall be conducted in straight flight for each relevant UA flaps configuration, with the engine at idle position and for the most appropriate combination of weight and centre of gravity while reducing the speed at a decelerating rate of approximately 1kt/s: (1) up to the time the UA stalls, or (2) until Vmin DEMO, if the stalling speed is not to be demonstrated in compliance with USAR.U50, and (i) no stall tendency shall occur down to Vmin DEMO, (ii) Vmin DEMO shall be lower by the margin established under USAR.U50 than the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system. (b) These flight tests may be conducted, while possibly adjusting or inhibiting flight control protection features.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

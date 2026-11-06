@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "425",
+  "number": "425",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Gust Loads",
+  "subject_group": "HORIZONTAL TAIL SURFACES",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Gust Loads",
+      "text": "(a) Each horizontal surface other than a main wing, must be designed for loads resulting from (1) Gust velocities specified in USAR.333 (c) with flaps retracted; and (2) Positive and negative gusts of 7.6 m/s (25 fps) nominal intensity at VF corresponding to the flight conditions specified in USAR.345(a)(2).\n(b) Reserved.\n(c) When determining the total load on the horizontal surfaces for the conditions specified in sub-paragraph (a) of this paragraph, the initial balancing loads for steady unaccelerated flight at the pertinent design speeds, VF, VC and VD must first be determined. The incremental load resulting from the gusts must be added to the initial balancing load to obtain the total load.\n(d) In the absence of a more rational analysis, the incremental load due to the gust must be computed as follows only on UAV configurations with aft-mounted, horizontal surfaces, unless its use elsewhere is shown to be conservative: \u239f \u23a0 \u239e \u239c \u239d \u239b \u2212 = \u2206 \u03b1 \u03b5 \u03c1\u03bf d d S V U K L ht a de g ht ht 1 2 where factor Downwash 1 ) (m tail horizontal aft of Area radian); (per curve lift tail horizontal aft of Slope (m/s); speed equivalent Aeroplane (m/s); ity gust veloc Derived 1; in USAR.34 defined factor n alleviatio Gust ); (kg/m level sea at air of Density (N); load tail horizontal l Incrementa 2 3 = \u239f \u23a0 \u239e \u239c \u239d \u239b \u2212 = = = = = \u2212 = = \u2206 \u03b1 \u03b5 \u03c1\u03bf d d S a V U K L ht ht de g ht",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Gust Loads",
+      "text": "(a) Each horizontal surface other than a main wing, must be designed for loads resulting from:\n  (1) Gust velocities specified in USAR.333 (c) with flaps retracted; and\n  (2) Positive and negative gusts of 7.6 m/s (25 fps) nominal intensity at VF corresponding to the flight conditions specified in USAR.345(a)(2).\n(b) Reserved.\n(c) When determining the total load on the horizontal surfaces for the conditions specified in sub-paragraph (a) of this paragraph, the initial balancing loads for steady unaccelerated flight at the pertinent design speeds, VF, VC and VD must first be determined. The incremental load resulting from the gusts must be added to the initial balancing load to obtain the total load.\n(d) In the absence of a more rational analysis, the incremental load due to the gust must be computed as follows only on UA configurations with aft-mounted, horizontal surfaces, unless its use elsewhere is shown to be conservative: \u2206\ud835\udc3f\u210e\ud835\udc61 = \ud835\udf0c0\ud835\udc3e\ud835\udc54\ud835\udc48\ud835\udc51\ud835\udc52\ud835\udc49\ud835\udc4e\u210e\ud835\udc61\ud835\udc46\u210e\ud835\udc61 2 [1 \u2212 \ud835\udc51\ud835\udf00 \ud835\udc51\ud835\udefc ] Where: \u2206\ud835\udc3f\u210e\ud835\udc61 = Incremental horizontal tail load (N); \ud835\udf0c0 - Density of air at sea level (kg/m3); Ude = Derived gust velocity (m/s); V = Aeroplane equivalent speed (m/s); \ud835\udc4e\u210e\ud835\udc61 = Slope of aft horizontal tail lift curve (per radian); \ud835\udc46\u210e\ud835\udc61 = Area of aft horizontal tail (m2 ); [1 \u2212 \ud835\udc51\ud835\udf00 \ud835\udc51\ud835\udefc ] = Downwash factor; and Kg= Gust alleviation factor as defined by: Kg = 0.88\u03bcg 5.3+\u03bcg and \u03bcg = 2(W/S) \u03c1Cag where: \u03c1 = Density of air (kg/m3) at the altitude considered. W/S = Wing loading due to the applicable weight of the aeroplane in the particular load case (N/m2); C = Mean geometric chord (m); g = Acceleration due to gravity (m/sec2); a = Slope of the aeroplane normal force coefficient curve CNA per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope CL per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition. \u03bcg = Aeroplane mass ratio.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1011",
+  "number": "1011",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "General",
+  "subject_group": "OIL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "General",
+      "text": "See AMC.1011 (b) (a) For oil systems and components that have been approved under the engine airworthiness requirements and where those requirements are equal to or more severe than the corresponding requirements of subpart E of USAR, that approval need not be duplicated. Where the requirements of subpart E of USAR are more severe, substantiation must be shown to the requirements of subpart E. (b) Each engine and auxiliary power unit must have an independent oil system that can supply it with an appropriate quantity of oil at a temperature not above that safe for continuous operation. (c) The usable oil tank capacity may not be less than the product of the endurance of the UAV under critical operating conditions and the maximum oil consumption of the engine under the same conditions, plus a suitable margin to ensure adequate circulation and cooling. (d) For an oil system without an oil transfer system, only the usable oil tank capacity may be considered. The amount of oil in the engine oil lines, the oil radiator and the feathering reserve, may not be considered. (e) If an oil transfer system is used and the transfer pump can pump some of the oil in the transfer lines into the main engine oil tanks, the amount of oil in these lines that can be pumped by the transfer pump may be included in the oil capacity. (f) Where engine lubrication is based on a fuel/oil mixture, an appropriate and reliable means for providing it must be substantiated under any combination of environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "General",
+      "text": "See AMC.1011 (b) (a) For oil systems and components that have been approved under the engine airworthiness requirements and where those requirements are equal to or more severe than the corresponding requirements of subpart E of USAR, that approval need not be duplicated. Where the requirements of subpart E of USAR are more severe, substantiation must be shown to the requirements of subpart E. (b) Each engine and auxiliary power unit must have an independent oil system that can supply it with an appropriate quantity of oil at a temperature not above that safe for continuous operation. (c) The usable oil tank capacity may not be less than the product of the endurance of the UA under critical operating conditions and the maximum oil consumption of the engine under the same conditions, plus a suitable margin to ensure adequate circulation and cooling. (d) For an oil system without an oil transfer system, only the usable oil tank capacity may be considered. The amount of oil in the engine oil lines, the oil radiator and the feathering reserve, may not be considered. (e) If an oil transfer system is used and the transfer pump can pump some of the oil in the transfer lines into the main engine oil tanks, the amount of oil in these lines that can be pumped by the transfer pump may be included in the oil capacity. (f) Where engine lubrication is based on a fuel/oil mixture, an appropriate and reliable means for providing it must be substantiated under any combination of environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

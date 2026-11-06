@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "951",
+  "number": "951",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "General",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "General",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure fuel flow at a rate and pressure established for proper engine and auxiliary power unit functioning under each likely operating condition, including any manoeuvre for which certification is requested and during which the engine or auxiliary power unit is permitted to be in operation.\n(b) Each fuel system must be arranged so that (1) No fuel pump can draw fuel from more than one tank at a time; or (2) There are means to prevent introducing air into the system.\n(c) Each fuel system for a turbine engine must be capable of sustained operation throughout its flow and pressure range with fuel initially saturated with water at 27\u00b0C (80\u00b0F) and having 0.75cc of free water per 3.8 l (US-gallon) added and cooled to the most critical condition for icing likely to be encountered in operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "General",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure fuel flow at a rate and pressure established for proper engine and auxiliary power unit functioning under each likely operating condition, including any manoeuvre for which certification is requested and during which the engine or auxiliary power unit is permitted to be in operation.\n(b) Each fuel system must be arranged so that:\n  (1) No fuel pump can draw fuel from more than one tank at a time; or\n  (2) There are means to prevent introducing air into the system.\n(c) Each fuel system for a turbine engine must be capable of sustained operation throughout its flow and pressure range with fuel initially saturated with water at 27\u00b0C (80\u00b0F) and having 0.75cc of free water per 3.8 litres (0.83 Imperial gallon/1 US gallon) added and cooled to the most critical condition for icing likely to be encountered in operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

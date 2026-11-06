@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1181",
+  "number": "1181",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Designated fire zones; regions included",
+  "subject_group": "POWERPLANT FIRE PROTECTION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Designated fire zones; regions included",
+      "text": "For powerplants, designated fire zones are (a) For reciprocating engines (1) The power section; (2) The accessory section; (3) Any complete powerplant compartment in which there is no isolation between the power section and the accessory section. (b) For turbine engines (1) The compressor and accessory sections; (2) The combustor, turbine and tailpipe sections that contain lines or components carrying flammable fluids or gases. (3) Any complete powerplant compartment in which there is no isolation between compressor, accessory, combustor, turbine and tailpipe sections. (c) Any auxiliary power unit compartment; and (d) Any fuel burning heater and other combustion equipment installation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

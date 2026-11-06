@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1722",
+  "number": "U1722",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Part-time data display",
+  "subject_group": "DATA DISPLAYED IN THE UAS CONTROL STATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Part-time data display",
+      "text": "See AMC.1722 Many UAV System parameters or status indications are required in subpart H and I to be displayed, yet they may be only necessary or required in certain phases of flight.\n(a) When parameters are not displayed full-time, flight safety must not be impaired.\n(b) Part-time displays of UAV System parameters or status indicators must be shown not to create an unsafe conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Part-time data display",
+      "text": "See AMC.U1722 Many UAS parameters or status indications are required in subpart H and I to be displayed, yet they may be only necessary or required in certain phases of flight.\n(a) When parameters are not displayed full-time, flight safety must not be impaired.\n(b) Part-time displays of UAS parameters or status indicators must be shown not to create any unsafe conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

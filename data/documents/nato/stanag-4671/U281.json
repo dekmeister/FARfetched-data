@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U281",
+  "number": "U281",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Transition to normal flight attitude",
+  "subject_group": "CATAPULT ASSISTED AND ROCKET ASSISTED TAKE-OFF UA",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Transition to normal flight attitude",
+      "text": "(a) The transition to normal flight attitude or normal in-flight UAV configuration must be such that no possibility of conflict exists between the UAV and its launch platform or any other object under any combination of environmental conditions.\n(b) The UAV must remain in a predictable flight condition throughout the launch phase.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Transition to normal flight attitude",
+      "text": "(a) The transition to normal flight attitude or normal in-flight UA configuration must be such that no possibility of conflict exists between the UA and its launch platform or any other object under any combination of environmental conditions.\n(b) The UA must remain in a predictable flight condition that does not exhibit any tendencies to depart from controlled flight throughout the launch phase.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

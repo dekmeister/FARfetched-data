@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U598",
+  "number": "U598",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Extracting devices",
+  "subject_group": "PARACHUTE LANDING SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Extracting devices",
+      "text": "The use of extracting device (mechanical, pyrotechnics, \u2026) must not cause any damage to the UAV air frame or to the landing system assets.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Extracting devices",
+      "text": "See AMC.U598 The use of extracting device (mechanical drogue, etc.,) must not cause any damage to the UA air frame or to the landing system assets outside of that necessary to perform its intended function.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

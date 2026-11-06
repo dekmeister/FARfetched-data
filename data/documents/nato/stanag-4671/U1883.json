@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1883",
+  "number": "U1883",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Command and control of multiple UA",
+  "subject_group": "MISCELLANEOUS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Command and control of multiple UAV",
+      "text": "Where a UCS is designed to command and control multiple UAV, the following requirements apply:\n(a) The minimum UAV crew must be established so that it is sufficient for safe operation of each vehicle in compliance with USAR.1704 and emergency conditions.\n(b) The UAV data shall be displayed in the UCS in a manner that prevents confusion and inadvertent operation.\n(c) The UAV controls must be available to the UAV crew for each UAV of which it has command and control in a manner that prevents confusion and inadvertent operation.\n(d) All indicators and warnings must be available to the UAV crew for each UAV in a manner that prevents confusion and inadvertent operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Command and control of multiple UA",
+      "text": "Where a UCS is designed to command and control multiple UA, the following requirements apply:\n(a) The minimum UAS crew must be established so that it is sufficient for safe operation of each aircraft in compliance with USAR.U1704 and emergency conditions.\n(b) The UA data shall be displayed in the UCS in a manner that prevents confusion and inadvertent operation.\n(c) The UA controls must be available to the UAS crew for each UA of which it has command and control in a manner that prevents confusion and inadvertent operation.\n(d) All indicators and warnings must be available to the UAS crew for each UA in a manner that prevents confusion and inadvertent operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

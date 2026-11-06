@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1728",
+  "number": "U1728",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Data link data display, warnings and indicators",
+  "subject_group": "DATA DISPLAYED IN THE UAS CONTROL STATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Data link data display, warnings and indicators",
+      "text": "Data link data display, warnings and indicators must meet the requirements of USAR.1607.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Data link data display, warnings and indicators",
+      "text": "Data link data display, warnings and indicators must meet the requirements of USAR.U1607",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

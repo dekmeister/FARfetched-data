@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "493",
+  "number": "493",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Braked roll conditions",
+  "subject_group": "GROUND LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Braked roll conditions",
+      "text": "Under braked roll conditions, with the shock absorbers and tyres in their static positions, the following applies:\n(a) The limit vertical load factor must be 1.33.\n(b) The attitudes and ground contacts must be those described USAR.479 for level landings.\n(c) A drag reaction equal to the vertical reaction at the wheel multiplied by a coefficient of friction of 0.8 must be applied at the ground contact point of each wheel with brakes, except that the drag reaction need not exceed the maximum value based on limiting brake torque.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

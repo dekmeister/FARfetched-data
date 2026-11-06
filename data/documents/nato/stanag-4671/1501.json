@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1501",
+  "number": "1501",
+  "current_grouping": "Subpart G \u2013 Operating Limitations and Information",
+  "canonical_title": "General",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart G \u2013 Operating Limitations and Information",
+      "title_at_revision": "General",
+      "text": "(a) Each operating limitation specified in USAR.1505 to USAR.1527 and other limitations and information necessary for safe operation must be established.\n(b) The operating limitations and other information necessary for safe operation must be made available to the UAV crew as prescribed in USAR.1541 to USAR.1589.\n(c) The requirements of this section may not be applicable to all UAV configurations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart G \u2013 Operating Limitations and Information",
+      "title_at_revision": "General",
+      "text": "(a) Each operating limitation specified in USAR.1505 to USAR.1527 and other limitations and information necessary for safe operation must be established.\n(b) The operating limitations and other information necessary for safe operation must be made available to the UAS crew as prescribed in USAR.1541 to USAR.1589\n(c) The requirements of this section may not be applicable to all UAS configurations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

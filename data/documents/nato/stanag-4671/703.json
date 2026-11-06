@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "703",
+  "number": "703",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Take-off protection",
+  "subject_group": "CONTROL SYSTEMS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Take-off protection",
+      "text": "If the UAV is an unsafe take-off configuration, either (a) the UAV crew and ground staff (where applicable) must be notified; or (b) the initiation of take-off must be automatically prevented.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Take-off protection",
+      "text": "If the UA is in an unsafe take-off configuration, either:\n(a) the UAS crew and ground staff (where applicable) must be notified; or\n(b) the initiation of take-off must be automatically prevented.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1189",
+  "number": "1189",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Shut-off means",
+  "subject_group": "POWERPLANT FIRE PROTECTION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Shut-off means",
+      "text": "See AMC.1189 (a) (5) (a) For each multi-engined UAV the following apply: (1) Each engine installation must have means to shut off or otherwise prevent hazardous quantities of fuel, oil, de-icing fluid and other flammable liquids from flowing into, within, or through any engine compartment, except in lines, fittings and components forming an integral part of an engine. (2) The closing of the fuel shut-off valve for any engine may not make any fuel unavailable to the remaining engine that would be available to that engine with that valve open. (3) Operation of any shut-off means may not interfere with the later emergency operation of other equipment such as propeller feathering devices. (4) Each shut-off must be outside of the engine compartment unless an equal degree of safety is provided with the shut-off inside the compartment. (5) No hazardous amount of flammable fluid may drain into the engine compartment after shut-off . (6) Not applicable in this subpart (see USAR.1765 Shut-off controls) (b) Turbine engine installations need not have an engine oil system shut-off if (1) The oil tank is integral with, or mounted on, the engine; and (2) All oil system components external to the engine are fireproof or located in areas not subject to engine fire conditions. (c) Power-operated valves must be designed so that the valve will not move from the selected position under vibration conditions likely to exist at the valve location (see also USAR.1805 Shut-off valve indicator).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Shut-off means",
+      "text": "See AMC.1189 (a) (5) (a) For each multi-engine UA the following apply: (1) Each engine installation must have means to shut off or otherwise prevent hazardous quantities of fuel, oil, de-icing fluid and other flammable liquids from flowing into, within, or through any engine compartment, except in lines, fittings and components forming an integral part of an engine. (2) The closing of the fuel shut-off valve for any engine may not make any fuel unavailable to the remaining engine that would be available to that engine with that valve open. (3) Operation of any shut-off means may not interfere with the later emergency operation of other equipment such as propeller feathering devices. (4) Each shut-off must be outside of the engine compartment unless an equal degree of safety is provided with the shut-off inside the compartment. (5) No Hazardous amount of flammable fluid may drain into the engine compartment after shut-off. (6) Not applicable in this subpart. (see USAR.U1765 Shut-off controls) (b) Turbine engine installations need not have an engine oil system shut-off if: (1) The oil tank is integral with, or mounted on, the engine; and (2) All oil system components external to the engine are fireproof or located in areas not subject to engine fire conditions. (c) Power-operated valves must be designed so that the valve will not move from the selected position under vibration conditions likely to exist at the valve location (see also USAR.U1805 Shut-off valve indicator).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

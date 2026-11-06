@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "73",
+  "number": "73",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Reference Landing Approach Speed",
+  "subject_group": "PERFORMANCE",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Reference Landing Approach Speed",
+      "text": "Except where a UAV is designed to be recovered by parachute, the reference landing approach speed, VREF, must not be less than the greater of (1) VMC, determined under USAR.149 (c), and, (2) 1.3 VS0, except if it is demonstrated that a lower speed does not affect safe landing due to UAV System performance whatever the combination of environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Reference Landing Approach Speed",
+      "text": "Except where a UA is designed to be recovered by parachute, the reference landing approach speed, VREF, must not be less than the greater of:\n(a) VMC, determined under USAR.149 (c), and\n(b) 1.3 VS0, except if it is demonstrated that a lower speed does not affect safe landing due to UA performance whatever the combination of environmental conditions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

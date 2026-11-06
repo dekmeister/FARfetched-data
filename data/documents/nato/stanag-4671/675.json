@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "675",
+  "number": "675",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Stops",
+  "subject_group": "CONTROL SYSTEMS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Stops",
+      "text": "(a) Each flight control must have stops that positively limit the range of motion of each movable aerodynamic surface controlled by the system.\n(b) Each stop must be located so that wear, slackness, or take-up adjustments will not adversely affect the control characteristics of the UAV because of a change in the range of surface travel.\n(c) Each stop must be able to withstand any loads corresponding to the design conditions for the control system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Stops",
+      "text": "(a) Each flight control must have stops that positively limit the range of motion of each movable aerodynamic surface controlled by the system.\n(b) Each stop must be located so that wear, slackness, or take-up adjustments will not adversely affect the control characteristics of the UA because of a change in the range of surface travel.\n(c) Each stop must be able to withstand any loads corresponding to the design conditions for the control system.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

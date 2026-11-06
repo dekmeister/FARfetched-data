@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "971",
+  "number": "971",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel tank sump",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel tank sump",
+      "text": "(a) Where appropriate, each fuel tank must have a drainable sump with an effective capacity, in the normal ground and flight attitudes, of 0.25% of the tank capacity, or 0.24 litres (0.05 Imperial gallon/ 1/16 US-gallon), whichever is greater.\n(b) Each fuel tank must allow drainage of any Hazardous quantity of water from any part of the tank to its sump with the UAV in the normal ground attitude.\n(c) Where required by the Certifying Authority, each reciprocating engine fuel system must have a sediment bowl or chamber that is accessible for drainage; has a capacity of 30 cm3 (1 fl oz) for every 75.7 litres (16.7 Imperial gallon/20 US-gallon) of fuel tank capacity; and each fuel tank outlet is located so that, in the normal flight attitude, water will drain from all parts of the tank except the sump to the sediment bowl or chamber.\n(d) Each sump, sediment bowl and sediment chamber drain required by sub-paragraphs (a), (b) and (c) must comply with the drain provisions of USAR.999 (b) (1) and (2).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Fuel tank sump",
+      "text": "(a) Where appropriate, each fuel tank must have a drainable sump with an effective capacity, in the normal ground and flight attitudes, of 0.25% of the tank capacity, or 0.24 litres (0.05 Imperial gallon/ 0.625 US-gallon), whichever is greater.\n(b) Each fuel tank must allow drainage of any Hazardous quantity of water from any part of the tank to its sump with the UA in the normal ground attitude.\n(c) Where required by the Certifying Authority, each reciprocating engine fuel system must have a sediment bowl or chamber that is accessible for drainage; has a capacity of 30 cm3 (1 fl oz) for every 75.7 litres (16.7 Imperial gallon/20 US-gallon) of fuel tank capacity; and each fuel tank outlet is located so that, in the normal flight attitude, water will drain from all parts of the tank except the sump to the sediment bowl or chamber.\n(d) Each sump, sediment bowl and sediment chamber drain required by sub-paragraphs (a), (b) and (c) must comply with the drain provisions of USAR.999 (b) (1) and (2).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "975",
+  "number": "975",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel tank vents and carburettor vapour vents",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel tank vents and carburettor vapour vents",
+      "text": "See AMC.975 (a) Each fuel tank must be vented from the top part of the expansion space. In addition (1) Each vent outlet must be located and constructed in a manner that minimises the possibility of it being obstructed by ice or other foreign matter; (2) Each vent must be constructed to prevent siphoning of fuel during normal operation; (3) The venting capacity must allow the rapid relief of excessive differences of pressure between the interior and exterior of the tank; (4) Airspaces of tanks with interconnected outlets must be inter-connected; (5) There may be no points in any vent line where moisture can accumulate with the UAV in either the ground or level flight attitudes unless drainage is provided . (6) No vent may terminate at a point where the discharge of fuel from the vent outlet will constitute a fire hazard ; and (7) Vents must be arranged to prevent the loss of fuel, except fuel discharged because of thermal expansion, when the UAV is parked in any direction on a ramp having a 1% slope and when the UAV is on the launching ramp or catapult for the UAV designed for rocket assisted or catapult assisted take-off. (8) Vents must be arranged to prevent re-ingestion of vented fuel or fuel vapours back into the UAV. (b) Each carburettor with vapour elimination connections and each fuel injection engine employing vapour return provisions must have a separate vent line to lead vapours back to the top of one of the fuel tanks. If there is more than one tank and it is necessary to use these tanks in a definite sequence for any reason, the vapour vent line must lead back to the fuel tank to be used first, unless the relative capacities of the tanks are such that return to another tank is preferable. (c) Not applicable",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Fuel tank vents and carburettor vapour vents",
+      "text": "See AMC.975 (a) Each fuel tank must be vented from the top part of the expansion space. In addition: (1) Each vent outlet must be located and constructed in a manner that minimises the possibility of it being obstructed by ice or other foreign matter; (2) Each vent must be constructed to prevent siphoning of fuel during normal operation; (3) The venting capacity must allow the rapid relief of excessive differences of pressure between the interior and exterior of the tank; (4) Airspaces of tanks with interconnected outlets must be inter-connected; (5) There may be no points in any vent line where moisture can accumulate with the UA in either the ground or level flight attitudes unless drainage is provided. (6) No vent may terminate at a point where the discharge of fuel from the vent outlet will constitute a fire hazard; and (7) Vents must be arranged to prevent the loss of fuel, except fuel discharged because of thermal expansion, when the UA is parked in any direction on a ramp having a 1% slope and when the UA is on the launching ramp or catapult for the UAS designed for rocket assisted or catapult assisted take-off. (8) Vents must be arranged to prevent re-ingestion of vented fuel or fuel vapours back into the UA. (b) Each carburettor with vapour elimination connections and each fuel injection engine employing vapour return provisions must have a separate vent line to lead vapours back to the top of one of the fuel tanks. If there is more than one tank and it is necessary to use these tanks in a definite sequence for any reason, the vapour vent line must lead back to the fuel tank to be used first, unless the relative capacities of the tanks are such that return to another tank is preferable. (c) Not applicable.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

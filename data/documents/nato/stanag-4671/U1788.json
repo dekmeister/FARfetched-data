@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1788",
+  "number": "U1788",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Degraded modes of operation warning",
+  "subject_group": "INDICATORS AND WARNINGS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Degraded modes of operation warning",
+      "text": "The UCS must be configured to ensure that the UAV crew is informed of any abnormal or emergency mode, including cases in which there is an automatic switching to an alternate mode of operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Degraded modes of operation warning",
+      "text": "The UCS must be configured to ensure that the UAS crew is informed of any degraded or emergency mode, including cases in which there is an automatic switching to an alternate mode of operation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

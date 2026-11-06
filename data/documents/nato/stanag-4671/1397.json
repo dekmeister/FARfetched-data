@@ -1,0 +1,21 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1397",
+  "number": "1397",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Colour specifications",
+  "subject_group": "LIGHTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Colour specifications",
+      "text": "Each position light colour must have the applicable International Commission on Illumination chromaticity co-ordinates as follows:\n(a) Aviation red \u2013 \u201cy\u201d is not greater than 0.335; and \u201cz\u201d is not greater than 0.002.\n(b) Aviation green \u2013 \u201cx\u201d is not greater than 0.440 \u2013 0.320y; \u201cx\u201d is not greater than y \u2013 0.170; and \u201cy\u201d is not less than 0.390 \u2013 0.170x.\n(c) Aviation white \u2013 \u201cx\u201d is not less than 0.300 and not greater than 0.540; \u201cy\u201d is not less than \u201cx \u2013 0.040\u201d or \u201cy\u00b0 \u2013 0.010\u201d, whichever is the smaller; and \u201cy\u201d is not greater than \u201cx + 0.020\u201d nor \u201c0.636 \u2013 0.400x\u201d; Where \u201cy\u00b0\u201d is the \u201cy\u201d co-ordinate of the Planckian radiator for the value of \u201cx\u201d considered.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

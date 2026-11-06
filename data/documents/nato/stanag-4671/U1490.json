@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1490",
+  "number": "U1490",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Automatic take-off system, automatic landing system",
+  "subject_group": "AUTOMATIC TAKE-OFF, TAXI, LANDING",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "General",
+      "text": "See AMC.1490 (f)(2) When a UAV System, designed for conventional take-off and landing on a runway is equipped with an automatic take-off system or an automatic landing system or both, it should meet the following requirements (a) Once the automatic take-off or landing mode has been engaged, the UAV crew monitors the whole process from the UCS, via the command and control data link, but is not required to perform any manual \u201cpiloting action\u201d, except manual abort, where required, as per provisions of USAR.1492. (b) The automatic function will reside in the UAV airborne control laws algorithms and will utilize navigation and flight path tracking inputs in such a manner as to not degrade the overall redundancy or level of safety of the flight control system. When off-board sensors are utilized via data-links, the continued safe flight of the vehicle must be ensured in the event of a loss of that data-link. (c) The automatic system may cause no unsafe sustained oscillations or undue attitude changes or control activity as a result of configuration or power changes or any other disturbance to be expected in normal operation. (d) Automatic take-off system or automatic landing system data and status must be displayed in the UCS. All indications must be designed to minimise crew errors. (e) Take-off (1) Once the automatic take-off mode has been engaged, the brake release, the take-off run and the rotation are fully automatic : UAV runway steering flightpath, speed, configuration, engine settings and UAV flightpath after lift off are controlled by the automatic take-off system. (2) In case of failure that could adversely affect safe flight or exceedance from predefined limits occurring during the take-off run at every speed up to the rotation speed VR or the proper refusal speed (if applicable), an automatic abort function shall be provided to stop the UAV on the runway. (f) Landing (1) Once the automatic landing mode has been engaged, the approach, landing and ground roll are fully automatic until the UAV reaches full stop or after a safe taxiing speed is reached and UAV crew changes to a manual taxi mode: UAV flightpath, speed, configuration, engine settings, runway steering and braking after touch down are controlled by the automatic landing system. (2) In case of failure or exceedance from the predefined limits of a convergence window occurring during the approach, an automatic go around function shall be provided above a certain height called \u201cDecision Point\u201d, at which such a go around may be safely performed (i.e. with no ground contact that may damage the UAV).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Automatic take-off system, automatic landing system",
+      "text": "See AMC.U1490 (f)(2) When a UAS, designed for conventional take-off and landing on a runway is equipped with an automatic take-off system, an automatic landing system or any combination thereof, it must meet the following requirements:\n(a) Once the automatic take-off or landing mode has been engaged, the UAS crew monitors the whole process from the UCS, via the command and control data link, but is not required to perform any manual \u201cpiloting action\u201d, except manual abort, where required, as per provisions of USAR.U1492\n(b) The automatic function will reside in the UAS airborne control laws algorithms and will utilize navigation and flight path tracking inputs in such a manner as to not degrade the overall redundancy or level of safety of the flight control system. When off-board sensors are utilized via data-links, the continued safe flight of the aircraft must be ensured in the event of a loss of that data-link.\n(c) The automatic system may cause no unsafe sustained oscillations or undue attitude changes or control activity as a result of configuration or power changes or any other disturbance to be expected in normal operation.\n(d) Automatic take-off system or automatic landing system data and status must be displayed in the UCS. All indications must be designed to minimise crew errors.\n(e) Take-off\n  (1) Once the automatic take-off mode has been engaged, the brake release, the take-off run and the rotation are fully automatic: UA runway steering flightpath, speed, configuration, engine settings and UA flightpath after lift-off are controlled by the automatic take-off system.\n  (2) In case of failure that could adversely affect safe flight or exceedance from predefined limits occurring during the take-off run at every speed up to the rotation speed VR or the proper refusal speed (if applicable), an automatic abort function shall be provided to stop the UA on the runway.\n(f) Landing\n  (1) Once the automatic landing mode has been engaged, the approach, landing and ground roll are fully automatic until the UA reaches full stop or after a safe taxiing speed is reached and UAS crew changes to a manual taxi mode: UA flightpath, speed, configuration, engine settings, runway steering and braking after touch down are controlled by the automatic landing system.\n  (2) In case of failure or exceedance from the predefined limits of a convergence window occurring during the approach, an automatic go around function shall be provided above a certain height called \u201cDecision Point\u201d, at which such a go around may be safely performed (i.e. with no ground contact that may damage the UA).",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

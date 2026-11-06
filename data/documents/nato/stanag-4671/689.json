@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "689",
+  "number": "689",
+  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "canonical_title": "Cable systems",
+  "subject_group": "CONTROL SYSTEMS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "title_at_revision": "Cable systems",
+      "text": "(a) Each cable, cable fitting, turn-buckle, splice and pulley used must meet approved specifications. In addition (1) No cable smaller than 3.2 mm (1/8 in) diameter may be used in primary flight controls ; (2) Each cable system must be designed so that there will be no hazardous change in cable tension throughout the range of travel under operating conditions and temperature variations; and (3) There must be means for visual inspection at each fairlead, pulley, terminal and turnbuckle.\n(b) Each kind and size of pulley must correspond to the cable with which it is used. Each pulley must have closely fitted guards to prevent the cables from being misplaced or fouled, even when slack. Each pulley must lie in the plane passing through the cable so that the cable does not rub against the pulley flange.\n(c) Fairleads must be installed so that they do not cause a change in cable direction of more than 3\u00b0.\n(d) Clevis pins subject to load or motion and retained only by cotter pins may not be used in the control system.\n(e) Turnbuckles must be attached to parts having angular motion in a manner that will positively prevent binding throughout the range of travel.\n(f) Tab control cables may be less than 3.2mm (1/8 inch) diameter in UAV that are safely controllable with the tabs in the most adverse positions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "title_at_revision": "Cable systems",
+      "text": "(a) Each cable, cable fitting, turn-buckle, splice and pulley used must meet approved specifications. In addition:\n  (1) Primary flight control cables shall be designed and sized such that limit loads do not exceed 67% of the rated breaking strength of the cable.\n  (2) Each cable system must be designed so that there will be no hazardous change in cable tension throughout the range of travel under operating conditions and temperature variations; and\n  (3) There must be means for visual inspection at each fairlead, pulley, terminal and turnbuckle.\n(b) Each kind and size of pulley must correspond to the cable with which it is used. Each pulley must have closely fitted guards to prevent the cables from being misplaced or fouled, even when slack. Each pulley must lie in the plane passing through the cable so that the cable does not rub against the pulley flange.\n(c) Fairleads must be installed so that they do not cause a change in cable direction of more than 3\u00b0.\n(d) Clevis pins subject to load or motion and retained only by cotter pins may not be used in the control system.\n(e) Turnbuckles must be attached to parts having angular motion in a manner that will positively prevent binding throughout the range of travel.\n(f) Tab control cables may be less than 3.2mm (1/8 inch) diameter in UA that are safely controllable with the tabs in the most adverse positions.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

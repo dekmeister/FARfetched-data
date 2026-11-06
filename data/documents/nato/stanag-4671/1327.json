@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "1327",
+  "number": "1327",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Magnetic heading measuring device",
+  "subject_group": "MEASURING DEVICES INSTALLATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Magnetic heading measuring device",
+      "text": "(a) Except as provided in sub-paragraph (b):\n  (1) Each magnetic heading measuring device, if existing, must be installed so that its accuracy is minimally affected by the UAV\u2019s vibration or magnetic fields; and\n  (2) The compensated installation may not have a deviation, in level flight, greater than 10\u00b0 on any heading.\n(b) A magnetic non-stabilised direction measuring device, if existing, may deviate more than 10\u00b0 due to the operation of electrically powered systems if either a magnetic stabilised direction measuring device, which does not have a deviation in level flight greater than 10\u00b0 on any heading, or a gyroscopic direction measuring device is installed. Deviations of a magnetic non-stabilised direction measuring device of more than 10\u00b0 must be automatically compenstated in accordance with USAR.1837.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Magnetic heading measuring device",
+      "text": "(a) Except as provided in sub-paragraph (b):\n  (1) Each magnetic heading measuring device, if existing, must be installed so that its accuracy is minimally affected by the UA\u2019s vibration or magnetic fields; and\n  (2) The compensated installation may not have a deviation, in level flight, greater than 10\u00b0 on any heading.\n(b) A magnetic non-stabilised direction measuring device, if existing, may deviate more than 10\u00b0 due to the operation of electrically powered systems if either a magnetic stabilised direction measuring device, which does not have a deviation in level flight greater than 10\u00b0 on any heading, or a gyroscopic direction measuring device is installed. Deviations of a magnetic non-stabilised direction measuring device of more than 10\u00b0 must be automatically compensated in accordance with USAR.U1837",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

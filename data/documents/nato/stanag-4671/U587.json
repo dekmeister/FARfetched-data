@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U587",
+  "number": "U587",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Rocket assisted take-off",
+  "subject_group": "FATIGUE EVALUATION",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Rocket assisted take-off",
+      "text": "The use of rocket must not cause damage to the airframe of the UAV arising from heat, blast or aerodynamic interference from the rocket efflux. The UAV integrity must be maintained following the release of rocket(s) in flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Rocket assisted take-off",
+      "text": "The use of rocket must not cause damage to the airframe of the UA arising from heat, blast or aerodynamic interference from the rocket efflux. The UA integrity must be maintained following the release of rocket(s) in flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

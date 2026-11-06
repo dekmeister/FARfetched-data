@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "251",
+  "number": "251",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Vibration and Buffeting",
+  "subject_group": "MISCELLANEOUS FLIGHT REQUIREMENTS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Vibration and Buffeting",
+      "text": "There must be no vibration or buffeting severe enough to result in structural damage and each part of the UAV must be free from excessive vibration, under any appropriate speed and power or thrust conditions up to at least the minimum value of VD allowed in USAR.335. In addition there must be no buffeting in any normal flight condition severe enough to interfere with the satisfactory control of the UAV",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Vibration and Buffeting",
+      "text": "There must be no vibration or buffeting severe enough to result in structural damage and each part of the UA must be free from excessive vibration, under any appropriate speed and power or thrust conditions up to at least the minimum value of VD allowed in USAR.335 In addition there must be no vibration or buffeting in any normal flight condition severe enough to interfere with the satisfactory control of the UA.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

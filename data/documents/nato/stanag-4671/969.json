@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "969",
+  "number": "969",
+  "current_grouping": "Subpart E \u2013 UA Powerplant",
+  "canonical_title": "Fuel tank expansion space",
+  "subject_group": "FUEL SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart E \u2013 UAV Powerplant",
+      "title_at_revision": "Fuel tank expansion space",
+      "text": "Each fuel tank must have an expansion space of not less than 2% of the tank capacity, unless the tank vent discharges clear of the UAV (in which case no expansion space is required). It must be impossible to fill the expansion space inadvertently with the UAV in the normal ground attitude.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart E \u2013 UA Powerplant",
+      "title_at_revision": "Fuel tank expansion space",
+      "text": "Each fuel tank must have an expansion space of not less than 2% of the tank capacity, unless the tank vent discharges clear of the UA (in which case no expansion space is required). It must be impossible to fill the expansion space inadvertently with the UA in the normal ground attitude.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

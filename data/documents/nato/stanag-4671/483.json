@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "483",
+  "number": "483",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "One-wheel landing conditions",
+  "subject_group": "GROUND LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "One-wheel landing conditions",
+      "text": "For the one-wheel landing condition, the UAV is assumed to be in the level attitude and to contact the ground on one side of the main landing gear. In this attitude, the ground reactions must be the same as those obtained on that side under USAR.479.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "One-wheel landing conditions",
+      "text": "For the one-wheel landing condition, the UA is assumed to be in the level attitude and to contact the ground on one side of the main landing gear. In this attitude, the ground reactions must be the same as those obtained on that side under USAR.479.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

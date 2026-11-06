@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "371",
+  "number": "371",
+  "current_grouping": "Subpart C \u2013 UA Structure",
+  "canonical_title": "Gyroscopic and Aerodynamic Loads",
+  "subject_group": "FLIGHT LOADS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "title_at_revision": "Gyroscopic and Aerodynamic Loads",
+      "text": "See AMC.371 The mounting arrangement for each engine and its supporting structure must be designed for the gyroscopic, inertia and aerodynamic loads that result, with the engine(s) and propeller(s), if applicable at maximum continuous rpm, under either (1) The conditions prescribed in USAR.351 and USAR.423; or (2) All possible combinations of the following in the limits allowed by the flight control system :\n(i) a yaw velocity of 150% of the maximum predicted yaw rotational velocity within the flight envelope maintained by the flight control system (ii) a pitch velocity of 150% of the maximum predicted pitch rotational velocity within the flight envelope maintained by the flight control system; (iii) a normal load factor of 150% of the maximum predicted load factor within the flight envelope maintained by the flight control system; and (iv) Maximum continuous thrust.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "title_at_revision": "Gyroscopic and Aerodynamic Loads",
+      "text": "See AMC.371 The mounting arrangement for each engine and its supporting structure must be designed for the gyroscopic, inertia and aerodynamic loads that result, with the engine(s) and propeller(s), if applicable at maximum continuous rpm, under either:\n(a) The conditions prescribed in USAR.351 and USAR.423; or\n(b) All possible combinations of the following in the limits allowed by the flight control system:\n  (1) a yaw velocity of 150% of the maximum predicted yaw rotational velocity within the flight envelope maintained by the flight control system;\n  (2) a pitch velocity of 150% of the maximum predicted pitch rotational velocity within the flight envelope maintained by the flight control system;\n  (3) a normal load factor of 150% of the maximum predicted load factor within the flight envelope maintained by the flight control system; and\n  (4) Maximum continuous thrust.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

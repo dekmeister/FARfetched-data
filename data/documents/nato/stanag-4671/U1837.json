@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1837",
+  "number": "U1837",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Magnetic heading or track data",
+  "subject_group": "INFORMATION, MARKINGS AND PLACARDS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Magnetic heading or track data",
+      "text": "See AMC.1837 Where magnetic heading or track is displayed in the UCS, it must be automatically compensated for deviation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Magnetic heading or track data",
+      "text": "See AMC.U1837 Where magnetic heading or track is displayed in the UCS, it must be automatically compensated for deviation.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

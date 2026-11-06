@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1307",
+  "number": "U1307",
+  "current_grouping": "Subpart F \u2013 Equipment",
+  "canonical_title": "Environmental control system (ECS)",
+  "subject_group": "GENERAL",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Environmental control system (ECS)",
+      "text": "See AMC.1307 Cooling must be provided for flight critical equipment as required for it to meet its performance and reliability for the intended lifetime. a) The ECS design shall incorporate the system safety requirements of the UAV. b) The ECS shall meet all safety requirements when operating under installed conditions over the design envelope and maintain integration integrity to ensure the UAV safety-of-flight. c) The UAV shall incorporate an alternate means of cooling of safety-critical avionics when the primary ECS is non-operational. d) The ECS design (including emergency equipment and/or auxiliary methods) shall provide an acceptable pressure environment for equipment affecting safety-of-flight. e) Normal and emergency pressurization requirements and status shall be indicated at the UCS. f) Safety-critical items such as flight controls, avionics and communications shall function long enough to safely land the aircraft if ECS function is lost and alternate methods are not available to insure airworthy operations. g) ECS normal and emergency procedures shall be included in the UAV System flight manual. h) Adequate controls and displays for the ECS shall be installed in the UCS or other appropriate locations to allow the ECS to function as intended. Sufficient cautions, warnings, and advisories are provided to alert the UAV crew to problems in time for corrective action to be taken from a safety of flight perspective. i) No single ECS subsystem failure (including UCS functions that are critical to air vehicle flight safety) shall result in loss of UAV. j) Bleed air or other compressed air duct system shall be monitored for leaks and structural integrity. Hot air leaking from damaged ducting shall not cause ignition of any flammable fluids or other materials or cause damage to safety-critical equipment. Shutdown capability, with a UCS advisory or warning, shall be provided when a potentially damaging or fire-producing leak occurs. The sensors for the leak detection system shall recover their required leak detection function following exposure to a leak. k) The UAV thermal management system shall be stable for all flight conditions and environments. The mass flow and delivery temperature of cooling medium shall be sufficient for the air vehicle heat loads and provide the necessary thermal stability to ensure safety-of-flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "title_at_revision": "Environmental control system (ECS)",
+      "text": "See AMC.U1307 Cooling must be provided for equipment as required for it to meet its intended function and reliability for the intended lifetime.\n(a) The ECS design shall incorporate the system safety requirements of the UAS.\n(b) The ECS shall meet all safety requirements when operating under installed conditions over the design envelope and maintain integration integrity to ensure the UAS safety-of-flight.\n(c) The UA shall incorporate an alternate means of cooling of safety-critical avionics when the primary ECS is non-operational.\n(d) The ECS design (including emergency equipment and/or auxiliary methods) shall provide an acceptable pressure environment for equipment affecting safety-of-flight.\n(e) Normal and emergency pressurization requirements and status shall be indicated at the UCS.\n(f) Safety-critical items such as flight controls, avionics and communications shall function long enough to safely land the aircraft if ECS function is lost and alternate methods are not available to ensure airworthy operations.\n(g) ECS normal and emergency procedures shall be included in the UAS Flight Manual.\n(h) Adequate controls and displays for the ECS shall be installed in the UCS or other appropriate locations to allow the ECS to function as intended. Sufficient cautions, warnings, and advisories shall be provided to alert the UAS crew to problems in time for corrective action to be taken from a safety of flight perspective.\n(i) No single ECS subsystem failure (including UCS functions that are critical to aircraft flight safety) shall result in loss of UA.\n(j) Bleed air or other compressed air duct system shall be monitored for leaks and structural integrity. Hot air leaking from damaged ducting shall not cause ignition of any flammable fluids or other materials or cause damage to safety-critical equipment. Shutdown capability, with an appropriate UCS alert, shall be provided when a potentially damaging or fire-producing leak occurs. The sensors for the leak detection system shall recover their required leak detection function following exposure to a leak.\n(k) The UAS thermal management system shall be stable for all flight conditions and environments. The mass flow and delivery temperature of cooling medium shall be sufficient for the aircraft heat loads and provide the necessary thermal stability to ensure safety-of-flight.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

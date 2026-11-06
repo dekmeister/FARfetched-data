@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U291",
+  "number": "U291",
+  "current_grouping": "Subpart B \u2013 UA Flight",
+  "canonical_title": "Parachute landing characteristics",
+  "subject_group": "PARACHUTE LANDING SYSTEM",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "title_at_revision": "Parachute landing characteristics",
+      "text": "(a) The normal landing under parachute must be made without excessive vertical acceleration or tendency to bounce, nose over, ground loop or porpoise.\n(b) The minimum parachute safety height must ensure a correct parachute deployment sequence and must ensure that the UAV descent under a fully inflated parachute is stabilised whatever the combination of environmental conditions.\n(c) The parachute must be deployed at a height greater or equal to the minimum parachute safety height above ground, which depends on the timing of the parachute sequence.\n(d) The minimum parachute safety height must be stated in the UAV System Flight Manual.\n(e) Special attention must be given to the static and dynamic stability of the UAV during the parachute landing phase : movements of the UAV and of the parachute must not lead to unsafe characteristics.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "title_at_revision": "Parachute landing characteristics",
+      "text": "(a) The normal landing under parachute must be made without excessive vertical acceleration or tendency to bounce, nose over, ground loop or porpoise.\n(b) The minimum parachute safety height must ensure a correct parachute deployment sequence and must ensure that the UA descent under a fully inflated parachute is stabilised whatever the combination of environmental conditions.\n(c) The parachute must be deployed at a height greater or equal to the minimum parachute safety height above ground, which depends on the timing of the parachute sequence.\n(d) The minimum parachute safety height must be stated in the UAS Flight Manual.\n(e) Special attention must be given to the static and dynamic stability of the UA during the parachute landing phase: movements of the UA and of the parachute must not lead to unsafe characteristics.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

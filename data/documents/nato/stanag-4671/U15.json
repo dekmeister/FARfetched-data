@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U15",
+  "number": "U15",
+  "current_grouping": "Subpart A \u2013 General",
+  "canonical_title": "UAS ancillary elements",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart A \u2013 General",
+      "title_at_revision": "UAV System ancillary elements",
+      "text": "Where a UAV System includes any ancillary elements necessary to enable safe flight (such as, for instance, launch and landing elements), Special Conditions in addition to USAR.1581 (a)(2) must be established and agreed with the Certifying Authority to ensure safe operations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart A \u2013 General",
+      "title_at_revision": "UAS ancillary elements",
+      "text": "Where a UAS includes any ancillary elements necessary to enable safe flight (such as, for instance, launch and landing elements), Special Conditions in addition to USAR.1581 (a)(2) must be established and agreed with the Certifying Authority to ensure safe operations.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

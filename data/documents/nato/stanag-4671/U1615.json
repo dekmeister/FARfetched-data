@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1615",
+  "number": "U1615",
+  "current_grouping": "Subpart H \u2013 Command and Control Data Link",
+  "canonical_title": "Command and control data link antenna masking",
+  "subject_group": "COMMAND AND CONTROL DATA LINK",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart H \u2013 Command and Control data link",
+      "title_at_revision": "Command and control data link antenna maskings",
+      "text": "(a) For all UAV attitudes and orientations relative to the signal source within the design envelope, the UAV antenna margin must be consistent to maintain a sufficient link budget for safe operation.\n(b) The masking must be stated in the UAV System Flight Manual.\n(c) Warning cues shall be provided to the UAV crew in case of approaching masking attitudes in order to prevent a total loss of command and control data link.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart H \u2013 Command and Control Data Link",
+      "title_at_revision": "Command and control data link antenna masking",
+      "text": "See AMC.U1615 (a) For all UA attitudes and orientations relative to the signal source within the design envelope, the UAS antenna margin must be consistent to maintain a sufficient link budget for safe operation. (b) The masking must be stated in the UAS Flight Manual. (c) Warning cues shall be provided to the UAS crew in case of approaching masking attitudes in order to prevent a total loss of command and control data link.",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}

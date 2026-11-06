@@ -1,0 +1,32 @@
+{
+  "issuer": "NATO",
+  "document": "stanag-4671",
+  "key": "U1765",
+  "number": "U1765",
+  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "canonical_title": "Shut-off controls",
+  "subject_group": "CONTROLS",
+  "versions": [
+    {
+      "designator": "Ed1",
+      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "title_at_revision": "Shut-off controls",
+      "text": "(a) For each UAV function that can be shut-off from the UCS, there must be a means to prevent inadvertent operation of the shut-off control. In addition, there must be a means to restore the function after it has been shut-off.\n(b) For fuel shut-offs control, the requirement is addressed in USAR.1743.\n(c) For ignition shut-off control, the requirement is addressed in USAR.1753 U1769 USAR.U1769 \u201cAbort\u201d control for automatic take-off system or automatic landing system See AMC.1769 Where a UAV System is equipped with an automatic take-off system or an automatic landing system there must be a means readily available to the UAV crew to rapidly abort the take-off phase or the landing phase in compliance with USAR.1492",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "EdB-V1",
+      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "title_at_revision": "Shut-off controls",
+      "text": "(a) For each UAS function that can be shut-off from the UCS, there must be a means to prevent inadvertent operation of the shut-off control. In addition, there must be a means to restore the function after it has been shut-off.\n(b) For fuel shut-offs control, the requirement is addressed in USAR.U1743\n(c) For ignition shut-off control, the requirement is addressed in USAR.U1753 U1769 USAR.U1769 \u201cAbort\u201d control for automatic take-off system or automatic landing system See AMC.U1769 Where a UAS is equipped with an automatic take-off system or an automatic landing system there must be a means readily available to the UAS crew to rapidly abort the take-off phase or the landing phase in compliance with USAR.U1492",
+      "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",
+      "provenance": {
+        "source": "scraped"
+      },
+      "publication_cite": "NSO/0427(2019)JCGUAS/4671"
+    }
+  ]
+}
