@@ -26,26 +26,6 @@
       "provenance": {
         "source": "scraped"
       }
-    },
-    {
-      "designator": "CS27-10",
-      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
-      "title_at_revision": "Emergency landing dynamic conditions",
-      "text": "(a) The rotorcraft, although it may be damaged in an emergency crash landing, must be designed to reasonably protect each occupant when:\n  (1) The occupant properly uses the seats, safety belts, and shoulder harnesses provided in the design; and\n  (2) The occupant is exposed to the loads resulting from the conditions prescribed in this paragraph.\n(b) Each seat type design or other seating device approved for crew or passenger occupancy during take-off and landing must successfully complete dynamic tests or be demonstrated by rational analysis based on dynamic tests of a similar type seat in accordance with the following criteria. The tests must be conducted with an occupant, simulated by a 77 kg (170-pound) anthropomorphic test dummy (ATD), sitting in the normal upright position.\n  (1) A change in downward velocity of not less than 9.1 m/s (30 ft/s) when the seat or other seating device is oriented in its nominal position with respect to the rotorcraft\u2019s reference system, the rotorcraft\u2019s longitudinal axis is canted upward 60\u00b0 with respect to the impact velocity vector, and the rotorcraft\u2019s lateral axis is perpendicular to a vertical plane containing the impact velocity vector and the rotorcraft\u2019s longitudinal axis. Peak floor deceleration must occur in not more than 0.031 seconds after impact and must reach a minimum of 30 g.\n  (2) A change in forward velocity of not less than 12.8 m/s (42 ft/s) when the seat or other seating device is oriented in its nominal position with respect to the rotorcraft\u2019s reference system, the rotorcraft\u2019s longitudinal axis is yawed 10\u00b0 either right or left of the impact velocity vector (whichever would cause the greatest load on the shoulder harness), the rotorcraft\u2019s lateral axis is contained in a horizontal plane containing the impact velocity vector, and the rotorcraft\u2019s vertical axis is perpendicular to a horizontal plane containing the impact velocity vector. Peak floor deceleration must occur in not more than 0.071 seconds after impact and must reach a minimum of 18.4 g.\n  (3) Where floor rails or floor or sidewall attachment devices are used to attach the seating devices to the airframe structure for the conditions of this paragraph, the rails or devices must be misaligned with respect to each other by at least 10\u00b0 vertically (i.e. pitch out of parallel) and by at least a 10\u00b0 lateral roll, with the directions optional, to account for possible floor warp.\n(c) Compliance with the following must be shown:\n  (1) The seating device system must remain intact although it may experience separation intended as part of its design.\n  (2) The attachment between the seating device and the airframe structure must remain intact, although the structure may have exceeded its limit load.\n  (3) The ATD\u2019s shoulder harness strap or straps must remain on or in the immediate vicinity of the ATD\u2019s shoulder during the impact.\n  (4) The safety belt must remain on the ATD\u2019s pelvis during the impact.\n  (5) The ATD\u2019s head either does not contact any portion of the crew or passenger compartment, or if contact is made, the head impact does not exceed a head injury criteria (HIC) of 1000 as determined by this equation. t2 2.5 HIC = (t2 \u2212 t1) [ \u222b a(t)dt] t2 \u2212 t1 t1 Where: a(t) is the resultant acceleration at the centre of gravity of the head form expressed as a multiple of g (the acceleration of gravity) and t2-t1 is the time duration, in seconds, of major head impact, not to exceed 0.05 seconds.\n  (6) Loads in individual upper torso harness straps must not exceed 7784 N (1750 lbs). If dual straps are used for retaining the upper torso, the total harness strap loads must not exceed 8896 N (2000 lbs).\n  (7) The maximum compressive load measured between the pelvis and the lumbar column of the ATD must not exceed 6674 N (1500 lbs).\n(d) An alternate approach that achieves an equivalent or greater level of occupant protection, as required by this paragraph, must be substantiated on a rational basis.",
-      "publication_cite": "ED Decision 2023/001/R",
-      "source_url": "https://www.easa.europa.eu/en/downloads/137572/en",
-      "actions": [
-        {
-          "type": "easa_decision",
-          "reference": "ED Decision 2023/001/R",
-          "issued_on": null,
-          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023001r",
-          "notes": null
-        }
-      ],
-      "provenance": {
-        "source": "scraped"
-      }
     }
   ]
 }
