@@ -320,6 +320,7 @@ _ISSUERS: dict[str, tuple[str, str, str | None, str | None]] = {
     "CAB": ("Civil Aeronautics Board", "naa", "US", "FAA"),
     "EASA": ("European Union Aviation Safety Agency", "naa", "EU", None),
     "DOD": ("U.S. Department of Defense", "military", "US", None),
+    "NATO": ("North Atlantic Treaty Organization", "military", None, None),
 }
 
 # Closed set of airworthiness categories. Must match the `categories` enum in

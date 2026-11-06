@@ -273,6 +273,7 @@ class TestRealDataBuild:
             "CAB": "FAA",
             "EASA": None,
             "DOD": None,
+            "NATO": None,
         }
 
     def test_text_missing_flag_matches_sentinel(self, real_db: Path) -> None:

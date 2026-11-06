@@ -653,6 +653,49 @@ Reports are
     provisions under the old title; 10 was replaced, 15 and 20 renamed). The
     app merges only titles that extend one another (7, 13, 19).
 
+### NATO USAR (NATO-)
+
+Pipeline `nato/usar` ([tools/s00_docs/NATO_USAR.md](tools/s00_docs/NATO_USAR.md)).
+Reports are `tools/out/reports/nato_usar_extract_report.tsv` and
+`emit_nato_usar_report.tsv`.
+
+- **NATO-1. Edition gap: STANAG 4671 Ed. 2 and AEP-4671 Ed. A** (both 9
+  February 2017) aren't freely available. The history is Ed. 1 → Ed. B
+  (`Ed1` ordinal 0, `EdB-V1` ordinal 2; `1` is free). A paragraph that
+  changed at Ed. 2/A shows its change at Ed. B. Nothing represents a missing
+  revision (not `TEXT MISSING`, which is for text known to exist but
+  unreadable). If the Ed. 2 / Ed. A documents turn up, they are a new input
+  and a re-run of the continuity review (the decisions are keyed by
+  designator and number).
+- **NATO-2. `source_url` is unverified.** `s01_extract/nato/usar/manifest.py`
+  uses the two NSDD pages from the plan (`stanag-details/9175` for Ed. 1,
+  `ap-details/2783` for Ed. B). Both answered HTTP 404 from the build host on
+  2026-11-06 (so did the NSO site root; possibly bot blocking, possibly wrong
+  paths; the AEP one was reconstructed in the plan). Ed. 1's actual provenance,
+  the French MoD archive copy via the Wayback Machine, has no URL in the
+  repo. Replace both with checked URLs (the Wayback snapshot for Ed. 1), and
+  confirm the 2009-09-03 date of Ed. 1, which today comes from the file
+  name, against the NSDD record.
+- **NATO-3. Annexes and Book 2 are not ingested.** Out of scope: the
+  introduction, Annex A (glossary), Annex B (abbreviations), Annex C (the
+  cross-reference table with EASA CS-23, a good input for ROADMAP-4
+  cross-document links) and Book 2 (the AMC; the `See AMC.17` pointer lines
+  stay in the text of each paragraph).
+- **NATO-4. Tables and figures; layout.** Book 1's tables and figures are
+  absent from the text layer or run into the text (Appendix C, the flight
+  envelope under `333`, Appendix L's HIRF tables, Appendix K, 27,000
+  characters of mostly flat text). 91 texts are `flat-failed` in
+  `structure_report_nato_usar.tsv` (Ed. 1 and Ed. B versions together),
+  mostly lists whose labels skip or restart; they stay flat, which is valid.
+- **NATO-5. Staged, not promoted; limits of the continuity review.** 505
+  provisions, 848 versions are staged and `promote --dry-run` shows 506 new
+  files and no conflicts. Eight decision rows (`tools/overrides/nato_usar.tsv`)
+  cover the identity breaks. Not decided row by row: 8 same-number pairs that
+  continue on an identical title with rewritten text (57, U2, 341, U850, 1195,
+  1197, 1199, 1201). Partial splits and merges aren't recorded (ROADMAP-4).
+  Stubs are ingested as printed provisions (policy in NATO_USAR.md); say if
+  they should be skipped.
+
 ### Text layout (TEXT-)
 
 Paragraph structure (label-line text, schema v3). The words are intact by
@@ -859,16 +902,18 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   cross-regulator assemble step exist (CS-23/25 aeroplanes; ETCDS-6…14);
   next are rotorcraft (CS-27/29) and the scope widening. Also download the Noise TCDS (TCDSN), which is
   only recorded in the catalogue's `noise_*` columns today.
-- **ROADMAP-10. NATO USAR (STANAG 4671 / AEP-4671).** Was blocked on schema
-  v7 (provision key vs printed number), which is in since 2026-11-04
-  ([docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md)); the MIL-HDBK-516
-  emitter (`s02_emit/dod/hdbk`) is a model for the continuity walk. Ed. 1 → Ed. B reuses numbers for different requirements
-  (U1717/U1719/U1720 moved to U1712–U1714), and Ed. 1 prints 1367 twice. The
-  known edition gap: STANAG 4671 Ed. 2 / AEP-4671 Ed. A (Feb 2017) aren't
-  freely available, so the history is Ed. 1 → Ed. B. Prompt, findings and open
-  questions: [reviews/PLAN_NATO_USAR.md](reviews/PLAN_NATO_USAR.md).
 
 ## Closed
+
+- **ROADMAP-10 (NATO USAR pipeline):** built 2026-11-06 once schema v7 was in:
+  `s01_extract/nato/usar` (manifest, extract), `s02_emit/nato/usar`, issuer
+  `NATO`, the walk lifted from the 516 emitter into `s00_common/continuity.py`.
+  One document `STANAG 4671`, revisions `Ed1` and `EdB-V1`. The plan's identity
+  findings held for the U1712-U1714 renumbers, the 1329 → U1330 move and the
+  1367 error, with corrections: Ed. 1 prints three heading tokens wrongly
+  (1107, 1553, 1367, whose margin index gives 1109, 1555, 1365) and
+  misprints four more (`USAR 321`, `UAV.349` …), so 321, 341, 349, 395 and
+  1555 are not new in Ed. B. Open items: NATO-1 to NATO-5.
 
 - **DOD-1 (MIL-HDBK-516 staged, not promoted):** promoted and committed
   2026-11-06: 1,730 keys, 4,995 versions, 567 renumbered, build clean (0

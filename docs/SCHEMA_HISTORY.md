@@ -18,6 +18,10 @@ change to the SQLite contract.
 | 6 | 2026-11-03 | `e7ee945` | Aircraft `categories` move from the model to each `tcb`; `model_categories` becomes `tcb_categories`. Needed to hold FAA and EASA bases on one model. |
 | 7 | 2026-11-04 | (uncommitted at the time of writing) | Provision `key` (identity, file name) separated from the printed `number`; optional per-version `number` and `provision_versions.number`; `UNIQUE (document_id, number)` dropped. Cert-basis `provisions` are printed numbers read at the ref's `to`. Issuer `DOD`. Needed for MIL-HDBK-516, which reuses and renumbers paragraph numbers between editions. |
 
+The `NATO` issuer (STANAG 4671 / AEP-4671) was added on 2026-11-06 without a
+version bump: it is one more row in the closed `issuers` set and one more value
+of the `issuer` enum, and nothing a reader of v7 depends on changes.
+
 ## Changes in the v1 schema
 
 The 2026-10-31 review replaced the first, regulation-only format. These names

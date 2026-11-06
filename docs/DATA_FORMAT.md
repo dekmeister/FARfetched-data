@@ -58,7 +58,7 @@ belong to the revision as a whole.
 
 | Field       | Type   | Nullable | Purpose |
 |-------------|--------|----------|---------|
-| `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`, `DOD`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). `DOD` is the U.S. Department of Defense (MIL-HDBK-516). |
+| `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`, `DOD`, `NATO`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). `DOD` is the U.S. Department of Defense (MIL-HDBK-516). `NATO` is the North Atlantic Treaty Organization, which has no country and is of kind `military` (STANAG 4671 / AEP-4671). |
 | `doc_kind`  | enum   | no       | `regulation`, `certification_spec`, `amc_gm`, `advisory_circular`, `handbook`, `special_condition`, `elos`, `exemption`, `standard`. |
 | `code`      | string | no       | Human citation: `"14 CFR 23"`, `"CAR 3"`, `"CS-23"`. |
 | `slug`      | string | no       | Path segment, lower case: `"23"`, `"car-3"`, `"cs-23"`. Unique per issuer. |
