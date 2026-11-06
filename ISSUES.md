@@ -684,7 +684,7 @@ Reports are `tools/out/reports/nato_usar_extract_report.tsv` and
 - **NATO-4. Tables and figures; layout.** Book 1's tables and figures are
   absent from the text layer or run into the text (Appendix C, the flight
   envelope under `333`, Appendix L's HIRF tables, Appendix K, 27,000
-  characters of mostly flat text). 91 texts are `flat-failed` in
+  characters of mostly flat text). 34 texts are `flat-failed` in
   `structure_report_nato_usar.tsv` (Ed. 1 and Ed. B versions together),
   mostly lists whose labels skip or restart; they stay flat, which is valid.
 - **NATO-5. Limits of the continuity review.** 505 provisions, 848 versions,
