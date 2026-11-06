@@ -1,7 +1,19 @@
 # PLAN — Inline markup for formulas and sub/superscripts (GitHub #4)
 
 **Status (2026-11-05): not started.** Planned only; no code or data changed yet.
-Spans the data repo (schema v8, tools) and the FARfetched app.
+Spans the data repo (schema **v10**, tools) and the FARfetched app.
+
+**Updated 2026-11-07.** Schema v8 (section headings) and v9 (tables, GitHub
+#9) have landed since this was written, so read every "v8" below as **v10**,
+and the line numbers as stale. Already in place from v9, to reuse:
+`provision_paragraphs.kind` (add `'formula'` to its CHECK rather than adding
+the column), `build.plain_text` (the plain form: extend it to strip `_{}`,
+`^{}` and `$$`), `tools/s00_common/tables.py` beside the planned `markup.py`,
+the app's `services/markup.py` (`blocks()`; extend it with sub/sup segments
+and formula lines rather than adding a module), block-by-block rendering in
+`provision.html`, the quiet compare display (`markup.display_line`), and the
+promote version-count guard (Part B5 is done: `VERSIONS n → m`). Table cells
+must not contain `$$` lines; `_{}`/`^{}` inside a cell are fine.
 
 ## Context
 

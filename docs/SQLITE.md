@@ -39,7 +39,7 @@ in [build.py](../build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **8**). It is bumped
+`PRAGMA user_version` is the schema version (currently **9**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -91,6 +91,13 @@ the first heading and in texts without one), `heading` is 1 on the heading
 block itself (top level, unlabelled), and every path starts with the section
 (`F23.2(b)(1)`), so paths stay unique within the version. CHECKs enforce
 both.
+`kind` is `table` for each line of a table block (rule 8: its `{|` open
+line, each row, its `|}` close line), with the markup kept in `text`, and
+`text` otherwise. Table rows are unlabelled and carry the path of the item
+the table belongs to. A consumer that renders tables groups consecutive
+`table` rows from `{|` to `|}` and parses each row with the
+[table syntax](DATA_FORMAT.md#tables); one that doesn't can show the rows as
+lines and still read every word.
 Every version that has text has rows, aliases and `TEXT MISSING` included; a
 flat text is one unlabelled row, so the app has a single rendering path.
 `provision_versions.text` keeps the label-line string unchanged. Index on

@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 8
+SCHEMA_VERSION = 9
 
 DOCUMENT_FILE = "_document.json"
 
@@ -147,12 +147,16 @@ CREATE TABLE provision_paragraphs (
     path                 TEXT,
     section              TEXT,
     heading              INTEGER NOT NULL CHECK (heading IN (0, 1)),
+    -- 'table': one line of a table block (its open line, a row, or its close
+    -- line), with the markup kept in `text` (docs/DATA_FORMAT.md §Tables).
+    kind                 TEXT NOT NULL CHECK (kind IN ('text', 'table')),
     text                 TEXT NOT NULL,
     UNIQUE (provision_version_id, seq),
     CHECK ((depth = 0) = (path IS NULL)),
     CHECK (label IS NULL OR depth >= 1),
     -- A heading row opens a section: top level, unlabelled, naming it.
     CHECK (heading = 0 OR (depth = 0 AND label IS NULL AND section IS NOT NULL)),
+    CHECK (kind = 'text' OR (label IS NULL AND heading = 0)),
     -- Inside a section, paths carry the section number: 'G23.3(a)(1)'.
     CHECK (path IS NULL OR section IS NULL
            OR substr(path, 1, length(section) + 1) = section || '(')
@@ -578,6 +582,7 @@ class Paragraph:
     text: str  # '' for a label-only block
     section: str | None = None  # 'F23.2' under a section heading, else None
     heading: bool = False  # the block is the section heading itself
+    kind: str = "text"  # 'table' for a line of a table block
 
 
 @dataclass(frozen=True)
@@ -651,6 +656,88 @@ def _choose(stack: list[_Level], token: str, indent: int, line: int) -> _Reading
     return fitting[0]
 
 
+# Tables (docs/DATA_FORMAT.md §Tables). A block of lines: `{|` with an optional
+# caption, one row per line (cells opened by `!` header / `|` data, each a
+# token of its own, with an optional `{rN cM}` span), then `|}`. The flat form
+# (`flatten_text`) joins rows with ` |- `.
+TABLE_OPEN = "{|"
+TABLE_CLOSE = "|}"
+TABLE_ROW_SEP = "|-"
+_TABLE_OPEN_RE = re.compile(r"\{\|(?: (.*))?$")
+_TABLE_ROW_RE = re.compile(r"[!|](?: |$)")
+_TABLE_DELIM_RE = re.compile(r"(?:^| )([!|])(?= |$)")
+_TABLE_SPAN_RE = re.compile(r"(?:^| )\{(?:r(\d+))?(?:(?<=\d) )?(?:c(\d+))?\}$")
+_TABLE_TOKEN_RE = re.compile(r"\{\||\|\}|\|-")
+
+
+@dataclass(frozen=True)
+class TableCell:
+    header: bool  # `!` cell
+    text: str  # '' for an empty cell
+    rowspan: int = 1
+    colspan: int = 1
+
+
+def is_table_row(content: str) -> bool:
+    """A line (without its indentation) that is a table row."""
+    return content != TABLE_CLOSE and bool(_TABLE_ROW_RE.match(content))
+
+
+def parse_table_row(content: str) -> list[TableCell]:
+    """Split a table row line (without its indentation) into its cells.
+    Raise ValueError when the line isn't a valid row."""
+    if not is_table_row(content):
+        raise ValueError("a table row must start with `!` or `|`")
+    delims = list(_TABLE_DELIM_RE.finditer(content))
+    cells: list[TableCell] = []
+    for i, d in enumerate(delims):
+        end = delims[i + 1].start() if i + 1 < len(delims) else len(content)
+        body = content[d.end() : end].strip()
+        rowspan = colspan = 1
+        span = _TABLE_SPAN_RE.search(body)
+        if span:
+            if not (span.group(1) or span.group(2)):
+                raise ValueError("empty span `{}`")
+            rowspan = int(span.group(1) or 1)
+            colspan = int(span.group(2) or 1)
+            if rowspan < 2 and colspan < 2 or "1" in (span.group(1), span.group(2)):
+                raise ValueError("a span must be 2 or more")
+            body = body[: span.start()].strip()
+        if re.search(r"(?<!\S)\{[rc]\d|(?<!\S)\{\}|[rc]\d+\}(?!\S)", body):
+            raise ValueError(f"malformed span in cell {body!r}")
+        if _TABLE_TOKEN_RE.search(body):
+            raise ValueError(f"table markup inside cell {body!r}")
+        cells.append(TableCell(d.group(1) == "!", body, rowspan, colspan))
+    return cells
+
+
+def table_width(rows: list[list[TableCell]]) -> int:
+    """Column count of a table. Raise ValueError when rows differ in width
+    once spans are applied, spans overlap, or a row span runs past the last
+    row."""
+    taken: set[tuple[int, int]] = set()
+    for r, cells in enumerate(rows):
+        col = 0
+        for cell in cells:
+            while (r, col) in taken:
+                col += 1
+            for dr in range(cell.rowspan):
+                for dc in range(cell.colspan):
+                    if (r + dr, col + dc) in taken:
+                        raise ValueError("overlapping spans")
+                    taken.add((r + dr, col + dc))
+            col += cell.colspan
+    if any(r >= len(rows) for r, _ in taken):
+        raise ValueError("a row span runs past the last row")
+    widths = [1 + max(c for rr, c in taken if rr == r) for r in range(len(rows))]
+    if (
+        any((r, c) not in taken for r in range(len(rows)) for c in range(widths[r]))
+        or len(set(widths)) > 1
+    ):
+        raise ValueError(f"rows differ in width: {widths}")
+    return widths[0]
+
+
 def _path(stack: list[_Level], section: str | None = None) -> str:
     labels = "".join(f"({lvl.token})" for lvl in stack)
     return f"{section or ''}{labels}" if labels else ""
@@ -674,6 +761,8 @@ def parse_paragraphs(text: str) -> ParsedText:
         n, raw = lines[0]
         if raw[0].isspace():
             raise TextFormatError(n, "a single-line text must not be indented")
+        if _TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
+            raise TextFormatError(n, "table markup in a single-line text")
         return ParsedText((Paragraph(0, 0, None, None, raw),), False, 0)
 
     stack: list[_Level] = []
@@ -681,11 +770,57 @@ def parse_paragraphs(text: str) -> ParsedText:
     gaps = 0
     section: str | None = None
     sections: set[str] = set()
+    # An open table block: (line it opened on, its indentation, rows so far).
+    table: tuple[int, int, list[list[TableCell]]] | None = None
     for n, raw in lines:
         content = raw.lstrip(" ")
         indent = len(raw) - len(content)
         if content[0].isspace():
             raise TextFormatError(n, "indentation must be spaces")
+        opening = _TABLE_OPEN_RE.match(content)
+        if table is not None or opening:
+            # Tables: every line of the block is indented like its `{|` line
+            # and belongs, as an unlabelled block, to that line's owner.
+            if table is None:
+                table = (n, indent, [])
+            elif opening:
+                raise TextFormatError(n, "a table inside a table")
+            elif indent != table[1]:
+                raise TextFormatError(n, "a table line indented unlike its `{|`")
+            elif content == TABLE_CLOSE:
+                if not table[2]:
+                    raise TextFormatError(n, "a table with no rows")
+                try:
+                    table_width(table[2])
+                except ValueError as exc:
+                    raise TextFormatError(table[0], f"table: {exc}") from None
+                table = None
+            else:
+                try:
+                    table[2].append(parse_table_row(content))
+                except ValueError as exc:
+                    raise TextFormatError(n, f"table row: {exc}") from None
+            if opening and _TABLE_TOKEN_RE.search(opening.group(1) or ""):
+                raise TextFormatError(n, "table markup inside a caption")
+            k = next(
+                (i for i in range(len(stack) - 1, -1, -1) if stack[i].indent < indent),
+                -1,
+            )
+            owner = stack[: k + 1]
+            out.append(
+                Paragraph(
+                    len(out),
+                    len(owner),
+                    None,
+                    _path(owner, section) or None,
+                    content,
+                    section,
+                    kind="table",
+                )
+            )
+            continue
+        if _TABLE_TOKEN_RE.search(content) or is_table_row(content):
+            raise TextFormatError(n, "table markup outside a table block")
         h = SECTION_HEADING_RE.match(content)
         if h:
             # Rule 7: a section heading closes every open level.
@@ -742,13 +877,44 @@ def parse_paragraphs(text: str) -> ParsedText:
                     section,
                 )
             )
+    if table is not None:
+        raise TextFormatError(table[0], "a table that is never closed (`|}`)")
     return ParsedText(tuple(out), True, gaps)
 
 
 def flatten_text(text: str) -> str:
     """A text's words without its layout: lines stripped and joined by single
-    spaces. Structuring may change a text only where this stays equal."""
-    return " ".join(s for line in text.split("\n") if (s := line.strip()))
+    spaces. Structuring may change a text only where this stays equal.
+
+    Table rows are joined by ` |- ` instead, so the flat form of a table is
+    one line (`{| Caption |- ! A ! B |- | 1 | 2 |}`) that still says where
+    each row starts."""
+    out: list[str] = []
+    in_table = False
+    for line in text.split("\n"):
+        if not (s := line.strip()):
+            continue
+        if in_table and is_table_row(s) and out:
+            out.append(TABLE_ROW_SEP)
+        if _TABLE_OPEN_RE.match(s):
+            in_table = True
+        elif s == TABLE_CLOSE:
+            in_table = False
+        out.append(s)
+    return " ".join(out)
+
+
+_PLAIN_SPAN_RE = re.compile(r"(?<!\S)\{(?:r\d+)?(?: ?c\d+)?\}(?!\S)")
+_PLAIN_MARKUP = frozenset({TABLE_OPEN, TABLE_CLOSE, TABLE_ROW_SEP, "!", "|"})
+
+
+def plain_text(text: str) -> str:
+    """The words of `text` (laid out or flat) with table markup removed:
+    `{|`, `|}`, `|-`, cell delimiters and spans. For comparing wording across
+    layouts, never for display. (A lone `!` or `|` outside a table, which only
+    OCR junk has, goes too.)"""
+    flat = _PLAIN_SPAN_RE.sub(" ", flatten_text(text))
+    return " ".join(w for w in flat.split() if w not in _PLAIN_MARKUP)
 
 
 def paragraph_ref_paths(qualifier: str, paths: set[str]) -> list[str] | None:
@@ -987,10 +1153,20 @@ def _insert_paragraphs(
 ) -> None:
     conn.executemany(
         "INSERT INTO provision_paragraphs "
-        "(provision_version_id, seq, depth, label, path, section, heading, text) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "(provision_version_id, seq, depth, label, path, section, heading, kind, "
+        "text) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         [
-            (pv_id, p.seq, p.depth, p.label, p.path, p.section, int(p.heading), p.text)
+            (
+                pv_id,
+                p.seq,
+                p.depth,
+                p.label,
+                p.path,
+                p.section,
+                int(p.heading),
+                p.kind,
+                p.text,
+            )
             for p in parsed.paragraphs
         ],
     )

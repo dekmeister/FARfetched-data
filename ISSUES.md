@@ -307,6 +307,28 @@ uncommitted `s00_common/structure.py` edits land (words identical).
     and only that report item is fetched and checked by the extractor. This
     recovered §2@27-28, §2@29-32, §519@25-81, §1302@25-137, §1583@25-0.
 
+- **FAA-25. Tables that DRS has only as images are missing.** No image is
+  cached under `input/`, so these tables have a caption or an introducer but
+  no cells: J23@23-57 (both HIRF tables: "(a) HIRF environment I is
+  specified in the following table:" is followed by nothing), A23.13 Table 2
+  (all four versions), A36.3/A36.4 Tables A36-1 and A36-2 (still images at
+  36-31), probably J36.109. To close: fetch the GIF/PNG files, transcribe each
+  table as a `text.tsv` `replace_text` row in the flat table form
+  (docs/DATA_FORMAT.md §Tables) with the image as evidence.
+- **FAA-26. Old DRS tables mark no header row.** rgl-era DRS tables have no
+  `<th>` (25.1393@25-0 "Angle above or below the horizontal plane: |
+  Intensity"), so their first row is a data row; the eCFR-rendered versions
+  of the same tables have a header. The extractor doesn't guess. This makes
+  a DRS-to-eCFR version pair differ in markup (and caption/note text) as well
+  as words. To close: decide whether a first row of all-text cells over
+  numeric rows may be marked a header, or leave it.
+- **FAA-27. 25.725 and 25.727 re-extract as `deleted`.** A `--redo
+  --offline` re-extract (2026-11-07, tables work) stages both as `deleted:
+  true` (title "Limit drop tests." / "Reserve energy absorption drop tests.")
+  where `data/` has a `Reserved.` text version. That comes from the stub
+  rules (`is_removed_doc`), not from tables, so it was left out of that
+  promotion. Review and promote separately.
+
 ### CAR (CAR-)
 
 - **CAR-1. OCR-damaged and out-of-sequence labels in CAR 3 texts** leave the
@@ -335,6 +357,14 @@ uncommitted `s00_common/structure.py` edits land (words identical).
     Fig. 3-2 in front of its caption.
   - CAB 318@R0 "shall]": a stray bracket, probably OCR (the 1956 reissue
     prints no amendment brackets). Check against the scan.
+
+- **CAR-4. CAB 3.304@CAR3R-7 castings table is OCR-damaged.** The table in
+  (b) is flattened with OCR errors ("vusuai"), `{e)` should be `(c)` (so (c)
+  is lost and (d) shows as a gap), and amendatory text of the next sections
+  ("§3.304-1 [Deletion] 21. By deleting…") is appended to (d). Sources:
+  `CAR3R-7.raw.txt`:636-720, column layout in `CAR3R-7.txt` around line 340.
+  To close: `replace_text` rows (label, trailing text) and the table in its
+  flat form. (car-3/655 is an equipment list, not a table.)
 
 ### EASA CS (EASA-)
 
@@ -427,6 +457,45 @@ Reports are `tools/out/reports/emit_easa_cs{n}_report.tsv`.
   - Real renames across amendments stay distinct: CS-23 "Structure" →
     "Structures", "Equipment" → "Systems And Equipment", and so on (Amdt 5
     rewrite).
+
+- **EASA-17. Tables are flattened, often column by column.** The extractor
+  reads text only; a table whose columns sit either side of the page centre
+  comes out column-major ("Type A Type B Type C Type I 110 75 55 45 …", CS
+  25.807@CS25-28; the HIRF tables of CS-25 R25, CS-27 D27, CS-29 E29) and
+  wrapped cells split (E29@CS29-4). FAA tables are real tables since schema
+  v9 (GitHub #9); EASA's are not. To close: rebuild tables from geometry:
+  word boxes from `pdftotext -bbox-layout` plus ruling lines from `mutool
+  trace` (old PDFs draw full grids; Word 365 PDFs draw grey row rules with
+  ~2 pt gaps at column edges). Cells must come out identical in every PDF a
+  provision appears in (emit compares each amendment PDF), or each
+  difference needs a `suppress` row. 60 PDFs, at least 8 producers; AMC
+  tables on interleaved pages must be skipped. About 50 provisions / 120
+  versions (143, 397, 405, 415, 509, 621, 807, 812, 815, 851, 1093, 1324,
+  1391-1401, 1435, 1453, A23, C23, K23, F25, L25, N25, P25, R25, D27, E29).
+  Remaining spurious versions from table reading: E29@CS29-11/12 (a repeated
+  "FIELD STRENGTH (V/m) PEAK AVERAGE" header), and the other
+  `unexplained_change` rows on table paragraphs in
+  `emit_easa_cs*_report.tsv`.
+- **EASA-18. Chart labels read into the text.** Since bare numbers in the
+  page body are kept (2026-11-07: they were table cells and formula parts,
+  e.g. the CS 25.807 seats column), chart axis numbers come through with the
+  axis labels that already did: CS 23.1443 (LPM chart), 23.441 (rudder
+  force), A23 figures A1-A7. To close: drop text inside figure areas (no
+  ruling-line table, many short numeric lines), or override rows.
+- **EASA-19. CS-25 1591 (Amdt 0-3) and 1731 swallow the CS-APU book.** Their
+  texts are ~40,000 characters: everything up to the next accepted heading,
+  which includes CS-APU (Book 1 Section B) with its own `CS 25B1011`-style
+  headings. To close: stop the CS-25 run at the CS-APU part (as `_book2_start`
+  does for Book 2), then re-check the version counts of both.
+- **EASA-20. Collapsed spurious versions keep the older text.** The 2026-11-07
+  cell fixes removed 12 versions that existed only because cells were lost
+  (CS-25 109, 1401, 562, 851 @CS25-27; 1731 @CS25-26; CS-27 397, 562, 1393,
+  1401 @CS27-10; CS-29 562, 1391, 1401 @CS29-11; all `minor_diff_ignored`,
+  none amended in the manifest). The text in force after them is now the
+  earlier PDF's, which for the re-typeset issues is often the worse reading
+  (CS 29.562@CS29-0 has letter-spaced words, "m etres"). To close: decide
+  whether a cleaner re-typeset reading may replace the text without a new
+  version.
 
 ### FAA TCDS / aircraft (TCDS-)
 
@@ -659,6 +728,14 @@ Reports are
     provisions under the old title; 10 was replaced, 15 and 20 renamed). The
     app merges only titles that extend one another (7, 13, 19).
 
+- **DOD-8. Handbook tables are flattened.** 15 provisions of 516D/516C hold
+  tables (516D Tables I-III, V-XV, XVII; 516C Table I) as running text in
+  row order. Multi-page tables repeat their caption and header ("TABLE I. …
+  – Continued."), 4.3.3-516d and 4.3.4-516d are `flat-failed`, and 9.3.4.2
+  Table VIII has a row-spanning cell read column-wise. Tables IV and XVI sit
+  in grouping text, which is dropped (DOD-3). To close: the flat table form
+  through override rows, or extraction from `-bbox-layout` geometry.
+
 ### NATO USAR (NATO-)
 
 Pipeline `nato/usar` ([tools/s00_docs/NATO_USAR.md](tools/s00_docs/NATO_USAR.md)).
@@ -705,6 +782,13 @@ Reports are `tools/out/reports/nato_usar_extract_report.tsv` and
   1197, 1199, 1201). Partial splits and merges aren't recorded (ROADMAP-4).
   Stubs are ingested as printed provisions (policy in NATO_USAR.md); say if
   they should be skipped.
+
+- **NATO-6. Tables in STANAG 4671 are flattened.** The extractor uses
+  `pdftotext -raw`, so no geometry: 1391, 1393, 1395, 1401 (readable row
+  order), AppL (HIRF), AppK Table 1, AppC (EdB: column-major; Ed1: the
+  table is a raster image, only the notes are text). EdB draws full vector
+  grids (AppC p.187, AppL p.205), so the geometry route of EASA-17 would work
+  there. About 7 provisions / 10 versions.
 
 ### Text layout (TEXT-)
 
@@ -767,11 +851,12 @@ tools/ history) for the per-document tables. List each kind with
   under a reading the TCDS didn't intend. The app must use the same reading
   as `build.paragraph_ref_paths`, or show the qualifier verbatim.
   (was: Para #10)
-- **TEXT-11. Tables and formulas are flattened into running text** (FAA and
-  EASA; e.g. CS-23 Appendix C23). Consider a table representation later.
+- **TEXT-11. Formulas are flattened into running text** (FAA and EASA).
   (was: EASA-ingest #8, #12) Formulas and sub/superscripts (GitHub #4, CS-25
   §25.331, CAR 3 §3.159) are planned, not started:
-  [reviews/PLAN_FORMULA_MARKUP.md](reviews/PLAN_FORMULA_MARKUP.md).
+  [reviews/PLAN_FORMULA_MARKUP.md](reviews/PLAN_FORMULA_MARKUP.md). Tables
+  have a representation since schema v9 (GitHub #9; see Closed); the tables
+  still flattened are EASA-17, NATO-6, DOD-8, CAR-4 and FAA-25.
 - **TEXT-12. Section headings in assembled appendices** (GitHub #11, fixed
   2026-11-06, schema v8). FAA appendices assembled from DRS sections
   (`Sec. F23.1 … (a)…(h) Sec. F23.2 … (a)…`) restart their labels per
@@ -935,6 +1020,15 @@ app's roadmap is in the FARFETCHed repo's `plan.md`.
   only recorded in the catalogue's `noise_*` columns today.
 
 ## Closed
+
+- **GitHub #9 (tables):** schema v9 (2026-11-07). Tables are `{| … |}` line
+  markup in `text` (docs/DATA_FORMAT.md §Tables), `provision_paragraphs.kind`
+  marks their lines, and the app renders real `<table>`s. FAA tables are
+  recovered from the DRS HTML (`tools/s00_common/tables.py`): 61 provision
+  files, including the HIRF tables of 14 CFR 29 Appendix E, 25 Appendix L and
+  27 Appendix D. 23.779's labelled rows are split by `text.tsv` overrides.
+  The EASA extractor no longer drops bare-number table cells or capitals
+  column headers. Still flattened: EASA-17, NATO-6, DOD-8, CAR-4, FAA-25.
 
 - **ROADMAP-10 (NATO USAR pipeline):** built 2026-11-06 once schema v7 was in:
   `s01_extract/nato/usar` (manifest, extract), `s02_emit/nato/usar`, issuer

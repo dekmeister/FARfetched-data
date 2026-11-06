@@ -19,6 +19,9 @@ from build import (
     label_values,
     paragraph_ref_paths,
     parse_paragraphs,
+    parse_table_row,
+    plain_text,
+    table_width,
 )
 
 
@@ -259,6 +262,101 @@ class TestSectionHeadings:
 
 
 # ---------------------------------------------------------------------------
+# Tables
+
+
+HIRF = """\
+(a) HIRF environment I is specified in the following table:
+  {| Table I. - HIRF Environment I
+  ! Frequency {r2} ! Field strength (volts/meter) {c2}
+  ! Peak ! Average
+  | 10 kHz-2 MHz | 50 | 50
+  | 2 MHz-30 MHz | 100 | 100
+  |}
+  In this table, the higher field strength applies at the frequency band edges.
+(b) HIRF environment II."""
+
+
+class TestTables:
+    def test_block_belongs_to_its_item(self) -> None:
+        paras = parse_paragraphs(HIRF).paragraphs
+        table = [p for p in paras if p.kind == "table"]
+        assert [p.text for p in table][0] == "{| Table I. - HIRF Environment I"
+        assert table[-1].text == "|}"
+        assert len(table) == 6
+        assert {(p.depth, p.label, p.path) for p in table} == {(1, None, "(a)")}
+        note = paras[7]
+        assert (note.kind, note.path) == ("text", "(a)")
+        assert paras[8].label == "(b)"
+
+    def test_cell_labels_are_not_labels(self) -> None:
+        text = "(a) Factors:\n  {|\n  | (a) Aileron | 0.75\n  |}\n(b) Next."
+        assert [p.label for p in parse_paragraphs(text).paragraphs] == [
+            "(a)", None, None, None, "(b)",
+        ]  # fmt: skip
+
+    def test_table_in_unlabelled_text(self) -> None:
+        text = "Intensities:\n{|\n! Angle ! Intensity\n| 0 | 1.00\n|}"
+        paras = parse_paragraphs(text).paragraphs
+        assert [(p.depth, p.kind) for p in paras] == [(0, "text")] + [(0, "table")] * 4
+
+    def test_cells_and_spans(self) -> None:
+        cells = parse_table_row(
+            "! Frequency {r2} ! Field strength {r1 c2}".replace("{r1 c2}", "{c2}")
+        )
+        assert [(c.header, c.text, c.rowspan, c.colspan) for c in cells] == [
+            (True, "Frequency", 2, 1),
+            (True, "Field strength", 1, 2),
+        ]
+        both = parse_table_row("| x {r2 c3} | | y")
+        assert [(c.text, c.rowspan, c.colspan) for c in both] == [
+            ("x", 2, 3), ("", 1, 1), ("y", 1, 1),
+        ]  # fmt: skip
+        assert parse_table_row("| |H(w)| value")[0].text == "|H(w)| value"
+
+    def test_width_counts_spans(self) -> None:
+        rows = [
+            parse_table_row(r) for r in ("! a {r2} ! b {c2}", "! c ! d", "| 1 | 2 | 3")
+        ]
+        assert table_width(rows) == 3
+
+    def test_flatten_and_plain(self) -> None:
+        flat = flatten_text(HIRF)
+        assert (
+            "table: {| Table I. - HIRF Environment I |- ! Frequency {r2} ! Field "
+            "strength (volts/meter) {c2} |- ! Peak ! Average |- | 10 kHz-2 MHz | 50 "
+            "| 50 |- | 2 MHz-30 MHz | 100 | 100 |} In this table" in flat
+        )
+        assert plain_text(flat) == plain_text(HIRF)
+        assert (
+            "Frequency Field strength (volts/meter) Peak Average 10 kHz-2 MHz 50 50"
+            in (plain_text(HIRF))
+        )
+
+    @pytest.mark.parametrize(
+        ("text", "message"),
+        [
+            ("(a) x\n  {| c\n  | a | b\n  | c\n  |}", "rows differ in width"),
+            ("(a) x\n  {| c\n  |}", "a table with no rows"),
+            ("(a) x\n  {| c\n  | a", "never closed"),
+            ("(a) x\n  |}\n(b) y", "outside a table block"),
+            ("(a) x\n  | a | b\n(b) y", "outside a table block"),
+            ("(a) x\n  {|\n  {|\n  | a\n  |}", "a table inside a table"),
+            ("(a) x\n  {|\n   | a\n  |}", "indented unlike"),
+            ("(a) x\n  {|\n  ! a {r2} ! b\n  |}", "runs past the last row"),
+            ("(a) x\n  {|\n  ! a {r1} ! b\n  |}", "a span must be 2 or more"),
+            ("(a) x\n  {|\n  ! a {r2 ! b\n  |}", "malformed span"),
+            ("(a) x\n  {|\n  ! a {} ! b\n  |}", "empty span"),
+            ("(a) x\n  {|\n  | a |- b\n  |}", "markup inside cell"),
+            ("(a) x {| y |}\n(b) z", "outside a table block"),
+            ("{| a |- | b |}", "single-line text"),
+        ],
+    )
+    def test_fails_loud(self, text: str, message: str) -> None:
+        assert message in error(text)
+
+
+# ---------------------------------------------------------------------------
 # flatten and paragraph-ref qualifiers
 
 
@@ -411,6 +509,20 @@ class TestBuild:
         assert report["flat_versions"] == 1
         assert report["label_gaps"] == 1
         assert report["tables"]["provision_paragraphs"] == 1 + 14
+
+    def test_table_rows_have_kind(self, tmp_path: Path) -> None:
+        p = _provision("1309", [{"designator": "23-1", "text": HIRF}])
+        db = _build(tmp_path, [p], None)
+        with sqlite3.connect(db) as conn:
+            kinds = conn.execute(
+                "SELECT kind, count(*) FROM provision_paragraphs GROUP BY kind"
+            ).fetchall()
+        assert dict(kinds) == {"text": 3, "table": 6}
+
+    def test_bad_table_fails_build(self, tmp_path: Path) -> None:
+        bad = HIRF.replace("  |}\n", "")
+        p = _provision("1309", [{"designator": "23-1", "text": bad}])
+        assert "table row: a table row must start" in _fails(tmp_path, [p], None)
 
     def test_section_rows(self, tmp_path: Path) -> None:
         p = _provision("1", [{"designator": "23-1", "text": APPENDIX_F23}])

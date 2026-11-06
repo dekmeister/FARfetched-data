@@ -219,9 +219,57 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
    (a) Definitions. …                        ← path F23.2(a)
    ```
 
+8. **Tables.** A table is a block of lines, all indented alike: an open
+   line `{|` (optionally followed by a space and the caption), one line per
+   row, and a close line `|}`. The whole block is unlabelled and belongs to
+   an item by rule 5, like any unlabelled line; notes printed after a table
+   are ordinary unlabelled lines. See [Tables](#tables) for the row syntax.
+
+#### Tables
+
+```
+(a) HIRF environment I is specified in the following table:
+  {| Table I. - HIRF Environment I                       ← open line, caption
+  ! Frequency {r2} ! Field strength (volts/meter) {c2}   ← header cells, spans
+  ! Peak ! Average
+  | 10 kHz-2 MHz | 50 | 50                               ← data cells
+  | 2 MHz-30 MHz | 100 | 100
+  |}                                                     ← close line
+  In this table, the higher field strength applies at the frequency band edges.
+(b) …
+```
+
+- **Rows.** A row line is a run of cells. Each cell opens with a delimiter:
+  `!` for a header cell, `|` for a data cell. A delimiter is a token of its
+  own: at the start of the line, or with a space on both sides. So
+  `|H(ω)|` inside a cell is text, not a delimiter. An empty cell is a
+  delimiter followed directly by the next one (`| | x`).
+- **Spans.** A cell may end with `{rN}` (row span), `{cN}` (column span) or
+  `{rN cM}`, each 2 or more. Once spans are applied every row must have the
+  same width and no span may overlap another or run past the last row.
+- **Never labels.** A table line is never read for labels or section
+  headings: `| (a) Aileron | 0.75` is a row whose first cell is "(a) Aileron".
+- **Reserved.** `{|`, `|}` and `|-` are table markup and occur nowhere else;
+  a line that starts with `!` or `|` followed by a space is a row and must be
+  inside a block. A cell or caption may not contain table markup. Tables
+  don't nest, a table has at least one row, and a single-line (flat) text
+  can't hold one.
+- **Flat form.** Flattening (below) joins a table's lines with ` |- `
+  between rows, so a table is one line again:
+  `{| Table I. … |- ! Frequency {r2} ! … |- | 10 kHz-2 MHz | 50 | 50 |}`.
+  The tools carry tables in this form until layout, and override rows write
+  it.
+- **Plain form.** The words with all table markup removed (`{|`, `|}`,
+  `|-`, delimiters, spans): `build.plain_text`. Used to compare wording
+  across layouts (and by the tools to compare versions), never for display.
+- Table markup is written by an extractor reading a real table in the
+  source, or by an evidence-backed override row. Layout never invents it.
+
 **Layout only.** Structuring may only add line breaks and indentation.
-Flattening a text (strip every line, drop blank ones, join with single spaces)
-gives its words; the tools assert that layout never changes them. The tools
+Flattening a text (strip every line, drop blank ones, join with single spaces;
+table rows with ` |- `) gives its words; the tools assert that layout never
+changes them. A ` |- ` row separator is the one place layout may turn
+something other than a space into a line break. The tools
 write two spaces per level, but the build accepts any consistent indentation.
 `tools/s00_common/structure.py` produces the format from flat text; see
 [tools/README.md](../tools/README.md) and [tools/s00_docs/STRUCTURE.md](../tools/s00_docs/STRUCTURE.md).
