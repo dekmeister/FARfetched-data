@@ -1,0 +1,215 @@
+# FAA regulations (FAA-)
+
+14 CFR Parts 23, 25, 27, 29 and 36, from DRS and eCFR. Pipeline:
+[tools/s00_docs/FAA_REGS.md](../tools/s00_docs/FAA_REGS.md). Overrides:
+`tools/overrides/faa_regs.tsv`. [Index](../ISSUES.md)
+
+## Undeclared or doubtful amendments
+
+### FAA-1. 23-56 and 23-60 are undeclared and unexplained
+
+DRS has no document for either. A Federal Register full-text search found no
+rule naming them, and eCFR and the DRS CSV don't list them. That is absence
+of evidence, not proof they were never issued. A TCDS citing either as a
+range endpoint is rejected by the build ("unknown revision"), which is
+intended until a source turns up.
+
+Not yet checked: a general web search, FAA's amendment-history tables, and FR
+rules from 2002-03..2007-08 (23-56) and 2008-12..2011-08 (23-60) read by hand.
+
+**To close:** find a source that declares or rules out each number.
+
+### FAA-4. 25-118 is a DRS `Sec. 0.0` "inadvertently skipped" number
+
+It is deliberately not declared. A TCDS citing "through 25-118" needs a human
+decision (probably 25-117).
+
+**To close:** decide how a TCDS range ending at 25-118 resolves, when one
+appears.
+
+### FAA-5. 27-41 and 29-48 have no DRS document
+
+Both are undeclared. Same question as FAA-1.
+
+**To close:** as FAA-1.
+
+### FAA-6. Part 36 numbering above 36-32 is unconfirmed
+
+The manifest assumes contiguous numbering, so its Part 36 gap list runs
+36-33..36-54 (36-32 is from 2022). None has a DRS document and they probably
+never existed (the "36-54" of 2002 is a misprint of 36-24, see FAA-23).
+
+**To close:** confirm from FAA's amendment history that 36-32 is the latest,
+then stop listing the gap.
+
+## Dates and citations
+
+### FAA-3. Part 23 Appendix E at 23-2 has no confirmed date
+
+DRS gives 07/08/1965 for Appendix E at 23-2 (regs.csv agrees), while §23.25 of
+the same amendment says 1965-08-01. Until an override with evidence exists,
+E23@23-2 is `TEXT MISSING`.
+
+- Searched: FR 1965-06-29, -06-30, -07-01 and -07-08 (govinfo scans, OCR);
+  they hold no Part 23 rule other than Amdt 23-1 (30 FR 8261). The manifest
+  has no FR cite for 23-2 (Docket 2029, issued 1965-06-24).
+- Not yet searched: FR 1965-06-25/26 and 07-02..07.
+- Lead: a search snippet of FAA's Part 23 certification-basis summary table
+  (faa.gov `.../small_airplanes/certification_basis/part23_summary/`, 403 on
+  direct fetch, unverified) lists 23-2 as effective 8/1/1965, "Limited Weight
+  Credit for Airplanes Equipped with Standby Power", which fits Appendix E and
+  §23.25. archives.federalregister.gov issue slices have a text layer but
+  need exact page ranges (`issue_slice/1965/7/3/8516-8519.pdf` is a Part 25
+  rule, not 23-2).
+
+Related, lower priority: the `drs_date` overrides for 25-46 (§25.629), 25-60
+(§25.855) and 29-3 (§29.1505) rest on majority evidence only (one DRS
+document disagreeing with the amendment's others); why it differs is not
+established.
+
+**To close:** find the FR publication of 23-2 and add a `drs_date` override
+with it as evidence; confirm the three majority-based overrides if they ever
+matter.
+
+### FAA-12. Amendment-level FR cites point at the rule's first page
+
+Where a section has no eCFR CITA cite, the cite comes from the amendment
+manifest (`fr_cite_source=manifest_amendment`): the rule's first page, not
+the section's own page.
+
+**To close:** refine per section if needed.
+
+### FAA-16. `faa_rules_published()` can miss FR documents
+
+The daily FAA listing missed FR doc 96-2082 (61 FR 5171, Amdt 23-50,
+1996-02-09), although the FR API serves it by docket. Separately,
+§23.573@23-48 text reflects the 2008 technical amendment (73 FR 19746), not
+the 1996 wording.
+
+**To close:** check the agency filter before relying on this lookup (see
+PROC-3); decide whether §23.573@23-48 needs the original wording.
+
+### FAA-20. Amendment-level cites for 25-148 and 25-151 are the corrections'
+
+The manifest gives 88 FR 2813 and 88 FR 44032 (the corrections); the rules are
+87 FR 75704 and 88 FR 39152. Section-level CITA cites are right. Related to
+FAA-12.
+
+**To close:** check the `source_url`/`publication_cite` those versions carry
+and fix the amendment cite.
+
+## Missing or withheld versions
+
+### FAA-10. `TEXT MISSING` that DRS cannot supply
+
+- §G25.1@25-141 (figure only).
+- Part 36 Appendix C@36-24 (no DRS text; the version is dropped by the
+  deletion rule).
+
+**To close:** recheck if another source turns up.
+
+### FAA-15. Part 23 versions not emitted or `TEXT MISSING`
+
+- B23.1/B23.11@23-42 are not emitted.
+- §1567@23-13 (DRS has no 23-13 document) and §903@23-54 (`skip_human`) are
+  `TEXT MISSING`.
+
+**To close:** a source for each, or a recorded decision that they stay.
+
+### FAA-18. `TEXT MISSING` in Parts 25, 27 and 29
+
+No DRS document and the date predates eCFR point-in-time data:
+
+- Part 25: §733@25-48, §1181@25-11, Appendix M25@25-125.
+- Part 27: §87@27-0, 27-14, 27-21 (height-velocity envelope).
+- Part 29: §967@29-26, §1019@29-10, §1093@29-3, §1303@29-12, §1521@29-3.
+- Part 29 Appendix B29@29-39: the subsection set differs from DRS's listing
+  (B29.8 exists only at 29-31).
+
+Part 27 §401, §403 and §413 @27-27 are also `TEXT MISSING`, but recoverable:
+DRS has two equivalent "Removed" stubs for each (`csv_duplicate`), so they
+should be `deleted` versions. Until then they look live after 27-27. The
+worklist now fetches a kept `csv_duplicate` row.
+
+**To close:** re-run Part 27 `worklist`/`extract`/`emit`, review and promote
+the three stubs; the rest need another source.
+
+### FAA-19. `suspect_designator` rows withheld from emit
+
+- eCFR typos, real version present in `data/`: §351, §391, §395 @29-26 (real:
+  29-30), §573@29-59 (29-54), §1415@25-50 (25-52).
+- Part 23, not emitted: §335/§443/§561@23-24, §1549@23-12, §1557@23-21.
+- **Not explained:** §343 and §345 @25-72. The CITA prints "Amdt. 25-72, 55 FR
+  37607, Sept. 12, 1990", after 25-72's effective date (1990-08-20), but DRS
+  holds both as 25-72 and the extract passes. The Sept. 12 cite may be a later
+  correction. Until resolved, a 25-72 basis resolves to the previous text.
+
+**To close:** read 55 FR 37607 (pre-1994, no FR API) and add the right
+override for §343/§345; check the Part 23 rows against the FR.
+
+### FAA-23. Part 36 gaps
+
+Eight versions are `TEXT MISSING`, none recoverable from DRS:
+
+- §1583@36-18: no DRS document, pre-2017. The text is the 36-11 text with one
+  cross-reference changed ("§ 91.56" → "§ 91.815").
+- Appendices A and B @36-24 and @36-26: DRS holds no text for the 2002
+  rewrite.
+- Appendix J @36-25 and @36-30: DRS holds J36 subsections only at 36-20.
+- Appendix F @36-9: the CITA lists 36-9, DRS has no F36 text there. Not
+  checked in the FR (43 FR 8754, 1978).
+
+Not in the dataset: Appendix C before 2002. DRS subsections C36.1..C36.9
+(36-0..36-15) are extracted but never planned, because eCFR has no Appendix
+C, so the manifest has no C36 rows (24 of the 26 `orphan` files).
+
+**To close:** FR text for each gap (an override with evidence), and a
+decision on whether pre-2002 Appendix C should be planned.
+
+## Extraction
+
+### FAA-11. Part 23 must be manifested with `--as-of 2017-08-29`
+
+The default is the newest eCFR date, which is the post-rewrite Part 23. The
+docs say so, but `manifest.py` defaults to `latest_date()` regardless.
+
+**To close:** enforce the date for Part 23 in code.
+
+### FAA-24. Literal `\n` in DRS titles
+
+Some DRS titles carry a literal backslash-n (`Flame Propagation
+\nCharacteristics`). It appears in 3 `title_at_revision` values and in 5 texts
+(faa/23/F23, faa/25/1707, A25, B25, F25), where assembled appendices put
+section titles into the text. F23@23-62 is fixed by an override.
+
+**To close:** normalise it in the extractor's title handling and re-assemble.
+
+### FAA-25. Tables that DRS has only as images are missing
+
+No image is cached under `input/`, so these tables have a caption or
+introducer but no cells: J23@23-57 (both HIRF tables), A23.13 Table 2 (all
+four versions), A36.3/A36.4 Tables A36-1 and A36-2 (still images at 36-31),
+probably J36.109.
+
+**To close:** fetch the images, transcribe each table as a `text.tsv`
+`replace_text` row in the flat table form (docs/DATA_FORMAT.md §Tables), with
+the image as evidence.
+
+### FAA-26. Old DRS tables mark no header row
+
+rgl-era DRS tables have no `<th>` (25.1393@25-0 "Angle above or below the
+horizontal plane: | Intensity"), so their first row is a data row; the
+eCFR-rendered versions of the same tables have a header. A DRS-to-eCFR
+version pair then differs in markup as well as words.
+
+**To close:** decide whether a first row of all-text cells over numeric rows
+may be marked a header, or leave it.
+
+### FAA-27. 25.725 and 25.727 re-extract as `deleted`
+
+A `--redo --offline` re-extract (2026-11-07) stages both as `deleted: true`
+(titles "Limit drop tests." / "Reserve energy absorption drop tests.") where
+`data/` has a `Reserved.` text version. The change comes from the stub rules
+(`is_removed_doc`), not from tables.
+
+**To close:** review which is right and promote separately.

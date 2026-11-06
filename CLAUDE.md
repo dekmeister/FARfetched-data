@@ -21,7 +21,8 @@ Where things are documented:
   [docs/SQLITE.md](docs/SQLITE.md)
 - Schema versions and design rationale:
   [docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md)
-- Open issues and the data-repo roadmap: [ISSUES.md](ISSUES.md). The app's
+- Open issues and the data-repo roadmap: [ISSUES.md](ISSUES.md) (index;
+  items in `issues/`, one file per area). The app's
   roadmap is in the FARFETCHed repo.
 - Design reviews and session handovers: [reviews/](reviews/)
 - Scraping/parsing/staging machinery lives in [tools/](tools/). Treat it as a
@@ -64,7 +65,8 @@ See [README.md §Layout](README.md#layout). Summary:
 ```
 FARfetched-data/
 ├── README.md                   Front page for people
-├── ISSUES.md                   Open issues (by area, stable IDs) + roadmap
+├── ISSUES.md                   Index of open issues + roadmap
+├── issues/                     One file per area (stable IDs); outstanding only
 ├── docs/                       The contract: DATA_FORMAT, SQLITE, SCHEMA_HISTORY
 ├── reviews/                    Contract reviews and parent-repo handovers
 ├── schemas/                    JSON Schema files (Draft 2020-12)
@@ -215,4 +217,5 @@ Rules that matter at the repo level:
   `raw_reference` with `references: []` and surface it in the build report
   rather than guessing.
 - Ask before large schema changes. Every field is a downstream commitment.
-- If there is issues with data (poor quality, edge cases, items needing additional work to script properly) write it to ISSUES.md for future review
+- If there is issues with data (poor quality, edge cases, items needing additional work to script properly) write it to the right area file under issues/ (see ISSUES.md) for future
+  review. Delete an issue once it is done, and its file once empty

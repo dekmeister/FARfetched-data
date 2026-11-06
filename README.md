@@ -51,7 +51,7 @@ versions it resolves to.
 | [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md) | tools and data authors | The JSON contract: every field, the label-line text format, cert-basis resolution rules |
 | [docs/SQLITE.md](docs/SQLITE.md) | the app | Tables, contract version, similarity, what `build.py` checks and reports |
 | [docs/SCHEMA_HISTORY.md](docs/SCHEMA_HISTORY.md) | anyone changing the contract | Schema versions v1–v6 and the reasons behind them |
-| [ISSUES.md](ISSUES.md) | maintainers | Open data and pipeline issues, the roadmap, closed items |
+| [ISSUES.md](ISSUES.md) | maintainers | Index of outstanding data and pipeline issues and the roadmap; items in [issues/](issues/), one file per area |
 | [reviews/](reviews/) | maintainers | Design reviews and session handovers |
 | [tools/README.md](tools/README.md) | pipeline work | How sources become `data/` |
 | [CLAUDE.md](CLAUDE.md) | AI assistants | Repo rules |
@@ -61,7 +61,8 @@ versions it resolves to.
 ```
 FARfetched-data/
 ├── README.md            this page
-├── ISSUES.md            open issues and roadmap
+├── ISSUES.md            index of outstanding issues and roadmap
+├── issues/              one file of issues per area
 ├── docs/                the contract (data format, SQLite, history)
 ├── reviews/             design reviews and handovers
 ├── schemas/             JSON Schemas (Draft 2020-12)
