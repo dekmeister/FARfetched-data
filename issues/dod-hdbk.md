@@ -43,7 +43,8 @@ title source.
 The text layer gives `10-7 per flight hour` for 10⁻⁷ (23 places in
 516C/516D).
 
-**To close:** `text.tsv` rows, once formula markup exists (TEXT-11).
+**To close:** `text.tsv` rows writing `10^{-7}` (inline markup exists since
+schema v10, docs/DATA_FORMAT.md §Inline markup).
 
 ### DOD-7. Limits of the continuity review
 

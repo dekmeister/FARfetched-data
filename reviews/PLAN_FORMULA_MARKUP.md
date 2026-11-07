@@ -1,6 +1,22 @@
 # PLAN — Inline markup for formulas and sub/superscripts (GitHub #4)
 
-**Status (2026-11-05): not started.** Planned only; no code or data changed yet.
+**Status (2026-11-08): done and promoted, not yet deployed.** Parts A-D are
+implemented and committed (data repo, tools/, app), `data/` is promoted
+(365 files; version counts unchanged) and `cert_basis.sqlite` (v10) is built
+and installed in the app repo. The 28 `suppress` rows in
+`tools/overrides/easa_cs.tsv` that script detection made stale are removed.
+Remaining backlog is in ISSUES: TEXT-11 (other display formulas, scripts the
+extractors can't see), CAR-5 (OCR'd CAR subscripts), DOD-6 (`10^{-7}` rows).
+Open here:
+- Deploy the v10 DB and the app together (the app checks the version
+  exactly).
+- Then post the GitHub #4 closing comment (draft below; outward-facing, the
+  developer posts it). Once posted, this file can go.
+
+Deviations: the CAR subscript is `V_{d}` (both sources print a lowercase d);
+"radians per second;" is inside the ω formula line, as both sources display
+it; `tests/dbbuilder.py` needed no change (it writes no paragraph rows).
+
 Spans the data repo (schema **v10**, tools) and the FARfetched app.
 
 **Updated 2026-11-07.** Schema v8 (section headings) and v9 (tables, GitHub
@@ -139,3 +155,15 @@ Exploration shows this is mainly a **data** problem, not a view problem:
   - `uv run pytest`;
   - point the app at the new DB and run it (the `run` skill), then open `/regulations/easa/cs-25/331?vs=faa%2F25%2F331` and `/regulations/caa/car-3/159`;
   - confirm V<sub>A</sub>, t<sub>max</sub>, centred formula lines, a clean CAB §3.159, no CSP console errors, and readable compare view word diffs.
+
+## Draft closing comment for GitHub #4
+
+> Thanks for the report. Fixed in data schema v10 and the matching app release.
+>
+> **Subscripts and superscripts.** The data now marks sub- and superscripts, and the reader shows them as real subscripts: V<sub>A</sub>, t<sub>max</sub>, δ<sub>1</sub>, 10<sup>−7</sup>. They come from the source itself: `<sub>`/`<sup>` in the FAA DRS pages and the eCFR XML, and the glyph positions in the EASA PDFs. That covers several hundred FAA sections and every CS-25 amendment, not just §25.331.
+>
+> **Formulas on their own line.** In CS 25.331 and 14 CFR 25.331 (c)(2)(i), the δ(t), t<sub>max</sub> and ω formulas now sit on centred lines of their own. The ω formula, ω = πV/(2V<sub>A</sub>), had been scrambled in the EASA text ("πV ω = 2V A") and was missing from the FAA text altogether, because the FAA site only has it as an image. It is now correct in both. The compare view diffs the formulas and subscripts as units too.
+>
+> **CAR 3 §3.159.** Both versions now read "the minimum value permitted for V<sub>d</sub> in § 3.184". The CAB 1956 text no longer has the figure labels that OCR had spliced into the sentence, and "ts" is "is" again.
+>
+> Other display formulas are still running text: §25.331(c)(2)(iii), §§25.341 and 25.343, several appendices, about 150 sections in all. They're tracked in the data repo's issues (TEXT-11), along with OCR'd V-speed subscripts in the rest of CAR 3 (CAR-5), and get fixed section by section against the source.

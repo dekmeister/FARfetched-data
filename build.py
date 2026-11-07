@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 9
+SCHEMA_VERSION = 10
 
 DOCUMENT_FILE = "_document.json"
 
@@ -149,7 +149,9 @@ CREATE TABLE provision_paragraphs (
     heading              INTEGER NOT NULL CHECK (heading IN (0, 1)),
     -- 'table': one line of a table block (its open line, a row, or its close
     -- line), with the markup kept in `text` (docs/DATA_FORMAT.md §Tables).
-    kind                 TEXT NOT NULL CHECK (kind IN ('text', 'table')),
+    -- 'formula': a display formula line, `$$ … $$` kept in `text`
+    -- (docs/DATA_FORMAT.md §Inline markup).
+    kind                 TEXT NOT NULL CHECK (kind IN ('text', 'table', 'formula')),
     text                 TEXT NOT NULL,
     UNIQUE (provision_version_id, seq),
     CHECK ((depth = 0) = (path IS NULL)),
@@ -582,7 +584,7 @@ class Paragraph:
     text: str  # '' for a label-only block
     section: str | None = None  # 'F23.2' under a section heading, else None
     heading: bool = False  # the block is the section heading itself
-    kind: str = "text"  # 'table' for a line of a table block
+    kind: str = "text"  # 'table' for a line of a table block; 'formula'
 
 
 @dataclass(frozen=True)
@@ -654,6 +656,40 @@ def _choose(stack: list[_Level], token: str, indent: int, line: int) -> _Reading
             f"(re-run the tools segmenter to fix the layout)",
         )
     return fitting[0]
+
+
+# Inline markup (docs/DATA_FORMAT.md §Inline markup). `_{x}` is a subscript,
+# `^{x}` a superscript: non-empty, no `{ } $` inside, no nesting. A line that
+# is wholly `$$ <formula> $$` (after its indentation) is a display formula.
+# A bare `_ ^ { }` is literal; `$$` anywhere else is an error.
+FORMULA_MARK = "$$"
+_INLINE_OPEN_RE = re.compile(r"[_^]\{")
+_INLINE_RE = re.compile(r"([_^])\{([^{}$\n]+)\}")
+_FORMULA_RE = re.compile(r"\$\$ (\S(?:.*\S)?) \$\$")
+
+
+def inline_error(content: str) -> str | None:
+    """Why the sub/superscript markup in `content` breaks the format, or
+    None when it is valid (or absent)."""
+    for m in _INLINE_OPEN_RE.finditer(content):
+        if not _INLINE_RE.match(content, m.start()):
+            return (
+                f"malformed `{m.group(0)}…}}` at column {m.start() + 1} "
+                "(unclosed, empty, nested or containing `$`)"
+            )
+    return None
+
+
+def formula_body(content: str) -> str | None:
+    """The formula of a display formula line (without its indentation), or
+    None when the line isn't one."""
+    m = _FORMULA_RE.fullmatch(content)
+    return m.group(1) if m and FORMULA_MARK not in m.group(1) else None
+
+
+def strip_inline(text: str) -> str:
+    """`text` with sub/superscript markup removed: `V_{A}` → `VA`."""
+    return _INLINE_RE.sub(r"\2", text)
 
 
 # Tables (docs/DATA_FORMAT.md §Tables). A block of lines: `{|` with an optional
@@ -763,6 +799,10 @@ def parse_paragraphs(text: str) -> ParsedText:
             raise TextFormatError(n, "a single-line text must not be indented")
         if _TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
             raise TextFormatError(n, "table markup in a single-line text")
+        if FORMULA_MARK in raw:
+            raise TextFormatError(n, "`$$` in a single-line text")
+        if err := inline_error(raw):
+            raise TextFormatError(n, err)
         return ParsedText((Paragraph(0, 0, None, None, raw),), False, 0)
 
     stack: list[_Level] = []
@@ -777,6 +817,13 @@ def parse_paragraphs(text: str) -> ParsedText:
         indent = len(raw) - len(content)
         if content[0].isspace():
             raise TextFormatError(n, "indentation must be spaces")
+        if err := inline_error(content):
+            raise TextFormatError(n, err)
+        formula = formula_body(content) is not None
+        if FORMULA_MARK in content and (table is not None or not formula):
+            raise TextFormatError(
+                n, "`$$` outside a formula line (a whole line `$$ … $$`)"
+            )
         opening = _TABLE_OPEN_RE.match(content)
         if table is not None or opening:
             # Tables: every line of the block is indented like its `{|` line
@@ -850,6 +897,7 @@ def parse_paragraphs(text: str) -> ParsedText:
                     _path(owner, section) or None,
                     content,
                     section,
+                    kind="formula" if formula else "text",
                 )
             )
             continue
@@ -905,15 +953,18 @@ def flatten_text(text: str) -> str:
 
 
 _PLAIN_SPAN_RE = re.compile(r"(?<!\S)\{(?:r\d+)?(?: ?c\d+)?\}(?!\S)")
-_PLAIN_MARKUP = frozenset({TABLE_OPEN, TABLE_CLOSE, TABLE_ROW_SEP, "!", "|"})
+_PLAIN_MARKUP = frozenset(
+    {TABLE_OPEN, TABLE_CLOSE, TABLE_ROW_SEP, "!", "|", FORMULA_MARK}
+)
 
 
 def plain_text(text: str) -> str:
-    """The words of `text` (laid out or flat) with table markup removed:
-    `{|`, `|}`, `|-`, cell delimiters and spans. For comparing wording across
-    layouts, never for display. (A lone `!` or `|` outside a table, which only
-    OCR junk has, goes too.)"""
-    flat = _PLAIN_SPAN_RE.sub(" ", flatten_text(text))
+    """The words of `text` (laid out or flat) with markup removed: table
+    markup (`{|`, `|}`, `|-`, cell delimiters and spans), sub/superscripts
+    (`V_{A}` → `VA`) and formula marks (`$$ x $$` → `x`). For comparing
+    wording across layouts, never for display. (A lone `!` or `|` outside a
+    table, which only OCR junk has, goes too.)"""
+    flat = _PLAIN_SPAN_RE.sub(" ", strip_inline(flatten_text(text)))
     return " ".join(w for w in flat.split() if w not in _PLAIN_MARKUP)
 
 
@@ -2080,7 +2131,7 @@ def _similarity_sources(conn: sqlite3.Connection) -> list[SimilaritySource]:
             order=(doc_code, key),
             titles=tuple(sorted(titles.get(pid, set()) | {canonical})),
             grouping=grouping,
-            text=flatten_text(text),
+            text=plain_text(text),
         )
         for pid, doc_id, doc_code, key, grouping, canonical, text in latest
         if text is not None

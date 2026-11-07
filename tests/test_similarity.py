@@ -15,6 +15,7 @@ from build import (
     SimilaritySource,
     build,
     compute_similarity,
+    plain_text,
     similarity_terms,
     stem,
 )
@@ -46,6 +47,13 @@ def test_stem_keeps_short_words_and_double_s() -> None:
 def test_terms_drop_labels_numbers_and_stopwords() -> None:
     text = "(a) The fuel tank must (iii) withstand 3.5 g, under §23.963."
     assert similarity_terms(text) == ["fuel", "tank", "withstand"]
+
+
+def test_terms_of_the_plain_form_ignore_markup() -> None:
+    # The build computes similarity on build.plain_text: markup is no term.
+    marked = "(a) Maneuvering speed V_{A}:\n  $$ ω = πV/(2V_{A}) $$\n  (1) t_{max}."
+    plain = "(a) Maneuvering speed VA: ω = πV/(2VA) (1) tmax."
+    assert similarity_terms(plain_text(marked)) == similarity_terms(plain)
 
 
 # ---------------------------------------------------------------------------

@@ -51,3 +51,13 @@ line 340.
 
 **To close:** `replace_text` rows (label, trailing text) and the table in its
 flat form.
+
+### CAR-5. OCR'd V-speed subscripts read as letters
+
+CAR text is OCR with no geometry, so a subscript can't be told from the
+letters around it: `Vu` and `Vd` for V_d, `Vy,` for V_p, `Ve min` for
+V_c min, `V_.` (CAB §3.184 and many more). Only §3.159 (CAA and CAB) is
+fixed so far (GitHub #4).
+
+**To close:** `replace_text` rows writing `V_{d}` etc., checked against the
+scans (`input/Regs/CAR/3/CAR3R-*.pdf`, the CAA retype `CAR3-*_full.pdf`).

@@ -16,11 +16,13 @@ from build import (
     build,
     check_text_format,
     flatten_text,
+    inline_error,
     label_values,
     paragraph_ref_paths,
     parse_paragraphs,
     parse_table_row,
     plain_text,
+    strip_inline,
     table_width,
 )
 
@@ -356,6 +358,74 @@ class TestTables:
         assert message in error(text)
 
 
+GUST = """\
+(a) The airplane is subjected to a sinusoidal input of speed V_{A}:
+  $$ ω = πV/(2V_{A}) $$
+  where t_{max} is defined in (b).
+  (1) For 0 ≤ t ≤ t_{max}:
+    $$ δ(t) = δ_{1} sin(ωt) $$
+(b) The load factor is 10^{-7} per flight hour."""
+
+
+class TestInlineMarkup:
+    def test_formula_lines_belong_to_their_item(self) -> None:
+        paras = parse_paragraphs(GUST).paragraphs
+        got = [(p.depth, p.label, p.path, p.kind) for p in paras]
+        assert got == [
+            (1, "(a)", "(a)", "text"),
+            (1, None, "(a)", "formula"),
+            (1, None, "(a)", "text"),
+            (2, "(1)", "(a)(1)", "text"),
+            (2, None, "(a)(1)", "formula"),
+            (1, "(b)", "(b)", "text"),
+        ]
+        assert paras[1].text == "$$ ω = πV/(2V_{A}) $$"
+
+    def test_formula_in_unlabelled_text(self) -> None:
+        paras = parse_paragraphs("Where:\n$$ n = 1 + x $$\nand x is small.").paragraphs
+        assert [(p.depth, p.kind) for p in paras] == [
+            (0, "text"), (0, "formula"), (0, "text"),
+        ]  # fmt: skip
+
+    def test_sub_and_sup_in_flat_text_and_cells(self) -> None:
+        assert rows("V_{A} and 10^{-7}") == [(0, None, None, "V_{A} and 10^{-7}")]
+        text = "(a) x\n  {|\n  | V_{D} | 10^{6}\n  |}"
+        assert parse_paragraphs(text).paragraphs[2].kind == "table"
+
+    def test_bare_characters_stay_literal(self) -> None:
+        for ok in ("a_b {x} c^d", "x_ {y}", "} _{ok} {", "(a) a\n(b) _ ^ { }"):
+            assert inline_error(ok) is None
+            parse_paragraphs(ok)
+
+    def test_plain_form(self) -> None:
+        assert strip_inline("V_{A} 10^{-7} t_{max}") == "VA 10-7 tmax"
+        assert plain_text(GUST).startswith(
+            "(a) The airplane is subjected to a sinusoidal input of speed VA: "
+            "ω = πV/(2VA) where tmax"
+        )
+        assert plain_text(flatten_text(GUST)) == plain_text(GUST)
+
+    @pytest.mark.parametrize(
+        ("text", "message"),
+        [
+            ("V_{A is", "malformed `_{…}`"),
+            ("V_{} is", "malformed `_{…}`"),
+            ("V_{A^{2}}", "malformed `_{…}`"),
+            ("10^{a$b}", "malformed `^{…}`"),
+            ("(a) x V_{A\n(b) y", "malformed `_{…}`"),
+            ("(a) x $$ y $$\n(b) z", "`$$` outside a formula line"),
+            ("(a) $$ y $$\n(b) z", "`$$` outside a formula line"),
+            ("(a) x\n  $$ y\n(b) z", "`$$` outside a formula line"),
+            ("(a) x\n  $$y$$\n(b) z", "`$$` outside a formula line"),
+            ("(a) x\n  $$ a $$ b $$\n(b) z", "`$$` outside a formula line"),
+            ("(a) x\n  {|\n  | $$ a $$\n  |}", "`$$` outside a formula line"),
+            ("$$ x $$", "`$$` in a single-line text"),
+        ],
+    )
+    def test_fails_loud(self, text: str, message: str) -> None:
+        assert message in error(text)
+
+
 # ---------------------------------------------------------------------------
 # flatten and paragraph-ref qualifiers
 
@@ -518,6 +588,20 @@ class TestBuild:
                 "SELECT kind, count(*) FROM provision_paragraphs GROUP BY kind"
             ).fetchall()
         assert dict(kinds) == {"text": 3, "table": 6}
+
+    def test_formula_rows_have_kind(self, tmp_path: Path) -> None:
+        p = _provision("1309", [{"designator": "23-1", "text": GUST}])
+        db = _build(tmp_path, [p], None)
+        with sqlite3.connect(db) as conn:
+            got = conn.execute(
+                "SELECT text FROM provision_paragraphs WHERE kind = 'formula' "
+                "ORDER BY seq"
+            ).fetchall()
+        assert got == [("$$ ω = πV/(2V_{A}) $$",), ("$$ δ(t) = δ_{1} sin(ωt) $$",)]
+
+    def test_bad_markup_fails_build(self, tmp_path: Path) -> None:
+        p = _provision("1309", [{"designator": "23-1", "text": "Speed V_{A."}])
+        assert "malformed `_{…}`" in _fails(tmp_path, [p], None)
 
     def test_bad_table_fails_build(self, tmp_path: Path) -> None:
         bad = HIRF.replace("  |}\n", "")

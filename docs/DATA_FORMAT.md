@@ -224,6 +224,10 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
    row, and a close line `|}`. The whole block is unlabelled and belongs to
    an item by rule 5, like any unlabelled line; notes printed after a table
    are ordinary unlabelled lines. See [Tables](#tables) for the row syntax.
+9. **Formula lines.** A line whose whole content (after the indentation) is
+   `$$ <formula> $$` is a display formula. It is always unlabelled and
+   belongs to an item by rule 5. Sub- and superscripts may appear in any
+   line. See [Inline markup](#inline-markup).
 
 #### Tables
 
@@ -264,8 +268,43 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
   across layouts (and by the tools to compare versions), never for display.
 - Table markup is written by an extractor reading a real table in the
   source, or by an evidence-backed override row. Layout never invents it.
+- A cell may hold `_{…}`/`^{…}`, but not a formula line (`$$`).
 
-**Layout only.** Structuring may only add line breaks and indentation.
+#### Inline markup
+
+Text encodes the *meaning* of typeset notation in a small linear markup; how
+to show it is the app's job. No TeX, no MathML.
+
+```
+(a) … a sinusoidal input of speed V_{A}, with a frequency not less than:  ← subscript
+  $$ ω = πV/(2V_{A}) $$                                                    ← formula line
+  where t_{max} is …
+(b) … not more than 10^{-7} per flight hour.                              ← superscript
+```
+
+- **Sub/superscript.** `_{x}` is a subscript, `^{x}` a superscript. The
+  content is non-empty and contains no `{`, `}`, `$` or line break, so
+  markup never nests. `_{` or `^{` that doesn't open such a span is an
+  error (unclosed, empty, nested). A bare `_`, `^`, `{` or `}` is literal
+  (OCR junk has them).
+- **Formula line.** A line that is wholly `$$ <formula> $$` (one space
+  inside each mark, after the indentation) is a display formula: rule 9.
+  It may hold sub/superscripts. Fractions and roots are written linearly:
+  `πV/(2V_{A})`, `√(x)`. `$$` anywhere else is an error: mid-line, in a
+  labelled line, in a heading, in a table, or in a single-line (flat) text.
+  A text with a formula therefore always has several lines.
+- **Plain form.** The words with the markup removed (`V_{A}` → `VA`,
+  `$$ x $$` → `x`), together with the table markup: `build.plain_text`.
+  Used for similarity and for comparing words across versions, never for
+  display.
+- **Who writes it.** Extractors writing a sub/superscript that the source
+  marks (an HTML `<sub>`, a glyph set lower on the PDF line), or an
+  evidence-backed override row. Layout never writes markup; it may only
+  move a `$$ … $$` span onto its own line.
+
+**Layout only.** Structuring may only add line breaks and indentation
+(and so may put a `$$ … $$` span, or a table, on lines of its own; it never
+writes markup).
 Flattening a text (strip every line, drop blank ones, join with single spaces;
 table rows with ` |- `) gives its words; the tools assert that layout never
 changes them. A ` |- ` row separator is the one place layout may turn

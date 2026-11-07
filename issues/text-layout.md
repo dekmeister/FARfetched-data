@@ -85,15 +85,24 @@ heading) has the same risk. A sample of 45 read right.
 **To close:** the app uses the same reading as `build.paragraph_ref_paths`,
 or shows the qualifier verbatim.
 
-### TEXT-11. Formulas are flattened into running text
+### TEXT-11. Display formulas are still flattened into running text
 
-FAA and EASA formulas and sub/superscripts (GitHub #4; CS-25 §25.331, CAR 3
-§3.159) have no markup. Planned, not started:
-[reviews/PLAN_FORMULA_MARKUP.md](../reviews/PLAN_FORMULA_MARKUP.md). Tables
-have markup since schema v9; the tables still flattened are EASA-17, NATO-6,
-DOD-8, CAR-4 and FAA-25.
+Schema v10 has inline markup (docs/DATA_FORMAT.md §Inline markup): FAA (DRS
+`<sub>`/`<sup>`, eCFR `<E T>`) and EASA (PDF geometry) extractors write
+`_{…}`/`^{…}`, and a `$$ … $$` formula line comes from an override row. Only
+CS-25/14 CFR 25.331 (c)(2)(i) has formula rows so far (GitHub #4). Left:
 
-**To close:** carry out the plan.
+- Display formulas in about 150 provision files are still running text,
+  often scrambled (a stacked fraction read in row order, `πV ω = 2V A`), e.g.
+  the rest of 25.331 ((c)(2)(iii): δ(t), t_{1}, t_{2}), 25.341, 25.343,
+  Part 23/25/36 appendices. Each needs `replace_text` rows checked against the
+  source; they are not rebuilt automatically.
+- Scripts the extractors can't see: one EASA PDF word that fuses a base and
+  its script (`δ1` in CS-25 Amdt 27), and eCFR's single `E T="53"`
+  (`1.4 Vs1`, 14 CFR 25), left flat rather than guessed.
+- Flattened tables: EASA-17, NATO-6, DOD-8, CAR-4 and FAA-25.
+
+**To close:** formula rows for the listed provisions; then this item goes.
 
 ### TEXT-12. Section opening words stay on the heading line
 

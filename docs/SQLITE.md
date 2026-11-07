@@ -39,7 +39,7 @@ in [build.py](../build.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **9**). It is bumped
+`PRAGMA user_version` is the schema version (currently **10**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -98,6 +98,13 @@ the table belongs to. A consumer that renders tables groups consecutive
 `table` rows from `{|` to `|}` and parses each row with the
 [table syntax](DATA_FORMAT.md#tables); one that doesn't can show the rows as
 lines and still read every word.
+`kind` is `formula` for a display formula line (rule 9: a whole line
+`$$ … $$`), with the `$$` marks kept in `text`. A formula row is unlabelled
+and carries the path of the item it belongs to.
+Any `text` (formula, table row or ordinary block) may hold the
+[inline markup](DATA_FORMAT.md#inline-markup) `_{…}` (subscript) and `^{…}`
+(superscript). A consumer that shows text renders them (as `<sub>`/`<sup>`)
+or removes the markup; never shows it raw to readers by accident.
 Every version that has text has rows, aliases and `TEXT MISSING` included; a
 flat text is one unlabelled row, so the app has a single rendering path.
 `provision_versions.text` keeps the label-line string unchanged. Index on
