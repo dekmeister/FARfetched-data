@@ -56,7 +56,8 @@ heading) has the same risk. A sample of 45 read right.
 
 - FAA: e.g. 23.45@23-21 (DRS dropped a `(`), 23.1147@23-43 (`(a)[(1)`),
   H36@36-14/24/25/30.
-- EASA: lists without an introducer, flattened tables, appendix sub-sections.
+- EASA: lists without an introducer, flattened tables, appendix sub-sections (helicopter IFR Appendix B now splits by
+  roman headings; CS29-11 is EASA-21).
   25.773@CS25-27 is flat because the source labels two paragraphs `(ii)` in
   (b)(3).
 - CAR: see CAR-1. DOD: see DOD-4.

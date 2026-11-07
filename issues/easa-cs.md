@@ -55,6 +55,18 @@ Figures only, in every issue; its versions are `TEXT MISSING`.
 
 **To close:** none from the PDFs; a transcription source would be needed.
 
+### EASA-21. CS-29 Appendix B at Amdt 11 has no `IV.` heading
+
+The CS29-11 PDF prints `III. Trim` and then `(a) General. The helicopter must
+possess positive static longitudinal control force stability` with no
+`IV. Static longitudinal stability` line (CS29-0/1 and the FAA text have it,
+and the text itself cites "IV (b) to (f)"). Roman headings must run in order,
+so this version stays one flat line (`flat-failed`). Found fixing GitHub #17.
+
+**To close:** a `replace_text` override restoring the heading, with evidence
+from CS29-1 and the cross-references (needs the developer's call: it adds
+words the Amdt 11 PDF lacks).
+
 ### EASA-8. CS 25.773 at Amdt 16 is `TEXT MISSING`
 
 The heading sits on a two-column page and the body isn't extracted, but the

@@ -513,8 +513,11 @@ def sort_key(number: str) -> str:
 _LABEL_GROUP_RE = re.compile(r"(\[ ?)?((?:\([A-Za-z0-9]{1,5}\))+)(?= |$)")
 _LABEL_TOKEN_RE = re.compile(r"\(([A-Za-z0-9]{1,5})\)")
 # A section heading inside a provision text: an appendix assembled from its
-# sections (`Sec. F23.2 Part II--Test Method ...`). Labels restart under it.
-SECTION_HEADING_RE = re.compile(r"Sec\. ([A-Z]\d+\.\d+[a-z]?)(?= |$)")
+# sections (`Sec. F23.2 Part II--Test Method ...`), or one divided by roman
+# numerals (`IV. Static longitudinal stability`). Labels restart under it.
+SECTION_HEADING_RE = re.compile(
+    r"Sec\. (?P<sec>[A-Z]\d+\.\d+[a-z]?)(?= |$)|(?P<rom>[IVX]{1,6})\. (?=[A-Z])"
+)
 _ROMAN_DIGITS = {"i": 1, "v": 5, "x": 10}
 # Lower to upper bound of roman labels: i..xxxix. `l`, `c`, `d`, `m` are
 # letters, never numerals.
@@ -533,6 +536,17 @@ def _roman_value(token: str) -> int | None:
     if not 1 <= total <= _MAX_ROMAN or _to_roman(total) != s:
         return None
     return total
+
+
+def heading_section(m: re.Match[str], next_roman: int = 1) -> str | None:
+    """The section number a `SECTION_HEADING_RE` match names, or None.
+
+    A roman heading counts only as the next numeral of the run (I, II, III, ...),
+    so `I. ` or `V. ` elsewhere in a text stays ordinary text."""
+    if m.group("sec"):
+        return m.group("sec")
+    rom = m.group("rom")
+    return rom if _roman_value(rom) == next_roman else None
 
 
 def _to_roman(n: int) -> str:
@@ -810,6 +824,7 @@ def parse_paragraphs(text: str) -> ParsedText:
     gaps = 0
     section: str | None = None
     sections: set[str] = set()
+    roman = 0  # the last roman section heading read (I = 1)
     # An open table block: (line it opened on, its indentation, rows so far).
     table: tuple[int, int, list[list[TableCell]]] | None = None
     for n, raw in lines:
@@ -869,11 +884,13 @@ def parse_paragraphs(text: str) -> ParsedText:
         if _TABLE_TOKEN_RE.search(content) or is_table_row(content):
             raise TextFormatError(n, "table markup outside a table block")
         h = SECTION_HEADING_RE.match(content)
-        if h:
+        found = heading_section(h, roman + 1) if h else None
+        if h and found:
             # Rule 7: a section heading closes every open level.
             if indent:
                 raise TextFormatError(n, "a section heading must not be indented")
-            section = h.group(1)
+            section = found
+            roman = roman + 1 if h.group("rom") else roman
             if section in sections:
                 raise TextFormatError(n, f"section {section} repeats")
             sections.add(section)

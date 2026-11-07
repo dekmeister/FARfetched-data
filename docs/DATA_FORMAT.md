@@ -206,7 +206,15 @@ Rules for a structured (multi-line) text, enforced by `build.py`:
    (`F23.2(b)(1)`). Lines before the first heading have no section. A heading
    must not be indented, and a section number may not repeat in one text.
    This is how FAA appendices assembled from their DRS sections keep each
-   section's own `(a)…` run. A `paragraph` qualifier is a run of bare labels,
+   section's own `(a)…` run.
+
+   **Roman headings.** A text that opens with `I. ` (roman numeral, a dot,
+   a space, a capital) is divided by roman numerals: an unindented line
+   `II. Definitions`, `III. Trim.` … is a heading whose section number is the
+   numeral, so paths read `IV(b)(1)`. A numeral counts only as the next one
+   in the run (`I`, `II`, `III`, …, up to `XXXIX`); any other `V. ` line is
+   ordinary text. Used by the helicopter IFR appendices (CS-27/29 and FAA
+   27/29 Appendix B). A `paragraph` qualifier is a run of bare labels,
    so it matches no path inside a sectioned text.
 
    ```

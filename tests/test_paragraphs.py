@@ -242,6 +242,23 @@ class TestSectionHeadings:
             ("A23.1", "A23.1(a)"),
         ]
 
+    def test_roman_headings_are_sections(self) -> None:
+        text = "I. General.\nIntro.\nII. Defs\n(a) A.\nIII. Trim.\n(a) B.\n  (1) C."
+        got = parse_paragraphs(text).paragraphs
+        assert [(p.section, p.path) for p in got if p.path] == [
+            ("II", "II(a)"),
+            ("III", "III(a)"),
+            ("III", "III(a)(1)"),
+        ]
+        assert [p.section for p in got if p.heading] == ["I", "II", "III"]
+
+    def test_roman_heading_out_of_order_is_text(self) -> None:
+        got = parse_paragraphs("(a) A.\nIII. Foo.").paragraphs
+        assert [p.section for p in got] == [None, None]
+
+    def test_indented_roman_heading_fails(self) -> None:
+        assert "must not be indented" in error("I. One.\n(a) A.\n  II. Two.")
+
     def test_indented_heading_fails(self) -> None:
         assert "must not be indented" in error("(a) A.\n  Sec. A23.1 General.")
 
