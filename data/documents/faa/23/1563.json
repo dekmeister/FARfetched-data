@@ -11,7 +11,7 @@
       "designator": "23-0",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "(a) For all airplanes. There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list:\n  (1) The maximum speed for landing gear operation VLO and the maximum speed with landing gear extended VLE, if the airplane has retractable landing gear;\n  (2) The design maneuvering speed VA;\n  (3) The minimum control speed VMC; and\n  (4) The demonstrated crosswind velocity.\n(b) For airplanes of more than 6,000 pounds. T he placard required by paragraph (a) of this section must also include--\n  (1) The recommended climb speed;\n  (2) The best angle of climb speed VX;\n  (3) The engine-inoperative-climb speed; and\n  (4) The approach speeds.",
+      "text": "(a) For all airplanes. There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list:\n  (1) The maximum speed for landing gear operation V_{LO} and the maximum speed with landing gear extended V_{LE}, if the airplane has retractable landing gear;\n  (2) The design maneuvering speed V_{A};\n  (3) The minimum control speed V_{MC}; and\n  (4) The demonstrated crosswind velocity.\n(b) For airplanes of more than 6,000 pounds. T he placard required by paragraph (a) of this section must also include--\n  (1) The recommended climb speed;\n  (2) The best angle of climb speed V_{X};\n  (3) The engine-inoperative-climb speed; and\n  (4) The approach speeds.",
       "publication_cite": "29 FR 17955",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/539FFB9575C43E39852566870071A3BD.0001",
       "actions": [
@@ -35,7 +35,7 @@
       "designator": "23-3",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "(a) For all airplanes. There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list:\n  (1) The maximum speed for landing gear operation VLO and the maximum speed with landing gear extended VLE, if the airplane has retractable landing gear;\n  (2) The design maneuvering speed VA; [and (3) The demonstrated crosswind velocity.]\n(b) For airplanes of more than 6,000 pounds. The placard required by paragraph (a) of this section must also include--\n  (1) The recommended climb speed;\n  (2) The best angle of climb speed VX; [and (3) The approach speeds.]",
+      "text": "(a) For all airplanes. There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list:\n  (1) The maximum speed for landing gear operation V_{LO} and the maximum speed with landing gear extended V_{LE}, if the airplane has retractable landing gear;\n  (2) The design maneuvering speed V_{A}; [and (3) The demonstrated crosswind velocity.]\n(b) For airplanes of more than 6,000 pounds. The placard required by paragraph (a) of this section must also include--\n  (1) The recommended climb speed;\n  (2) The best angle of climb speed V_{X}; [and (3) The approach speeds.]",
       "publication_cite": "30 FR 14240",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3B9E5D8240C32934852566870071AE6D.0001",
       "actions": [
@@ -59,7 +59,7 @@
       "designator": "23-7",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "[There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The design maneuvering speed VA; and\n(b) The maximum landing gear operating speed VLO.]",
+      "text": "[There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The design maneuvering speed V_{A}; and\n(b) The maximum landing gear operating speed V_{LO}.]",
       "publication_cite": "34 FR 13097",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AEE0A9387330859F852566870071BD2A.0001",
       "actions": [
@@ -83,7 +83,7 @@
       "designator": "23-45",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator: This placard must list--\n[(a) The operating maneuvering speed VO; and]\n(b) The maximum landing gear operating speed VLO.",
+      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator: This placard must list--\n[(a) The operating maneuvering speed V_{O}; and]\n(b) The maximum landing gear operating speed V_{LO}.",
       "publication_cite": "58 FR 42166",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/48910CAC83D044B88525668700723AE8.0001",
       "actions": [
@@ -107,7 +107,7 @@
       "designator": "23-50",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The operating maneuvering speed VO; and\n(b) The maximum landing gear operating speed VLO.\n[(c) For reciprocating multiengine-powered airplanes of more than 6,000 pounds maximum weight, and turbine engine-powered airplanes, the maximum value of the minimum control speed, VMC (one-engine-inoperative) determined under Sec. 23.149(b).]",
+      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The operating maneuvering speed V_{O}; and\n(b) The maximum landing gear operating speed V_{LO}.\n[(c) For reciprocating multiengine-powered airplanes of more than 6,000 pounds maximum weight, and turbine engine-powered airplanes, the maximum value of the minimum control speed, V_{MC} (one-engine-inoperative) determined under Sec. 23.149(b).]",
       "publication_cite": "61 FR 5193",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/19E4F7DBC61D3D2F8525668700726014.0001",
       "actions": [
@@ -131,7 +131,7 @@
       "designator": "23-62",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Airspeed placards.",
-      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The operating maneuvering speed VO; and\n(b) The maximum landing gear operating speed VLO.\n(c) For reciprocating multiengine-powered airplanes of more than 6,000 pounds maximum weight, and turbine engine-powered airplanes, the maximum value of the minimum control speed, VMC (one-engine-inoperative) determined under Sec. 23.149(b).\n(d) The airspeed placard(s) required by this section need not be lighted if the landing gear operating speed is indicated on the airspeed indicator or other lighted area such as the landing gear control and the airspeed indicator has features such as low speed awareness that provide ample warning prior to VMC.",
+      "text": "There must be an airspeed placard in clear view of the pilot and as close as practicable to the airspeed indicator. This placard must list--\n(a) The operating maneuvering speed V_{O}; and\n(b) The maximum landing gear operating speed V_{LO}.\n(c) For reciprocating multiengine-powered airplanes of more than 6,000 pounds maximum weight, and turbine engine-powered airplanes, the maximum value of the minimum control speed, V_{MC} (one-engine-inoperative) determined under Sec. 23.149(b).\n(d) The airspeed placard(s) required by this section need not be lighted if the landing gear operating speed is indicated on the airspeed indicator or other lighted area such as the landing gear control and the airspeed indicator has features such as low speed awareness that provide ample warning prior to VMC.",
       "publication_cite": "76 FR 75763",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/34A621E3BE21A7F886257996006CB5C4.0001",
       "actions": [

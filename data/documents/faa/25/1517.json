@@ -11,7 +11,7 @@
       "designator": "25-86",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Rough air speed, VRA.",
-      "text": "[A rough air speed, VRA, for use as the recommended turbulence penetration airspeed in Sec. 25.1585(a)(8), must be established, which--\n(1) Is not greater than the design airspeed for maximum gust intensity, selected for VB; and\n(2) Is not less then the minimum value of VB specified in Sec. 25.335(d); and\n(3) Is sufficiently less than VMO to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently. In the absence of a rational investigation substantiating the use of other values, VRA must be less than VMO--35 knots (TAS).]",
+      "text": "[A rough air speed, V_{RA}, for use as the recommended turbulence penetration airspeed in Sec. 25.1585(a)(8), must be established, which--\n(1) Is not greater than the design airspeed for maximum gust intensity, selected for V_{B}; and\n(2) Is not less then the minimum value of V_{B} specified in Sec. 25.335(d); and\n(3) Is sufficiently less than V_{MO} to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently. In the absence of a rational investigation substantiating the use of other values, V_{RA} must be less than V_{MO}--35 knots (TAS).]",
       "publication_cite": "61 FR 5218",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/AA043A66CE7AF2D385256673004EF30D.0001",
       "actions": [
@@ -35,7 +35,7 @@
       "designator": "25-141",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Rough air speed, VRA",
-      "text": "(a) A rough air speed, V RA, for use as the recommended turbulence penetration airspeed, and a rough air Mach number, M RA, for use as the recommended turbulence penetration Mach number, must be established. V RA/M RA must be sufficiently less than V MO/M MO to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently.\n(b) At altitudes where V MO is not limited by Mach number, in the absence of a rational investigation substantiating the use of other values, V RA must be less than V MO\u201435 KTAS.\n(c) At altitudes where V MO is limited by Mach number, M RA may be chosen to provide an optimum margin between low and high speed buffet boundaries.",
+      "text": "(a) A rough air speed, V_{RA}, for use as the recommended turbulence penetration airspeed, and a rough air Mach number, M_{RA}, for use as the recommended turbulence penetration Mach number, must be established. V_{RA}/M_{RA} must be sufficiently less than V_{MO}/M_{MO} to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently.\n(b) At altitudes where V_{MO} is not limited by Mach number, in the absence of a rational investigation substantiating the use of other values, V_{RA} must be less than V_{MO}\u201435 KTAS.\n(c) At altitudes where V_{MO} is limited by Mach number, M_{RA} may be chosen to provide an optimum margin between low and high speed buffet boundaries.",
       "publication_cite": "79 FR 73469",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/3179309D79DE9A6F86257DE80072BA55.0001",
       "actions": [
@@ -59,7 +59,7 @@
       "designator": "25-148",
       "grouping_at_time": "Operating Limitations and Information",
       "title_at_revision": "Rough air speed, V<sub>RA.</sub>",
-      "text": "(a) A rough air speed, VRA, for use as the recommended turbulence penetration airspeed, and a rough air Mach number, MRA, for use as the recommended turbulence penetration Mach number, must be established. VRA/MRA must be sufficiently less than VMO/MMO to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently.\n(b) At altitudes where VMO is not limited by Mach number, in the absence of a rational investigation substantiating the use of other values, VRA must be less than VMO minus 35 KTAS.\n(c) At altitudes where VMO is limited by Mach number, MRA may be chosen to provide an optimum margin between low and high speed buffet boundaries.",
+      "text": "(a) A rough air speed, V_{RA}, for use as the recommended turbulence penetration airspeed, and a rough air Mach number, M_{RA}, for use as the recommended turbulence penetration Mach number, must be established. V_{RA}/M_{RA} must be sufficiently less than V_{MO}/M_{MO} to ensure that likely speed variation during rough air encounters will not cause the overspeed warning to operate too frequently.\n(b) At altitudes where V_{MO} is not limited by Mach number, in the absence of a rational investigation substantiating the use of other values, V_{RA} must be less than V_{MO} minus 35 KTAS.\n(c) At altitudes where V_{MO} is limited by Mach number, M_{RA} may be chosen to provide an optimum margin between low and high speed buffet boundaries.",
       "publication_cite": "87 FR 75710",
       "source_url": "https://drs.faa.gov/browse/excelExternalWindow/CFR_20230118_0025_G_25-1517_0000.0001",
       "actions": [

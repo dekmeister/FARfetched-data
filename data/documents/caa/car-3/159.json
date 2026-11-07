@@ -11,10 +11,11 @@
       "designator": "CAR3-0",
       "grouping_at_time": "Flutter and Vibration",
       "title_at_revision": "Flutter and vibration.",
-      "text": "All parts of the airplane shall be demonstrated to be free from flutter and excessive vibration under all speed and power conditions appropriate to the operation of the airplane up to at least the minimum valve permitted for Vd in \u00a7 3.184. There shall also be no buffeting condition in any normal flight condition severe enough to interfere with the satisfactory control of the airplane or to cause excessive fatigue to the crew or result in structural damage. However, buffeting as stall warning is considered desirable and discouragement of this type of buffeting is not intended.",
+      "text": "All parts of the airplane shall be demonstrated to be free from flutter and excessive vibration under all speed and power conditions appropriate to the operation of the airplane up to at least the minimum value permitted for V_{d} in \u00a7 3.184. There shall also be no buffeting condition in any normal flight condition severe enough to interfere with the satisfactory control of the airplane or to cause excessive fatigue to the crew or result in structural damage. However, buffeting as stall warning is considered desirable and discouragement of this type of buffeting is not intended.",
       "source_url": null,
       "provenance": {
-        "source": "ocr"
+        "source": "ocr",
+        "notes": "text override: Source retype prints 'minimum valve permitted for Vd in \u00a7 3.184' (input/Regs/CAR/3/CAR3-1_Part1_full.pdf p. 38, a typo of the retype); the 1956 reissue prints 'minimum value permitted for V_d in \u00a7 3.184.' with subscript d (input/Regs/CAR/3/CAR3R-0.pdf p. 11), and \u00a7 3.184 names the design dive speed V_d"
       }
     }
   ]
