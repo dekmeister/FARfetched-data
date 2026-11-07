@@ -33,7 +33,7 @@ Cross-cutting groups:
 
 - **Flattened tables:** EASA-17, NATO-6, DOD-8, CAR-4, FAA-25 (and the format
   limits in TEXT-11).
-- **Recoverable `TEXT MISSING`:** FAA-3, FAA-15, FAA-18, FAA-23, EASA-8.
+- **Recoverable `TEXT MISSING`:** FAA-3, FAA-15, FAA-18, FAA-23, FAA-28, EASA-8.
 - **Backups of `input/`:** PROC-10, ETCDS-1.
 - **Part 36 references on aircraft:** TCDS-12 (FAA), ETCDS-15 (EASA).
 

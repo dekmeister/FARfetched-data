@@ -178,9 +178,9 @@ docs say so, but `manifest.py` defaults to `latest_date()` regardless.
 ### FAA-24. Literal `\n` in DRS titles
 
 Some DRS titles carry a literal backslash-n (`Flame Propagation
-\nCharacteristics`). It appears in 3 `title_at_revision` values and in 5 texts
-(faa/23/F23, faa/25/1707, A25, B25, F25), where assembled appendices put
-section titles into the text. F23@23-62 is fixed by an override.
+\nCharacteristics`). It appears in 3 `title_at_revision` values and in 1 text
+(faa/25/F25@25-32), where assembled appendices put section titles into the
+text. F23@23-62 is fixed by an override.
 
 **To close:** normalise it in the extractor's title handling and re-assemble.
 
@@ -213,3 +213,16 @@ A `--redo --offline` re-extract (2026-11-07) stages both as `deleted: true`
 (`is_removed_doc`), not from tables.
 
 **To close:** review which is right and promote separately.
+
+### FAA-28. Appendices A and B to Part 25 are image-only in DRS
+
+DRS has A25@25-0 and B25@25-0 only as scanned images (`EC28SE91.050`-`.054`
+for A25) with no text, so both are `TEXT MISSING`. Until 2026-11-08 the
+extractor wrongly took the trailing eCFR `<script type="application/json">`
+metadata as their text (and appended it to 25.1707@25-123); that is fixed
+(`_html_to_text` drops `<script>`/`<style>`), so the gap now shows honestly.
+
+**To close:** fetch the images (the `img.federalregister.gov` URLs are in the
+cached DRS doc under `input/cache/drs/far_doc/`), transcribe them, and add a
+`text.tsv` `replace_text` row per appendix with the images as evidence. Check
+whether eCFR has a text rendering of either appendix before transcribing.
