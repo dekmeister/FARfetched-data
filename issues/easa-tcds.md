@@ -128,19 +128,3 @@ C-295 A.186, C-212 A.187): a Part 25 basis gives `transport`, with a report
 note.
 
 **To close:** confirm this is acceptable, or require a printed category.
-
-### ETCDS-14. Link decisions to review
-
-`tools/overrides/aircraft_links.tsv` (33 rows, 2026-11-03):
-
-- DA 40 (A47CE / IM.A.022) and DA 62 Inc (A00012NY / IM.A.629): the State of
-  Design is TCCA, which has no TCDS here; FAA was taken as primary (same path
-  either way).
-- DA 62 on A57CE (GmbH, the EASA.A.005 derivative) is not linked to IM.A.629:
-  a different TC (A00012NY Note 9).
-- DA 42 (EASA.A.005 primary): `manufacturer` becomes the EASA cover's
-  `DIAMOND AIRCRAFT INDUSTRIES GMBH` (was FAA's mixed case).
-- LC42-550FG: EASA.IM.A.516 gives the FAA TC date as 30 March 2003; FAA
-  A00003SE says May 30, 2003.
-
-**To close:** the maintainer confirms or changes each row.
