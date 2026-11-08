@@ -34,8 +34,9 @@ permission can't be established, decide whether the NATO text stays in `data/`.
 **EASA.** The site-wide notice permits reproduction with acknowledgement "save where
 otherwise stated". A sample of the ED Decision PDFs in `input/Regs/EASA/` carries
 this footer on the Decision's form page: "© European Union Aviation Safety Agency.
-All rights reserved. ... Proprietary document." It may be template wording on a
-quality form, but that is a guess. Needed: confirm that the general permission
+All rights reserved. ... Proprietary document." The sampled TCDS PDF (EASA.A.004)
+has a similar footer: "© EASA, 2024. All rights reserved." These may be template
+wording on quality forms, but that is a guess. Needed: confirm that the general permission
 covers Certification Specifications and TCDS, or ask EASA.
 
 **Attribution.** EASA's condition is that the source is acknowledged.
