@@ -24,7 +24,8 @@ Where things are documented:
 - Open issues and the data-repo roadmap: [ISSUES.md](ISSUES.md) (index;
   items in `issues/`, one file per area). The app's
   roadmap is in the FARFETCHed repo.
-- Design reviews and session handovers: [reviews/](reviews/)
+- Design reviews, plans and session handovers: `reviews/`, created when one
+  lands (git doesn't keep it once the last one is deleted)
 - Scraping/parsing/staging machinery lives in [tools/](tools/). Treat it as a
   self-contained internal sub-repo with its own [tools/CLAUDE.md](tools/CLAUDE.md)
   and [tools/README.md](tools/README.md). When working on data ingestion,
@@ -69,7 +70,7 @@ FARfetched-data/
 ├── ISSUES.md                   Index of open issues + roadmap
 ├── issues/                     One file per area (stable IDs); outstanding only
 ├── docs/                       The contract: DATA_FORMAT, SQLITE, SCHEMA_HISTORY
-├── reviews/                    Contract reviews and parent-repo handovers
+├── reviews/                    Temporary reviews/handovers (only while one is open)
 ├── schemas/                    JSON Schema files (Draft 2020-12)
 ├── data/                       Output of tools/ (never hand-edited)
 │   ├── documents/{issuer}/{document}/{_document,provision}.json
