@@ -19,3 +19,12 @@ manufacturer rename or a re-designated model splits one model's history, and
 the build matches on the strings.
 
 **To close:** decide on a stable model key, like `provisions.key`.
+
+### BUILD-9. `build.py` has outgrown a single file
+
+2,433 lines, six concerns, `parse_paragraphs` at CC 59, and a de facto public
+API used by tools (PROC-11). The real build takes ~52 s, 80% similarity.
+
+**To close:** decide on and carry out (or reject) the plan in
+[docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md); then
+delete that file and update CLAUDE.md's "Keep `build.py` a single file" rule.

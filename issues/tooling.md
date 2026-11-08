@@ -81,3 +81,31 @@ TCDS (ETCDS-1). `rm -rf tools/out` is safe; losing `input/` is not (DRS pages
 can change or go).
 
 **To close:** a backup of `input/`.
+
+### PROC-11. Tools import undeclared `build.py` internals
+
+`s00_common/structure.py`, `tables.py`, `overrides.py`, `continuity.py`, the
+DOD/NATO emitters and several tests import 15 names from `build`
+(`parse_paragraphs`, `label_values`, `heading_section`, `SECTION_HEADING_RE`,
+`TableCell`, `parse_table_row`, `table_width`, `sort_key`, …). Nothing in the
+parent repo marks them public or tests that they exist, so a rename there
+passes `tests/` and breaks tools.
+
+**To close:** a declared text-format API (`certbuild.text`) and a parent-repo
+test importing every name tools uses; repoint the imports
+([docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md) §3 F1, §5
+steps 0–2).
+
+### PROC-12. Very complex functions in tools
+
+Several functions are far past what one edit can hold in view:
+`s00_common/tcds_refs.py:interpret` (200 lines, CC 71),
+`s01_extract/easa/cs/extract.py:parse` (CC 68) and `_candidates` (CC 66),
+`s02_emit/faa/tcds/parse.py:tokenize_bullet` (227 lines, CC 66),
+`s01_extract/faa/regs/manifest.py:build_amendments` (CC 63) and `main`
+(203 lines, CC 57), `s00_common/structure.py:_candidates` (nesting depth 12).
+Five files exceed 1,000 lines.
+
+**To close:** apply the same method as the build refactor (golden staged
+output, move-only commits, then per-function untangling) when each area next
+needs an edge-case fix ([docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md) §7).
