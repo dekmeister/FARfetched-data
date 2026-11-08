@@ -157,6 +157,28 @@ file. Each module's docstring says what it must not do.
   (`pyproject.toml`): split it, don't `noqa` it. mypy is strict for
   `certbuild/`.
 
+## Reproducible is not correct
+
+These are two separate claims. Never let evidence for one stand in for the other.
+
+- **Reproducible** means the pipeline regenerates the same output offline.
+- **Correct** means the output matches the source.
+
+The source is the only truth, and working out what it says and intends can take
+careful reading. Everything else is evidence that may be wrong: `data/`, the
+staged tree, pipeline code, override rows, tests, docs, issue text and earlier
+reviews. Published data is probably good, but it has bugs.
+
+- A rebuild that matches `data/` can be the same bug twice. It proves nothing
+  about accuracy, and neither do a clean build, passing tests or `identical` from
+  `compare_stages` or `compare_builds`.
+- When a rebuild and `data/` differ, read the source to decide which is right.
+  Never change the pipeline just to match `data/`.
+- If the source shows a test or baseline encodes an error, change it, with the
+  evidence in the commit.
+- Don't call anything verified or reviewed unless it was actually read against
+  the source.
+
 ## Build conventions
 
 - Stdlib + `jsonschema` (and its bundled `referencing`).
