@@ -128,3 +128,27 @@ stage ~1,450 files. This breaks the "one offline command rebuilds it" rule.
 
 **To close:** record the selection as data (a TCDS list in
 `tools/overrides/` or the catalogue) that the parser or assemble reads.
+
+### TCDS-13. Most regulation lines on aircraft have no references
+
+From the 2026-11-07 build, FAA and EASA together:
+
+- 1,330 of 1,850 `regulation` entries have no `references` (FAA 315 of 560,
+  EASA 1,015 of 1,290). Some are fragments, so this is an upper bound.
+- 97 of 325 models resolve to no provision at all, including 24 of the 51
+  Transport models. 114 of 358 TCBs have no reference (111 of them EASA).
+- 14 CFR 27, 14 CFR 29, CS-27 and CS-29 are referenced by no aircraft
+  (ROADMAP-9, ROADMAP-10).
+
+Causes seen in a sample:
+
+- Documents not in the dataset: JAR (34 of the 114 TCBs cite it; ROADMAP-3
+  ranks it low), BCAR, 14 CFR 34.
+- Cross-references to another field ("As per para. A.II.5").
+- Date-and-amendment prose ("FAR Part 23, effective 1 February 1965, as amended
+  by …").
+- Basis lines split where they wrapped ("February 1965, Amendment 23-1 thru
+  23-31").
+
+**To close:** count each line by cause, fix the causes in order of models
+gained, and report what is left (BUILD-12).

@@ -121,3 +121,13 @@ as `(b)(3)(1)…(4)`. The format can't repeat a label under the same parent.
 Also DOD-4.
 
 **To close:** a format decision (contract change).
+
+### TEXT-14. Figures have no representation
+
+The format can hold text, tables and formulas but not a figure. A reader
+reported this on CS 25.331 (GitHub #3, "Figure has not been incorporated").
+192 of 11,868 distinct texts mention a figure by number (2026-11-08, pattern
+match), and nothing tells a reader whether the figure itself is available.
+
+**To close:** a format decision: an explicit "figure not reproduced" marker
+linking to the source page, or stored images (contract change).

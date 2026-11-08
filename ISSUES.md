@@ -36,6 +36,8 @@ Cross-cutting groups:
 - **Recoverable `TEXT MISSING`:** FAA-3, FAA-15, FAA-18, FAA-23, FAA-28, EASA-8.
 - **Backups of `input/`:** PROC-10, ETCDS-1.
 - **Part 36 references on aircraft:** TCDS-12 (FAA), ETCDS-15 (EASA).
+- **Certification-basis coverage:** BUILD-12, TCDS-13, FAA-29.
+- **Reported by site readers:** NATO-7 (GitHub #18), TEXT-14 (GitHub #3).
 
 ## Conventions
 

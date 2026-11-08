@@ -47,3 +47,13 @@ and `certbuild/similarity.py`. Lowering `SIMILARITY_MAX_DF` is faster but
 changes shipped rows (a data decision).
 
 **To close:** decide if the time hurts enough to take one of these.
+
+### BUILD-12. "Zero unresolved references" does not measure basis coverage
+
+`unresolved_references: []` only says that the references a parser emitted
+exist. A line with `references: []` never counts, so the report reads as clean
+while most regulation lines resolve to nothing (TCDS-13). The report has no
+figure for entries with references or models with no resolved provisions.
+
+**To close:** report entries with and without references by `entry_type` and
+issuer, and models and TCBs that resolve to no provision. Decide a target.

@@ -69,3 +69,11 @@ About 7 provisions / 10 versions.
 
 **To close:** EdB draws full vector grids (AppC p.187, AppL p.205), so the
 geometry route of EASA-17 would work there; Ed. 1 AppC needs transcription.
+
+### NATO-7. USAR.865 at EdB-V1 has a wrapped title read into its text
+
+Reported from the site (GitHub #18). The title stops at "…and other flight",
+and the text opens "structure See AMC.865 …". It is the only STANAG version
+whose text opens with a stray lower-case word (2026-11-08).
+
+**To close:** an extractor fix or override rows, then answer GitHub #18.

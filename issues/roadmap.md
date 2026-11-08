@@ -62,3 +62,9 @@ There is no `.github/workflows/` yet.
 The parser, coverage and cross-regulator assemble cover CS-23/25 aeroplanes
 (open gaps: ETCDS-). Next: rotorcraft (CS-27/29), and downloading the noise
 TCDS (TCDSN), recorded today only in the catalogue's `noise_*` columns.
+
+### ROADMAP-10. Rotorcraft on the aircraft side
+
+14 CFR 27 and 29 are ingested (1,267 versions), but no aircraft references
+them, and ROADMAP-9 covers only the EASA half. Staging FAA rotorcraft TCDS
+would put that data to use.

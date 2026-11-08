@@ -226,3 +226,14 @@ metadata as their text (and appended it to 25.1707@25-123); that is fixed
 cached DRS doc under `input/cache/drs/far_doc/`), transcribe them, and add a
 `text.tsv` `replace_text` row per appendix with the images as evidence. Check
 whether eCFR has a text rendering of either appendix before transcribing.
+
+### FAA-29. Part 23 stops before the 2017 rewrite
+
+The dataset's last Part 23 revision is 23-63 (2017-03-21). Amendment 23-64 and
+later, the performance-based rewrite (§23.2005 onward), are excluded by the
+`--as-of 2017-08-29` manifest (FAA-11), and no issue records this as a gap.
+51 basis entries on 21 models (14 TCDS, e.g. A00121CE, A00009CH) cite 23-64 or
+later (2026-11-08, pattern match). Each resolves to nothing or only partly.
+
+**To close:** decide how to model it (later revisions of the same document, or
+a separate one, since the section numbers all change), then ingest it.

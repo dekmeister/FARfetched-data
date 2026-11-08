@@ -61,3 +61,14 @@ fixed so far (GitHub #4).
 
 **To close:** `replace_text` rows writing `V_{d}` etc., checked against the
 scans (`input/Regs/CAR/3/CAR3R-*.pdf`, the CAA retype `CAR3-*_full.pdf`).
+
+### CAR-6. 73 `TEXT MISSING` versions are untracked
+
+CAR holds 73 of the dataset's 104 `TEXT MISSING` versions (CAB reissue 63, CAA
+10, 2026-11-07), none with a `provenance_notes` reason, and no issue lists
+them. 57 are reached by a certification basis: 51 CAB versions on 27 models
+and 6 CAA versions on 16 models. The CAR parser emits the marker for a section
+it can't find, so some may be parser misses rather than absent text.
+
+**To close:** record why each is missing, then recover the text from the scans
+with a parser fix or `replace_text` rows.

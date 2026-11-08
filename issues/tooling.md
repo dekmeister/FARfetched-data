@@ -82,18 +82,99 @@ can change or go).
 
 **To close:** a backup of `input/`.
 
-### PROC-12. Very complex functions in tools
+### PROC-12. Complex functions still in tools
 
-Several functions are far past what one edit can hold in view:
-`s00_common/tcds_refs.py:interpret` (200 lines, CC 71),
-`s01_extract/easa/cs/extract.py:parse` (CC 68) and `_candidates` (CC 66),
-`s02_emit/faa/tcds/parse.py:tokenize_bullet` (227 lines, CC 66),
-`s01_extract/faa/regs/manifest.py:build_amendments` (CC 63) and `main`
-(203 lines, CC 57), `s00_common/structure.py:_candidates` (nesting depth 12).
-Five files exceed 1,000 lines.
+The big files are split and the worst functions untangled (the build's
+method: `compare_stages`, move-only commits, then differential tests of old
+vs new on real inputs). These are still over the ratchet in `tools/ruff.toml`,
+fixed when next touched:
 
-**To close:** apply the method the build refactor used (2026-11, git log
-of `certbuild/`): a golden output compared old vs new (here the staged tree
-in `tools/out/staged/`), move-only commits, then per-function untangling
-with a differential test of old vs new on real inputs, when each area next
-needs an edge-case fix.
+- `s00_common/continuity.py`: walk
+- `s00_common/http.py`: get
+- `s01_extract/dod/hdbk/extract.py`: headings
+- `s01_extract/easa/cs/discover.py`: catalogue_row, reconcile_dates
+- `s01_extract/easa/cs/manifest.py`: build, parse_preamble
+- `s01_extract/faa/regs/extract.py`: extract_row, run_manifest
+- `s01_extract/faa/regs/manifest_ecfr.py`: flag_suspect_designators
+- `s01_extract/faa/regs/overrides.py`: parse_rows
+- `s01_extract/faa/regs/worklist.py`: attention_rows
+- `s01_extract/nato/usar/extract.py`: parse
+- `s02_emit/aircraft/assemble.py`: assemble
+- `s02_emit/car/emit.py`: emit
+- `s02_emit/easa/cs/emit.py`: walk, emit
+- `s02_emit/easa/tcds/fields.py`: split_fields
+- `s02_emit/easa/tcds/header.py`: parse_header
+- `s02_emit/easa/tcds/items.py`: split_items
+- `s02_emit/easa/tcds/parse.py`: parse_tcds_text, main
+- `s02_emit/faa/tcds/coverage.py`: summarise
+- `s02_emit/faa/tcds/classify.py`: classify
+- `s02_emit/faa/tcds/header.py`: parse_header
+- `s02_emit/faa/tcds/outline.py`: tokenize_paren
+- `s02_emit/faa/tcds/parse.py`: model_lines, parse_tcds_text, main
+- `s02_emit/faa/tcds/prose.py`: tokenize_prose
+- `s02_emit/faa/tcds/sections.py`: segment_sections
+- `s02_emit/faa/tcds/segments.py`: split_segments
+- `s03_promote/promote.py`: main
+
+**To close:** split each with the same method, and delete its `ruff.toml`
+entry; the list only shrinks.
+
+Left alone on purpose, not part of the above: `tools/s00_common/structure.py`
+(903 lines, functions untangled, file kept whole), typing the ref and version
+dicts (JSON payloads the schema already validates; a TypedDict migration touches
+every emitter), lifting the duplicate TCDS catalogue helpers, merging the
+DoD/NATO emitters (too small, or already diverged).
+
+### PROC-13. Nothing shows that `data/` can be rebuilt from source
+
+The rule is that `data/` is local sources plus overrides through the pipeline,
+but no command or test proves it. On 2026-11-08 `promote --dry-run` reported
+295 document files differing from `tools/out/staged/`: the staged tree is older
+than `data/` (no inline markup in 761 texts, and 5 CS-25 files still have the
+versions removed on 2026-11-07). Aircraft were identical. `build_info` records
+the data repo's commit but not the tools commit that produced the data.
+
+**To close:** one offline command that runs every pipeline, a check that the
+staged tree equals `data/`, and the tools commit recorded at promotion. Depends
+on TCDS-11.
+
+### PROC-14. Nothing detects new upstream revisions
+
+Refreshing is manual and there is no record of when each source was last
+checked. The build has no "data current to" date, so a reader can't tell a
+source with no newer amendment from one nobody has checked. TCDS reissues have
+the same problem (ETCDS-1).
+
+**To close:** a scheduled, report-only discover run listing new amendments and
+TCDS issues, and a per-document checked-on date in the report.
+
+### PROC-15. Rights to redistribute source text have not been assessed
+
+The repo is public and the site is live. `LICENSE` is MIT with no carve-out for
+`data/`, which holds EASA and NATO text. NATO-1 notes that some STANAG 4671
+editions aren't freely available, and Ed. 1 came from an archive copy. Nothing
+records the reuse terms for any issuer. This is a gap in what was checked, not
+a finding of infringement.
+
+**To close:** record each issuer's reuse terms, and give `data/` its own licence
+and attribution, separate from the code. Get advice if the terms are unclear.
+
+### PROC-16. Versions without a `source_url`
+
+All 936 CAR versions have no `source_url` (`s02_emit/car/emit.py` sets `None`),
+and 45 live FAA versions have none (2026-11-07), against CLAUDE.md's "include
+`source_url` on every version". Part 36 has the most, at 13.
+
+**To close:** a stable reference for each CAR scan, and a look at the 45 FAA
+rows. Then decide whether the build should enforce it.
+
+### PROC-17. No independent measure of text accuracy
+
+Layout checks prove the words weren't changed by layout, not that they match
+the source. No test or report samples text against the PDFs or DRS, so no
+per-issuer error rate exists, least of all for the 936 OCR versions. Readers
+are finding errors by hand (GitHub #3, #18).
+
+**To close:** a repeatable stratified sample per issuer and provenance, reviewed
+against the source, with the error rate recorded and re-measured after each
+major extraction change.
