@@ -134,19 +134,6 @@ worklist now fetches a kept `csv_duplicate` row.
 **To close:** re-run Part 27 `worklist`/`extract`/`emit`, review and promote
 the three stubs; the rest need another source.
 
-### FAA-19. `suspect_designator` rows withheld from emit
-
-- eCFR typos, real version present in `data/`: §351, §391, §395 @29-26 (real:
-  29-30), §573@29-59 (29-54), §1415@25-50 (25-52).
-- Part 23, not emitted: §335/§443/§561@23-24, §1549@23-12, §1557@23-21.
-- **Not explained:** §343 and §345 @25-72. The CITA prints "Amdt. 25-72, 55 FR
-  37607, Sept. 12, 1990", after 25-72's effective date (1990-08-20), but DRS
-  holds both as 25-72 and the extract passes. The Sept. 12 cite may be a later
-  correction. Until resolved, a 25-72 basis resolves to the previous text.
-
-**To close:** read 55 FR 37607 (pre-1994, no FR API) and add the right
-override for §343/§345; check the Part 23 rows against the FR.
-
 ### FAA-23. Part 36 gaps
 
 Eight versions are `TEXT MISSING`, none recoverable from DRS:
