@@ -2,53 +2,31 @@
 
 from __future__ import annotations
 
-import json
 import sqlite3
 from pathlib import Path
 
 import pytest
+
+import factories as fx
 
 from certbuild.errors import BuildError
 from certbuild.pipeline import build
 
 
 def _stage(tmp_path: Path, documents: list[dict], provisions: list[dict]) -> Path:
-    data = tmp_path / "data"
-    for p in documents:
-        d = data / "documents" / p["issuer"].lower() / p["slug"]
-        d.mkdir(parents=True, exist_ok=True)
-        (d / "_document.json").write_text(json.dumps(p))
-    for r in provisions:
-        d = data / "documents" / r["issuer"].lower() / r["document"]
-        d.mkdir(parents=True, exist_ok=True)
-        (d / f"{r['key']}.json").write_text(json.dumps(r))
-    (data / "aircraft").mkdir(parents=True, exist_ok=True)
-    return data
+    return fx.stage(tmp_path, documents, provisions)
 
 
 def _easa_part(amdts: list[tuple[str, int, str]]) -> dict:
-    return {
-        "issuer": "EASA",
-        "doc_kind": "certification_spec",
-        "code": "CS-23",
-        "slug": "cs-23",
-        "title": None,
-        "revisions": [
-            {"designator": d, "ordinal": o, "effective_date": e} for d, o, e in amdts
-        ],
-    }
+    return fx.document(
+        "EASA", "cs-23", amdts, doc_kind="certification_spec", code="CS-23"
+    )
 
 
 def _section(section: str, versions: list[dict]) -> dict:
-    return {
-        "issuer": "EASA",
-        "document": "cs-23",
-        "key": section,
-        "number": section,
-        "current_grouping": "A",
-        "canonical_title": "Definitions",
-        "versions": versions,
-    }
+    return fx.provision(
+        "EASA", "cs-23", section, versions, grouping="A", title="Definitions"
+    )
 
 
 def test_alias_resolves_to_target_text(tmp_path: Path) -> None:

@@ -8,11 +8,12 @@ The handbook here is MIL-HDBK-516-shaped: four editions A..D, where
 
 from __future__ import annotations
 
-import json
 import sqlite3
 from pathlib import Path
 
 import pytest
+
+import factories as fx
 
 from certbuild.errors import BuildError
 from certbuild.pipeline import build
@@ -21,45 +22,40 @@ EDITIONS = ["A", "B", "C", "D"]
 
 
 def _document() -> dict:
-    return {
-        "issuer": "DOD",
-        "doc_kind": "handbook",
-        "code": "MIL-HDBK-516",
-        "slug": "mil-hdbk-516",
-        "title": "Airworthiness Certification Criteria",
-        "revisions": [
-            {"designator": d, "ordinal": n, "effective_date": f"{2002 + n}-01-01"}
-            for n, d in enumerate(EDITIONS)
-        ],
-    }
+    return fx.document(
+        "DOD",
+        "mil-hdbk-516",
+        [(d, n, f"{2002 + n}-01-01") for n, d in enumerate(EDITIONS)],
+        doc_kind="handbook",
+        code="MIL-HDBK-516",
+        title="Airworthiness Certification Criteria",
+    )
 
 
 def _text(designator: str, number: str | None = None) -> dict:
-    v: dict = {
-        "designator": designator,
-        "title_at_revision": "Criterion",
-        "text": f"criterion text at {designator}",
-        "source_url": "https://assist.dla.mil",
-    }
-    if number is not None:
-        v["number"] = number
-    return v
+    return fx.version(
+        designator,
+        title="Criterion",
+        text=f"criterion text at {designator}",
+        source_url="https://assist.dla.mil",
+        **({} if number is None else {"number": number}),
+    )
 
 
 def _gone(designator: str) -> dict:
-    return {"designator": designator, "title_at_revision": "Criterion", "deleted": True}
+    return fx.deleted(designator, title="Criterion")
 
 
 def _provision(key: str, number: str, versions: list[dict]) -> dict:
-    return {
-        "issuer": "DOD",
-        "document": "mil-hdbk-516",
-        "key": key,
-        "number": number,
-        "current_grouping": "Systems engineering",
-        "canonical_title": f"Criterion {key}",
-        "versions": versions,
-    }
+    return fx.provision(
+        "DOD",
+        "mil-hdbk-516",
+        number,
+        versions,
+        key=key,
+        grouping="Systems engineering",
+        title=f"Criterion {key}",
+    )
 
 
 # The scenario from the module docstring.
@@ -71,55 +67,24 @@ HANDBOOK = [
 
 
 def _ref(to: str, **extra: object) -> dict:
-    return {"issuer": "DOD", "document": "mil-hdbk-516", "to": to, **extra}
+    return fx.ref("DOD", "mil-hdbk-516", to, **extra)
 
 
 def _exclude(*numbers: str) -> dict:
-    return {
-        "issuer": "DOD",
-        "document": "mil-hdbk-516",
-        "effect": "exclude",
-        "provisions": list(numbers),
-    }
+    return fx.exclude("DOD", "mil-hdbk-516", *numbers)
 
 
 def _aircraft(refs: list[dict]) -> dict:
-    return {
-        "manufacturer": "Dummy Mfg",
-        "model_designation": "X-1",
-        "common_name": None,
-        "notes": None,
-        "tcb": [
-            {
-                "tcds": {"issuer": "FAA", "tcds_number": "DUMMY1"},
-                "categories": ["special"],
-                "notes": None,
-                "certification_basis": [
-                    {
-                        "display_order": 1,
-                        "entry_type": "other",
-                        "raw_reference": "verbatim",
-                        "applicability": None,
-                        "applicability_notes": None,
-                        "references": refs,
-                    }
-                ],
-            }
-        ],
-    }
+    return fx.aircraft(
+        [fx.entry(refs, entry_type="other", raw_reference="verbatim")],
+        model="X-1",
+        categories=("special",),
+    )
 
 
 def _stage(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> Path:
-    data = tmp_path / "data"
-    doc_dir = data / "documents" / "dod" / "mil-hdbk-516"
-    doc_dir.mkdir(parents=True)
-    (doc_dir / "_document.json").write_text(json.dumps(_document()))
-    for p in provisions:
-        (doc_dir / f"{p['key']}.json").write_text(json.dumps(p))
-    (data / "aircraft").mkdir()
-    if refs is not None:
-        (data / "aircraft" / "x-1.json").write_text(json.dumps(_aircraft(refs)))
-    return data
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.stage(tmp_path, [_document()], provisions, models)
 
 
 def _build(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> Path:
@@ -129,22 +94,13 @@ def _build(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> P
 
 
 def _fails(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> str:
-    with pytest.raises(BuildError) as ei:
-        _build(tmp_path, provisions, refs)
-    return str(ei.value)
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.build_fails(tmp_path, [_document()], provisions, models)
 
 
 def _resolved(db: Path) -> set[tuple[str, str]]:
     """(provision key, designator) of every resolved row."""
-    with sqlite3.connect(db) as conn:
-        return set(
-            conn.execute(
-                "SELECT p.key, dr.designator FROM cert_basis_resolved r "
-                "JOIN provision_versions pv ON pv.id = r.provision_version_id "
-                "JOIN provisions p ON p.id = pv.provision_id "
-                "JOIN document_revisions dr ON dr.id = pv.revision_id"
-            ).fetchall()
-        )
+    return fx.resolved_versions(db, by="key")
 
 
 class TestIdentity:

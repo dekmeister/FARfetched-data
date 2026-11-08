@@ -9,7 +9,8 @@ from pathlib import Path
 
 import pytest
 
-from certbuild.pipeline import build
+import factories as fx
+
 from certbuild.similarity import (
     SIMILARITY_MIN_DOC_SIZE,
     SIMILARITY_TOP_PER_DOCUMENT,
@@ -172,59 +173,27 @@ def test_per_document_boilerplate_is_ignored() -> None:
 
 
 def _version(designator: str, text: str | None, title: str) -> dict:
-    v: dict[str, object] = {"designator": designator, "title_at_revision": title}
     if text is None:
-        v["deleted"] = True
-    else:
-        v["text"] = text
-    return v
+        return fx.deleted(designator, title=title)
+    return fx.version(designator, title=title, text=text)
 
 
 def _stage(tmp_path: Path, provisions: dict[str, list[dict]]) -> Path:
-    data = tmp_path / "data"
-    doc_dir = data / "documents" / "easa" / "cs-23"
-    doc_dir.mkdir(parents=True)
-    (doc_dir / "_document.json").write_text(
-        json.dumps(
-            {
-                "issuer": "EASA",
-                "doc_kind": "certification_spec",
-                "code": "CS-23",
-                "slug": "cs-23",
-                "title": None,
-                "revisions": [
-                    {
-                        "designator": "CS23-0",
-                        "ordinal": 0,
-                        "effective_date": "2003-01-01",
-                    },
-                    {
-                        "designator": "CS23-1",
-                        "ordinal": 1,
-                        "effective_date": "2004-01-01",
-                    },
-                ],
-            }
-        )
+    document = fx.document(
+        "EASA",
+        "cs-23",
+        [("CS23-0", 0, "2003-01-01"), ("CS23-1", 1, "2004-01-01")],
+        doc_kind="certification_spec",
+        code="CS-23",
     )
-    for number, versions in provisions.items():
-        (doc_dir / f"{number}.json").write_text(
-            json.dumps(
-                {
-                    "issuer": "EASA",
-                    "document": "cs-23",
-                    "key": number,
-                    "number": number,
-                    "current_grouping": None,
-                    "canonical_title": versions[-1]["title_at_revision"],
-                    "versions": versions,
-                }
-            )
-        )
-    (data / "aircraft").mkdir()
-    out = tmp_path / "cert_basis.sqlite"
-    build(data, out)
-    return out
+    return fx.build_tree(
+        tmp_path,
+        [document],
+        [
+            fx.provision("EASA", "cs-23", n, vs, title=vs[-1]["title_at_revision"])
+            for n, vs in provisions.items()
+        ],
+    )
 
 
 def _pairs(db: Path) -> set[tuple[str, str]]:

@@ -12,36 +12,29 @@ import json
 import sqlite3
 from pathlib import Path
 
+import factories as fx
+
 from certbuild.pipeline import build
 
 URL = "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN"
 
 
 def _version(designator: str, number: str | None, text: str | None = None) -> dict:
-    v: dict = {
-        "designator": designator,
-        "title_at_revision": "Title",
-        "source_url": URL,
-    }
+    extra = {"source_url": URL} | ({} if number is None else {"number": number})
     if text is None:
-        v["deleted"] = True
-    else:
-        v["text"] = text
-    if number is not None:
-        v["number"] = number
-    return v
+        return fx.deleted(designator, **extra)
+    return fx.version(designator, text=text, **extra)
 
 
 def _provision(key: str, number: str, versions: list[dict]) -> dict:
-    return {
-        "issuer": "NATO",
-        "document": "stanag-4671",
-        "key": key,
-        "number": number,
-        "current_grouping": "Subpart I – UA Control Station",
-        "canonical_title": "Title",
-        "versions": versions,
-    }
+    return fx.provision(
+        "NATO",
+        "stanag-4671",
+        number,
+        versions,
+        key=key,
+        grouping="Subpart I – UA Control Station",
+    )
 
 
 def test_nato_document_builds_with_a_gap_in_ordinals(tmp_path: Path) -> None:

@@ -9,8 +9,9 @@ from pathlib import Path
 
 import pytest
 
+import factories as fx
+
 from certbuild.ddl import SCHEMA_VERSION
-from certbuild.errors import BuildError
 from certbuild.pipeline import build
 from certbuild.provisions import check_text_format
 from certbuild.text import (
@@ -491,54 +492,21 @@ _DOC = {
 
 
 def _provision(number: str, versions: list[dict]) -> dict:
-    return {
-        "issuer": "FAA",
-        "document": "23",
-        "key": number,
-        "number": number,
-        "current_grouping": None,
-        "canonical_title": "Title",
-        "versions": [{"title_at_revision": "Title", **v} for v in versions],
-    }
+    return fx.provision(
+        "FAA", "23", number, [{"title_at_revision": "Title", **v} for v in versions]
+    )
 
 
 def _aircraft(refs: list[dict]) -> dict:
-    return {
-        "manufacturer": "Dummy Mfg",
-        "model_designation": "Dummy",
-        "common_name": None,
-        "notes": None,
-        "tcb": [
-            {
-                "tcds": {"issuer": "FAA", "tcds_number": "A00XX"},
-                "categories": ["normal"],
-                "notes": None,
-                "certification_basis": [
-                    {
-                        "display_order": 1,
-                        "entry_type": "regulation",
-                        "raw_reference": "14 CFR 23.1309(b)",
-                        "applicability": None,
-                        "applicability_notes": None,
-                        "references": refs,
-                    }
-                ],
-            }
-        ],
-    }
+    return fx.aircraft(
+        [fx.entry(refs, raw_reference="14 CFR 23.1309(b)")],
+        tcds={"issuer": "FAA", "tcds_number": "A00XX"},
+    )
 
 
 def _write(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> Path:
-    data = tmp_path / "data"
-    doc_dir = data / "documents" / "faa" / "23"
-    doc_dir.mkdir(parents=True)
-    (doc_dir / "_document.json").write_text(json.dumps(_DOC))
-    for p in provisions:
-        (doc_dir / f"{p['key']}.json").write_text(json.dumps(p))
-    (data / "aircraft").mkdir()
-    if refs is not None:
-        (data / "aircraft" / "dummy.json").write_text(json.dumps(_aircraft(refs)))
-    return data
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.stage(tmp_path, [_DOC], provisions, models)
 
 
 def _build(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> Path:
@@ -548,20 +516,12 @@ def _build(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> P
 
 
 def _fails(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> str:
-    with pytest.raises(BuildError) as ei:
-        _build(tmp_path, provisions, refs)
-    assert not (tmp_path / "cert_basis.sqlite").exists()
-    return str(ei.value)
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.build_fails(tmp_path, [_DOC], provisions, models)
 
 
 def _ref(paragraph: str, number: str = "1309", to: str = "23-1") -> dict:
-    return {
-        "issuer": "FAA",
-        "document": "23",
-        "to": to,
-        "provisions": [number],
-        "paragraph": paragraph,
-    }
+    return fx.ref("FAA", "23", to, provisions=[number], paragraph=paragraph)
 
 
 _STRUCTURED = _provision(

@@ -5,116 +5,57 @@ from __future__ import annotations
 import json
 import sqlite3
 from pathlib import Path
+from typing import Any
 
-import pytest
 
-from certbuild.errors import BuildError
-from certbuild.pipeline import build
+import factories as fx
+
 
 # CS23-0 .. CS23-6, one revision per year.
 _REVISIONS = [(f"CS23-{n}", n, f"{2003 + n}-01-01") for n in range(7)]
 
 
 def _document() -> dict:
-    return {
-        "issuer": "EASA",
-        "doc_kind": "certification_spec",
-        "code": "CS-23",
-        "slug": "cs-23",
-        "title": None,
-        "revisions": [
-            {"designator": d, "ordinal": o, "effective_date": e}
-            for d, o, e in _REVISIONS
-        ],
-    }
+    return fx.document(
+        "EASA", "cs-23", _REVISIONS, doc_kind="certification_spec", code="CS-23"
+    )
 
 
-def _live(designator: str, **extra: object) -> dict:
-    return {
-        "designator": designator,
-        "title_at_revision": "Title",
-        "text": f"text at {designator}",
-        **extra,
-    }
+def _live(designator: str, **extra: Any) -> dict:
+    return fx.version(designator, **extra)
 
 
 def _gone(designator: str) -> dict:
-    return {"designator": designator, "title_at_revision": "Title", "deleted": True}
+    return fx.deleted(designator)
 
 
 def _provision(number: str, versions: list[dict]) -> dict:
-    return {
-        "issuer": "EASA",
-        "document": "cs-23",
-        "key": number,
-        "number": number,
-        "current_grouping": None,
-        "canonical_title": "Title",
-        "versions": versions,
-    }
+    return fx.provision("EASA", "cs-23", number, versions)
 
 
 def _ref(to: str, **extra: object) -> dict:
-    return {"issuer": "EASA", "document": "cs-23", "to": to, **extra}
+    return fx.ref("EASA", "cs-23", to, **extra)
 
 
 def _aircraft(refs: list[dict]) -> dict:
-    return {
-        "manufacturer": "Dummy Mfg",
-        "model_designation": "Dummy",
-        "common_name": None,
-        "notes": None,
-        "tcb": [
-            {
-                "tcds": {"issuer": "EASA", "tcds_number": "EASA.A.000"},
-                "categories": ["normal"],
-                "notes": None,
-                "certification_basis": [
-                    {
-                        "display_order": 1,
-                        "entry_type": "regulation",
-                        "raw_reference": "CS-23 Amendment N",
-                        "applicability": None,
-                        "applicability_notes": None,
-                        "references": refs,
-                    }
-                ],
-            }
-        ],
-    }
+    return fx.aircraft(
+        [fx.entry(refs, raw_reference="CS-23 Amendment N")],
+        tcds={"issuer": "EASA", "tcds_number": "EASA.A.000"},
+    )
 
 
 def _build(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> Path:
-    data = tmp_path / "data"
-    doc_dir = data / "documents" / "easa" / "cs-23"
-    doc_dir.mkdir(parents=True)
-    (doc_dir / "_document.json").write_text(json.dumps(_document()))
-    for p in provisions:
-        (doc_dir / f"{p['key']}.json").write_text(json.dumps(p))
-    (data / "aircraft").mkdir()
-    if refs is not None:
-        (data / "aircraft" / "dummy.json").write_text(json.dumps(_aircraft(refs)))
-    out = tmp_path / "cert_basis.sqlite"
-    build(data, out)
-    return out
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.build_tree(tmp_path, [_document()], provisions, models)
 
 
 def _fails(tmp_path: Path, provisions: list[dict], refs: list[dict] | None) -> str:
-    with pytest.raises(BuildError) as ei:
-        _build(tmp_path, provisions, refs)
-    return str(ei.value)
+    models = [_aircraft(refs)] if refs is not None else []
+    return fx.build_fails(tmp_path, [_document()], provisions, models)
 
 
 def _resolved(db: Path) -> set[tuple[str, str]]:
-    with sqlite3.connect(db) as conn:
-        return set(
-            conn.execute(
-                "SELECT p.number, dr.designator FROM cert_basis_resolved r "
-                "JOIN provision_versions pv ON pv.id = r.provision_version_id "
-                "JOIN provisions p ON p.id = pv.provision_id "
-                "JOIN document_revisions dr ON dr.id = pv.revision_id"
-            ).fetchall()
-        )
+    return fx.resolved_versions(db)
 
 
 # Old-style 23.1309 deleted at CS23-5; new 23.2510 created at CS23-5.
