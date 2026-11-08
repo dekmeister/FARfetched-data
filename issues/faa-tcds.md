@@ -7,23 +7,23 @@ overrides: `tools/overrides/aircraft_links.tsv`, `aircraft_holds.tsv`.
 
 ## Pending runs
 
-### TCDS-12. Re-parse the FAA TCDS that cite Part 36
+### TCDS-12. Part 36 lines the re-parse left without references
 
-Part 36 is in `data/`, but no FAA-sourced model references it yet (only 7
-EASA-sourced models do). A trial on the 21 FAA TCDS behind `data/aircraft/`
-showed 19 TCDS, 69 models and 88 certification-basis entries gaining
-`references`, with no other change.
+The re-parse landed in b3ca90c: 69 models and 88 entries gained `references`.
+On the 2026-11-08 `data/`, these FAA lines still cite Part 36 and have none
+(16 entries, more than the 7 first listed):
 
-Lines that cite Part 36 and still need a human (7 entries):
+- No amendment to pick: "FAR 36 as amended on the date of certification"
+  (A00003SE, 4 models), and the PC-12 open range "Amendments 36-1 through
+  amendment in effect at the time of U.S. Type Certification" (A78EU, 2).
+- Composite lines that do name an amendment: A25SO PA-46-310P and -350P (2 on
+  -350P), -500TP ("FAR 36, Appendix G, Amendment 36-22"), -600TP, -701TP,
+  PA-46R-350T, and A00007SE Kodiak 100.
+- A37CE 208: two Part 36 notes sit inside an entry typed `special_condition`.
 
-- "FAR 36 as amended on the date of certification" (A00003SE, 4 models).
-- The PC-12 open range "Amendments 36-1 through amendment in effect at the
-  time of U.S. Type Certification" (A78EU, 2).
-- "FAR 36, Appendix G, Amendment 36-22" inside a composite line (A25SO
-  PA-46-500TP): scope it to Appendix G@36-22.
-
-**To close:** run the FAA parser over the 21 PDFs, `aircraft.assemble`,
-review, `promote --aircraft` (TCDS list: TCDS-11); then decide the 7 lines.
+**To close:** leave the first group at `references: []` unless a rule for
+"as amended on the date of certification" is agreed. Fix the rest in the parser
+or through TCDS-2.
 
 ## Parser gaps
 
