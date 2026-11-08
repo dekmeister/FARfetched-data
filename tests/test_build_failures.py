@@ -207,3 +207,55 @@ class TestGitDirty:
         data = fx.stage(tmp_path, [fx.faa_part("23", [0])], [], [])
         report = self._report(data, tmp_path / "cert_basis.sqlite")
         assert (report["git_dirty"], report["git_dirty_paths"]) == (None, [])
+
+
+# ---------------------------------------------------------------------------
+# one run lists every fault of the failing stage (certbuild/errors.py)
+
+
+class TestCollectsAll:
+    def test_faults_in_two_provision_files(self, tmp_path: Path) -> None:
+        bad_alias = fx.cfr_provision("23", "1301", [0])
+        bad_alias["versions"].append(
+            fx.cfr_version("23-1", same_as_designator="23-9") | {"text": None}
+        )
+        del bad_alias["versions"][1]["text"]
+        bad_number = fx.cfr_provision("23", "1309", [0])
+        bad_number["number"] = "1310"
+        bad_number["versions"][0]["number"] = "1309"
+        msg = fx.build_fails(
+            tmp_path, [fx.faa_part("23", [0, 1])], [bad_alias, bad_number]
+        )
+        assert "aliases unknown designator '23-9'" in msg
+        assert "is not the number printed at the latest version" in msg
+
+    def test_path_and_text_faults_together(self, tmp_path: Path) -> None:
+        misplaced = fx.cfr_provision("23", "1301", [0])
+        misplaced["key"] = "1301"
+        bad_text = fx.cfr_provision("23", "1309", [0])
+        bad_text["versions"][0]["text"] = "(a) x\n  y $$ z"
+        data = fx.stage(tmp_path, [fx.faa_part("23", [0])], [bad_text])
+        doc_dir = data / "documents" / "faa" / "23"
+        (doc_dir / "wrong-name.json").write_text(json.dumps(misplaced))
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "out.sqlite")
+        assert any("wrong-name.json: expected at" in e for e in ei.value.errors), (
+            ei.value.errors
+        )
+        assert any("outside a formula line" in e for e in ei.value.errors)
+        assert check(data) == ei.value.errors
+
+    def test_tcds_conflict_and_unresolved_ref_together(self, tmp_path: Path) -> None:
+        tcds = {"issuer": "FAA", "tcds_number": "A1", "revision": "1"}
+        first = fx.cfr_aircraft([fx.entry([fx.cfr_ref("23-0")])], "M1", tcds)
+        second = fx.cfr_aircraft(
+            [fx.entry([fx.cfr_ref("23-7")])], "M2", tcds | {"revision": "2"}
+        )
+        msg = fx.build_fails(
+            tmp_path,
+            [fx.faa_part("23", [0])],
+            [fx.cfr_provision("23", "1301", [0])],
+            [first, second],
+        )
+        assert "TCDS A1 metadata" in msg
+        assert "unknown revision '23-7'" in msg

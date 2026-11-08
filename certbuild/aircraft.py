@@ -12,7 +12,6 @@ from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
-from certbuild.errors import BuildError
 from certbuild.lookups import category_id_for, issuer_id_for, upsert_manufacturer
 from certbuild.provisions import document_id_for
 from certbuild.resolve import (
@@ -138,8 +137,11 @@ def _check_paragraph_refs(
     return errors
 
 
-def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
-    """Insert a TCDS once; a repeat must carry identical metadata."""
+def _tcds_id(
+    conn: sqlite3.Connection, tcds_doc: dict, path: Path, errors: list[str]
+) -> int:
+    """Insert a TCDS once; a repeat must carry identical metadata (a
+    conflict goes to `errors`, and the first file's row is used)."""
     issuer_id = issuer_id_for(conn, tcds_doc["issuer"])
     meta = (
         tcds_doc.get("revision"),
@@ -153,11 +155,9 @@ def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
     ).fetchone()
     if row is not None:
         if tuple(row[1:]) != meta:
-            raise BuildError(
-                [
-                    f"{path}: TCDS {tcds_doc['tcds_number']} metadata "
-                    f"{meta} conflicts with an earlier file's {tuple(row[1:])}"
-                ]
+            errors.append(
+                f"{path}: TCDS {tcds_doc['tcds_number']} metadata "
+                f"{meta} conflicts with an earlier file's {tuple(row[1:])}"
             )
         return row[0]
     cur = conn.execute(
@@ -173,7 +173,8 @@ def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
 def insert_aircraft(
     conn: sqlite3.Connection, aircraft: list[Source], para_stats: ParagraphRefStats
 ) -> list[str]:
-    """Insert every aircraft file; return the cert-basis failures."""
+    """Insert every aircraft file; return every failure (unresolved
+    references, TCDS metadata conflicts) for the caller to raise."""
     failures: list[str] = []
     indexes = _DocIndexes(conn)
     for s in aircraft:
@@ -207,10 +208,11 @@ def _insert_tcb(
     indexes: _DocIndexes,
     para_stats: ParagraphRefStats,
 ) -> list[str]:
+    failures: list[str] = []
     tcds_doc = tcb_entry["tcds"]
     tcb_cur = conn.execute(
         "INSERT INTO tcb (model_id, tcds_id, notes) VALUES (?, ?, ?)",
-        (model_id, _tcds_id(conn, tcds_doc, path), tcb_entry.get("notes")),
+        (model_id, _tcds_id(conn, tcds_doc, path, failures), tcb_entry.get("notes")),
     )
     tcb_id = tcb_cur.lastrowid
     assert tcb_id is not None
@@ -219,7 +221,6 @@ def _insert_tcb(
             "INSERT INTO tcb_categories (tcb_id, category_id) VALUES (?, ?)",
             (tcb_id, category_id_for(conn, cat_code)),
         )
-    failures: list[str] = []
     for entry in tcb_entry["certification_basis"]:
         label = f"{path.name} {tcds_doc['tcds_number']} line {entry['display_order']}"
         failures.extend(_insert_entry(conn, tcb_id, entry, label, indexes, para_stats))

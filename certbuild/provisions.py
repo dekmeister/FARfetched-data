@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import sqlite3
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 
 from certbuild.errors import BuildError
@@ -145,33 +145,33 @@ class TextStats:
     structured: int = 0
     flat: int = 0
     label_gaps: int = 0
-    errors: list[str] = field(default_factory=list)
 
 
-def check_text(label: str, designator: str, text: str) -> ParsedText | str:
-    """Parse one version's text; return the parse or an error message."""
-    try:
-        return parse_paragraphs(text)
-    except TextFormatError as exc:
-        return f"Provision {label} version '{designator}': text {exc}"
-
-
-def check_text_format(data_dir: Path) -> list[str]:
-    """Format errors in every provision text under data_dir (for --check)."""
-    return text_format_errors(load_provisions(data_dir))
-
-
-def text_format_errors(provisions: list[Source]) -> list[str]:
+def parse_texts(provisions: list[Source]) -> tuple[dict[str, ParsedText], list[str]]:
+    """Parse every version text once (docs/DATA_FORMAT.md §Text format).
+    Return the parses by text, and the format errors of every file."""
+    parsed: dict[str, ParsedText] = {}
     errors: list[str] = []
     for s in provisions:
         p = s.doc
         label = f"{p['issuer']}/{p['document']}/{p['key']}"
         for v in p.get("versions", []):
-            if isinstance(v.get("text"), str):
-                res = check_text(label, v.get("designator", "?"), v["text"])
-                if isinstance(res, str):
-                    errors.append(f"{s.path}: {res}")
-    return errors
+            text = v.get("text")
+            if not isinstance(text, str) or text in parsed:
+                continue
+            try:
+                parsed[text] = parse_paragraphs(text)
+            except TextFormatError as exc:
+                designator = v.get("designator", "?")
+                errors.append(
+                    f"{s.path}: Provision {label} version '{designator}': text {exc}"
+                )
+    return parsed, errors
+
+
+def check_text_format(data_dir: Path) -> list[str]:
+    """Format errors in every provision text under data_dir."""
+    return parse_texts(load_provisions(data_dir))[1]
 
 
 def _insert_paragraphs(
@@ -198,118 +198,141 @@ def _insert_paragraphs(
     )
 
 
-def insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> TextStats:
-    """Insert provisions and versions. Text-format errors are collected over
-    every file and raised together, so one run lists all of them."""
+def insert_provisions(
+    conn: sqlite3.Connection, provisions: list[Source], texts: dict[str, ParsedText]
+) -> tuple[TextStats, list[str]]:
+    """Insert provisions, versions, actions and paragraphs (`texts`: every
+    version text, parsed by `parse_texts`). A file whose revisions, aliases
+    or number are wrong is skipped and its fault listed, so one run reports
+    every such file; the caller raises."""
     stats = TextStats()
+    errors: list[str] = []
     for s in provisions:
-        p = s.doc
-        label = f"{p['issuer']}/{p['document']}/{p['key']}"
-        doc_id = document_id_for(conn, p["issuer"], p["document"])
-        if doc_id is None:
-            raise BuildError(
-                [f"{s.path}: no {DOCUMENT_FILE} for ({p['issuer']}, {p['document']})"]
-            )
-        revisions = {
-            d: (rid, o)
-            for rid, d, o in conn.execute(
-                "SELECT id, designator, ordinal FROM document_revisions "
-                "WHERE document_id = ?",
-                (doc_id,),
-            )
-        }
-        ordinal_of = {d: o for d, (_, o) in revisions.items()}
-        resolved = _resolve_alias_versions(label, p["versions"], ordinal_of)
-        latest_number = resolved[-1].get("number", p["number"])
-        if latest_number != p["number"]:
-            raise BuildError(
-                [
-                    f"{s.path}: number {p['number']!r} is not the number printed "
-                    f"at the latest version ({latest_number!r} at "
-                    f"{resolved[-1]['designator']!r})"
-                ]
-            )
+        try:
+            doc_id, revisions, resolved = _checked_versions(conn, s)
+        except BuildError as exc:
+            errors.extend(exc.errors)
+            continue
+        _insert_provision(conn, s, doc_id, revisions, resolved, texts, stats)
+    return stats, errors
 
-        with integrity_context(s.path):
-            cur = conn.execute(
-                "INSERT INTO provisions "
-                "(document_id, key, number, sort_key, canonical_title, "
-                " current_grouping, subject_group) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?)",
+
+def _checked_versions(
+    conn: sqlite3.Connection, s: Source
+) -> tuple[int, dict[str, tuple[int, int]], list[dict]]:
+    """A provision file's document id, the document's revisions (designator
+    -> (id, ordinal)) and its versions with aliases resolved. Raise
+    BuildError on the file's first fault: later checks would only cascade."""
+    p = s.doc
+    label = f"{p['issuer']}/{p['document']}/{p['key']}"
+    doc_id = document_id_for(conn, p["issuer"], p["document"])
+    if doc_id is None:
+        raise BuildError(
+            [f"{s.path}: no {DOCUMENT_FILE} for ({p['issuer']}, {p['document']})"]
+        )
+    revisions = {
+        d: (rid, o)
+        for rid, d, o in conn.execute(
+            "SELECT id, designator, ordinal FROM document_revisions "
+            "WHERE document_id = ?",
+            (doc_id,),
+        )
+    }
+    ordinal_of = {d: o for d, (_, o) in revisions.items()}
+    resolved = _resolve_alias_versions(label, p["versions"], ordinal_of)
+    latest_number = resolved[-1].get("number", p["number"])
+    if latest_number != p["number"]:
+        raise BuildError(
+            [
+                f"{s.path}: number {p['number']!r} is not the number printed "
+                f"at the latest version ({latest_number!r} at "
+                f"{resolved[-1]['designator']!r})"
+            ]
+        )
+    return doc_id, revisions, resolved
+
+
+def _insert_provision(
+    conn: sqlite3.Connection,
+    s: Source,
+    doc_id: int,
+    revisions: dict[str, tuple[int, int]],
+    resolved: list[dict],
+    texts: dict[str, ParsedText],
+    stats: TextStats,
+) -> None:
+    p = s.doc
+    with integrity_context(s.path):
+        cur = conn.execute(
+            "INSERT INTO provisions "
+            "(document_id, key, number, sort_key, canonical_title, "
+            " current_grouping, subject_group) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (
+                doc_id,
+                p["key"],
+                p["number"],
+                sort_key(p["number"]),
+                p["canonical_title"],
+                p.get("current_grouping"),
+                p.get("subject_group"),
+            ),
+        )
+        prov_id = cur.lastrowid
+        version_id: dict[str, int] = {}
+        for v in resolved:
+            source, notes = provenance(v)
+            same_as = v["same_as_designator"]
+            pv_cur = conn.execute(
+                "INSERT INTO provision_versions "
+                "(document_id, provision_id, revision_id, number, "
+                " grouping_at_time, title_at_revision, text, deleted, "
+                " same_as_version_id, publication_cite, source_url, "
+                " provenance, provenance_notes) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 (
                     doc_id,
-                    p["key"],
-                    p["number"],
-                    sort_key(p["number"]),
-                    p["canonical_title"],
-                    p.get("current_grouping"),
-                    p.get("subject_group"),
+                    prov_id,
+                    revisions[v["designator"]][0],
+                    v.get("number", p["number"]),
+                    v.get("grouping_at_time"),
+                    v["title_at_revision"],
+                    v["text"],
+                    1 if v.get("deleted") else 0,
+                    version_id[same_as] if same_as else None,
+                    v.get("publication_cite") or None,
+                    v.get("source_url"),
+                    source,
+                    notes,
                 ),
             )
-            prov_id = cur.lastrowid
-            version_id: dict[str, int] = {}
-            parsed_by_text: dict[str, ParsedText] = {}
-            for v in resolved:
-                source, notes = provenance(v)
-                same_as = v["same_as_designator"]
-                pv_cur = conn.execute(
-                    "INSERT INTO provision_versions "
-                    "(document_id, provision_id, revision_id, number, "
-                    " grouping_at_time, title_at_revision, text, deleted, "
-                    " same_as_version_id, publication_cite, source_url, "
-                    " provenance, provenance_notes) "
-                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            pv_id = pv_cur.lastrowid
+            assert pv_id is not None
+            version_id[v["designator"]] = pv_id
+            for seq, action in enumerate(v.get("actions", [])):
+                conn.execute(
+                    "INSERT INTO version_actions "
+                    "(provision_version_id, seq, action_type, reference, "
+                    " issued_on, source_url, notes) "
+                    "VALUES (?, ?, ?, ?, ?, ?, ?)",
                     (
-                        doc_id,
-                        prov_id,
-                        revisions[v["designator"]][0],
-                        v.get("number", p["number"]),
-                        v.get("grouping_at_time"),
-                        v["title_at_revision"],
-                        v["text"],
-                        1 if v.get("deleted") else 0,
-                        version_id[same_as] if same_as else None,
-                        v.get("publication_cite") or None,
-                        v.get("source_url"),
-                        source,
-                        notes,
+                        pv_id,
+                        seq,
+                        action["type"],
+                        action.get("reference"),
+                        action.get("issued_on"),
+                        action.get("source_url"),
+                        action.get("notes"),
                     ),
                 )
-                pv_id = pv_cur.lastrowid
-                assert pv_id is not None
-                version_id[v["designator"]] = pv_id
-                for seq, action in enumerate(v.get("actions", [])):
-                    conn.execute(
-                        "INSERT INTO version_actions "
-                        "(provision_version_id, seq, action_type, reference, "
-                        " issued_on, source_url, notes) "
-                        "VALUES (?, ?, ?, ?, ?, ?, ?)",
-                        (
-                            pv_id,
-                            seq,
-                            action["type"],
-                            action.get("reference"),
-                            action.get("issued_on"),
-                            action.get("source_url"),
-                            action.get("notes"),
-                        ),
-                    )
-                if v["text"] is None:
-                    continue
-                parsed = parsed_by_text.get(v["text"])
-                if parsed is None:
-                    res = check_text(label, v["designator"], v["text"])
-                    if isinstance(res, str):
-                        if same_as is None:
-                            stats.errors.append(f"{s.path}: {res}")
-                        continue
-                    parsed = parsed_by_text[v["text"]] = res
-                _insert_paragraphs(conn, pv_id, parsed)
-                if same_as is None:  # an alias is counted as its target
-                    stats.structured += parsed.structured
-                    stats.flat += not parsed.structured
-                    stats.label_gaps += parsed.gaps
-    return stats
+            if v["text"] is None:
+                continue
+            parsed = texts[v["text"]]
+            _insert_paragraphs(conn, pv_id, parsed)
+            if same_as is None:  # an alias is counted as its target
+                stats.structured += parsed.structured
+                stats.flat += not parsed.structured
+                stats.label_gaps += parsed.gaps
 
 
 def number_clashes(conn: sqlite3.Connection) -> list[str]:

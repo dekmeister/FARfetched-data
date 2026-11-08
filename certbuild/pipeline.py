@@ -1,9 +1,15 @@
-"""build() and check(): the build steps in order."""
+"""build() and check(): the build steps, in order (docs/SQLITE.md §Build).
+
+The stage list is `load_checked` (no DB) then `_fill`. A new check is a
+function returning list[str] plus one `_raise_if(...)` line in the right
+place.
+"""
 
 from __future__ import annotations
 
 import json
 import sqlite3
+from dataclasses import dataclass
 from datetime import UTC, date, datetime
 from pathlib import Path
 
@@ -15,11 +21,13 @@ from certbuild.provisions import (
     insert_documents,
     insert_provisions,
     number_clashes,
-    text_format_errors,
+    parse_texts,
 )
 from certbuild.report import BuildReport, build_report, git_dirty_paths, git_sha
 from certbuild.similarity import insert_similarity
+from certbuild.text.paragraphs import ParsedText
 from certbuild.sources import (
+    Source,
     check_paths,
     load_aircraft,
     load_documents,
@@ -59,66 +67,87 @@ def _remove_sqlite_file(path: Path) -> None:
         path.with_name(path.name + suffix).unlink(missing_ok=True)
 
 
-def build(data_dir: Path, out_path: Path) -> BuildReport:
-    """Validate, build SQLite, atomically write. Raise BuildError on failure."""
+@dataclass(frozen=True)
+class Sources:
+    """data/ loaded and checked: everything the inserts need."""
+
+    documents: list[Source]
+    provisions: list[Source]
+    aircraft: list[Source]
+    texts: dict[str, ParsedText]  # every version text, parsed
+
+
+def load_checked(data_dir: Path) -> Sources:
+    """Every check that needs no DB: the schemas, then file paths and text
+    layout. Raise BuildError listing every fault of the first stage that
+    fails.
+
+    `check()` (--check) and `build()` both run exactly this, so --check
+    can't drift from the build: a new pre-insert check goes here."""
     validation_errors = validate_data_dir(data_dir)
     if validation_errors:
         raise BuildError([str(e) for e in validation_errors])
-
     documents = load_documents(data_dir)
     provisions = load_provisions(data_dir)
-    aircraft = load_aircraft(data_dir)
-    path_errors = check_paths(documents, provisions)
-    if path_errors:
-        raise BuildError(path_errors)
+    texts, text_errors = parse_texts(provisions)
+    _raise_if(check_paths(documents, provisions) + text_errors)
+    return Sources(documents, provisions, load_aircraft(data_dir), texts)
 
+
+def _raise_if(errors: list[str]) -> None:
+    if errors:
+        raise BuildError(errors)
+
+
+def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport:
+    """Create the schema and insert everything, stage by stage. Each stage
+    collects its faults; they are raised before the next stage starts
+    (certbuild/errors.py)."""
+    conn.execute("PRAGMA foreign_keys = ON")
+    conn.executescript(SCHEMA_SQL)
+    conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION:d}")
+    conn.execute(
+        "INSERT INTO build_info (id, schema_version, git_sha, built_at) "
+        "VALUES (1, ?, ?, ?)",
+        (
+            SCHEMA_VERSION,
+            git_sha(data_dir),
+            datetime.now(UTC).isoformat(timespec="seconds"),
+        ),
+    )
+    seed_lookups(conn)
+    insert_documents(conn, src.documents)
+    text_stats, errors = insert_provisions(conn, src.provisions, src.texts)
+    _raise_if(errors)
+    _raise_if(number_clashes(conn))
+    insert_similarity(conn)
+    para_stats = ParagraphRefStats()
+    _raise_if(insert_aircraft(conn, src.aircraft, para_stats))
+    _raise_if(_future_dates(conn, date.today().isoformat()))
+    _raise_if(
+        [
+            f"foreign key violation: {r}"
+            for r in conn.execute("PRAGMA foreign_key_check").fetchall()
+        ]
+    )
+    # Every reference resolved, or insert_aircraft's stage would have raised.
+    return build_report(conn, [], text_stats, para_stats, git_dirty_paths(data_dir))
+
+
+def build(data_dir: Path, out_path: Path) -> BuildReport:
+    """Validate, build SQLite, atomically write. Raise BuildError on failure."""
+    src = load_checked(data_dir)
     tmp = out_path.with_suffix(out_path.suffix + ".new")
     _remove_sqlite_file(tmp)
-
     conn = sqlite3.connect(tmp)
     try:
-        conn.execute("PRAGMA foreign_keys = ON")
-        conn.executescript(SCHEMA_SQL)
-        conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION:d}")
-        conn.execute(
-            "INSERT INTO build_info (id, schema_version, git_sha, built_at) "
-            "VALUES (1, ?, ?, ?)",
-            (
-                SCHEMA_VERSION,
-                git_sha(data_dir),
-                datetime.now(UTC).isoformat(timespec="seconds"),
-            ),
-        )
-        seed_lookups(conn)
-        insert_documents(conn, documents)
-        text_stats = insert_provisions(conn, provisions)
-        if text_stats.errors:
-            raise BuildError(text_stats.errors)
-        clashes = number_clashes(conn)
-        if clashes:
-            raise BuildError(clashes)
-        insert_similarity(conn)
-        para_stats = ParagraphRefStats()
-        unresolved = insert_aircraft(conn, aircraft, para_stats)
-        date_errors = _future_dates(conn, date.today().isoformat())
-        if date_errors:
-            raise BuildError(date_errors)
-        fk_errors = conn.execute("PRAGMA foreign_key_check").fetchall()
-        if fk_errors:
-            raise BuildError([f"foreign key violation: {r}" for r in fk_errors])
-        report = build_report(
-            conn, unresolved, text_stats, para_stats, git_dirty_paths(data_dir)
-        )
+        report = _fill(conn, src, data_dir)
         conn.commit()
     except Exception:
         conn.close()
         _remove_sqlite_file(tmp)
         raise
     conn.close()
-
-    if unresolved:
-        _remove_sqlite_file(tmp)
-        raise BuildError(unresolved)
 
     # Write the report beside the DB before either is swapped in, so a failed
     # write can't leave a new DB next to a stale report.
@@ -139,14 +168,11 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
 
 
 def check(data_dir: Path) -> list[str]:
-    """Everything `build` checks before inserting: schemas, paths, text layout.
-
-    Cross-file checks (revisions, aliases, references, dates) need the build.
-    """
-    validation_errors = validate_data_dir(data_dir)
-    if validation_errors:
-        return [str(e) for e in validation_errors]
-    provisions = load_provisions(data_dir)
-    errors = check_paths(load_documents(data_dir), provisions)
-    errors.extend(text_format_errors(provisions))
-    return errors
+    """Everything `build` checks before inserting (`load_checked`): schemas,
+    paths, text layout. Cross-file checks (revisions, aliases, references,
+    dates) need the build."""
+    try:
+        load_checked(data_dir)
+    except BuildError as exc:
+        return exc.errors
+    return []
