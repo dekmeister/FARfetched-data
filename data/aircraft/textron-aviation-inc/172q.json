@@ -72,7 +72,13 @@
           "raw_reference": "FAR 36 dated December 1, 1969, plus amendments 36-1through 36-12.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-12"
+            }
+          ]
         }
       ]
     }

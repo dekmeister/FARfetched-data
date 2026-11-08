@@ -157,8 +157,9 @@ class TestDA40Trace:
         by_line: dict[int, set[tuple[str, str]]] = {}
         for order, number, designator, _ in resolved:
             by_line.setdefault(order, set()).add((number, designator))
-        assert set(by_line) == {2, 6}
+        assert set(by_line) == {2, 3, 6, 7}  # Part 23 and Part 36, each scope
         assert by_line[2] == by_line[6]
+        assert by_line[3] == by_line[7]
         assert max(_ordinal(real_db, d) for _, _, d, _ in resolved) <= 51
 
     @pytest.mark.parametrize(
@@ -183,8 +184,8 @@ class TestDA40Trace:
         assert later
         assert not later & {n for _, n, _, _ in fx.resolved(real_db, "A47CE", "DA 40")}
 
-    def test_only_the_part_23_lines_carry_refs(self, real_db: Path) -> None:
-        # JAR 23, Part 36 (not in the dataset), special conditions and ELOS
+    def test_only_the_part_23_and_36_lines_carry_refs(self, real_db: Path) -> None:
+        # JAR 23 (not in the dataset), special conditions and ELOS
         # lines are kept as entries but reference nothing.
         with sqlite3.connect(real_db) as conn:
             rows = conn.execute(
@@ -197,5 +198,10 @@ class TestDA40Trace:
                 "GROUP BY e.id"
             ).fetchall()
         with_refs = {(order, kind, n) for order, kind, n in rows if n}
-        assert with_refs == {(2, "regulation", 1), (6, "regulation", 1)}
+        assert with_refs == {
+            (2, "regulation", 1),
+            (3, "regulation", 1),
+            (6, "regulation", 1),
+            (7, "regulation", 1),
+        }
         assert len(rows) > len(with_refs)

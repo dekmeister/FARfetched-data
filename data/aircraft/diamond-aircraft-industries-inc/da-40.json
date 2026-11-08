@@ -46,7 +46,13 @@
           "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
           "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.006 through 40.083 (excluding 40.010 and 40.080), 40.201 through 40.1208 (excluding 40.213)",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-21"
+            }
+          ]
         },
         {
           "display_order": 4,
@@ -84,7 +90,13 @@
           "raw_reference": "14 CFR Part 36 effective December 1, 1969, including Amendments 36-1through Amendment 36-21.",
           "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.1209",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-21"
+            }
+          ]
         },
         {
           "display_order": 8,

@@ -753,7 +753,13 @@
           "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise standards, as amended by Amendments 36-1 thru 36-18",
           "applicability": "525-0001 thru 525-0599",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-18"
+            }
+          ]
         },
         {
           "display_order": 41,
@@ -761,7 +767,13 @@
           "raw_reference": "14 CFR Part 36 effective December 1, 1969, Noise standards, as amended by Amendments 36-1 thru 36-28",
           "applicability": "525-0600 thru 525-0701, 525-0800 & On",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-28"
+            }
+          ]
         },
         {
           "display_order": 42,

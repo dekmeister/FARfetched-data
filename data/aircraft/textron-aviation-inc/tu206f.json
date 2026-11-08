@@ -53,7 +53,13 @@
           "raw_reference": "FAR 36 and Amendments 1 through 6, S/N U20604075 and On.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-6"
+            }
+          ]
         },
         {
           "display_order": 5,

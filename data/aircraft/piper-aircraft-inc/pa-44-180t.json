@@ -39,7 +39,71 @@
           "raw_reference": "FAR 23 effective February 1, 1965, through Amendment 23-16 effective February 14, 1975; FAR 23.207 and 23.1091 as amended by Amendment 23-7 effective September 14, 1969; FAR 23.201 and 23.203 as amended by Amendment 23-14 effective December 20, 1973; FAR 23.1093 and 23.1557(c)(1) as amended by Amendment 23-18 effective May 2, 1977; FAR 23.1581(b)(2) as amended by Amendment 23-21 effective March 1, 1978; FAR 23.1545(a) as amended by Amendment 23-23 effective December 1, 1978; and FAR 36 effective December 1, 1969, through Amendment 36-9 effective April 3, 1978.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-16"
+            },
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-9"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-7",
+              "provisions": [
+                "207",
+                "1091"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-14",
+              "provisions": [
+                "201",
+                "203"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-18",
+              "provisions": [
+                "1093"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-18",
+              "provisions": [
+                "1557"
+              ],
+              "paragraph": "(c)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-21",
+              "provisions": [
+                "1581"
+              ],
+              "paragraph": "(b)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-23",
+              "provisions": [
+                "1545"
+              ],
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 4,

@@ -23,7 +23,13 @@
           "raw_reference": "FAR Part 36 as amended by Amendments 36-1 through 36-12.",
           "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-12"
+            }
+          ]
         },
         {
           "display_order": 2,

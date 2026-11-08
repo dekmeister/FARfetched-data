@@ -37,7 +37,13 @@
           "raw_reference": "AWM 516, Change 516-11, dated 30 June 2015. This certification basis is equivalent to 14 CFR Part 36, effective December 1969, including Amendments 36-1 through Amendments 36-30.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-30"
+            }
+          ]
         },
         {
           "display_order": 3,

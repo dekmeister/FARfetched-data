@@ -231,7 +231,13 @@
           "raw_reference": "FAR 36 dated December 1, 1969, as amended by Amendments 36-1 through 36-21.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-21"
+            }
+          ]
         },
         {
           "display_order": 3,

@@ -46,7 +46,13 @@
           "raw_reference": "FAR Part 36 dated December 1, 1969, plus Amendments 36-1 through 36-12 for Models 172P thru 172Q.",
           "applicability": "Models 172 thru 172P",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-12"
+            }
+          ]
         },
         {
           "display_order": 4,

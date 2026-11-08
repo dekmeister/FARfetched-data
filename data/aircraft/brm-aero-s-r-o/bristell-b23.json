@@ -76,7 +76,13 @@
           "raw_reference": "14 CFR Part 36, effective December 1, 1969 with Amendments 36-1 through Amendment 36-32 \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-32"
+            }
+          ]
         },
         {
           "display_order": 4,
