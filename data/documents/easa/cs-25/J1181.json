@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1181",
+  "number": "J1181",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Designated fire zone",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Designated fire zone",
+      "text": "(a) Any APU compartment is a designated fire zone.\n(b) Each designated fire zone must meet the requirements of CS 25J1185 through CS 25J1203.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

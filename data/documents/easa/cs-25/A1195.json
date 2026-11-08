@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1195",
+  "number": "A1195",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Fire extinguisher systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Fire extinguisher systems",
+      "text": "(a) There must be a fire extinguisher system serving the APU compartment.\n(b) The fire extinguishing system, the quantity of the extinguishing agent, the rate of discharge, and the discharge distribution must be adequate to extinguish fires. An individual \u2018one shot\u2019 system is acceptable. (See AMC 25A1195 (b).) (c) The fire-extinguishing system for an APU compartment must be able to simultaneously protect each zone of the APU compartment for which protection is provided.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Fire extinguisher systems",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

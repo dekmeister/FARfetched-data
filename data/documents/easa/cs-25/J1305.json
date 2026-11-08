@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1305",
+  "number": "J1305",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU instruments",
+      "text": "(a) The following instruments are required for all installation:\n  (1) A fire warning indicator.\n  (2) An indication than an APU auto-shutdown has occurred.\n  (3) Any other instrumentation necessary to assist the flight crew in:\n    (i) Preventing the exceedence of established APU limits, and\n    (ii) Maintaining continued safe operation of the APU.\n  (4) Instrumentation per subparagraph (3) need not be provided if automatic features of the APU and its installation provide a degree of safety equal to having the parameter displayed directly.\n(b) For essential APUs: In addition to the items required by CS 25J1305(a), the following indicators are required for an essential APU installation :\n  (1) An indicator to indicate the functioning of the ice protection system, if such a system is installed; and\n  (2) An indicator to indicate the proper functioning of any heater used to prevent ice clogging of fuel system components.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J939",
+  "number": "J939",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU operating characteristics",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU operating characteristics",
+      "text": "(a) APU operating characteristics must be investigated in all aeroplane operating conditions from APU start until shutdown to determine that no adverse characteristics (such as stall, surge, or flame-out) are present, to a hazardous degree, during normal and emergency operation within the range of operation limitations of the aeroplane and of the APU.\n(b) Reserved\n(c) The APU air inlet system may not, as a result of air-flow distortion during normal operation, cause vibration harmful to the APU.\n(d) It must be established over the range of operating conditions for which certification is required, that the APU installation vibratory conditions do not exceed the critical frequencies and amplitudes established under CS-APU 120.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1121",
+  "number": "J1121",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "General",
+      "text": "(a) Each exhaust system must ensure safe disposal of exhaust gases without fire hazard or carbon monoxide contamination in any personnel compartment. For test purposes, any acceptable carbon monoxide detection method may be used to show the absence of carbon monoxide.\n(b) Each exhaust system part with a surface hot enough to ignite flammable fluids or vapours must be located or shielded so that leakage from any system carrying flammable fluids or vapours will not result in a fire caused by impingement of the fluids or vapours on any part of the exhaust system including shields for the exhaust system.\n(c) Each component that hot exhaust gases could strike, or that could be subjected to high temperatures from exhaust system parts, must be fireproof. All exhaust system components must be separated by fireproof shields from adjacent parts of the aeroplane that are outside the APU compartment.\n(d) No exhaust gases may discharge so as to cause a fire hazard with respect to any flammable fluid vent or drain.\n(e) Reserved\n(f) Each exhaust system component must be ventilated to prevent points of excessively high temperature.\n(g) Each exhaust shroud must be ventilated or insulated to avoid, during normal operation, a temperature high enough to ignite any flammable fluids or vapours external to the shroud.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

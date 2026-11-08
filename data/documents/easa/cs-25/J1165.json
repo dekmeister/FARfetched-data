@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1165",
+  "number": "J1165",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU ignition systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU ignition systems",
+      "text": "Each APU ignition system must be independent of any electrical circuit except those used for assisting, controlling, or analysing the operation of that system.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

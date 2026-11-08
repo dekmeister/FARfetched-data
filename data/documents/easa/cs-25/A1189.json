@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1189",
+  "number": "A1189",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Shut-off means",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Shut-off means",
+      "text": "(a) Each APU compartment specified in CS 25A1181 (a)(4) must have a means to shut off or otherwise prevent hazardous quantities of fuel, oil, de-icer, and other flammable fluids, from flowing into, within, or through any designated fire zone, except that shut-off means are not required for \u2013\n  (1) Lines forming an integral part of an APU and (2) Oil systems for APU installations in which all external components of the oil system, including the oil tanks, are fireproof.\n(b) The closing of any fuel shut-off valve for any APU may not make fuel unavailable to the main engines.\n(c) Operation of any shut off may not interfere with the later emergency operation of other equipment.\n(d) Each flammable fluid shut-off means and control must be fireproof or must be located and protected so that any fire in a fire zone will not affect its operation.\n(e) No hazardous quantity of flammable fluid may drain into any designated fire zone after shut-off.\n(f) There must be means to guard against inadvertent operation of the shut-off means and to make it possible for the crew to reopen the shut-off means in flight after it has been closed.\n(g) Each tank to APU shut-off valve must be located so that the operation of the valve will not be affected by the APU mount structural failure.\n(h) Each shut-off valve must have a means to relieve excessive pressure accumulation unless a means for pressure relief is otherwise provided in the system.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Shut-off means",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

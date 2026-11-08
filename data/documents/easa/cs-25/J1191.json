@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1191",
+  "number": "J1191",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Firewalls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Firewalls",
+      "text": "(a) Each APU must be isolated from the rest of the aeroplane by firewalls, shrouds, or equivalent means.\n(b) Each firewall and shroud must be:\n  (1) Fireproof;\n  (2) Constructed so that no hazardous quantity of air, fluid, or flame can pass from the compartment to other parts of the aeroplane;\n  (3) Constructed so that each opening is sealed with close fitting fireproof grommets, bushings, or firewall fittings; and\n  (4) Protected against corrosion.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

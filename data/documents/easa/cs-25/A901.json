@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A901",
+  "number": "A901",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Installation",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Installation",
+      "text": "(b) For each APU \u2013\n  (1) The installation must comply with:\n    (i) The installation instructions provided under CS\u2013APU, and\n    (ii) the provisions of Part A for non-essential APUs* and the provisions of Parts A and B for essential APUs*.\n  (2) The components of the installation must be constructed, arranged, and installed so as to ensure their continued safe operation between normal inspections or overhauls (see AMC 25A901(b)(2)).\n  (3) The installation must be accessible for necessary inspections and maintenance; and\n  (4) The major components of the installations must be electrically bonded to the other parts of the aeroplane (see AMC 25A901 (b)(4)). (c) The APU installation must comply with CS 25.1309. Where the air-flow delivery from the APU and main engine is delivered to a common manifold system, precautions must be taken to minimise the possibility of a hazardous condition due to reverse air flow through the APU resulting from malfunctions of any component in the system. (d) The satisfactory functioning of the APU must be demonstrated by ground and flight tests over the range of operating conditions for which certification is required and must include tests under hot climatic conditions, unless equivalent evidence can be produced (see AMC 25A901(d)).",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Installation",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

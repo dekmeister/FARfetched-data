@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1199",
+  "number": "J1199",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Extinguishing agent containers",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Extinguishing agent containers",
+      "text": "(a) Each extinguishing agent container must have a pressure relief to prevent bursting of the container by excessive internal pressures.\n(b) The discharge end of each discharge line from a pressure relief connection must be located so that discharge of the fire extinguishant agent would not damage the aeroplane. The line must be located or protected to prevent clogging caused by ice or other foreign matter.\n(c) There must be a means for each fire extinguishing agent container to indicate that the container has discharged or that the charging pressure is below the established minimum necessary for proper functioning.\n(d) The temperature of each container must be maintained, under intended operating conditions, to prevent the pressure in the container from:\n  (1) Falling below that necessary to provide an adequate rate of discharge; or\n  (2) Rising high enough to cause premature discharge.\n(e) If a pyrotechnic capsule is used to discharge the extinguishing agent, each container must be installed so that temperature conditions will not cause hazardous deterioration of the pyrotechnic capsule.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1549",
+  "number": "A1549",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "APU instruments",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "APU instruments",
+      "text": "For each APU instrument either a placard or colour markings or an acceptable combination must be provided to convey information on the maximum and (where applicable) minimum operating limits. Colour coding must comply with the following:\n(a) Each maximum and, if applicable, minimum safe operating limit must be marked with a red radial or a red line;\n(b) Each normal operating range must be marked with a green arc or green line, not extending beyond the maximum and minimum safe limits;\n(c) Each precautionary operating range must be marked with a yellow arc or a yellow line; and\n(d) Each APU speed range that is restricted because of excessive vibration stresses must be marked with red arcs or red lines.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "APU instruments",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1203",
+  "number": "A1203",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Fire-detector system",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Fire-detector system",
+      "text": "(a) There must be approved, quick acting fire or overheat detectors in each APU compartment in numbers and locations ensuring prompt detection of fire.\n(b) Each fire detector system must be constructed and installed so that \u2013\n  (1) It will withstand the vibration, inertia, and other loads to which it may be subjected in operation;\n  (2) There is a means to warn the crew in the event that the sensor or associated wiring within a designated fire zone is severed at one point, unless the system continues to function as a satisfactory detection system after the severing; and\n  (3) There is a means to warn the crew in the event of a short circuit in the sensor or associated wiring within a designated fire zone, unless the system continues to function as a satisfactory detection system after the short circuit.\n(c) No fire or overheat detector may be affected by any oil, water, other fluids, or fumes that might be present.\n(d) There must be means to allow the crew to check, in flight, the functioning of each fire or overheat detector electric circuit.\n(e) Wiring and other components of each fire or overheat detector system in a fire zone must be at least fire-resistant.\n(f) No fire or overheat detector system component for any fire zone may pass through another fire zone, unless \u2013\n  (1) It is protected against the possibility of false warnings resulting from fires in zones through which it passes; or\n  (2) Each zone involved is simultaneously protected by the same detector and extinguishing system.\n(g) Each fire detector system must be constructed so that when it is in the configuration for installation it will not exceed the alarm activation time approved for the detectors using the response time criteria specified in the appropriate European Technical Standard Order or an acceptable equivalent, for the detector.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Fire-detector system",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

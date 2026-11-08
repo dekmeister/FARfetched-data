@@ -1,0 +1,78 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J994",
+  "number": "J994",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Fuel system components",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Fuel system components",
+      "text": "Fuel system components in the APU compartment or in the fuselage must be protected from damage which could result in spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-3",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Fuel system components",
+      "text": "Fuel system components in an APU compartment or in the fuselage must be protected from damage which could result in spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway under each of the conditions prescribed in CS 25.721(b). [Amdt. No.:25/1,3]",
+      "publication_cite": "ED Decision 2007/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1566/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "NPA 21/2005"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Fuel system components",
+      "text": "Fuel system components in an APU compartment or in the fuselage must be protected from damage which could result in spillage of enough fuel to constitute a fire hazard as a result of a wheels-up landing on a paved runway under each of the conditions prescribed in CS 25.721(b).",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

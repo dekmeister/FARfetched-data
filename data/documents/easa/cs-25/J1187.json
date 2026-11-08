@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1187",
+  "number": "J1187",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Drainage and ventilation of fire zones",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Drainage and ventilation of fire zones",
+      "text": "(a) There must be complete drainage of each part of each designated fire zone to minimise the hazards resulting from failure or malfunctioning of any component containing flammable fluids. The drainage means must be:\n  (1) Effective under conditions expected to prevail when drainage is needed; and\n  (2) Arranged so that no discharged fluid will cause an additional fire hazard.\n(b) Each designated fire zone must be ventilated to prevent the accumulation of flammable vapours.\n(c) No ventilation opening may be where it would allow the entry of flammable fluids, vapours, or flame from other zones.\n(d) Each ventilation means must be arranged so that no discharged vapours will cause an additional fire hazard.\n(e) Unless the extinguishing agent capacity and rate of discharge are based on maximum air flow through a zone, there must be means to allow the crew to shut off sources of forced ventilation to any fire zone.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

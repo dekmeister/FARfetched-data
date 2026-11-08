@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1017",
+  "number": "J1017",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Oil lines and fittings",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Oil lines and fittings",
+      "text": "(a) Each oil line must meet the requirements of CS 25J993 and each oil line and fitting in any designated fire zone must meet the requirements of CS 25J1183.\n(b) Breather lines must be arranged so that:\n  (1) Condensed water vapour that might freeze and obstruct the line cannot accumulate at any point;\n  (2) The breather discharge does not constitute a fire hazard;\n  (3) The breather does not discharge into the APU air intake system.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

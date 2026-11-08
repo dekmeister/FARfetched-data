@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1193",
+  "number": "J1193",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU compartment",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU compartment",
+      "text": "(a) Each compartment must be constructed and supported so that it can resist any vibration, inertia, and air load to which it may be subjected in operation.\n(b) Each compartment must meet the drainage and ventilation requirements of CS 25J1187.\n(c) Reserved\n(d) Each part of the compartment subject to high temperatures due to its nearness to exhaust system parts or exhaust gas impingement must be fireproof.\n(e) Each aeroplane must:\n  (1) Be designed and constructed so that no fire originating in any APU fire zone can enter, either through openings or by burning through external skin, any other zone or region where it would create additional hazards,\n  (2) Meet sub-paragraph (e)(1) of this paragraph with the landing gear retracted (if applicable), and\n  (3) Have fireproof skin in areas subject to flame if a fire starts in the APU compartment.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-13",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU compartment",
+      "text": "(a) Each compartment must be constructed and supported so that it can resist any vibration, inertia, and air load to which it may be subjected in operation.\n(b) Each compartment must meet the drainage and ventilation requirements of CS 25J1187.\n(c) Reserved\n(d) Each part of the compartment subject to high temperatures due to its nearness to exhaust system parts or exhaust gas impingement must be fireproof.\n(e) Each aeroplane must:\n  (1) Be designed and constructed so that no fire originating in any APU fire zone can enter, either through openings or by burning through external skin, any other zone or region where it would create additional hazards,\n  (2) Meet sub-paragraph (e)(1) of this paragraph with the landing gear retracted (if applicable), and\n  (3) Have APU compartment external skins, in areas subject to flame if a fire starts in an APU fire zone, complying with the following:\n    (i) For in-flight operations, APU compartment external skins must be fireproof in the complete concerned areas, and\n    (ii) For ground operations, APU compartment external skins must be:\n      (a) Fireproof in the portions of the concerned areas where a skin burn through would affect critical areas of the aeroplane, and\n      (b) Fire-resistant or compliant with subparagraph (e)(1) of this paragraph in the remaining portions of the concerned areas. (See AMC 25.1193(e))",
+      "publication_cite": "ED Decision 2013/010/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1982/en",
+      "actions": [
+        {
+          "type": "easa_npa",
+          "reference": "NPA 2011-09",
+          "issued_on": null,
+          "source_url": null,
+          "notes": null
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2013/010/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2013010r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

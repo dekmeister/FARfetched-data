@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1163",
+  "number": "J1163",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU accessories",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU accessories",
+      "text": "(a) APU mounted accessories must be approved for installation on the APU concerned and use the provisions of the APU for mounting.\n(b) Electrical equipment subject to arcing or sparking must be installed to minimise the probability of contact with any flammable fluids or vapours that might be present in a free state.\n(c) For essential APUs: If continued rotation of a failed aeroplane accessory driven by the APU affects the safe operation of the aeroplane, there must be means to prevent rotation without interfering with the continued operation of the APU.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

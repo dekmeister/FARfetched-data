@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1045",
+  "number": "A1045",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Cooling test procedures",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Cooling test procedures",
+      "text": "(a) Compliance with CS 25A1041 must be shown for the take-off, climb, en-route, and landing stages of flight that correspond to the applicable performance requirements. The cooling tests must be conducted with the aeroplane in the configuration, and operating under the conditions that are critical relative to cooling tests, a temperature is \u2018stabilised\u2019 when its rate of change is less than 1\u00baC (2\u00baF) per minute.\n(b) Temperatures must be stabilised under the conditions from which entry is made into each stage of flight being investigated, unless the entry condition normally is not one during which component and APU fluid temperatures would stabilise (in which case, operation through the full entry condition must be conducted before entry into the stage of flight being investigated in order to allow temperatures to reach their natural levels at the time of entry). The take-off cooling test must be preceded by a period during which the APU component and APU fluid temperatures are stabilised with the APU operating normally.\n(c) Cooling tests for each stage of flight must be continued until \u2013\n  (1) The component and APU fluid temperatures stabilise;\n  (2) The stage of flight is completed; or\n  (3) An operating limitation is reached.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Cooling test procedures",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

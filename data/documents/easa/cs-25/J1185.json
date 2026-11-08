@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1185",
+  "number": "J1185",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Flammable fluids",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Flammable fluids",
+      "text": "(a) No tank or reservoir that is a part of a system containing flammable fluids or gases may be in a designated fire zone unless the fluid contained, the design of the system, the materials used in the tank, the shut-off means, and all connections, lines, and controls provide a degree of safety equal to that which would exist if the tank or reservoir were outside such a zone.\n(b) There must be at least 12,7 mm of clear airspace between each tank or reservoir and each firewall or shroud isolating a designated fire zone.\n(c) Absorbent materials close to flammable fluid system components that might leak must be covered or treated to prevent the absorption of hazardous quantities of fluids.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J951",
+  "number": "J951",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "General",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "General",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure a flow of fuel at a rate and pressure established for proper APU functioning under each likely operating condition, including any manoeuvre for which certification is requested and during which the APU is permitted to be in operation.\n(b) For essential APUs: Each fuel system must be arranged so that any air which is introduced into the system will not result in flameout.\n(c) For essential APUs: Each fuel system for an essential APU must be capable of sustained operation throughout its flow and pressure range with fuel initially saturated with water at 26.7 \u00b0C and having 0.10 cm^{3} of free water per liter added and cooled to the most critical condition for icing likely to be encountered in operation.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-9",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "General",
+      "text": "(a) Each fuel system must be constructed and arranged to ensure a flow of fuel at a rate and pressure established for proper APU functioning under each likely operating condition, including any manoeuvre for which certification is requested and during which the APU is permitted to be in operation.\n(b) For essential APUs: Each fuel system must be arranged so that any air which is introduced into the system will not result in flameout.\n(c) For essential APUs: Each fuel system for an essential APU must be capable of sustained operation throughout its flow and pressure range with fuel initially saturated with water at 26.7 \u00b0C and having 0.20 cm3 of free water per liter added and cooled to the most critical condition for icing likely to be encountered in operation.",
+      "publication_cite": "ED Decision 2010/005/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1584/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "editorial"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2010/005/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2010005r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

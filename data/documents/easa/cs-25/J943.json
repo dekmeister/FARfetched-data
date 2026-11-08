@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J943",
+  "number": "J943",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Negative acceleration",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Negative acceleration",
+      "text": "(See AMC 25J943.) No hazardous malfunction of an APU or any component or system associated with the APU may occur when the aeroplane is operated at the negative accelerations within the flight envelopes prescribed in CS 25.333. This must be shown for the greatest duration expected for the acceleration.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-27",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Negative acceleration",
+      "text": "No hazardous malfunction of an APU or any component or system associated with the APU may occur when the aeroplane is operated at the negative accelerations within the flight envelopes prescribed in CS 25.333. This must be shown for the greatest duration expected for the acceleration.",
+      "publication_cite": "ED Decision 2021/015/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/136622/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2021/015/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2021015r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

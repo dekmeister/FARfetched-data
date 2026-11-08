@@ -81,20 +81,15 @@ have 2 each.
 
 **To close:** check each one.
 
-### EASA-10. CS-25 Subpart J (APU) isn't split into provisions
+### EASA-22. CS-25 Subpart J is not linked across its renumbering
 
-Its 25J9xx text is part of CS 25.1591 (to Amdt 4) and 25.1731 (later).
+Subpart J was split on 2026-11-08 into provisions keyed as printed: `A…` and
+`B…` at Amdt 0 show as deleted at Amdt 1, where `J…` appear, because nothing
+records that 25A901 became 25J901. TCDS citations in that form (`25J903(d1)`,
+`25A901(c)`) are not read by `tcds_refs` either, so they stay unresolved.
 
-**To close:** a heading rule for "CS 25J901" and a numbering decision.
-
-### EASA-19. CS-25 1591 (Amdt 0-3) and 1731 swallow the CS-APU book
-
-Their texts are ~40,000 characters: everything up to the next accepted
-heading, including CS-APU (Book 1 Section B) with its own `CS 25B1011`-style
-headings.
-
-**To close:** stop the CS-25 run at the CS-APU part (as `_book2_start` does
-for Book 2), then re-check the version counts of both.
+**To close:** decide whether to link A/B to J (one provision across the
+renumber, or a note), and teach `tcds_refs` the `25J…` form.
 
 ### EASA-11. Letter-spaced text in old CS-29 PDFs
 

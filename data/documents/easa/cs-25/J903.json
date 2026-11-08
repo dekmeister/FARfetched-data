@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J903",
+  "number": "J903",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Auxiliary Power Unit",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Auxiliary Power Unit",
+      "text": "(a) Each APU must meet the appropriate requirements of CS-APU for its intended function:\n  (1) Essential: Category 1 APU,\n  (2) Non-essential: Category 1 or Category 2 APU.\n(b) Reserved\n(c) Control of APU rotation and shut-down capability.\n  (1) It shall be possible to shut down the APU from the flight deck in normal and emergency conditions.\n  (2) Where continued rotation of an APU could jeopardise the safety of the aeroplane, there must be a means for stopping rotation. Each component of the stopping system located in the APU compartment must be at least fire resistant.\n(d) For APU installation:\n  (1) Design precautions must be taken to minimise the hazards to the aeroplane in the event of an APU rotor failure or of a fire originating within the APU which burns through the APU casing. (See AMC 20- 128A.)\n  (2) The systems associated with APU control devices, systems and instrumentation, must be designed to give reasonable assurance that those APU operating limitations that adversely affect turbine rotor structural integrity will not be exceeded in service.\n(e) In-flight start capability.\n  (1) For non-essential APUs that can be started in-flight and all essential APUs:\n    (i) Means must be provided to start the APU in-flight, and\n    (ii) An altitude and airspeed envelope must be established and demonstrated for APU in-flight starting.\n  (2) For essential APUs: Cold soak must be considered in establishing the envelope of CS 25J903(e)(1)(ii).",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

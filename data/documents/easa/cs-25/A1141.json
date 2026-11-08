@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1141",
+  "number": "A1141",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "APU controls: general",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "APU controls: general",
+      "text": "Each APU control must be located, arranged and designed to meet the objectives of CS 25.777 through CS 25.781 and marked in accordance with CS 25.1555. In addition, it must meet the following requirements:\n(a) Each control must be located so that it cannot be inadvertently operated by persons entering, leaving, or moving normally in the cockpit.\n(b) Each flexible control must be approved or must be shown to be suitable for the particular application.\n(c) Each control must have sufficient strength and rigidity to withstand operating loads without failure and without excessive deflection.\n(d) Each control must be able to maintain any set position without constant attention by flight-crew members and without creep due to control loads or vibration.\n(f) Control valves \u2013\n  (1) For manual valves, positive stops or, in the case of fuel valves, suitable index provisions in the open and closed positions.\n  (2) In the case of valves controlled from the cockpit other than by mechanical means, where the correct functioning of such a valve is essential for the safe operation of the aeroplane, a valve position indicator which senses directly that the valve has attained the position selected must be provided, unless other indications in the cockpit give the flight crew a clear indication that the valve has moved to the selected position. A continuous indicator need not be provided.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "APU controls: general",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

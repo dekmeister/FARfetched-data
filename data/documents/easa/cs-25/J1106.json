@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1106",
+  "number": "J1106",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Bleed air duct systems",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Bleed air duct systems",
+      "text": "(a) For APU bleed air duct systems, no hazard may result if a duct failure occurs at any point between the air duct source and the aeroplane unit served by the bleed air.\n(b) Each duct connected to components between which relative motion could exist must have a means for flexibility.\n(c) Where the airflow delivery from the APU and main engine is delivered to a common manifold system, precautions must be taken to minimise the possibility of a hazardous condition due to reverse airflow through the APU resulting from malfunctions of any component in the system.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

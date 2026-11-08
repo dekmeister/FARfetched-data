@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J991",
+  "number": "J991",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Fuel pumps",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Fuel pumps",
+      "text": "(See AMC 25J991) For essential APUs:\n(a) Main pumps. Each fuel pump required for proper essential APU operation, or required to meet the fuel system requirements of this subpart (other than those in sub-paragraph (b) of this paragraph), is a main pump. For each main pump, provision must be made to allow the bypass of each positive displacement fuel pump other than a fuel pump approved as part of the APU.\n(b) Emergency pumps. There must be emergency pumps or another main pump to feed an essential APU immediately after failure of any main pump (other than a fuel pump approved as part of the APU).",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-5",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Fuel pumps",
+      "text": "(See AMC 25J991) For essential APUs:\n(a) Main pumps. Each fuel pump required for proper essential APU operation, or required to meet the fuel system requirements of this subpart (other than those in sub-paragraph (b) of this paragraph), is a main pump. For each main pump, provision must be made to allow the bypass of each positive displacement fuel injection pump other than a fuel pump approved as part of the APU.\n(b) Emergency pumps. There must be emergency pumps or another main pump to feed an essential APU immediately after failure of any main pump (other than a fuel pump approved as part of the APU).",
+      "publication_cite": "ED Decision 2008/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1572/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2008/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2008006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

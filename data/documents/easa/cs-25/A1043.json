@@ -1,0 +1,51 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "A1043",
+  "number": "A1043",
+  "current_grouping": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+  "canonical_title": "Cooling tests",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-0",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Cooling tests",
+      "text": "(a) General. Compliance with CS 25A1041 must be shown by tests under critical ground, water and flight operating conditions. For these tests, the following apply:\n  (1) If the tests are conducted under conditions deviating from the maximum ambient atmospheric temperature, the recorded APU temperatures must be corrected under sub-paragraph (c) of this paragraph.\n  (2) No corrected temperatures determined under sub-paragraph (1) of this paragraph may exceed established limits.\n  (3) The fuel used during the cooling tests must be the grade approved for the APUs. The test procedures must be as prescribed in CS 25A1045.\n(b) Maximum ambient atmospheric temperature. A maximum ambient atmospheric temperature corresponding to sea-level conditions must be established as a limitation on the operation of the aeroplane. The temperature lapse rate is 2.0\u00baC (3\u00b76\u00baF) per 305 m (thousand feet) of altitude above sea-level until a temperature of \u2013 56.5\u00baC (\u201369.7\u00baF) is reached, above which altitude, the temperature is considered constant at \u201356.5\u00baC (\u201369.7\u00baF) -.\n(c) Correction factor. Unless a more rational correction applies, temperatures of APU fluids and components for which temperature limits are established, must be corrected by adding to them the difference between the maximum ambient atmospheric temperature and the temperature of the ambient air at the time of the first occurrence of the maximum component or fluid temperature recorded during the cooling test.",
+      "publication_cite": "ED Decision 2003/002/RM",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1516/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2003/002/RM",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2003002rm",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Gas Turbine Auxiliary Power Unit Installations",
+      "title_at_revision": "Cooling tests",
+      "deleted": true,
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

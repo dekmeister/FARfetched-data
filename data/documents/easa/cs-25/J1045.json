@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1045",
+  "number": "J1045",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "Cooling test procedures",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "Cooling test procedures",
+      "text": "(a) Compliance with CS 25J1041 must be shown for the critical conditions that correspond to the applicable performance requirements. The cooling tests must be conducted with the aeroplane in the configuration, and operating under the conditions that are critical relative to cooling. For the cooling tests, a temperature is 'stabilised' when its rate of change is less than 1\u00b0C per minute.\n(b) Temperatures must be stabilised prior to entry into each critical condition being investigated, unless the entry condition normally is not one during which component and APU fluid temperatures would stabilise (in which case, operation through the full entry condition must be conducted before entry into the critical condition being investigated in order to allow temperatures to reach their natural levels at the time of entry).\n(c) Cooling tests for each critical condition must be continued until:\n  (1) The component and APU fluid temperatures stabilise;\n  (2) The stage of flight is completed; or\n  (3) An operating limitation is reached.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}

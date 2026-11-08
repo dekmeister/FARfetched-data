@@ -1,0 +1,31 @@
+{
+  "issuer": "EASA",
+  "document": "cs-25",
+  "key": "J1141",
+  "number": "J1141",
+  "current_grouping": "Subpart J \u2014 Auxiliary Power Unit Installations",
+  "canonical_title": "APU controls",
+  "subject_group": null,
+  "versions": [
+    {
+      "designator": "CS25-1",
+      "grouping_at_time": "Subpart J \u2014 Auxiliary Power Unit Installations",
+      "title_at_revision": "APU controls",
+      "text": "(a) Means must be provided on the flight deck for starting, stopping, and emergency shutdown of each installed APU. Each control must:\n  (1) Be located, arranged, and designed under CS 25.777(a)(b)(c)(d) and marked under CS 25.1555(a); and\n  (2) Be located so that it cannot be inadvertently operated by persons entering, leaving, or moving normally on the flight deck; and\n  (3) Be able to maintain any set position without constant attention by flight crew members and without creep due to control loads or vibration; and\n  (4) Have sufficient strength and rigidity to withstand operating loads without failure and without excessive deflection; and\n  (5) For flexible controls, be approved or must be shown to be suitable for the particular application.\n(b) APU valve controls located in the flight deck must have:\n  (1) For manual valves, positive stops or, in the case of fuel valves, suitable index provisions in the open and closed positions,\n  (2) In the case of valves controlled from the flight deck other than by mechanical means, where the correct functioning of the valve is essential for the safe operation of the aeroplane, a valve position indicator which senses directly that the valve has attained the position selected must be provided, unless other indications in the flight deck give the flight crew a clear indication that the valve has moved to the selected position. A continuous indicator need not be provided.\n(c) For unattended operation, the APU installation must:\n  (1) Provide means to automatically shutdown the APU for the following conditions:\n    (i) Exceedence of any APU parameter limit or existence of a detectable hazardous APU operating condition; and\n    (ii) Bleed air duct failure between the APU and aeroplane unit served by the bleed air, unless it can be shown that no hazard exists to the aeroplane.\n  (2) Provide means to automatically shut off flammable fluids per CS 25J1189 in case of fire in the APU compartment.\n(d) APU controls located elsewhere on the aeroplane, which are in addition to the flight deck controls, must meet the following requirements:\n  (1) Each control must be located so that it cannot be inadvertently operated by persons entering, leaving, or moving normally in the area of the control; and\n  (2) Each control must be able to maintain any set position without creep due to control loads, vibration, or other external forces resulting from the location.\n(e) The portion of each APU control located in a designated fire zone that is required to be operated in the event of a fire must be at least fire resistant.",
+      "publication_cite": "ED Decision 2005/006/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1561/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2005/006/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2005006r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    }
+  ]
+}
