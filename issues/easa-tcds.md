@@ -9,15 +9,21 @@ Widening the scope (rotorcraft, noise TCDS) is ROADMAP-9. [Index](../ISSUES.md)
 
 ## Pending runs
 
-### ETCDS-15. EASA TCDS citing FAR Part 36 don't resolve it
+### ETCDS-15. EASA TCDS citing FAR Part 36 that still don't resolve
 
-11 EASA TCDS cite FAR Part 36. Only IM.A.013 (2 models) resolves to it in
-`data/aircraft/` (2026-11-07); EASA.A.026, .056, .057, .059, .089, .187, .586
-and EASA.IM.A.162, .196, .352 (35 models) don't. A.089 (PC-12) also has the
-open range of TCDS-12.
+Part 36 lines in the Environmental Protection field are now read, as are soft
+hyphens, dotted dates and `App. G`. On the 2026-11-08 `data/`, these remain:
 
-**To close:** re-run the EASA parser on these, check why the Part 36 lines
-stay unresolved, assemble, review, `promote --aircraft`.
+- No amendment to pick: A.026, A.056 (`14 CFR Part 36`), A.057, A.586
+  (`FAR 36 Appendix F`), IM.A.352.
+- A line that also cites Part 34 or 26, not in the dataset, so the whole line
+  stays unresolved: A.187, A.089, IM.A.196.
+- A.059: Part 36 followed by a CS 23.1529 sentence with no amendment.
+- IM.A.162: "Aviation Regulations, Part 36, para 3". IM.A.352: serial-scoped
+  lines naming Stage 4 "as amended by Amendment 36-1 through …" with no anchor.
+
+**To close:** split composite lines so each citation stands alone (ETCDS-9
+shape), and leave lines with no amendment unresolved.
 
 ## Sources
 

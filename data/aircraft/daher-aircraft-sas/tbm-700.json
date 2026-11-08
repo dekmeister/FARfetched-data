@@ -528,7 +528,10 @@
             {
               "issuer": "FAA",
               "document": "36",
-              "to": "36-31"
+              "to": "36-31",
+              "provisions": [
+                "G36"
+              ]
             }
           ]
         },

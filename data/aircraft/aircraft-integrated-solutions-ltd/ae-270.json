@@ -85,11 +85,17 @@
         },
         {
           "display_order": 7,
-          "entry_type": "other",
+          "entry_type": "regulation",
           "raw_reference": "14 CFR 36 Amdt. 36-24, Eff. 8/7/2002 ICAO Annex 16, Chapter 10",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-24"
+            }
+          ]
         }
       ]
     }

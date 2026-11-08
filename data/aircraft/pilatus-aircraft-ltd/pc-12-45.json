@@ -235,11 +235,20 @@
         },
         {
           "display_order": 19,
-          "entry_type": "other",
+          "entry_type": "regulation",
           "raw_reference": "US Federal Aviation Regulation Part 36, Appendix G, including Amendments 36-1 through 36-20, effective September 11, 1992.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-20",
+              "provisions": [
+                "G36"
+              ]
+            }
+          ]
         },
         {
           "display_order": 20,

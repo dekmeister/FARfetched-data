@@ -33,11 +33,20 @@
         },
         {
           "display_order": 2,
-          "entry_type": "other",
+          "entry_type": "regulation",
           "raw_reference": "ICAO Annex. 16/I, Chapter 10 FAR PART 36, App. G (Amdt. 36-20)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-20",
+              "provisions": [
+                "G36"
+              ]
+            }
+          ]
         }
       ]
     }

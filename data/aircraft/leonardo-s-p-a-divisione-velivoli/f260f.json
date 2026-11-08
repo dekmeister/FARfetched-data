@@ -83,11 +83,17 @@
         },
         {
           "display_order": 9,
-          "entry_type": "other",
+          "entry_type": "regulation",
           "raw_reference": "FAR Part 36 effective December 1, 1969 including Amendments 36-1 through 36- 20, ICAO Annex 16, chapter 10...",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-20"
+            }
+          ]
         }
       ]
     }

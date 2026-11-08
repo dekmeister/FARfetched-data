@@ -37,13 +37,7 @@
           "raw_reference": "FAR 23 Subpart B as amended through Amendment 23-45 effective September 7, 1993;",
           "applicability": null,
           "applicability_notes": null,
-          "references": [
-            {
-              "issuer": "FAA",
-              "document": "23",
-              "to": "23-45"
-            }
-          ]
+          "references": []
         },
         {
           "display_order": 3,
@@ -51,13 +45,7 @@
           "raw_reference": "FAR 23 Subpart E & F as amended through Amendment 23-30 effective March 29, 1984;",
           "applicability": null,
           "applicability_notes": null,
-          "references": [
-            {
-              "issuer": "FAA",
-              "document": "23",
-              "to": "23-30"
-            }
-          ]
+          "references": []
         },
         {
           "display_order": 4,
@@ -69,7 +57,10 @@
             {
               "issuer": "FAA",
               "document": "23",
-              "to": "23-34"
+              "to": "23-34",
+              "provisions": [
+                "F23"
+              ]
             }
           ]
         },
@@ -83,7 +74,10 @@
             {
               "issuer": "FAA",
               "document": "23",
-              "to": "23-34"
+              "to": "23-34",
+              "provisions": [
+                "G23"
+              ]
             }
           ]
         },

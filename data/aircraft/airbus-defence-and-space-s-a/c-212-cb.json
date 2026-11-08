@@ -49,11 +49,17 @@
         },
         {
           "display_order": 4,
-          "entry_type": "other",
+          "entry_type": "regulation",
           "raw_reference": "14 C.F.R. FAR Part 36 Issued Dec. 1, 1969 including Amendments 36-1 through 36-17.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-17"
+            }
+          ]
         },
         {
           "display_order": 5,
