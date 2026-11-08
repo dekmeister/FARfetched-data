@@ -259,3 +259,27 @@ class TestCollectsAll:
         )
         assert "TCDS A1 metadata" in msg
         assert "unknown revision '23-7'" in msg
+
+
+def test_coverage_counts_entries_tcbs_and_models(tmp_path: Path) -> None:
+    data = fx.stage(
+        tmp_path,
+        [fx.faa_part("23", [0])],
+        [fx.cfr_provision("23", "1", [0])],
+        [
+            fx.cfr_aircraft(
+                [fx.entry([fx.cfr_ref("23-0")]), fx.entry([], 2)], model="A"
+            ),
+            fx.cfr_aircraft([fx.entry([])], model="B"),
+        ],
+    )
+    coverage = build(data, tmp_path / "cert_basis.sqlite")["coverage"]
+    assert coverage["entries"]["FAA"]["regulation"] == {
+        "entries": 3,
+        "with_references": 1,
+        "without_references": 2,
+    }
+    assert coverage["tcbs"]["FAA"] == {"total": 2, "resolve_to_nothing": 1}
+    assert coverage["models"] == {"total": 2, "resolve_to_nothing": 1}
+    [only] = coverage["models_resolving_to_nothing"]
+    assert only.endswith(" / B")

@@ -57,6 +57,90 @@ def git_dirty_paths(data_dir: Path) -> list[str] | None:
     return sorted(paths)
 
 
+class EntryCoverage(TypedDict):
+    entries: int
+    with_references: int
+    without_references: int
+
+
+class Unresolved(TypedDict):
+    total: int
+    resolve_to_nothing: int
+
+
+class Coverage(TypedDict):
+    """How much of each certification basis has references at all.
+
+    This counts whether references exist, not whether they are right: a model
+    with references can still point at the wrong provision.
+    """
+
+    entries: dict[str, dict[str, EntryCoverage]]
+    tcbs: dict[str, Unresolved]
+    models: Unresolved
+    models_resolving_to_nothing: list[str]
+
+
+def coverage_report(conn: sqlite3.Connection) -> Coverage:
+    entries: dict[str, dict[str, EntryCoverage]] = {}
+    for issuer, entry_type, total, without in conn.execute(
+        """
+        SELECT i.code, e.entry_type, count(*),
+               sum(NOT EXISTS (SELECT 1 FROM cert_basis_refs r
+                               WHERE r.entry_id = e.id))
+        FROM cert_basis_entries e
+        JOIN tcb t ON t.id = e.tcb_id
+        JOIN tcds d ON d.id = t.tcds_id
+        JOIN issuers i ON i.id = d.issuer_id
+        GROUP BY i.code, e.entry_type
+        ORDER BY i.code, e.entry_type
+        """
+    ):
+        entries.setdefault(issuer, {})[entry_type] = {
+            "entries": total,
+            "with_references": total - without,
+            "without_references": without,
+        }
+    tcbs: dict[str, Unresolved] = {
+        issuer: {"total": total, "resolve_to_nothing": nothing}
+        for issuer, total, nothing in conn.execute(
+            """
+            SELECT i.code, count(*),
+                   sum(NOT EXISTS (SELECT 1 FROM cert_basis_entries e
+                                   JOIN cert_basis_resolved x ON x.entry_id = e.id
+                                   WHERE e.tcb_id = t.id))
+            FROM tcb t
+            JOIN tcds d ON d.id = t.tcds_id
+            JOIN issuers i ON i.id = d.issuer_id
+            GROUP BY i.code
+            ORDER BY i.code
+            """
+        )
+    }
+    nothing = [
+        f"{manufacturer} / {model}"
+        for manufacturer, model in conn.execute(
+            """
+            SELECT mf.name, m.model_designation
+            FROM aircraft_models m
+            JOIN manufacturers mf ON mf.id = m.manufacturer_id
+            WHERE NOT EXISTS (SELECT 1 FROM tcb t
+                              JOIN cert_basis_entries e ON e.tcb_id = t.id
+                              JOIN cert_basis_resolved x ON x.entry_id = e.id
+                              WHERE t.model_id = m.id)
+            ORDER BY mf.name, m.model_designation
+            """
+        )
+    ]
+    total = conn.execute("SELECT count(*) FROM aircraft_models").fetchone()[0]
+    return {
+        "entries": entries,
+        "tcbs": tcbs,
+        "models": {"total": total, "resolve_to_nothing": len(nothing)},
+        "models_resolving_to_nothing": nothing,
+    }
+
+
 # TypedDict rather than dataclass: keeps the return dict-serialisable for the report.
 class BuildReport(TypedDict):
     schema_version: int
@@ -71,6 +155,7 @@ class BuildReport(TypedDict):
     paragraph_refs_verified: int
     paragraph_refs_unverifiable: int
     similarity: dict[str, int]
+    coverage: Coverage
     git_dirty: bool | None
     git_dirty_paths: list[str]
     unresolved_references: list[str]
@@ -137,6 +222,7 @@ def build_report(
         "paragraph_refs_verified": para_stats.verified,
         "paragraph_refs_unverifiable": para_stats.unverifiable,
         "similarity": similarity_report(conn),
+        "coverage": coverage_report(conn),
         "git_dirty": None if dirty_paths is None else bool(dirty_paths),
         "git_dirty_paths": dirty_paths or [],
         "unresolved_references": unresolved,

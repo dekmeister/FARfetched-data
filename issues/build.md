@@ -50,10 +50,10 @@ changes shipped rows (a data decision).
 
 ### BUILD-12. "Zero unresolved references" does not measure basis coverage
 
-`unresolved_references: []` only says that the references a parser emitted
-exist. A line with `references: []` never counts, so the report reads as clean
-while most regulation lines resolve to nothing (TCDS-13). The report has no
-figure for entries with references or models with no resolved provisions.
+The report now has a `coverage` section (docs/SQLITE.md). It counts whether
+references exist, not whether they are right. Current figures are in each build's
+`cert_basis_report.json`.
 
-**To close:** report entries with and without references by `entry_type` and
-issuer, and models and TCBs that resolve to no provision. Decide a target.
+**To close:** the maintainer decides a coverage target for Phase 2. A target should
+come with a way to sample reference accuracy, or it rewards references that exist
+but are wrong.

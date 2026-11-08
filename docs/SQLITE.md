@@ -211,9 +211,17 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    another number), `text_missing` and `deleted` counts, provenance counts,
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
-   (provisions with matches and score bands), `git_dirty` /
+   (provisions with matches and score bands), `coverage` (below), `git_dirty` /
    `git_dirty_paths` (see below), and `unresolved_references` (always empty
    on a successful build).
+
+`coverage` shows how much of each certification basis has references at all,
+which `unresolved_references` can't: an entry with `references: []` never counts
+as unresolved. `entries` gives `entries`, `with_references` and
+`without_references` per issuer and `entry_type`. `tcbs` (per issuer) and `models`
+give `total` and `resolve_to_nothing`, and `models_resolving_to_nothing` lists
+those models. These figures say whether references exist, not whether they are
+right: a model with references can still point at the wrong provision.
 
 `build_info.git_sha` records HEAD of the repo holding `data/`. It doesn't
 say whether the build also read uncommitted files. The report does:
