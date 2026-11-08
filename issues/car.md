@@ -72,3 +72,20 @@ it can't find, so some may be parser misses rather than absent text.
 
 **To close:** record why each is missing, then recover the text from the scans
 with a parser fix or `replace_text` rows.
+
+### CAR-7. Section boundaries are wrong in sampled CAR texts
+
+Found by the 2026-11-08 accuracy pilot (PROC-17), which read 20 CAR versions
+against page images. 5 have a boundary or omission error:
+
+- CAR3-0 §3.422: stops at "compliance with §". The rest of (b) and all of (c)
+  are missing, about 70 words. A section reference at a line end looks like the
+  cause.
+- CAR3-0 §3.791: its body is the §3.792 heading and the AUTHORITY note.
+- CAR3R-0 §3.735: holds §3.737 and its heading.
+- CAR3R-2 §3.75 and §3.383: hold the amendment instructions that follow them.
+
+Word-level OCR errors are also common in the CAR3R scans (8 of 10 versions).
+
+**To close:** check how many versions share each cause, fix the splitter, and
+use `replace_text` rows for the rest.

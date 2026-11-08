@@ -146,13 +146,13 @@ and 45 live FAA versions have none (2026-11-07), against CLAUDE.md's "include
 **To close:** a stable reference for each CAR scan, and a look at the 45 FAA
 rows. Then decide whether the build should enforce it.
 
-### PROC-17. No independent measure of text accuracy
+### PROC-17. Text accuracy is only partly measured
 
-Layout checks prove the words weren't changed by layout, not that they match
-the source. No test or report samples text against the PDFs or DRS, so no
-per-issuer error rate exists, least of all for the 936 OCR versions. Readers
-are finding errors by hand (GitHub #3, #18).
+The sampler and a first pilot exist (`tools/s99_tests/text_accuracy.py`, results
+in [TEXT_ACCURACY.md](../tools/s00_docs/TEXT_ACCURACY.md)). The pilot read 62
+versions. The CAR strata show real errors: 10 of 20 versions (CAR-7). The other
+42 were compared mechanically, which cannot detect lost source words.
 
-**To close:** a repeatable stratified sample per issuer and provenance, reviewed
-against the source, with the error rate recorded and re-measured after each
-major extraction change.
+**To close:** read the non-OCR strata by eye or add an omission check, use a
+sample large enough to give per-issuer rates, and re-measure after each major
+extraction change.
