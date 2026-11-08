@@ -134,3 +134,24 @@ C-295 A.186, C-212 A.187): a Part 25 basis gives `transport`, with a report
 note.
 
 **To close:** confirm this is acceptable, or require a printed category.
+
+### ETCDS-16. A330 lines cite all of CS-25, and page footers became entries
+
+Found on 2026-11-08 by reading a sample of aircraft references against the TCDS
+PDFs. EASA.A.004 Issue 70 (A330), 2 models:
+
+- 15 entries reading "Plus the following CS 25 paragraphs applicable at Amdt N" are
+  headers for the paragraph list on the next line. The parser reads each as a
+  whole-document reference, so the model resolves to all of CS-25 at that amendment.
+  The listed paragraphs sit in a following entry with `references: []`. The build
+  and coverage report both count this as a success.
+- 15 entries are the page footer, `Issue: 70 [A330-743L] Date: 30/10/2026`, in the
+  `regulation`, `other`, `special_condition` and `elos` types.
+
+In the same sample, 8 of 400 `raw_reference` values were not found verbatim in the
+PDF with either text extraction. All 8 are EASA, and most join table cells or
+columns (see ETCDS-9). Sampled FAA references matched their PDF lines.
+
+**To close:** attach a "the following paragraphs" header to its list, drop the footer
+line, and re-check other TCDS with this layout. Until then these two models claim
+far more of CS-25 than their TCDS does.
