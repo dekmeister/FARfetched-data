@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from certbuild.text.labels import (
     SECTION_HEADING_RE,
@@ -126,6 +126,18 @@ def _path(stack: list[_Level], section: str | None = None) -> str:
 def parse_paragraphs(text: str) -> ParsedText:
     """Split a provision text into paragraphs. Raise TextFormatError if the
     text breaks the format (docs/DATA_FORMAT.md §Text format)."""
+    lines = _lines(text)
+    if len(lines) == 1:
+        return _flat(*lines[0])
+    parser = _Parser()
+    for n, raw in lines:
+        parser.line(n, raw)
+    return parser.finish()
+
+
+def _lines(text: str) -> list[tuple[int, str]]:
+    """The non-empty lines with their line numbers, checked for whitespace
+    faults that no layout allows."""
     lines: list[tuple[int, str]] = []
     for n, raw in enumerate(text.split("\n"), 1):
         if raw == "":
@@ -137,27 +149,50 @@ def parse_paragraphs(text: str) -> ParsedText:
         lines.append((n, raw))
     if not lines:
         raise TextFormatError(1, "no text")
-    if len(lines) == 1:
-        n, raw = lines[0]
-        if raw[0].isspace():
-            raise TextFormatError(n, "a single-line text must not be indented")
-        if TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
-            raise TextFormatError(n, "table markup in a single-line text")
-        if FORMULA_MARK in raw:
-            raise TextFormatError(n, "`$$` in a single-line text")
-        if err := inline_error(raw):
-            raise TextFormatError(n, err)
-        return ParsedText((Paragraph(0, 0, None, None, raw),), False, 0)
+    return lines
 
-    stack: list[_Level] = []
-    out: list[Paragraph] = []
-    gaps = 0
-    section: str | None = None
-    sections: set[str] = set()
-    roman = 0  # the last roman section heading read (I = 1)
-    # An open table block: (line it opened on, its indentation, rows so far).
-    table: tuple[int, int, list[list[TableCell]]] | None = None
-    for n, raw in lines:
+
+def _flat(n: int, raw: str) -> ParsedText:
+    """A single-line text: one unlabelled paragraph, no layout markup."""
+    if raw[0].isspace():
+        raise TextFormatError(n, "a single-line text must not be indented")
+    if TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
+        raise TextFormatError(n, "table markup in a single-line text")
+    if FORMULA_MARK in raw:
+        raise TextFormatError(n, "`$$` in a single-line text")
+    if err := inline_error(raw):
+        raise TextFormatError(n, err)
+    return ParsedText((Paragraph(0, 0, None, None, raw),), False, 0)
+
+
+@dataclass
+class _Table:
+    """An open table block."""
+
+    line: int  # the `{|` line
+    indent: int
+    rows: list[list[TableCell]] = field(default_factory=list)
+
+
+class _Parser:
+    """A structured (multi-line) text, read one line at a time.
+
+    Each kind of line has its own method: a line of a table block, a section
+    heading, a labelled line, and an unlabelled one (text or a formula).
+    `line` runs the checks every line shares and picks the method; a new
+    kind of line is a new branch there plus its own method.
+    """
+
+    def __init__(self) -> None:
+        self.stack: list[_Level] = []  # open items, outermost first
+        self.out: list[Paragraph] = []
+        self.gaps = 0
+        self.section: str | None = None
+        self.sections: set[str] = set()
+        self.roman = 0  # the last roman section heading read (I = 1)
+        self.table: _Table | None = None
+
+    def line(self, n: int, raw: str) -> None:
         content = raw.lstrip(" ")
         indent = len(raw) - len(content)
         if content[0].isspace():
@@ -165,116 +200,137 @@ def parse_paragraphs(text: str) -> ParsedText:
         if err := inline_error(content):
             raise TextFormatError(n, err)
         formula = formula_body(content) is not None
-        if FORMULA_MARK in content and (table is not None or not formula):
+        if FORMULA_MARK in content and (self.table is not None or not formula):
             raise TextFormatError(
                 n, "`$$` outside a formula line (a whole line `$$ … $$`)"
             )
         opening = TABLE_OPEN_RE.match(content)
-        if table is not None or opening:
-            # Tables: every line of the block is indented like its `{|` line
-            # and belongs, as an unlabelled block, to that line's owner.
-            if table is None:
-                table = (n, indent, [])
-            elif opening:
-                raise TextFormatError(n, "a table inside a table")
-            elif indent != table[1]:
-                raise TextFormatError(n, "a table line indented unlike its `{|`")
-            elif content == TABLE_CLOSE:
-                if not table[2]:
-                    raise TextFormatError(n, "a table with no rows")
-                try:
-                    table_width(table[2])
-                except ValueError as exc:
-                    raise TextFormatError(table[0], f"table: {exc}") from None
-                table = None
-            else:
-                try:
-                    table[2].append(parse_table_row(content))
-                except ValueError as exc:
-                    raise TextFormatError(n, f"table row: {exc}") from None
-            if opening and TABLE_TOKEN_RE.search(opening.group(1) or ""):
-                raise TextFormatError(n, "table markup inside a caption")
-            k = next(
-                (i for i in range(len(stack) - 1, -1, -1) if stack[i].indent < indent),
-                -1,
-            )
-            owner = stack[: k + 1]
-            out.append(
-                Paragraph(
-                    len(out),
-                    len(owner),
-                    None,
-                    _path(owner, section) or None,
-                    content,
-                    section,
-                    kind="table",
-                )
-            )
-            continue
-        if TABLE_TOKEN_RE.search(content) or is_table_row(content):
+        if self.table is not None or opening:
+            self._table_line(n, content, indent, opening)
+        elif TABLE_TOKEN_RE.search(content) or is_table_row(content):
             raise TextFormatError(n, "table markup outside a table block")
+        elif not self._heading(n, content, indent):
+            self._item(n, content, indent, formula)
+
+    def finish(self) -> ParsedText:
+        if self.table is not None:
+            raise TextFormatError(
+                self.table.line, "a table that is never closed (`|}`)"
+            )
+        return ParsedText(tuple(self.out), True, self.gaps)
+
+    def _owner(self, indent: int) -> list[_Level]:
+        """Rule 5: the open items up to the innermost one whose label line is
+        indented less than `indent`."""
+        k = next(
+            (
+                i
+                for i in range(len(self.stack) - 1, -1, -1)
+                if self.stack[i].indent < indent
+            ),
+            -1,
+        )
+        return self.stack[: k + 1]
+
+    def _unlabelled(self, content: str, indent: int, kind: str) -> None:
+        owner = self._owner(indent)
+        self.out.append(
+            Paragraph(
+                len(self.out),
+                len(owner),
+                None,
+                _path(owner, self.section) or None,
+                content,
+                self.section,
+                kind=kind,
+            )
+        )
+
+    def _table_line(
+        self, n: int, content: str, indent: int, opening: re.Match[str] | None
+    ) -> None:
+        """Every line of a table block is indented like its `{|` line and
+        belongs, as an unlabelled block, to that line's owner."""
+        if self.table is None:
+            self.table = _Table(n, indent)
+        elif opening:
+            raise TextFormatError(n, "a table inside a table")
+        elif indent != self.table.indent:
+            raise TextFormatError(n, "a table line indented unlike its `{|`")
+        elif content == TABLE_CLOSE:
+            self._close_table(n)
+        else:
+            try:
+                self.table.rows.append(parse_table_row(content))
+            except ValueError as exc:
+                raise TextFormatError(n, f"table row: {exc}") from None
+        if opening and TABLE_TOKEN_RE.search(opening.group(1) or ""):
+            raise TextFormatError(n, "table markup inside a caption")
+        self._unlabelled(content, indent, "table")
+
+    def _close_table(self, n: int) -> None:
+        assert self.table is not None
+        if not self.table.rows:
+            raise TextFormatError(n, "a table with no rows")
+        try:
+            table_width(self.table.rows)
+        except ValueError as exc:
+            raise TextFormatError(self.table.line, f"table: {exc}") from None
+        self.table = None
+
+    def _heading(self, n: int, content: str, indent: int) -> bool:
+        """Rule 7: a section heading closes every open level. Return whether
+        the line is one."""
         h = SECTION_HEADING_RE.match(content)
-        found = heading_section(h, roman + 1) if h else None
-        if h and found:
-            # Rule 7: a section heading closes every open level.
-            if indent:
-                raise TextFormatError(n, "a section heading must not be indented")
-            section = found
-            roman = roman + 1 if h.group("rom") else roman
-            if section in sections:
-                raise TextFormatError(n, f"section {section} repeats")
-            sections.add(section)
-            stack = []
-            out.append(Paragraph(len(out), 0, None, None, content, section, True))
-            continue
+        found = heading_section(h, self.roman + 1) if h else None
+        if h is None or found is None:
+            return False
+        if indent:
+            raise TextFormatError(n, "a section heading must not be indented")
+        self.section = found
+        if h.group("rom"):
+            self.roman += 1
+        if found in self.sections:
+            raise TextFormatError(n, f"section {found} repeats")
+        self.sections.add(found)
+        self.stack = []
+        self.out.append(Paragraph(len(self.out), 0, None, None, content, found, True))
+        return True
+
+    def _item(self, n: int, content: str, indent: int, formula: bool) -> None:
         m = LABEL_GROUP_RE.match(content)
         tokens = LABEL_TOKEN_RE.findall(m.group(2)) if m else []
-        if not (m and all(label_values(t) for t in tokens)):
-            # Rule 5: the innermost open item whose label line is indented less.
-            k = next(
-                (i for i in range(len(stack) - 1, -1, -1) if stack[i].indent < indent),
-                -1,
-            )
-            owner = stack[: k + 1]
-            out.append(
-                Paragraph(
-                    len(out),
-                    len(owner),
-                    None,
-                    _path(owner, section) or None,
-                    content,
-                    section,
-                    kind="formula" if formula else "text",
-                )
-            )
-            continue
-        assert m is not None
+        if m is None or not all(label_values(t) for t in tokens):
+            self._unlabelled(content, indent, "formula" if formula else "text")
+        else:
+            self._labelled(n, m, tokens, content, indent)
+
+    def _labelled(
+        self, n: int, m: re.Match[str], tokens: list[str], content: str, indent: int
+    ) -> None:
         body = content[m.end() :]
         body = body[1:] if body.startswith(" ") else body
-        r = _choose(stack, tokens[0], indent, n)
-        del stack[r.level :]
-        stack.append(_Level(r.style, r.value, tokens[0], indent, False))
-        gaps += 1 if r.gap else 0
+        r = _choose(self.stack, tokens[0], indent, n)
+        del self.stack[r.level :]
+        self.stack.append(_Level(r.style, r.value, tokens[0], indent, False))
+        self.gaps += 1 if r.gap else 0
         for tok in tokens[1:]:
             # A later token of a compound label is a child of the one before.
             style, value = _first_style(label_values(tok))
-            stack.append(_Level(style, value, tok, indent, True))
-            gaps += 1 if value != 1 else 0
+            self.stack.append(_Level(style, value, tok, indent, True))
+            self.gaps += 1 if value != 1 else 0
         for i, tok in enumerate(tokens):
-            depth = len(stack) - len(tokens) + i + 1
-            out.append(
+            depth = len(self.stack) - len(tokens) + i + 1
+            self.out.append(
                 Paragraph(
-                    len(out),
+                    len(self.out),
                     depth,
                     ((m.group(1) or "") if i == 0 else "") + f"({tok})",
-                    _path(stack[:depth], section),
+                    _path(self.stack[:depth], self.section),
                     body if i == len(tokens) - 1 else "",
-                    section,
+                    self.section,
                 )
             )
-    if table is not None:
-        raise TextFormatError(table[0], "a table that is never closed (`|}`)")
-    return ParsedText(tuple(out), True, gaps)
 
 
 def paragraph_ref_paths(qualifier: str, paths: set[str]) -> list[str] | None:
