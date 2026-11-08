@@ -113,21 +113,11 @@ On a whole-corpus run, `aircraft.assemble` staged 1,446 of 1,470 fragments: 24
 collide on path because the same designation appears under two TCDS
 (PA-36-285/-300/-375 on A9SO and A10SO; OH-13H on H5SW/H7SW). `assemble`
 fails loud and leaves them unstaged. Not visible today (the staged set is the
-21 TCDS of TCDS-11).
+TCDS in `tools/overrides/faa_tcds_selection.tsv`).
 
 **To close:** an `aircraft_links.tsv` row per pair if it is one type design,
 else a holder/designation difference from the TCDS. List them with `uv run
 python -m tools.s02_emit.aircraft.assemble`.
-
-### TCDS-11. Which FAA TCDS are staged is chosen by hand
-
-`assemble` stages every fragment under `tools/out/derived/tcb/`, so the
-aircraft set is whatever PDFs the FAA parser was last run on: the 21 TCDS
-behind `data/aircraft/`, passed one by one. A full `input/TCDS/FAA/` run would
-stage ~1,450 files. This breaks the "one offline command rebuilds it" rule.
-
-**To close:** record the selection as data (a TCDS list in
-`tools/overrides/` or the catalogue) that the parser or assemble reads.
 
 ### TCDS-13. Most regulation lines on aircraft have no references
 

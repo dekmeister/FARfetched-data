@@ -135,8 +135,7 @@ versions removed on 2026-11-07). Aircraft were identical. `build_info` records
 the data repo's commit but not the tools commit that produced the data.
 
 **To close:** one offline command that runs every pipeline, a check that the
-staged tree equals `data/`, and the tools commit recorded at promotion. Depends
-on TCDS-11.
+staged tree equals `data/`, and the tools commit recorded at promotion.
 
 ### PROC-14. Nothing detects new upstream revisions
 
