@@ -212,7 +212,9 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
    (provisions with matches and score bands), `coverage` (below), `promotion` (the
-   tools commit behind each tree, from `data/promotion.json`), `git_dirty` /
+   tools commit behind each tree, from `data/promotion.json`), `source_checks` (per
+   document, when its upstream listing was last read, or null if no check covers
+   it; this says nothing about the text), `git_dirty` /
    `git_dirty_paths` (see below), and `unresolved_references` (always empty
    on a successful build).
 

@@ -125,16 +125,6 @@ dicts (JSON payloads the schema already validates; a TypedDict migration touches
 every emitter), lifting the duplicate TCDS catalogue helpers, merging the
 DoD/NATO emitters (too small, or already diverged).
 
-### PROC-14. Nothing detects new upstream revisions
-
-Refreshing is manual and there is no record of when each source was last
-checked. The build has no "data current to" date, so a reader can't tell a
-source with no newer amendment from one nobody has checked. TCDS reissues have
-the same problem (ETCDS-1).
-
-**To close:** a scheduled, report-only discover run listing new amendments and
-TCDS issues, and a per-document checked-on date in the report.
-
 ### PROC-15. Rights to NATO and EASA source text are unresolved
 
 The repo is public and the site is live. Terms found so far are in

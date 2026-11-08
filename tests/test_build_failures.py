@@ -283,3 +283,15 @@ def test_coverage_counts_entries_tcbs_and_models(tmp_path: Path) -> None:
     assert coverage["models"] == {"total": 2, "resolve_to_nothing": 1}
     [only] = coverage["models_resolving_to_nothing"]
     assert only.endswith(" / B")
+
+
+def test_report_carries_promotion_and_source_checks(tmp_path: Path) -> None:
+    data = fx.stage(
+        tmp_path, [fx.faa_part("23", [0])], [fx.cfr_provision("23", "1", [0])], []
+    )
+    assert build(data, tmp_path / "a.sqlite")["source_checks"] == {"FAA/23": None}
+    (data / "promotion.json").write_text('{"documents": {"tools_commit": "abc"}}')
+    (data / "source_checks.json").write_text('{"FAA/23": {"checked_on": "2026-11-08"}}')
+    report = build(data, tmp_path / "b.sqlite")
+    assert report["promotion"]["documents"]["tools_commit"] == "abc"
+    assert report["source_checks"]["FAA/23"]["checked_on"] == "2026-11-08"

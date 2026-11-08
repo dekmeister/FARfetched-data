@@ -166,9 +166,36 @@ class BuildReport(TypedDict):
     similarity: dict[str, int]
     coverage: Coverage
     promotion: dict[str, Any]
+    source_checks: dict[str, Any]
     git_dirty: bool | None
     git_dirty_paths: list[str]
     unresolved_references: list[str]
+
+
+def _document_counts(conn: sqlite3.Connection) -> dict[str, dict[str, int]]:
+    return {
+        f"{issuer}/{slug}": {
+            "revisions": revs,
+            "provisions": provs,
+            "versions": vers,
+            "renumbered": renum,
+        }
+        for issuer, slug, revs, provs, vers, renum in conn.execute(
+            """
+            SELECT i.code, d.slug,
+              (SELECT count(*) FROM document_revisions r
+               WHERE r.document_id = d.id),
+              (SELECT count(*) FROM provisions p WHERE p.document_id = d.id),
+              (SELECT count(*) FROM provision_versions v
+               WHERE v.document_id = d.id),
+              (SELECT count(DISTINCT v.provision_id) FROM provision_versions v
+               JOIN provisions p ON p.id = v.provision_id
+               WHERE v.document_id = d.id AND v.number <> p.number)
+            FROM documents d JOIN issuers i ON i.id = d.issuer_id
+            ORDER BY i.code, d.slug
+            """
+        )
+    }
 
 
 def build_report(
@@ -178,6 +205,7 @@ def build_report(
     para_stats: ParagraphRefStats,
     dirty_paths: list[str] | None,
     promotion: dict[str, Any],
+    source_checks: dict[str, Any],
 ) -> BuildReport:
     tables = [
         r[0]
@@ -189,32 +217,11 @@ def build_report(
     counts = {
         t: conn.execute(f"SELECT count(*) FROM {t}").fetchone()[0] for t in tables
     }
+    documents = _document_counts(conn)
     return {
         "schema_version": SCHEMA_VERSION,
         "tables": counts,
-        "documents": {
-            f"{issuer}/{slug}": {
-                "revisions": revs,
-                "provisions": provs,
-                "versions": vers,
-                "renumbered": renum,
-            }
-            for issuer, slug, revs, provs, vers, renum in conn.execute(
-                """
-                SELECT i.code, d.slug,
-                  (SELECT count(*) FROM document_revisions r
-                   WHERE r.document_id = d.id),
-                  (SELECT count(*) FROM provisions p WHERE p.document_id = d.id),
-                  (SELECT count(*) FROM provision_versions v
-                   WHERE v.document_id = d.id),
-                  (SELECT count(DISTINCT v.provision_id) FROM provision_versions v
-                   JOIN provisions p ON p.id = v.provision_id
-                   WHERE v.document_id = d.id AND v.number <> p.number)
-                FROM documents d JOIN issuers i ON i.id = d.issuer_id
-                ORDER BY i.code, d.slug
-                """
-            )
-        },
+        "documents": documents,
         "text_missing": conn.execute(
             "SELECT count(*) FROM provision_versions WHERE text_missing"
         ).fetchone()[0],
@@ -235,6 +242,8 @@ def build_report(
         "similarity": similarity_report(conn),
         "coverage": coverage_report(conn),
         "promotion": promotion,
+        # Null for a document no upstream check covers.
+        "source_checks": {**dict.fromkeys(documents), **source_checks},
         "git_dirty": None if dirty_paths is None else bool(dirty_paths),
         "git_dirty_paths": dirty_paths or [],
         "unresolved_references": unresolved,

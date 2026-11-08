@@ -138,6 +138,7 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
         para_stats,
         git_dirty_paths(data_dir),
         read_state(data_dir / "promotion.json"),
+        read_state(data_dir / "source_checks.json"),
     )
 
 
