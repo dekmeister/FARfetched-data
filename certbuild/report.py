@@ -6,10 +6,11 @@ pipeline.py.
 
 from __future__ import annotations
 
+import json
 import sqlite3
 import subprocess
 from pathlib import Path
-from typing import TypedDict
+from typing import Any, TypedDict
 
 from certbuild.aircraft import ParagraphRefStats
 from certbuild.ddl import SCHEMA_VERSION
@@ -141,6 +142,14 @@ def coverage_report(conn: sqlite3.Connection) -> Coverage:
     }
 
 
+def read_state(path: Path) -> dict[str, Any]:
+    """A JSON file `tools/` keeps beside the data, or {} if there isn't one."""
+    if not path.exists():
+        return {}
+    state: dict[str, Any] = json.loads(path.read_text(encoding="utf-8"))
+    return state
+
+
 # TypedDict rather than dataclass: keeps the return dict-serialisable for the report.
 class BuildReport(TypedDict):
     schema_version: int
@@ -156,6 +165,7 @@ class BuildReport(TypedDict):
     paragraph_refs_unverifiable: int
     similarity: dict[str, int]
     coverage: Coverage
+    promotion: dict[str, Any]
     git_dirty: bool | None
     git_dirty_paths: list[str]
     unresolved_references: list[str]
@@ -167,6 +177,7 @@ def build_report(
     text_stats: TextStats,
     para_stats: ParagraphRefStats,
     dirty_paths: list[str] | None,
+    promotion: dict[str, Any],
 ) -> BuildReport:
     tables = [
         r[0]
@@ -223,6 +234,7 @@ def build_report(
         "paragraph_refs_unverifiable": para_stats.unverifiable,
         "similarity": similarity_report(conn),
         "coverage": coverage_report(conn),
+        "promotion": promotion,
         "git_dirty": None if dirty_paths is None else bool(dirty_paths),
         "git_dirty_paths": dirty_paths or [],
         "unresolved_references": unresolved,

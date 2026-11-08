@@ -23,7 +23,13 @@ from certbuild.provisions import (
     number_clashes,
     parse_texts,
 )
-from certbuild.report import BuildReport, build_report, git_dirty_paths, git_sha
+from certbuild.report import (
+    BuildReport,
+    build_report,
+    git_dirty_paths,
+    git_sha,
+    read_state,
+)
 from certbuild.similarity import insert_similarity
 from certbuild.text.paragraphs import ParsedText
 from certbuild.sources import (
@@ -125,7 +131,14 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
         ]
     )
     # Every reference resolved, or insert_aircraft's stage would have raised.
-    return build_report(conn, [], text_stats, para_stats, git_dirty_paths(data_dir))
+    return build_report(
+        conn,
+        [],
+        text_stats,
+        para_stats,
+        git_dirty_paths(data_dir),
+        read_state(data_dir / "promotion.json"),
+    )
 
 
 def build(data_dir: Path, out_path: Path) -> BuildReport:

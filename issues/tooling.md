@@ -125,18 +125,6 @@ dicts (JSON payloads the schema already validates; a TypedDict migration touches
 every emitter), lifting the duplicate TCDS catalogue helpers, merging the
 DoD/NATO emitters (too small, or already diverged).
 
-### PROC-13. Nothing shows that `data/` can be rebuilt from source
-
-The rule is that `data/` is local sources plus overrides through the pipeline,
-but no command or test proves it. On 2026-11-08 `promote --dry-run` reported
-295 document files differing from `tools/out/staged/`: the staged tree is older
-than `data/` (no inline markup in 761 texts, and 5 CS-25 files still have the
-versions removed on 2026-11-07). Aircraft were identical. `build_info` records
-the data repo's commit but not the tools commit that produced the data.
-
-**To close:** one offline command that runs every pipeline, a check that the
-staged tree equals `data/`, and the tools commit recorded at promotion.
-
 ### PROC-14. Nothing detects new upstream revisions
 
 Refreshing is manual and there is no record of when each source was last
