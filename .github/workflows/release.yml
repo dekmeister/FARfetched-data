@@ -1,0 +1,36 @@
+name: Release
+
+# Tag data-YYYY-MM-DD to publish the database the app fetches. A tag containing
+# -test or -rc makes a pre-release, which never becomes "latest".
+on:
+  push:
+    tags: ["data-*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      # Actions pinned to commits, not movable tags. Update deliberately.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+        with:
+          python-version: "3.12"
+      - run: uv sync --locked
+      - run: uv run pytest tests
+      - run: uv run python build.py
+      - run: uv run python -m scripts.check_release --commit "$GITHUB_SHA"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          case "$TAG" in
+            *-test*|*-rc*) flags="--prerelease --latest=false" ;;
+            *) flags="--latest" ;;
+          esac
+          # shellcheck disable=SC2086
+          gh release create "$TAG" cert_basis.sqlite cert_basis_report.json \
+            --title "$TAG" --notes-file .github/release_notes.md --verify-tag $flags

@@ -50,12 +50,12 @@ reverse-engineered notes.
 
 ### ROADMAP-8. CI and releases
 
-There is no `.github/workflows/` yet.
+The workflows exist (`.github/workflows/`, README §Publishing) but have never run
+on GitHub.
 
-- On push to `main`: validate, build, test.
-- On tags: upload `cert_basis.sqlite` and `cert_basis_report.json` as release
-  assets for the app's deploy to fetch.
-- Dry-run the release fetch with a placeholder DB first (NFSN).
+**To close:** push `main`, push a `data-*-test` tag, fetch the pre-release with the
+app's `scripts/fetch_db.py --url` (also from NFSN), then publish a first full
+release when the maintainer judges the data ready.
 
 ### ROADMAP-9. Widen EASA TCDS coverage
 

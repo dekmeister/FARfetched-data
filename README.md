@@ -111,6 +111,16 @@ A wrong value is fixed with an override row (with evidence) in
 TCDS cites a revision or provision that isn't in `data/` yet, ingest that
 document first. Problems that need a human go in [ISSUES.md](ISSUES.md).
 
+## Publishing
+
+`.github/workflows/ci.yml` checks every push to `main`. Pushing a `data-YYYY-MM-DD`
+tag runs `release.yml`, which builds that commit, runs the integrity gate
+(`scripts/check_release.py`) and attaches `cert_basis.sqlite` and
+`cert_basis_report.json` to a GitHub release. The app fetches the latest release.
+A tag containing `-test` or `-rc` makes a pre-release that never becomes latest.
+The gate checks integrity, not accuracy, so choosing what to publish stays a
+human decision.
+
 ## License
 
 See [LICENSE](LICENSE).
