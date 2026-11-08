@@ -6,7 +6,8 @@ This is the **data repo**. It contains no application code. Three roles:
 
 - **`tools/` produces `data/`.** JSON for documents, provisions and aircraft
   is built from local source copies plus override rows, and promoted after
-  review. Nothing else writes `data/`.
+  review. Nothing else writes `data/`. The one exception is `data/NOTICE`, the
+  hand-written rights statement (docs/RIGHTS.md).
 - **`build.py` checks and compiles.** It validates `data/`, resolves every
   cert-basis reference, fails loud, and writes `cert_basis.sqlite`.
 - **`cert_basis.sqlite` is the contract with the app.** The FARFETCHed Flask

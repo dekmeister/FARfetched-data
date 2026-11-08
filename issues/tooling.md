@@ -147,16 +147,17 @@ the same problem (ETCDS-1).
 **To close:** a scheduled, report-only discover run listing new amendments and
 TCDS issues, and a per-document checked-on date in the report.
 
-### PROC-15. Rights to redistribute source text have not been assessed
+### PROC-15. Rights to NATO and EASA source text are unresolved
 
-The repo is public and the site is live. `LICENSE` is MIT with no carve-out for
-`data/`, which holds EASA and NATO text. NATO-1 notes that some STANAG 4671
-editions aren't freely available, and Ed. 1 came from an archive copy. Nothing
-records the reuse terms for any issuer. This is a gap in what was checked, not
+The repo is public and the site is live. Terms found so far are in
+[docs/RIGHTS.md](../docs/RIGHTS.md), and `data/NOTICE` separates the text from the
+MIT-licensed code. NATO and EASA are unresolved: the 2019 NATO PDFs are marked
+`© NATO/OTAN` with no reuse terms found, and EASA's general permission sits beside
+"All rights reserved" on its Decision forms. This is a gap in what was checked, not
 a finding of infringement.
 
-**To close:** record each issuer's reuse terms, and give `data/` its own licence
-and attribution, separate from the code. Get advice if the terms are unclear.
+**To close:** establish NATO's and EASA's terms (read them, or ask), and decide
+whether the NATO text stays in `data/`. Get advice if the terms stay unclear.
 
 ### PROC-16. Versions without a `source_url`
 

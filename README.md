@@ -123,4 +123,6 @@ human decision.
 
 ## License
 
-See [LICENSE](LICENSE).
+The code is MIT licensed: see [LICENSE](LICENSE). That licence doesn't cover the
+regulatory text in `data/`, which belongs to its issuers. See
+[data/NOTICE](data/NOTICE) and [docs/RIGHTS.md](docs/RIGHTS.md).
