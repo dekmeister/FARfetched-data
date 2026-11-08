@@ -14,7 +14,8 @@ from pathlib import Path
 
 import pytest
 
-from build import BuildError, build
+from certbuild.errors import BuildError
+from certbuild.pipeline import build
 
 EDITIONS = ["A", "B", "C", "D"]
 

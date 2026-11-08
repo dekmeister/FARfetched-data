@@ -4,9 +4,8 @@ from typing import Any, ClassVar
 
 import pytest
 
-from build import (
-    _CATEGORY_NAMES,
-    _ISSUERS,
+from certbuild.lookups import CATEGORY_NAMES, ISSUERS
+from certbuild.sources import (
     SCHEMAS_DIR,
     validate_aircraft_file,
     validate_data_dir,
@@ -45,16 +44,16 @@ class TestClosedSetsAgree:
 
     def test_issuers(self) -> None:
         common = json.loads((SCHEMAS_DIR / "common.schema.json").read_text())
-        assert common["$defs"]["issuer"]["enum"] == list(_ISSUERS)
+        assert common["$defs"]["issuer"]["enum"] == list(ISSUERS)
 
     def test_categories(self) -> None:
         aircraft = json.loads((SCHEMAS_DIR / "aircraft_model.schema.json").read_text())
         enum = aircraft["$defs"]["categories"]["items"]["enum"]
-        assert enum == list(_CATEGORY_NAMES)
+        assert enum == list(CATEGORY_NAMES)
 
     def test_successors_are_seeded_first(self) -> None:
-        codes = list(_ISSUERS)
-        for i, (_, _, _, successor) in enumerate(_ISSUERS.values()):
+        codes = list(ISSUERS)
+        for i, (_, _, _, successor) in enumerate(ISSUERS.values()):
             assert successor is None or codes.index(successor) < i
 
 

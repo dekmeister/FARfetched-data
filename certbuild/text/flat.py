@@ -9,7 +9,7 @@ from certbuild.text.tables import (
     TABLE_CLOSE,
     TABLE_OPEN,
     TABLE_ROW_SEP,
-    _TABLE_OPEN_RE,
+    TABLE_OPEN_RE,
     is_table_row,
 )
 
@@ -28,7 +28,7 @@ def flatten_text(text: str) -> str:
             continue
         if in_table and is_table_row(s) and out:
             out.append(TABLE_ROW_SEP)
-        if _TABLE_OPEN_RE.match(s):
+        if TABLE_OPEN_RE.match(s):
             in_table = True
         elif s == TABLE_CLOSE:
             in_table = False

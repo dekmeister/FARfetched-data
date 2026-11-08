@@ -14,8 +14,8 @@ import re
 # between the readings the labels allow and must agree with the chosen one.
 # Indentation is always compared with other lines, never with a fixed width.
 
-_LABEL_GROUP_RE = re.compile(r"(\[ ?)?((?:\([A-Za-z0-9]{1,5}\))+)(?= |$)")
-_LABEL_TOKEN_RE = re.compile(r"\(([A-Za-z0-9]{1,5})\)")
+LABEL_GROUP_RE = re.compile(r"(\[ ?)?((?:\([A-Za-z0-9]{1,5}\))+)(?= |$)")
+LABEL_TOKEN_RE = re.compile(r"\(([A-Za-z0-9]{1,5})\)")
 # A section heading inside a provision text: an appendix assembled from its
 # sections (`Sec. F23.2 Part II--Test Method ...`), or one divided by roman
 # numerals (`IV. Static longitudinal stability`). Labels restart under it.

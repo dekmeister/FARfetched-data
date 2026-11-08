@@ -8,26 +8,26 @@ from pathlib import Path
 
 from certbuild.errors import BuildError
 from certbuild.keys import sort_key
-from certbuild.lookups import _issuer_id
+from certbuild.lookups import issuer_id_for
 from certbuild.sources import (
     DOCUMENT_FILE,
     Source,
-    _integrity_context,
-    _load_provisions,
-    _provenance,
+    integrity_context,
+    load_provisions,
+    provenance,
 )
 from certbuild.text.paragraphs import ParsedText, TextFormatError, parse_paragraphs
 
 
-def _insert_documents(conn: sqlite3.Connection, documents: list[Source]) -> None:
+def insert_documents(conn: sqlite3.Connection, documents: list[Source]) -> None:
     for s in documents:
         d = s.doc
-        with _integrity_context(s.path):
+        with integrity_context(s.path):
             cur = conn.execute(
                 "INSERT INTO documents "
                 "(issuer_id, doc_kind, code, slug, title) VALUES (?, ?, ?, ?, ?)",
                 (
-                    _issuer_id(conn, d["issuer"]),
+                    issuer_id_for(conn, d["issuer"]),
                     d["doc_kind"],
                     d["code"],
                     d["slug"],
@@ -36,7 +36,7 @@ def _insert_documents(conn: sqlite3.Connection, documents: list[Source]) -> None
             )
             doc_id = cur.lastrowid
             for r in d["revisions"]:
-                source, notes = _provenance(r)
+                source, notes = provenance(r)
                 conn.execute(
                     "INSERT INTO document_revisions "
                     "(document_id, designator, ordinal, effective_date, "
@@ -53,7 +53,7 @@ def _insert_documents(conn: sqlite3.Connection, documents: list[Source]) -> None
                 )
 
 
-def _document_id(conn: sqlite3.Connection, issuer: str, slug: str) -> int | None:
+def document_id_for(conn: sqlite3.Connection, issuer: str, slug: str) -> int | None:
     row = conn.execute(
         "SELECT d.id FROM documents d JOIN issuers i ON i.id = d.issuer_id "
         "WHERE i.code = ? AND d.slug = ?",
@@ -158,10 +158,10 @@ def check_text(label: str, designator: str, text: str) -> ParsedText | str:
 
 def check_text_format(data_dir: Path) -> list[str]:
     """Format errors in every provision text under data_dir (for --check)."""
-    return _text_format_errors(_load_provisions(data_dir))
+    return text_format_errors(load_provisions(data_dir))
 
 
-def _text_format_errors(provisions: list[Source]) -> list[str]:
+def text_format_errors(provisions: list[Source]) -> list[str]:
     errors: list[str] = []
     for s in provisions:
         p = s.doc
@@ -198,14 +198,14 @@ def _insert_paragraphs(
     )
 
 
-def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> TextStats:
+def insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> TextStats:
     """Insert provisions and versions. Text-format errors are collected over
     every file and raised together, so one run lists all of them."""
     stats = TextStats()
     for s in provisions:
         p = s.doc
         label = f"{p['issuer']}/{p['document']}/{p['key']}"
-        doc_id = _document_id(conn, p["issuer"], p["document"])
+        doc_id = document_id_for(conn, p["issuer"], p["document"])
         if doc_id is None:
             raise BuildError(
                 [f"{s.path}: no {DOCUMENT_FILE} for ({p['issuer']}, {p['document']})"]
@@ -230,7 +230,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
                 ]
             )
 
-        with _integrity_context(s.path):
+        with integrity_context(s.path):
             cur = conn.execute(
                 "INSERT INTO provisions "
                 "(document_id, key, number, sort_key, canonical_title, "
@@ -250,7 +250,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
             version_id: dict[str, int] = {}
             parsed_by_text: dict[str, ParsedText] = {}
             for v in resolved:
-                source, notes = _provenance(v)
+                source, notes = provenance(v)
                 same_as = v["same_as_designator"]
                 pv_cur = conn.execute(
                     "INSERT INTO provision_versions "
@@ -312,7 +312,7 @@ def _insert_provisions(conn: sqlite3.Connection, provisions: list[Source]) -> Te
     return stats
 
 
-def _number_clashes(conn: sqlite3.Connection) -> list[str]:
+def number_clashes(conn: sqlite3.Connection) -> list[str]:
     """At every revision of a document, a printed number names at most one
     provision in force. Versions are sparse (a provision keeps its number
     until its next version), so this is a sweep in revision order, not a

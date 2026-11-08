@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from build import build
+from certbuild.pipeline import build
 
 REPO_ROOT = Path(__file__).parent.parent
 

@@ -9,16 +9,16 @@ from pathlib import Path
 
 import pytest
 
-from build import (
+from certbuild.pipeline import build
+from certbuild.similarity import (
     SIMILARITY_MIN_DOC_SIZE,
     SIMILARITY_TOP_PER_DOCUMENT,
     SimilaritySource,
-    build,
     compute_similarity,
-    plain_text,
     similarity_terms,
     stem,
 )
+from certbuild.text import plain_text
 
 # ---------------------------------------------------------------------------
 # terms

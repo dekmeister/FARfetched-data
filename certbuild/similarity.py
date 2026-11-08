@@ -212,7 +212,7 @@ def _similarity_sources(conn: sqlite3.Connection) -> list[SimilaritySource]:
     ]
 
 
-def _insert_similarity(conn: sqlite3.Connection) -> None:
+def insert_similarity(conn: sqlite3.Connection) -> None:
     conn.executemany(
         "INSERT INTO provision_similarity "
         "(provision_id, similar_provision_id, rank, score) VALUES (?, ?, ?, ?)",
@@ -220,7 +220,7 @@ def _insert_similarity(conn: sqlite3.Connection) -> None:
     )
 
 
-def _similarity_report(conn: sqlite3.Connection) -> dict[str, int]:
+def similarity_report(conn: sqlite3.Connection) -> dict[str, int]:
     bands = conn.execute(
         """
         SELECT count(DISTINCT provision_id),

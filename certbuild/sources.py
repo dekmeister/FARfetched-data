@@ -97,28 +97,28 @@ def _load(paths: Iterator[Path]) -> list[Source]:
     return [Source(p, json.loads(p.read_text())) for p in sorted(paths)]
 
 
-def _load_documents(data_dir: Path) -> list[Source]:
+def load_documents(data_dir: Path) -> list[Source]:
     docs_dir = data_dir / "documents"
     if not docs_dir.is_dir():
         return []
     return _load(docs_dir.rglob(DOCUMENT_FILE))
 
 
-def _load_provisions(data_dir: Path) -> list[Source]:
+def load_provisions(data_dir: Path) -> list[Source]:
     docs_dir = data_dir / "documents"
     if not docs_dir.is_dir():
         return []
     return _load(p for p in docs_dir.rglob("*.json") if p.name != DOCUMENT_FILE)
 
 
-def _load_aircraft(data_dir: Path) -> list[Source]:
+def load_aircraft(data_dir: Path) -> list[Source]:
     ac_dir = data_dir / "aircraft"
     if not ac_dir.is_dir():
         return []
     return _load(ac_dir.rglob("*.json"))
 
 
-def _check_paths(documents: list[Source], provisions: list[Source]) -> list[str]:
+def check_paths(documents: list[Source], provisions: list[Source]) -> list[str]:
     """File location must agree with the identity fields inside the file."""
     errors: list[str] = []
     for s in documents:
@@ -137,7 +137,7 @@ def _check_paths(documents: list[Source], provisions: list[Source]) -> list[str]
 
 
 @contextmanager
-def _integrity_context(path: Path) -> Iterator[None]:
+def integrity_context(path: Path) -> Iterator[None]:
     """Turn a constraint violation into a BuildError naming the source file."""
     try:
         yield
@@ -145,6 +145,6 @@ def _integrity_context(path: Path) -> Iterator[None]:
         raise BuildError([f"{path}: integrity error: {exc}"]) from exc
 
 
-def _provenance(obj: dict) -> tuple[str, str | None]:
+def provenance(obj: dict) -> tuple[str, str | None]:
     prov = obj.get("provenance") or {}
     return prov.get("source", "scraped"), prov.get("notes")

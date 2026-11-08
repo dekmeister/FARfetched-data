@@ -9,15 +9,12 @@ from pathlib import Path
 
 import pytest
 
-from build import (
-    REPO_ROOT,
-    SCHEMA_VERSION,
-    BuildError,
-    build,
-    check,
-    main,
-    sort_key,
-)
+from build import main
+from certbuild.ddl import SCHEMA_VERSION
+from certbuild.errors import BuildError
+from certbuild.keys import sort_key
+from certbuild.pipeline import build, check
+from certbuild.sources import REPO_ROOT
 
 # ---------------------------------------------------------------------------
 # helpers

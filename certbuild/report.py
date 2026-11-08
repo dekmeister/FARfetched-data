@@ -10,10 +10,10 @@ from typing import TypedDict
 from certbuild.aircraft import ParagraphRefStats
 from certbuild.ddl import SCHEMA_VERSION
 from certbuild.provisions import TextStats
-from certbuild.similarity import _similarity_report
+from certbuild.similarity import similarity_report
 
 
-def _git_sha(data_dir: Path) -> str | None:
+def git_sha(data_dir: Path) -> str | None:
     try:
         out = subprocess.run(
             ["git", "-C", str(data_dir), "rev-parse", "HEAD"],
@@ -26,7 +26,7 @@ def _git_sha(data_dir: Path) -> str | None:
     return out.stdout.strip() or None
 
 
-def _git_dirty_paths(data_dir: Path) -> list[str] | None:
+def git_dirty_paths(data_dir: Path) -> list[str] | None:
     """Uncommitted changes under data_dir (repo-relative), or None outside git.
 
     Reported, not stored in the DB: build_info.git_sha names HEAD, and this
@@ -72,7 +72,7 @@ class BuildReport(TypedDict):
     unresolved_references: list[str]
 
 
-def _build_report(
+def build_report(
     conn: sqlite3.Connection,
     unresolved: list[str],
     text_stats: TextStats,
@@ -132,7 +132,7 @@ def _build_report(
         "label_gaps": text_stats.label_gaps,
         "paragraph_refs_verified": para_stats.verified,
         "paragraph_refs_unverifiable": para_stats.unverifiable,
-        "similarity": _similarity_report(conn),
+        "similarity": similarity_report(conn),
         "git_dirty": None if dirty_paths is None else bool(dirty_paths),
         "git_dirty_paths": dirty_paths or [],
         "unresolved_references": unresolved,

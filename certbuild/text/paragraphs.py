@@ -7,8 +7,8 @@ from dataclasses import dataclass
 
 from certbuild.text.labels import (
     SECTION_HEADING_RE,
-    _LABEL_GROUP_RE,
-    _LABEL_TOKEN_RE,
+    LABEL_GROUP_RE,
+    LABEL_TOKEN_RE,
     heading_section,
     label_values,
 )
@@ -16,8 +16,8 @@ from certbuild.text.markup import FORMULA_MARK, formula_body, inline_error
 from certbuild.text.tables import (
     TABLE_CLOSE,
     TableCell,
-    _TABLE_OPEN_RE,
-    _TABLE_TOKEN_RE,
+    TABLE_OPEN_RE,
+    TABLE_TOKEN_RE,
     is_table_row,
     parse_table_row,
     table_width,
@@ -141,7 +141,7 @@ def parse_paragraphs(text: str) -> ParsedText:
         n, raw = lines[0]
         if raw[0].isspace():
             raise TextFormatError(n, "a single-line text must not be indented")
-        if _TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
+        if TABLE_TOKEN_RE.search(raw) or is_table_row(raw):
             raise TextFormatError(n, "table markup in a single-line text")
         if FORMULA_MARK in raw:
             raise TextFormatError(n, "`$$` in a single-line text")
@@ -169,7 +169,7 @@ def parse_paragraphs(text: str) -> ParsedText:
             raise TextFormatError(
                 n, "`$$` outside a formula line (a whole line `$$ … $$`)"
             )
-        opening = _TABLE_OPEN_RE.match(content)
+        opening = TABLE_OPEN_RE.match(content)
         if table is not None or opening:
             # Tables: every line of the block is indented like its `{|` line
             # and belongs, as an unlabelled block, to that line's owner.
@@ -192,7 +192,7 @@ def parse_paragraphs(text: str) -> ParsedText:
                     table[2].append(parse_table_row(content))
                 except ValueError as exc:
                     raise TextFormatError(n, f"table row: {exc}") from None
-            if opening and _TABLE_TOKEN_RE.search(opening.group(1) or ""):
+            if opening and TABLE_TOKEN_RE.search(opening.group(1) or ""):
                 raise TextFormatError(n, "table markup inside a caption")
             k = next(
                 (i for i in range(len(stack) - 1, -1, -1) if stack[i].indent < indent),
@@ -211,7 +211,7 @@ def parse_paragraphs(text: str) -> ParsedText:
                 )
             )
             continue
-        if _TABLE_TOKEN_RE.search(content) or is_table_row(content):
+        if TABLE_TOKEN_RE.search(content) or is_table_row(content):
             raise TextFormatError(n, "table markup outside a table block")
         h = SECTION_HEADING_RE.match(content)
         found = heading_section(h, roman + 1) if h else None
@@ -227,8 +227,8 @@ def parse_paragraphs(text: str) -> ParsedText:
             stack = []
             out.append(Paragraph(len(out), 0, None, None, content, section, True))
             continue
-        m = _LABEL_GROUP_RE.match(content)
-        tokens = _LABEL_TOKEN_RE.findall(m.group(2)) if m else []
+        m = LABEL_GROUP_RE.match(content)
+        tokens = LABEL_TOKEN_RE.findall(m.group(2)) if m else []
         if not (m and all(label_values(t) for t in tokens)):
             # Rule 5: the innermost open item whose label line is indented less.
             k = next(

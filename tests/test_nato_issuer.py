@@ -12,7 +12,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from build import build
+from certbuild.pipeline import build
 
 URL = "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN"
 

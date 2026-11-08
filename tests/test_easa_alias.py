@@ -8,7 +8,8 @@ from pathlib import Path
 
 import pytest
 
-from build import BuildError, build
+from certbuild.errors import BuildError
+from certbuild.pipeline import build
 
 
 def _stage(tmp_path: Path, documents: list[dict], provisions: list[dict]) -> Path:

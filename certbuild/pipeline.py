@@ -7,23 +7,23 @@ import sqlite3
 from datetime import UTC, date, datetime
 from pathlib import Path
 
-from certbuild.aircraft import ParagraphRefStats, _insert_aircraft
+from certbuild.aircraft import ParagraphRefStats, insert_aircraft
 from certbuild.ddl import SCHEMA_SQL, SCHEMA_VERSION
 from certbuild.errors import BuildError
-from certbuild.lookups import _seed_lookups
+from certbuild.lookups import seed_lookups
 from certbuild.provisions import (
-    _insert_documents,
-    _insert_provisions,
-    _number_clashes,
-    _text_format_errors,
+    insert_documents,
+    insert_provisions,
+    number_clashes,
+    text_format_errors,
 )
-from certbuild.report import BuildReport, _build_report, _git_dirty_paths, _git_sha
-from certbuild.similarity import _insert_similarity
+from certbuild.report import BuildReport, build_report, git_dirty_paths, git_sha
+from certbuild.similarity import insert_similarity
 from certbuild.sources import (
-    _check_paths,
-    _load_aircraft,
-    _load_documents,
-    _load_provisions,
+    check_paths,
+    load_aircraft,
+    load_documents,
+    load_provisions,
     validate_data_dir,
 )
 
@@ -65,10 +65,10 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
     if validation_errors:
         raise BuildError([str(e) for e in validation_errors])
 
-    documents = _load_documents(data_dir)
-    provisions = _load_provisions(data_dir)
-    aircraft = _load_aircraft(data_dir)
-    path_errors = _check_paths(documents, provisions)
+    documents = load_documents(data_dir)
+    provisions = load_provisions(data_dir)
+    aircraft = load_aircraft(data_dir)
+    path_errors = check_paths(documents, provisions)
     if path_errors:
         raise BuildError(path_errors)
 
@@ -85,29 +85,29 @@ def build(data_dir: Path, out_path: Path) -> BuildReport:
             "VALUES (1, ?, ?, ?)",
             (
                 SCHEMA_VERSION,
-                _git_sha(data_dir),
+                git_sha(data_dir),
                 datetime.now(UTC).isoformat(timespec="seconds"),
             ),
         )
-        _seed_lookups(conn)
-        _insert_documents(conn, documents)
-        text_stats = _insert_provisions(conn, provisions)
+        seed_lookups(conn)
+        insert_documents(conn, documents)
+        text_stats = insert_provisions(conn, provisions)
         if text_stats.errors:
             raise BuildError(text_stats.errors)
-        clashes = _number_clashes(conn)
+        clashes = number_clashes(conn)
         if clashes:
             raise BuildError(clashes)
-        _insert_similarity(conn)
+        insert_similarity(conn)
         para_stats = ParagraphRefStats()
-        unresolved = _insert_aircraft(conn, aircraft, para_stats)
+        unresolved = insert_aircraft(conn, aircraft, para_stats)
         date_errors = _future_dates(conn, date.today().isoformat())
         if date_errors:
             raise BuildError(date_errors)
         fk_errors = conn.execute("PRAGMA foreign_key_check").fetchall()
         if fk_errors:
             raise BuildError([f"foreign key violation: {r}" for r in fk_errors])
-        report = _build_report(
-            conn, unresolved, text_stats, para_stats, _git_dirty_paths(data_dir)
+        report = build_report(
+            conn, unresolved, text_stats, para_stats, git_dirty_paths(data_dir)
         )
         conn.commit()
     except Exception:
@@ -146,7 +146,7 @@ def check(data_dir: Path) -> list[str]:
     validation_errors = validate_data_dir(data_dir)
     if validation_errors:
         return [str(e) for e in validation_errors]
-    provisions = _load_provisions(data_dir)
-    errors = _check_paths(_load_documents(data_dir), provisions)
-    errors.extend(_text_format_errors(provisions))
+    provisions = load_provisions(data_dir)
+    errors = check_paths(load_documents(data_dir), provisions)
+    errors.extend(text_format_errors(provisions))
     return errors

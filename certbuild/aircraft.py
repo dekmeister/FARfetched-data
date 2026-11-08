@@ -7,10 +7,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from certbuild.errors import BuildError
-from certbuild.lookups import _category_id, _issuer_id, _upsert_manufacturer
-from certbuild.provisions import _document_id
+from certbuild.lookups import category_id_for, issuer_id_for, upsert_manufacturer
+from certbuild.provisions import document_id_for
 from certbuild.resolve import DocIndex, Ref, Resolved, resolve_entry
-from certbuild.sources import Source, _integrity_context
+from certbuild.sources import Source, integrity_context
 from certbuild.text.paragraphs import paragraph_ref_paths
 
 
@@ -46,7 +46,7 @@ def _doc_index_for(
     doc_indexes: dict[tuple[str, str], DocIndex],
 ) -> DocIndex | None:
     if key not in doc_indexes:
-        doc_id = _document_id(conn, *key)
+        doc_id = document_id_for(conn, *key)
         if doc_id is None:
             return None
         doc_indexes[key] = _doc_index(conn, doc_id, key[1])
@@ -215,7 +215,7 @@ def _check_paragraph_refs(
 
 def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
     """Insert a TCDS once; a repeat must carry identical metadata."""
-    issuer_id = _issuer_id(conn, tcds_doc["issuer"])
+    issuer_id = issuer_id_for(conn, tcds_doc["issuer"])
     meta = (
         tcds_doc.get("revision"),
         tcds_doc.get("revision_date"),
@@ -245,20 +245,20 @@ def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
     return cur.lastrowid
 
 
-def _insert_aircraft(
+def insert_aircraft(
     conn: sqlite3.Connection, aircraft: list[Source], para_stats: ParagraphRefStats
 ) -> list[str]:
     failures: list[str] = []
     doc_indexes: dict[tuple[str, str], DocIndex] = {}
     for s in aircraft:
         doc = s.doc
-        with _integrity_context(s.path):
+        with integrity_context(s.path):
             cur = conn.execute(
                 "INSERT INTO aircraft_models "
                 "(manufacturer_id, model_designation, common_name, notes) "
                 "VALUES (?, ?, ?, ?)",
                 (
-                    _upsert_manufacturer(conn, doc["manufacturer"]),
+                    upsert_manufacturer(conn, doc["manufacturer"]),
                     doc["model_designation"],
                     doc.get("common_name"),
                     doc.get("notes"),
@@ -281,7 +281,7 @@ def _insert_aircraft(
                     conn.execute(
                         "INSERT INTO tcb_categories (tcb_id, category_id) "
                         "VALUES (?, ?)",
-                        (tcb_id, _category_id(conn, cat_code)),
+                        (tcb_id, category_id_for(conn, cat_code)),
                     )
                 for entry in tcb_entry["certification_basis"]:
                     label = (

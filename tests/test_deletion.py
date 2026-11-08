@@ -8,7 +8,8 @@ from pathlib import Path
 
 import pytest
 
-from build import BuildError, build
+from certbuild.errors import BuildError
+from certbuild.pipeline import build
 
 # CS23-0 .. CS23-6, one revision per year.
 _REVISIONS = [(f"CS23-{n}", n, f"{2003 + n}-01-01") for n in range(7)]

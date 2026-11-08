@@ -9,12 +9,12 @@ from pathlib import Path
 
 import pytest
 
-from build import (
-    SCHEMA_VERSION,
-    BuildError,
+from certbuild.ddl import SCHEMA_VERSION
+from certbuild.errors import BuildError
+from certbuild.pipeline import build
+from certbuild.provisions import check_text_format
+from certbuild.text import (
     TextFormatError,
-    build,
-    check_text_format,
     flatten_text,
     inline_error,
     label_values,

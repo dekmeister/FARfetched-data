@@ -13,11 +13,11 @@ from dataclasses import dataclass
 TABLE_OPEN = "{|"
 TABLE_CLOSE = "|}"
 TABLE_ROW_SEP = "|-"
-_TABLE_OPEN_RE = re.compile(r"\{\|(?: (.*))?$")
+TABLE_OPEN_RE = re.compile(r"\{\|(?: (.*))?$")
 _TABLE_ROW_RE = re.compile(r"[!|](?: |$)")
 _TABLE_DELIM_RE = re.compile(r"(?:^| )([!|])(?= |$)")
 _TABLE_SPAN_RE = re.compile(r"(?:^| )\{(?:r(\d+))?(?:(?<=\d) )?(?:c(\d+))?\}$")
-_TABLE_TOKEN_RE = re.compile(r"\{\||\|\}|\|-")
+TABLE_TOKEN_RE = re.compile(r"\{\||\|\}|\|-")
 
 
 @dataclass(frozen=True)
@@ -55,7 +55,7 @@ def parse_table_row(content: str) -> list[TableCell]:
             body = body[: span.start()].strip()
         if re.search(r"(?<!\S)\{[rc]\d|(?<!\S)\{\}|[rc]\d+\}(?!\S)", body):
             raise ValueError(f"malformed span in cell {body!r}")
-        if _TABLE_TOKEN_RE.search(body):
+        if TABLE_TOKEN_RE.search(body):
             raise ValueError(f"table markup inside cell {body!r}")
         cells.append(TableCell(d.group(1) == "!", body, rowspan, colspan))
     return cells
