@@ -29,10 +29,7 @@ from certbuild.text.paragraphs import ParsedText
 from certbuild.sources import (
     Source,
     check_paths,
-    load_aircraft,
-    load_documents,
-    load_provisions,
-    validate_data_dir,
+    read_data_dir,
 )
 
 
@@ -84,14 +81,11 @@ def load_checked(data_dir: Path) -> Sources:
 
     `check()` (--check) and `build()` both run exactly this, so --check
     can't drift from the build: a new pre-insert check goes here."""
-    validation_errors = validate_data_dir(data_dir)
-    if validation_errors:
-        raise BuildError([str(e) for e in validation_errors])
-    documents = load_documents(data_dir)
-    provisions = load_provisions(data_dir)
-    texts, text_errors = parse_texts(provisions)
-    _raise_if(check_paths(documents, provisions) + text_errors)
-    return Sources(documents, provisions, load_aircraft(data_dir), texts)
+    files, validation_errors = read_data_dir(data_dir)
+    _raise_if([str(e) for e in validation_errors])
+    texts, text_errors = parse_texts(files.provisions)
+    _raise_if(check_paths(files.documents, files.provisions) + text_errors)
+    return Sources(files.documents, files.provisions, files.aircraft, texts)
 
 
 def _raise_if(errors: list[str]) -> None:

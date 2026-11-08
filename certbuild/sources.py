@@ -9,6 +9,7 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from functools import cache
 from pathlib import Path
+from typing import Any
 
 from jsonschema import Draft202012Validator, FormatChecker
 from referencing import Registry, Resource
@@ -48,17 +49,22 @@ def _validator(name: str) -> Draft202012Validator:
     )
 
 
-def _validate(path: Path, schema_name: str) -> list[ValidationError]:
+def _read(path: Path, schema_name: str) -> tuple[Any, list[ValidationError]]:
+    """Parse one JSON file and validate it against a schema."""
     try:
         data = json.loads(path.read_text())
     except json.JSONDecodeError as exc:
-        return [ValidationError(path, f"invalid JSON: {exc}", "")]
+        return None, [ValidationError(path, f"invalid JSON: {exc}", "")]
     validator = _validator(schema_name)
     errors: list[ValidationError] = []
     for err in sorted(validator.iter_errors(data), key=lambda e: list(e.absolute_path)):
         location = "/".join(str(p) for p in err.absolute_path)
         errors.append(ValidationError(path, err.message, location))
-    return errors
+    return data, errors
+
+
+def _validate(path: Path, schema_name: str) -> list[ValidationError]:
+    return _read(path, schema_name)[1]
 
 
 def validate_document_file(path: Path) -> list[ValidationError]:
@@ -73,20 +79,41 @@ def validate_aircraft_file(path: Path) -> list[ValidationError]:
     return _validate(path, "aircraft_model")
 
 
-def validate_data_dir(data_dir: Path) -> list[ValidationError]:
+@dataclass(frozen=True)
+class DataFiles:
+    """Every JSON file under data/, parsed, in sorted path order."""
+
+    documents: list[Source]
+    provisions: list[Source]
+    aircraft: list[Source]
+
+
+def read_data_dir(data_dir: Path) -> tuple[DataFiles, list[ValidationError]]:
+    """Read, parse and validate every file once. The files are only usable
+    when the error list is empty."""
+    files = DataFiles([], [], [])
     errors: list[ValidationError] = []
     docs_dir = data_dir / "documents"
     if docs_dir.is_dir():
         for p in sorted(docs_dir.rglob("*.json")):
             if p.name == DOCUMENT_FILE:
-                errors.extend(validate_document_file(p))
+                data, errs = _read(p, "document")
+                files.documents.append(Source(p, data))
             else:
-                errors.extend(validate_provision_file(p))
+                data, errs = _read(p, "provision")
+                files.provisions.append(Source(p, data))
+            errors.extend(errs)
     aircraft_dir = data_dir / "aircraft"
     if aircraft_dir.is_dir():
         for p in sorted(aircraft_dir.rglob("*.json")):
-            errors.extend(validate_aircraft_file(p))
-    return errors
+            data, errs = _read(p, "aircraft_model")
+            files.aircraft.append(Source(p, data))
+            errors.extend(errs)
+    return files, errors
+
+
+def validate_data_dir(data_dir: Path) -> list[ValidationError]:
+    return read_data_dir(data_dir)[1]
 
 
 # ---------------------------------------------------------------------------
@@ -97,25 +124,11 @@ def _load(paths: Iterator[Path]) -> list[Source]:
     return [Source(p, json.loads(p.read_text())) for p in sorted(paths)]
 
 
-def load_documents(data_dir: Path) -> list[Source]:
-    docs_dir = data_dir / "documents"
-    if not docs_dir.is_dir():
-        return []
-    return _load(docs_dir.rglob(DOCUMENT_FILE))
-
-
 def load_provisions(data_dir: Path) -> list[Source]:
     docs_dir = data_dir / "documents"
     if not docs_dir.is_dir():
         return []
     return _load(p for p in docs_dir.rglob("*.json") if p.name != DOCUMENT_FILE)
-
-
-def load_aircraft(data_dir: Path) -> list[Source]:
-    ac_dir = data_dir / "aircraft"
-    if not ac_dir.is_dir():
-        return []
-    return _load(ac_dir.rglob("*.json"))
 
 
 def check_paths(documents: list[Source], provisions: list[Source]) -> list[str]:

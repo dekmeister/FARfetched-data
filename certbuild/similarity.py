@@ -142,27 +142,38 @@ def compute_similarity(
     that score at least SIMILARITY_MIN_SCORE."""
     by_id = {s.provision_id: s for s in sources}
     vectors = _similarity_vectors(sources)
-    postings: dict[str, list[tuple[int, float]]] = {}
+    # Provisions are indexed 0..n-1 and each term's postings are parallel
+    # lists, so scores accumulate in a flat list rather than a dict. Each
+    # pair's sum still runs over the source's terms in the same order, so
+    # the scores are the same floats as a dict accumulator gives.
+    ids = sorted(vectors)
+    index = {pid: i for i, pid in enumerate(ids)}
+    postings: dict[str, tuple[list[int], list[float]]] = {}
     for pid, vec in vectors.items():
         for term, weight in vec.items():
-            postings.setdefault(term, []).append((pid, weight))
+            idxs, weights = postings.setdefault(term, ([], []))
+            idxs.append(index[pid])
+            weights.append(weight)
 
     floor = round(SIMILARITY_MIN_SCORE * 1000)
+    # A cheap superset of the scores that can round up to the floor.
+    prefilter = (floor - 1) / 1000
     rows: list[tuple[int, int, int, int]] = []
-    for pid in sorted(vectors):
-        scores: dict[int, float] = {}
+    for i, pid in enumerate(ids):
+        acc = [0.0] * len(ids)
         for term, weight in vectors[pid].items():
-            for other, other_weight in postings[term]:
-                scores[other] = scores.get(other, 0.0) + weight * other_weight
-        scores.pop(pid, None)
+            idxs, weights = postings[term]
+            for j, other_weight in zip(idxs, weights, strict=True):
+                acc[j] += weight * other_weight
+        acc[i] = 0.0
         per_doc: dict[int, list[tuple[int, tuple[str, str], int]]] = {}
-        for other, score in scores.items():
-            score_int = min(1000, round(score * 1000))
+        for j in [j for j, x in enumerate(acc) if x > prefilter]:
+            score_int = min(1000, round(acc[j] * 1000))
             if score_int < floor:
                 continue
-            src = by_id[other]
+            src = by_id[ids[j]]
             per_doc.setdefault(src.document_id, []).append(
-                (-score_int, src.order, other)
+                (-score_int, src.order, ids[j])
             )
         for matches in per_doc.values():
             matches.sort()
