@@ -2,7 +2,8 @@
 
 The field-level contract for the JSON files in `data/`. They are written only
 by [tools/](../tools/) (emit → promote) and read only by
-[build.py](../build.py), which enforces everything here. The SQLite side of
+the build ([build.py](../build.py), code in [certbuild/](../certbuild/)),
+which enforces everything here. The SQLite side of
 the contract is in [SQLITE.md](SQLITE.md), and the history of the format is
 in [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md).
 

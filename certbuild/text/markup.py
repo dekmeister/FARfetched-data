@@ -1,4 +1,7 @@
-"""Inline markup: sub/superscripts and formulas (docs/DATA_FORMAT.md §Inline markup)."""
+"""Inline markup: sub/superscripts and formulas (docs/DATA_FORMAT.md §Inline markup).
+
+Pure string code: no I/O, no sqlite3.
+"""
 
 from __future__ import annotations
 

@@ -2,7 +2,7 @@
 
 How the data contract got to where it is. The contract itself is in
 [DATA_FORMAT.md](DATA_FORMAT.md) (JSON) and [SQLITE.md](SQLITE.md) (SQLite).
-`SCHEMA_VERSION` in [build.py](../build.py) is written to
+`SCHEMA_VERSION` in [certbuild/ddl.py](../certbuild/ddl.py) is written to
 `PRAGMA user_version` and `build_info.schema_version`, and is bumped on every
 change to the SQLite contract.
 

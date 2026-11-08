@@ -1,4 +1,10 @@
-"""Provision similarity (docs/SQLITE.md §Similarity)."""
+"""Provision similarity (docs/SQLITE.md §Similarity).
+
+The scoring (`stem` through `compute_similarity`) is pure; only
+`_similarity_sources`, `insert_similarity` and `similarity_report` touch
+the DB. Rows are computed, never hand-checked: a change to a constant changes
+shipped data, so check it with scripts/compare_builds.py.
+"""
 
 from __future__ import annotations
 

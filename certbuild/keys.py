@@ -1,4 +1,4 @@
-"""Sort keys shared with tools/."""
+"""Sort keys. `sort_key` is part of the API tools/ uses (tests/test_tools_api.py)."""
 
 from __future__ import annotations
 

@@ -1,4 +1,9 @@
-"""Closed sets (issuers, categories) seeded up front, and id lookups."""
+"""Closed sets (issuers, categories), seeded up front, and id lookups.
+
+Each set must equal its schema enum (schemas/common.schema.json `issuer`,
+schemas/aircraft_model.schema.json `categories`); tests/test_validation.py
+checks that they agree.
+"""
 
 from __future__ import annotations
 

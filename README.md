@@ -70,7 +70,9 @@ FARfetched-data/
 │   ├── documents/{issuer}/{document}/_document.json   revision list
 │   ├── documents/{issuer}/{document}/{provision}.json
 │   └── aircraft/{manufacturer-slug}/{model-slug}.json
-├── build.py             JSON → SQLite compiler and checker (single file)
+├── build.py             JSON → SQLite compiler and checker (the CLI)
+├── certbuild/           the build itself, one module per concern
+├── scripts/             compare_builds.py: old vs new build code on data/
 ├── tests/               build tests (pytest)
 ├── tools/               ingestion sub-repo (own git repo; gitignored here)
 └── input/               local source copies, owned by tools (gitignored)
@@ -83,6 +85,7 @@ uv sync                                   # install
 uv run python build.py --check            # validate data/ (schema, paths, text layout)
 uv run python build.py                    # build cert_basis.sqlite + report
 uv run pytest                             # tests/ and tools/s99_tests/
+uv run pytest -m "not slow"               # the same without the real data/ (seconds)
 uv run ruff check . && uv run mypy .      # lint and types
 ```
 

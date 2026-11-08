@@ -1,4 +1,8 @@
-"""Document, provision, version and paragraph inserts."""
+"""Document, provision, version, action and paragraph inserts (docs/SQLITE.md).
+
+Texts arrive already parsed (`parse_texts`, run before any insert). A fault
+in one file is listed and the file skipped; the pipeline raises.
+"""
 
 from __future__ import annotations
 

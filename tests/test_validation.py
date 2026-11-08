@@ -40,7 +40,7 @@ class TestRealData:
 
 
 class TestClosedSetsAgree:
-    """Each closed set lives in a schema enum and a build.py seed table."""
+    """Each closed set lives in a schema enum and a certbuild/lookups.py seed table."""
 
     def test_issuers(self) -> None:
         common = json.loads((SCHEMAS_DIR / "common.schema.json").read_text())

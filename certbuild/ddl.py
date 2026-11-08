@@ -1,4 +1,9 @@
-"""The SQLite contract: DDL and its version (docs/SQLITE.md)."""
+"""The SQLite contract: DDL and its version (docs/SQLITE.md).
+
+Bump SCHEMA_VERSION on every change to SCHEMA_SQL, and add a row to
+docs/SCHEMA_HISTORY.md in the same commit. Integrity belongs in the DDL
+(STRICT, CHECKs, composite FKs), not only in Python.
+"""
 
 from __future__ import annotations
 

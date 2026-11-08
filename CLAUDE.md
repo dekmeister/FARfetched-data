@@ -49,7 +49,8 @@ format changes.** They are the field-level contract.
   cleverness. Every transcribed version carries a `source_url` and, where
   known, a `publication_cite` for a reason.
 - Prefer stdlib and hand-written code over dependencies.
-- Keep `build.py` a single file. No package layout until it earns it.
+- `build.py` is only the CLI. The build is the `certbuild/` package, one
+  module per reason to change: see [Code map](#code-map).
 
 ## Tech Stack
 
@@ -73,7 +74,9 @@ FARfetched-data/
 ├── data/                       Output of tools/ (never hand-edited)
 │   ├── documents/{issuer}/{document}/{_document,provision}.json
 │   └── aircraft/{manufacturer-slug}/{model-slug}.json
-├── build.py
+├── build.py                    The CLI (argparse + main)
+├── certbuild/                  The build, one module per concern (Code map)
+├── scripts/compare_builds.py   Old vs new build code on the same data/
 ├── tests/
 ├── tools/                      Internal sub-repo: ingestion scripts.
 │                               See tools/CLAUDE.md and tools/README.md.
@@ -93,6 +96,8 @@ uv run python build.py
 uv run python build.py --check
 
 # Quality
+uv run pytest -m "not slow"     # fast loop
+uv run python scripts/compare_builds.py   # after any certbuild/ change
 uv run ruff check .
 uv run ruff format .
 uv run mypy .
@@ -113,9 +118,47 @@ sqlite3 cert_basis.sqlite 'SELECT COUNT(*) FROM aircraft;'
 - Line length 88. Don't fight the formatter.
 - Prefer explicit over clever.
 
-## `build.py` conventions
+## Code map
 
-- Single file, stdlib + `jsonschema` (and its bundled `referencing`).
+To change something, edit the module, read the doc section, run the test
+file. Each module's docstring says what it must not do.
+
+| To change | Module (`certbuild/`) | Doc | Tests |
+|---|---|---|---|
+| SQLite tables, contract version | `ddl.py` | docs/SQLITE.md | `test_contract.py` |
+| Issuers, categories (closed sets) | `lookups.py` + schema enum | docs/DATA_FORMAT.md | `test_validation.py` |
+| Schema validation, loading, path checks | `sources.py` | docs/DATA_FORMAT.md | `test_validation.py`, `test_build_failures.py` |
+| Label-line text, headings, labels | `text/paragraphs.py`, `text/labels.py` | DATA_FORMAT §Text format | `test_paragraphs.py` |
+| Tables, inline markup, flat/plain text | `text/tables.py`, `text/markup.py`, `text/flat.py` | DATA_FORMAT §Tables, §Inline markup | `test_paragraphs.py` |
+| Provision/version inserts, aliases, deletions, number clashes | `provisions.py` | DATA_FORMAT, SQLITE §Build | `test_easa_alias.py`, `test_deletion.py`, `test_provision_key.py` |
+| Cert-basis resolution rules (pure, no sqlite3) | `resolve.py` | DATA_FORMAT §Resolution rules | `test_resolve.py`, then `test_resolution.py` |
+| Aircraft, TCDS, ref inserts, paragraph-ref checks | `aircraft.py` | SQLITE | `test_resolution.py` |
+| Similarity | `similarity.py` | SQLITE §Similarity | `test_similarity.py` |
+| Report, git state | `report.py` | SQLITE §Build | `test_build_failures.py` |
+| Build steps, `--check`, atomic output | `pipeline.py` | SQLITE §Build | `test_build_failures.py` |
+| Error reporting | `errors.py` (states the rule) | | `test_build_failures.py` |
+
+- **`certbuild.text` is a public API.** `tools/` imports the text format from
+  it (its `__all__`), plus `certbuild.keys.sort_key` and
+  `certbuild.pipeline.build`. `tests/test_tools_api.py` pins those names and
+  fails if tools imports anything else. Rename one only together with
+  tools/.
+- **Errors: collect within a stage, raise between stages** (errors.py). A new
+  check returns `list[str]` and gets one `_raise_if(...)` line in
+  `pipeline.py`. A pre-insert check goes in `load_checked`, which `--check`
+  runs too.
+- **Any change to `certbuild/` runs `uv run python scripts/compare_builds.py`.**
+  It builds the current `data/` with the committed code and the working tree
+  and diffs the DBs. A refactor must print `identical`. A behaviour change
+  must show only the rows it means to change. It checks code, not data, so
+  data changes don't affect it.
+- Keep modules under ~350 lines. ruff fails any function over complexity 10
+  (`pyproject.toml`): split it, don't `noqa` it. mypy is strict for
+  `certbuild/`.
+
+## Build conventions
+
+- Stdlib + `jsonschema` (and its bundled `referencing`).
 - Fail loud on any schema mismatch, any unresolvable reference, any
   duplicate key. The build is the last line of defence — don't paper over
   bad data.
@@ -177,12 +220,18 @@ Rules that matter at the repo level:
 
 - `pytest`. Build tests stage small synthetic data trees in `tmp_path` and
   exercise each cert-basis resolution rule and each fail-loud check; invalid
-  schema inputs live in `tests/fixtures/`. They live only here;
+  schema inputs live in `tests/fixtures/`. Records are built with
+  `tests/factories.py`, the only copy of each JSON shape: a new required
+  field goes there, not into each test file. They live only here;
   `tools/s99_tests/e2e/` just checks that a staged tree builds.
   `uv run pytest` runs `tests/` and `tools/s99_tests/`.
-- Smoke test: run `build.py` against the real `data/`, open the resulting
-  SQLite, and assert specific known queries return the expected rows (e.g.
-  `SELECT * FROM latest_versions WHERE ...`).
+- Smoke test (`test_real_data.py`): run the build against the real `data/`,
+  open the resulting SQLite, and assert specific known queries return the
+  expected rows (e.g. `SELECT * FROM latest_versions WHERE ...`).
+- Tests that read or build the real `data/` are marked `slow` (any test
+  using the `real_db` fixture is, automatically).
+  `uv run pytest -m "not slow"` is the seconds-long edit loop. Run the full
+  suite before committing.
 - Don't chase 100% coverage. Test behaviour.
 
 ## Do / Don't

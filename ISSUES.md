@@ -25,7 +25,7 @@ says so.
 | [issues/faa-tcds.md](issues/faa-tcds.md) | `TCDS-` | FAA TCDS parsing and aircraft files |
 | [issues/easa-tcds.md](issues/easa-tcds.md) | `ETCDS-` | EASA TCDS download, parsing and FAA links |
 | [issues/text-layout.md](issues/text-layout.md) | `TEXT-` | Label-line paragraph structure, tables, formulas (all issuers) |
-| [issues/build.md](issues/build.md) | `BUILD-` | `build.py` and the SQLite contract |
+| [issues/build.md](issues/build.md) | `BUILD-` | The build (`build.py`, `certbuild/`) and the SQLite contract |
 | [issues/tooling.md](issues/tooling.md) | `PROC-` | Pipeline tooling, caches, process |
 | [issues/roadmap.md](issues/roadmap.md) | `ROADMAP-` | Planned work, not defects |
 

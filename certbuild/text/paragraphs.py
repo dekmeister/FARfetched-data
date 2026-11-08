@@ -1,4 +1,9 @@
-"""The label-line text parser (docs/DATA_FORMAT.md §Text format)."""
+"""The label-line text parser (docs/DATA_FORMAT.md §Text format).
+
+Pure: no I/O, no sqlite3. It never guesses a layout: a text that breaks the
+format raises TextFormatError with the line and the reason. tools/ lays out
+text with this same parser, so error messages are part of what it relies on.
+"""
 
 from __future__ import annotations
 

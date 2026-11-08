@@ -82,20 +82,6 @@ can change or go).
 
 **To close:** a backup of `input/`.
 
-### PROC-11. Tools import undeclared `build.py` internals
-
-`s00_common/structure.py`, `tables.py`, `overrides.py`, `continuity.py`, the
-DOD/NATO emitters and several tests import 15 names from `build`
-(`parse_paragraphs`, `label_values`, `heading_section`, `SECTION_HEADING_RE`,
-`TableCell`, `parse_table_row`, `table_width`, `sort_key`, …). Nothing in the
-parent repo marks them public or tests that they exist, so a rename there
-passes `tests/` and breaks tools.
-
-**To close:** a declared text-format API (`certbuild.text`) and a parent-repo
-test importing every name tools uses; repoint the imports
-([docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md) §3 F1, §5
-steps 0–2).
-
 ### PROC-12. Very complex functions in tools
 
 Several functions are far past what one edit can hold in view:
@@ -106,6 +92,8 @@ Several functions are far past what one edit can hold in view:
 (203 lines, CC 57), `s00_common/structure.py:_candidates` (nesting depth 12).
 Five files exceed 1,000 lines.
 
-**To close:** apply the same method as the build refactor (golden staged
-output, move-only commits, then per-function untangling) when each area next
-needs an edge-case fix ([docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md) §7).
+**To close:** apply the method the build refactor used (2026-11, git log
+of `certbuild/`): a golden output compared old vs new (here the staged tree
+in `tools/out/staged/`), move-only commits, then per-function untangling
+with a differential test of old vs new on real inputs, when each area next
+needs an edge-case fix.

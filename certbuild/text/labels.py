@@ -1,4 +1,7 @@
-"""Paragraph labels and section headings (docs/DATA_FORMAT.md §Text format)."""
+"""Paragraph labels and section headings (docs/DATA_FORMAT.md §Text format).
+
+Pure string code, like all of certbuild.text: no I/O, no sqlite3.
+"""
 
 from __future__ import annotations
 

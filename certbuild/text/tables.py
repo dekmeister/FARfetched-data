@@ -1,4 +1,7 @@
-"""Table blocks (docs/DATA_FORMAT.md §Tables)."""
+"""Table blocks (docs/DATA_FORMAT.md §Tables).
+
+Pure string code: no I/O, no sqlite3.
+"""
 
 from __future__ import annotations
 

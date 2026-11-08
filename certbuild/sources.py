@@ -1,4 +1,8 @@
-"""Schema validation and loading of data/ JSON (docs/DATA_FORMAT.md)."""
+"""Reading data/: schema validation, parsing, path checks (docs/DATA_FORMAT.md).
+
+Reads files only; never touches the DB except to turn an integrity error
+into a BuildError naming the file (`integrity_context`).
+"""
 
 from __future__ import annotations
 

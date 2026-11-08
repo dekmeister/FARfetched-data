@@ -1,4 +1,8 @@
-"""The build report and git state."""
+"""The build report (cert_basis_report.json) and git state (docs/SQLITE.md §Build).
+
+Report-only: nothing here goes into the SQLite contract except through
+pipeline.py.
+"""
 
 from __future__ import annotations
 

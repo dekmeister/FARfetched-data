@@ -3,7 +3,8 @@
 `cert_basis.sqlite` is the contract between this repo and the
 [FARfetched app](https://github.com/DEK-DEBIAN/FARFETCHed). `build.py`
 compiles it from the JSON in `data/` (format: [DATA_FORMAT.md](DATA_FORMAT.md)).
-The authoritative DDL is `SCHEMA_SQL` in [build.py](../build.py), and changes
+The authoritative DDL is `SCHEMA_SQL` in
+[certbuild/ddl.py](../certbuild/ddl.py), and changes
 between versions are listed in [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md).
 
 Contents: [Consuming](#consuming-the-sqlite-artifact) ·
@@ -35,7 +36,7 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 `build.py` compiles the JSON into 20 tables plus one view. Every table is
 `STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
 UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
-in [build.py](../build.py).
+in [certbuild/ddl.py](../certbuild/ddl.py).
 
 ### Contract metadata
 
@@ -147,7 +148,7 @@ rebuilds are byte-stable), and only pairs scoring at least
 matches does not imply the reverse. Present these as computed suggestions,
 never as authoritative equivalences.
 
-Method (`build.py`, stdlib only): one TF-IDF vector per **provision**, not
+Method (`certbuild/similarity.py`, stdlib only): one TF-IDF vector per **provision**, not
 per version, built from
 - the text of its latest version that has text (aliases followed; deleted
   versions and `TEXT MISSING` skipped, so a deleted provision is described by
@@ -184,22 +185,25 @@ uv run python build.py --data-dir X --out Y.sqlite
 uv run python build.py --check             # steps 1–2 and the text layout only
 ```
 
-`build.py`:
+`build.py` (the steps are `certbuild/pipeline.py`):
 1. Validates every JSON file against its schema. Fails on any mismatch.
-2. Checks every document/provision path against the identity fields inside.
+2. Checks every document/provision path against the identity fields inside,
+   and parses every version text by the [text format](DATA_FORMAT.md#text-format).
+   Path and text faults are listed together.
 3. Seeds the closed lookup sets (`issuers`, `categories`).
 4. Inserts documents and revisions, then provisions, versions, actions and
    paragraphs. Fails if a version names an undeclared revision or a duplicate
-   one, if the top-level `number` is not the latest version's, if a number
-   names two provisions in force at some revision, or if an alias doesn't point at an earlier, non-deleted version of the
-   same provision, or a deletion doesn't follow a version in force, or a text
-   breaks the [text format](DATA_FORMAT.md#text-format) (all such texts
-   are listed at once).
+   one, if the top-level `number` is not the latest version's, or if an
+   alias doesn't point at an earlier, non-deleted version of the same
+   provision, or a deletion doesn't follow a version in force (every such
+   file is listed). Then fails if a number names two provisions in force at
+   some revision.
 5. Computes `provision_similarity` (see [Similarity](#similarity)).
 6. Inserts aircraft, TCDS (once each, metadata must agree), TCBs and
    entries; inserts each entry's refs, resolves them by the
    [resolution rules](DATA_FORMAT.md#resolution-rules), and checks
-   paragraph qualifiers.
+   paragraph qualifiers. Fails listing every unresolved reference and TCDS
+   metadata conflict.
 7. Fails on any date after the build day, and on any foreign-key violation.
 8. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
    every table, `documents` (per `ISSUER/slug`: revisions, provisions,
@@ -225,7 +229,10 @@ Output is atomic: the build writes `cert_basis.sqlite.new` and
 the report into place, removing any stale `-wal`/`-shm` sidecars. A failed
 write leaves the previous pair untouched.
 
-`--check` runs steps 1 and 2 and the text-format check from step 4, without
-writing anything. Checks that need the whole tree in a database (revisions,
+Each step lists every fault it finds and the build stops after the first
+step that has any (`certbuild/errors.py`).
+
+`--check` runs steps 1 and 2 (the same code as the build), without writing
+anything. Checks that need the whole tree in a database (revisions,
 aliases, references, dates, foreign keys) only run in a full build.
 

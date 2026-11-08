@@ -1,6 +1,7 @@
 # Build and contract (BUILD-)
 
-`build.py` and the SQLite contract ([docs/SQLITE.md](../docs/SQLITE.md)).
+The build (`build.py`, `certbuild/`) and the SQLite contract
+([docs/SQLITE.md](../docs/SQLITE.md)).
 [Index](../ISSUES.md)
 
 ### BUILD-3. DB and report are replaced in two steps
@@ -20,11 +21,29 @@ the build matches on the strings.
 
 **To close:** decide on a stable model key, like `provisions.key`.
 
-### BUILD-9. `build.py` has outgrown a single file
+### BUILD-10. Parsed JSON is untyped `dict` in the build
 
-2,433 lines, six concerns, `parse_paragraphs` at CC 59, and a de facto public
-API used by tools (PROC-11). The real build takes ~52 s, 80% similarity.
+`Source.doc` is `JsonObject` (`dict[str, Any]`), and versions flow through
+`provisions._resolve_alias_versions` as merged dicts. Schema validation
+guarantees the shape, so this isn't a bug, but a mistyped key is a runtime
+`KeyError` mypy can't catch, against CLAUDE.md's "dataclasses, not dicts".
+Deferred from the 2026-11 refactor as the largest change with the least
+payoff.
 
-**To close:** decide on and carry out (or reject) the plan in
-[docs/BUILD_REFACTOR_REVIEW.md](../docs/BUILD_REFACTOR_REVIEW.md); then
-delete that file and update CLAUDE.md's "Keep `build.py` a single file" rule.
+**To close:** after validation, convert each file once into frozen
+dataclasses (at least `VersionRec` and `RefRec`, where the dict merging
+lives), with a test that each dataclass's fields equal its schema's
+`properties`.
+
+### BUILD-11. Build time
+
+The real build takes ~44 s, ~34 s of it similarity scoring in pure Python,
+and `uv run pytest` builds the real data twice: the `real_db` fixture, and
+`tools/s99_tests/extract/faa/regs/test_extract.py`'s eCFR-marker test (both
+`slow`). Lossless options not done: score each pair once and mirror it
+(changes float summation order, so check with `scripts/compare_builds.py`
+first); cache the similarity rows keyed by a hash of the sources, constants
+and `certbuild/similarity.py`. Lowering `SIMILARITY_MAX_DF` is faster but
+changes shipped rows (a data decision).
+
+**To close:** decide if the time hurts enough to take one of these.

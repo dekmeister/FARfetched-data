@@ -1,4 +1,7 @@
-"""Flat and plain forms of a provision text."""
+"""Flat and plain forms of a provision text (docs/DATA_FORMAT.md §Text format).
+
+For comparing wording across layouts, never for display. Pure: no I/O.
+"""
 
 from __future__ import annotations
 
