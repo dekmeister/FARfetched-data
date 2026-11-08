@@ -34,6 +34,7 @@ class TestRealData:
         )
         assert errors == [], [str(e) for e in errors]
 
+    @pytest.mark.slow
     def test_full_data_dir_validates(self, repo_root: Path) -> None:
         errors = validate_data_dir(repo_root / "data")
         assert errors == [], [str(e) for e in errors]

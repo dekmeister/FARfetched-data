@@ -22,3 +22,6 @@ line-length = 88
 testpaths = ["tests", "tools/s99_tests"]
 pythonpath = ["."]
 addopts = "-q"
+markers = [
+    "slow: reads or builds the real data/ (deselect with -m \"not slow\")",
+]

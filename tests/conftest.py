@@ -26,3 +26,10 @@ def real_db(tmp_path_factory: pytest.TempPathFactory) -> Path:
     out = tmp_path_factory.mktemp("real") / "cert_basis.sqlite"
     build(data, out)
     return out
+
+
+def pytest_collection_modifyitems(items: list[pytest.Item]) -> None:
+    """Every test that uses the real build is slow."""
+    for item in items:
+        if "real_db" in getattr(item, "fixturenames", ()):
+            item.add_marker(pytest.mark.slow)
