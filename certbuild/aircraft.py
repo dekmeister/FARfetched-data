@@ -1,167 +1,92 @@
-"""Aircraft, TCDS and cert-basis inserts."""
+"""Aircraft, TCDS and cert-basis inserts (docs/SQLITE.md).
+
+The SQL half of cert-basis resolution: it builds each document's `DocIndex`
+from the DB, hands refs to the pure rules in resolve.py and inserts what they
+return. Resolution decisions belong in resolve.py, not here.
+"""
 
 from __future__ import annotations
 
 import sqlite3
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
+from typing import Any
 
 from certbuild.errors import BuildError
 from certbuild.lookups import category_id_for, issuer_id_for, upsert_manufacturer
 from certbuild.provisions import document_id_for
-from certbuild.resolve import DocIndex, Ref, Resolved, resolve_entry
+from certbuild.resolve import (
+    DocIndex,
+    DocKey,
+    Ref,
+    Resolved,
+    exclude_ordinals,
+    resolve_entry,
+    resolve_ref,
+)
 from certbuild.sources import Source, integrity_context
 from certbuild.text.paragraphs import paragraph_ref_paths
 
 
-def _doc_index(conn: sqlite3.Connection, document_id: int, slug: str) -> DocIndex:
-    idx = DocIndex(document_id, slug)
-    for pid, number in conn.execute(
-        "SELECT id, number FROM provisions WHERE document_id = ?", (document_id,)
-    ):
-        idx.numbers[pid] = number
-    for rid, designator, ordinal in conn.execute(
-        "SELECT id, designator, ordinal FROM document_revisions WHERE document_id = ?",
-        (document_id,),
-    ):
-        idx.revisions[designator] = (rid, ordinal)
-    for pid, ordinal, rid, pv_id, deleted, number in conn.execute(
-        "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id, pv.deleted, pv.number "
-        "FROM provision_versions pv "
-        "JOIN document_revisions dr ON dr.id = pv.revision_id "
-        "WHERE pv.document_id = ?",
-        (document_id,),
-    ):
-        idx.versions.setdefault(pid, []).append((ordinal, rid, pv_id))
-        idx.carriers.setdefault(number, set()).add(pid)
-        idx.printed[pv_id] = number
-        if deleted:
-            idx.deleted.add(pv_id)
-    return idx
+def doc_index(conn: sqlite3.Connection, document_id: int, slug: str) -> DocIndex:
+    return DocIndex.from_rows(
+        document_id,
+        slug,
+        conn.execute(
+            "SELECT id, number FROM provisions WHERE document_id = ?", (document_id,)
+        ),
+        conn.execute(
+            "SELECT id, designator, ordinal FROM document_revisions "
+            "WHERE document_id = ?",
+            (document_id,),
+        ),
+        conn.execute(
+            "SELECT pv.provision_id, dr.ordinal, dr.id, pv.id, pv.deleted, pv.number "
+            "FROM provision_versions pv "
+            "JOIN document_revisions dr ON dr.id = pv.revision_id "
+            "WHERE pv.document_id = ?",
+            (document_id,),
+        ),
+    )
 
 
-def _doc_index_for(
-    conn: sqlite3.Connection,
-    key: tuple[str, str],
-    doc_indexes: dict[tuple[str, str], DocIndex],
-) -> DocIndex | None:
-    if key not in doc_indexes:
-        doc_id = document_id_for(conn, *key)
-        if doc_id is None:
-            return None
-        doc_indexes[key] = _doc_index(conn, doc_id, key[1])
-    return doc_indexes[key]
+class _DocIndexes:
+    """A DocIndex per document, built on first use."""
+
+    def __init__(self, conn: sqlite3.Connection) -> None:
+        self.conn = conn
+        self.cache: dict[DocKey, DocIndex] = {}
+
+    def get(self, key: DocKey) -> DocIndex | None:
+        if key not in self.cache:
+            doc_id = document_id_for(self.conn, *key)
+            if doc_id is None:
+                return None
+            self.cache[key] = doc_index(self.conn, doc_id, key[1])
+        return self.cache[key]
 
 
-def _exclude_ordinals(
-    conn: sqlite3.Connection,
-    refs: list[dict],
-    doc_indexes: dict[tuple[str, str], DocIndex],
-) -> dict[tuple[str, str], int]:
-    """Per document, the highest `to` among an entry's include refs: the
-    revision at which its exclude refs' numbers are read."""
-    out: dict[tuple[str, str], int] = {}
-    for ref in refs:
-        if ref.get("effect", "include") != "include" or "to" not in ref:
-            continue
-        key = (ref["issuer"], ref["document"])
-        doc = _doc_index_for(conn, key, doc_indexes)
-        rev = doc.revisions.get(ref["to"]) if doc else None
-        if rev is not None:
-            out[key] = max(out.get(key, rev[1]), rev[1])
-    return out
-
-
-def _insert_ref(
-    conn: sqlite3.Connection,
-    entry_id: int,
-    seq: int,
-    ref: dict,
-    doc_indexes: dict[tuple[str, str], DocIndex],
-    label: str,
-    exclude_at: dict[tuple[str, str], int],
-) -> tuple[Ref | None, list[str]]:
-    """Insert one ref and its children. Return it resolved, or the errors.
-
-    `provisions` are printed numbers, read at the ref's `to` (an exclude ref:
-    at `exclude_at`, the entry's highest include `to` in the document)."""
-    where = f"{label} ref {seq}"
-    key = (ref["issuer"], ref["document"])
-    doc = _doc_index_for(conn, key, doc_indexes)
-    if doc is None:
-        return None, [f"{where}: unknown document {key[0]}/{key[1]}"]
-
-    errors: list[str] = []
-    to_rev: tuple[int, int] | None = None
-    if "to" in ref:
-        to_rev = doc.revisions.get(ref["to"])
-        if to_rev is None:
-            errors.append(f"{where}: unknown revision {ref['to']!r} in {key[1]}")
-    skip: list[int] = []
-    for d in ref.get("skip", []):
-        rev = doc.revisions.get(d)
-        if rev is None:
-            errors.append(f"{where}: unknown skip revision {d!r} in {key[1]}")
-        elif to_rev is not None and rev[1] >= to_rev[1]:
-            errors.append(f"{where}: skip {d!r} is not earlier than to {ref['to']!r}")
-        else:
-            skip.append(rev[0])
-    provisions: list[int] = []
-    at = to_rev[1] if to_rev else exclude_at.get(key)
-    for number in ref.get("provisions", []):
-        if at is None:
-            if "to" not in ref:
-                errors.append(
-                    f"{where}: exclude of {key[1]}.{number} has no include ref "
-                    f"in {key[1]} to read its number at"
-                )
-            continue
-        pid, why = doc.provision_at(number, at)
-        if pid is None:
-            errors.append(f"{where}: {why}")
-        else:
-            provisions.append(pid)
-    if errors:
-        return None, errors
-
-    effect = ref.get("effect", "include")
+def insert_ref(conn: sqlite3.Connection, entry_id: int, seq: int, r: Ref) -> int:
+    """Insert one resolved ref and its provisions and skips; return its id."""
     cur = conn.execute(
         "INSERT INTO cert_basis_refs "
         "(entry_id, seq, effect, document_id, to_revision_id, paragraph) "
         "VALUES (?, ?, ?, ?, ?, ?)",
-        (
-            entry_id,
-            seq,
-            effect,
-            doc.document_id,
-            to_rev[0] if to_rev else None,
-            ref.get("paragraph"),
-        ),
+        (entry_id, seq, r.effect, r.doc.document_id, r.to_revision_id, r.paragraph),
     )
     ref_id = cur.lastrowid
     assert ref_id is not None
     conn.executemany(
         "INSERT INTO cert_basis_ref_provisions (ref_id, document_id, provision_id) "
         "VALUES (?, ?, ?)",
-        [(ref_id, doc.document_id, pid) for pid in provisions],
+        [(ref_id, r.doc.document_id, pid) for pid in r.provisions],
     )
     conn.executemany(
         "INSERT INTO cert_basis_ref_skips (ref_id, document_id, revision_id) "
         "VALUES (?, ?, ?)",
-        [(ref_id, doc.document_id, rid) for rid in skip],
+        [(ref_id, r.doc.document_id, rid) for rid in r.skip],
     )
-    return (
-        Ref(
-            ref_id=ref_id,
-            effect=effect,
-            doc=doc,
-            to_ordinal=to_rev[1] if to_rev else None,
-            skip=frozenset(skip),
-            provisions=tuple(provisions),
-            paragraph=ref.get("paragraph"),
-        ),
-        [],
-    )
+    return ref_id
 
 
 @dataclass
@@ -248,8 +173,9 @@ def _tcds_id(conn: sqlite3.Connection, tcds_doc: dict, path: Path) -> int:
 def insert_aircraft(
     conn: sqlite3.Connection, aircraft: list[Source], para_stats: ParagraphRefStats
 ) -> list[str]:
+    """Insert every aircraft file; return the cert-basis failures."""
     failures: list[str] = []
-    doc_indexes: dict[tuple[str, str], DocIndex] = {}
+    indexes = _DocIndexes(conn)
     for s in aircraft:
         doc = s.doc
         with integrity_context(s.path):
@@ -265,68 +191,83 @@ def insert_aircraft(
                 ),
             )
             model_id = cur.lastrowid
-
+            assert model_id is not None
             for tcb_entry in doc["tcb"]:
-                tcds_doc = tcb_entry["tcds"]
-                tcb_cur = conn.execute(
-                    "INSERT INTO tcb (model_id, tcds_id, notes) VALUES (?, ?, ?)",
-                    (
-                        model_id,
-                        _tcds_id(conn, tcds_doc, s.path),
-                        tcb_entry.get("notes"),
-                    ),
+                failures.extend(
+                    _insert_tcb(conn, model_id, tcb_entry, s.path, indexes, para_stats)
                 )
-                tcb_id = tcb_cur.lastrowid
-                for cat_code in tcb_entry["categories"]:
-                    conn.execute(
-                        "INSERT INTO tcb_categories (tcb_id, category_id) "
-                        "VALUES (?, ?)",
-                        (tcb_id, category_id_for(conn, cat_code)),
-                    )
-                for entry in tcb_entry["certification_basis"]:
-                    label = (
-                        f"{s.path.name} {tcds_doc['tcds_number']} "
-                        f"line {entry['display_order']}"
-                    )
-                    entry_cur = conn.execute(
-                        "INSERT INTO cert_basis_entries "
-                        "(tcb_id, display_order, entry_type, raw_reference, "
-                        " applicability, applicability_notes) "
-                        "VALUES (?, ?, ?, ?, ?, ?)",
-                        (
-                            tcb_id,
-                            entry["display_order"],
-                            entry["entry_type"],
-                            entry["raw_reference"],
-                            entry.get("applicability"),
-                            entry.get("applicability_notes"),
-                        ),
-                    )
-                    entry_id = entry_cur.lastrowid
-                    assert entry_id is not None
-                    refs: list[Ref] = []
-                    exclude_at = _exclude_ordinals(
-                        conn, entry["references"], doc_indexes
-                    )
-                    for seq, ref in enumerate(entry["references"]):
-                        r, errs = _insert_ref(
-                            conn, entry_id, seq, ref, doc_indexes, label, exclude_at
-                        )
-                        failures.extend(errs)
-                        if r is not None:
-                            refs.append(r)
-                    rows, errs = resolve_entry(refs, label)
-                    failures.extend(errs)
-                    failures.extend(
-                        _check_paragraph_refs(conn, rows, label, para_stats)
-                    )
-                    conn.executemany(
-                        "INSERT INTO cert_basis_resolved "
-                        "(entry_id, provision_version_id, via_ref_id, paragraph) "
-                        "VALUES (?, ?, ?, ?)",
-                        [
-                            (entry_id, r.provision_version_id, r.ref_id, r.paragraph)
-                            for r in rows
-                        ],
-                    )
+    return failures
+
+
+def _insert_tcb(
+    conn: sqlite3.Connection,
+    model_id: int,
+    tcb_entry: dict[str, Any],
+    path: Path,
+    indexes: _DocIndexes,
+    para_stats: ParagraphRefStats,
+) -> list[str]:
+    tcds_doc = tcb_entry["tcds"]
+    tcb_cur = conn.execute(
+        "INSERT INTO tcb (model_id, tcds_id, notes) VALUES (?, ?, ?)",
+        (model_id, _tcds_id(conn, tcds_doc, path), tcb_entry.get("notes")),
+    )
+    tcb_id = tcb_cur.lastrowid
+    assert tcb_id is not None
+    for cat_code in tcb_entry["categories"]:
+        conn.execute(
+            "INSERT INTO tcb_categories (tcb_id, category_id) VALUES (?, ?)",
+            (tcb_id, category_id_for(conn, cat_code)),
+        )
+    failures: list[str] = []
+    for entry in tcb_entry["certification_basis"]:
+        label = f"{path.name} {tcds_doc['tcds_number']} line {entry['display_order']}"
+        failures.extend(_insert_entry(conn, tcb_id, entry, label, indexes, para_stats))
+    return failures
+
+
+def _insert_entry(
+    conn: sqlite3.Connection,
+    tcb_id: int,
+    entry: dict[str, Any],
+    label: str,
+    indexes: _DocIndexes,
+    para_stats: ParagraphRefStats,
+) -> list[str]:
+    """Insert one cert-basis entry, its refs and its resolved rows; return
+    the failures."""
+    entry_cur = conn.execute(
+        "INSERT INTO cert_basis_entries "
+        "(tcb_id, display_order, entry_type, raw_reference, "
+        " applicability, applicability_notes) "
+        "VALUES (?, ?, ?, ?, ?, ?)",
+        (
+            tcb_id,
+            entry["display_order"],
+            entry["entry_type"],
+            entry["raw_reference"],
+            entry.get("applicability"),
+            entry.get("applicability_notes"),
+        ),
+    )
+    entry_id = entry_cur.lastrowid
+    assert entry_id is not None
+    failures: list[str] = []
+    refs: list[Ref] = []
+    exclude_at = exclude_ordinals(entry["references"], indexes.get)
+    for seq, ref in enumerate(entry["references"]):
+        doc = indexes.get((ref["issuer"], ref["document"]))
+        r, errs = resolve_ref(ref, doc, f"{label} ref {seq}", exclude_at)
+        failures.extend(errs)
+        if r is not None:
+            refs.append(replace(r, ref_id=insert_ref(conn, entry_id, seq, r)))
+    rows, errs = resolve_entry(refs, label)
+    failures.extend(errs)
+    failures.extend(_check_paragraph_refs(conn, rows, label, para_stats))
+    conn.executemany(
+        "INSERT INTO cert_basis_resolved "
+        "(entry_id, provision_version_id, via_ref_id, paragraph) "
+        "VALUES (?, ?, ?, ?)",
+        [(entry_id, r.provision_version_id, r.ref_id, r.paragraph) for r in rows],
+    )
     return failures
