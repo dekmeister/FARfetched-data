@@ -52,14 +52,14 @@ def issuer_id_for(conn: sqlite3.Connection, code: str) -> int:
     row = conn.execute("SELECT id FROM issuers WHERE code = ?", (code,)).fetchone()
     if row is None:
         raise BuildError([f"unknown issuer {code!r}"])
-    return row[0]
+    return int(row[0])
 
 
 def category_id_for(conn: sqlite3.Connection, code: str) -> int:
     row = conn.execute("SELECT id FROM categories WHERE code = ?", (code,)).fetchone()
     if row is None:
         raise BuildError([f"unknown category {code!r}"])
-    return row[0]
+    return int(row[0])
 
 
 def upsert_manufacturer(conn: sqlite3.Connection, name: str) -> int:
@@ -68,4 +68,4 @@ def upsert_manufacturer(conn: sqlite3.Connection, name: str) -> int:
         "SELECT id FROM manufacturers WHERE name = ?", (name,)
     ).fetchone()
     assert row is not None
-    return row[0]
+    return int(row[0])

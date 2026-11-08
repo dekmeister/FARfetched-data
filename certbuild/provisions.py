@@ -10,6 +10,7 @@ from certbuild.errors import BuildError
 from certbuild.keys import sort_key
 from certbuild.lookups import issuer_id_for
 from certbuild.sources import (
+    JsonObject,
     DOCUMENT_FILE,
     Source,
     integrity_context,
@@ -64,9 +65,9 @@ def document_id_for(conn: sqlite3.Connection, issuer: str, slug: str) -> int | N
 
 def _resolve_alias_versions(
     label: str,
-    versions: list[dict],
+    versions: list[JsonObject],
     ordinal_of: dict[str, int],
-) -> list[dict]:
+) -> list[JsonObject]:
     """Return versions in revision order with `same_as_designator` resolved.
 
     Each returned dict carries the resolved `text` (None for a deleted version)
@@ -74,7 +75,7 @@ def _resolve_alias_versions(
     deletion must follow a live version, and an alias must not target a
     deleted one.
     """
-    items: list[tuple[int, dict]] = []
+    items: list[tuple[int, JsonObject]] = []
     for v in versions:
         if v["designator"] not in ordinal_of:
             raise BuildError(
@@ -88,7 +89,7 @@ def _resolve_alias_versions(
 
     resolved_text: dict[str, str] = {}
     deleted_designators: set[str] = set()
-    out: list[dict] = []
+    out: list[JsonObject] = []
     live = False  # is the provision in force after the previous version?
     for ordinal, v in items:
         if v.get("deleted"):
@@ -219,7 +220,7 @@ def insert_provisions(
 
 def _checked_versions(
     conn: sqlite3.Connection, s: Source
-) -> tuple[int, dict[str, tuple[int, int]], list[dict]]:
+) -> tuple[int, dict[str, tuple[int, int]], list[JsonObject]]:
     """A provision file's document id, the document's revisions (designator
     -> (id, ordinal)) and its versions with aliases resolved. Raise
     BuildError on the file's first fault: later checks would only cascade."""
@@ -257,7 +258,7 @@ def _insert_provision(
     s: Source,
     doc_id: int,
     revisions: dict[str, tuple[int, int]],
-    resolved: list[dict],
+    resolved: list[JsonObject],
     texts: dict[str, ParsedText],
     stats: TextStats,
 ) -> None:

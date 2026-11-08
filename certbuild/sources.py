@@ -24,12 +24,17 @@ SCHEMAS_DIR = REPO_ROOT / "schemas"
 DOCUMENT_FILE = "_document.json"
 
 
+# A parsed JSON object. Schema validation guarantees its shape (BUILD-10:
+# typed records would let mypy check it too).
+JsonObject = dict[str, Any]
+
+
 @dataclass(frozen=True)
 class Source:
     """One loaded JSON file and where it came from."""
 
     path: Path
-    doc: dict
+    doc: JsonObject
 
 
 @cache
@@ -158,6 +163,6 @@ def integrity_context(path: Path) -> Iterator[None]:
         raise BuildError([f"{path}: integrity error: {exc}"]) from exc
 
 
-def provenance(obj: dict) -> tuple[str, str | None]:
+def provenance(obj: JsonObject) -> tuple[str, str | None]:
     prov = obj.get("provenance") or {}
     return prov.get("source", "scraped"), prov.get("notes")

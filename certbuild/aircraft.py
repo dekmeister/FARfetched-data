@@ -23,7 +23,7 @@ from certbuild.resolve import (
     resolve_entry,
     resolve_ref,
 )
-from certbuild.sources import Source, integrity_context
+from certbuild.sources import JsonObject, Source, integrity_context
 from certbuild.text.paragraphs import paragraph_ref_paths
 
 
@@ -138,7 +138,7 @@ def _check_paragraph_refs(
 
 
 def _tcds_id(
-    conn: sqlite3.Connection, tcds_doc: dict, path: Path, errors: list[str]
+    conn: sqlite3.Connection, tcds_doc: JsonObject, path: Path, errors: list[str]
 ) -> int:
     """Insert a TCDS once; a repeat must carry identical metadata (a
     conflict goes to `errors`, and the first file's row is used)."""
@@ -159,7 +159,7 @@ def _tcds_id(
                 f"{path}: TCDS {tcds_doc['tcds_number']} metadata "
                 f"{meta} conflicts with an earlier file's {tuple(row[1:])}"
             )
-        return row[0]
+        return int(row[0])
     cur = conn.execute(
         "INSERT INTO tcds "
         "(issuer_id, tcds_number, revision, revision_date, source_url) "
