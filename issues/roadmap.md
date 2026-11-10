@@ -79,3 +79,15 @@ TCDS (TCDSN), recorded today only in the catalogue's `noise_*` columns.
 14 CFR 27 and 29 are ingested (1,267 versions), but no aircraft references
 them, and ROADMAP-9 covers only the EASA half. Staging FAA rotorcraft TCDS
 would put that data to use.
+
+### ROADMAP-11. Decide whether FAA policy documents belong with the deviations
+
+DRS doc type `AIR_POLICY` ("AIR Policy Statements, Memos and Deviations", 337
+Current rows on 2026-11-10) and its siblings `POLICY` (23), `AVP_POLICY` (1) and
+`FS_POLICY` (42) are not catalogued by the FAA deviations pipeline
+(tools/s00_docs/FAA_DEVIATIONS.md). The one row sampled, a `Deviation Memo`, was
+a deviation from FAA Order 8000.95 rather than from an airworthiness rule, but
+the rest haven't been surveyed and `Policy Type` has other values.
+
+**To close:** survey `Policy Type` and the cited rules, then decide whether any
+of these documents bear on a certification basis.
