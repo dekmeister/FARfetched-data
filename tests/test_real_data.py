@@ -30,7 +30,8 @@ class TestRealDataBuild:
                 )
             }
         assert {n for t, n in objects if t == "view"} == {"latest_versions"}
-        assert {n for t, n in objects if t == "table"} == {
+        shadow = ("search_text_", "search_aircraft_")
+        assert {n for t, n in objects if t == "table" and not n.startswith(shadow)} == {
             "build_info",
             "cert_basis_citations",
             "cert_basis_citation_gaps",
@@ -53,6 +54,9 @@ class TestRealDataBuild:
             "cert_basis_ref_skips",
             "cert_basis_resolved",
             "provision_similarity",
+            "search_text",
+            "search_current",
+            "search_aircraft",
         }
 
     def test_23_1309_paragraph_paths(self, real_db: Path) -> None:

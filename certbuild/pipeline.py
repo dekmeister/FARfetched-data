@@ -31,6 +31,7 @@ from certbuild.report import (
     git_sha,
     read_state,
 )
+from certbuild.search import insert_search
 from certbuild.similarity import insert_similarity
 from certbuild.text.paragraphs import ParsedText
 from certbuild.sources import (
@@ -125,6 +126,7 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
     para_stats = ParagraphRefStats()
     citation_stats = CitationStats()
     _raise_if(insert_aircraft(conn, src.aircraft, para_stats, citation_stats))
+    insert_search(conn)
     _raise_if(_future_dates(conn, date.today().isoformat()))
     _raise_if(
         [

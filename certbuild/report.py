@@ -16,6 +16,7 @@ from certbuild.aircraft import ParagraphRefStats
 from certbuild.citations import CitationStats, citation_report
 from certbuild.ddl import SCHEMA_VERSION
 from certbuild.provisions import TextStats
+from certbuild.search import search_report
 from certbuild.similarity import similarity_report
 
 
@@ -165,6 +166,7 @@ class BuildReport(TypedDict):
     paragraph_refs_verified: int
     paragraph_refs_unverifiable: int
     similarity: dict[str, int]
+    search: dict[str, int]
     coverage: Coverage
     citations: dict[str, Any]
     promotion: dict[str, Any]
@@ -213,10 +215,13 @@ def build_report(
     tables = [
         r[0]
         for r in conn.execute(
-            "SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name"
+            "SELECT name FROM sqlite_master WHERE type = 'table' "
+            "AND name NOT IN (SELECT name FROM pragma_table_list "
+            "WHERE type = 'shadow') ORDER BY name"
         )
     ]
-    # Table names come from sqlite_master, not from data.
+    # Table names come from sqlite_master, not from data. FTS5's own shadow
+    # tables are left out: they say nothing about the data.
     counts = {
         t: conn.execute(f"SELECT count(*) FROM {t}").fetchone()[0] for t in tables
     }
@@ -243,6 +248,7 @@ def build_report(
         "paragraph_refs_verified": para_stats.verified,
         "paragraph_refs_unverifiable": para_stats.unverifiable,
         "similarity": similarity_report(conn),
+        "search": search_report(conn),
         "coverage": coverage_report(conn),
         "citations": citation_report(conn, citation_stats),
         "promotion": promotion,

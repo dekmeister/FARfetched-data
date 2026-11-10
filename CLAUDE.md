@@ -137,6 +137,7 @@ file. Each module's docstring says what it must not do.
 | Aircraft, TCDS, ref inserts, paragraph-ref checks | `aircraft.py` | SQLITE | `test_resolution.py` |
 | ELOS/SC/exemption citations: resolving, version to link, report counts | `citations.py` | DATA_FORMAT §Citations, SQLITE §Citations | `test_citations.py` |
 | Similarity | `similarity.py` | SQLITE §Similarity | `test_similarity.py` |
+| Full-text search tables | `search.py` | SQLITE §Search | `test_search.py` |
 | Report, git state | `report.py` | SQLITE §Build | `test_build_failures.py` |
 | Build steps, `--check`, atomic output | `pipeline.py` | SQLITE §Build | `test_build_failures.py` |
 | Error reporting | `errors.py` (states the rule) | | `test_build_failures.py` |

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 11
+SCHEMA_VERSION = 12
 
 
 SCHEMA_SQL = """
@@ -339,6 +339,21 @@ CREATE TABLE cert_basis_citation_gaps (
              )),
     PRIMARY KEY (entry_id, seq)
 ) STRICT, WITHOUT ROWID;
+
+-- Full-text search (docs/SQLITE.md §Search). rowid = provision_versions.id; one
+-- row per version with text of its own. body is plain text, never markup.
+CREATE VIRTUAL TABLE search_text USING fts5(title, body,
+    tokenize='porter unicode61 remove_diacritics 2');
+
+-- The versions holding the current text of each provision in force.
+CREATE TABLE search_current (
+    version_id INTEGER PRIMARY KEY REFERENCES provision_versions(id)
+) STRICT, WITHOUT ROWID;
+
+-- rowid = tcb.id; basis = the raw_reference lines joined by newlines.
+CREATE VIRTUAL TABLE search_aircraft USING fts5(
+    designation, common_name, manufacturer, tcds_number, basis,
+    tokenize='unicode61 remove_diacritics 2');
 
 CREATE VIEW latest_versions AS
 SELECT pv.*, dr.designator, dr.ordinal, dr.effective_date

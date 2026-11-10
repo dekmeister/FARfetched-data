@@ -34,8 +34,8 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 
 ## Tables
 
-`build.py` compiles the JSON into 22 tables plus one view. Every table is
-`STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
+`build.py` compiles the JSON into 25 tables plus one view. Every table but the
+FTS5 virtual tables is `STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
 UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
 in [certbuild/ddl.py](../certbuild/ddl.py).
 
@@ -188,6 +188,29 @@ so it applies unchanged to documents structured differently from the CFR
 set of known equivalents that must rank first; extend it when adding a
 document and re-tune the constants against it.
 
+### Search
+
+Full-text search for the app, built last from rows already inserted
+(`certbuild/search.py`). FTS5 is required at build time and in the consumer.
+
+- `search_text(title, body)`: `rowid` = `provision_versions.id`, one row per
+  version with text of its own. Aliases share their target's row and deleted
+  versions have none. A `TEXT MISSING` version has its title and an empty body,
+  so it can be found and labelled. `body` is the plain form of `text`
+  (`certbuild.text.flat.plain_text`, control characters removed): no table
+  marks, `_{ }`, `^{ }` or `$$`, so `VMO` finds `V_{MO}` and a snippet can't
+  cut through markup. Porter stemming, `unicode61 remove_diacritics 2`.
+- `search_current(version_id)`: the versions holding the current text of each
+  provision in force, following an alias to the version with the text. Join it
+  to `search_text` to search current text only.
+- `search_aircraft(designation, common_name, manufacturer, tcds_number, basis)`:
+  `rowid` = `tcb.id`. `basis` is the entry's `raw_reference` lines joined by
+  newlines. `unicode61 remove_diacritics 2`, no stemming.
+
+The tokenizers split on dots and hyphens, so `25.1309` is the phrase
+`"25 1309"`. A consumer must quote user text: unquoted `25.1309`, `foo-bar` or
+`(x` are FTS5 syntax errors.
+
 ### `latest_versions` view
 
 For each provision, the `provision_versions` row at its highest-ordinal
@@ -224,14 +247,16 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    paragraph qualifiers. Then, per TCB, resolves its
    [citations](DATA_FORMAT.md#citations). Fails listing every unresolved
    reference, unresolved citation and TCDS metadata conflict.
-7. Fails on any date after the build day, and on any foreign-key violation.
+7. Fills the [search](#search) tables. Then fails on any date after the build
+   day, and on any foreign-key violation.
 8. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
-   every table, `documents` (per `ISSUER/slug`: revisions, provisions,
+   every table but FTS5's shadow tables, `documents` (per `ISSUER/slug`: revisions, provisions,
    versions, and `renumbered` = provisions with a version printed under
    another number), `text_missing` and `deleted` counts, provenance counts,
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
-   (provisions with matches and score bands), `coverage` (below), `citations`
+   (provisions with matches and score bands), `search` (`text_rows`,
+   `title_only_rows`, `current_rows`, `aircraft_rows`), `coverage` (below), `citations`
    (below), `promotion` (the
    tools commit behind each tree, from `data/promotion.json`), `source_checks` (per
    document, when its upstream listing was last read, or null if no check covers

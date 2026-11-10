@@ -183,3 +183,12 @@ manifest entry when new PDFs are added.
 - `amdt_markers` are unused by emit, but could cross-check versions.
 
 **To close:** implement both.
+
+### EASA-24. Control characters in CS-27 C27 at CS27-6
+
+Garbled PDF extraction: the text reads `(See AC 29-2C Change \x1a dated
+\x17\x03)HEUXDU\\\x03\x15\x13\x14\x19 and AMC material to CS–29)`. The search
+index drops control characters, so this can't break a snippet, but the words are
+wrong in `text` too. Found while building search (schema v12).
+
+**To close:** correct the text with an override row, against the PDF.
