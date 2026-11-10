@@ -119,7 +119,22 @@
           "raw_reference": "CRI F-66, Synthetic Vision, FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option. Special Condition SC-B23.div-01 \u201cHuman Factors in Integrated Avionic Systems\u201c (see Annex 1, Ref. CRI B- 52), Special condition \u201cSecurity Protection of Aircraft Systems and Networks\u201d (see Annex 1, Ref. CRI F-90) For PA-34-220T (Seneca V) aeroplanes equipped with the Piper factory installed optional Garmin International G1000NXi Phase I/II installed in accordance with Piper Top Drawing 107200-004",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 14,
@@ -127,7 +142,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-34-220T (Seneca V) aeroplanes equipped with the factory installed Garmin GFC700 AFCS option",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -159,7 +189,16 @@
           "raw_reference": "d) FAR 23.1303(c), Amdt. 23-62, Use of a stabilized magnetic compass as minimum flight instrumentation, for the factory installed G1000 Integrated Avionics System option",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1303",
+              "paragraph": "(c)",
+              "at": "23-62"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -175,7 +214,21 @@
           "raw_reference": "f) ESF for CS 23.1305 (b)(4) \u201cpowerplant instruments, fuel flow indication\u201d (see Annex 1, Ref. CRI F-203), ESF for CS 23.1303 (c) \u201cFLIGHT INSTRUMENTS, Stabilized Magnetic Compass\u201d (see Annex 1, Ref. CRI",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1305",
+              "paragraph": "(b)(4)"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1303",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 21,

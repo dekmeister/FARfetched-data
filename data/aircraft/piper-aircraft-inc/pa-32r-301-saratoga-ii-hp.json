@@ -87,7 +87,17 @@
           "raw_reference": "CAR 3.757, CAR 3.777 for the basic PA-32R-301 Saratoga II HP aeroplane",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "CAR 3.757",
+              "reason": "document_undetermined"
+            },
+            {
+              "cited": "CAR 3.777",
+              "reason": "document_undetermined"
+            }
+          ]
         },
         {
           "display_order": 10,

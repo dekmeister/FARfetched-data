@@ -71,7 +71,13 @@
           "raw_reference": "CRI Item B-2 Stall identification and recovery characteristics Item B-4 Performance in Icing Conditions Item B-5 All engines operating, Steep Approach Landing Item B-7 Gravel runway operation Item B-8 Take-off and landing in tailwind greater than 10 knots Item B-9 High altitude take-off Item C-3 Propeller blade impact NPA 25C-112 applies in lieu of JAR 25.571(e)(2) Item C-5 Composite structure Item F-1 Flight guidance system (basic system) Item F-2 CAT II requirements",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.571(e)(2)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -127,7 +133,33 @@
           "raw_reference": "CRI Item A-2 Oil quantity indicator JAR 25.1551 Item A-3 Refuelling system, auto shut-off testing JAR 25.979(b)(1) Item A-5 Static system integrity JAR 25.1333(c) Item A-6 Stand-by compass system JAR 25.1333(b) Item A-7 AC system indication JAR 25.1351(b)(6) Item A- Exit handle illumination JAR 25.811(e)(3)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1551",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.979(b)(1)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1333(c)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1333(b)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1351(b)(6)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.811(e)(3)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -135,7 +167,13 @@
           "raw_reference": "JAR 25.853(a) ;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.853(a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -151,7 +189,17 @@
           "raw_reference": "JAR 25.855(d) Item E-1 Engine certification JAR 25.903",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.855(d)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.903",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 18,

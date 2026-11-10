@@ -14,6 +14,7 @@ from datetime import UTC, date, datetime
 from pathlib import Path
 
 from certbuild.aircraft import ParagraphRefStats, insert_aircraft
+from certbuild.citations import CitationStats
 from certbuild.ddl import SCHEMA_SQL, SCHEMA_VERSION
 from certbuild.errors import BuildError
 from certbuild.lookups import seed_lookups
@@ -122,7 +123,8 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
     _raise_if(number_clashes(conn))
     insert_similarity(conn)
     para_stats = ParagraphRefStats()
-    _raise_if(insert_aircraft(conn, src.aircraft, para_stats))
+    citation_stats = CitationStats()
+    _raise_if(insert_aircraft(conn, src.aircraft, para_stats, citation_stats))
     _raise_if(_future_dates(conn, date.today().isoformat()))
     _raise_if(
         [
@@ -136,6 +138,7 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
         [],
         text_stats,
         para_stats,
+        citation_stats,
         git_dirty_paths(data_dir),
         read_state(data_dir / "promotion.json"),
         read_state(data_dir / "source_checks.json"),

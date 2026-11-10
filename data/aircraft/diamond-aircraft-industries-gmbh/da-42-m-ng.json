@@ -260,7 +260,14 @@
           "raw_reference": "Equivalent level of safety ACE-05-05B: Extension of Equivalent Level of Safety (ELOS) to 14 CFR part 23, \u00a723.1145, Motion and Effect of Cockpit Controls for the Diamond Aircraft Industries Model DA-42 M-NG Airplane.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1145"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -268,7 +275,15 @@
           "raw_reference": "Equivalent level of safety ACE-05-06B: Extension of Equivalent Level of Safety (ELOS) to 14 CFR part 23, \u00a723.777(d), Ignition Switches, for the Diamond Aircraft Industries for the DA-42 M-NG Airplane.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -276,7 +291,19 @@
           "raw_reference": "Equivalent level of safety ACE-05-07B: Extension of Equivalent Level of Safety (ELOS) to 14 CFR part 23, \u00a723.1061, Liquid Cooling \u2013 Installation, and \u00a723.1063 Liquid Cooling \u2013 Coolant tank tests for the Diamond Aircraft Industries DA-42 M-NG Airplane",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1061"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1063"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -284,7 +311,21 @@
           "raw_reference": "Equivalent level of safety ACE-10-07: Equivalent level of safety (ELOS) to 14 CFR part 23, \u00a7 23.991(a)(1) and \u00a723.991(b), Fuel pumps for the Diamond Aircraft Industries DA 42 NG airplane",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "991",
+              "paragraph": "(a)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "991",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 10,

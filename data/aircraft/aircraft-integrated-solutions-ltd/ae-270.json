@@ -59,7 +59,27 @@
           "raw_reference": "Special Condition to 14 CFR 23.137 FAA ELOS to 14 CFR 23.145(b)(2) FAA ELOS to 14 CFR 23.145(b)(4)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "145",
+              "paragraph": "(b)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "145",
+              "paragraph": "(b)(4)"
+            }
+          ],
+          "citation_gaps": [
+            {
+              "cited": "14 CFR 23.137",
+              "reason": "section_not_in_document"
+            }
+          ]
         },
         {
           "display_order": 5,

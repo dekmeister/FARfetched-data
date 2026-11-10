@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any, TypedDict
 
 from certbuild.aircraft import ParagraphRefStats
+from certbuild.citations import CitationStats, citation_report
 from certbuild.ddl import SCHEMA_VERSION
 from certbuild.provisions import TextStats
 from certbuild.similarity import similarity_report
@@ -165,6 +166,7 @@ class BuildReport(TypedDict):
     paragraph_refs_unverifiable: int
     similarity: dict[str, int]
     coverage: Coverage
+    citations: dict[str, Any]
     promotion: dict[str, Any]
     source_checks: dict[str, Any]
     git_dirty: bool | None
@@ -203,6 +205,7 @@ def build_report(
     unresolved: list[str],
     text_stats: TextStats,
     para_stats: ParagraphRefStats,
+    citation_stats: CitationStats,
     dirty_paths: list[str] | None,
     promotion: dict[str, Any],
     source_checks: dict[str, Any],
@@ -241,6 +244,7 @@ def build_report(
         "paragraph_refs_unverifiable": para_stats.unverifiable,
         "similarity": similarity_report(conn),
         "coverage": coverage_report(conn),
+        "citations": citation_report(conn, citation_stats),
         "promotion": promotion,
         # Null for a document no upstream check covers.
         "source_checks": {**dict.fromkeys(documents), **source_checks},

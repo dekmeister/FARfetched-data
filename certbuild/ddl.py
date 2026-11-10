@@ -9,7 +9,7 @@ from __future__ import annotations
 
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 10
+SCHEMA_VERSION = 11
 
 
 SCHEMA_SQL = """
@@ -296,6 +296,49 @@ CREATE TABLE cert_basis_resolved (
 ) STRICT, WITHOUT ROWID;
 
 CREATE INDEX idx_cbr_version ON cert_basis_resolved (provision_version_id);
+
+-- What an ELOS, special condition or exemption line explicitly cites, read by
+-- the tools (docs/SQLITE.md §Citations). Not part of the basis: nothing here
+-- feeds cert_basis_resolved. `provision_version_id` is the version to link;
+-- NULL when the basis holds the section at several and the line doesn't say.
+CREATE TABLE cert_basis_citations (
+    id                   INTEGER PRIMARY KEY,
+    entry_id             INTEGER NOT NULL REFERENCES cert_basis_entries(id),
+    seq                  INTEGER NOT NULL CHECK (seq >= 0),
+    document_id          INTEGER NOT NULL,
+    provision_id         INTEGER NOT NULL,
+    paragraph            TEXT,
+    stated_revision_id   INTEGER,
+    provision_version_id INTEGER,
+    version_basis        TEXT NOT NULL
+                         CHECK (version_basis IN
+                             ('stated', 'basis', 'basis_several', 'latest')),
+    UNIQUE (entry_id, seq),
+    FOREIGN KEY (document_id, provision_id)
+        REFERENCES provisions (document_id, id),
+    FOREIGN KEY (document_id, stated_revision_id)
+        REFERENCES document_revisions (document_id, id),
+    FOREIGN KEY (provision_id, provision_version_id)
+        REFERENCES provision_versions (provision_id, id),
+    CHECK ((version_basis = 'stated') = (stated_revision_id IS NOT NULL)),
+    CHECK ((version_basis = 'basis_several') = (provision_version_id IS NULL))
+) STRICT;
+
+CREATE INDEX idx_cit_provision ON cert_basis_citations (provision_id);
+
+-- Section-like citations on a line that are not linked, and why.
+CREATE TABLE cert_basis_citation_gaps (
+    entry_id INTEGER NOT NULL REFERENCES cert_basis_entries(id),
+    seq      INTEGER NOT NULL CHECK (seq >= 0),
+    cited    TEXT NOT NULL,
+    reason   TEXT NOT NULL
+             CHECK (reason IN (
+                 'doc_not_in_dataset', 'section_not_in_document',
+                 'document_undetermined', 'range_not_expanded',
+                 'withheld_basis_list'
+             )),
+    PRIMARY KEY (entry_id, seq)
+) STRICT, WITHOUT ROWID;
 
 CREATE VIEW latest_versions AS
 SELECT pv.*, dr.designator, dr.ordinal, dr.effective_date

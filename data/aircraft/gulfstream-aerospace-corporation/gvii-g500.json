@@ -189,7 +189,13 @@
           "raw_reference": "*FAA ELOS TC-01-2010-0024-C-7-GVI Rev. 1 - Encroachment into Emergency Exits (for 25.813(c)(2)(ii) aspects of CRI D-17)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "25.813(c)(2)(ii)",
+              "reason": "document_undetermined"
+            }
+          ]
         },
         {
           "display_order": 22,

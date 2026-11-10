@@ -118,7 +118,15 @@
           "raw_reference": "ESF to requirement CS25.1326(b)(2) - Flight instrument external probes heating systems alert Terrain Information Display and Synthetic Vision System Indication removal from Primary Flight Displays during ground phases (for aircraft equipped with M-OPT0131)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1326",
+              "paragraph": "(b)(2)"
+            }
+          ]
         },
         {
           "display_order": 12,

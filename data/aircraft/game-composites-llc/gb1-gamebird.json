@@ -69,7 +69,14 @@
           "raw_reference": "ELOS-CS23.777/781- Position and shape of Engine Controls; ELOS-GB1-B23-0177a-01CS",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "777"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -77,7 +84,15 @@
           "raw_reference": "23.177(a) and (d), for CS-23 aerobatic aeroplanes;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "177",
+              "paragraph": "(a)(d)"
+            }
+          ]
         },
         {
           "display_order": 8,

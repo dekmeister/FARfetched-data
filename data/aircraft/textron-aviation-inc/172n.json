@@ -60,7 +60,14 @@
           "raw_reference": "Airspeed Indicator CAR 3.757 (see NOTE 4 on use of CAS) (S/N 17261445, 17261578, 17265685 thru 17276259)",
           "applicability": "Models 172 thru 172P; 17261445, 17261578, 17265685",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "CAA",
+              "document": "car-3",
+              "number": "757"
+            }
+          ]
         },
         {
           "display_order": 5,
@@ -68,7 +75,15 @@
           "raw_reference": "Operating Limitations CAR 3.778(a)",
           "applicability": "Models 172 thru 172P; 17261445, 17261578, 17265685",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "CAA",
+              "document": "car-3",
+              "number": "778",
+              "paragraph": "(a)"
+            }
+          ]
         }
       ]
     }

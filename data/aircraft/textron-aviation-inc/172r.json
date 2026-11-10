@@ -333,7 +333,14 @@
           "raw_reference": "Induction System Icing Protection 23.1093, refer to FAA letter dated 5/3/1996",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1093"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -341,7 +348,15 @@
           "raw_reference": "Throttle Control 23.1143(g), refer to FAA letter dated 3/22/1996",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1143",
+              "paragraph": "(g)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -349,7 +364,15 @@
           "raw_reference": "Mixture Control 23.1147(b), refer to FAA letter dated 3/22/1996",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1147",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -357,7 +380,15 @@
           "raw_reference": "Anti-Collision Light System 23.1401(d), refer to ACE-07-09, FAA letter dated 10/12/2007",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1401",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 10,
@@ -365,7 +396,15 @@
           "raw_reference": "Aviation White Color Requirement 23.1397(c), refer to ACE-07-10, FAA letter dated 11/29/2007",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1397",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 11,

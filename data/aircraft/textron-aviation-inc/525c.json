@@ -93,7 +93,21 @@
           "raw_reference": "Special Conditions. 23-240-SC, Flight special conditions in lieu of 23.161(b)(2), Trim, and 23.181(a)(d), Dynamic Stability.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "161",
+              "paragraph": "(b)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "181",
+              "paragraph": "(a)(d)"
+            }
+          ]
         },
         {
           "display_order": 10,
@@ -101,7 +115,59 @@
           "raw_reference": "Exemptions. Exemption No. 9495 to permit modification of the airplane landing gear loads and associated airframe loads in lieu of 23.473, 23.477, 23.479, 23.481, 23.483, 23.493, 23.723, 23.725, 23.726, 23.727, and C23.1 Appendix C of Title 14, CFR.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "473"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "477"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "479"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "481"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "483"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "493"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "723"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "725"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "726"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "727"
+            }
+          ]
         },
         {
           "display_order": 11,
@@ -109,7 +175,15 @@
           "raw_reference": "Exemptions. Exemption No. 9593 to permit for the installation of a multi-place side-facing couch, in lieu of 23.562(a).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "562",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -117,7 +191,15 @@
           "raw_reference": "Exemptions. Exemption No. 9906 to permit certification without a warning system indicating a failure of the pressure refueling automatic shutoff system as specified in the rule until August 1, 2010, in lieu of 23.979(b)(2). Exemption No. 9906A extends Exemption No. 9906 to February 1, 2011, and Exemption No. 9906B extends Exemption No. 9906A to May 1, 2011. To conduct operations after May 1, 2012, airplanes prior to S/N 525C0025 that do not have a warning system indicating the failure of the pressure refueling automatic shutoff system must comply with Service Bulletin SB525C-28-01.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "979",
+              "paragraph": "(b)(2)"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -125,7 +207,15 @@
           "raw_reference": "Exemptions. Exemption No. 9920 for use of a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "181",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 14,
@@ -133,7 +223,15 @@
           "raw_reference": "Exemptions. Exemption No. 9534 to permit certification in the commuter category, in lieu of 23.3(d).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "3",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -141,7 +239,15 @@
           "raw_reference": "Exemptions. Exemption No. 9997 to allow type certification with the current engine low pressure rotary group shaft speed (N1) and interstage turbine temperature (ITT) displays until April 30, 2011, in lieu of 23.1549(a)(b)(c). To conduct operations after April 30, 2012, airplanes prior to 525C0025 must comply with Service Bulletin SB525C-34-02.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -149,7 +255,21 @@
           "raw_reference": "Exemptions. Exemption No. 9998 to allow type certification with the current engine oil pressure and temperature displays until April 30, 2011, in lieu of 23.1321(b), 23.1549(a)(b)(c). To conduct operations after April 30, 2012, airplanes prior to S/N 525C0025 must comply with Service Bulletin SB525C-34-02.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1321",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -157,7 +277,15 @@
           "raw_reference": "ELOS. No. ACE-00-05B: 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 18,
@@ -165,7 +293,15 @@
           "raw_reference": "ELOS. No. ACE-08-01: 23.1555(d)(1), Useable Fuel Capacity Marking.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -173,7 +309,15 @@
           "raw_reference": "ELOS. No. ACE-08-03A: 23.841(b)(6), Cabin Pressurization - High Altitude Takeoff and Landing Operation.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(b)(6)"
+            }
+          ]
         },
         {
           "display_order": 20,
@@ -181,7 +325,15 @@
           "raw_reference": "ELOS. No. ACE-08-04: 23.815(b) Cabin Aisle Width.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "815",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 21,
@@ -189,7 +341,15 @@
           "raw_reference": "ELOS. No. ACE-08-07: 23.853(d)(2) No Smoking Placard Lettering Size.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "853",
+              "paragraph": "(d)(2)"
+            }
+          ]
         },
         {
           "display_order": 22,
@@ -197,7 +357,15 @@
           "raw_reference": "ELOS. No. ACE-08-08: 23.807(e) Emergency Exit Water Barrier.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "807",
+              "paragraph": "(e)"
+            }
+          ]
         },
         {
           "display_order": 23,
@@ -205,7 +373,15 @@
           "raw_reference": "ELOS. No. ACE-09-07: 23.1303(c) for a Direction Indicator (non-stabilized magnetic compass), (applicable to airplanes 525C0001 thru 525C0263).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1303",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 24,
@@ -213,7 +389,26 @@
           "raw_reference": "ELOS. No. ACE-09-13: 23.1305(a)(1)(2)(3)(c)(1)(2)(5), 23.1549(a)(b)(c), 23.1553, Digital Displays of Powerplant and Fuel System Instrumentation, Fuel Flow, N2 Indication and Fuel Quantity.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(a)(1)(2)(3)(c)(1)(2)(5)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1553"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -221,7 +416,15 @@
           "raw_reference": "ELOS. No. ACE-10-06: 23.1326(b) Pitot Heat Indication System.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1326",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 26,
@@ -229,7 +432,15 @@
           "raw_reference": "ELOS. No. TXTAV-015771-SE-5: 23.1303(c) Direction Indicator (non-stabilized magnetic compass) (applicable to airplanes 525C0264 & On).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1303",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 27,

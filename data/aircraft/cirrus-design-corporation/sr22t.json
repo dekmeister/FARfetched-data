@@ -167,7 +167,14 @@
           "raw_reference": "ACE-96-5A for 14 CFR \u00a7 23.221 (Spinning); Refer to FAA Memorandum dated February 02, 2010 for model SR22T.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -175,7 +182,21 @@
           "raw_reference": "ACE-00-09A for 14 CFR \u00a7 23.1143(g) (Engine Controls) and \u00a7 23.1147(b) (Mixture Controls); Refer to FAA Memorandum dated February 02, 2010 for model SR22T.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1143",
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1147",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -183,7 +204,21 @@
           "raw_reference": "ACE-08-05A for 14 CFR \u00a7 23.777(d) (Cockpit Controls) and \u00a7 23.781(b) (Cockpit control knob shape); Refer to FAA Memorandum dated February 02, 2010 for model SR22T (all serials).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "781",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 14,
@@ -191,7 +226,15 @@
           "raw_reference": "ACE-09-06A for 14 CFR \u00a7 23.1326(b)(1) (Pitot heat indication systems); Refer to FAA Memorandum dated February 02, 2010 for model SR22T (all serials).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1326",
+              "paragraph": "(b)(1)"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -199,7 +242,15 @@
           "raw_reference": "ACE-10-08 for 14 CFR \u00a7 23.1091(b)(4) (Alternate air door override means); Refer to FAA Memorandum dated February 02, 2010 for model SR22T (all serials).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1091",
+              "paragraph": "(b)(4)"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -223,7 +274,21 @@
           "raw_reference": "Exemption No. 9993 to 14 CFR \u00a7 23.1419(a) for Flight Into Known Icing operations only on model SR22T (Effective S/N 0001 and on). Exemption allows for a higher stall speed than that required by 14 CFR \u00a7 23.49(c) & (d) when operating in icing conditions.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1419",
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "49",
+              "paragraph": "(c)(d)"
+            }
+          ]
         }
       ]
     },

@@ -111,7 +111,13 @@
           "raw_reference": "Exemption from JAR 25.205 Stalls: Critical Engine Inoperative",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.205",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -127,7 +133,21 @@
           "raw_reference": "25.1439 (b), 25.1441 (a), 25.1447 (b) and (c)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "25.1439 (b)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1441 (a)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1447 (b) and (c)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -143,7 +163,13 @@
           "raw_reference": "Exemption from JAR 25.562 (c)(5), HIC Values, Front Row Passenger Seats",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.562 (c)(5)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -191,7 +217,15 @@
           "raw_reference": "Towbarless Towing (CS 25.745(d)(1))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "745",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 23,

@@ -260,7 +260,14 @@
           "raw_reference": "ACE-96-5 for 14 CFR Section (\u00a7) 23.221 (Spinning); Refer to FAA Memorandum dated June 10, 1998 for models SR20, SR22.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -268,7 +275,21 @@
           "raw_reference": "ACE-00-09 for 14 CFR \u00a7 23.1143(g) (Engine Controls) and \u00a7 23.1147(b) (Mixture Controls); Refer to FAA Memorandum dated September 11, 2000 for model SR22.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1143",
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1147",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 18,
@@ -276,7 +297,21 @@
           "raw_reference": "ACE-08-05 for 14 CFR \u00a7 23.777(d) (Cockpit Controls) and \u00a7 23.781(b) (Cockpit control knob shape); Refer to FAA Memorandum dated April 11, 2008 for models SR20, SR22. (effective with optional Garmin G1000 avionics installation, see certification basis above).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "781",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -284,7 +319,15 @@
           "raw_reference": "ACE-09-06 for 14 CFR \u00a7 23.1326(b)(1) (Pitot heat indication systems); for Flight Into Known Icing equipped airplanes only (Effective S/N 3003, 3310, 3326, 3403 and subsequent); Refer to FAA Memorandum dated April 20, 2009 for model SR22.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1326",
+              "paragraph": "(b)(1)"
+            }
+          ]
         },
         {
           "display_order": 20,
@@ -316,7 +359,21 @@
           "raw_reference": "Exemption No. 9849 to 14 CFR \u00a7 23.1419(a) for Flight Into Known Icing operations only on model SR22 (Effective S/N 3003, 3310, 3326, 3403 and subsequent). Exemption allows for a higher stall speed than that required by 14 CFR \u00a7 23.49(c) & (d) when operating in icing conditions.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1419",
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "49",
+              "paragraph": "(c)(d)"
+            }
+          ]
         }
       ]
     },

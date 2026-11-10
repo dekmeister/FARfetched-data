@@ -45,7 +45,15 @@
           "raw_reference": "Project Specific Policy Memorandum (PSPM) for correction of Amendment 23-62 and prior amendment errors, as described in an FAA Memorandum, under the subject, \u201cProject Specific Policy Memorandum for 14 CFR Part 23, up to and including Amdt 62.\u201d ELOS Finding for Quest, Project No. AT13028SE-A, \u201cEquivalent Level of Safety Finding for 14 CFR \u00a723.1353(h), Storage Battery Design and Installation: in the event of a complete loss of the primary electrical generating system.\u201d dated August 31, 2020.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1353",
+              "paragraph": "(h)"
+            }
+          ]
         },
         {
           "display_order": 4,

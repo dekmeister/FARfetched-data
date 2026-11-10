@@ -37,7 +37,15 @@
           "raw_reference": "\u00a7 23.177 (a)(2), (3) \u2013 Ample controllability of the airplane in specified conditions.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "177",
+              "paragraph": "(a)(2)(3)"
+            }
+          ]
         },
         {
           "display_order": 3,
@@ -45,7 +53,21 @@
           "raw_reference": "\u00a7 23.1013(e); \u00a7 23.1019(b) \u2013 The active strainer input area is thirty-times larger than the critical outlet section. The strainer blocking has never occured during operation. Dangerous blocking is prevented by scheduled inspection periods. The airplane is provided with a duplicate oil pressure checking system.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1013",
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1019",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 4,
@@ -53,7 +75,14 @@
           "raw_reference": "\u00a7 23.1323 \u2013 At the speeds above 240 km/h, the accomplished correction is on the safe side.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1323"
+            }
+          ]
         },
         {
           "display_order": 5,

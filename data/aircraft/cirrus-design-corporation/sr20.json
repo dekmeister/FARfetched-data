@@ -603,7 +603,14 @@
           "raw_reference": "ACE-96-5 for 14 CFR Section (\u00a7) 23.221 (Spinning); Refer to FAA Memorandum dated June 10, 1998 for models SR20, SR22.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            }
+          ]
         },
         {
           "display_order": 30,
@@ -611,7 +618,21 @@
           "raw_reference": "ACE-01-01 for 14 CFR \u00a7 23.1143(g) (Engine Controls) and \u00a7 23.1147(b) (Mixture Controls); Refer to FAA Memorandum dated February 14, 2001 for model SR20.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1143",
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1147",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 31,
@@ -619,7 +640,21 @@
           "raw_reference": "ACE-08-05 for 14 CFR \u00a7 23.777(d) (Cockpit Controls) and \u00a7 23.781(b) (Cockpit control knob shape); Refer to FAA Memorandum dated April 11, 2008 for models SR20, SR22. (effective with optional Garmin G1000 avionics installation, see certification basis above).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "781",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 32,

@@ -99,7 +99,15 @@
           "raw_reference": "Equivalent Level of Safety (ELOS) for FAR 23.955(f)(3), June 6, 2000.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "955",
+              "paragraph": "(f)(3)"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -855,7 +863,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-46-500TP (Malibu Meridian) aeroplanes equipped with the factory installed Garmin G1000 Phase III option.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -863,7 +886,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), CRI F-05, Human Factors in Integrated Avionic Systems, CRI F-90, Security Protection of Aircraft Systems and Networks for PA-46-500TP aeroplanes equipped with the factory installed G1000 NXI.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 20,
@@ -871,7 +909,15 @@
           "raw_reference": "ELOS for 23.955(f)(3), see Certification Base for the basic PA-46-500TP aeroplane.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "955",
+              "paragraph": "(f)(3)"
+            }
+          ]
         },
         {
           "display_order": 21,

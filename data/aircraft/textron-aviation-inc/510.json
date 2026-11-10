@@ -31,7 +31,19 @@
           "raw_reference": "Human Factors NPA 15/2004, \u00a71302 High Intensity Radiated Fields CS 23.1301, .1309 Aeroplane System Wiring CS 23.1309, .1529",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1301"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1309"
+            }
+          ]
         },
         {
           "display_order": 3,
@@ -39,7 +51,24 @@
           "raw_reference": "CS 23.1357 Battery Endurance Requirement CS 23.1353 Thickness of Bonded Fuel Tank Skins, CS 23.867 Lightning Protection",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1357"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1353"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "867"
+            }
+          ]
         },
         {
           "display_order": 4,

@@ -10,7 +10,7 @@ in [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md).
 Contents: [File paths](#file-paths) · [Document file](#document-file-datadocumentsfaa23_documentjson) ·
 [Provision file](#provision-file-datadocumentsfaa231309json) · [Text format](#text-format) ·
 [Aircraft model file](#aircraft-model-file-dataaircraftmanufacturer-slugmodel-slugjson) ·
-[Resolution rules](#resolution-rules)
+[Resolution rules](#resolution-rules) · [Citations](#citations)
 
 ## File paths
 
@@ -403,6 +403,8 @@ designation can be a different type design under another TC.
 | `applicability`       | string  | yes      | Verbatim serial/config scope, e.g. `"525-0600 thru 525-0684"`. |
 | `applicability_notes` | string  | yes      | Other scope or caveats. |
 | `references`          | array   | no       | What the line *means*, machine-readably. Empty when not (yet) interpreted. |
+| `citations`           | array   | yes      | `elos`, `special_condition` and `exemption` only: the sections the line explicitly cites. See [Citations](#citations). Absent when none. |
+| `citation_gaps`       | array   | yes      | Same entry types: section-like citations on the line that are not linked, and why. Absent when none. |
 
 **Per-reference fields**
 
@@ -460,3 +462,71 @@ The build fails, rather than guessing, when:
 - a scoped or paragraph ref resolves a provision to a version that deleted it;
 - a paragraph qualifier is not a run of `(x)` tokens, or names a paragraph
   that the (structured) resolved version doesn't have.
+
+### Citations
+
+`citations` records which provisions an ELOS, special condition or exemption
+line **explicitly names**. A citation is not part of the certification basis:
+it never reaches `cert_basis_resolved` and changes no expansion. It is read from
+`raw_reference` by a parser (`tools/s00_common/tcds_citations.py`). It is not a
+reviewed statement that the deviation applies to that section, so consumers show
+the verbatim line beside it and mark it as computed.
+
+```json
+{
+  "entry_type": "elos",
+  "raw_reference": "ACE-00-09 for 14 CFR § 23.1143(g) and § 23.1147(b), JAR 25.607",
+  "references": [],
+  "citations": [
+    { "issuer": "FAA", "document": "23", "number": "1143", "paragraph": "(g)" },
+    { "issuer": "FAA", "document": "23", "number": "1147", "paragraph": "(b)", "at": "23-49" }
+  ],
+  "citation_gaps": [
+    { "cited": "JAR 25.607", "reason": "doc_not_in_dataset" }
+  ]
+}
+```
+
+| Field       | Purpose |
+|-------------|---------|
+| `issuer`, `document` | The cited document. |
+| `number`    | Printed number, read at `at`, or at the latest revision when there is no `at`. |
+| `paragraph` | Run of `(x)` tokens, the grammar of a reference's `paragraph`: `(d), (e)` on the line is `(d)(e)`. |
+| `at`        | The amendment the line states for this section, if the section is in force at it. |
+
+Gap fields: `cited`, an exact substring of `raw_reference`, and `reason`:
+
+| Reason | Meaning |
+|---|---|
+| `doc_not_in_dataset` | The line cites a document we don't hold: JAR, AMC, GM, or an absent part. |
+| `section_not_in_document` | The document is held but never printed that number. |
+| `document_undetermined` | Nothing decides which document a bare number belongs to. |
+| `range_not_expanded` | A range (`23.1381 to 23.1401`). Its members are not listed. |
+| `withheld_basis_list` | The line reads like a basis list typed as a deviation, so nothing on it is linked. |
+
+**Which document** (tools, first match wins): the line names it (`CS 25.x`,
+`FAR`/`14 CFR`, or a document named earlier on the line for that part); `JAR`,
+`AMC`, `GM` are gaps; `CAR 3.x` is the one CAR 3 document in the aircraft's
+basis; a bare number on an FAA TCDS is that FAA part; on an EASA TCDS it is the
+one basis document with that part number, or the one family (FAR, CS or JAR)
+the aircraft's regulation lines name. Otherwise it is a gap.
+
+**The guard** (tools): a line is withheld when it has three or more section
+ranges, or six or more distinct sections at three or more amendment levels. A
+row in `tools/overrides/tcds_citations.tsv` can force `withhold` or `allow`.
+
+**Which version a citation links to** (build), recorded as `version_basis`:
+
+1. `stated`: the version in force at `at`.
+2. `basis`: the aircraft's resolved basis holds the section at one version.
+3. `basis_several`: it holds several (different serial ranges); no version is
+   chosen, because the line doesn't say which.
+4. `latest`: neither applies. The latest version that isn't a deletion,
+   preferring one with real text. This says nothing about what the aircraft was
+   certified to.
+
+The build fails on an unknown document, revision or number, a section not in
+force at `at`, a malformed `paragraph`, or a `cited` string that isn't in the
+line. A well-formed `paragraph` the linked version lacks is counted in the
+report, not fatal: a TCDS line can be wrong, and `latest` can be the wrong text
+to check it against.

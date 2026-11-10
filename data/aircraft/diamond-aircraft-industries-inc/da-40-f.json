@@ -68,7 +68,15 @@
           "raw_reference": "Equivalent Level of Safety ACE-03-01 to 14 CFR Part 23, \u00a7 23.1337(b), for auxiliary fuel level indication system is applicable to the Model DA40 equipped with long range fuel tanks per Optional Design Change O\u00c4M 40-071c (ref. Note 7).",
           "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries GmbH (Austria), serial numbers 40.FC001 through 40.FC029",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1337",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 6,
@@ -112,7 +120,15 @@
           "raw_reference": "Equivalent Level of Safety ACE-03-01 to 14 CFR Part 23, \u00a7 23.1337(b), for auxiliary fuel level indication system is applicable to the Model DA40 equipped with long range fuel tanks per Optional Design Change O\u00c4M 40-071c (ref. Note 7). The FAA originally validated the model DA 40 F airplane on July 15, 2005. Subsequent to the transfer of the models DA 40, DA 40 F, and DA 40 NG from Diamond Aircraft Industries GmbH (Austria) to Diamond Aircraft Industries Inc. (Canada), the FAA has reissued Type Certificate A47CE on November 15, 2017 to Diamond Aircraft Industries Inc. (Canada).",
           "applicability": "Airplanes produced under the design responsibility of Diamond Aircraft Industries Inc. (Canada), serial numbers 40.FC030 and subsequent",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1337",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 10,

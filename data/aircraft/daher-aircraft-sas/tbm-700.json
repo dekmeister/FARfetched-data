@@ -541,7 +541,15 @@
           "raw_reference": "ELOS ACE-02-01: 14 CFR \u00a723.807(a)(1), Emergency Exits; Refer to FAA letter dated October 7, 2001, applicable to cargo configured airplanes only (See Note 4.)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "807",
+              "paragraph": "(a)(1)"
+            }
+          ]
         },
         {
           "display_order": 24,
@@ -549,7 +557,21 @@
           "raw_reference": "ELOS ACE-14-01: 14 CFR \u00a723.777(d) Cockpit Controls Location and 14 CFR \u00a723.781(b), Shape \u2013 Single Power Lever for TBM 700 dated December 12, 2013, applicable to aircraft equipped with MOD70-0324-00 (see note 21)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "781",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -557,7 +579,15 @@
           "raw_reference": "ELOS AT01004CE-A-P-2: 14 CFR \u00a723.1305(e),(j, and (m), amendment 23-24, Part Time and Full Time Digital Only Powerplant Indications, applicable for aircraft equipped with MOD70-0550-00 (see note 31)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(e)"
+            }
+          ]
         },
         {
           "display_order": 26,
@@ -565,7 +595,94 @@
           "raw_reference": "ELOS AT01078CE-A-S-2: 14 CFR part 23 \u00a723.671, 23.697, 23.729, 23.777, 23.779, 23.991, 23.1141, 23.1189, 23.1301, 23.1303, 23.1305, 23.1309, 23.1311, 23.1321, 23.1322, 23.1337, 23.1555, Airplanes equipped with DAHER modification No. MOD70-0650-34 (\u201cEmergency Autoland/HomeSafe System\u201d) s/n 1272, 1275-9999",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "671"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "697"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "729"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "779"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "991"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1141"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1189"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1301"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1303"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1309"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1311"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1321"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1322"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1337"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1555"
+            }
+          ]
         },
         {
           "display_order": 27,
@@ -573,7 +690,39 @@
           "raw_reference": "ELOS AT11910IB-A-23.1303:14 CFR 21.21(b)(1), 23.1301, 23.1303, 23.1309, 23.1311, 23.1321, 23.1459 Indications removal from Primary Flight Displays during ground phase on Model Daher TBM700N airplane Airplanes equipped with DAHER modification No. MOD70-0876-00",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1301"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1303"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1309"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1311"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1321"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1459"
+            }
+          ]
         },
         {
           "display_order": 28,

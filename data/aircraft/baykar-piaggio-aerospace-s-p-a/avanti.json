@@ -224,7 +224,15 @@
           "raw_reference": "23.1305(g) Fuel pressure indication",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(g)"
+            }
+          ]
         },
         {
           "display_order": 26,
@@ -232,7 +240,15 @@
           "raw_reference": "23.1545(b)(5) Marking of Air Speed",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545",
+              "paragraph": "(b)(5)"
+            }
+          ]
         },
         {
           "display_order": 27,

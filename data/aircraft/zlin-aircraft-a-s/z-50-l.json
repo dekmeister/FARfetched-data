@@ -31,7 +31,15 @@
           "raw_reference": "\u00a7 23.177(a)(3) \u2013 Requirement upon the control force characteristic in relation to the aileron angle is not completely met. In steady, right slips at 1.2",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "177",
+              "paragraph": "(a)(3)"
+            }
+          ]
         },
         {
           "display_order": 3,
@@ -55,7 +63,15 @@
           "raw_reference": "\u00a7 23.207(c) \u2013 The difference between the stalling speed and the stall warning speed is lesser than the value required in the Regulation. It is admitted under the proviso that the special aerobatic airplane is concerned where the later warning enables the pilot to use a wider range of speed polar.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "207",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 6,
@@ -63,7 +79,15 @@
           "raw_reference": "\u00a7 23.613(c) \u2013 Materials and design values used for aircraft design and construction comply with the Czechoslovak State Standard and specifications valid for the Czechoslovak aviation industry. It is admitted with regard to the fact that the requirement sense is met.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "613",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -71,7 +95,15 @@
           "raw_reference": "\u00a7 23.967(d) \u2013 The fuel tank is located in the pilot\u00b4s compartment and is not isolated by an impermeable partition. It is admitted under the proviso that the instructions for tank tightness test are included in the Flight Manual.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "967",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -79,7 +111,14 @@
           "raw_reference": "\u00a7 23.971 \u2013 In the normal ground attitude, fuel tank sump cannot be completely discharged. It is admitted because the fuel system construction arrangement avoids water entry into the power plant fuel system.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "971"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -87,7 +126,15 @@
           "raw_reference": "\u00a7 23.993(d), (e) \u2013 Of the fire resistance of hoses is not complied with. It is admitted with regard to operating experiences.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "993",
+              "paragraph": "(d)(e)"
+            }
+          ]
         },
         {
           "display_order": 10,
@@ -95,7 +142,15 @@
           "raw_reference": "\u00a7 23.1093(a)(4) \u2013 Requirement upon temperature of air inducted by the alternate air intake system is not completely met. Induction air temperature is lesser than temperature of cooling air at engine outlet. It is admitted under the proviso that flying in icing conditions is prohibited.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1093",
+              "paragraph": "(a)(4)"
+            }
+          ]
         },
         {
           "display_order": 11,
@@ -103,7 +158,15 @@
           "raw_reference": "\u00a7 23.1351(d) \u2013 For the electrical power supply to be checked, the airplane is equipped with a check light signalling the alternator is out of operation. It is admitted under the proviso that the airplane is equipped with a storage battery securing the electrical power supply for necessary time.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1351",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -111,7 +174,13 @@
           "raw_reference": "\u00a7 23.1381 \u2013 1401 The airplane is not equipped with light system for night operation. Night flight and IFR",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "\u00a7 23.1381 \u2013 1401",
+              "reason": "range_not_expanded"
+            }
+          ]
         },
         {
           "display_order": 13,

@@ -37,7 +37,15 @@
           "raw_reference": "- FAR 23.677 (a) For the aileron trim tab the neutral position is only enunciated. The Aeroplane Flight Manual requires that the neutral position must be checked before taxiing-out for take-off.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "677",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 3,
@@ -45,7 +53,15 @@
           "raw_reference": "- FAR 23.1305 (v) There is no indication of proper functioning of the fuel heater. The heater operates automatically, there are no pilot-operated controls. A malfunction of the heater will not result in an emergency. A check of correct functioning of the fuel heater is required by the Maintenance Schedule after 300 flight hours.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(v)"
+            }
+          ]
         },
         {
           "display_order": 4,
@@ -61,7 +77,15 @@
           "raw_reference": "- FAR 23.1307 (b) (1) There is a separate switch for each electrical power source (2 storage batteries, 4 generators). These 6 switches are located next to each other on the overhead panel. This arrangement allows the switches to be switched off almost simultaneously. This arrangement prevents the possibility of a loss of all electrical power sources in the event of one master switch failure. Note: This exemption does not apply for aircraft since s/n 3011 inclusive and for the aircraft with the Master Switch arrangement installed iaw. Aircraft Industries Information Bulletin L410UVP- E/413b.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1307",
+              "paragraph": "(b)(1)"
+            }
+          ]
         },
         {
           "display_order": 6,

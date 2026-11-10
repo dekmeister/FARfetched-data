@@ -200,7 +200,22 @@
           "raw_reference": "CRI B-52, Human Factors in Integrated Avionic Systems,FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 24,
@@ -208,7 +223,15 @@
           "raw_reference": "SC-B23.div-01 (B-52), Human Factors in Integrated Avionic Systems, FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -216,7 +239,13 @@
           "raw_reference": "23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), CRI F-90, Security Protection of Aircraft Systems and Networks.for PA-28-181 (Archer III) aeroplanes equipped with the factory installed Garmin G1000 NXI (Phase I and Phase II). In addition CRI F-14 Electronic Stability and Protection (ESP) only for aeroplanes equipped with G1000 phase II option and the autopilot GFC-700.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "23.1308(a)(b)(c)",
+              "reason": "document_undetermined"
+            }
+          ]
         },
         {
           "display_order": 26,

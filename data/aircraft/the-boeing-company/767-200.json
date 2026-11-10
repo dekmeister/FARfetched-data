@@ -109,7 +109,25 @@
           "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "601"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "863"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1353",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -149,7 +167,14 @@
           "raw_reference": "- Ditching Provisions 25.801 (Over- water operation can be approved when the aircraft has been equipped and installation has been approved according to FAR 25.801)",
           "applicability": "Compliance with the following optional requirements has been established",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "801"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -157,7 +182,14 @@
           "raw_reference": "- Ice Protection Provisions 25.1419",
           "applicability": "Compliance with the following optional requirements has been established",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1419"
+            }
+          ]
         },
         {
           "display_order": 18,
@@ -165,7 +197,15 @@
           "raw_reference": "Exemption from FAR 25: Exemption No. 4725 - Exemption from 25.785(h) - Allows one seat for a required flight attendant to be located near the overwing Type III exits.",
           "applicability": "Adopted FAA Exemptions granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "785",
+              "paragraph": "(h)"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -173,7 +213,15 @@
           "raw_reference": "Equivalent Safety Findings exist with respect to the following regulations: FAR 25.1093(b)(1) Induction System De-Icing and Anti-icing Protection",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1093",
+              "paragraph": "(b)(1)"
+            }
+          ]
         },
         {
           "display_order": 20,
@@ -181,7 +229,15 @@
           "raw_reference": "FAR 25.1103(d) Induction System Ducts and Air Duct Systems",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1103",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 21,
@@ -189,7 +245,21 @@
           "raw_reference": "FAR 25.1103(e) Induction System Ducts and Air Duct Systems RB211-524H Installation only. Generic ESF: G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1103",
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 22,
@@ -197,7 +267,15 @@
           "raw_reference": "FAR 25.1181(a)(6) Designated Fire Zones; Regions Included",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1181",
+              "paragraph": "(a)(6)"
+            }
+          ]
         },
         {
           "display_order": 23,
@@ -205,7 +283,14 @@
           "raw_reference": "FAR 25.1203 Fire Detector System for Compartment Surrounding the Turbine and Jetpipe (Zone 4A/4B) RB211-524H Installation only.",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1203"
+            }
+          ]
         },
         {
           "display_order": 24,
@@ -213,7 +298,15 @@
           "raw_reference": "FAR 25.1305(a)(4), (a)(6), Powerplant Instruments (c)(1) and (c)(3)",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305",
+              "paragraph": "(a)(4)(a)(6)"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -221,7 +314,15 @@
           "raw_reference": "FAR 25.1387(b) and (c) Position Light System Dihedral Angles",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1387",
+              "paragraph": "(b)(c)"
+            }
+          ]
         },
         {
           "display_order": 26,
@@ -229,7 +330,14 @@
           "raw_reference": "FAR 25.1393 Minimum Intensities in Any Vertical Plan of Forward and Rear Position Lights",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1393"
+            }
+          ]
         },
         {
           "display_order": 27,
@@ -237,7 +345,14 @@
           "raw_reference": "FAR 25.1395 Maximum Intensities in Overlapping Beams of Forward and Rear Position Lights",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1395"
+            }
+          ]
         },
         {
           "display_order": 28,
@@ -245,7 +360,15 @@
           "raw_reference": "FAR 25.1415(d) Emergency Locator Transmitter (ELT)",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1415",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 29,
@@ -253,7 +376,15 @@
           "raw_reference": "FAR 25.1549(b) Powerplant and Auxiliary Power Unit Instruments",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1549",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 30,
@@ -261,7 +392,15 @@
           "raw_reference": "FAR 25.365(e)(2) Pressurized Cabin Loads",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "365",
+              "paragraph": "(e)(2)"
+            }
+          ]
         },
         {
           "display_order": 31,
@@ -269,7 +408,15 @@
           "raw_reference": "FAR 25.803(c)(8) Emergency Evacuation Demonstration",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "803",
+              "paragraph": "(c)(8)"
+            }
+          ]
         },
         {
           "display_order": 32,
@@ -277,7 +424,15 @@
           "raw_reference": "FAR 25.807(a)(7)(iv)and (c) Passenger Emergency Exits",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "807",
+              "paragraph": "(a)(7)(iv)(c)"
+            }
+          ]
         },
         {
           "display_order": 33,
@@ -285,7 +440,14 @@
           "raw_reference": "FAR 25.809 Emergency Exit Arrangement",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "809"
+            }
+          ]
         },
         {
           "display_order": 34,
@@ -293,7 +455,15 @@
           "raw_reference": "FAR 25.813(c) Emergency Exit Access",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "813",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 35,
@@ -301,7 +471,15 @@
           "raw_reference": "FAR 25.811(f)(2) Exit Band Contrast",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "811",
+              "paragraph": "(f)(2)"
+            }
+          ]
         },
         {
           "display_order": 36,
@@ -309,7 +487,15 @@
           "raw_reference": "FAR 25.853(c) Compartment Interiors",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "853",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 37,
@@ -317,7 +503,14 @@
           "raw_reference": "FAR 25.791 Passenger Information Signs and Placards",
           "applicability": "Adopted FAA Equivalent Safety Findings",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "791"
+            }
+          ]
         },
         {
           "display_order": 38,

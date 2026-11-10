@@ -111,7 +111,13 @@
           "raw_reference": "JAR 25.841 (a) Max cabin altitude 8000 ft CRI D-02",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.841 (a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -119,7 +125,13 @@
           "raw_reference": "JAR 25.841 (b)(6) Max cabin altitude warning at 10000 ft CRI D-02",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.841 (b)(6)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 14,
@@ -127,7 +139,13 @@
           "raw_reference": "JAR 25.779 (b)(2) Motion and effect of emergency landing gear control CRI D-03",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.779 (b)(2)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -135,7 +153,13 @@
           "raw_reference": "JAR 25.791(b) Passenger information signs CRI D-04",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.791(b)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -143,7 +167,13 @@
           "raw_reference": "JAR 25.1093 (b) Air intake system Ice Protection CRI E-02",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1093 (b)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -159,7 +189,13 @@
           "raw_reference": "JAR 25.1305 (e)(1) Torque indicator CRI F-12",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1305 (e)(1)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 19,

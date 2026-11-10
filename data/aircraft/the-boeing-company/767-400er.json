@@ -71,7 +71,25 @@
           "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "601"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "863"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1353",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -143,7 +161,13 @@
           "raw_reference": "JAA/767-400ER/EX/CRI D-03 Hydraulic System Proof Pressure Testing Partial Exemption from JAR 25.1435(b)(1)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1435(b)(1)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -343,7 +367,13 @@
           "raw_reference": "Overspeed Warning Equivalent Safety with JAR 25.1303(c)(1)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1303(c)(1)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 42,
@@ -351,7 +381,13 @@
           "raw_reference": "Take-off Speeds, Vmu Equivalent Safety with JAR 25.1078(d)(e)(1)(iv)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1078(d)(e)(1)(iv)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 43,
@@ -359,7 +395,17 @@
           "raw_reference": "Material Strength Properties and Design Values Equivalent Safety with JAR 25.613 Exterior Exit Markings Equivalent Safety with JAR 25.811 (f)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.613",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.811 (f)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 44,
@@ -367,7 +413,13 @@
           "raw_reference": "Pneumatic Systems - High Pressure Equivalent Safety with JAR 25X1436 Engine FADEC Equivalent Safety with JAR 25.901(b)(1)(ii)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.901(b)(1)(ii)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 45,
@@ -375,7 +427,13 @@
           "raw_reference": "Thrust Reversers Equivalent Safety with JAR 25.901(c) and 933(a)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.901(c)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 46,
@@ -383,7 +441,13 @@
           "raw_reference": "Fan Cowl Flammable Fluid Zone Equivalent Safety with JAR 25.1181(a)(6)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1181(a)(6)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 47,
@@ -391,7 +455,13 @@
           "raw_reference": "Oxygen Outlets in Work Areas Equivalent Safety with JAR 25.1447(c)(3)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1447(c)(3)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 48,
@@ -399,7 +469,17 @@
           "raw_reference": "Maximum Intensities in Overlapping Beams, Forward and Rear Position Lights Equivalent Safety with JAR 25.1395 FMCS Hazardously Misleading Navigation Information Equivalent Safety with JAR 25.1309 (AMJ25-11)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1395",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1309",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 49,
@@ -407,7 +487,13 @@
           "raw_reference": "APU Instruments and Limitations Equivalent Safety with JAR 25A1305(a)(2), 25D1305(a)(1), (a)(2), (a)(3), 25A1521, 25.1522 and 25A1549",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "25.1522",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 50,
@@ -423,7 +509,15 @@
           "raw_reference": "D-GEN7, Flammability Testing Hierarchy (JAR/CS 25.853(a) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "853",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 52,
@@ -431,7 +525,15 @@
           "raw_reference": "G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 53,

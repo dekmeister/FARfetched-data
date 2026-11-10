@@ -32,6 +32,8 @@ class TestRealDataBuild:
         assert {n for t, n in objects if t == "view"} == {"latest_versions"}
         assert {n for t, n in objects if t == "table"} == {
             "build_info",
+            "cert_basis_citations",
+            "cert_basis_citation_gaps",
             "issuers",
             "documents",
             "document_revisions",

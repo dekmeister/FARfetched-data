@@ -151,7 +151,15 @@
           "raw_reference": "Equivalent Safety Level FAR 23.1361(a) - Master Switch Arrangement",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1361",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 18,

@@ -135,6 +135,7 @@ file. Each module's docstring says what it must not do.
 | Provision/version inserts, aliases, deletions, number clashes | `provisions.py` | DATA_FORMAT, SQLITE §Build | `test_easa_alias.py`, `test_deletion.py`, `test_provision_key.py` |
 | Cert-basis resolution rules (pure, no sqlite3) | `resolve.py` | DATA_FORMAT §Resolution rules | `test_resolve.py`, then `test_resolution.py` |
 | Aircraft, TCDS, ref inserts, paragraph-ref checks | `aircraft.py` | SQLITE | `test_resolution.py` |
+| ELOS/SC/exemption citations: resolving, version to link, report counts | `citations.py` | DATA_FORMAT §Citations, SQLITE §Citations | `test_citations.py` |
 | Similarity | `similarity.py` | SQLITE §Similarity | `test_similarity.py` |
 | Report, git state | `report.py` | SQLITE §Build | `test_build_failures.py` |
 | Build steps, `--check`, atomic output | `pipeline.py` | SQLITE §Build | `test_build_failures.py` |

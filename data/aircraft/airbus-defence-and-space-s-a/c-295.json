@@ -239,7 +239,15 @@
           "raw_reference": "Exemption to FAR 25.571(e)(1), granted by DGAC-ES on 29 October 1998.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "571",
+              "paragraph": "(e)(1)"
+            }
+          ]
         },
         {
           "display_order": 29,
@@ -263,7 +271,14 @@
           "raw_reference": "In relation with the regulation 14 CFR Section 25.1149: Propeller speed and pitch controls. Use the stall speed to 1-g to show compliance with the corresponding paragraphs of 14 CFR Part 25 instead of \u201cMinimum Speed\u201d in stall.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1149"
+            }
+          ]
         },
         {
           "display_order": 32,

@@ -759,7 +759,14 @@
           "raw_reference": "Improved flammability standards for thermal / acoustic insulation materials Main Deck Class E Cargo Compartment Cockpit sliding windows compliance aspects with CS 25.783 Pressure Bulkhead and Cargo Access Doors \u2013 Compliance aspects with CS 25.783 Cockpit Sliding Window Fasteners - Compliance aspects with CS",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "783"
+            }
+          ]
         },
         {
           "display_order": 81,
@@ -767,7 +774,21 @@
           "raw_reference": "25.607(a)(c) Main Deck Cargo Door visual indication provision as per CS 25.783(f) Landing Light Switch",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "607",
+              "paragraph": "(a)(c)"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "783",
+              "paragraph": "(f)"
+            }
+          ]
         },
         {
           "display_order": 82,
@@ -775,7 +796,14 @@
           "raw_reference": "ESF FCD-MULTI-01 CS-FCD T3 Evaluation Process (applicable from November 2021) Pneumatic Systems \u2013 harmonized 25.1438 (applicable from July 2025, EASA approval Letter ref. 10087589 - MOD 211280)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1438"
+            }
+          ]
         },
         {
           "display_order": 83,

@@ -271,7 +271,25 @@
           "raw_reference": "SC H-01 Enhanced Airworthiness Programme for Aeroplane Systems - ICA on EWIS JAA Special Conditions The following Special Conditions have been applied: - JAA/757-300/ND/CRI F-08 MMR Qualification and Installation - JAA/757-300/ND/CRI F-11 EGPWS - JAA/757-300/ND/CRI F-15 FANS-1 - JAA/757-300/SC/CRI D-02 Worn Brakes - JAA/757-300/SC/CRI D-20 Towbarless Towing, Nose Wheel Steering - JAA/757-300/SC/CRI E-02 Engine Type Certification - JAA/757-300/SC/CRI F-01 Protection from the effects of HIRF - JAA/757-300/SC/CRI F-02 Lightning Protection - Directs Effects - JAA/757-300/SC/CRI F-03 Lightning Protection - Indirect Effects - JAA/757-300/SC/CRI G-01 Computerised AFM - JAA/757-300/SC/CRI G-02 Aeroplane Flight Manual Adopted FAA Special Conditions see FAA TCDS A2NM Post-TC: Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "601"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "863"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1353",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 33,
@@ -279,7 +297,13 @@
           "raw_reference": "- JAA/757-300/EX/CRI D-12 Partial Exemption from JAR 25.1435(b)(1)",
           "applicability": "The following exemptions have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1435(b)(1)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 34,
@@ -287,7 +311,17 @@
           "raw_reference": "- JAA/757-300/EX/CRI E-06 Exemption from JAR 25.961(a)(5), JAR25.1521",
           "applicability": "The following exemptions have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.961(a)(5)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR25.1521",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 35,
@@ -311,7 +345,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI B-04 Equivalent Safety with JAR 25.1303(c)",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1303(c)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 38,
@@ -319,7 +359,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-05 Equivalent Safety with JAR 25.791 & 853",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.791",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 39,
@@ -327,7 +373,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-06 Equivalent Safety with JAR 25.807 & 813",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.807",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 40,
@@ -335,7 +387,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-07 Equivalent Safety with JAR 25.807 & 809",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.807",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 41,
@@ -343,7 +401,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-08 Equivalent Safety with JAR 25.810",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.810",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 42,
@@ -351,7 +415,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-10 Equivalent Safety with JAR 25.812",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.812",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 43,
@@ -359,7 +429,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-16 Equivalent Safety with JAR 25.810(a)(1)(iii)",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.810(a)(1)(iii)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 44,
@@ -375,7 +451,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI D-19 Equivalent Safety with JAR 25.811(f)",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.811(f)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 46,
@@ -383,7 +465,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI E-01 Equivalent Safety with JAR 25.933(a)",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.933(a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 47,
@@ -391,7 +479,13 @@
           "raw_reference": "- JAA/757-300/ES/CRI F-10 Equivalent Safety with JAR 25.1389(b)(3)",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1389(b)(3)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 48,
@@ -415,7 +509,15 @@
           "raw_reference": "ESF G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers) Adopted FAA Equivalent Safety Findings see FAA TCDS A2NM",
           "applicability": "JAA Equivalent Safety Findings The following Equivalent Safety findings have been granted",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 51,

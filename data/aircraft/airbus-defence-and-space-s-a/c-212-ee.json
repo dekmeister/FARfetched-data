@@ -115,7 +115,15 @@
           "raw_reference": "When installed with underwing tanks 212-54700 or 212-54701, exemption from compliance with FAR paragraph Part 25, 25.903 (d) (1).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "903",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -123,7 +131,15 @@
           "raw_reference": "F-02 C-212-EE \u201cEquivalent Safety Finding\u201d to FAR 25.1401 (b) section for airplanes with ventral radome",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1401",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 13,

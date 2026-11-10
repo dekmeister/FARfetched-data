@@ -12,6 +12,7 @@ from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
+from certbuild.citations import CitationStats, insert_citations
 from certbuild.lookups import category_id_for, issuer_id_for, upsert_manufacturer
 from certbuild.provisions import document_id_for
 from certbuild.resolve import (
@@ -171,7 +172,10 @@ def _tcds_id(
 
 
 def insert_aircraft(
-    conn: sqlite3.Connection, aircraft: list[Source], para_stats: ParagraphRefStats
+    conn: sqlite3.Connection,
+    aircraft: list[Source],
+    para_stats: ParagraphRefStats,
+    citation_stats: CitationStats,
 ) -> list[str]:
     """Insert every aircraft file; return every failure (unresolved
     references, TCDS metadata conflicts) for the caller to raise."""
@@ -195,7 +199,15 @@ def insert_aircraft(
             assert model_id is not None
             for tcb_entry in doc["tcb"]:
                 failures.extend(
-                    _insert_tcb(conn, model_id, tcb_entry, s.path, indexes, para_stats)
+                    _insert_tcb(
+                        conn,
+                        model_id,
+                        tcb_entry,
+                        s.path,
+                        indexes,
+                        para_stats,
+                        citation_stats,
+                    )
                 )
     return failures
 
@@ -207,6 +219,7 @@ def _insert_tcb(
     path: Path,
     indexes: _DocIndexes,
     para_stats: ParagraphRefStats,
+    citation_stats: CitationStats,
 ) -> list[str]:
     failures: list[str] = []
     tcds_doc = tcb_entry["tcds"]
@@ -224,6 +237,9 @@ def _insert_tcb(
     for entry in tcb_entry["certification_basis"]:
         label = f"{path.name} {tcds_doc['tcds_number']} line {entry['display_order']}"
         failures.extend(_insert_entry(conn, tcb_id, entry, label, indexes, para_stats))
+    failures.extend(
+        insert_citations(conn, tcb_id, tcb_entry, indexes.get, citation_stats)
+    )
     return failures
 
 

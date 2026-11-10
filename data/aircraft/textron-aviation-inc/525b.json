@@ -216,7 +216,84 @@
           "raw_reference": "Special Conditions. 23-145-SC, Flight Performance, Flight Characteristics, and Operating Limitations. Special Conditions SC 23.51 Takeoff speeds; SC 23.63 Climb: General; SC 23.67 Climb: One engine inoperative; SC 23.149 Minimum control speed; SC 23.161 Trim; SC 23.173 Static longitudinal stability; SC 23.177 Static directional and lateral stability; SC 23.201 Wings level stall; SC 23.203 Turning flight and accelerated turning stalls; SC 23.251 Vibration and buffeting; SC 23.253 High speed characteristics; SC 23.1505 Airspeed limitations; SC 23.1545 Airspeed indicator; SC 23.1583 Operating limitations; and SC 23.1585 Operating procedures.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "51"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "63"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "67"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "149"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "161"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "173"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "177"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "201"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "203"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "251"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "253"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1505"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1583"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1585"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -232,7 +309,15 @@
           "raw_reference": "Exemptions. Exemption No. 8323 for use of a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "181",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 21,
@@ -240,7 +325,21 @@
           "raw_reference": "ELOS. (1) No. ACE-00-01A: 23.1305(c)(2)(5), 23.1549(a)(b)(c)(d), direct reading, digital only displays for the high- pressure turbine speed (N2), and fuel flow indications.",
           "applicability": "Applicable to airplanes 525B0001 thru 525B0056, 525B0058 thru 525B0450",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(c)(2)(5)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)(d)"
+            }
+          ]
         },
         {
           "display_order": 22,
@@ -248,7 +347,57 @@
           "raw_reference": "ELOS. (1) No. ACE-14-12: 23.1549(a)(b)(c), Electronic Display of the Engine Parameters; N2, Oil Pressure, Oil Temperature, and Fuel Flow, on a Garmin 3000 Integrated Flight Deck. (2) No. ACE-99-07A: 23.841(b)(6), Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations. (3) No. ACE-00-05A: 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure. (4) No. ACE-02-18: 23.783(f)(1) Passenger Entry Door Opening Dimensions. (5) No. ACE-02-20: 23.815(b) Cabin Aisle Width. (6) No. ACE-03-07: 23.853(d)(2) No Smoking Placard Lettering Size. (7) No. ACE-04-06: 23.1447(e) Passenger Oxygen Dispensing Units. (8) No. ACE-11-07: 23.855(c)(3) Cargo and Baggage Compartment Fire Protection. NOTE: No Cessna Model 525B aircraft will be configured to meet ELOS ACE-11-07.",
           "applicability": "Applicable to airplanes 525B0057, 525B0451 & On",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(b)(6)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "783",
+              "paragraph": "(f)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "815",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "853",
+              "paragraph": "(d)(2)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1447",
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "855",
+              "paragraph": "(c)(3)"
+            }
+          ]
         }
       ]
     },

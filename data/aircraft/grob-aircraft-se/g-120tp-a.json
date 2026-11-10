@@ -61,7 +61,21 @@
           "raw_reference": "CS 23.777(g) Location of Landing Gear Control Lever If equipped i.a.w. O\u00c4M 565-17: CS 23.1321(d)(4): Location of Heading Indicator PFD",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "777",
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1321",
+              "paragraph": "(d)(4)"
+            }
+          ]
         },
         {
           "display_order": 6,

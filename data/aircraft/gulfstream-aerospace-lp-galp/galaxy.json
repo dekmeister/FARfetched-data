@@ -75,7 +75,82 @@
           "raw_reference": "Equivalent Safety: FAR 25.1203(a) for Turbine Tail Pipe Fire Detection. Equivalent Safety: FAR 25.1305 & 25.1501(b) for Auxiliary Power Unit (APU) Instrumentation and Monitoring Requirements. Equivalent Safety: FAR 25.901, 25.1305, 25.1309, 25.1321, 25.1549 for Digital only display of turbine engine high/ intermediate pressure rotor speed (N2). Equivalent Safety: All Part 25 Sections, except structural, dealing with stall speeds/related factors for use of 1-g Stall Speed instead of minimum speed in the stall. Equivalent Safety: Sections: 1.1, 1.2, 25.101, 25.105, 25.109, 25.113, 25.115, 25,735 and 25.1587 for rejected take-off and landing performance criteria. Equivalent Safety: 25.933 (a)(1)(ii) for Thrust Reversers operation.",
           "applicability": null,
           "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1203",
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1501",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "901"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1309"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1321"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1549"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "101"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "105"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "109"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "113"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "115"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1587"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "933",
+              "paragraph": "(a)(1)(ii)"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -83,7 +158,15 @@
           "raw_reference": "Special Conditions for Pilot Compartment View: FAR 25.773(b) per CAAI I.P. F-3.",
           "applicability": null,
           "applicability_notes": "State of Design Airworthiness Authority Certification Basis",
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "773",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -171,7 +254,13 @@
           "raw_reference": "CRI B-01 Accelerate-stop Distances and Related JAR 1.1, 1.2 and JAR 25.101, 105, Performance Matters 109, 113, 115, 735, 25X1591",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.101",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -187,7 +276,13 @@
           "raw_reference": "CRI B-04 Stall and Stall Warning Speeds and Manoeuvre JAR 25.103, 107, 119,125, 143 and Capability 207",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.103",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 21,
@@ -195,7 +290,13 @@
           "raw_reference": "CRI C-02 Yawing Manoeuvring Conditions Special JAR 25.351(a) Condition",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.351(a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 22,
@@ -203,7 +304,13 @@
           "raw_reference": "CRI D-04 Worn Brakes JAR 25.735 Special Condition JAA / G200",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.735",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 23,
@@ -211,7 +318,13 @@
           "raw_reference": "CRI E-03 Cowling and Nacelle Skin JAR 25.1193",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1193",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 24,
@@ -219,7 +332,13 @@
           "raw_reference": "CRI F-06 Protection from the effects of HIRF JAR-25.1431",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.1431",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -235,7 +354,17 @@
           "raw_reference": "CRI F-08 Lightning Protection - Indirect Effects JAR 25.581, 25X89925.954, 25.1309 INT/POL/25/4 Issue 2",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.581",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1309",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 27,
@@ -243,7 +372,17 @@
           "raw_reference": "Single Place Sidefacing Seat/ Sidefacing Divans JAR 25.562 / 25.785",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.562",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.785",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 28,
@@ -259,7 +398,13 @@
           "raw_reference": "CRI C-05 Flutter, Deformation and Fail Safe Criteria JAR 25.629",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.629",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 30,
@@ -267,7 +412,17 @@
           "raw_reference": "CRI D-07 Single Place Sidefacing Seat/ Sidefacing Divans JAR 25.562 / 25.785",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.562",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.785",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 31,
@@ -275,7 +430,13 @@
           "raw_reference": "CRI D-10 Retracting Mechanism JAR-25.729 (e)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.729 (e)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 32,
@@ -283,7 +444,13 @@
           "raw_reference": "CRI D-11 Retracting Mechanism, Landing Gear Position JAR-25.729 (e)(7) Indicator",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.729 (e)(7)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 33,
@@ -291,7 +458,13 @@
           "raw_reference": "CRI D-12 Brake Overheat JAR-25.729 (f)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.729 (f)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 34,
@@ -299,7 +472,13 @@
           "raw_reference": "CRI D-13 Brakes, Akku Indication JAR-25.735 (i)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.735 (i)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 35,
@@ -307,7 +486,13 @@
           "raw_reference": "CRI D-14 Cockpit Indication System Press. JAR-25.1436 (b) (2)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR-25.1436 (b) (2)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 36,
@@ -315,7 +500,17 @@
           "raw_reference": "CRI E-01 APU Instrumentation JAR 25.1305, 25.1501",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1305",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1501",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 37,
@@ -323,7 +518,13 @@
           "raw_reference": "CAAI/FAA Issue Papers (see CAAI /FAA ESFs) FAA Turbine Engine Tail Pipe Fire Detection JAR 25.1203 (a) IP P-1",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1203 (a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 38,

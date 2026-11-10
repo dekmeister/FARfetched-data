@@ -426,7 +426,26 @@
           "raw_reference": "\u2022 ACE-94-8 of June 21, 1994, Spin demonstration, FAR 23.221 a)2) as extended by FAA memorandum dated November 7, 2007. \u2022 ACE-05-18 of November 29, 2005, Cabin pressure indicator, FAR 23.841b) 6) as extended by FAA memorandum dated November 7, 2007. \u2022 ELOS AT00923CE-A-P-4 dated August 16, 2019, Use of Interconnected Fuel Tanks without Tank Airspaces, 14 CFR 23.975(a)(4), amendment 23-29.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "975",
+              "paragraph": "(a)(4)",
+              "at": "23-29"
+            }
+          ]
         },
         {
           "display_order": 19,

@@ -51,7 +51,33 @@
           "raw_reference": "Equivalent Level of Safety as follows: (a) ACE-15-07 for \u00a723.777(d) Cockpit controls and \u00a723.781(b) Cockpit control knob shape; Refer to FAA Memorandum dated April 14, 2015 (b) ACE-15-05 for \u00a723.1143(g) Engine controls; Refer to FAA Memorandum dated May 4, 2015 (c) ACE-15-12 for \u00a723.1326(b)(1) Pitot Heat Indication Systems; Refer to FAA Memorandum dated July 8, 2015 Special Conditions as follows: 23-268-SC for Installation of Full Authority Digital Engine Control (FADEC) System for KC-100 Airplane Reciprocating Engine",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "781",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1143",
+              "paragraph": "(g)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1326",
+              "paragraph": "(b)(1)"
+            }
+          ]
         }
       ]
     }

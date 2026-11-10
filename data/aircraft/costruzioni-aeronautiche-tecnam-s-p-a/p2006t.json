@@ -79,7 +79,15 @@
           "raw_reference": "CS23.807(e) Ditching Emergency Exits (CRI D-01), see note 8;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "807",
+              "paragraph": "(e)"
+            }
+          ]
         },
         {
           "display_order": 7,
@@ -87,7 +95,15 @@
           "raw_reference": "CS23.783(b), Main door (CRI D-02), see note 8;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "783",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -95,7 +111,14 @@
           "raw_reference": "CS23.865, Fire protection of flight controls, engine mounts and other flight structure (CRI D-03), see note 8;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "865"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -103,7 +126,20 @@
           "raw_reference": "CS23.1061(b), CS23.1063, Liquid Cooling Coolant tank (CRI E- 01), see note 8.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1061",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1063"
+            }
+          ]
         },
         {
           "display_order": 10,
@@ -162,7 +198,26 @@
           "raw_reference": "Equivalent levels of safety (ELOS): findings made per the provisions of 14 CFR Part 21.21(b)(1) for: a) ELOS ACE-10-15: 14 CFR \u00a7 23. 807(e) Emergency Exits - overhead emergency exit size b) ELOS ACE-10-16: 14 CFR \u00a7 23. 783(b) Doors - proximity of propeller and main door c) ELOS ACE-10-17: 14 CFR \u00a7\u00a7 23.1061 (b), 23.1063 Liquid Cooling and Cooling Tank d) ELOS ACE-10-18: 14 CFR \u00a7 23.777 (d) Cockpit Controls Location - Carburetor Heat Location",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1061",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1063"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "777",
+              "paragraph": "(d)"
+            }
+          ]
         },
         {
           "display_order": 4,

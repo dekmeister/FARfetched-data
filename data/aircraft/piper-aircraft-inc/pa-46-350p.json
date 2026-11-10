@@ -1218,7 +1218,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-46-350P aeroplanes equipped with the factory installed Garmin G1000 Phase III option",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -1226,7 +1241,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), CRI-F05, issue 3 or later revision, Human Factors in Integrated Avionic Systems, FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), CRI F-90, Security Protection of Aircraft Systems and Networks For PA-46-350P aeroplanes equipped with the factory installed Garmin G1000 NXI Integrated Avionics",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 18,

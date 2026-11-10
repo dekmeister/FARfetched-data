@@ -79,7 +79,21 @@
           "raw_reference": "F\u20103.1 Exemption from JAR 25.1439(b), 25.1441 (a), 25.1447 (b) and (c) Oxygen Requirements",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1439(b)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1441 (a)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "25.1447 (b) and (c)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -103,7 +117,13 @@
           "raw_reference": "D\u20102.1 Lavatory Fire Protection (JAR 25.854 (a))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.854 (a)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -111,7 +131,13 @@
           "raw_reference": "F\u20102.1 Hydraulic System Static Test, (JAR 25.1435 (b)(1))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.1435 (b)(1)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -127,7 +153,13 @@
           "raw_reference": "JAR 25.811 (f)(3)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.811 (f)(3)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -135,7 +167,13 @@
           "raw_reference": "E\u20104.4(PTC) Fuel Tank Expansion Space JAR 25.969",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.969",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -143,7 +181,15 @@
           "raw_reference": "D\u20102.2(PTC) Towbarless Towing (CS 25.745(d)(1))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "745",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 17,

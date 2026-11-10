@@ -37,7 +37,15 @@
           "raw_reference": "\u00a7 23.177(a)(2), (3) \u2013 Some requirements for directional and lateral stability and aileron control stick force curve in straight, steady slips are not fully met. It is admitted with regard to very good aircraft controllability and to the fact that dangerous tendencies do not occur and abnormal pilot\u2019s skills or effort are not needed.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "177",
+              "paragraph": "(a)(2)(3)"
+            }
+          ]
         },
         {
           "display_order": 3,
@@ -45,7 +53,20 @@
           "raw_reference": "\u00a7 23.613(c), \u00a7 23.615 \u2013 Materials and design values used for aircraft design and construction comply with the Czechoslovak State Standard and specifications valid for the Czechoslovak aviation industry. It is admitted with regard to the fact that the requirement sense is met.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "613",
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "615"
+            }
+          ]
         },
         {
           "display_order": 4,
@@ -53,7 +74,15 @@
           "raw_reference": "\u00a7 23.955(c) \u2013 Requirement for flow rate of fuel supplied by fuel pump to the engine is not met. It is admitted with regard to the fact that fuel flow is higher than engine consumption at maximum power.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "955",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 5,
@@ -61,7 +90,56 @@
           "raw_reference": "\u00a7 23.991(b) \u2013 The aircraft is not equipped with emergency pump for fuel supply recovery in case of main fuel pump failure. It is admitted with regard to these reasons: - The engine is equipped with high-pressure pump, which is joined with low-pressure pump to a single aggregate. A failure of this aggregate could cause contemporaneous break of fuel supply by both supply and injection pumps. In such case, no emergency pump could ensure sufficient fuel supply to finish the flight without abnormal pilot\u2019s skills or effort. A failure of low-pressure pump has not been occurred yet and its occurrence is extremely improbable. \u00a7 23.993(d), \u00a7 23.1183(a) \u2013 Requirement for hoses fire resistance is not met. It is admitted with regard to experiences from operation of the aircraft of former type. \u00a7 23.1013(e), \u00a7 23.1019 \u2013 Oil tank outlet is provided with the screen, which does not restrict oil flow. A surface of the screen is multiple bigger than cross section of the outlet fitting, thus safety level is kept. \u00a7 23.1145(c) \u2013 Requirement for protection of magnetos changeover switch against dangerous change over is not met. It is admitted with regard to the shape and location of the changeover switch. \u00a7 23.1381 to 23.1401 \u2013 The aircraft is not equipped with lighting for night operation. \u00a7 23.1545(a), (b) \u2013 Requirement for a scale for CAS speed is not met. Airspeed indicator scale and its colour markings are done in IAS.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "991",
+              "paragraph": "(b)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "993",
+              "paragraph": "(d)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1183",
+              "paragraph": "(a)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1013",
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1019"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1145",
+              "paragraph": "(c)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545",
+              "paragraph": "(a)(b)"
+            }
+          ],
+          "citation_gaps": [
+            {
+              "cited": "\u00a7 23.1381 to 23.1401",
+              "reason": "range_not_expanded"
+            }
+          ]
         },
         {
           "display_order": 6,

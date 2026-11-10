@@ -151,7 +151,22 @@
           "raw_reference": "CRI B-52, Human Factors in Integrated Avionic Systems, CRI F-66, Synthetic Vision, FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-44-180 (Seminole) aeroplanes equipped with the factory installed Garmin G1000 Integrated Avionics System option, or with Piper factory installed Garmin G1000NXi Phase I as installed by Piper drawing number 107600- 002, or with Piper factory installed Garmin G1000NXi Phase II as installed by Piper drawing number 107600- 002 or 107600-003.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 18,
@@ -159,7 +174,22 @@
           "raw_reference": "CRI F-14 Electronic Stability and Protection (ESP), FAR 23.1306, Amdt. 23-61, Protection of the effects of lightning strike, indirect effects (formerly CRI F-54), FAR 23.1308(a)(b)(c), Amdt. 23-61, Protection of the effects of HIRF (formerly CRI F-52), for PA-44-180 aeroplanes equipped with the factory installed Garmin GFC700 AFCS option Special condition \u201cSecurity Protection of Aircraft Systems and Networks\u201d (see annex 1) for aeroplanes equipped with Piper factory installed Garmin G1000NXi Phase I as installed by Piper drawing number 107600-002, or with",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1306",
+              "at": "23-61"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1308",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-61"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -183,7 +213,15 @@
           "raw_reference": "FAR 23.1545(a) for the basic PA-44-180 (Seminole) aeroplane (airspeed indicator markings based on IAS instead of CAS).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 22,

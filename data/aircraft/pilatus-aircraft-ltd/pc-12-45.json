@@ -223,7 +223,15 @@
           "raw_reference": "FOCA CQF 91-04 (FAR 23.221(a)(2))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221",
+              "paragraph": "(a)(2)"
+            }
+          ]
         },
         {
           "display_order": 18,
@@ -231,7 +239,15 @@
           "raw_reference": "FOCA CQF 21-03 (FAR 23.841(b)(6))",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(b)(6)"
+            }
+          ]
         },
         {
           "display_order": 19,
@@ -395,7 +411,14 @@
           "raw_reference": "ACE-94-8 of June 21, 1994, Spin demonstration, FAR 23.221 a)2)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -403,7 +426,14 @@
           "raw_reference": "Cabin pressure indicator, FAR 23.841b) 6). See NOTE 8.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841"
+            }
+          ]
         },
         {
           "display_order": 10,

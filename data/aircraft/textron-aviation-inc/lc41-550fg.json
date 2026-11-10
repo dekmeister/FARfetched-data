@@ -93,7 +93,14 @@
           "raw_reference": "Emergency exit requirements of FAR 23.807 in accordance with ELOS No. ACE-99-02 as detailed in FAA memo dated February 2, 1999 (FAA memo reference no. 99-190S-64).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "807"
+            }
+          ]
         }
       ]
     },

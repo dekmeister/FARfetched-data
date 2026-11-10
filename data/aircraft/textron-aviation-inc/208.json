@@ -59,7 +59,15 @@
           "raw_reference": "Equivalent Level of Safety (ELOS) applicable to Models 208 and 208B, not equipped with the Garmin G1000 Integrated Cockpit System: FAR 23.955(f)(2), Fuel System.",
           "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "955",
+              "paragraph": "(f)(2)"
+            }
+          ]
         },
         {
           "display_order": 5,
@@ -91,7 +99,15 @@
           "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: ELOS applicable to Models 208 and 208B, not equipped with the Garmin G1000 Integrated Cockpit System: FAR 23.955(f)(2), Fuel System.",
           "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "955",
+              "paragraph": "(f)(2)"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -107,7 +123,97 @@
           "raw_reference": "Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Applies to the following: 1. Models 208 and 208B when equipped with P&WC PT6A-114 engine and McCauley propeller; and 2. Model 208B when equipped with P&WC PT6A-114A engine and either McCauley or Hartzell propeller; and 3. Model 208 when equipped with P&WC PT6A-114A engine and McCauley propeller: Addition of CFR 23.1459 for FDR and 23.1457 for CVR, Amendment 23-25. Effective for S/N 2080356 and On and 208B0932 and On. Applies to G1000 Model 208B S/N 208B2197, 208B5000 and On equipped with P&WC PT6A-140 (867 SHP) engine and Hartzell propeller: 1. FAR Part 36 (Acoustics) as amended by Amendments 36-1 through 36-28. 2. FAR Part 23 as amended by Amendments 23-1 through 23-28 with additions for the Garmin G1000 and P&WC PT6A-140 engine. 3. FAR Part 34 (Emissions) original. 4. Special Conditions: 23-ACE-3, Dynamic Evaluation, Engine Installation. Additions for the Garmin G1000 Integrated Cockpit System (ICS) applicable to the following Serial Numbers (S/N): 1. 2080416, 2080500 and On 2. 208B1190, 208B1216, 208B2000 thru 208B2196, and 208B2198 thru 208B4999 3. 208B2197 and 208B5000 and On, equipped with P&WC PT6A-140 (867 SHP) Engine. Original paragraphs amended by 23-1 through 23-28 and addressed during the G1000 certification are included (14CFR): 1. Part 23 as amended by Amendment N/C: 23.303, 23.305(a)(b), 23.307(a), 23.601, 23.609, 23.671(a), 23.1367, 23.1381. 2. Part 23 as amended by Amendment 23-7: 23.561(e), 23.611, 23.689(a), 23.867(a)(b). 3. Part 23 as amended by Amendment 23-13: 23.1589. 4. Part 23 as amended by Amendment 23-14: Electrical aspects of 23.1365(a)(b), 23.1419(b)(c), 23.771(a). 5. Part 23 as amended by Amendment 23-17: 23.607, 23.685(a), and electrical aspects of 23.1309(a)(1)(2)(c), 23.1165(b)(c).",
           "applicability": "Applies to Models 208 and 208B when equipped with PW PT6A-114 engine and Hartzell propeller",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "23.1459",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1457",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.303",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.305(a)(b)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.307(a)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.601",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.609",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.671(a)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1367",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1381",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.561(e)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.611",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.689(a)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.867(a)(b)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1589",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1365(a)(b)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1419(b)(c)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.771(a)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.607",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.685(a)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1309(a)(1)(2)(c)",
+              "reason": "withheld_basis_list"
+            },
+            {
+              "cited": "23.1165(b)(c)",
+              "reason": "withheld_basis_list"
+            }
+          ]
         },
         {
           "display_order": 11,

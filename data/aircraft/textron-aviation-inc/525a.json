@@ -122,7 +122,15 @@
           "raw_reference": "Exemption Number 5759 granted to use a relaxed \u201cDutch Roll\u201d damping criteria above 18,000 ft. in lieu of damping criteria of 23.181(b).",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "181",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -130,7 +138,21 @@
           "raw_reference": "ELOS. No. ACE-00-01: 23.1305(c)(2)(5), 23.1549(a)(b)(c)(d), direct reading, digital only displays for the high-pressure turbine speed (N2), and fuel flow indications.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(c)(2)(5)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)(d)"
+            }
+          ]
         },
         {
           "display_order": 10,
@@ -138,7 +160,15 @@
           "raw_reference": "ELOS. No. ACE-99-07: 23.841(b)(6) Cabin Pressurization \u2013 High Altitude Takeoff and Landing Operations.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(b)(6)"
+            }
+          ]
         },
         {
           "display_order": 11,
@@ -146,7 +176,15 @@
           "raw_reference": "ELOS. No. ACE-00-05; 23.841(a), to allow small temporary cabin altitude excursions above 15,000 ft. in the event of any probable pressurization system failure.\u201d",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -225,7 +263,21 @@
           "raw_reference": "ACE-00-01: 14 CFR \u00a7\u00a723.1305(c)(2), (c)(5), and 23.1549(a) through (d), direct reading, digital only displays for the high- pressure turbine speed (N2), and fuel flow indications.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(c)(2)(c)(5)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 8,
@@ -233,7 +285,15 @@
           "raw_reference": "ACE-99-07: 14 CFR \u00a7\u00a723.841(b)(6), Cabin Pressurization- High Altitude Takeoff and Landing Operations",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(b)(6)"
+            }
+          ]
         },
         {
           "display_order": 9,
@@ -241,7 +301,15 @@
           "raw_reference": "ACE-00-05: 14 CFR \u00a7\u00a723.841(a), to allow small temporary cabin altitude excursions above 15, 000 feet in the event of any probable pressurization system failure.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 10,

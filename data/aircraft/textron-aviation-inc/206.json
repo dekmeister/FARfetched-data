@@ -91,7 +91,20 @@
           "raw_reference": "S/N U20602589 and U20603021 and On Airspeed Indicator CAR 3.757 (See NOTE 5) Operating Limitations CAR 3.778(a)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "CAB",
+              "document": "car-3-reissue",
+              "number": "757"
+            },
+            {
+              "issuer": "CAB",
+              "document": "car-3-reissue",
+              "number": "778",
+              "paragraph": "(a)"
+            }
+          ]
         }
       ]
     }

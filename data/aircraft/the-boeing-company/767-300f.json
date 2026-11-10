@@ -65,7 +65,27 @@
           "raw_reference": "Exemption from FAR 25: Exemption No. 5993 Exemption from 25.807(c)(1) and 25.857(e) - Allows for the carriage of up to seven persons including the flight crew members, when the aeroplane is equipped with a floor level exit with escape slide, and a right hand flight crew window emergency exit that is operable from the outside. Exemption No. 5993A Exemption from 25.809(f)(1) - Allows for the carriage of persons other than flight crew members. In lieu of an escape slide, the emergency evacuation assist means at the entry door shall be an inertial reel descent device and harness provided for each occupant. See Note below.",
           "applicability": null,
           "applicability_notes": "FAA Certification Basis",
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "807",
+              "paragraph": "(c)(1)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "857",
+              "paragraph": "(e)"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "809",
+              "paragraph": "(f)(1)"
+            }
+          ]
         },
         {
           "display_order": 5,
@@ -129,7 +149,20 @@
           "raw_reference": "JAR 25.Appendix F part III, JAR 25.855, FAR 25.1309",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1309"
+            }
+          ],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.855",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -145,7 +178,29 @@
           "raw_reference": "JAR 25.855, JAR 25.857, JAR 25.1309, JAR 25.1439, JAR 25.1443",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.855",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.857",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1309",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1439",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1443",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -161,7 +216,21 @@
           "raw_reference": "JAR 25.857(e), [JAR 25.1447 (c) (1)], [JAR 25.1447 (c) (3)]",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.857(e)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1447 (c) (1)",
+              "reason": "doc_not_in_dataset"
+            },
+            {
+              "cited": "JAR 25.1447 (c) (3)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 17,
@@ -185,7 +254,14 @@
           "raw_reference": "Part 21A.16(b)(3), 21A.21(c)(3), CS 25.1529 & Appendix H INT/POL 25/7 Rapid Decompression (Structures)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1529"
+            }
+          ]
         },
         {
           "display_order": 20,
@@ -193,7 +269,13 @@
           "raw_reference": "JAR 25.365 INT/POL 25/9 Fuel Tank Crashworthiness (Structures)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.365",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 21,
@@ -201,7 +283,13 @@
           "raw_reference": "JAR 25.963 NPA 25B 242 Landing Data Extrapolation NPA 25G 255 Flight Manuals AMJ 25X1591 Wet and Contaminated Runways",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.963",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 22,
@@ -209,7 +297,25 @@
           "raw_reference": "Generic SC F-GEN-11, Non-rechargeable Lithium Batteries Installations, effective to design changes applied for after 10 November 2016. See the Notes of these special conditions for more information on which design changes must meet them. (CS 25.601, 25.863, 25.1353(c) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "601"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "863"
+            },
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1353",
+              "paragraph": "(c)"
+            }
+          ]
         },
         {
           "display_order": 23,
@@ -225,7 +331,13 @@
           "raw_reference": "JAR 25.811(f)(1)(2)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "JAR 25.811(f)(1)(2)",
+              "reason": "doc_not_in_dataset"
+            }
+          ]
         },
         {
           "display_order": 25,
@@ -241,7 +353,15 @@
           "raw_reference": "FAR 25.856(a)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "856",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 27,
@@ -273,7 +393,15 @@
           "raw_reference": "Generic ESF: D-GEN7, Flammability Testing Hierarchy (JAR/CS 25.853(a) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "853",
+              "paragraph": "(a)"
+            }
+          ]
         },
         {
           "display_order": 31,
@@ -281,7 +409,15 @@
           "raw_reference": "G-GEN2, Engine and Auxiliary Power Unit (APU) Fire Switch Handle Design (CS 25.1555(d)(1) refers)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-25",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
         },
         {
           "display_order": 32,

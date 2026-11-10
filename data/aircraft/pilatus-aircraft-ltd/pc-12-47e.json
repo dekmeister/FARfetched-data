@@ -1111,7 +1111,14 @@
           "raw_reference": "ACE-94-8 of June 21, 1994, Spin demonstration, FAR 23.221 a)2) as extended by FAA memorandum dated November 7, 2007.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            }
+          ]
         },
         {
           "display_order": 12,
@@ -1119,7 +1126,14 @@
           "raw_reference": "ACE-05-18 of November 29, 2005, Cabin pressure indicator, FAR 23.841b) 6) as extended by FAA memorandum dated November 7, 2007.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "841"
+            }
+          ]
         },
         {
           "display_order": 13,
@@ -1127,7 +1141,15 @@
           "raw_reference": "ACE-07-14 of January 7, 2008, Probes OFF Caution, FAR 23.1326(b)(1)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1326",
+              "paragraph": "(b)(1)"
+            }
+          ]
         },
         {
           "display_order": 14,
@@ -1135,7 +1157,15 @@
           "raw_reference": "ACE-07-15 of January 8, 2008, ASI Flap Markings, FAR 23.1545(b)(4)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545",
+              "paragraph": "(b)(4)"
+            }
+          ]
         },
         {
           "display_order": 15,
@@ -1143,7 +1173,15 @@
           "raw_reference": "ACE-08-02 of February 26, 2008, Circuit Protective Devices, FAR 23.1357(b)",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1357",
+              "paragraph": "(b)"
+            }
+          ]
         },
         {
           "display_order": 16,
@@ -1391,7 +1429,23 @@
           "raw_reference": "ELOS AT00923CE-A-P-3 dated August 16, 2019, Digital Only Display - Powerplant Indications, 14 CFR 23.1305(e) amendment 23-34; 23.1549(a), (b), and (c), amendment 23-28;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1305",
+              "paragraph": "(e)",
+              "at": "23-34"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1549",
+              "paragraph": "(a)(b)(c)",
+              "at": "23-28"
+            }
+          ]
         },
         {
           "display_order": 35,
@@ -1399,7 +1453,16 @@
           "raw_reference": "ELOS AT00923CE-A-P-4 dated August 16, 2019, Use of Interconnected Fuel Tanks without Tank Airspaces, 14 CFR 23.975(a)(4), amendment 23-29;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "975",
+              "paragraph": "(a)(4)",
+              "at": "23-29"
+            }
+          ]
         },
         {
           "display_order": 36,
@@ -1407,7 +1470,23 @@
           "raw_reference": "ELOS AT00923CE-A-S-4 dated August 16, 2019, AutoThrottle (AT) Engage When Not Installed, 14 CFR 23.1301(b), amendment 23-20; 23.1555(a), amendment 23-21.",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1301",
+              "paragraph": "(b)",
+              "at": "23-20"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1555",
+              "paragraph": "(a)",
+              "at": "23-21"
+            }
+          ]
         }
       ]
     }

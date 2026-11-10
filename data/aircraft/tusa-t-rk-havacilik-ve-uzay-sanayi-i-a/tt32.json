@@ -212,7 +212,14 @@
           "raw_reference": "D-07 23.841.b.6 Cabin Pressure Altitude Warning Indication",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "841"
+            }
+          ]
         },
         {
           "display_order": 24,

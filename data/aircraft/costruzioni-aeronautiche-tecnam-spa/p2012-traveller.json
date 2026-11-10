@@ -53,7 +53,14 @@
           "raw_reference": "SC-CS-23.1305 Fuel low level annunciation means (CRI E-060);",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "1305"
+            }
+          ]
         },
         {
           "display_order": 5,
@@ -61,7 +68,14 @@
           "raw_reference": "SC-CS-23.803 Emergency evacuation for Air Medical service (CRI-D- 103), see note 7;",
           "applicability": null,
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citations": [
+            {
+              "issuer": "EASA",
+              "document": "cs-23",
+              "number": "803"
+            }
+          ]
         },
         {
           "display_order": 6,

@@ -11,6 +11,7 @@ Contents: [Consuming](#consuming-the-sqlite-artifact) ·
 [Contract metadata](#contract-metadata) · [Documents](#documents) ·
 [Aircraft / TCB](#aircraft--tcb-tables) ·
 [Certification basis](#certification-basis-three-layers) ·
+[Citations](#citations) ·
 [Similarity](#similarity) · [latest_versions](#latest_versions-view) ·
 [Build pipeline](#build-pipeline)
 
@@ -33,14 +34,14 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 
 ## Tables
 
-`build.py` compiles the JSON into 20 tables plus one view. Every table is
+`build.py` compiles the JSON into 22 tables plus one view. Every table is
 `STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
 UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
 in [certbuild/ddl.py](../certbuild/ddl.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **10**). It is bumped
+`PRAGMA user_version` is the schema version (currently **11**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -136,6 +137,24 @@ belong to the TCB, not the model (v6).
 `paragraph` carries the qualifier (NULL = whole provision). Index on
 `provision_version_id` serves "which aircraft use §23.1309 @ 23-62".
 
+### Citations
+
+What ELOS, special condition and exemption lines explicitly cite
+([Citations](DATA_FORMAT.md#citations)). These are not part of the basis:
+nothing here feeds `cert_basis_resolved`. They are read from the line by a
+parser, so show the verbatim line beside them and mark them as computed.
+
+`cert_basis_citations` — one row per citation: `entry_id`, `seq`, `document_id`,
+`provision_id`, `paragraph` (as cited; it may not exist in the linked version),
+`stated_revision_id` (the amendment the line states), `version_basis` (`stated`,
+`basis`, `basis_several`, `latest`) and `provision_version_id`, the version to
+link. That is NULL exactly when `version_basis` is `basis_several`: join
+`cert_basis_resolved` through the entry's TCB for the versions it holds. Index
+on `provision_id` serves "which aircraft cite §23.1309".
+
+`cert_basis_citation_gaps` — section-like citations that are not linked:
+`entry_id`, `seq`, `cited` (an exact substring of the line), `reason`.
+
 ### Similarity
 
 `provision_similarity` — computed by the build, never authored or
@@ -202,8 +221,9 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
 6. Inserts aircraft, TCDS (once each, metadata must agree), TCBs and
    entries; inserts each entry's refs, resolves them by the
    [resolution rules](DATA_FORMAT.md#resolution-rules), and checks
-   paragraph qualifiers. Fails listing every unresolved reference and TCDS
-   metadata conflict.
+   paragraph qualifiers. Then, per TCB, resolves its
+   [citations](DATA_FORMAT.md#citations). Fails listing every unresolved
+   reference, unresolved citation and TCDS metadata conflict.
 7. Fails on any date after the build day, and on any foreign-key violation.
 8. Writes `cert_basis_report.json` alongside the SQLite file: row counts for
    every table, `documents` (per `ISSUER/slug`: revisions, provisions,
@@ -211,7 +231,8 @@ uv run python build.py --check             # steps 1–2 and the text layout onl
    another number), `text_missing` and `deleted` counts, provenance counts,
    `structured_versions` / `flat_versions` / `label_gaps`,
    `paragraph_refs_verified` / `paragraph_refs_unverifiable`, `similarity`
-   (provisions with matches and score bands), `coverage` (below), `promotion` (the
+   (provisions with matches and score bands), `coverage` (below), `citations`
+   (below), `promotion` (the
    tools commit behind each tree, from `data/promotion.json`), `source_checks` (per
    document, when its upstream listing was last read, or null if no check covers
    it; this says nothing about the text), `git_dirty` /
@@ -225,6 +246,12 @@ as unresolved. `entries` gives `entries`, `with_references` and
 give `total` and `resolve_to_nothing`, and `models_resolving_to_nothing` lists
 those models. These figures say whether references exist, not whether they are
 right: a model with references can still point at the wrong provision.
+
+`citations` counts what the citation parser read: `by_issuer_and_type` (`entries`,
+`entries_with_citations`, `entries_with_gaps`, `citations`, `gaps`),
+`version_basis`, `gaps_by_reason`, `entries_withheld` and `paragraphs`
+(`verified`, `unverifiable`, `unmatched`, `unchecked`). Like `coverage`, these
+figures say how much was read, not whether it is right.
 
 `build_info.git_sha` records HEAD of the repo holding `data/`. It doesn't
 say whether the build also read uncommitted files. The report does:
