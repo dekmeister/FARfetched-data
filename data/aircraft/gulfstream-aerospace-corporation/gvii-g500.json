@@ -19,7 +19,7 @@
       "certification_basis": [
         {
           "display_order": 1,
-          "entry_type": "regulation",
+          "entry_type": "other",
           "raw_reference": "T000021AT",
           "applicability": null,
           "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
@@ -130,21 +130,13 @@
         {
           "display_order": 14,
           "entry_type": "special_condition",
-          "raw_reference": "Subject",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 15,
-          "entry_type": "special_condition",
           "raw_reference": "EASA OSD Maintenance Certifying Staff Data Certification Basis for Gulfstream GVII-G500 EASA OSD Simulator Data for Gulfstream GVII-G500 Flight Envelope Protection High Incidence Protection Function; Stall speeds, stall warning High Altitude Operation Single- and multiple-place side facing seats Electronic Flight Control System: Control Surface Position Awareness Leg Flail Falling and blowing snow Fire Extinguishing Plumbing and Wiring Connections HIRF Protection Data Link Recording Security protection of Aircraft systems and networks Flight Instrument External Probes \u2013 Qualification in Icing Conditions Pilot Compartment View Requirement with Enhanced Flight Vision System Non-rechargeable Lithium Battery Installations",
           "applicability": null,
           "applicability_notes": null,
           "references": []
         },
         {
-          "display_order": 16,
+          "display_order": 15,
           "entry_type": "other",
           "raw_reference": "Subject Compliance against CS 25.1322",
           "applicability": null,
@@ -152,7 +144,7 @@
           "references": []
         },
         {
-          "display_order": 17,
+          "display_order": 16,
           "entry_type": "elos",
           "raw_reference": "Subject Electronic Flight Control System: Out-of-Trim Characteristics Flight Control System Failure Criteria Emergency Exit Signs Emergency Exits Exits and seat encroachment* Hydrophobic Coating Combined Aircraft Pressurization Outflow and Positive Pressure Differential Relief Valves Use of Reduced Vertical Bunsen Burner Flammability Requirements for Interior Materials Thrust reverse testing Fan Zone Fire classification Green Arc PWP Instrument TRAS compartment absence of fire detect sys APU Subpart J (Cover CRI)",
           "applicability": null,
@@ -160,7 +152,7 @@
           "references": []
         },
         {
-          "display_order": 18,
+          "display_order": 17,
           "entry_type": "elos",
           "raw_reference": "Engine Control in Icing Ignition Switches Vertical Acceleration for flight data recorder Use of an Electric-Only Direction Indicator for Standby Instrumentation",
           "applicability": null,
@@ -168,7 +160,7 @@
           "references": []
         },
         {
-          "display_order": 19,
+          "display_order": 18,
           "entry_type": "elos",
           "raw_reference": "Steep Approach and Landing Capability \u2013 Demonstration of safe operational and flight characteristics",
           "applicability": null,
@@ -176,7 +168,7 @@
           "references": []
         },
         {
-          "display_order": 20,
+          "display_order": 19,
           "entry_type": "elos",
           "raw_reference": "FAA ELOS TD-01-2019-0050-F-15 \u2013 Vibration/Buffeting Compliance Criteria for External Modifications Installed on Gulfstream GVII-Series Aircraft",
           "applicability": null,
@@ -184,7 +176,7 @@
           "references": []
         },
         {
-          "display_order": 21,
+          "display_order": 20,
           "entry_type": "elos",
           "raw_reference": "*FAA ELOS TC-01-2010-0024-C-7-GVI Rev. 1 - Encroachment into Emergency Exits (for 25.813(c)(2)(ii) aspects of CRI D-17)",
           "applicability": null,
@@ -198,7 +190,7 @@
           ]
         },
         {
-          "display_order": 22,
+          "display_order": 21,
           "entry_type": "regulation",
           "raw_reference": "CS 36 Amendment 4 NPA 2013-07 Chapter IV (CS 25.571) (CRI C-02)",
           "applicability": null,
@@ -206,7 +198,7 @@
           "references": []
         },
         {
-          "display_order": 23,
+          "display_order": 22,
           "entry_type": "regulation",
           "raw_reference": "CS 25.1316, Amendment 17",
           "applicability": null,
@@ -223,7 +215,7 @@
           ]
         },
         {
-          "display_order": 24,
+          "display_order": 23,
           "entry_type": "regulation",
           "raw_reference": "CS 25 Appendix S, Amendment 19",
           "applicability": null,
@@ -237,7 +229,7 @@
           ]
         },
         {
-          "display_order": 25,
+          "display_order": 24,
           "entry_type": "regulation",
           "raw_reference": "CS 25.603 [for the Completions STC] and CS 25.788, Amendment 19",
           "applicability": null,
@@ -245,7 +237,7 @@
           "references": []
         },
         {
-          "display_order": 26,
+          "display_order": 25,
           "entry_type": "regulation",
           "raw_reference": "CS 25.1592 Amendment 27 (for Aircraft with ASC 014 Steep Approach Landing installed)",
           "applicability": null,
@@ -262,7 +254,7 @@
           ]
         },
         {
-          "display_order": 27,
+          "display_order": 26,
           "entry_type": "regulation",
           "raw_reference": "CS 25 Appendix Q Amendment 13 (for Aircraft with ASC 014 Steep Approach Landing installed)",
           "applicability": null,
@@ -276,7 +268,7 @@
           ]
         },
         {
-          "display_order": 28,
+          "display_order": 27,
           "entry_type": "other",
           "raw_reference": "Noise: See TCDSN no. EASA.IM.A.595 Fuel Venting: CS-34 amendment 1, ICAO Annex 16, Volume II, Third edition, Amendment 7, Part II, chapter II.",
           "applicability": null,

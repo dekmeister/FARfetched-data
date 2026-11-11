@@ -703,23 +703,39 @@
         },
         {
           "display_order": 72,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "F-01 Protection from the Effects of HIRF (Sec. 23.1308 is applicable);",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "23.1308",
+              "reason": "document_undetermined"
+            }
+          ]
         },
         {
           "display_order": 73,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "F-02 Protection from the Indirect Effects of Lightning Strike (Sec. 23.1306 and 23.867 are applicable);",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
-          "references": []
+          "references": [],
+          "citation_gaps": [
+            {
+              "cited": "23.1306",
+              "reason": "document_undetermined"
+            },
+            {
+              "cited": "23.867",
+              "reason": "document_undetermined"
+            }
+          ]
         },
         {
           "display_order": 74,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "F-09 Integrated Modular Avionics (IMA) (AMC 20-170 is applicable).",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
@@ -727,7 +743,7 @@
         },
         {
           "display_order": 75,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "3.B.3 Exemptions Reserved",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
@@ -735,7 +751,7 @@
         },
         {
           "display_order": 76,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "3.B.4 Deviations Reserved",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
@@ -743,7 +759,7 @@
         },
         {
           "display_order": 77,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "3.B.5 Equivalent Safety Findings E-03 Interconnected Fuel Tanks without Interconnected Tank Airspaces",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,
@@ -751,7 +767,7 @@
         },
         {
           "display_order": 78,
-          "entry_type": "regulation",
+          "entry_type": "special_condition",
           "raw_reference": "3.B.6 Environmental Protection Noise Requirements: As per TCDSN EASA.A.089 Issue 8: ICAO Annex 16, Volume I Edition / Amendment Chapter 10 (10.4b). Fuel Venting and Exhaust Emission Requirements: As per 3.A.6 Emissions",
           "applicability": "Special Conditions as per 3.A.1 but not applicable for MSN1720 and MSN 2001 and subsequent",
           "applicability_notes": null,

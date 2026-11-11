@@ -135,7 +135,7 @@ note.
 
 **To close:** confirm this is acceptable, or require a printed category.
 
-### ETCDS-16. A330 lines cite all of CS-25, and page footers became entries
+### ETCDS-16. A330 lines cite all of CS-25
 
 Found on 2026-11-08 by reading a sample of aircraft references against the TCDS
 PDFs. EASA.A.004 Issue 70 (A330), 2 models:
@@ -145,13 +145,13 @@ PDFs. EASA.A.004 Issue 70 (A330), 2 models:
   whole-document reference, so the model resolves to all of CS-25 at that amendment.
   The listed paragraphs sit in a following entry with `references: []`. The build
   and coverage report both count this as a success.
-- 15 entries are the page footer, `Issue: 70 [A330-743L] Date: 30/10/2026`, in the
-  `regulation`, `other`, `special_condition` and `elos` types.
+- (Fixed 2026-11-12: the page footer `Issue: 70 [A330-743L] Date: 30/10/2026`
+  is page furniture, and the "- Certification Requirements" heading is a scope.)
 
 In the same sample, 8 of 400 `raw_reference` values were not found verbatim in the
 PDF with either text extraction. All 8 are EASA, and most join table cells or
 columns (see ETCDS-9). Sampled FAA references matched their PDF lines.
 
-**To close:** attach a "the following paragraphs" header to its list, drop the footer
-line, and re-check other TCDS with this layout. Until then these two models claim
+**To close:** attach a "the following paragraphs" header to its list, and re-check
+other TCDS with this layout. Until then these two models claim
 far more of CS-25 than their TCDS does.

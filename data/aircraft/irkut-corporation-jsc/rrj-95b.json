@@ -35,14 +35,6 @@
         },
         {
           "display_order": 3,
-          "entry_type": "other",
-          "raw_reference": "TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 6 of 18 Internet/Intranet.",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 4,
           "entry_type": "regulation",
           "raw_reference": "IAC AR requirements as listed in Sukhoi document No. RRJ0000-LS-204-021RU, Rev. G, and FATA requirements as listed in Sukhoi document No. RRJ0000-LS-204-021RU, Rev. H, are based on Russian Federation\u2019s Aviation Regulations, Part 25 Airworthiness Regulations of Transport Category Airplanes with Amendments 1-5.",
           "applicability": null,
@@ -50,10 +42,361 @@
           "references": []
         },
         {
-          "display_order": 5,
+          "display_order": 4,
           "entry_type": "regulation",
-          "raw_reference": "EASA Certification Specification 25, Amendment 1, effective as of 12 December 2005, except as identified below: Certification Specification All Weather Operations (CS AWO), Book 1 and 2 published 17October 2003. 5.1. Special Conditions 5.1.1. Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable CS 25 are based (EC 1702/2003 part 21. A16(a)(1) refers) B-01 Motion and Effects of Cockpit Controls B-03 Flight Envelope Protection B-04 Normal load factor limiting system B-05 Static Longitudinal Stability and Low energy awareness B-06 Stalling and operating speeds B-09 Flight in icing condition C-01 Interaction Systems and Structures C-03 Engine and APU Load Conditions C-06 Gust and Turbulence C-07 Design Manoeuvre Requirements C-11 Pilot Limit Forces C-12 Design Dive Speed C-14 Main Landing Gear Doors Load Condition D-01 Type C Passenger Exits D-06 Harmonized 671/672 D-07 Application of heat release and smoke density requirements to seat materials E-01 Reversing System Requirements F-01 HIRF Protection TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 7 of 18 Internet/Intranet. F-17 Aircraft Towing F-21 Flight Data Recorders F-24 Security Assurance Process to isolate or protect the Aircraft systems and networks from external network security threats 5.1.2. Special conditions issued because the intended use of the product is unconventional (EC 1702/2003 part 21. A16 (a) (2) refers) 5.1.3. Special conditions issued because experience from other products has shown that unsafe conditions may develop (EC 1702/2003 part 21. A16 (a) (3) refers) B-02 Consistency between Crew Procedures and Published Performance Data D-03 Fire protection of thermal and acoustic insulation material D-04 Fuselage Doors, Hatches and Exits D-08 Flight Controls system - application of ARAC proposal 25.671 E-02 Fuel Tank Safety E-04 Sustained Engine Imbalance E-07 Flawing and Blowing Snow E-08 Flammability Reduction System (Nitrogen Generation System) E-09 Fuel Quantity Indication System E-10 Water / Ice in Fuel System H-01 Enhanced Airworthiness Program for Airplane Systems \u2013 ICA on EWIS 5.1.4. Special conditions issued from an elect to comply by the applicant with NPA or other regulatory proposals 5.2. Exemptions 5.3. Deviations 5.4. Equivalent Safety Findings D-11 Green Aircraft Exit Configuration TE.TC.00065-001 \u00a9 European Union Aviation Safety Agency, 2022. All rights reserved. Page 8 of 18 Internet/Intranet. 5.5. Environmental Protection Requirements \u2022 ICAO Annex 16 Volume 1 \u201cAircraft Noise\u201d 3rd Edition, amendment 7, Part II \u201cAircraft Noise certification\u201d, Chapter 4 and \u2022 CS 36 amendment 1 (ED decision n\u00b0 2007/007/R dated 3 April 2007) \u2022 Part II, Chapter 2 of ICAO Annex 16 Volume II, 2nd Edition, Amendment 4 \u2022 CS 34 initial issue (ED decision n\u00b0 2003/3/RM dated 11 October 2003) 5.6. Environmental Protection Standards ICAO Annex 16, Volume I, Amendment 9 (Fifth Edition), Chapter 4 for Noise; and ICAO Annex 16, Volume II (Third Edition), Amendment 6, for Emissions. For details of the certified noise levels see TCDSN EASA.IM. A.176.",
+          "raw_reference": "EASA Certification Specification 25, Amendment 1, effective as of 12 December 2005, except as identified below: Certification Specification All Weather Operations (CS AWO), Book 1 and 2 published 17October 2003.",
           "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "5.1.1. Special Conditions issued because the product has novel or unusual design features relative to the design practices on which the applicable CS 25 are based (EC 1702/2003 part 21. A16(a)(1) refers)",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "B-01 Motion and Effects of Cockpit Controls",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "B-03 Flight Envelope Protection",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "B-04 Normal load factor limiting system",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "B-05 Static Longitudinal Stability and Low energy awareness",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "B-06 Stalling and operating speeds",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "special_condition",
+          "raw_reference": "B-09 Flight in icing condition",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "C-01 Interaction Systems and Structures",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "C-03 Engine and APU Load Conditions",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "C-06 Gust and Turbulence",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "C-07 Design Manoeuvre Requirements",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "C-11 Pilot Limit Forces",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "C-12 Design Dive Speed",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "C-14 Main Landing Gear Doors Load Condition",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "D-01 Type C Passenger Exits",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "D-06 Harmonized 671/672",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "D-07 Application of heat release and smoke density requirements to seat materials",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "E-01 Reversing System Requirements",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "F-01 HIRF Protection",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "F-17 Aircraft Towing",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "F-21 Flight Data Recorders",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "F-24 Security Assurance Process to isolate or protect the Aircraft systems and networks from external network security threats",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "special_condition",
+          "raw_reference": "5.1.2. Special conditions issued because the intended use of the product is unconventional (EC 1702/2003 part 21. A16 (a) (2) refers)",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "5.1.3. Special conditions issued because experience from other products has shown that unsafe conditions may develop (EC 1702/2003 part 21. A16 (a) (3) refers)",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "B-02 Consistency between Crew Procedures and Published Performance Data",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "special_condition",
+          "raw_reference": "D-03 Fire protection of thermal and acoustic insulation material",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "special_condition",
+          "raw_reference": "D-04 Fuselage Doors, Hatches and Exits",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "special_condition",
+          "raw_reference": "D-08 Flight Controls system - application of ARAC proposal 25.671",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "671"
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "special_condition",
+          "raw_reference": "E-02 Fuel Tank Safety",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "special_condition",
+          "raw_reference": "E-04 Sustained Engine Imbalance",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "special_condition",
+          "raw_reference": "E-07 Flawing and Blowing Snow",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "special_condition",
+          "raw_reference": "E-08 Flammability Reduction System (Nitrogen Generation System)",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "special_condition",
+          "raw_reference": "E-09 Fuel Quantity Indication System",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "special_condition",
+          "raw_reference": "E-10 Water / Ice in Fuel System",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "special_condition",
+          "raw_reference": "H-01 Enhanced Airworthiness Program for Airplane Systems \u2013 ICA on EWIS",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "special_condition",
+          "raw_reference": "5.1.4. Special conditions issued from an elect to comply by the applicant with NPA or other regulatory proposals",
+          "applicability": "5.1. Special Conditions",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "elos",
+          "raw_reference": "D-11 Green Aircraft Exit Configuration",
+          "applicability": "5.4. Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "other",
+          "raw_reference": "\u2022 ICAO Annex 16 Volume 1 \u201cAircraft Noise\u201d 3rd Edition, amendment 7, Part II \u201cAircraft Noise certification\u201d, Chapter 4 and",
+          "applicability": "5.5. Environmental Protection Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "other",
+          "raw_reference": "\u2022 CS 36 amendment 1 (ED decision n\u00b0 2007/007/R dated 3 April 2007)",
+          "applicability": "5.5. Environmental Protection Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "other",
+          "raw_reference": "\u2022 Part II, Chapter 2 of ICAO Annex 16 Volume II, 2nd Edition, Amendment 4",
+          "applicability": "5.5. Environmental Protection Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "other",
+          "raw_reference": "\u2022 CS 34 initial issue (ED decision n\u00b0 2003/3/RM dated 11 October 2003)",
+          "applicability": "5.5. Environmental Protection Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16, Volume I, Amendment 9 (Fifth Edition), Chapter 4 for Noise; and ICAO Annex 16, Volume II (Third Edition), Amendment 6, for Emissions.",
+          "applicability": "5.6. Environmental Protection Standards",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "other",
+          "raw_reference": "For details of the certified noise levels see TCDSN EASA.IM. A.176.",
+          "applicability": "5.6. Environmental Protection Standards",
           "applicability_notes": null,
           "references": []
         }

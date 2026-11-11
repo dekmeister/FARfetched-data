@@ -19,7 +19,7 @@
       "certification_basis": [
         {
           "display_order": 1,
-          "entry_type": "regulation",
+          "entry_type": "other",
           "raw_reference": "DGAC-ES, TC 01/86 was replaced by EASA-TCDS-A.186",
           "applicability": null,
           "applicability_notes": "State of Design Airworthiness Authority Type Certification Data Sheet No.",
@@ -36,21 +36,13 @@
         {
           "display_order": 3,
           "entry_type": "regulation",
-          "raw_reference": ".",
-          "applicability": null,
-          "applicability_notes": "State of Design Airworthiness Authority Certification Basis C- 295 Major Significant Modifications",
-          "references": []
-        },
-        {
-          "display_order": 4,
-          "entry_type": "regulation",
           "raw_reference": "Hereafter are listed the original certification basis for C-295 and the additional airworthiness requirements amended for the corresponding major significant modifications.",
           "applicability": null,
           "applicability_notes": null,
           "references": []
         },
         {
-          "display_order": 5,
+          "display_order": 4,
           "entry_type": "regulation",
           "raw_reference": "4.1 Original Airworthiness Requirements Regulation (EC) 1702/2003, Annex Part 21.",
           "applicability": null,
@@ -58,7 +50,7 @@
           "references": []
         },
         {
-          "display_order": 6,
+          "display_order": 5,
           "entry_type": "regulation",
           "raw_reference": "US Code of Federal Regulations, Title 14, Part 25 (FAR 25), effective from 1 Feb 1965, including the all amendments from 25-1 to 25-89, additionally section 25.351 to amendment 25-91. The amendment 25-64 has not shown compliance with the section",
           "applicability": null,
@@ -66,7 +58,7 @@
           "references": []
         },
         {
-          "display_order": 7,
+          "display_order": 6,
           "entry_type": "regulation",
           "raw_reference": "25.562 (c)(5).",
           "applicability": null,
@@ -74,7 +66,7 @@
           "references": []
         },
         {
-          "display_order": 8,
+          "display_order": 7,
           "entry_type": "regulation",
           "raw_reference": "TC-holder elected to comply with FAR 25.1419 Ice protection and 14 CFR Part 25, amendment 25-92 \u201cImproved standards for go around performances \u201c.",
           "applicability": null,
@@ -82,15 +74,15 @@
           "references": []
         },
         {
-          "display_order": 9,
+          "display_order": 8,
           "entry_type": "regulation",
-          "raw_reference": "4.2 Certification basis revised for major significant modification DC10718A \u2212 The certification basis is that of the C-295 amended by the following: - CS25 Amendment 16, dated 12 March 2015: \u2022 For Dynamic Loads & Aeroelasticity: \u2212 25.305 (c) Strength and deformation \u2212 25.341 (All) Gust and turbulence loads \u2212 25.349 (b) Rolling conditions \u2212 25.473 (All) Landing load conditions and assumptions \u2212 25.479 (All) Level landing conditions \u2212 25.481 (All) Tail-down landing conditions \u2212 25.629 (All) Aeroelastic stability requirement \u2212 25.905 (d) Propellers \u2022 Plus for Static Loads: \u2212 25.301 (All) Loads \u2212 25.321 (All) General \u2212 25.331 (All) Symmetric manoeuvring conditions \u2212 25.333 (All) Flight manoeuvring envelope \u2212 25.335 (All) Design airspeeds \u2212 25.337 (All) Limit manoeuvring load factors \u2212 25.343 (All) Design fuel and oil loads \u2212 25.345 (All) High lift devices \u2212 25.349 (All) Rolling conditions \u2212 25.351 (All) Yaw manoeuvre conditions \u2212 25.367 (All) Unsymmetrical loads due to engine failure \u2212 25.391 (All) Control surface loads: general \u2212 25.427 (All) Unsymmetrical loads \u2212 25.445 (All) Outboard fins \u2022 Plus for Navigation Lights Installation: \u2212 25.1301 (a), (b) Function and installation \u2212 25.1385 (All) Position light system installation . \u2212 25.1387 (All) Position light system dihedral angles \u2212 25.1389 (All) Position light distribution and intensities \u2212 25.1391(All) Minimum intensities in the horizontal plane of forward and rear position lights \u2212 25.1393 (All) Minimum intensities in any vertical plane of forward and rear position lights \u2212 25.1395 (All) Maximum intensities in over-lapping beams of forward and rear position lights \u2212 25.1397 (All) Colour specifications \u2022 Plus for Lightning Direct Effects (LDE): \u2212 25.581 (All) Lightning protection \u2022 Plus for Landing Gear: \u2212 25.735 (f) Brakes and braking systems \u2022 Plus for Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure \u2022 Plus for Airplane Flight Manual: \u2212 25.1581 (a), (a1), (a2), (b), (d) General \u2212 25.1583 (a) Operating limitations \u2212 25.1585 (a) Operating procedures \u2212 25.1587 (All) Performance information \u2022 Plus for Safety: \u2212 25.631 (All) Bird strike damage \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b), (d) Equipment, systems and installations \u2212 25.1709 (All) System Safety; EWIS \u2022 Plus for EWIS: \u2212 25.1703 (a), (b), (d), (e) Function and Installation ; EWIS \u2212 25.1705 (a) Systems and Functions; EWIS \u2212 25.1707 (b), (l) System Separation; EWIS \u2212 25.1711 (a), (c), (d), (e)Component identification; EWIS \u2212 25.1713 (a), (c) Fire Protection; EWIS \u2212 25.1715 (b) Electrical bonding and protection against static \u2212 25.1717 (All) Circuit protective devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS \u2022 Plus for ICA: \u2212 25.1529 (-)Instructions for Continued Airworthiness . \u2212 \u2212 CS25 Amendment 07, dated 21 21 October 2009: \u2022 Static Loads \u2212 25.361 (All) Engine and auxiliary power unit torque - Reversions: The following reversions defined by the respective CRI F-01 \u201cFlight in Icing Conditions\u201d (Acceptable Means of Compliance) have been identified and accepted as part of the EASA certification. \u2022 For Performance: \u2212 FAR 25.21 (a), (b), (c), (d), (e), (f) Proof of compliance at Amdt 25-72 \u2212 FAR 25.101 (All) General at Amdt 25-92 \u2212 FAR 25.103 (All) Stalling speed at Amdt 25-0 (requirement modified with ESF IP F-2) \u2212 FAR 25.105 (All) Takeoff at Amdt 25-92 \u2212 FAR 25.107 (All) Takeoff speeds at Amdt 25-92 (requirement modified with ESF IP F-2) \u2212 FAR 25.109 (All) Accelerate-stop distance at Amdt 25-92 \u2212 FAR 25.111 (All) Takeoff path at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.113 (All) Takeoff distance and takeoff run at Amdt 25-92 \u2212 FAR 25.115 (All) Takeoff flight path at Amdt 25-92 \u2212 FAR 25.117 (All) Climb: general at Amdt 25-0 \u2212 FAR 25.119 (All) Landing climb: All-engine-operating at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.121 (All) Climb: One-engine-inoperative at Amdt 25-0 (requirement modified with ESF IP F-2) \u2212 FAR 25.123 (All) En route flight paths at Amdt 25-0 \u2212 FAR 25.125 (All) Landing at Amdt 25-84 (requirement modified with ESF IP F-2) \u2022 Plus for Handling Qualities: \u2212 FAR 25.21 (a), (b), (c), (d), (e), (f) Proof of compliance at Amdt 25-72 \u2212 FAR 25.143 (All) General at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.145 (All) Longitudinal control at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.147 (All) Directional and lateral control at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.149 (All) Minimum control speed at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.161 (All) Trim. at Amdt 25-38 (requirement modified with ESF IP F-2) \u2212 FAR 25.171 General. (All) at Amdt 25-7 \u2212 FAR 25.173 Static longitudinal stability (All) at Amdt 25-7 \u2212 FAR 25.175 Demonstration of static longitudinal stability (All) at Amdt 25- 7 (requirement modified with ESF IP F-2) . \u2212 FAR 25.177 Static directional and lateral stability (All) at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.181 (All) Dynamic stability at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.201 (All) Stall demonstration at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.203 (All) Stall characteristics at Amdt 25-84 \u2212 FAR 25.207 (All) Stall warning at Amdt 25-42 (requirement modified with ESF IP F-2). \u2212 FAR 25.231 (All) Longitudinal stability and control at Amdt 25-0 \u2212 FAR 25.233 (All) Directional stability and control. at Amdt 25-42 (requirement modified with ESF IP F-2) \u2212 FAR 25.235 (All) Taxiing condition at Amdt 25-0 \u2212 FAR 25.237 (All) Wind velocities at Amdt 25-42 (requirement modified with ESF IP F-2) \u2212 FAR 25.251 (All) Vibration and buffeting at Amdt 25-77 \u2212 FAR 25.253 (All) High-speed characteristics at Amdt 25-84 \u2212 FAR 25.255 (All) Out-of-trim characteristics at Amdt 25-42 \u2022 Plus for Icing: \u2212 FAR 25.1419 (a) Ice protection at Amdt 25-72",
+          "raw_reference": "4.2 Certification basis revised for major significant modification DC10718A \u2212 The certification basis is that of the C-295 amended by the following: - CS25 Amendment 16, dated 12 March 2015: \u2022 For Dynamic Loads & Aeroelasticity: \u2212 25.305 (c) Strength and deformation \u2212 25.341 (All) Gust and turbulence loads \u2212 25.349 (b) Rolling conditions \u2212 25.473 (All) Landing load conditions and assumptions \u2212 25.479 (All) Level landing conditions \u2212 25.481 (All) Tail-down landing conditions \u2212 25.629 (All) Aeroelastic stability requirement \u2212 25.905 (d) Propellers \u2022 Plus for Static Loads: \u2212 25.301 (All) Loads \u2212 25.321 (All) General \u2212 25.331 (All) Symmetric manoeuvring conditions \u2212 25.333 (All) Flight manoeuvring envelope \u2212 25.335 (All) Design airspeeds \u2212 25.337 (All) Limit manoeuvring load factors \u2212 25.343 (All) Design fuel and oil loads \u2212 25.345 (All) High lift devices \u2212 25.349 (All) Rolling conditions \u2212 25.351 (All) Yaw manoeuvre conditions \u2212 25.367 (All) Unsymmetrical loads due to engine failure \u2212 25.391 (All) Control surface loads: general \u2212 25.427 (All) Unsymmetrical loads \u2212 25.445 (All) Outboard fins \u2022 Plus for Navigation Lights Installation: \u2212 25.1301 (a), (b) Function and installation \u2212 25.1385 (All) Position light system installation . \u2212 25.1387 (All) Position light system dihedral angles \u2212 25.1389 (All) Position light distribution and intensities \u2212 25.1391(All) Minimum intensities in the horizontal plane of forward and rear position lights \u2212 25.1393 (All) Minimum intensities in any vertical plane of forward and rear position lights \u2212 25.1395 (All) Maximum intensities in over-lapping beams of forward and rear position lights \u2212 25.1397 (All) Colour specifications \u2022 Plus for Lightning Direct Effects (LDE): \u2212 25.581 (All) Lightning protection \u2022 Plus for Landing Gear: \u2212 25.735 (f) Brakes and braking systems \u2022 Plus for Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure \u2022 Plus for Airplane Flight Manual: \u2212 25.1581 (a), (a1), (a2), (b), (d) General \u2212 25.1583 (a) Operating limitations \u2212 25.1585 (a) Operating procedures \u2212 25.1587 (All) Performance information \u2022 Plus for Safety: \u2212 25.631 (All) Bird strike damage \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b), (d) Equipment, systems and installations \u2212 25.1709 (All) System Safety; EWIS \u2022 Plus for EWIS: \u2212 25.1703 (a), (b), (d), (e) Function and Installation ; EWIS \u2212 25.1705 (a) Systems and Functions; EWIS \u2212 25.1707 (b), (l) System Separation; EWIS \u2212 25.1711 (a), (c), (d), (e)Component identification; EWIS \u2212 25.1713 (a), (c) Fire Protection; EWIS \u2212 25.1715 (b) Electrical bonding and protection against static \u2212 25.1717 (All) Circuit protective devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS \u2022 Plus for ICA: \u2212 25.1529 (-)Instructions for Continued Airworthiness \u2212 \u2212 CS25 Amendment 07, dated 21 21 October 2009: \u2022 Static Loads \u2212 25.361 (All) Engine and auxiliary power unit torque - Reversions: The following reversions defined by the respective CRI F-01 \u201cFlight in Icing Conditions\u201d (Acceptable Means of Compliance) have been identified and accepted as part of the EASA certification. \u2022 For Performance: \u2212 FAR 25.21 (a), (b), (c), (d), (e), (f) Proof of compliance at Amdt 25-72 \u2212 FAR 25.101 (All) General at Amdt 25-92 \u2212 FAR 25.103 (All) Stalling speed at Amdt 25-0 (requirement modified with ESF IP F-2) \u2212 FAR 25.105 (All) Takeoff at Amdt 25-92 \u2212 FAR 25.107 (All) Takeoff speeds at Amdt 25-92 (requirement modified with ESF IP F-2) \u2212 FAR 25.109 (All) Accelerate-stop distance at Amdt 25-92 \u2212 FAR 25.111 (All) Takeoff path at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.113 (All) Takeoff distance and takeoff run at Amdt 25-92 \u2212 FAR 25.115 (All) Takeoff flight path at Amdt 25-92 \u2212 FAR 25.117 (All) Climb: general at Amdt 25-0 \u2212 FAR 25.119 (All) Landing climb: All-engine-operating at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.121 (All) Climb: One-engine-inoperative at Amdt 25-0 (requirement modified with ESF IP F-2) \u2212 FAR 25.123 (All) En route flight paths at Amdt 25-0 \u2212 FAR 25.125 (All) Landing at Amdt 25-84 (requirement modified with ESF IP F-2) \u2022 Plus for Handling Qualities: \u2212 FAR 25.21 (a), (b), (c), (d), (e), (f) Proof of compliance at Amdt 25-72 \u2212 FAR 25.143 (All) General at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.145 (All) Longitudinal control at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.147 (All) Directional and lateral control at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.149 (All) Minimum control speed at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.161 (All) Trim. at Amdt 25-38 (requirement modified with ESF IP F-2) \u2212 FAR 25.171 General. (All) at Amdt 25-7 \u2212 FAR 25.173 Static longitudinal stability (All) at Amdt 25-7 \u2212 FAR 25.175 Demonstration of static longitudinal stability (All) at Amdt 25- 7 (requirement modified with ESF IP F-2) \u2212 FAR 25.177 Static directional and lateral stability (All) at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.181 (All) Dynamic stability at Amdt 25-72 (requirement modified with ESF IP F-2) \u2212 FAR 25.201 (All) Stall demonstration at Amdt 25-84 (requirement modified with ESF IP F-2) \u2212 FAR 25.203 (All) Stall characteristics at Amdt 25-84 \u2212 FAR 25.207 (All) Stall warning at Amdt 25-42 (requirement modified with ESF IP F-2). \u2212 FAR 25.231 (All) Longitudinal stability and control at Amdt 25-0 \u2212 FAR 25.233 (All) Directional stability and control. at Amdt 25-42 (requirement modified with ESF IP F-2) \u2212 FAR 25.235 (All) Taxiing condition at Amdt 25-0 \u2212 FAR 25.237 (All) Wind velocities at Amdt 25-42 (requirement modified with ESF IP F-2) \u2212 FAR 25.251 (All) Vibration and buffeting at Amdt 25-77 \u2212 FAR 25.253 (All) High-speed characteristics at Amdt 25-84 \u2212 FAR 25.255 (All) Out-of-trim characteristics at Amdt 25-42 \u2022 Plus for Icing: \u2212 FAR 25.1419 (a) Ice protection at Amdt 25-72",
           "applicability": null,
           "applicability_notes": null,
           "references": []
         },
         {
-          "display_order": 10,
+          "display_order": 9,
           "entry_type": "regulation",
           "raw_reference": "\u2022 FAR 25.1301 (d) Function and installation at Amdt 25-0 The validity of this justification must be reassessed in case of any subsequent type design change, modification, or repair to ensure the level of safety of the C-295FW is maintained.",
           "applicability": "\u2022 Plus for Flight Controls",
@@ -98,15 +90,15 @@
           "references": []
         },
         {
-          "display_order": 11,
+          "display_order": 10,
           "entry_type": "regulation",
-          "raw_reference": "4.3 Certification basis revised for major significant modifications DC10278, DC10280, DC10281, DC10282, DC10283, DC10284, DC10285, DC10286, DC10288, DC10289, DC10290, DC10291, DC10310, DC10415, DC10416, DC10417, DC10418, DC10419, DC10420, DC10421, DC10422, DC10423, DC10424, DC10426, DC10428, DC10429, DC10450, DC10451 and DC10293. \u2212 The certification basis is that of the C-295 amended by the following: - CS 25, Amendment 15, dated 23 July 2014 \u2022 For Cockpit system (cockpit arrangement and human factors): \u2212 25.207 (a), (b) Stall warning \u2212 25.677 (b) Trim Systems \u2212 25.699 (a), (b) Lift and drag device indicator \u2212 25.703 (a), (b4) Take-off warning system \u2212 25.729 (e2), (e4), (e7) Retracting mechanism \u2212 25.735 (h) Brakes and braking systems \u2212 25.771 (a), (c), (e) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.841 (b5), (b6) Pressurized cabins \u2212 25.843 (b3) Tests for pressurized cabins \u2212 25.854 (a) Lavatory fire protection \u2212 25.858 (a), (c) Cargo compartment fire detection systems \u2212 25.1141 (f2i) Powerplant controls: general . \u2212 25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime \u2212 25.1203 (b2), (b3), (d) Fire-detector system \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1302 (All) Installed systems and equipment for use by the flight crew \u2212 25.1303 (a), (b), (c1) Flight and navigation instruments \u2212 25.1305 all except (a3), (a8), (c8), (d1), (d2), (d3), (f) Powerplant instruments \u2212 25.1307 (d), (e) Miscellaneous equipment \u2212 25.1321 (All) Arrangement and visibility \u2212 25.1322 (a2), (b1), (b2), (b3),(d2), (f) Flight Crew Alerting \u2212 25.1323 (f) Airspeed indicating system \u2212 25.1309 (a), (a1), (c)Equipment, system and installations \u2212 25.1325 (f) Static pressure systems \u2212 25.1326 (All) Pitot heat indication \u2212 25.1327 (a), (b)Direction Indicator \u2212 25.1329 (f), (i), (j) Flight Guidance System \u2212 25.1331 (a3) Instruments using a power supply \u2212 25.1333 (b) Instrument systems \u2212 25.1337 (b1, (e) Powerplant instruments \u2212 25.1351 (b5), (b6) General \u2212 25.1381 (All) Instrument lights \u2212 25.1419 (c) Ice protection \u2212 25.1435 (b1) Hydraulic System \u2212 25.1457 (d3) Cockpit voice recorders \u2212 25.1459 (a4) Flight recorders \u2212 25.1523 (All) Minimum flight crew \u2212 25.1543 (b) Instrument Markings \u2212 25.1545 (-) Airspeed limitation information \u2212 25.1549 (All) Powerplant instruments \u2212 25.1555 (All) Control markings \u2022 Plus for Hardware: \u2212 25.1309 (a), (a1), (a2), (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Structural Dynamics: \u2212 25.1329 (g) Flight Guidance System \u2022 Plus for Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.365 (All) Pressurised compartment loads \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure . \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.581 (All) Lightning protection \u2212 25.899 (All) Electrical bonding and protection against static electricity \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Airplane Flight Manual: \u2212 25.1309 (c) Equipment, system and installations \u2212 25.1501 (b) General \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (All) Operating procedures \u2212 25.1587 (All) Performance information \u2022 Plus for Safety: \u2212 25.671 (c) General (Control Systems) \u2212 25.672 (c) Stability augmentation and automatic and power-operated systems \u2212 25.734 (All) Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1329 (b) Flight Guidance System \u2212 25.1333 (b) Instrument systems \u2212 25.1709 (a1), (a2),(b) System Safety; EWIS \u2212 25.1725 (b) Powerplants; EWIS \u2212 25.1309 (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Software: \u2212 25.1309 (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Flight Controls System and Autopilot: \u2212 25.671 (c) General (Control Systems) \u2212 25.672 (All) Stability augmentation and automatic and power-operated systems \u2212 25.677 (b) Trim Systems \u2212 25.685 (a) Control System details \u2212 25.699 (a) (b) Lift and drag device indicator \u2212 25.703 (a), (b1), (b2), (b3), (b4) Take-off warning system \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1309 (a1), (c) Equipment, system and installations \u2212 25.1329 (All) except (k), (b) and (m) Flight Guidance System \u2212 25.1431 (a) Electronic equipment \u2022 Plus for Avionics: o Displays and controls: o 25.207 (b) Stall warning o 25.677 (b) Trim Systems o 25.699 (a), (b) Lift and drag device indicator o 25.703 (a), (b4) Take-off warning system . o25.729 (e2), (e7) Retracting mechanism o25.735 (h) Brakes and braking systems o25.841 (b6), (b8) Pressurized cabins o25.843 (b3) Tests for pressurized cabins o25.854 (a) Lavatory fire protection o25.858 (a), (c) Cargo compartment fire detection systems o25.1141 (f2i) Powerplant controls: general o25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime o 25.1203 (b2), (b3)Fire-detector system o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (b5), (c1) Flight and navigation instruments o 25.1305 (All) except (a3), (a8), (c8), (d1), (d2), (d3), (f) Powerplant instruments o 25.1307 (c) Miscellaneous equipment o 25.1322 (a1), (a3), (b1), (b2), (b3), (c1), (c2), (c3), (d1), (d2),(e1) Flight Crew Alerting o 25.1325 (f) Static pressure systems o 25.1326 (All) Pitot heat indication o 25.1331 (a1), (a2), (b) Instruments using a power supply o 25.1337 (b1) Powerplant instruments o 25.1419 (c) Ice protection o 25.1435 (b1) Hydraulic System o 25.1459 (All) Flight recorders o 25.1549 (a), (c),(d) Powerplant instruments o 25.1431 (a), (d) Electronic equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o Communication: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1307 (c), (d) Miscellaneous equipment o 25.1322 (c1), (d2) Flight Crew Alerting o 25.1457 (All) Cockpit voice recorders o 25.1431 (a), (d) Electronic equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o Navigation: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (a1), (b1-b6) (c1) Flight and navigation instruments o 25.1307 (c), (e) Miscellaneous equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o 25.1323 (a), (c), (f), (g), (h) Airspeed indicating system o 25.1325 (a), (c1), (c2), (d), (e), (f) Static pressure systems o 25.1327 (a), (c) Direction Indicator o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (All) Instrument systems o 25.1431 (a), (d) Electronic equipment o Surveillance: o 25.1301 (a1), (a2), (a3) Function and installations . o 25.1303 (b5) Flight and navigation instruments o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (a) Instrument systems o 25.1431 (a), (d) Electronic equipment \u2022 Plus for Flight Management System: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (a1), (c) Equipment, system and installations \u2022 Plus for Antennas: \u2212 25.1309 (a1),(a2) Equipment, system and installations \u2212 25.1431 (a) Electronic equipment \u2022 Plus for Power Plant: \u2212 25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a3), (a4), (a5), (a6), (c1-c3), (c6), (c7),(e1), (e2) Powerplant instruments \u2212 25.1337 (d), (e) Powerplant instruments \u2212 25.1549 (All) Powerplant instruments \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Doors: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Hydraulics: \u2212 25.1301 (a1) Function and installations \u2212 25.1435 (b1) Hydraulic System \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Landing Gear: \u2212 25.729 (e2-e7) Retracting mechanism \u2212 25.735 (h) Brakes and braking systems \u2212 25.1301 (a1),(a2),(a3) Function and installations \u2212 25.1309 (a1),(a2), (c) Equipment, system and installations \u2022 Plus for Fire Protection: \u2212 25.854 (a) Lavatory fire protection \u2212 25.858 (a) (c) Cargo compartment fire detection systems \u2212 25.1203 (b2), (b3), (d) Fire-detector system \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a7), Powerplant instruments \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for Electrics: \u2212 25.1301 (a1) Function and installations \u2212 25.1303 (b4) Flight and navigation instruments \u2212 25.1351 (b6) General . \u2212 25.1457 (d1) Cockpit voice recorders \u2212 25.1459 (a3) Flight recorders \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for OMS: \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2022 Plus for Environmental Control System: \u2212 25.841 (b5), (b6), (b8) Pressurized cabins \u2212 25.843 (b3) Tests for pressurized cabins \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1326 (All) Pitot heat indication \u2212 25.1419 (c) Ice protection \u2212 25.1309 (a1), (a2), (c) Equipment, system and installations \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a),(b),(d),(e) Function and installation EWIS \u2212 25.1705 (a), (b) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (All) Circuit protection devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1721(All) Protection of EWIS \u2022 Plus for FUEL: \u2212 25.961 (a) Fuel system hot weather operation \u2212 25.1141 (f2i), (f2ii) Powerplant controls: general \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a1), (a2i), (a2ii), (a2iii), (a2iv) Powerplant instruments \u2212 25.1337 (b1), (b2), (b3) Powerplant instruments \u2212 25.1527 (All) Ambient air temperature and operating altitude \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS - CS 25, Amendment 17, dated 15 July 2015 \u2022 HIRF elect to comply: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection",
+          "raw_reference": "4.3 Certification basis revised for major significant modifications DC10278, DC10280, DC10281, DC10282, DC10283, DC10284, DC10285, DC10286, DC10288, DC10289, DC10290, DC10291, DC10310, DC10415, DC10416, DC10417, DC10418, DC10419, DC10420, DC10421, DC10422, DC10423, DC10424, DC10426, DC10428, DC10429, DC10450, DC10451 and DC10293. \u2212 The certification basis is that of the C-295 amended by the following: - CS 25, Amendment 15, dated 23 July 2014 \u2022 For Cockpit system (cockpit arrangement and human factors): \u2212 25.207 (a), (b) Stall warning \u2212 25.677 (b) Trim Systems \u2212 25.699 (a), (b) Lift and drag device indicator \u2212 25.703 (a), (b4) Take-off warning system \u2212 25.729 (e2), (e4), (e7) Retracting mechanism \u2212 25.735 (h) Brakes and braking systems \u2212 25.771 (a), (c), (e) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.841 (b5), (b6) Pressurized cabins \u2212 25.843 (b3) Tests for pressurized cabins \u2212 25.854 (a) Lavatory fire protection \u2212 25.858 (a), (c) Cargo compartment fire detection systems \u2212 25.1141 (f2i) Powerplant controls: general . \u2212 25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime \u2212 25.1203 (b2), (b3), (d) Fire-detector system \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1302 (All) Installed systems and equipment for use by the flight crew \u2212 25.1303 (a), (b), (c1) Flight and navigation instruments \u2212 25.1305 all except (a3), (a8), (c8), (d1), (d2), (d3), (f) Powerplant instruments \u2212 25.1307 (d), (e) Miscellaneous equipment \u2212 25.1321 (All) Arrangement and visibility \u2212 25.1322 (a2), (b1), (b2), (b3),(d2), (f) Flight Crew Alerting \u2212 25.1323 (f) Airspeed indicating system \u2212 25.1309 (a), (a1), (c)Equipment, system and installations \u2212 25.1325 (f) Static pressure systems \u2212 25.1326 (All) Pitot heat indication \u2212 25.1327 (a), (b)Direction Indicator \u2212 25.1329 (f), (i), (j) Flight Guidance System \u2212 25.1331 (a3) Instruments using a power supply \u2212 25.1333 (b) Instrument systems \u2212 25.1337 (b1, (e) Powerplant instruments \u2212 25.1351 (b5), (b6) General \u2212 25.1381 (All) Instrument lights \u2212 25.1419 (c) Ice protection \u2212 25.1435 (b1) Hydraulic System \u2212 25.1457 (d3) Cockpit voice recorders \u2212 25.1459 (a4) Flight recorders \u2212 25.1523 (All) Minimum flight crew \u2212 25.1543 (b) Instrument Markings \u2212 25.1545 (-) Airspeed limitation information \u2212 25.1549 (All) Powerplant instruments \u2212 25.1555 (All) Control markings \u2022 Plus for Hardware: \u2212 25.1309 (a), (a1), (a2), (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Structural Dynamics: \u2212 25.1329 (g) Flight Guidance System \u2022 Plus for Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.365 (All) Pressurised compartment loads \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure . \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.581 (All) Lightning protection \u2212 25.899 (All) Electrical bonding and protection against static electricity \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Airplane Flight Manual: \u2212 25.1309 (c) Equipment, system and installations \u2212 25.1501 (b) General \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (All) Operating procedures \u2212 25.1587 (All) Performance information \u2022 Plus for Safety: \u2212 25.671 (c) General (Control Systems) \u2212 25.672 (c) Stability augmentation and automatic and power-operated systems \u2212 25.734 (All) Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1329 (b) Flight Guidance System \u2212 25.1333 (b) Instrument systems \u2212 25.1709 (a1), (a2),(b) System Safety; EWIS \u2212 25.1725 (b) Powerplants; EWIS \u2212 25.1309 (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Software: \u2212 25.1309 (b1), (b2), (b3), (c) Equipment, system and installations \u2022 Plus for Flight Controls System and Autopilot: \u2212 25.671 (c) General (Control Systems) \u2212 25.672 (All) Stability augmentation and automatic and power-operated systems \u2212 25.677 (b) Trim Systems \u2212 25.685 (a) Control System details \u2212 25.699 (a) (b) Lift and drag device indicator \u2212 25.703 (a), (b1), (b2), (b3), (b4) Take-off warning system \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1309 (a1), (c) Equipment, system and installations \u2212 25.1329 (All) except (k), (b) and (m) Flight Guidance System \u2212 25.1431 (a) Electronic equipment \u2022 Plus for Avionics: o Displays and controls: o 25.207 (b) Stall warning o 25.677 (b) Trim Systems o 25.699 (a), (b) Lift and drag device indicator o 25.703 (a), (b4) Take-off warning system o25.729 (e2), (e7) Retracting mechanism o25.735 (h) Brakes and braking systems o25.841 (b6), (b8) Pressurized cabins o25.843 (b3) Tests for pressurized cabins o25.854 (a) Lavatory fire protection o25.858 (a), (c) Cargo compartment fire detection systems o25.1141 (f2i) Powerplant controls: general o25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime o 25.1203 (b2), (b3)Fire-detector system o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (b5), (c1) Flight and navigation instruments o 25.1305 (All) except (a3), (a8), (c8), (d1), (d2), (d3), (f) Powerplant instruments o 25.1307 (c) Miscellaneous equipment o 25.1322 (a1), (a3), (b1), (b2), (b3), (c1), (c2), (c3), (d1), (d2),(e1) Flight Crew Alerting o 25.1325 (f) Static pressure systems o 25.1326 (All) Pitot heat indication o 25.1331 (a1), (a2), (b) Instruments using a power supply o 25.1337 (b1) Powerplant instruments o 25.1419 (c) Ice protection o 25.1435 (b1) Hydraulic System o 25.1459 (All) Flight recorders o 25.1549 (a), (c),(d) Powerplant instruments o 25.1431 (a), (d) Electronic equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o Communication: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1307 (c), (d) Miscellaneous equipment o 25.1322 (c1), (d2) Flight Crew Alerting o 25.1457 (All) Cockpit voice recorders o 25.1431 (a), (d) Electronic equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o Navigation: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (a1), (b1-b6) (c1) Flight and navigation instruments o 25.1307 (c), (e) Miscellaneous equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o 25.1323 (a), (c), (f), (g), (h) Airspeed indicating system o 25.1325 (a), (c1), (c2), (d), (e), (f) Static pressure systems o 25.1327 (a), (c) Direction Indicator o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (All) Instrument systems o 25.1431 (a), (d) Electronic equipment o Surveillance: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (b5) Flight and navigation instruments o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (a2), (c) Equipment, system and installations o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (a) Instrument systems o 25.1431 (a), (d) Electronic equipment \u2022 Plus for Flight Management System: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (a1), (c) Equipment, system and installations \u2022 Plus for Antennas: \u2212 25.1309 (a1),(a2) Equipment, system and installations \u2212 25.1431 (a) Electronic equipment \u2022 Plus for Power Plant: \u2212 25.1155 (d) Reverse thrust and propeller pitch settings below the flight regime \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a3), (a4), (a5), (a6), (c1-c3), (c6), (c7),(e1), (e2) Powerplant instruments \u2212 25.1337 (d), (e) Powerplant instruments \u2212 25.1549 (All) Powerplant instruments \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Doors: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Hydraulics: \u2212 25.1301 (a1) Function and installations \u2212 25.1435 (b1) Hydraulic System \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for Landing Gear: \u2212 25.729 (e2-e7) Retracting mechanism \u2212 25.735 (h) Brakes and braking systems \u2212 25.1301 (a1),(a2),(a3) Function and installations \u2212 25.1309 (a1),(a2), (c) Equipment, system and installations \u2022 Plus for Fire Protection: \u2212 25.854 (a) Lavatory fire protection \u2212 25.858 (a) (c) Cargo compartment fire detection systems \u2212 25.1203 (b2), (b3), (d) Fire-detector system \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a7), Powerplant instruments \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for Electrics: \u2212 25.1301 (a1) Function and installations \u2212 25.1303 (b4) Flight and navigation instruments \u2212 25.1351 (b6) General . \u2212 25.1457 (d1) Cockpit voice recorders \u2212 25.1459 (a3) Flight recorders \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for OMS: \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2022 Plus for Environmental Control System: \u2212 25.841 (b5), (b6), (b8) Pressurized cabins \u2212 25.843 (b3) Tests for pressurized cabins \u2212 25.1301 (a1), (a2), (a3) Function and installations \u2212 25.1326 (All) Pitot heat indication \u2212 25.1419 (c) Ice protection \u2212 25.1309 (a1), (a2), (c) Equipment, system and installations \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a),(b),(d),(e) Function and installation EWIS \u2212 25.1705 (a), (b) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (All) Circuit protection devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1721(All) Protection of EWIS \u2022 Plus for FUEL: \u2212 25.961 (a) Fuel system hot weather operation \u2212 25.1141 (f2i), (f2ii) Powerplant controls: general \u2212 25.1301 (a1) Function and installations \u2212 25.1305 (a1), (a2i), (a2ii), (a2iii), (a2iv) Powerplant instruments \u2212 25.1337 (b1), (b2), (b3) Powerplant instruments \u2212 25.1527 (All) Ambient air temperature and operating altitude \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS - CS 25, Amendment 17, dated 15 July 2015 \u2022 HIRF elect to comply: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection",
           "applicability": "\u2022 Plus for Flight Controls",
           "applicability_notes": null,
           "references": []
         },
         {
-          "display_order": 12,
+          "display_order": 11,
           "entry_type": "regulation",
           "raw_reference": "\u25aa Certification Specification 25, Amendment 3, dated 19 September 2007: \u2022 Doors: \u2212 CS 25.783 (e) Doors - Plus Airworthiness Requirements CS-ACNS, Certification Specification ACNS Initial Issue, dated 17 December 2013 . \u2212 CS-ACNS Book 1 Subpart B Section 1 - Voice Channel Spacing (VCS) (8.33 KHZ). \u2212 CS-ACNS Book 1 Subpart B Section 2 - Data Link Services. \u2212 CS-ACNS Book 1 Subpart D Section 2 - Mode S Elementary Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 3 - Mode S Enhanced Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 4 - 1090 MHz Extended Squitter ADS-B Out. \u2212 CS-ACNS Book 1 Subpart E Section 1 - Terrain Awareness And Warning System (TAWS). \u2022 For Safety : \u2212 CS ACNS.B.VCS.025 \u2212 CS ACNS.B.VCS.030 \u2212 CS ACNS.B.DLS.B1.030 \u2212 CS ACNS.B.DLS.B1.035 \u2212 CS ACNS.D.EHS.020 \u2212 CS ACNS.D.EHS.025 \u2212 CS ACNS.D.ADSB.100 (a1-a18), (b) \u2212 CS ACNS.D.ADSB.105 (a) \u2212 CS ACNS.E.TAWS.040 (a), (b), (c) \u2212 CS ACNS.E.TAWS.045 \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 CS ACNS.B.VCS.040 (a), (b), (c) \u2212 CS ACNS.B.DLS.B1.005 \u2212 CS ACNS.B.DLS.B1.010 (a1-a7) \u2212 CS ACNS.D.ELS.030 (a1-a8) \u2212 CS ACNS.D.ADSB.090 (a), (b) \u2212 CS ACNS.E.TAWS.025 (a), (b) \u2212 CS ACNS.E.TAWS.030 (a), (b1-b6), (c), (d), (e) \u2212 CS ACNS.E.TAWS.035 (a), (b), (c), (d), (e), (f) \u2212 CS ACNS.E.TAWS.075 \u2212 CS ACNS.E.TAWS.080 (a1-a5) \u2022 Plus for Antenna: \u2212 CS ACNS.D.ELS.060 (a), (b) \u2212 CS ACNS.D. ADSB.045 \u2022 Plus for Flight Management System: \u2212 CS ACNS.E.TAWS.010",
           "applicability": "- Reversion: The following reversion from the defined certification basis has been accepted",
@@ -114,7 +106,7 @@
           "references": []
         },
         {
-          "display_order": 13,
+          "display_order": 12,
           "entry_type": "regulation",
           "raw_reference": "\u2022 For Communications: \u2212 CS ACNS.B.VCS.010 (a), (b) \u2212 CS ACNS.B.VCS.020 (a), (b), (c), (d) \u2212 CS ACNS.B.VCS.040 (a), (b), (c) \u2212 CS ACNS.B.DLS.B1.005 \u2212 CS ACNS.B.DLS.B1.010 (a1-a7), (b) \u2212 CS ACNS.B.DLS.B1.020 (a), (b), (c), (d) \u2212 CS ACNS.B.DLS.B1.025 \u2212 CS ACNS.B.DLS.B1.040 \u2212 CS ACNS.B.DLS.B1.050 .",
           "applicability": "- Plus for Avionics",
@@ -122,7 +114,7 @@
           "references": []
         },
         {
-          "display_order": 14,
+          "display_order": 13,
           "entry_type": "regulation",
           "raw_reference": "\u2212 CS ACNS.B.DLS.B1.055 \u2212 CS ACNS.B.DLS.B1.060 \u2212 CS ACNS.B.DLS.B1.070 \u2212 CS ACNS.B.DLS.B1.075 \u2212 CS ACNS.B.DLS.B1.080 \u2212 CS ACNS.B.DLS.B1.085 \u2212 CS ACNS.B.DLS.B1.090 \u2212 CS ACNS.B.DLS.B1.095 \u2212 CS ACNS.B.DLS.B1.100 \u2212 CS ACNS.B.DLS.B1.105 \u2212 CS ACNS.B.DLS.B1.110 \u2212 CS ACNS.B.DLS.B1.115 \u2212 CS ACNS.B.DLS.B1.120 \u2212 CS ACNS.B.DLS.B1.125 \u2212 CS ACNS.E.TAWS.075",
           "applicability": "- Plus for Avionics",
@@ -130,7 +122,7 @@
           "references": []
         },
         {
-          "display_order": 15,
+          "display_order": 14,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Display and Controls: \u2212 CS ACNS.B.VCS.040 (c) \u2212 CS ACNS.B.DLS.B1.005 \u2212 CS ACNS.B.DLS.B1.010 (a1) \u2212 CS ACNS.D.ELS.030 (a4), (a6) \u2212 CS ACNS.D.ADSB.090 (b) \u2212 CS ACNS.E.TAWS.035 (a), (b), (c), (f) \u2212 CS ACNS.E.TAWS.025 (a), (b) \u2212 CS ACNS.E.TAWS.030 (b4), (c) \u2212 CS ACNS.E.TAWS.060 (c), (d), (f) \u2212 CS ACNS.E.TAWS.070 (a), (b), (c)",
           "applicability": "- Plus for Avionics",
@@ -138,7 +130,7 @@
           "references": []
         },
         {
-          "display_order": 16,
+          "display_order": 15,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Navigation: \u2212 CS ACNS.D.ELS.025 (a), (b), (c) \u2212 CS ACNS.D. ADSB.025 (a), (c) \u2212 CS ACNS.D.ADSB.070 (a), (b), (c) \u2212 CS ACNS.D.ADSB.085 (a), (b) \u2212 CS ACNS.D.ADSB.110 \u2212 CS ACNS.E.TAWS.010 \u2212 CS ACNS.E.TAWS.060 (a), (e)",
           "applicability": "- Plus for Avionics",
@@ -146,7 +138,7 @@
           "references": []
         },
         {
-          "display_order": 17,
+          "display_order": 16,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Surveillance: \u2212 CS ACNS.D.ELS.010 (a), (b), (c) \u2212 CS ACNS.D.ELS.015 (a1-a10) \u2212 CS ACNS.D.ELS.020 (a), (b) \u2212 CS ACNS.D.ELS.025 (c) \u2212 CS ACNS.D.ELS.030 (a1-a8), (b) \u2212 CS ACNS.D.ELS.040 \u2212 CS ACNS.D.ELS.045 \u2212 CS ACNS.D.ELS.055 \u2212 CS ACNS.D.ELS.060 (a), (b) \u2212 CS ACNS.D.ELS.065",
           "applicability": "- Plus for Avionics",
@@ -154,15 +146,7 @@
           "references": []
         },
         {
-          "display_order": 18,
-          "entry_type": "regulation",
-          "raw_reference": ".",
-          "applicability": "- Plus for Avionics",
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 19,
+          "display_order": 17,
           "entry_type": "regulation",
           "raw_reference": "\u2212 CS ACNS.D.EHS.010 \u2212 CS ACNS.D.EHS.015 (a1-a9), (b), (c) \u2212 CS ACNS.D.ADSB.020 (a), (b) \u2212 CS ACNS.D. ADSB.025 (b) \u2212 CS ACNS.D.ADSB.030 \u2212 CS ACNS.D. ADSB.035 \u2212 CS ACNS.D. ADSB.040 \u2212 CS ACNS.D. ADSB.045 \u2212 CS ACNS.D.ADSB.050 \u2212 CS ACNS.D.ADSB.060 (a), (b) \u2212 CS ACNS.D.ADSB.070 (a), (b), (c) \u2212 CS ACNS.D.ADSB.080 \u2212 CS ACNS.D.ADSB.085 (a), (b) \u2212 CS ACNS.D.ADSB.090 (a), (b) \u2212 CS ACNS.D.ADSB.110 \u2212 CS ACNS.D.ADSB.115 \u2212 CS ACNS.D.ADSB.120 \u2212 CS ACNS.E.TAWS.005 \u2212 CS ACNS.E.TAWS.010 \u2212 CS ACNS.E.TAWS.015 (a), (b), (c), (d) \u2212 CS ACNS.E.TAWS.020 (a), (b) \u2212 CS ACNS.E.TAWS.025 (a), (b) \u2212 CS ACNS.E.TAWS.030 (b1-b6), (c), (e) \u2212 CS ACNS.E.TAWS.035 (a), (b), (c), (d), (e), (f) \u2212 CS ACNS.E.TAWS.050 \u2212 CS ACNS.E.TAWS.055 (a), (b) \u2212 CS ACNS.E.TAWS.060 (a), (c), (d), (f) \u2212 CS ACNS.E.TAWS.070 (a), (b), (c) \u2212 CS ACNS.E.TAWS.075 \u2212 CS ACNS.E.TAWS.080 (a1-a5)",
           "applicability": "- Plus for Avionics",
@@ -170,71 +154,63 @@
           "references": []
         },
         {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-F-1 \u201cEffect of external radiation over aircraft systems\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "SC-E-2 \u201cPower Control Automatic System\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
           "display_order": 20,
           "entry_type": "special_condition",
-          "raw_reference": "5.1 Original Special Conditions part of Certification Basis",
-          "applicability": null,
+          "raw_reference": "SC-H-01 \u201cEnhanced Airworthiness Programme for Aeroplane Systems \u2013 ICA on EWIS\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
           "applicability_notes": null,
           "references": []
         },
         {
           "display_order": 21,
           "entry_type": "special_condition",
-          "raw_reference": "SC-F-1 \u201cEffect of external radiation over aircraft systems\u201d",
-          "applicability": null,
+          "raw_reference": "5.2 Additional Special Conditions for C-295FW (Commercial designation only)",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
           "applicability_notes": null,
           "references": []
         },
         {
           "display_order": 22,
           "entry_type": "special_condition",
-          "raw_reference": "SC-E-2 \u201cPower Control Automatic System\u201d",
-          "applicability": null,
+          "raw_reference": "CRI F-05 \u201cSecurity Protection of Aircraft Systems and Networks\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
           "applicability_notes": null,
           "references": []
         },
         {
           "display_order": 23,
           "entry_type": "special_condition",
-          "raw_reference": "SC-H-01 \u201cEnhanced Airworthiness Programme for Aeroplane Systems \u2013 ICA on EWIS\u201d",
-          "applicability": null,
+          "raw_reference": "CRI F-06 \u201cFlight Recorders and Data Link Recording\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
           "applicability_notes": null,
           "references": []
         },
         {
           "display_order": 24,
           "entry_type": "special_condition",
-          "raw_reference": "5.2 Additional Special Conditions for C-295FW (Commercial designation only)",
-          "applicability": null,
+          "raw_reference": "CRI F-25 \u201cNon-rechargeable Lithium Battery Installations\u201d",
+          "applicability": "5.1 Original Special Conditions part of Certification Basis",
           "applicability_notes": null,
           "references": []
         },
         {
           "display_order": 25,
-          "entry_type": "special_condition",
-          "raw_reference": "CRI F-05 \u201cSecurity Protection of Aircraft Systems and Networks\u201d",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 26,
-          "entry_type": "special_condition",
-          "raw_reference": "CRI F-06 \u201cFlight Recorders and Data Link Recording\u201d",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 27,
-          "entry_type": "special_condition",
-          "raw_reference": "CRI F-25 \u201cNon-rechargeable Lithium Battery Installations\u201d",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 28,
           "entry_type": "exemption",
           "raw_reference": "Exemption to FAR 25.571(e)(1), granted by DGAC-ES on 29 October 1998.",
           "applicability": null,
@@ -250,7 +226,7 @@
           ]
         },
         {
-          "display_order": 29,
+          "display_order": 26,
           "entry_type": "other",
           "raw_reference": "CRI F-26 \u201cMode-S and ADSB-out Extended Squitter Installation\u201d .",
           "applicability": null,
@@ -258,7 +234,7 @@
           "references": []
         },
         {
-          "display_order": 30,
+          "display_order": 27,
           "entry_type": "other",
           "raw_reference": "CRI F-27 \u201cCompliance with CS25.1322, Amendment 15\u201d",
           "applicability": null,
@@ -266,7 +242,7 @@
           "references": []
         },
         {
-          "display_order": 31,
+          "display_order": 28,
           "entry_type": "elos",
           "raw_reference": "In relation with the regulation 14 CFR Section 25.1149: Propeller speed and pitch controls. Use the stall speed to 1-g to show compliance with the corresponding paragraphs of 14 CFR Part 25 instead of \u201cMinimum Speed\u201d in stall.",
           "applicability": null,
@@ -281,7 +257,7 @@
           ]
         },
         {
-          "display_order": 32,
+          "display_order": 29,
           "entry_type": "elos",
           "raw_reference": "8.2 Additional Equivalent Safety Findings for C-295FW (Commercial designation only): IP F-2 \u201cUse of 1-g Stall Speeds Instead of Minimum Speed in the Stall as a Basis for Determining Compliance\u201d",
           "applicability": null,
@@ -289,7 +265,7 @@
           "references": []
         },
         {
-          "display_order": 33,
+          "display_order": 30,
           "entry_type": "elos",
           "raw_reference": "CRI E-01 \u201cGreen Arc for Powerplant Instrument\u201d",
           "applicability": null,
@@ -297,7 +273,7 @@
           "references": []
         },
         {
-          "display_order": 34,
+          "display_order": 31,
           "entry_type": "elos",
           "raw_reference": "CRI F-19 \u201cFOB Miscompare\u201d",
           "applicability": null,
@@ -305,7 +281,7 @@
           "references": []
         },
         {
-          "display_order": 35,
+          "display_order": 32,
           "entry_type": "regulation",
           "raw_reference": "Hereafter are listed regulations that TC Holder elects to comply for the major not significant modifications (See Note 5.2).",
           "applicability": null,
@@ -313,15 +289,15 @@
           "references": []
         },
         {
-          "display_order": 36,
+          "display_order": 33,
           "entry_type": "regulation",
-          "raw_reference": "9.1 For modification DC10736A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For Airplane Flight Manual: \u2212 25.1581 (a), (a1), (a2), (b), (d) General \u2212 25.1583 (a) (c) Operating limitations 9.2 For modifications DC10738A, DC10740A, DC10741A, DC10735A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness 9.3 For modifications DC10287, DC10550, DC10967elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.365 (All) Pressurized compartment loads \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure \u2022 Plus for Electric Analysis: \u2212 25.869 (a1) (a2) (a3) Fire protection: systems \u2212 25.1163 (a), (b), (c) Powerplant accessories \u2212 25.1301 (a1) (a2) (a3) Function and installations \u2212 25.1307 (c) Miscellaneous equipment \u2212 25.1309 (a1), (a2), (c)Equipment, system and installations \u2212 25.1310 (All) Power source capacity and distribution \u2212 25.1315 (All) Negative acceleration \u2212 25.1351 (All) except (c) General \u2212 25.1353 (b), (c1), (c2), (c3), (c4), Electrical equipment and installations . \u2212 25.1355 (c) Distribution system \u2212 25.1357 (All) except (f) Circuit protective devices \u2212 25.1360 (All) Precautions against injury \u2212 25.1362 (-) Electrical supplies for emergency conditions \u2212 25.1363 (All) Electrical system tests \u2212 25.1431 (a) Electronic equipment \u2212 25.1461 (b), (c) Equipment containing high-energy rotor \u2022 Plus for Power Plant: \u2212 25.901 (b1) Engines \u2212 25.1041 General \u2212 25.1163 (a), (b) Powerplant accessories \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3)Equipment, system and installations \u2022 Plus for Airplane Flight Manual: \u2212 25.1581 (All) General \u2212 25.1585 (All) Operating procedures - CS 25, Amendment 17, dated 15 July 2015: \u2022 HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.4 For modification DC10402 elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3) Equipment, system and installations \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for ECS: \u2212 25.831 (d) Ventilation \u2212 25.1301 (a1) (a2) (a3) Function and installations \u2212 25.1309 (a1), (a2), (c) Equipment, system and installations \u2212 25.1461 (All) Equipment containing high-energy rotors \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Airplane Flight Manual: \u2212 25.1501 (b) General Operating Limitations And Information . \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (All) Operating procedures \u2022 Plus for ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.5 For modification DC10656 elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Fire Protection: \u2212 25.854 (All) Lavatory fire protection \u2212 25.855 (h2), (i), Cargo or baggage compartments \u2212 25.858 (a), (b), (d) Cargo or baggage compartment smoke or fire detection systems \u2212 25.863 (All) Flammable fluid fire protection \u2212 25.1301 (a1), (a2), (a3) Function and Installation \u2212 25.1309 (a1) Equipment, systems and installations \u2022 Plus for Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3), (c), Equipment, systems and installations \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1316 (All) System lightning protection \u2212 25.1431 (c) Electronic equipment - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.6 For modification DC10998-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1329 (a), (i) Flight Guidance System \u2212 25.1705 (a) System and Functions EWIS \u2022 Plus for Avionics (Displays and Controls): \u2212 25.1301 (a1) Function and installations \u2212 25.1459 (e) Flight recorders \u2212 25.1705 (a) System and Functions EWIS \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a), (b), (d), (e) Function and installation EWIS \u2212 25.1705 (All) System and Functions EWIS . \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (All) Circuit protection devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a), (c) Pilot compartment \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.1301 (a1), (a2) Function and installations \u2212 25.1302 (a), (b), (c), (d) Installed systems and equipment for use by the flight crew \u2212 25.1321 (a) Arrangement and visibility \u2212 25.1381 (a), (b) Instrument lights \u2212 25.1523 (a), (b), (c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for EMC: \u2212 25.1707 (b) System Separation EWIS \u2212 25.1715 (a) Electrical bonding and protection against static 9.7 For modification DC10943-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Fire protection: \u2212 25.561 (c1)(i) General \u2212 25.851 (a1), (a2), (a3), (a5), (a6), (a7), (a8), (c) Fire extinguishers \u2212 25.1301 (a1),(a2), (a3) Function and installations Function and installation \u2212 25.1309 (a1) Equipment, system and installations 9.8 For modification DC11090-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.699 (a) Lift and drag device indicator \u2212 25.703 (a1) Take-off warning system - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.9 For modification DC11174-E, DC10890-E, DC11301-E elect to comply: - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.10 For modification DC10907-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Lightning Direct Effects (LDE): \u2212 25.899 (All) Electrical bonding and protection against static electricity - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: . \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection - For Powerplant \u2212 FAR 25.901 (b1), (b4) Installation amdt 126 9.11 For modification DC10973-E and DC10974-E, DC11678-E, DC11680A-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1301 (a1) Function and installations \u2212 25.1329 (c), (d), (e), (g) Flight Guidance System \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a),(b),(c) Cockpit controls \u2212 25.1301 (a1) Function and installations \u2212 25.1302 (a),(b),(c),(d) Installed systems and equipment for use by the flight crew \u2212 25.1309 (c) Equipment, system and installations \u2212 25.1322 (b),(e1),(f) Flight Crew Alerting \u2212 25.1381 (a),(b) Instrument lights \u2212 25.1523 (a),(b),(c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for Flight Management System: \u2212 25.1301 (a1) Function and installations \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a), (b), (d), (e) Function and installation EWIS \u2212 25.1705 (All) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 - Circuit protection devices; EWIS \u2212 25.1719 - Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS \u2022 Plus for HW Assurance: \u2212 25.1309 (All) Equipment, system and installations \u2022 Plus for SW Assurance: \u2212 25.1309 (b) Equipment, system and installations \u2022 Plus for Safety: \u2212 25.1309 (b), (c) Equipment, system and installations \u2212 25.1333 (b) Instrument systems \u2022 Plus for Airplane Flight Manual: \u2212 25.1501 (b) General . \u2212 25.1581 (a1), (a2), (b), (d) \u2212 25.1583 (a) Operating limitations \u2212 25.1585 (a) Operating procedures \u2022 Plus for EMC: \u2212 25.1707 (b) System Separation EWIS \u2212 25.1715 (a) Electrical bonding and protection against static \u2022 Plus for Avionics o Navigation: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (b4), (b5), (b6) Flight and navigation instruments o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (c) Equipment, system and installations o 25.1327 (a), (c) Direction Indicator o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (a), (c) Instrument systems o 25.1431 (a), (d) Electronic equipment o 25.1705 (a),(b)(7), (b)(16) System and Functions EWIS o Display and Control: o 25.1301 (a1) Function and installations o 25.1303 (b5) Flight and navigation instruments o 25.1309 (c) Equipment, system and installations o 25.1322 (a1), (a3), (b), (c), (d1), (e1) Flight Crew Alerting o 25.1459 (a1), (e) Flight recorders o Surveillance: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (c) Equipment, system and installations o 25.1431 (a), (d) Electronic equipment o 25.1705 (a),(b)(16) System and Functions EWIS - CS 25, Amendment 17, dated 15 July 2015: \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection - Plus Airworthiness Requirements CS-ACNS, Certification Specification ACNS Initial Issue, dated 17 December 2013: \u2212 CS-ACNS Book 1 Subpart D Section 2 - Mode S Elementary Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 3 - Mode S Enhanced Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 4 - 1090 MHz Extended Squitter ADS-B Out. \u2212 CS-ACNS Book 1 Subpart E Section 1 - Terrain Awareness And Warning System (TAWS). \u2022 Surveillance: \u2212 ACNS.D. EHS.015 (a),(b),(c) \u2212 ACNS.E. TAWS.010 (-) \u2212 ACNS.D. ADSB.020 (a), (b) \u2212 ACNS.D. ADSB.025 (b) \u2212 ACNS.D. ADSB.035 (All) \u2212 ACNS.D.ADSB.055 (All) . \u2212 ACNS.D.ADSB.060 (a), (b) \u2212 ACNS.D.ADSB.070 (a), (b), (c) \u2212 ACNS.D.ADSB.080 (All) \u2212 ACNS.D.ADSB.085 (a), (b) \u2212 ACNS.D.ADSB.090 (a), (b) \u2212 ACNS.D.ADSB.110 (All) \u2212 ACNS.D.ELS.015 (a) \u2212 ACNS.D.ELS.020 (a), (b) \u2212 ACNS.D.ELS.025 (c) \u2212 ACNS.D.ELS.030 (a1), (a2), (a3), (a4) ,(a5), (a6), (a7), (a8), (b) \u2212 ACNS.D.ELS.050 (All) \u2212 ACNS.D.ELS.055 (All) \u2022 Display and Control: \u2212 ACNS.D.ELS.030 (a4), (a6) \u2212 ACNS.D.ADSB.090 (b) \u2022 Navigation: \u2212 ACNS.D. ADSB.025 (a) 9.12 For modification DC10915-E, DC11448S-E and DC11571A-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1301 (a1) Function and installations \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.1301 (a1), (a2) Function and installations \u2212 25.1302 (a), (b), (c), (d) Installed systems and equipment for use by the flight crew \u2212 25.1309 (b), (c) Equipment, system and installations \u2212 25.1322 (b), (e1), (f) Flight Crew Alerting \u2212 25.1381 (a) ,(b) Instrument lights \u2212 25.1523 (a), (b), (c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for Electrical Analysis: \u2212 25.1423 (a1), (a2) Public address system \u2212 25.1431 (b) Electronic equipment \u2022 Plus for EWIS: \u2212 25.1701 all Definition \u2212 25.1703 (a) (b), (d) (e) Function and installation EWIS \u2212 25.1705 (a) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS . \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (-) Circuit protection devices; EWIS \u2212 25.1719 (-) Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS",
+          "raw_reference": "9.1 For modification DC10736A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For Airplane Flight Manual: \u2212 25.1581 (a), (a1), (a2), (b), (d) General \u2212 25.1583 (a) (c) Operating limitations 9.2 For modifications DC10738A, DC10740A, DC10741A, DC10735A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness 9.3 For modifications DC10287, DC10550, DC10967elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.365 (All) Pressurized compartment loads \u2212 25.561 (All) General \u2212 25.625 (All) Fitting factors \u2212 25.631 (All) Bird strike damage \u2022 Plus for Fatigue: \u2212 25.571 (All) Damage-tolerance and fatigue evaluation of structure \u2022 Plus for Electric Analysis: \u2212 25.869 (a1) (a2) (a3) Fire protection: systems \u2212 25.1163 (a), (b), (c) Powerplant accessories \u2212 25.1301 (a1) (a2) (a3) Function and installations \u2212 25.1307 (c) Miscellaneous equipment \u2212 25.1309 (a1), (a2), (c)Equipment, system and installations \u2212 25.1310 (All) Power source capacity and distribution \u2212 25.1315 (All) Negative acceleration \u2212 25.1351 (All) except (c) General \u2212 25.1353 (b), (c1), (c2), (c3), (c4), Electrical equipment and installations . \u2212 25.1355 (c) Distribution system \u2212 25.1357 (All) except (f) Circuit protective devices \u2212 25.1360 (All) Precautions against injury \u2212 25.1362 (-) Electrical supplies for emergency conditions \u2212 25.1363 (All) Electrical system tests \u2212 25.1431 (a) Electronic equipment \u2212 25.1461 (b), (c) Equipment containing high-energy rotor \u2022 Plus for Power Plant: \u2212 25.901 (b1) Engines \u2212 25.1041 General \u2212 25.1163 (a), (b) Powerplant accessories \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3)Equipment, system and installations \u2022 Plus for Airplane Flight Manual: \u2212 25.1581 (All) General \u2212 25.1585 (All) Operating procedures - CS 25, Amendment 17, dated 15 July 2015: \u2022 HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.4 For modification DC10402 elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3) Equipment, system and installations \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.1309 (c) Equipment, system and installations \u2022 Plus for ECS: \u2212 25.831 (d) Ventilation \u2212 25.1301 (a1) (a2) (a3) Function and installations \u2212 25.1309 (a1), (a2), (c) Equipment, system and installations \u2212 25.1461 (All) Equipment containing high-energy rotors \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1316 (All) System lightning protection \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2022 Plus for Airplane Flight Manual: \u2212 25.1501 (b) General Operating Limitations And Information . \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (All) Operating procedures \u2022 Plus for ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness \u2212 25.1729 (-) Instructions for Continued Airworthiness; EWIS - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.5 For modification DC10656 elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Fire Protection: \u2212 25.854 (All) Lavatory fire protection \u2212 25.855 (h2), (i), Cargo or baggage compartments \u2212 25.858 (a), (b), (d) Cargo or baggage compartment smoke or fire detection systems \u2212 25.863 (All) Flammable fluid fire protection \u2212 25.1301 (a1), (a2), (a3) Function and Installation \u2212 25.1309 (a1) Equipment, systems and installations \u2022 Plus for Safety: \u2212 25.734 Protection against wheel and tyre failures \u2212 25.903 (d1) Engines \u2212 25.905 (d) Propellers \u2212 25.1309 (b1), (b2), (b3), (c), Equipment, systems and installations \u2022 Plus for EMI & EMC, Lightning and HIRF: \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1316 (All) System lightning protection \u2212 25.1431 (c) Electronic equipment - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.6 For modification DC10998-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1329 (a), (i) Flight Guidance System \u2212 25.1705 (a) System and Functions EWIS \u2022 Plus for Avionics (Displays and Controls): \u2212 25.1301 (a1) Function and installations \u2212 25.1459 (e) Flight recorders \u2212 25.1705 (a) System and Functions EWIS \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a), (b), (d), (e) Function and installation EWIS \u2212 25.1705 (All) System and Functions EWIS . \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (All) Circuit protection devices; EWIS \u2212 25.1719 (All) Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a), (c) Pilot compartment \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.1301 (a1), (a2) Function and installations \u2212 25.1302 (a), (b), (c), (d) Installed systems and equipment for use by the flight crew \u2212 25.1321 (a) Arrangement and visibility \u2212 25.1381 (a), (b) Instrument lights \u2212 25.1523 (a), (b), (c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for EMC: \u2212 25.1707 (b) System Separation EWIS \u2212 25.1715 (a) Electrical bonding and protection against static 9.7 For modification DC10943-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Fire protection: \u2212 25.561 (c1)(i) General \u2212 25.851 (a1), (a2), (a3), (a5), (a6), (a7), (a8), (c) Fire extinguishers \u2212 25.1301 (a1),(a2), (a3) Function and installations Function and installation \u2212 25.1309 (a1) Equipment, system and installations 9.8 For modification DC11090-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.699 (a) Lift and drag device indicator \u2212 25.703 (a1) Take-off warning system - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.9 For modification DC11174-E, DC10890-E, DC11301-E elect to comply: - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection 9.10 For modification DC10907-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Lightning Direct Effects (LDE): \u2212 25.899 (All) Electrical bonding and protection against static electricity - CS 25, Amendment 17, dated 15 July 2015 \u2022 For HIRF: . \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection - For Powerplant \u2212 FAR 25.901 (b1), (b4) Installation amdt 126 9.11 For modification DC10973-E and DC10974-E, DC11678-E, DC11680A-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1301 (a1) Function and installations \u2212 25.1329 (c), (d), (e), (g) Flight Guidance System \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a),(b),(c) Cockpit controls \u2212 25.1301 (a1) Function and installations \u2212 25.1302 (a),(b),(c),(d) Installed systems and equipment for use by the flight crew \u2212 25.1309 (c) Equipment, system and installations \u2212 25.1322 (b),(e1),(f) Flight Crew Alerting \u2212 25.1381 (a),(b) Instrument lights \u2212 25.1523 (a),(b),(c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for Flight Management System: \u2212 25.1301 (a1) Function and installations \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a), (b), (d), (e) Function and installation EWIS \u2212 25.1705 (All) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 - Circuit protection devices; EWIS \u2212 25.1719 - Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS \u2022 Plus for HW Assurance: \u2212 25.1309 (All) Equipment, system and installations \u2022 Plus for SW Assurance: \u2212 25.1309 (b) Equipment, system and installations \u2022 Plus for Safety: \u2212 25.1309 (b), (c) Equipment, system and installations \u2212 25.1333 (b) Instrument systems \u2022 Plus for Airplane Flight Manual: \u2212 25.1501 (b) General . \u2212 25.1581 (a1), (a2), (b), (d) \u2212 25.1583 (a) Operating limitations \u2212 25.1585 (a) Operating procedures \u2022 Plus for EMC: \u2212 25.1707 (b) System Separation EWIS \u2212 25.1715 (a) Electrical bonding and protection against static \u2022 Plus for Avionics o Navigation: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1303 (b4), (b5), (b6) Flight and navigation instruments o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (c) Equipment, system and installations o 25.1327 (a), (c) Direction Indicator o 25.1331 (a3), (b) Instruments using a power supply o 25.1333 (a), (c) Instrument systems o 25.1431 (a), (d) Electronic equipment o 25.1705 (a),(b)(7), (b)(16) System and Functions EWIS o Display and Control: o 25.1301 (a1) Function and installations o 25.1303 (b5) Flight and navigation instruments o 25.1309 (c) Equipment, system and installations o 25.1322 (a1), (a3), (b), (c), (d1), (e1) Flight Crew Alerting o 25.1459 (a1), (e) Flight recorders o Surveillance: o 25.1301 (a1), (a2), (a3) Function and installations o 25.1307 (c) Miscellaneous equipment o 25.1309 (a1), (c) Equipment, system and installations o 25.1431 (a), (d) Electronic equipment o 25.1705 (a),(b)(16) System and Functions EWIS - CS 25, Amendment 17, dated 15 July 2015: \u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection - Plus Airworthiness Requirements CS-ACNS, Certification Specification ACNS Initial Issue, dated 17 December 2013: \u2212 CS-ACNS Book 1 Subpart D Section 2 - Mode S Elementary Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 3 - Mode S Enhanced Surveillance. \u2212 CS-ACNS Book 1 Subpart D Section 4 - 1090 MHz Extended Squitter ADS-B Out. \u2212 CS-ACNS Book 1 Subpart E Section 1 - Terrain Awareness And Warning System (TAWS). \u2022 Surveillance: \u2212 ACNS.D. EHS.015 (a),(b),(c) \u2212 ACNS.E. TAWS.010 (-) \u2212 ACNS.D. ADSB.020 (a), (b) \u2212 ACNS.D. ADSB.025 (b) \u2212 ACNS.D. ADSB.035 (All) \u2212 ACNS.D.ADSB.055 (All) . \u2212 ACNS.D.ADSB.060 (a), (b) \u2212 ACNS.D.ADSB.070 (a), (b), (c) \u2212 ACNS.D.ADSB.080 (All) \u2212 ACNS.D.ADSB.085 (a), (b) \u2212 ACNS.D.ADSB.090 (a), (b) \u2212 ACNS.D.ADSB.110 (All) \u2212 ACNS.D.ELS.015 (a) \u2212 ACNS.D.ELS.020 (a), (b) \u2212 ACNS.D.ELS.025 (c) \u2212 ACNS.D.ELS.030 (a1), (a2), (a3), (a4) ,(a5), (a6), (a7), (a8), (b) \u2212 ACNS.D.ELS.050 (All) \u2212 ACNS.D.ELS.055 (All) \u2022 Display and Control: \u2212 ACNS.D.ELS.030 (a4), (a6) \u2212 ACNS.D.ADSB.090 (b) \u2022 Navigation: \u2212 ACNS.D. ADSB.025 (a) 9.12 For modification DC10915-E, DC11448S-E and DC11571A-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Control System: \u2212 25.1301 (a1) Function and installations \u2022 Plus for Cockpit system (cockpit arrangement and human factors): \u2212 25.771 (a) Pilot compartment \u2212 25.773 (a2) Pilot compartment view \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.1301 (a1), (a2) Function and installations \u2212 25.1302 (a), (b), (c), (d) Installed systems and equipment for use by the flight crew \u2212 25.1309 (b), (c) Equipment, system and installations \u2212 25.1322 (b), (e1), (f) Flight Crew Alerting \u2212 25.1381 (a) ,(b) Instrument lights \u2212 25.1523 (a), (b), (c) Minimum flight crew \u2212 25.1555 (a) Control markings \u2022 Plus for IMA: \u2212 25.1301 (a1), (a3) Function and installations \u2022 Plus for Electrical Analysis: \u2212 25.1423 (a1), (a2) Public address system \u2212 25.1431 (b) Electronic equipment \u2022 Plus for EWIS: \u2212 25.1701 all Definition \u2212 25.1703 (a) (b), (d) (e) Function and installation EWIS \u2212 25.1705 (a) System and Functions EWIS \u2212 25.1707 (All) System Separation EWIS \u2212 25.1711 (All) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1715 (All) Electrical bonding and protection against static electricity; EWIS \u2212 25.1717 (-) Circuit protection devices; EWIS \u2212 25.1719 (-) Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS",
           "applicability": null,
           "applicability_notes": "Elect to comply",
           "references": []
         },
         {
-          "display_order": 37,
+          "display_order": 34,
           "entry_type": "regulation",
           "raw_reference": "\u25aa 25.1301 (a1), (a2), (a3) Function and installations",
           "applicability": "\u2022 Plus for OMS",
@@ -329,7 +305,7 @@
           "references": []
         },
         {
-          "display_order": 38,
+          "display_order": 35,
           "entry_type": "regulation",
           "raw_reference": "\u2212 25.671 (c) General (Control Systems) \u2212 25.672 (c) Stability augmentation and automatic and power-operated systems \u2212 25.1309 (b),(c) Equipment, system and installations \u2212 25.1329 (b) Flight Guidance System \u2212 SC F-25 (5), (6)",
           "applicability": "\u2022 Plus for Safety",
@@ -337,7 +313,7 @@
           "references": []
         },
         {
-          "display_order": 39,
+          "display_order": 36,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Software Assurance: \u2212 25.1309 (b) Equipment, system and installations \u2212 25.1301 (a1) Function and installations",
           "applicability": "\u2022 Plus for Safety",
@@ -345,7 +321,7 @@
           "references": []
         },
         {
-          "display_order": 40,
+          "display_order": 37,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Airplane Flight Manual: \u2212 25.1501 (b) General \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (a), (a2) Operating procedures",
           "applicability": "\u2022 Plus for Safety",
@@ -353,7 +329,7 @@
           "references": []
         },
         {
-          "display_order": 41,
+          "display_order": 38,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Cyber Security: \u2212 SC F-05 (a), (b),(c)",
           "applicability": "\u2022 Plus for Safety",
@@ -361,7 +337,7 @@
           "references": []
         },
         {
-          "display_order": 42,
+          "display_order": 39,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Flight Management System: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (a1) Equipment, system and installations",
           "applicability": "\u2022 Plus for Safety",
@@ -369,7 +345,7 @@
           "references": []
         },
         {
-          "display_order": 43,
+          "display_order": 40,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for EMC: \u2212 25.1707 (b) System Separation EWIS \u2212 25.1715 (a) Electrical bonding and protection against static electricity; EWIS",
           "applicability": "\u2022 Plus for Safety",
@@ -377,7 +353,7 @@
           "references": []
         },
         {
-          "display_order": 44,
+          "display_order": 41,
           "entry_type": "regulation",
           "raw_reference": "\u2022 Plus for Avionics o Navigation: \u2212 25.1301 (a1) Function and installations \u2212 25.1309 (c) Equipment, system and installations \u2212 25.1323 (a), (c), (h) Airspeed indicating system \u2212 25.1325 (a), (c1),(c2), (d), (e) Static pressure systems \u2212 25.1705 (a) System and Functions EWIS o Display and Controls: \u2212 CS 25.1301 (a1), (a2) Function and installations \u2212 CS 25.1309 (a1), (b), (c) Equipment, system and installations \u2212 CS 25.1322 (a1), (a3), (b), (c), (d1), (e1) Flight Crew Alerting \u2212 25.1705 (a) System and Functions EWIS \u2212 SC F-25 (1), (2), (3), (4), (5), (6) o Surveillance: .",
           "applicability": "\u2022 Plus for Safety",
@@ -385,7 +361,7 @@
           "references": []
         },
         {
-          "display_order": 45,
+          "display_order": 42,
           "entry_type": "regulation",
           "raw_reference": "\u2212 CS 25.1301 (a1) Function and installations \u2212 CS 25.1459(e) Flight recorders \u2212 25.1705 (a) System and Functions EWIS \u2212 SC F-25 (1), (2), (3), (4), (5), (6) o Communication: \u2212 25.1301 (a1), (a2), (a3), Function and installations \u2212 25.1307 (c) Miscellaneous equipment \u2212 25.1309 (a1) Equipment, system and installations \u2212 25.1423 (c), (d), (e), (f) Public address system \u2212 25.1431 (a), (d) Electronic equipment \u2212 SC F-25 (1), (2), (3), (4), (5), (6)",
           "applicability": "\u2022 Plus for Safety",
@@ -393,7 +369,7 @@
           "references": []
         },
         {
-          "display_order": 46,
+          "display_order": 43,
           "entry_type": "regulation",
           "raw_reference": "- CS 25, Amendment 17, dated 15 July 2015",
           "applicability": "\u2022 Plus for Safety",
@@ -407,7 +383,7 @@
           ]
         },
         {
-          "display_order": 47,
+          "display_order": 44,
           "entry_type": "regulation",
           "raw_reference": "\u2022 For HIRF: \u2212 25.1317 (All) High-intensity Radiated Fields (HIRF) Protection",
           "applicability": "\u2022 Plus for Safety",
@@ -415,7 +391,7 @@
           "references": []
         },
         {
-          "display_order": 48,
+          "display_order": 45,
           "entry_type": "regulation",
           "raw_reference": "- Plus Airworthiness Requirements CS-ACNS, Certification Specification ACNS Initial Issue, dated 17 December 2013: \u2212 CS-ACNS Book 1 Subpart E Section 1 - Terrain Awareness And Warning System (TAWS). o Surveillance: \u2212 ACNS.E.TAWS.010 -",
           "applicability": "\u2022 Plus for Safety",
@@ -423,7 +399,7 @@
           "references": []
         },
         {
-          "display_order": 49,
+          "display_order": 46,
           "entry_type": "regulation",
           "raw_reference": "9.13 For modification DC11416S-E, elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Stress: \u2212 25.303 (All) Factor of safety \u2212 25.305 (All) Strength and deformation \u2212 25.307 (All) Proof of structure \u2212 25.365 (All) Pressurised compartment loads \u2212 25.561 (All) General \u2212 25.619 (All) Special factors \u2212 25.625 (All) Fitting factors \u2022 Plus for Fatigue: \u2212 25.571 (a), (b) Damage-tolerance and fatigue evaluation of structure \u2022 For Cockpit system (cockpit arrangement and human factors): \u2212 25.777 (a), (b), (c) Cockpit controls \u2212 25.1301 (a1) Function and installations \u2212 25.1302 (a), (b), (c), (d) Installed systems and equipment for use by the \u2212 25.1381 (a), (b), Instrument lights \u2212 25.1555 (a) Control markings \u2022 Plus for Antennas: \u2212 25.1301 (a3) Function and installations \u2212 25.1309 (a1) Equipment, system and installations \u2212 25.1431 (a) Electronic equipment \u2022 Plus for EWIS: \u2212 25.1701 (All) Definition \u2212 25.1703 (a) (b), (d), (e) Function and installation EWIS \u2212 25.1705 (a), (b16) System and Functions EWIS . \u2212 25.1707 (a), (b), (i), (j), (l) System Separation EWIS \u2212 25.1711 (a), (c), (d), (e) Component identification; EWIS \u2212 25.1713 (a), (c) Fire protection; EWIS \u2212 25.1719 (-) Accessibility Provisions; EWIS \u2212 25.1721 (All) Protection of EWIS \u2022 Plus EMI & EMC and HIRF \u2212 25.1353 (a) Electrical equipment and installations \u2212 25.1431 (c) Electronic equipment \u2212 25.1707 (b) System Separation EWIS \u2022 Plus Lightning(LDE) \u2212 25.581 (All) Lightning protection \u2212 25.899 (All) Electrical bonding and protection against static electricity \u2022 Plus for Airplane Flight Manual \u2212 25.1581 (a), (a1), (a2), (b), (d) General \u2212 25.1585 (a1), (a2) Operating procedures \u2022 Plus for Safety: \u2212 SC F-25 (5), (6) \u2022 Plus for Avionics: o Display and controls: o 25.1301 (a1) Function and installations o 25.1309 (c) Equipment, system and installations o 25.1322 (a1), (a3), (b), (c), (d1), (e1) Flight Crew Alerting o SC F-25 (3), (4), (5), (6) o Surveillance o 25.1301 (a1), (a2), (a3) Function and installations o 25.1309 (a1), (c) Equipment, system and installations o 25.1431 (a) Electronic equipment o 25.1705 (a), (b16) System and Functions EWIS o SC F-25 (1), (2), (3), (4), (5), (6) o Communications o SC F-25 (3), (4), (5), (6 9.14 For modification DC10702-E, elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Airplane Flight Manual: \u2212 25.1501 (b) General \u2212 25.1581 (a1), (a2); (b), (d) General \u2212 25.1583 (c) Operating limitations 9.15 For modification DC10877A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For Airplane Flight Manual: \u2212 25.1581 (All) General \u2212 25.1583 (All) Operating limitations \u2212 25.1585 (All) Operating procedures \u2212 25.1587 (All) Performance information \u2022 Plus for ICA: \u2212 25.1529 (-) Instructions for Continued Airworthiness . 9.16 For modification DC11714S-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Flight Management System: \u2212 25.1301 (a2) Function and installations \u2022 Plus for IMA: \u2212 25.1301 (a2) Function and installations 9.17 For modification DC11609S-E elect to comply: - CS 25 Amendment 15, dated 23 July 2014: \u2022 For Cockpit system (cockpit arrangement and human factors): \u2212 25.1322 (e) Flight Crew Alerting \u2022 Plus for Electric Analysis: \u2212 25.1310 (a), (b) Power source capacity and distribution \u2212 25.1351 (a), (d1), (d2) General \u2022 Plus for IMA: \u2212 25.1301 (a2) Function and installations \u2022 Plus for OMS: \u2212 25.1309 (a1) Equipment, systems and installations \u2022 Development Assurance \u2212 25.1309 (b) Equipment, systems and installations - For Power Plant \u2212 FAR 25.901 (a2), (a3) Installation amdt 126 9.18 For modification DC11043A elect to comply: - CS 25 Amendment 16, dated 12 March 2015: \u2022 For Performance: \u2212 25.1581 (a)(b) General \u2212 25.1587 (b) Performance information \u2022 For Airplane Flight Manual: \u2212 25.1501 (b) General",
           "applicability": "\u2022 Plus for Safety",
@@ -431,7 +407,7 @@
           "references": []
         },
         {
-          "display_order": 50,
+          "display_order": 47,
           "entry_type": "other",
           "raw_reference": "ICAO Annex 16, Volume I (Noise), 3rd issue, November 1993.",
           "applicability": null,
@@ -439,7 +415,7 @@
           "references": []
         },
         {
-          "display_order": 51,
+          "display_order": 48,
           "entry_type": "other",
           "raw_reference": "ICAO Annex 16, Volume II (Fuel system ventilation and exhaust gas), 3rd issue, November 1993.",
           "applicability": null,
@@ -447,17 +423,9 @@
           "references": []
         },
         {
-          "display_order": 52,
+          "display_order": 49,
           "entry_type": "other",
           "raw_reference": "For more detail information refer to TCDSN A.186",
-          "applicability": null,
-          "applicability_notes": null,
-          "references": []
-        },
-        {
-          "display_order": 53,
-          "entry_type": "other",
-          "raw_reference": ".",
           "applicability": null,
           "applicability_notes": null,
           "references": []

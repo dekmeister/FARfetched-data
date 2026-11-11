@@ -1,0 +1,445 @@
+{
+  "manufacturer": "Beriev Aircraft Company",
+  "model_designation": "Beriev Be-200ES-E",
+  "common_name": null,
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.114",
+        "revision": "3",
+        "revision_date": "2010-11-17",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7304/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "Type Certificate \u2116 \u0421\u0422 229-\u0411\u0435-200\u0427\u0421/\u041403 (Be-200ES-E), issued 24 May 2010",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "Requirements of Aviation Regulations Part 25 with Amendments 4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-4"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "3.1.1 Airworthiness Standards JAR-25, Change 14, 27 May 1994 Orange Paper 25/96/1, 19 April 1996",
+          "applicability": "3.1 EASA Airworthiness Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "JAR AWO, Change 2, 01 August 1996",
+          "applicability": "3.1 EASA Airworthiness Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/B-02 Performance when Operating from Water (see CRI B-02)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/B-05 Waterborne Operations (see CRI B-05)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/B-09 Static Longitudinal Stability (see CRI B-09)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/B-10 Static Lateral Stability (see CRI B-10)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/B-11 High Angle of Attack Protection (CRI B-11)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-03 Loads at Fire Fighting Mission (CRI C-03)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "EASA Form NR 90C Issue 01",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-04 Dive Speed Definition with Speed Protection System (CRI C-04)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-06 Carriage of Bulk Liquids in Aircraft (CRI C-06)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-09 Water Loads (CRI C-09)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-10 Unsymmetrical Loads on Floats (CRI C-10)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-15 Loading of Towing Devices (CRI C-15)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-16 Loading of Attachment Fittings of anchored Aircraft (CRI C-16)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/C-17 Loads on Water Scooping (CRI C-17)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/D-08 Hydraulic Fluid Overheat (CRI D-08)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/E-05 Falling and Blowing Snow",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-11",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-12 (CRI E-05) Marine Equipment (CRI F-11) Riding Light (CRI F-12)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-13 Fire Fighting Operations (CRI F-13)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-16 Navigation Lights on Water (CRI F-16)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-17 Water in Compartment Lights (CRI F-17)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-18 Scooping and Water Bombing (CRI F-18)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-19 Cargo Compartment",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI F-19)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "SC Be-200ES-E/F-21 Water Takeoff Flap Movement (CRI F-21)",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "3.1.3.2 General Experience: SC Be-200ES-E/B-01 Accelerate-Stop Distances and related Performances (CRI B-01) INT/POL/25/5 SC Be-200ES-E/B-07 Human Factors Aspects of Flight Deck Design (CRI B-07) INT/POL/25/14 SC Be-200ES-E/C-01 Design Manoeuvre Requirements (CRI C-01) SC Be-200ES-E/C-07 Flutter Considerations for Unbalanced Control Surfaces (CRI C-07) SC Be-200ES-E/C-12 Emergency Landing (CRI C-12) EASA Form NR 90C Issue 01 SC Be-200ES-E/C-13 Fatique (Safe Life) Scatter Factors (CRI C-13) SC Be-200ES-E/C-19 Material Strength Properties and Design Values (CRI C-19) SC Be-200ES-E/D-01 Worn Brakes (CRI D-01) INT/POL/25/6 SC Be-200ES-E/D-03 Tires and Wheels Failure (CRI D-03) JAA TGM 25/8 Issue 2 SC Be-200ES-E/D-04 Class E Cargo Compartments Essential Systems Fire Protection (CRI D-04) INT/POL/25/15 SC Be-200ES-E/D-10 Flight Controls Operational Ground Test (CRI D-10) SC Be-200ES-E/D-11 Flight Controls (CRI D-11) SC Be-200ES-E/E-01 Engine D-436TP (CRI E-01) SC Be-200ES-E/E-02 SC Be-200ES-E/E-03 SC Be-200ES-E/E-04 Engine D-436TP Additional Technical Conditions (CRI E-02) APU Aerosila TA 12-60 (CRI E-03) APU Aerosila TA 12-60 Additional Technical Conditions (CRI E-04) SC Be-200ES-E/E-06 Fuel Tank Safety (CRI E-06) INT/POL/25/12 SC Be-200ES-E/E-09 Uncontrolled Thrust Increase (CRI E-09) SC Be-200ES-E/E-11 Engine Operation in Icing Conditions (CRI E-11) SC Be-200ES-E/F-01 Protection from Effects of HIRF (CRI F-01) INT/POL/25/2 SC Be-200ES-E/F-02 Protection from the Direct of Lightning (CRI F-02) INT/POL/25/3 Issue 2 SC Be-200ES-E/F-04 Complex Electronic Hardware (CRI F-04) SC Be-200ES-E/F-05 Systems for Specified Operation Use (CRI F-05) SC Be-200ES-E/F-06 Liquid Crystal Displays (LCD) (CRI F-06) SC Be-200ES-E/F-07 Operation without Normal Electrical Power (CRI F-07) SC Be-200ES-E/F-09 Primary In-Flight Ice Detection Systems (PIIDS) (CRI F-09) SC Be-200ES-E/F-10 Flight Instrument External Probes \u2013 Qualification in Icing Conditions (CRI F-10) SC Be-200ES-E/F-14 Software Aspects of Certification, Application of ED-12B/DO-178B (CRI F-14) EASA Form NR 90C Issue 01",
+          "applicability": "3.1.3.1 Novel or unusual Features or unconventional use",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "ESF Be-200ES-E/F-20 Flight Data Recorder (FDR) (CRI F-20)",
+          "applicability": "3.1.4 Equivalent Safety Findings",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/B-03 Stall and stall warning speeds and Manoeuvre Capability (CRI B-03) NPA 25B-215 ECR Be-200ES-E/B-04 Operations from Wet and Contaminated Runways (CRI B-04) NPA 14/2004",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/B-08 Landing in Abnormal Configurations",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI B-08) NPA 240",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/C-02",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/C-05",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/C-08 Fuel Tank Integrity",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-02) NPA 21-2005 Sustained Engine Imbalance",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 39,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-05) NPA 25E-306 Interaction of Systems and Structures",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 40,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-08) NPA 25C-199 ECR Be-200ES-E/C-11 Flight Loads Measurement",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 41,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-11) NPA 02-2005 ECR Be-200ES-E/C-14 Proof of Structure",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 42,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-14) NPA 25C-290",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 43,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/C-18 Vibration Buffet and Aeroelastic Stability Requirements (CRI C-18) NPA 25C-199 and 25BCD-236 ECR Be-200ES-E/C-20 Gust and Turbulence Loads",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 44,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI C-20) NPA 25C-309",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 45,
+          "entry_type": "regulation",
+          "raw_reference": "ECR Be-200ES-E/D-02 Towbarless Towing",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 46,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI D-02) NPA 25D-275 ECR Be-200ES-E/D-05 Doors",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 47,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI D-05) NPA 25 D-301 Rev.1 ECR Be-200ES-E/E-07 Powerplant Safety Assessment",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 48,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI E-07) NPA 25E-337 ECR Be-200ES-E/E-08 Flammable Fluid Shut-Off",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 49,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI E-08) NPA 25E-339 ECR Be-200ES-E/F-08 Flight in Icing Conditions",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 50,
+          "entry_type": "regulation",
+          "raw_reference": "(CRI F-08) NPA 16-2004",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 51,
+          "entry_type": "regulation",
+          "raw_reference": "4. EASA Environmental Standards",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 52,
+          "entry_type": "regulation",
+          "raw_reference": "Noise ICAO Annex 16, Volume 1, Third Edition, Amdt. 7, Chapter 3 Emissions ICAO, Annex 16, Volume 2, Second Edition, Amdt. 5 EASA Form NR 90C Issue 01",
+          "applicability": "3.2 Elect to Comply Requirements",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

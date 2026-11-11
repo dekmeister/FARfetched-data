@@ -342,6 +342,13 @@ TCDS. A second TCDS joins a model only through a reviewed link row in
 `tools/overrides/aircraft_links.tsv`, never by matching names: the same
 designation can be a different type design under another TC.
 
+`manufacturer` and `model_designation` use one character per hyphen (a soft
+hyphen or U+2010/U+2011 on the PDF is `-`) and NFKC forms (a full-width
+comma is `,`); letters and accents are kept as printed. A company that TCDS
+spell several ways ("Textron Aviation Inc." / "Textron Aviation, Inc.") has
+one spelling, set by a reviewed row in `tools/overrides/manufacturers.tsv`.
+The slugs in the path are transliterated (`Zakłady` → `zaklady`).
+
 A model is a designation the TCDS heads a model section with ("Model
 737-300"), not a series suffix ("737-300 Series") and not a customer-coded
 variant (737-317) that appears only in serial tables. A configuration the TCDS
@@ -396,7 +403,7 @@ shared-basis object: an entry belongs to exactly one TCB.
 
 | Field                         | Type         | Nullable | Purpose |
 |-------------------------------|--------------|----------|---------|
-| `manufacturer`                | string       | no       | Current TC holder as on the TCDS. |
+| `manufacturer`                | string       | no       | Current TC holder as on the TCDS, one spelling per company (`tools/overrides/manufacturers.tsv`). |
 | `model_designation`           | string       | no       | Formal model identifier. |
 | `common_name`                 | string       | yes      | Popular name, if different. |
 | `notes`                       | string       | yes      | Editor notes, displayed to users. |
