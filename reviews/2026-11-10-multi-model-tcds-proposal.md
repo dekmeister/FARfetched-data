@@ -3,7 +3,8 @@
 Status (2026-11-11): **steps 1–2 done, awaiting review. Step 3 built and
 read against the PDF, but blocked on open questions Q1–Q5** (below, and
 [the A2NM reading](2026-11-11-a2nm-reading.md)). Steps 4–10 not started.
-Nothing is committed (both repos) and nothing new is promoted. A16WE and A2NM
+Committed 2026-11-11 (tools 4958b93, parent 650c122; not pushed); nothing
+new is promoted. A16WE and A2NM
 are not in `tools/overrides/faa_tcds_selection.tsv`. A prompt for a session on
 the blockers: [PROMPT_multi_model_blockers.md](PROMPT_multi_model_blockers.md).
 
@@ -123,7 +124,8 @@ the selection list.
   and `issues/roadmap.md` too. Their changes show in compare_stages (EASA
   entries, manufacturer slugs such as `b-lkow-…` → `bolkow-…`); don't take
   them for this work, and don't revert them.
-- `tools/` is its own git repo. Files of this work, for your commits:
+- `tools/` is its own git repo. Files of this work (committed in tools
+  4958b93 and parent 650c122):
   parent `docs/DATA_FORMAT.md`, `docs/SCHEMA_HISTORY.md`,
   `issues/faa-tcds.md`, `reviews/2026-11-10-multi-model-tcds-proposal.md`,
   `reviews/2026-11-11-a2nm-reading.md`, `reviews/PROMPT_multi_model_blockers.md`;
