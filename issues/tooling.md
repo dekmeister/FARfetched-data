@@ -156,3 +156,29 @@ versions. The CAR strata show real errors: 10 of 20 versions (CAR-7). The other
 **To close:** read the non-OCR strata by eye or add an omission check, use a
 sample large enough to give per-issuer rates, and re-measure after each major
 extraction change.
+
+### PROC-18. Known damage patterns are baselined, not fixed
+
+`scripts/scan_data.py` checks every text, title and basis line for damage seen
+before (README, Common commands), and `scripts/scan_data_baseline.tsv` holds the
+3,166 hits in `data/` at 2099520 so that a run reports only new ones. Classes in
+the baseline with no item of their own yet:
+
+- EASA formulas with stacked-bracket glyphs (`⎛ ⎜ ⎝`) or row-order scrambles
+  in 43 CS versions (`formula-glyphs`, `scrambled-equation`; see TEXT-11), and
+  Word math italics (`𝑋𝑋 = 30 − 𝐴𝐴`) in 5 MIL-HDBK-516D versions.
+- Private-use Symbol-font glyphs in 7 STANAG and 3 CS versions (`private-use`).
+- Hyphenated line ends kept as "compart- ment" in EASA titles and texts, and
+  `ex~ ceptional` in CAB, besides the CS-29 letter-spacing of EASA-11
+  (`split-word`).
+- CAB texts that open mid-sentence, 37 versions (`lowercase-start`), likely
+  wrapped titles as in NATO-7.
+- EASA TCDS section headings read as basis lines, "3 Special Conditions: None"
+  on 11 models (`basis-heading`; ETCDS-16 covers the A330 footers and list
+  headers).
+- `truncated-end` in 32 MIL-HDBK-516B versions whose reference lists end in a
+  comma: unchecked against the PDF.
+
+**To close:** read each class against its source; fix it (override rows or an
+extractor rule) or record it as faithful, and rewrite the baseline in the same
+commit. Give a class its own item when work on it starts.

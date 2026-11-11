@@ -36,7 +36,12 @@ Left behind after the next group's centre heading was stripped:
 - CAA 188@CAR3-0 has OCR garbage from Fig. 3-2 in front of its caption
   (figure captions are kept on purpose).
 - CAB 318@R0 "shall]": a stray bracket, probably OCR (the 1956 reissue prints
-  no amendment brackets).
+  no amendment brackets). It is a pattern: OCR reads a final `l` as `]`
+  ("shal]", "contro]", "critica]") in 37 CAB and 6 CAA versions
+  (`scripts/scan_data.py --check unbalanced-brackets --all`, 2026-11-12).
+- Figure lettering spliced into a sentence (GitHub #20): CAB 173@CAR3R-0 has
+  the V-n diagram's labels and caption inside "actual condi… tions". The
+  `caps-run`, `gibberish` and `figure-caption` scan checks list the rest.
 
 **To close:** `replace_text` overrides or an extractor rule, checked against
 the scans.
@@ -56,8 +61,8 @@ flat form.
 
 CAR text is OCR with no geometry, so a subscript can't be told from the
 letters around it: `Vu` and `Vd` for V_d, `Vy,` for V_p, `Ve min` for
-V_c min, `V_.` (CAB §3.184 and many more). Only §3.159 (CAA and CAB) is
-fixed so far (GitHub #4).
+V_c min, `V_.` (CAB §3.184 and many more), `Vs]` for V_s1 (CAA §3.111@CAR3-0,
+GitHub #23). Only §3.159 (CAA and CAB) is fixed so far (GitHub #4).
 
 **To close:** `replace_text` rows writing `V_{d}` etc., checked against the
 scans (`input/Regs/CAR/3/CAR3R-*.pdf`, the CAA retype `CAR3-*_full.pdf`).
@@ -95,3 +100,27 @@ Word-level OCR errors are also common in the CAR3R scans (8 of 10 versions).
 
 **To close:** check how many versions share each cause, fix the splitter, and
 use `replace_text` rows for the rest.
+
+### CAR-8. cp1252 bytes in the CAA retype
+
+48 CAA versions (42 at CAR3-0) hold C1 control characters where the source has
+punctuation: `\x97` for an em dash (57 places, "Subpart B\x97Flight
+Requirements"), `\x92` for an apostrophe ("pilot\x92s", 17), `\x93`/`\x94` for
+quotes. The retype was decoded as Latin-1 instead of cp1252. Found by the
+`encoding` scan check (2026-11-12).
+
+**To close:** decode the CAA retype as cp1252 in the extractor, re-emit, and
+rewrite the scan baseline.
+
+### CAR-9. Tables of contents read into section texts
+
+Reported from the site for CAA §3.652 (GitHub #21, "picking up the index").
+The `toc-run` scan check finds a run of five or more rising section numbers
+with titles in 18 CAA and 5 CAB versions (2026-11-12). The worst carry whole
+subpart contents: CAA 270@CAR3-0 (262 entries, 3.271 to 3.780), 17@CAR3-3,
+19@CAR3-12, 669@CAR3-7, 702@CAR3-14; CAB 301@CAR3R-0 (91 entries), 583@CAR3R-0.
+The section splitter takes the contents listing that opens each subpart in the
+scans as the end of the preceding section.
+
+**To close:** make the splitter drop subpart contents listings, re-emit, check
+the affected sections against the scans, and answer GitHub #21.

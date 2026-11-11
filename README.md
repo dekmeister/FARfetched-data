@@ -72,7 +72,8 @@ FARfetched-data/
 │   └── aircraft/{manufacturer-slug}/{model-slug}.json
 ├── build.py             JSON → SQLite compiler and checker (the CLI)
 ├── certbuild/           the build itself, one module per concern
-├── scripts/             compare_builds.py: old vs new build code on data/
+├── scripts/             compare_builds.py (old vs new build code on data/),
+│                        scan_data.py (known damage patterns), check_release.py
 ├── tests/               build tests (pytest)
 ├── tools/               ingestion sub-repo (own git repo; gitignored here)
 └── input/               local source copies, owned by tools (gitignored)
@@ -87,7 +88,20 @@ uv run python build.py                    # build cert_basis.sqlite + report
 uv run pytest                             # tests/ and tools/s99_tests/
 uv run pytest -m "not slow"               # the same without the real data/ (seconds)
 uv run ruff check . && uv run mypy .      # lint and types
+uv run python -m scripts.scan_data        # damage seen before, new since the baseline
 ```
+
+`scripts/scan_data.py` scans every provision text and title and every aircraft
+basis line for damage that readers or reviews have reported before: formulas
+read in row order, symbols lost with their images, figure captions and chart
+labels in the text, OCR symbols, tables of contents, page footers, headings
+run into a section, words broken in two, amendatory instructions. Each check
+names its GitHub issue or ISSUES.md item (`--list`). Known hits are kept in
+`scripts/scan_data_baseline.tsv`, so a run prints only new ones and exits 1
+if there are any; `--all` prints everything. A hit is a lead to read against
+the source, not a verdict. When a fix removes hits, or a reviewed hit is
+faithful to the source, rewrite the baseline with `--write-baseline` and
+commit it with the fix.
 
 ## Adding data
 
@@ -101,8 +115,10 @@ Data comes in only through the tools pipeline. See
    `tools/out/staged/`. Aircraft: the TCDS parsers write per-TCDS fragments
    and `tools.s02_emit.aircraft.assemble` stages them, joining an FAA and an
    EASA TCDS of the same type design only through a reviewed link row.
-3. Review the diff with `python -m tools.s03_promote.promote --dry-run`, then
-   promote.
+3. Review the diff with `python -m tools.s03_promote.promote --dry-run`, and
+   scan the staged tree with
+   `uv run python -m scripts.scan_data --root tools/out/staged`: a new hit is
+   a regression to read against the source. Then promote.
 4. Run `uv run python build.py`. It must finish with zero unresolved
    references.
 

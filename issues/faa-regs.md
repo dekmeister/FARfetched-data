@@ -224,3 +224,20 @@ later (2026-11-08, pattern match). Each resolves to nothing or only partly.
 
 **To close:** decide how to model it (later revisions of the same document, or
 a separate one, since the section numbers all change), then ingest it.
+
+### FAA-30. Symbols that DRS has only as images are missing from the text
+
+Where DRS prints a symbol or formula as an image, the text keeps the words
+around a gap: "must not be less than ; and" (23.51), "a power-off glide at
+1.4 ;" (23.1001), "the highest value of and ;" (23.49), and definition lists
+whose every symbol is gone, "; = density of air (slugs/cu.ft.); W/S = wing
+loading" (25.341). The `dropped-symbol` scan check finds 383 places in 69 FAA
+provisions (2026-11-12): mostly V-speeds in Parts 23 and 25 flight sections
+(23.145, 23.161, 23.67, 25.145, 25.175) and the gust and seaplane load formulas
+(23.341, 23.443, 25.341, 25.351, 25.531 to 25.535). GitHub #24 (23.341, "the
+equation … bunched in paragraph (c)") is one of them. FAA-25 is the same loss
+for tables; TEXT-11 is formulas that are present but flattened.
+
+**To close:** `replace_text` rows writing the symbols (`1.4 V_{S1}`) and
+formula lines, checked against the Federal Register or eCFR text, then answer
+GitHub #24.
