@@ -84,6 +84,19 @@ what was implemented, what changed from the proposal, what was rejected
   revision. Deciding that two editions' paragraphs are one requirement is a
   reviewed tools decision (`tools/overrides/dod_hdbk.tsv`); merges, splits
   and links between provisions remain deferred (ISSUES.md `ROADMAP-4`).
+- **A shared basis is copied per model (no version change).** When one TCDS
+  block applies to several models (the 737-600/-700/-800 basis, a "Data
+  Pertinent to all Models" section), each model's TCB holds its own copy of
+  the lines that apply to it, with the verbatim `raw_reference`, and
+  `display_order` stays 1..N per TCB. TCDS scope lines individually ("For
+  737-400 and 737-500 only", "Additional cert basis items for 737-800BCF"),
+  so a shared-basis object would need per-line model masks and per-model
+  overrides anyway, at the cost of a contract change and an app release, and
+  one record per section can't hold different amendment levels per model
+  (737 MAX Table A-1). Copying needs no change to the JSON or SQLite
+  contract. The model is the TCDS's section-heading designation; customer
+  codes and configurations are not models. (reviews/2026-11-10
+  multi-model TCDS proposal, Decisions 1 and 2.)
 - **Similarity is computed, not authored (v5).** It suggests related
   provisions. Hand-confirmed relations (`provision_relations`) remain
   deferred: see ISSUES.md `ROADMAP-`.

@@ -342,6 +342,18 @@ TCDS. A second TCDS joins a model only through a reviewed link row in
 `tools/overrides/aircraft_links.tsv`, never by matching names: the same
 designation can be a different type design under another TC.
 
+A model is a designation the TCDS heads a model section with ("Model
+737-300"), not a series suffix ("737-300 Series") and not a customer-coded
+variant (737-317) that appears only in serial tables. A configuration the TCDS
+gives "additional certification basis items" for (737-800BCF) is
+`applicability` on its model, not a model.
+
+When one TCDS block applies to several models, each model's `tcb` gets its own
+copy of every line that applies to it, with the same verbatim
+`raw_reference`. A line scoped to some of the block's models is copied to
+those models only, and the scope stays verbatim in `applicability`. There is no
+shared-basis object: an entry belongs to exactly one TCB.
+
 ```json
 {
   "manufacturer": "Cessna Aircraft Company",
@@ -391,13 +403,13 @@ designation can be a different type design under another TC.
 | `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
 | `tcb[].categories`            | enum array   | no       | Categories as stated on this TCDS. Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
 | `tcb[].notes`                 | string       | yes      | TCB-level notes. |
-| `tcb[].certification_basis`   | array        | no       | One entry per TCDS line, in TCDS order. |
+| `tcb[].certification_basis`   | array        | no       | One entry per TCDS line that applies to this model, in TCDS order. A line shared by several models is copied to each. |
 
 **Per-entry fields** — one entry is one line of the TCDS, verbatim
 
 | Field                 | Type    | Nullable | Purpose |
 |-----------------------|---------|----------|---------|
-| `display_order`       | integer | no       | Position on the TCDS. Unique per TCB. |
+| `display_order`       | integer | no       | Position in this TCB's basis, 1..N in TCDS order. Unique per TCB. A shared line may have a different number on each model. |
 | `entry_type`          | enum    | no       | `regulation`, `special_condition`, `elos`, `exemption`, `other`. |
 | `raw_reference`       | string  | no       | Verbatim TCDS text. Never rewritten. |
 | `applicability`       | string  | yes      | Verbatim serial/config scope, e.g. `"525-0600 thru 525-0684"`. |

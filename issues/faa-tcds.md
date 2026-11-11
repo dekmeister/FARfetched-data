@@ -27,6 +27,25 @@ or through TCDS-2.
 
 ## Parser gaps
 
+### TCDS-14. Model heading numerals that skip a value
+
+After the 2026-11-11 heading fixes, 22 aircraft TCDS still have numerals that
+skip, run backwards or start after I (engine TCDS left out). The sequence
+guard refuses the model before each gap, so a missed heading can't merge into
+it, but each case needs reading: either a heading shape the parser still
+misses, or a TCDS that really numbers that way.
+
+- Start after I: 1A14 (III), A-655, A-675, A-787, H5NE, TC_1 (II), H9SW (IV).
+- Skip: 1H15 I→III, 2A3 XIV→XVI, 3A23 XXXVIII→XXVIII, 4A21 IV→II, 4A26
+  II→IV, 7A14 XII→XIV, A14SO XXII→XXV, A17WE I→IV, A1NM I→III→V→VII, A1PC
+  III→VI→V, A21EA-1 V→VII, A2PC IV→I, A43NM II→IV, A16EU II→I, T00003NY II→VI.
+
+None is in `faa_tcds_selection.tsv`. Scan: run `find_model_headings` /
+`numeral_gaps` over `pdftotext -layout` text of `input/TCDS/FAA/`.
+
+**To close:** read each against its PDF; fix the parser for real heading
+shapes, and leave a true numbering to the guard's warning.
+
 ### TCDS-1. Cirrus-style "additions" layered on a base line
 
 A00009CH SR20/22/22T and others. The scoped additions ("For aircraft
@@ -62,6 +81,11 @@ variants, 1G1/1G10, 1H11. Top skip reasons: no category on heading 227, no
 certification basis 153 (+45), no model headings 65, zero entries 11.
 
 **To close:** work through the skip reasons before the parser runs wider.
+
+Narrowed 2026-11-11: headings with no separator, a deep indent, a dated
+model list or a page-top repeat are now read, and a cover "737-300 Series"
+matches heading "737-300" (A16WE: 16 unmatched to 0). The counts above
+predate that and need a re-run.
 
 ### TCDS-6. 3A12 "Equivalent Safety Items" header-row serials
 
