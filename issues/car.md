@@ -73,6 +73,12 @@ it can't find, so some may be parser misses rather than absent text.
 **To close:** record why each is missing, then recover the text from the scans
 with a parser fix or `replace_text` rows.
 
+8 of them were whole-section deletions (CSV title "[Deleted.]"), now
+`deleted: true` versions through `tools/overrides/car.tsv` (2026-11-11). One
+"[Deleted.]" row is not a deletion: CAR3R-7 deleted only §3.681(b)
+(`CAR3R-7.raw.txt`:863-864), so §3.681 at CAR3R-7 needs its amended text, and
+`input/regs.csv` titles it wrongly. The emitter warns about it on every run.
+
 ### CAR-7. Section boundaries are wrong in sampled CAR texts
 
 Found by the 2026-11-08 accuracy pilot (PROC-17), which read 20 CAR versions
