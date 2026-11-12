@@ -1,11 +1,10 @@
 # Multi-model TCDS: design proposal (towards Boeing 737, A16WE Rev 82)
 
-Status (2026-11-12): **steps 1–2 done; step 3 done, awaiting review.** The
-blockers Q1–Q7 are decided and built
-(the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.md`)), A2NM's
-four goldens are read against [the A2NM reading](2026-11-11-a2nm-reading.md).
-Nothing of 2026-11-12 is committed or promoted. Steps 4–10 not started. A16WE
-and A2NM are not in `tools/overrides/faa_tcds_selection.tsv`.
+Status (2026-11-12): **steps 1–4 done and committed, not pushed; step 4
+awaiting your review.** Step 3: tools becfc77, parent acadefc. Step 4 (entry
+corrections, TCDS-2; A2NM in `faa_tcds_selection.tsv`): tools cd5b335 and the
+parent commit that carries this text. Nothing is promoted. Steps 5–10 not
+started; [Next steps](#next-steps) says what comes next.
 
 ## Handover
 
@@ -20,7 +19,12 @@ and A2NM are not in `tools/overrides/faa_tcds_selection.tsv`.
   `applicability` on -800/-700.
 - **D3: yes.** The -200C takes the "737-100 & 737-200 Series" basis through a
   reviewed `tcds_model_groups.tsv` row (written at step 8, with the evidence).
-- D4–D7: ask at the steps they affect (D7 at step 4, D4/D5 at step 7, D6 at 10).
+- D4–D6: ask at the steps they affect (D4/D5 at step 7, D6 at 10).
+- **D7 (2026-11-12): build the corrections file now**, at step 4.
+- **Step 3 gates (2026-11-12):** you delegated the review of the 26
+  `tcds_categories.tsv` rows and the A2NM goldens to the assistant's reading
+  ("if you are happy I am"), and the A2NM selection to its judgement. So
+  they rest on one reading by the assistant, not on yours.
 
 ### Step 1, done: the decision recorded
 
@@ -51,7 +55,7 @@ In `tools/s02_emit/faa/tcds/`:
   not read against the PDF). 22 TCDS still have gaps: TCDS-14
   (`issues/faa-tcds.md`, new); TCDS-5 marked narrowed.
 
-### Step 3, built, blocked: shared blocks with per-line model sets
+### Step 3, done: shared blocks with per-line model sets
 
 In `tools/s02_emit/faa/tcds/`:
 
@@ -88,7 +92,7 @@ the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.m
 
 | Change | Where |
 |---|---|
-| Category from a reviewed row, never inferred (FAA and EASA; EASA's Part 25 inference removed) | `s00_common/tcds_categories.py`, `overrides/tcds_categories.tsv` (26 rows, drafted from text, **to review**) |
+| Category from a reviewed row, never inferred (FAA and EASA; EASA's Part 25 inference removed) | `s00_common/tcds_categories.py`, `overrides/tcds_categories.tsv` (26 rows; accepted by delegation 2026-11-12, quotes checked in the text) |
 | Headline guard: two whole-Part levels of one airworthiness Part, same `applicability`, refuse the model (FAA and EASA) | `s00_common/tcds_guard.py`, both `parse.py` |
 | Slash lists in line scope ("For 737-100/-200/-200C/…:"); an unreadable list refuses the model instead of reaching all | `sections.complete_designation`, `scope_models`, `attach._keeps`, `ModelBasis.refused` |
 | Two-level cells split only on the "two amendment levels are shown" footnote; the note goes to `applicability_notes` | `amdt_table.py`, `layout.py`, `tokens.Line.notes`, `payload.py` |
@@ -104,32 +108,70 @@ reports only leftover `tools/out/compare_stages_*` copies.
 
 **Open from step 3:**
 
-- Your review of the 26 category rows and the four A2NM goldens.
-- Whether A2NM joins `faa_tcds_selection.tsv` (then promote with the EASA
-  removals above).
-- 25.813 "75, 88\*\*\*" needs a step 4 `tcds_entries.tsv` row: one entry,
-  `{813, to 25-88}` plus `{813, paragraph "(c)", to 25-75}`, evidence footnote
-  \*\*\*.
+- Done 2026-11-12: the category rows and A2NM goldens are accepted by
+  delegation (above); A2NM is in `faa_tcds_selection.tsv`; the 25.813 row is
+  written (step 4).
+- Promote A2NM together with the EASA removals above (your step).
 - The headline guard reads resolved references only. A headline left
-  `partial` (A2NM 757-200 line 1, "Federal Aviation Regulations (FAR) Part 25
-  with Amendments …") isn't counted. The interpreter would need to flag a
-  whole-Part line even when partial.
+  `partial` (A2NM 757-200 line 1) isn't counted. The interpreter would need
+  to flag a whole-Part line even when partial. That line is now a TCDS-13
+  case (`issues/faa-tcds.md`): it looks expressible by a `tcds_entries.tsv`
+  row after two judgements, and isn't read against the page yet.
 - Step 10: line scope isn't applied inside a multi-model *model* section, only
   in "Data Pertinent" blocks. So the A16WE MAX models each take all three
   headline sentences ("The certification basis for the 737-8 and 737-9
   airplanes is …"), and the guard refuses all five.
 
+### Step 4, done, awaiting review: entry corrections (TCDS-2)
+
+Committed in tools cd5b335.
+
+
+| Change | Where |
+|---|---|
+| Loader, apply step and stale check. Columns `issuer tcds model line_sha action value evidence`; `model` is a heading designation or `*`; `line_sha` is `tcds_citations.line_sha`. Actions `drop` (furniture, or a line on a model it doesn't apply to: this is "scope models"), `type`, `references` (JSON array), `notes` (`applicability_notes`, added: a footnote caveat the references can't carry). Never `raw_reference` | `s00_common/tcds_entries.py`, `overrides/tcds_entries.tsv` |
+| Applied in `build_aircraft_json` after the entries are built, before citations and the headline guard; `display_order` renumbered; report `reason` `override`. Stale rows (no match on a model that was built), a model not on the TCDS, `drop` beside another action: fatal. A refused or unrequested model doesn't make its rows stale | `s02_emit/faa/tcds/payload.py`, `parse.py`; `s00_common/tcds.py` (`REASON_NOTES`) |
+| First rows: A2NM 757-300 25.813 "75, 88\*\*\*": `{813 to 25-88}` plus `{813, paragraph (c), to 25-75}`, and the footnote in `applicability_notes` (the (c)(3) placarding at 25-88 can't be a ref: DATA_FORMAT rule 3 drops a paragraph ref on the whole-provision version). Footnote read on rendered p. 9. 25.813 is already in the headline's exclude, so the row supplies it | `overrides/tcds_entries.tsv`; golden `A2NM_Rev32_757-300.expected.json` (only that entry changed) |
+| A2NM 757-300 25.853(d)(3) "72": `references: []` plus a note. At 25-72 §25.853 has no (d)(3), and the TCDS uses the numbering that starts at 25-83. The A2NM reading's row 58 had accepted it; corrected there | `overrides/tcds_entries.tsv`, same golden |
+| A2NM selected | `overrides/faa_tcds_selection.tsv` |
+| Tests | `s99_tests/common/test_tcds_entries.py` (15: each action, `raw_reference` unchanged, `*`, other model, stale, unknown model, bad rows, enum = schema) |
+| Docs, issues | `s00_docs/FAA_TCDS.md` (Rules: entry corrections), `PIPELINE.md` (overrides table); parent `issues/faa-tcds.md`: TCDS-2 closed, TCDS-13 gains the A2NM headline case |
+
+Evidence: compare_stages (run before the 25.853 row) changed only the
+757-300 25.813 entry and its report lines. `build.py` on a scratch copy of
+`data/` plus the four A2NM models (parsed against `data/documents`) passes
+after the 25.853 row. Read in the built DB: 25.813 at 25-88, 25.813(c) at the
+25-72 version, 25.853 at 25-83. The 757-200 family resolves 23 rows, with no
+Part 25 headline (TCDS-13). Full `pytest`, `ruff check`, and mypy
+(apart from the `tools/out` copies) pass. The 26 category rows: every quoted
+phrase is in its TCDS's `pdftotext` text (a mechanical check, not a reading
+of rendered pages).
+
+EASA: the module is issuer-keyed, but only the FAA parser calls it. Hook it
+into `s02_emit/easa/tcds/parse.py:build_payload` when a reviewed EASA error
+first needs a row (step 6 at the latest).
+
 ### How to check this work
 
 - Parse into scratch, never `tools/out/`:
   `uv run python -m tools.s02_emit.faa.tcds.parse input/TCDS/FAA/A2NM_Rev32.pdf --out-dir <scratch>/out --report-dir <scratch>/rep`
-- See A2NM's entries despite Q1: call `parse.parse_tcds_text` after replacing
-  `sections._designations_from_heading` with a wrapper that gives
-  `["transport"]` when the categories are empty (scratch script only).
+- **Build check before calling a TCDS ready.** The goldens pin no
+  provisions (`golden_known`, `provisions=None`), so a paragraph or provision
+  the dataset lacks passes the golden test. Copy `data/` to scratch, write
+  the models from `parse_tcds_text(text, stem, KnownDocuments.load(<scratch>/data/documents))`
+  into `<scratch>/data/aircraft/`, then `uv run python build.py --data-dir
+  <scratch>/data --out <scratch>/cb.sqlite`. Read the expansions in
+  `cert_basis_resolved` (join `cert_basis_entries`, `tcb`,
+  `aircraft_models`, `provision_versions`, `document_revisions`). This
+  caught A2NM 25.853(d)(3).
+- `line_sha` for a `tcds_entries.tsv` row:
+  `tools.s00_common.tcds_citations.line_sha(raw_reference)`.
 - Corpus heading scan: `pdftotext -layout` every `input/TCDS/FAA/*.pdf` into
   scratch, then run `segment_sections` / `numeral_gaps` /
   `find_scoped_blocks` per file.
-- `uv run python -m tools.s99_tests.compare_stages` takes 2–5 minutes.
+- `uv run python -m tools.s99_tests.compare_stages` takes 2–5 minutes. It
+  reads the working tree's overrides on both sides, so a new override row
+  shows as a diff only when the old code ignores it.
 - Render pages to read: `pdftoppm -r 100 -png -f N -l N <pdf> <scratch>/p`.
 
 ### Gotchas
@@ -140,8 +182,8 @@ reports only leftover `tools/out/compare_stages_*` copies.
   and `issues/roadmap.md` too. Their changes show in compare_stages (EASA
   entries, manufacturer slugs such as `b-lkow-…` → `bolkow-…`); don't take
   them for this work, and don't revert them.
-- `tools/` is its own git repo. Step 3's finish (2026-11-12) is in tools
-  becfc77 and parent acadefc. Files of the earlier work (committed in tools
+- `tools/` is its own git repo. Step 4 is in tools cd5b335 (with its
+  parent commit); step 3's finish in tools becfc77 and parent acadefc. Files of the earlier work (committed in tools
   4958b93 and parent 650c122):
   parent `docs/DATA_FORMAT.md`, `docs/SCHEMA_HISTORY.md`,
   `issues/faa-tcds.md`, `reviews/2026-11-10-multi-model-tcds-proposal.md`,
@@ -156,6 +198,37 @@ reports only leftover `tools/out/compare_stages_*` copies.
   fixed by another agent. `mypy .` reports errors inside leftover
   `tools/out/compare_stages_*` copies; they are not source.
 - Relative designations in line scope are read since 2026-11-12 (Q7).
+- `reviews/2026-11-08-issue-triage.md` (another agent's, uncommitted on
+  2026-11-12) still lists TCDS-2 as open. It was closed at step 4; update it
+  when that file is next touched.
+
+### Next steps
+
+In order. Each is your review before the next.
+
+1. **Your review of step 4**: `tools/overrides/tcds_entries.tsv` (two A2NM
+   rows) and the corrected row 58 in
+   [the A2NM reading](2026-11-11-a2nm-reading.md).
+2. **Promote** (your step): A2NM's four models, together with step 3's EASA
+   changes (7 models refused by the headline guard, MD-90-30 newly staged)
+   and A25SO PA-46R-350T's restored base line. Run
+   `uv run python -m tools.s03_promote.promote --dry-run` first.
+3. **Optional, A2NM 757-200 family headline** (TCDS-13): a
+   `tcds_entries.tsv` row could give it a Part 25 headline and its
+   exceptions, after two judgements (does "25.901(d)," take the 25-46 that
+   ends its list; is whole-row plus paragraph-row the right reading of the
+   25.365(e) compartment split). Read p. 7 rendered first.
+4. **Step 5: A16NM** (Astra/G100/G150, 14 pp, 4 models). New shapes: "Data
+   Pertinent to all Models except G150" (an "except" scope) and a G150 block
+   that reads "same as the Model G100" (a block that refers to another
+   block). Golden for all four models; a reading file in `reviews/` like
+   A2NM's; the scratch build check above; then the selection list. Its
+   single-model AMDT table also feeds step 7.
+5. Steps 6–10 as in §7: the EASA port (IM.A.503 first; also hook
+   `tcds_entries` into `s02_emit/easa/tcds/parse.py:build_payload`),
+   `pdf_grid.py` (ask D4/D5), then the 737 Classic, NG and MAX gates (ask D6
+   at step 10, and fix line scope inside multi-model model sections, see
+   "Open from step 3").
 
 ### Changed from the plan below
 

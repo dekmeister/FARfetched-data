@@ -2,7 +2,10 @@
 
 Step 3 of [the multi-model proposal](2026-11-10-multi-model-tcds-proposal.md).
 Status: **read once by the assistant, 2026-11-11; goldens read against it
-2026-11-12; awaiting your check.** A2NM is not in `faa_tcds_selection.tsv`.
+2026-11-12; your check delegated to that reading (2026-11-12).** A2NM is in
+`faa_tcds_selection.tsv` since step 4 (tools cd5b335), not promoted. Row 58
+was corrected at step 4 (below). The file stays open until you've reviewed
+step 4 and A2NM is promoted.
 Q1–Q5 are decided (the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.md`)):
 a `tcds_categories.tsv` row gives the category, and the four models stage in
 the golden test (`tools/s99_tests/fixtures/tcds/A2NM_Rev32_*.expected.json`:
@@ -16,6 +19,17 @@ the golden test (`tools/s99_tests/fixtures/tcds/A2NM_Rev32_*.expected.json`:
   \*\*\* is a paragraph split (25-88 except 25.813(c) at 25-75), which a
   reviewed row must state (step 4). 25.783 "23, 85\*\*" stays two entries,
   with `applicability_notes` instead of the level as `applicability`.
+- Step 4 (2026-11-12, p. 9 rendered): the 25.813 row now has its two
+  references from a `tcds_entries.tsv` row (`{813 to 25-88}`,
+  `{813 (c) to 25-75}`, footnote in `applicability_notes`).
+- **Row 58 was wrong.** "25.853(d)(3) … 72" as a paragraph ref fails the
+  build: at 25-72 §25.853 has no (d)(3) (panels, partitions and galleys
+  are in (c); the (d)(1)–(4) numbering starts at 25-83). The TCDS uses the
+  later numbering with the earlier level, which no reference can state. A
+  `tcds_entries.tsv` row sets `references: []` with a note. 25.853 itself
+  stays at 25-85 (the 25-83 version) through the headline. Found by
+  building `data/` plus the four models in scratch; the goldens pin no
+  provisions, so the golden test couldn't catch it.
 
 ## Method
 

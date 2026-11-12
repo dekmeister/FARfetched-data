@@ -23,7 +23,7 @@ On the 2026-11-08 `data/`, these FAA lines still cite Part 36 and have none
 
 **To close:** leave the first group at `references: []` unless a rule for
 "as amended on the date of certification" is agreed. Fix the rest in the parser
-or through TCDS-2.
+or with a reviewed `tools/overrides/tcds_entries.tsv` row.
 
 ## Parser gaps
 
@@ -167,16 +167,6 @@ representation, `SCHEMA_VERSION`, the app).
 
 ## Process
 
-### TCDS-2. There is no correction path for aircraft entries
-
-Documents get `replace_text` overrides; aircraft entries have none. The two
-aircraft override files (`aircraft_links.tsv`, `aircraft_holds.tsv`) link or
-hold models but don't correct an entry, so a wrong parse can only be fixed in
-the parser.
-
-**To close:** decide whether aircraft need a correction override TSV
-(probably no schema change) before running the parser wider.
-
 ### TCDS-10. Path collisions when the parser runs on the whole corpus
 
 On a whole-corpus run, `aircraft.assemble` staged 1,446 of 1,470 fragments: 24
@@ -209,6 +199,19 @@ Causes seen in a sample:
   by …").
 - Basis lines split where they wrapped ("February 1965, Amendment 23-1 thru
   23-31").
+- Inline exceptions that a reference can't state without a judgement. A2NM
+  757-200/200CB/200PF headline (p. 7): "Part 25 with Amendments 25-1 through
+  25-45 … except Section 25.109 Amendment 25-42, …, 25.365(e)(1) and (2)
+  Amendment 25-54 (aft cargo compartment); 25.365(e)(1) and (2) Amendment 25-0
+  (forward cargo compartment) …". The parser leaves it `partial`, so those
+  three models have no Part 25 headline reference (and the headline guard
+  can't see it). It looks expressible by a `tcds_entries.tsv` row: the
+  headline `to 25-45`, scoped refs for the -46/-49 sections, and
+  25.365(e)(1)(2) at 25-54 as a paragraph ref with the compartment split in
+  `applicability_notes` (forward = 25-0, the version 25-45 already gives).
+  Two judgements first: whether "25.901(d)," takes the 25-46 that ends its
+  list, and whether a whole-row/paragraph-row pair is the right reading of a
+  compartment split. Not read against the rendered page yet.
 
 **To close:** count each line by cause, fix the causes in order of models
 gained, and report what is left (BUILD-12).
