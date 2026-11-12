@@ -140,6 +140,18 @@ TCDS then become stale (fatal) and are deleted in the same change.
 
 ## Decisions needed
 
+### ETCDS-18. "As defined in CRI A-01, latest Issue, and below" is a regulation entry
+
+12 lines in 7 EASA TCDS (whole-corpus run, 2026-11-13, by regex), e.g.
+EASA.IM.A.042 Issue 9 A.II.4 "Certification Basis: As defined in CRI A-01,
+latest Issue, and below". They are typed `regulation` with no references, so
+they count as unresolved, though they point at a certification review item
+that isn't published and add nothing the lines below don't state.
+
+**To decide:** type them `other` corpus-wide (a parser rule in
+`items.entry_type_for`, not one row per TCDS), or keep them as unresolved
+regulation lines.
+
 ### ETCDS-16. A330 lines cite all of CS-25
 
 Found on 2026-11-08 by reading a sample of aircraft references against the TCDS

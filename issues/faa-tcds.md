@@ -87,6 +87,10 @@ model list or a page-top repeat are now read, and a cover "737-300 Series"
 matches heading "737-300" (A16WE: 16 unmatched to 0). The counts above
 predate that.
 
+A cover spelling that differs from the heading by a space still warns: A00011LA
+Rev 13 cover "GA8-TC320", heading "II. GA8-TC 320" ("cover models with no model
+heading parsed: GA8-TC320"). Both models stage; only the warning is wrong.
+
 Re-count of the category skips, 2026-11-12 (939 Current aircraft TCDS, by
 regex, not read): 600 models in 236 TCDS had no category on the heading. 94
 (about 45 TCDS) print one elsewhere that the parser misses, e.g. A28NM "I.
@@ -164,6 +168,21 @@ another level rather than excluding it. None is resolved in `data/` today.
 A16WE), read these lines and decide on a contract change (exclude with a
 paragraph: schema, `certbuild/resolve.py`, a `cert_basis_resolved`
 representation, `SCHEMA_VERSION`, the app).
+
+### TCDS-19. "FAR 36.1(a)(2) … amendments 1 through N" is not read
+
+342 regulation lines in 66 FAA TCDS (whole-corpus run, 2026-11-13, counted by
+regex, not read) cite Part 36 by its applicability paragraph: A00011LA Rev 13
+p. 5 "FAR 36.1(a)(2), dated December 1, 1969 with amendments 1 through 24
+…". `interpret` gives `no_pattern`, so the noise basis has no reference.
+§36.1(a)(2) is the paragraph that makes Part 36 apply to propeller-driven
+small airplanes, so the line states Part 36 through the amendment named. For
+GA8 and GA8-TC 320 this is a reviewed `tcds_entries.tsv` row
+(`{36 to 36-24}`, `{36 to 36-28}`).
+
+**To close:** read "36.1(a)(…)" followed by an amendment range as Part 36 as a
+whole in `tcds_refs.interpret`, run the corpus diff, and drop the two A00011LA
+rows once the parser gives the same references.
 
 ## Process
 
