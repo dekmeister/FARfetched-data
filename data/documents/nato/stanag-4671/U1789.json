@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1789",
   "number": "U1789",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "Low speed warning",
   "subject_group": "INDICATORS AND WARNINGS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "Low speed warning",
       "text": "(a) There must be a clear and distinctive low speed warning in the UCS, with the flaps and landing gear in any normal position in straight and turning flight, in accordance with the following\n  (1) It should not be possible to command from the UCS speed values lower than the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system. .\n  (2) Adequate low speed cues and warning should be provided in the UCS when approaching the stalling speed or Vmin DEMO if the stalling is not to be demonstrated.\n  (3) During the tests required by USAR.201 the low speed warning must begin at a speed exceeding the stalling spped or Vmin DEMO (if the stalling is not to be demonstrated) by a margin of not less than 5 knots and must continue as long as the condition is true.\n  (4) When following the procedures of USAR.1585, the low speed warning must not occur during a take-off with all engines operating, a take-off continued with one engine inoperative or during an approach to landing.\n(b) The low speed warning must be furnished by a device that will give clearly distinguishable indication. A visual low speed warning device that requires the attention of the UAV crew within the UCS is not acceptable by itself.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "Low speed warning",
       "text": "(a) There must be a clear and distinctive low speed warning in the UCS, with the flaps and landing gear in any normal position in straight and turning flight, in accordance with the following:\n  (1) It should not be possible to command from the UCS speed values lower than the minimum steady flight speed (except take-off and landing) allowed by the flight envelope protection maintained by the flight control system.\n  (2) Adequate low speed cues and warning should be provided in the UCS when approaching the stalling speed or Vmin DEMO if the stalling is not to be demonstrated.\n  (3) During the tests required by USAR.201 the low speed warning must begin at a speed exceeding the stalling speed or Vmin DEMO (if the stalling is not to be demonstrated) by a margin of not less than 5 knots and must continue as long as the condition is true.\n  (4) When following the procedures of USAR.1585, the low speed warning must not occur during a take-off with all engines operating, a take-off continued with one engine inoperative or during an approach to landing.\n(b) The low speed warning must be furnished by a device that will give clearly distinguishable indication. A visual low speed warning device that requires the attention of the UAS crew within the UCS is not acceptable by itself.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

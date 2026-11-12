@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.9",
   "number": "6.2.1.9",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "UAS unrestricted operation",
   "subject_group": "6.2.1 VCF architecture design",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "UAS unrestricted operation",
       "text": "Criterion: For UAS operations in the National Airspace System (NAS), verify that the VCF will not degrade below Operational State I after any single failure. Standard: For UAS operations within the NAS, the redundancy and reliability requirements are equal to or greater than piloted air vehicles. No single point failures within the integrated VCF cause degradation below Operational State I. The degraded VCF does not cause any instability or limit cycle oscillations preventing safe control and landing. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. The VCF after single failure is verified through simulation, software analysis, SIL, FMET (failure modes tests), and ground test, for both air vehicle and control station. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "UAS unrestricted operation",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

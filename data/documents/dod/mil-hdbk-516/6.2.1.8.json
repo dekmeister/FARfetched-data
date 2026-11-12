@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.8",
   "number": "6.2.5.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "In-line fault coverage",
   "subject_group": "6.2.5 Redundancy management",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.1.8",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "In-line fault coverage",
       "text": "Criterion: For systems providing only dual redundancy, verify that in-line fault coverage has been correctly assessed for PLOC calculations. Standard: Dual redundant systems rely heavily on in-line fault monitoring where each channel monitors its own health and integrity and detects, isolates, and annunciates failures. The monitoring scheme is evaluated to assure 100% coverage for all critical failures resulting in loss of control. The in-line monitoring is robust enough to identify all actual safety critical failures and prevent false annunciations. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. The dual redundant system is analyzed and tested in a SIL to validate that all safety critical failures are monitored, detected, isolated, mitigated, and annunciated to crew/ground controller. The results of the Built-In-Test (BIT) testing in the SIL are used to verify the coverage factor in the PLOC calculation due to in-line monitoring. Dual redundant elements are considered to have a net reliability equal to p^2 + 2p(1-p)c where p is the reliability of a single element (typically e^(-lambda*t)) and c is the coverage factor ranging from zero to one. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "In-line fault coverage",
       "text": "Standard: Where fault detection relies on in-line coverage for isolation, these in-line monitors detect safety-critical faults to support failure response and PLOC requirements. Fault coverage is accounted for in PLOC, failure immunity, and fail-safe assessments and coverage numbers are justified. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Built-in-test analysis of VCF subsystems and components identifies failures that require in-line fault isolation and provides evidence of the in-line fault coverage to support the PLOC, failure immunity, and fail-safe analyses. Analysis of in-line fault coverage is assessed as specified in SAE AS94900A and SAE ARP94910, Effects of Imperfect Fault Detection paragraph.",
       "source_url": "https://assist.dla.mil",

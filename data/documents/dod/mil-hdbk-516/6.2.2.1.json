@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.1",
   "number": "6.2.12.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Flight crew commands",
   "subject_group": "6.2.12 Vehicle control function pilot vehicle interface",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.2.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses.",
       "text": "Verify VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that the VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses.",
       "text": "Verify that the VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses. DoD/MIL Doc: JSSG-2008: para 3.1.1, 4.1.1, 3.1.11.10, 4.1.11.10, 3.1.11.11 thru 3.1.11.11.4, 4.1.11.11 thru 4.1.11.11.4, 3.2.2 thru 3.2.2.5.4, 4.2.2 thru 4.2.2.5.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.2.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that the VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses.",
       "text": "Verify that the VCF which transmit crew control commands or generate and/or convey commands are safely implemented for the entire range of vehicle and crew responses. DoD/MIL Doc: JSSG-2008: 3.1.1, 4.1.1, 3.1.11.10, 4.1.11.10, 3.1.11.11 thru 3.1.11.11.4, 4.1.11.11 thru 4.1.11.11.4, 3.2.2 thru 3.2.2.5.4, 4.2.2 thru 4.2.2.5.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.6.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Crew commands",
       "text": "Criterion: Verify that the VCF transmits, generates and/or conveys crew control commands safely for the entire range of vehicle and crew responses. Standard: Operator commands, including manual overrides and engineering test commands, are implemented such that the air vehicle response is predictable and controllable under normal conditions and failure conditions that are not extremely remote. Effects of lost or corrupt messages do not affect safety of flight. Mechanical/analog/electrical component functional characteristics are defined and do not induce a departure or loss of control. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, inspection and review of documentation. VCF command control elements are verified by inspection, test, integration testing, simulation and demonstration. References: JSSG-2008: 3.1.1, 3.1.11.10, 3.1.11.11 through 3.1.11.11.4, 3.2.2 through 3.2.2.5.4, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Flight crew commands",
       "text": "Standard: Flight crew commands that the VCF transmits, generates, or conveys, including manual overrides and engineering test commands, are implemented such that the air vehicle response is predictable and controllable under normal conditions and failure conditions that are more probable than PLOC divided by 100. All portions of the VCF used for flight crew command signal generation and transmission maintain integrity of the signal. Effects of lost or corrupt messages do not induce a loss of control. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the requirements and design features of flight crew input devices to meet the standard of predictable and controllable air vehicle response and signal integrity. The type of signal transmission (e.g., mechanical, electrical, or optical) will have particular requirements. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences. Test.\n    (1) Lab test: Conduct test in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to examine predictable and controllable air vehicle response to flight crew commands under normal and failure conditions.\n    (2) Ground test: Conduct on-air vehicle ground test to verify signal transmission devices operate as designed. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct flight operations evaluating flight crew commands for acceptability across the envelope during normal operation.",
       "source_url": "https://assist.dla.mil",

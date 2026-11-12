@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.2",
   "number": "8.6.2.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "System operational power",
   "subject_group": "8.6.2 System operations",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.6.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the APS/EPS operates safely under installed operating conditions over the design envelope.",
       "text": "Verify that the APS/EPS operates safely under installed operating conditions over the design envelope.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.6.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the APS/EPS operates safely under installed operating conditions over the design envelope.",
       "text": "Verify that the APS/EPS operates safely under installed operating conditions over the design envelope. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3, C.4.4 FAA Doc: 14CFR reference: 23.901, 25.901, 25.903 (f), TSO C77b 4.4.1 - 4.5.2",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "System operation",
       "text": "Criterion: Verify that the APS/EPS operates safely under installed operating conditions over the design envelope. Standard: The control system ensures stable operation. The power, torque, speed, bleed pressure and temperature provided by the APS/EPS are within specified limits. Method of Compliance: Inspection of control system design analysis verifies that phase and gain margins exist between all control loops to provide stable operation. The FMECA verifies safe system operation or termination following any combination of failures that have a probability of occurrence greater than one in ten million, or single control system failure. Inspection of the performance model verifies operability margins throughout the intended ground and flight envelopes, as applicable. Software verification and validation testing, control system integration tests, and vehicle integration tests verify proper operation. Aircraft ground tests and flight tests of the installed system and interfacing systems demonstrate intended operation. References: JSSG-2009: Appendix C FAA TSO-C77 4.4.1-4.5.2 14 CFR 23.901, 25.901, 25.903(f)",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "System operational power",
       "text": "Standard: The power, torque, speed, bleed pressure, and temperature provided by the APS and emergency power system are within specified design limits of the control system. No single point failure or combination of failures will result in loss of APS and emergency power system as designed to be controlled by APU control system and no failure will have a probability of occurrence greater than 10-7 per flight hour that can propagate to impact other emergency power requirements (e.g., loss of a hydraulic pump does not also cause loss of electrical generator). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review control system, APS, and emergency power system design specification documents to verify that performance parameters and critical system limits such as power, torque, speed, bleed pressure, and temperature are established. Analysis.\n  (1) Conduct analysis to verify required power levels are provided and maintained for continued operation of flight-critical equipment throughout the design operating envelope of the APS and emergency power system (e.g., maximum flight ceiling to ground, negative g, attitude, stall, surge, and flameout).\n  (2) Conduct FMECA analysis to verify continued system operation or termination following any combination of failures that have a probability of occurrence greater than 10-7 per flight hour, or a single APU control system failure. Test.\n    (1) Lab test: Conduct a 150-hour endurance test IAW TSO-C77b, Endurance Test paragraph followed by an acceptance test procedure to verify that the APU system meets the required power demands and endurance capability.\n    (2) Lab test: Conduct integration testing of the APS and emergency power system controller software with hardware (e.g., APU and APU controller) to verify that the system operates as intended for startup, runtime, and system shutdown throughout the APS and emergency power system design operating envelope.\n    (3) Ground test: Conduct air vehicle ground testing to verify that the APS and emergency power system meets air vehicle design requirements for start time, from deployment to full loading of the system.\n    (4) Ground test: Conduct air vehicle ground testing on the APS and emergency power system to verify the system operates as intended and meets power demands of its interfacing systems (e.g., hydraulic, electrical, and pneumatic). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Conduct air vehicle flight testing on the APS and emergency power system to verify the system operates as intended and meets power demands of its interfacing systems (e.g., hydraulic, electrical, and pneumatic) throughout the APS and emergency power system design operating envelope (e.g., maximum flight ceiling to ground, negative g, and attitude).",
       "source_url": "https://assist.dla.mil",

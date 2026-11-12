@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.12.2",
   "number": "6.1.4.24",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Augmentation systems",
   "subject_group": "6.1.4 Fixed-wing general flying qualities",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.12.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Augmentation systems",
       "text": "Criterion: Verify that the augmentation system is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.8.2 Augmentation systems. b. 5.2.8.2.1 Rate of control surface displacement. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional Reference: 14 CFR 27; 27 Appendix B VII Stability Augmentation System (SAS)",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Augmentation systems",
       "text": "Standard: Operation of stability augmentation and CASs and devices, including in the presence of saturation or rate limiting, do not result in flying qualities worse than Level 2 in up to uncommon atmospheric disturbances. Control rates are able to retain stabilization and control in extraordinary atmospheric disturbances. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the augmentation system's robustness as specified in MIL-STD-1797, Rate of Control Surface Displacement paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the augmentation system's robustness as specified in MIL-STD-1797, Rate of Control Surface Displacement paragraph for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the augmentation system's robustness as specified in MIL-STD-1797, Rate of Control Surface Displacement paragraph for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
       "source_url": "https://assist.dla.mil",

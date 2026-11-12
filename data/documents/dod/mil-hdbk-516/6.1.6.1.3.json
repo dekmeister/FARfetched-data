@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.1.6.1.3",
   "number": "6.1.6.1.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Longitudinal frequency response to the pitch controller",
   "subject_group": "6.1.6.1 Longitudinal response to the pitch controller",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Longitudinal frequency response to the pitch controller",
       "text": "Criterion: Verify that longitudinal frequency response to the pitch controller is safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.2.1.3 Longitudinal frequency response to the pitch controller. b. 5.2.2.1.3.1 Pitch attitude bandwidth (see figures 41 and 48 for guidance). c. 5.2.2.1.3.2 Pitch attitude frequency response envelopes (see figure 49 for guidance). d. 5.2.2.1.3.3 Transient flight-path response to pitch attitude change (see figure 51 and table XXXII for guidance). For rotorcraft, the air vehicle meets the standards within ADS-33-PRF, 3.3.2.1 Short-term response to control inputs (bandwidth), 3.4.1.1 Short-term response (bandwidth), and 3.4.3.1 Flight path response to pitch attitude (frontside). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Longitudinal frequency response to the pitch controller",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

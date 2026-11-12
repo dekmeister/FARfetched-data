@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "10.1.1",
   "number": "11.4.1.3",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Critical failure detection methods",
   "subject_group": "11.4.1 Air system diagnostics ability to detect and report critical failures",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "10.1.1",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical functional failure modes have been identified and detection methods incorporated.",
       "text": "Verify that critical functional failure modes have been identified and detection methods incorporated.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "10.1.1",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical functional failure modes are identified and detection methods incorporated.",
       "text": "Verify that critical functional failure modes are identified and detection methods incorporated. Comm\u2019l Doc: SAE AIR 4845 details the FMECA process. DoD/MIL Doc: JSSG-2000: para 3.3.2 JSSG-2001: para 3.3.7, 3.3.7.1 FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "10.1.1",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical functional failure modes are identified and detection methods incorporated.",
       "text": "Verify that critical functional failure modes are identified and detection methods incorporated. Comm\u2019l Doc: SAE AIR 4845 details the FMECA process. DoD/MIL Doc: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7, 3.3.7.1 FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "10.1.1",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Identification and detection",
       "text": "Criterion: Verify that critical functional failure modes are identified and detection methods are incorporated. Standard: Critical failures are detected and displayed in a timely manner by the system to enable actions (by system and/or operator) that prevent loss of the aircraft or personnel injury. Method of Compliance: Critical failures are identified in a Failure Mode, Effects and Criticality Analysis (FMECA), and the detection and the timely display of those failures is verified by a combination of analysis and test. References: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7 and 3.3.7.1 SAE AIR4845 details the FMECA process. 14 CFR 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Critical failure detection methods",
       "text": "Standard: All critical failures are detected to enable actions (by air system or flight crew) that prevent loss of the air vehicle or personnel injury. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to identify critical failure detection methods. Analysis.\n  (1) Analysis of the air system design and architecture verifies that all critical failures can be detected to enable actions (by air system or flight crew) that prevent loss of the air vehicle or personnel injury. For each critical failure, the detection method(s) (e.g., BIT, pre-flight checks, redundancy management) are identified. Test.\n    (1) Lab test: Laboratory testing verifies detection of all critical failures to enable actions (by air system or flight crew) that prevent loss of the air vehicle or personnel injury.\n    (2) Ground test: Ground testing verifies detection of critical failures to enable actions (by air system or flight crew) that prevent loss of the air vehicle or personnel injury.",
       "source_url": "https://assist.dla.mil",

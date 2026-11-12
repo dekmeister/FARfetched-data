@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "12.1.2",
   "number": "12.1.2",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Operation of power sources",
   "subject_group": "12.1 Electrical power generation system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical Power System",
       "title_at_revision": "Verify that the operation of the electrical power generation system is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect of generators.",
       "text": "Verify that the operation of the electrical power generation system is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect of generators.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the operation of the electric power generation system and its component parts is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect (as applicable) of generators, converters, inverters, batteries, etc.",
       "text": "Verify that the operation of the electric power generation system and its component parts is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect (as applicable) of generators, converters, inverters, batteries, etc. DoD/MIL Doc: For guidance/principles regarding design and operation of safe electrical generation systems: AFGS-87219 MIL-G-21480 MIL-HDBK-454 MIL-STD-464 ADS-51-HDBK Chapter/Section 8-7; JSSG-2009: Appendix H para H.3.4.8, H.4.4.8, H.3.4.8.4, H.4.4.8.4; FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363.",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the operation of the electric power generation system and its component parts is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect (as applicable) of generators, converters, inverters, batteries, etc.",
       "text": "Verify that the operation of the electric power generation system and its component parts is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect (as applicable) of generators, converters, inverters, batteries, etc. DoD/MIL Doc: For guidance/principles regarding design and operation of safe electrical generation systems: AFGS-87219 MIL-G-21480 MIL-HDBK-454 MIL-STD-464 ADS-51-HDBK Chapter/Section 8-7 JSSG-2009: Appendix H H.3.4.8, H.4.4.8, H.3.4.8.4, H.4.4.8.4 FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Safe operation of generation system",
       "text": "Criterion: Verify that the operation of the electric power generation system and its component parts is safe, including adequate implementation of cooling provisions, status/failure indications, and mechanical/thermal disconnect (as applicable) of generators, converters, inverters, batteries, etc. Standard: a. Each installed system is free of hazards in its own operation, in its effects on other parts or components of the aircraft, and in its use and interaction with operating, passenger and servicing personnel. b. Provisions are included to allow operators and flight crew members to selectively disconnect electrical power sources from the system. c. Status and failure indications are provided in a clear manner for operating and maintenance personnel. d. Generator(s) withstand(s) operational parameters, including overload applications for five seconds and five minutes in accordance with 3.4.8.2 of MIL-PRF-21480 or equivalent applicable specification(s) for the type(s) of equipment(s) being utilized. e. Means are provided for electro-mechanical/thermal disconnect of generators under all stressing conditions. f. Means are provided to contain parts in the event of a failure. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection of documentation. a. FMECA verifies that the system is free of hazards in its own operation. b. Analysis of design documentation verifies proper disconnects are provided. c. Performance of the status/failure indications are verified by analysis, test and demonstration. d. The generator(s) capability is(are) verified by tests with no degradation in performance. e. Provisions for electro-mechanical/thermal disconnect are verified by test. f. Analysis of design documentation verifies parts are contained in the event of a failure. References: For guidance/principles regarding design and operation of safe electrical generation systems: JSSG-2009: H.3.4.8, H.4.4.8, H.3.4.8.4, H.4.4.8.4 MIL-HDBK-454 MIL-STD-464 MIL-PRF-7032 MIL-PRF-7115 MIL-PRF-21480 MIL-E-85583 AFGS-87219 ADS-51-HDBK: Chapter/Section 8-7 14 CFR 23.1351-23.1367, 25.1351-25.1363.",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Operation of power sources",
       "text": "Standard: Each electrical power generation system component (e.g., generators, converters, inverters, transformer rectifier units, batteries) meets performance requirements as identified in individual component specifications. Operation of the electric power sources and their component parts present no hazards to external systems and crewmembers. Provisions are included to allow a manual and automatic disconnect of these electrical power sources from the system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Design documentation (e.g., schematics, drawings, and models) verifies contactors are included in the design to disconnect electrical power sources from the electrical system. Analysis.\n  (1) Failure conditions of electrical power sources are identified and analyzed in the FMECA to verify no hazards to external systems and crewmembers are present. Test.\n    (1) Lab test: Electrical power source qualification testing ensures components meet all required air vehicle performance requirements.\n    (2) Lab test: Electrical system tests, using production or production representative power system components, verifies the manual and automatic disconnect of electrical power sources from the rest of the power system.\n    (3) Ground test: Electrical system air vehicle ground tests, using production or production representative power system components, verifies the manual and automatic disconnect of electrical power sources from the rest of the power system.",
       "source_url": "https://assist.dla.mil",

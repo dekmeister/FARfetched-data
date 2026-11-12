@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.2.5",
   "number": "8.2.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Pressurization",
   "subject_group": "8.2 Environmental control systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.2.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that pressurization emergency provisions are available in the cockpit and crew station locations.",
       "text": "Verify that pressurization emergency provisions are available in the cockpit and crew station locations.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.2.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that pressurization emergency requirements, for manned air vehicles, are met in the cockpit and crew station locations.",
       "text": "Verify that pressurization emergency requirements, for manned air vehicles, are met in the cockpit and crew station locations.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.2.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that normal and emergency pressurization requirements are met in the air vehicle and, as appropriate, are indicated or monitored at the ground station to ensure SOF.",
       "text": "Verify that normal and emergency pressurization requirements are met in the air vehicle and, as appropriate, are indicated or monitored at the ground station to ensure SOF. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.1, D.4.4.4.1 FAA Doc: 14CFR references: 23.365, 25.841",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.2.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Pressurization",
       "text": "Criterion: Verify that normal and emergency pressurization requirements are met in the air vehicle system and, as appropriate, are indicated or monitored at the control station to ensure safety of flight. Standard: System design (including emergency equipment and/or auxiliary methods) provides an acceptable pressure environment for crew operation and equipment affecting safety of flight (see also 9.6.7 and 18.3.1, this document). Method of Compliance: The standard is verified by the following activities: a. Analyses and/or simulation determine the severity of the environment that drives pressurization needs for the air vehicle system. b. Capability analysis and test verify the adequacy of pressurization subsystem mechanisms required for air vehicle system safety of flight profile. c. Critical functional test verifies the adequacy of pressurization subsystem based on the formulated and projected threats for the air vehicle system. d. Analyses and flight tests verify pressure schedule and tolerance requirements for occupied compartments. References: JSSG-2009: D.3.4.4.1, D.4.4.4.1 MIL-HDBK-516: 9, 18 14 CFR 23.365, 25.841",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Pressurization",
       "text": "Standard: The ECS provides a pressure environment for occupants and critical equipment, as required by the air vehicle specification, under normal and emergency operating conditions throughout the design envelope. The pressurization subsystem is free of pressure instabilities under all flight conditions, and the ECS controls pressurization rates to prevent pressure surges in occupied compartments. Check valves or restrictions prevent sudden pressure loss from occupied compartments to the ambient environment or ECS ducting in the event of ECS shutdown or failure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine schematics and installation drawings to verify that the location and orientation of components, plumbing, safety provisions, and ambient sense ports are compatible with the air vehicle flight profile and performance envelope.\n(2) Review air vehicle specification to verify pressurization schedules are defined. Analysis.\n  (1) Conduct analysis to verify that the pressurization system design and components are properly selected for the air vehicle size, performance, and ECS flow rates, and provide pressurization IAW with the defined pressure schedule over the air vehicle flight envelope. Test.\n    (1) Lab test: Conduct subsystem-level lab testing to verify that the defined air vehicle pressure schedule and rates of change are maintained throughout the air vehicle flight envelope. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n    (2) Flight test: Conduct flight testing to verify the analysis and that pressure schedules and rates are maintained as specified by air vehicle pressurization requirements across the air vehicle flight envelope.",
       "source_url": "https://assist.dla.mil",

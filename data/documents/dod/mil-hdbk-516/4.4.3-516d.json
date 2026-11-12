@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "4.4.3-516d",
   "number": "4.4.3",
-  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "current_grouping": "Section 4 \u2014 Systems Engineering",
   "canonical_title": "Fail-safe design concept or single-point of failure",
   "subject_group": "4.4 System safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "grouping_at_time": "Section 4 \u2014 Systems Engineering",
       "title_at_revision": "Fail-safe design concept or single-point of failure",
       "text": "Standard: The failure of any single element, component, or connection for the system should be assumed and loss of an SCF for the system falls below the Improbable level. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review program documentation to ensure the probability of loss of an SCF for the system falls below the Improbable level for any single design element, component, or connection of a system or subsystem.. Analysis.\n  (1) Verify completion of risk reduction analyses for the air system to determine the probability of SCF failure occurrence falls below the Improbable level. Analysis methodologies may include the FMEA, FMECA, SSHA, SSA, or FTA. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n  (2) Hazard tracking system verifies implementation of validated risk mitigation measures.",
       "source_url": "https://assist.dla.mil",

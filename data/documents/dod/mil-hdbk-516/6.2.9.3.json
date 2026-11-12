@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.9.3",
   "number": "6.2.9.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Lost communications and failures",
   "subject_group": "6.2.9 VCF command and control communications safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Lost communications and failures",
       "text": "Criterion: Verify that the guidance, navigation and control functions implement robust and safe contingency logic for dealing with lost-communications and on-board failures. Standard: Safe contingency logic is provided for lost-communications, on-board failures, and failures within guidance, navigation, and control functions. No single point failure within the communication, guidance, navigation, and control causes loss of control. In case of total loss of communication with the control station, the air vehicle is capable of autonomous guidance, navigation and control for a safe landing. Method of Compliance: Verification methods include analysis, tests, simulation, and review of documentation. The contingency logic within the guidance, navigation and control is verified through simulation, software analysis, SIL, FMET, ground test, and flight test, for both the air vehicle and the control station. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Lost communications and failures",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

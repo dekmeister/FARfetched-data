@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.9.7",
   "number": "6.2.9.7",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Actuator performance",
   "subject_group": "6.2.9 Vehicle control function actuators",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Actuator performance",
       "text": "Standard: Actuator loop closure meets 6 dB gain and 45-degree phase stability margins. Actuators response and time delay prevent PIOs, preclude structural coupling, aero-elastic coupling, and flutter. Worst-case actuator surface rate, hinge moment, and free-play do not degrade VCF performance below Operational State II. Actuator force stall or blowback does not reduce VCF performance below Operational State III under adverse flight and environmental conditions. Actuator performance on emergency systems such as an emergency hydraulic system or battery backup, with degraded hinge moment capability does not degrade VCF below Operational State III. Actuator total loss of hydraulic or electrical power do not cause flutter or LCO within the RORH. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review actuator free play allocation documented in the approved structures ICD. Analysis.\n  (1) Verify actuator performance requirements and design support required VCF operational states in both normal operation and failure states.\n  (2) Conduct actuator closed loop analysis to verify stability margins.\n  (3) Conduct stiffness analysis to verify compliance to allocated flutter and ASE requirements. Test.\n    (1) Lab test: Conduct actuator performance test for both high and low fluid temperatures to determine force output, rate, and frequency response meet requirements.\n    (2) Lab test: Conduct test in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to demonstrate actuator performance for normal operation and failure states.\n    (3) Lab test: Conduct system-level FMET with HITL to verify actuator performance.\n    (4) Lab test: Review test data validating hinge moments and performance under normal and failed conditions",
       "source_url": "https://assist.dla.mil",

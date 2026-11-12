@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.3.4.2",
   "number": "17.3.4.2",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Command and control path",
   "subject_group": "17.3.4 Positive control",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Command and control path",
       "text": "Standard: All C2 paths (internal and external) for autonomous and semi-autonomous control systems of suspension and release equipment, laser systems, weapons, or other stores that control safety-critical armament functions operate as designed without instability, corruption, or failure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze C2 path architecture and design between the host air vehicle and store including any federated components or off-board controllers for hazards associated with loss of communication, instability, corruption, vulnerability, and failure modes.\n(2) Identify failure modes within C2 path architectures and mitigation design features to prevent inadvertent store operation.\n(3) Evaluate software and hardware for autonomous and semi-autonomous functionality that could result in hazards and ensure controls or design mitigations are in place to prevent AW hazards. Verify that all autonomous control systems have crewmember oversight and overrides to control store operation and state transitions.\n(4) Evaluate the C2 design to ensure safety precepts (e.g., Unmanned System Safety Engineering Precepts Guide for DoD Acquisition), mitigations and human-in-the-loop controls have been implemented to mitigate AW hazards associated with autonomous and semi-autonomous operation. Test.\n  (1) Lab test: Conduct SIL testing to evaluate all hardware and software interfaces of the armament system C2 for intended function during store operation, including fault insertion and failure modes.\n  (2) Lab test: Evaluate all autonomous modes of store operation for failure modes that could result in AW hazards induced by store operation to the host air vehicle.\n  (3) Lab test: Verify all C2 paths of the armament system impacting store operation do not create an AW hazard, including but not limited to: a. Host air vehicle. b. Autonomous state change. c. Electronic kneeboard and laptops. d. External entities that controls (disrupt) fire control system. e. Beyond line of sight input into fire control system. f. Automatic EW (dispense).",
       "source_url": "https://assist.dla.mil",

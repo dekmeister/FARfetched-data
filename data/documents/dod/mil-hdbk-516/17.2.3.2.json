@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.2.3.2",
   "number": "17.2.3.2",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Armament and stores intra-system electromagnetic compatibility",
   "subject_group": "17.2.3 Armament and stores electromagnetic environmental effects",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Armament and stores intra-system electromagnetic compatibility",
       "text": "Standard: The store is electromagnetically compatible with the host air system and adjacent store configurations, ensuring that the air system and store flight-critical systems, and associated SCFs are not degraded and have no potential EMI hazards, such as unintentional detonation, release, launch, flight termination, or jettison of stores during concurrent intra-system operations (e.g., inventory, carriage, and employment) IAW MIL-STD-464, Intra-system Electromagnetic Compatibility paragraph. This includes stores configured or modified with RF transmitters and receivers (e.g., EMC, flight test, training, or telemetry kits). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review store subsystem and component-level EMI test data to assess test anomalies to be evaluated during system-level EMC ground test for potential EMI or hazards to the store and host air system.\n(2) Review AUR, modified, or instrumented store design documentation (e.g., installation drawings, ICDs, operational modes and characteristics) to verify intended capabilities and modes of operation during pre-launch and post-launch are evaluated during the system-level EMC ground test.\n(3) Review store EMC test plan to verify store and host air system configuration (e.g., hardware and software), operating modes, source/victim procedures, and pass/fail criteria to be executed during EMC testing. Analysis.\n  (1) For stores configured with RF transmitters and receivers, conduct an RF antenna co-site analysis to verify store and air system RF compatibility. Identify worst-case store location(s) and load outs from air system and stores safety-critical antenna-connected receivers. Test.\n    (1) Ground test: Conduct a store and air system EMC ground test to verify store compatibility. For instrumented or flight test configured stores, a ground station or mobile test vehicle may be required to support EMC testing and data collection.\n    (2) Ground test: Verify store emission EMI test results for RE102 meet the safety-critical limits as specified by their EMI control requirements. If not or no test data is available, conduct a spectrum analyzer test on the air system safety-critical receivers to verify store compatibility.",
       "source_url": "https://assist.dla.mil",

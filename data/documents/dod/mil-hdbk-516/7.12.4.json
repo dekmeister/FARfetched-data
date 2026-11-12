@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.12.4",
   "number": "7.5.6",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Propeller interfaces",
   "subject_group": "7.5 Propeller and propeller drive systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.12.4",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller.",
       "text": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.1.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller.",
       "text": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller. DoD/MIL Doc: JSSG-2009: para L.3.4.12/L.4.3.12. FAA Doc: 14CFR references: 35.21, 35.39, 35.41",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.3.1.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller.",
       "text": "Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller. DoD/MIL Doc: JSSG-2009: L.3.4.12/L.4.3.12 FAA Doc: 14CFR references: 35.21, 35.39, 35.41",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.1.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Propeller interfaces",
       "text": "Criterion: Verify the safety of all physical and functional interfaces between the propeller and any system that drives the propeller. Standard: The interfaces between the airframe and the propeller are established and controlled to ensure compatibility and proper operation. The allowable range of characteristics of the propeller at the engine interface is specified. No resonant frequency is transmitted to or from the engine through the propeller. Method of Compliance: Verification methods include analysis, test, and inspection of documentation. A Failure Modes Effects and Criticality Analysis (FMECA) details all known potential failure modes and their associated probabilities. Testing: The propeller and engine system endures a 150 hr ground test (e.g. test stand, test cell). The system and hardware will be subjected to and meet the conditions and transients as specified in the engine and air vehicle specification. A complete teardown inspection is conducted at the conclusion of the test. Records are made of failures, wear and other unusual conditions. Air vehicle flight tests demonstrate no detrimental interactions between the engine, propeller and air vehicle. References: JSSG-2009: L.3.4.12, L.4.4.12; and L.3.4.12.1.G, L.4.4.12.1.G 14 CFR 35.21, 35.39, 35.41",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Propeller interfaces",
       "text": "Standard: All physical and functional interfaces between the engine, air vehicle, and the propeller system are established and controlled to ensure compatibility. The allowable range of characteristics of the propeller system at engine and air vehicle interfaces is specified and documented. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation (e.g., schematics, drawings and models, ICDs, installation manuals) verifies that detailed descriptions of the propeller physical and functional interfaces with associated engine and airframe and all related modules and components are established and controlled (e.g., physical arrangements and position; functional relationships and characteristics; interface loads and moments; mass properties; direction of rotation; fluid, drain, electrical, and data interfaces; operating clearances). Analysis.\n  (1) Analysis is conducted to define installation interface characteristics or to verify that the specific propeller system, engine, and air vehicle combination being certified complies with allowable range of characteristics already documented (e.g., in installation manuals or ICD). Test.\n    (1) Ground test: The propeller system and engine installation, in the air vehicle being certified, is checked in the static condition to verify the functional characteristics of the control linkages, voltages, continuity of control circuitry and typical preflight checks. The relationship between all lever positions and signal levels and the propeller blade angle is confirmed for the complete range of lever and signal excursions for increasing and decreasing power conditions.",
       "source_url": "https://assist.dla.mil",

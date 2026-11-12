@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.4.5-516c",
   "number": "6.2.10.5",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "In-flight provisions",
   "subject_group": "6.2.10 Vehicle control function air data safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.4.5",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Safety provisions",
       "text": "Criterion: Verify that there are adequate provisions for in-flight safety of the air data system. Standard: The air data system provides the following in-flight safety provisions: a. In-flight monitoring of the air data health and integrity is annunciated to the operator/crew. b. Mitigation or accommodation for shorting or opening of power wires that removes electrical power. c. Mitigation or accommodation for loss of the mounting structure such as a radome that takes out more than one (1) probe at a time. d. Alternate methods for air data to compensate for loss of air data. e. Provisions to handle possible bird strikes. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. The VCF in-flight safety provisions are verified through simulation, systems analysis, HITL, FMET, ground, and flight tests. References: JSSG-2008: 3.1.14.9, 3.2.2.4, associated section 4 paragraphs. 14 CFR 23.775, 23.901, 23.1323, 25.571, 25.631, 25.773, 25.775, 25.1323, 29.631.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "In-flight provisions",
       "text": "Standard: The air data in-flight provisions: a. Monitor air data health and integrity and provide system status to the flight crew. b. Mitigate or accommodate physical loss of air data sensors. c. Mitigate or accommodate functional loss of air data sensors. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation and identify whether the design will mitigate or accommodate both physical and functional loss of air data sensors. Analysis.\n  (1) Complete fault tree and FMECA to identify failure modes, failure rates, and consequences. Test.\n    (1) Lab test: Conduct FMET to verify proper alerting to the flight crew, and the intended design methods to accommodate either physical or functional loss of air data sensors.",
       "source_url": "https://assist.dla.mil",

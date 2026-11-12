@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.1.6",
   "number": "11.1.6",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Diagnostics",
   "subject_group": "11.1 Avionics architecture",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that the avionics system integrated diagnostics will provide the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation.",
       "text": "Verify that the avionics system integrated diagnostics will provide the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that the avionics system integrated diagnostics provides the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation.",
       "text": "Verify that the avionics system integrated diagnostics provides the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation. DoD/MIL Doc: JSSG-2005: para 3.2.1.3.2, 4.2.1.3.2 FAA Doc: AC-23.1309, 25.1309; 14CFR reference 23.1309, 25.1309 AC-27-1 and AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\" AC 29-2C, Certification of Transport Category Rotorcraft",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that the avionics system integrated diagnostics provides the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation.",
       "text": "Verify that the avionics system integrated diagnostics provides the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation. DoD/MIL Doc: JSSG-2005: 3.2.1.3.2, 4.2.1.3.2 FAA Doc: AC-23.1309, 25.1309 14CFR reference 23.1309, 25.1309 AC-27-1 and AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\" AC 29-2C, Certification of Transport Category Rotorcraft",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Diagnostics",
       "text": "Criterion: Verify that the avionics system integrated diagnostics provides the fault coverage, low false alarm rates, fault isolation, and fault detection needed to detect bad data and failed components that would degrade safe operation. Standard: The diagnostic system parameters are derived from operational requirements and the system specification. Fault coverage, False alarm rates, Fault Isolation (FI) and Fault Detection (FD) standards are normally specified as percentages which are based on current technology, criticality of the system being diagnosed, and sound engineering and economic principles. Method of Compliance: A combination of simulation, design analysis and testing is required to mature the diagnostic system. A discreet event to verify the diagnostic parameters is not practical. Maturation of the diagnostics is accomplished by carefully documenting all system testing, failures and corrective actions to determine if the diagnostic system meets the specified requirements. References: JSSG-2005: 3.2.1.3.2, 4.2.1.3.2 14 CFR 23.1309, 25.1309 FAA AC 27-1 and FAA AC 29-2 provide guidance on helicopter equipment, primarily in subpart \"F\"",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Diagnostics",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

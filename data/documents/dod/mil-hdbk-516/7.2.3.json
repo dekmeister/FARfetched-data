@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.3",
   "number": "7.2.5",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Air start",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.2.3",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that air-start requirements are met and documented in the flight manual.",
       "text": "Verify that air-start requirements are met and documented in the flight manual. Air-starts should include spool-down, windmill, and starter-assisted as appropriate for the air vehicle system.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.2.3",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that air start requirements are met and documented in the flight manual.",
       "text": "Verify that air start requirements are met and documented in the flight manual. Air starts include spool-down, windmill, cross-bleed and starter-assisted as appropriate for the air vehicle system. DoD/MIL Doc: JSSG\u20132007A: para A.3.2.2.3.2, A.4.2.2.3.2. FAA Doc: 14CFR references: 33.89",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.2.3",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that air start requirements are met and documented in the flight manual.",
       "text": "Verify that air start requirements are met and documented in the flight manual. Air starts include spool-down, windmill, cross-bleed and starter-assisted as appropriate for the air vehicle system. DoD/MIL Doc: JSSG\u20132007A: A.3.2.2.3.2, A.4.2.2.3.2 FAA Doc: 14CFR references: 33.89",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.2.3",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Air start",
       "text": "Criterion: Verify that air start requirements are met and documented in the flight manual. Air starts include spool-down, windmill, cross-bleed and starter-assisted as appropriate for the air vehicle system. Standard: Airstart capability is documented in the flight manual. Method of Compliance: Verification methods include test and review of documentation. The airstart envelope is initially verified from ground testing in altitude test cells and then verified by flight test. References: JSSG-2007: A.3.2.2.3.2, A.4.2.2.3.2; A.4.11.1.2 (Altitude test) 14 CFR 33.69 (Ignitions system); 33.89 Operation test",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Air start",
       "text": "Standard: Defined air start envelopes (e.g., spool-down, windmill, cross-bleed, starter assisted) meet air vehicle\u2019s intended operational needs. Air start capability is documented in the flight manual. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation (e.g., ICD) verifies defined air start envelopes meet air vehicle\u2019s intended operational needs.\n(2) Review of flight manual validates air start envelopes. Test.\n  (1) Lab test: Ground-based altitude cell tests verify air start capability meets envelopes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: In-flight tests verify capability meets envelopes.",
       "source_url": "https://assist.dla.mil",

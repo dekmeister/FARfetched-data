@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "55",
   "number": "55",
-  "current_grouping": "Subpart B \u2013 UA Flight",
+  "current_grouping": "Subpart B \u2014 UA Flight",
   "canonical_title": "Accelerate-stop Distance or Critical Field Length",
   "subject_group": "PERFORMANCE",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "grouping_at_time": "Subpart B \u2014 UAV Flight",
       "title_at_revision": "Accelerate-stop Distance or Critical Field Length",
       "text": "See AMC.55 Except for catapult assisted or rocket assisted take-off UAV, the critical field length must be determined as follows:\n(a) For multi engine UAV, the critical field length is the sum of the distances necessary to\n  (1) Accelerate the UAV from a standing start to VEF with all engines operating;\n  (2) Within the same distance either accelerate the UAV from VEF to VRf, assuming the critical engine fails at VEF; or come to a full stop from the point at which VEF is reached. VEF is the calibrated airspeed at which the critical engine is assumed to fail and the same distance is required to either continue the takeoff or stop. The VEF must be selected for the UAV, but must not be less than VMCG determined under USAR.149 (f).\n(b) For single engine UAV, the accelerate-stop distance is the sum of the distances necessary to\n  (1) Accelerate the UAV from a standing start to VRf with engine operating;\n  (2) Come to a full stop from the point at which VRf is reached.\n(c) Means other than wheel-brakes may be used to determine the critical field length if that means\n  (1) Is safe and reliable; and\n  (2) Is used so that consistent results can be expected under normal operating conditions; and\n  (3) Provides that all wheels remain on the ground during braking.\n(d) The following shall be included in the ground roll calculation\n  (1) Engine spool down characteristics\n  (2) System and UAV crew reaction time to sense a failure and make the appropriate response to the failure.\n  (3) If applicable, the time for UAV configuration changes (e.g. flap retractions, chute deployment, etc).",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "grouping_at_time": "Subpart B \u2014 UA Flight",
       "title_at_revision": "Accelerate-stop Distance or Critical Field Length",
       "text": "See AMC.55 Except for catapult assisted or rocket assisted take-off UA, the critical field length must be determined as follows:\n(a) For multi engine UA, the critical field length is the sum of the distances necessary to:\n  (1) Accelerate the UA from a standing start to VEF with all engines operating;\n  (2) Within the same distance either accelerate the UA from VEF to VRf, assuming the critical engine fails at VEF; or come to a full stop from the point at which VEF is reached. VEF is the calibrated airspeed at which the critical engine is assumed to fail and the same distance is required to either continue the take-off or stop. The VEF must be selected for the UA, but must not be less than VMCG determined under USAR.149 (f).\n(b) For single engine UA, the accelerate-stop distance is the sum of the distances necessary to:\n  (1) Accelerate the UA from a standing start to VRf with engine operating;\n  (2) Come to a full stop from the point at which VRf is reached.\n(c) Means other than wheel-brakes may be used to determine the critical field length if that means:\n  (1) Is safe and reliable; and\n  (2) Is used so that consistent results can be expected under normal operating conditions; and\n  (3) Provides that all wheels remain on the ground during braking.\n(d) The following shall be included in the ground roll calculation:\n  (1) Engine spool down characteristics.\n  (2) System and UA crew reaction time to sense a failure and make the appropriate response to the failure.\n  (3) If applicable, the time for UA configuration changes (e.g. flap retractions, chute deployment, etc.)",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

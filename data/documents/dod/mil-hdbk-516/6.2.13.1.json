@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.13.1",
   "number": "6.2.13.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Vehicle control function mechanical clearances",
   "subject_group": "6.2.13 Vehicle control function integrated systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Vehicle control function mechanical clearances",
       "text": "Standard: For mechanical elements of the VCF, physical clearances are designed to protect against jamming or binding due to probable combinations of temperature effects, air loads, structural deflections, vibration, buildup of manufacturing tolerances, wear, sag, or installation. In locally congested areas for both static elements and elements with relative motion, minimal clearances are IAW SAE AS94900A, System Separation, Protection and Clearance section (or, if the air vehicle is a UAV, SAE ARP94910, Invulnerability to Natural Environments section). The vehicle control system is able to obtain the full range of required control surface positions under the most adverse flight, manufacturing, rigging or installation bias, environmental, and load conditions without mechanical interference from the primary structure or surrounding devices. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of design and drawings for mechanical elements of the VCF to ensure clearances are IAW SAE AS94900A, System Separation, Protection and Clearance section (or, if the air vehicle is a UAV, SAE ARP94910, Invulnerability to Natural Environments section) with worst-case tolerances.\n(2) Inspection of installed vehicle control system elements to ensure designed clearance is achieved. Analysis.\n  (1) Evaluate clearance requirements of the mechanical components under variations of temperature, air loads, structural deflections, vibration, buildup of manufacturing tolerances, wear, installation, and flight loads.\n  (2) Verify free movement of the mechanical components under variations of manufacturing tolerances, rigging or installation bias, environmental conditions, and aerodynamic loading. Test.\n    (1) Ground test: Conduct ground test to verify nominal clearance.",
       "source_url": "https://assist.dla.mil",

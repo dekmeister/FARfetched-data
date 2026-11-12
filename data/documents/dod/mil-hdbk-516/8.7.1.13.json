@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.7.1.13",
   "number": "10.1.6.4",
-  "current_grouping": "10. AERIAL REFUELING",
+  "current_grouping": "Section 10 \u2014 Aerial Refueling",
   "canonical_title": "Surge pressures",
   "subject_group": "10.1.6 Fuel system compatibility",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.7.1.13",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that surge pressures generated during the aerial refueling process do not exceed the proof pressure limits for the aerial refueling system of the air vehicle or for the targeted tanker/receiver aerial refueling system.",
       "text": "Verify that surge pressures generated during the aerial refueling process do not exceed the proof pressure limits for the aerial refueling system of the air vehicle or for the targeted tanker/receiver aerial refueling system.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.7.1.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process.",
       "text": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.7.1.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process.",
       "text": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process. Comm\u2019l Doc: ARSAG 00-03-01, \"Pressure Defs & Terms, Mar '03.doc\" (para 3.5 and 4.7) DoD/MIL Doc: JSSG-2001: para 3.4.7.2.1, 3.4.7.2.2; MIL-A-19736A: para 3.5.2.3",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.7.1.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process.",
       "text": "Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process. Comm\u2019l Doc: ARSAG 00-03-01, \"Pressure Defs & Terms, Mar '03.doc\" (3.5 and 4.7) DoD/MIL Doc: JSSG-2001: 3.4.7.2.1, 3.4.7.2.2 MIL-A-19736A: 3.5.2.3",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.7.1.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Surge pressures",
       "text": "Criterion: Verify that surge pressures generated during the aerial refueling process do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process. Standard: Surge pressures generated during the aerial refueling process (including those from single failures) do not exceed proof pressure limits for the aerial refueling system(s) of any air vehicle involved in the aerial refueling process. Surge pressure conditions include, but are not limited to the following: a. With and without a single failure in the tanker/receiver system's pressure regulation/surge suppression feature(s). b. Pump start-up surges (no flow to receiver). c. All possible single/multiple receiver valve closures (manually or automatically activated) which could terminate flow into the receiver. d. Flowing disconnects. e. Single receiver and simultaneous receiver refueling (if applicable) scenarios. f. Reverse aerial refueling scenarios (if applicable). g. All possible tanker valve activations during fuel transfer. Method of Compliance: Verification methods include analysis, test and review of documentation. Design analysis, ground tests, and flight tests verify surge pressures of the transferred/received fuel are within tanker/receiver design limits under the following conditions: a. With and without a single failure in the tanker/receiver system's pressure regulation feature(s). b. Pump start-up surges (receiver[s] not connected, receiver[s] connected but no flow to receiver and receiver[s] connected with an open flow path into receiver). c. All possible receiver valve closures (manually or automatically activated) which could terminate flow into the receiver. d. Flowing disconnects. e. Single receiver and simultaneous receiver refueling (if applicable) scenarios. f. Reverse aerial refueling scenarios. (if applicable). g. All possible tanker valve activations during fuel transfer. Design analysis is used to identify the most critical pressure and flow rate conditions (including single failures) when evaluating surge pressures. References: JSSG-2001: 3.4.6.2.1; 3.4.6.2.2, 4.4.6.2.2 MIL-A-19736: 3.5.2.3 ARSAG International Document number 00-03-01",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "10. AERIAL REFUELING",
+      "grouping_at_time": "Section 10 \u2014 Aerial Refueling",
       "title_at_revision": "Surge pressures",
       "text": "Standard: The air vehicle design prevents surge pressures, generated during the AR process, from exceeding proof pressure limits of the AR and fuel systems of the air vehicles involved under all possible flowrates and delivery pressures, including single failure conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of specifications verifies design is required to limit surge pressures to below proof pressure. Examination of drawings show fuel system design incorporates features (e.g., pressure regulators, surge suppressors, return valves, auto disconnect functions) to prevent fuel surges during AR, resulting from pump start up and valve closures, with and without single failures of fuel system components, from exceeding allowable proof pressures. Analysis.\n  (1) Fuel flow modeling and simulation of AR operations verifies pressure surges resulting from pump start up and valve closures during onload and offload, with and without single failures of fuel system components, will not exceed specified air vehicle proof pressures. Test.\n    (1) Lab test: Lab testing of fuel subsystem test rig with simulated receiver or tanker verifies surge pressures do not exceed proof pressures, with and without single fuel system component failures. Instrumentation should be placed within 3 ft of the AR interface and at the worst-case pressure locations based on analysis (e.g., immediately upstream of refuel shutoff valves, dead ends). Measurements are made with a minimum 1,000 Hz sample rate, or as required to accurately capture peak surge pressures. Test conditions include pump start up, fuel flow shutoffs, including all possible shutoff combinations, individual tank valve closures, fill to full, flowing disconnects, and single failure of surge protection components (e.g., regulator, surge boot, surge suppressor).\n    (2) Ground test: Air vehicle ground testing with targeted air vehicle or representative substitute system verifies surge pressures do not exceed proof pressures, with and without single fuel system component failures. Instrumentation should be placed within 3 ft of the AR interface and at the worst-case pressure locations based on analysis (e.g., immediately upstream of refuel shutoff valves, dead ends). Measurements are made with a minimum 1,000 Hz sample rate, or as needed to accurately capture peak surge pressures. Test conditions include, pump start up, fuel flow shutoffs, including all possible shutoff combinations, individual tank valve closures, fill to full, flowing disconnects, and single failure of surge protection components (e.g., regulator, surge boot, surge suppressor). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight testing with targeted air vehicle verifies surge pressures do not exceed specified proof pressures of either system involved in the refueling process. Instrumentation should be placed within 3 ft of the AR interface and as necessary to ensure maximum fuel system pressures are recorded during flight tests based on ground test results. Measurements are made with a minimum 1,000 Hz sample rate, or as needed to accurately capture peak surge pressures. Test conditions include, pump start up, fuel flow shutoffs, flowing disconnects, fill to full, and fuel tank shutoff conditions that are possible during AR.",
       "source_url": "https://assist.dla.mil",

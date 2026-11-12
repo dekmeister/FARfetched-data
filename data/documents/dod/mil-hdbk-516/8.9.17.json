@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.17",
   "number": "8.7.15",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Actuation time",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.9.17",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all actuation subsystems are able to perform their specified function within the specified safe time and cycle.",
       "text": "Verify that all actuation subsystems are able to perform their specified function within the specified safe time and cycle. Also specify allowable intervals between actuation cycles as well as total cycles expected during the application lifetime.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.9.17",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all actuation subsystems are able to perform their specified function within the specified safe time and cycle.",
       "text": "Verify that all actuation subsystems are able to perform their specified function within the specified safe time and cycle. Also specify allowable intervals between actuation cycles as well as total cycles expected during the application lifetime. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.1.10; 3.4.9.4; 3.4.9.4.7; 4.4.9.4.7",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.17",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Actuation time",
       "text": "Criterion: Verify that all actuation subsystems are able to perform their specified function within the specified safe time and cycle. Also specify allowable intervals between actuation cycles as well as total cycles expected during the application lifetime. Standard: The system actuation cycle is compatible with the air vehicle operational requirements. The time between initiation of the command to the completion of the action is within the design allowable. The time between successive operations of the same cycle is not degraded and can be consistently repeated, for the design service life. Method of Compliance: The design is verified by analysis of components and systems. Component and system tests verify actuation rates, cycle times and interval times to be completed as required. Full scale checkouts on a simulator or on the air vehicle verify system installation, rigging, control, and functional performance. Air vehicle flight and ground tests demonstrate compatibility with air vehicle performance requirements. References: JSSG-2009: (Appendix I) I.3.4.9.4; I.3.4.9.4.7; I.4.4.9.4.7",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Actuation time",
       "text": "Standard: All actuation subsystems are able to perform their specified function within the specified time and cycle. Also specify allowable intervals between actuation cycles as well as total cycles expected during the application lifetime. The time between initiation of the command to the completion of the action is within the design allowable. The time between successive operations of the same cycle is not degraded and can be consistently repeated, for the DSL. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to verify the actuation rates, cycle times, and interval times to be completed as required. Test.\n  (1) Lab test: Conduct component and system tests to verify actuation rates, cycle times, and interval times to be completed as required.\n  (2) Lab test: Conduct full scale checkouts on a simulator to verify system installation, rigging, control, and functional performance.\n  (3) Ground test: As an alternative to Test MoC (2), conduct on the air vehicle testing to verify system installation, rigging, control, and functional performance.\n  (4) Ground test: Conduct ground tests to demonstrate compatibility with air vehicle performance requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Conduct air vehicle flight tests to demonstrate compatibility with air vehicle performance requirements.",
       "source_url": "https://assist.dla.mil",

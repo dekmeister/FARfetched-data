@@ -25,7 +25,12 @@ def _easa_part(amdts: list[tuple[str, int, str]]) -> dict:
 
 def _section(section: str, versions: list[dict]) -> dict:
     return fx.provision(
-        "EASA", "cs-23", section, versions, grouping="A", title="Definitions"
+        "EASA",
+        "cs-23",
+        section,
+        versions,
+        grouping="Subpart A — General",
+        title="Definitions",
     )
 
 

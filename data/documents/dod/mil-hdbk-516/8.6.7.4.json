@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.7.4",
   "number": "8.6.7.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Cooling and ventilation of system and components",
   "subject_group": "8.6.7 Safety considerations",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.7.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Cooling and ventilation of system/components",
       "text": "Criterion: Verify that provisions for cooling and ventilation of system/components adequately address safety. Standard: APS/EPS compartment cooling and ventilation provisions maintain the temperatures of system components, fluids, and structure within the temperature limits established for these components and fluids, underground and flight operating conditions, and after normal system shutdown. These provisions are compatible with applicable fire protection certification criteria, standards and methods of compliance of 8.4 (this document). Method of Compliance: Temperature limit requirements are verified by inspection of design documentation. System thermal performance is verified by inspection of design analysis and thermal model simulations. APS/EPS compartment environments are verified by thermal surveys during ground and flight tests. References: JSSG-2009: 3.3.8, 4.3.8 MIL-HDBK-516: 8.4 FAA TSO-C77: 5.3 14 CFR 23.1041-23.1045, 23.1103(a), 25.1041-25.1045, 25.1103(a)",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Cooling and ventilation of system and components",
       "text": "Standard: APS and emergency power system compartment cooling and ventilation provisions maintain the temperatures of system components, fluids, and structure within the temperature limits established for these components and fluids, across the APS and emergency power system's operating conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of drawings and system specification documents verify that cooling provisions are in place to ensure continuous cooling of the APS and emergency power system compartment and system across its operating conditions. Analysis.\n  (1) Conduct an analysis to show that cooling provisions for the APS and emergency power system maintain system components, fluid, and compartment operating temperatures are below established limits when operated across the design envelope of the system. Test.\n    (1) Lab test: Conduct hot and cold environment lab testing (e.g., McKinley Climatic Lab) in mockup compartment or tail cone to verify that APS and emergency power systems have thermal conditioning across its design envelope, in simulated ground and flight operations.\n    (2) Ground test: Conduct ground testing in temperature extremes to verify the APS and emergency power system components, fluid and compartment temperature limits maintains operating temperatures below established limits. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing to verify that APS and emergency power system components, fluid, and compartment temperature limits are not exceeded across the design envelope of the system.",
       "source_url": "https://assist.dla.mil",

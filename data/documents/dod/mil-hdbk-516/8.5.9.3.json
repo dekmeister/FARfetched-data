@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.9.3",
   "number": "8.5.8.4",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Steering engagement",
   "subject_group": "8.5.8 Ground directional control",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.9.3",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the pilot can maintain control of the air vehicle during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action.",
       "text": "Verify that the pilot can maintain control of the air vehicle during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.9.3",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that control of the air vehicle can be maintained during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action.",
       "text": "Verify that control of the air vehicle can be maintained during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.1/A.4.4.1.4.5.1 Steering Characteristics; MIL-S-8812; AFGS-87139: para 3.2.5.1 General and 3.2.5.2 Nose gear steering system.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.9.3",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that control of the air vehicle can be maintained during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action.",
       "text": "Verify that control of the air vehicle can be maintained during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from a pilot commanded or a system uncommanded action. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.5.1/A.4.4.1.4.5.1 Steering Characteristics MIL-S-8812 AFGS-87139: 3.2.5.1 General and 3.2.5.2 Nose gear steering system.",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.9.3",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Steering engagement",
       "text": "Criterion: Verify that control of the air vehicle can be maintained during engagement or disengagement of the steering throughout all the operational speed ranges and conditions, even if it occurs from an operator/pilot commanded or a system uncommanded action. Standard: During engaging and disengaging of the steering control function, the air vehicle maintains its previously commanded directional headings, or defaults to a controllable configuration (e.g., dynamically stable, free caster, self-centering). Method of Compliance: Verification methods include analyses, tests and demonstrations. Design and failure analysis verify performance of the steering engage and disengage system. Simulator testing verifies control for the expected modes of operation and engagements. Air vehicle checkout and ground and flight testing of the normal, backup and emergency steering systems verify proper control of the aircraft during engagements and disengagements. References: JSSG-2009: A.3.4.1.4.5.1, A.4.4.1.4.5.1 Steering Characteristics MIL-S-8812 AFGS-87139: 3.2.5.1 General; 3.2.5.2 Nose gear steering system.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Steering engagement",
       "text": "Standard: Control of the air vehicle will be maintained during engagement or disengagement of the steering control function for all operational speed ranges and conditions, whether the event occurs from flight crew commanded or system commanded actions. The air vehicle maintains its previously commanded directional heading or defaults to a controllable configuration (e.g., dynamically stable, free caster, self-centering). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review of the steering system's FMECA and SSHA to verify control of the air vehicle is maintained with the steering system.\n(2) Review design and failure analysis to verify performance of the steering system engagement and disengagement for all loading conditions. Demonstration.\n  (1) Conduct ground demonstration to verify control of the air vehicle is maintained with transitions from steering-on to steering-off and changes from low to high gain (maximum steering angle). Test.\n    (1) Lab test: Conduct lab testing to verify control for the expected modes of operation and engagements for all loading conditions.",
       "source_url": "https://assist.dla.mil",

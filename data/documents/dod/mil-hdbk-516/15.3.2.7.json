@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.3.2.7",
   "number": "15.5.6",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Digital system failures",
   "subject_group": "15.5 Software architecture and design",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.3.2.7",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues.",
       "text": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.3.2.7",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues.",
       "text": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.6; JSSG-2008 Appendix A: para 3.1.11.9, 3.1.13, 3.1.17 and 3.3.2.1 provide guidance for integrity and BIT checks often implemented in software. Para 3.1.12.1 gives detailed guidance for redundancy management. Para 3.3.6.2 provides guidance for robust integrated CSCI design. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.3.2.7",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues.",
       "text": "Verify that the SOF software design has adequate self-check, failure monitoring, redundancy management, reconfiguration, voting, transient suppression, overflow protection, anti-aliasing, saturation interlock, memory protection, and techniques for preventing failure propagation to preclude SOF issues. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.6 JSSG-2008 Appendix A: 3.1.11.9, 3.1.13, 3.1.17 and 3.3.2.1 provide guidance for integrity and BIT checks often implemented in software; 3.1.12.1 gives detailed guidance for redundancy management; 3.3.6.2 provides guidance for robust integrated CSCI design FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Digital system failures",
       "text": "Criterion: Verify that the SSSEs are adequately designed to detect and accommodate digital system failures. Standard: The computer system architectural design, through techniques employed in the software and associated hardware, is fault tolerant. Typical digital system areas to address are initialization, reconfiguration, processor halt detection, transient suppression, overflow protection, anti-aliasing, saturation protection, memory protection and utilization, self-check, and protection techniques against failure propagation to preclude safety hazards. Protection techniques to consider include but are not limited to processor error detection and recovery, watchdog monitor implementation, and frame over-run protection. Method of Compliance: Verification methods include analysis, test, and inspection of design documentation. Complete software testing is accomplished from the unit level to the system level. Digital hardware FMEA and FMET verify that the system\u2019s design is able to detect and accommodate digital system failures. Verify that the design mitigates, to acceptable levels, hazards due to digital hardware failures. Verify, through analysis and test, that data and real time processing integrity are maintained. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (IX.8); 3.0 Computer Resources section (III.5.d.6); 3.1.11.9, 3.1.12.1 gives detailed guidance for redundancy management; 3.1.13, 3.1.17, and 3.3.2.1 provide guidance for integrity and BIT checks often implemented in software; 3.3.6.2 provides guidance for robust integrated CSCI design DoD JSSSEH: 3.6.1.3; 4.3.4.2; 4.3.7.3.2.6; 4.4.1.1; 4.4.1.3; 4.4.2.9; D.6.8; E.1.3.2; E.3.15; E.4.5; E.4.6; E.5.1; E.5.1.1; E.6; E.6.1; E.6.2; E.7; E.8.2; E.11.11; E.13.5 USAF Weapon Systems Software Management Guidebook: 3.8; G.2.5; G.2.6; G.3.3; G.4.1 RTCA DO-178: For RTCA DO-178C: 2.4.3; 5.2.2; 6.3.4; 6.4.2.2; 6.4.3 (see also RTCA DO-178) SAE ARP1834: fault/failure analysis for digital systems NASA-NPR 7150.2 Rev A: 2.2.12.e-h FAA AC 20-115C",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Digital system failures",
       "text": "Standard: 1. Verify that the SESSs are adequately designed to detect and accommodate digital system failures. The computer system architectural design, through techniques employed in the software and associated hardware, is fault tolerant. Typical digital system areas to address are initialization, reconfiguration, processor halt detection, transient suppression, underflow and overflow protection, deadlock prevention, race conditions prevention, divide-by-zero protection, not-a-number protection, anti-aliasing, saturation protection, memory protection and utilization, self-check, and protection techniques against failure propagation to preclude safety hazards. Protection techniques to consider include but are not limited to processor error detection and recovery, watchdog monitor implementation, and processing frame over-run protection. In addition, for designs utilizing MCP environments: 2. The MCP environment is capable of detecting and accommodating digital system failures (including all unique MCP failure modes) to meet safety and fault tolerance requirements. 3. The watch dog monitor designs and protection mechanisms for each process and processing task and processing core (and VM as applicable) are fully documented, prevent failure propagation within SCF operation, and do not induce safety hazards. The triggering of watch dog monitors or protection mechanisms by a processing core not processing a SESS or by a non-safety-critical process or processing task does not adversely impact the integrity of SCF operation. 4. The MCP is designed to detect and accommodate MCP hardware failures with a graceful shutdown of the entire MCP environment. If it can be assured that the failure detected is a hardware failure limited to a single processing core and the accommodation will not have any impact to SCF processing in other processing cores, then this particular failure mode may allow the MCP environment to continue processing while only gracefully shutting down the processing core that failed. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of design documentation. Complete software testing is accomplished from the unit level to the system level. Digital hardware FMEA and FMET verify that the system\u2019s design is able to detect and accommodate digital system failures. Verify that the design mitigates hazards due to digital system failures. Verify, through analysis and test, that data and real time processing integrity are maintained. In addition, for designs utilizing MCP environments: 2. Analysis verifies that the MCP failure modes are identified. Analysis and testing (e.g., FMET) verify that the identified MCP failure modes are detected and accommodated to meet fault tolerance requirements. 3. Examination of design documentation verifies that the monitoring and protection mechanisms have been documented. Analysis and test verify that the watch dog monitors and protection mechanisms prevent failure propagation; do not induce hazards; and ensure that triggering by a processing core not processing a SESS, or due to a non-safety-critical process or processing task, does not adversely impact the integrity of SCF operation. 4. Analysis verifies failure modes that are clearly hardware failures of the MCP are identified and whether the failure can be isolated to drive an accommodation that shuts down one processing core or the whole MCP. Simulation and testing verifies that hardware failure modes result in graceful shutdowns of MCP (or processing core when applicable).",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.3.7",
   "number": "8.3.8",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Fuel transfer",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.3.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that fuel transfer flow rates meet the operational ground and flight envelope requirements.",
       "text": "Verify that fuel transfer flow rates meet the operational ground and flight envelope requirements.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.3.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that fuel transfer flow rates meet the operational ground and flight envelope requirements.",
       "text": "Verify that fuel transfer flow rates meet the operational ground and flight envelope requirements. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.2.3, E.4.4.5.2.3, E.3.4.5.4, E.4.4.5.4, E.3.4.5.4.1, E.4.4.5.4.1 FAA Doc: 14CFR references: 23.951, 23.952, 23.953, 23.955, 23.961, 25.951, 25.952, 25.953, 25.955, 25.961",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fuel transfer rates",
       "text": "Criterion: Verify that fuel transfer flow rates meet the operational ground and flight envelope requirements. Standard: The fuel system meets transfer requirements for all functions including center of gravity management, thermal management, and engine feed. The rate of fuel transfer from any transfer tank to an engine feed tank is equal to or greater than the maximum rate of fuel consumption of the engine to the specified low level fuel quantity of the transfer tank; and provisions are provided to notify the operator of low fuel quantity in the feed tank, or a loss of fuel transfer. Method of Compliance: Analyses, ground tests and flight demonstrations verify the fuel transfer rates under all operational conditions. Ground and flight tests verify the performance of the fuel transfer subsystem. Analyses, fuel system simulator tests and flight tests verify that the fuel transfer subsystem is not affected by operation of the fuel jettison system. References: JSSG-2009: E.3.4.5.2.3, E.4.4.5.2.3; E.3.4.5.4, E.4.4.5.4; E.3.4.5.4.1 ,E.4.4.5.4.1 MIL-F-17874 14 CFR 23.951, 23.952, 23.953, 23.955, 23.961, 25.951, 25.952, 25.953, 25.955, 25.961, 27.951, 27.953, 27.955, 27.961, 29.951, 29.953, 29.955, 29.961",
       "source_url": "https://assist.dla.mil",
@@ -41,7 +41,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fuel transfer",
       "text": "Standard: The fuel system transfers fuel to meet air vehicle functional requirements under all operational conditions (e.g., CG management, AR, thermal management, fuel jettison, and engine feed). Transfer rates into engine feed tanks will be at least as high as the maximum fuel consumption rate of the engine. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine documentation to show fuel transfer requirements are identified and documented. Analysis.\n  (1) Perform analysis to show fuel transfer rates meet air vehicle requirements under all operational conditions.\n  (2) Perform analysis to show that the fuel transfer subsystem is not affected by operation of the fuel jettison system.\n  (3) Perform analysis to show fuel jettison functions do not jettison fuel below minimum fuel state requirements. Test.\n    (1) Lab test: Perform tests to show the fuel transfer subsystem meets performance requirements under all operational conditions.\n    (2) Lab test: Perform tests to show that the fuel transfer subsystem is not affected by operation of the fuel jettison system.\n    (3) Ground test: Perform tests to show that the fuel transfer subsystem is not affected by operation of the fuel jettison system.\n    (4) Ground test: Perform tests to show the fuel transfer rates meet system requirements.\n    (5) Ground test: Perform tests to show fuel jettison functions do not jettison fuel below minimum fuel state requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (6) Flight test: Perform flight tests to validate analysis and ground test results that show fuel transfer rates meet performance requirements under all operational conditions.\n    (7) Flight test: Perform flight tests to verify that the fuel transfer subsystem is not affected by the operation of the fuel jettison system.",
       "source_url": "https://assist.dla.mil",

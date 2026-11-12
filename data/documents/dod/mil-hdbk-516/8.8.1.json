@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.1",
   "number": "7.4.25",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Physical interface loads",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all engine/air vehicle physical interfaces are safe.",
       "text": "Verify that all engine/air vehicle physical interfaces are safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.5.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that all engine/air vehicle physical interfaces such as mechanical, fluid, and electrical connections are safe.",
       "text": "Verify that all engine/air vehicle physical interfaces such as mechanical, fluid, and electrical connections are safe. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.3, A.4.1.1.3, Interface Loads. FAA Doc: 14CFR references: 33.5",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.5.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that all engine/air vehicle physical interfaces such as mechanical, fluid, and electrical connections are safe.",
       "text": "Verify that all engine/air vehicle physical interfaces such as mechanical, fluid, and electrical connections are safe. DoD/MIL Doc: JSSG-2007A: A.3.1.1.3, A.4.1.1.3, Interface Loads. JSSG-2001B: 3.3.1.1/4.3.1.1 FAA Doc: 14CFR references: 33.5",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.5.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Physical interfaces",
       "text": "Criterion: Verify that all engine to air vehicle physical interfaces such as mechanical, fluid, and electrical connections are safe. Standard: All engine to air vehicle interfaces meet all safety related requirements as defined in the Interface Control Document (ICD). All engine to air vehicle interfaces remain securely connected and do not leak when subjected to the operating conditions (e.g., vibration, temperature) of the air vehicle. All engine to air vehicle interfaces are free of any contact with neighboring components that result in a wear or chafing condition. All engine to air vehicle interfaces can withstand the maximum combination of static and dynamic loading throughout the defined flight and ground envelopes and environments. All safety critical engine to air vehicle interfaces are fault tolerant or fail safe with no single failure or combination of failures having an unacceptable probability of loss of the air vehicle. Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation. Inspection of the hardware and a demonstration of installing the engine ensures ICD requirements are met. Analysis, full-up engine and flight tests ensure interface loads are within design limitations. Analysis and inspection of the interfaces, with the engine installed in the air vehicle, verifies the absence of wear or chafing conditions. Engine/Air Vehicle physical interface requirements are verified by inspection of program documentation such as interface control and design documents. System interfaces are analyzed to withstand maximum loading at worst case single failure operating and loading conditions (e.g., bending/torsional loads, pressures, temperatures, vibratory, misalignment). System interface critical analysis assumptions are verified by stress, thermal, pressure or vibration surveys during ground and flight tests as appropriate. References: JSSG-2007: A.3.1.1.3, A.4.1.1.3 Interface Loads. 14 CFR 33.5",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Physical interface loads",
       "text": "Standard: Engine to air vehicle physical interfaces (e.g., mechanical, fluid, and electrical connections) remain connected when subjected to maximum loading conditions (e.g., bending, torsional loads, pressures, temperatures, vibratory, misalignment) when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the ICD to verify engine to air vehicle interface loads are fully defined. Analysis.\n  (1) Analysis verifies engine to air vehicle interface loads. Test.\n    (1) Ground test: Installed engine ground testing verifies engine to air vehicle interface loads. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing verifies engine to air vehicle interface loads.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.14.5",
   "number": "6.1.11.19",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Rotor revolutions per minute governing",
   "subject_group": "6.1.11 Rotary-wing",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.14.5",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Rotor revolutions per minute (RPM) governing",
       "text": "Criterion: Verify that rotor speed response is safe. Standard: The air vehicle meets the standards within ADS-33-PRF, 3.3.10.4 Rotor RPM governing and 3.4.3.3 Rotor RPM governing. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Rotor revolutions per minute governing",
       "text": "Standard: While executing MTEs, the rotor RPM stays within the limits established by the SFE. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to assess that while executing the MTEs designated for the air vehicle required agility and category, the rotor RPM does not decay below the lower limit, nor does it exceed the upper limit prescribed by the SFE as specified in MIL-DTL-32742, Rotor RPM Governing paragraph for each air vehicle configuration and loading. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess that while executing the MTEs designated for the air vehicle required agility and category, the rotor RPM does not decay below the lower limit nor does it exceed the upper limit prescribed by the SFE as specified in MIL- DTL-32742, Rotor RPM Governing paragraph for each air vehicle configuration and loading. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test, for selected combinations of air vehicle configuration and loading within the SFE, to assess that while executing the MTEs designated for the air vehicle required agility and category, the rotor RPM does not decay below the lower limit nor does it exceed the upper limit prescribed by the SFE as specified in MIL-DTL-32742, Rotor RPM Governing paragraph for each air vehicle configuration and loading.",
       "source_url": "https://assist.dla.mil",

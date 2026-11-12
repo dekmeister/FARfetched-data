@@ -36,6 +36,7 @@ from certbuild.similarity import insert_similarity
 from certbuild.text.paragraphs import ParsedText
 from certbuild.sources import (
     Source,
+    check_groupings,
     check_paths,
     read_data_dir,
 )
@@ -83,8 +84,8 @@ class Sources:
 
 
 def load_checked(data_dir: Path) -> Sources:
-    """Every check that needs no DB: the schemas, then file paths and text
-    layout. Raise BuildError listing every fault of the first stage that
+    """Every check that needs no DB: the schemas, then file paths, text
+    layout and grouping style. Raise BuildError listing every fault of the first stage that
     fails.
 
     `check()` (--check) and `build()` both run exactly this, so --check
@@ -92,7 +93,11 @@ def load_checked(data_dir: Path) -> Sources:
     files, validation_errors = read_data_dir(data_dir)
     _raise_if([str(e) for e in validation_errors])
     texts, text_errors = parse_texts(files.provisions)
-    _raise_if(check_paths(files.documents, files.provisions) + text_errors)
+    _raise_if(
+        check_paths(files.documents, files.provisions)
+        + text_errors
+        + check_groupings(files.provisions)
+    )
     return Sources(files.documents, files.provisions, files.aircraft, texts)
 
 

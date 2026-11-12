@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.8.10-516d",
   "number": "8.8.10",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Control interlocks",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Control interlocks",
       "text": "Standard: Control interlocks (e.g., engine speed and WOW) prevents inadvertent actuation of the rotor braking system to prevent overloading of brakes and loss of rotor speed if air vehicle is airborne. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of control interlocks logic to verify in ability of the brakes to applied as required. Analysis.\n  (1) Conduct a FMECA to verify single point failures do not prevent interlocks from allowing the brakes to be engaged with engine speed above ground idle and with air vehicle is off ground. Demonstration.\n    (1) Conduct an air vehicle ground demonstration to verify the brakes to applied as required. Test.\n      (1) Lab test: Conduct SIL test of control interlocks to verify system does not cause application of braking under required conditions.",
       "source_url": "https://assist.dla.mil",

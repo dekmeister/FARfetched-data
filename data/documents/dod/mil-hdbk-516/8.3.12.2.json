@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.3.12.2",
   "number": "8.3.11",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Secondary barriers",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.3.12.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that secondary fuel and vapor tight barriers have been provided between fuel tanks, fire hazard areas, and inhabited areas.",
       "text": "Verify that secondary fuel and vapor tight barriers have been provided between fuel tanks, fire hazard areas, and inhabited areas.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.3.12.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that secondary fuel and vapor tight barriers is provided between fuel tanks, fire hazard areas, and inhabited areas.",
       "text": "Verify that secondary fuel and vapor tight barriers is provided between fuel tanks, fire hazard areas, and inhabited areas. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.6.11, E.4.4.5.6.11 FAA Doc: 14CFR references: 23.863, 23.967, 23.1185, 25.863, 25.967, 25.1185, 25.981 AC 25-981-2, AC 25-981-1B",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.3.13.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Secondary barriers",
       "text": "Criterion: Verify that secondary fuel and vapor tight barriers are provided between fuel tanks, fire hazard areas, and inhabited areas. Standard: Dual vapor and liquid-proof barriers are installed between fuel tanks and other zones on the aircraft that contain ignition sources (e.g., avionics bays, sensor bays) and inhabited areas. Provisions are made to allow detection of fuel leakage across the primary barrier. Method of Compliance: Analysis and component tests verify performance of the primary and secondary fuel and vapor tight barriers. Engineering test models verify performance of the fault isolation provisions to detect a failure of the primary fuel barrier. Ground demonstration verifies adequacy of the secondary barrier design to isolate and remove flammable vapors to a safe location. References: JSSG-2009: E.3.4.5.6.11, E.4.4.5.6.11 MIL-F-17874 14 CFR 23.863, 23.967, 25.863, 25.967, 25.1185, 25.981, 27.863, 27.967, 27.1185, 29.863, 29.967, 29.1185 AC 25.81-1B AC 25.981-2",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Secondary barriers",
       "text": "Standard: Dual vapor and liquid-proof barriers are installed between fuel and potential ignition sources (e.g., avionics bays, sensor bays) and inhabited areas. The fuel system will detect fuel leakage across the primary barrier and drain this leakage to a location that will not create an additional hazard. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documents to show and verify the presence of two vapor and fluid-proof barriers between fuel tanks and plumbing, and other zones that contain potential ignition sources. Analysis.\n  (1) Conduct analysis of design documents to show and verify there is a means to detect a leak in the primary barrier, and to remove leaked fluid and vapors to a location that will not create an additional hazard. Test.\n    (1) Ground test: Conduct ground tests to show and verify the performance of the dual barriers, leak detection, and removal of leaked fluids and vapors. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Post-flight inspections determine if any leaks occurred, and if the leak detection system functioned properly to detect the leak.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.5.1.9",
   "number": "8.5.1.9",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Landing gear hiking and dehiking system",
   "subject_group": "8.5.1 Landing gear general arrangement",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Landing gear hiking and dehiking system",
       "text": "Standard: Landing gear hiking system positions and supports the air vehicle at the AOA needed for the air vehicle to takeoff within the specified conditions and runway length. The landing gear hikes or dehikes automatically when the air vehicle is in a weight off wheels status or a gear up command is issued to prevent the gear from being damaged or the landing gear from jamming in the wheel well. The position of a hiked landing gear on a manned or UAV is indicated to the flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of drawings and inspection of air vehicle verifies flight crew controls are accessible.\n(2) Review of flight manual verifies proper procedures, sequencing for hiking and dehiking operations, and indication to the flight crew. Analysis.\n  (1) Conduct sizing analysis to verify the hiking actuation system can raise the air vehicle to the specified AOA.\n  (2) Conduct static strength analysis to verify the hiking system structural components have positive strength margins for DLLs and ultimate loads. Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate loads. Ultimate load is 1.5X DLL. Test.\n    (1) Lab test: Conduct testing of hardware to verify hiking system structural components meet limit and ultimate load strength margins.\n    (2) Ground test: Conduct ground testing of hiking actuation system and structural components to verify hiking system's ability to maintain air vehicle's AOA during takeoff roll, to hike or dehike, and to provide indication to the flight crew of gear position. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight testing on air vehicle to verify the hiking actuation system and structural component's ability to maintain air vehicle's AOA up to takeoff, to hike or dehike, and to provide indication to the flight crew of gear position.",
       "source_url": "https://assist.dla.mil",

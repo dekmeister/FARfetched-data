@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.4.2.2",
   "number": "11.4.2.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Systems requiring calibration",
   "subject_group": "11.4.2 Diagnostics use of SOF parameters",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Systems requiring calibration",
       "text": "Standard: The SOF parameters requiring calibration are identified. The operation and calibration procedures of safety-critical items are defined and shown to provide the needed calibration for the SOF parameters being measured. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the avionics equipment, TMDE, calibration equipment, and standard parameters to identify those systems requiring measurement or calibration support.\n(2) Review design documentation, technical manual, and source material to identify the tolerances, accuracy, and test accuracy ratio of the SOF parameters.\n(3) Review calibration procedures and operational procedures to verify that the operations of the systems requiring calibration are correct when utilizing the TMDE. Analysis.\n  (1) Verify that the avionics system, subsystems, equipment calibration, and measurement requirements are identified and traceable to the approved National Institute of Standards and Tests standards or other DoW approved measurements requirements.\n  (2) Analysis of the Calibration Measurement Requirements Summary shows TMDE supporting the calibration of SOF parameters is defined.\n  (3) Analysis of Calibration Measurement Requirements Summary shows that common and peculiar calibration equipment, approved National Institute of Standards and Tests standards or other DoW approved measurements requirements, and TMDE are used for calibration and measurement of SOF parameters.",
       "source_url": "https://assist.dla.mil",

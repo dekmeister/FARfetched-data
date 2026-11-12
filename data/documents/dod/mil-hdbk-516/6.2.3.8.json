@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.8",
   "number": "6.2.17.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Transients",
   "subject_group": "6.2.17 Vehicle control function electrical power systems safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.3.8",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify electrical power transients, both normal and switchover, are safe.",
       "text": "Verify electrical power transients, both normal and switchover, are safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.3.8",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that electrical power transients, both normal and switchover, are safe.",
       "text": "Verify that electrical power transients, both normal and switchover, are safe. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.5.2, 4.1.5.2, 3.1.7.2, 4.1.7.2, 3.1.10, 4.1.10, 3.1.11.11.2, 4.1.11.11.2, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.2.5, 4.2.2.2.5 FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.3.8",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that electrical power transients, both normal and switchover, are safe.",
       "text": "Verify that electrical power transients, both normal and switchover, are safe. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.5.2, 4.1.5.2, 3.1.7.2, 4.1.7.2, 3.1.10, 4.1.10, 3.1.11.11.2, 4.1.11.11.2, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.2.5, 4.2.2.2.5 FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.11.3",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Transients",
       "text": "Criterion: Verify that electrical power transients, both normal and switching, are safe. Standard: Electrical power transients due to switching sources, shorts, opens, contactors, relays, fuses, diodes and any other devices that can cause power transients do not result in any power upset to, degradation of or loss of VCF. Electrical power transient times do not upset or cause loss of the VCF. Method of Compliance: Verification methods include analysis, tests, simulation and review of documentation. Hardware in the Loop (HITL) including FMET and ground tests verify no loss of VCF for any power transient and switching conditions. References: JSSG-2008: 3.0, 3.1, 3.1.5.2, 3.1.7.2, 3.1.10, 3.1.11.11.2, 3.2.2.2.2, 3.2.2.2.5, associated section 4 paragraphs. 14 CFR 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Transients",
       "text": "Standard: Electrical power transients do not result in degradation of VCF below Operational State II. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify electrical power quality requirements are captured for VCF components. Test.\n  (1) Lab test: Conduct VCF component level power quality interface test IAW MIL-STD-704, General Requirements and Detailed Requirements sections, or as specified by the procuring activity.\n  (2) Lab test: Complete a power transient evaluation during EPS integrated test.\n  (3) Ground test: Complete a power transient evaluation for startup and switching.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "14.2.3",
   "number": "14.3.3",
-  "current_grouping": "14. SYSTEM SAFETY",
+  "current_grouping": "Section 14 \u2014 System Safety",
   "canonical_title": "Evaluation of software for elimination of hazardous events",
   "subject_group": "14.3 Software safety program",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "14.2.3",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Verify that the design/modification software ensures controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state.",
       "text": "Verify that the design/modification software ensures controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516A",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state.",
       "text": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state.",
       "source_url": "https://assist.dla.mil",
@@ -30,7 +30,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state.",
       "text": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state. Comm\u2019l Doc: DO-178B defines software integrity levels for safety critical functions. DoD/MIL Doc: MIL-STD-882D: para 4, Appendix A; DoD/MIL Doc: Joint Software System Safety Committee, \u201cSoftware System Safety Handbook: A Technical & Managerial Team Approach,\u201d Dec 1999 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
       "source_url": "https://assist.dla.mil",
@@ -40,7 +40,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state",
       "text": "Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state Comm\u2019l Doc: DO-178B defines software integrity levels for safety critical functions DoD/MIL Doc: MIL-STD-882D: 4, Appendix A DoD/MIL Doc: Joint Software System Safety Committee, \u201cSoftware System Safety Handbook: A Technical & Managerial Team Approach,\u201d Dec 1999 FAA Doc: 14CFR references: system safety sections of Parts 23, 25, 27, 29",
       "source_url": "https://assist.dla.mil",
@@ -50,7 +50,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Evaluation of software for elimination of hazardous events",
       "text": "Criterion: Verify that the design/modification software is evaluated to ensure controlled or monitored functions do not initiate hazardous events or mishaps in either the on or off (powered) state. Standard: The software as designed or as modified does not initiate hazardous events in either the on or off (powered) state. Method of Compliance: Verification methods include analysis, test, and inspection of documentation. Verify that a system safety assessment is accomplished which includes evaluation of software and identification of anomalous software control/monitoring behavior to assure the software as designed or as modified does not initiate relevant hazardous events. References: MIL-STD-882 JSSSEW JSSSEH RTCA DO-178 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars.",
       "source_url": "https://assist.dla.mil",
@@ -60,7 +60,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Evaluation of software for elimination of hazardous events",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

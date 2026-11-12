@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.2.7",
   "number": "15.2.7",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Single event effect susceptibility",
   "subject_group": "15.2 Design and functional integration of system processing architecture elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Single event upset (SEU) susceptibility",
       "text": "Criterion: Verify that the SPA is designed to ensure that SEUs do not cause unsafe conditions. Standard: Areas of the envelope susceptible to SEU effects are identified. SPAs/SSEs supporting SCFs that have SEU susceptibility are identified. Detection, correction, and prevention techniques are employed to mitigate hazards and the loss of SCFs. Method of Compliance: Verification methods include analysis and test. Analysis ensures acceptable level of coverage protection across the design. Testing ensures BIT mechanisms can detect SEU data corruption and the system can employ mitigating corrections. Testing verifies the effectiveness of shielding techniques. References: JSSG-2008 Appendix A: 3.1, 4.1 no single failure; 3.1.7.3 addresses failure propagation; 3.1.9 maintain control after single failure; 3.1.11.1 requirement prohibiting single or dissimilar combination failure; 3.1.13.2 in flight fault detection; 3.1.14.1 invulnerability to natural environments; 3.1.14.3 invulnerability to induced environments; 3.1.17 memory protection for computations supporting critical functions; 3.3.2 processing hardware; 3.3.5 growth and reserves NASA-NPR-7150.2 Rev A: 2.2.12.f and i (also see note on item f) RTCA DO-178: For RTCA DO-178C: 4.5 Note 2; 11.1 (see also RTCA DO- 178B) RTCA DO-254: 2.3.1; 2.3.3; 3.1; 3.3.2.1 FAA AC 20-115C FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.1.4 DOT/FAA/AR-07/48: 6.16.2",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Single event effect susceptibility",
       "text": "Standard: 1. Verify that the SPA incorporates mechanisms to mitigate SEEs to prevent a catastrophic or critical severity mishap. Single event effect susceptibility of ESSs and other equipment that could contribute to a catastrophic or critical mishap is identified based on planned usage and operating environment. Detection, correction, and prevention techniques are employed to ensure the integrity of SCF operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis and test. Analysis determines SEE susceptibility of ESSs and other equipment that could contribute to a catastrophic or critical mishap and ensures an acceptable level of protection across the design. Testing ensures fault detection mechanisms can detect the effects of SEEs and the system can employ mitigating corrections. Testing verifies the effectiveness of SEE shielding techniques.",
       "source_url": "https://assist.dla.mil",

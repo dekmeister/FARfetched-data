@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "14.3.6",
   "number": "14.3.6",
-  "current_grouping": "14. SYSTEM SAFETY",
+  "current_grouping": "Section 14 \u2014 System Safety",
   "canonical_title": "Software safety test analyses",
   "subject_group": "14.3 Software safety program",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Software safety test analyses",
       "text": "Criterion: Verify that the appropriate software safety test analyses have been planned and performed. Standard: Software safety test analyses (e.g., nominal and functional requirements base testing/analysis, structural coverage analysis, hazard mitigation testing analysis, failure modes and effects testing analysis) planning and other documentation are formally documented and are kept under configuration management control. Software safety test analyses activities are also executed; results are recorded using formal procedures and are kept under configuration control. Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of the safety plans that software safety testing and test analyses have been adequately documented and planned. Verify by analysis of the documented hazards that the hazards associated with software and computer components have been eliminated or controlled to the acceptable level of risk as required by the system/software safety plan. Verify by inspection of the test reports that the software safety test results have been analyzed and approved/accepted. References: MIL-STD-882 JSSSEW JSSSEH AMCOMR 385-17, AMCOM Software System Safety Policy RTCA DO-178 SAE ARP4754 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Software safety test analyses",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

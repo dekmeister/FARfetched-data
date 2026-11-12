@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.3.1",
   "number": "11.2.3.1",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Accuracy of safety-critical data",
   "subject_group": "11.2.3 Installation and integration",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Accuracy of safety-critical data",
       "text": "Standard: The accuracy, continuity, and integrity of all avionics safety-critical parameters support SCF operation for the air vehicle over the entire flight envelope, profiles, and specified geographic locations. Safety-critical data is transmitted between systems and subsystems without the loss of accuracy and integrity. Avionics system hardware and primary flight data parameters listed in MIL-STD-1787, Primary Flight Data paragraph meet air vehicle accuracy, continuity, and integrity specifications. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify the detailed design information specifies the required accuracy, continuity, and integrity of safety-critical parameters, primary flight data parameters, and avionics system hardware. Analysis.\n  (1) System hazard analysis, FMEA, and FMECA verifies that critical information related failures do not result in loss of information or introduction of HMI.\n  (2) Conduct FTA of the avionics system\u2019s SCFs to ensure continuity and integrity of safety-critical parameters in the presence of failures. Test.\n    (1) Lab test: Conduct laboratory testing to verify accuracy meets the specifications in the program detailed design information and does not result in loss of information or introduction of HMI for the air vehicle.\n    (2) Lab test: Conduct FMET to verify the continuity and integrity of the system.\n    (3) Ground test: Air vehicle ground tests will be used to validate analysis and laboratory test results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight testing to validate analysis, laboratory, and ground test results in normal modes.",
       "source_url": "https://assist.dla.mil",

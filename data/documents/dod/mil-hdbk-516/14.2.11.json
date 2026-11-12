@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "14.2.11",
   "number": "14.2.11",
-  "current_grouping": "14. SYSTEM SAFETY",
+  "current_grouping": "Section 14 \u2014 System Safety",
   "canonical_title": "Assess safety of operational contingencies",
   "subject_group": "14.2 Safety design requirements",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Assess safety of operational contingencies",
       "text": "Criterion: Verify that the system provides and implements operational contingencies in the event of catastrophic, critical and marginal failures or emergencies involving the system. Standard: In the event of catastrophic, critical and marginal failures or emergencies the system provides and implements operational contingencies by transitioning to a pre-determined and expected state and mode. Method of Compliance: Verification method includes inspection of documentation. Inspections of safety analyses verify which catastrophic, critical, marginal failures, and other system emergencies require operational contingencies. Inspections of design documentation verify that, in the event of the identified failures or emergencies, the system provides and implements operational contingencies by transitioning to a pre-determined and expected state and mode. Inspection of system safety documentation verifies that operational contingencies have been approved. References: Unmanned Systems Safety Guide for DOD Acquisition SAE ARP4754 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29 and related advisory circulars.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Assess safety of operational contingencies",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

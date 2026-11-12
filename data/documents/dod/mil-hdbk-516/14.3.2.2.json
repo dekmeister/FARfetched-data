@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "14.3.2.2",
   "number": "14.3.2.2",
-  "current_grouping": "14. SYSTEM SAFETY",
+  "current_grouping": "Section 14 \u2014 System Safety",
   "canonical_title": "Performance of software safety traceability analyses",
   "subject_group": "14.3.2 Planning/accomplishing software safety analyses and assessments",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Performance of software safety traceability analyses",
       "text": "Criterion: Verify that the required software safety traceability analyses are accomplished. Standard: System safety requirements allocated to software are refined using appropriate analyses to allocate the system safety requirements to the software requirements, and bi-directional traceability to the identified hazard(s) is accomplished. Appropriate analyses include the tailored documentation required by the references of 14.3 (this document). Method of Compliance: Verification method includes inspection of documentation. Verify by inspection of system safety, software safety and program documentation that the bi-directional software safety traceability analyses amongst requirements, design, implementation, verification, and hazard have been accomplished. References: MIL-STD-882 JSSSEW JSSSEH AMCOM REG 385-17, AMCOM Software System Safety Policy RTCA DO-178 SAE ARP4761 NATO AOP-52 14 CFR Section 1309 of Parts 23, 25, 27, 29 and related advisory circulars.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Performance of software safety traceability analyses",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

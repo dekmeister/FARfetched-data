@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.12.12",
   "number": "8.5.15.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Damage tolerance and durability approaches",
   "subject_group": "8.5.15 Landing gear and deceleration systems overarching standards",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.12.12",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety.",
       "text": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.12.12",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety.",
       "text": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety. Comm\u2019l Doc: Level II Damage Tolerance requirements. DoD/MIL Doc: AFGS-87139: para. 3.2.2.1 General; 3.2.2.2 Shock absorption; and 3.2.2.3 Tail bumpers. FAA Doc: 14CFR reference: 25.1309, 25.571",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.12.12",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety.",
       "text": "Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety. Comm\u2019l Doc: Level II Damage Tolerance requirements. DoD/MIL Doc: AFGS-87139: 3.2.2.1 General; 3.2.2.2 Shock absorption; and 3.2.2.3 Tail bumpers. FAA Doc: 14CFR reference: 25.1309, 25.571",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.12.12",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Damage tolerance",
       "text": "Criterion: Verify that the system and system components have damage tolerance capability to sustain partial failure or leakage before failure without jeopardizing safety. Standard: Structure or components that have fail safe design criteria fail in a safe and predictable manner. The design limits undesirable failures and controls the method of failure. Maintenance procedures are provided for detecting failures for fail safe components. Method of Compliance: Verification methods include analyses and test. Design analysis shows damage tolerance capability of individual components and FMECA shows primary failure modes for the system and components. Static, fatigue and system tests verify the fail safe design. References: AFGS-87139: 3.2.2.1 General; 3.2.2.2 Shock absorption; 3.2.2.3 Tail bumpers 14 CFR 25.571, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Damage tolerance and durability approaches",
       "text": "Standard: Landing gear and deceleration system components (e.g., secondary load path items, wheels, linkages, hydraulics, and electrical) which perform SCFs are capable of performing such functions in the presence of undetected flaws, defects, and maintenance or service induced damage so that the SCF is not lost. Damage tolerance and durability approaches can be achieved by the application of fracture mechanics, fail-safe, safe life, leak-before-burst principles, redundancy, or in the case of composite parts, by showing tolerance to impact damage. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review list of SCFs and safety-critical components to verify proper classification of components to ensure components are designed to be damage tolerant.\n(2) Review engineering schematics of landing gear and deceleration actuation systems for redundancy level. Analysis.\n  (1) Conduct a fracture mechanics analysis on pressure vessels to verify that a through crack in a fluid container leaks fluid before burst by demonstrating tolerance of a through crack 2X and 10X the wall thickness.\n  (2) As an alternative to Analysis MoC (3), conduct damage tolerance analysis to verify the ability of components to perform in the presence of material, manufacturing, processing, or handling or operationally-induced damage for the minimum required maintenance-free period of unrepaired usage.\n  (3) As an alternative to Analysis MoC (2), for materials which are not damage tolerant, conduct a durability analysis using the safe life approach with material scatter factors to verify required operational service life. Test.\n    (1) Lab test: As an alternative to Test MoC (2), conduct damage tolerance tests to verify the damage tolerance characteristics of safety-critical components to meet DSL.\n    (2) Lab test: As an alternative to Test MoC (1), for components whose materials are not damage tolerant, conduct a durability test using the safe life approach with material scatter factors to verify required operational service life.",
       "source_url": "https://assist.dla.mil",

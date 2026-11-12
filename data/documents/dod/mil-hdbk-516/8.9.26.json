@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.26",
   "number": "8.7.21",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "In-flight actuation prevention for ground only systems",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.9.26",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that locking mechanisms incorporate a means of operational command interrupt to prevent in-flight actuation of ground-only operating systems, that all mechanical and powered locks and actuators are designed to prevent undesired surface positioning in flight, and that the \"fold\" sequence requires two separate, deliberate actions in the case of flight critical surfaces.",
       "text": "Verify that locking mechanisms incorporate a means of operational command interrupt to prevent in-flight actuation of ground-only operating systems, that all mechanical and powered locks and actuators are designed to prevent undesired surface positioning in flight, and that the \"fold\" sequence requires two separate, deliberate actions in the case of flight critical surfaces. DoD/MIL Doc: JSSG 3.4.9.4.2",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.26",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "In-flight actuation prevention for ground only systems",
       "text": "Criterion: Verify that locking mechanisms incorporate a means of operational command interrupt to prevent in-flight actuation of ground-only operating systems, that all mechanical and powered locks and actuators are designed to prevent undesired surface positioning in flight, and that the \"fold\" sequence requires two separate, deliberate actions in the case of flight critical surfaces. Standard: Locking features are used to prevent inadvertent use of ground-only systems while in flight. The locking features are positive, do not depend on any power source to remain engaged, and are not accessible during flight conditions. A means of operational command interrupt is incorporated to prevent actuation of ground-only systems while in flight. The control and lock subsystem is shielded against electromagnetic interference (EMI), and the \u201cfold\u201d sequence requires two separate deliberate operator actions in the case of flight critical surfaces such as wings and rotor blades. Method of Compliance: The design is verified through inspection of air vehicle documents. Analysis and demonstration verify that the ground-only systems cannot be operated in-flight. References: JSSG-2009: (Appendix I) I.3.4.9.4.2",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "In-flight actuation prevention for ground only systems",
       "text": "Standard: Locking mechanisms incorporate a means of operational command interrupt to prevent in-flight actuation of ground-only operating systems, that all mechanical and powered locks and actuators are designed to prevent undesired surface positioning in flight, and that the \"fold\" sequence requires two separate, deliberate actions in the case of flight-critical surfaces. The locking features are positive, do not depend on any power source to remain engaged, and are not accessible during flight conditions. A means of operational command interrupt is incorporated to prevent actuation of ground-only systems while in flight. The \"fold\" sequence requires two separate deliberate crewmember actions in the case of flight-critical surfaces such as wings and rotor blades. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review air vehicle documents to verify that the ground-only systems cannot be operated in-flight. Analysis.\n  (1) Conduct an analysis to verify that the ground-only systems cannot be operated in-flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (1) Conduct flight demonstrations to verify that the ground-only systems cannot be operated in-flight.",
       "source_url": "https://assist.dla.mil",

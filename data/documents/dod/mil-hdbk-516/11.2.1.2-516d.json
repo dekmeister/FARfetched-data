@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.1.2-516d",
   "number": "11.2.1.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Timing and latency (normal modes)",
   "subject_group": "11.2.1 Modes of operation",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Timing and latency (normal modes)",
       "text": "Standard: End-to-end timing and latency are defined and shown to support the integrity of all SCFs. For PFR information, 100 milliseconds is the standard, but a different system specified value can be used if analysis and testing show there is no adverse impact to the flight crew or flight control response times. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify design specifications, system requirements, and FMEA identify timing and latency for normal modes for operation of SCFs.\n(2) Analyze timing and latency IAW the specified values to ensure there are no impacts to flight crew or system response times affecting the integrity of the SCFs. Test.\n  (1) Lab test: Conduct laboratory testing at worst-case operating conditions to verify the timing for normal modes are IAW specified values and there are no impacts to the flight crew or system response times affecting the integrity of the SCFs.\n  (2) Ground test: Air vehicle ground tests validate analysis and laboratory test results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct flight testing to validate analysis, laboratory, and ground test results. Safety-critical function timing and latency performance is verified by flight test.",
       "source_url": "https://assist.dla.mil",

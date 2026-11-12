@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.1.6.7",
   "number": "6.1.6.7",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Heading attitude bandwidth for ground operations",
   "subject_group": "6.1.6 Fixed-wing lateral-directional flying qualities",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Heading attitude bandwidth for ground operations",
       "text": "Standard: While on the ground, the air vehicle heading attitude bandwidth, defined as the highest frequency at which the air vehicle has less than 45 degrees of phase lag between heading command input and air vehicle yaw response. The bandwidth is no less than 1 radian per second at 40 kts, varying linearly to 2 radians per second at 120 kts and extrapolated down to administrative taxi speeds and up to the maximum landing touchdown speed, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Parameters of interest are phase and gain bandwidth frequency and phase delay. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the air vehicle's heading attitude bandwidth using heading command control effector frequency sweeps at discrete groundspeeds (described in rad/s) for each combination of air vehicle states, runway conditions, and environmental conditions. Heading attitude bandwidth should be analyzed as a function of speed with and without braking. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the air vehicle's heading attitude bandwidth using heading command control effector frequency sweeps at discrete airspeeds for each combination of air vehicle states, runway conditions, tire pressures and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight or Ground test: Conduct ground or flight test to assess the air vehicle's heading attitude bandwidth using heading command control effector frequency sweeps at discrete airspeeds for selected combinations of air vehicle states, runway conditions, tire pressures, and environmental conditions.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.2.19",
   "number": "9.2.6",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Surface touch temperatures",
   "subject_group": "9.2 Crew stations, control stations, and air vehicle interiors",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.2.19",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all surface touch temperatures remain within required limits.",
       "text": "Verify that all surface touch temperatures remain within required limits.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.2.17",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all surface touch temperatures remain within required limits to preclude any operational limitations to safety of flight operations of the air vehicle.",
       "text": "Verify that all surface touch temperatures remain within required limits to preclude any operational limitations to safety of flight operations of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix D: D.3.4.4.4, D.4.4.4.4 Surface touch temperatures",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.2.17",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Surface touch temperatures",
       "text": "Criterion: Verify that all surface touch temperatures remain within required limits to maintain safety of flight operations of the air vehicle. Standard: The system design ensures that no surface touch temperatures present unacceptable hazards for safety of flight operations. Method of Compliance: The standard is verified by the following activities: a. Analysis, component testing, and ground/flight testing verify that surface temperatures are adequate for human tolerance and interaction and does not adversely affect safety of flight equipment. b. Temperature measurement activities are performed during flight and ground testing to verify and validate the analyses used in assessing the ECS. References: JSSG-2009: D.3.4.4.4, D.4.4.4.4 14 CFR 23.831, 25.831, 27.831, 29.831",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Surface touch temperatures",
       "text": "Standard: Touch temperatures of surfaces in the crew station or control station that impact the crewmember\u2019s ability to attain, sustain, and complete flight safely do not exceed the temperature limits in the Temperature Exposure Limits table in MIL-STD-1472. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: Measure the surface temperatures once the temperatures have reached a steady state using thermal imaging in a heat-soaked air vehicle, cooled using air vehicle power without an ECS cart, to verify that they comply with MIL-STD-1472, Thermal Contact Hazards paragraphs.",
       "source_url": "https://assist.dla.mil",

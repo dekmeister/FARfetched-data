@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.2",
   "number": "8.7.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Effects of jam loads",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.9.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that damage or permanent deformation to any mechanism or support structure will not result in a critical jam load condition.",
       "text": "Verify that damage or permanent deformation to any mechanism or support structure will not result in a critical jam load condition.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.9.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that damage or permanent deformation to any mechanism or support structure does not result in a critical jam load condition.",
       "text": "Verify that damage or permanent deformation to any mechanism or support structure does not result in a critical jam load condition. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4; MIL-87222 Mechanical Systems for Aircraft Doors and Canopies: para 3.1.4.9; 3.1.5.9; 4.1.4.9; 4.1.5.9. (presently in a cancelled status)",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.9.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that damage or permanent deformation to latches or support structures does not result from the most critical jam load condition.",
       "text": "Verify that damage or permanent deformation to latches or support structures does not result from the most critical jam load condition. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4 MIL-M-87222 Mechanical Systems for Aircraft Doors and Canopies: 3.1.4.9; 3.1.5.9; 4.1.4.9; 4.1.5.9 - inactive for new design",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Effects of jam loads",
       "text": "Criterion: Verify that damage or permanent deformation to latches or support structures does not result from the most critical jam load condition. Standard: Latches, locks, linkages and the rigging have sufficient strength and rigidity to withstand all actuator stall loads resulting from a jam load condition, without adverse deflection or deformation. The system is designed to prevent jamming or blocking by cargo, baggage, or foreign objects in the open or closed position. The design prevents system damage that causes subsequent improper operation. When the system function is linked to the lock system, any damage to the system actuation linkage or support structure does not cause the system and locks to lose their related synchronization. Method of Compliance: a. The sizing and operating characteristics are determined analytically. Analysis is used to determine conditions where the mechanical linkage exerts the greatest force due to the available mechanical advantage on the critical parts of the system. b. Integration of the mechanical systems is demonstrated and tested in a mock-up simulating the expected loads and structural attachments. Testing validates the integrity and durability of the mechanisms. Demonstrations verify that the system cannot be jammed or blocked by cargo, baggage, or foreign objects in the open or closed position. Demonstration verifies that the system will withstand jam loads at any point in the system without detrimental deformation. All jam load tests are conducted on the full scale article in conjunction with the latch and lock jam load tests. Jam load tests are accomplished on every critical part of the system. References: JSSG-2009 (Appendix I) I.3.4.9.1, I.3.4.9.4",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Effects of jam loads",
       "text": "Standard: Latches, locks, linkages, and the rigging have the strength and rigidity to withstand all actuator stall loads resulting from a jam load condition, without adverse deflection or deformation. The system is designed to prevent jamming or blocking by cargo, baggage, or foreign objects in the open or closed position. The design prevents system damage that causes subsequent improper operation. When the system function is linked to the lock system, any damage to the system actuation linkage or support structure does not cause the system and locks to lose their related synchronization. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The sizing and operating characteristics are determined analytically. Analysis is used to determine conditions where the mechanical linkage exerts the greatest force due to the available mechanical advantage on the critical parts of the system. Test.\n  (1) Lab test: Integration of the mechanical systems tested in a mock-up simulating the expected loads and structural attachments. Testing verifies that the system will withstand jam loads at any point in the system without detrimental deformation. All jam load tests are conducted on the full scale article in conjunction with the latch and lock jam load tests. Jam load tests are accomplished on every critical part of the system.",
       "source_url": "https://assist.dla.mil",

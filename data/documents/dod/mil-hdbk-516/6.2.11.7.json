@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.11.7",
   "number": "6.2.11.7",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Automatic modes and functions",
   "subject_group": "6.2.11 Vehicle control function control law safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Automatic modes and functions",
       "text": "Standard: The VCF uses integrity monitoring and system interlocks to permit engagement of automatic modes or functions. The VCF system interlocks prevent inadvertent engagement of the automatic mode or function. The automatic mode will disengage and return control to the flight crew upon relevant failures, loss of integrity, when interlocks are not met, or flight crew override. Feedback is provided to the flight crew of a change in control between manual and automatic modes. Indications are provided that the automatic mode or function is active. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review requirements and design documentation of automatic modes and functions to verify disengagement methods, integrity monitoring, safety interlocks, and flight crew notification. Analysis.\n  (1) Complete fault tree and FMECA to identify failure modes, failure rates, and consequences of automatic modes and functions, to include inadvertent activation.\n  (2) Conduct analysis to determine necessary system interlocks and methods for integrity monitoring of automatic modes and functions. Test.\n    (1) Lab test: Conduct offline testing to verify operation of integrity monitoring, system interlocks, engagement and disengagement, and indications.\n    (2) Lab test: Conduct PITL simulation to validate normal mode engagements, disengagements, and modal indications.\n    (3) Lab test: Conduct FMET to verify VCF behavior following automatic mode or function failure.",
       "source_url": "https://assist.dla.mil",

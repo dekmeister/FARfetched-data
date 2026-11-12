@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.1.1.5",
   "number": "11.1.1.5",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Navigation subsystem",
   "subject_group": "11.1.1 Avionics subsystems architecture",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Navigation subsystem",
       "text": "Criterion: Verify for the navigation subsystem that the number and type of sensors, data processors, data busses, controls and displays, and communication devices are adequate for safety of flight considerations, including performance, integrity, availability, and continuity of service requirements for long range reference, local area reference, and landing/terminal reference. Standard: The navigation system provides the vehicle and/or operator(s) all needed navigation information with sufficient accuracy and reliability to satisfy safety of flight requirements. The amount, quality and refresh rate of information needed for safety of flight are defined in the design information. No single navigation subsystem component failure causes the propagation (or absence) of information resulting in an adverse safety of flight condition (for Army; see also 14.2 of this document). Navigation subsystem performance, integrity, availability and continuity of service meets air vehicle Required Navigation Performance (RNP), Vertical Navigation (VNAV), Basic Area Navigation (BRNAV), Precision Area Navigation (PRNAV) requirements (as applicable). RNP, VNAV, BRNAV, and PRNAV performance matrices are tailored to the specific needs of the program. Method of Compliance: Performance of the navigation system safety of flight components is verified through analysis and laboratory test. Navigation System safety of flight redundancy and performance are validated through system level analysis, simulation and test. Safety Hazard Analysis verifies that all navigation system related failures have acceptable risk levels. Safe operation of the air vehicle following any single navigation system component failure is verified using FMECA. Laboratory based failure mode tests verify acceptable performance for single failure operation. On aircraft ground testing verifies performance and redundancy of the navigation system safety critical functions. Flight testing verifies previous analysis and testing. For example, when a Kalman filter is used in an integrated navigation system, a representative subset of operational flight profiles is chosen via analysis to demonstrate direct compliance to performance requirements as well as validate navigation system analysis simulations. Once validated these navigation system simulations are used to verify performance for all other operational flight profiles not directly tested. References: JSSG-2005: 3.2.1.5, 4.2.1.5 MIL-HDBK-516: 14.2 MIL-STD-882 MIL-HDBK-87213: 3.1 AFI 11-202V3: 2.6.2 RTCA DO-236 for CNS/ATM related navigation system requirements RTCA DO-200: 2.3.2, 2.3.3, 2.3.5, and 2.4.1 (RNP Data Processing) SAE ARP4761 SAE ARP5580 FAA AC 20-138",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Navigation subsystem",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

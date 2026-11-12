@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.5",
   "number": "8.8.18",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Gearbox lubrication systems",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.5",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the transmission/gearbox lubrication system safely operates under all air vehicle operating conditions.",
       "text": "Verify that the transmission/gearbox lubrication system safely operates under all air vehicle operating conditions. DoD/MIL Doc: JSSG-2007A: para A.3.7.8, A.4.7.8, Lubrication System. JSSG-2009: para K.4.4.11.4, for lubrication element, component, and system level testing.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.3.2.5",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the transmission/gearbox lubrication system safely operates under all air vehicle operating conditions.",
       "text": "Verify that the transmission/gearbox lubrication system safely operates under all air vehicle operating conditions. DoD/MIL Doc: JSSG-2007A: A.3.7.8, A.4.7.8, Lubrication System. JSSG-2009: K.4.4.11.4, for lubrication element, component, and system level testing.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.5",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Lubrication system",
       "text": "Criterion: Verify that the transmission/gearbox lubrication system safely operates under all air vehicle operating conditions. Standard: For pressurized lubrication systems, the lubricant is provided at the required pressure and flow rate to all required components and accessories at all allowed gearbox attitudes. Suitable means are provided for setting the gearbox internal pressure and flow to the required level during steady state ground operation, and for maintaining required gearbox internal pressures under all operating conditions and gearbox attitudes. For non-pressurized lubrication systems, the lubricant is provided to all required components and accessories at all allowed gearbox attitudes. Suitable means are provided for maintaining required gearbox internal pressures and flows under all operating conditions and gearbox attitudes. For pressurized and non-pressurized lubrication systems, breathers are equipped with filtration devices which remove air-borne particles of 10-microns or larger and have provisions to dehydrate the air entering the gearbox. Breathers are arranged to prevent loss of oil from the gearbox under all operating conditions and gearbox attitudes. For pressurized lubrication systems, the operating oil temperature and pressure are continuously monitored, and provisions should be made for display of the oil pressure and temperature, as well as the operating limits, on air system instrumentation. For pressurized and non-pressurized lubrication systems, the gearbox design maintains the gearbox oil temperature below the maximum allowed under all possible combinations of gearbox power level, ambient conditions, gearbox attitudes, and lubricant levels. Method of Compliance: Verification methods include analysis, test, and review of documentation. Verification is by analysis and testing at the element, component, and system levels. Analysis includes a functional description of the lubrication system indicating the limits of the lubrication system with respect to environments (high and low temperature) and air vehicle flight envelope limits (attitude and altitude) and associated schematics showing all components and indicating minimum flow rates to each oil jet. The design of the cooling system for all transmissions and gearboxes is substantiated by applicable schematics, analysis and pertinent testing. The cooling system or heat balance analysis includes consideration of the highest ambient air condition specified in the air vehicle specification, the minimum gearbox oil flow, the maximum allowable oil temperatures and the minimum cooling airflow as a basis for sizing the cooling system. References: JSSG-2007: A.3.7.8, A.4.7.8 Lubrication System. JSSG-2009: K.4.4.11.4 for lubrication element, component, and system level testing. ADS-50-PRF 14 CFR 29.907",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Gearbox lubrication systems",
       "text": "Standard: The gearbox lubrication system operates and provides oil pressure and flow rates throughout the flight and ground envelopes, uses breathers to maintain pressure balance, removes heat generated by gear meshes and bearings, and provides an oil film to reduce wear between sliding elements (e.g., gears, bearings, and splines). A means for setting gearbox internal pressure and flow rates is provided. For pressurized lubrication systems, the design provides the ability to set pressures and flow rates during steady-state ground operations. Lubrication pump pulsation (e.g., ripple) is accommodated for and is not detrimental to the life of lubrication system components. Breathers are equipped with filtration devices which remove airborne particles of 10 microns or larger. Breathers are arranged to prevent loss of oil from the gearbox under all operating conditions and gearbox attitudes. Gearboxes operate at oil temperatures below the maximum specified temperature allowed under all combinations of gearbox power level, ambient conditions, gearbox attitudes, and within the operational lubricant levels. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review functional description documentation and schematics to verify the limits of the lubrication system with respect to high and low temperature environments, air vehicle flight envelope limits (attitude and altitude), and cooling system provisions for gearbox and transmission system components.\n(2) Review schematics to verify minimum lubrication flow rates to each oil jet to gearbox components. Analysis.\n  (1) Conduct a heat balance analysis to verify sizing the lubrication cooling system to accommodate the highest ambient air condition, the minimum gearbox oil flow, the maximum allowable oil temperatures, and minimum cooling airflow.\n  (2) Conduct analysis to verify the gearbox lubrication system meets design requirements (e.g., oil jetting for mesh cooling, lubrication of bearings and seals).\n  (3) Conduct sizing analysis of the breathers to verify gearbox pressures remain within design requirements.\n  (4) Conduct modeling or analysis to determine pump ripple frequencies and to verify they do not cause resonant frequencies or fatigue, resulting in failure of adjacent tubing and components. Test.\n    (1) Lab test: Conduct lab test on each gearboxes' pressurized lubrication system to verify the ability to set pressures and flow rates during steady-state ground operations, maintain pressurization control to prevent loss of lubrication, and ability to cool oil to maintain oil properties.\n    (2) Lab test: Conduct sampling of lubrication oil to verify breather filtration system prevents contamination from entering the gearbox.\n    (3) Lab test: Conduct lab test of the oil jetting system to verify targeting of intended gearbox components.\n    (4) Lab test: Conduct air vehicle representative component level testing on each gearboxes' pressurized lubrication system to verify pump ripple frequencies and to verify they do not cause resonant frequencies or fatigue, resulting in life reduction of adjacent tubing and components.",
       "source_url": "https://assist.dla.mil",

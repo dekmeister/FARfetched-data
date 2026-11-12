@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.7.1",
   "number": "8.5.6.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Brake energy capability",
   "subject_group": "8.5.6 Wheel brakes",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.7.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits.",
       "text": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.7.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits.",
       "text": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits. Comm\u2019l Doc: ARP-1493 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.11.3.1/A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance. AFGS-87139: para 3.2.3.1.a & b Brake system (General) MIL-W-5013 Wheel and Brakes - presently inactive for new designs FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, 25.735, 25.101",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.7.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits.",
       "text": "Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits. Comm\u2019l Doc: ARP-1493 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.11.3.1/A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance. AFGS-87139: 3.2.3.1.a & b Brake system (General) MIL-W-5013 Wheel and Brake Assemblies - inactive for new design FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, 25.735, 25.101",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.7.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake energy capability",
       "text": "Criterion: Verify that the energy, torque, and distance performance are at least equal to the levels required for the air vehicle when it is operated within its design limits. Standard: The deceleration system stops the air vehicle within operational requirements, on all specified runways and lengths, etc. Brake performance meets defined dry and wet runway requirements. Method of Compliance: Verification methods include analyses and tests. Air vehicle performance analyses determine system size and energy characteristics. Laboratory tests verify brake performance levels at all critical weights and speeds. Flight testing verifies compliance with the brake performance on various runway surfaces and conditions. References: JSSG-2009: A.3.4.1.11.3.1, A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance MIL-W-5013 (Inactive for New Design) AFGS-87139: 3.2.3.1.a and b Brake system (General) SAE ARP1493 14 CFR 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, 25.735, 25.101",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake energy capability",
       "text": "Standard: The braking system has the energy, torque, and distance performance capability to stop the air vehicle during all operational requirements (e.g., landings and RTOs) and on all specified runway surfaces and conditions. Achieving maximum brake energy will not result in catastrophic failure modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a braking performance analysis to define brake energy capacities to meet operational requirements for normal landings, maximum weight landings, maximum weight RTO, and integrated combat turns. The analysis includes factors such as ambient temperatures, runway altitudes, flight crew reaction times, engine thrust, braking distribution between wheels (e.g., 50/50 split), wing lift, coefficients of friction, and deceleration devices. The use of reverse thrust in RTO analysis is not allowed.\n(2) Conduct a thermal analysis of tire, wheel, and brake assembly to verify stopping performance is maintained for all flight operations (e.g., RTOs). Brake temperatures do not cause fires in the assembly, premature release of tire pressure, and loss of torque. Test.\n  (1) Lab test: Conduct laboratory dynamometer testing IAW SAE ARP1493C, Wheel Brake Capacity Requirements table, to verify the brakes meet the energy capacities as established by Analysis MoC (1) and stopping performance, at critical weights and speeds, throughout the defined wear range of the brake. Brakes for USN air vehicles are salt water tested as part of this testing. Acceptable performance includes: a. Minimum average deceleration rates of 10 ft/sec2 (6 ft/sec2 for rotary-wing air vehicles) are maintained. b. No damage to axle or brake attachment points. c. No damage to brake occurs performing the land plane and maximum landing gross weight stops. Fuse plugs will not release. d. Deceleration rates are not impacted with a wet brake (i.e., salt water for USN air vehicles). e. Rejected takeoff testing: 1. Does not result in a catastrophic over pressurization of tire and wheel assembly. 2. Tire pressure release occurs at a minimum of one minute after parking brake application. 3. No condition occurs (or has occurred during the stop), including fire associated with the tire, and wheel and brake assembly, that could damage the air vehicle and prevent evacuation of the air vehicle until five minutes after the conclusion of the stop. The parking brake is applied for a minimum of 3 minutes. (2) Ground test: Conduct ground testing, using a buildup approach to air vehicle weights and speeds, to verify braking system energy levels, brake temperatures, and deceleration rates compared to laboratory test results. Air vehicle speed is limited to prevent ability of the air vehicle to attain flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test. (3) Flight test: Conduct flight testing to verify braking system energy levels, brake temperatures, and deceleration rates at critical weights and speeds under air vehicle operations (rejected takeoffs and landings) will not result in catastrophic failure modes (e.g., wheel structural failure, failure to release tire pressure, loss of torque, premature tire pressure release, and sustained fires within five minutes after the stop). A maximum gross weight rejected takeoff with fully worn brakes, at specification conditions verifies ability of brakes to stop the air vehicle under worst-case operational conditions.",
       "source_url": "https://assist.dla.mil",

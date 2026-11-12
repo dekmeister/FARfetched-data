@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.10.2",
   "number": "8.5.9.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Prevention of landing gear extension",
   "subject_group": "8.5.9 Landing gear retraction and extension",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.10.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that loss of doors, reversal of commands, or any other single failures in the air vehicle power will not prevent gear extension.",
       "text": "Verify that loss of doors, reversal of commands, or any other single failures in the air vehicle power will not prevent gear extension. Verify that the emergency extension system is independent of the landing gear primary power source(s).",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.10.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that loss of doors, reversal of commands, or any other single failures in the air vehicle power does not prevent gear extension.",
       "text": "Verify that loss of doors, reversal of commands, or any other single failures in the air vehicle power does not prevent gear extension. Verify that the emergency extension system is independent of the landing gear primary power source(s). DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.3/A.4.4.1.5.3 Single failure criteria; A.3.4.1.5.4/A.4.4.1.5.4 Actuation reversal; A.3.4.1.5.6/A.4.4.1.5.6 Operation with loss of door; and A.3.4.1.5.7/A.4.4.1.5.7 Emergency extension; AFGS-87139: para 3.2.6.1 Retraction-extension system; and 3.2.6.2 Actuation system indication. FAA Doc: 14CFR reference: 23.729 & 25.729",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.10.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that loss of doors, reversal of commands, or any single failures in the air vehicle power does not prevent gear extension.",
       "text": "Verify that loss of doors, reversal of commands, or any single failures in the air vehicle power does not prevent gear extension. Verify that the emergency extension system is independent of the landing gear primary power source(s). DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.3/A.4.4.1.5.3 Single failure criteria; A.3.4.1.5.4/A.4.4.1.5.4 Actuation reversal; A.3.4.1.5.6/A.4.4.1.5.6 Operation with loss of door; and A.3.4.1.5.7/A.4.4.1.5.7 Emergency extension AFGS-87139: 3.2.6.1 Retraction-extension system; and 3.2.6.2 Actuation system indication FAA Doc: 14CFR reference: 23.729 & 25.729",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.10.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Prevention of gear extension",
       "text": "Criterion: Verify that loss of doors, reversal of commands, or any single failures in the air vehicle power do not prevent gear extension. Verify that the emergency extension system is independent of the landing gear primary power source(s). Standard: Loss of doors or fairings does not prevent extension of the gear. Gear extension capability is not lost due to a single failure of the door or its actuation. Changes in gear position command while in transit do not cause the gear system to jam, nor do they prevent the successful extension of the gears. The emergency extension system is independent of the landing gear primary power source(s). Method of Compliance: Verification methods include analyses, tests and demonstrations. The FMECA identifies all failures and operational events that prevent extension. Design analysis shows sufficient capability to extend the gear, either by normal or emergency means. Air vehicle checkout and flight testing verify proper operation with different methods of extending the gear. References: JSSG-2009: A.3.4.1.5.3, A.4.4.1.5.3 Single failure criteria; A.3.4.1.5.4, A.4.4.1.5.4 Actuation reversal; A.3.4.1.5.6, A.4.4.1.5.6 Operation with loss of door; A.3.4.1.5.7, A.4.4.1.5.7 Emergency extension AFGS-87139: 3.2.6.1 Retraction-extension system; 3.2.6.2 Actuation system indication. 14 CFR 23.729, 25.729",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Prevention of landing gear extension",
       "text": "Standard: Landing gear extension capability is not prevented by a loss of a door(s) or single point failure in the actuation system. The emergency extension system is independent of the landing gear primary power source(s). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify the landing gear actuation and door system's FMECA and SSHA is complete and identifies all failures and operational events that prevent landing gear extension.\n(2) Analysis of the landing gear, hydraulic system, control logic, electrical system, and door system verifies sufficient capability to fully deploy the landing gear, either by normal or emergency means. Demonstration.\n  (1) Conduct ground demonstration to verify operation of the emergency extension system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Conduct flight testing to verify operation of the emergency extension system under air and inertial loads.",
       "source_url": "https://assist.dla.mil",

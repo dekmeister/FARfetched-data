@@ -41,7 +41,7 @@ in [certbuild/ddl.py](../certbuild/ddl.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **11**). It is bumped
+`PRAGMA user_version` is the schema version (currently **12**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -58,7 +58,11 @@ is a single row: `schema_version`, `git_sha` of the data repo at build time
 provenance, provenance_notes)`.
 
 `provisions` — `(document_id, key, number, sort_key, canonical_title,
-current_grouping, subject_group)`. `key` is the provision's identity,
+current_grouping, subject_group)`. `current_grouping` (and
+`provision_versions.grouping_at_time`) follow one style in every document,
+`Subpart B — Flight`, `Section 7 — Propulsion` or `Appendices`
+([Grouping labels](DATA_FORMAT.md#grouping-labels)): group by the label
+before ` — ` to join a subpart's names across revisions. `key` is the provision's identity,
 unique per document; `number` is the number printed at its latest version
 and is **not** unique: a document may have reused it for another provision
 (index on `(document_id, number)`). For FAA, CAR and EASA `key = number`.

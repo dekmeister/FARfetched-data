@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.4.2",
   "number": "11.2.4.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Data bus timing",
   "subject_group": "11.2.4 Data bus",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Data bus timing",
       "text": "Standard: Data buses, through which safety-critical data transits, meet the specified data transmission rates in support of system timing requirements. The timing requirements are provided in each data bus specification document. For MIL-STD-1553, the data transfer rates are 1 Mbit/s and for ARINC 429, the data transfer rates are 12.5 kbit/s (low speed) or 100 kbit/s (high speed). For other data bus standards, review the timing requirements IAW the specified commercial or military data bus specification. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system specification documents to define data bus performance requirements.\n(2) Review any military or commercial data bus standards and specifications being implemented to verify the timing requirements. Analysis.\n  (1) Review data bus performance analysis documents for both normal and worst-case operating conditions to identify any deviations or issues, and that the specified system can handle stress without significant performance degradation.\n  (2) Review data bus performance simulation results to ensure that the data transmission meets the standards and specific program requirements. Test.\n    (1) Lab test: Conduct laboratory testing to ensure data bus transmissions rates are within specifications.\n    (2) Lab test: Conduct laboratory testing to measure normal and worst-case data bus timing to ensure data is transmitted within the maximum time allowed by the system specification.\n    (3) Ground test: Conduct air vehicle ground testing to verify data bus operations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight testing to verify the performance of the data bus system operation.",
       "source_url": "https://assist.dla.mil",

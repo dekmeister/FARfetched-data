@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "13.2.6-516b",
   "number": "13.2.4",
-  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "current_grouping": "Section 13 \u2014 Electromagnetic Environmental Effects",
   "canonical_title": "Electrostatic charge control",
   "subject_group": "13.2 System-level electromagnetic environmental effects qualification",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "13.2.6",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that the system is able to control and dissipate the build-up of electrostatic charges caused by particle impingement, fluid flow, air flow, and other tribolectric charge-generating mechanisms to avoid ordnance hazards, personnel shock hazards and to control p-static interference or damage to electronics.",
       "text": "Verify that the system is able to control and dissipate the build-up of electrostatic charges caused by particle impingement, fluid flow, air flow, and other tribolectric charge-generating mechanisms to avoid ordnance hazards, personnel shock hazards and to control p-static interference or damage to electronics. DoD/MIL Doc: MIL-STD-464, section 5.7.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "13.2.6",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Electrostatic charge",
       "text": "Criterion: Verify that the system is able to control and dissipate the build-up of electrostatic charges caused by particle impingement, fluid flow, air flow, and other tribolectric charge-generating mechanisms to avoid ordnance hazards, personnel shock hazards and to control p-static interference or damage to electronics. Standard: Control of electrostatic charging ensures that all structural surfaces are at least mildly conductive, that all components are electrically bonded, and that an electric path to earth ground is provided. A one ohm static bond is the accepted industry standard. Method of Compliance: Verification is accomplished by bonding measurements or by validated bonding assembling/process specifications. A measurement of 1 ohm is typically specified, but for most applications resistive paths of up to 10E6 ohms are sufficient to dissipate the charge buildup. Reference: MIL-STD-464: 5.8",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects",
       "title_at_revision": "Electrostatic charge control",
       "text": "Standard: The air vehicle is able to control and dissipate the build-up of electrostatic charges caused by particle impingement, fluid flow, air flow, and other triboelectric charge-generating mechanisms to avoid ordnance hazards, personnel shock hazards and to control p-static interference or damage to electronics. Structural surfaces have sufficient conductivity to dissipate the electrostatic charge in a timely manner that precludes arcing and sparking, that all components are electrically bonded, and that an electric path to earth ground is provided. The air vehicle electrostatic environments are defined in MIL-STD-464, Electrostatic Environments paragraphs or SAE ARP5672, Establish the Aircraft P-Static Charging Environment section. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: Verification that the air vehicle dissipates the electrostatic charges in such a time to eliminate the potential for arcing, sparking and causing interference to flight and safety-critical sensitive receivers is accomplished by air vehicle level test and analysis of the test result.\n(2) Lab test: P-static testing of OML samples to validate electrostatic charges are dissipated in a timely manner that prevents elevated static voltages that can culminate in arcing and sparking.\n(3) Ground test: Bonding measurements or validated bonding assembly process specifications backed by empirical/test data.",
       "source_url": "https://assist.dla.mil",

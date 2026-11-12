@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.13.1",
   "number": "8.5.11.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Whole air vehicle parachute operation",
   "subject_group": "8.5.11 Parachute deceleration systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.13.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Safe and reliable operation",
       "text": "Criterion: Verify that parachute landing operations are safe and reliable. Standard: The parachute landing system deployment method prevents the parachute from getting entangled with the air vehicle (e.g., flight control surfaces, propulsion systems) during all phases of recovery operation. For the design operational envelope, the parachute landing system controls the rate of descent, glide rate and oscillations to allow recovery of the air vehicle and onboard equipment with no damage beyond acceptable operating limits. Method of Compliance: Verification methods include analysis and test. Analysis and testing are conducted to verify required reliability. Flight testing verifies the installation, functionality and performance capability (e.g., deployment time, parachute inflation characteristics, acceleration, descent rate and aircraft stability) of the parachute system throughout the defined deployment envelope. References: JSSG-2010: 3.12 Deployable Aerodynamic Decelerator (DAD) System ASTM F2316-08",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Whole air vehicle parachute operation",
       "text": "Standard: The parachute system reliably lowers an entire air vehicle to the ground including in the event of loss of control, failure of the air vehicle structure, or other in flight emergencies. The parachute landing system deployment method prevents the parachute from getting entangled with the air vehicle (e.g., flight control surfaces, propulsion system) or causing damage to the parachute preventing a successful landing. For the operational envelope, the parachute landing system controls the rate of descent, glide rate, and oscillations to allow recovery of the crewmembers, air vehicle, and onboard equipment with no damage beyond acceptable operating limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct sizing analysis to verify the parachute can descend the air vehicle to touchdown without causing harm to crewmembers or damaging the air vehicle.\n(2) Conduct trajectory analysis to show that parachute canopy and lines deployment minimizes contact with the air vehicle to allow full deployment of parachute within deployment envelope. Demonstration.\n  (1) Conduct ground demonstration on air vehicle to verify the installation, functionality, and performance capability (e.g., deployment time and parachute extraction characteristics) of the parachute system. The parachute landing system sacrificial elements (e.g., installation covers, doors) and extractive devices (e.g., mechanical, pyrotechnics) do not impact or cause damage to the air vehicle or parachute upon deployment that would prevent a successful landing. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Conduct flight testing to verify parachute deployment does not result in entanglement with the air vehicle (e.g., flight control surfaces, propulsion system) and decent characteristics result in a controlled landing of the air vehicle.\n    (2) Flight test: Conduct parachute system testing to verify a demonstrated reliability of not less than 90% at a 90% confidence level at the system level.",
       "source_url": "https://assist.dla.mil",

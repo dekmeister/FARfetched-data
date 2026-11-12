@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.2",
   "number": "7.2.4",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Transient operation",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.2.2",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify the control system has adequate stability for small throttle transients, including approach and aerial refueling conditions.",
       "text": "Verify the control system has adequate stability for small throttle transients, including approach and aerial refueling conditions. Large throttle transients may be expected during shipboard approaches, if applicable.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine has adequate stability during throttle transients.",
       "text": "Verify that the engine has adequate stability during throttle transients. The entire range of required transients should be considered, including those during land and ship approaches, aerial refueling, and quick stops; for rotorcraft, bob-up and remask, and nap of the earth ridgeline crossings. DoD/MIL Doc: JSSG-2007A: para A.3.2.2.6, A.4.2.2.6, A.3.2.2.7, A.4.2.2.7. MIL-HDBK-516 criteria 7.2.4.1.3. FAA Doc: 14CFR references: 33.65, 33.73, 33.89",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine has adequate stability during throttle transients.",
       "text": "Verify that the engine has adequate stability during throttle transients. The entire range of required transients should be considered, including those during land and ship approaches, aerial refueling, and quick stops; for rotorcraft, bob-up and remask, and nap of the earth ridgeline crossings. DoD/MIL Doc: JSSG-2007A: A.3.2.2.6, A.4.2.2.6, A.3.2.2.7, A.4.2.2.7 MIL-HDBK-516: criteria 7.2.4.1.3 FAA Doc: 14CFR references: 33.65, 33.73, 33.89",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Transient operation",
       "text": "Criterion: Verify that the engine has adequate stability during throttle transients. The entire range of required transients should be considered, including those during land and ship approaches, aerial refueling, and quick stops; for rotorcraft, bob-up and remask, and nap of the earth ridgeline crossings. Standard: Thrust or power response times meet air system mission performance requirements during all required maneuvers. Stability margin is evaluated per the criterion of 7.2.2.1. Control system phase and gain margin is as described in the criterion of 7.2.4.1.3. Method of Compliance: Verification is accomplished by analysis, electronic and closed loop bench tests, engine tests, vehicle integration tests, flight tests and inspection of documentation. References: JSSG-2007: A.3.2.2.6, A.4.2.2.6; A.3.2.2.7, A.4.2.2.7 MIL-HDBK-516: 7.2.4.1.3. 14 CFR 33.65 Surge and stall characteristics; 33.73 Power or thrust response; and 33.89 Operation test",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Transient operation",
       "text": "Standard: Thrust or power response times meet air system mission performance requirements during all maneuvers (e.g., land and ship approaches, AR, and quick stops; for rotary-wing air vehicles, unmask and remask, and nap of the earth ridgeline crossings) without surge or stall. To have a closed transient operation solution, transient operation is evaluated using the same control schedules as used in the evaluation of 7.2.3 and 7.4.3. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyses performed with a model based on measured test data for characterization of transient operation at conditions that have not been tested. Test.\n  (1) Lab test: Ground-based sea level and altitude cell tests to characterize and verify transient operation.",
       "source_url": "https://assist.dla.mil",

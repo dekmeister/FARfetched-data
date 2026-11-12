@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U334",
   "number": "U334",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Flight envelope protection",
   "subject_group": "FLIGHT LOADS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Flight envelope protection",
       "text": "(a) Flight envelope protection shall be implemented in the flight control system as follows:\n  (1) Characteristics of each envelope protection feature must be smooth, appropriate to the phase of flight and type of manoeuvre\n  (2) Limit values of protected flight parameters must be compatible with\n    (i) UAV structural limits,\n    (ii) required safe and controllable manoeuvring of the UAV,\n    (iii) margin to Hazardous or more serious failure conditions.\n  (3) The minimum speed allowed by the flight control system must be compatible with the margin specified in USAR.50.\n  (4) The UAV must respond to intentional dynamic manoeuvring within a suitable range of parameter limit\n  (5) Dynamic characteristics such as damping and overshoot must also be appropriate for the manoeuvre and limit parameter concerned\n  (6) Characteristics of the flight control system must not result in residual oscillations in commanded output due to combinations of flight envelope protection limits and any other flight control internal limit.\n(b) When simultaneous envelope protection limits are engaged, adverse coupling or adverse priority must not result.\n(c) The Applicant must define clearly the borders and prioritization within the control system of the flight envelope protection maintained by the flight control system.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Flight envelope protection",
       "text": "(a) Flight envelope protection shall be implemented in the flight control system as follows:\n  (1) Characteristics of each envelope protection feature must be smooth, appropriate to the phase of flight and type of manoeuvre.\n  (2) Limit values of protected flight parameters must be compatible with:\n    (i) UA structural limits,\n    (ii) required safe and controllable manoeuvring of the UA,\n    (iii) margin to Hazardous or more serious failure conditions.\n    (iv) The environmental conditions (including turbulence and gust) for which certification has been requested.\n  (3) The minimum speed allowed by the flight control system must be compatible with the margin specified in USAR.U50\n  (4) The UA must respond to intentional dynamic manoeuvring within a suitable range of parameter limit.\n  (5) Dynamic characteristics such as damping and overshoot must also be appropriate for the manoeuvre and limit parameter concerned.\n  (6) Characteristics of the flight control system must not result in residual oscillations in commanded output due to combinations of flight envelope protection limits and any other flight control internal limit.\n(b) When simultaneous envelope protection limits are engaged, adverse coupling or adverse priority must not result.\n(c) The Applicant must define clearly the borders and prioritization within the control system of the flight envelope protection maintained by the flight control system.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

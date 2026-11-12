@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.4.20",
   "number": "8.4.7",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Detection and control of overheating",
   "subject_group": "8.4 Fire and hazard protection",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.4.20",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards.",
       "text": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.4.20",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards.",
       "text": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.23, G.4.4.7.23, G.3.4.7.28, G.4.4.7.28 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.4.20",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards.",
       "text": "Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.23, G.4.4.7.23, G.3.4.7.28, G.4.4.7.28 MIL-HDBK-221: 2.20 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.4.20",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Detection and control of overheating",
       "text": "Criterion: Verify that the air vehicle has provisions to detect and control overheat conditions that are potential fire and explosion hazards. Standard: Performance requirements of the overheat protection systems (e.g., set temperature, activation time, clearance signal time, repeatability) are defined. Overheat detection for the air vehicle subsystems (e.g., bleed air lines, electrical equipment) meets the expected usage and environments in the installed condition while providing adequate detection, activation and reset time as well as avoiding false alarms. Method of Compliance: Thermal analysis verifies performance requirements of the overheat protection systems. Component tests verify that the alarm activation time meets the air vehicle response time criteria. Laboratory testing verifies the performance requirements of the overheat protection systems under vibration, inertia, and other loads to which it is subjected in operation . Aircraft functional checkouts demonstrate the operation of the overheat protection system and its warnings. References: JSSG-2009: G.3.4.7.7, G.4.4.7.7 MIL-HDBK-221: 2.15 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Detection and control of overheating",
       "text": "Standard: The air vehicle detects, and controls overheat conditions from normal or single failure conditions to prevent potential fire and explosion hazards during all flight and ground operations. Compartment temperatures are maintained below the auto-ignition temperature for the possible flammable fluids or vapors present, and surface temperatures are maintained below the hot surface ignition temperature for the possible flammable fluids or vapors present. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct inspection of design documents that show performance requirements of the overheat protection systems (e.g., set temperature, activation and reset time, clearance signal time, repeatability, false alarm rate) are defined and based on operational use and overall air vehicle design approach for preventing fires and explosions. Analysis.\n  (1) Conduct thermal analysis that validates performance requirements and operational environment of the overheat protection systems. Test.\n    (1) Lab test: Conduct lab tests that verify the overheat protection systems meet its intended function and maintains temperatures to prevent potential fire and explosions.\n    (2) Ground test: Conduct ground tests that show the overheat protection system meets its intended function and maintains temperatures to prevent potential fire and explosions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight test to validate Analysis MoC (1), Test MoC (1), Test MoC (2) results for system performance in the installed environment and flight envelope.",
       "source_url": "https://assist.dla.mil",

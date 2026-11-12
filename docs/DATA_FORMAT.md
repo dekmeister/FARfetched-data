@@ -8,7 +8,8 @@ the contract is in [SQLITE.md](SQLITE.md), and the history of the format is
 in [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md).
 
 Contents: [File paths](#file-paths) · [Document file](#document-file-datadocumentsfaa23_documentjson) ·
-[Provision file](#provision-file-datadocumentsfaa231309json) · [Text format](#text-format) ·
+[Provision file](#provision-file-datadocumentsfaa231309json) ·
+[Grouping labels](#grouping-labels) · [Text format](#text-format) ·
 [Aircraft model file](#aircraft-model-file-dataaircraftmanufacturer-slugmodel-slugjson) ·
 [Resolution rules](#resolution-rules) · [Citations](#citations)
 
@@ -92,13 +93,13 @@ is 5.2.2 in 516B Change 1), so there the label is recorded per version.
   "document": "23",
   "key": "1309",
   "number": "1309",
-  "current_grouping": "Equipment",
+  "current_grouping": "Subpart F — Equipment",
   "canonical_title": "Equipment, systems, and installations.",
   "subject_group": "General",
   "versions": [
     {
       "designator": "23-62",
-      "grouping_at_time": "Equipment",
+      "grouping_at_time": "Subpart F — Equipment",
       "title_at_revision": "Equipment, systems, and installations.",
       "text": "...full text at this revision...",
       "publication_cite": "76 FR 75736",
@@ -121,9 +122,9 @@ is 5.2.2 in 516B Change 1), so there the label is recorded per version.
 | `document`         | string | no       | The document's `slug`. Must match the directory. |
 | `key`              | string | no       | Stable, opaque identity within the document; must match the file name. Same pattern as `number`. Equal to `number` unless the document reuses or renumbers numbers; then it is the number at first appearance, with a suffix when that was already used as a key (`"4.1.3-516a"`). Never shown as a citation. |
 | `number`           | string | no       | Number as printed at the latest version, e.g. `"1309"`, `"1309a"`, `"A23"` (appendix), `"4.1.3"`. The latest version must not carry a different per-version `number`. |
-| `current_grouping` | string | yes      | Present-day subpart (or equivalent). Display only. |
+| `current_grouping` | string | yes      | Present-day subpart (or equivalent), in the [grouping style](#grouping-labels): `Subpart F — Equipment`. Display only. |
 | `canonical_title`  | string | no       | Present-day heading. |
-| `subject_group`    | string | yes      | Intra-subpart grouping label (FAA DRS). For MIL-HDBK-516, the parent heading (`"4.1 Design criteria"`) under the section in `current_grouping`. |
+| `subject_group`    | string | yes      | The finer heading inside the grouping: the FAA DRS Subject Group, the CAR sub-heading (regs.csv `Subsubpart`, `"Controllability"`), and for MIL-HDBK-516 the parent heading (`"4.1 Design criteria"`) under the section in `current_grouping`. Never a subpart. |
 | `versions`         | array  | no       | One entry per revision that changed this provision. Non-empty. |
 
 **Per-version fields**
@@ -132,7 +133,7 @@ is 5.2.2 in 516B Change 1), so there the label is recorded per version.
 |----------------------|--------|----------|---------|
 | `designator`         | string | no       | Must be declared in the document file. One version per designator. |
 | `number`             | string | yes      | The number as printed at this revision, when it differs from the top-level `number` (a renumbered provision). Absent = the top-level `number`. Two versions printed at one revision may not share a number (a deletion excepted), and at every revision a number names at most one provision in force. |
-| `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision. |
+| `grouping_at_time`   | string | yes      | Subpart the provision sat under at this revision, in the [grouping style](#grouping-labels). EASA, NATO, CAR and MIL-HDBK-516 read it from the revision's own source. **FAA: the present-day label** (DRS repeats today's subpart on every historical version; ISSUES FAA-31). It is the heading over this version's text when it was printed: a subpart renamed later without a new version keeps the old name here. |
 | `title_at_revision`  | string | no       | Heading as it read at this revision. |
 | `text`               | string | one of   | Full text at this revision, in the label-line format (see [Text format](#text-format)). No tabs or carriage returns. The literal `"TEXT MISSING"` is the reserved marker for a known gap: the pair must exist (per a manifest) but the source is unreadable. The DB flags these rows with `text_missing = 1`. |
 | `same_as_designator` | string | one of   | Instead of `text`: the text is unchanged from this earlier version of the same provision. The build copies the text and records the link. Must not point at a deleted version. |
@@ -145,6 +146,40 @@ is 5.2.2 in 516B Change 1), so there the label is recorded per version.
 Actions stay on the version rather than the revision because the source (DRS)
 records them per section, and the per-section lists for one amendment don't
 always agree.
+
+### Grouping labels
+
+`current_grouping` and `grouping_at_time` use one style for every document,
+so the app can show them alike and group a renamed subpart by its label:
+
+| Case | Value |
+|---|---|
+| Subpart (FAA, EASA, NATO, CAR) | `Subpart B — Flight` |
+| General | `Subpart A — General` (it is Subpart A in every source) |
+| Reserved subpart | `Subpart C — Reserved` |
+| SFAR inside a subpart (14 CFR 25.1801) | `Subpart I — Special Federal Aviation Regulations` |
+| MIL-HDBK-516 section | `Section 7 — Propulsion` |
+| Every appendix | `Appendices` (one group, no label; each appendix's letter is in its key) |
+
+- `{Label} — {Name}`: the label as the source prints it (`Subpart` plus one
+  or two capital letters, or `Section` plus a number), then an em dash with
+  exactly one space either side, then the name. No en dash or hyphen
+  separator, and no second separator inside the name.
+- The name keeps the source's own mixed case. A name the source prints in
+  capitals is put in heading case (small words such as *and*, *of*, *the* in
+  lower case; acronyms and words with digits as printed), so
+  `Design and Construction` reads the same in every document.
+- A subpart renamed between revisions keeps its label: `Subpart C —
+  Structure` and `Subpart C — Structures` are one subpart under two names.
+  The label is the stable part; a MIL-HDBK-516 section number is not (an
+  edition can reuse it for a different section).
+- The finer heading inside a group is `subject_group`, never the grouping.
+- Null is allowed (no grouping known).
+
+The build fails on any other value (`certbuild/sources.py`
+`check_groupings`, also run by `--check`). A new kind of label or letterless
+group (for example `Special Federal Aviation Regulations` for SFARs outside
+any subpart) is added there and here together.
 
 ### Text format
 

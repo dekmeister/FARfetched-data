@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.4-516c",
   "number": "6.2.9.4",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Bottoming and snubbing",
   "subject_group": "6.2.9 Vehicle control function actuators",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.3.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Bottoming and snubbing",
       "text": "Criterion: Verify that actuator bottoming is prevented and actuator snubbing is designed within tolerable limits. Standard: Bottoming of any valve or ram is designed out. The actuator is capable of withstanding bottoming loads in the event of misrigging. Actuation system operates at controllable speeds with sufficient control in the actuator to prevent structural damage. Snubbers are useful in high load and fast velocity actuators to prevent damage to the housing of the actuator. Snubbing can also be accomplished by reducing the outlet flow area, which dampens the actuator from the end of travel. The VCF provides electronic or mechanical snubbing at 5% of overall travel of the actuator. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Bottoming loads and load limitations are verified by analysis and inspection. Snubbing is verified by Hardware-In-The-Loop (HITL), Iron Bird (IB) and aircraft analysis and test. References: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Bottoming and snubbing",
       "text": "Standard: Actuators design incorporates protection against bottoming, such as the use of snubbing. In the case of control surface mis-rigging, the resulting bottoming loads are less than the actuator limit load. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Provide design analysis to verify actuator rams, gearboxes, or equivalent will not bottom during normal and failure conditions.\n(2) Determine the range of mis-rigging that will result in bottoming.\n(3) Provide analysis of bottoming load as a result of mis-rigging, including effects of any snubbing features used in the design. Test.\n  (1) Lab test: Conduct closed loop actuator testing to verify actuator design eliminates bottoming under normal and failure conditions.\n  (2) Lab test: Conduct bottoming cycles SOF qualification testing to 25% of the estimated number of bottoming cycles for full life. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Lab test: Conduct bottoming cycles qualification testing based on the estimated number of bottoming cycles.",
       "source_url": "https://assist.dla.mil",

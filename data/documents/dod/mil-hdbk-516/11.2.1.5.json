@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.1.5",
   "number": "11.2.1.5",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "BIT features",
   "subject_group": "11.2.1 Critical information",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "BIT features",
       "text": "Criterion: Verify that BIT features of equipment alert the flight crew of flight-critical equipment status. Standard: All flight-critical failures identified through a FMECA are linked to a caution and warning function and message indicator (appropriate visual and/or aural indicators) to warn the flight crew or operators of impending or failed functions. The information is provided to the crew and/or operators to enable them to determine the failed function in a timely manner to take appropriate action. Method of Compliance: A combination of analysis and test is utilized to ensure that the critical functional failures tied to the caution and warning indications activate the indication, and necessary information is displayed to the crew or operator. FMECA and FMEA data along with time lines for timing and latency demonstrate compliance. References: JSSG-2005: 3.2.1.3.2, 4.2.1.3.2 SAE ARP4761 SAE ARP5580 14 CFR 23.1309, 25.1309 FAA AC-27-1 and FAA AC-29-2 provide guidance on helicopter equipment, primarily in subpart \u201cF\u201d",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "BIT features",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

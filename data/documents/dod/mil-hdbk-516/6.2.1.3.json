@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.3",
   "number": "6.2.1.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Safety critical functions and components",
   "subject_group": "6.2.1 VCF architecture design",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects.",
       "text": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects.",
       "text": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.11 thru 3.1.12.1, 4.1.11 thru 4.1.12.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects.",
       "text": "Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, physical/functional separation of flight/safety-critical functions/components and other aspects. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.11 thru 3.1.12.1, 4.1.11 thru 4.1.12.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Safety critical functions and components",
       "text": "Criterion: Verify that the integrated VCF architecture safely implements the proper levels of redundancy, fault tolerance, and physical/functional separation of safety critical functions and components. Standard: Safety critical functions are properly managed for redundancy and integration. Non-safety critical functions are identified and properly accounted. Functional separation exists for all components and functions that affect air vehicle control. Separation and isolation exist between critical and non-critical systems. Each function is properly tested and examined (e.g., walk around, preflight, Built-In-Test (BIT), Periodic Built-In-Test (PBIT), Continuous Built-In-Test (CBIT), crew monitoring, flight test monitoring). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Analysis, SIL, VIF, hardware in the loop and flight tests validate redundancy management, fault detection and fault isolation. FMET, failure modes testing, is a particularly critical part of the tests. For flight safety testing, such as FMET, all various failure modes of hardware (including data buses) are tested for flight/safety critical or mission critical functions. Analysis and inspection of interface control and installation drawings show physical separation. Analysis and inspection of block diagrams show functional separation. References: JSSG-2008: 3.0, 3.1, 3.1.11 through 3.1.12.1; associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Safety critical functions and components",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

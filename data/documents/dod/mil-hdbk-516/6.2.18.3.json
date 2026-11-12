@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.18.3",
   "number": "6.2.18.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Vehicle control function timing architecture",
   "subject_group": "6.2.18 Vehicle control function computer processing",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Vehicle control function timing architecture",
       "text": "Standard: The software architecture, along with its underlying real-time operating system and task scheduler, provides time deterministic scheduling with frame coherent data of all tasks required to implement the VCF. The software architecture identifies any critical within-frame timing for all internal data transfers to execute the control function. For each partition or minor frame, margin for unused, available processor throughput is reserved to accommodate worst-case variations in processing demands. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review the software architecture, along with the software high level design, to verify that the task scheduling mechanism supports the task scheduling timing required by the VCF. All critical timing requirements are identified with margin to time deadlines captured for WCET for real-time throughput analysis.\n(2) Ensure protections are in place to verify frame coherent data across all redundant processing elements. Analysis.\n  (1) Analysis of the VCF design is performed to determine test cases for WCET assessment. Analysis includes assessment of all VCF functions including nominal VCF modes as well as failure scenarios. WCET is supported through measurement of all time critical margins during system development and software test.\n  (2) Margin is established and justified based on a VCF worst-case analysis, which includes confidence bounds on worst-case timing. The minimum margin should be no less than the margin established in Section 15. Test.\n    (1) Lab test: Real-time WCET measurements are taken during formal system and software test to demonstrate required margins are met.",
       "source_url": "https://assist.dla.mil",

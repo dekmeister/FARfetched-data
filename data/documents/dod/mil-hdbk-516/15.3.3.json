@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.3.3",
   "number": "15.3.3",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Data bus redundancy",
   "subject_group": "15.3 Hardware elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Data bus redundancy",
       "text": "Criterion: Verify that SSHEs have redundant buses that are physically separated. Standard: Buses which carry safety critical data are identified as safety critical. These buses are redundant, implemented with proper redundancy management, bus control, and are physically separated (run through separate connectors, wiring harnesses, etc.). Method of Compliance: Verification methods include analysis, test, and inspection of design documentation. Verification of safety critical buses and physical separation is through analysis and/or inspection of SPA drawings and other documentation. Analysis and/or inspection identifies the safety critical bus controller(s). Testing verifies the redundancy management and bus control functionality. References: JSSG-2008 Appendix A: 3.3.1, 3.4.1, and 3.4.5 cover components and parts pedigree; 3.1.11.11.2 addresses integrity of signal transmission MIL-STD-882: B.2.2.5.a (see also MIL-STD-882D - A.4.3.3.d) SAE AS94900: 3.4.5.1; 3.4.5.2",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Data bus redundancy",
       "text": "Standard: 1. Verify that HESSs have redundant buses that are physically separated. Buses which carry safety-critical data are identified as safety-critical. These buses are redundant, implemented with proper redundancy management, bus control, and are physically separated (e.g., run through separate connectors and separate wiring harnesses). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of design documentation. Verification of safety-critical buses and physical separation is through analysis and examination of SPA drawings and other documentation. Analysis and examination identify the safety-critical bus controller(s). Testing verifies the redundancy management and bus control functionality.",
       "source_url": "https://assist.dla.mil",

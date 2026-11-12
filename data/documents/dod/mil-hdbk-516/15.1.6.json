@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.1.6",
   "number": "15.1.12",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Uninterruptable power",
   "subject_group": "15.1 System processing architecture (SPA)",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.1.6",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that separate and independent power sources are provided for redundant operations.",
       "text": "Verify that separate and independent power sources are provided for redundant operations.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.1.6",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that separate and independent power sources are provided for redundant operations.",
       "text": "Verify that separate and independent power sources are provided for redundant operations. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.2.2.2.2, 3.2.2.2.5, 3.3; JSSG-2008 Appendix A: para 3.2.2.2.2 and 3.2.2.2.5 give extensive guidance on aircraft power system support to safety critical equipment. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.1.6",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that separate and independent power sources are provided for redundant operations.",
       "text": "Verify that separate and independent power sources are provided for redundant operations. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.2.2.2.2, 3.2.2.2.5, 3.3 JSSG-2008 Appendix A: 3.2.2.2.2 and 3.2.2.2.5 give extensive guidance on aircraft power system support to safety critical equipment FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Uninterruptable power",
       "text": "Criterion: Verify that the electrical power quantity and quality for the SPA(s) are sufficient to maintain continuous operation. Standard: Power mechanization maintains dedicated/uninterruptible power of sufficient quality for safety critical applications in the presence of failures. Safety critical architectures provide dedicated/uninterruptible power sources. Redundancy (alternate power sources or battery) achieves safety requirements. Compliance with the following criteria from section 12 is also achieved: 12.1.1 (sufficient power), 12.1.5 (uninterruptable power). Method of Compliance: Verification methods include analysis, testing, and inspection. Verify independent power sources through the inspection of design documentation. The analysis covers the power mechanization scheme which supports flight critical/safety critical processing to verify design adequacy and establish verification test requirements. Extensive FMET, system integration and software testing verifies the fault tolerance of the design. Method of Compliance verifications associated with identified section 12 criteria are met. References: JSSG-2008 Appendix A: 3.2.2.2.2 and 3.2.2.2.5 give extensive guidance on aircraft primary and secondary power system support to safety critical equipment MIL-HDBK-516: Section 12 DoD JSSSEH: 3.5; 4.3.7.2.2; E.4 USAF Weapon Systems Software Management Guidebook: G.3.4 RTCA DO-254: 5.1.2; 6.1 Note 2 SAE AS94900: 3.1.1.5 transient electrical power effects FAA AC 20-152 FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.2 computer system power",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Uninterruptable power",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

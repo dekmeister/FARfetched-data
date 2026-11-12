@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.5.1.5",
   "number": "9.5.1.5",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Probability of concussion",
   "subject_group": "9.5.1 Initiation to touchdown",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Probability of concussion",
       "text": "Standard: The escape system prevents the probability of concussion (P concussion) from exceeding 5%. The P concussion is defined in the probability of concussion equation (Rowson and Duma). \ud835\udc43\ud835\udc43\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50\ud835\udc50 = 1 1 + \ud835\udc52\ud835\udc52\u2212(\u221210.2+.0433\ud835\uddba\ud835\uddba+0.000873\ud835\udefc\ud835\udefc\u22120.00000092\ud835\uddba\ud835\uddba\ud835\udc4e\ud835\udc4e) Where \u2018a\u2019 is the observed peak linear acceleration and \u2018\u03b1\u2019 is the observed peak rotational acceleration as a function of time. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Acceleration and rate data are used to calculate P concussion. Use the maximum angular resultant acceleration within a \u00b130ms time window centered around each resultant linear acceleration at each recorded time step. Test.\n  (1) Lab test: Full system-level dynamic ejection sled testing verifies that the system meets the standard for concussion. Linear acceleration is measured using linear accelerometers. Angular acceleration is measured using angular rate sensors (preferred) or can be measured using angular accelerometers with sufficient frequency response. Sensors are mounted within the CG of the manikin head during each test.",
       "source_url": "https://assist.dla.mil",

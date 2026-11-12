@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.8.1",
   "number": "8.5.7.5",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Brake control system redundancies",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is a separate and independent method of stopping the air vehicle within the required distances when the primary stopping method is unavailable.",
       "text": "Verify that there is a separate and independent method of stopping the air vehicle within the required distances when the primary stopping method is unavailable.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is a separate and independent method of stopping the air vehicle within the required distance when the primary stopping method is unavailable.",
       "text": "Verify that there is a separate and independent method of stopping the air vehicle within the required distance when the primary stopping method is unavailable. Comm\u2019l Doc: SAE ARP-1070. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.2/A.4.4.1.4.4.2 Alternate independent braking; AFGS-87139: para 3.2.3.2.a Brake actuation system and 3.2.4.3 Brakes; MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 11.2.2 & 11.2.2.1",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is a separate and independent method of stopping the air vehicle within the required distance when the primary stopping method is unavailable or compromised.",
       "text": "Verify that there is a separate and independent method of stopping the air vehicle within the required distance when the primary stopping method is unavailable or compromised. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.2/A.4.4.1.4.4.2 Alternate independent braking AFGS-87139: 3.2.3.2.a Brake actuation system and 3.2.4.3 Brakes MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 11.2.2 & 11.2.2.1",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake control redundancies",
       "text": "Criterion: Verify that there is a separate and independent method of stopping the air vehicle within the required distance when the primary stopping method is unavailable or compromised. Standard: An alternate and independent means of stopping and controlling the air vehicle is provided when the primary means is unavailable. The level of control and stopping performance are equal to that provided by the normal system; if not equal, then as specified for reduced stopping performance. Manual braking is available to the pilot/operator. Method of Compliance: Verification methods include analyses, tests and demonstrations. Ensure the FMECA addresses all modes of brake control system failure. Design analysis verifies the availability of a redundant and/or alternate means to provide stopping power. Brake system simulator testing confirms that there is a separate and independent method of stopping the air vehicle when the primary means is not available. Laboratory braking test verifies the performance of the secondary braking system. Air vehicle checkouts and ground testing verify system performance and proper functioning of the secondary system. References: JSSG-2009: A.3.4.1.4.4.2, A.4.4.1.4.4.2 Alternate independent braking MIL-B-8584 AFGS-87139: 3.2.3.2.a Brake actuation system; 3.2.4.3 Brakes SAE ARP1493 14 CFR 23.735, 25.735",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake control system redundancies",
       "text": "Standard: An alternate and independent brake control system provides a means of stopping and controlling the air vehicle when the normal means are unavailable. The level of control and stopping performance are equal to that provided by the normal system. On air vehicles with antiskid control, an equivalent level of antiskid protection is provided. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a FMECA to verify brake control system failures (including wheel speed sensors) have been mitigated such that level of control and stopping performance is maintained.\n(2) Performance analysis verifies the availability of a redundant and alternate means to provide equivalent control and stopping performance. Test.\n  (1) Lab test: Brake system simulator testing confirms that there is a separate and independent method of stopping the air vehicle when the primary means is not available. The control system notifies the flight crew when system failures occur and allows for either manual or automatic switching to the alternate system with no loss of braking.",
       "source_url": "https://assist.dla.mil",

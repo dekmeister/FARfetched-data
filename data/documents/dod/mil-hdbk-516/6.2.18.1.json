@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.18.1",
   "number": "6.2.18.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Design assurance",
   "subject_group": "6.2.18 Vehicle control function computer processing",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Design assurance",
       "text": "Standard: The VCF functionality has been fully allocated to hardware, software, and firmware components within the architecture, and each component is assigned and developed to a criticality level as determined by an analysis of the severity of loss, erroneous, or otherwise degraded operation of the VCF functionality. Lesser criticality functions do not impact the performance and execution of higher criticality functions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review VCF hardware, software, and firmware development plans and test plans to ensure processes are aligned with CS&S expectations for the required criticality levels. Analysis.\n  (1) Conduct analysis of the severity of loss, erroneous, or otherwise degraded operation of the VCF functionality and the support provided by the hardware, software, and firmware components to verify that VCF component criticality levels are correctly assigned. Conduct analysis of the VCF hardware and software architectures and high-level software and firmware designs to verify that the VCF design supports the required criticality levels.\n  (2) For designs with mixed criticality levels within a common processor, ensure lesser criticality functions do not impact the performance and execution of higher criticality functions through hardware and architectural protections (e.g., brick-wall partitioning).",
       "source_url": "https://assist.dla.mil",

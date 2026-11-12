@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "481",
   "number": "481",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Tail down landing conditions",
   "subject_group": "GROUND LOADS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Tail down landing conditions",
       "text": "See AMC.481\n(a) For a tail down landing, the UAV is assumed to be in the following attitudes:\n  (1) For UAV with tail wheels, an attitude in which the main and tail wheels contact the ground simultaneously.\n  (2) For UAV with nose wheels, a stalling attitude, or the maximum angle allowing ground clearance by each part of the UAV, whichever is less.\n(b) For UAV with either tail or nose wheels / skids, ground reactions are assumed to be vertical, with the wheels up to speed before the maximum vertical load is attained.\n(c) For design of tail skid and affected structure and empennage including balancing weight attachment, the tail skid load in a tail down landing (main landing gear free from ground) must be calculated as follows: 2 2 2 4 L i i mg P y y + = where: P = tail skid load (N) m = mass of the UAV (kg) g = acceleration of gravity (m/s2) iy = radius of gyration of the UAV (m) L = distance between tail skid and UAVc.g.\n(m)",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Tail down landing conditions",
       "text": "See AMC.481\n(a) For a tail down landing, the UA is assumed to be in the following attitudes:\n  (1) For UA with tail wheels, an attitude in which the main and tail wheels contact the ground simultaneously.\n  (2) For UA with nose wheels, a stalling attitude (or maximum allowed by the flight envelope protection system maintained by the flight control system), or the maximum angle allowing ground clearance by each part of the UA, whichever is less.\n(b) For UA with either tail or nose wheels / skids, ground reactions are assumed to be vertical, with the wheels up to speed before the maximum vertical load is attained.\n(c) For design of tail skid and affected structure and empennage including balancing weight attachment, the tail skid load in a tail down landing (main landing gear free from ground) must be calculated as follows: 2 2 2 4 L i i mg P y y \uf02b \uf03d where: P = tail skid load (N) m = mass of the UA (kg) g = acceleration of gravity (m/s2) iy = radius of gyration of the UA (m) L = distance between tail skid and UA c.g.\n(m)",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

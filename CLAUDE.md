@@ -129,7 +129,7 @@ file. Each module's docstring says what it must not do.
 |---|---|---|---|
 | SQLite tables, contract version | `ddl.py` | docs/SQLITE.md | `test_contract.py` |
 | Issuers, categories (closed sets) | `lookups.py` + schema enum | docs/DATA_FORMAT.md | `test_validation.py` |
-| Schema validation, loading, path checks | `sources.py` | docs/DATA_FORMAT.md | `test_validation.py`, `test_build_failures.py` |
+| Schema validation, loading, path checks, grouping style | `sources.py` | docs/DATA_FORMAT.md | `test_validation.py`, `test_build_failures.py` |
 | Label-line text, headings, labels | `text/paragraphs.py`, `text/labels.py` | DATA_FORMAT §Text format | `test_paragraphs.py` |
 | Tables, inline markup, flat/plain text | `text/tables.py`, `text/markup.py`, `text/flat.py` | DATA_FORMAT §Tables, §Inline markup | `test_paragraphs.py` |
 | Provision/version inserts, aliases, deletions, number clashes | `provisions.py` | DATA_FORMAT, SQLITE §Build | `test_easa_alias.py`, `test_deletion.py`, `test_provision_key.py` |

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.3.2.3",
   "number": "15.5.4",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Dynamic operation",
   "subject_group": "15.5 Software architecture and design",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.3.2.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions.",
       "text": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.3.2.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions.",
       "text": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.1; JSSG-2008 Appendix A: para 3.3.1 lessons learned provides guidance regarding fault management and systems partitioning. Para 3.3.2 provides guidance regarding failure propagation and redundancy. Para 3.1.4 addresses survivability. Para 3.1.5.2 addresses mode transitions. Para 3.1.5.7 addresses sensitivity analysis. Para 3.1.7.2 discusses overall system arrangement issues impacting invulnerability and failure immunity. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.3.2.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions.",
       "text": "Verify that all mode inputs, failure detection techniques, failure management, redundancy management, self-checks, and interfaces operate safely under all dynamic conditions. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: 3.3.1 lessons learned provides guidance regarding fault management and systems partitioning; 3.3.2 provides guidance regarding failure propagation and redundancy; 3.1.4 addresses survivability; 3.1.5.2 addresses mode transitions; 3.1.5.7 addresses sensitivity analysis; 3.1.7.2 discusses overall system arrangement issues impacting invulnerability and failure immunity FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Dynamic operation",
       "text": "Criterion: Verify that the following are designed to safely operate under all dynamic conditions anticipated: mode inputs, operational flight modes, failure monitoring and detection techniques, failure management functions, redundancy management, voting schemes, self-checks, built-in-tests, safety interlock mechanizations, SCF interfaces, health status interfaces, reconfiguration capabilities, and switchover of command and control data links. Standard: The SSSE designs account for all dynamic conditions anticipated for the system. Ensure the transient effects of mode switching and condition changes are acceptable and do not introduce unacceptable hazards. Switchover of command and control data links does not result in loss of control. Flight test features and software hooks for laboratory testing cannot be activated in any unintended flight mode. Design techniques employed in the software, hardware, and computer system architecture mechanization of the system do not introduce unacceptable hazards. Typical areas to address are the techniques for detecting, monitoring, isolating, and accommodating failures; the entire redundancy management/fault tolerance scheme (from the lowest level through the system level); the techniques for assessing self-health; the techniques employed for determining other channels and external dependent subsystem/system health status; the voting scheme mechanization; the flow of all mode unique inputs through the system; and the safe implementation of internal/functional/subsystem/system interfaces throughout all dynamic conditions/modes/envelopes expected. NOTE: \u201cSCF interfaces\u201d refers to SSSE interfaces supporting SCFs. Method of Compliance: Verification methods include analysis, test, and inspection of test plans. Verification testing includes extensive system/subsystem integration tests, and FMET at various levels. Analyses and tests ensure the system is safe under all expected dynamic conditions and modes throughout the design envelope. Verify through inspection that test plans cover the testing of all dynamic conditions expected. References: JSSG-2008 Appendix A: 3.0 Vehicle Control and Management System/Flight Control Systems section (III.2.j, IX.9); 3.0 Computer Resources section (III.5.d.3); 3.1.4 addresses survivability; 3.1.5.2 addresses mode transitions; 3.1.5.7 addresses sensitivity analysis; 3.1.7.2 discusses overall system arrangement issues affecting invulnerability and failure immunity; 3.1.12 addresses redundancy management; 3.3.1 lessons learned provides guidance regarding fault management and systems partitioning; 3.3.2 provides guidance regarding failure propagation and redundancy JSSG-2008 Appendix B: A14.5.4.3 DoD JSSSEH: 4.3.7.2.1; 4.3.7.3.2.4; 4.4.1.3; 4.4.2.8; E.3.17; E.3.18; E.4.4; E.7.8; E.9.1.1; E.13.2 USAF Weapon Systems Software Management Guidebook: 3.8; G.2.2; G.2.3; G.2.5; G.2.6.e; G.3.1; G.4.1; G.4.3 NASA-GB-8719.13: 7.4.2 fault-tolerant design; 11.8.3.1 mode identification and reconfiguration FAA CAST-24: 2.2 SAE ARP1834: 3.3.5.2 fault response; 5.4.c SAE ARP4761: D.11.1.3.3 latent failure management SAE AS94900: 3.1.3.3.e-f; 3.3.2-3.3.5 DOT/FAA/AR-07/48: 3.7.3; 4.3 health monitoring and fault management; A-9 health monitoring and recovery",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Dynamic operation",
       "text": "Standard: 1. Verify that the following are designed to safely operate under all dynamic conditions anticipated: mode inputs, operational flight modes, failure monitoring and detection techniques, failure management functions, redundancy management, voting schemes, self-checks, BITs, safety interlock mechanizations, SCF interfaces, health status interfaces, reconfiguration capabilities, and switchover of C2 data links. The SESS designs account for all dynamic conditions anticipated for the system. Ensure the transient effects of mode switching and condition changes are acceptable and do not introduce unacceptable hazards. Switchover of C2 data links does not result in loss of control. Design techniques employed in the software, hardware, and computer system architecture mechanization of the system do not introduce unacceptable hazards. Typical areas to address are the techniques for detecting, monitoring, isolating, and accommodating failures; the entire redundancy management and fault tolerance scheme (from the lowest level through the system level); the techniques for assessing self-health; the techniques employed for determining other channels and external dependent subsystem and system health status; the voting scheme mechanization; the flow of all mode unique inputs through the system; and the safe implementation of internal, functional, subsystem, and system interfaces throughout all dynamic conditions, modes, and envelopes expected. Note: \u201cSCF interfaces\u201d refers to interfaces supporting SCFs. In addition, for designs utilizing MCP environments: 2. This standard is applicable per processing core (and VM as applicable) within an MCP supporting SCF processing. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination of test plans. Verification testing includes extensive system and subsystem integration tests, and FMET at various levels. Analyses and tests ensure the system is safe under all expected dynamic conditions and modes throughout the design envelope. Verify through examination that test plans cover the testing of all dynamic conditions expected. In addition, for designs utilizing MCP environments: 2. This MoC is applicable per processing core (and VM as applicable) within an MCP supporting SCF processing.",
       "source_url": "https://assist.dla.mil",

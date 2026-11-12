@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.4",
   "number": "7.2.5.1.3",
-  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "current_grouping": "Section 7 \u2014 Propulsion and Propulsion Installations",
   "canonical_title": "Power-take-off (PTO) shaft vibratory response",
   "subject_group": "7.2.5.1 Physical installations",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that, when applicable, the engine mounted accessory gearbox/PTO shaft/airframe mounted accessory gearbox/system is free of any potentially damaging resonant conditions (refer to section 5.6 for additional details) for all loads and modes of operation.",
       "text": "Verify that, when applicable, the engine mounted accessory gearbox/PTO shaft/airframe mounted accessory gearbox/system is free of any potentially damaging resonant conditions (refer to section 5.6 for additional details) for all loads and modes of operation.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that, when applicable, the engine mounted accessory gearbox/PTO shaft/airframe mounted accessory gearbox/system is free of any potentially damaging resonant conditions (refer to section 8.6 for additional details) for all loads and modes of operation.",
       "text": "Verify that, when applicable, the engine mounted accessory gearbox/PTO shaft/airframe mounted accessory gearbox/system is free of any potentially damaging resonant conditions (refer to section 8.6 for additional details) for all loads and modes of operation.",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that, when applicable, the installed power-take-off (PTO) shaft system is free of any potentially damaging resonant conditions (refer to section 8.6 for additional details) for all loads and modes of operation.",
       "text": "Verify that, when applicable, the installed power-take-off (PTO) shaft system is free of any potentially damaging resonant conditions (refer to section 8.6 for additional details) for all loads and modes of operation.",
       "source_url": "https://assist.dla.mil",
@@ -41,7 +41,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Power-take-off (PTO) shaft vibratory response",
       "text": "Criterion: Verify that, when applicable, the installed PTO shaft system or driveshaft is free of any potentially damaging resonant conditions for all loads and modes of operation. Standard: Installed PTO system or driveshaft withstands vibratory induced loads from startup to maximum operating speed under any combined expected torsional (power extraction) and air vehicle maneuver induced loading. The system contains no natural (resonant) frequencies within the normal operating range or has adequate damping provisions to prevent resonances, damage or failure. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Inspection of design criteria establishes suitable critical speed margins that accommodate manufacturing variation, wear and unknown system dynamics. Analysis (e.g., dynamic model) of end to end system predicts compliance with the speed margin goal. Analysis results evaluate the capability of the system components to withstand excitations. Component tests validate response, stiffness and other characteristics used in the analysis. Installed system vibratory response testing verifies critical speed margin and is consistent with the analysis. (A static type test typically shows lower margins due to lack of dynamic stiffening effects, whereas a dynamic test with a shaker is typically more definitive and desirable but not always possible due to installation constraints.) System run up tests reveal no actual or impending resonance conditions throughout the operating speed range.",
       "source_url": "https://assist.dla.mil",
@@ -51,7 +51,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Power-take-off (PTO) shaft vibratory response",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

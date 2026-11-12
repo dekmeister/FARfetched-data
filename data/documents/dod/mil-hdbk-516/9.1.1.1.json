@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "9.1.1.1",
   "number": "9.5.7.3",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Escape system demonstrated reliability",
   "subject_group": "9.5.7 Escape system reliability",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "9.1.1.1",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Verify that the systems and subsystems of the escape system have a designed and demonstrated reliability sufficient for use.",
       "text": "Verify that the systems and subsystems of the escape system have a designed and demonstrated reliability sufficient for use. DoD/MIL Doc: JSSG-2010. MIL-C-83124 MIL-C-83125 MIL-C-83126",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "9.1.1.1",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Escape system reliability",
       "text": "Criterion: Verify that the systems and subsystems of the escape system have a designed and demonstrated reliability sufficient for use. Standard: Ejection seats, capsules, modules, and escape path clearance systems have a minimum demonstrated reliability of 90% with a 90% confidence interval at the system level. Minimum design reliability at the system level is 98%. Subsystems including Cartridge Actuated Devices and Pyrotechnic Actuated Devices (CAD/PAD) have demonstrated reliability that supports the system design level for the environments specified. Method of Compliance: Sufficient reliability and confidence level is verified by analysis and system level escape system testing. Ejection seat reliability is verified by qualification with 22 consecutively successful tests. Air vehicle escape system level tests (such as sled tests) verify integration of previously qualified ejection seats, with at least eight (8) system level ejections conducted unless otherwise specified. Reliability of CAD/PAD devices is verified by subsystem level testing, completed prior to system level tests. References: JSSG-2010 MIL-C-83124 MIL-C-83125 MIL-C-83126",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Escape system demonstrated reliability",
       "text": "Standard: Ejection seats (including encapsulated seats) have a minimum demonstrated reliability of at least 90% with a 90% confidence interval at the system level. Air vehicle integration shows a minimum demonstrated reliability of at least 75% with 90% confidence interval. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: For new systems, full system-level ejection sled testing with a minimum of 22 consecutive system-level ejection seat tests with zero failures of critical functions applicable to the final ejection seat configuration. For air vehicle integration of qualified systems, a minimum of eight consecutive system-level tests completed with all components and subsystems (e.g., ejection seat, escape path clearance system, helmet, life support system, and AFE) present and representative of the final configuration without any failures of critical functions.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.3-516d",
   "number": "6.2.1.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Fail-safe capability",
   "subject_group": "6.2.1 Failure response and probability of loss of control",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Fail-safe capability",
       "text": "Standard: For failures within the VCF and integrated subsystems affecting the flight control function, the VCF demonstrates fail-safe capability (no worse than Operational State III) upon any single failure more probable than PLOC divided by 100 or any combination of two failures (similar or dissimilar) more probable than PLOC divided by ten. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The FMECA\u2019s, FTA\u2019s, RBD\u2019s, and safety analysis are reviewed to determine the set of single failures and failure combinations that will be analyzed for air vehicle transient response and post failure performance assessment to demonstrate continued Operational State III performance or better. For two fail combinations, analysis includes an assessment of the system effect for failure combinations more probable than PLOC divided by 100.\n(2) Analysis of air vehicle transient response and post failure performance demonstrates continued Operational State III performance or better across the envelope.\n(3) Analysis of air vehicle transient response and post failure performance used to determine critical failures and corresponding flight conditions (e.g., air vehicle configuration, flight envelope, mode transitions) to be included in FMET. Test.\n  (1) Lab test: Failure modes and effects testing test cases developed representing critical failures and corresponding conditions.\n  (2) Lab test: Failure modes and effects testing test results, with pilot comments where required, confirm continued Operational State III performance or better.",
       "source_url": "https://assist.dla.mil",

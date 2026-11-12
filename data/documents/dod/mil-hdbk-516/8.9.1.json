@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.1",
   "number": "8.7.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Functionality",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.9.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions.",
       "text": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.9.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions.",
       "text": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4; MIL-87222 Mechanical Systems for Aircraft Doors and Canopies (presently in a cancelled status)",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.9.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions.",
       "text": "Verify that all SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1, 3.4.9.4 MIL-M-87222 Mechanical Systems for Aircraft Doors and Canopies - inactive for new design",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Functionality",
       "text": "Criterion: Verify that all safety of flight critical mechanisms perform their allocated air vehicle functions under their specified operating environments and conditions. Standard: Safety of flight critical mechanisms maintain functionality while subjected to their intended operating environments, and load conditions do not prevent a loss of function. Method of Compliance: a. The component sizing and operating characteristics are determined analytically based on specified missions. b. Test selection, test methods and test conditions reflect the expected operating environment(s) for individual components and subsystems. Mechanical systems are designed for safe and durable operation in accordance with the damage tolerance and durability requirements of the cited aircraft structures specification. c. Full scale functional test mock-up duplicating the air vehicle installation and interfaces, and system control verify system performance, rigging, installation and indication requirements at the expected loads and structural attachments. d. System components are laboratory tested to life and performance requirements. e. Checkouts on the air vehicle verify installation, rigging, normal and emergency functionality, and performance. References: JSSG-2009 (Appendix I) I.3.4.9.1, I.3.4.9.4 ADS-51-HDBK",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Functionality",
       "text": "Standard: All SOF critical mechanisms perform their allocated air vehicle functions under their specified operating environments and load conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The component sizing and operating characteristics are determined analytically based on specified missions. Demonstration.\n  (1) Checkouts on the air vehicle verify installation, rigging, normal and emergency functionality, and performance. Test.\n    (1) Lab test: Test selection, test methods, and test conditions reflect the expected operating environment(s) for individual components and subsystems. Mechanical systems are designed for safe and durable operation IAW the damage tolerance and durability requirements of the cited air vehicle structures specification.\n    (2) Lab test: Full scale functional test mock-up duplicating the air vehicle installation and interfaces, and system control verify system performance, rigging, installation, and indication requirements.\n    (3) Lab test: System components are laboratory tested to life and performance requirements.",
       "source_url": "https://assist.dla.mil",

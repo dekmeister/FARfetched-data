@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.10.7",
   "number": "8.5.9.8",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Gear position restraint",
   "subject_group": "8.5.9 Landing gear retraction and extension",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.10.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the gears will be restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "text": "Verify that the gears will be restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.5.10.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the gear will be restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "text": "Verify that the gear will be restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.10.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the gear is restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "text": "Verify that the gear is restrained in the final commanded positions for all ground and flight conditions required by all mission profiles. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.9.1/A.4.4.1.5.9.1 Gear position restraint and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface; AFGS-87139: para 3.2.6.4 Position restraint. FAA Doc: 14CFR reference: 23.729, 25.729",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.10.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the gear is restrained in the final commanded positions for all ground and flight conditions required by all mission profiles.",
       "text": "Verify that the gear is restrained in the final commanded positions for all ground and flight conditions required by all mission profiles. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.9.1/A.4.4.1.5.9.1 Gear position restraint and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface AFGS-87139: 3.2.6.4 Position restraint FAA Doc: 14CFR reference: 23.729, 25.729",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.10.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Gear position restraint",
       "text": "Criterion: Verify that the gear is restrained in the final commanded positions for all ground and flight conditions required by all mission profiles. Standard: Positive passive means are provided to maintain the gear in the final commanded position without the primary power source. Typical positive passive means include: over center locking mechanism, pins or locking detents, such that gears do not unlock due to power failure, leakage, or excessive deflection. Method of Compliance: Verification methods include analyses, tests, simulations and demonstrations. Design analysis verifies gear locking mechanism maintains position under all expected loads resulting from any expected maneuver. Simulator tests and ground demonstrations verify gear position holding capability. Ground and flight testing under all expected mission loading and maneuvering verify position holding capability. References: JSSG-2009: A.3.4.1.5.1, A.4.4.1.5.1 Retraction and extension actuation interface; A.3.4.1.5.9.1, A.4.4.1.5.9.1 Gear position restraint AFGS-87139: 3.2.6.4 Position restraint 14 CFR 23.729, 25.729",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Gear position restraint",
       "text": "Standard: Means are provided to positively lock the gear in the final commanded position (gear up and gear down), including with and without the primary power source, for all ground, landing, and flight conditions. Passive means prevent the gear from unlocking during power failure or no power applied, or hydraulic leakage or deflection under allowed maximum free play worn conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies gear locking mechanism maintains gear position under all expected mission loading including vibration and maneuvering loads without primary power source. Analysis verifies locking mechanism does not unlock from landing dynamic load conditions (vertical, drag, spin up and spring back). Demonstration.\n  (1) Conduct ground demonstration to verify locking mechanism maintains gear position under all expected ground and towing mission loading and maneuvering without primary power source. Test.\n    (1) Lab test: Conduct lab testing of locking system on full scale nose and main landing gear assemblies or on HITL (e.g., iron bird) to verify dynamic latching loads into uplocks for gear retraction and down locks for gear extension. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (2) Conduct flight test to verify locking mechanism maintains gear and door positions under all expected mission loadings, store configurations, maneuvering, and landing loads (within the flight envelope) without primary power source.",
       "source_url": "https://assist.dla.mil",

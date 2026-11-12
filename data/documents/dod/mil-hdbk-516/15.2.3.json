@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.2.3",
   "number": "15.2.3",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Integration methodology",
   "subject_group": "15.2 Design and functional integration of system processing architecture elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that a controlled methodology has been established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage.",
       "text": "Verify that a controlled methodology has been established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that a controlled methodology is established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage.",
       "text": "Verify that a controlled methodology is established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.1; JSSG-2008 Appendix A: para 4.3 addresses processing element verification and 3.3.1 addresses integration. Para 4.1.14.4, 4.2.2.2 and 4.5.7 specify a build up approach in verification and testing. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that a controlled methodology is established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage.",
       "text": "Verify that a controlled methodology is established and applied to integrate all safety-critical elements of the processing architecture, including verification coverage. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: 4.3 addresses processing element verification and 3.3.1 addresses integration; 4.1.14.4, 4.2.2.2 and 4.5.7 specify a build up approach in verification and testing FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Integration methodology",
       "text": "Criterion: Verify that the integration methodology used for the SPA SSEs is defined, documented, and provides complete verification coverage of SCFs at all levels, for each flight configuration release. Standard: The entire SPA is developed, integrated and verified using a defined, documented, and proven process which includes complete test coverage (requirements, functions, failure conditions, mission validation) at all levels. Verification methodology includes end-to-end testing of SCF threads. SSEs, along with non-SSEs, are developed and tested individually; then integrated to form a SPA or multiple SPAs. Multiple SPAs may be integrated to form the system. Software residing on a SPA or multiple SPAs forms a build. Each build, for planned flight release, has all the safety critical functionality necessary to ensure safe flight. The integration methodology identifies conditions (adequacy of partitioning, decision points, areas of testing) for which a subset of testing is permissible in lieu of complete testing. Regression process addresses adequacy of partitioning, the areas of change, other areas affected by the change(s), and core testing required independent of the change(s) (comprehensive verification of SCFs that are supported by modified SSEs). Method of Compliance: Verification method includes inspection of integration planning and test documentation. Inspection of integration plans and process documentation verifies that the integration methodology has been implemented, and provides complete verification coverage. Verify that the SSEs of the SPA are clearly identified such that any dependencies that safety critical systems (e.g., vehicle management system) have on other systems are addressed. Ensure integration plans show a reasonable build-up approach. Verify that the test documents reflect all levels of testing throughout all levels of the architecture/system. Verify the plans and results of end-to-end SCF testing. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III) - Assessment Criteria; 4.0 Verification section; 4.3 addresses processing element verification; 3.3.1 addresses integration; 4.1.14.4, 4.2.2.2, and 4.5.7 specify a buildup approach in verification and testing DoD JSSSEH: 2.5.5.2; 4.3; 4.4.1.1; 4.4.1.6; 4.4.2.2; 4.4.2.12; 4.4.2.13; 4.4.2.14; C.9.7; F.5.3 USAF Weapon Systems Software Management Guidebook: 3.1.3; 3.6; 3.8; 3.12.3.b.2; F.11.2; G.3.1; G.3.4; G.4 and subparagraphs; Appendix I NASA-STD-8719.13B: 5.8 closed-loop tracking and resolution of discrepancies NASA-GB-8719.13: Chapter 9 discrepancy reports IEEE Std 1012-2012: 8.5 Activity table IEEE 12207.2-1997 (s/s by ISO/IEC 12207:2008(E); IEEE Std 12007-2008): 5.3.10 system integration CIs IEEE Std 15288-2008: 6.4.5 integration process CMU/SEI-2010-TR-033, CMMI for Development Ver. 1.3: Product Integration section ARINC Specification 653",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Integration methodology",
       "text": "Standard: 1. Verify that the integration methodology used for the SPA ESSs is defined, documented, and provides complete verification coverage of SCFs at all levels, for each flight configuration release. The entire SPA is developed, integrated, and verified using a defined, documented, and proven process which includes complete test coverage (requirements, functions, failure conditions, mission validation) at all levels. Verification methodology includes end-to-end testing of SCF threads. ESSs, along with ENSSs, are developed and tested individually; then integrated to form a SPA. Each build released for flight operations has all the functionality necessary to ensure integrity of SCF operation. The integration methodology identifies conditions (adequacy of partitioning, decision points, areas of testing) for which a subset of testing is permissible in lieu of complete testing. Regression process addresses adequacy of partitioning, the areas of change, other areas affected by the change(s), and core regression testing required independent of the change(s). The integration methodology adequately accounts for unique aspects of the technologies utilized (e.g., MCPs). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes examination of integration planning and test documentation. Examination of integration plans and process documentation verifies that the integration methodology has been implemented and provides complete verification coverage. Verify that the ESSs of the SPA are clearly identified such that any dependencies that safety-critical systems (e.g., vehicle management system) have on other systems are addressed. Ensure integration plans show a reasonable build up approach. Verify that the test documents reflect all levels of testing throughout all levels of the air system architecture. Verify the plans and results of end-to-end SCF testing. Verify that the integration methodology adequately accounts for unique aspects of the technologies utilized (e.g., MCPs).",
       "source_url": "https://assist.dla.mil",

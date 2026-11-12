@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1809",
   "number": "U1809",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "UAS electrical systems warning and indicator",
   "subject_group": "INDICATORS AND WARNINGS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "UAV electrical systems warning and indicator",
       "text": "See AMC.1809\n(a) There must be a means to give immediate warning to the UAV crew of a failure of any UAV electrical power generating device.\n(b) A means must exist in the UCS to indicate to the UAV crew the electric power system quantities essential for safe operation\n(c) A warning which is unambiguous and clearly distinguishable to the UAV crew shall be immediately provided for any UCS power supply failure which could result in an unsafe condition in any phase of UAV flight, including landing and take off.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "UAS electrical systems warning and indicator",
       "text": "See AMC.U1809\n(a) There must be a means to give immediate warning to the UAS crew of a failure of any UAS electrical power generating device.\n(b) A means must exist in the UCS to indicate to the UAS crew the electric power system quantities essential for safe operation.\n(c) A warning which is unambiguous and clearly distinguishable to the UAS crew shall be immediately provided for any UCS power supply failure which could result in an unsafe condition in any phase of UA flight, including landing and take-off.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

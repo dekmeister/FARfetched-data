@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.11.2.2",
   "number": "6.1.10.9",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Flying qualities in the transition region",
   "subject_group": "6.1.10 Vertical/short takeoff and landing air vehicles",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.11.2.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Flying qualities in the transition region",
       "text": "Criterion: Verify that V/STOL flying qualities in the transition region are safe Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.7.2.2 Flying qualities in the transition region. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, design, test, or configuration documentation. Reference: MIL-STD-1797: 5.2.7.2.2 Flying qualities in the transition region",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Flying qualities in the transition region",
       "text": "Standard: For all configurations and conditions between hover and maximum conversion speed, the air vehicle control strategy eliminates the potential for pilot cognitive error, misapplied inputs on inceptors, and modal confusion, as the air vehicle transitions from aerodynamic lift to combinations of aerodynamic and propulsive lift to jetborne lift and vice versa. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of all V/STOL mode tasks, including an overall ship pattern and recovery task consisting of wingborne flight breakturn, downwind conversion and transition, turn to final in semi-jetborne flight, followed by deceleration to hover, hover translation, and VL, or followed by deceleration to SRVL speed and SRVL, to evaluate the control strategy, to include: a. Baseline control system. b. Any alternate pilot selectable modes such as Delta Flight Path, Hover TAC, and Hover TRC. c. Analysis emphasis pre-simulation should be on command types, and mapping of commands to inceptors in order to ensure a consistent and intuitive control strategy across the wide airspeed regime between wingborne, semi-jetborne, and jetborne flight. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess flying/handling qualities as specified in MIL-STD-1797, Flying Qualities in the Transition Region paragraph and Control Strategy paragraph for each combination of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Any alternate pilot selectable modes such as Delta Flight Path, Hover TAC, and Hover TRC. Pilot will assess overall workload, pilot compensation, and any modal confusion or cognitive error (e.g., misapplied inceptor inputs for a specific V/STOL task), in the context of stressing shipboard V/STOL takeoff and recovery or comparable land-based V/STOL takeoff and recovery using the entire speed range from wingborne to semi-jetborne to jetborne. Failure modes can and should be inserted into the piloted simulation test matrix in order to assess a pilot's ease in assessing the failure and applying correct inputs to the inceptors to continue the mission task evaluation. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess flying/handling qualities as specified in MIL-STD- 1797, Flying Qualities in the Transition Region paragraph and Control Strategy paragraph for selected combinations of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Any alternate pilot selectable modes such as Delta Flight Path, Hover TAC, and Hover TRC. Pilot will assess overall workload, pilot compensation, and any modal confusion or cognitive error (misapplied inceptor inputs for a specific V/STOL task), in the context of stressing shipboard V/STOL takeoff and recovery or comparable land-based V/STOL takeoff and recovery using the entire speed range from wingborne to semi-jetborne to jetborne. Failure modes can and should be inserted into the piloted simulation test matrix in order to assess a pilot's ease in assessing the failure and applying correct inputs to the inceptors to continue the mission task evaluation. Stressing winds and environmental conditions should be assessed in flight test IAW program requirements and fleet expectations for cleared envelope.",
       "source_url": "https://assist.dla.mil",

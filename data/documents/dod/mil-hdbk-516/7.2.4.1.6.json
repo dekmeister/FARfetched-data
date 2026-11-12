@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.4.1.6",
   "number": "7.4.5",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Fuel system",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.4.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine fuel system safely provides the required fuel supply to the combustor, augmentor, and fueldraulics subsystems under all required conditions.",
       "text": "Verify that the engine fuel system safely provides the required fuel supply to the combustor, augmentor, and fueldraulics subsystems under all required conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: para A.3.7.3.2/A.4.7.3.2, Fuel Systems Performance, engine fuel system design and verification testing JSSG-2007A: para A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance testing requirements and procedures. FAA Doc: 14CFR references: 33.17, 33.67, 33.87(a)(7), 33.89",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.4.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine fuel system safely provides the required fuel supply to the combustor, augmentor, and fueldraulics subsystems under all required conditions.",
       "text": "Verify that the engine fuel system safely provides the required fuel supply to the combustor, augmentor, and fueldraulics subsystems under all required conditions. Comm\u2019l Doc: SAE-AS1055B, Fire Testing DoD/MIL Doc: JSSG-2007A: A.3.7.3.2/A.4.7.3.2, Fuel Systems Performance, engine fuel system design and verification testing JSSG-2007A: A.3.1.8.1/A.4.1.8.1, Flammable Fluid Systems - fire resistance testing requirements and procedures. FAA Doc: 14CFR references: 33.17, 33.67, 33.87(a)(7), 33.89, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.4.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Fuel system",
       "text": "Criterion: Verify that the engine fuel system safely provides the required fuel supply to the combustor, augmentor, and fueldraulics subsystems under all required conditions. Standard: Fuel system components such as pumps, regulators, carburetors, flow metering valves, check valves, nozzles, spray bars, and tubing are adequately sized to provide the necessary fuel flows, pressures and temperatures to simultaneously satisfy the requirements of the main combustor, augmenter, heat exchangers/cooling systems and all variable geometry fueldraulic subsystems. An in-line filtration system includes cleaning, replacement and a bypass indication (manual or electronic) provision(s). The fuel system can safely perform under severe operating conditions such as high vapor/liquid ratios, temperature ranges, contamination, and suction lift for primary, alternate, and emergency fuels. Fuel system pressure vessels and lines can withstand one and a half times (1.5X) (proof) normal operating pressures (without performance degradation or leakage) and two times (2X) (burst) maximum operating pressures (without permanent deformation or leakage). All fuel carrying components and lines are fire resistant. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. A complete analysis of fuel system requirements versus capabilities, using worse case flight conditions, establishes the system design parameters. Bench (wet rig) testing demonstrates the fuel systems ability to produce required flows, pressures and temperatures. Ground engine testing demonstrates the fuel system's ability to provide properly conditioned fuel to the engine. A fuel filter flow and contamination test ensures that the filter adequately cleans debris from the fuel, maintains acceptable flow and pressure and activates bypass when needed. Inspection of the fuel filter determines its capabilities for required maintenance. Applicable fuel system performance testing (suction lift, cavitation, vapor to liquid ratio (V/L), lubricity, etc.) ensures that the engine can safely operate under anticipated worse case conditions. Proof and burst pressure component testing ensures adequate safety margin across the entire flight envelope. Testing verifies fire resistance where a 2000 \u00b0F flame is applied for five (5) minutes with no fire propagation. References: JSSG-2007: A.3.7.3.2, A.4.7.3.2 Fuel Systems Performance, Engine fuel system design and verification testing; and A.3.1.8.1, A.4.1.8.1 Flammable Fluid Systems - fire resistance testing requirements and procedures. SAE AS4273 SAE AS1055 14 CFR 33.17, 33.67, 33.87(a)(7), 33.89",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Fuel system",
       "text": "Standard: All engine fuel system components (e.g., pumps, regulators, carburetors, flow metering valves, check valves, nozzles, spray bars, tubing) are sized to simultaneously provide the necessary fuel flows, pressures, and temperatures to the main combustor, augmentor, heat exchangers, cooling systems, and all variable geometry fueldraulic subsystems. All engine fuel system components are IAW capability established in 7.2 standards without exceeding defined engine operating limits when operated, under steady state and transient conditions, throughout the engine operating envelope. In-line filtration systems include cleaning, replacement, and a bypass indication (manual or electronic) provision(s). The engine fuel system supplies the required amount of fuel at the required pressure and temperatures across the maximum and minimum values for high vapor to liquid ratios, temperature ranges, contamination, lubricity, and suction lift for primary, alternate, and emergency use fuels. Engine fuel system pressure vessels and lines can withstand 1.5X (proof) maximum normal operating pressures, without performance degradation, permanent deformation or leakage, and 2X (burst) maximum normal operating pressures without fracture. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, or other substantiating records, and reports) to verify design of the fuel system and in-line filtration system. Analysis.\n  (1) Analysis is accomplished to ensure the fuel system and fuel components are sized to provide the required fuel flows, pressures, and temperatures for both steady state and transient conditions throughout the engine operating envelope. Test.\n    (1) Lab test: Wet rig bench testing ensures that the fuel system produces required flows, pressures, and temperatures.\n    (2) Lab test: Component proof and burst tests ensure the fuel system pressure vessels and lines meet engine design limits.\n    (3) Lab test: Fuel system filter flow and contamination test ensure that the filter cleans debris from the fuel, maintains flow and pressure, and activates bypass when the fuel filter delta pressure limit is exceeded.\n    (4) Lab test: Fuel system performance tests (e.g., suction lift, cavitation, vapor to liquid ratio, lubricity) are conducted to verify design of the fuel system.\n    (5) Lab test: Engine ground-based sea level cell test verifies that the fuel system produces required flows, pressures, and temperatures.",
       "source_url": "https://assist.dla.mil",

@@ -1,4 +1,5 @@
-"""Reading data/: schema validation, parsing, path checks (docs/DATA_FORMAT.md).
+"""Reading data/: schema validation, parsing, path checks, grouping style
+(docs/DATA_FORMAT.md).
 
 Reads files only; never touches the DB except to turn an integrity error
 into a BuildError naming the file (`integrity_context`).
@@ -7,6 +8,7 @@ into a BuildError naming the file (`integrity_context`).
 from __future__ import annotations
 
 import json
+import re
 import sqlite3
 from collections.abc import Iterator
 from contextlib import contextmanager
@@ -155,6 +157,53 @@ def check_paths(documents: list[Source], provisions: list[Source]) -> list[str]:
         got = f"{s.path.parent.parent.name}/{s.path.parent.name}/{s.path.stem}"
         if got != want:
             errors.append(f"{s.path}: expected at documents/{want}.json")
+    return errors
+
+
+# docs/DATA_FORMAT.md §Grouping labels: `{Label} — {Name}`, or a letterless
+# group. A new kind of label or letterless group is added here and in the doc.
+_GROUPING = re.compile(r"(Subpart [A-Z]{1,2}|Section [0-9]+) — (\S(?:.*\S)?)")
+LETTERLESS_GROUPINGS = frozenset({"Appendices"})
+_OTHER_SEPARATOR = re.compile(r" [\u2014\u2013-] ")
+
+
+def grouping_fault(value: str | None) -> str | None:
+    """Why a `current_grouping` / `grouping_at_time` value breaks the one
+    grouping style, or None."""
+    if value is None or value in LETTERLESS_GROUPINGS:
+        return None
+    m = _GROUPING.fullmatch(value)
+    if m is None:
+        return (
+            "not `Subpart X — Name`, `Section N — Name` or one of "
+            f"{sorted(LETTERLESS_GROUPINGS)} (em dash, one space either side)"
+        )
+    name = m.group(2)
+    if "  " in value:
+        return "double space"
+    if _OTHER_SEPARATOR.search(name):
+        return "a second separator in the name"
+    if not any(c.islower() for c in name):
+        return "name in capitals (use heading case)"
+    return None
+
+
+def check_groupings(provisions: list[Source]) -> list[str]:
+    """Every grouping value in the one style (docs/DATA_FORMAT.md §Grouping
+    labels). Lists each fault once per file and value."""
+    errors: list[str] = []
+    for s in provisions:
+        values = [("current_grouping", s.doc.get("current_grouping"))]
+        values += [
+            (f"{v['designator']} grouping_at_time", v.get("grouping_at_time"))
+            for v in s.doc["versions"]
+        ]
+        seen: set[str | None] = set()
+        for where, value in values:
+            fault = grouping_fault(value)
+            if fault and value not in seen:
+                seen.add(value)
+                errors.append(f"{s.path}: {where} {value!r}: {fault}")
     return errors
 
 

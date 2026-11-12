@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1721",
   "number": "U1721",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "Arrangement and visibility",
   "subject_group": "DATA DISPLAYED IN THE UAS CONTROL STATION",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "Arrangement and visibility",
       "text": "See AMC.1721\n(a) Each flight, navigation, powerplant and UAV status data must be clearly arranged and visible to UAV crew as required or UAV crew selectable.\n(b) For each multi-engined UAV, identical powerplant data must be available and located so as to prevent confusion as to which engine the data relates.\n(c) Data required for safe operation of the system must be grouped appropriately and located within the normal scan pattern of the UAV crew.\n(d) If a visual indicator is provided to indicate malfunction of an instrument, it must be effective under all lighting conditions.\n(e) All displays, indications and warnings must be visible under all UCS lighting conditions.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "Arrangement and visibility",
       "text": "See AMC.U1721\n(a) Each flight, navigation, powerplant and UA status data must be clearly arranged and visible to UAS crew as required or UAS crew selectable.\n(b) For each multi-engine UA, identical powerplant data must be available and located so as to prevent confusion as to which engine the data relates.\n(c) Data required for safe operation of the system must be grouped appropriately and located within the normal scan pattern of the UAS crew.\n(d) If a visual indicator is provided to indicate malfunction of an instrument, it must be effective under all lighting conditions.\n(e) All displays, indications and warnings must be visible under all UCS lighting conditions.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

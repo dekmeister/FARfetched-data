@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "11.2.5",
   "number": "11.2.3.3",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Electrical power",
   "subject_group": "11.2.3 Installation and integration",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "11.2.5",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify safe avionics subsystem operation with required power characteristics.",
       "text": "Verify safe avionics subsystem operation with required power characteristics.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "11.2.5",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify safe avionics subsystem operation with required power characteristics.",
       "text": "Verify safe avionics subsystem operation with required power characteristics. DoD/MIL Doc: JSSG-2005: para 3.2.2.5, 4.2.2.5; MIL-STD-704 FAA Doc: AC-23.1351, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "11.2.5",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify safe avionics subsystem operation with required power characteristics.",
       "text": "Verify safe avionics subsystem operation with required power characteristics. DoD/MIL Doc: JSSG-2005: 3.2.2.5, 4.2.2.5 MIL-STD-704 FAA Doc: AC-23.1351, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "11.2.5",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Electrical power quality",
       "text": "Criterion: Verify safe avionics subsystem operation with required power characteristics. Standard: Applicable avionics subsystem equipment utilizes electric power in accordance with MIL-STD-704 (for Army only, in accordance with MIL-STD-704, Aircraft Electric Power Characteristics, ADS-37A-PRF, Electromagnetic Environmental Effects (E3 ) Performance Verification Requirements and/or program requirements or the system specification). The avionics subsystem equipment specification also specifies the type of electric power to be utilized and the detailed performance required during normal, abnormal, emergency, starting and transfer operation of the aircraft electric system. Method of Compliance: Verify proper operation of the avionics subsystem by test to demonstrate that the equipment provides required performance within the envelope of possible conditions present within the electrical power system. Equipment testing is used to demonstrate avionics subsystem compatibility with the electric power characteristics of MIL-STD-704 (for Army only, in accordance with MIL-STD-704, Aircraft Electric Power Characteristics, ADS-37A- PRF, Electromagnetic Environmental Effects (E3 ) Performance Verification Requirements and/or other required documents). References: JSSG-2005: 3.2.2.5, 4.2.2.5 MIL-HDBK-516: 12 MIL-STD-704 ADS-37A-PRF 14 CFR 23.1351, 25.1351, 27.1351, 29.1351",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Electrical power",
       "text": "Standard: Avionics subsystem equipment utilizes electric power without adverse impacts to SCFs, IAW MIL-STD-704, Detailed Requirements paragraph. The avionics subsystem equipment specification specifies the type of electric power to be utilized and the detailed performance required during normal, abnormal, emergency, starting, and transfer operation of the air vehicle electric system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system specifications to identify power performance requirements for avionics equipment during different air vehicle modes. Analysis.\n  (1) Analyze system specifications to ensure they meet the requirements for the intended power environment IAW MIL-STD-704, General and Detailed Requirements paragraphs.\n  (2) Analysis for components that are qualified by similarity address differences in installation, integration, and intended usage from the originally qualified component to ensure an equivalent level of safety. Test.\n    (1) Lab test: Verify proper operation of the avionics subsystem by test to demonstrate that the equipment provides required performance within the envelope of possible conditions present within the EPS. Tests of production or production representative equipment verify power quality, IAW MIL-STD-704, General and Detailed Requirements paragraphs. Tests should be performed at the equipment and integration levels for all modes of operation.\n    (2) Ground test: Ground tests validate avionics system power requirements under all operating conditions and load combinations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight test results validate avionics system power requirements and ensure no safety-critical deficiencies exist with respect to the compatibility of avionics and the air vehicle power environment.",
       "source_url": "https://assist.dla.mil",

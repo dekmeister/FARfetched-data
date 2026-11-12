@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1485",
   "number": "U1485",
-  "current_grouping": "Subpart F \u2013 Equipment",
+  "current_grouping": "Subpart F \u2014 Equipment",
   "canonical_title": "Environmental Control System (ECS)",
   "subject_group": "MISCELLANEOUS EQUIPMENT",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Environmental Control System (ECS)",
       "text": "See AMC.1485\n(a) If installed, the ECS must comply with the system safety requirements applicable to the UAV.\n(b) The ECS must meet all safety requirements when operating under installed conditions over the design envelope and maintain integration integrity to ensure the UAV safety-of-flight.\n(c) In the event that the primary ECS is non-operational the UAV system design must comply with either (1) or (2) such that no single ECS subsystem failure shall result in loss of UAV.\n  (1) Incorporated secondary/emergency systems capable of maintaining flight safety critical conditions. Such systems shall be capable of operating until either; the primary ECS is available or safe landing is achieved.\n  (2) Allow the continued function of the safety critical operations (flight controls, avionics and communications) until safe landing is achieved.\n(d) ECS normal and emergency procedures must be included in the UAV System Flight Manual.\n(e) Adequate controls and displays for the ECS must be installed in the UCS or other appropriate locations to allow the ECS to function as intended. Sufficient cautions, warnings, and advisories must be provided to alert the UAV crew to problems in time for corrective action to be taken from a safety-of-flight perspective.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Environmental Control System (ECS)",
       "text": "See AMC.U1485\n(a) If installed, the ECS must comply with the system safety requirements applicable to the UAS.\n(b) The ECS must meet all safety requirements when operating under installed conditions over the design envelope and maintain integration integrity to ensure the UAS safety-of-flight.\n(c) In the event that the primary ECS is non-operational the UAS design must comply with either (1) or (2) such that no single ECS subsystem failure shall result in loss of UA.\n  (1) Incorporated secondary/emergency systems shall be capable of operating until either; the primary ECS is available or safe landing is achieved.\n  (2) Allow the continued function of the systems required for safe flight and landing (e.g. flight controls, avionics and communications)\n(d) ECS normal and emergency procedures must be included in the UAS Flight Manual.\n(e) Adequate controls and displays for the ECS must be installed in the UCS or other appropriate locations to allow the ECS to function as intended. Sufficient cautions, warnings, and advisories must be provided to alert the UAS crew to problems in time for corrective action to be taken from a safety-of-flight perspective.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

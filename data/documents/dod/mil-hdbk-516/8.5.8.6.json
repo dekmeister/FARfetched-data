@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.8.6",
   "number": "8.5.7.10",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Locked wheel prevention",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.8.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions.",
       "text": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.8.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions.",
       "text": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions. Comm\u2019l Doc: SAE ARP-1070. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid Control; AFGS-87139: para 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes; MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, & 25.735",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.8.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions.",
       "text": "Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid Control AFGS-87139: 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, & 25.735",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.8.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Locked wheel prevention",
       "text": "Criterion: Verify that the anti-skid system precludes locked wheel/tire occurrences for all normal operating conditions. Standard: The anti-skid control system prevents locked wheel conditions from occurring from touchdown to taxi speeds. The system controls braking forces to the extent that the tire is not flat spotted and the anti-skid and air vehicle deceleration performance requirements are still met. Method of Compliance: Verification methods include analyses, tests and demonstrations. The brake design analysis indicates sufficient locked wheel protection for all braking operations. Braking simulator testing verifies locked wheel protection for all modes of air vehicle operations. Air vehicle system checkout verifies proper functioning of the anti-skid system with and without failures. Ground and flight testing verify installed aircraft performance. References: JSSG-2009: A.3.4.1.4.4.3, A.4.4.1.4.4.3 Skid Control MIL-B-8584 AFGS-87139: 3.2.3.3 Anti-skid brake control; 3.2.4.3 Brakes SAE ARP1070 14 CFR 23.45, 23.55, 23.493, 23.735, 25.45, 25.55, 25.493, 25.735",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Locked wheel prevention",
       "text": "Standard: The antiskid system controls each braked wheel's rotation to decelerate the air vehicle while preventing flat spotting of tires and does not permit completely locked wheels within the antiskid control speed range for all normal operating speeds (e.g., takeoff and landing) and on touchdown. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Simulation of brake control system and algorithms verifies the ability to detect tire skidding and ability to modulate or remove brake pressure or clamping force to maximize braking force. System prevents deep skids which impact tire wear and locked wheel condition to prevent blowing of tires. Test.\n  (1) Lab test: Lab testing of wheel speed sensor verifies accurate sensing of wheel speed in the installed environment and demonstrates the cutout speed for the wheel speed sensor within the antiskid control speed range.\n  (2) Lab test: Conduct HITL lab testing utilizing brake and antiskid system hardware (e.g., control box), representative brake lines (lengths and pressure drops), antiskid software, air vehicle model, landing gear damping model, and wheel speed sensor model. Testing verifies skid levels and locked wheel protection under specified runway coefficients of friction. The antiskid system prevents deep tire skids or locking of the wheels while meeting stopping distance performance requirements under specified environmental design conditions (e.g., coefficients of friction).\n  (3) Ground test: Conduct ground testing to verify proper measurement of wheel speed in installed environment and ability to modulate or remove brake pressure or clamping force to maximize braking force (minimize stopping distance), limiting deep skidding, and locked wheels. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (4) Flight test: Conduct flight testing to verify proper measurement of wheel speed in installed environment and ability to modulate or remove brake pressure or clamping force to maximize braking force (minimize stopping distance), limiting deep skidding, and locked wheels.",
       "source_url": "https://assist.dla.mil",

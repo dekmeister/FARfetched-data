@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.3.11",
   "number": "7.3.11",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Disk burst speed",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Disk burst speed",
       "text": "Standard: The minimum loaded disk burst speed is at least 115% of the maximum steady-state speed (122% for output shaft on turboprop and turboshaft engines) or 5% above the maximum attainable transient overspeed associated with the worst single-point engine system failure whose probability of occurrence is greater than 10-8 , whichever condition results in the higher speed. Worst-case thermal conditions are applied. Burst speed is the minimum of the speed that results in actual disk rupture, or that which results in plastic growth and damage that could lead to a hazardous condition (e.g., uncontained fire, uncontained failure, engine mount failure, loss of shutdown control). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis is accomplished to determine the engine system failure case that results in the maximum attainable transient overspeed.\n(2) Burst analysis is conducted for each disk at the most limiting condition. Test.\n  (1) Lab test: Disk burst lab testing is conducted on the most limiting rotor (disk with the minimum burst capability) of each module. Strain data are collected to calibrate burst analysis. Maximum test speed is sufficient to verify that a minimum tensile strength component (-3\u03c3) can meet the burst margin requirement based on the specific ultimate strength capability of the test component. These conditions are maintained for a minimum of 30 seconds. The test is considered successfully completed if there is no evidence of imminent failure.",
       "source_url": "https://assist.dla.mil",

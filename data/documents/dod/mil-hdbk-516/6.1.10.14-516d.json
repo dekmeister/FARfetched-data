@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.1.10.14-516d",
   "number": "6.1.10.14",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Thrust margin in hovering flight",
   "subject_group": "6.1.10 Vertical/short takeoff and landing air vehicles",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Thrust margin in hovering flight",
       "text": "Standard: The air vehicle has a minimum of 5% thrust margin above the thrust required to maintain an out of ground effect hover at maximum hover weight. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of hover thrust margin to evaluate air vehicle capabilities for all required hover loadings and configurations, ensuring an allocation of thrust margin is available for control margin for all three rotational axes in hover, to include: a. Baseline control system. b. Precision hover modes. Hover thrust margin calculation ground rules need to be clearly specified by procuring agency, to include accounting for all aerodynamic and propulsive forces, as well as a detailed weight estimate. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess flying/handling qualities as specified in MIL-STD-1797, Vertical Takeoff (VTO) paragraph, Vertical Landing (VL) paragraph, and specifically, waveoff maneuvers and height stabilize maneuvers during VLs for each combination of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Precision hover modes. Pilot will assess overall workload, pilot compensation, and any undesirable coupling of thrust commands into other axes. Pilot will assess timeliness of h-dot response and height lost during a stabilize or waveoff maneuver from a nominal descent rate VL IAW program requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess flying/handling qualities as specified in MIL-STD- 1797, Vertical Takeoff (VTO) paragraph, Vertical Landing (VL) paragraph, and specifically, waveoff maneuvers and height stabilize maneuvers during VLs for selected combinations of air vehicle states, control modes, and environmental conditions, to include: a. Baseline control system. b. Precision hover modes. Pilot will assess overall workload, pilot compensation, and any undesirable coupling of thrust commands into other axes. Pilot will assess timeliness of h-dot response and height lost during a stabilize or waveoff maneuver from a nominal descent rate VL IAW program requirements.",
       "source_url": "https://assist.dla.mil",

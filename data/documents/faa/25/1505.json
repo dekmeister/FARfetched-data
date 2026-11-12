@@ -3,13 +3,13 @@
   "document": "25",
   "key": "1505",
   "number": "1505",
-  "current_grouping": "Operating Limitations and Information",
+  "current_grouping": "Subpart G \u2014 Operating Limitations and Information",
   "canonical_title": "Maximum operating limit speed.",
   "subject_group": "Operating Limitations",
   "versions": [
     {
       "designator": "25-0",
-      "grouping_at_time": "Operating Limitations and Information",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations and Information",
       "title_at_revision": "Maximum operating limit speed.",
       "text": "(a) The maximum operating limit speed (-- airspeed or Mach Number, whichever is critical at a particular altitude) is a speed that may not be deliberately exceeded in any regime of flight (climb, cruise, or descent), unless a higher speed is authorized for flight test or pilot training operations. must be established so that it is not greater than the design cruising speed and so that it is sufficiently below or to make it highly improbable that the latter speeds will be inadvertently exceeded in operations. The speed margin between and or must be determined under the detailed requirements of paragraph (b) of this section or may be selected in accordance with paragraph (c) of this section. However, the speed margin may not be less than the margin found necessary in the flight tests conducted under Sec. 25.253.\n(b) The minimum speed margin is the greater of the values determined under subparagraphs (1) and (2) of this paragraph:\n  (1) From an initial condition of stabilized flight at , the airplane is assumed to be upset, flown for 20 seconds along a flight path 7.5 degrees below the initial path, and then pulled up at a load factor of 1.5 (.5g acceleration increment). The speed increase occurring in this maneuver may be calculated if reliable or conservative aerodynamic data are used. Power, as specified in Sec. 25.173(a), is assumed until the pullup is initiated, at which time power reduction and the use of pilot controlled drag devices may be assumed.\n  (2) The minimum speed margin must be enough to provide for atmospheric variations (such as horizontal gusts, penetration of jet stream or cold front) and for instrument errors and airframe production variations. These factors may be considered on a probability basis. However, the margin at altitudes where is limited by compressibility effects may not be less than 0.05M.\n(c) The minimum speed margin may be chosen so that is not greater than 0.8 or 0.8 .",
       "publication_cite": "29 FR 18291",
@@ -33,7 +33,7 @@
     },
     {
       "designator": "25-23",
-      "grouping_at_time": "Operating Limitations and Information",
+      "grouping_at_time": "Subpart G \u2014 Operating Limitations and Information",
       "title_at_revision": "Maximum operating limit speed.",
       "text": "[The maximum operating limit speed (V_{MO}/M_{MO} airspeed or Mach Number, whichever is critical at a particular altitude) is a speed that may not be deliberately exceeded in any regime of flight (climb, cruise, or descent), unless a higher speed is authorized for flight test or pilot training operations. V_{MO}/M_{MO} must be established so that it is not greater than the design cruising speed V_{C} and so that it is sufficiently below V_{D}/M_{D} or V_{DF}/M_{DF}, to make it highly improbable that the latter speeds will be inadvertently exceeded in operations. The speed margin between V_{MO}/M_{MO} and V_{D}/M_{D} or V_{DF}/M_{DF} may not be less than that determined under Sec. 25.335(b) or found necessary during the flight tests conducted under Sec. 25.253.]",
       "publication_cite": "35 FR 5680",

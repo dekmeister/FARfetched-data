@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.1.11",
   "number": "8.1.10.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Component qualification",
   "subject_group": "8.1.10 Qualification",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.1.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Qualification testing",
       "text": "Criterion: Verify that all components, either individually or as part of a subsystem, have passed all safety-related qualification tests (e.g., proof, burst, impulse, endurance, EMI, vibration, containment, over-speed, acceleration, explosive atmosphere, pressure cycling, temperature cycling and fluid compatibility) as required for airworthy performance. Standard: Components require analysis, component level testing or ground based simulator testing to confirm safe performance. Safety of flight testing is considered if a limited amount of verification to permit initial flight test without fully qualified hardware is required. Life limits and restrictions are defined as required. Method of Compliance: Verification methods include test, analysis, demonstration, simulation, inspection and review of documentation. Components performance is verified through qualification test, simulator/iron bird, and ground test. Limited component and subsystem testing can be used for initial safety of flight testing. References: MIL-STD-810 MIL-STD-461 MIL-STD-464 MIL-STD-5522 ADS-50-PRF ADS-51-HDBK SAE AS5440 SAE AS8775",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Component qualification",
       "text": "Standard: All hydraulic and pneumatic components, either individually or as part of a subsystem, have passed all required qualification tests (e.g., proof, burst, impulse, endurance, EMI, containment, over-speed, acceleration, pressure cycling, temperature cycling, and fluid compatibility) IAW the applicable paragraphs of SAE AS8775. Components meet qualification requirements as identified in individual component specifications (e.g., pumps, valves, actuators, reservoirs) in SAE AS5440B, Applicable Documents paragraph. Proof and burst pressures are tested to the values IAW SAE AS5440B, Pressure Limitations paragraph. Life limits and restrictions are defined when components are not fully qualified. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review qualification test plans to verify that qualification test requirements are fully defined.\n(2) As an alternative to Examination MoC (1), review SOF testing requirements to verify minimum levels of testing are defined in the event full qualification is not achieved before first flight.\n(3) Review flight and maintenance manuals to verify life limited parts and restrictions are documented. Analysis.\n  (1) Conduct analysis for components that are qualified by similarity to verify that they address differences in qualification test parameters, component design, materials, installation, integration, and intended usage and environment from the originally qualified component, to meet current qualification requirements. Test.\n    (1) Lab test: Conduct full qualification testing to verify the ability of hydraulic subsystem components to perform their intended function and meet specified requirements within the installed operating environment.\n    (2) Lab test: As an alternative to Test MoC (1), conduct SOF testing to verify components meet minimum testing requirements in the event full qualification is not achieved before first flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Lab test: Complete full qualification testing of any components not fully qualified prior to flight test in MoC (2) to verify the ability of the hydraulic system and components to perform their intended function and meet specified requirements within the installed operating environment.",
       "source_url": "https://assist.dla.mil",

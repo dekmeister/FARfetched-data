@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.3.10-516d",
   "number": "8.3.10",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Fuel quantity",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fuel quantity",
       "text": "Standard: The fuel system measures and calculates fuel states to the accuracy and precision required for all systems that use fuel data, for all approved fuel and additive combinations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documents to verify the fuel quantity accuracy and precision required for all systems that use fuel data are defined. Analysis.\n  (1) Perform analysis that shows the fuel quantity measuring system is capable of meeting design requirements for all fuel and additive types, across all operational conditions. Test.\n    (1) Lab test: Conduct component and system tests to show the fuel quantity system meets accuracy and precision requirements using simulated inputs.\n    (2) Ground test: Conduct ground tests to verify fuel quantity measurements and calculations meet system requirements for accuracy and precision for all testable configurations and attitudes.\n    (3) Ground test: Conduct ground tests that verify empty, drained, usable, and trapped fuel configuration weights and CGs are within predicted tolerances. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight test to verify fuel quantity measurements and calculations validate analysis and ground test performance.",
       "source_url": "https://assist.dla.mil",

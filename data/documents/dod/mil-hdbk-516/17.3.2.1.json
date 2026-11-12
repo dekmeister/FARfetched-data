@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.3.2.1",
   "number": "17.3.2.1",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Health status monitoring for degraded modes",
   "subject_group": "17.3.2 System health",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Health status monitoring for degraded modes",
       "text": "Standard: The air system monitors the health and status of the store(s) and interfacing air vehicle equipment and alerts the crewmembers of any detected or reported degraded modes (e.g., WCAs, limitations) to enable corrective action. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Ensure degraded modes in the air system are identified through examination of technical data (e.g., ICDs, preliminary hazard analysis, FTA, FMECA).\n(2) Ensure degraded modes of the store are identified through examination of store technical data.\n(3) Verify through examination that stores report health status and degraded modes, and that the air system monitors stores for reported health status and provides crewmembers with store health status. Analysis.\n  (1) Determine the severity of each degraded mode and criticality impact of continued operation of the air system or store. Determine the conditions of continued operation during degraded mode to include definition of degraded modes, contributors, and cause and effects of system failures. Determination of required health status and degraded modes supporting this analysis may include output from System Safety Working Group and Crew System Working Group.\n  (2) Verify that store health status consists of current state of armament system and store IAW MIL-HDBK-244, General Design Criteria paragraph, including IBIT, CBIT, periodic BIT, and degraded mode. Test.\n    (1) Lab test: Verify that the air system is capable of determining the condition of the air vehicle and stores. Verify the air system transitions to correct degraded mode operations when store or air vehicle failures occur. System integration laboratory should be capable of simulating degraded modes of the air system.\n    (2) Lab test: Verify the air system capability to provide health status and degraded modes to crewmembers. Ensure crewmembers can execute troubleshooting and emergency procedures in a degraded mode scenario to maintain safe operation during flight and recovery of the air vehicle",
       "source_url": "https://assist.dla.mil",

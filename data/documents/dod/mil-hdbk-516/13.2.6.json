@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "13.2.6",
   "number": "13.2.5",
-  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "current_grouping": "Section 13 \u2014 Electromagnetic Environmental Effects",
   "canonical_title": "Hazards of electromagnetic radiation",
   "subject_group": "13.2 System-level electromagnetic environmental effects qualification",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "13.2.6",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that there is adequate protection from hazards of electromagnetic radiation to personnel (HERP), fuel (HERF), and ordnance (HERO)..",
       "text": "Verify that there is adequate protection from hazards of electromagnetic radiation to personnel (HERP), fuel (HERF), and ordnance (HERO)..",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "13.2.6",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that sources of electromagnetic radiation pose no hazard to personnel (HERP), fuel (HERF), and ordnance (HERO), and that the appropriate manuals include safe criteria regarding distance from on-board and off-board transmitters for personnel and fuel sources.",
       "text": "Verify that sources of electromagnetic radiation pose no hazard to personnel (HERP), fuel (HERF), and ordnance (HERO), and that the appropriate manuals include safe criteria regarding distance from on-board and off-board transmitters for personnel and fuel sources.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "13.2.7",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that sources of electromagnetic radiation pose no hazard to personnel (HERP), fuel (HERF), and ordnance (HERO), and that the appropriate manuals include safe criteria regarding distance from on-board and off-board transmitters to personnel and fuel sources.",
       "text": "Verify that sources of electromagnetic radiation pose no hazard to personnel (HERP), fuel (HERF), and ordnance (HERO), and that the appropriate manuals include safe criteria regarding distance from on-board and off-board transmitters to personnel and fuel sources. Comm\u2019l Doc: SAE ARP5583, sections 5 and 7; SAE ARP5412, section 4. DoD/MIL Doc: MIL-STD-464, sections 5.3 and 5.4; DoDI 6055.11, Protection of DoD Personnel from Exposure to Radiofrequency Radiation and Military Exempt Lasers; TO 31Z-10-4, Electromagnetic Radiation Hazard; NAVSEA OP 3565, Electromagnetic Radiation Hazard; TB MED 523, Control of Hazards to Health from Microwave and Radio Frequency Radiation and Ultrasound .",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "13.2.7",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Hazards of electromagnetic radiation",
       "text": "Criterion: Verify that sources of electromagnetic radiation pose no Hazard of Electromagnetic Radiation to Personnel (HERP), Hazard of Electromagnetic Radiation to Fuel (HERF), and Hazard of Electromagnetic Radiation to Ordnance (HERO), and that the appropriate manuals include safe criteria regarding distance from on-board and off-board transmitters to personnel and fuel sources. Standard: a. HERP: The criteria to protect personnel from the electromagnetic radiation from aircraft emitters is defined in DoDI 6055.11 (see also IEEE STD C95.1a). b. HERF: Fuel cannot be inadvertently ignited by radiated electromagnetic fields from aircraft emitters or by the external RF electromagnetic environment defined in 5.3 of MIL-STD-464 or an equivalent RF external electromagnetic environment such as the one defined in SAE ARP5583, sections 5 and 7 (SAE ARP5583 is non-applicable for Army). c. HERO: Electrically initiated devices (EIDs) used in ordnance and other parts and equipment of the aircraft cannot be inadvertently actuated during or experience performance degraded characteristics after exposure to the radiated electromagnetic fields from aircraft emitters and by the external RF electromagnetic environment defined in MIL-STD-464, 5.9.3 or an equivalent RF external electromagnetic environment such as the one defined in SAE ARP5583, sections 5 and 7 (SAE ARP5583 is non-applicable for Army), and the effects of the lightning environment defined in MIL-STD-464, 5.5 or an equivalent environment such as in SAE ARP5412 (SAE ARP5412 is non-applicable for Army). EIDs are required to demonstrate 16.5 dB of safety margin no fire stimulus to the above external environments for safety assurances and 6 dB margin for EIDs where there are consequences other than safety. Method of Compliance: a. HERP: Verification is accomplished by measurements of the RF generated by the on-board emitters and analysis based on the methodology of Protection of DoD Personnel from Exposure to Radiofrequency Radiation and Military Exempt Lasers, DoDI 6055.11 (see also IEEE STD C95.1a). The following publications also provide guidance and methodology for assessing RF Hazards: (Air Force) Electromagnetic Radiation Hazard TO 31Z-10-4; (Navy) Electromagnetic Radiation Hazard NAVSEA OP 3565. b. HERF: Verification is accomplished by inspection and analysis based on the methodology of TO 31Z-104 and NAVSEA OP 3565 for calculating hazard distance from RF emitters. c. HERO: Verification is accomplished by testing of the EIDs and associated circuitry to the margins defined in MIL-STD-464, 5.1; to the external RF electromagnetic environment defined in MIL-STD-464, 5.9.3; and by analysis by using NAVSEA OP 3565, Volume 2 or an equivalent RF electromagnetic environment such as the one defined in SAE ARP5583, sections 5 and 7 (SAE ARP5583 is non-applicable for Army). Also, verification is accomplished by testing of the EIDs and associated circuitry to the effects of the lightning environment defined in MIL-STD-464, 5.5 or an equivalent environment such as in SAE ARP5412 (SAE ARP5412 is non-applicable for Army). References: MIL-STD-464: 5.1, 5.5, 5.9.3 and 5.15 DoDI 6055.11 TO 31Z-10-4 NAVSEA OP 3565 IEEE STD C95.1a SAE ARP5583: sections 5 and 7 SAE ARP5412",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects",
       "title_at_revision": "Hazards of electromagnetic radiation",
       "text": "Standard: Radio frequency transmitters pose no HERP, HERF, and HERO, and that the appropriate manuals include recommended safe separation distances from onboard and external transmitters to personnel and fuel sources. a. Hazards of electromagnetic radiation to personnel: The criteria to protect personnel from the electromagnetic radiation from air system emitters is defined in IEEE STD C95.1TM - 2019, Exposure Limits section. b. Hazards of electromagnetic radiation to fuel: Fuel cannot be inadvertently ignited by radiated electromagnetic fields from air system emitters or by the external RF electromagnetic environment defined in MIL-STD-464, External RF EME paragraph or an equivalent RF EME. c. Hazards of electromagnetic radiation to ordinance: Electrically initiated devices used in ordnance and other parts and equipment of the air vehicle cannot be inadvertently actuated during or experience performance degradation after exposure to the radiated electromagnetic fields from air system emitters and by the external RF electromagnetic environment defined in MIL-STD-464, Hazard of Electromagnetic Radiation to Ordnance (HERO) paragraph or an equivalent RF EME. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Hazards of electromagnetic radiation to personnel: Verification is accomplished by measurements of the RF generated by the onboard emitters or safe separation distance analysis based on the limits in IEEE STD C95.1-2345TM -2014, Exposure Limits section. MIL-HDBK- 235-1, Calculations section and NAVSEA OP 3565 Volume 1, Calculation of Electromagnetic Fields appendix, provides the methodology for assessing RF hazards calculations.\n(2) Hazards of electromagnetic radiation to fuel: Verification is accomplished via analysis based on the methodology of MIL-HDBK-235-1, Calculations section, and NAVSEA OP 3565 Volume 1, Calculation of Electromagnetic Fields appendix, for calculating hazard distance from RF emitters against areas where fuel vapors are expected (e.g., vents, receptacles). The peak power density limit is 5 W/cm2 to calculate the safe separation distances from onboard RF transmitters.\n(3) Hazards of electromagnetic radiation to ordinance: Verification is accomplished via analysis based on the methodology of MIL-HDBK-235-1, Calculations section, and NAVSEA OP 3565 Volume 1, Calculation of Electromagnetic Fields appendix, for calculating hazard distances from onboard RF emitters to HERO SAFE, HERO SUSCEPTIBLE and HERO UNSAFE EIDs. In addition, use HERO test results following Test MoC (1) to substantiate HERO certification for EIDs validating safe distances are appropriate once the items are integrated into the air system. Test.\n  (1) Ground test: Hazards of electromagnetic radiation to ordinance: Verification is accomplished by testing of the EIDs and associated circuitry to the margins defined in MIL-STD-464, Margins paragraph; to the external RF electromagnetic environment defined in MIL-STD-464, Hazard of Electromagnetic Radiation to Ordnance (HERO) paragraph.",
       "source_url": "https://assist.dla.mil",

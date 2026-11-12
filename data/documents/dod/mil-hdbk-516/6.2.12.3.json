@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.12.3",
   "number": "6.2.12.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Jammed inceptor functionality",
   "subject_group": "6.2.12 Vehicle control function pilot vehicle interface",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Jammed inceptor functionality",
       "text": "Standard: Provisions are incorporated to mitigate or accommodate inceptor jams to prevent loss of control or departure. In the case of connected inceptors, a jam in one does not impede operation of the other. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the design of inceptors and mechanical transmission devices to identify elements that may cause jamming.\n(2) Review of the inceptor and mechanical transmission device design to identify elements intended to mitigate or accommodate the impact of a jammed inceptor. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify jam causes, failure rates, and consequences.\n  (2) Perform structural analysis to evaluate effectiveness of any mechanical mitigation. Test.\n    (1) Lab test: For mechanical mitigations, verify that the mitigation performs as required using a representative inceptor assembly.\n    (2) Lab test: For inceptors that operate in a jam mode (e.g., active inceptors), conduct test in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to assess air vehicle response does not induce loss of control or departure.",
       "source_url": "https://assist.dla.mil",

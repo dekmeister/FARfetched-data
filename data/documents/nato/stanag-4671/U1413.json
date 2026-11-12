@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1413",
   "number": "U1413",
-  "current_grouping": "Subpart F \u2013 Equipment",
+  "current_grouping": "Subpart F \u2014 Equipment",
   "canonical_title": "Engine shut down procedure",
   "subject_group": "SAFETY EQUIPMENT AND EMERGENCY CAPABILITY",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Engine shut down procedure",
       "text": "In the event of an engine failure that causes shutdown, the following requirements apply :\n(a) the UAV must be designed to retain sufficient control and manoeuvrability until it has reached a forced landing area.\n(b) therefore, the emergency electrical power must be designed in such a way that its reliability and duration are compatible with USAR.1413 (a). The time period needed to perform a glide from maximum certificated altitude to sea level and reach a forced landing area includes the time needed for the UAV crew to recognise the failure and to take appropriate action, if required.\n(c) the engine shut down procedure must be analysed considering the existence of the emergency recovery capability specified in USAR.1412",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Engine shut down procedure",
       "text": "In the event of an engine failure that causes shutdown, the following requirements apply:\n(a) the UAS must be designed to retain sufficient control and manoeuvrability until it has reached a forced landing area.\n(b) therefore, the emergency electrical power must be designed in such a way that its reliability and duration are compatible with USAR.U1413 (a). The time period needed to perform a glide from maximum certificated altitude to sea level and reach a forced landing area includes the time needed for the UAS crew to recognise the failure and to take appropriate action, if required.\n(c) the engine shut down procedure must be analysed considering the existence of the emergency recovery capability specified in USAR.U1412",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

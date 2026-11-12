@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.1.3.2-516d",
   "number": "11.1.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Airborne collision avoidance systems",
   "subject_group": "11.1.3 Identification",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Airborne collision avoidance systems",
       "text": "Standard: The availability, continuity, and integrity of airborne collision avoidance systems support safety-critical surveillance. Surveillance performance complies with national and worldwide civil airspace requirements in the intended area of operations for CNS/ATM capabilities such as TCAS, MILACAS-FR, MILACAS-XR, ACAS X, E-TCAS, and DAA systems. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Document the surveillance subsystem architecture and identify the safety-critical hardware and software item list.\n(2) Determine the CNS/ATM impacts, tailor the requirements from airspace authorities such as the FAA and ICAO, and document these requirements in the AW certification basis by reference. Analysis.\n  (1) Verify that the SSHA identifies hazards, their severity, along with any design and procedural mitigations.\n  (2) Verify failures that can result in critical or catastrophic severity hazards occur at a rate less than or equal to 10-7 per flight hour. Test.\n    (1) Lab test: Conduct HITL lab testing to verify performance requirements and tailored CNS/ATM requirements of the representative hardware and software configuration.\n    (2) Lab test: Conduct HITL lab testing to introduce system faults identified in analysis and evaluate the consequence of those failures.\n    (3) Ground test: Conduct air vehicle ground testing to verify performance requirements and tailored CNS/ATM requirements of the representative hardware and software configuration. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n  (3) Show compliance with tailored CNS/ATM performance requirements. Test.\n  (4) Flight test: Conduct flight testing to verify performance requirements and tailored CNS/ATM requirements.",
       "source_url": "https://assist.dla.mil",

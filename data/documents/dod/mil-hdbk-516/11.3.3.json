@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "11.3.3",
   "number": "11.3.3.1",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Flight critical functionality",
   "subject_group": "11.3.3 Antenna performance",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "11.3.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that antenna patterns for safety/flight-critical transmitting and receiving equipment provide adequate coverage to preclude a.",
       "text": "Verify that antenna patterns for safety/flight-critical transmitting and receiving equipment provide adequate coverage to preclude a. Loss of flight-critical functioning. b. Display of unsafe information to the operator or maintainer.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "11.3.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that antenna patterns for safety/flight-critical transmitting and receiving equipment provide adequate coverage to preclude a.",
       "text": "Verify that antenna patterns for safety/flight-critical transmitting and receiving equipment provide adequate coverage to preclude a. Loss of flight-critical functioning b. Display of unsafe information to the operator or maintainer c. Inadequate availability and continuity of service for SOF coordination/interoperability",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "11.3.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate coverage to ensure a.",
       "text": "Verify that antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate coverage to ensure a. Flight-critical functioning is retained. b. Unsafe information is not displayed to the operator or maintainer. c. Adequate availability and continuity of service for SOF operations. DoD/MIL Doc: JSSG-2005: para 3.3.5, 4.3.5 FAA Doc: 14CFR reference 23.1309.",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "11.3.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate coverage to ensure a.",
       "text": "Verify that antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate coverage to ensure a. Flight-critical functioning is retained b. Unsafe information is not displayed to the operator or maintainer c. Adequate availability and continuity of service for SOF operations DoD/MIL Doc: JSSG-2005: 3.3.5, 4.3.5 FAA Doc: 14CFR reference 23.1309",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Flight critical functionality",
       "text": "Criterion: Verify that installed antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate gain and coverage to ensure flight-critical functionality is retained. Standard: Requirements for systems' link margins and antenna coverage necessary for safety of flight are defined and documented. The subsystems' installed performance provides sufficient link margin and antenna coverage to preclude loss of signal that would adversely affect safety of flight. Antenna nulls do not adversely affect safety of flight. Method of Compliance: Analysis, laboratory, open-air, and aircraft testing verify installed system performance and antenna coverage. For USAF and Army, antenna system coverage testing for safety of flight systems has 360 degrees spherical coverage. Reference: JSSG-2005: 3.3.5, 4.3.5",
       "source_url": "https://assist.dla.mil",
@@ -63,7 +63,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Flight critical functionality",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

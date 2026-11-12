@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "12.1.5",
   "number": "12.1.5",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Uninterruptible power",
   "subject_group": "12.1 Electrical power generation system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical Power System",
       "title_at_revision": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system.",
       "text": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system.",
       "text": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system. DoD/MIL Doc: For guidance/principles regarding/affecting design and operation of electrical systems for uninterruptible electric power: AFGS-87219 MIL-E-7016 NAVSEA TM-S9310-AQ-SAF-010 JSSG-2009: Appendix H para H.3.4.8, H.4.4.8. FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system.",
       "text": "Verify that the independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system. DoD/MIL Doc: For guidance/principles regarding/affecting design and operation of electrical systems for uninterruptible electric power: AFGS-87219 MIL-E-7016 NAVSEA TM-S9310-AQ-SAF-010 JSSG-2009: Appendix H H.3.4.8, H.4.4.8 FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Uninterruptible power",
       "text": "Criterion: Verify that independent, uninterruptable power sources, including power control panels, are available to satisfy requirements of essential redundancy for flight-critical functions after failure of the primary power system and there is no single-point failure (including circuit boards) anywhere in the power system. This verification includes examination to assure that loss of primary electric power to a control station does not cause loss of control of its associated aircraft. Standard: a. Uninterruptible power is provided, as appropriate, for flight-critical functions and all other essential loads. b. When necessary to avoid loss of associated aircraft, the control station and other flight critical functions are provided with uninterruptible power. Method of Compliance: Verification methods include analysis, test, demonstration and inspection of documentation. Engineering evaluation of systems design, evaluation of Electrical Loads Analysis, and systems level tests verify that electric power is reliably delivered to essential systems and equipment under both normal and adverse operating conditions. Evaluation of FMECA shows that single point failures are precluded by the system design. References: For guidance/principles regarding/affecting design and operation of electrical systems for uninterruptible electric power: JSSG-2009: H.3.4.8, H.4.4.8 MIL-E-7016 AFGS-87219 NAVSEA TM-S9310-AQ-SAF-010 14 CFR 23.1351-23.1367; 25.1351-25.1363",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Uninterruptible power",
       "text": "Standard: For the air system, the EPS, in conjunction with power hold-up capacity and other characteristics of utilization equipment, provides continued electrical power to support the integrity of SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) An analysis shows that the uninterruptable power source, in conjunction with power hold-up capacity and other characteristics of utilization equipment, provides continued electrical power to support the integrity of SCFs during power interruptions. Test.\n  (1) Lab test: Electrical system tests, using production or production representative power system components, verifies that, during transfer, abnormal, fault clearing and emergency modes of operation, uninterruptable power is provided for safety-critical loads.\n  (2) Ground test: Air vehicle level ground testing verifies that, during transfer and emergency modes of operation, uninterruptable power is provided for safety-critical loads.",
       "source_url": "https://assist.dla.mil",

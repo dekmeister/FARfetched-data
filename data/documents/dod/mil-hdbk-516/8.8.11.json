@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.11",
   "number": "7.2.8",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Exhaust gas impingement",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores.",
       "text": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores.",
       "text": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.5.4.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores.",
       "text": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, and stores. DoD/MIL Doc: JSSG-2007A: para A.3.7.10, A.4.7.10, engine exhaust nozzle system design and verification. JSSG-2007A: para A.3.1.8.2, A.4.1.8.2, A.3.1.8.5, A.4.1.8.5 and A.3.1.8.7, A.4.1.8.7, fire prevention, air and gas leakage and jet wake.",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.5.4.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, stores, rotor blades, and airframe structure.",
       "text": "Verify that exhaust systems direct exhaust gases to the atmosphere clear of the flight crew, boarding or discharging passengers, externally mounted equipment, fluid drains, air intakes, stores, rotor blades, and airframe structure. DoD/MIL Doc: JSSG-2001B: 3.3.1.1.2/4.3.1.1.2, Nozzle and Exhaust Systems JSSG-2007A: A.3.1.8.2, A.4.1.8.2, A.3.1.8.5, A.4.1.8.5 and A.3.1.8.7, A.4.1.8.7, fire prevention, air and gas leakage and jet wake; A.3.7.10, A.4.7.10, engine exhaust nozzle system design and verification",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.5.4.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Exhaust gas impingement",
       "text": "Criterion: Verify that exhaust systems direct exhaust gases to the atmosphere clear of all personnel, externally mounted equipment, fluid drains, air intakes, stores, rotor blades, and airframe structure. Standard: Under all anticipated environmental and flight conditions (e.g., wind) exhaust plume(s) do(es) not: impinge on aircraft structure or equipment to the extent that their maximum temperatures are exceeded, impinge on or mix (except when designed) with any flammable fluid drainage or vapor discharge to the extent that the fluid/vapor auto ignition temperature is achieved or exceeded, impose an unavoidable hazard to flight/ground crew or impede a pre-flight/launch activity. Method of Compliance: Verification methods include analysis, test and review of documentation. Exhaust plume interaction with structure, fluid/vapor discharge, and all personnel is validated by inspection of plume and thermal analysis and models and ground and flight testing. Acceptability of hazards is validated by inspection of system safety documentation. Reference: JSSG-2007: A.3.7.10, A.4.7.10 engine exhaust nozzle system design and verification.",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Exhaust gas impingement",
       "text": "Standard: Under all environmental, ground, and flight conditions (e.g., wind, power settings), exhaust plume temperatures and trajectories are characterized (e.g. temperature and velocity profiles), satisfy interaction limits, and do not result in loss or serious damage to the air vehicle, personal injury, or loss of life. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of documentation (e.g. ICD, flight manual, and maintenance manual) shows exhaust plume interaction meets interface requirements and ground crew keep-out zones are documented. Analysis.\n  (1) Analyses performed with a model calibrated to measured test data for characterization of exhaust plume interaction at all conditions not tested. Test.\n    (1) Ground test: Ground testing to verify exhaust plume interaction with structure, fluid and vapor discharge, and personnel.",
       "source_url": "https://assist.dla.mil",

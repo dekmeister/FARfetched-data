@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.3.5",
   "number": "8.5.1.5",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Air vehicle stability and control on the ground",
   "subject_group": "8.5.1 Landing gear general arrangement",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.3.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that dynamic stability is adequate and landing gear shimmy is not evident.",
       "text": "Verify that dynamic stability is adequate and landing gear shimmy is not evident.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.3.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that dynamic stability is adequate and landing gear shimmy is not evident.",
       "text": "Verify that dynamic stability is adequate and landing gear shimmy is not evident. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.7/A.4.4.1.1.7 Gear Stability; and A.3.4.1.4.5.1/A.3.4.1.4.5.1 Steering Characteristics. AFGS-87139: para 3.2.1.2 Arrangement and 3.2.1.4 Damping. FAA Doc: 14CFR reference: 23.721-23.745, 25.721-25.737- shimmy is not covered, the rest of the paragraphs imply coverage",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.3.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that dynamic stability is adequate and landing gear shimmy is not evident.",
       "text": "Verify that dynamic stability is adequate and landing gear shimmy is not evident. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.1.7/A.4.4.1.1.7 Gear Stability; and A.3.4.1.4.5.1/A.3.4.1.4.5.1 Steering Characteristics. AFGS-87139: 3.2.1.2 Arrangement and 3.2.1.4 Damping. FAA Doc: 14CFR reference: 23.721-23.745, 25.721-25.737- shimmy is not covered, the rest of the paragraphs imply coverage",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.3.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Landing gear stability and shimmy prevention",
       "text": "Criterion: Verify that dynamic stability is adequate and landing gear shimmy is not evident. Standard: Verify that the landing gear design parameters for new and worn conditions suppress all divergent loads and forces at all operational ground speeds. Divergent loads and forces are controlled by either active or passive means in order to prevent detrimental oscillations induced by runway roughness, tire imbalance or design, brake vibrations and gear natural responses. The oscillation modes to be evaluated include fore and aft, torsional and vertical displacements. Method of Compliance: Verification methods include analyses and tests. Shimmy analysis verifies sufficient shimmy damping at all ground operations. Ground vibrational tests verify the natural frequency sensitivities of the gear and air vehicle. Ground (taxi) and flight testing verify that all air vehicle operations meet vibrational requirements and are within prescribed shimmy and stability limits. References: JSSG-2009: A.3.4.1.1.7, A.4.4.1.1.7 Gear Stability; A.3.4.1.4.5.1, A.3.4.1.4.5.1 Steering Characteristics AFGS-87139: 3.2.1.2 Arrangement, 3.2.1.4 Damping 14 CFR 23.721-23.745, 25.721-25.737 - shimmy is not covered; the rest of the paragraphs imply coverage",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Air vehicle stability and control on the ground",
       "text": "Standard: The air vehicle will maintain dynamic stability and control, and have no adverse dynamics (e.g., shimmy, gear walk, porpoising, and yaw skids), during taxi, takeoff roll, and landing roll. The landing gear system design, for new and worn conditions, will suppress all divergent loads and forces at all operational ground speeds. Divergent loads and forces caused by runway roughness, tire imbalance or design, brake vibrations, and landing gear natural response will be controlled by either active or passive means to prevent oscillations from becoming detrimental. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Stability and dynamic analysis verify the stability and control of the air vehicle IAW the standard.\n(2) Parametric shimmy analysis of both nose and main landing gears verifies natural or augmented dampening is present so that the amplitude of any landing gear oscillations after three cycles is reduced to 1/3 or less of the original disturbance. Parametric analysis includes effects of free play, wear, friction variations, allowable mis-service strut and tire conditions, brake and antiskid control, and tire imbalances. Test.\n  (1) Lab test: Conduct component bench testing to verify required damping characteristics of any active damper installed using validated input rates and loads.\n  (2) Ground test: Perform on air vehicle taxi and turning tests at various weights and speeds to verify stability and control of the air vehicle, no adverse dynamics, and no shimmy. If analysis and testing show tendency to shimmy or insufficient damping, specific induced excitation testing (e.g., runover bumps) is required to show no adverse effects to air vehicle (e.g., excessive load cycles on nose landing gear, flight crew physical operations, and controllability). Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct flight testing to verify stability and control of the air vehicle and no adverse dynamics during takeoff and landing operations.",
       "source_url": "https://assist.dla.mil",

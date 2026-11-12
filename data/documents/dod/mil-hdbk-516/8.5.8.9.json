@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.8.9",
   "number": "8.5.7.11",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Brake control modes",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.8.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all modes of brake operation are safe.",
       "text": "Verify that all modes of brake operation are safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.8.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all modes of brake operation are safe.",
       "text": "Verify that all modes of brake operation are safe. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009: para 3.2.7.4.4.2/4.2.7.4.4.2 Damage tolerant-fail safe evident subsystems and components; and Appendix A: A.3.4.1.4.3/A.4.4.1.4.3 Emergency directional control; and A.3.4.1.4.4.2/A.4.4.1.4.4.2 Alternative independent braking; MIL-B-8584 Design of Brake Systems; AFGS-87139: para 3.2.3.1 General; 3.2.3.2 Brake actuation system; 3.2.3.3 Anti-skid brake control; and 3.2.4.3 Brakes. FAA Doc: 14CFR reference: 11.1-11.2.6",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.8.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all modes of brake operation are safe.",
       "text": "Verify that all modes of brake operation are safe. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009: 3.2.7.4.4.2/4.2.7.4.4.2 Damage tolerant-fail safe evident subsystems and components; and Appendix A: A.3.4.1.4.3/A.4.4.1.4.3 Emergency directional control; and A.3.4.1.4.4.2/A.4.4.1.4.4.2 Alternative independent braking MIL-B-8584 Design of Brake Systems AFGS-87139: 3.2.3.1 General; 3.2.3.2 Brake actuation system; 3.2.3.3 Anti-skid brake control; and 3.2.4.3 Brakes FAA Doc: 14CFR reference: 11.1-11.2.6",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.8.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake control modes",
       "text": "Criterion: Verify that all modes of brake operation are safe. Standard: Brake system disconnect, switching or disengaging does not cause locked wheels/tire conditions. System failures or control changes are predictable and default to a state that is controllable. Single point failures have been identified and their consequences of failure have been eliminated or mitigated. Method of Compliance: Verification methods include analyses, tests and demonstrations. The FMECA identifies degraded modes of operation. Ground and simulator testing verifies that the brake system functions safely in degraded and normal modes. Hardware and simulator testing verify that failures or control changes are predictable and result in a state that is controllable. Ground and flight tests verify performance. References: JSSG-2009: 3.2.7.4.4.2, 4.2.7.4.4.2 Damage tolerant-fail safe evident subsystems and components; A.3.4.1.4.3, A.4.4.1.4.3 Emergency directional control; A.3.4.1.4.4.2, A.4.4.1.4.4.2 Alternative independent braking MIL-B-8584 AFGS-87139: 3.2.3.1 General; 3.2.3.2 Brake actuation system; 3.2.3.3 Anti-skid brake control; 3.2.4.3 Brakes SAE ARP1070",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Brake control modes",
       "text": "Standard: The brake control system prevents the loss of braking, locked wheels, and deep skidding of tires during brake control mode transitions and changes (e.g., hydroplaning, despin, paired wheel and antiskid to pressure control) to stop the air vehicle within the required stopping distance. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Conduct HITL lab testing, utilizing all brake and antiskid system hardware (e.g., control box) including representative brake line lengths and pressure drops, antiskid software, and air vehicle model, landing gear damping model, and wheel speed sensor simulator model, to verify transitions between control modes do not cause locked wheel(s) and air vehicle maintains directional control under these modes.\n(2) Ground test: Conduct ground testing to verify transitions between control modes do not cause locked wheel(s), loss of braking, and air vehicle maintains directional control under these modes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n(3) Flight test: Conduct flight testing to verify transitions between control modes do not cause locked wheel(s), loss of braking, and air vehicle maintains directional control under these modes.",
       "source_url": "https://assist.dla.mil",

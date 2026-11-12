@@ -245,6 +245,26 @@ class TestCollectsAll:
         assert any("outside a formula line" in e for e in ei.value.errors)
         assert check(data) == ei.value.errors
 
+    def test_grouping_style_faults_listed_with_path_faults(
+        self, tmp_path: Path
+    ) -> None:
+        old_style = fx.cfr_provision("23", "1301", [0])
+        old_style["current_grouping"] = "Powerplant"
+        old_style["versions"][0]["grouping_at_time"] = "Subpart E – Powerplant"
+        capitals = fx.cfr_provision("23", "1309", [0])
+        capitals["current_grouping"] = "Subpart F — EQUIPMENT"
+        data = fx.stage(tmp_path, [fx.faa_part("23", [0])], [old_style, capitals])
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "out.sqlite")
+        errors = ei.value.errors
+        assert any("1301.json: current_grouping 'Powerplant': not" in e for e in errors)
+        assert any(
+            "1301.json: 23-0 grouping_at_time 'Subpart E – Powerplant'" in e
+            for e in errors
+        )
+        assert any("1309.json" in e and "name in capitals" in e for e in errors)
+        assert check(data) == errors
+
     def test_tcds_conflict_and_unresolved_ref_together(self, tmp_path: Path) -> None:
         tcds = {"issuer": "FAA", "tcds_number": "A1", "revision": "1"}
         first = fx.cfr_aircraft([fx.entry([fx.cfr_ref("23-0")])], "M1", tcds)

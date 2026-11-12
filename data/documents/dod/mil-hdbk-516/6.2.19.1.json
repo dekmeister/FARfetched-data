@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.19.1",
   "number": "6.2.19.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Inertial sensors",
   "subject_group": "6.2.19 Inertial and navigation sensors",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Inertial sensors",
       "text": "Standard: Free inertial sensor data cannot be corrupted by air vehicle structural dynamics or non-flight-critical sensor data. The VCF includes protections to preclude anomalous GPS data from corrupting VCF performance or causing loss of control when using GPS aided parameters in the control function. Free inertial sensor data, to include angular rates, linear accelerations, and attitudes (if required by the design), is provided to the VCF for stability and control. Inertial sensors are located so that there is minimal impact from air vehicle structural modes. Corrections for the installation location do not interfere with SMI filters. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Inspection of VCF designs shows inertial sensor data is not mixed with non-flight-critical sensor data.\n(2) Structural analysis identifies structural nodes and anti-nodes. The results of the analysis informs the sensor placement in the air vehicle and the corresponding structural filters to support ASE stability requirements.\n(3) Conduct simulation analysis to verify anomalous GPS data cannot corrupt VCF performance or cause loss of control. Test.\n  (1) Ground test: Ground vibration test verifies that sensor locations minimize the impact of structural vibrations.\n  (2) Ground test: SMI testing verifies that sensor integrations are immune to, or compensate for, structural modes.",
       "source_url": "https://assist.dla.mil",

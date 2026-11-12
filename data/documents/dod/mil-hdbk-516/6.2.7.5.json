@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.7.5",
   "number": "6.2.13.5",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Integration with avionics systems",
   "subject_group": "6.2.13 Vehicle control function integrated systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.7.5",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Integration with avionics systems",
       "text": "Criterion: Verify that the VCF interfaces/integration with the avionics system are safe. Standard: The requirements for the avionics system interfaces are treated to have the same criticality as the VCF function to which it is integrated. The probability of air vehicle loss due to the VCF integration with avionics does not exceed PLOC. This probability takes into account the interdependence of all air vehicle functions within the integrated VCF. Method of Compliance: Verification methods include analysis, test, simulation, and review of documentation. The quantitative flight safety requirement is verified by analysis consisting of all the safety critical failure modes. Special consideration is taken where integration has several fault layers, including single, dual or a combination of failures. The integration and fault accommodation may be order sensitive and is considered in the analysis. Test cases are defined for the avionics system interfaces/integration. Interfaces/integration with other functions and sub-functions are verified to be safe through FMET performed on an Iron Bird, SIL or high fidelity integration lab with all hardware and software in the loop. References: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.5, 3.1.7, 3.1.8, 3.1.11, 3.1.12, 3.1.13, 3.1.14.4, 3.2.2.2, 3.2.2.4, 3.2.2.5, 3.2.2.6, 3.3, 3.2.4, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Integration with avionics systems",
       "text": "Standard: The avionics system elements integrated with the VCF meet the criticality levels required by the VCF functions they support or the VCF accommodates for the differences in criticality levels. Single failures in the avionics system do not degrade the VCF below Operational State II. Avionics system failures more probable than PLOC divided by ten do not the degrade VCF below Operational State IV. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the interface and criticality requirements between VCF and avionics.\n(2) Review of the VCF requirements and design for mitigation of hazards due to integration of avionics systems. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences. Special consideration is taken where integration has several fault layers, including single, dual or a combination of failures. The integration and fault accommodation may be order sensitive and is considered in the analysis. Test.\n    (1) Lab test: Conduct FMET in a HITL/Iron Bird, SIL or high fidelity integration lab with critical hardware and software in the loop to verify interfaces and integration with avionics functions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct flight test operations evaluating integration with avionics across the envelope and integrated modes during normal operation.",
       "source_url": "https://assist.dla.mil",

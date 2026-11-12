@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.6.10.1",
   "number": "8.6.10.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Flight crew displays",
   "subject_group": "8.6.10 Flight crew interfaces",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Flight crew displays",
       "text": "Standard: The air system provides a means for the flight crew to monitor APS and emergency power system performance and status. APS and emergency power system faults are recorded and indicated to the flight crew for system failures, degraded performance, and flight-critical equipment temperature limit exceedances. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review drawings, flight crew interfaces and flight manual(s) to verify APS and emergency power system information is provided to the flight crew to monitor APS and emergency power system performance and to notify of failures, degradation, or flight-critical equipment temperature limit exceedances. Test.\n  (1) Lab test: Conduct lab testing (e.g., HITL, FMET) or air vehicle simulations to verify that APS or emergency power system information and notifications of failures, degradation, flight-critical equipment temperature limit exceedances are provided to the flight crew.\n  (2) Ground test: Conduct testing on air vehicle of APS and emergency power system under both normal system operation and with simulated failures to verify that APS and emergency power system status information and faults are recorded and provided to the flight crew.",
       "source_url": "https://assist.dla.mil",

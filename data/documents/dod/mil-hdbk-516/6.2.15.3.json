@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.15.3",
   "number": "6.2.15.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Command and control redundancy and safety",
   "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Command and control redundancy and safety",
       "text": "Standard: The UAS provides redundant, fault tolerant, and reliable C2 data links between the UAV and the control station with separation and isolation among internal and external VCF interfaces to meet fail-operational capability of the C2 function for any single failure unless the failure is less probable than PLOC. The predicted performance of the C2 data links meets latency and reliability requirements with confidence levels as specified by the procuring activity. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review C2 integrated system design drawings to ensure physical separation and isolation among internal and external VCF interfaces and to identify single point failures.\n(2) Review documentation of design drawings and specification to verify link redundancy and link reconfiguration requirements. Analysis.\n  (1) Failure modes, effects, and criticality assessment results for the C2 integrated system show single point failures are less probable than PLOC.\n  (2) Conduct C2 system reliability analysis to verify system meets predicted reliability requirements.\n  (3) Conduct hazard analyses to verify the reliability, functionality, and latency of the C2 system is accounted for properly in the hazard analyses. Test.\n    (1) Lab test: Conduct C2 system component hardware qualification testing.\n    (2) Lab test: Conduct UAS SIL test to verify operation of redundant data links meet functional requirements (including latency requirements).\n    (3) Lab test: Conduct UAS SIL FMET to verify fail-op, fault detection, isolation, and reconfiguration for critical C2 failures.\n    (4) Ground test: Conduct ground testing to verify C2 link reliability and latency requirements are met.",
       "source_url": "https://assist.dla.mil",

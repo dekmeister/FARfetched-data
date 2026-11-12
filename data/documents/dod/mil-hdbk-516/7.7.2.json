@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.7.2",
   "number": "7.3.7",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Engine mounts",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.7.2",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the main mounts contain adequate design margin to properly secure the engine under all operating conditions and failure modes.",
       "text": "Verify that the main mounts contain adequate design margin to properly secure the engine under all operating conditions and failure modes.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.5.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the aircraft/engine mounts contain adequate design margin to secure the engine properly under all operating conditions and failure modes.",
       "text": "Verify that the aircraft/engine mounts contain adequate design margin to secure the engine properly under all operating conditions and failure modes. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.4, A.4.1.1.4, Mounts, A.4.10.12, A.5.10.12: MIL-HDBK-1783B, Engine Structural Integrity. FAA Doc: 14CFR references: 33.5, 33.23",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.5.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the aircraft/engine mounts contain adequate design margin to secure the engine properly under all operating conditions and failure modes.",
       "text": "Verify that the aircraft/engine mounts contain adequate design margin to secure the engine properly under all operating conditions and failure modes. DoD/MIL Doc: JSSG-2007A: A.3.1.1.4, A.4.1.1.4, Mounts, A.4.10.12, A.5.10.12: MIL-HDBK-1783B, Engine Structural Integrity. FAA Doc: 14CFR references: 33.5, 33.23",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.5.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Engine mounts",
       "text": "Criterion: Verify that the aircraft/engine mounts contain adequate design margin to secure and protect the engine properly under all operating conditions and failure modes. Standard: The engine is securely retained in the air vehicle at all flight, takeoff, landing, and ground operating conditions. The engine mounts withstand all limit loads resulting from air vehicle maneuvers and engine failures without permanent deformation. The engine mounts withstand all ultimate loads and crash loads without complete fracture. The engine mounts keep the engine from entering the flight deck or passenger compartments in the event of a crash landing. The engine mounts meet established durability, strength and damage tolerance design requirements. Engine mount damping systems provide adequate protection from airframe induced vibrations. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis, full-up engine and flight testing ensure the mounts retain the engine under all operation and known failure conditions. Engine mount testing ensures adequate design safety margins. Analysis of the engine mount design review data and drawings ensures a damage tolerant design. References: JSSG-2007: A.3.1.1.4, A.4.1.1.4, Mounts 14 CFR 33.5, 33.23",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Engine mounts",
       "text": "Standard: The engine mounts retain the engine (including all engine mounted equipment and accessories, components, and operating fluids) in the air vehicle at all flight, takeoff, landing, and ground conditions. The engine mounts withstand limit load conditions without detrimental permanent set, damage, reduction of life limits, or temporary deflection to the extent that operation or performance is impaired. The engine mounts withstand ultimate load conditions, including crash loads, rotor seizure loads in combination with limit maneuver loads, and blade out loads in combination with limit takeoff loads, without failure. Any air vehicle loads supported through the engine structure and the two additional gyroscopic conditions defined in 7.3.5 are included. Physical (e.g., dimensions, growth, location, attachment method) and functional (e.g., stiffness, loads) details of the air vehicle-to-engine mount interface are documented in the ICD. Any unique features required for mount fire-tolerance capability (e.g., shielding, blankets) are described in the ICD. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of the ICD substantiates that the mount interface is fully defined, including configuration details required for mount fire-tolerance capability. Analysis.\n  (1) Analyses are accomplished to define all relevant load cases and to verify strength and deflection capability. Test.\n    (1) Lab test: Component or assembly testing of mount capability to limit and ultimate load conditions is accomplished to validate analytical models and predictions. Testing is taken to mount failure to verify margin. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Engine installation and flight testing demonstrates mount interface compatibility and functionality per design intent. Test.\n      (2) Flight test: Instrumented flight test verifies installed mount load analysis.",
       "source_url": "https://assist.dla.mil",

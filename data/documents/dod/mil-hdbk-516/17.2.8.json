@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "17.2.8",
   "number": "17.3.2.2",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Malfunctioning stores",
   "subject_group": "17.3.2 System health",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "17.2.8",
-      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armament/Stores Integration",
       "title_at_revision": "Verify that malfunctioning stores can be turned off or released if required to protect the air vehicle.",
       "text": "Verify that malfunctioning stores can be turned off or released if required to protect the air vehicle.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "17.2.8",
-      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armament/Stores Integration",
       "title_at_revision": "Verify that malfunctioning stores can be turned off or released if required to protect the air vehicle.",
       "text": "Verify that malfunctioning stores can be turned off or released if required to protect the air vehicle. DoD/MIL Doc: MIL-STD-1760 for the electrical/logical interface. MIL-STD-27733, Modification to Aerospace Vehicles MIL-HDBK-244, Modification and Marking Requirements for Test Equipment in Aerospace Vehicles and Related Support Equipment",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "17.2.8",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Malfunctioning stores",
       "text": "Criterion: Verify that malfunctioning stores can be turned off or released if required to protect the air vehicle. Standard: The air vehicle system has the capability to command/control/power down malfunctioning stores. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Verification is accomplished to include SIL/avionics tests and DT&E/OT&E to ensure the stores management system controls and conditions the stores properly and jettisons malfunctioning stores if necessary. References: MIL-HDBK-244 MIL-STD-1760 for the electrical/logical interface",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Malfunctioning stores",
       "text": "Standard: A malfunctioning store does not result in inadvertent store operations or inadvertent transition of store state (e.g., powered off to on). In the case of a malfunctioning store, the air system or crewmembers have the ability to power down the store, transition the store to a safe state, or jettison the store. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Ensure safety-critical store malfunctions are identified and the severity of impact to the air vehicle has been determined. Analysis.\n  (1) Verify that the PVI design allows the crewmember to have positive indication, display and control of the store inventory, selection, status, C2 of critical state and mode transitions.\n  (2) Conduct failure mode analysis to identify the store failure modes, contributors, effect on the air system, fault detection and handling within the store, and reporting within the store OFP and to the air system, and to verify the failure accommodation within the air system. Determine methods for continued safe operation during malfunctioning stores, including but not limited to failure indication, removing and cycling power, and emergency jettison. Test.\n    (1) Lab test: Verify the air system capability to determine condition of the store and detect the malfunctioning store to include hung store, hangfire, misfire, or other critical store malfunctions. Verify that malfunctioning stores can be transitioned to a safe state (e.g., powered off or released if required to protect the air vehicle) IAW JSSSEH, Software Systems Safety Tests section.\n    (2) Lab test: Verify the store ability to sense a critical malfunction and provide status to the air system. Verify that the air system capability to command, control, and power down malfunctioning stores or transition the air system to degraded mode.\n    (3) Lab test: Verify the air system can indicate the condition of store to crewmembers. Ensure crew members can execute troubleshooting and emergency procedures in malfunctioning store scenario (e.g., hangfire, hung store, thermal battery runaway) to maintain safe operation during flight and recover the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight or Ground test: Conduct testing to ensure the SMS controls and conditions the malfunctioning stores properly to a safe state and facilitates jettison of malfunctioning stores when commanded by the crewmember. Crewmembers are able to execute emergency procedures to recover the air vehicle with malfunctioning stores (e.g., jettison, droop gun recovery, uncontrolled \u2018runaway\u2019 gun, off-set landing, thermal battery rundown).",
       "source_url": "https://assist.dla.mil",

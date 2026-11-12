@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.15.4",
   "number": "6.2.15.4",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Command and control integrity data check and protection",
   "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Command and control integrity data check and protection",
       "text": "Standard: The UAS C2 integrated system provides communications data transmission integrity checks (e.g., checksums, parity checks, cyclic redundancy checks, range verification checks, or integrity data monitors) to detect any data transmission errors (received, processed, and sent) and provides anti-aliasing filters and debounce protection. The UAV rejects erroneous or invalid input commands and provides clear visual feedback to the flight crew. The probability of data corruption resulting in loss of air vehicle is less than PLOC divided by 100. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review UAS C2 system and software requirements specification for data integrity requirements (data validation and error detection algorithms/monitors).\n(2) Review C2 system design documentation to verify the implementation of anti-alias filters and debounce signal protection. Analysis.\n  (1) Perform analysis to determine probability of data corruption resulting in loss of air vehicle. Test.\n    (1) Lab test: Conduct SIL testing to validate data integrity error detecting algorithm and integrity data monitor works per design.\n    (2) Lab test: Conduct SIL testing to ensure data consistency (accurate, up-to-date, and identical data) for across the integrated C2 system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) On-air vehicle ground demonstration ensures data consistency across the integrated C2 system.\n      (2) Flight demonstration ensures data consistency across the integrated C2 system.",
       "source_url": "https://assist.dla.mil",

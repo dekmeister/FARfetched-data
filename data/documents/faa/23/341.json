@@ -3,13 +3,13 @@
   "document": "23",
   "key": "341",
   "number": "341",
-  "current_grouping": "Structure",
+  "current_grouping": "Subpart C \u2014 Structure",
   "canonical_title": "Gust load factors.",
   "subject_group": "Flight Loads",
   "versions": [
     {
       "designator": "23-0",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust load factors.",
       "text": "In applying gust load requirements--\n(a) The slope of the lift curve may be assumed to be that of the wing alone; and\n(b) The gust load factors must be computed as follows: n = 1 + Where-- K = 1/2(W/S)1/4(for W/S<16 p.s.f.); K = 1.33 - (for W/S>16 p.s.f.); U = nominal gust velocity, f.p.s. (Note that the \"effective sharp-edged gust\" equals KU); V = airplane speed, m.p.h.; m = slope of lift curve, C_{L} per radian, corrected for aspect ratio; W/S = wing loading, p.s.f.",
       "publication_cite": "29 FR 17955",
@@ -33,7 +33,7 @@
     },
     {
       "designator": "23-7",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust load factors.",
       "text": "[In the absence of a more rational analysis, the gust load factors must be computed as follows: Where-- K_{g} = = gust alleviation factor; = = airplane mass ratio; U_{de} = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.); p = Density of air (slugs/cu. ft.); W/S = wing loading, p.s.f. = Mean geometric chord (ft.); g = Acceleration due to gravity (ft./sec.^{2}); V = airplane equivalent speed (knots); and a = Slope of the airplane normal force coefficient curve C_{NA} per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope C_{L} per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.]",
       "publication_cite": "34 FR 13088",
@@ -57,7 +57,7 @@
     },
     {
       "designator": "23-34",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust load factors.",
       "text": "In the absence of a more rational analysis, the gust load factors must be computed as follows: where-- K_{g} = = gust alleviation factor; [ = = airplane mass ratio;] U_{de} = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.); [ p = Density of air (slugs/cu. ft.);] W/S = wing loading, (p.s.f.); = Mean geometric chord (ft.); g = Acceleration due to gravity (ft./sec.^{2}); V = airplane equivalent speed (knots); and a = Slope of the airplane normal force coefficient curve per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope C_{L} per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
       "publication_cite": "52 FR 1825",
@@ -81,7 +81,7 @@
     },
     {
       "designator": "23-42",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust load factors.",
       "text": "[(a) The gust load for a canard or tandem wing configuration must be computed using a rational analysis, considering the criteria of Sec. 23.333(c), to develop the gust loading on each lifting surface or may be computed in accordance with paragraph (b) of this section provided that the resulting net loads are shown to be conservative with respect to the gust criteria of Sec. 23.333(c).\n(b) In the absence of a more rational analysis for conventional configurations, the gust load factors must be computed as follows:] where-- K_{g} = = gust alleviation factor; = = airplane mass ratio; U_{de} = Derived gust velocities referred to in Sec. 23.333(c) ( f.p.s.); p = Density of air (slugs/cu. ft.); W/S = wing loading, (p.s.f.); = Mean geometric chord (ft.); g = Acceleration due to gravity (ft./sec.^{2}); V = airplane equivalent speed (knots); and a = Slope of the airplane normal force coefficient curve C_{NA} per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope C_{L} per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
       "publication_cite": "56 FR 352",
@@ -105,7 +105,7 @@
     },
     {
       "designator": "23-48",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust load factors.",
       "text": "[(a) Each airplane must be designed to withstand loads on each lifting surface resulting from gusts specified in Sec. 23.333(c).\n(b) The gust load for a canard or tandem wing configuration must be computed using a rational analysis, or may be computed in accordance with paragraph (c) of this section, provided that the resulting net loads are shown to be conservative with respect to the gust criteria of Sec. 23.333(c).\n(c) In the absence of a more rational analysis, the gust load factors must be computed as follows--] where-- K g=0.88\u00b5_{g}/5.3+\u00b5_{g}=gust alleviation factor; \u00b5_{g}=2(W/S)/\u03c1 Cag=airplane mass ratio; U_{de} = Derived gust velocities referred to in Sec. 23.333(c) (f.p.s.); = Density of air (slugs/cu. ft.); [W/S = wing loading (p.s.f.) due to the applicable weight of the airplane in the particular load case.] C = Mean geometric chord (ft.); g = Acceleration due to gravity (ft./sec.^{2}); V = airplane equivalent speed (knots); and a = Slope of the airplane normal force coefficient curve C_{NA} per radian if the gust loads are applied to the wings and horizontal tail surfaces simultaneously by a rational method. The wing lift curve slope C_{L} per radian may be used when the gust load is applied to the wings only and the horizontal tail gust loads are treated as a separate condition.",
       "publication_cite": "61 FR 5144",

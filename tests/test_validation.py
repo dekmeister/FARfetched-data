@@ -6,6 +6,7 @@ import pytest
 
 from certbuild.lookups import CATEGORY_NAMES, ISSUERS
 from certbuild.sources import (
+    grouping_fault,
     SCHEMAS_DIR,
     validate_aircraft_file,
     validate_data_dir,
@@ -140,7 +141,7 @@ class TestPublicationCiteOptional:
         "document": "25",
         "key": "1309",
         "number": "1309",
-        "current_grouping": "F",
+        "current_grouping": "Subpart F — Equipment",
         "canonical_title": "Equipment, systems, and installations",
         "versions": [
             {
@@ -202,3 +203,37 @@ def test_malformed_json_reported_not_crashed(tmp_path: Path) -> None:
     errors = validate_provision_file(bad)
     assert errors
     assert "invalid JSON" in errors[0].message
+
+
+@pytest.mark.parametrize(
+    "value",
+    [
+        None,
+        "Appendices",
+        "Subpart B — Flight",
+        "Subpart C — Reserved",
+        "Subpart I — UA Control Station",
+        "Section 13 — Electromagnetic Environmental Effects (E3)",
+        "Subpart E — Power-Plant Installations; Reciprocating Engines",
+    ],
+)
+def test_grouping_style_accepts(value: str | None) -> None:
+    assert grouping_fault(value) is None
+
+
+@pytest.mark.parametrize(
+    ("value", "fault"),
+    [
+        ("Flight", "not `Subpart X — Name`"),
+        ("Appendix", "not `Subpart X — Name`"),
+        ("Subpart B – UA Flight", "not `Subpart X — Name`"),
+        ("Subpart B - Flight", "not `Subpart X — Name`"),
+        ("7. PROPULSION", "not `Subpart X — Name`"),
+        ("Subpart D — DESIGN AND CONSTRUCTION", "name in capitals"),
+        ("Subpart B — Flight — Two", "a second separator"),
+        ("Subpart B — Flight  Two", "double space"),
+    ],
+)
+def test_grouping_style_rejects(value: str, fault: str) -> None:
+    got = grouping_fault(value)
+    assert got is not None and got.startswith(fault)

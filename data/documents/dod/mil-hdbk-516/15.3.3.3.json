@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.3.3.3",
   "number": "15.6.4",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Software load compatibility",
   "subject_group": "15.6 Software qualification and installation",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.3.3.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle.",
       "text": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.3.3.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle.",
       "text": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.1.16; JSSG-2008 Appendix A: para 3.1.16 provides guidance regarding OFP version control and integrity. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.3.3.3",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle.",
       "text": "Verify that adequate configuration management controls are in place to ensure proper/ functionally compatible software loading for the intended use on the air vehicle. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.1.16 JSSG-2008 Appendix A: 3.1.16 provides guidance regarding OFP version control and integrity FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Software load compatibility",
       "text": "Criterion: Verify that adequate configuration management controls are in place to ensure proper and functionally compatible software loading for the intended use on the air system. Standard: Multiple versions and configurations of hardware and software in support of varying missions (e.g., service related) are carefully controlled. A matrix is established to identify compatibility for software and hardware configurations. A means for checking the correct software configuration (executables and data files) for loading is provided. CM controls preclude loading an incorrect software version onto the air system. Method of Compliance: Verification method includes inspection of configuration management process documents. Verify that configuration management controls are in place to prevent incorrect version selection and loading of incompatible or incorrect configurations. References: JSSG-2008 Appendix A: 3.1.16 provides guidance regarding OFP version control and integrity; 3.3.7 addresses software change control; 3.3.8 addresses software certification of hardware compatibility DoD JSSSEH: 4.3.6.3.2; 4.4.3; D.6.9; E.2.1; E.2.5.1; E.3.4; E.12.5 USAF Weapon Systems Software Management Guidebook: 3.11; G.3.5.h; Appendix I.g.(11) RTCA DO-178: For RTCA DO-178C: 7.0.b; 7.1.a, f-i; 7.2; 7.2.1; 7.2.2; 7.2.7.d; 7.5; 8.3.f and i; 11.4.b.7-9; 11.16; 11.22 (see also RTCA DO-178B) SAE 12207.1-1997: 6.24 provide instructions for linking and loading data SAE AS94900: 3.1.5.3.10 ARINC REPORT 667-1: 1.5.1; 1.5.6; 1.8.1.1 FAA AC 20-115C DOT/FAA/AR-07/48 : 5.2 configuration management tools",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Software load compatibility",
       "text": "Standard: 1. Verify that adequate CM controls are in place to ensure proper and functionally compatible software loading for the intended use on the air system. Multiple versions and configurations of hardware and software in support of varying missions (e.g., service related) are carefully controlled. A matrix is established to identify compatibility for software and hardware configurations. A means for checking the correct software configuration (executables and data files) for loading is provided. Configuration management controls preclude loading an incorrect software version onto the air system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification method includes analysis, test, and examination. Verify that the hardware, software, and data file configuration for the flight release configuration is correctly defined and the installed configuration is compatible. Verify that CM controls are in place to prevent incorrect version selection and loading of incompatible or incorrect configurations.",
       "source_url": "https://assist.dla.mil",

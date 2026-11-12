@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.13.2",
   "number": "8.8.17",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Controllability",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "7.13.2",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions.",
       "text": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions.",
       "text": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions. DoD/MIL Doc: JSSG-2007A: para A.3.7.16, A.4.7.16. FAA Doc: 14CFR references: 27.1143",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.3.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions.",
       "text": "Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions. DoD/MIL Doc: JSSG-2007A: A.3.7.16, A.4.7.16 FAA Doc: 14CFR references: 27.1143",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Safe controllability",
       "text": "Criterion: Verify that the rotor system provides safe controllability of the air vehicle under all expected operating conditions. Standard: The rotor system provides the required response to maintain safe control of the air vehicle under all operating conditions, including loss of lubricant, One-Engine-Inoperative (OEI), and autorotations. Method of Compliance: Verification methods include analysis, test, and review of documentation. Analysis verifies the response levels required to maintain safe air vehicle operation. Rig testing verifies that the rotary wing provides the expected response. Instrumented air vehicle/engine testing verifies that the rotary wing properly responds to maintain safe control of the air vehicle. Typical rotor system tests include, but are not limited to, ground testing, flight testing, and component testing. References: JSSG-2007: A.3.7.16, A.4.7.16 14 CFR 27.1143",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Controllability",
       "text": "Standard: The rotary-wing drive system provides the response to maintain control of the air vehicle without exceeding operating limits and without detrimental permanent deformation or damage when operated under steady state and transient operating conditions, throughout the flight and ground envelope, including loss of lubricant, OEI, and autorotations, IAW 8.8.1. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to verify the response levels to maintain air vehicle operation at all air vehicle design conditions.\n(2) Conduct a torsional stability analysis to verify design response behavior between propulsion drive system and rotary-wing drive system. Test.\n  (1) Lab test: Conduct rig testing to verify that the rotary-wing drive system provides the expected response. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct air vehicle testing to verify that the rotary-wing drive system properly responds to maintain control of the air vehicle and torsional stability margins between propulsion drive system and rotary-wing drive system.",
       "source_url": "https://assist.dla.mil",

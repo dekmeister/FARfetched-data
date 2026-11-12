@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "485",
   "number": "485",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Sideload conditions",
   "subject_group": "GROUND LOADS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Sideload conditions",
       "text": "(a) For the sideload condition, the UAV is assumed to be in a level attitude with only the main wheels contacting the ground and with the shock absorbers and tyres in their static positions.\n(b) The limit vertical load factor must be 1.33, with the vertical ground reaction divided equally between the main wheels. This value can be reduced to 1.2 if UAV operations are restricted to paved taxiways and runways only (subject to statement in the UAV System Flight Manual).\n(c) The limit side inertia factor must be 0.83, with the side ground reaction divided between the main wheels so that\n  (1) 0.5 (W) is acting inboard on one side; and\n  (2) 0.33 (W) is acting outboard on the other side.\n(d) The side loads prescribed in sub-paragraph (c) are assumed to be applied at the ground contact point and the drag loads may be assumed to be zero.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Sideload conditions",
       "text": "(a) For the sideload condition, the UA is assumed to be in a level attitude with only the main wheels contacting the ground and with the shock absorbers and tyres in their static positions.\n(b) The limit vertical load factor must be 1.33, with the vertical ground reaction divided equally between the main wheels. This value can be reduced to 1.2 if UA operations are restricted to paved taxiways and runways only (subject to statement in the UAS Flight Manual).\n(c) The limit side inertia factor must be 0.83, with the side ground reaction divided between the main wheels so that:\n  (1) 0.5 (W) is acting inboard on one side; and\n  (2) 0.33 (W) is acting outboard on the other side.\n(d) The side loads prescribed in sub-paragraph (c) are assumed to be applied at the ground contact point and the drag loads may be assumed to be zero.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

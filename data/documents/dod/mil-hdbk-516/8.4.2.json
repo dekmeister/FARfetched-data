@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.4.2",
   "number": "8.4.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Fire hazard analysis",
   "subject_group": "8.4 Fire and hazard protection",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.4.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection has been provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions.",
       "text": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection has been provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.4.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection is provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions.",
       "text": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection is provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7, G.4.4.7 MIL-HDBK-221: para 2.11 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.4.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection is provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions.",
       "text": "Verify that each component of the air vehicle is properly zoned according to the fire and explosion hazards and that protection is provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7, G.4.4.7 MIL-HDBK-221: 2.11 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.4.2",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Hazard protection zones",
       "text": "Criterion: Verify that each compartment of the air vehicle is properly zoned according to the fire and explosion hazards and that protection is provided to counter the hazards such that no fire or explosion hazards exist under normal operating conditions. Standard: Each aircraft zone is identified as one of the following fire hazard zones: Fire Zone, Flammable Leakage Zone, Flammable Zone, Ignition Zone, or Support Equipment Zone. Fire protection criteria are defined for each zone. Method of Compliance: Analyses identify which zones in the air vehicle contain flammable fluids or ignition sources, and documentation appropriately classifies those zones as a fire zone, flammable leakage zone, flammable zone, ignition zone or support equipment zone. Analysis of the air vehicle zones verifies separation of flammable leakage sources and ignition sources. Analysis indicates that flammable fluids and vapor systems are isolated from engines, engine compartments and other designated fire zones. Analysis identifies the potential leak sources and control measures for each zone of the air vehicle. Single point failures and dual failures are analyzed for risk and mitigation for each fire protection zone. References: JSSG-2009: G.3.4.7, G.4.4.7 MIL-HDBK-221: 2.11 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411, 27.863, 27.865, 29.851, 29.863, 29.865, 27.1411, 29.1411",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fire hazard analysis",
       "text": "Standard: Each compartment of the air vehicle and area surrounding the air vehicle is zoned as a fire zone, flammable zone, flammable leakage zone, ignition zone, or support equipment zone, according to the fire and explosion hazards present during normal and single failure conditions. Fire protection is provided for each zone according to the hazards present. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine design documentation to verify that a hazard zone analysis is complete, and each compartment is assigned a fire protection hazard zone type. Analysis.\n  (1) Conduct analysis that shows flammable fluids, vapors, or other materials in each compartment are identified.\n  (2) Conduct analysis that shows potential ignition sources caused by normal or failure modes in each compartment are identified.\n  (3) Conduct analysis that shows single point failures or likely combinations of failures in each compartment involving flammable materials or ignition sources are identified.\n  (4) Conduct analysis that shows each compartment is zoned as a flammable zone, flammable leakage zone, ignition zone, support equipment zone, or fire zone.\n  (5) Conduct analysis that shows the air vehicle includes fire protection in each zone to mitigate fire and explosion hazards identified for each zone.",
       "source_url": "https://assist.dla.mil",

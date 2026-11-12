@@ -3,13 +3,13 @@
   "document": "cs-23",
   "key": "629",
   "number": "629",
-  "current_grouping": "Subpart D \u2014 Design And Construction",
+  "current_grouping": "Subpart D \u2014 Design and Construction",
   "canonical_title": "Flutter",
   "subject_group": null,
   "versions": [
     {
       "designator": "CS23-0",
-      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "grouping_at_time": "Subpart D \u2014 Design and Construction",
       "title_at_revision": "Flutter",
       "text": "(See AMC 23.629)\n(a) It must be shown by the methods of (b) and either (c) or (d) , that the aeroplane is free from flutter, control reversal and divergence for any condition of operation within the limit V-n envelope and at all speeds up to the speed specified for the selected method. In addition \u2013\n  (1) Adequate tolerances must be established for quantities which affect flutter; including speed, damping, mass balance and control system stiffness; and\n  (2) The natural frequencies of main structural components must be determined by vibration tests or other approved methods.\n(b) Flight flutter tests must be made to show that the aeroplane is free from flutter, control reversal and divergence and to show by these tests that \u2013\n  (1) Proper and adequate attempts to induce flutter have been made within the speed range up to VD;\n  (2) The vibratory response of the structure during the test indicates freedom from flutter;\n  (3) A proper margin of damping exists at VD; and\n  (4) There is no large and rapid reduction in damping as VD is approached.\n(c) Any rational analysis used to predict freedom from flutter, control reversal and divergence must cover all speeds up to 1\u00b72 VD.\n(d) Compliance with the rigidity and mass balance criteria (pages 4-12), in Airframe and Equipment Engineering Report No. 45 (as corrected) \u201cSimplified Flutter Prevention Criteria\u201d (published by the Federal Aviation Administration) may be accomplished to show that the aeroplane is free from flutter, control reversal, or divergence if \u2013\n  (1) VD/MD for the aeroplane is less than 482 km/h (260 knots) (EAS) and less than Mach 0\u00b75;\n  (2) The wing and aileron flutter prevention criteria, as represented by the wing torsional stiffness and aileron balance criteria, are limited to use to aeroplanes without large mass concentrations (such as engines, floats, or fuel tanks in outer wing panels) along the wing span; and\n  (3) The aeroplane \u2013\n    (i) Does not have a T-tail or other unconventional tail configurations;\n    (ii) Does not have unusual mass distributions or other unconventional design features that affect the applicability of the criteria; and\n    (iii) Has fixed-fin and fixed-stabiliser surfaces.\n(e) For turbo-propeller powered aeroplanes, the dynamic evaluation must include \u2013\n  (1) Whirl mode degree of freedom which takes into account the stability of the plane of rotation of the propeller and significant elastic, inertial and aerodynamic forces; and\n  (2) Propeller, engine, engine mount and aeroplane structure stiffness and damping variations appropriate to the particular configuration.\n(f) Freedom from flutter, control reversal and divergence up to VD/MD must be shown as follows:\n  (1) For aeroplanes that meet the criteria of sub-paragraphs (d) (1) to (d) (3) , after the failure, malfunction, or disconnection of any single element in any tab control system. (2) For aeroplanes other than those described in sub-paragraph (f) (1) , after the failure, malfunction, or disconnection of any single element in the primary flight control system, any tab control system, or any flutter damper.\n(g) For aeroplanes showing compliance with the fail-safe criteria of CS 23.571 and 23.572, the aeroplane must be shown by analysis to be free from flutter up to VD/MD after fatigue failure, or obvious partial failure of a principal structural element.\n(h) For aeroplanes showing compliance with the damage-tolerance criteria of CS 23.573, the aeroplane must be shown by analysis to be free from flutter up to VD/MD with the extent of damage for which residual strength is demonstrated.\n(i) For modifications to the type design which could affect the flutter characteristics compliance with sub-paragraph (a) must be shown, except that analysis alone, which is based on previously approved data, may be used to show freedom from flutter, control reversal and divergence for all speeds up to the speed specified for the selected method.",
       "publication_cite": "ED Decision 2003/014/RM",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "CS23-5",
-      "grouping_at_time": "Subpart D \u2014 Design And Construction",
+      "grouping_at_time": "Subpart D \u2014 Design and Construction",
       "title_at_revision": "Flutter",
       "deleted": true,
       "publication_cite": "ED Decision 2017/013/R",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.2.1.2",
   "number": "17.2.1.2",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Power quality and electrical compatibility",
   "subject_group": "17.2.1 Electrical compatibility",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Power quality and electrical compatibility",
       "text": "Standard: Operation of stores does not degrade power quality below levels that might present SOF issues for the air vehicle for all permissible weapon stations and load combinations under all operating conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify that mitigations exist through either procedures or software implementation that inhibit or stagger power application to prevent degrading air vehicle power via voltage drops and peak power loads that exceed operating limits. Analysis.\n  (1) Analyze MIL-STD-704 qualification reports for the air vehicle and store(s) to identify gaps in permissible voltage transients and power quality levels that may result in electrical incompatibility and risk of damage to safety-critical systems.\n  (2) Analyze the ELA to verify that the air vehicle has sufficient power capacity available to meet the power requirements during all modes of store operation for steady-state and peak transient loads.\n  (3) Analysis of ground test data shows sufficient electrical compatibility and that the air vehicle is capable of providing power quality to stores for all mixed load configurations under all operating conditions IAW MIL-STD-704, Detailed Requirements paragraphs. Test.\n    (1) Lab test: Conduct testing to measure the timing of power application and worst-case peak loads to each and all weapon stations to identify potential to degrade safety-critical systems (e.g., voltage drops, overcurrent, power surges, brown-outs).\n    (2) Ground test: Conduct testing to characterize air vehicle power quality under worst-case store power draw for all mixed load configurations to determine if voltage drops, bus switching, and power transients are within store compatibility limits.",
       "source_url": "https://assist.dla.mil",

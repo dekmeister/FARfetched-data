@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.3.1.2",
   "number": "11.3.1.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Timeliness of alerting systems",
   "subject_group": "11.3.1 Warnings, cautions, and advisories",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Timeliness of alerting systems",
       "text": "Standard: Timing of the alerting system is assessed, documented, and shown to support SCF operation. All safety-critical warnings should be reported within 100 milliseconds following a safety-critical failure, and if over 100 milliseconds, it should be determined via test that there is no delay long enough to impact the flight crew or system response time. All warning and caution messages should be displayed for a minimum of 3 seconds IAW MIL-STD-411, Minimum Message Duration paragraph. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review program requirements to verify response time of WCA system is documented. Analysis.\n  (1) Verify all warning and caution messages have a minimum display time of 3 seconds IAW MIL-STD-411, Minimum Message Duration paragraph. Test.\n    (1) Ground or Lab test: Conduct laboratory or ground testing to verify timing for WCAs meet program requirements or in the absence of system specified timing and latency requirements the end-to-end timing and latency should be no more than 100 milliseconds, and if over 100 milliseconds, it should be determined via test that there is no delay long enough to impact the flight crew or system response time. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Flight testing validates analyses and test results and verifies performance of SCFs related to the timeliness of WCA messaging.",
       "source_url": "https://assist.dla.mil",

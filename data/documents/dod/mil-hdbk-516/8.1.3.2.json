@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.1.3.2",
   "number": "8.1.3.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Transition of power to backup and emergency systems",
   "subject_group": "8.1.3 Power levels and transition",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Transition of power to backup and emergency systems",
       "text": "Standard: The air vehicle has the means to transition from the normal power system to the backup and emergency power system. Transition may include isolation of the system (automatically or manually) in the event of a failure in the normal hydraulic or pneumatic system to identify the location of a leak. Transition of power from the normal system to the backup and emergency system maintains stable flight throughout the transition (e.g., no detrimental pressure spikes or drop in power). This applies to all phases of operation throughout the design envelope of the backup or emergency system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Inspect system architecture documents (e.g., system description document, schematics, and models) to verify logic and methods of transition from normal to backup and emergency systems are defined and emergency procedures are provided for the flight crew. Analysis.\n  (1) Conduct analysis to verify that transition from normal to backup and emergency systems occurs in time to meet system operational requirements and that no power drop or pressure spikes causes uncommanded or unresponsive flight control inputs or loss of SCFs. Test.\n    (1) Lab test: Conduct HITL (e.g., iron bird) testing to verify that transition from normal to backup and emergency systems occurs in time to meet system operational requirements and that no power drop or pressure spikes causes uncommanded or unresponsive flight control inputs or loss of SCFs.\n    (2) Ground test: Conduct on air vehicle test to verify that transition from normal to backup and emergency systems occurs in time to meet system operational requirements and that no power drop or pressure spikes causes uncommanded or unresponsive flight control inputs or loss of SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Conduct flight test to verify that transition from normal to backup occurs in time to meet system operational requirements and that no power drop or pressure spikes causes uncommanded or unresponsive flight control inputs or loss of SCFs.\n    (4) Flight test: Conduct flight test to verify that transition from normal to emergency systems occurs in time to meet system operational requirements and that no power drop or pressure spikes causes uncommanded or unresponsive flight control inputs or loss of SCFs.",
       "source_url": "https://assist.dla.mil",

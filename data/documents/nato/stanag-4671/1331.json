@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "1331",
   "number": "1331",
-  "current_grouping": "Subpart F \u2013 Equipment",
+  "current_grouping": "Subpart F \u2014 Equipment",
   "canonical_title": "Measuring devices using a power source",
   "subject_group": "MEASURING DEVICES INSTALLATION",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Measuring devices using a power source",
       "text": "For each measuring device that is safety critical for continued safe operation that uses a power source, the following apply:\n(a) The power must be sensed at or near the point where it enters the measuring device (see also USAR.1821). For electric and vacuum/pressure measuring device, the power is considered to be adequate when the voltage or the vacuum/pressure, respectively, is within approved limits.\n(b) The installation and power supply systems must be designed so that-\n  (1) The failure of one device will not interfere with the proper supply of energy to the remaining device; and\n  (2) The failure of the energy supply from one source will not interfere with the proper supply of energy from any other source.\n(c) There must be at least two independent sources of power (not driven by the same engine on multi-engine UAV), and a manual or an automatic means to select each power source.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Measuring devices using a power source",
       "text": "For each measuring device that is safety critical for continued safe operation that uses a power source, it must be ensured, that the power required is measured adequately and that there are means to indicate a malfunctioning measuring device to the UAS and the UAS crew. See also USAR.U1809 Furthermore the following apply:\n(a) The installation and power supply systems must be designed so that:\n  (1) The failure of a measuring device will not interfere with the proper supply of energy to the remaining device; and\n  (2) The failure of the energy supply from one source will not interfere with the proper supply of energy from any other source.\n(b) There must be at least two independent sources of power (not driven by the same engine on multi-engine UA), and a manual or an automatic means to select each power source.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

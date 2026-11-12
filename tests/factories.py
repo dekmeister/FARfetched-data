@@ -236,7 +236,7 @@ def cfr_provision(slug: str, number: str, ordinals: list[int]) -> Record:
         slug,
         number,
         [cfr_version(f"{slug}-{n}") for n in ordinals],
-        grouping="A",
+        grouping="Subpart A — General",
         title=f"Dummy §{slug}.{number}",
     )
 

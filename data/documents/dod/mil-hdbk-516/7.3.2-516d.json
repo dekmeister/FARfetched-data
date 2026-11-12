@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2-516d",
   "number": "7.3.2",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Loads",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Loads",
       "text": "Standard: Load factors are applied to loads that occur within the engine operating envelope IAW 7.3.1 to establish combined limit load conditions and combined ultimate load conditions. Limit Load Factors: a. 1.0 LF for externally-applied loads (including ground and flight loads, and external flow field loads). b. 1.0 LF for thrust (including vectored thrust) and thermal loads. c. 1.0 LF for internal pressure loads on engine cases and pressure vessels. d. 1.5 LF for internal pressure loads on controls, accessories, and externals components. Ultimate Load Factors: a. 1.5 LF for externally-applied loads (including ground and flight loads, and external flow field loads). b. 1.0 LF for thrust (including vectored thrust) and thermal loads. c. 1.5 LF for internal pressure loads on engine cases, and pressure vessels. d. 2.0 LF for internal pressure loads on welded regions of engine cases, and pressure vessels exposed to compressor discharge pressure. This pressure load is applied singly, not in combination with other loads. e. 2.0 LF for internal pressure loads on controls, accessories, and externals components. For all castings an additional 1.33 safety factor is applied to the resulting limit and ultimate load cases unless the cast material has been fully characterized IAW 7.1.3. Design load conditions include abnormal operation such as surge, stall, afterburner blowout, and emergency or failure conditions such as rotor seizure, crash, and blade out: a. Rotor seizure loads are ultimate load conditions derived using seizure loads combined with limit externally-applied loads. b. Crash loads are ultimate load conditions derived using the following minimum load components in any combination applied at the engine CG: 1. 9g\u2019s forward to 1.5g\u2019s aft. 2. 1.5g\u2019s left or right. 3. 4.5g\u2019s down to 2g\u2019s up. c. Blade loss loads are unique ultimate load conditions defined in 7.3.12. Additional loads to be combined for blade out load conditions include normal engine operating loads at takeoff power setting and symmetric takeoff loads. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyses are accomplished to define design load conditions using a whole-engine structural model that includes air vehicle mounting provisions and stiffness per the ICD, the engine cycle model, and design criteria.",
       "source_url": "https://assist.dla.mil",

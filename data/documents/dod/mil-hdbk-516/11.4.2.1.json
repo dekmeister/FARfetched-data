@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.4.2.1",
   "number": "11.4.2.1",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Measuring and reporting of SOF parameters",
   "subject_group": "11.4.2 Diagnostics use of SOF parameters",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Measuring and reporting of SOF parameters",
       "text": "Standard: The diagnostic system measures and reports the safety-critical parameters within the specific tolerances in support of critical failure detection. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation and specifications to identify the SOF parameters, the SOF equipment in the air vehicle, and the ground diagnostic systems to ensure complete identification and reporting coverage of all SOF parameters.\n(2) Review design documentation and specifications for SOF parameters measured by the diagnostics systems to ensure all tolerances are identified. Analysis.\n  (1) Verify that the FMEA and FMECA identify all critical failure modes and their criticality for SOF parameters.\n  (2) Verify FMEA and FMECA include critical diagnostics system failures associated with an inability to measure and report safety-critical parameters within the specific tolerances.\n  (3) Review test reports to verify program defined tolerances and tolerance ranges are established for each SOF parameter. Test.\n    (1) Lab test: Conduct laboratory testing to verify the diagnostics system accurately measures SOF parameters within the required tolerances and provides accurate reporting to the crewmembers or system.\n    (2) Lab test: Conduct FMET on the diagnostics system to validate diagnostic system failure analysis.\n    (3) Ground test: Conduct air vehicle ground testing to verify the diagnostics operations are consistent with the lab operations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight testing of the air vehicle to verify operation of the diagnostics system and accurate critical failure reporting occurs.",
       "source_url": "https://assist.dla.mil",

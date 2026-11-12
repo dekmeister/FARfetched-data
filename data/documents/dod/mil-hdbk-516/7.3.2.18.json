@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.18",
   "number": "8.8.13",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Wear and chafing",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.18",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Wear/chafing",
       "text": "Criterion: Verify that closely located components are not allowed to develop wear/chafing during operation. Standard: Ensure adequate clearance is accounted for between components to prevent wear/chafing while the drive system is operating. A minimum of \u00bc inch is provided between rotating and static hardware. Method of Compliance: Verification methods include test, inspection and review of documentation. Inspection after air vehicle drive/rotor system qualification testing is accomplished to assure minimum clearances are maintained and that components do not have wear/chafing due to contact with each other. References: JSSG-2009: K.3.4.11 ADS-50-PRF",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Wear and chafing",
       "text": "Standard: A minimum of 0.25-inch clearance is provided between rotating and static hardware to prevent wear and chafing while the drive system is operating. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review hardware drawings or digital models to verify clearance is provided.\n(2) Conduct inspection of production air vehicles during the build process to verify clearance is provided. Analysis.\n  (1) Conduct dimensional analysis (e.g., CAD simulations) to verify clearance is provided. Test.\n    (1) Ground test: Conduct ground testing on the air vehicle to verify that clearances are maintained and no wear or chafing on the drive system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight testing to verify that drive system maintains clearance to prevent wear and chafing.",
       "source_url": "https://assist.dla.mil",

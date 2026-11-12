@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "10.4",
   "number": "10.4",
-  "current_grouping": "10. AERIAL REFUELING",
+  "current_grouping": "Section 10 \u2014 Aerial Refueling",
   "canonical_title": "Built-In-Test",
   "subject_group": null,
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "10. AERIAL REFUELING",
+      "grouping_at_time": "Section 10 \u2014 Aerial Refueling",
       "title_at_revision": "Built-In-Test",
       "text": "Standard: Integrated functional testing, including start-up, continuous, and initiated, identify AR and related system faults, and inform crewmember or automated system. A test or check-out function (preflight or pre-use) is incorporated for systems required for AR operations, including, but not limited to, receptacle doors, probe extension, refueling system control surfaces, refuel valves, and AR sensors. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of specifications, schematics, and design documentation show system monitors and reports AR system and support systems faults that could cause hazardous conditions. Analysis.\n  (1) Analysis of design, such as a FMEA and FMECA, determines critical faults and failures that need BIT monitoring and fault isolation. Test.\n    (1) Lab test: Hardware-in-the-loop laboratory testing verifies that monitoring, diagnostic, and BIT systems identify and report critical faults of AR and related systems.\n    (2) Ground test: Air vehicle ground testing of simulated fault conditions verifies functional tests identify and report failures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Flight test: Flight testing of simulated fault conditions verifies integrated test functions identify and report failures. Actual faults that occur throughout flight test are accurately identified and reported.",
       "source_url": "https://assist.dla.mil",

@@ -33,7 +33,7 @@ def _provision(key: str, number: str, versions: list[dict]) -> dict:
         number,
         versions,
         key=key,
-        grouping="Subpart I – UA Control Station",
+        grouping="Subpart I — UA Control Station",
     )
 
 

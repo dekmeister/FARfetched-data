@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.7",
   "number": "7.4.27",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Drains and ventilation systems",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.8.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner.",
       "text": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.5.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner.",
       "text": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner. DoD/MIL Doc: JSSG-2007A: para A.3.1.1.8, A.4.1.1.8, for design and verification guidance for drains.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.5.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner.",
       "text": "Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner. DoD/MIL Doc: JSSG-2007A: A.3.1.1.8, A.4.1.1.8, for design and verification guidance for drains. JSSG-2001B: 3.3.1.1/4.3.1.1",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.5.1.6",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Drains and ventilation systems",
       "text": "Criterion: Verify that drain systems have sufficient capacity, operate throughout required ground and flight attitudes and regimes, and expel/store the fluids in a safe manner. Standard: Propulsion system drain and vent system accommodates the combined maximum leakage and ventilation flow rates. No flight conditions inhibit the function to the extent that propulsion system operation is affected or a hazardous condition is created. Storage or expulsion of fluids and vapors do not create a hazardous condition to the air vehicle or personnel (refer to 8.4.4.1 for more drainage provisions). Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Propulsion drain and ventilation system sizing is validated by inspection of design documents and analysis identifying flow requirements and volume capacities for projected missions. System operation under ground attitudes and flight conditions is validated by analysis of in-flight pressure gradients and attitudes. Analysis assumptions (e.g., pressure gradients, attitudes) are validated by ground and flight test. Storage or expulsion hazards of fluids are validated by inspection of System Safety documentation. Reference: JSSG-2007: A.3.1.1.8, A.4.1.1.8 for design and verification guidance for drains",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Drains and ventilation systems",
       "text": "Standard: Engine drains and ventilation systems are sized to have flow and volume capacities when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. Expulsion of fluids and vapors do not create an AW hazard. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, materials and manufacturing records, design data records, inspection reports, photographs, ICD, or other substantiating records and reports) to verify design of the engine drains and ventilation systems. Analysis.\n  (1) Analysis is conducted to verify design of the engine drains and ventilation systems. Test.\n    (1) Lab test: Engine ground-based sea level and altitude cell endurance tests are conducted to capture the fluid quantity and source; verifying design of the engine drains and ventilation systems.",
       "source_url": "https://assist.dla.mil",

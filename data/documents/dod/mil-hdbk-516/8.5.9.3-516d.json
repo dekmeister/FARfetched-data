@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.5.9.3-516d",
   "number": "8.5.9.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Reversal of landing gear command",
   "subject_group": "8.5.9 Landing gear retraction and extension",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Reversal of landing gear command",
       "text": "Standard: Changes in position command while the gear is in transit does not cause the gear system to jam, stall, or prevents the gear from achieving the last commanded position. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) For normal system actuation, an analysis of the landing gear, hydraulic system, control logic, electrical system, and door system verifies capability of the landing gear to achieve the last commanded position. Demonstration.\n  (1) Conduct ground demonstration with air vehicle on jacks to verify landing gear will go to last commanded position even if commanded position is reversed in midcycle for the normal gear retract and extension system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n  (2) Conduct flight demonstration to verify landing gear will go to last commanded position even if commanded position is reversed in midcycle for the normal gear retract and extension system.",
       "source_url": "https://assist.dla.mil",

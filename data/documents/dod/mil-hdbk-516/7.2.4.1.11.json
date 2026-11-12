@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.4.1.11",
   "number": "7.4.10",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Lubrication system operation",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.4.1.11",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine lubrication system safely operates under all engine operating conditions.",
       "text": "Verify that the engine lubrication system safely operates under all engine operating conditions. DoD/MIL Doc: JSSG-2007A: para A.3.7.8/A.4.7.8, Lubrication System FAA Doc: 14CFR references: 33.5, 33.71, 33.87, 33.89",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.4.1.11",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine lubrication system safely operates under all engine operating conditions.",
       "text": "Verify that the engine lubrication system safely operates under all engine operating conditions. DoD/MIL Doc: JSSG-2007A: A.3.7.8/A.4.7.8, Lubrication System FAA Doc: 14CFR references: 33.5, 33.71, 33.87, 33.89",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.4.1.11",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Lubrication system operation",
       "text": "Criterion: Verify that the engine lubrication system safely operates under all engine operating conditions. Standard: Engine lubrication systems provide safe and reliable oil supply, scavenge, cooling, filtration and de-aeration under all engine operating conditions. The engine safely operates in a low or no lubrication condition for specified periods. An in-line filtration system includes cleaning, replacement and a bypass indication (manual or electronic) provisions. Lubrication system temperature, pressure and quantity information is monitored by an appropriate sensor, gage or manual means (dipstick) and has features for overfill protection. Lubrication system debris is monitored (e.g., magnetic chip detectors, quantity debris monitors and the Joint Oil Analysis Program (JOAP)). All oil carrying components, lines and manifolds are fire proof. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Analysis of the lubrication supply and scavenge system requirements versus capabilities identifies conditions to be tested. Lubrication system bench, engine and flight testing demonstrate its ability to provide the operating pressures, temperatures and flows required in the engine specification. Lubrication system simulator test verifies operational attitudes and ensures all components maintain proper lubrication and scavenging. Engine testing verifies engine operation in low or no lubrication condition. An oil deaeration test ensures the system deaerator removes entrained air from the oil. An oil filter flow and contamination test demonstrates its ability to clean debris, maintain acceptable flow and pressure and activate bypass. Inspection of the oil filter determines its capabilities for required maintenance. Analysis, bench and engine testing of all monitored lubrication system information ensures the pilot, operators and maintainers are provided the information to determine the lubrication system is operating properly. Fireproof is verified by testing with a 2000 \u00b0F flame applied to the component or line for 15 minutes with no flame propagation. References: JSSG-2007: A.3.7.8, A.4.7.8 Lubrication System; A.3.1.8.1, A.4.1.8.1 Flammable Fluid Systems - fire resistance and fireproof testing SAE AS1055 14 CFR 33.5, 33.71, 33.87, 33.89",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Lubrication system operation",
       "text": "Standard: Engine lubrication system provides oil supply, scavenge, cooling, filtration, and de-aeration when operated, under steady state and transient conditions, IAW 7.3.1 for the stated life documented in engine technical data. The engine operates in a low or no lubrication condition for specified periods (e.g., operation attitudes or dynamic conditions of flight). Lubrication system temperature, pressure and quantity information is monitored (e.g., appropriate sensor, gage, or manual means) and has features for overfill protection. Lubrication system debris is monitored (e.g., electric or magnetic chip detectors, quantity debris monitors and Joint Oil Analysis Program). A system deaerator removes entrained air from the oil. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine drawings and lubrication system configuration description to verify design of the oil supply, scavenge, cooling, filtration, de-aeration, and monitoring systems. Analysis.\n  (1) Analysis of the lubrication supply and scavenge system are conducted to verify design of the oil supply, scavenge, cooling, filtration, and de-aeration system. Test.\n    (1) Lab test: Lubrication system simulator test verifies operational attitudes and ensures all components maintain proper lubrication and scavenging.\n    (2) Lab test: Oil filter flow and contamination test ensure the filter\u2019s ability to clean debris, maintain oil flow and pressure, and activate bypass. Inspection of the oil filter determines its capabilities for required maintenance.\n    (3) Lab test: Oil deaeration test ensures the system deaerator removes entrained air from the oil.\n    (4) Lab test: Engine ground-based sea level and altitude cell testing ensures the lubrication system pressures, temperatures, and flows. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Flight testing verifies engine operation in low or no lubrication condition.",
       "source_url": "https://assist.dla.mil",

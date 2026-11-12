@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.10",
   "number": "8.6.9",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Accessory drive system compatibility",
   "subject_group": "8.6 Auxiliary power systems and emergency power systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.6.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system has been adequately evaluated for torsional vibrations and loads as well as possible misalignments.",
       "text": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system has been adequately evaluated for torsional vibrations and loads as well as possible misalignments.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.6.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments.",
       "text": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments. DoD/MIL Doc: JSSG-2009: para 3.2.7, 4.2.7, 3.2.7.4.4, 4.2.7.4.4, 3.2.7.5, 4.2.7.5 FAA Doc: 14CFR reference: 25.1167",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.6.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments.",
       "text": "Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments. DoD/MIL Doc: JSSG-2009: 3.2.7, 4.2.7, 3.2.7.4.4, 4.2.7.4.4, 3.2.7.5, 4.2.7.5 FAA Doc: 14CFR reference: 25.1167",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Accessory drive system compatibility",
       "text": "Criterion: Verify that compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments. Standard: Compatibility of the accessory drive system with the air vehicle accessories and engine drive system is adequately evaluated for torsional vibrations and loads as well as possible misalignments. Method of Compliance: Design analysis verifies strength margins throughout drivetrain and absence of torsional modes within the operating range. Tolerance and flight load analysis establishes maximum misalignment. Accessory Drive Integration Lab tests and system alignment measurements verify installed performance. Installed ground tests verify operating performance. References: JSSG-2009: 3.2.7, 4.2.7, 3.2.7.4.4, 4.2.7.4.4, 3.2.7.5, 4.2.7.5 14 CFR 25.1167",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Accessory drive system compatibility",
       "text": "Standard: The accessory drive system\u2019s compatibility with the air vehicle accessories and engine drive system is designed to withstand torsional vibrations and system, static and dynamic loads, as well as possible misalignment of accessories (e.g., electrical drive generator, hydraulic pump, and fuel pump). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of installation procedures identify the maximum misalignment allowed for accessories and define the maximum allowable misalignment condition. Analysis.\n  (1) Conduct design analysis to verify strength margins throughout the drive train and that the drive train is capable of withstanding torsional loading from AMAD or EMAD interfaces.\n  (2) Conduct design analysis to verify that rotating interfaces (e.g., hydraulic pump, electrical drive generators, and air turbine starters) are capable of withstanding accelerations from the vibrating modes produced by AMAD or EMAD.\n  (3) Conduct flight load analysis to determine the maximum allowable misalignment of accessories interfacing with the AMAD or EMAD. Test.\n    (1) Lab test: Conduct lab testing of the accessory drive system with simulated or physical PTO shaft and accessory loading (e.g., electrical drive generator, hydraulics pump, and clutch) to verify installed performance of the system and torsional loads and vibrations do not exceed qualified limits of the accessory gearbox and its accessories.\n    (2) Ground test: Conduct installed ground testing to verify torsional vibrations do not exceed qualified limits of the accessory gearbox and its accessories and there are no resonant frequencies observed during system operation.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.18.2",
   "number": "6.2.18.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Vehicle control function timing requirements",
   "subject_group": "6.2.18 Vehicle control function computer processing",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Vehicle control function timing requirements",
       "text": "Standard: Software and firmware execution timing (e.g., frame rates, control loop closure timing, signal latency, redundancy management synchronization, data transfers, and communication responses) supports VCF performance, redundancy management, and stability robustness requirements. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review VCF software and firmware specifications to ensure execution timing requirements are captured. Analysis.\n  (1) Conduct analysis in the discrete time domain for VCF control loops (e.g., inner loops, outer loops, and servo loops) to verify software and firmware execution timing supports VCF performance and the VCF control law safety standards herein.\n  (2) Conduct analysis to verify software and firmware execution timing supports VCF redundancy management.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.4.1",
   "number": "8.6.4.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Power take-off anti-flail",
   "subject_group": "8.6.4 Containment of failed high speed rotating parts",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.6.4.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that containment or other provisions preclude a failed PTO shaft (flex joint) from causing secondary damage to nearby SOF component/systems as a result of flailing or whipping.",
       "text": "Verify that containment or other provisions preclude a failed PTO shaft (flex joint) from causing secondary damage to nearby SOF component/systems as a result of flailing or whipping.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.6.4.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that containment or other provisions preclude a failed power-take-off (PTO) system from causing secondary damage, due to flailing or whipping, to critical safety items (CSI) or to nearby safety of flight component/systems, including fuel and hydraulic lines.",
       "text": "Verify that containment or other provisions preclude a failed power-take-off (PTO) system from causing secondary damage, due to flailing or whipping, to critical safety items (CSI) or to nearby safety of flight component/systems, including fuel and hydraulic lines. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.10.1, C.4.4.3.10.1 FAA Doc: 14CFR reference: 25.901 (c), 25.1167 (a), (c),",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.4.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Power take-off anti-flail provisions",
       "text": "Criterion: Verify that containment or other provisions preclude a failed power-take-off (PTO) system from causing secondary damage, due to flailing or whipping, to critical safety items (CSI) or to nearby safety of flight components/systems, including fuel and hydraulic lines. Standard: Damage tolerance methodologies are applied to the design of all components of the installed PTO system, including flex couplings, shear sections, clutches and interfacing airframe mounted accessory drive (AMAD)/engine mounted accessory drive (EMAD) stub shafts. Containment of failed components with rotating parts provides protection against damage to neighboring critical systems or components. Method of Compliance: Inspection of design criteria verifies containment, duration and operating parameters. Containment tests (generally component level) validate specified capability. For a non-containment solution, safety and other supporting analyses and tests verify that personnel and safety critical systems are safe in the event of a flailing or whipping shaft. References: JSSG-2009: Appendix C 14 CFR 25.901 (c), 25.1167 (a), (c)",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Power take-off anti-flail",
       "text": "Standard: Containment or other provisions will prevent a failed PTO coupling assembly or driveshaft from causing secondary damage (due to flailing or whipping) to safety-critical components and systems, including fuel, hydraulic, and ECS lines. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a FMECA analysis to verify a failed coupling does not cause damage to surrounding safety-critical systems or structure.\n(2) In the case a PTO design does not have anti-flail provisions, conduct a zonal analysis to verify there are no safety-critical systems that could be damaged in the surrounding area by a whipping or flailing PTO shaft. The zonal analysis may be part of the FMECA assessment.\n(3) Conduct static and dynamic analyses to verify anti-flail provisions have positive strength margins to handle containment in the event of a PTO shaft failure. Test.\n  (1) Lab test: Conduct lab testing on PTO system to verify anti-flail capability of the PTO assembly. The anti-flail device will be expected to provide containment for a duration to be specified during air vehicle system development. For a non-containment solution, safety analysis and supporting tests validate analysis that personnel and safety-critical systems will not be damaged or injured in the event of a flailing or whipping shaft.",
       "source_url": "https://assist.dla.mil",

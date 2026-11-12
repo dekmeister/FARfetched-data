@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.1.3.2",
   "number": "17.1.3.2",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Autopilot",
   "subject_group": "17.1.3 Store separation and post-separation flyout",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Autopilot",
       "text": "Standard: For guided stores with control mechanisms for post-launch actions (e.g., rocket motor ignition, control surface deployment, guidance and control) that are active during the store separation phase, assure control parameters are sufficient to avoid store-to-store and store-to-air vehicle contact (e.g., inhibits, functional limitations, delay timers, pre-planned maneuvers) for authorized store loadout and release conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis. (1) Perform analysis to identify store properties (e.g., store attitudes, body rates) that can result in store-to-store and store-to-air vehicle contact. (2) Perform analysis of the autopilot logic to identify failure modes that can result in store-to-store and store-to-air vehicle contact. Analysis should include transition from safe separation controller to guidance and navigation controller to sensor control, as applicable. Test. (1) Lab test: Verify store inhibits actions that result in store-to-store and store-to-air vehicle contact post-launch and release. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis. (3) Conduct analysis showing that the store autopilot maintains controlled flight through separation and transition to guidance ensuring minimum store-to-store and store-to-air vehicle miss distance through store separation in a relevant operating environment. The number of separation events is informed by the safe separation analysis to determine regions of the employment envelope that show potential for store-to-store or store-to-air vehicle recontact. (4) Conduct analysis of post-flight data documenting autopilot behavior and correlate to pre-flight test analysis to validate the autopilot model for use in evaluation of the full release envelope for all mixed load configurations and release conditions. This analysis will include store functionality such as control surface behavior and store body rates as functions of time and distance away from air vehicle. Test. (2) Flight test: Measure store-to-store and store-to-air vehicle miss distance to verify compliance to minimum separation distance and validate separation predictions provided by analytical methods. Flight test data measures timing of post-release events such as rocket motor and engine ignition, control surface deployment, fin unlock, and initial guidance and control maneuvers.",
       "source_url": "https://assist.dla.mil",

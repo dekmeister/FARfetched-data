@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "13.2.1",
   "number": "13.2.1",
-  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "current_grouping": "Section 13 \u2014 Electromagnetic Environmental Effects",
   "canonical_title": "Air system electromagnetic compatibility",
   "subject_group": "13.2 System-level electromagnetic environmental effects qualification",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that on-board equipment and subsystems exhibit electromagnetic compatibility with all other on-board equipment.",
       "text": "Verify that on-board equipment and subsystems exhibit electromagnetic compatibility with all other on-board equipment.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516A",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that all equipment and subsystems exhibit mutual electromagnetic compatibility.",
       "text": "Verify that all equipment and subsystems exhibit mutual electromagnetic compatibility.",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that all equipment and subsystems exhibit mutual electromagnetic compatibility.",
       "text": "Verify that all equipment and subsystems exhibit mutual electromagnetic compatibility. DoD/MIL Doc: MIL-STD-464, section 5.2.",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Mutual electromagnetic compatibility of equipment and subsystems",
       "text": "Criterion: Verify that all equipment and subsystems exhibit mutual electromagnetic compatibility. Standard: Intra-system electromagnetic compatibility (EMC) is required at the air system level to demonstrate that equipment and subsystems are capable of providing safety of flight in conjunction with other equipment and subsystems which are required to operate concurrently. Method of Compliance: For the entire system: system level EMC test and analysis of the test results (e.g., see MIL-STD-464, 5.2). Reference: MIL-STD-464: 5.2",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects",
       "title_at_revision": "Air system electromagnetic compatibility",
       "text": "Standard: Intra-system EMC is required at the air system level to demonstrate that equipment and subsystems provide SOF in conjunction with other equipment and subsystems which are required to operate concurrently. This includes verification that flight and safety-critical RF receivers are not degraded, maintain safety of the air system or its crewmembers and passengers, and do not inhibit SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Ground test: System-level EMC test report that includes detailed description of the tested air system, pass-fail criteria, source-victim methodology with detailed description of the modes of operation used and any observations during testing with accompanying root cause analysis and corrective action (e.g., see MIL-STD-464, Intra-system Electromagnetic Compatibility paragraph).\n(2) Ground test: Spectrum analyzer test of flight-critical and safety-critical receivers or antenna coupling analysis of MIL-STD-461 RE102 and CE106 test results for all electrical or electronic equipment.",
       "source_url": "https://assist.dla.mil",

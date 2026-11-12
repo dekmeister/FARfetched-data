@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.16",
   "number": "8.8.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Design usage and duty cycle",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.16",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Environmental conditions",
       "text": "Criterion: Verify that the rotor/drive system can safely and reliably operate in world-wide environments as required by the system specification. Standard: All intended natural and induced environments, which may include; temperature, humidity, precipitation, icing, fungus, salt fog, particulate and liquid contamination, shock and vibration, and explosive atmosphere conditions do not adversely affect rotor/drive system performance and operability. The design usage includes missions and mission mix, usage parameters, externally applied forces, operating envelope, engine attitude limits, ambient temperature distribution, icing environment conditions, corrosive atmosphere conditions, noise environment, and engine performance retention characteristics. The loads and environment spectra should represent the service life within the design utilization distribution such that the average usage of the system will be expected to meet the service life. Method of Compliance: Rotor/drive system components are verified for expected usage and all intended and induced environmental conditions using analyses, component test, and ground/flight tests. References: MIL-STD-810 MIL-HDBK-310",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Design usage and duty cycle",
       "text": "Standard: The rotary-wing drive system usage accommodates all intended operating environments. Design usage also includes air vehicle missions and mission mix parameters to determine rotor drive systems loading and usage, flight envelopes, externally applied forces, engine attitude limits, ambient temperature distribution, icing environmental conditions, corrosive atmosphere conditions, noise environment, and engine performance retention characteristics. Based on these conditions a duty cycle for the rotor and drive systems in the air vehicle is determined from the loads and environmental spectra representative of the required service life to meet life requirements in the air vehicle specification. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., system configuration descriptions, system layout, system ICD, and rotor drive system loads derivations) to verify environmental and mission load spectra and duty cycle are defined. Analysis.\n  (1) Conduct analysis of drive system materials, design, and operating conditions to verify the system architecture supports all intended operating conditions.\n  (2) Conduct analysis of air vehicle flight envelope, torque requirements, maneuver loads, and other air vehicle induced loading and determine the duty cycle requirements of rotor and transmission drive systems for the air vehicle to meet service life requirements. Test.\n    (1) Ground test: Conduct ground testing to verify air vehicle loads, excursions, and usage are compliant with the environmental and load spectra and duty cycle defined to meet the air vehicle specification requirements. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight testing to verify rotary-wing drive system loads and usage estimates developed from Analysis MoC (1) and Analysis MoC (2) are valid under the thermal, icing, and noise environments as specified in the air vehicle specification requirements.",
       "source_url": "https://assist.dla.mil",

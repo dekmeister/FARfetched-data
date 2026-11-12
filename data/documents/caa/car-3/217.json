@@ -3,13 +3,13 @@
   "document": "car-3",
   "key": "217",
   "number": "217",
-  "current_grouping": "Horizontal Tail Surfaces",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
   "canonical_title": "Gust loads",
-  "subject_group": "Strength Requirements",
+  "subject_group": "Horizontal Tail Surfaces",
   "versions": [
     {
       "designator": "CAR3-0",
-      "grouping_at_time": "Horizontal Tail Surfaces",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
       "title_at_revision": "Gust loads.",
       "text": "The horizontal tail surfaces shall be designed for loads occurring in the following conditions:\n(a) Positive and negative gusts of 30 feet per second nominal intensity at speed Vc, corresponding to flight condition \u00a7 3.187 (a) with flaps retracted. NOTE: The average loadings of Figures 3-5 (a) and 3-5 (b) and the distribution of Figure 3-9 may be used for the total tail loading in this condition. (b) Positive and negative gusts of 15 feet per second nominal intensity at speed Vt, corresponding to flight condition \u00a7 3.190 (b) with flaps extended. In determining the total load on the horizontal tail for these conditions, the initial balancing tail loads shall first be determined for steady unaccelerated flight at the pertinent design speeds Vc and Vt. The incremental tail load resulting from the gust shall then be added to the initial balancing tail load to obtain the total tail load. Note: The incremental tail load due to the gust may be computed by the following formula: where: = the limit gust load increment on the tail in pounds; K = gust coefficient K in \u00a7 3.188, U = nominal gust intensity in feet per second, V = airplane speed in miles per hour, St = tail surface area in square feet, at = slope of lift curve of tail surface, CL per degree, corrected for aspect ratio, aw = slope of lift curve of wing, CL per degree, Rw = aspect ratio of the wing.",
       "source_url": null,
@@ -19,7 +19,7 @@
     },
     {
       "designator": "CAR3-13",
-      "grouping_at_time": "Horizontal Tail Surfaces",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
       "title_at_revision": "Gust loads.",
       "text": "3.218 Unsymmetrical loads. Vertical Tail Surface 3.219 Maneuvering loads. 3.220 Gust loads. 3.221 Outboard fins. Ailerons, Wing Flaps, Tabs, Etc. 3.222 Ailerons. 3.223 Wing flaps. 3.224 Tabs. 3.225 Special devices. Control System Loads 3.231 Primary flight controls and systems. 3.232 Dual controls. 3.233 Ground gust conditions. 3.234 Secondary controls and systems. Ground Loads 3.241 Ground loads. 3.242 Design weight. 3.243 Load factor for landing conditions. Landing Cases and Attitudes 3.244 Landing cases and attitudes. 3.245 Level landing. 3.246 Tail down. 3.247 One-wheel landing. Ground Roll Conditions 3.248 Braked roll. 3.249 Side load. Tail Wheels 3.250 Supplementary conditions for tail wheels. 3.251 Obstruction load. 3.252 Side load. Nose Wheels 3.253 Supplementary conditions for nose wheels. 3.254 Aft load. 3.255 Forward load. 3.256 Side load. Skiplanes 3.257 Supplementary conditions for skiplanes. Water Loads",
       "publication_cite": "secs. 601, 603, 52 Stat. 1007, 1009, as amended; 49 U.S.C. 551, 553) By the Civil Aeronautics Board: /s/ M. C. Mulligan M. C. Mulligan Secretary (SEAL) Part 3 last printed November 1, 1949",

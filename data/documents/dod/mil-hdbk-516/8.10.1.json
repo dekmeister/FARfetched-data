@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.10.1",
   "number": "8.9.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Cargo hook system operation",
   "subject_group": "8.9 External cargo hook systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.10.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the cargo hook system operation does not adversely affect safety of the air vehicle system.",
       "text": "Verify that the cargo hook system operation does not adversely affect safety of the air vehicle system.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.10.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the cargo hook system operation in normal, automatic, and emergency modes does not adversely affect safety of the air vehicle system.",
       "text": "Verify that the cargo hook system operation in normal, automatic, and emergency modes does not adversely affect safety of the air vehicle system. DoD/MIL Doc: Refer to technical point of contact for this discipline (listed in section A.2). FAA Doc: 14CFR reference Parts 27 and 29",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.9.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Cargo hook system operation does not adversely affect air vehicle safety",
       "text": "Criterion: Verify that the cargo hook system operation in normal, automatic, and emergency modes does not adversely affect safety of the air vehicle system. Standard: The air vehicle maintains an acceptable level of dynamic stability for all mission operations on the ground and during flight whenever the cargo hook system is in operation. There are no adverse effects that damage the air vehicle or harm personnel at any time the cargo hook system is used. Method of Compliance: Dynamic and stability analyses verify that the cargo hook system operation does not adversely affect all ground and flight operations and are validated using component characterization and air vehicle ground demonstrations tests. Flight testing verifies that all transitional operations (air-to-ground and visa-versa) and inflight operations have no adverse vibration or instability effects. References: 14 CFR Parts 27, 29",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Cargo hook system operation",
       "text": "Standard: The operation of the external cargo hook system, in normal, automatic, and emergency modes, allows external loads to be transportable throughout the operating envelope without creating an AW hazard to the air vehicle, crewmembers, or ground crew during normal flight conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of flight manuals and cargo loading manuals verifies that the maximum and minimum loads for external cargo movement and flight envelope operating limits (e.g., maneuvering, CG, weight, altitude, bank limits, and airspeed) are defined. Analysis.\n  (1) Conduct dynamic and stability analyses to verify the external loads do not create an AW hazard for flight operations. External cargo reactions (e.g., bounce, swing, hook off-loading and release, and vibrations), do not affect the air vehicle, crewmembers, or ground crew during hover with hookup and release, and transition into flight, hover, and flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Conduct flight testing with the external cargo load to verify that all transitional operations (air-to-ground and ground-to-air) and in flight operations do not have adverse air vehicle, external cargo, or coupled vibration effects causing damage, loss of control, or external cargo instability effects due to external cargo reactions including bounce, swing, and hook off-loading.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.10.8",
   "number": "8.5.9.10",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Gear position restraint locks for ground operations",
   "subject_group": "8.5.9 Landing gear retraction and extension",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.10.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "During ground operations verify that a positive means is provided to lock the gears and doors to prevent retraction on the ground; and that visual indicators are provided so the ground retention devices are removed prior to flight.",
       "text": "During ground operations verify that a positive means is provided to lock the gears and doors to prevent retraction on the ground; and that visual indicators are provided so the ground retention devices are removed prior to flight.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.5.10.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "During ground operations verify that a positive means is provided to lock the gear and doors to prevent retraction on the ground; and that visual indicators are provided so the ground retention devices are removed prior to flight.",
       "text": "During ground operations verify that a positive means is provided to lock the gear and doors to prevent retraction on the ground; and that visual indicators are provided so the ground retention devices are removed prior to flight.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.10.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that a positive means is provided to lock the gear and doors during ground operations to prevent retraction on the ground.",
       "text": "Verify that a positive means is provided to lock the gear and doors during ground operations to prevent retraction on the ground. Also verify that visual indicators are provided so the ground retention devices are removed prior to flight. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.9.1/A.4.4.1.5.9.1 Gear position restraint and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface; AFGS-87139: para 3.2.6.4 Position restraint.",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.10.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that a positive secondary means is available to lock the gear and doors during ground operations to prevent retraction on the ground.",
       "text": "Verify that a positive secondary means is available to lock the gear and doors during ground operations to prevent retraction on the ground. Also verify that visual indicators are provided so the ground retention devices are removed prior to flight. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.5.9.1/A.4.4.1.5.9.1 Gear position restraint and A.3.4.1.5.1/A.4.4.1.5.1 Retraction and extension actuation interface AFGS-87139: 3.2.6.4 Position restraint",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.10.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Gear position restraint for ground operations",
       "text": "Criterion: Verify that a positive secondary means is available to lock the gear and doors during ground operations to prevent retraction on the ground. Also verify that visual indicators are provided so the ground retention devices are removed prior to flight. Standard: Mechanical locking devices are provided to prevent inadvertent gear and door retraction while the air vehicle is on the ground or during any maintenance event. Locking devices hold all of the gear and doors in position for all expected ground configurations and ground operations. A visual warning indicator is provided to indicate when a mechanical locking device is installed. Method of Compliance: Verification methods include analyses, tests and demonstrations. Design analysis determines the suitability of the ground locking features of the gear and doors. Ground demonstration and testing under all expected loads and conditions verify position restraints and load carrying capability. The ground demonstration verifies the visual indication when a locking mechanism is installed. References: JSSG-2009: A.3.4.1.5.1, A.4.4.1.5.1 Retraction and extension actuation interface; A.3.4.1.5.9.1, A.4.4.1.5.9.1 Gear position restraint AFGS-87139: 3.2.6.4 Position restraint",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Gear position restraint locks for ground operations",
       "text": "Standard: Locking device(s) and interlocks are provided to prevent inadvertent gear and door actuation while the air vehicle is on the ground (including towing and takeoff roll). The locking device(s) and interlocks prevent the gear and doors from moving for all expected ground configurations and ground operations even if landing gear is inadvertently retracted. A visual warning indicator is provided when a locking device is installed. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis verifies the effectiveness of the ground locking device installation to prevent inadvertent gear and door retraction while the air vehicle is on the ground.\n(2) Static analysis verifies locking device strength is designed to handle the full retraction power and load without permanent deformation or damage to air vehicle interfaces and landing gear structure. Demonstration.\n  (1) Conduct ground demonstration with air vehicle jacked to verify position restraint and load carrying capability of the ground locking device and verifies the visual indication when a locking mechanism is installed. Test.\n    (1) Lab test: Conduct lab testing in a SIL to verify functionality of interlocks. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n    (2) Conduct ground demonstration of the interlocks to verify the flight crew cannot prematurely retract the landing gear while air vehicle has weight on wheels.",
       "source_url": "https://assist.dla.mil",

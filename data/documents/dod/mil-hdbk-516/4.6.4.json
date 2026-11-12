@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "4.6.4",
   "number": "4.6.4",
-  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "current_grouping": "Section 4 \u2014 Systems Engineering",
   "canonical_title": "Safety critical item configuration management",
   "subject_group": "4.6 Configuration management (CM)",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "grouping_at_time": "Section 4 \u2014 Systems Engineering",
       "title_at_revision": "Safety critical item configuration management",
       "text": "Criterion: Verify that all safety-critical items are tracked and under configuration control. Standard: A configuration status accounting (CSA) system is adequately documented and maintained and tracks the configuration of safety-critical items. Method of Compliance: CSA process documentation is verified by inspection. Inspection of CSA records and reports for CI/CSCIs verifies accuracy of the configuration status accounting system and that the system is able to track and record changes to the configuration. References: MIL-HDBK-61: 7, Configuration Status Accounting 14 CFR 23.21, 23.601, 23.1301, 25.21, 25.601, 25.1301",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "grouping_at_time": "Section 4 \u2014 Systems Engineering",
       "title_at_revision": "Safety critical item configuration management",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.1.3.2",
   "number": "11.1.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Display of unsafe or misleading information",
   "subject_group": "11.1.3 Data buses",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Display of unsafe or misleading information",
       "text": "Criterion: Verify that data bus performance precludes display of unsafe or misleading information to the operator or maintainer. Standard: Data bus performance supports system latency requirements, including the primary flight display latency criterion contained in 11.1.4, of this document. Integrity of data transmitted on the bus supports system integrity requirements, including the hazardously misleading information criterion contained in 11.1.2 of this document. Method of Compliance: Analysis documents the timing and latency of buses, including latency in the presence of single point failures. Analysis and testing documents the latency, bit error rate and other parameters that define bus integrity. FMEA and testing verify results. References: JSSG-2005: 3.2.2, 4.2.2 MIL-STD-882 SAE ARP4761 14 CFR 23.1301, 23.1309, 25.1301, 25.1309 plus any appropriate advisory circular(s) FAA AC 27-1 and FAA AC 29-2 provide guidance on helicopter equipment, primarily in subpart \"F\"",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Display of unsafe or misleading information",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

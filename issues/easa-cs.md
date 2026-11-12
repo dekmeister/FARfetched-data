@@ -134,16 +134,18 @@ wrapped paragraph titles keep only their first line.
 
 **To close:** spot-check `canonical_title` and fix the cases found.
 
-### EASA-16. Subpart labels differ in style from FAA
+### EASA-16. A subpart renamed without a new version keeps its old name
 
-- `.title()` gives "Design And Construction"; FAA has "Design and
-  Construction".
-- EASA values keep the "Subpart X — " prefix; FAA values don't ("Equipment").
+The grouping style is done (`Subpart D — Design and Construction`;
+reviews/2026-11-12-subpart-letter-groupings.md). Left: `grouping_at_time`
+is the heading over a version's text when it was printed, so a later rename
+with no new version doesn't reach it. CS-25 Subpart H was renamed "…System" →
+"…Systems" at CS25-27 (PDF read), and its 16 provisions have only a CS25-5
+version, so the app's view at CS25-27 shows "…System". `current_grouping`
+is right, and the app merges the two names on the current page.
 
-Real renames across amendments stay distinct on purpose (CS-23 "Structure" →
-"Structures", Amdt 5 rewrite); the app merges them for display.
-
-**To close:** a contract/display decision on cross-issuer label style.
+**To close:** accept it, or a document-level grouping list with names per
+revision (a contract change; rejected for now in the review).
 
 ## Tables and extraction robustness
 

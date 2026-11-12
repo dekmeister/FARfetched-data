@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.4.1",
   "number": "11.2.4.1",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Data bus reliability",
   "subject_group": "11.2.4 Data bus",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Data bus reliability",
       "text": "Standard: Data buses, through which safety-critical data transits, meet system specified physical failure rates and data error rates in support of avionics hardware reliability and data integrity. In the absence of system specified physical failure rates, the data bus design will use a threshold MTBF of 10-7 failures per flight hour. In the absence of system specified data error rates, the data bus design will use a threshold word error rate of 10-7 per word and an undetected BER of 10-12 per bit. Maximum allowable word error rates and BERs are normally defined in the standard cited for a data bus implementation. Data buses will meet specific failure probability threshold, such as 10-9 per flight hours for catastrophic failures. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system specification and design documents that define data bus performance requirements to verify the physical redundancy and switchover mechanism are implemented in the event of a bus failure.\n(2) Review system specification documents that define requirements for physical failure rates and data error rates in order to verify the error rates and error correction features.\n(3) Review any military or commercial data bus standards and specifications being implemented to ensure that data bus performance adheres to the standards.\n(4) For GOTS and COTS assemblies, review contractor technical data to verify data bus specifications and requirements. Analysis.\n  (1) Verify hardware failure analysis documents such as FMECA and FMEA determine the physical failure rates are IAW the standard.\n  (2) Review data bus performance analysis documents for both normal and worst-case operating conditions to identify any issue in error rates and validate the effectiveness of error correction mechanisms.\n  (3) Review data bus performance simulation results to analyze the failure rates and error rates for data transmission. Test.\n    (1) Lab test: Conduct laboratory testing to measure word error rate.\n    (2) Lab test: Conduct laboratory testing to measure BER.\n    (3) Ground test: Conduct air vehicle ground testing to verify data bus failures are detected.\n    (4) Ground test: Conduct air vehicle ground testing to verify nominal data bus operations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (5) Flight test: Conduct flight testing to verify the data bus operations.",
       "source_url": "https://assist.dla.mil",

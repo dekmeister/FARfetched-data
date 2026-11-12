@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U585",
   "number": "U585",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Launch load factor",
   "subject_group": "FATIGUE EVALUATION",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Launch load factor",
       "text": "The maximum forces applied by the launch system to the relevant components of the UAV System must be consistent with the structural acceleration limitation of the UAV ; therefore :\n(a) The relevant components of the UAV System must be designed to sustain a longitudinal load compliant with the maximum continuous load factor applied by the launch system combined with the factor prescribed in USAR.303. This requirement must be complied with at the maximum and minimum take-off weight.\n(b) The design of the launcher must ensure that the acceleration and the rate of change of acceleration (jerk) are controlled such that the UAV System does not sustain damage during launch.\n(c) The fatigue effects of repeated launches shall be considered for the launch system and, in accordance with USAR.570, for the air vehicle including payloads.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Launch load factor",
       "text": "The maximum forces applied by the launch system to the relevant components of the UA must be consistent with the structural acceleration limitation of the UA; therefore:\n(a) The relevant components of the UA must be designed to sustain a longitudinal load compliant with the maximum continuous load factor applied by the launch system combined with the factor prescribed in USAR.303 This requirement must be complied with at the maximum and minimum take-off weight.\n(b) The design of the launcher must ensure that the acceleration and the rate of change of acceleration (jerk) are controlled such that the UA does not sustain damage during launch.\n(c) The fatigue effects of repeated launches shall be considered for the launch system and, in accordance with USAR.U570, for the aircraft including payloads.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.1.1.1",
   "number": "8.1.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Single point failures",
   "subject_group": "8.1 Hydraulic and pneumatic systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.1.1.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that any single-point failure locations have been identified and their consequences of failure are acceptable, eliminated, or mitigated.",
       "text": "Verify that any single-point failure locations have been identified and their consequences of failure are acceptable, eliminated, or mitigated.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.1.1.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that any single-point failure locations are identified and their consequences of failure are acceptable, eliminated, or mitigated.",
       "text": "Verify that any single-point failure locations are identified and their consequences of failure are acceptable, eliminated, or mitigated. DoD/MIL Doc: JSSG-2009: para B.3.4.2/B.4.4.2 Hydraulic Power Subsystem; and Appendix M: M.3.4.13/M.4.4.13 Pneumatic Subsystem.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.1.1.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that any single-point failure locations are identified and their consequences of failure are acceptable, eliminated, or mitigated.",
       "text": "Verify that any single-point failure locations are identified and their consequences of failure are acceptable, eliminated, or mitigated. DoD/MIL Doc: JSSG-2009: B.3.4.2/B.4.4.2 Hydraulic Power Subsystem; and Appendix M: M.3.4.13/M.4.4.13 Pneumatic Subsystem",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.1.1.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Single point failures",
       "text": "Criterion: Verify that any single-point failure locations are identified and their consequences of failure are acceptable, eliminated, or mitigated. Standard: All single point failures are identified, risks are eliminated or the risks are accepted by the appropriate decision maker per MIL-STD-882. If the hydraulic and pneumatic system is configured such that any one single-point failure causes failure (e.g., loss of pressure, binding) in multiple systems, those failures are identified and the consequences documented. If there are points on the platform where two or more hydraulic and pneumatic systems come together (e.g., valves, switching valves, actuators) and a single failure will result in the loss of two systems, failures are identified and consequences documented. Method of Compliance: Verification methods include analysis and review of documentation. Failure Modes Effects and Criticality Analysis (FMECA) and hazard analyses identify single point hydraulic and pneumatic system failures and their consequences which affect safe operation of the air vehicle. All safety risks are eliminated or accepted by the appropriate decision maker per MIL-STD-882. References: JSSG-2009: B.3.4.2, B.4.4.2 Hydraulic Power Subsystem; M.3.4.13, M.4.4.13 Pneumatic Subsystem MIL-STD-5522 MIL-STD-882 ADS-50-PRF SAE AS5440",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Single point failures",
       "text": "Standard: Any hydraulic and pneumatic system(s) single point of failure will not result in catastrophic or critical consequences. Failures include those caused by external damage in a location where multiple hydraulic systems are in close proximity as specified by SAE AS5440B, System Separation paragraph, or feed the same component (e.g., a location where separate systems have components close together, or transfer valves, switching valves, and actuators are fed by more than one hydraulic system). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review system drawings and schematics to identify if two or more systems are in close proximity (e.g., switching valves, actuators) and whether a single point failure will result in the loss of two or more hydraulic systems. Verify system separations prevent failures from physical damage (e.g., battle damage, bird strike, and air vehicle component failures) which would result in a loss of two hydraulic systems. Analysis.\n  (1) Verify FMECA and hazard analyses (SSHA and SHA) identify the consequence of each single point failure.\n  (2) Conduct analysis, including modeling the hydraulic system, to assess the consequence and impacts to system performance (e.g., pressures and flows) of identified single point failures in the hydraulic systems (see Analysis MoC (1) results) to verify that the results are not catastrophic or critical.",
       "source_url": "https://assist.dla.mil",

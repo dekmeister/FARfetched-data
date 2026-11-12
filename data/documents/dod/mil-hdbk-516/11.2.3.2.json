@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.3.2",
   "number": "11.2.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Control function information display",
   "subject_group": "11.2.3 Safety and flight critical control functions",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Control function information display",
       "text": "Criterion: Verify that the integration of off-board system command and control, automatic/semi-automatic (man-in-the-loop) landing, formation, guidance, and other control used for safety and flight critical functions ensures that hazardously misleading information is identified, and precludes display of such information to the operator. Standard: Requirements for display of data linked information are defined and documented. The display's installed performance meets these requirements. The safety of flight information that is transmitted via a data link is received and displayed, as appropriate, without degradation or misinterpretation of the intended information. Method of Compliance: All data links that handle safety of flight information are verified by analysis, laboratory, and aircraft testing for installed system performance. The criteria of 11.2.3.1 and 11.1.3 are satisfied. A FMEA analysis and a quantitative probability analysis of the installed data link system are performed resulting in no single point critical safety of flight failures. References: JSSG-2005: 3.2.2, 4.2.2 SAE ARP4761 SAE ARP5580 14 CFR 23.1301, 23.1309, 25.1301, 25.1309 FAA AC 20-140",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Control function information display",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

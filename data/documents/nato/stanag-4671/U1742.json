@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1742",
   "number": "U1742",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "Flight termination system control",
   "subject_group": "CONTROLS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "Flight termination system control",
       "text": "When the UAV is equipped with a flight termination system,\n(a) Its controls are safety critical controls as defined in USAR.1732.\n(b) Its controls must be arranged and identified such that they are readily available and accessible. The use of these controls must be intuitive and minimise the possibility of confusion and subsequent inadvertent operation.\n(c) Two distinct actions of the UAV crew are required to initiate the flight termination command.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "Flight termination system control",
       "text": "When the UAS is equipped with a flight termination system,\n(a) Its controls are safety critical controls as defined in USAR.U1732\n(b) Its controls must be arranged and identified such that they are readily available and accessible. The use of these controls must be intuitive and minimise the possibility of confusion and subsequent inadvertent operation.\n(c) Two distinct actions of the UAS crew are required to initiate the flight termination command.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

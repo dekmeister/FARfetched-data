@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U282",
   "number": "U282",
-  "current_grouping": "Subpart B \u2013 UA Flight",
+  "current_grouping": "Subpart B \u2014 UA Flight",
   "canonical_title": "UA active control",
   "subject_group": "CATAPULT ASSISTED AND ROCKET ASSISTED TAKE-OFF UA",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "grouping_at_time": "Subpart B \u2014 UAV Flight",
       "title_at_revision": "UAV active control",
       "text": "In case of launch without active control by the flight control system of the air vehicle attitude or direction, the UAV must not diverge beyond its recoverable limit and the active control must be reinstated before the UAV reaches the boundary of its launch safety trace.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "grouping_at_time": "Subpart B \u2014 UA Flight",
       "title_at_revision": "UA active control",
       "text": "In case of launch without active control by the flight control system of the aircraft attitude or direction, the UA must not diverge beyond its recoverable limit and the active control must be reinstated before the UA reaches the boundary of its launch safety trace.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

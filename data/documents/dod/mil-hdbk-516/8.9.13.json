@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.13",
   "number": "8.7.13",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Locked or unlocked condition",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.9.13",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that, for UAVs, the locked-or-unlocked condition of mechanisms with position sensors is displayed in the ground control station during ground operation.",
       "text": "Verify that, for UAVs, the locked-or-unlocked condition of mechanisms with position sensors is displayed in the ground control station during ground operation.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.9.13",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that, for UAV/ROAs, the locked-or-unlocked condition of mechanisms with position sensors are displayed on the aircraft and at the ground control station during ground operation.",
       "text": "Verify that, for UAV/ROAs, the locked-or-unlocked condition of mechanisms with position sensors are displayed on the aircraft and at the ground control station during ground operation. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.4; 3.4.9.4.3; 4.4.9.4.3",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.9.13",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the locked-or-unlocked condition of mechanisms with sensors is displayed in the cockpit, on aircraft, and in all remote operator control locations during ground operations.",
       "text": "Verify that the locked-or-unlocked condition of mechanisms with sensors is displayed in the cockpit, on aircraft, and in all remote operator control locations during ground operations. DoD/MIL Doc: JSSG-2009, Appendix I: 3.4.9.4; 3.4.9.4.3; 4.4.9.4.3",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.13",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Locked or unlocked condition",
       "text": "Criterion: Verify that the locked-or-unlocked condition of mechanisms with sensors is displayed in the cockpit, on aircraft, and in all remote operator control locations during ground operations. Standard: Safe or unsafe status of the mechanisms are continuously presented to the aircrew, ground operators or maintenance personnel. The system also assists in trouble shooting in the event of a malfunction. Method of Compliance: FMECA documents probable failures and system indications associated with the failures. Testing on the full scale article and control station, as applicable, verifies that the conditions of mechanisms with position sensors are properly displayed. Testing includes all the malfunctions that could give a false indication as determined by the analyses. Particular emphasis is placed on those malfunctions that could give a safe indication for an unsafe condition. References: JSSG-2009: (Appendix I) I.3.4.9.4, I.3.4.9.4.3, I.4.4.9.4.3",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Locked or unlocked condition",
       "text": "Standard: The locked or unlocked condition of mechanisms with sensors is displayed in the cockpit, on air vehicle, and in all remote flight crew control locations during ground operations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a FMECA to verify probable failures and system indications associated with the failures. Test.\n  (1) Lab test: Conduct testing on the full scale article and control station, as applicable, to verify that the conditions of mechanisms with position sensors are properly displayed. Testing includes all the malfunctions that could give a false indication as determined by the analyses. Particular emphasis is placed on those malfunctions that could give a safe indication for an unsafe condition.",
       "source_url": "https://assist.dla.mil",

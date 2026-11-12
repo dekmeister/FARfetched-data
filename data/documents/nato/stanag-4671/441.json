@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "441",
   "number": "441",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Manoeuvring loads",
   "subject_group": "VERTICAL SURFACES",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Manoeuvring loads",
       "text": "See AMC.441\n(a) At speeds up to VA the vertical surfaces must be designed to withstand the following conditions. In computing the loads, the yawing velocity may be assumed to be zero:\n  (1) With the UAV in unaccelerated flight at zero yaw, it is assumed that the rudder control is suddenly displaced to the maximum deflection, as limited by the control stops or by the maximum effort provided by the servocontrols or actuators\n  (2) With the rudder deflected as specified in sub-paragraph (1) , it is assumed that the UAV yaws to the overswing sideslip angle. In lieu of a rational analysis, an overswing angle equal to 1.5 times the static sideslip angle of sub-paragraph (3) may be assumed.\n  (3) A yaw angle of 15\u00b0 with the rudder control maintained in the neutral position (except as limited by the maximum effort sustained by the servocontrols or actuators).\n(b) The loads imposed by the following additional manoeuvre must be substantiated at speeds from VA to VD/MD. When computing the tail loads:\n  (1) The UAV must be yawed to the largest attainable steady state sideslip angle with the rudder at maximum deflection caused by any one of the following:\n    (i) Control surface stops;\n    (ii) Maximum available effort sustained by the servocontrols or actuators;\n    (iii) not applicable\n  (2) The rudder must be suddenly displaced from the maximum deflection to the neutral position.\n(c) The yaw angles specified in sub-paragraph (a) (3) may be reduced if the yaw angle chosen for a particular speed cannot be exceeded in\n  (1) Steady slip conditions;\n  (2) Uncoordinated rolls from steep banks; or\n  (3) Sudden failure of the critical engine with delayed corrective action.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Manoeuvring loads",
       "text": "See AMC.441\n(a) At speeds up to VA the vertical surfaces must be designed to withstand the following conditions. In computing the loads, the yawing velocity may be assumed to be zero:\n  (1) With the UA in unaccelerated flight at zero yaw, it is assumed that the rudder control is suddenly displaced to the maximum deflection, as limited by the control stops or by the maximum effort provided by the servocontrols or actuators.\n  (2) With the rudder deflected as specified in sub-paragraph (1), it is assumed that the UA yaws to the overswing sideslip angle. In lieu of a rational analysis, an overswing angle equal to 1.5 times the static sideslip angle of sub-paragraph (3) may be assumed.\n  (3) A yaw angle of 15\u00b0 with the rudder control maintained in the neutral position (except as limited by the maximum effort sustained by the servocontrols or actuators).\n(b) The loads imposed by the following additional manoeuvre must be substantiated at speeds from VA to VD/MD. When computing the vertical surface loads:\n  (1) The UA must be yawed to the largest attainable steady state sideslip angle with the rudder at maximum deflection caused by any one of the following:\n    (i) Control surface stops;\n    (ii) Maximum available effort sustained by the servocontrols or actuators;\n    (iii) Not applicable.\n  (2) The rudder must be suddenly displaced from the maximum deflection to the neutral position.\n(c) The yaw angles specified in sub-paragraph (a) (3) may be reduced if the yaw angle chosen for a particular speed cannot be exceeded in:\n  (1) Steady slip conditions;\n  (2) Uncoordinated rolls from steep banks; or\n  (3) Sudden failure of the critical engine with delayed corrective action.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

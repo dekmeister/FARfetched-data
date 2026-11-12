@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "677",
   "number": "677",
-  "current_grouping": "Subpart D \u2013 UA Design and Construction",
+  "current_grouping": "Subpart D \u2014 UA Design and Construction",
   "canonical_title": "Trim systems",
   "subject_group": "CONTROL SYSTEMS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart D \u2013 UAV Design and Construction",
+      "grouping_at_time": "Subpart D \u2014 UAV Design and Construction",
       "title_at_revision": "Trim systems",
       "text": "(a) Proper precautions must be taken to prevent inadvertent, improper, or abrupt auto-trim tab operation by the flight control system.\n(b) Trimming devices must be designed so that, when any one connecting or transmitting element of the primary flight controls fails, adequate control for safe flight and landing is available with\n  (1) For single-engine UAV, the longitudinal trimming devices; or\n  (2) For multi-engine UAV, the longitudinal and directional trimming devices.\n(c) Tab controls must be irreversible unless the tab is properly balanced and has no unsafe flutter characteristics. Irreversible tab systems must have adequate rigidity and reliability in the portion of the system from the tab to the attachment of the irreversible unit to the UAV structure.\n(d) It must be demonstrated that the UAV is safely controllable by the flight control system and that the UAV crew can perform all the manoeuvres and operations necessary to effect a safe landing following any probable powered trim system runaway that reasonably might be expected in service. The demonstration must be conducted at the critical UAV weights and centre of gravity positions.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart D \u2013 UA Design and Construction",
+      "grouping_at_time": "Subpart D \u2014 UA Design and Construction",
       "title_at_revision": "Trim systems",
       "text": "(a) Proper precautions must be taken to prevent inadvertent, improper, or abrupt auto-trim tab operation by the flight control system.\n(b) Trimming devices must be designed so that, when any one connecting or transmitting element of the primary flight controls fails, adequate control for safe flight and landing is available with:\n  (1) For single-engine UA, the longitudinal trimming devices; or\n  (2) For multi-engine UA, the longitudinal and directional trimming devices.\n(c) Tab controls must be irreversible unless the tab is properly balanced and has no unsafe flutter characteristics. Irreversible tab systems must have adequate rigidity and reliability in the portion of the system from the tab to the attachment of the irreversible unit to the UA structure.\n(d) It must be demonstrated that the UA is safely controllable by the flight control system and that the UAS crew can perform all the manoeuvres and operations necessary to effect a safe landing following any powered trim system runaway that reasonably might be expected in service. The demonstration must be conducted at the critical UA weights and centre of gravity positions.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

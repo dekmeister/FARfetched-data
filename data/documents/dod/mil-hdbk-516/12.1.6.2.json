@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "12.1.6.2",
   "number": "12.1.6.2",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Battery installation",
   "subject_group": "12.1.6 Battery operation and installation",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Battery installation",
       "text": "Standard: Each battery installation has provisions to prevent any hazardous effect on structure, essential systems, or personnel during all conditions. Batteries, with or without embedded electronics, are capable of operating under all air vehicle power quality conditions and load combinations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Installation drawings verify corrosive fluids or gases that escape the battery or cell will not damage surrounding structures or adjacent essential equipment, to include wiring, fuel lines, and hydraulic lines.\n(2) For primary batteries, design documentation (e.g., device schematics and device component description) verifies that there is a means to prevent charging of the battery, or any cell, from any air vehicle power (e.g., blocking diode or galvanically isolated). Analysis.\n  (1) A toxicity analysis shows there is no accumulation of explosive or toxic gases, expelled from a battery or cell, in hazardous quantities within the air vehicle. The analysis considers the hazardous concentration thresholds of these byproduct gases from the National Technical Information Service Publication No. PB94-195047, and the potential impact from air vehicle integration (e.g., location and ECS).\n  (2) An analysis, using testing results, verifies each battery installation has provisions to prevent any hazardous effect on structure or essential systems caused by the maximum amount of heat the battery can generate during a short circuit of the battery or of its individual cells. Test.\n    (1) Lab test: For secondary batteries, testing show that the battery complies with the power quality requirements IAW MIL-STD-704, DC Power Characteristics paragraphs, utilizing the test procedures in MIL-HDBK-704-1 General Information paragraphs.",
       "source_url": "https://assist.dla.mil",

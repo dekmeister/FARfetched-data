@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.15.1",
   "number": "6.2.15.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Unmanned air system command and control integration",
   "subject_group": "6.2.15 Vehicle control function UAS command and control communications safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Unmanned air system command and control integration",
       "text": "Standard: Command and control processing resources support the functional requirements as allocated to computer hardware and software. The UAS architecture provides C2 2-way data link between the control station and the UAV which allows the flight crew to C2 the UAV movement (e.g., flight path, altitude, airspeed, heading, and ground path). Transition between ground control elements, such as a Launch Recovery Element or Mission Control Element, does not cause loss of the C2 function. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review C2 system detailed specifications (hardware and software requirements) of expected functionality, performance, and design requirements for effective testing. Demonstration.\n  (1) Ground test demonstrates C2 functionality including transitions between control stations. Test.\n    (1) Lab test: Conduct C2 component testing to verify hardware and software requirements are met.\n    (2) Lab test: Conduct UAS SIL test to verify communication interface paths support sending and receiving C2 data to control the UAV.\n    (3) Lab test: Conduct UAS SIL test to verify transitions between control stations are robust and do not result in loss of the command-and-control function.\n    (4) Lab test: Conduct UAS SIL test to verify processing resources function without degradation of the C2 function under worst-case conditions for communications bus loading/traffic. This includes the entire communication path between the control station and the VCF. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n  (2) Flight operations demonstrate C2 functionality, including transitions between control stations, with mission representative communications bus loading/traffic.",
       "source_url": "https://assist.dla.mil",

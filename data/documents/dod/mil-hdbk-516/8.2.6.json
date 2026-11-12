@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.2.6",
   "number": "8.2.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Degraded system operation",
   "subject_group": "8.2 Environmental control systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.2.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the effects of loss of some or all EMS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable.",
       "text": "Verify that the effects of loss of some or all EMS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.2.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the effects of loss of some or all ECS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable.",
       "text": "Verify that the effects of loss of some or all ECS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable. DoD/MIL Doc: JSSG-2009: para 3.2.4, 3.2.5, 3.2.7.4.4, 3.2.7.6, 3.3.3, 4.2.4, 4.2.5, 4.2.7.4.4, 4.2.7.6, 4.3.3; Appendix D: D.3.4.4.3, D.3.4.4.5, D.3.4.4.12, D.4.4.3.3, D.4.4.4.5, D.4.4.4.12, D.3.4.4.5.2/D.4.4.4.5.2 Occupied compartment emergency ventilation and smoke removal; D.3.4.4.5.3/D.4.4.4.5.3 Avionic equipment and equipment compartment emergency cooling; D.3.4.4.12.2/D.4.4.4.12.2 Bleed air source shut off; D.3.4.4.5.2/D.4.4.4.14.1 Proof pressure; D.3.4.4.14.2/D.4.4.4.14.2 Burst pressure; D.3.4.4.14.3/D.4.4.4.14.3 Rotating equipment structural integrity",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.2.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the effects of loss of some or all ECS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable.",
       "text": "Verify that the effects of loss of some or all ECS functions on air vehicle safety, on air vehicle performance, or on the safety and performance of other air vehicle systems are understood and acceptable. DoD/MIL Doc: JSSG-2009: 3.2.4, 3.2.5, 3.2.7.4.4, 3.2.7.6, 3.3.3, 4.2.4, 4.2.5, 4.2.7.4.4, 4.2.7.6, 4.3.3; Appendix D: D.3.4.4.3, D.3.4.4.5, D.3.4.4.12, D.4.4.3.3, D.4.4.4.5, D.4.4.4.12, D.3.4.4.5.2/D.4.4.4.5.2 Occupied compartment emergency ventilation and smoke removal; D.3.4.4.5.3/D.4.4.4.5.3 Avionic equipment and equipment compartment emergency cooling; D.3.4.4.12.2/D.4.4.4.12.2 Bleed air source shut off; D.3.4.4.5.2/D.4.4.4.14.1 Proof pressure; D.3.4.4.14.2/D.4.4.4.14.2 Burst pressure; D.3.4.4.14.3/D.4.4.4.14.3 Rotating equipment structural integrity",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.2.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Degraded system operation",
       "text": "Criterion: Verify that the effects of loss of some or all ECS functions on air vehicle system safety and performance are understood and acceptable. Standard: If ECS function is degraded and ram air or alternate methods cannot assure continuous airworthy operations, safety-critical items will function long enough to safely land the air vehicle. Method of Compliance: The standard is verified by the following activities: a. FMECA and System Hazard Analysis verify safe operation. b. ECS system level analyses verifies safe operation and acceptable performance of the air vehicle system after loss of some or all ECS functions. c. Simulator and/or air vehicle system flight and ground testing verifies safe operation and acceptable performance. d. Flight test data from ECS flight test profile validates FMECA and system level analyses. References: JSSG-2009: 3.2.4, 4.2.4; 3.2.5, 4.2.5; 3.2.7.4.4, 4.2.7.4.4; 3.2.7.6, 4.2.7.6; 3.3.3, 4.3.3; D.3.4.4.3, D.4.4.3.3; D.3.4.4.5, D.4.4.4.5; D.3.4.4.12, D.4.4.4.12; D.3.4.4.5.2, D.4.4.4.5.2 Occupied compartment emergency ventilation and smoke removal; D.3.4.4.5.3, D.4.4.4.5.3 Avionic equipment and equipment compartment emergency cooling; D.3.4.4.12.2, D.4.4.4.12.2 Bleed air source shut off; D.3.4.4.14.1, D.4.4.4.14.1 Proof pressure; D.3.4.4.14.2, D.4.4.4.14.2 Burst pressure; D.3.4.4.14.3, D.4.4.4.14.3 Rotating equipment structural integrity",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Degraded system operation",
       "text": "Standard: The ECS maintains safety-critical functionality during degraded operation, including thermal conditioning of safety-critical equipment and maintaining occupied compartment ventilation long enough to enable successful recovery of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct FMECA and SHA to verify that loss of ECS function does not result in SOF hazards.\n(2) Perform subsystem-level analyses (e.g., thermal analysis, pressurization) to verify that safety-critical functionality is maintained until termination of flight during degraded operation.\n(3) Perform analysis to verify that emergency ventilation provisions meet ventilation requirements after loss or degradation of the ECS. Test.\n  (1) Lab test: Perform component qualification testing to verify that safety-critical equipment function is maintained until termination of flight following loss or degradation of the ECS. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify that safety-critical equipment does not exceed maximum operating temperatures during degraded operation.",
       "source_url": "https://assist.dla.mil",

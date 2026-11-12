@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.4",
   "number": "7.2.6",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Stall recoverability",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.2.4",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the engine will recover from instability induced by external influences (such as inlet distortion and steam ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "text": "Verify that the engine will recover from instability induced by external influences (such as inlet distortion and steam ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "7.2.4",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the engine will recover from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "text": "Verify that the engine will recover from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.2.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine recovers from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "text": "Verify that the engine recovers from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits. DoD/MIL Doc: JSSG\u20132007A: para A.3.2.2.3.5, A.4.2.2.3.5, A.3.2.2.11.2, A.4.2.2.11.2, A.3.7.2.1, A.4.7.2.1. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.2.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine recovers from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits.",
       "text": "Verify that the engine recovers from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits. DoD/MIL Doc: JSSG\u20132007A: A.3.2.2.3.5, A.4.2.2.3.5, A.3.2.2.11.2, A.4.2.2.11.2, A.3.7.2.1, A.4.7.2.1 FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.2.4",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Stall recoverability",
       "text": "Criterion: Verify that the engine recovers from instability induced by external influences (such as inlet distortion and steam and armament gas ingestion) after the external influence is removed, without employing measures such as commanded idle or shutdown and without exceeding thermal or structural limits. Standard: The engine or air vehicle control system can detect and recover from an engine stall without commanded idle or shutdown or the engine demonstrates the ability to self-recover. Single engine applications possess an automatic relight system for recovery from combustor blowout, unless it has been demonstrated that automatic relight offers no improvement in engine recoverability. Method of Compliance: Verification methods include test and review of documentation. Control system detection is verified by engine ground and bench testing; self-recovery is demonstrated from engine ground and altitude cell testing. References: JSSG-2007: A.3.2.2.3.5, A.4.2.2.3.5; A.3.2.2.11.2, A.4.2.2.11.2; A.3.7.2.1, A.4.7.2.1 14 CFR 33.28 engine control systems; 33.65 Surge and stall characteristics",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Stall recoverability",
       "text": "Standard: The engine or air vehicle control system can detect and self-recover from an engine stall without commanded idle or shutdown and without exceeding thermal or structural limits. Single engine applications possess an automatic relight system for recovery from combustor blowout unless it has been verified that automatic relight offers no improvement in engine recoverability. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Bench tests and ground-based sea level and altitude cell tests verify control system detection.\n(2) Lab test: Ground-based sea level and altitude cell tests verify that the engine self-recovers from an instability induced by external influences after the external influence is removed.",
       "source_url": "https://assist.dla.mil",

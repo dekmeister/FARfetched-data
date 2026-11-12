@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.12.1",
   "number": "6.1.4.23",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Alternate control modes",
   "subject_group": "6.1.4 Fixed-wing general flying qualities",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.12.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Transfer to alternate control modes",
       "text": "Criterion: Verify that transfer to and from alternate control modes is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.8.1 Transfer to alternate control modes (see tables XCVIII and XCIX for guidance). a. Automatic functions such as automatic ground collision avoidance systems (AGCAS), automatic air collision avoidance systems (AACAS), terrain following/terrain avoidance (TF/TA), automatic takeoff/landing, etc. are safe. b. Pilot/operator over-ride transitions and commands, and autonomously directed maneuvers (e.g., collision avoidance, sense and avoid (SAA), air traffic control instruction) are safe. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.8 Transfer between Response-Types. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Alternate control modes",
       "text": "Standard: The air vehicle's motion transients and the control forces required to maintain attitude following a control mode change are no greater than the limits, including the time component, as specified in MIL-STD-1797, Transfer to Alternate Control Modes paragraph, unless pilot evaluation determines the air vehicle handling qualities are no worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the motion transients resulting from intentional mode changes and the changes in control forces required to maintain attitude and sideslip following an intentional mode change as specified in MIL-STD-1797, Transfer to Alternate Control Modes paragraph for each combination of regions of handling qualities, flight phases, and environmental conditions with the air vehicle in the normal states. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the motion transients resulting from intentional mode changes and the changes in control forces required to maintain attitude and sideslip following an intentional mode change as specified in MIL-STD-1797, Transfer to Alternate Control Modes paragraph for each combination of regions of handling qualities, flight phases, and environmental conditions with the air vehicle in the normal states. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the motion transients resulting from intentional mode changes and the changes in control forces required to maintain attitude and sideslip following an intentional mode change as specified in MIL-STD-1797, Transfer to Alternate Control Modes paragraph for selected combinations of regions of handling qualities, flight phases, and environmental conditions with the air vehicle in the normal states.",
       "source_url": "https://assist.dla.mil",

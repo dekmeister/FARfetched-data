@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.11.1",
   "number": "8.5.10.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Air vehicle arrestment performance (loads)",
   "subject_group": "8.5.10 Arresting hook systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.11.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the arresting system is capable of stopping the air vehicle at all the required design conditions (refused takeoffs (RTOs), fly-in engagements, brake overruns, etc.) without any damage to either the air vehicle or the arresting systems.",
       "text": "Verify that the arresting system is capable of stopping the air vehicle at all the required design conditions (refused takeoffs (RTOs), fly-in engagements, brake overruns, etc.) without any damage to either the air vehicle or the arresting systems.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.11.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the arresting system is capable of stopping the air vehicle at all the required design conditions (refused takeoffs (RTOs), fly-in engagements, brake overruns, etc.) without any damage to either the air vehicle or the arresting systems.",
       "text": "Verify that the arresting system is capable of stopping the air vehicle at all the required design conditions (refused takeoffs (RTOs), fly-in engagements, brake overruns, etc.) without any damage to either the air vehicle or the arresting systems. Comm\u2019l Doc: SAE ARP-1538. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.8.1.1 thru A.3.4.1.8.1.8/A.4.4.1.8.1.1 thru A.4.4.1.8.1.8 Hook/Arresting system information; MIL-A-18717 MIL-A-83136.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.11.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Air vehicle arrestment performance",
       "text": "Criterion: Verify that the arresting system is capable of stopping the air vehicle at all the required design conditions (refused takeoffs (RTOs), fly-in engagements, brake overruns, etc.) without any damage to either the air vehicle or the arresting systems. Standard: The arresting system is capable of stopping the air vehicle at all specified design conditions. Arrestment system engagements (e.g., barrier, cable) are defined by energy level, hook loads, air vehicle speeds and weights. The engagement limits are defined for on-center and off-center engagements. The engagement limits are set either by the air vehicle or the type of arrestment system; these limits are defined and documented. Method of Compliance: Verification methods include analyses and tests. Design analysis verifies the arresting system engagement capability under all specified conditions. Flight testing supports the design analysis and verifies the installation, functionality and performance capability of the air vehicle arresting system and the arrestment system (e.g., barrier, cable) engagement limits. References: JSSG-2009: A.3.4.1.8.1.1, A.4.4.1.8.1.1 Air vehicle arrestment performance; through A.3.4.1.8.1.8, A.4.4.1.8.1.8 Hook actuation criteria MIL-A-18717 MIL-A-83136 (cancelled; for information only) SAE ARP1538",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Air vehicle arrestment performance (loads)",
       "text": "Standard: The arresting hook system (which engages a cable) is capable of stopping the air vehicle at all design conditions (e.g., RTOs, in flight engagements, emergency landings, and brake overruns) without damage to the air vehicle or the arresting hook system. Arresting gear system engagements are defined by energy level, hook loads, and air vehicle speeds and weights. Engagement limits, for both on-center and off-center conditions (distance from runway/deck centerline) and multivariate (yaw, pitch and roll) engagements, are established for the air vehicle and type of arresting gear system. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analyses to define engagement parameters such as speeds, air vehicle weights, and arresting energy levels for the operational environmental conditions (e.g., ambient temperatures and runway altitudes) to establish the arresting system loads. For emergency arresting hook systems as used on USAF air vehicles, the arresting gear system is not engaged on landing impact. The air vehicle has all wheels on the runway before engagement and no braking allowed for approach end engagements. Braking on departure end can be used before air vehicle traverses the cable.\n(2) Conduct analysis to determine compressive loads from the initial arresting hook impact (e.g., pogo) on touch down or reverse loading conditions.\n(3) Conduct analysis based on Analysis MoC (1) engagement conditions and Analysis MoC (2) to defined arresting hook system design loads for the arresting gear systems being engaged addressing both on-center and off-center engagements.\n(4) Conduct static strength stress analysis to verify arresting hook system and air vehicle structure can support design limit and ultimate loads defined in Analysis MoC (2). Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate loads. Ultimate load is 1.5X DLL. Test.\n  (1) Lab test: Conduct lab component level static strength testing to verify arresting hook system meets limit and ultimate loads. Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n    (1) Review of flight manuals verifies the air vehicle engagement limits (on-center, off-center, and in-flight engagements) for each type of arresting gear system (e.g., BAK-12, Mark 7, AAG, and E-28) specified. Test.\n    (2) Ground test: Conduct air vehicle engagements with the arresting gear system to verify arresting hook system successfully engages cable, hook loads do not exceed design loads, and cable dynamics does not cause air vehicle damage.\n    (3) Flight test: Conduct runway operations including approach end engagements after landing to verify arresting hook system successfully engages cable, hook loads do not exceed design loads, and cable dynamics does not cause air vehicle damage.\n    (4) Flight test: For carrier-based arresting hook systems, conduct shipboard operations to verify arresting hook successfully engages cable, hook loads do not exceed design loads, and cable dynamics does not cause air vehicle damage.",
       "source_url": "https://assist.dla.mil",

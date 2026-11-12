@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.4.4",
   "number": "8.4.4",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Ventilation",
   "subject_group": "8.4 Fire and hazard protection",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards.",
       "text": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards.",
       "text": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.3, G.4.4.7.3, G.3.4.7.4, G.4.4.7.4, G.3.4.7.5, G.4.4.7.5, G.3.4.7.18, G.4.4.7.18, MIL-HDBK-221: para 2.4 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards.",
       "text": "Verify that provisions for drainage and ventilation of combustible fluids or vapors are adequate to preclude the occurrence of fire or explosion hazards. DoD/MIL Doc: JSSG-2009 Appendix G: G.3.4.7.3, G.4.4.7.3, G.3.4.7.4, G.4.4.7.4, G.3.4.7.5, G.4.4.7.5, G.3.4.7.18, G.4.4.7.18 MIL-HDBK-221: 2.4 FAA Doc: 14CFR references: 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Drainage and ventilation",
       "text": "Criterion: Verify that provisions for drainage and ventilation of combustible fluids and vapors are adequate to preclude the occurrence of fire or explosion hazards. Standard: Drainage systems remove all hazardous quantities of flammable liquids. Ventilation systems that operate in flight provide adequate active ventilation for flammable fluid leakage zones (e.g., 1 volumetric air change per minute for flammable fluid leakage zones) and fire zones (e.g., 2-3 volumetric air changes per minute for fire zones). Drainage and ventilation collection systems are fire hardened. Drains and vent systems for flammable zones are separated from other systems. Drains and vent systems for ignition zones are separated from other systems. Method of Compliance: Analysis for flight and ground conditions verifies that ventilation is provided to minimize flammability. Flight and maintenance manuals identify necessary procedures for ground operations (e.g., requirement for opening bay doors when ventilation to a bay is no longer available under ground operation). References: JSSG-2009: G.3.4.7.3, G.4.4.7.3; G.3.4.7.4, G.4.4.7.4; G.3.4.7.5, G.4.4.7.5; G.3.4.7.18, G.4.4.7.18 MIL-HDBK-221: 2.4 14 CFR 23.851-23.865, 25.851-25.869, 23.1181-23.1203, 25.1181-25.1207, 23.1411, 25.1411",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Ventilation",
       "text": "Standard: Ventilation systems prevent flammable vapors from exceeding lower explosive limit concentrations and remove all hazardous quantities of flammable or reactive vapors from the air vehicle to a location outside the air vehicle. Vapors do not re-enter the air vehicle or create additional hazards. Airflow reversals or no-flow conditions are not present under any ground or flight conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Inspect design documentation to verify ventilation features are provided in locations where flammable fluids or vapors are present during normal or failure conditions. Analysis.\n  (1) Conduct analysis that determines the ventilation and airflow required to prevent flammable vapor concentrations from exceeding the lower explosive limit for any possible flammable vapor present, considering possible leak rates and amounts, under all flight and ground conditions.\n  (2) Conduct analysis that shows ventilation provisions are able to maintain the airflow required to prevent flammable vapor concentrations from exceeding the lower explosive limit for any possible flammable vapor present, considering possible leak rates and amounts, under all flight and ground conditions.\n  (3) Conduct analysis that shows ventilation provisions remove all flammable and reactive vapors to a location outside the air vehicle, and those vapors do not re-enter the air vehicle or create additional hazards.\n  (4) For ground conditions that may generate flammable vapors prior to air vehicle power on or engine start, conduct analysis that shows alternate ventilation methods (e.g., opening panels, using forced air from ground carts) lower flammable vapor concentrations to below lower explosive limits prior to power-on or engine start. Test.\n    (1) Ground test: Conduct ground test that shows the ventilation system is capable of providing the airflow required by Analysis MoC (1), Analysis MoC (2), and Analysis MoC (3) for ground conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test. (2) Flight test: Conduct flight test that shows the ventilation system provides the airflow required by Analysis MoC (1) and Analysis MoC (2) for flight conditions.",
       "source_url": "https://assist.dla.mil",

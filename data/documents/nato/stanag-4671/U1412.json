@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1412",
   "number": "U1412",
-  "current_grouping": "Subpart F \u2013 Equipment",
+  "current_grouping": "Subpart F \u2014 Equipment",
   "canonical_title": "Emergency recovery capability",
   "subject_group": "SAFETY EQUIPMENT AND EMERGENCY CAPABILITY",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Emergency recovery capability",
       "text": "See USAR.1412 (a)(2) and AMC.1412 (e)\n(a) The UAV System must integrate an emergency recovery capability that consists of :\n  (1) a flight termination system, procedure or function that aims to immediately end normal flight, or,\n  (2) an emergency recovery procedure that is implemented through UAV crew command or through autonomous design means in order to mitigate the effects of critical failures with the intent of minimising the risk to third parties, or,\n  (3) any combination of USAR.1412 (a) (1) and USAR.1412 (a) (2).\n(b) The emergency recovery capability must function as desired over the whole flight envelope under the most adverse combination of environmental conditions\n(c) The emergency recovery capability must be safeguarded from interference leading to inadvertent operation.\n(d) The emergency recovery capability must receive its electrical power, if needed, from the bus that provides the maximum reliability for operation. In case of complete loss of the primary electrical power generating system, it must automatically switch to the battery.\n(e) Use of explosives to perform in-flight total destruction of the air vehicle is not an acceptable means of compliance to USAR.1412\n(f) Where the emergency recovery capability includes a pre-programmed course of action to reach a predefined site where it can be reasonably expected that fatality will not occur, the dimensions of such areas must be stated in the UAV System Flight Manual.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Emergency recovery capability",
       "text": "See AMC.U1412 (a)(2) and AMC.U1412 (e)\n(a) The UAS must integrate an emergency recovery capability that consists of:\n  (1) a flight termination system, procedure or function that aims to immediately end normal flight, or\n  (2) an emergency recovery procedure that is implemented through UAS crew command or automatically without operator command by design means in order to mitigate the effects of critical failures with the intent of minimising the risk to third parties, or\n  (3) any combination of USAR.U1412 (a) (1) and USAR.U1412 (a) (2).\n(b) The emergency recovery capability must function as desired over the whole flight envelope under the most adverse combination of environmental conditions.\n(c) The emergency recovery capability must be safeguarded from interference leading to inadvertent operation.\n(d) The emergency recovery capability must receive its electrical power, if needed, from the bus that provides the maximum reliability for operation. In case of complete loss of the primary electrical power generating system, it must automatically switch to the battery.\n(e) Use of explosives to perform in-flight total destruction of the aircraft is not an acceptable means of compliance with USAR.U1412\n(f) Where the emergency recovery capability includes a pre-programmed course of action to reach a predefined site where it can be reasonably expected that fatality will not occur, the dimensions of such areas must be stated in the UAS Flight Manual.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

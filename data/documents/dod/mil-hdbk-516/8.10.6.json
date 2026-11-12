@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.10.6",
   "number": "8.9.1",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Cargo hook system strength",
   "subject_group": "8.9 External cargo hook systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.10.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the external cargo hook and supporting structure limits are defined and are published in all applicable operator and maintenance manuals.",
       "text": "Verify that the external cargo hook and supporting structure limits are defined and are published in all applicable operator and maintenance manuals. DoD/MIL Doc: Refer to the technical point of contact for this discipline (listed in section A.2) FAA Doc: 14CFR references: 27.865, 29.865",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.9.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Technical manuals",
       "text": "Criterion: Verify that the external cargo hook and supporting structure limits are defined and are published in all applicable operator and maintenance manuals. Standard: Unless otherwise specified the cargo hook and supporting structure have a limit load factor of 2.5 times the rated or working load capacity. The hook support structure is capable of withstanding the rated capacity to 15 degrees with the vertical forward and lateral and 30 degrees with the vertical to the rear. Method of Compliance: The rated capacity of the cargo hook and support structure throughout their defined range of movement is verified through analysis and testing. References: 14 CFR 27.865, 29.865",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Cargo hook system strength",
       "text": "Standard: The cargo hook system has a limit LF of 2.5X the rated or working load capacity unless otherwise stated in the air vehicle specification. The ultimate load is 1.5X the limit load. The cargo hook system is capable of withstanding the rated load capacity to 15 degrees with the vertical forward and lateral and 30 degrees with the vertical to the rear. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a loads analysis to define the rated or working load capacity.\n(2) Conduct a static strength stress analysis to verify the cargo hook system has positive strength margins to support limit load and ultimate load cases. Permanent deformations do not occur at DLL. Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate load. Test.\n  (1) Lab test: Conduct lab test on cargo hook system to verify ability to support limit and ultimate load cases. Permanent deformations do not occur at DLL. Gross section yielding or detrimental deformations do not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate load. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify loads and stresses based on Analysis MoC (1) and Analysis MoC (2).",
       "source_url": "https://assist.dla.mil",

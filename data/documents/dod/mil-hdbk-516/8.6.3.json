@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.6.3",
   "number": "8.6.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Functional and physical compatibility",
   "subject_group": "8.6 Auxiliary power systems and emergency power systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the integrated system functional and physical compatibility is safe.",
       "text": "Verify that the integrated system functional and physical compatibility is safe.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the functional and physical compatibility of the integrated system is safe.",
       "text": "Verify that the functional and physical compatibility of the integrated system is safe. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3, C.4.4.3 FAA Doc: 14CFR references: 23.901, 25.901, 25.903 (f), TSO C77b 4.4.1 - 4.5.2, Sections 6 and 7",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Functional and physical compatibility",
       "text": "Criterion: Verify that the functional and physical compatibility of the integrated system are safe. Standard: The integrated APS/EPS system maintains functional compatibility throughout all normal operating and flight conditions. Normal or abnormal operation of the APS/EPS system does not induce hazardous conditions to interfacing subsystems. Physical interfaces withstand the maximum combination of static and dynamic loading throughout defined flight and ground envelopes and environments. Safety critical interfaces are fault tolerant or fail safe. No single failure or combination of failures with probability greater than one in ten million causes loss of the air vehicle. Method of Compliance: APS/EPS physical and functional interface requirements are verified by inspection of program documentation such as interface control and design documents. System interfaces are verified to be safe by analyses of worst case single failure operating and loading conditions (bending, torsional and gyroscopic loads, pressures, temperatures, vibratory, etc.). System interface critical analysis assumptions are verified by stress, thermal, pressure or vibration surveys during ground and flight tests as appropriate. Integrated system functional compatibility is verified by simulation, test and demonstration of system functionality at integration test facilities and on the air vehicle during ground and flight test. System physical and functional compatibility hazards and probability of air vehicle loss are verified by inspection of System Safety documentation. References: JSSG-2009: Appendix C FAA TSO-C77: 4.4.1-4.5.2 Sections 6 and 7 14 CFR 23.901, 25.901, 25.903(f)",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Functional and physical compatibility",
       "text": "Standard: The APS and emergency power system do not induce hazardous conditions to the interfacing subsystems (e.g., hydraulic and fuel pumps, generators, starting mechanisms, and ECS ducting). Fault tolerance or fail-safe measures are implemented in safety-critical interfaces. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to verify that during normal operating conditions and worst-case single failure operating and loading conditions, interfacing subsystems can maintain operation within specified limitations of the system (e.g., bending, torsional and gyroscopic loads, pressures, temperatures, and vibration).\n(2) Conduct FMECA to verify that fault tolerance or fail-safe measures implemented in safety-critical interfaces, prevent additional system damage. Test.\n  (1) Lab test: Conduct lab testing (e.g., FMET) to verify fault tolerance and fail-safe measures for the operating system function as intended.\n  (2) Lab test: Conduct integrated system lab testing to verify integrated system is compatible and functions as intended.\n  (3) Ground test: Conduct ground testing (e.g., stress, thermal, pressure, or vibration surveys) to verify critical analysis assumptions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (4) Flight test: Conduct flight testing (e.g., stress, thermal, pressure, or vibration surveys) to verify critical analysis assumptions.",
       "source_url": "https://assist.dla.mil",

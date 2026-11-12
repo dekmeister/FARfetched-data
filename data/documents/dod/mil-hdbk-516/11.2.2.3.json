@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.2.3",
   "number": "11.2.2.3",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Timing and latency (degraded modes of operation)",
   "subject_group": "11.2.2 Off nominal conditions",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Timing and latency (degraded modes of operation)",
       "text": "Standard: End-to-end timing and latency for backup and emergency modes are defined and shown to support the integrity of all SCFs. For PFR information in these modes, 100 milliseconds is the standard, but a different system specified value can be used if analysis and testing show there is no adverse impact to the flight crew or flight control response times. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review of FMEA, SCFTA, SHA, and other design information identifies all backup and emergency modes of operation for SCFs. Analyze timing and latency IAW the specified values to ensure there are no impacts to flight crew or system response times affecting the integrity of the SCFs. Test.\n  (1) Lab test: Conduct laboratory testing at worst-case operating conditions to verify the timing for backup and emergency modes are IAW specified values and there are no impacts to the flight crew or system response times affecting the integrity of the SCFs.\n  (2) Ground test: Air vehicle functional ground tests verify timing and latency performance of SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight Test: Record any timing and latency issues encountered that are associated with backup or emergency modes and impact the performance of SCFs. Noted issues do not result in the loss or degradation of SCFs.",
       "source_url": "https://assist.dla.mil",

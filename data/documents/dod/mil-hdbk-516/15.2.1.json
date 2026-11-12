@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.2.1",
   "number": "15.2.1",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Functional coupling",
   "subject_group": "15.2 Design and functional integration of system processing architecture elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling has been avoided.",
       "text": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling has been avoided.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling is avoided.",
       "text": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling is avoided. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.6; JSSG-2008 Appendix A: para 3.3.6+ and 3.1.14.6 address software structure, partitioning and CSCI integration. Para 3.1.5.1 gives guidance on data latency issues. Para 3.1.7 gives overall architecture design guidance along with specific data latency discussions in Lessons Learned subparagraph l. FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling is avoided.",
       "text": "Verify that all parameters passed among SOF processing elements are defined and that unnecessary coupling is avoided. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.6 JSSG-2008 Appendix A: 3.3.6+ and 3.1.14.6 address software structure, partitioning and CSCI integration; 3.1.5.1 gives guidance on data latency issues; 3.1.7 gives overall architecture design guidance along with specific data latency discussions in Lessons Learned subparagraph l FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Functional coupling",
       "text": "Criterion: Verify that SSEs avoid unnecessary coupling. Standard: The SPA design mechanization accounts for the dependencies of data/parameters utilized by the safety critical processing elements within the SCF threads. The SSE interdependencies (e.g., data, control, functional, and hardware) of the SCF thread satisfy the SCF requirements (e.g., latency, processing, and data). Data coupled to these threads are defined in terms of criticality and requirements are in place to avoid unnecessary coupling. Only SSE data and control required to satisfy the SCF processing requirements are coupled between the SSEs. Unnecessary coupling is avoided by eliminating non-essential elements in a SCF thread. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection. Inspection of SCF threads is performed to ensure that unnecessary coupling does not exist. Process documentation is reviewed to verify that processes are in place to ensure unnecessary coupling is eliminated. Essential coupling, processing rates, associated allowable latencies, and transient limitations required for safety critical data are analyzed, tested and demonstrated. Verify all data requirements for SSEs are defined. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.3.a); 3.1.14.6 addresses designing software to be invulnerable to errors; 3.1.5.1 gives guidance on data latency issues; 3.1.7 gives overall architecture design guidance along with specific data latency discussions in Lessons Learned subparagraph l JSSG-2008 Appendix B: A14.3.1 DoD JSSSEH: 4.3.7.3.2.7; 4.4.1.5; D.6.1; E.3.19 NASA-GB-8719.13: 4.6 design for weak coupling RTCA DO-178: For RTCA DO-178C: 6.3.4.d; 6.4.4.d; 6.4.4.2.c; 11.8; 12.1.1.c (see also RTCA DO-178B) FAA AC 20-115C DOT/FAA/AR-07/48: 5.3 data and control coupling tools, also calls attention to DO-178B; 6.13 control of data coupling",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Functional coupling",
       "text": "Standard: 1. Verify that ESSs avoid unnecessary coupling. The SPA design mechanization accounts for the dependencies of data and parameters utilized by ESSs within the SCF threads. The ESS interdependencies (e.g., data, control, functional, and hardware) of the SCF thread satisfy the safety requirements (e.g., latency, processing, and data). Data coupled to these threads are defined in terms of criticality and requirements are in place to avoid unnecessary coupling. Only ESS data and control required to satisfy the SCF processing requirements are coupled between the ESSs. Unnecessary coupling is avoided by eliminating non-essential elements and data in an SCF thread. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, demonstration, and examination. Examination of SCF threads is performed to ensure that unnecessary coupling does not exist. Process documentation is reviewed to verify that processes are in place to ensure unnecessary coupling is eliminated. Examination verifies that all data requirements for ESSs are defined. Essential coupling, processing rates, associated allowable latencies, and transient limitations required for safety-critical data are analyzed, tested, and demonstrated.",
       "source_url": "https://assist.dla.mil",

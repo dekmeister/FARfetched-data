@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "17.2.9",
   "number": "17.3.4.3",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Lost link",
   "subject_group": "17.3.4 Positive control",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "17.2.9",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Lost link",
       "text": "Criterion: Verify that a lost-link condition during a weapons engagement is considered and hazards are minimized and/or mitigated. Standard: In the event of unexpected loss or corruption of command and control link the weapon system transitions to a predetermined state and mode (see the Certification Standard under 4.1.6). Method of Compliance: Verification methods include analysis, test, demonstration, simulation, inspection and review of documentation. Verification is accomplished by analysis (e.g., fault tree analysis, system safety analysis), SIL/avionics tests, and ground and flight demonstrations and tests. References: ADS-44-HDBK",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Lost link",
       "text": "Standard: In the event of loss of C2 links between a control station and armed UAS or between launch platform and store or laser, the system transitions to predetermined states that prevent AW hazards due to inadvertent store or laser operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analyze the lost link condition during all store or laser operational states to verify that the design prevents inadvertent store or laser operation.\n(2) Evaluate software and hardware design documentation to confirm necessary design mitigation features are implemented. Test.\n  (1) Lab test: Conduct SIL testing of the system and communication interface to verify design mitigation features function as designed for all store and laser operational states.\n  (2) Ground test: Evaluate system and communication interface to verify that control and design mitigation features function as intended under lost link condition.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.2.1",
   "number": "7.2.3",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Stability margin",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.2.1",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that positive stability margin exists at all critical flight conditions or that placards are documented in the flight manual.",
       "text": "Verify that positive stability margin exists at all critical flight conditions or that placards are documented in the flight manual.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.2.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that positive stability margin exists at all flight conditions or that placards are documented in the flight manual.",
       "text": "Verify that positive stability margin exists at all flight conditions or that placards are documented in the flight manual. DoD/MIL Doc: JSSG-2007A: para A.3.2.2.6, A.4.2.2.6, A.3.2.2.11, A.4.2.2.11, A.3.3.2.5, A.4.3.2.5, A.3.3.2.6, A.4.3.2.6, A.3.3.2.7, A.4.3.2.7. FAA Doc: 14CFR references: 33.65, 33.73 (stability), 33.5 (distortion)",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.2.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that positive stability margin exists at all flight conditions or that placards are documented in the flight manual.",
       "text": "Verify that positive stability margin exists at all flight conditions or that placards are documented in the flight manual. DoD/MIL Doc: JSSG-2007A: A.3.2.2.6, A.4.2.2.6, A.3.2.2.11, A.4.2.2.11, A.3.3.2.5, A.4.3.2.5, A.3.3.2.6, A.4.3.2.6, A.3.3.2.7, A.4.3.2.7 FAA Doc: 14CFR references: 33.65, 33.73 (stability), 33.5 (distortion)",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.2.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Stability margin",
       "text": "Criterion: Verify that positive stability margin exists at all flight conditions or that placards are documented in the flight manual. Standard: Stability audits show positive engine surge margin at conditions that are critical to the safety of the flight vehicle. Evaluation conditions include crosswind takeoff, take-offs on cold days following a rapid reaction start, and extreme maneuvers. Stability audits use the correct installation effects (bleed, horsepower extraction, nozzle suppression, and inlet recovery, distortion, and swirl), and consider all destabilizing effects, such as: engine deterioration, non-standard day effects, steam ingestion, armament gas ingestion, liquid water ingestion, and transient response. When operator actions are used to mitigate risk of engine stalls, the flight manual includes proper operator instructions, placards, warnings or cautions. Method of Compliance: Verification methods include analysis, test and review of documentation. Verification of the stability audits follows guidelines outlined in SAE ARP1420 and SAE AIR1419. The audits are based on data from numerous rigs and engines throughout the development program. Rig and/or engine tests are conducted to measure fan and compressor stall lines. A stability methodology is developed by testing fan/compressor sensitivity to distortion and other destabilizing influences. Inlet model tests are conducted to quantify the levels of performance, distortion, and inlet stability. Analysis is conducted via a validated stability audit which combines the above factors. References: JSSG-2007: A.3.2.2.6, A.4.2.2.6; A.3.2.2.11, A.4.2.2.11; A.3.3.2.5, A.4.3.2.5; A.3.3.2.6, A.4.3.2.6; A.3.3.2.7, A.4.3.2.7; A.4.11.1.2 (Altitude test); Table XLIXa. SAE ARP1420 SAE AIR1419 14 CFR 33.65, 33.73 (stability); 33.78 and 33.5 (distortion)",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Stability margin",
       "text": "Standard: Deterministic stability assessment, considering all destabilizing effects, shows positive engine stall margin at all flight conditions. Stability assessment follows guidelines outlined in, SAE AIR1419, SAE AIR5686, SAE AIR5866,SAE AIR5867, SAE ARP1420, and SAE ARP6420. To have a closed stability margin assessment, stability margin is evaluated using the same control schedules as used in the evaluation of 7.2.4 and 7.4.3. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis is conducted via a validated stability assessment. Test.\n  (1) Lab test: Compressor (e.g., fan, low pressure compressor, high pressure compressor) rig and ground-based sea level and altitude cell engine tests to measure stall lines.\n  (2) Lab test: Compressor (e.g., fan, low pressure compressor, high pressure compressor) rig and ground-based sea level and altitude cell engine tests to verify sensitivities to inlet flow distortion and other destabilizing influences.\n  (3) Lab test: Inlet model wind tunnel testing to verify the inlet performance, inlet flow distortion, and stability. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (4) Flight test: In-flight testing to verify the inlet performance, distortion, and stability.",
       "source_url": "https://assist.dla.mil",

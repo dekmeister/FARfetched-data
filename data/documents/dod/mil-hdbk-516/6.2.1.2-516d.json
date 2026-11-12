@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.2-516d",
   "number": "6.2.1.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Failure immunity",
   "subject_group": "6.2.1 Failure response and probability of loss of control",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Failure immunity",
       "text": "Standard: Within the RORH, no single failure or failure combination in the VCF or integrated subsystems, that is more probable than PLOC divided by 10, results in any of the following effects before flight crew or safety device can take effective corrective action: a. Flutter, divergence, or other aero-elastic instabilities within the RORH of the air vehicle, or a structural damping coefficient for any critical flutter mode below the fail-safe stability limit of MIL-A-8870. b. Uncontrollable motions of the air vehicle or maneuvers which exceed airframe limit loads. c. Exceedance of the RORH or inability to return to the ROTH. d. Vehicle control function failures that could cause loss of total thrust. e. Erroneous and misleading air vehicle airspeed, altitude, attitude, AOA, or AOS information displayed to the flight crew that could result in incorrect flight crew inputs to the VCF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) The FMECA\u2019s, FTA\u2019s or RBD\u2019s, and safety analysis are reviewed to determine the set of failures that will be analyzed for air vehicle transient response and post failure performance assessment to demonstrate the absence of behaviors a-e.\n(2) Analysis of air vehicle transient response and post failure performance demonstrates the absence of behaviors a-f for failures across the envelope.\n(3) Analysis of air vehicle transient response and post failure performance used to determine critical failures and corresponding flight conditions (e.g., air vehicle configuration, flight envelope, mode transitions) to be included in FMET. Test.\n  (1) Lab test: Failure modes and effects testing test cases developed representing critical failures and corresponding conditions.\n  (2) Lab test: Failure modes and effects testing test results, with pilot comments where required, confirm absence of behaviors a-e.",
       "source_url": "https://assist.dla.mil",

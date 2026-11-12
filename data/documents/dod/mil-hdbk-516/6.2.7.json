@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.7",
   "number": "6.2.7",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Hardware endurance",
   "subject_group": "6.2 Vehicle control function",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Hardware endurance",
       "text": "Standard: Vehicle control function components are designed and tested according to the expected operational requirements. The operational requirements are based on MPs that determine the duty cycles expected for the life of the air vehicle. Vehicle control function components meet or exceed the expected life duty cycles without degrading below minimum specified performance. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review expected operational MPs. Analysis.\n  (1) Determine duty cycles based on the operational MPs.\n  (2) Document duty cycles expected in the life of the air vehicle.\n  (3) Analyze VCF components for durability for the life of the air vehicle.\n  (4) Perform damage tolerance analysis on all single point failures. If damage tolerance analysis is not practical due to material properties, high durability design approach (4 lives) may be substituted. Test.\n    (1) Lab test: At least 25% of single life duty cycles are successfully completed prior to first flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Lab test: For designs supported by damage tolerance analysis, design is verified by successful completion of a single life endurance test. Otherwise, the design is verified by successful test completion of 2X the endurance life limit. Successful completion entails no degradation of performance or wear exceeding wear tolerances.",
       "source_url": "https://assist.dla.mil",

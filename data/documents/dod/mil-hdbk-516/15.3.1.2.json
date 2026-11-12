@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.3.1.2",
   "number": "15.3.2",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Separation of safety-critical electronic hardware components",
   "subject_group": "15.3 Hardware elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.3.1.2",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items.",
       "text": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items. (This includes items such as processors, memory, internal/external buses, input/output (I/O) management, internal/external power supplies, circuit cards, motherboards, etc.) If not separated, verify that non-safety-critical elements are treated as safety-critical items.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.3.1.2",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items.",
       "text": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items. (This includes items such as processors, memory, internal/external buses, input/output (I/O) management, internal/external power supplies, circuit cards, motherboards, etc.) If not separated, verify that non-safety-critical elements are treated as safety-critical items. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.1; JSSG-2008 Appendix A: para 3.3.1 lessons learned addresses systems partitioning. Para 3.1.7.3 addresses isolation of less critical elements to prevent their failure from impacting critical functions. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.3.1.2",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items.",
       "text": "Verify that all safety/flight-critical electronic components are physically and functionally separated from non-safety-critical items. (This includes items such as processors, memory, internal/external buses, input/output (I/O) management, internal/external power supplies, circuit cards, motherboards, etc.) If not separated, verify that non-safety-critical elements are treated as safety-critical items. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.1 JSSG-2008 Appendix A: 3.3.1 lessons learned addresses systems partitioning; 3.1.7.3 addresses isolation of less critical elements to prevent their failure from impacting critical functions FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Separation of safety critical hardware components",
       "text": "Criterion: Verify that all safety critical electronic components are physically and functionally separated from non-safety critical items. If not separated, verify that the non-safety critical items are developed and qualified to the same CSIL as the safety critical components/SSHEs with which they are integrated. Standard: All SSHE components are designed, developed, integrated and tested to appropriate CSILs. Electronic hardware of SSHEs is physically separate from non-safety critical electronic components. Non-safety critical electronic components that are integrated with the electronic hardware of an SSHE are designed, developed, integrated and tested to the CSIL of the SSHE. Method of Compliance: Verification methods include analysis, test, and inspection. Verify through inspection of hardware design documentation that safety critical electronic components of SSHEs and non-safety critical electronic components are identified/documented. Analysis, test, and inspection of design documentation verify that the SSHE components are physically and functionally separated from non-safety critical components. Verify through inspection of documentation identifying CSIL designations for hardware that non-safety critical electronic components, which are integrated with the electronic hardware of an SSHE, are designed, developed, integrated and tested to the CSIL of the SSHE. Analyses (e.g., FMECA) and tests (e.g., FMET) verify that non-safety critical components do not affect the safe operation of SCFs. References: JSSG-2008 Appendix A: 3.3.1 lessons learned addresses systems partitioning; 3.1.7.3 addresses isolation of less critical elements to prevent their failure from affecting critical functions RTCA DO-254: 2.3.1; 2.3.2; 3.1 FAA AC 20-152",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Separation of safety-critical electronic hardware components",
       "text": "Standard: 1. Verify that all safety-critical electronic hardware components are physically and functionally separated from non-safety-critical electronic hardware components. If not separated, verify that the non-safety-critical electronic hardware components are developed and qualified to the same CSIL as the HESS with which they are integrated. All safety-critical electronic hardware components are designed, developed, integrated, and tested to appropriate CSILs. Electronic hardware components of HESSs are physically and functionally separate from non-safety-critical electronic hardware components. Non-safety-critical electronic hardware components that are integrated with the electronic hardware of a HESS are designed, developed, integrated, and tested to the CSIL of the HESS. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination. Verify through examination of hardware design documentation that safety-critical electronic hardware components of HESSs and non-safety-critical electronic hardware components are identified and documented. Analysis, test, and examination of design documentation verify that the safety-critical electronic hardware components are physically and functionally separated from non-safety-critical electronic hardware components. Verify through examination of documentation identifying CSIL designations for hardware that non-safety-critical electronic hardware components, which are integrated with the electronic hardware of a HESS, are designed, developed, integrated, and tested to the CSIL of the HESS. Analyses (e.g., FMECA) and tests (e.g., FMET) verify that non-safety-critical electronic hardware components do not adversely impact the integrity of SCF operation.",
       "source_url": "https://assist.dla.mil",

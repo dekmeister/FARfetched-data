@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "12.1.10",
   "number": "12.1.9",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Power system fault detection and notification",
   "subject_group": "12.1 Electrical power generation system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "12.1.10",
-      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical Power System",
       "title_at_revision": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state.",
       "text": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "12.1.10",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state.",
       "text": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state. DoD/MIL Doc: For guidance/principles regarding design with knowledge of the states of aircraft electrical systems: AFGS-87219 MIL-STD-464 JSSG-2009: Appendix H para 3.4.8.4, 3.4.8.5. FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363, 25.1309, 25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "12.1.10",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state.",
       "text": "Verify that the system powers up in a safe state and, upon loss of power or power transient/fluctuation, the system remains in a known safe state or reverts to a known safe state. DoD/MIL Doc: For guidance/principles regarding design with knowledge of the states of aircraft electrical systems: AFGS-87219 MIL-STD-464 JSSG-2009: Appendix H 3.4.8.4, 3.4.8.5 FAA Doc: 14CFR references: 23.1351-23.1367; 25.1351-25.1363, 25.1309, 25.1529",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Start and reversion to safe state",
       "text": "Criterion: Verify that the system powers up in a safe state and upon loss of power or power transient/fluctuation the system remains in a known safe state or reverts to a known safe state. Standard: Verify that the electrical system will provide appropriate power-on, initiated, and continuous built-in-test (BIT), fault detection, indication, isolation capability, and fault alarm rates. Verify the power recovery capability of the electrical system in accordance with MIL-STD- 704. When applicable, software and BIT contained within the electrical system provide the capability to ascertain the operational readiness of the electrical system and to accomplish appropriate failure detection and failure isolation. Provisions include fault protection/trip coordination, source protection, bus isolation, fault trip coordination, reset, shut down, and restart. Method of Compliance: Verification methods include analysis, test, and inspection of documentation. Analysis of design and inspection of FMECA, system hazard analysis, and subsystem hazard analysis verify that the system will operate properly. System level tests performed under normal and adverse conditions verify proper system response. References: For guidance/principles regarding design with knowledge of the states of aircraft electrical systems: JSSG-2009: H.3.4.8.4, H.3.4.8.5. MIL-STD-464 MIL-HDBK-704 MIL-STD-704 MIL-HDBK-2084 AFGS-87219 14 CFR 23.1351-23.1367; 25.1351-25.1363, 25.1309, 25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Power system fault detection and notification",
       "text": "Standard: The electrical system, of the air system, will provide appropriate power-on, initiated, and continuous BIT, fault detection, indication, and fault alarm rates. Status and failure indication for each applicable power source is provided to crewmembers. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Design documentation identifies BIT, fault detection, indication, and fault alarm rates.\n(2) The FMECA verifies that fault detection and isolation is included within system design, and indication of the system operation is provided to the crewmembers. Test.\n  (1) Lab test: Electrical system tests, using production or production representative power system components, verifies appropriate power-on, initiated, and continuous BIT, electrical power generation system faults are detected, and system status is indicated to the crewmembers.\n  (2) Ground test: Air vehicle ground testing substantiates the operation of the EPS BIT.",
       "source_url": "https://assist.dla.mil",

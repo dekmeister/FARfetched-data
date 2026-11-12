@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.4.2.2",
   "number": "7.2.4.1.5",
-  "current_grouping": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+  "current_grouping": "Section 7 \u2014 Propulsion and Propulsion Installations",
   "canonical_title": "Failure criticality",
   "subject_group": "7.2.4.1 Subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "7.4.2.2",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the engine control system failures do not cause unexpected engine transients, unacceptable controllability, stability, handling qualities, or require any urgent or excessive pilot action.",
       "text": "Verify that the engine control system failures do not cause unexpected engine transients, unacceptable controllability, stability, handling qualities, or require any urgent or excessive pilot action.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine control system failures do not cause unexpected engine transients; or result in unacceptable controllability, stability, or handling qualities; or require any urgent or excessive pilot action.",
       "text": "Verify that the engine control system failures do not cause unexpected engine transients; or result in unacceptable controllability, stability, or handling qualities; or require any urgent or excessive pilot action. DoD/MIL Doc: JSSG-2007A: para A.3.7.2, A.4.7.2, A.3.7.6, A.4.7.6. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -30,7 +30,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine control system failures do not cause unexpected engine transients; or result in unacceptable controllability, stability, or handling qualities; or require any urgent or excessive pilot action.",
       "text": "Verify that the engine control system failures do not cause unexpected engine transients; or result in unacceptable controllability, stability, or handling qualities; or require any urgent or excessive pilot action. DoD/MIL Doc: JSSG-2007A: A.3.7.2, A.4.7.2, A.3.7.6, A.4.7.6 FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -40,7 +40,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Failure criticality",
       "text": "Criterion: Verify that engine control system failures and accommodations do not cause unacceptable controllability, stability, or handling quality effects; or require urgent or excessive pilot/operator action. Standard: Engine responses to control system failures do not unacceptably distract or increase the workload of the pilot/operator or affect continued safe operation of the air vehicle. Critical failures that could affect continued safe operation of the air vehicle are recorded (e.g., engine health monitoring (EHM), engine monitoring system (EMS)) and the pilot/operator is notified via alarms or warnings. Non-critical failures are recorded and are available to the pilot/operator and maintenance personnel when the system is queried. Method of Compliance: Verification methods include analysis, test, and review of documentation. A Failure Modes, Effects and Criticality Analysis (FMECA) of the control system details all known potential failure modes, their associated probabilities and an analysis of engine effects. Closed loop bench and fault injection testing ensures that the control system correctly identifies and accommodates all known critical failures and that the appropriate level of information is provided to the pilot/operator and maintenance personnel. During engine sea level and altitude testing, faults are injected into the control system and the engine responds within specification limits. Flight testing for degraded engine control modes (e.g., reversionary, backup) verifies acceptable handling qualities. References: JSSG-2007: A.3.7.2, A.4.7.2; A.3.7.6, A.4.7.6. 14 CFR 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -50,7 +50,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Failure criticality",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

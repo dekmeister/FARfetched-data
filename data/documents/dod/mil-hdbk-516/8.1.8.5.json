@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.1.8.5",
   "number": "8.1.8.5",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Pump head pressure",
   "subject_group": "8.1.8 Hydraulic and pneumatic pressure",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Pump head pressure",
       "text": "Standard: Minimum head pressures are maintained for all hydraulic system pumps during normal, backup, and emergency operation to prevent pump cavitation across the design envelope of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of pump inlet pressure to verify that minimum head pressure is supplied to pump(s) across the design envelope of the air vehicle. Test.\n  (1) Lab test: Conduct HITL (e.g., iron bird) testing of pump(s) inlet pressure to verify that minimum head pressure is supplied to pump(s) while operating multiple systems simultaneously.\n  (2) Ground test: Conduct on air vehicle testing of pump(s) inlet pressure to verify that minimum head pressure is supplied to pump(s) while operating multiple systems simultaneously. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct flight testing of pump(s) inlet pressure to verify that minimum head pressure is supplied to pump(s) across the design envelope of the air vehicle.",
       "source_url": "https://assist.dla.mil",

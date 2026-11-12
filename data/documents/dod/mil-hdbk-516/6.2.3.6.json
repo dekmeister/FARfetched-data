@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.6",
   "number": "6.2.17.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Backup",
   "subject_group": "6.2.17 Vehicle control function electrical power systems safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.3.6",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe.",
       "text": "Verify electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.3.6",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe.",
       "text": "Verify that electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe. DoD/MIL Doc: JSSG-2008: para 3.0, 3.1, 3.1.2, 3.1.5.2, 3.1.5.4, 3.1.7.2, 3.1.10, 3.1.11, 3.1.11.11.2, 3.1.13, 3.2.2.2, 3.2.2.2.2, 3.2.2.2.5, 3.3 thru 3.3.4, 3.3.6, 3.3.6.2, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.3.6",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe.",
       "text": "Verify that electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe. DoD/MIL Doc: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.5.2, 3.1.5.4, 3.1.7.2, 3.1.10, 3.1.11, 3.1.11.11.2, 3.1.13, 3.2.2.2, 3.2.2.2.2, 3.2.2.2.5, 3.3 thru 3.3.4, 3.3.6, 3.3.6.2, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.11.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Backup",
       "text": "Criterion: Verify that electrical power normal/backup/emergency capability following loss of engine(s) and generator(s) for VCF is safe. Standard: Electrical power is provided independently to each control channel long enough for an immediate descent and landing following total loss of the engines and generators. If safe landing is not possible, the emergency/backup power is sufficient to steer to an appropriate area for a controlled crash. The minimum safe time of this electrical power capability is 30 minutes if no other time is specified. The time may be longer depending on the application. Method of Compliance: Verification methods include analysis, tests, simulation and review of documentation. Analysis verifies sufficient electrical power for normal and emergency capability. Hardware in the Loop (HITL) testing including FMET verifies the presence of sufficient electrical power for normal/backup/emergency conditions. Hardware in the Loop (HITL) testing including FMET and ground tests verifies normal VCF operation for 30 minutes after total loss of electrical generating capability. References: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.5.2, 3.1.5.4, 3.1.7.2, 3.1.10, 3.1.11, 3.1.11.11.2, 3.1.13, 3.2.2.2, 3.2.2.2.2, 3.2.2.2.5, 3.3 through 3.3.4, 3.3.6, 3.3.6.2, associated section 4 paragraphs. 14 CFR 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Backup",
       "text": "Standard: Following a total loss of engines or generators, electrical power is provided from a source independent from the primary power source with capacity to maintain Operational State IV from anywhere inside the RORH. Critical VCF displays are maintained via the backup power source. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Analysis of the backup power design architecture determines what functions are shed and what functions are retained with backup power.\n(2) Complete an ELA and verify proper coverage of electrical loads with backup electrical power. Test.\n  (1) Lab test: Conduct FMET of the EPS to verify proper transfer of required functions to the backup power source(s) and that backup power can support those required functions.\n  (2) Lab test: Conduct VCF FMET to verify proper response to EPS failures.\n  (3) Lab test: Conduct simulation to verify capacity of the power source meets time to land requirements.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.8.4",
   "number": "8.5.7.14",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Stopping performance",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions.",
       "text": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions.",
       "text": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions. Comm\u2019l Doc: SAE ARP-1070. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid control; and A.3.4.1.11.3.1/A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance; AFGS-87139: para 3.2.3.1 General, 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes; MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.187, 25.45, 25.55, 25.493, & 25.735.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions.",
       "text": "Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions. Comm\u2019l Doc: SAE ARP-1070 DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid control; and A.3.4.1.11.3.1/A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance AFGS-87139: 3.2.3.1 General, 3.2.3.3 Anti-skid brake control and 3.2.4.3 Brakes MIL-B-8584 Design of Brake Systems FAA Doc: 14CFR reference: 23.45, 23.55, 23.493, 23.735, 25.187, 25.45, 25.55, 25.493, & 25.735",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.8.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Safe stopping performance",
       "text": "Criterion: Verify safe stopping performance for all expected runway conditions (dry, wet, snow, ice, etc.) over all mission speed ranges and for all ground maneuvering conditions. Standard: The brake system, in conjunction with the anti-skid system, will safely stop the air vehicle under all expected runway conditions from maximum braking speed to the lowest ground speed compatible with ground handling of the air vehicle system. Method of Compliance: Verification methods include analyses, tests and simulations. Air vehicle performance analysis determines stopping performance capability for all specified operations, speeds and locations. Laboratory testing and simulation that use all system hardware and software as incorporated in the air vehicle and under specified environmental design conditions verify the stopping performance. Air vehicle checkouts verify proper functioning of the brake system, with and without failures, as integrated within the air vehicle control systems. Ground braking tests verify system operation for the specified runway conditions. References: JSSG-2009: A.3.4.1.4.4.3, A.4.4.1.4.4.3 Skid control; A.3.4.1.11.3.1, A.4.4.1.11.3.1 Air vehicle stopping and turn-around performance MIL-B-8584 AFGS-87139: 3.2.3.1 General; 3.2.3.3 Anti-skid brake control; 3.2.4.3 Brakes SAE ARP1070 14 CFR 23.45, 23.55, 23.493, 23.735, 25.187, 25.45, 25.55, 25.493, 25.735",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Stopping performance",
       "text": "Standard: The brake system, in conjunction with the antiskid system, will stop the air vehicle for the required runway length, width and surface conditions (e.g., dry, wet, snow, ice, semi-prepared, unprepared, and mats) from maximum braking speed to the lowest ground speed of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Performance analysis verifies stopping performance capability for all specified operations, speeds, conditions, and locations. Test.\n  (1) Lab test: Conduct dynamometer testing of the brake to determine brake torque characteristics (e.g., effect of temperature and velocity on the values of developed torque, brake torque versus pressure or clamping force, and brake torque hysteresis) for antiskid simulation and HITL testing.\n  (2) Lab test: Conduct laboratory testing on the individual components of the brake control system to develop the characteristics to support the overall simulation of the brake control system.\n  (3) Lab test: As an alternative to Test MoC (4), conduct HITL lab testing, utilizing all brake and antiskid system hardware (e.g., control box) including representative brake line lengths and pressure drops, antiskid software, air vehicle model, landing gear damping model, and wheel speed sensor simulator model, to verify control law state changes which resulted from failure conditions (e.g., loss of wheel speed sensor), ability to adapt to full variety of runway conditions, stopping efficiency, and stopping distance performance under specified environmental design conditions (i.e., coefficient of friction).\n  (4) Lab test: As an alternative to Test MoC (3), conduct simulator or dynamometer testing of the brake, brake control system, and algorithms to verify stopping performance, control law state changes, skid detection, locked wheel protection, and component failure accommodations. Testing covers all aspects in Test MoC (3).\n  (5) Lab test: Conduct SIL test or air vehicle simulation testing to verify the total system integration with flight crew control or autonomous system. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (6) Ground test: Perform on air vehicle ground braking tests to verify the system's stopping distance for different runway conditions, control of air vehicle (cornering, deceleration and directional control), and operations on the specified runway conditions. If air vehicle is to operate on mats, semi-prepared or unprepared surfaces, testing against each required soil type is conducted to verify drag, stopping performance, and runway condition reading values.\n  (7) Flight test: Conduct flight testing on both dry and wet runways to verify the system's stopping distance for different runway conditions, control of air vehicle (cornering, deceleration and directional control), and operations on the specified runway conditions. If air vehicle is to operate on mats, semi-prepared or unprepared surfaces, testing against each required soil type is conducted to verify drag, stopping performance, and runway condition reading values.",
       "source_url": "https://assist.dla.mil",

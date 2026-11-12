@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.10.2",
   "number": "6.1.9.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Carrier catapult launch",
   "subject_group": "6.1.9 Shipboard operations",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.10.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Catapult launch",
       "text": "Criterion: Verify that catapult launch is safe. Standard: The air vehicle meets the standards within MIL-STD-1797, 5.2.6.2 Catapult launch. Standards for UAS shipboard operations are provided by the airworthiness authority. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, design, test, or configuration documentation.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Carrier catapult launch",
       "text": "Standard: The air vehicle is able to maintain control of flight path and attitude during carrier catapult launch. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis of shore-based and shipboard catapult launches to determine the control power, power and engine response, and margin to stall speed needed to maintain control, including 2-D performance analysis for pitch-rate control and sink off bow, 6-DOF simulations for automatic control and trim settings for controls free launches, and gear/catapult release dynamics, for each combination of air vehicle states, control modes, environmental conditions, and ship conditions: catapult type and shipboard location, ship departure patterns, WOD headwind and crosswind conditions from catapult minimum end airspeed to maximum WOD, including carrier airwake and ship motion motion effects, subject to constraints of the catapult's minimum and maximum end speeds. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation of land-based and shipboard catapult launches as specified in SA FTM-01, Launching Tests section for each combination of air vehicle states, control modes, environmental conditions, and ship conditions: catapult type and shipboard location, ship departure patterns, WOD headwind and crosswind conditions from catapult minimum end airspeed to maximum WOD, including carrier airwake and ship motion motion effects, subject to constraints of the catapult's minimum and maximum end speeds. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct shore-based catapult launches as specified in SA FTM-01, Launching Tests section for nominal and critical combinations of air vehicle states, control modes, environmental conditions, and ship conditions: catapult type and shipboard location, ship departure patterns, headwind and crosswind conditions from catapult minimum end airspeed to maximum shore-based WOD equivalent, subject to constraints of the catapult's minimum and maximum end speeds.\n  (3) Flight test: Conduct shipboard catapult launches as specified in SA FTM-01, Launching Tests section for nominal and critical combinations of air vehicle states, control modes, environmental conditions, and ship conditions: catapult type and shipboard location, ship departure patterns, multiple levels of ship motion, WOD magnitudes and directions from catapult minimum end airspeed to maximum WOD and end airspeed, subject to constraints of the catapult's minimum and maximum end speeds.",
       "source_url": "https://assist.dla.mil",

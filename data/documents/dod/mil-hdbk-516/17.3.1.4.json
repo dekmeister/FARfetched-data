@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.3.1.4",
   "number": "17.3.1.4",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Target and fire control data",
   "subject_group": "17.3.1 Safe operating condition",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Target and fire control data",
       "text": "Standard: The acquisition and designation of targets and the fire control systems that provide information to the store cannot induce errors that would result in a flight or safety-critical hazard during store operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis (1) Evaluate targeting system and target data set (e.g., target handover) fidelity and error sources including sensor, sensor boresight, and latency for all operating conditions to verify it does not exceed the design tolerances for store employment. (2) Evaluate the fire control system that provides gun, rocket, and missile cueing for timing, sequencing, accuracy, and errors that may result in loss of control or errant firing that might lead to damage to or recontact with the host air vehicle. Test.\n(1) Lab test: Evaluate the fire control integration and interface data integrity, timing, and error for impact to store IAW JSSSEH, Critical Timing and Interrupt Functions section, and AOP-52, System Integration paragraph. For integrated or remote fire control systems, evaluate the source, controller, data links, and operation for failure modes and verify that the system control can be overridden by crewmembers. Verify the positional reference (e.g., boresight, transfer alignment) and target data set of the fire control sensor and the store to characterize the error, aimpoint, and fly-out behavior to prevent recontact to the air vehicle. Evaluate armament/sensors cueing and slaving as it applies to store aiming. Evaluate sensor fidelity as compared to measured truth data and miss distances.\n(2) Ground test: Verify that the air system provides cueing and control data to enable store operation, targeting and firing solutions (e.g., aiming, control and employ guns, rockets or missiles including the operation, duty cycle, turret and articulating system control), timing and accuracy to ensure that the employment of the store does not present a hazard to the launch air vehicle.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.1.12",
   "number": "15.1.12",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "System processing architecture \u2013 electrical power integration",
   "subject_group": "15.1 System processing architecture",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "System processing architecture \u2013 electrical power integration",
       "text": "Standard: 1. Verify that uninterruptable power capability is designed into SPA ESSs. Verify that the electrical power interface and internal power design of SPA ESSs are able to interface with the quality and quantity provided by the EPS to provide and maintain continuous SCF operation under nominal and off-nominal scenarios for all expected dynamic conditions. The SPA is designed such that the nominal and off-nominal (e.g., shorting conditions, overdraw) operation of elements cannot degrade the EPS (e.g., degradation of power quality) in a way that could adversely impact the integrity of SCF operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, testing, and examination. a. Verify through examination of design documentation the compatibility of the interface design between SPA elements and the EPS and that SPA ESSs have incorporated design features to support uninterruptable power. Verify through examination of design documentation that SPA elements incorporate design features to prevent degradation to the EPS that could adversely impact the integrity of SCF operation. b. Verify through analysis the SPA ESSs can receive and deliver uninterruptable power to enable continuous SCF operation under nominal and off-nominal scenarios for all expected dynamic conditions. Analysis should include identifying SPA load-shedding design, failure mode effects on electrical power design within each ESS, identification of all dynamic conditions each ESS electrical power design is expected to experience, and the ability of ESSs to maintain continuous SCF operation under nominal and off-nominal scenarios under all dynamic conditions. Verify through analysis that SPA element design features prevent degradation to the EPS that could adversely impact the integrity of SCF operation. c. Verify through test the SPA ESSs can receive and deliver uninterruptable power to enable continuous SCF operation under nominal and off-nominal scenarios for all expected dynamic conditions. Verify through test that SPA element design features prevent degradation to the EPS that could adversely impact the integrity of SCF operation.",
       "source_url": "https://assist.dla.mil",

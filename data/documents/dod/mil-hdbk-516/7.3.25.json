@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.3.25",
   "number": "7.3.25",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Foreign object and domestic object damage",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Foreign object and domestic object damage",
       "text": "Standard: The engine is capable of operating for one inspection interval without repair, after ingestion of foreign or domestic objects which produce damage equivalent to a Kt of three. For fan and compressor airfoil leading and trailing edges, and other components that protrude into the flowpath (e.g., sensors, probes, rakes), stresses remain under the 100% Goodman allowable for a Kt=3 equivalent notch or a validated probabilistic analysis verifies a failure rate below 10-7 . Unrepaired FOD/DOD in the root fillet area (e.g., airfoil/rotor interaction zone) of integrally bladed rotors results in airfoil fracture rather than rotor fracture. The engine is capable of controlled shutdown after ingestion of FOD/DOD. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Serviceable and repairable limits for FOD/DOD and inspection intervals are defined in propulsion technical data (e.g., maintenance manuals, service and repair manuals, overhaul manuals). Analysis.\n  (1) High cycle fatigue analysis of airfoil aeromechanical test results, and flowpath component vibratory test results verifies FOD/DOD capability.\n  (2) Analysis verifies crack trajectory of FOD/DOD in the root fillet area (e.g., airfoil/rotor interaction zone) to show compliance.\n  (3) Analysis verifies that the engine can be shut down after ingestion of FOD/DOD. Test.\n    (1) Lab test: Conduct component and rig test with damaged airfoils to determine fatigue sensitivity (e.g., Kf, q) for damage equivalent to Kt=3. Otherwise, notched fatigue properties from standard material specimens are used.",
       "source_url": "https://assist.dla.mil",

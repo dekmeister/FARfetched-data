@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.15",
   "number": "8.6.12",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Failure of lubrication to the airframe mounted accessory drive",
   "subject_group": "8.6 Auxiliary power systems and emergency power systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.15",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure of primary lubrication to the airframe mounted accessory drive (AMAD)",
       "text": "Criterion: Verify that, during a loss of the primary lubrication system, the AMAD gearbox continues to function and transmit the power required for safe flight until appropriate pilot action can be accomplished. Standard: Airframe mounted accessory drive gearbox functions for at least 30 minutes after complete loss of the lubricant from the primary lubrication system and is in a condition such that the AMAD gearbox is still capable of transmitting the required power to maintain safe flight. The operational conditions are such that the loss of lubricant occurs at the most severe power condition and that the air vehicle can transition to cruise and land at the end of the thirty minute period. If an emergency lubrication system is used, any resulting attitude limitations during loss of lubricant operation are defined. Method of Compliance: Two, thirty minute tests are conducted with teardown inspections. The AMAD gearbox lubrication system is starved at the system\u2019s supply side (downstream from the pump) and continues to scavenge. Operation is demonstrated for a thirty minute period at the most severe power condition. Creditable run time starts at the point at which the cockpit low oil pressure warning would be displayed. For non-pressurized AMAD gearboxes, creditable run time starts when the oil being drained from the gearboxes ceases to flow in a steady stream. The AMAD gearbox is configured in an air vehicle attitude simulating the cruise power condition. For a vertical take-off and landing (VTOL) air vehicle, the test spectrum and attitudes are commensurate with expected field use. For AMAD\u2019s that contain a clutch, a thirty minute loss-of-lubrication overrunning test consistent with the loss-of-lubricant test spectrum above demonstrates the ability of continued safe operation.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure of lubrication to the airframe mounted accessory drive",
       "text": "Standard: Airframe mounted accessory drive gearbox can function at the maximum power level for a minimum of 30 minutes with complete loss of lubricant from the lubrication system and is in a condition that the AMAD gearbox is still capable of transmitting the required power to maintain SOF. The operational conditions are such that the loss of lubricant occurs at the most severe power condition and that the air vehicle can transition to cruise and land at the end of the 30-minute period. If an emergency lubrication system is used, any resulting attitude limitations during loss of lubricant operation are defined. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Conduct two separate 30-minute lab tests on two AMAD gearboxes with the lubrication system starved at the system\u2019s supply side (downstream from the pump), continuing to scavenge, and at the most severe power condition to verify that the AMADs are still able to function and transfer power to meet interfacing system demands for maintaining SOF. The AMADs are not required to be in a serviceable condition after each test. Creditable run time starts at the point at which the cockpit low oil pressure warning would be displayed. For non-pressurized AMAD gearboxes, creditable run time starts when the oil being drained from the gearboxes ceases to flow in a steady stream. The AMAD gearbox is configured in an air vehicle attitude simulating the cruise power condition. For a VTOL air vehicle, the test spectrum and attitudes are commensurate with expected field use. For AMAD\u2019s that contain a clutch, a 30-minute loss-of-lubrication overrunning test consistent with the loss-of-lubricant test spectrum above demonstrates the ability of continued operation.",
       "source_url": "https://assist.dla.mil",

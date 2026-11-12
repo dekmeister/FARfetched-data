@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.32",
   "number": "8.7.27",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "No binding or jamming of flight-critical mechanisms",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.32",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "No binding or jamming of flight critical mechanisms",
       "text": "Criterion: Verify that all safety of flight critical mechanisms do not cause binding or jamming with surrounding structure or any portion for the system under any combination of temperature effects, air loads, landing loads, structural deflections, tire condition, landing gear condition, buildup of manufacturing tolerances or wear. Standard: Sufficient clearance is maintained to prevent jamming of mechanisms with surrounding structure and system. The following minimum clearances are used after all combined adverse effects are accounted for: \u00bc-inch between elements which move in relation to each other and which are connected to or are guided by different structural or equipment elements. \u00bd-inch between elements and aircraft structure and equipment to which the elements are not attached. Method of Compliance: The design is verified by analysis to show that the minimum clearance in worst-case conditions is not exceeded. Static clearances are verified through inspection and evaluation of installation mock-ups and the air vehicle. Dynamic operation critical clearances are actively monitored during endurance testing and are verified during ground and flight demonstrations. References: JSSG-2009: B.3.4.2.1.17, B.4.4.2.1.17 SAE AS94900: 3.6.2.11",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "No binding or jamming of flight-critical mechanisms",
       "text": "Standard: All SOF critical mechanisms do not cause binding or jamming with surrounding structure or any portion for the system under any combination of temperature effects, air loads, landing loads, structural deflections, tire condition, landing gear condition, buildup of manufacturing tolerances or wear. Sufficient clearance is maintained to prevent jamming of mechanisms with surrounding structure and system. The following minimum clearances are used after all combined adverse effects are accounted for: a. 0.25-inch between elements which move in relation to each other, and which are connected to or are guided by different structural or equipment elements. b. 0.50-inch between elements and air vehicle structure and equipment to which the elements are not attached. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct an analysis to show that the minimum clearance in worst-case conditions is not exceeded. Test.\n  (1) Lab test: Conduct ground testing to verify critical clearances are actively monitored during endurance testing and maintained. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight testing to verify critical clearances are actively monitored and maintained.",
       "source_url": "https://assist.dla.mil",

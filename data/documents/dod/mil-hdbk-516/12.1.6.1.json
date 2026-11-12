@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "12.1.6.1",
   "number": "12.1.6.1",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Lithium battery safety",
   "subject_group": "12.1.6 Battery operation and installation",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Lithium batteries",
       "text": "Criterion: Verify that, if Lithium batteries are employed, the batteries safely operate when supplied MIL-STD-704 power. Verify that adequate charging methods and checks are provided and installation provisions for the batteries are safe. Standard: a. Safe battery cell temperatures and pressures are maintained during any probable charging and discharging conditions and under the most adverse cooling conditions likely to occur in service. b. No explosive or toxic gases emitted by any battery in normal operation, or as the result of any probable malfunction in the battery subsystem, accumulate in hazardous quantities within the aircraft. c. Any corrosive fluids or gases which escape from the battery do not damage surrounding structures or adjacent essential equipment. d. Each battery installation has provisions to prevent any hazardous effect on structure or essential systems caused by the maximum amount of heat the battery can generate during a short circuit of the battery or of its individual cells. e. Battery charging systems are designed to automatically control the charging rate of the battery in order to prevent overheating. f. Lithium battery (both rechargeable and non-rechargeable) safety requirements are defined in NAVSEA TM-S9310-AQ-SAF-010. g. Lithium batteries, with or without embedded electronics, are not connected to the aircraft electrical power by any means, charged or recharged using aircraft electrical power, unless they have been tested and passed the requirements of MIL-STD-704 in accordance with test procedures of MIL-HDBK-704. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection. a. Bench and aircraft level testing verifies battery cell temperatures and pressures. b. Analysis and test verify that means exist to remove or safely contain any gases. c. Analysis, test and inspection verify that means exist to contain any fluids. d. Analysis and test verify that the design precludes damage from possible battery overheating. e. Analysis and subsystem tests verify proper operation of battery equipment/charger(s). f. Analysis, test and inspection verify proper operation of battery equipment/charger(s) and embedded electronics. g. Analysis and test verify safe application of the lithium batteries in every application. For Navy only, Naval Ordnance Safety Security Activity (NOSSA) approval is required for all lithium batteries. References: For guidance/principles regarding/affecting the integrated design and operation of battery subsystems within aircraft electrical systems: JSSG-2009: H.6.3.2 AFGS-87219 NAVSEA TM-S9310-AQ-SAF-010 14 CFR 23.1351-23.1367; 25.1351-25.1363.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Lithium battery safety",
       "text": "Standard: Lithium batteries meet safety requirements IAW NAVSEA TM-S9310-AQ-SAF-010, Lithium Battery System Design paragraphs, and Safety Assessment Testing paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) For batteries where a previous certification letter has been issued IAW NAVSEA S9310-AQ- SAF-010, a similarity analysis verifies the battery is compliant if it is used in the same device and environment.\n(2) For batteries that meet the conditions of NAVSEA TM-S9310-AQ-SAF-010, Exceptions to Testing, Review, and Certification Requirements paragraphs, a battery safety analysis verifies that the conditions are adhered to. Test.\n  (1) Lab test: Test data results, provided from an end item safety test IAW NAVSEA TM-S9310- AQ-SAF-010, Safety Assessment Testing, are assessed against the criteria within NAVSEA TM- S9310-AQ-SAF-010, Passing Criteria Consideration to determine battery safety compliance.",
       "source_url": "https://assist.dla.mil",

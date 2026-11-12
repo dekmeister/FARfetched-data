@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.17",
   "number": "8.8.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Drive system design",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.17",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Drive system design",
       "text": "Criterion: Verify that the drive system design is capable of operating beyond its maximum rated torque and speed conditions for those instances where excursions may occur such as autorotation, defined transients and other emergency conditions as required in the air vehicle specification. Standard: The power drive system is of a robust design capable of operating beyond its maximum rated condition for those instances where excursions may occur such as autorotation, other emergency conditions and defined transients. Excursion capabilities are defined as: a. An applied torque of at least 20 percent greater than the system input maximum continuous rating without degradation of component performance or life. b. An output shaft speed of at least 20 percent greater than the maximum operating speed of the power absorber without degradation of component performance or life. Transient capability of the power drive system is defined by the system specification for the air vehicle. The rating is based on the durability, dynamic response and structural integrity requirements specified. Method of Compliance: Verification methods include analysis, test and review of documentation. Verification is performed incrementally by analysis and a series of bench and system level tests, to ensure structural integrity, endurance, performance, and capability to withstand all specified transient excursions, operational and environmental conditions, including emergency conditions and autorotation. References: JSSG-2009: K.3.4.11 ADS-50-PRF",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Drive system design",
       "text": "Standard: The rotary-wing drive system (housings, gears, bearings, shafts, couplings, and clutches) supports the power, torque, and strength for operation throughout the designed flight envelope. The strength margins of the drive system components include application of appropriate limit and ultimate LFs as specified in the air vehicle specification. The rotary-wing drive subsystem is of a robust design capable of operating beyond its maximum rated condition for those instances where excursions may occur such as autorotation, other emergency conditions, and defined transients. Excursion capabilities are defined as: a. An applied torque of at least 20% greater than the system input maximum continuous rating without degradation of the component's performance or life. b. An output shaft speed of at least 20% greater than the maximum operating speed of the power absorber without degradation of transmission system, component performance, or life. Transient capability of the power drive system is defined IAW 8.8.1. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, design data records, inspection reports, ICD, test reports, or other substantiating records and reports) to verify that maximum torque and speed limitations are defined IAW 8.8.1. Analysis.\n  (1) Conduct loads analysis to verify the expected levels of power produced by the rotary-wing air vehicle and its associated components and systems.\n  (2) Conduct stress analysis based on the loads developed in Analysis MoC (1) to verify the rotary-wing drive system has positive strength margins of safety to meet the maximum rated torque, speed, and excursion capabilities. Test.\n    (1) Lab test: Conduct component-level testing on shafts to verify the structural integrity, performance, and capability to run at speeds and torques which are at least 20% greater than the system input maximum continuous rating.\n    (2) Lab test: Conduct bench testing to verify the structural integrity, performance, and capability of the drive system to run at speeds and torques which are at least 20% greater than the system input maximum continuous rating.\n    (3) Ground test: Conduct ground test to verify the structural integrity, performance, and capability of the drive system to run at speeds and torques which are at least 20% greater than the system input maximum continuous rating.",
       "source_url": "https://assist.dla.mil",

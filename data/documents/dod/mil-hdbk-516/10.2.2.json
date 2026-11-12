@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "10.2.2",
   "number": "10.2.1.1",
-  "current_grouping": "10. DIAGNOSTICS SYSTEMS",
+  "current_grouping": "Section 10 \u2014 Diagnostics Systems",
   "canonical_title": "Critical parameter calibration",
   "subject_group": "10.2.1 Safety of flight parameters",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "10.2.2",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined.",
       "text": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "10.2.2",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined.",
       "text": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined. DoD/MIL Doc: JSSG-2000: para 3.3.2 JSSG-2001: para 3.3.7, 3.3.7.1 FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "10.2.2",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined.",
       "text": "Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined. DoD/MIL Doc: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7, 3.3.7.1 FAA Doc: 14CFR references: 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Critical parameter calibration",
       "text": "Criterion: Verify that critical parameter values can be measured within the established tolerances and that operation and calibration procedures are defined. Standard: Critical parameters that need to be detected and measured by diagnostics have tolerances, accuracy and test accuracy ratio (TAR) defined. The calibration of the diagnostic sensors is specified with traceability to the National Institute of Standards and Test (NIST). Operation procedures are defined in operators and maintenance manuals. Method of Compliance: The tolerances, accuracy and TAR of the critical parameters are verified by analysis and test. The calibration of the diagnostic sensors is verified by a Calibration Measurement Requirements Summary (CMRS) which shows traceability to NIST standards. All manuals have undergone quality assurance review by the contractor, and final versions of the manuals have been verified by the Government. References: JSSG-2000: 3.3.2 JSSG-2001: 3.3.7, 3.3.7.1 14 CFR 23.1301, 23.1309, 23.1351, 25.1301, 25.1309, 25.1351",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "10. DIAGNOSTICS SYSTEMS",
+      "grouping_at_time": "Section 10 \u2014 Diagnostics Systems",
       "title_at_revision": "Critical parameter calibration",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

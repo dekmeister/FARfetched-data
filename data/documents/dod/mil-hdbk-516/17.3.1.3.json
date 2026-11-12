@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.3.1.3",
   "number": "17.3.1.3",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Inhibits, limits, and interrupts",
   "subject_group": "17.3.1 Safe operating condition",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Inhibits, limits, and interrupts",
       "text": "Standard: For store limits implemented via software (e.g., WILIs), the air system cannot release or launch stores, fire guns, or operate pods outside of those limits. Examples include maintaining minimum release intervals for salvos or ripple release programs or withholding release outside of a safe operating condition (e.g., exceeding maximum airspeed, below minimum release altitude). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Identify conditions where stores engagement criteria and air vehicle limit exceedances exist within the entire flight envelope. For limitations implemented via software control as an inhibit or interrupt, examine the design criteria for SMSs to verify that the limit has been successfully implemented. This includes examining the design to ensure that the system can detect the conditions that would trigger the inhibit or interrupt. Analysis.\n  (1) Perform a WILI analysis IAW ADS-44-HDBK, Weapon Inhibits, Limits and Interrupts (WILI) Analysis paragraph, to define the parameters, safety constraints, and software/firmware necessary to limit or prevent firing of guns, release or launch of weapons, and operation of pods under conditions that present an AW hazard to the air vehicle. If software/firmware WILIs are not implemented (i.e. no software inhibits or interrupts), ensure procedural indications (e.g., warnings, cautions, notes) and limits are identified during the WILI analysis. Test.\n    (1) Lab test: Verify the stores management defined store operating limits and inhibit zones (e.g., radar masking) prevent store operations outside of SMS controlled limits.\n    (2) Ground test: Verify that software controlled inhibits and interrupts prevent the operation, employment, and separation (e.g., release, jettison) of stores when air vehicle or store limits and constraints are exceeded. Verify that SMS controlled keep-out zones accommodate air vehicle OML and all potential peripheral configurations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Lab test, ground test, or flight test: Verify software controlled inhibits and interrupts prevent store operations outside of defined limits. Testing includes captive carriage (e.g., simulated stores, captive flight trainers, and inert ordnance) and may include employment of stores.",
       "source_url": "https://assist.dla.mil",

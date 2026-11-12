@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.8.2",
   "number": "7.4.2",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Isolation of subsystems",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.8.2",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that when required, multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause.",
       "text": "Verify that when required, multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.4.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause.",
       "text": "Verify that multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause. DoD/MIL Doc: JSSG-2007A: para A.3.7.2/A.4.7.2, control systems guidance.. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.4.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause.",
       "text": "Verify that multiple propulsion subsystems are physically, systemically, and operationally isolated from each other to prevent the failure of more than one propulsion subsystem due to any single or common cause. DoD/MIL Doc: JSSG-2007A: A.3.7.2/A.4.7.2, control systems guidance.. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.4.1.2",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Isolation of subsystems",
       "text": "Criterion: Verify that an engine\u2019s subsystems are isolated from each other to prevent cascading failures. Standard: Controls and subsystem components are physically isolated or protected to minimize collateral or secondary damage in the event of failure. Controls and subsystems are systemically and operationally isolated to avoid possible cascading failures due to any single or common cause. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Inspection of design review and test data, drawings and installed hardware provide information to evaluate adequate physical isolation of engine subsystem components. Mock-ups can be used if they adequately represent fielded systems. For example, a common mode multiple signal failure test evaluates simultaneous signal failures due to a common cause. A Failure Modes, Effects and Criticality Analysis (FMECA) details all known potential failure modes and their associated probabilities. The FMECA is used to conduct a system analysis of engine effects resulting from propulsion system failures. References: JSSG-2007: A.3.7.2, A.4.7.2 Control systems guidance 14 CFR 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Isolation of subsystems",
       "text": "Standard: Engine controls and subsystems are physically and functionally isolated to avoid cascading failures due to any single or common cause. Method of Compliance: Prior to entering operational test/operations, verify the standard by the above and following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions, installed hardware, materials and manufacturing records, design data records, inspection reports, photographs, FMECA, or other substantiating records and reports) to verify both the physical and functional isolation.",
       "source_url": "https://assist.dla.mil",

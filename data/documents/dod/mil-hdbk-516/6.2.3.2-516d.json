@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.2-516d",
   "number": "6.2.3.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Physical architecture",
   "subject_group": "6.2.3 Vehicle control function architecture",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Physical architecture",
       "text": "Standard: The physical VCF architecture and design, including integration with supporting subsystems, provides the physical redundancy and separation to prevent CMFs or propagation of a failure of one portion of the system to another. The physical architecture meets the PLOC, failure immunity, fail-safe, and VCF safety-critical requirements established for the air vehicle. Separation and isolation between critical and non-critical systems prevent propagation of failures from non-critical systems to the VCF. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Vehicle control function design and installation drawings demonstrate physical redundancy and separation of component and signal routing to avoid failure propagation.\n(2) Vehicle control function design and installation drawings demonstrate redundant VCF wiring is routed with isolation between redundant components and signals IAW SAE AS94900A (if the air vehicle is a UAV, SAE ARP94910), Isolation and Protection of Redundant Electrical Circuits section.\n(3) Interface control documents and installation drawings verify physical separation between critical and non-critical systems to protect VCF hardware.",
       "source_url": "https://assist.dla.mil",

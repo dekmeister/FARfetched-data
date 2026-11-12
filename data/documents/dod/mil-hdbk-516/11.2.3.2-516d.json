@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.2.3.2-516d",
   "number": "11.2.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Non-critical failures impacting safety-critical functions",
   "subject_group": "11.2.3 Installation and integration",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Non-critical failures impacting safety-critical functions",
       "text": "Standard: Non-safety-critical modifications, failures of non-safety-critical equipment, and test instrumentation do not result in the loss or degradation of SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review design artifacts, SCFTA, and FMECA to identify failures with non-safety-critical equipment that may impact SCFs.\n(2) Review test instrumentation documentation, system design, and interface specifications to ensure test instrumentation does not adversely affect the air vehicle. Test.\n  (1) Lab test: Conduct FMET and regression tests to verify failures produce expected behaviors and non-safety-critical failures do not adversely impact SCFs.\n  (2) Ground test: Perform air vehicle flight regression testing of the modification to verify the performance of SCFs. Flight test results demonstrate non-SCFs and test instrumentation do not impact performance of SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Perform air vehicle flight regression testing to verify the performance of SCFs. Flight test results demonstrate non-SCFs, and any test instrumentation do not impact performance of SCFs.",
       "source_url": "https://assist.dla.mil",

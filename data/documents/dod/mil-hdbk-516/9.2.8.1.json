@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.2.8.1",
   "number": "9.2.8.1",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Crewmember alerting system functionality",
   "subject_group": "9.2.8 Crewmember alerting systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Crewmember alerting system functionality",
       "text": "Standard: The crewmember alerting system provides the crewmembers with information of all events, conditions, and situations which could present a hazard to the occupants, cause damage to the air vehicle, or allow for the identification of non-normal operation or system conditions and the determination of the appropriate actions to take. Crewmember alerting system prioritization is IAW with MIL-STD-411, Message Presentation paragraphs and MIL-STD-411, Message Format paragraphs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Provide a WCA Matrix or alerting philosophy that outlines alert definitions, impacts to operations, cascading and inhibited alerts, autonomous air vehicle actions, priority rationale, and expected crewmember responses.\n(2) For UAS, describe any external vehicle status lighting signals tied to WCAs.\n(3) Conduct a FMECA to provide data on subsystems failures and failure reporting processes to the crewmembers. Demonstration.\n  (1) For UAS, conduct a ground demonstration to verify that any external vehicle lighting signals tied to WCAs perform as designed. Test.\n    (1) Lab test: Conduct iterative build-up of hardware and software testing (e.g., FMET, software verification testing, and FQT) from unit up to system level to verify that crewmember alerting system reports subsystem failures or states and the correct visual and aural annunciations occur. This testing should verify cascading alerts.\n    (2) Lab test: Conduct a lab test to verify the crewmember alerting system prioritization is IAW MIL-STD-411, Message Presentation paragraphs and MIL-STD-411, Message Format paragraphs. Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n    (3) Ground test: Review ground test results to verify the functionality of the crewmember alerting system.\n    (4) Flight test: Review flight test results to verify the functionality of the crewmember alerting system.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1709",
   "number": "U1709",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "Voice recorders",
   "subject_group": "GENERAL",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "Voice recorders",
       "text": "See AMC.1709 and AMC.1709 (e)\n(a) The UCS must be equipped with a voice recorder agreed by the Certifying Authority and must be installed so that it will record the following :\n  (1) Voice communications transmitted from or received in the UCS.\n  (2) Voice communications in the UCS.\n  (3) Voice communications of UAV crew using the UCS\u2019s interphone system.\n  (4) Voice or audio signals introduced into a headset or speaker.\n(b) The recording requirements of sub-paragraph (a) (2) must be met by installing an area microphone, located in the best position for recording voice communications originating at UAV crew work place and voice communications of other ground staff when directed to those stations. The microphone must be so located and, if necessary, the preamplifiers and filters of the recorder must be so adjusted or supplemented, so that the intelligibility of the recorded communications is as high as practicable when recorded under UCS noise conditions and played back. Repeated aural or visual play-back of the record may be used in evaluating intelligibility.\n(c) Where more than three UAV crew members are involved in the ground station\n  (1) A channel must be dedicated to each boom, mask, headset or speaker used at each UAV crew work place.\n  (2) A channel must be dedicated to each area microphone.\n(d) Each UCS voice recorder must be installed so that\n  (1) It receives its electric power from the control station bus that provides the maximum reliability for operation of the voice recorder.\n  (2) There is an aural or visual means for pre-flight checking of the recorder for proper operation.\n(e) Universal time reference signal must be recorded on a special track of the voice recorder.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "Voice recorders",
       "text": "See AMC.U1709 and AMC.U1709 (e)\n(a) If required by the Certifying Authority, the installation of voice recorder in the UCS must comply with the following:\n  (1) Voice communications transmitted from or received in the UCS.\n  (2) Voice communications in the UCS.\n  (3) Voice communications of UAS crew using the UCS\u2019s interphone system.\n  (4) Voice or audio signals introduced into a headset or speaker.\n(b) The recording requirements of sub-paragraph (a) (2) must be met by installing an area microphone, located in the best position for recording voice communications originating at UAS crew work place and voice communications of other ground staff when directed to those stations. The microphone must be so located and, if necessary, the preamplifiers and filters of the recorder must be so adjusted or supplemented, so that the intelligibility of the recorded communications is as high as practicable when recorded under UCS noise conditions and played back. Repeated aural or visual play-back of the record may be used in evaluating intelligibility.\n(c) Where more than three UAS crew members are involved in the ground station:\n  (1) A channel must be dedicated to each boom, mask, headset or speaker used at each UAS crew work place.\n  (2) A channel must be dedicated to each area microphone.\n(d) Each UCS voice recorder must be installed so that:\n  (1) It receives its electric power from the control station bus that provides the maximum reliability for operation of the voice recorder.\n  (2) There is an aural or visual means for pre-flight checking of the recorder for proper operation.\n(e) Universal time reference signal must be recorded on a special track of the voice recorder.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

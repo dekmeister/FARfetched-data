@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.16",
   "number": "8.6.13",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Failure of airframe mounted accessory drive mounted components",
   "subject_group": "8.6 Auxiliary power systems and emergency power systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.16",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure of AMAD mounted components",
       "text": "Criterion: Verify that failure or seizure of any individual accessory mounted to the AMAD gearbox does not prevent the AMAD gearbox from powering flight critical equipment. Standard: The AMAD gearbox provides power to drive certain subsystem components. In some cases, failure of the AMAD gearbox to provide power to select components is flight critical (either in normal operation or emergency operation). In those cases, failure or seizure of any individual accessory mounted to the AMAD gearbox does not prevent the AMAD gearbox from driving the flight critical equipment. A typical approach to meet this requirement incorporates a shear section into the shaft of accessories driven by the AMAD gearbox. Method of Compliance: Flight critical equipment driven by the AMAD gearbox is identified by analysis. The ability of the AMAD gearbox to continue supplying adequate power to the flight critical equipment is verified by component level test.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure of airframe mounted accessory drive mounted components",
       "text": "Standard: Failure or seizure of any individual accessory mounted to the AMAD gearbox does not prevent the AMAD gearbox from driving remaining flight-critical equipment. Examples of flight-critical equipment powered by the AMAD include electrical drive generators, hydraulic pumps, and fuel pump. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Conduct an inspection of product definition data, such as drawings, models, and system descriptions, to verify a method is in place to isolate the failed individual accessory mounted equipment from the AMAD. A typical approach to meet this requirement incorporates a shear section into the shaft of accessories driven by the AMAD gearbox. Analysis.\n  (1) Conduct a SCF analysis to verify flight-critical equipment, that operates by power transfer through the AMAD, is identified.\n  (2) When using spline shear sections, conduct analysis of the shear section feature to verify that the spline shears as intended under the load of the AMAD when a failed component seizes up (inhibits rotation).\n  (3) Conduct analysis on the design features which isolate a seized or failed accessory from the AMAD to ensure the AMAD is still capable of transmitting power to other accessories mounted to AMAD. Test.\n    (1) Lab test: Conduct integrated level testing to verify that failure of flight-critical equipment does not seize the AMAD, and the gearbox continues to provide power to the other flight-critical equipment attached to the AMAD.",
       "source_url": "https://assist.dla.mil",

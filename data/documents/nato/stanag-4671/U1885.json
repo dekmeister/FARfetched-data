@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1885",
   "number": "U1885",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "UA handover within the same UAS control station",
   "subject_group": "MISCELLANEOUS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "UAV handover within the same UAV control station",
       "text": "See AMC.1885 (b) and AMC.1885 (d) Where the UCS has more than one workstation designed for controlling the UAV:\n(a) The in-control workstation must be clearly identified to all UAV crew members.\n(b) Positive control must be maintained during handover.\n(c) The command and control functions that are transferred during handover must be approved by the Certifying Authority and defined in the UAV System Flight Manual.\n(d) Handover within the same UAV control station must not lead to unsafe conditions.\n(e) The in-control workstation must have the required functionality to accommodate emergency situations.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "UA handover within the same UAS control station",
       "text": "See AMC.U1885 (b) and AMC.U1885 (d) Where the UCS has more than one workstation designed for controlling the UA:\n(a) The in-control workstation must be clearly identified to all UAS crew members.\n(b) Positive control must be maintained during handover.\n(c) The command and control functions that are transferred during handover must be approved by the Certifying Authority and defined in the UAS Flight Manual.\n(d) Handover within the same UAS control station must not lead to unsafe conditions.\n(e) The in-control workstation must have the required functionality to accommodate emergency situations.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

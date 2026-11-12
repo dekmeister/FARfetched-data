@@ -3,13 +3,13 @@
   "document": "car-3",
   "key": "220",
   "number": "220",
-  "current_grouping": "Vertical Tail Surfaces",
+  "current_grouping": "Subpart C \u2014 Strength Requirements",
   "canonical_title": "Gust loads",
-  "subject_group": "Strength Requirements",
+  "subject_group": "Vertical Tail Surfaces",
   "versions": [
     {
       "designator": "CAR3-0",
-      "grouping_at_time": "Vertical Tail Surfaces",
+      "grouping_at_time": "Subpart C \u2014 Strength Requirements",
       "title_at_revision": "Gust loads.",
       "text": "(a) The airplane shall be assumed to encounter a gust of 30 feet per second nominal intensity, normal to the plane of symmetry while in unaccelerated flight at speed Vc.\n(b) The gust loading shall be computed by the following formula: where: = average limit unit pressure in pounds per square foot, K = except that K shall not be less than 1.0. A value of K obtained by rational determination may be used. U = nominal gust intensity in feet per second, zontal surface, and 80 percent of V = airplane speed in miles per hour, m = slope of lift curve of vertical surface, CL per radian, corrected for aspect ratio, W = design weight in pounds, Sv = vertical surface area in square feet.\n(c) This loading applies only to that portion of the vertical surfaces having a well-defined leading edge. Note: The average loading of Figure 3-6 and the distribution of Figure 3-9 may be used.",
       "source_url": null,

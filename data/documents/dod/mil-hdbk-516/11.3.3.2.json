@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.3.3.2",
   "number": "11.3.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Information integrity and assurance",
   "subject_group": "11.3.3 Antenna performance",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Information integrity and assurance",
       "text": "Criterion: Verify that installed antenna performance and patterns for safety/flight-critical transmitting and receiving systems provide adequate gain and coverage to ensure unsafe information is not displayed to the operator or maintainer. Standard: Requirements for information integrity and assurance are defined and documented. Displayed safety of flight information obtained using antenna based systems is not degraded or altered to cause an unsafe condition. Method of Compliance: Analysis, laboratory, open-air, and aircraft testing verify installed system performance. Criteria of 11.2.3.1, and 11.1.4 are satisfied. An FMEA and a quantitative probability analysis of the installed system are performed resulting in no single point critical safety of flight failures. References: JSSG-2005: 3.3.5 and 4.3.5 SAE ARP4761 SAE ARP5580 14 CFR 23.1309",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Information integrity and assurance",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "369",
   "number": "369",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Rear Lift Truss Loads",
   "subject_group": "FLIGHT LOADS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Rear Lift Truss Loads",
       "text": "(a) If a rear lift truss is used, it must be designed for conditions of reversed airflow at a design speed of 1 . 16 ) ( 29 . 7 2 / 1 + = S W V (km/h) where W/S = wing loading at design maximum take-off weight (kg/m\u00b2).\n(b) Either aerodynamic data for the particular wing section used, or a value of CL equalling 0.8 with a chordwise distribution that is triangular between a peak at the trailing edge and zero at the leading edge, must be used.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Rear Lift Truss Loads",
       "text": "(a) If a rear lift truss is used, it must be designed for conditions of reversed airflow at a design speed of; \ud835\udc49 = 8.7\u221a \ud835\udc4a \ud835\udc46 + 8.7 (\ud835\udc58\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc60) where W/S = wing loading at design maximum take-off weight (lbs/ft\u00b2).\n(b) Either aerodynamic data for the particular wing section used, or a value of CL equalling 0.8 with a chordwise distribution that is triangular between a peak at the trailing edge and zero at the leading edge, must be used.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

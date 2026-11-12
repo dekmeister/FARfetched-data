@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.1.7.1-516c",
   "number": "6.1.7.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Lateral-directional modal characteristics",
   "subject_group": "6.1.7 Lateral-directional flying qualities",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Lateral-directional modal characteristics",
       "text": "Criterion: Verify that lateral-directional modal characteristics are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.3.1 Lateral-directional modal characteristics. b. 5.2.3.1.1 Roll mode (see table XLIV for guidance). c. 5.2.3.1.2 Dutch roll frequency and damping (see table XLV for guidance). d. 5.2.3.1.3 Spiral stability (see table XLVI for guidance). e. 5.2.3.1.4 Coupled roll-spiral oscillation (see table XLVII for guidance). f. 5.2.3.1.5 Roll time delay (see table XLVIII for guidance).\n(1) For UAS, the delay is evaluated in the context of the full control system design. Delay is considered from the command to the air vehicle (AV) response. g. 5.2.3.1.6 Yaw time delay (see table XLIX for guidance).\n  (1) For UAS, the delay is evaluated in the context of the full control system design. Delay is considered from the command to the AV response. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.4.9 Lateral-directional stability. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation. Additional References: 14 CFR 23.181 Dynamic stability 14 CFR 25.181 Dynamic stability 14 CFR 27; 27 Appendix B VI Dynamic stability",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Lateral-directional modal characteristics",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

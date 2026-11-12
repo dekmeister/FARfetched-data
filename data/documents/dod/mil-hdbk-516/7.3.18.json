@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.3.18",
   "number": "7.3.18",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Low cycle fatigue",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Low cycle fatigue",
       "text": "Standard: Engine hardware has positive LCF margin to the stated life documented in engine tech data when operated, under steady state and transient conditions, IAW 7.3.1. Part-specific critical material, processing, and manufacturing characteristics, and associated controls, are established for LLPs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of LLP product definition data (e.g., models, drawings) verifies that part-specific critical material, processing, and manufacturing characteristics, and associated controls, are defined. Analysis.\n  (1) Analysis is conducted to determine minimum LCF life, and to define mature and repeatable material, processing, and manufacturing control parameters required to achieve that life for each LLP. Test.\n    (1) Lab test: Component tests (e.g., spin pit, pressure cycling, cyclic fatigue) of LLPs are conducted. Test conditions include thermal stress, or a simulation thereof, boundary conditions, and interface constraints. Substantiation of the number of test articles and cycles per article required to validate design analysis or verify minimum life is provided.\n    (2) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Post-test teardown inspection of hardware is accomplished to document condition. Minimum endurance test duration is twice the planned flight test duration. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (3) Lab test: Full engine durability test or AMT/ASMET is conducted in a ground-based sea level test cell IAW JSSG-2007, Appendix A, Verification section, Endurance Tests paragraph. Tests include product-representative inlet conditions and extractions, and rotor imbalance. Tests are conducted using engine control software or schedules of the type design. Post-test teardown inspection of hardware is accomplished to document condition. Minimum endurance test duration is the scheduled depot inspection interval or half the cold part DSL.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.1.1",
   "number": "7.2.1",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Installed performance",
   "subject_group": "7.2 Propulsion performance and operability",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "7.1.1",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that performance is adequate for safe operation and is properly documented in the flight manual.",
       "text": "Verify that performance is adequate for safe operation and is properly documented in the flight manual.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "7.1.1",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that performance is adequate for safe operation and is properly documented in the flight manual.",
       "text": "Verify that performance is adequate for safe operation and is properly documented in the flight manual. This includes all installation effects imposed by the air vehicle.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that engine performance is adequate for safe operation of the air vehicle.",
       "text": "Verify that engine performance is adequate for safe operation of the air vehicle. This includes consideration of all installation effects imposed by the air vehicle, and all intended operational environments. DoD/MIL Doc: JSSG\u20132007A: para A.3.2, A.4.2, A.3.2.1, A.4.2.1, A.3.2.1.1, A.4.2.1.1, A.3.3.1, A.4.3.1, A.3.3.2, A.4.3.2, A.3.3.7, A.4.3.7, A.3.11, A.4.11, A.3.12, A. 4.12 and JSSG-2001B 3.3.1.1/4.3.1.1. FAA Doc: 14CFR references: 33.5, 33.35, 33.7, 33.8, AC 33.2B",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that engine performance is adequate for safe operation of the air vehicle.",
       "text": "Verify that engine performance is adequate for safe operation of the air vehicle. This includes consideration of all installation effects imposed by the air vehicle, and all intended operational environments. DoD/MIL Doc: JSSG\u20132007A: A.3.2, A.4.2, A.3.2.1, A.4.2.1, A.3.2.1.1, A.4.2.1.1, A.3.3.1, A.4.3.1, A.3.3.2, A.4.3.2, A.3.3.7, A.4.3.7, A.3.11, A.4.11, A.3.12, A.4.12 and JSSG-2001B 3.3.1.1/4.3.1.1 FAA Doc: 14CFR references: 33.5, 33.35, 33.7, 33.8, AC 33.2B",
       "source_url": "https://assist.dla.mil",
@@ -54,7 +54,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Installed performance",
       "text": "Criterion: Verify that the data for assessment of installed propulsion system performance meet the applicable specification requirements. This includes consideration of all installation effects imposed by the air vehicle, and all intended operational environments. Standard: Engine thrust or power and fuel consumption are characterized with representative installation effects over the range of flight conditions expected and are shown to support the safe performance of the air vehicle. Installation effects include considerations of inlet and exhaust temperature, pressure and drag effects due to external protuberances such as sensors and probes; anti-ice devices; sand and dust separators; exhaust system effects due to IR and noise suppressors; customer extractions of air bleed and mechanical power; etc. Operational environments include cold and hot days, and weather such as rain, snow, or ice. Method of Compliance: Verification methods include a combination of engine tests and analyses. Testing is done at representative ground and altitude conditions to characterize and verify baseline performance. Analyses are performed with a model based on measured test data for characterization of performance at conditions that have not been tested. References: JSSG-2007: A.3.1, A.4.1; A.3.7, A.4.7; A.3.2, A.4.2; A.4.2.1, A.4.2.1.1; A.3.3.1, A.4.3.1; A.3.3.2, A.4.3.2; A.3.11, A.4.11; A.3.12, A.4.12; Table XLIXa JSSG-2001: 3.3.1.1, 4.3.1.1 14 CFR 33.5, 33.35, 33.7, 33.8 FAA AC 33-2",
       "source_url": "https://assist.dla.mil",
@@ -64,7 +64,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Installed performance",
       "text": "Standard: Minimum engine thrust or power, and fuel consumption are characterized with representative installation effects over the range of flight conditions and operational environments expected and are shown to meet the critical performance conditions of the air vehicle. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., ICDs, environmental criteria documents) to verify that operational environments and installation effects have been defined and utilized in the characterization of performance. Analysis.\n  (1) Analyses performed with a validated, configuration-controlled, installed-engine performance model calibrated to measured test data for characterization of performance. Test.\n    (1) Lab test: Ground-based sea level and altitude cell tests to characterize and verify performance. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: In-flight tests to verify performance.",
       "source_url": "https://assist.dla.mil",

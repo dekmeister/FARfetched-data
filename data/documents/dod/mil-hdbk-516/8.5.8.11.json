@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.8.11",
   "number": "8.5.7.13",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Antiskid coupling",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is no anti-skid coupling into the landing gear structure.",
       "text": "Verify that there is no anti-skid coupling into the landing gear structure.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is no anti-skid coupling into the landing gear structure.",
       "text": "Verify that there is no anti-skid coupling into the landing gear structure. DoD/MIL Doc: JSSG-2006: para 3.4.2.7 Dynamic response during ground/ship-based operations and 4.4.2 Ground loading conditions; JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid Control; AFGS-87139: para 3.2.1.4 Damping and 3.2.3.3 Anti-skid brake control.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that there is no anti-skid coupling into the landing gear structure.",
       "text": "Verify that there is no anti-skid coupling into the landing gear structure. DoD/MIL Doc: JSSG-2006: 3.4.2.7 Dynamic response during ground/ship-based operations and 4.4.2 Ground loading conditions JSSG-2009 Appendix A: A.3.4.1.4.4.3/A.4.4.1.4.4.3 Skid Control AFGS-87139: 3.2.1.4 Damping and 3.2.3.3 Anti-skid brake control",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.8.11",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Anti-skid coupling",
       "text": "Criterion: Verify that there is no anti-skid coupling into the landing gear structure. Standard: Normal, alternate and emergency braking do not induce any undesirable dynamics. Brake operations in each of the designed control systems including switching between systems do not induce any undesirable dynamics. Method of Compliance: Verification methods include analyses and tests. Dynamic analysis shows no adverse gear loadings and undesirable dynamics due to anti-skid operations during all phases of brake operations. Laboratory testing validates the analysis. Air vehicle ground and flight testing shows no adverse loadings due to anti-skid operations during all phases of brake operations. References: JSSG-2006: A.3.4.1.4.4.3, A.4.4.1.4.4.3 Skid Control; 34.2.7 Dynamic response during ground/ship-based operations; 4.4.2 Ground loading conditions AFGS-87139: 3.2.1.4 Damping; 3.2.3.3 Anti-skid brake control",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Antiskid coupling",
       "text": "Standard: The brake system in conjunction with the antiskid system does not induce any adverse loads to landing gear and airframe structure (e.g., landing gear walking) and does not induce adverse air vehicle oscillations (e.g., directional control, pitching, and wing rocking). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Dynamic analysis verifies no adverse gear loadings and undesirable dynamics due to antiskid control cycles during all phases of brake operations. Test.\n  (1) Lab test: Conduct HITL testing to verify landing gear fore and aft stability during antiskid operations.\n  (2) Ground test: Conduct ground testing to verify no adverse loading due to antiskid operations during all phases of brake operations. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct flight testing to verify no adverse dynamic loading and adverse oscillation due to antiskid operations during all phases of brake operations including the transition to and from flight.",
       "source_url": "https://assist.dla.mil",

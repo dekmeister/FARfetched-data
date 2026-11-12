@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.5.7.9",
   "number": "8.5.7.9",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Antiskid system redundancies",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Antiskid system redundancies",
       "text": "Standard: The braking and decelerations system responds to any single antiskid malfunction or power interruptions without compromising the ability to maintain control of the air vehicle. The antiskid self-correcting features switch to alternate braking modes in a predictable and controllable manner. The controlling function provides for safe recovery of the air vehicle from any single antiskid failure state to bring the air vehicle to a stop. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review of the antiskid system's FMECA verifies antiskid system failure modes have been identified and mitigated to maintain braking and directional control. Demonstration.\n  (1) Conduct ground demonstration to verify proper functioning of the antiskid system as integrated within the brake control system. Test.\n    (1) Lab test: Conduct simulator testing to verify the modes of operation as identified in the antiskid system's FMECA under single point failures.\n    (2) Lab test: Conduct HITL lab testing, utilizing all brake and antiskid system hardware (e.g., control box) including representative brake line lengths and pressure drops, antiskid software, air vehicle model, landing gear damping model, and wheel speed sensor simulator model, to verify control law state changes which resulted from failure conditions (e.g., loss of wheel speed sensor), ability to adapt to full variety of runway conditions, stopping efficiency, and stopping distance performance under specified environmental design conditions (i.e., coefficient of friction).",
       "source_url": "https://assist.dla.mil",

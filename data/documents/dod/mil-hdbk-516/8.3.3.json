@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.3.3",
   "number": "8.3.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Failure modes and effects",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all fuel system critical failure modes and hazards have acceptable risk levels.",
       "text": "Verify that all fuel system critical failure modes and hazards have acceptable risk levels.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that all fuel system critical failure modes and hazards have acceptable risk levels.",
       "text": "Verify that all fuel system critical failure modes and hazards have acceptable risk levels. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.12, E.4.4.5.1.12 FAA Doc: 14CFR references: 23.951-23.979, 23.991-23.1001, 25.951-25.981, 25.991-25.1001",
       "source_url": "https://assist.dla.mil",
@@ -30,7 +30,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.3.4",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure modes and effects",
       "text": "Criterion: Verify that all fuel system critical failure modes and hazards have acceptable risk levels. Standard: When using any approved fuel, no single failure within the fuel system results in loss of aircraft or fuel delivered to the engine outside prescribed pressure, flow rate and temperature. Method of Compliance: The FMECA addresses safe operation of the air vehicle following fuel system failures. Safety Hazard Analyses address all fuel system related failures, including single point failure and realistic multiple failures, and have acceptable risk levels. Failure mode tests conducted during component tests verify performance necessary for single failure operation. Fuel system simulator and/or aircraft ground testing verify redundancy of the system critical functions. References: JSSG-2009: E.3.4.5.1.12, E.4.4.5.1.12 14 CFR 23.951-23.979, 23.991-23.1001, 25.951-25.981, 25.991-25.1001, 27.951- 27.977, 27.991-27.999, 29.951-29.979, 29.992-29.1001",
       "source_url": "https://assist.dla.mil",
@@ -40,7 +40,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure modes and effects",
       "text": "Standard: No single failure or likely combination of failures of the fuel system result in loss of air vehicle, cause additional damage or failure, or reduce fuel supplied to any system to below what is required for continued flight. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct FMECA and SSHA to identify failures and their consequences.\n(2) Conduct analysis of fuel system performance with single failure or likely combination of failures to show failure will not cause loss of air vehicle, reduce fuel flow to the engine below what is required for continued flight, or cause further system failures. Any associated limitations or restrictions needed for continued flight are identified. Test.\n  (1) Lab test: Conduct lab HITL (iron-bird) testing to introduce failure modes, evaluate system responses, and validate analysis results.\n  (2) Ground test: Conduct ground tests to validate analysis and lab test results, including failure modes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: Conduct flight test to verify fuel system performance under normal and simulated failure conditions.",
       "source_url": "https://assist.dla.mil",

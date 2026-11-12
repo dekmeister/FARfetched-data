@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "253",
   "number": "253",
-  "current_grouping": "Subpart B \u2013 UA Flight",
+  "current_grouping": "Subpart B \u2014 UA Flight",
   "canonical_title": "High Speed Characteristics",
   "subject_group": "MISCELLANEOUS FLIGHT REQUIREMENTS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "grouping_at_time": "Subpart B \u2014 UAV Flight",
       "title_at_revision": "High Speed Characteristics",
       "text": "If a maximum operating speed VM0/MM0 is established under USAR.1505 (c), the following speed increase and recovery characteristics must be met\n(a) Operating conditions and characteristics likely to cause inadvertent speed increases (including upsets in pitch and roll) must be simulated with the UAV trimmed at any likely speed up to VM0/MM0. These conditions and characteristics include gust upsets, levelling off from climb and descent from Mach to airspeed limit altitude.\n(b) Allowing for UAV crew or flight control system reaction time after occurrence of effective inherent or artificial speed warning specified in USAR.1723, it must be shown that the UAV can be recovered to a normal attitude and its speed reduced to VMO/MMO without\n  (1) Exceeding VD/MD, the maximum speed shown under USAR.251, or the structural limitations; or\n  (2) Buffeting that would impair the UAV ability for recovery.\n(c) There may be no control reversal about any axis at any speed up to the maximum speed shown under USAR.251.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "grouping_at_time": "Subpart B \u2014 UA Flight",
       "title_at_revision": "High Speed Characteristics",
       "text": "If a maximum operating speed VM0/MM0 is established under USAR.1505 (c), the following speed increase and recovery characteristics must be met:\n(a) Operating conditions and characteristics likely to cause inadvertent speed increases (including upsets in pitch and roll) must be simulated with the UA trimmed at any likely speed up to VM0/MM0. These conditions and characteristics include gust upsets, levelling off from climb and descent from Mach to airspeed limit altitude.\n(b) Allowing for UA crew or flight control system reaction time after occurrence of effective inherent or artificial speed warning specified in USAR.U1723, it must be shown that the UA can be recovered to a normal attitude and its speed reduced to VMO/MMO without:\n  (1) Exceeding VD/MD, the maximum speed shown under USAR.251, or the structural limitations; or\n  (2) Buffeting that would impair the UA ability for recovery.\n(c) There may be no control reversal about any axis at any speed up to the maximum speed shown under USAR.251",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

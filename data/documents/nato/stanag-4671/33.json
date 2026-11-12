@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "33",
   "number": "33",
-  "current_grouping": "Subpart B \u2013 UA Flight",
+  "current_grouping": "Subpart B \u2014 UA Flight",
   "canonical_title": "Propeller Speed and Pitch Limits",
   "subject_group": "GENERAL",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "grouping_at_time": "Subpart B \u2014 UAV Flight",
       "title_at_revision": "Propeller Speed and Pitch Limits",
       "text": "(a) General. The propeller speed and pitch must be limited to values that will assure safe operation under normal operating conditions.\n(b) Propellers not controllable in flight. For each propeller whose pitch cannot be controlled in flight\n  (1) During take-off and initial climb at the all-engine(s)-operating climb speed specified in USAR.65, the propeller must limit the engine rpm, at full throttle or at maximum allowable take-off manifold pressure, to a speed not greater than the maximum allowable take-off rpm; and\n  (2) During a closed throttle glide at maximum achievable speed maintained by the flight control system, the propeller may not cause an engine speed above 110% of maximum continuous speed.\n(c) Controllable pitch propellers without constant speed controls. Each propeller that can be controlled in flight, but that does not have constant speed controls, must have a means to limit the pitch range so that\n  (1) The lowest possible pitch allows compliance with sub-paragraph (b) (1) of this paragraph; and (2) The highest possible pitch allows compliance with sub-paragraph (b) (2) of this paragraph.\n(d) Controllable pitch propellers with constant speed controls. Each controllable pitch propeller with constant speed controls must have\n  (1) With the governor in operation, a means at the governor to limit the maximum engine speed to the maximum allowable take-off rpm; and\n  (2) With the governor inoperative, a means to limit the maximum engine speed to 103% of the maximum allowable take-off rpm with the propeller blades at the lowest possible pitch and with take-off power setting, the UAV stationary, and no wind.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "grouping_at_time": "Subpart B \u2014 UA Flight",
       "title_at_revision": "Propeller Speed and Pitch Limits",
       "text": "(a) General. The propeller speed and pitch must be limited to values that will assure safe operation under normal operating conditions.\n(b) Propellers not controllable in flight. For each propeller whose pitch cannot be controlled in flight:\n  (1) During take-off and initial climb at the all-engine(s)-operating climb speed specified in USAR.65, the propeller must limit the engine rpm, at full throttle or at maximum allowable take-off manifold pressure, to a speed not greater than the maximum allowable take-off rpm; and\n  (2) During a closed throttle glide at maximum achievable speed maintained by the flight control system, the propeller may not cause an engine speed above 110% of maximum continuous speed.\n(c) Controllable pitch propellers without constant speed controls. Each propeller that can be controlled in flight, but that does not have constant speed controls, must have a means to limit the pitch range so that:\n  (1) The lowest possible pitch allows compliance with sub-paragraph (b) (1) of this paragraph; and (2) The highest possible pitch allows compliance with sub-paragraph (b) (2) of this paragraph.\n(d) Controllable pitch propellers with constant speed controls. Each controllable pitch propeller with constant speed controls must have:\n  (1) With the governor in operation, a means at the governor to limit the maximum engine speed to the maximum allowable take-off rpm; and\n  (2) With the governor inoperative, a means to limit the maximum engine speed to 103% of the maximum allowable take-off rpm with the propeller blades at the lowest possible pitch and with take-off power setting, the UA stationary, and no wind.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

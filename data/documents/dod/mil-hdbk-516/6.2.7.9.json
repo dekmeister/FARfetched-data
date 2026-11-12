@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.7.9",
   "number": "6.2.7.9",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Automatic take-off and landing",
   "subject_group": "6.2.7 VCF integrated systems safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Automatic take-off and landing",
       "text": "Criterion: Verify that the automatic take-off and landing systems are safe. Standard: Every function within the automatic take-off and landing systems is analyzed and tested for both normal and failed conditions. The flight control system employs safety interlocks to prevent inadvertent automatic take-off and landing. In case of a failure within the automatic take-off and landing modes of the flight control system, the operator is notified and provides capability to take over control of the air vehicle. No single point failure within the integrated system of the automatic take-off and landing system causes loss of control. Method of Compliance: Verification methods include analysis, test, simulation, and review of documentation. The automatic take-off and landing systems are verified through simulation, software analysis, SIL, FMET, ground test, and flight test. References: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Automatic take-off and landing",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

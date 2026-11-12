@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.5.1-516b",
   "number": "8.6.5.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Power take-off shaft alignment",
   "subject_group": "8.6.5 Vibration",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.6.5.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify, when applicable, that the PTO system is capable of operating safely when installed at the maximum allowable conditions of misalignment and imbalance.",
       "text": "Verify, when applicable, that the PTO system is capable of operating safely when installed at the maximum allowable conditions of misalignment and imbalance. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.10.2, C.4.4.3.10.2 FAA Doc:14CFR reference: 25.1167 (a), (c),",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.5.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "PTO balance and alignment",
       "text": "Criterion: Verify, when applicable, that the PTO system is capable of operating safely when installed at the maximum allowable conditions of misalignment and imbalance. Standard: Operating the PTO system (shaft, clutch, flex coupling, interfacing AMAD/EMAD stub shafts, etc.) with the maximum shaft imbalance and installation misalignment does not induce excess vibration or accelerated wear of system components. Method of Compliance: Inspection of design criteria verifies that requirements for balance and alignment of the PTO shaft are addressed and tolerances established. Endurance testing in a suitable test fixture verifies safe operation at the maximum allowable imbalance and misalignment. References: JSSG-2009: Appendix C 14 CFR 25.1167(a), (c)",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Power take-off shaft alignment",
       "text": "Standard: Operating the PTO system (e.g., shaft, clutch, flex coupling, interfacing AMAD, and EMAD stub shafts) with the maximum shaft imbalance and installation misalignment does not induce excess vibration or accelerated wear of system components during worst-case operating conditions. Installation procedures identify the maximum misalignment allowed and ensure installation does not allow alignment greater than the defined maximum misalignment condition. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Inspection of design criteria and maintenance publications verify that requirements for balance and alignment of the PTO shaft tolerances are established. Demonstration.\n  (1) Demonstrate the installation of the PTO shaft to verify that installation procedures maintain alignment of PTO shaft within tolerances specified in engineering drawings when installed on the air vehicle. Test.\n    (1) Lab test: Conduct endurance testing in a government approved test fixture to verify sufficient shaft power is maintained for operation of the AMAD at the maximum allowable imbalance and misalignment without failure and detrimental vibrations. The test conditions will be based on worst-case operating conditions (e.g., worst-case speed, torque, misalignment) and misalignment of the PTO shaft after testing is maintained within the specified misalignment tolerances.",
       "source_url": "https://assist.dla.mil",

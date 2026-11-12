@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.13",
   "number": "6.2.12.5",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Mechanical controls and artificial feel devices",
   "subject_group": "6.2.12 Vehicle control function pilot vehicle interface",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.2.13",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify ratio changers and artificial feel devices with proper protection are safely implemented.",
       "text": "Verify ratio changers and artificial feel devices with proper protection are safely implemented.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.13",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that ratio changers and artificial feel devices with proper protection are safely implemented.",
       "text": "Verify that ratio changers and artificial feel devices with proper protection are safely implemented. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1.7.2, 4.1.7.2, 3.1.11.11, 4.1.11.11, 3.1.11.11.1, 4.1.11.11.1, 3.1.12.1, 4.1.12.1, 3.1.14.4, 4.1.14.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.2.13",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that ratio changers and artificial feel devices with proper protection are safely implemented.",
       "text": "Verify that ratio changers and artificial feel devices with proper protection are safely implemented. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1.7.2, 4.1.7.2, 3.1.11.11, 4.1.11.11, 3.1.11.11.1, 4.1.11.11.1, 3.1.12.1, 4.1.12.1, 3.1.14.4, 4.1.14.4 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.6.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Ratio changers and artificial feel devices",
       "text": "Criterion: Verify that ratio changers and artificial feel devices are safely implemented. Standard: The ratio changers are implemented in mechanical systems, provide feedback to the pilot and in case of failure, remain engaged in a safe position. Any artificial feel device with adjustable features does not produce departure, loss of control or pilot coupling. Any loss of artificial feel function is recoverable with Level II flying quality or better. Units, components, and parts which transmit control commands mechanically meet design limit conditions and have 50% margin over the nominal design loads. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, inspection and review of documentation. Characteristics are verified at a cockpit/operator evaluation facility, a handling qualities simulation facility or a SIL, on-aircraft ground test, and flight test. In addition, FMET verifies system robustness. References: JSSG-2008: 3.0, 3.1.7.2, 3.1.11.11, 3.1.11.11.1, 3.1.12.1, 3.1.14.4, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Mechanical controls and artificial feel devices",
       "text": "Standard: The ratio changers, as implemented in mechanical systems, provide feedback to the flight crew and in the case of failure, remain engaged in a position that does not induce departure, loss of control, or PIO. Any artificial feel device with adjustable features does not induce departure, loss of control, or PIO. Any loss of artificial feel function does not result in less than Operational State III. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the requirements and design of ratio changers and artificial feel devices provide the necessary characteristics. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences. Test.\n    (1) Lab test: Conduct test in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to examine ratio changers and artificial feel devices under normal and failure conditions.\n    (2) Ground test: Conduct on-air vehicle ground test to verify functional characteristics of the artificial feel devices are as designed. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct flight test operations evaluating functional characteristics of the artificial feel devices for acceptability across the ROTH during normal operation.",
       "source_url": "https://assist.dla.mil",

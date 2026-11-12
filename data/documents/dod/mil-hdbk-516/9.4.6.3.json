@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.4.6.3",
   "number": "9.4.6.3",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "User override",
   "subject_group": "9.4.6 Automation and autonomy user interfaces",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "User override",
       "text": "Standard: Ensure that the air system includes the capability for the user to take manual control of the system or subsystem states, modes, and functions, to include flying operations if required. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examine the air system design documentation (e.g., software interface descriptions, drawings, digital mockups) and verify that the required characteristics of functional allocation, predictability, observability, directability, and error handling have been accurately allocated in the air system design. Analysis.\n  (1) Analyze the air system design documentation (e.g., drawings, digital mockups) and verify that the required characteristics functional allocation, predictability, observability, directability and error handling are present in the design. Test.\n    (1) Lab test: Test the implementation in a high-fidelity simulation or prototype and verify that users can override the air system operation when required.",
       "source_url": "https://assist.dla.mil",

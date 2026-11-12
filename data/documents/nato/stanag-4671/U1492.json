@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1492",
   "number": "U1492",
-  "current_grouping": "Subpart F \u2013 Equipment",
+  "current_grouping": "Subpart F \u2014 Equipment",
   "canonical_title": "Manual abort function",
   "subject_group": "AUTOMATIC TAKE-OFF, TAXI, LANDING",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Manual abort function",
       "text": "Where a UAV System is designed for conventional take-off and landing on a runway, it must include the following function :\n(a) The automatic system must incorporate a manual abort function. Its control shall be easily accessible to the UAV crew in order to\n  (1) stop the UAV on the runway during the take-off run at every speed up to refusal speed or rotation speed VR, whichever is less.\n  (2) where it is safe to perform, initiate a go around during the landing phase at every height down to a Decision Point.\n(b) Specific go around procedure shall be provided in the UAV System Flight Manual under USAR.1585 (j).",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart F \u2013 Equipment",
+      "grouping_at_time": "Subpart F \u2014 Equipment",
       "title_at_revision": "Manual abort function",
       "text": "Where a UAS is designed for conventional take-off and landing on a runway and is equipped with automatic systems for taxi , take-off, landing or any combination thereof, it must include the following functions:\n(a) The automatic system must incorporate a manual abort function. Its control shall be easily accessible to the UAS crew in order to:\n  (1) stop the UA on the runway during the take-off run at every speed up to refusal speed or rotation speed VR, whichever is less.\n  (2) where it is safe to perform, initiate a go around during the landing phase at every height down to a Decision Point.\n(b) Specific go around procedure shall be provided in the UAS Flight Manual under USAR.1585 (j).",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

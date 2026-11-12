@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "10.3",
   "number": "10.3",
-  "current_grouping": "10. AERIAL REFUELING",
+  "current_grouping": "Section 10 \u2014 Aerial Refueling",
   "canonical_title": "Failure modes",
   "subject_group": null,
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "10. AERIAL REFUELING",
+      "grouping_at_time": "Section 10 \u2014 Aerial Refueling",
       "title_at_revision": "Failure modes",
       "text": "Standard: Failure modes that impact AR operations are identified and characterized, including failures of the AR systems and other system failures that impact AR operations (e.g., engine failure, landing gear retraction failure, hydraulic system failure, electrical system failure). Instructions, WCAs, notes, and restrictions for refueling operations with failures are documented in flight manuals. a. Boom Tanker. Failure modes, including but not limited to, signal amplifier and coil, automatic load alleviation system, AR lighting, sensing systems, boom hoist, and fuel delivery system are characterized and requirements for continued operations are documented. b. Drogue Tanker. Failure modes, including but not limited to, hose response system, refueling hose, refueling coupling, drogue, guillotine (if applicable), jettison system, AR lighting, sensing systems, and fuel delivery system are characterized and requirements for continued operations are documented. c. Receptacle Receiver. Failure modes, including but not limited to, receptacle door(s), receptacle latches, signal amplifier and coil, fuel system, and AR lighting are characterized and requirements for continued operations are documented. d. Probe Receiver. Failure modes, including but not limited to, probe extension/deployment system, fuel system, and AR lighting are characterized and requirements for continued operations are documented. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Examination of system specifications and design documentation identify failure modes and continued operation requirements.\n(2) Examination of flight manuals verifies instructions for operations with failures is documented. Analysis.\n  (1) Analysis of system design, FMEA, and FMECA characterize continued refueling operation with failure cases. Test.\n    (1) Lab test: Hardware-in-the-loop lab testing of failure modes validates predicted performance.\n    (2) Ground test: Air vehicle ground testing of failure modes validates predicted performance. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Flight testing verifies performance of continued refueling operations with failure conditions.",
       "source_url": "https://assist.dla.mil",

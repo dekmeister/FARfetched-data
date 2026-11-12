@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.36",
   "number": "6.2.6.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Pre-flight initiated built-in-test",
   "subject_group": "6.2.6 Built-in-test",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.2.36",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify preflight checklists of VCF are all-inclusive and safe.",
       "text": "Verify preflight checklists of VCF are all-inclusive and safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.36",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that preflight checklists of VCF are all-inclusive and safe.",
       "text": "Verify that preflight checklists of VCF are all-inclusive and safe. DoD/MIL Doc: JSSG-2008: para 3.0, 3.1, 3.1.12, 3.1.13, 3.1.13.1, 3.1.14.7, 3.2.2.2, 3.2.2.5, 3.2.2.5.1, 3.2.2.5.2, 3.2.2.5.3, 3.3.6.2, 3.7.1, 3.7.1.1, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.2.36",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that preflight checklists of VCF are all-inclusive and safe.",
       "text": "Verify that preflight checklists of VCF are all-inclusive and safe. DoD/MIL Doc: JSSG-2008: 3.0, 3.1, 3.1.12, 3.1.13, 3.1.13.1, 3.1.14.7, 3.2.2.2, 3.2.2.5, 3.2.2.5.1, 3.2.2.5.2, 3.2.2.5.3, 3.3.6.2, 3.7.1, 3.7.1.1, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.2.3",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Preflight checklists",
       "text": "Criterion: Verify that preflight checklists of VCF are all-inclusive and safe. Standard: Pre-flight test/diagnostics/redundancy/monitoring includes all test sequences required to determine the status of the VCF and integrated systems prior to take-off. The tests and checklists are safe for crew and the vehicle. Initiated pre-flight and post-flight Built-In-Test (BIT) detects 100% of safety critical faults and at least 98% of all subsystem faults, with less than 1% false indications. BIT does not rely on ground test equipment for successful completion. Interlocks are provided to prevent in-flight engagement and to terminate pre-flight BIT when the conditions for engagement no longer exist. Test provisions include the capability for determining the integrity of sensors, electronics, and servo-systems through fault monitoring and fault isolation. The overall tests performed (BIT, Visual Inspection (VI), Physical Parameter Measurement (PPM)) contain the necessary specific tests to establish full VCF integrity. Method of Compliance: Verification methods include analysis, ground test, flight test, integration tests (FMET, failure modes tests, and SIL), demonstration, inspection and review of documentation. These methods verify that the pre-flight checklist(s) provide proper functionality, are all-inclusive and safe. References: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.2.1, 3.1.5, 3.1.13, 3.1.14 through 3.1.14.9, 3.1.15 through 3.1.18, 3.2.3 through 3.2.3.3, 3.4 through 3.5.2, 3.5.3, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Pre-flight initiated built-in-test",
       "text": "Standard: Pre-flight initiated built-in-test (both automatic and flight crew initiated) tests VCF safety-critical functionality and component-level health. Pre-flight initiated built-in-test verifies no latent faults are present prior to flight, including all failure isolation and accommodation functions. Pre-flight initiated built-in-test detects 100% of safety-critical faults and at least 98% of all subsystem faults, with less than 1% false indications. Interlocks are provided to prevent in-flight engagement and to terminate PFIBIT when the conditions for engagement no longer exist. Pre-flight initiated built-in-test pass/fail status is annunciated to the flight crew with indication of what was tested and not tested and any failures present. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to verify PFIBIT engagement logic has interlocks and design protections against engagement in-flight.\n(2) Review design documentation to verify the PFIBIT annunciates as failed in response to detected failures or if PFIBIT is suspended prior to completion.\n(3) Review design documentation to verify the pass/fail status is annunciated to the flight crew with indication of what was tested and not tested and any failures present. Analysis.\n  (1) Built-In-Test coverage analysis demonstrates PFIBIT provides coverage for all VCF safety-critical functionality and component-level health.\n  (2) Probabilistic analysis of component tolerances and IBIT parameters shows less than one false indication of fault during IBIT for every 100X IBIT is run on hardware. Test.\n    (1) Lab test: Formal qualification test, system-level testing, and FMET verify PFIBIT functionality, including engagement and disengagement requirements and clear indication of the health of the VCF to the flight crew prior to flight. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Available evidence from the flight test program indicates the operational fleet will see less than one false indication of fault from IBIT for every 100 sorties.",
       "source_url": "https://assist.dla.mil",

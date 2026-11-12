@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.11",
   "number": "8.8.22",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Health monitoring system",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.11",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that rotor system condition monitoring provides warning of impending failure that could result in loss of the air vehicle or prevent a safe landing.",
       "text": "Verify that rotor system condition monitoring provides warning of impending failure that could result in loss of the air vehicle or prevent a safe landing.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.11",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Condition monitoring",
       "text": "Criterion: Verify that drive system condition monitoring provides warning of impending failure that could result in loss of the air vehicle or prevent a safe landing. Standard: Applicable elements of the drive system condition monitor, listed below, are configured for incorporation with other subsystems into any planned integrated diagnostic system. a. Debris monitoring. Debris monitors capable of detecting oil borne particles for the purpose of identifying an impending failure are used on all gearboxes and transmissions. The monitors are capable of isolating faults to each gearbox or module. The monitors are insensitive to normal wear debris. b. Lubrication system - Oil pressure and temperature. The oil operating temperature and pressure (for pressurized systems) provide continuous real time indications of out-of-control limits to operator/cockpit instrumentation. c. Health monitoring. Sensor number and location are selected to isolate the condition of critical rotating components including drive shafts, heat exchanger blowers and internal gearbox components. Sensor mounting positions are provided as an integral part of the gearbox and drive shaft system design. d. Usage monitoring. A system is provided for accurate in-flight monitoring of the power drive subsystem operational usage (power and time) for life management of specified components. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. Inspection and analysis of designs, schematics and functional descriptions of the monitoring systems verifies compliance with the criterion. The following tests apply to the elements of the drive system monitor functions: a. Debris monitor. Debris monitor testing demonstrates the ability to detect debris of the size, shape and material specified, the characteristic of debris considered abnormal and its insensitivity to normal wear. Component level testing demonstrates capture efficiency. b. Lubrication system - Oil pressure and temperature. Full up rig and flight testing demonstrate the required monitoring capability of the lubrication system. c. Health monitoring. Testing identifies a characteristic normal baseline for applying diagnostic indicators to isolate mechanical component faults. Data are recorded in a manner that can be used for incorporation into any planned integrated diagnostic system. The number of sensors, tachometer frequency, recorder specifications and record length are selected so as to adequately isolate the characteristics of the dynamic components in each gearbox. d. Usage monitoring. Testing demonstrates acceptable and accurate in-flight monitoring of the power drive subsystem operational usage (power and time). References: JSSG-2009: K.3.4.11.5",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Health monitoring system",
       "text": "Standard: The rotary-wing drive and lubrication monitoring system senses (e.g., speeds, oil debris, control operating modes and usage), detects, isolates, and records rotary-wing drive system faults that affect or could affect continued operation of the air vehicle. Operating oil temperature, oil pressure, and operating limits are continuously monitored. The bypass status of the oil filtration system is indicated to the flight crew and ground crew. Warning, caution, and advisories are provided to alert the flight crew of system failures which affect continued operation of the air vehicle and degraded system performance. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review flight manuals and drawings to verify health, vibration, usage, and rotary-wing drive and lubrication condition monitoring systems are incorporated into the air vehicle design and requirements for communicating the status of systems is incorporated in the air vehicle specification. Test.\n  (1) Lab test: Conduct laboratory testing (e.g., FMET) to verify that the rotary-wing drive and lubrication condition monitoring system identifies, isolates, and displays faults, failures, and system status.\n  (2) Flight test: Conduct laboratory testing to verify debris monitoring system ability to detect debris of the size, shape, and material specified, and the characteristic of debris considered abnormal and its insensitivity to normal wear.\n  (3) Lab test: Conduct laboratory testing for health monitoring systems to determine diagnostic indicators capable of isolating mechanical component faults and thresholds.\n  (4) Ground test: Conduct ground testing on air vehicle to verify that the rotary-wing drive, filtration and lubrication condition monitoring system notifies flight crew and ground crew of WCAs and system status. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Conduct flight testing on the air vehicle to verify that the rotary-wing drive system and lubrication condition monitoring system notifies flight crew of WCAs and system status.\n  (6) Flight test: Conduct flight testing on the air vehicle to verify in-flight monitoring of the drive system operational usage (power and time).",
       "source_url": "https://assist.dla.mil",

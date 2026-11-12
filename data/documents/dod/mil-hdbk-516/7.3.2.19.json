@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.19",
   "number": "8.8.14",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Protection from external cleaning hazards",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.19",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Protection from environmental elements",
       "text": "Criterion: Verify that the transmission and associated drive system components are adequately protected/sealed from environmental elements (e.g., water, dust, and other contaminants), and that external cleaning procedures will not breach the sealing of those components. Standard: Design of transmission and drive components ensures protection from contaminants that would result in potential failures. Transmission and drive components are designed such that approved external cleaning procedures and compounds do not result in the introduction of contaminants into these components. Method of Compliance: Verification methods include analysis, test and review of documentation. Analysis of the designs, along with component level tests, verify that protective provisions have been incorporated to prevent contaminants from penetrating critical areas. References: JSSG-2009: Appendix K ADS-50-PRF",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Protection from external cleaning hazards",
       "text": "Standard: The rotary-wing drive components are designed such that approved external cleaning procedures and compounds will not breach the sealing of those components and do not result in the introduction of contaminants into these components. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings and system configuration descriptions) to verify the drive system is protected from cleaning procedures and compounds. Analysis.\n  (1) Conduct dimensional and layout modeling of drive system design and configuration to verify that the protective provisions have been incorporated to prevent cleaning fluids, compounds, and other contaminants from penetrating the transmission and drive system components. Demonstration.\n    (1) Conduct air vehicle demonstration (e.g., water washing) to verify that protective provisions have been incorporated to prevent contaminants from penetrating the rotary-wing drive system components during the cleaning procedures.",
       "source_url": "https://assist.dla.mil",

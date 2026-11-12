@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.13",
   "number": "8.8.19",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Loss of lubrication",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.13",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that, during a loss of the primary lubrication system, the gearboxes continue to function and transmit required power until appropriate pilot action can be accomplished.",
       "text": "Verify that, during a loss of the primary lubrication system, the gearboxes continue to function and transmit required power until appropriate pilot action can be accomplished.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.3.2.13",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that, during a loss of the primary lubrication system, the gearboxes continue to function and transmit required power until appropriate pilot action can be accomplished.",
       "text": "Verify that, during a loss of the primary lubrication system, the gearboxes continue to function and transmit required power until appropriate pilot action can be accomplished. DoD/MIL Doc:JSSG-2007A: A.3.7.8.1.3, A.4.7.8.1.3",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.13",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Loss of lubrication",
       "text": "Criterion: Verify that, during a loss of the primary lubrication system, the gearboxes continue to function and transmit required power until appropriate operator action can be accomplished as required in the aircraft specification. Standard: Gearboxes function for at least 30 minutes after complete loss of the lubricant from the primary lubrication system and are in a condition such that the gearbox is still capable of transmitting the required power and that no components are in a state of imminent failure. The operational conditions are such that the loss of lubricant occurs at the most severe power condition and that the air vehicle can transition to cruise and land vertically at the end of the thirty minute period. The power drive subsystem is capable of safe operation in the overrunning mode for at least 30 minutes with complete loss of gearbox lubricant. If an emergency/auxiliary lubrication system is used, any resulting attitude limitations during loss of lubricant operation are defined. Method of Compliance: Verification methods include test, demonstration and review of documentation. Two, thirty minute tests are conducted with teardown inspections. Testing is conducted after completion of the gearbox system level verification test (i.e., 200 hour verification MQT). Transmission and gearbox lubrication systems are starved at the system's supply side (downstream from the pump) and continue to scavenge. Operation is demonstrated for a thirty minute period, as follows: a. Two minutes at rated power to simulate hover. b. Twenty six minutes at a power condition to simulate cruise. c. Two minutes at a power condition simulating vertical landing. Creditable run time starts at the point at which the cockpit low oil pressure warning would be displayed. For non-pressurized gearboxes, creditable run time starts when the oil being drained from the gearboxes ceases to flow in a steady stream. The transmission is configured in an air vehicle attitude simulating the cruise power condition. For a VTOL air vehicle, the test spectrum and attitudes are commensurate with expected field use. A thirty minute loss-of-lubrication overrunning test consistent with the loss-of-lubricant test spectrum above demonstrates the ability of continued safe operation. References: JSSG-2009: K.4.4.11.8",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Loss of lubrication",
       "text": "Standard: Gearboxes function for at least 30 minutes after complete loss of the lubricant from the primary lubrication system and are in a condition that the gearbox is still capable of transmitting the required power. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings and system configuration descriptions) for emergency or auxiliary lubrication provisions to verify attitude and power restrictions are defined for loss of lubricant operation. Test.\n  (1) Lab test: Conduct loss of lubrication test on the two gearbox system units with final gearbox configuration. Transmission and gearbox lubrication systems are starved at the system's supply side (downstream from the pump) and continue to scavenge oil. The 30-minute operating period is as follows: a. 2 minutes at rated power to simulate hover. b. 26 minutes at a power condition to simulate cruise. c. 2 minutes at a power condition simulating VL. Creditable run time starts at the point at which the cockpit low oil pressure warning is displayed. For non-pressurized gearboxes, creditable run time starts when the oil being drained from the gearboxes ceases to flow in a steady stream. Gearboxes are able to transmit the required power at the conclusion of testing but are not required to be in a serviceable condition.",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.3-516c",
   "number": "6.2.9.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Hydraulic contamination",
   "subject_group": "6.2.9 Vehicle control function actuators",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.3.3",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Hydraulic contamination",
       "text": "Criterion: Verify that VCF actuation design is not susceptible to hydraulic contamination effects and does not cause loss of actuation with subsequent loss of control. Standard: Actuation provides protection from hydraulic contamination due to the largest particle able to block or wedge an actuation spool in the smallest passage. Hydraulic contamination does not contribute to cavitation. Actuation continues to operate with hydraulic contamination and is able to chip shear the largest particle that could pass through the hydraulic system filtration (see also 8.1). Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation (see also 8.1). References: JSSG-2008 MIL-HDBK-516: 8.1",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Hydraulic contamination",
       "text": "Standard: Actuators provide protection from hydraulic contamination due to the largest particle which are able to block or wedge an actuation control spool in the smallest passage. Actuators control valve components are able to chip shear the largest particle that could pass through the hydraulic system filtration. Hydraulic contamination does not cause cavitation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review actuator drawings to verify locations for possible chip blockage impacting functionality. Analysis.\n  (1) Determine the biggest chip size that may pass through the hydraulic system filters.\n  (2) Provide analysis verifying chip shear force within the actuator control valve to maintain full functionality.\n  (3) Vehicle control function and hydraulics ICD addresses any effects of cavitation to the VCF.",
       "source_url": "https://assist.dla.mil",

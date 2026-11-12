@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.8.8",
   "number": "7.4.34",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Crew station compatibility",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.8.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system.",
       "text": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.5.6.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system.",
       "text": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system. DoD/MIL Doc: JSSG-2001B: para 3.4.3.1.6/4.4.3.1.6 and MIL-STD-411.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.5.6.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system.",
       "text": "Verify that the air vehicle propulsion controls and crew station information are adequate for proper crew control and operation of the propulsion system. DoD/MIL Doc: JSSG-2001B: 3.4.3.1.6/4.4.3.1.6 and MIL-STD-411",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.5.6.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Crew/operator station compatibility",
       "text": "Criterion: Verify that the air vehicle propulsion controls and information are adequate for proper operator control and operation of the propulsion system. Standard: Crew/operator station provides capability to reliably do the following: start and stop each engine independently, independently control/set thrust for each engine, assess engine operating condition to the extent necessary for flight safety. The system provides warnings, cautions and advisories to operators and maintainers for hazardous failure conditions. Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation. Crew/operator station propulsion control capabilities are validated by inspection of design documentation, analyses (e.g., FMEA, FMECA, Sneak circuit, common cause, software) and hardware and software tests in integration facilities and on the air vehicle. Warnings, cautions and advisories to operators and maintainers for hazardous failure conditions are validated by inspection of design and system safety documentation, tests (software and hardware) in integration facilities and demonstration at the air vehicle level. References: JSSG-2001: 3.4.3.1.6 and 4.4.3.1.6 MIL-STD-411",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Crew station compatibility",
       "text": "Standard: Crew station provides the propulsion controls and information to independently start and stop each engine, control and set thrust for each engine, and assess engine operating conditions. Faults are recorded and are provided to the flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation and analyses (e.g., FMEA, FMECA, sneak circuit, common cause, interface control design, software design, and hardware design documents) to verify that the crew station contains the engine controls. Faults are recorded and are provided to the flight crew. Test.\n  (1) Ground test: Installed engine ground testing verifies the crew station capability. Faults are recorded and are provided to the flight crew. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Flight testing verifies the crew station capability. Faults are recorded and are provided to flight crew.",
       "source_url": "https://assist.dla.mil",

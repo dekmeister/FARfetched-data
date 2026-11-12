@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.3.9",
   "number": "8.3.4",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Operating pressures",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.3.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the fuel system is designed to prevent pressures from exceeding the system's proof pressure limits (both minimum and maximum) during refueling, defueling, transfer, fuel feed, and fuel dump operations.",
       "text": "Verify that the fuel system is designed to prevent pressures from exceeding the system's proof pressure limits (both minimum and maximum) during refueling, defueling, transfer, fuel feed, and fuel dump operations.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.3.9",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the fuel system is designed to prevent pressures from exceeding the system's proof pressure limits (both minimum and maximum) during refueling (aerial and ground), defueling, transfer, fuel feed, fuel dump operations and engine feed.",
       "text": "Verify that the fuel system is designed to prevent pressures from exceeding the system's proof pressure limits (both minimum and maximum) during refueling (aerial and ground), defueling, transfer, fuel feed, fuel dump operations and engine feed. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.7, E.4.4.5.1.7, E.3.4.5.1.8, E.4.4.5.1.8, E.3.4.5.8, E.4.4.5.8 FAA Doc: 14CFR references: 23.963, 23.979, 25.963, 25.979",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.3.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Pressure tolerance",
       "text": "Criterion: Verify that the fuel system is designed to prevent pressures from exceeding the system's proof pressure limits (both minimum and maximum) during refueling (aerial and ground), defueling, transfer, fuel feed, fuel dump operations and engine feed. Standard: The fuel system is designed such that positive and negative proof pressure limits are not exceeded during all phases of fuel system operations including refueling, defueling, fuel transfer, fuel feed, and fuel dump. Fuel valve closure rates, simultaneous valve closures, operation of fuel pumps or fuel manifold architecture do not result in steady-state and/or transient pressures exceeding the proof pressure limits. Method of Compliance: System analysis verifies that proof pressure limits are not exceeded throughout air vehicle operation. Simulator and/or ground air vehicle testing verifies that proof pressure limits are not exceeded during normal and single failure conditions. Flight testing verifies analysis and previous testing. Fuel system simulator, ground and flight tests verify that negative pressure limits are never exceeded in the engine feed line. References: JSSG-2009: E.3.4.5.1.7, E.4.4.5.1.7; E.3.4.5.1.8, E.4.4.5.1.8; E.3.4.5.8, E.4.4.5.8 MIL-F-17874 14 CFR 23.963, 23.979, 25.963, 25.979, 27.963, 27.979, 29.963, 29.979",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Operating pressures",
       "text": "Standard: The system is designed such that fuel system operation, including single failures or likely combinations of failures, do not result in fuel pressures that exceed positive and negative pressure limits for any component, plumbing, or tank structure. Fuel system operations include valve closures, simultaneous valve closures, operation of fuel pumps, AR operations, fueling, defueling, fuel feed and transfer, and any other air vehicle operation. Steady-state pressures do not exceed normal operating pressure limits. Transient pressures do not exceed proof pressure limits. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct system analysis that steady-state pressure limits are not exceeded throughout steady state air vehicle operation.\n(2) Conduct system analysis that verifies proof pressure limits are not exceeded throughout air vehicle operation. Test.\n  (1) Ground or Lab test: Conduct simulator or ground surge testing that verifies proof pressure limits are not exceeded during normal and single failure conditions.\n  (2) Lab test: Conduct fuel system simulator tests that verify negative pressure limits are not exceeded.\n  (3) Ground test: Conduct fuel system ground tests that verify negative pressure limits are not exceeded. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (4) Flight test: Conduct flight testing that verifies analysis and previous testing that shows steady-state pressures do not exceed normal operating pressure limits during normal steady-state system operations.\n  (5) Flight test: Conduct flight testing that verifies analysis and previous testing that shows proof pressure limits are not exceeded during normal system operations, including transients.",
       "source_url": "https://assist.dla.mil",

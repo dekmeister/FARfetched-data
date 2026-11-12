@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "51",
   "number": "51",
-  "current_grouping": "Subpart B \u2013 UA Flight",
+  "current_grouping": "Subpart B \u2014 UA Flight",
   "canonical_title": "Take-off Speeds",
   "subject_group": "PERFORMANCE",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart B \u2013 UAV Flight",
+      "grouping_at_time": "Subpart B \u2014 UAV Flight",
       "title_at_revision": "Take-off Speeds",
       "text": "Except for catapult assisted or rocket assisted take-off UAV, the following applies\n(a) The rotation speed VR (if applicable), is the speed at which the UAV crew or the flight control system makes a control input with the intention of lifting the UAV out of contact with the runway .\n  (1) For multi-engined UAV, VR must not be less than the greater of\n    (i) 1.05 VMC, and,\n    (ii) 1.10 VS1; except if it is demonstrated than a lower speed do not affect safe take-off due to UAV System performance whatever the combination of environmental conditions.\n  (2) For single engined UAV, VR must not be less than VS1.\n  (3) Not applicable.\n(b) The speed at 15 m (50 ft) must not be less than\n  (1) For multi-engined UAV , the greater of\n    (i) A speed that is shown to be safe for continued flight (or land-back, if applicable) under all reasonably expected conditions, including turbulence and complete failure of the critical engine and compliant with the requirement established in USAR.63; and\n    (ii) 1.10 VMC; and\n    (iii) 1.20 VS1\n  (2) For single-engined UAV, the greater of\n    (i) A speed that is shown to be safe under all reasonably expected conditions, including turbulence and complete engine failure and compliant with the requirement established in USAR.63; and\n    (ii) 1.20 VS1.\n(c) Not applicable",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart B \u2013 UA Flight",
+      "grouping_at_time": "Subpart B \u2014 UA Flight",
       "title_at_revision": "Take-off Speeds",
       "text": "Except for catapult assisted or rocket assisted take-off UA, the following applies:\n(a) The rotation speed VR (if applicable), is the speed at which the UA crew or the flight control system makes a control input with the intention of lifting the UA out of contact with the runway.\n  (1) For multi-engine UA, VR must not be less than the greater of:\n    (i) 1.05 VMC, and\n    (ii) 1.10 VS1\n  (2) For single engine UA, VR must not be less than VS1\n  (3) Not applicable.\n(b) The speed at 15 m (50 ft) must not be less than:\n  (1) For multi-engine UA , the greater of:\n    (i) A speed that is shown to be safe for continued flight (or land-back, if applicable) under all reasonably expected conditions, including turbulence and complete failure of the critical engine and compliant with the requirement established in USAR.63; and\n    (ii) 1.10 VMC; and\n    (iii) 1.20 VS1\n  (2) For single-engine UA, the greater of:\n    (i) A speed that is shown to be safe under all reasonably expected conditions, including turbulence and complete engine failure and compliant with the requirement established in USAR.63; and\n    (ii) 1.20 VS1\n(c) Not applicable.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

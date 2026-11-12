@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.1.7.4-516d",
   "number": "6.1.7.4",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Pitch and roll controller crosstalk",
   "subject_group": "6.1.7 Fixed-wing cross-axis response",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Pitch and roll controller crosstalk",
       "text": "Standard: The pitch and roll control force and displacement sensitivities and breakout forces are such that intentional inputs to one control axis do not cause inputs into the other axis that result in flying qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the controller crosstalk characteristics for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the controller crosstalk characteristics for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the controller crosstalk characteristics for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
       "source_url": "https://assist.dla.mil",

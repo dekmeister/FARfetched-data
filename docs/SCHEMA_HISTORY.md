@@ -27,6 +27,18 @@ The `NATO` issuer (STANAG 4671 / AEP-4671) was added on 2026-11-06 without a
 version bump: it is one more row in the closed `issuers` set and one more value
 of the `issuer` enum, and nothing a reader of v7 depends on changes.
 
+Grouping values took one style on 2026-11-12, also without a version bump
+([Grouping labels](DATA_FORMAT.md#grouping-labels), GitHub #19):
+`Subpart B — Flight`, `Subpart C — Reserved`, `Section 7 — Propulsion`,
+`Appendices`. Before it, FAA values were names only (`Flight`, `Appendix`,
+`Reserved`), EASA's were title-cased (`Design And Construction`), NATO's used
+an en dash, MIL-HDBK-516's read `7. PROPULSION`, and CAR's held the finer
+heading with the subpart in `subject_group`. No table, column or type
+changed, and the app's code reads the new values unchanged; a bump would
+only have forced an app release. The rule is enforced by the build
+(`check_groupings`), not the JSON Schema, so it lives in one place. Group
+links in the app keyed on the old values (`?open=Powerplant`) stop matching.
+
 ## Changes in the v1 schema
 
 The 2026-10-31 review replaced the first, regulation-only format. These names

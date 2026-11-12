@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.3.8",
   "number": "8.3.9",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Center of gravity",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.3.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores and fuel dumping operations.",
       "text": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores and fuel dumping operations.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.3.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), and fuel dumping operations.",
       "text": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), and fuel dumping operations.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.3.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, and engine feed.",
       "text": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, and engine feed. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.5, E.4.4.5.5 FAA Doc: 14CFR references: 23.1001, 25.1001",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.3.8",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, catapult launches, arrested landings, and engine feed.",
       "text": "Verify that the air vehicle center-of-gravity limits are not exceeded during all fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, catapult launches, arrested landings, and engine feed. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.5, E.4.4.5.5 FAA Doc: 14CFR references: 23.1001, 25.1001",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Center of gravity",
       "text": "Criterion: Verify that the air vehicle center of gravity limits are not exceeded during any fuel system and air vehicle functions, including release of stores, aerial refueling (if applicable), fuel transfer, fuel dumping operations, wing sweep operations, catapult launches, arrested landings, and engine feed. Standard: The fuel system (and associated control software, if applicable) maintains the aircraft within the center of gravity limits throughout the entire operational envelope (for single operator aircraft, without action by the operator) for all mission phases. Method of Compliance: Analysis indicates that center of gravity limits are not exceeded for any fuel loading under all specified flight conditions. Ground calibration tests verify fuel gauging system accuracy at those conditions critical to the air vehicle operation (e.g., stores release, fuel dump, aerial refueling). Ground and flight tests verify the performance of the air vehicle systems computer management system and cockpit or control station interfaces. References: JSSG-2009: E.3.4.5.5, E.4.4.5.5 MIL-F-17874 14 CFR 23.1001, 25.1001, 27.1001, 29.1001",
       "source_url": "https://assist.dla.mil",
@@ -63,7 +63,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Center of gravity",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

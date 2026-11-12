@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.1-516c",
   "number": "6.2.9.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Actuator redundancy management",
   "subject_group": "6.2.9 Vehicle control function actuators",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.3.1",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Redundancy management",
       "text": "Criterion: Verify that the actuator redundancy management meets the necessary requirements and is safe for operation during flight. Standard: Actuator redundancy requirements meet the handling qualities and flight safety probability requirements for the appropriate operational states. Switching between redundant functions based on failure detection and isolation does not cause a disruption which could jeopardize the air vehicle or aircrew. For cases where there are two or more actuators per control element, there is no force fight between actuators that would degrade air vehicle performance or damage/deform structure. Method of Compliance: Verification methods include analysis, test, and review of documentation. Actuator redundancy is verified by failure analyses, and actual hardware/software in-the-loop FMET (failure modes test). Redundancy includes detection, isolation and corrective action, as well as preventing propagation of failures. References: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Actuator redundancy management",
       "text": "Standard: Actuator redundancy management supports the VCF function throughout the RORH flight envelope. Actuators meet functional and PLOC requirements for the appropriate operational states. The probability of VCF actuators catastrophic failure due to propagated, common mode, or a single point failure is less probable than PLOC divided by 100. Switching between redundant hydraulic or electrical systems does not cause VCF actuator transient resulting in departure from controlled flight. If there is more than one actuator or more than one control valve for any flight control surface, there is no force fight that would degrade air vehicle flying qualities or damage structure. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Review actuators design, drawings and architecture to identify single point failures and engineering data verifying less probable than PLOC divided by 100 for all single point failures.\n(2) Provide FMECA for the actuation system.\n(3) Provide actuator reliability data in support of PLOC computation. Test.\n  (1) Lab test: Verify all actuator FMET test cases have been successfully completed.\n  (2) Lab test: Provide handling qualities simulation data verifying no worse than Operational State II after any single actuator failure.\n  (3) Lab test: Review test data showing fault detection, isolation, and reconfiguration time and transients do not result in below Operational State II.\n  (4) Lab test: Verify actuator failures are clearly displayed and annunciated to the flight crew.",
       "source_url": "https://assist.dla.mil",

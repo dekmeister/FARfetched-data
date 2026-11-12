@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.54",
   "number": "6.2.7.8",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Latencies and synchronizations",
   "subject_group": "6.2.7 VCF integrated systems safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "6.2.2.54",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that vehicle control, payload, and ground system latencies and synchronizations are safe for mission accomplishment.",
       "text": "Verify that vehicle control, payload, and ground system latencies and synchronizations are safe for mission accomplishment.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.54",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that vehicle control, payload, and ground system latencies and synchronizations are safe for mission accomplishment.",
       "text": "Verify that vehicle control, payload, and ground system latencies and synchronizations are safe for mission accomplishment. DoD/MIL Doc: ADS-51-HDBK ADS-33E-PRF Refer to Army Aviation technical point of contact for this discipline for specific guidance (listed in section A.2). FAA Doc: TBD: Refer to technical point of contact for this discipline (listed in section A.2).",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Latencies and synchronizations",
       "text": "Criterion: Verify that vehicle control, payload, and ground system latencies and synchronizations are safe. Standard: The vehicle control function integrated with any payload or ground functions does not induce latencies that result in flying qualities worse than Level I. Data latency time delays are measured from the instant of a control input to the time a recognizable response occurs. This is specified as 100 milliseconds for Level I flying qualities. The VCF integration with the payload or the control station is evaluated for safe and adequate timing, synchronization rates, instruction set architecture, misinterpretation of instructions or data, degraded data link and inability to handle basic faults. Any synchronization done in any of or the integrated functions, including a single synchronization failure or multiple single independent synchronization failures, do not cause loss of the vehicle/crew and have flying quality levels no worse than Level I. Vehicle control, payload, and ground redundancy of the integrated portions of these functions are able to operate autonomously without loss of the vehicle/crew, and have flying quality levels no worse than Level II. The VCF integration with the ground or payload function is classified flight/safety critical. The VCF integration with the ground or payload function has a stability margin of 6 dB and 45 degrees in phase and gain for each feedback loop and control loop for all flight conditions throughout the entire flight envelope. Method of Compliance: Verification methods include analysis, test, simulation, and review of documentation. The VCF vehicle control, payload, and ground system latencies and synchronizations are verified through simulation, systems analysis, FMET, and ground tests. For each control and feedback loop, analysis and simulation verifies the phase and gain margins. The analysis and simulation are validated by actual flight test data. References: ADS-51-HDBK ADS-33-PRF",
       "source_url": "https://assist.dla.mil",
@@ -41,7 +41,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Latencies and synchronizations",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

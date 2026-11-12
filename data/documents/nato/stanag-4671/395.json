@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "395",
   "number": "395",
-  "current_grouping": "Subpart C \u2013 UA Structure",
+  "current_grouping": "Subpart C \u2014 UA Structure",
   "canonical_title": "Control System Loads",
   "subject_group": "CONTROL SURFACE AND SYSTEM LOADS",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart C \u2013 UAV Structure",
+      "grouping_at_time": "Subpart C \u2014 UAV Structure",
       "title_at_revision": "Control System Loads",
       "text": "(a) Each flight control system and its supporting structure must be designed for loads corresponding to at least 125% of the computed hinge moments of the movable control surface in the conditions prescribed in USAR.391 to USAR.459. In addition, the following apply:\n  (1) The system limit loads need not exceed the higher of the loads that can be sustained by the servocontrols or actuators.\n  (2) The design must, in any case, provide a rugged system for service use, considering jamming, ground gusts, taxiing downwind (if the UAV is designed to taxi), control inertia and friction.\n(b) A 125% factor on computed hinge movements must be used to design elevator, aileron and rudder systems. However, a factor as low as 1.0 may be used if hinge moments are based on accurate flight test data, the exact reduction depending upon the accuracy and reliability of the data.\n(c) Forces occurring from the actuating system are assumed to act at the appropriate attachments of the control system to the control surface horns.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart C \u2013 UA Structure",
+      "grouping_at_time": "Subpart C \u2014 UA Structure",
       "title_at_revision": "Control System Loads",
       "text": "(a) Each flight control system and its supporting structure must be designed for loads corresponding to at least 125% of the computed hinge moments of the movable control surface in the conditions prescribed in USAR.391 to USAR.459. In addition, the following apply:\n  (1) The system limit loads need not exceed the higher of the loads that can be sustained by the servocontrols or actuators.\n  (2) The design must, in any case, provide a rugged system for service use, considering jamming, ground gusts, taxiing downwind (if the UA is designed to taxi), control inertia and friction.\n(b) A 125% factor on computed hinge movements must be used to design elevator, aileron and rudder systems. However, a factor as low as 1.0 may be used if hinge moments are based on accurate flight test data, the exact reduction depending upon the accuracy and reliability of the data.\n(c) Forces occurring from the actuating system are assumed to act at the appropriate attachments of the control system to the control surface horns.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

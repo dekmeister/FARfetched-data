@@ -3,13 +3,13 @@
   "document": "23",
   "key": "425",
   "number": "425",
-  "current_grouping": "Structure",
+  "current_grouping": "Subpart C \u2014 Structure",
   "canonical_title": "Gust loads.",
   "subject_group": "Horizontal Stabilizing and Balancing Surfaces",
   "versions": [
     {
       "designator": "23-0",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust loads.",
       "text": "(a) Each horizontal tail surface must be designed for loads resulting from--\n  (1) Positive and negative gusts of 30 feet per second nominal intensity at V_{C}, corresponding to the flight condition specified in Sec. 23.333(c), with flaps retracted; and\n  (2) Positive and negative gusts of 15 feet per second nominal intensity at V_{F} , corresponding to the flight condition specified in Sec. 23.345(a)(2), with flaps extended and at V_{D} corresponding with the flight conditions specified in Sec. 23.333(c)(2) with flaps retracted.\n(b) The average loadings in figures 3 and 4 of Appendix B and the distribution in figure 8 of Appendix B may be used instead of the requirements of subparagraph (a)(1).\n(c) When determining the total load on the horizontal tail for the conditions specified in paragraph (a) of this section, the initial balancing tail loads for steady unaccelerated flight at the pertinent design speeds V_{F}, V_{C}, and V_{D} must first be determined. The incremental tail load resulting from the gusts must be added to the initial balancing tail load to obtain the total tail load.\n(d) The incremental tail load due to the gust may be computed by the formula t = 0.1KUVS_{t}a_{t} where-- t= the limit gust load increment on the tail in pounds; K = gust coefficient K derived from Sec. 23.341; U = nominal gust intensity in feet per second; V= airplane speed in miles per hour; S_{t} = tail surface area in square feet; a_{t} = slope of lift curve of tail surface, C_{L} per degree, corrected for aspect ratio; a_{w} = slope of lift curve of wing, C_{L} per degree; and R_{w} = aspect ratio of the wing.",
       "publication_cite": "29 FR 17955",
@@ -33,7 +33,7 @@
     },
     {
       "designator": "23-7",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust loads.",
       "text": "(a) Each horizontal tail surface must be designed for loads resulting from--\n  [(1) Gust velocities specified in Sec. 23.333(c) with flaps retracted; and\n  (2) Positive and negative gusts of 25 f.p.s. nominal intensity at V_{F} , corresponding to the flight condition specified in Sec. 23.345(a)(2).\n(b) The average loadings in figures B3 and B4 of Appendix B and the distribution in figure B8 of Appendix B may be used instead of the requirements of paragraph (a)(1) of this section.]\n(c) When determining the total load on the horizontal tail for the conditions specified in paragraph (a) of this section, the initial balancing tail loads for steady unaccelerated flight at the pertinent design speeds V_{F}, V_{C}, and V_{D} must first be determined. The incremental tail load resulting from the gusts must be added to the initial balancing tail load to obtain the total tail load.\n[(d) In the absence of a more rational analysis, the incremental tail load due to the gust must be computed as follows: where-- = Incremental horizontal tail load (lbs.); K_{g} = Gust alleviation factor defined in Sec. 23.341; U_{de} = Derived gust velocity (f.p.s.); V= Airplane equivalent speed (knots); a_{ht} = Slope of aft horizontal tail lift curve (per radian); S_{ht} = Area of horizontal tail (ft^{2}); and = Downwash factor.]",
       "publication_cite": "34 FR 13089",
@@ -57,7 +57,7 @@
     },
     {
       "designator": "23-42",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Gust loads.",
       "text": "[(a) Each horizontal surface, other than a main wing, must be designed for loads resulting from--]\n  (1) Gust velocities specified in Sec. 23.333(c) with flaps retracted; and\n  (2) Positive and negative gusts of 25 f.p.s. nominal intensity at V_{F} , corresponding to the flight conditions specified in Sec. 23.345(a)(2).\n[(b) [Reserved.]\n(c) When determining the total load on the horizontal surfaces for the conditions specified in paragraph (a) of this section, the initial balancing loads for steady unaccelerated flight at the pertinent design speeds V_{F}, V_{C}, and V_{D} must first be determined. The incremental load resulting from the gusts must be added to the initial balancing load to obtain the total load.\n(d) In the absence of a more rational analysis, the incremental load due to the gust must be computed as follows only on airplane configurations with aft-mounted, horizontal surfaces, unless its use elsewhere is shown to be conservative:] where-- = Incremental horizontal tail load (lbs.); K_{g} = Gust alleviation factor defined in Sec. 23.341; U_{de} = Derived gust velocity (f.p.s.); V = Airplane equivalent speed (knots); [a_{ht} = Slope of aft horizontal tail lift curve (per radian); S_{ht} = Area of aft horizontal lift surface (ft^{2}); and = Downwash factor.]",
       "publication_cite": "56 FR 353",

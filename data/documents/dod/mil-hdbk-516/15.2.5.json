@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "15.2.5",
   "number": "15.2.5",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Simulations, models, and tools",
   "subject_group": "15.2 Design and functional integration of system processing architecture elements",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Simulations, models and tools",
       "text": "Criterion: Verify that simulators, models, and tools used in the development, integration, and testing of software and hardware supporting SCFs have been appropriately qualified and validated. Standard: All simulators, models, and tools used for design, development, integration, and test have been identified and a qualification and validation approach has been defined. Each simulator, model, and tool is identified as off-the-shelf (commercial or government), modified, or developed for the application, and has been adequately qualified (for Navy, accredited) and validated for its intended use to the appropriate qualification level. Verification tools do not mask safety issues within products they are used to verify. Method of Compliance: Verification methods include analysis, test, and inspection. Verify that the qualification/validation (for Navy, accreditation) approach is defined and documented. Inspect tool documentation to ensure all simulators, models, and tools have been identified, highlighting how they are used and if they are off-the-shelf, modified, or newly developed. Analyses and tests verify the effectiveness (accuracy and fidelity) of the output performance for all simulators, models, and tools. Analyses and tests ensure verification tools do not mask product problems. References: JSSG-2008 Appendix A: 4.0 Verification Guidance, Verification section item 4 - Analysis of requirements paragraph and the Laboratory Tests section item 3.b.2; 3.1.5 Requirement Guidance; 4.1.5.1 Verification Lessons Learned; 4.2.2.2.6 Verification Lessons Learned; 4.2.2.5 Verification Lessons Learned; 4.3.4 Verification Lessons Learned; 3.3.6.3; 4.7.1 Verification Lessons Learned JSSG-2008 Appendix B: 4.3.6; A3.1.7; A14.5.5 DoD JSSSEH: 3.11; 3.12.3; F.3.3.k; G.1; G.4.4; G.4.7; Appendix I DA PAM 5-11: VV&A of Army Models and Simulations NASA-STD-7009: 4.0 and various subparagraphs RTCA DO-178: 12.2 of RTCA DO-178C (see also RTCA DO-178B) RTCA DO-254: 11.4 FAA AC 20-115C FAA AC 20-152 DOT/FAA/AR-07/48: 5.0",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Simulations, models, and tools",
       "text": "Standard: 1. Verify that simulators, models, and tools used in the development, integration, and testing of software and hardware supporting SCFs have been appropriately qualified and validated. All simulators, models, and tools used for design, development, integration, and test have been identified and a qualification and validation approach has been defined. Each simulator, model, and tool is identified as off-the-shelf (commercial or government), modified, or developed for the application, has been adequately qualified and validated for its intended use to the appropriate qualification level to include showing equivalent performance to the actual air system configuration as needed for the V&V being performed. Verification tools do not mask safety issues within products they are used to verify. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, and examination. Verify that the qualification and validation approach is defined and documented. Examine tool documentation to ensure all simulators, models, and tools have been identified, highlighting how they are used and if they are off-the-shelf, modified, or newly developed. Analyses and tests verify the equivalent performance (accuracy and fidelity) of all simulators, models, and tools to the actual air system configuration, as needed for the V&V being performed. Analyses and tests ensure verification tools do not mask product problems.",
       "source_url": "https://assist.dla.mil",

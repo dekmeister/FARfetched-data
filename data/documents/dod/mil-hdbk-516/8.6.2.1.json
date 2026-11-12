@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.6.2.1",
   "number": "8.6.2.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Safety features shutdown",
   "subject_group": "8.6.2 System operations",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.6.2.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation.",
       "text": "Verify that protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.6.2.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation.",
       "text": "Verify that protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation. DoD/MIL Doc: JSSG-2009 Appendix C: C.3.4.3.12.1, C.4.4.3.12.1 FAA Doc: TSO C77b 4.6.2",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.6.2.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Safety features/shutdown systems",
       "text": "Criterion: Verify that protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation. Standard: Protective safety features (auto shutdown, etc.) are available and effective in protecting the equipment against hazardous malfunctions and conditions such as over-speed, over-temperature and inadvertent activation. Method of Compliance: Inspection of system safety documentation (FMECA) verifies safe system operation or termination following any combination of failures that have a probability of occurrence greater than one in ten million, or single control system failure. Software verification and validation testing, control system integration tests, and vehicle integration tests verify intended operation. All protective shutdown features are verified by test at the controller (via simulated inputs) and system levels. References: JSSG-2009: Appendix C FAA TSO-C77: 4.6.2",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Safety features shutdown",
       "text": "Standard: The APU has shutdown features to protect the equipment against hazardous malfunctions and conditions such as overspeed, overtemperature, and inadvertent activation. Shutdown features can be overridden to prevent loss of SCFs during emergency scenarios. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of system design document identifies and describes system hardware and function of protective shutdown. Analysis.\n  (1) Conduct system safety analyses (e.g., SSHA) to verify continued system operation or termination following any single failure or combination of failures (e.g., overspeed and overtemperature) that would lead to critical or catastrophic consequences. The analysis also identifies that loss of a shutdown feature (e.g. exhaust gas temperature thermocouple failure, overtemperature at run, overtemperature at start) does not inhibit SCFs during in flight emergency scenarios. Test.\n    (1) Lab test: Conduct software V&V testing (e.g., FMET) to verify that the system enables the shutdown features to prevent damage to the APS and emergency power system.\n    (2) Lab test: Conduct system HITL to verify all protective shutdown features are verified to function as intended via simulated inputs.\n    (3) Ground test: Conduct air vehicle integration testing to verify intended operation of all APS and emergency power system protective shutdown features.",
       "source_url": "https://assist.dla.mil",

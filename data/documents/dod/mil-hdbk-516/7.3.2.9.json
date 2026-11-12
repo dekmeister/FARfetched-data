@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.9",
   "number": "8.8.8",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Rotor securing",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.9",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the rotors can be held from rotating in winds at specified velocities and directions, during engine nonoperation, power up, and ground idle conditions.",
       "text": "Verify that the rotors can be held from rotating in winds at specified velocities and directions, during engine nonoperation, power up, and ground idle conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.3.2.9",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the rotors can be held from rotating in winds at specified velocities and directions, during engine nonoperation, power up, and ground idle conditions.",
       "text": "Verify that the rotors can be held from rotating in winds at specified velocities and directions, during engine nonoperation, power up, and ground idle conditions. DoD/MIL Doc: JSSG-2009: I.3.4.9.4.1, I.4.4.9.4.1",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.9",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Rotor securing",
       "text": "Criterion: Verify that the rotors can be held from rotating in winds at specified velocities and directions, during engine nonoperation, power up, and ground idle conditions. Standard: A means of preventing rotation of the rotor in winds up to 45 knots is provided. The system is capable of being operated from the cockpit, by the operator, or by the maintainer and capable of 1000 engagements without failure of any of the parts. Method of Compliance: Verification methods include analysis, test, demonstration and review of documentation. Analyses include heat generation, provisions for isolation from flammable materials or fluids, energy absorption rate and effects on the dynamic response of the transmission. Component bench and system level testing demonstrate the capability to keep the rotors from rotating when exposed to the specified conditions. The brake's ability to perform the specified repeated single engine startup cycles at the specified power without failure or damage to other components is demonstrated by component endurance tests and a limited demonstration at the system level. The system level test demonstrates the ability of the engine interlock safeguard system to prevent actuation during specified periods. References: JSSG-2009: K.4.4.11.3 ADS-50-PRF",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Rotor securing",
       "text": "Standard: Rotors can be held from rotating in winds up to 45 kts, from any direction, during engine power up and at ground idle to prevent inadvertent liftoff under heavy winds. The system is capable of being operated from the cockpit by the flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, system configuration descriptions) to verify rotor brake(s) can be operated by the flight crew from the cockpit. Analysis.\n  (1) Conduct a torque sizing analysis to verify ability of brake(s) to secure rotors up to winds of 45 kts.\n  (2) Conduct static strength analysis to verify braking components meet limit and ultimate torque conditions. Ultimate load is defined as 2X limit torque. Demonstration.\n    (1) Conduct ground demonstration to verify the capability to keep the rotors from rotating under 45 kts winds during engine power up and at ground idle. Test.\n      (1) Lab test: Conduct lab test to verify brake(s) can produce and hold required torque.",
       "source_url": "https://assist.dla.mil",

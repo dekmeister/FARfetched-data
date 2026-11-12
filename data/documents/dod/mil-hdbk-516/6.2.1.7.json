@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.7",
   "number": "6.2.1.1",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Probability of loss of control",
   "subject_group": "6.2.1 Failure response and probability of loss of control",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.1.7",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Probability of loss of aircraft (PLOA)",
       "text": "Criterion: Verify that PLOA requirements have been correctly allocated down to a design-controllable Probability of Loss of Control (PLOC) for the Vehicle Control Function (VCF) and that estimates and associated assumptions are adequately substantiated. Standard: The procuring agency determines an acceptable PLOA. It is recommended to specify this requirement in the air vehicle/weapon system specification. Based on PLOA, the procuring agency determines the PLOC requirement is within the VCF specification. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. The VCF robustness including redundancy management and reliability is verified by analysis, component testing, and system level testing. The PLOC and PLOA requirements are verified by analysis, such as a Fault Tree Analysis (FTA) or Reliability Block Diagram (RBD) representations. The contractor provides a complete system level analysis including verifiable reliability and failure rates. The contractor provides justifiable rationale for all assumptions included in the analysis. If historical reliability data is used, all pertinent information regarding the legacy system is provided to support applicability to the system under review. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Probability of loss of control",
       "text": "Standard: The VCF PLOC per flight hour does not exceed 10-7 . Vehicle control function PLOC analysis includes material failures in the VCF and integrated subsystems required to support flight-critical VCF functionality during flight and ground operations. All PLOC estimates and corresponding assumptions are substantiated. The VCF PLOC analysis is performed IAW SAE AS94900A (if the air vehicle is a UAV, SAE ARP94910), Flight Safety Assessment section. Tailoring of PLOC, if necessary, should be coordinated early in the AW planning process to ensure any impacts to other sections are properly identified, agreed, and addressed. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Failure modes, effects, and criticality assessment at the VCF system, subsystem, and component level is performed for flight and ground operations to identify failure modes, failure rates, failure detection methods, and consequences. As part of this analysis, safety-critical failure modes are identified.\n(2) Fault tree analysis or RBDs representing the end-to-end flight-critical VCF functionality, including redundancy management, are developed and documented to include failure modes, failure rates, and consequences for failure combinations that impact the VCF and result in air vehicle loss of control. Failure combinations include VCF subsystems and components as well as integrated subsystems required to support flight-critical VCF functionality.\n(3) Failure probabilities are substantiated with appropriate data and analysis. Substantiating reliability data may include field data from similar products and configurations, analysis of individual components with specified reliability in a representative environment (e.g., thermal, vibratory, thermal and mechanical shock, endurance cycles), or reliability testing on a statistically significant sample of components.\n(4) Effects of imperfect fault coverage are accounted for in the analysis IAW SAE AS94900A (if the air vehicle is a UAV, SAE ARP94910), Effects of Imperfect Fault Detection section. Any methods used to increase fault detection coverage (e.g., use of dissimilar sources to generate analytical signals for signal selection logic) or mitigate failure consequences (e.g., design robustness to worst case errors) should be considered as part of this analysis.",
       "source_url": "https://assist.dla.mil",

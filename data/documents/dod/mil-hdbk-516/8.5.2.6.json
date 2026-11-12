@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.2.6",
   "number": "8.5.1.8",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Kneeling",
   "subject_group": "8.5.1 Landing gear general arrangement",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.5.2.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle.",
       "text": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.2.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle.",
       "text": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.10/A.4.4.1.10 Specialized subsystems AFGS-87139: para 3.1.9 Specialized subsystems.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.2.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle.",
       "text": "Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle. DoD/MIL Doc: JSSG-2009 Appendix A: A.3.4.1.10/A.4.4.1.10 Specialized subsystems AFGS-87139: 3.1.9 Specialized subsystems.",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.2.6",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Kneeling",
       "text": "Criterion: Verify the landing gear kneeling capability allows for safe kneeling of the air vehicle. Standard: For air vehicles that have kneeling capability, lowering and raising of the air vehicle is accomplished in a predictable and controllable manner, with no sudden or adverse movements. Method of Compliance: Verification methods include analyses, tests and demonstrations. Design analysis verifies kneeling system operation and limits of operation. Air vehicle tests verify the design and the analysis for all required operational and environmental conditions. Ground operational demonstrations verify that the kneeling system meets operators' requirements. References: JSSG-2009: A.3.4.1.10, A.4.4.1.10 Specialized subsystems AFGS-87139: 3.1.9 Specialized subsystems.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Kneeling",
       "text": "Standard: For air vehicles equipped with landing gear kneeling capability, the control systems will enable lowering and raising of the air vehicle in a controlled and predictable manner that allows the landing gear to be returned to a configuration required for landing and flight, without sudden or adverse movements that may cause damage or result in an AW hazard. The kneeling system controls will be clearly identifiable, indicate gear position or status, and remain accessible to both ground and flight crew. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of drawings and inspection of air vehicle verifies controls are accessible.\n(2) Review of technical publications verifies proper procedures and sequencing for kneeling operations. Analysis.\n  (1) Analysis verifies the kneeling system is sized to raise and lower air vehicle, maintain air vehicle in the final positions to allow loading and unloading, and be configured for flight. All kneeling movement is controllable.\n  (2) Static strength analysis verifies air vehicle and landing gear structural components have positive strength margins for DLLs and ultimate loads (1.5X DLLs). Yielding does not occur at or below 115% DLL. No rupture, buckling, or collapsing failures occur at or below ultimate loads. If support equipment is used, positive strength margins of 3X DLL are maintained for support equipment. Demonstration.\n    (1) Conduct demonstration on the air vehicle to verify kneeling capability during required operational and environmental conditions, and the kneeling control system indicates the landing gear is in the commanded position. Test.\n      (1) Lab test: Conduct testing of hardware for kneeling to verify the strength analysis of air vehicle and landing gear structural components strength margins.\n      (2) Ground test: Conduct ground testing of structural components to verify load and stresses are within design margins.",
       "source_url": "https://assist.dla.mil",

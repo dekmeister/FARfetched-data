@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.39",
   "number": "6.2.11.6",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Functional modes and limiters",
   "subject_group": "6.2.11 Vehicle control function control law safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.2.39",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that any functional modes do not defeat any limiters designed for vehicle safety.",
       "text": "Verify that any functional modes do not defeat any limiters designed for vehicle safety.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.39",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that any functional modes do not defeat any limiters designed for vehicle safety.",
       "text": "Verify that any functional modes do not defeat any limiters designed for vehicle safety. DoD/MIL Doc: JSSG-2008: para 3.0, 3.1, 3.1.5.2, 3.1.5.8, 3.1.5.9, 3.1.7.2, 3.1.7.3, 3.1.11, 3.1.11.2, 3.1.13.1, 3.1.13.3, 3.1.14, 3.1.14.7, 3.2.2.2.4, 3.2.2.2.5, 3.2.2.2.9, 3.2.2.2.11, 3.2.2.4, 3.2.2.5.1, 3.2.2.5.1.1 thru 3.2.2.5.1.4, 3.2.2.5.4.1, 3.2.2.6, 3.3.2.1, 3.3.6.2, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.2.39",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that any functional modes do not defeat any limiters designed for vehicle safety.",
       "text": "Verify that any functional modes do not defeat any limiters designed for vehicle safety. DoD/MIL Doc: JSSG-2008: 3.0, 3.1, 3.1.5.2, 3.1.5.8, 3.1.5.9, 3.1.7.2, 3.1.7.3, 3.1.11, 3.1.11.2, 3.1.13.1, 3.1.13.3, 3.1.14, 3.1.14.7, 3.2.2.2.4, 3.2.2.2.5, 3.2.2.2.9, 3.2.2.2.11, 3.2.2.4, 3.2.2.5.1, 3.2.2.5.1.1 thru 3.2.2.5.1.4, 3.2.2.5.4.1, 3.2.2.6, 3.3.2.1, 3.3.6.2, and associated section 4 paragraphs FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.2.5",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Functional modes and limiters",
       "text": "Criterion: Verify that any functional modes do not defeat any limiters designed for vehicle safety. Standard: The control law limiters protect the aircrew and air vehicle from unsafe flight regimes. The VCF incorporates structural, angle of attack, sideslip, data input rate, command, data input max and min, time, persistence, stale data, and other limiters/filters defined by the application at hand. Each limiter used accomplishes the intended limiting without ever causing loss of the control function, a departure from controlled flight, loss of vehicle and/or aircrew for any condition throughout the entire flight and ground envelopes. No VCF or integrating control function induces conditions that defeat control law limiters. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. Analysis determines the limiters required, where in the control scheme they are used, and the conditions that need to be limited. Hardware-In-The Loop (HITL) testing of each function or probable combinations of functions conducted at worst case limiting conditions verifies the adequacy of the limiter. References: JSSG-2008: 3.0, 3.1, 3.1.5.2, 3.1.5.8, 3.1.5.9, 3.1.7.2, 3.1.7.3, 3.1.11, 3.1.11.2, 3.1.13.1, 3.1.13.3, 3.1.14, 3.1.14.7, 3.2.2.2.4, 3.2.2.2.5, 3.2.2.2.9, 3.2.2.2.11, 3.2.2.4, 3.2.2.5.1, 3.2.2.5.1.1 through 3.2.2.5.1.4, 3.2.2.5.4.1, 3.2.2.6, 3.3.2.1, 3.3.6.2, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Functional modes and limiters",
       "text": "Standard: Vehicle control function limiters and filters incorporated to protect the air vehicle or flight crew (e.g., structural, AOA, sideslip, flight crew command) function as expected throughout the entire flight and ground envelopes without causing loss of the control function, departure from controlled flight, or loss of air vehicle and flight crew. No VCF or integrating control function creates conditions that defeat the limiters. If flight crew override of structural limiters is provided for use in emergency conditions, the achieved flight condition will not result in loss of control of the air vehicle due to structural deformation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation for appropriate and effective use of limiters to protect the vehicle or flight crew.\n(2) Review design documentation for appropriate and effective use of filters to protect the vehicle or flight crew. Analysis.\n  (1) Conduct simulation analysis to verify limiters and filters function as expected throughout the flight envelope without indications of loss of control or air vehicle. Verify limiters are not defeated and do not reduce capability in regions where the limiting may be active but not necessary to protect the air vehicle. Test.\n    (1) Lab test: Conduct HITL, and PITL for manned air vehicles, simulation to verify limiters, and flight crew override function as expected throughout the flight envelope without indications of loss control of the air vehicle. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct flight test to verify limiters function as expected throughout the flight envelope.",
       "source_url": "https://assist.dla.mil",

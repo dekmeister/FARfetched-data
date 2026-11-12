@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.1.12.3",
   "number": "6.1.4.18",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Pilot control inceptor characteristics",
   "subject_group": "6.1.4 Fixed-wing general flying qualities",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.1.12.3",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Cockpit controller characteristics",
       "text": "Criterion: Verify that the cockpit/control station controller characteristics are safe. Standard: The air vehicle meets the standards within the following MIL-STD-1797 paragraphs: a. 5.2.8.3 Cockpit controller characteristics. b. 5.2.8.3.1 Control force versus control deflection. c. 5.2.8.3.2 Control centering. d. 5.2.8.3.3 Control free play. f. 5.2.8.3.4 Control displacement limits. g. 5.2.8.3.5 Dynamic characteristics (see table C and CI for guidance). h. 5.2.8.3.6 Control system damping. i. 5.2.8.3.7 Direct force controllers. For rotorcraft, the air vehicle meets standards within ADS-33-PRF, 3.6 Controller characteristics. Method of Compliance: Verification methods include analysis, test, demonstration, simulation, and inspection of process, requirements, design, test, and configuration documentation.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Pilot control inceptor characteristics",
       "text": "Standard: Pilot control inceptor characteristics do not result in flying qualities worse than Level 2. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis and simulation to assess the cockpit controller characteristics as specified in MIL-STD-1797, Cockpit Controller Characteristics paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Test.\n  (1) Lab test: Conduct piloted simulation and evaluation to assess the cockpit controller characteristics as specified in MIL-STD-1797, Cockpit Controller Characteristics paragraph, for each combination of regions of handling qualities, air vehicle states, flight phases, and environmental conditions. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (2) Flight test: Conduct flight test to assess the cockpit controller characteristics as specified in MIL-STD-1797, Cockpit Controller Characteristics paragraph, for selected combinations of regions of handling qualities, air vehicle states, flight phases, and environmental conditions.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "stanag-4671",
   "key": "U1711",
   "number": "U1711",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "UCS data recorder",
   "subject_group": "GENERAL",
   "versions": [
     {
       "designator": "Ed1",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "UCS data recorder",
       "text": "See AMC.1711 and AMC.1711 (a) If required by the Certifying Authority, the installation of data recorder in the UCS must comply with the following:\n(a) The UCS must be equipped with a data recorder that continuously record all the data transmitted via the command and control data link and the status of the UCS.\n(b) The storage capacity of the data recorder must be compatible with the record of the three last flight hours or compatible with the maximum duration of flight for which the certification is requested, which ever is lower.\n(c) The time basis used by the data recorder must be synchronised with an uniform time basis, and,\n  (1) the downlink data must be labelled and recorded with the time basis at which they have been generated in the UAV,\n  (2) the uplink data must be labelled and recorded with the time basis at which they have been generated in the UCS,\n  (3) A reference to Air Traffic Control time must be recorded.\n(d) Time basis of the required UAV System recorders shall allow a post synchronisation of all recorded data or information with an accuracy better than half a second between any of the recorders.\n(e) The UCS should provide a function that is able to read the data recorder for post-flight operation.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "UCS data recorder",
       "text": "See AMC.U1711 and AMC.U1711 (a) If required by the Certifying Authority, the installation of data recorder in the UCS must comply with the following:\n(a) The UCS must be equipped with a data recorder that continuously record all the data transmitted via the command and control data link and the status of the UCS.\n(b) The storage capacity of the data recorder should be compatible with recording the maximum duration of flight for which the certification is requested.\n(c) The time basis used by the data recorder must be synchronised with an uniform time basis, and\n  (1) the downlink data must be labelled and recorded with the time basis at which they have been generated in the UA,\n  (2) the uplink data must be labelled and recorded with the time basis at which they have been generated in the UCS,\n  (3) A reference to Air Traffic Control time must be recorded.\n(d) Time basis of the required UAS recorders shall allow a post synchronisation of all recorded data or information with an accuracy better than half a second between any of the recorders.\n(e) The UCS should provide a function that is able to read the data recorder for post-flight operation.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

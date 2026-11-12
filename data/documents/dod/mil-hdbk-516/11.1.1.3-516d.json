@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "11.1.1.3-516d",
   "number": "11.1.1.3",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Datalink command and control",
   "subject_group": "11.1.1 Communication",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Datalink command and control",
       "text": "Standard: The availability, latency, continuity, and integrity of off-board datalink C2 (e.g., automatic and semi-automatic man-in-the-loop guidance) support safety-critical communications. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Document the communication subsystem architecture and identify the safety-critical hardware and software item list.\n(2) Document the minimum requirements for availability, latency, continuity, and integrity.\n(3) Verify redundancy is incorporated into the system and document lost link contingency procedures. Analysis.\n  (1) Verify that the SSHA identifies hazards, their severity, along with any design and procedural mitigations.\n  (2) Verify failures that can result in critical or catastrophic severity hazards occur at a rate less than or equal to 10-7 per flight hour.\n  (3) Accomplish a link margin analysis to ensure the reliability of safety-critical communications.\n  (4) Demonstrate that antenna patterns provide the necessary coverage to preclude signal loss and that the impact of antenna nulls is mitigated. Test.\n    (1) Lab test: Conduct HITL lab testing to verify performance requirements of the representative hardware and software configuration.\n    (2) Lab test: Conduct HITL lab testing to introduce system faults identified in analysis and evaluate the consequence of those failures.\n    (3) Ground test: Conduct air vehicle ground testing to verify performance requirements of the representative hardware and software configuration. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight testing to verify installed performance requirements, datalink switchover (if applicable), and lost link contingency procedures.",
       "source_url": "https://assist.dla.mil",

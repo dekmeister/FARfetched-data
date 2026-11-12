@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.4",
   "number": "6.2.16.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Transients, fluctuations, and transitions",
   "subject_group": "6.2.16 Vehicle control function hydraulic power source safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.3.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe.",
       "text": "Verify any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.3.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe.",
       "text": "Verify that any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.5.2, 4.1.5.2, 3.1.5.6, 4.1.5.6, 3.1.7.2, 4.1.7.2, 3.1.10, 4.1.10, 3.1.11.11.3, 4.1.11.11.3, 3.1.13, 4.1.13, 3.2.2.2.1, 4.2.2.2.1, 3.2.2.2.5, 4.2.2.2.5 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.3.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe.",
       "text": "Verify that any VCF flight limitations with emergency/backup hydraulic power and switchover time constants are safe. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.5.2, 4.1.5.2, 3.1.5.6, 4.1.5.6, 3.1.7.2, 4.1.7.2, 3.1.10, 4.1.10, 3.1.11.11.3, 4.1.11.11.3, 3.1.13, 4.1.13, 3.2.2.2.1, 4.2.2.2.1, 3.2.2.2.5, 4.2.2.2.5 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.10.4",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Transients/fluctuations",
       "text": "Criterion: Verify that VCF flight limitations for emergency/backup hydraulic power and switchover time constants are safe. Standard: Hydraulic power transients due to switching sources (e.g., Auxiliary Power System (APS), Emergency Power System (EPS)), accumulators, valves, relays, controllers, and any other devices do not cause any power fluctuations that result in loss of VCF. Hydraulic power transients do not cause loss of VCF. Health monitoring is provided and meets other criteria in Section 10, Diagnostics Systems, with regards to diagnostics and Built-In-Test (BIT). Method of Compliance: Verification methods include analysis, tests, simulation, and review of documentation. Hardware in the Loop (HITL) and on aircraft ground tests verify no loss of VCF for any power transients. Hardware in the Loop (HITL) testing including FMET with induced transients verify no loss of VCF. The diagnostic and health monitoring to support the hydraulic and VCF functions is verified through Hardware in the Loop (HITL) and ground testing. References: JSSG-2008: 3.0, 3.1, 3.1.5.2, 3.1.5.6, 3.1.7.2, 3.1.10, 3.1.11.11.3, 3.1.13, 3.2.2.2.1, 3.2.2.2.5, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Transients, fluctuations, and transitions",
       "text": "Standard: Hydraulic power transients due to switching sources, accumulators, valves, relays, controllers, and any other devices do not cause any hydraulic power fluctuations that result in loss of VCF. Vehicle control function does not degrade below Operational State III as a result of transition to backup or emergency hydraulic operation. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Test.\n(1) Lab test: Conduct VCF and hydraulic system integrated loaded rate performance test on a flight representative hydraulic system.\n(2) Lab test: Conduct VCF and hydraulic system integrated performance test to evaluate actuator stability.\n(3) Lab test: Conduct PITL simulation to verify hydraulic transitions will not cause the VCF to degrade below Operational State III.",
       "source_url": "https://assist.dla.mil",

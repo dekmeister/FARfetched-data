@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.12.7",
   "number": "8.5.15.2",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Single point failures",
   "subject_group": "8.5.15 Landing gear and deceleration systems overarching standards",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.12.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify all known potential single-point failures are identified and are acceptable.",
       "text": "Verify all known potential single-point failures are identified and are acceptable.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.12.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify all known potential single-point failures are identified and are acceptable.",
       "text": "Verify all known potential single-point failures are identified and are acceptable. DoD/MIL Doc: JSSG-2009: para 3.2.7.4.4.1/4.2.7.4.4.1 Safety and mission critical functions; and Appendix A: A.3.4.1.3.1.3/A.4.4.1.3.1.3 Failure tolerance; AFGS-87139: para 3.5 System safety. FAA Doc: 14CFR reference: 23.471-23.511, 25.471-25.519, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.12.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify all known potential single-point failures are identified and are acceptable.",
       "text": "Verify all known potential single-point failures are identified and are acceptable. DoD/MIL Doc: JSSG-2009: 3.2.7.4.4.1/4.2.7.4.4.1 Safety and mission critical functions; and Appendix A: A.3.4.1.3.1.3/A.4.4.1.3.1.3 Failure tolerance AFGS-87139: 3.5 System safety FAA Doc: 14CFR reference: 23.471-23.511, 25.471-25.519, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.12.7",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Failure modes and effects",
       "text": "Criterion: Verify all known potential single-point failures are identified and are acceptable. Standard: No single component or function failure results in loss of any one of the following: extend system, deceleration function, air vehicle support or directional control on the ground. Loss of primary landing gear functions/performance due to single-point failure is mitigated by an alternate means of accomplishing the function (preferably independent from the primary power and control). Method of Compliance: Verification methods include analyses, tests and simulations. Design analysis and FMECA identify all possible failure events and list the alternate operational capabilities. Simulator, ground and flight testing verify acceptable alternate operation. References: JSSG-2009: 3.2.7.4.4.1, 4.2.7.4.4.1 Safety and mission critical functions; A.3.4.1.3.1.3, A.4.4.1.3.1.3 Failure tolerance AFGS-87139: 3.5 System safety 14 CFR 23.471-23.511, 25.471-25.519, 25.1309 AC 25-1309-1A",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Single point failures",
       "text": "Standard: No single component or function failure of the landing gear system results in the loss of any one of the following functions: ability to extend landing gear, ability to extend an operational arresting gear, decelerating air vehicle, air vehicle ground loading support, and ground directional control. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct a landing gear system FMECA and SSHA to identify all single point failures which result in a loss of a landing gear SCF and any mitigations to those failures. Test.\n  (1) Lab test: Conduct FMET to verify SCFs can be maintained under single point failure conditions.",
       "source_url": "https://assist.dla.mil",

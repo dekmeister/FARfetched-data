@@ -53,7 +53,7 @@ def _provision(key: str, number: str, versions: list[dict]) -> dict:
         number,
         versions,
         key=key,
-        grouping="Systems engineering",
+        grouping="Section 4 — Systems Engineering",
         title=f"Criterion {key}",
     )
 

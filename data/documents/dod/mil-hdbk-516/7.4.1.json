@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.4.1",
   "number": "7.4.1",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Engine control system",
   "subject_group": "7.4 Propulsion components and subsystems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Verify that the engine control system performs safely under all required conditions.",
       "text": "Verify that the engine control system performs safely under all required conditions.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.2.4.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine control system maintains safe engine operation under all required conditions.",
       "text": "Verify that the engine control system maintains safe engine operation under all required conditions. DoD/MIL Doc: JSSG-2007A: para A.3.7.2/A.4.7.2, control systems design and verification. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "7.2.4.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that the engine control system maintains safe engine operation under all required conditions.",
       "text": "Verify that the engine control system maintains safe engine operation under all required conditions. DoD/MIL Doc: JSSG-2007A: A.3.7.2/A.4.7.2, control systems design and verification. FAA Doc: 14CFR references: 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.2.4.1.1",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Engine control system",
       "text": "Criterion: Verify that the engine control system maintains safe engine operation under all required conditions. Standard: The control system provides required levels of engine performance and operability in accordance with 7.2.1 and 7.2.2 without exceeding engine design limits. The architecture accommodates all control mode operations, including failure conditions. Method of Compliance: Verification methods include analysis, test, inspection and review of documentation. A Failure Modes, Effects and Criticality Analysis (FMECA) and a System Safety Hazard Analysis (SSHA) of the control system establish a list of all known potential failure modes, their associated probabilities and an analysis of engine effects. Closed loop bench testing, using production qualified components, ensures that the system can properly interact with all other systems and components on the engine. Engine sea level and altitude testing demonstrate the control system's ability to maintain required levels of speed, temperature, pressure and fuel flow throughout the flight envelope. Closed loop fault injection bench testing ensures the control system can correctly identify and accommodate known critical failures. Engine sea level and altitude testing provide opportunities to inject faults into the control system and evaluate the engine's ability to respond within specification limits. Flight testing ensures the engine performs as required and that there are no unaccounted for installation effects. Alternative compliance approaches include similarity to other military systems or previous civil (e.g., FAA) airworthiness certification support documentation. References: JSSG-2007: A.3.7.2, A.4.7.2 Control systems design and verification 14 CFR 33.27, 33.28, 33.91",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Engine control system",
       "text": "Standard: Engine control system maintains engine operation IAW capability established in 7.2 standards without exceeding defined engine operating limits and without detrimental permanent deformation or damage when operated, under steady state and transient conditions. The architecture accommodates all control mode operations, including failure conditions. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., engine control system design documentation, hardware drawings, system configuration descriptions, installed hardware, materials and manufacturing records, design data records, inspection reports, or other substantiating records and reports) to verify the architecture accommodates both steady state and transient engine operation, including failure conditions, across the entire flight and ground envelope.\n(2) Review FMECA of the control system to verify the impact of engine control, sensor and effector failures, or malfunctions on engine operation.\n(3) Review System Safety Assessment of the control system to identify faults or failures, and their predicted failure rates, that result in a change in thrust or power, transmission of erroneous data, or an effect on engine operability producing a surge or stall. Analysis.\n  (1) Analysis based on other military systems or previous civil AW certification support documentation are conducted to verify design of the engine control system. Test.\n    (1) Lab test: Closed loop bench testing, using production qualified components, ensures that the system can properly interact with all other systems and components on the engine.\n    (2) Lab test: Closed loop fault injection bench testing ensures the control system can correctly identify and accommodate known critical failures.\n    (3) Lab test: Engine ground-based sea level and altitude cell testing verifies the control system\u2019s ability to maintain speed, temperature, pressure, and fuel flow throughout the engine operating envelope. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Flight testing provides required levels of engine performance and operability IAW 7.2.",
       "source_url": "https://assist.dla.mil",

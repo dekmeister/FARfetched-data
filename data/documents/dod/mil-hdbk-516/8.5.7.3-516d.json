@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "8.5.7.3-516d",
   "number": "8.5.7.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Autonomous braking",
   "subject_group": "8.5.7 Brake control and antiskid",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Autonomous braking",
       "text": "Standard: Autonomous and non-cockpit braking system can control and stop the air vehicle under all taxi, runway lengths, and conditions (e.g., wet, dry, and roughness). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review control logic command modes are present and allow different deceleration rates to stop air vehicle under varying surface conditions. Test.\n  (1) Lab test: Conduct HITL and simulator testing to verify control modes stop the air vehicle to meet required conditions (e.g., runway length, directional control, different runway coefficient of friction).\n  (2) Ground test: A buildup ground test verifies the software control algorithm can maintain required air vehicle speed and brake pressure and torque rates to allow taxiing and stopping of air vehicle between waypoints. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (3) Flight test: A buildup flight test verifies the software control algorithm can maintain required air vehicle deceleration and brake pressure and torque application rates to perform rejected takeoffs and landings.",
       "source_url": "https://assist.dla.mil",

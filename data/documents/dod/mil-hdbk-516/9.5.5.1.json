@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.5.5.1",
   "number": "9.5.5.1",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Escape path clearance system modes",
   "subject_group": "9.5.5 Escape path clearance",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Escape path clearance system modes",
       "text": "Standard: The escape path subsystem consists of a primary automatic mode, a backup automatic mode, and a manual mode. The failure of any of the three modes does not affect the performance of the remaining modes. Systems incorporating a canopy or hatch jettison system, in primary automatic mode, incorporate a mechanism that prevents the escape system from colliding with the canopy or hatch before jettison. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) The escape system modes are verified by examination of engineering drawings or digital models and confirming: a. The primary mode is initiated automatically through dual redundant paths when an ejection is initiated. b. The system has a means to automatically clear the escape path when the primary system fails. c. There is a means to manually initiate the escape path clearance system without initiating an ejection. d. A mechanism is present in the design in canopy or hatch jettison systems to prevent collisions in primary automatic mode. Analysis.\n  (1) Analysis of the trajectory of the canopy or hatch show that the delay timing provides clearance for the all occupant and seat configurations. Test.\n    (1) Lab test: Breadboard testing of the mode selection and sequencing system shows that the system meets the timing and energy requirements for the operating environment.",
       "source_url": "https://assist.dla.mil",

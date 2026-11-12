@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "17.3.5",
   "number": "17.4.4",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Latching",
   "subject_group": "17.4 Laser integration",
   "versions": [
     {
       "designator": "MIL-HDBK-516A",
       "number": "17.3.5",
-      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armament/Stores Integration",
       "title_at_revision": "Verify that laser operation and direction is under control of the crew and does not latch on (radiating).",
       "text": "Verify that laser operation and direction is under control of the crew and does not latch on (radiating).",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "17.3.5",
-      "grouping_at_time": "17. ARMAMENT/STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armament/Stores Integration",
       "title_at_revision": "Verify that laser operation and direction is controllable only by the crew and does not latch on (radiating).",
       "text": "Verify that laser operation and direction is controllable only by the crew and does not latch on (radiating). Comm\u2019l Doc: ANSI Z 136.1, Safe Use of Lasers, for the safety design requirements of laser systems. DoD/MIL Doc: MIL-STD-1425 for the safety design requirements of laser systems. AFOSH STD 48-139, Laser Radiation Protection Program RCC 316-98, Laser Range Safety FAA Doc: 21CFR Part 1040, Performance Standards for Light-emitting products",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "17.3.5",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Latching",
       "text": "Criterion: Verify that laser operation and direction is controllable only by the crew and maintenance personnel and does not latch on (radiating). Standard: The crew or operator maintains full control of the firing and pointing of the laser at all times. The laser does not fire unless activated by crew or operator and will immediately cease firing at command from crew, operator, or by system design. Method of Compliance: Verification methods include analysis, test, simulation, demonstration, and review of documentation. Verification is accomplished by initial installation tests, SIL testing, ground and flight test, and laser operating procedures. References: MIL-STD-1425, for the safety design requirements of laser systems MIL-HDBK-828 AR 11-9 AFOSH STD 48-139 ANSI Z136.1 (now owned by LIA1), for the safety design requirements of laser systems. 21 CFR Part 1040, Performance Standards for Light-emitting products.",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Latching",
       "text": "Standard: The laser system incorporates hardware and software safeguards to prevent long-term or unattended continuous lasing (latching). In Manual Mode, laser emissions immediately cease fire upon release of the dead-man switch. In both Auto and Auto-Track Modes, the system initiates automatic shutoff upon reaching a predefined condition or state. A manual shutoff, single push switch, is provided for both Auto and Auto-Track Modes to allow immediate deactivation of the laser to prevent inadvertent lasing or emissions IAW MIL-STD-1425, Laser Fire Switch, Operation Switch, and Beam Pointing sections. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify laser system design (e.g., ICD, specifications, drawings, descriptions, flight manual) prevents the laser from latching, incorporates a dead-man switch for Manual Mode, and manual shutoff switch for Auto and Auto-track Modes. Demonstration.\n  (1) Verify that the laser does not latch, incorporates a dead-man switch for Manual Mode, and manual shutoff switch for Auto and Auto-Track Modes. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (1) Flight test: Verify that in Auto and Auto-Track modes, the laser system automatically shuts off upon reaching predefined conditions or states to prevent unintended emissions and the manual single-push shutoff switch instantly deactivates the laser.",
       "source_url": "https://assist.dla.mil",

@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.4.6.1",
   "number": "9.4.6.1",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "User insight",
   "subject_group": "9.4.6 Automation and autonomy user interfaces",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "User insight",
       "text": "Standard: The interface to the autonomous systems provides users with awareness of the system or subsystem states, modes, and functions. The interface provides the users with data to understand the current system state, the surrounding environment, and predicted future states. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Verify that the characteristics of predictability, observability, and error handling have been correctly provisioned in the air system design. Analysis.\n  (1) Analyze the design and verify that the functions necessary to maintain flight and accomplish flight critical tasks are documented and clearly differentiated between the automated or autonomous system and the user.\n  (2) Analyze the user interfaces and show that the required characteristics of predictability, observability, and error handling are present in the user interface. Test.\n    (1) Lab test: Test the implementation in a high-fidelity simulation or prototype and verify that the characteristics of predictability, observability, and error handling are correctly implemented in the user interface.",
       "source_url": "https://assist.dla.mil",

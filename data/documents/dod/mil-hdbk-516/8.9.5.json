@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.9.5",
   "number": "8.7.5",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Fail-safe latching",
   "subject_group": "8.7 Mechanisms",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.9.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that no single failure allows any latch to open inadvertently.",
       "text": "Verify that no single failure allows any latch to open inadvertently.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.9.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that no single failure allows any latch to open inadvertently.",
       "text": "Verify that no single failure allows any latch to open inadvertently. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1.3, 3.4.9.4; MIL-87222 Mechanical Systems for Aircraft Doors and Canopies: para 3.1.5.1; 4.1.4.2 (presently in a cancelled status)",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.9.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that no single failure allows any latch to open inadvertently.",
       "text": "Verify that no single failure allows any latch to open inadvertently. DoD/MIL Doc: JSSG-2009: Appendix I, 3.4.9.1.3, 3.4.9.4 MIL-M-87222 Mechanical Systems for Aircraft Doors and Canopies: 3.1.5.1; 4.1.4.2 - inactive for new design",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.8.5",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fail-safe latching",
       "text": "Criterion: Verify that no single failure allows any latch to open inadvertently. Standard: The latching system employed is designed to hold the doors closed in the event of a single failure within the system, to include hinges. The latching system is fail-safe. Maximum possible relative deflection between the aircraft structure, doors, and the latching system do not cause unlatching under any ultimate design loading condition. Locking and latching systems are separated so that a single malfunction cannot cause the hazardous actuation of both the locking and latching actuators. Method of Compliance: Failure modes of the latching system are determined by analysis. Critical loading conditions are identified by structural analysis. Structural tests and demonstrations are conducted to ascertain that no door opening will occur subsequent to a single latch system or hinge failure. References: JSSG-2009: (Appendix I) I.3.4.9.1.3, I.3.4.9.4",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Fail-safe latching",
       "text": "Standard: No single failure allows any door latch to open inadvertently. The latching system holds the doors closed in the event of a single failure within the system, to include hinges. The latching system is fail-safe. Maximum possible relative deflection between the air vehicle structure, doors, and the latching system do not cause unlatching under any ultimate design loading condition. Locking and latching systems are separated so that a single malfunction cannot cause the hazardous actuation of both the locking and latching actuators. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Failure modes of the latching system are determined by analysis. Critical loading conditions are identified by structural analysis. Demonstration.\n  (1) Demonstrations are conducted to ascertain that no door opening will occur subsequently to a single latch system or hinge failure. Test.\n    (1) Lab test: Structural tests are conducted to ascertain that no door opening will occur subsequent to a single latch system or hinge failure.",
       "source_url": "https://assist.dla.mil",

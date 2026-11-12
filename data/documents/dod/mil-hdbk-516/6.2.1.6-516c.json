@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.1.6-516c",
   "number": "6.2.1.6",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Reliability and redundancy",
   "subject_group": "6.2.1 VCF architecture design",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Reliability and redundancy",
       "text": "Criterion: Verify that the level of VCF redundancy and reliability are appropriate for the vehicle's size category and planned operational area/airspace. Standard: If UAS are required to operate within the National Airspace System (NAS), the redundancy and reliability requirements are equal to or better than those of piloted air vehicles. For smaller UAS restricted to limited operating area, lower redundancy and reliability levels are assessed for acceptance or rejection by the procuring agency. To determine the acceptable levels of VCF redundancy and reliability, the cost of both UAS and collateral damage on the ground is considered. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. VCF robustness including redundancy management and reliability is verified by analysis, component testing, and system level testing. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Reliability and redundancy",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

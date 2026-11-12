@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.9.4",
   "number": "6.2.9.4",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Loss of command",
   "subject_group": "6.2.9 VCF command and control communications safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Loss of command",
       "text": "Criterion: Verify that the VCF will not degrade below Operational State III in the event of loss of command from the control station. Standard: The air vehicle VCF function provides an emergency autonomous mode which is activated once the communication link between the air vehicle and control station is lost or degraded. This emergency mode provides Operational State III, determines the current location, and identifies the nearest approved landing site. No instability, limit cycle oscillations are allowed for the loss of command from the control station. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. The emergency autonomous mode is verified through simulation, software analysis, SIL, FMET, and ground test, for both air vehicle and control station. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Loss of command",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "7.3.2.15",
   "number": "8.8.23",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Accessory drives",
   "subject_group": "8.8 Rotary-wing drive system",
   "versions": [
     {
       "designator": "MIL-HDBK-516B",
       "number": "7.3.2.15",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Verify that failure or seizure of any individual accessory does not cause damage to any power drive subsystem components during all phases of air vehicle operation.",
       "text": "Verify that failure or seizure of any individual accessory does not cause damage to any power drive subsystem components during all phases of air vehicle operation.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "7.3.2.15",
-      "grouping_at_time": "7. PROPULSION AND PROPULSION INSTALLATIONS",
+      "grouping_at_time": "Section 7 \u2014 Propulsion and Propulsion Installations",
       "title_at_revision": "Accessory drives",
       "text": "Criterion: Verify that failure or seizure of any individual accessory does not cause damage to any power drive subsystem components during all phases of air vehicle operation and failure of flight-critical accessories is annunciated to the pilot/operator. Standard: Accessories driven by the gearbox are driven during an auto-rotation or whenever the rotor system is rotating. Accessory drive splines are protected with spline inserts. Failure of the accessories does not cause failure of the gearbox(s). The accessories are designed so that there is no damage to the gearbox(s) if an accessory should seize. Accessory drive gears do not have any resonances which affect the strength of the gear at all possible operating conditions. Any failure of flight-critical accessories is annunciated to the pilot/operator. Method of Compliance: Verification methods include analysis, test, demonstration, inspection and review of documentation. Testing and inspection are accomplished during gearbox system level verification. Pilot/operator annunciation is verified by inspection, analysis of drawings and by demonstration (see also 9.2). References: JSSG-2009: K.3.4.11.10 MIL-HDBK-516: 9",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Accessory drives",
       "text": "Standard: Accessories (e.g., lubrication oil pumps, oil cooler fans, and generators) driven by a gearbox are driven anytime the rotor system is rotating, including autorotation. Failure or seizure of the accessories does not cause damage to the mating gearbox(s) and damage to the rotary drive subsystem components. Accessory drive splines are protected with spline inserts. Accessory drive train systems do not have any resonances which affect the strength of the components when operated under steady state and transient operating conditions, throughout the flight and ground envelope IAW 8.8.1. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review documentation (e.g., hardware drawings, materials and manufacturing records, design data records, inspection reports, or other substantiating records and reports) to verify that accessory drives meet the standard. Analysis.\n  (1) Conduct a stress analysis to verify the accessory drive shaft will fail in shear before damage occurs to the gearbox.\n  (2) Conduct vibrational analysis on the accessory drive gears to verify that there are no damaging vibrational modes.\n  (3) Conduct a stress response analysis based on the modal and frequency responses of Analysis MoC (2) to verify that the accessory drive gears have positive strength margins of safety to accommodate any vibrational impacts. Test.\n    (1) Lab test: Conduct component-level testing to verify shear strength capability of the accessory drive components.\n    (2) Lab test: Conduct a gearbox system-level bench testing to verify no damaging resonance vibrational modes.\n    (3) Ground test: Conduct a gearbox system-level testing on the air vehicle to verify no damaging resonance vibrational modes.",
       "source_url": "https://assist.dla.mil",

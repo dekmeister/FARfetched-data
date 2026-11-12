@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "11.1.3",
   "number": "11.1.3.1",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Flight critical functioning",
   "subject_group": "11.1.3 Data buses",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "11.1.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that data busses have sufficient redundancy, reliability, and integrity to meet system safety and flight-critical requirements to preclude a.",
       "text": "Verify that data busses have sufficient redundancy, reliability, and integrity to meet system safety and flight-critical requirements to preclude a. Loss of flight-critical functioning b. Display of unsafe or misleading information to the operator or maintainer c. Undetected failure modes",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "11.1.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Verify that data buses have sufficient redundancy, reliability, and integrity to meet system safety and flight-critical requirements to preclude a.",
       "text": "Verify that data buses have sufficient redundancy, reliability, and integrity to meet system safety and flight-critical requirements to preclude a. Loss of flight-critical functioning b. Display of unsafe or misleading information to the operator or maintainer c. Undetected failure modes DoD/MIL Doc: JSSG-2005: 3.2.2, 4.2.2 FAA Doc: AC-27-1 and AC-29-2 provide guidance on helicopter equipment, primarily in subpart \"F\" For prevention of loss of flight critical functioning: AC-23.1301, 23.1309, 25.1301, 25.1309 For prevention of unsafe or misleading information: AC-23.1301, 23.1309, 23.1311, 25.1301, 25.1309; 14CFR references: 23.1301, 23.1309, 23.1311, 25.1301, 25.1309 For prevention of undetected failure modes: AC-23.1301, 23.1309, 25.1301, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Flight critical functioning",
       "text": "Criterion: Verify that data buses have sufficient redundancy, reliability, and integrity to meet system safety requirements and to preclude loss of flight-critical functioning. Standard: Loss of flight critical functionality and the effects on system safety are defined and documented. Air vehicle/system/subsystem end to end timing and latency are documented and acceptable for normal and fully loaded conditions of all bus components (e.g., networks, switches, hubs) and interfaces for each function. Bus retries, network data error rates, message size, non-blocking operation, numbers of priorities, and level of compliance with rate monotonic scheduling are documented. Method of Compliance: Loss of flight critical functioning documented in FMEA, analysis, and simulation. Underlying real time principles are identified (e.g., RMS based, deterministic, stochastic) and documented. Bus retries, network data error rates (e.g., 10^-12), message size, numbers of priorities, level of RMS compliance are appropriate by design. Laboratory and flight testing under fully loaded conditions verify that no loss of flight critical functioning occurs. References: JSSG-2005: 3.2.2, 4.2.2 MIL-STD-882 SAE ARP4761 SAE ARP5580 14 CFR 23.1301, 23.1309, 25.1301, 25.1309 plus any appropriate advisory circular(s) FAA AC 27-1 and FAA AC 29-2 provide guidance on helicopter equipment, primarily in subpart \"F\"",
       "source_url": "https://assist.dla.mil",
@@ -41,7 +41,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Flight critical functioning",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

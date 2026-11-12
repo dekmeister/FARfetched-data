@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.5.12.10",
   "number": "8.5.15.3",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Landing gear interfaces",
   "subject_group": "8.5.15 Landing gear and deceleration systems overarching standards",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.5.12.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the landing gear systems are compatible with air vehicle structure, weight and balance, and any other systems that interface with the system.",
       "text": "Verify that the landing gear systems are compatible with air vehicle structure, weight and balance, and any other systems that interface with the system.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.5.12.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the landing gear systems are compatible with air vehicle structure, weight, and balance, and with any other subsystems that interface with the landing gear system.",
       "text": "Verify that the landing gear systems are compatible with air vehicle structure, weight, and balance, and with any other subsystems that interface with the landing gear system. Comm\u2019l Doc: Level II Interface and Functional Requirements as stated in contractual interface documentation. DoD/MIL Doc: AFGS-87139: para. 3.2.1.1 General; 3.2.1.2 Arrangement; and 3.2.1.3 Clearances. FAA Doc: 14CFR reference: 23.471-23.511, 25.471-25.519",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "8.5.12.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the landing gear systems are compatible with air vehicle structure, weight, and balance, and with any other subsystems that interface with the landing gear system.",
       "text": "Verify that the landing gear systems are compatible with air vehicle structure, weight, and balance, and with any other subsystems that interface with the landing gear system. Comm\u2019l Doc: Level II Interface and Functional Requirements as stated in contractual interface documentation. DoD/MIL Doc: AFGS-87139: 3.2.1.1 General; 3.2.1.2 Arrangement; and 3.2.1.3 Clearances. FAA Doc: 14CFR reference: 23.471-23.511, 25.471-25.519",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.5.12.10",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Landing gear interfaces",
       "text": "Criterion: Verify that the landing gear systems are compatible with air vehicle structure, weight, and balance, and with any other subsystems that interface with the landing gear system. Standard: The arrangement and location of the gear and it\u2019s attach points support air vehicle weight and balances for specified mission operations and within specified environmental conditions. All interfaces with other systems are defined and controlled. Method of Compliance: Verification methods include analyses and tests. Design analysis verifies that the gear supports the air vehicle at all weight and balance conditions, and interfaces with all other air vehicle systems as needed to complete specified missions. Laboratory and simulator testing verify interface compatibility. Air vehicle ground and flight testing verify compatibility with all interfaced systems. References: AFGS-87139: 3.2.1.1 General; 3.2.1.2 Arrangement; 3.2.1.3 Clearances 14 CFR 23.471-23.511, 25.471-25.519",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Landing gear interfaces",
       "text": "Standard: All interfaces (e.g., structural mounting, backup structure, electrical, and hydraulic) between the landing gear and air vehicle are defined and controlled to ensure that the landing gear and deceleration systems can perform their SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review ICDs and system specification documentation to verify that interfaces with other systems are defined.\n(2) Conduct review of engineering drawings and specifications to verify interface compatibility with wheels, brakes, and tire data.\n(3) Conduct review of engineering drawings and specifications to verify interface compatibility with landing gear attachment hardware (e.g., trunnion pins) to backup structure.\n(4) Conduct review of engineering drawings and specifications to verify interface compatibility with hydraulic tubing connections, electrical connectors, and mounting provisions and clearance. Analysis.\n  (1) Conduct modeling of landing extension and retraction systems to verify power interface inputs and outputs.\n  (2) Conduct modeling of the braking and brake control systems to verify power interface inputs and outputs. Test.\n    (1) Ground test: Conduct a ground test to verify interfacing systems provide power (e.g., hydraulic, pneumatic, and electric) to complete landing gear and deceleration system SCFs. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (2) Flight test: Conduct a flight test to verify that interfacing systems provide power (e.g., hydraulic, pneumatic, and electric) to complete landing gear and deceleration system SCFs.",
       "source_url": "https://assist.dla.mil",

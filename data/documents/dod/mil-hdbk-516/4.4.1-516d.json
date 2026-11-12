@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "4.4.1-516d",
   "number": "4.4.1",
-  "current_grouping": "4. SYSTEMS ENGINEERING",
+  "current_grouping": "Section 4 \u2014 Systems Engineering",
   "canonical_title": "Safety-critical function identification",
   "subject_group": "4.4 System safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "4. SYSTEMS ENGINEERING",
+      "grouping_at_time": "Section 4 \u2014 Systems Engineering",
       "title_at_revision": "Safety-critical function identification",
       "text": "Standard: All air system functions whose loss, degradation, or erroneous operation can potentially result in a mishap of either catastrophic or critical severity are identified as SCFs. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) The list of air system functions, SCFs list, function descriptions, and associated analyses are documented, maintained, and under configuration control. Analysis.\n  (1) A systems engineering functional analysis identifies all air system functions and provides a description of their functionality for the purposes of identifying which of those functions are SCFs.\n  (2) An air system FHA is performed IAW SAE ARP4761A, Aircraft Functional Hazard Assessment (AFHA) appendix, that identifies functional failure conditions along with the rationale for each severity classification for each air system function. This includes assessing loss of function, degradation of function, malfunction, functioning out of time, and functioning out of sequence. The AFHA severity classification is conducted with or correlated to the categories in the MIL-STD-882, Severity categories table.\n  (3) The AFHA is performed to identify all SCFs. When utilizing an AFHA for the purposes of SCF identification, the AFHA: a. Provides a description of each air system-level function. b. Evaluates functional failure modes for each air system function. c. Assesses each functional failure condition for its potential, without consideration to probability, to produce a catastrophic or critical severity mishap, or adversely impact the function\u2019s ability to provide information or detect and mitigate conditions to prevent the occurrence of a catastrophic or critical severity mishap. d. Performs a purely functional assessment that does not account for a function\u2019s design or implementation. e. Accounts for the effects of flight phases (e.g., taxi, cruise, and landing), operational conditions (e.g., air vehicle weight and air vehicle altitude), and operating environment for each functional failure condition. f. Assumes any preconditions under which an air system function is expected to operate exist while the functional failure conditions are assessed (e.g., when assessing functional failure conditions of a fire detection and suppression function, a fire is assumed to exist).",
       "source_url": "https://assist.dla.mil",

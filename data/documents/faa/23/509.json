@@ -3,13 +3,13 @@
   "document": "23",
   "key": "509",
   "number": "509",
-  "current_grouping": "Structure",
+  "current_grouping": "Subpart C \u2014 Structure",
   "canonical_title": "Towing loads.",
   "subject_group": "Ground Loads",
   "versions": [
     {
       "designator": "23-14",
-      "grouping_at_time": "Structure",
+      "grouping_at_time": "Subpart C \u2014 Structure",
       "title_at_revision": "Towing loads.",
       "text": "[The towing loads of this section must be applied to the design of tow fittings and their immediate attaching structure.\n(a) The towing loads specified in paragraph (d) of this section must be considered separately. These loads must be applied at the towing fittings and must act parallel to the ground. In addition--\n  (1) A vertical load factor equal to 1.0 must be considered acting at the center of gravity; and\n  (2) The shock struts and tires must be in their static positions.\n(b) For towing points not on the landing gear but near the plane of symmetry of the airplane, the drag and side tow load components specified for the auxiliary gear apply. For towing points located outboard of the main gear, the drag and side tow load components specified for the main gear apply. Where the specified angle of swivel cannot be reached, the maximum obtainable angle must be used.\n(c) The towing loads specified in paragraph (d) of this section must be reacted as follows:\n  (1) The side component of the towing load at the main gear must be reacted by a side force at the static ground line of the wheel to which the load is applied.\n  (2) The towing loads at the auxiliary gear and the drag components of the towing loads at the main gear must be reacted as follows:\n    (i) A reaction with a maximum value equal to the vertical reaction must be applied at the axle of the wheel to which the load is applied. Enough airplane inertia to achieve equilibrium must be applied.\n    (ii) The loads must be reacted by airplane inertia.\n(d) The prescribed towing loads are as follows, where W is the design maximum weight:\n  {|\n  | Tow point {r2} | Position {r2} | Load {c3}\n  | Magnitude | No. | Direction\n  | Main gear | | 0.225W | 1 2 3 4 | Forward, parallel to drag axis. Forward, at 30\u00b0 to drag axis. Aft, parallel to drag axis. Aft, at 30\u00b0 to drag axis.\n  | Auxiliary gear | Swiveled forward | 0.3W | 5 6 | Forward. Aft.\n  | | Swiveled aft | 0.3W | 7 8 | Forward. Aft.\n  | | Swiveled 45\u00b0 from forward | 0.15W | 9 10 | Forward, in plane of wheel. Aft, in plane of wheel.\n  | | Swiveled 45\u00b0 from aft | 0.15W | 11 12 | Forward, in plane of wheel. Aft, in plane of wheel.\n  |}",
       "publication_cite": "38 FR 31821",

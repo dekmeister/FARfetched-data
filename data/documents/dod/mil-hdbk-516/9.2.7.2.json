@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "9.2.7.2",
   "number": "9.2.7.2",
-  "current_grouping": "9. CREW SYSTEMS",
+  "current_grouping": "Section 9 \u2014 Crew Systems",
   "canonical_title": "Speech intelligibility - one-way systems",
   "subject_group": "9.2.7 Communication systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "9. CREW SYSTEMS",
+      "grouping_at_time": "Section 9 \u2014 Crew Systems",
       "title_at_revision": "Speech intelligibility - one-way systems",
       "text": "Standard: For passenger carrying air vehicles, a STIPA of at least 0.41 can be achieved at the ear of all seated and standing personnel in habitable locations at which the occupant is not expected to be connected to the intercom system and is wearing hearing protection permitted for operational use (if any) during any flight segment, air vehicle configuration, and equipment configuration in which critical communications are expected and the passengers are not restrained in crashworthy seating. For one-way systems, critical communications are communications are from the pilot or flight crew to passengers in an emergency condition. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Analysis.\n(1) Compute the STIPA IAW IEC 60268-16 Measurement Procedures, Post-processing of Data and Applications section, for every combination of talker location, passenger location, air vehicle configuration, and flight condition, using modulation reductions in those octave bands which are within the bandwidth of the audio system, in conjunction with noise at passenger locations and noise entering via the talker microphone. Test.\n  (1) Ground or Lab test: Measure the bandwidth of the audio system from each type of talker microphone with the signal source (not the STIPA signal) at mission representative distance, to each type of loudspeaker at 1 meter in an anechoic chamber.\n  (2) Ground test: Measure the STIPA IAW IEC 60268-16 Measurement Procedures, Post-processing of Data and Applications section, along the transmission paths from each talker location to at least 50% of listener locations, during quiet conditions (typically with only equipment necessary to perform the test powered) in a production representative air vehicle. The STIPA signal should be annunciated at a sound pressure level 10 dB louder than the Speech Interference Level for the worst-case noise at the speaking location but no louder than a \u201cloud\u201d voice as defined by ANSI S3.5, at a mission representative distance from the microphone sound port. The input signal level should be verified by measuring the voltage across the microphone input. The loudspeaker used to provide input to the microphone should have directional characteristics of the human mouth, and a flat frequency response across the audio range of the PA system. Measurement locations should be IAW MIL-STD-1474 Appendix D, Measurement Locations paragraphs.",
       "source_url": "https://assist.dla.mil",

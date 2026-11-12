@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "14.1.1.4.11",
   "number": "14.1.1.4.11",
-  "current_grouping": "14. SYSTEM SAFETY",
+  "current_grouping": "Section 14 \u2014 System Safety",
   "canonical_title": "Fail-safe design",
   "subject_group": "14.1.1.4 System safety program implementation",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Fail-safe design",
       "text": "Criterion: Verify that the system safety program addresses fail-safe design. Standard: Design ensures that the system remains inherently safe. A single failure causes the system to revert to a state which will not cause a mishap. Flight hazard risks for the system do not exceed threshold limits that are established for the program. Method of Compliance: Verification method includes inspection of documentation (e.g., safety analyses, technical documentation, testing documentation, hazard tracking data base). Design documentation verifies: inherent system safety; that a single failure will not cause the system to revert to a state which will result in unacceptable risk of a mishap; and that flight hazard risks for the system do not exceed the threshold limits established for the program. References: MIL-STD-882 SAE ARP4754 SAE ARP4761 14 CFR Section 1309 of Parts 23, 25, 27, 29; and related advisory circulars.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "14. SYSTEM SAFETY",
+      "grouping_at_time": "Section 14 \u2014 System Safety",
       "title_at_revision": "Fail-safe design",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

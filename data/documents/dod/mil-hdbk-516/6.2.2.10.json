@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.2.10",
   "number": "6.2.13.3",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Intermittent devices",
   "subject_group": "6.2.13 Vehicle control function integrated systems",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.2.10",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices).",
       "text": "Verify control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices).",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.2.10",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices).",
       "text": "Verify that control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices). DoD/MIL Doc: JSSG-2008: para 3.1.8, 4.1.8, 3.2.1.3, 4.2.1.3, 3.2.1.4, 4.2.1.4, 3.2.1, 4.2.1, 3.2.2.5.4.5, 4.2.2.5.4.5, 3.1.12 thru 3.1.12.1, 4.1.12 thru 4.1.12.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.2.10",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices).",
       "text": "Verify that control devices in normal and failed states intended for intermittent operation are safe (e.g., flaps, speed brakes, geometry mechanisms, auxiliary control devices). DoD/MIL Doc: JSSG-2008: 3.1.8, 4.1.8, 3.2.1.3, 4.2.1.3, 3.2.1.4, 4.2.1.4, 3.2.1, 4.2.1, 3.2.2.5.4.5, 4.2.2.5.4.5, 3.1.12 thru 3.1.12.1, 4.1.12 thru 4.1.12.1 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.7.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Intermittent devices",
       "text": "Criterion: Verify that control devices used intermittently are safe in both normal and failed conditions (e.g., trailing edge flaps, leading edge flaps, speed brakes, geometry mechanisms). Standard: Failure of control devices that operate intermittently, including latent failures, do not cause loss of control or cause pilot-in-the loop oscillations (PIO), and meet requirements for failure immunity and fault tolerance. Method of Compliance: Verification methods include analysis, test, simulation, inspection and review of documentation. Adequate control is verified by analysis and integrated test. Failure mode effects are verified by using Iron Bird/SIL, simulation, and ground testing as a part of Development Test & Evaluation (DT&E). Redundancy management and failure immunity requirements are verified by appropriate analysis, simulation, and FMET. References: JSSG-2008: 3.1.8, 3.2.1.3, 3.2.1.4, 3.2.1, 3.2.2.5.4.5, 3.1.12 through 3.1.12.1, and associated section 4 paragraphs. 14 CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529 and 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Intermittent devices",
       "text": "Standard: Normal and failed conditions of control devices that operate intermittently (e.g., trailing edge flaps, leading edge flaps, speed brakes, spoilers, and wing geometry mechanisms), including latent failures, do not cause loss of control or cause PIOs. Failures of these devices more probable than PLOC divided by 10 do not degrade the VCF below Operational State IV. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of the requirements and design to identify the intermittent devices and their safety criticality. Analysis.\n  (1) Verify FMECA and SSHA are completed to identify failures, failure rates, and consequences. Test.\n    (1) Lab test: Conduct FMET in a flight crew evaluation facility, a handling qualities simulation facility, or SIL to examine intermittent devices under normal and failure conditions, including latent failures. Prior to entering operational test/operations, verify the standard by the above and following method(s): Demonstration.\n      (1) Conduct flight test operations evaluating intermittent devices for acceptability across the envelope during normal operation.",
       "source_url": "https://assist.dla.mil",

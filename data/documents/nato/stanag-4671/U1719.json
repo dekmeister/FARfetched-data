@@ -3,14 +3,14 @@
   "document": "stanag-4671",
   "key": "U1719",
   "number": "U1713",
-  "current_grouping": "Subpart I \u2013 UA Control Station",
+  "current_grouping": "Subpart I \u2014 UA Control Station",
   "canonical_title": "UCS power supply",
   "subject_group": "GENERAL",
   "versions": [
     {
       "designator": "Ed1",
       "number": "U1719",
-      "grouping_at_time": "Subpart I \u2013 UAV Control Station",
+      "grouping_at_time": "Subpart I \u2014 UAV Control Station",
       "title_at_revision": "UCS power supply",
       "text": "(a) The UCS power supply must be designed such that the operations in normal and failure conditions shall not lead to an unsafe condition.\n(b) The minimum UCS power supply consistent with sub-paragraph (a) must be stated in the UAV System Flight Manual.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/stanag-details/9175/EN",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "EdB-V1",
-      "grouping_at_time": "Subpart I \u2013 UA Control Station",
+      "grouping_at_time": "Subpart I \u2014 UA Control Station",
       "title_at_revision": "UCS power supply",
       "text": "(a) Failure conditions of UCS power supply shall be assessed according to USAR.1309\n(b) The minimum UCS power supply consistent with sub-paragraph (a) must be stated in the UAS Flight Manual.",
       "source_url": "https://nso.nato.int/nso/nsdd/main/standards/ap-details/2783/EN",

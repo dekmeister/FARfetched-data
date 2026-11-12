@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "12.2.4",
   "number": "12.2.4",
-  "current_grouping": "12. ELECTRICAL SYSTEM",
+  "current_grouping": "Section 12 \u2014 Electrical System",
   "canonical_title": "Circuit isolation",
   "subject_group": "12.2 Electrical system wiring",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "12. ELECTRICAL POWER SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical Power System",
       "title_at_revision": "Verify that redundant circuits provided for safety are sufficiently isolated.",
       "text": "Verify that redundant circuits provided for safety are sufficiently isolated.",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516B",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that redundant circuits provided for safety are sufficiently isolated.",
       "text": "Verify that redundant circuits provided for safety are sufficiently isolated. Comm\u2019l Doc: For guidance/principles regarding provision of isolation for aircraft electrical circuits: SAE AS50881 NFPA 70 DoD/MIL Doc: JSSG-2009: Appendix H para H.6.4.1 for guidance/principles regarding provision of isolation for aircraft electrical circuits: FAA Doc: 14CFR references: 23.1301, 23.1309; 25.1301, 25.1309.",
       "source_url": "https://assist.dla.mil",
@@ -29,7 +29,7 @@
     },
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Verify that redundant circuits provided for safety are sufficiently isolated.",
       "text": "Verify that redundant circuits provided for safety are sufficiently isolated. Comm\u2019l Doc: For guidance/principles regarding provision of isolation for aircraft electrical circuits: SAE AS50881 NFPA 70 DoD/MIL Doc: JSSG-2009: Appendix H H.6.4.1 for guidance/principles regarding provision of isolation for aircraft electrical circuits: FAA Doc: 14CFR references: 23.1301, 23.1309; 25.1301, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -39,7 +39,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Circuit isolation",
       "text": "Criterion: Verify that redundant circuits provided for safety are sufficiently isolated. Standard: Redundant circuits are isolated in compliance with good design practice, as defined in SAE AS50881 for aircraft and NFPA 70 for ground stations. Other specification(s) may apply for shipboard and ground mobile applications. Method of Compliance: Verification methods include analysis and inspection. Analysis and inspection of design, including drawings, documents, FMECA and assembled product verify sufficient isolation of redundant circuits. References: For guidance/principles regarding provision of isolation for aircraft electrical circuits: JSSG-2009: H.6.3.1 SAE AS50881 NFPA 70 14 CFR 23.1301, 23.1309; 25.1301, 25.1309",
       "source_url": "https://assist.dla.mil",
@@ -49,7 +49,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "12. ELECTRICAL SYSTEM",
+      "grouping_at_time": "Section 12 \u2014 Electrical System",
       "title_at_revision": "Circuit isolation",
       "text": "Standard: Redundant circuits and components are both physically and electrically isolated IAW SAE AS50881, Redundance Circuits paragraph and MIL-STD-7080, Vulnerability paragraph. This includes components related to EWIS and associated wire termination devices (e.g., connector contacts, relays, circuit breakers, and switches). Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) A wiring design documentation (e.g., schematics, drawings, and models) review verifies redundant circuits are physically and electrically isolated, and redundant systems do not share the same EWIS components or grounding points.",
       "source_url": "https://assist.dla.mil",

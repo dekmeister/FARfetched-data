@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "13.2.2",
   "number": "13.2.2",
-  "current_grouping": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+  "current_grouping": "Section 13 \u2014 Electromagnetic Environmental Effects",
   "canonical_title": "Compatibility of air system to the external electromagnetic environment",
   "subject_group": "13.2 System-level electromagnetic environmental effects qualification",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that on-board equipment and subsystems exhibit electromagnetic compatibility while operating within the intended external operational electromagnetic environment.",
       "text": "Verify that on-board equipment and subsystems exhibit electromagnetic compatibility while operating within the intended external operational electromagnetic environment.",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "13.2.1.4",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that on-board and off-board equipment and subsystems exhibit electromagnetic compatibility while operating within the intended external operational electromagnetic environment.",
       "text": "Verify that on-board and off-board equipment and subsystems exhibit electromagnetic compatibility while operating within the intended external operational electromagnetic environment.",
       "source_url": "https://assist.dla.mil",
@@ -31,7 +31,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "13.2.3",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Verify that the system is electromagnetically compatible with its intended external radio frequency (RF) electromagnetic environment.",
       "text": "Verify that the system is electromagnetically compatible with its intended external radio frequency (RF) electromagnetic environment. Comm\u2019l Doc: SAE ARP5583, sections 5 and 7. DoD/MIL Doc: MIL-STD-464, section 5.3.",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "13.2.3",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS (E3)",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects (E3)",
       "title_at_revision": "Compatibility of air system with electromagnetic environment",
       "text": "Criterion: Verify that the air system is electromagnetically compatible with its intended external radio frequency (RF) electromagnetic environment. Standard: Air system equipment can safely operate in the external RF electromagnetic environment defined in 5.3 of MIL-STD-464 or an equivalent RF external electromagnetic environment such as the one defined in SAE ARP5583, sections 5 and 7 (SAE ARP5583 is non-applicable for Army). Method of Compliance: a. For the entire air system: system high level RF pulse testing and analysis of the test results, or: b. For the entire air system: system shielding effectiveness testing and analysis of the test results, or: c. For the entire air system: a combination of system high level RF pulse and shielding effectiveness testing and analysis of the test results. References: MIL-STD-464: 5.3 SAE ARP5583: sections 5 and 7",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "13. ELECTROMAGNETIC ENVIRONMENTAL EFFECTS",
+      "grouping_at_time": "Section 13 \u2014 Electromagnetic Environmental Effects",
       "title_at_revision": "Compatibility of air system to the external electromagnetic environment",
       "text": "Standard: Verify that the air system equipment can safely operate in the appropriate external RF electromagnetic environment defined in MIL-STD-464, External RF EME paragraph. Method of Compliance: Prior to entering operational test or operations, verify the standard by the following method(s): Test.\n(1) Ground test: Conduct testing to verify the standard by one of the following method(s): a. Option 1: Air system high level RF testing and analysis of the test results that includes detailed description of the tested air system, pass-fail criteria, source-victim methodology (with detailed descriptions of the modes of operation used during testing), and any observations during testing. Provide root cause analysis and corrective action taken. b. Option 2: Air system shielding effectiveness testing and analysis of the test results demonstrating that the EME is compatible with the equipment susceptibility qualification levels (CS114 and RS103) in the installed configuration, including test or analysis of RF equipment performance after EME exposure, and analysis of the overall test results.",
       "source_url": "https://assist.dla.mil",

@@ -241,3 +241,37 @@ for tables; TEXT-11 is formulas that are present but flattened.
 **To close:** `replace_text` rows writing the symbols (`1.4 V_{S1}`) and
 formula lines, checked against the Federal Register or eCFR text, then answer
 GitHub #24.
+
+## Groupings
+
+### FAA-31. FAA `grouping_at_time` is the present-day DRS label
+
+DRS stamps today's `Subpart/Appendix` label on every historical version of a
+section, so FAA `grouping_at_time` is present-day, not "the subpart at this
+revision" (DATA_FORMAT says so). Evidence: DRS
+`F4567343824D03458525668E00557A3A`, §36.201 at Initial (1969), status
+Historical, is labelled `Subpart C [Reserved]`, yet its text is an active
+noise-limits rule; every FAA section carries one label across all its
+amendments (3,604 extracted documents checked, 2026-11-12). The app's view of
+Part 36 at 36-0 therefore shows §36.201 under `Subpart C — Reserved`. eCFR
+point-in-time starts in 2017, and no cached Federal Register text covers
+Part 36.
+
+**To close:** a source for FAA historical subpart names (FR rule texts),
+then override rows per rename, if ever wanted.
+
+### FAA-32. Part 36 reserved-subpart placeholders and §36.1100
+
+36.400, .900, .1000, .1100, .1200, .1300 and .1400 are DRS "Subpart X is
+reserved." documents (Initial, 1969) in force in `data/`; eCFR has no such
+sections. Each is its own one-item `Subpart X — Reserved` group. §36.1100
+(`Subpart K [Reserved]`, DRS status Current) contradicts Subpart K
+Tiltrotors (36-29, §36.1101/§36.1103), so the app shows "Subpart K —
+Tiltrotors / Reserved". DRS also labels §36.600@36-14 ("§ 36.699
+[Reserved]", the 36.6xx Subpart G range) as Subpart C; emit would report it
+`subpart_mismatch` if it were emitted (it fails `empty_text`). Related to
+GitHub #19.
+
+**To close:** read 36-29's FR text for what happened to §36.1100 (a
+`deleted` version at 36-29 if it was replaced), and decide whether the
+placeholders are provisions at all.

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "8.3.14.1",
   "number": "8.3.9",
-  "current_grouping": "8. AIR VEHICLE SUBSYSTEMS",
+  "current_grouping": "Section 8 \u2014 Air Vehicle Subsystems",
   "canonical_title": "Refueling and defueling",
   "subject_group": "8.3 Fuel system",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "8.3.14.1",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle can be safely refueled/defueled.",
       "text": "Verify that the air vehicle can be safely refueled/defueled.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516A",
       "number": "8.3.15",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle can be safely refueled/defueled.",
       "text": "Verify that the air vehicle can be safely refueled/defueled.",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "8.3.15",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Verify that the air vehicle can be safely refueled and defueled.",
       "text": "Verify that the air vehicle can be safely refueled and defueled. DoD/MIL Doc: JSSG-2009 Appendix E: E.3.4.5.1.12, E.4.4.5.1.12, E.3.4.5.8.1, E.4.4.5.8.1, E.3.4.5.8.4, E.4.4.5.8.4, E.3.4.5.8.5, E.4.4.5.8.5, E.3.4.5.8.6, E.4.4.5.8.6, E.3.4.5.8.7, E.4.4.5.8.7, E.3.4.5.8.8, E.4.4.5.8.8 FAA Doc: 14CFR references: 23.863, 23.973, 23.975, 23.979, 25.863, 25.973, 25.975, 25.979,",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "8.3.16",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Refueling/defueling",
       "text": "Criterion: Verify that the air vehicle can be safely refueled and defueled. Standard: The refueling system, including the vents and fuel tanks, accommodates maximum refueling rates during normal and single failure conditions without causing hazardous conditions to the aircraft and personnel (e.g., tank overpressurization, fuel venting, static discharges). Method of Compliance: Demonstration verifies the capability to safely refuel the internal tanks from 10% full to high level shut off at maximum refueling servicing pressure without venting fuel. Analysis and demonstration verify aircraft hot pit refueling requirements. Component demonstration and ground testing verifies static discharge does not occur inside the tanks during refueling operations. Inspections verify the absence of external leakage during ground refueling operations. Gravity refueling, if applicable, is demonstrated by analysis, full scale simulator and/or on aircraft tests. References: JSSG-2009: E.3.4.5.1.12, E.4.4.5.1.12; E.3.4.5.8.1, E.4.4.5.8.1; E.3.4.5.8.4, E.4.4.5.8.4; E.3.4.5.8.5, E.4.4.5.8.5; E.3.4.5.8.6, E.4.4.5.8.6; E.3.4.5.8.7, E.4.4.5.8.7; E.3.4.5.8.8, E.4.4.5.8.8 MIL-F-17874 14 CFR 23.863, 23.973, 23.975, 23.979, 25.863, 25.973, 25.975, 25.979, 27.863, 27.973, 27.975, 29.863, 29.973, 29.975, 29.979",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "8. AIR VEHICLE SUBSYSTEMS",
+      "grouping_at_time": "Section 8 \u2014 Air Vehicle Subsystems",
       "title_at_revision": "Refueling and defueling",
       "text": "Standard: The air vehicle can be refueled and defueled between any two fuel states without creating an AW hazard (e.g., over and under pressurization, fuel spills, fuel venting, static discharges) for both normal and single failure conditions, for all required refueling and defueling methods and modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Conduct analysis to show the fuel system can be refueled and defueled without creating a hazard using all available refueling methods and modes, in all internal and external tank configurations, at all expected flight and ground conditions. Test.\n  (1) Ground test: Conduct ground test to verify the capability of the air vehicle to be refueled and defueled between any two fuel states without creating an AW hazard, including to final high level shut off for both internal and external fuel tank configurations.\n  (2) Ground test: Conduct ground test to verify the refueling sequencing of tanks will stay within CG and structural limitations.\n  (3) Ground test: Conduct ground test to verify all methods and modes of intended refueling such as pressure, gravity, hot pit, and AR (if applicable), do not create AW hazards.\n  (4) Ground test: Conduct ground test to verify refueling at ground attitude limits do not create an AW hazard such as spills or venting fuel. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n  (5) Flight test: Conduct flight test to verify the results of analysis and ground test performance.",
       "source_url": "https://assist.dla.mil",

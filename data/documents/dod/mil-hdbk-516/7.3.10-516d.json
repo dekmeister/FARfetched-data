@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "7.3.10-516d",
   "number": "7.3.10",
-  "current_grouping": "7. PROPULSION",
+  "current_grouping": "Section 7 \u2014 Propulsion",
   "canonical_title": "Shaft and disk failure controls",
   "subject_group": "7.3 Propulsion structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "7. PROPULSION",
+      "grouping_at_time": "Section 7 \u2014 Propulsion",
       "title_at_revision": "Shaft and disk failure controls",
       "text": "Standard: The engine incorporates design features or architecture to protect against catastrophic shaft and disk failures (e.g., uncontained failure, uncontained fire). a. An engine main shaft bearing or lubrication system failure does not cause parting or decoupling of shaft(s). b. Hazard controls are incorporated to achieve a probability of disk failure caused by shaft decoupling (loss of load) not greater than 10-4 events over the DSL of the engine (e.g., 2.5x10-8 events/EFH for a 4000 EFH engine DSL). Hazard controls account for all failure causes and failure modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review of product definition data and models, and engine configuration description verifies presence of design features or architecture supporting fail-safe design practices Analysis.\n  (1) Conduct analysis, including assessment of test and service history, to determine disk failure rates through aggregation of hazard controls. Demonstration.\n    (1) Demonstrate effectiveness of any active hazard controls included in design (e.g., overspeed trip or fuel shutoff systems and associated BIT functions, Fault Detection and Accommodation actions).",
       "source_url": "https://assist.dla.mil",

@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "15.1.9",
   "number": "15.5.8",
-  "current_grouping": "15. COMPUTER SYSTEMS AND SOFTWARE",
+  "current_grouping": "Section 15 \u2014 Computer Systems and Software",
   "canonical_title": "Unsafe techniques",
   "subject_group": "15.5 Software architecture and design",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "15.1.9",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software.",
       "text": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "15.1.9",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software.",
       "text": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: para 3.3.7contains guidance on Software Change Control. FAA Doc: AC 20-115B,",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "15.1.9",
-      "grouping_at_time": "15. COMPUTER RESOURCES",
+      "grouping_at_time": "Section 15 \u2014 Computer Resources",
       "title_at_revision": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software.",
       "text": "Verify that no patches (object code changes not resulting from compilation of source code changes) exist for flight-critical software. Comm\u2019l Doc: RTCA DO-178B DoD/MIL Doc: JSSG-2008: 3.3.7 contains guidance on Software Change Control FAA Doc: AC 20-115B",
       "source_url": "https://assist.dla.mil",
@@ -42,7 +42,7 @@
     },
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Unsafe techniques",
       "text": "Criterion: Verify that SSSEs do not utilize or include unsafe techniques or attributes (e.g., patches, de-activated code, lab test functionality). Standard: Program process documents identify the prohibition of unsafe techniques. Code does not implement unsafe techniques. Unsafe techniques/attributes include the patching of object code, the existence of de-activated or flight test unique software, dead code, training system software hooks, lab unique functionality, the reuse of software with unknown or questionable pedigree, undocumented functions, dynamic memory allocation, unverifiable source code statements and structures, alteration of source code to achieve verification, and any other unsafe techniques identified through established policy by the respective armed services. Method of Compliance: Verification methods include analysis, test, demonstration, and inspection of process and design documentation. Verify, by analysis and inspection of processes and code, that unsafe techniques are not employed. Perform testing and demonstration on the software product to ensure that employed techniques and attributes do not adversely affect SCFs. References: JSSG-2008 Appendix A: 3.0 Computer Resources section (III.1.d); 3.1.8 addresses integration of unique functions; 3.3.7 contains guidance on software change control; 3.3.8 prohibits patches in certified software DoD JSSSEH: 4.3.6.3.2; 4.3.7.3.2.6; D.6.6; E.1.4.2; E.2.4; E.4.6; E.11.1.1; E.11.11; E.11.12; E.12.1 USAF Weapon Systems Software Management Guidebook: 2.1.1; G.3.1 NASA-GB-8719.13: H.5 check for dead code RTCA DO-178: For RTCA DO-178C: 4.2.h; 5.2.4; 5.4.2; 6.4.4.3.c and d; 11.7; 11.10.k (see also RTCA DO-178B) FAA AC 20-115C FAA Guide to Reusable Launch and Reentry Vehicle Software and Computing System Safety: A.10.4",
       "source_url": "https://assist.dla.mil",
@@ -52,7 +52,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "15. COMPUTER SYSTEMS AND SOFTWARE",
+      "grouping_at_time": "Section 15 \u2014 Computer Systems and Software",
       "title_at_revision": "Unsafe techniques",
       "text": "Standard: 1. Verify that SESSs do not utilize or include unsafe techniques or attributes (e.g., patches, deactivated code, lab test functionality). Program process documents identify the prohibition of unsafe techniques. Code does not implement unsafe techniques. Unsafe techniques and attributes include: a. Patching of object code. b. Existence of deactivated code, flight test unique software, training system unique software, dead code, lab unique functionality. c. Reuse of software with unknown or questionable pedigree. d. Undocumented functions. e. Dynamic memory allocation after initialization. f. Unverifiable source code statements and structures. g. Alteration of source code to achieve verification. h. Any other unsafe techniques identified through established policy by the respective armed services. Techniques that can adversely impact the integrity of SCF operation are prohibited, examples include the following: a. Dynamic SCF process or processing task assignment across MCP cores. b. Process or processing task parallelization within a processing core (e.g., Simultaneous Multi-Threading) for SCF processing. c. Virtual machines containing SCF processing that rely on hypervisors that require software emulation of individual processing core operations. d. Run-time configuration changes once initialization is complete. e. Dynamic clock rate modifications. f. Power saving modes. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): The number next to an MoC line item corresponds to the numbered line item in the standard that is being verified: 1. Verification methods include analysis, test, demonstration, and examination of process and design documentation. Verify, by analysis and examination of processes and code, that unsafe techniques are not employed. Perform testing and demonstration on the software product to ensure that employed techniques and attributes do not adversely impact the integrity of SCF operation.",
       "source_url": "https://assist.dla.mil",

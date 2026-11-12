@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.2",
   "number": "6.2.16.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Hydraulic system dynamics",
   "subject_group": "6.2.16 Vehicle control function hydraulic power source safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.3.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify hydraulic function dynamics to have no unsafe pressure pulsating or resonant conditions.",
       "text": "Verify hydraulic function dynamics to have no unsafe pressure pulsating or resonant conditions.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.3.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that hydraulic function dynamics do not have any unsafe pressure pulsating or resonant conditions.",
       "text": "Verify that hydraulic function dynamics do not have any unsafe pressure pulsating or resonant conditions. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.5.6, 4.1.5.6, 3.1.7.2, 4.1.7.2, 3.1.11.11.3, 4.1.11.11.3, 3.2.2.2.1, 4.2.2.2.1, 3.3 thru 3.3.4, 4.3 thru 4.3.4, 3.3.6, 4.3.6, 3.3.6.2, 4.3.6.2 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.3.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that hydraulic function dynamics do not have any unsafe pressure pulsating or resonant conditions.",
       "text": "Verify that hydraulic function dynamics do not have any unsafe pressure pulsating or resonant conditions. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.5.6, 4.1.5.6, 3.1.7.2, 4.1.7.2, 3.1.11.11.3, 4.1.11.11.3, 3.2.2.2.1, 4.2.2.2.1, 3.3 thru 3.3.4, 4.3 thru 4.3.4, 3.3.6, 4.3.6, 3.3.6.2, 4.3.6.2 FAA Doc: 14CFR references: 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.10.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Hydraulic system dynamics",
       "text": "Criterion: Verify that hydraulic function dynamics do not have any unsafe pressure pulsating or resonant conditions. Standard: The primary and secondary hydraulic functions do not have any dynamic pulsating and/or resonant conditions that cause any instability or loss of VCF. If there are any pulsating or resonant conditions, phase and gain margin requirements for the VCF are 45 degrees and 6 dB. Method of Compliance: Verification methods include analysis, tests, simulation, and review of documentation. Iron Bird testing including FMET and ground tests verify that there is no pulsating or resonant condition for the hydraulic function. References: JSSG-2008: 3.0, 3.1, 3.1.5.6, 3.1.7.2, 3.1.11.11.3, 3.2.2.2.1, 3.3 through 3.3.4, 3.3.6, 3.3.6.2, associated section 4 paragraphs. 14 CFR 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501- 23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Hydraulic system dynamics",
       "text": "Standard: Under maximum representative hydraulic load demand, VCF system performance meets actuator loaded rate and stability requirements for normal, backup, and emergency hydraulic operation. Emergency and backup hydraulic power systems do not cause loss of VCF or any instability due to flow rates, lower pressure, or reduced flutter margin. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Validate model, simulation, and emulation design are representative of the hydraulic system design. Test.\n  (1) Lab test: Conduct VCF and hydraulic system integrated loaded rate performance test on a flight representative hydraulic system.\n  (2) Lab test: Conduct VCF and hydraulic system integrated performance test to validate 6 dB and 45-degree stability margins.",
       "source_url": "https://assist.dla.mil",

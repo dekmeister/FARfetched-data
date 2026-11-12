@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "6.2.5.7-516c",
   "number": "6.2.5.7",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Autonomous modes",
   "subject_group": "6.2.5 VCF control law safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Autonomous modes",
       "text": "Criterion: Verify that the autonomous modes within the VCF are safe. Standard: Every function within the autonomous mode is analyzed and tested for both normal and failed conditions. PLOC includes loss of control failures in autonomous modes. No single point failure within the integrated system of the autonomous mode causes loss of control. If ground-controlled mode exists as a backup, no dual failure of any combination prevents the air vehicle from switching from autonomous to ground-controlled mode. Method of Compliance: Verification methods include analysis, test, simulation and review of documentation. The VCF autonomous modes are verified by analysis, simulations, SIL and flight tests. This includes FMET for full functionality, and flight testing to identify operational capabilities and limitations. Reference: JSSG-2008",
       "source_url": "https://assist.dla.mil",
@@ -19,7 +19,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Autonomous modes",
       "deleted": true,
       "source_url": "https://assist.dla.mil",

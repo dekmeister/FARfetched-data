@@ -3,13 +3,13 @@
   "document": "mil-hdbk-516",
   "key": "17.1.2.1-516d",
   "number": "17.1.2.1",
-  "current_grouping": "17. ARMAMENTS AND STORES INTEGRATION",
+  "current_grouping": "Section 17 \u2014 Armaments and Stores Integration",
   "canonical_title": "Store loads",
   "subject_group": "17.1.2 Stores structural integrity",
   "versions": [
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "17. ARMAMENTS AND STORES INTEGRATION",
+      "grouping_at_time": "Section 17 \u2014 Armaments and Stores Integration",
       "title_at_revision": "Store loads",
       "text": "Standard: Loads used to verify the structural integrity of store safety-critical structure reflect all possible worst-case load combinations of loading conditions that result from the intended operation, usage, and environment. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Analysis.\n(1) Verify initial loads analyses report is complete and representative of all expected loads IAW MIL-STD-8591, Carriage Design Limit Loads appendix and MIL-M-8856, Analyses, Data, and Reports appendix. Models are correlated with data collected through wind tunnel testing for verification of structural integrity.\n(2) Conduct analysis (e.g., FEA, CFD, other modeling and simulation) to predict all aerodynamic and mechanical loads used to verify the structural integrity of the store to flight environment for all intended operations and all mixed load configurations. Test.\n  (1) Ground or Lab test: Test data (e.g., from wind tunnel or static ejection testing) captures the stores loads profile to validate actual loads are correlated with the results predicted by analytical methods.\n  (2) Ground test: Loads calibration ground tests of the instrumented test vehicles validate instrumentation is installed to fully characterize the store exposure to the flight environment and verify instrumentation is functioning correctly. Prior to entering operational test/operations, verify the standard by the above and following method(s): Analysis.\n  (3) Analyze flight test reports to verify the loads analysis is complete, all models are updated and correlated to the flight environment, and results have been incorporated into all store structural integrity assessments. Test.\n(3) Flight test: Instrumented measurement vehicle that is representative of all fielded store configurations captures loads experienced in the flight environment IAW MIL-STD-8591, Carriage Design Limit Loads appendix and MIL-M-8856, Analyses, Data, and Reports appendix.",
       "source_url": "https://assist.dla.mil",

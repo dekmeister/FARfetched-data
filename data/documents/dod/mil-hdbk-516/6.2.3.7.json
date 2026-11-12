@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "6.2.3.7",
   "number": "6.2.17.2",
-  "current_grouping": "6. FLIGHT TECHNOLOGY",
+  "current_grouping": "Section 6 \u2014 Flight Technology",
   "canonical_title": "Independent sources",
   "subject_group": "6.2.17 Vehicle control function electrical power systems safety",
   "versions": [
     {
       "designator": "MIL-HDBK-516",
       "number": "6.2.3.7",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify independent electrical power sources provide safe redundancy for VCF.",
       "text": "Verify independent electrical power sources provide safe redundancy for VCF.",
       "source_url": "https://assist.dla.mil",
@@ -21,7 +21,7 @@
     {
       "designator": "MIL-HDBK-516B",
       "number": "6.2.3.7",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that independent electrical power sources provide safe redundancy for VCF.",
       "text": "Verify that independent electrical power sources provide safe redundancy for VCF. DoD/MIL Doc: JSSG-2008: para 3.0, 4.0, 3.1, 4.1, 3.1.2, 4.1.2, 3.1.2.1, 4.1.2.1, 3.1.3, 4.1.3, 3.1.7.2, 4.1.7.2, 3.1.11, 4.1.11, 3.1.11.11.2, 4.1.11.11.2, 3.1.12, 4.1.12, 3.1.12.1, 4.1.12.1, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.2.5, 4.2.2.2.5, 3.3 thru 3.3.4, 4.3 thru 4.3.4, 3.3.6, 4.3.6, 3.3.6.2, 4.3.6.2 FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -32,7 +32,7 @@
     {
       "designator": "MIL-HDBK-516B w/CHANGE 1",
       "number": "6.2.3.7",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Verify that independent electrical power sources provide safe redundancy for VCF.",
       "text": "Verify that independent electrical power sources provide safe redundancy for VCF. DoD/MIL Doc: JSSG-2008: 3.0, 4.0, 3.1, 4.1, 3.1.2, 4.1.2, 3.1.2.1, 4.1.2.1, 3.1.3, 4.1.3, 3.1.7.2, 4.1.7.2, 3.1.11, 4.1.11, 3.1.11.11.2, 4.1.11.11.2, 3.1.12, 4.1.12, 3.1.12.1, 4.1.12.1, 3.2.2.2.2, 4.2.2.2.2, 3.2.2.2.5, 4.2.2.2.5, 3.3 thru 3.3.4, 4.3 thru 4.3.4, 3.3.6, 4.3.6, 3.3.6.2, 4.3.6.2 FAA Doc: 14CFR references: 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529",
       "source_url": "https://assist.dla.mil",
@@ -43,7 +43,7 @@
     {
       "designator": "MIL-HDBK-516C",
       "number": "6.2.11.2",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Independent sources",
       "text": "Criterion: Verify that independent sources provide safe and redundant electrical power for VCF. Standard: Electrical power system is defined to include all components: i.e., sources, wiring, controls and associated grounding schemes. The electrical power sources used to power the VCF or backup the VCF do not induce any conditions that result in loss of the VCF. No single failure in any source propagates to other sources with the consequent result of loss of power. No wiring or grounding architecture propagates failures or causes loss of electrical power sources or the VCF. No combination of independent single failures among sources causes loss of the VCF. The probability of loss of all electrical power is less than 1x10^-8 or as specified by the procuring activity. Method of Compliance: Verification methods include analysis, tests, simulation and review of documentation. Hardware in the Loop (HITL) including FMET and ground tests verify no loss of VCF for any power source condition. References: JSSG-2008: 3.0, 3.1, 3.1.2, 3.1.2.1, 3.1.3, 3.1.7.2, 3.1.11, 3.1.11.11.2, 3.1.12, 3.1.12.1, 3.2.2.2.2, 3.2.2.2.5, 3.3 through 3.3.4, 3.3.6, 3.3.6.2, associated section 4 paragraphs 14 CFR 23.1351-23.1367, 25.1351-25.1363, 23.141-23.253, 25.21-25.255, 23.321-23.459, 25.321-25.459, 23.1501-23.1529, 25.1501-25.1529.",
       "source_url": "https://assist.dla.mil",
@@ -53,7 +53,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "6. FLIGHT TECHNOLOGY",
+      "grouping_at_time": "Section 6 \u2014 Flight Technology",
       "title_at_revision": "Independent sources",
       "text": "Standard: The electrical power generators used to power the VCF components: (e.g., equipment, wiring, controls and associated grounding schemes or backup to the VCF) do not induce any conditions that result in loss of the VCF. Each component within the VCF has multiple, independent power sources. No single failure of a power source degrades VCF below Operational State II. No single VCF failure due to wiring or grounding architecture can cause loss of power to the VCF. Electrical system failures more probable than PLOC divided by ten do not degrade the VCF below Operational State IV. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review EPS architecture for independent sources of power to VCF components. Analysis.\n  (1) Electrical power system FMECA is used to verify failure modes, failure rates, and impact to the VCF. Test.\n    (1) Lab test: Conduct EPS FMET to verify functionality of independent power sources.\n    (2) Lab test: Conduct VCF FMET to verify proper response to EPS failures.",
       "source_url": "https://assist.dla.mil",

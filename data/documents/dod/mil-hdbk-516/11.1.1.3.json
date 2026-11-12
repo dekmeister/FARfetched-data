@@ -3,14 +3,14 @@
   "document": "mil-hdbk-516",
   "key": "11.1.1.3",
   "number": "11.3.2",
-  "current_grouping": "11. AVIONICS",
+  "current_grouping": "Section 11 \u2014 Avionics",
   "canonical_title": "Display of other safety-critical parameters",
   "subject_group": "11.3 Safety-critical displays and controls",
   "versions": [
     {
       "designator": "MIL-HDBK-516C",
       "number": "11.1.1.3",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Display of parameters",
       "text": "Criterion: Verify that air vehicle and vehicle management system parameters are displayed as required for safe flight. Standard: The system continuously displays any aircraft parameter(s) defined to be important to flight safety. This may include landing gear status, cabin pressure, hydraulic system pressure, oxygen status, etc, as well as items specific to aircraft type, e.g., swing wing position, tilt rotor position, etc. These indications may be replaced/obscured by other display data if: sufficient automatic monitoring of these parameters is provided to ensure that the pilot or operator will always be notified of impending abnormal or dangerous situations; and presentation of detailed status information is always available with only one control action. Air vehicle or vehicle management system parameters required for safe flight continue to be available after any single point failure. Method of Compliance: Required system displays are verified through inspection of the design. Testing verifies the accuracy of the information displayed. FMECA verifies that air vehicle or vehicle management system status information required for safe flight is available after any single point failure. References: JSSG-2005: 3.2.1.8 (Control and displays) MIL-HDBK-87213: 3.1 provides display system guidance. SAE ARP4761 SAE ARP5580 RTCA DO-200 14 CFR 23.1301, 23.1307, 23.1309, 25.1301, 25.1307, 25.1309, 25.1351d FAA AC 20-138 FAA AC 20-145 FAA AC 27-1 FAA AC 29-2",
       "source_url": "https://assist.dla.mil",
@@ -20,7 +20,7 @@
     },
     {
       "designator": "MIL-HDBK-516D",
-      "grouping_at_time": "11. AVIONICS",
+      "grouping_at_time": "Section 11 \u2014 Avionics",
       "title_at_revision": "Display of other safety-critical parameters",
       "text": "Standard: All safety-critical parameters, other than PFR and WCAs, are displayed as required to ensure flight crew situational awareness of all safety-critical systems. a. The system continuously and accurately displays any critical parameters as required. Critical parameters may include landing gear status, cabin pressure, hydraulic system pressure, oxygen status, propulsion system information, fuel information, as well as items specific to air vehicle type (e.g., swing wing position, tilt rotor position). b. Display indications notify the flight crew of any impending abnormal or dangerous situations. Method of Compliance: Prior to entering flight test, verify the standard by the following method(s): Examination.\n(1) Review design documentation to identify the display of safety-critical parameters and their associated attributes. Analysis.\n  (1) Analyze FMECA and FMEA to ensure displayed critical parameters are available after any single point failure. Test.\n    (1) Lab test: Conduct laboratory testing to verify the display of safety-critical parameters according to requirements specifications and the display of any abnormal situations.\n    (2) Lab test: Conduct FMET to verify safety-critical parameters are available after single point failures.\n    (3) Ground test: Conduct air vehicle ground testing to validate laboratory test results. Prior to entering operational test/operations, verify the standard by the above and following method(s): Test.\n    (4) Flight test: Conduct flight testing to validate laboratory and ground test results.",
       "source_url": "https://assist.dla.mil",
