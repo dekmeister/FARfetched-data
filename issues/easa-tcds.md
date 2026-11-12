@@ -125,6 +125,22 @@ points elsewhere ("same as …", A330-941 in A.004, L-410).
 
 **To close:** distinguish the two before trusting the out-of-scope count.
 
+### ETCDS-19. `_tcds.json` State of Design often holds the wrong field
+
+`state_of_design` in the EASA fragments' `_tcds.json` (2026-11-12 parse) is
+set on 137 of 594 TCDS. On about 30 it holds a neighbouring label or value,
+not an authority: "Certification Application Date" (16, e.g. EASA.IM.A.228,
+whose A.I.3 is the CAA of Israel), "Certification Basis", "Type
+Certification", "5", "9", "Type Certificate MS 880 B: 26-October-1961". The
+rest name the authority in many forms ("FAA", "Federal Aviation
+Administration (US)", "Transport Canada Civil Aviation (TCCA)"). Nothing
+applies it: it's evidence for link candidates only, and `_suggest_primary`
+reads `validation`, not this.
+
+**To close:** read the value of the State-of-Design field (A.I.3 "Certifying
+Authority" on IM TCDS), not the next label; normalise to a country, then
+check the 137 again.
+
 ### ETCDS-17. A category printed outside the model section is not read
 
 The parser reads a model's category from its own section. Eight TCDS print it

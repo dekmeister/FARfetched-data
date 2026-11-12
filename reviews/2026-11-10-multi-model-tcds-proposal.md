@@ -1,10 +1,11 @@
 # Multi-model TCDS: design proposal (towards Boeing 737, A16WE Rev 82)
 
-Status (2026-11-13): **steps 1–4 done, step 4 promoted (apart from 5
-orphan deletions left for you); step 5 (A16NM) built, not selected,
-waiting on two decisions.** Step 3: tools becfc77, parent acadefc. Step 4:
-tools cd5b335, parent 497236d. The promotion, the review notes and step 5
-are uncommitted. [Next steps](#next-steps) says what comes next.
+Status (2026-11-13, later): **steps 1–5 done and promoted.** A16NM is
+selected and promoted (Astra, Astra SPX, G100 new; G150 linked to
+EASA.IM.A.228), after the manufacturer registry was rebuilt (below). Step 3:
+tools becfc77, parent acadefc. Step 4: tools cd5b335, parent 497236d. Step 5:
+tools d5094b0, parent 3a03d027. Registry and A16NM: tools 1578760 and its
+parent commit. [Next steps](#next-steps) says what comes next.
 
 ## Handover
 
@@ -230,7 +231,7 @@ there). Step 6 still needs `scope`/`copy` there if the EASA port uses them.
 ### Step 5, built, not selected (2026-11-13, uncommitted)
 
 A16NM Rev 9 stages all four models (Astra 11 entries, SPX 25, G100 25, G150
-108). Not in `faa_tcds_selection.tsv`: two decisions are yours (Next steps 1).
+108). Not in `faa_tcds_selection.tsv`: since selected and promoted (see the manufacturer registry section).
 
 | Change | Where (`tools/`) |
 |---|---|
@@ -286,30 +287,40 @@ colon-less one after a labelled sub-label, an `applicability` action, 17 more
 corpus check they change A00011LA, A00071CE, A5SW and five EASA line splits,
 and the A16NM tests still pass. Not part of this step; check them before you commit.
 
+### Manufacturer registry and A16NM promotion (2026-11-13, tools 1578760)
+
+Your direction: handle different spellings and name changes of one company
+properly, for future cases too.
+
+| Change | Where (`tools/`) |
+|---|---|
+| `manufacturers.tsv` columns `name kind canonical tcds evidence`. `spelling` (one `company_key`), `renamed` (former name, legal form, TC transfer), `distinct` (its own company among lookalikes); `tcds` scopes a row to one TCDS (a bare name meaning different companies). Fatal: bad row, chain, unused row, lookalike group with a name lacking a `distinct` row | `s00_common/manufacturers.py` (new), `assemble.py` |
+| Lookalike groups: equal `company_key`, or one key's words begin another's. `company_key` drops a parenthetical acronym of the words before ("(GALP)", "(HAIC)") and treats LP, LLP, spółka, SARL, Ltda as legal forms | `s00_common/names.py` |
+| Rows: the 14 old ones typed; new `distinct` rows for Daher Aircraft SAS / Daher Aircraft Design LLC (unreviewed until now: the old check missed them), Diamond GmbH, Gulfstream Aerospace Corporation, GALP; GALP spellings onto "Gulfstream Aerospace LP (GALP)" (FAA A61NM's spelling; keeps the published path) | `overrides/manufacturers.tsv` |
+| Link rule when neither TCDS is the State of Design's: the earliest TC. G150: FAA A16NM (Nov 7, 2005) primary over EASA.IM.A.228 (Jul 13, 2007) | `overrides/aircraft_links.tsv`; `PIPELINE.md`, parent `DATA_FORMAT.md` |
+| A16NM selected | `overrides/faa_tcds_selection.tsv` |
+| Tests | `s99_tests/common/test_manufacturers.py` (new), `test_names.py`, `emit/aircraft/test_assemble.py` |
+| Issues | TCDS-20 (former names not published; corpus variants), ETCDS-19 (EASA `state_of_design` junk) |
+
+Evidence: assemble on all fragments, then promote dry-run: exactly 3 new +
+3 changed (Galaxy and G200 change only the manufacturer's letter case; G150
+gains the FAA tcb, EASA tcb unchanged). Promoted those six. `build.py` on
+the promoted `data/` passes (329 models, 4,636 entries). Full `pytest`,
+`ruff check .` pass; `mypy .` errors only in `tools/out/compare_stages_*`.
+The 5 EASA orphans were deleted from `data/` meanwhile (not by this
+session). A330-743L and A330-841 are in `data/` but not staged (headline
+guard, ETCDS-16).
+
 ### Next steps
 
-1. **Your decisions for A16NM** (then add it to `faa_tcds_selection.tsv`
-   and promote):
-   - Manufacturer: a `manufacturers.tsv` row so "Gulfstream Aerospace LP"
-     (FAA A16NM and A53NM) and "GULFSTREAM AEROSPACE LP (GALP)" (EASA; FAA
-     A61NM's holder line prints "Gulfstream Aerospace LP (GALP)") are one
-     company. Recommended, canonical as FAA
-     prints it, but it moves the published EASA Galaxy, G200, G150 and G280
-     files to a new slug.
-   - G150 link: once the slugs merge, the FAA and EASA G150 meet on one
-     path and assemble refuses both unless linked (the published EASA G150
-     would drop out). Recommended: a link row with FAA A16NM as primary
-     (the FAA TCDS holds all four models and the type's history), its
-     evidence saying the State of Design is Israel (A5IL). Or hold the
-     FAA G150 (`aircraft_holds.tsv`) and select A16NM for the other three.
-2. **Commit** (yours): step 4's promotion and notes (from 2026-11-12), and
-   step 5. Check what the GA8 session has added to the shared files first.
-3. Subagent reading of A2NM and A16NM, as a separate task (verification
+1. Subagent reading of A2NM and A16NM, as a separate task (verification
    recast below).
-4. Optional: A2NM 757-200 headline (TCDS-13).
-5. Steps 6–10 as in §7.
-6. **Verification method.** §6 and D6 assume line-by-line human reading.
-   Under the 2026-11-12 rule the scripted gate above (raw text in the PDF,
+2. Optional: A2NM 757-200 headline (TCDS-13).
+3. Core close-out, as agreed: 737 Classic (step 8) and NG (step 9). MAX
+   (steps 7 and 10) and the EASA port (step 6) move to issues when this file
+   closes.
+4. **Verification method.** §6 and D6 assume line-by-line human reading.
+   Under the 2026-11-12 rule the scripted gate (raw text in the PDF,
    coverage, row checks, the scratch build, a corpus line diff) is the gate,
    with subagent reading as a second layer. D6 becomes a question about
    subagent coverage.

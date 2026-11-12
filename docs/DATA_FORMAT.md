@@ -375,13 +375,19 @@ validation by another regulator (e.g. FAA and EASA). The model's identity
 (`manufacturer`, `model_designation`, file path) comes from the State-of-Design
 TCDS. A second TCDS joins a model only through a reviewed link row in
 `tools/overrides/aircraft_links.tsv`, never by matching names: the same
-designation can be a different type design under another TC.
+designation can be a different type design under another TC. When no TCDS of
+the State of Design is in the dataset, the TCDS whose type certificate came
+first gives the identity.
 
 `manufacturer` and `model_designation` use one character per hyphen (a soft
 hyphen or U+2010/U+2011 on the PDF is `-`) and NFKC forms (a full-width
-comma is `,`); letters and accents are kept as printed. A company that TCDS
-spell several ways ("Textron Aviation Inc." / "Textron Aviation, Inc.") has
-one spelling, set by a reviewed row in `tools/overrides/manufacturers.tsv`.
+comma is `,`); letters and accents are kept as printed. A company has one
+name in the dataset, set by reviewed rows in `tools/overrides/manufacturers.tsv`:
+a company that TCDS spell several ways ("Textron Aviation Inc." / "Textron
+Aviation, Inc.") or that a TCDS still prints under a former name takes one
+name, and lookalike names of different companies (Gulfstream Aerospace
+Corporation and Gulfstream Aerospace LP (GALP)) stay apart. The name printed
+on each TCDS is not kept in `data/`; the rows record it.
 The slugs in the path are transliterated (`Zakłady` → `zaklady`).
 
 A model is a designation the TCDS heads a model section with ("Model

@@ -217,6 +217,37 @@ version) or `partial`; count the affected lines in `data/` first.
 
 ## Process
 
+### TCDS-20. Manufacturer names: former names aren't published, and the corpus has more variants
+
+`tools/overrides/manufacturers.tsv` (typed rows: `spelling`, `renamed`,
+`distinct`, optional TCDS scope; built 2026-11-13) gives each company one
+name and keeps lookalike companies apart. Rows are written only when a
+staged TCDS needs one. Two things are left:
+
+- **Selecting more FAA TCDS will stop assemble for review.** The FAA and EASA
+  catalogues hold 736 aircraft holder names, 51 groups of them sharing a
+  `company_key` (Piper Aircraft Inc. / Piper Aircraft, Inc.; The Boeing
+  Company / BOEING COMPANY (THE); Bellanca Aircraft Inc. / Corporation;
+  Grob Aircraft AG / SE, a change of legal form, so `renamed`). Each needs a
+  row when its second spelling is staged. Different companies that look
+  alike in the catalogue: Textron Aviation / Textron Aviation Defense, Bell
+  Textron / Bell Textron Canada, Airbus / Airbus Canada Partnership /
+  Airbus Helicopters, Helio Aircraft Corporation / Helio Aircraft LLC. A
+  bare "Diamond Aircraft Industries" (one FAA TCDS) can be either Diamond
+  company: it takes a TCDS-scoped row.
+- **Former names aren't published.** `data/` holds the canonical name only,
+  and the SQLite `manufacturers` table has one `name`. Someone searching
+  "Cessna" or "Israel Aircraft Industries" doesn't reach Textron or GALP
+  models. The TCDS print the history ("TC Holder Record: Israel Aircraft
+  Industries, LTD. transferred ownership … to Gulfstream Aerospace LP on
+  March 26, 2002"; A60EU: "changed from DAHER AEROSPACE to DAHER AIRCRAFT,
+  SAS on August 19, 2025").
+
+**To close:** the first closes itself as TCDS are selected (assemble names
+each group). The second is a contract decision: a `former_names` list on
+the aircraft file, or a `manufacturer_names` table (v12, app release),
+filled from the TCDS holder records rather than from override rows.
+
 ### TCDS-10. Path collisions when the parser runs on the whole corpus
 
 On a whole-corpus run, `aircraft.assemble` staged 1,446 of 1,470 fragments: 24

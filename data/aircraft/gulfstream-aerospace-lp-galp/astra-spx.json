@@ -1,0 +1,394 @@
+{
+  "manufacturer": "Gulfstream Aerospace LP (GALP)",
+  "model_designation": "Astra SPX",
+  "common_name": null,
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A16NM",
+        "revision": "9",
+        "revision_date": "2022-10-26",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID185926348620221028150119.0001"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 21.29",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25, effective February 1, 1965, including Amendments 25-1 through 25-54, plus Subpart B, Flight, Sections 25.21 through 25.255, and Subpart E, Powerplant, Sections 25.901 through 25.945, and 25.1011 through 25.1207, including Amendments 25-1 through 25-80, which have been applied to the changes or the areas affected by the change per the FAA derivative aircraft policy. In addition, the following specific regulations including Amendments 25-1 through 25-80 have been applied to the changes or the areas affected by the change per the FAA derivative aircraft policy:",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "25.305 Strength and deformation",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "25.307 Proof of structure",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "25.571 Damage tolerance & fatigue evaluation of structure",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "571"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "25.625 Fitting factors",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "625"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "25.629 Aeroelastic stability requirements",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "629"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.961 Fuel system hot weather operation",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "961"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "25.994 Fuel system components",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "994"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.997 Fuel strainer or filter",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "997"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "25.1001 Fuel jettisoning system",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1001"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "25.1305 Powerplant Instruments",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.1307 Miscellaneous equipment",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316 System lightning protection",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1316"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "25.1521 Powerplant limitations",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1521"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "25.1551 Oil quantity indication",
+          "applicability": "Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1551"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "Further, Section 25.729 Amendment 25-75 has been applied in lieu of the equivalent safety finding made for this section on the IAI Model 1125 Westwind Astra.",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-75",
+              "provisions": [
+                "729"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, effective September 10, 1990.",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December 1, 1969, including Amendments 36-1 through 36-20.",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-20"
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 25-ANM-104 for High Intensity Radiated Fields (HIRF).",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 25-ANM-5 for operation to 45,000 feet and for ATTCS. Note: Compliance with Section 25.904, as promulgated by Amendment 25-62, was required for the ATTCS system in lieu of the Special Condition 25-ANM-5.",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "904"
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "elos",
+          "raw_reference": "An equivalent safety finding exists with respect to Section 25.1203(a) Fire detection system within the turbine tailpipe zone. In addition, the following equivalent safety findings, previously made for the IAI Model 1125 Westwind Astra under the provisions of Section 21.21(b)(1), are also applicable to the IAI Model Astra SPX:",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1203",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.813(a) and (e) Emergency exit access, lavatory door",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "813",
+              "paragraph": "(a)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.1305 Powerplant instruments for APU installation",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305"
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "other",
+          "raw_reference": "Compliance with the following optional requirements has been established: Section 25.801 Ditching Section 25.1419 Ice Protection",
+          "applicability": "Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

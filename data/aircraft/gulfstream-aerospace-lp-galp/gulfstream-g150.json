@@ -1,9 +1,1760 @@
 {
-  "manufacturer": "GULFSTREAM AEROSPACE LP (GALP)",
+  "manufacturer": "Gulfstream Aerospace LP (GALP)",
   "model_designation": "Gulfstream G150",
   "common_name": null,
   "notes": null,
   "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A16NM",
+        "revision": "9",
+        "revision_date": "2022-10-26",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID185926348620221028150119.0001"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "other",
+          "raw_reference": "The certification basis for the unchanged portion of the model G150 is the same as the Model G100 as shown in the relevant G100 section above.",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 21.29",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 25, effective February 1, 1965, including Amendments 25-1 through 25-54, plus Subpart B, Flight, Sections 25.21 through 25.255, and Subpart E, Powerplant, Sections 25.901 through 25.945, and 25.1011 through 25.1207, including Amendments 25-1 through 25-80, which have been applied to the changes or the areas affected by the change per the FAA derivative aircraft policy. In addition, the following specific regulations including Amendments 25-1 through 25-80 have been applied to the changes or the areas affected by the change per the FAA derivative aircraft policy:",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "25.305 Strength and deformation",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "25.307 Proof of structure",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "25.571 Damage tolerance & fatigue evaluation of structure",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "571"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "25.625 Fitting factors",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "625"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.629 Aeroelastic stability requirements",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "629"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "25.961 Fuel system hot weather operation",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "961"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.994 Fuel system components",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "994"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "25.997 Fuel strainer or filter",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "997"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "25.1001 Fuel jettisoning system",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1001"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.1305 Powerplant Instruments",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "25.1307 Miscellaneous equipment",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316 System lightning protection",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1316"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "25.1521 Powerplant limitations",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1521"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "25.1551 Oil quantity indication",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100; applied to the changes or the areas affected by the change per the FAA derivative aircraft policy",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-80",
+              "provisions": [
+                "1551"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "Further, Section 25.729 Amendment 25-75 has been applied in lieu of the equivalent safety finding made for this section on the IAI Model 1125 Westwind Astra.",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-75",
+              "provisions": [
+                "729"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, effective September 10, 1990.",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December 1, 1969, including Amendments 36-1 through 36-20.",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-20"
+            }
+          ]
+        },
+        {
+          "display_order": 21,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 25-ANM-104 for High Intensity Radiated Fields (HIRF).",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "special_condition",
+          "raw_reference": "Special Condition No. 25-ANM-5 for operation to 45,000 feet and for ATTCS. Note: Compliance with Section 25.904, as promulgated by Amendment 25-62, was required for the ATTCS system in lieu of the Special Condition 25-ANM-5.",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "904"
+            }
+          ]
+        },
+        {
+          "display_order": 23,
+          "entry_type": "elos",
+          "raw_reference": "An equivalent safety finding exists with respect to Section 25.1203(a) Fire detection system within the turbine tailpipe zone. In addition, the following equivalent safety findings, previously made for the IAI Model 1125 Westwind Astra under the provisions of Section 21.21(b)(1), are also applicable to the IAI Model Astra SPX:",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1203",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 24,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.813(a) and (e) Emergency exit access, lavatory door",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "813",
+              "paragraph": "(a)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 25,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.1305 Powerplant instruments for APU installation",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305"
+            }
+          ]
+        },
+        {
+          "display_order": 26,
+          "entry_type": "other",
+          "raw_reference": "Compliance with the following optional requirements has been established: Section 25.801 Ditching Section 25.1419 Ice Protection",
+          "applicability": "1A. Airworthiness & Environmental Standards for components and areas not affected or not significantly affected by the change; Models Astra SPX and Gulfstream 100",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR part 25, effective February 1, 1965, including amendments 25-1 through 25-108, except for the following paragraphs, which are complied with at the identified amendment level.",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-108"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "provisions": [
+                "101",
+                "105",
+                "109",
+                "113",
+                "115",
+                "203",
+                "253",
+                "305",
+                "307",
+                "321",
+                "333",
+                "335",
+                "341",
+                "343",
+                "345",
+                "349",
+                "351",
+                "361",
+                "363",
+                "371",
+                "373",
+                "391",
+                "395",
+                "397",
+                "415",
+                "427",
+                "445",
+                "459",
+                "473",
+                "479",
+                "481",
+                "483",
+                "485",
+                "491",
+                "493",
+                "499",
+                "561",
+                "693",
+                "697",
+                "701",
+                "723",
+                "731",
+                "733",
+                "735",
+                "855",
+                "857",
+                "951",
+                "979",
+                "981",
+                "1351",
+                "1419",
+                "1435"
+              ],
+              "effect": "exclude"
+            }
+          ]
+        },
+        {
+          "display_order": 28,
+          "entry_type": "regulation",
+          "raw_reference": "101 PERFORMANCE - GENERAL 38",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-38",
+              "provisions": [
+                "101"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 29,
+          "entry_type": "regulation",
+          "raw_reference": "105 TAKEOFF 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "105"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 30,
+          "entry_type": "regulation",
+          "raw_reference": "109 ACCELERATE-STOP DISTANCE 42",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-42",
+              "provisions": [
+                "109"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 31,
+          "entry_type": "regulation",
+          "raw_reference": "113 TAKEOFF DISTANCE & TAKEOFF RUN 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "113"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "115 TAKEOFF FLIGHT PATH 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "115"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "143 f CONTROL & MANEUVER - GENERAL 42",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": "The table holds \u00a725.143(f) at Amendment 25-42, where \u00a725.143 has no paragraph (f) ((f), maneuvering stick forces, was added at 25-84). No reference is given; \u00a725.143 stays at the 1B headline's level otherwise.",
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "regulation",
+          "raw_reference": "149 h MINIMUM CONTROL SPEED 72",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-72",
+              "provisions": [
+                "149"
+              ],
+              "paragraph": "(h)"
+            }
+          ]
+        },
+        {
+          "display_order": 35,
+          "entry_type": "regulation",
+          "raw_reference": "201 c, d STALL DEMONSTRATION 42",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": "One of 2 paragraphs in this row (c, d).",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-42",
+              "provisions": [
+                "201"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 36,
+          "entry_type": "regulation",
+          "raw_reference": "201 c, d STALL DEMONSTRATION 42",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": "One of 2 paragraphs in this row (c, d).",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-42",
+              "provisions": [
+                "201"
+              ],
+              "paragraph": "(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 37,
+          "entry_type": "regulation",
+          "raw_reference": "203 STALL CHARACTERISTICS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "203"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 38,
+          "entry_type": "regulation",
+          "raw_reference": "253 HIGH SPEED CHARACTERISTICS 72",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-72",
+              "provisions": [
+                "253"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 39,
+          "entry_type": "regulation",
+          "raw_reference": "305 STRENGTH & DEFORMATION AFT FUSELAGE ( * ), HORIZONTAL STABILIZER, VERTICAL TAIL, LANDING GEAR 54",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE ( * ), HORIZONTAL STABILIZER, VERTICAL TAIL, LANDING GEAR",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-54",
+              "provisions": [
+                "305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 40,
+          "entry_type": "regulation",
+          "raw_reference": "305 STRENGTH & DEFORMATION WING, NACELLE 77",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; WING, NACELLE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-77",
+              "provisions": [
+                "305"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 41,
+          "entry_type": "regulation",
+          "raw_reference": "307 PROOF OF STRUCTURE AFT FUSELAGE, HORIZONTAL STABILIZER, VERTICAL TAIL, LANDING GEAR, WING, NACELLE 54",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, HORIZONTAL STABILIZER, VERTICAL TAIL, LANDING GEAR, WING, NACELLE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-54",
+              "provisions": [
+                "307"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 42,
+          "entry_type": "regulation",
+          "raw_reference": "321 FLIGHT LOADS - GENERAL AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "321"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 43,
+          "entry_type": "regulation",
+          "raw_reference": "333 FLIGHT ENVELOPE AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "333"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 44,
+          "entry_type": "regulation",
+          "raw_reference": "335 DESIGN AIRSPEED AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "335"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 45,
+          "entry_type": "regulation",
+          "raw_reference": "341 GUST LOADS AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "341"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 46,
+          "entry_type": "regulation",
+          "raw_reference": "343 DESIGN FUEL & OIL LOADS AFT FUSELAGE, NACELLE, VERTICAL TAIL, HORIZONTAL STABILIZER, WING 18",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, HORIZONTAL STABILIZER, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-18",
+              "provisions": [
+                "343"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 47,
+          "entry_type": "regulation",
+          "raw_reference": "345 HIGH LIFT DEVICES 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "345"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 48,
+          "entry_type": "regulation",
+          "raw_reference": "349 ROLLING CONDITIONS NACELLE, WING 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; NACELLE, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "349"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 49,
+          "entry_type": "regulation",
+          "raw_reference": "351 YAWING CONDITIONS AFT FUSELAGE, NACELLE, VERTICAL TAIL, HORIZONTAL STABILIZER 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE, VERTICAL TAIL, HORIZONTAL STABILIZER",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "351"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 50,
+          "entry_type": "regulation",
+          "raw_reference": "361 ENGINE TORQUE 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "361"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 51,
+          "entry_type": "regulation",
+          "raw_reference": "363 SIDE LOAD ON ENGINE MOUNT 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "363"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 52,
+          "entry_type": "regulation",
+          "raw_reference": "371 GYROSCOPIC LOADS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "371"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 53,
+          "entry_type": "regulation",
+          "raw_reference": "373 SPEED CONTROL DEVICES 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "373"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 54,
+          "entry_type": "regulation",
+          "raw_reference": "391 CONTROL SURFACE LOADS- GENERAL WING, VERTICAL TAIL 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; WING, VERTICAL TAIL",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "391"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 55,
+          "entry_type": "regulation",
+          "raw_reference": "395 CONTROL SYSTEM WING, VERTICAL TAIL, FLIGHT CONTROLS SYS. 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; WING, VERTICAL TAIL, FLIGHT CONTROLS SYS.",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "395"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 56,
+          "entry_type": "regulation",
+          "raw_reference": "397 CONTROL SURFACE LOADS WING, VERTICAL TAIL, HORIZONTAL STABILIZER, FLIGHT CONTROL SYS. 38",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; WING, VERTICAL TAIL, HORIZONTAL STABILIZER, FLIGHT CONTROL SYS.",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-38",
+              "provisions": [
+                "397"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 57,
+          "entry_type": "regulation",
+          "raw_reference": "415 GROUND GUST CONDITIONS VERTICAL TAIL, HORIZONTAL SABILIZER, FLIGHT CONTROLS SYS. 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; VERTICAL TAIL, HORIZONTAL SABILIZER, FLIGHT CONTROLS SYS.",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "415"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 58,
+          "entry_type": "regulation",
+          "raw_reference": "427 UNSYMETRICAL LOADS AFT FUSELAGE, VERTICAL TAIL 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, VERTICAL TAIL",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "427"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 59,
+          "entry_type": "regulation",
+          "raw_reference": "445 AUXILLIARY AERODYNAMIC SURFACES WINGLETS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; WINGLETS",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "445"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 60,
+          "entry_type": "regulation",
+          "raw_reference": "459 SPECIAL DEVICES SLATS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; SLATS",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "459"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 61,
+          "entry_type": "regulation",
+          "raw_reference": "473 GROUND LOADS CONDITIONS & ASSUMPTIONS LANDING GEAR, NACELLE, WING, AFT FUSELAGE, VERTICAL TAIL, HORIZONTAL SABILIZER 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; LANDING GEAR, NACELLE, WING, AFT FUSELAGE, VERTICAL TAIL, HORIZONTAL SABILIZER",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "473"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 62,
+          "entry_type": "regulation",
+          "raw_reference": "479 LEVEL LANDING CONDITIONS LANDING GEAR, NACELLE, WING, AFT FUSELAGE 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; LANDING GEAR, NACELLE, WING, AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "479"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 63,
+          "entry_type": "regulation",
+          "raw_reference": "481 TAIL DOWN LANDING CONDITIONS LANDING GEAR, NACELLE, WING, AFT FUSELAGE 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; LANDING GEAR, NACELLE, WING, AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "481"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 64,
+          "entry_type": "regulation",
+          "raw_reference": "483 ONE WHEEL LANDING CONDITIONS AFT FUSELAGE, LAND GEAR, NACELLE, WING 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, LAND GEAR, NACELLE, WING",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "483"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 65,
+          "entry_type": "regulation",
+          "raw_reference": "485 SIDE LOAD CONDITIONS LANDING GEAR, NACELLE, WING, AFT FUSELAGE 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; LANDING GEAR, NACELLE, WING, AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "485"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 66,
+          "entry_type": "regulation",
+          "raw_reference": "491 TAKEOFF RUN LANDING GEAR, NACELLE, WING, AFT FUSELAGE 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; LANDING GEAR, NACELLE, WING, AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "491"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 67,
+          "entry_type": "regulation",
+          "raw_reference": "493 BRAKED ROLL CONDITIONS AFT FUSELAGE, LANDING GEAR 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, LANDING GEAR",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "493"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 68,
+          "entry_type": "regulation",
+          "raw_reference": "499 NOSE WHEEL YAW AFT FUSELAGE, LAND GEAR 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, LAND GEAR",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "499"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 69,
+          "entry_type": "regulation",
+          "raw_reference": "561 EMERG. LANDING CONDITION - GENERAL AFT FUSELAGE, NACELLE 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE, NACELLE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "561"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 70,
+          "entry_type": "regulation",
+          "raw_reference": "693 - JOINTS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "693"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 71,
+          "entry_type": "regulation",
+          "raw_reference": "697 - LIFT AND DRAG DEVICES CONTROLS 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "697"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 72,
+          "entry_type": "regulation",
+          "raw_reference": "701 FLAP & SLAT INTERCONNECTION 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "701"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 73,
+          "entry_type": "regulation",
+          "raw_reference": "723 SHOCK ABSORPTION TESTS 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "723"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 74,
+          "entry_type": "regulation",
+          "raw_reference": "725 LIMIT DROP TESTS 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "725"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 75,
+          "entry_type": "regulation",
+          "raw_reference": "727 RESERVE ENERGY ABSORP. DROP TESTS 23",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "727"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 76,
+          "entry_type": "regulation",
+          "raw_reference": "731 WHEELS 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "731"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 77,
+          "entry_type": "regulation",
+          "raw_reference": "733 TIRES 48",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-48",
+              "provisions": [
+                "733"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 78,
+          "entry_type": "regulation",
+          "raw_reference": "735 BRAKES 48",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-48",
+              "provisions": [
+                "735"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 79,
+          "entry_type": "regulation",
+          "raw_reference": "783 e DOORS 54",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-54",
+              "provisions": [
+                "783"
+              ],
+              "paragraph": "(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 80,
+          "entry_type": "regulation",
+          "raw_reference": "855 CARGO OR BAGGAGE COMPARTMENT AFT FUSELAGE 32",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-32",
+              "provisions": [
+                "855"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 81,
+          "entry_type": "regulation",
+          "raw_reference": "856 THERMAL ACOUSTIC INSULATION MATERIALS 111",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-111",
+              "provisions": [
+                "856"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 82,
+          "entry_type": "regulation",
+          "raw_reference": "857 CARGO COMPT. CLASSIFICATION AFT FUSELAGE 32",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150; AFT FUSELAGE",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-32",
+              "provisions": [
+                "857"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 83,
+          "entry_type": "regulation",
+          "raw_reference": "951 FUEL SYSTEM - GENERAL 38",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-38",
+              "provisions": [
+                "951"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 84,
+          "entry_type": "regulation",
+          "raw_reference": "979 PRESSURE FUELING SYSTEM 38",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-38",
+              "provisions": [
+                "979"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 85,
+          "entry_type": "regulation",
+          "raw_reference": "981 FUEL TANK (IGNITION PREVENTION) (**)",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": "Level given as note (**); see the notes below the table.",
+          "references": []
+        },
+        {
+          "display_order": 86,
+          "entry_type": "regulation",
+          "raw_reference": "1351 ELECT. SYSTEMS & EQUIPT. - GENERAL 41",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-41",
+              "provisions": [
+                "1351"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 87,
+          "entry_type": "regulation",
+          "raw_reference": "1416 PNEUMATIC DE-ICER BOOT SYSTEM 46",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-46",
+              "provisions": [
+                "1416"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 88,
+          "entry_type": "regulation",
+          "raw_reference": "1419 ICE PROTECTION 0",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-0",
+              "provisions": [
+                "1419"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 89,
+          "entry_type": "regulation",
+          "raw_reference": "1435 HYDRAULIC SYSTEMS 41",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-41",
+              "provisions": [
+                "1435"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 90,
+          "entry_type": "other",
+          "raw_reference": "( * ) Aft fuselage is defined Aft of Station 10824 (frame 43)",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 91,
+          "entry_type": "other",
+          "raw_reference": "( ** ) GALP elected to comply with 25.981 at amendment 25-102 except for paragraph 25.981 (c)",
+          "applicability": "1B.Airworthiness and Environmental Standards for components and areas affected by the change for the basic G150",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 92,
+          "entry_type": "special_condition",
+          "raw_reference": "5 \u2013ANM-104, High Intensity Radiated Fields (HIRF) (applicability to G100 extended to G150)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 93,
+          "entry_type": "special_condition",
+          "raw_reference": "25.562 (25-294-SC) Dynamic test requirements for single place side facing seats",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "562"
+            }
+          ]
+        },
+        {
+          "display_order": 94,
+          "entry_type": "special_condition",
+          "raw_reference": "25.773 (b) Pilot Compartment View (Hydrophobic coating)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "773",
+              "paragraph": "(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 95,
+          "entry_type": "special_condition",
+          "raw_reference": "No. 25-661-SC Non-Rechargeable Lithium Battery Installations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 96,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.812 (a)( 1), (c), (d), (e) Emergency Lighting",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "812",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 97,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.831 (g) Ventilation System Failures \u2013 Cabin Temperature and Humidity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "831",
+              "paragraph": "(g)"
+            }
+          ]
+        },
+        {
+          "display_order": 98,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.841 (b6) Cabin Pressurization \u2013 High Altitude Take-off and Landing Operations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "841",
+              "paragraph": "(b6)"
+            }
+          ]
+        },
+        {
+          "display_order": 99,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.1203 (a) Fire Detection System within the Turbine Tailpipe Zone (applicability to G100 extended to G150)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1203",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 100,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.1305 ( c3 ) Digital Display Only of Turbine Engine High Pressure Rotor Speed ( N2 )",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305"
+            }
+          ]
+        },
+        {
+          "display_order": 101,
+          "entry_type": "elos",
+          "raw_reference": "FAR.25.APPENDIX K Adoption of Draft Harmonized Rules for APU Certification",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 102,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.255(a) Maneuvering stability and controllability in a mistrim condition",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "255",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 103,
+          "entry_type": "elos",
+          "raw_reference": "Section 25.1121(c) Exhaust system components separated by fireproof shields",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1121",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 104,
+          "entry_type": "exemption",
+          "raw_reference": "Section 25.785 (b) Dynamic test requirements for multiple place side facing seats",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "785",
+              "paragraph": "(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 105,
+          "entry_type": "exemption",
+          "raw_reference": "Section 25.901 (c) Uncontrollable High Engine Thrust FAA has concluded that the occurrence of any uncontrollable high thrust failure condition, or any of the associated causal failures listed within the FAA-approved \u2018Airworthiness Assessment and Risk Management Plan,\u2019 may endanger the safe operation of an airplane. Consequently, the FAA recommends that operators be encouraged to report instances of uncommanded high thrust in accordance with \u00a7\u00a7 121.703 (c), 125.409 (c), and 135.415(c). This exemption includes a requirement to develop an \u2018Airworthiness Assessment and Risk Management Plan\u2019 concerning uncommanded high thrust. The document must list failures that may cause uncommanded high thrust. This document is required by the exemption to be included in the Instructions for Continued Airworthiness for the applicable airplane and must be made available by the type certificate holder to operators of airplanes that have this exemption. Further, the failures listed within the FAA- approved \u2018Airworthiness Assessment and Risk Management Plan\u2019 must be added to the list of reportables under \u00a7 21.3 for any airplane certificated under this exemption.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "901",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 106,
+          "entry_type": "other",
+          "raw_reference": "Compliance with the following optional requirements has been established: Section 25.801 Ditching Section 25.1419 Ice Protection",
+          "applicability": "5. Optional Design Regulations",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 107,
+          "entry_type": "regulation",
+          "raw_reference": "6 Noise Standards 14 CFR part 36, effective December 1, 1969, including amendments 36-1 through 36-26 (Stage 4)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-26"
+            }
+          ]
+        },
+        {
+          "display_order": 108,
+          "entry_type": "regulation",
+          "raw_reference": "7 Fuel Venting and Exhaust Emissions Standards 14 CFR part 34, effective September 10, 1990 including amendment 34-3",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    },
     {
       "tcds": {
         "issuer": "EASA",
