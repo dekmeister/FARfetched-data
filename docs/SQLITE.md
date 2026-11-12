@@ -11,7 +11,7 @@ Contents: [Consuming](#consuming-the-sqlite-artifact) ·
 [Contract metadata](#contract-metadata) · [Documents](#documents) ·
 [Aircraft / TCB](#aircraft--tcb-tables) ·
 [Certification basis](#certification-basis-three-layers) ·
-[Citations](#citations) ·
+[Citations](#citations) · [Deviations](#deviations) ·
 [Similarity](#similarity) · [latest_versions](#latest_versions-view) ·
 [Build pipeline](#build-pipeline)
 
@@ -34,14 +34,14 @@ if conn.execute("PRAGMA user_version").fetchone()[0] != SUPPORTED_SCHEMA:
 
 ## Tables
 
-`build.py` compiles the JSON into 25 tables plus one view. Every table but the
+`build.py` compiles the JSON into 28 tables plus one view. Every table but the
 FTS5 virtual tables is `STRICT`; every date column is `TEXT` with `CHECK (date(x) IS x)`; every
 UNIQUE key is over NOT NULL columns. The authoritative DDL is `SCHEMA_SQL`
 in [certbuild/ddl.py](../certbuild/ddl.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **13**). It is bumped
+`PRAGMA user_version` is the schema version (currently **14**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -163,6 +163,27 @@ on `provision_id` serves "which aircraft cite §23.1309".
 
 `cert_basis_citation_gaps` — section-like citations that are not linked:
 `entry_id`, `seq`, `cited` (an exact substring of the line), `reason`.
+
+### Deviations
+
+Special conditions, ELOS/ESF, exemptions and deviations as their regulator
+lists them ([Deviation file](DATA_FORMAT.md#deviation-file-datadeviationseasa120960json)).
+Link-only: there is no text column, and the page to read is `source_url`. No
+TCDS line links to a record yet.
+
+`deviations` — one row per record: `issuer_id`, `key` (unique per issuer),
+`kind` (`special_condition`, `elos`, `exemption`, `deviation`,
+`means_of_compliance`), `number` (as printed, NULL when none, not unique;
+indexed), `title`, `stage` (`proposed`, `final`), `published_on`, `source_url`.
+
+`deviation_citations` — sections a record's title or identifier names:
+`deviation_id`, `seq`, `document_id`, `provision_id`, `paragraph`. The
+provision, not a version: link whichever version the page shows. Index on
+`provision_id` serves "which deviations name §25.1309". Computed by the tools,
+never part of any basis.
+
+`deviation_citation_gaps` — `deviation_id`, `seq`, `cited` (a slice of the title
+or number), `reason` (the same reasons as `cert_basis_citation_gaps`).
 
 ### Similarity
 

@@ -75,7 +75,8 @@ FARfetched-data/
 ├── schemas/                    JSON Schema files (Draft 2020-12)
 ├── data/                       Output of tools/ (never hand-edited)
 │   ├── documents/{issuer}/{document}/{_document,provision}.json
-│   └── aircraft/{manufacturer-slug}/{model-slug}.json
+│   ├── aircraft/{manufacturer-slug}/{model-slug}.json
+│   └── deviations/{issuer}/{key}.json
 ├── build.py                    The CLI (argparse + main)
 ├── certbuild/                  The build, one module per concern (Code map)
 ├── scripts/compare_builds.py   Old vs new build code on the same data/
@@ -136,6 +137,7 @@ file. Each module's docstring says what it must not do.
 | Cert-basis resolution rules (pure, no sqlite3) | `resolve.py` | DATA_FORMAT §Resolution rules | `test_resolve.py`, then `test_resolution.py` |
 | Aircraft, TCDS, ref inserts, paragraph-ref checks | `aircraft.py` | SQLITE | `test_resolution.py` |
 | ELOS/SC/exemption citations: resolving, version to link, report counts | `citations.py` | DATA_FORMAT §Citations, SQLITE §Citations | `test_citations.py` |
+| Deviation records (SC, ELOS/ESF, exemptions): loading, citations, gaps | `deviations.py` | DATA_FORMAT §Deviation file, SQLITE §Deviations | `test_deviations.py` |
 | Similarity | `similarity.py` | SQLITE §Similarity | `test_similarity.py` |
 | Full-text search tables | `search.py` | SQLITE §Search | `test_search.py` |
 | Report, git state | `report.py` | SQLITE §Build | `test_build_failures.py` |

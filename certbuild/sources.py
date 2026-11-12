@@ -12,7 +12,7 @@ import re
 import sqlite3
 from collections.abc import Iterator
 from contextlib import contextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import cache
 from pathlib import Path
 from typing import Any
@@ -97,6 +97,7 @@ class DataFiles:
     documents: list[Source]
     provisions: list[Source]
     aircraft: list[Source]
+    deviations: list[Source] = field(default_factory=list)
 
 
 def read_data_dir(data_dir: Path) -> tuple[DataFiles, list[ValidationError]]:
@@ -119,6 +120,12 @@ def read_data_dir(data_dir: Path) -> tuple[DataFiles, list[ValidationError]]:
         for p in sorted(aircraft_dir.rglob("*.json")):
             data, errs = _read(p, "aircraft_model")
             files.aircraft.append(Source(p, data))
+            errors.extend(errs)
+    deviations_dir = data_dir / "deviations"
+    if deviations_dir.is_dir():
+        for p in sorted(deviations_dir.rglob("*.json")):
+            data, errs = _read(p, "deviation")
+            files.deviations.append(Source(p, data))
             errors.extend(errs)
     return files, errors
 

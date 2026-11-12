@@ -319,3 +319,30 @@ def resolved(
             (tcds_number, model),
         ).fetchall()
     return set(rows)
+
+
+# ---------------------------------------------------------------------------
+# Deviation records (docs/DATA_FORMAT.md §Deviations)
+
+
+def deviation(key: str = "120960", **extra: Any) -> Record:
+    """One EASA deviation record; `extra` overrides or adds fields."""
+    return {
+        "issuer": "EASA",
+        "key": key,
+        "kind": "special_condition",
+        "number": "SC-E25.904-01",
+        "title": "Special Condition SC-E25.904-01 on CS 25.1309",
+        "stage": "final",
+        "published_on": "2021-01-19",
+        "source_url": "https://www.easa.europa.eu/en/document-library/x",
+        **extra,
+    }
+
+
+def stage_deviations(data: Path, records: list[Record]) -> None:
+    """Write records at deviations/{issuer}/{key}.json under a staged data/."""
+    for r in records:
+        path = data / "deviations" / r["issuer"].lower() / f"{r['key']}.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(r))

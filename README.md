@@ -69,7 +69,8 @@ FARfetched-data/
 ├── data/
 │   ├── documents/{issuer}/{document}/_document.json   revision list
 │   ├── documents/{issuer}/{document}/{provision}.json
-│   └── aircraft/{manufacturer-slug}/{model-slug}.json
+│   ├── aircraft/{manufacturer-slug}/{model-slug}.json
+│   └── deviations/{issuer}/{key}.json
 ├── build.py             JSON → SQLite compiler and checker (the CLI)
 ├── certbuild/           the build itself, one module per concern
 ├── scripts/             compare_builds.py (old vs new build code on data/),

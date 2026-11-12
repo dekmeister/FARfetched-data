@@ -16,6 +16,7 @@ from pathlib import Path
 from certbuild.aircraft import ParagraphRefStats, insert_aircraft
 from certbuild.citations import CitationStats
 from certbuild.ddl import SCHEMA_SQL, SCHEMA_VERSION
+from certbuild.deviations import check_deviation_paths, insert_deviations
 from certbuild.errors import BuildError
 from certbuild.lookups import seed_lookups
 from certbuild.provisions import (
@@ -48,6 +49,7 @@ _DATE_COLUMNS = (
     ("document_revisions", "effective_date"),
     ("version_actions", "issued_on"),
     ("tcds", "revision_date"),
+    ("deviations", "published_on"),
 )
 
 
@@ -81,6 +83,7 @@ class Sources:
     provisions: list[Source]
     aircraft: list[Source]
     texts: dict[str, ParsedText]  # every version text, parsed
+    deviations: list[Source]
 
 
 def load_checked(data_dir: Path) -> Sources:
@@ -95,10 +98,13 @@ def load_checked(data_dir: Path) -> Sources:
     texts, text_errors = parse_texts(files.provisions)
     _raise_if(
         check_paths(files.documents, files.provisions)
+        + check_deviation_paths(files.deviations)
         + text_errors
         + check_groupings(files.provisions)
     )
-    return Sources(files.documents, files.provisions, files.aircraft, texts)
+    return Sources(
+        files.documents, files.provisions, files.aircraft, texts, files.deviations
+    )
 
 
 def _raise_if(errors: list[str]) -> None:
@@ -131,6 +137,7 @@ def _fill(conn: sqlite3.Connection, src: Sources, data_dir: Path) -> BuildReport
     para_stats = ParagraphRefStats()
     citation_stats = CitationStats()
     _raise_if(insert_aircraft(conn, src.aircraft, para_stats, citation_stats))
+    _raise_if(insert_deviations(conn, src.deviations))
     insert_search(conn)
     _raise_if(_future_dates(conn, date.today().isoformat()))
     _raise_if(

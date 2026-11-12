@@ -11,7 +11,8 @@ Contents: [File paths](#file-paths) · [Document file](#document-file-datadocume
 [Provision file](#provision-file-datadocumentsfaa231309json) ·
 [Grouping labels](#grouping-labels) · [Text format](#text-format) ·
 [Aircraft model file](#aircraft-model-file-dataaircraftmanufacturer-slugmodel-slugjson) ·
-[Resolution rules](#resolution-rules) · [Citations](#citations)
+[Resolution rules](#resolution-rules) · [Citations](#citations) ·
+[Deviation file](#deviation-file-datadeviationseasa120960json)
 
 ## File paths
 
@@ -19,6 +20,7 @@ Contents: [File paths](#file-paths) · [Document file](#document-file-datadocume
 data/documents/{issuer}/{document}/_document.json
 data/documents/{issuer}/{document}/{key}.json
 data/aircraft/{manufacturer-slug}/{model-slug}.json
+data/deviations/{issuer}/{key}.json
 ```
 
 Document file paths are flat by design: issuer + document + provision key
@@ -61,7 +63,7 @@ belong to the revision as a whole.
 | Field       | Type   | Nullable | Purpose |
 |-------------|--------|----------|---------|
 | `issuer`    | enum   | no       | `FAA`, `CAA`, `CAB`, `EASA`, `DOD`, `NATO`. CAA and CAB are historical US issuers whose successor is the FAA (recorded in the `issuers` table, not the code). `DOD` is the U.S. Department of Defense (MIL-HDBK-516). `NATO` is the North Atlantic Treaty Organization, which has no country and is of kind `military` (STANAG 4671 / AEP-4671). |
-| `doc_kind`  | enum   | no       | `regulation`, `certification_spec`, `amc_gm`, `advisory_circular`, `handbook`, `special_condition`, `elos`, `exemption`, `standard`. |
+| `doc_kind`  | enum   | no       | `regulation`, `certification_spec`, `amc_gm`, `advisory_circular`, `handbook`, `standard`. Special conditions, ELOS and exemptions are [deviation files](#deviation-file-datadeviationseasa120960json), not documents. |
 | `code`      | string | no       | Human citation: `"14 CFR 23"`, `"CAR 3"`, `"CS-23"`. |
 | `slug`      | string | no       | Path segment, lower case: `"23"`, `"car-3"`, `"cs-23"`. Unique per issuer. |
 | `title`     | string | yes      | Document title. |
@@ -609,3 +611,45 @@ force at `at`, a malformed `paragraph`, or a `cited` string that isn't in the
 line. A well-formed `paragraph` the linked version lacks is counted in the
 report, not fatal: a TCDS line can be wrong, and `latest` can be the wrong text
 to check it against.
+
+## Deviation file (`data/deviations/easa/120960.json`)
+
+One file per special condition, ELOS/ESF, exemption or deviation, as its
+regulator lists it. A record is a **link**: it holds what the listing says and
+the regulator's page, never the text. Most of these documents are letters or
+scans that can't meet the provision rule that every version has text, so they
+are not provisions (reviews/2026-11-13 deviations proposal, D1). Today only
+EASA's consulted publications are emitted; FAA records are outstanding
+(ISSUES ROADMAP-2).
+
+```json
+{
+  "issuer": "EASA",
+  "key": "120960",
+  "kind": "special_condition",
+  "number": "SC-E25.904-01",
+  "title": "Special Condition SC-E25.904-01 – Use of Automatic Power Reserve for Go-Around Performance Credit - Issue 01",
+  "stage": "proposed",
+  "published_on": "2021-01-19",
+  "source_url": "https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-sc-e25904-01-use-automatic",
+  "citations": [{ "issuer": "EASA", "document": "cs-25", "number": "904" }]
+}
+```
+
+| Field | Nullable | Purpose |
+|---|---|---|
+| `issuer` | no | Must match the directory. |
+| `key` | no | Identity within the issuer; the file name. EASA: the publication page's node id. Never shown as a citation. |
+| `kind` | no | `special_condition`, `elos` (EASA's Equivalent Safety Finding), `exemption`, `deviation`, `means_of_compliance` (EASA's interpretative material or MoC to an SC or ESF). |
+| `number` | yes | The identifier as printed (`SC-E25.904-01`, older `ESF F-69`), or null when the listing prints none. Not unique: a project label like `SC D-01` recurs. |
+| `title` | no | As listed, verbatim. |
+| `stage` | no | `final` when a final version is published, else `proposed`. EASA publishes the proposal, comment response and final on one page, so one record covers all three. |
+| `published_on` | yes | Date the listing gives. Not in the future. |
+| `source_url` | no | The regulator's page. The app links here; local copies are never served (D5). |
+| `citations` | — | Optional. Sections the title or identifier names, same fields as a [TCDS citation](#citations) without `at`: the number is read at the latest revision. The identifier counts as naming a section (`SC-E25.904-01` → CS 25.904). Never a statement that the deviation applies to that section. |
+| `citation_gaps` | — | Optional. As on a TCDS line; `cited` must be a slice of the title or the number. |
+
+A deviation's citations never reach the certification basis. The build fails
+on an unknown document or number, a malformed `paragraph`, or a gap that isn't
+printed. Linking a TCDS line to the record it names is not built yet
+(ISSUES ROADMAP-2).

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DEK-DEBIAN/FARfetched-data/schemas/deviation.schema.json",
+  "title": "Deviation",
+  "description": "One special condition, ELOS/ESF, exemption or deviation as its regulator lists it. Link-only: the text stays at source_url. Lives at deviations/{issuer}/{key}.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "issuer",
+    "key",
+    "kind",
+    "number",
+    "title",
+    "stage",
+    "published_on",
+    "source_url"
+  ],
+  "properties": {
+    "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
+    "key": {
+      "description": "Stable identity within the issuer; the file name. EASA: the publication page's node id.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "kind": {
+      "enum": [
+        "special_condition",
+        "elos",
+        "exemption",
+        "deviation",
+        "means_of_compliance"
+      ]
+    },
+    "number": {
+      "description": "The identifier as printed (`SC-E25.904-01`), or null when the listing prints none. Not unique.",
+      "oneOf": [{ "$ref": "common.schema.json#/$defs/designator" }, { "type": "null" }]
+    },
+    "title": { "type": "string", "pattern": "^\\S(.*\\S)?$" },
+    "stage": { "enum": ["proposed", "final"] },
+    "published_on": { "$ref": "common.schema.json#/$defs/date_or_null" },
+    "source_url": {
+      "description": "The regulator's page for this record. Required: a record is a link.",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://[^\\s/]+\\S*$"
+    },
+    "citations": {
+      "description": "Sections the title or identifier names, read by the tools. Never a statement that the deviation applies to them.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/citation" }
+    },
+    "citation_gaps": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "aircraft_model.schema.json#/$defs/citation_gap" }
+    }
+  },
+  "$defs": {
+    "citation": {
+      "description": "One cited provision, by its number at the latest revision.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["issuer", "document", "number"],
+      "properties": {
+        "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
+        "document": { "$ref": "common.schema.json#/$defs/slug" },
+        "number": { "type": "string", "minLength": 1 },
+        "paragraph": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

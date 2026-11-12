@@ -9,7 +9,7 @@ from __future__ import annotations
 
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 13
+SCHEMA_VERSION = 14
 
 
 SCHEMA_SQL = """
@@ -38,8 +38,7 @@ CREATE TABLE documents (
     doc_kind  TEXT NOT NULL
               CHECK (doc_kind IN (
                   'regulation', 'certification_spec', 'amc_gm',
-                  'advisory_circular', 'handbook', 'special_condition',
-                  'elos', 'exemption', 'standard'
+                  'advisory_circular', 'handbook', 'standard'
               )),
     code      TEXT NOT NULL,
     slug      TEXT NOT NULL,
@@ -342,6 +341,55 @@ CREATE TABLE cert_basis_citation_gaps (
                  'withheld_basis_list'
              )),
     PRIMARY KEY (entry_id, seq)
+) STRICT, WITHOUT ROWID;
+
+-- Deviation records (docs/SQLITE.md §Deviations): link-only, the text stays
+-- at source_url. `number` is as printed and not unique; `key` is the identity.
+CREATE TABLE deviations (
+    id           INTEGER PRIMARY KEY,
+    issuer_id    INTEGER NOT NULL REFERENCES issuers(id),
+    key          TEXT NOT NULL,
+    kind         TEXT NOT NULL
+                 CHECK (kind IN (
+                     'special_condition', 'elos', 'exemption', 'deviation',
+                     'means_of_compliance'
+                 )),
+    number       TEXT,
+    title        TEXT NOT NULL,
+    stage        TEXT NOT NULL CHECK (stage IN ('proposed', 'final')),
+    published_on TEXT CHECK (published_on IS NULL
+                             OR date(published_on) IS published_on),
+    source_url   TEXT NOT NULL,
+    UNIQUE (issuer_id, key)
+) STRICT;
+
+CREATE INDEX idx_deviations_number ON deviations (number);
+
+-- Sections a deviation's title or identifier names. Not part of any basis.
+CREATE TABLE deviation_citations (
+    deviation_id INTEGER NOT NULL REFERENCES deviations(id),
+    seq          INTEGER NOT NULL CHECK (seq >= 0),
+    document_id  INTEGER NOT NULL,
+    provision_id INTEGER NOT NULL,
+    paragraph    TEXT,
+    PRIMARY KEY (deviation_id, seq),
+    FOREIGN KEY (document_id, provision_id)
+        REFERENCES provisions (document_id, id)
+) STRICT, WITHOUT ROWID;
+
+CREATE INDEX idx_devcit_provision ON deviation_citations (provision_id);
+
+CREATE TABLE deviation_citation_gaps (
+    deviation_id INTEGER NOT NULL REFERENCES deviations(id),
+    seq          INTEGER NOT NULL CHECK (seq >= 0),
+    cited        TEXT NOT NULL,
+    reason       TEXT NOT NULL
+                 CHECK (reason IN (
+                     'doc_not_in_dataset', 'section_not_in_document',
+                     'document_undetermined', 'range_not_expanded',
+                     'withheld_basis_list'
+                 )),
+    PRIMARY KEY (deviation_id, seq)
 ) STRICT, WITHOUT ROWID;
 
 -- Full-text search (docs/SQLITE.md §Search). rowid = provision_versions.id; one

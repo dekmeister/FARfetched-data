@@ -3,10 +3,34 @@
 Planned data-repo work, not defects. The app's roadmap is in the FARFETCHed
 repo's `plan.md`. [Index](../ISSUES.md)
 
-### ROADMAP-2. Special conditions, ELOS and exemptions as documents
+### ROADMAP-2. Deviation records: FAA, TCDS links, text
 
-`doc_kind` already allows them; they need ingestion and a provision model.
-FAA special conditions are on DRS.
+Schema v14 holds special conditions, ELOS/ESF, exemptions and deviations as
+link-only records (`data/deviations/`, docs/DATA_FORMAT.md §Deviation file).
+EASA's consulted publications are emitted (429 on 2026-11-13). Design and
+decisions: [reviews/2026-11-13-deviations-as-documents-proposal.md](../reviews/2026-11-13-deviations-as-documents-proposal.md).
+Outstanding:
+
+- **FAA records.** Every ELOS and SC (final + proposed, ~3,600) and the
+  certification-relevant or TCDS-cited exemptions (~2,400), from the DRS
+  catalogue. Re-run the catalogue first: it holds only exemptions today
+  (tools/s00_docs/FAA_DEVIATIONS.md). Needs `final_id` (proposed SC → final),
+  `key` ≠ number (DRS numbers repeat), and citations from the DRS regulation
+  field, with `regulation_ref` verbatim. Each is a contract change.
+- **TCDS line → record links** (`cert_basis_entry_deviations`, computed by
+  identifier, verbatim line always shown). EASA: only 3 of 40 TCDS lines with a
+  public-style identifier match a record (2026-11-13): the generic CS-23 SCs
+  they cite (`SC-F23.1309-02`, `SC-F23.1353-02`) are not in EASA's consultation
+  listing. FAA: about 240 of 461 lines name a DRS number.
+- **EASA CRI lines → published proposals.** ~90 EASA publications name a
+  product ("… Applicable to Boeing 787"). No publication carries the CRI label,
+  so a link needs product + subject + cited section and is a reviewed override
+  row with evidence, never a match.
+- **Text (Phase 3)** for FAA SC finals (Federal Register HTML). Sample ~20 first.
+- **Search.** Records are not in the FTS tables yet.
+- **EASA numbers.** 301 of 429 records print no identifier on the listing; the
+  downloaded PDFs (input/Deviations/EASA/) may. Reading them is OCR/extraction
+  work, judged from a sample.
 
 ### ROADMAP-3. More regulation sources
 
