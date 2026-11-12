@@ -125,15 +125,20 @@ points elsewhere ("same as …", A330-941 in A.004, L-410).
 
 **To close:** distinguish the two before trusting the out-of-scope count.
 
+### ETCDS-17. A category printed outside the model section is not read
+
+The parser reads a model's category from its own section. Eight TCDS print it
+elsewhere, in a general section ("2. Airworthiness Category: Large Aeroplanes":
+A.096, A.192, A.407, IM.A.009, IM.A.162, IM.A.196, IM.A.211, IM.A.595) or in
+prose (A.187 "certificated in Airworthiness Category Large Airplane under FAR
+25", A.580 "large aeroplane category"). Rows in
+`tools/overrides/tcds_categories.tsv` cover them since 2026-11-12, quoting the
+text.
+
+**To close:** read the general section's category field. The rows for those
+TCDS then become stale (fatal) and are deleted in the same change.
+
 ## Decisions needed
-
-### ETCDS-12. Transport is inferred when no category is printed
-
-49 staged models (e.g. SAAB 340/2000 A.068/A.069, Dornier 328 A.096, CN-235 /
-C-295 A.186, C-212 A.187): a Part 25 basis gives `transport`, with a report
-note.
-
-**To close:** confirm this is acceptable, or require a printed category.
 
 ### ETCDS-16. A330 lines cite all of CS-25
 
@@ -152,6 +157,25 @@ In the same sample, 8 of 400 `raw_reference` values were not found verbatim in t
 PDF with either text extraction. All 8 are EASA, and most join table cells or
 columns (see ETCDS-9). Sampled FAA references matched their PDF lines.
 
-**To close:** attach a "the following paragraphs" header to its list, and re-check
-other TCDS with this layout. Until then these two models claim
-far more of CS-25 than their TCDS does.
+Since 2026-11-12 the headline guard (`tools/s00_common/tcds_guard.py`) refuses
+a model with whole-document references to one airworthiness document at two
+levels, so these models are no longer staged (published `data/` still holds them
+until the next promotion). The guard refuses the same shape on 6 more models,
+judged from `raw_reference` only, not read against the PDFs:
+
+- EASA.IM.A.033 680A: "a) CS-25 Amendment 2", "b) CS-25 Amendment 4", … each
+  read as all of CS-25, each followed by a "CS 25 paragraphs Applicability"
+  table.
+- EASA.IM.A.348 G280: "For steep approach landing modification (G25-10059) CS 25
+  Amendment 13, Appendix Q" as all of CS-25.
+- EASA.IM.A.595 GVII-G500, GVII-G600: "CS 25 Appendix S, Amendment 19" and "CS 25
+  Appendix Q Amendment 13 (for Aircraft with ASC 014 …)" as all of CS-25.
+- EASA.A.187 C-212-EE: "For model C-212-EE: For FMS, IEDS and EFIS, FAR Part 25 …
+  25-87" as all of Part 25 for the whole aeroplane.
+
+Same cause, not caught (same level as the headline): EASA.A.637 P2012 "CS-23
+Amdt.4 § 783(d)(e)" and its neighbours each carry a whole-CS-23 reference.
+
+**To close:** attach a "the following paragraphs" header to its list, read a
+section or appendix named on the line as the scope, re-check the TCDS above
+against their PDFs, and stage them again.

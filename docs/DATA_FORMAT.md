@@ -408,7 +408,7 @@ shared-basis object: an entry belongs to exactly one TCB.
 | `common_name`                 | string       | yes      | Popular name, if different. |
 | `notes`                       | string       | yes      | Editor notes, displayed to users. |
 | `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
-| `tcb[].categories`            | enum array   | no       | Categories as stated on this TCDS. Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
+| `tcb[].categories`            | enum array   | no       | Categories as stated on this TCDS. When the parser reads none (the TCDS prints none, as FAA A2NM, or prints it where the parser doesn't look), a reviewed row in `tools/overrides/tcds_categories.tsv` gives them, with evidence; they are never inferred. Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
 | `tcb[].notes`                 | string       | yes      | TCB-level notes. |
 | `tcb[].certification_basis`   | array        | no       | One entry per TCDS line that applies to this model, in TCDS order. A line shared by several models is copied to each. |
 

@@ -85,7 +85,18 @@ certification basis 153 (+45), no model headings 65, zero entries 11.
 Narrowed 2026-11-11: headings with no separator, a deep indent, a dated
 model list or a page-top repeat are now read, and a cover "737-300 Series"
 matches heading "737-300" (A16WE: 16 unmatched to 0). The counts above
-predate that and need a re-run.
+predate that.
+
+Re-count of the category skips, 2026-11-12 (939 Current aircraft TCDS, by
+regex, not read): 600 models in 236 TCDS had no category on the heading. 94
+(about 45 TCDS) print one elsewhere that the parser misses, e.g. A28NM "I.
+Type A318-100 Series Transport Category Airplanes", A21NM a wrapped "Transport
+Category", 4A21 "(Transport Aircraft)". 383 (100 TCDS) print none but cite a
+Part: 255 of them are balloons (Part 31, no category in the closed set), 10
+21.17(b) special class. 123 (89 TCDS) show nothing detectable (gliders, pre-CAR
+3 types). A category no TCDS prints now needs a reviewed row in
+`tools/overrides/tcds_categories.tsv` (A2NM has one); it is never inferred.
+Detail: `reviews/2026-11-12-multi-model-blockers.md` Q1.
 
 ### TCDS-6. 3A12 "Equivalent Safety Items" header-row serials
 
@@ -118,6 +129,41 @@ Air Tractor A17SW; 7 of 201. Reported and not staged; the schema can't
 represent them, by decision.
 
 **To close:** revisit only if they are wanted.
+
+### TCDS-15. Part 26 compliance outside the basis blocks is not attached
+
+Eight TCDS print the §21.101(g) statement that "applicable provisions of 14 CFR
+part 26 are included in the certification basis" outside their basis blocks
+(A20EU, A21EA, A2NM, A56NM, A57NM, A58NM, T00011AT, T00063IB; 18 more print it
+inside one). A2NM p. 7: "Compliance with 14 CFR §26:" in "Data Pertinent to All
+Models", with compliance at 26-0 (26.11), 26-1 (26.43, .45, .47, .49) and 26-3
+(26.33). Counted by a text scan; only A2NM read. Part 26 isn't in the dataset
+(TCDS-13), so attached lines would have no references.
+
+**To close:** read the eight, then treat a field label naming Part 26 in an
+all-models section as a basis block for that section's models. Not a general
+"included in the certification basis" trigger: A2NM Note 16 uses the same words
+for an optional basis that must not be attached.
+
+### TCDS-16. A paragraph excluded from the basis can't be expressed
+
+An `exclude` reference takes no `paragraph` (docs/DATA_FORMAT.md). A2NM 757-300
+"25.858(a) Cargo Compartment Fire Detection System — not part of the TC basis":
+the row stays visible with `references: []`, and the headline "Part 25 …
+through 25-85" still holds 25.858 (the 25-54 version) with (a) in it. Decided
+2026-11-12: accept for now, since the resolved grain is the provision version
+and (b)–(d) do apply.
+
+Other paragraph-level "not part of the basis / not applicable / does not apply /
+except (x)" lines found by text scan, not read: A21EA, A-817, A14EA, A1NM
+(25.803(c)(8)), A20WE (25.1103(d)), A21EA-1, A28NM, T00001SE (25.812(g)),
+A16WE ("25.807 (except (g)) 94"), A46EU, A77EU, H1NE. Some give the paragraph
+another level rather than excluding it. None is resolved in `data/` today.
+
+**To close:** when a case changes something a user filters on (or at the 737 NG,
+A16WE), read these lines and decide on a contract change (exclude with a
+paragraph: schema, `certbuild/resolve.py`, a `cert_basis_resolved`
+representation, `SCHEMA_VERSION`, the app).
 
 ## Process
 

@@ -1,12 +1,11 @@
 # Multi-model TCDS: design proposal (towards Boeing 737, A16WE Rev 82)
 
-Status (2026-11-11): **steps 1–2 done, awaiting review. Step 3 built and
-read against the PDF, but blocked on open questions Q1–Q5** (below, and
-[the A2NM reading](2026-11-11-a2nm-reading.md)). Steps 4–10 not started.
-Committed 2026-11-11 (tools 4958b93, parent 650c122; not pushed); nothing
-new is promoted. A16WE and A2NM
-are not in `tools/overrides/faa_tcds_selection.tsv`. A prompt for a session on
-the blockers: [PROMPT_multi_model_blockers.md](PROMPT_multi_model_blockers.md).
+Status (2026-11-12): **steps 1–2 done; step 3 done, awaiting review.** The
+blockers Q1–Q7 are decided and built
+([2026-11-12-multi-model-blockers.md](2026-11-12-multi-model-blockers.md)), A2NM's
+four goldens are read against [the A2NM reading](2026-11-11-a2nm-reading.md).
+Nothing of 2026-11-12 is committed or promoted. Steps 4–10 not started. A16WE
+and A2NM are not in `tools/overrides/faa_tcds_selection.tsv`.
 
 ## Handover
 
@@ -84,24 +83,41 @@ Evidence:
 - A rule tried and backed out: keeping any line that names only models
   outside its segment put PA-44-180 lines on the PA-44-180T (A19SO).
 
-**Blocked on** (detail in the A2NM reading):
+**Unblocked 2026-11-12** (decisions and detail in
+[2026-11-12-multi-model-blockers.md](2026-11-12-multi-model-blockers.md)):
 
-- **Q1, category.** A2NM states no category anywhere, so no model stages and
-  the A2NM golden can't be written. Leads: the DRS catalogue row
-  (`tools/out/work/tcds_catalogue.tsv`) says `cfr_part_reference` "Part 25",
-  `product_subtype` "Large Airplane"; or a reviewed row; or a different proof
-  TCDS that states its category.
-- **Q2**, Part 26 compliance outside the basis blocks (p. 7). **Q3**, exemption
-  5613 read as one item. **Q4**, two-level cells as two entries with the level
-  as `applicability`. **Q5**, 25.858(a) "not part of the TC basis" can't be
-  excluded at paragraph level.
+| Change | Where |
+|---|---|
+| Category from a reviewed row, never inferred (FAA and EASA; EASA's Part 25 inference removed) | `s00_common/tcds_categories.py`, `overrides/tcds_categories.tsv` (26 rows, drafted from text, **to review**) |
+| Headline guard: two whole-Part levels of one airworthiness Part, same `applicability`, refuse the model (FAA and EASA) | `s00_common/tcds_guard.py`, both `parse.py` |
+| Slash lists in line scope ("For 737-100/-200/-200C/…:"); an unreadable list refuses the model instead of reaching all | `sections.complete_designation`, `scope_models`, `attach._keeps`, `ModelBasis.refused` |
+| Two-level cells split only on the "two amendment levels are shown" footnote; the note goes to `applicability_notes` | `amdt_table.py`, `layout.py`, `tokens.Line.notes`, `payload.py` |
+| A2NM golden: fixture text, catalogue row, Part 25 in the golden document set | `s99_tests/fixtures/tcds/A2NM_Rev32*`, `test_golden.py` |
+| Tests | `s99_tests/common/test_tcds_categories.py`, `test_tcds_guard.py`; `emit/faa/tcds/test_shared_blocks.py`; `emit/easa/tcds/test_golden.py` |
+| Docs | parent `docs/DATA_FORMAT.md` (`categories`); `s00_docs/FAA_TCDS.md`, `EASA_TCDS.md`, `PIPELINE.md` |
+| Issues | ETCDS-12 closed; ETCDS-16 extended (6 more models refused); new ETCDS-17, TCDS-15, TCDS-16; TCDS-5 re-count |
 
-**To finish step 3, once Q1 is decided:** implement it; add
-`s99_tests/fixtures/tcds/A2NM_Rev32.txt` (the `pdftotext -layout` text) and
-an A2NM row in `fixtures/tcds/catalogue.tsv` (copy from the real catalogue);
-regenerate with `GOLDEN_UPDATE=1 uv run pytest tools/s99_tests/emit/faa/tcds/test_golden.py`, then read the four
-goldens against the checklist; compare_stages again; ask whether A2NM joins
-the selection list.
+compare_stages: no FAA staged change. EASA: 7 models refused by the guard
+(A330-743L, A330-841, 680A, G280, GVII-G500, GVII-G600, C-212-EE), MD-90-30
+newly staged. `uv run pytest` (fast and slow), `ruff check .` pass. `mypy .`
+reports only leftover `tools/out/compare_stages_*` copies.
+
+**Open from step 3:**
+
+- Your review of the 26 category rows and the four A2NM goldens.
+- Whether A2NM joins `faa_tcds_selection.tsv` (then promote with the EASA
+  removals above).
+- 25.813 "75, 88\*\*\*" needs a step 4 `tcds_entries.tsv` row: one entry,
+  `{813, to 25-88}` plus `{813, paragraph "(c)", to 25-75}`, evidence footnote
+  \*\*\*.
+- The headline guard reads resolved references only. A headline left
+  `partial` (A2NM 757-200 line 1, "Federal Aviation Regulations (FAR) Part 25
+  with Amendments …") isn't counted. The interpreter would need to flag a
+  whole-Part line even when partial.
+- Step 10: line scope isn't applied inside a multi-model *model* section, only
+  in "Data Pertinent" blocks. So the A16WE MAX models each take all three
+  headline sentences ("The certification basis for the 737-8 and 737-9
+  airplanes is …"), and the guard refuses all five.
 
 ### How to check this work
 
@@ -138,9 +154,7 @@ the selection list.
   `common_name` from an EASA link); it passed again by the end, presumably
   fixed by another agent. `mypy .` reports errors inside leftover
   `tools/out/compare_stages_*` copies; they are not source.
-- Relative designations in **line** scope ("For 737-100/-200/-200C/-300/-400/-500:
-  14 CFR §25.1415(d)") still go through `scope_models`, which can't read them;
-  only block labels use `expand_group`. Needed by step 8 (737 Classic).
+- Relative designations in line scope are read since 2026-11-12 (Q7).
 
 ### Changed from the plan below
 
