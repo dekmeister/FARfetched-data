@@ -96,7 +96,7 @@ Part: 255 of them are balloons (Part 31, no category in the closed set), 10
 21.17(b) special class. 123 (89 TCDS) show nothing detectable (gliders, pre-CAR
 3 types). A category no TCDS prints now needs a reviewed row in
 `tools/overrides/tcds_categories.tsv` (A2NM has one); it is never inferred.
-Detail: `reviews/2026-11-12-multi-model-blockers.md` Q1.
+Detail: `reviews/2026-11-12-multi-model-blockers.md` Q1, in git at acadefc.
 
 ### TCDS-6. 3A12 "Equivalent Safety Items" header-row serials
 

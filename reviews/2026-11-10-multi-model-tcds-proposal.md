@@ -2,7 +2,7 @@
 
 Status (2026-11-12): **steps 1–2 done; step 3 done, awaiting review.** The
 blockers Q1–Q7 are decided and built
-([2026-11-12-multi-model-blockers.md](2026-11-12-multi-model-blockers.md)), A2NM's
+(the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.md`)), A2NM's
 four goldens are read against [the A2NM reading](2026-11-11-a2nm-reading.md).
 Nothing of 2026-11-12 is committed or promoted. Steps 4–10 not started. A16WE
 and A2NM are not in `tools/overrides/faa_tcds_selection.tsv`.
@@ -84,7 +84,7 @@ Evidence:
   outside its segment put PA-44-180 lines on the PA-44-180T (A19SO).
 
 **Unblocked 2026-11-12** (decisions and detail in
-[2026-11-12-multi-model-blockers.md](2026-11-12-multi-model-blockers.md)):
+the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.md`)):
 
 | Change | Where |
 |---|---|
@@ -140,7 +140,8 @@ reports only leftover `tools/out/compare_stages_*` copies.
   and `issues/roadmap.md` too. Their changes show in compare_stages (EASA
   entries, manufacturer slugs such as `b-lkow-…` → `bolkow-…`); don't take
   them for this work, and don't revert them.
-- `tools/` is its own git repo. Files of this work (committed in tools
+- `tools/` is its own git repo. Step 3's finish (2026-11-12) is in tools
+  becfc77 and parent acadefc. Files of the earlier work (committed in tools
   4958b93 and parent 650c122):
   parent `docs/DATA_FORMAT.md`, `docs/SCHEMA_HISTORY.md`,
   `issues/faa-tcds.md`, `reviews/2026-11-10-multi-model-tcds-proposal.md`,

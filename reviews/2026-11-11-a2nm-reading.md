@@ -3,7 +3,7 @@
 Step 3 of [the multi-model proposal](2026-11-10-multi-model-tcds-proposal.md).
 Status: **read once by the assistant, 2026-11-11; goldens read against it
 2026-11-12; awaiting your check.** A2NM is not in `faa_tcds_selection.tsv`.
-Q1–Q5 are decided ([2026-11-12-multi-model-blockers.md](2026-11-12-multi-model-blockers.md)):
+Q1–Q5 are decided (the blockers note (in git at acadefc, `reviews/2026-11-12-multi-model-blockers.md`)):
 a `tcds_categories.tsv` row gives the category, and the four models stage in
 the golden test (`tools/s99_tests/fixtures/tcds/A2NM_Rev32_*.expected.json`:
 757-200 33 entries, -200CB 33, -200PF 39, -300 86).
