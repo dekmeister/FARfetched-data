@@ -169,6 +169,24 @@ A16WE), read these lines and decide on a contract change (exclude with a
 paragraph: schema, `certbuild/resolve.py`, a `cert_basis_resolved`
 representation, `SCHEMA_VERSION`, the app).
 
+### TCDS-17. Older "referenced above may be accessed" notes end the basis
+
+A pointer note inside a basis ("NOTE: The FAA Special Conditions referenced
+above may be accessed at internet location: http://www.airweb.faa.gov/…" or
+"…rgl.faa.gov…") is read as a `NOTE` field label, so the block ends there and
+the findings, exemptions and environmental standards after it are lost. Seen
+by a corpus diff on 2026-11-12, not read against the pages: A58NM (A380) and
+T00063IB (A350) lose their ELOS lists, exemptions and Parts 34/36. A60NM
+keeps its lines because its note is indented, but the note stays as an entry.
+Only the DRS wording ("may be accessed via the Dynamic Regulatory System",
+A16NM) is skipped today: widening it to the airweb/RGL wording removed the
+note A60NM uses as the end of its special-conditions list, and its ELOS items
+then took the special-condition type.
+
+**To close:** skip the airweb/RGL notes too, with the note ending the open
+family segment (as a blank-separated paragraph does), and check A58NM,
+T00063IB and A60NM with the corpus line diff.
+
 ### TCDS-19. "FAR 36.1(a)(2) … amendments 1 through N" is not read
 
 342 regulation lines in 66 FAA TCDS (whole-corpus run, 2026-11-13, counted by
@@ -183,6 +201,19 @@ GA8 and GA8-TC 320 this is a reviewed `tcds_entries.tsv` row
 **To close:** read "36.1(a)(…)" followed by an amendment range as Part 36 as a
 whole in `tcds_refs.interpret`, run the corpus diff, and drop the two A00011LA
 rows once the parser gives the same references.
+
+### TCDS-18. "25.201(c) and (d)" keeps only (c)
+
+`tcds_refs.interpret("25.201(c) and (d) thru Amendment 25-42")` returns one
+reference, `{201 (c) to 25-42}`, with reason `ok`: the second paragraph is
+dropped without a `partial`. "25.201(c), (d) …" gives no references
+(`no_pattern`). Found 2026-11-12 while building the A16NM zone table, whose
+rows avoid it (one reading per paragraph, `zone_table.py`). Not counted over
+the corpus.
+
+**To close:** make a paragraph list either give one reference per paragraph
+(in separate entries, since one entry may not hold two paragraphs of one
+version) or `partial`; count the affected lines in `data/` first.
 
 ## Process
 
@@ -231,6 +262,17 @@ Causes seen in a sample:
   Two judgements first: whether "25.901(d)," takes the 25-46 that ends its
   list, and whether a whole-row/paragraph-row pair is the right reading of a
   compartment split. Not read against the rendered page yet.
+- Mixed levels in one line. A16NM Astra SPX and Gulfstream 100 (and the G150
+  through its 1A copy): "14 CFR Part 25 … Amendments 25-1 through 25-54,
+  plus Subpart B, Flight, Sections 25.21 through 25.255, and Subpart E,
+  Powerplant, Sections 25.901 through 25.945, and 25.1011 through 25.1207,
+  including Amendments 25-1 through 25-80, which have been applied to the
+  changes …" has no references, so those models have no Part 25 headline;
+  the 14 rows listed under it at 25-80 resolve. One entry can't hold Part 25
+  at 25-54 and those ranges at 25-80. G150 25.981 "(\*\*)" ("GALP elected to
+  comply with 25.981 at amendment 25-102 except for paragraph 25.981 (c)")
+  has no references and is excluded from the 1B headline, so the G150's
+  resolved basis has no 25.981 at all (what (c) is held at isn't stated).
 
 **To close:** count each line by cause, fix the causes in order of models
 gained, and report what is left (BUILD-12).

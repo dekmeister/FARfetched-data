@@ -74,9 +74,9 @@ the golden test (`tools/s99_tests/fixtures/tcds/A2NM_Rev32_*.expected.json`:
 | 36–37 | FAR 25.855(e); FAR 25.1447(c)(1) and (3) | PF | PF | elos | ✓ |
 | 38–40 | Exemptions 4808, 4808A, 4808B | PF | PF | exemption | ✓ |
 | 41 | Part 25 as amended by Amendments 25-1 through 25-85 … with the exceptions listed below; | 300 | 300 | 25 to 25-85, exclude 101 105 109 113 115 365 519 562 571 735 783 807 810 813 1316 1533 | ✓ the 16 section-level rows |
-| 42–62 | Table rows 25.101 … 25.1533 (21 entries for 19 rows) | 300 | 300 | one `to: 25-N` per level, paragraph from the row | ✓ every cell checked against p. 9. 25.783 (23, 85\*\*) and 25.813 (75, 88\*\*\*) are two entries each, level as `applicability` (Q4) |
+| 42–62 | Table rows 25.101 … 25.1533 (20 entries for 19 rows) | 300 | 300 | one `to: 25-N` per level, paragraph from the row | ✓ every cell checked against p. 9 (re-checked against the golden 2026-11-12, step 4 review). 25.783 (23, 85\*\*) is two entries with `applicability_notes`; 25.813 (75, 88\*\*\*) is one entry with two references from a `tcds_entries.tsv` row (see the corrections above) |
 | 48, 59 | 25.519, 25.858(a) "not part of the TC basis" | 300 | 300 | `[]` | ✓ 25.519 is excluded from line 41. **Gap**: 25.858(a) can't be (an exclude takes no paragraph), so line 41 still holds 25.858 at 25-85, (a) included (Q5) |
-| 58, 61 | 25.853(d)(3) at 72; 25.1419(c) at 23 | 300 | 300 | paragraph refs | ✓; the section stays at 25-85 through line 41, the paragraph at its own level |
+| 58, 61 | 25.853(d)(3) at 72; 25.1419(c) at 23 | 300 | 300 | 58: `[]` plus a note (`tcds_entries.tsv`, corrected at step 4); 61: paragraph ref | 58 ✗ as first read, corrected (see above); 61 ✓, the section stays at 25-85 through line 41, the paragraph at its own level |
 | 63–65 | Footnotes \*, \*\*, \*\*\* | 300 | 300 | `[]`, other | ✓ one entry each |
 | 66 | Part 34, through Amendment 34-1 | 300 | 300 | `[]` (Part 34 not in dataset) | ✓ |
 | 67 | Part 36, with Amendments 36-1 through 36-21 | 300 | 300 | 36 to 36-21 | ✓ |

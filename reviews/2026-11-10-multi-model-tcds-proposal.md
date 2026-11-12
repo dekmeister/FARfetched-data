@@ -1,10 +1,10 @@
 # Multi-model TCDS: design proposal (towards Boeing 737, A16WE Rev 82)
 
-Status (2026-11-12): **steps 1–4 done and committed, not pushed; step 4
-awaiting your review.** Step 3: tools becfc77, parent acadefc. Step 4 (entry
-corrections, TCDS-2; A2NM in `faa_tcds_selection.tsv`): tools cd5b335 and the
-parent commit that carries this text. Nothing is promoted. Steps 5–10 not
-started; [Next steps](#next-steps) says what comes next.
+Status (2026-11-13): **steps 1–4 done, step 4 promoted (apart from 5
+orphan deletions left for you); step 5 (A16NM) built, not selected,
+waiting on two decisions.** Step 3: tools becfc77, parent acadefc. Step 4:
+tools cd5b335, parent 497236d. The promotion, the review notes and step 5
+are uncommitted. [Next steps](#next-steps) says what comes next.
 
 ## Handover
 
@@ -147,9 +147,9 @@ Part 25 headline (TCDS-13). Full `pytest`, `ruff check`, and mypy
 phrase is in its TCDS's `pdftotext` text (a mechanical check, not a reading
 of rendered pages).
 
-EASA: the module is issuer-keyed, but only the FAA parser calls it. Hook it
-into `s02_emit/easa/tcds/parse.py:build_payload` when a reviewed EASA error
-first needs a row (step 6 at the latest).
+EASA: since 2026-11-13 the EASA parse applies the rows too (hooked by the
+GA8/GA10 session, with an `applicability` action; `scope`/`copy` are fatal
+there). Step 6 still needs `scope`/`copy` there if the EASA port uses them.
 
 ### How to check this work
 
@@ -202,33 +202,117 @@ first needs a row (step 6 at the latest).
   2026-11-12) still lists TCDS-2 as open. It was closed at step 4; update it
   when that file is next touched.
 
+### Step 4 review and promotion (2026-11-12, delegated to the assistant)
+
+- The two `tcds_entries.tsv` rows were read against rendered p. 9 and
+  `data/documents/faa/25/853.json`. 25.813 matches footnote \*\*\*. For
+  25.853(d)(3), §25.853 at 25-72 has (a)–(f) and puts galleys in (c), so
+  `[]` plus a note is the right call. Known limit, not a defect: the
+  headline's exclude takes no paragraph, so the resolved 757-300 basis holds
+  25.853 whole at 25-83, (d)(3) included (the same shape as Q5's 25.858(a)).
+- All 20 golden entries for the 19 table rows match p. 9. Two stale cells
+  in the A2NM reading's table (rows 42–62 and 58) were corrected.
+- Code (`tcds_entries.py`, the payload and parse hooks) read; no findings.
+- Staging regenerated (FAA directory parse, EASA directory parse,
+  assemble). Promotion as predicted: 4 A2NM models and MD-90-30 new; A25SO
+  PA-46R-350T gains **two** lines, its base line and "No equivalent safety
+  findings." (both printed in its block, p. 15). Promoted with
+  `promote --aircraft --accept piper-aircraft-inc/pa-46r-350t.json`.
+- **Not done (yours): the 5 orphans**, the EASA models the headline guard
+  now refuses (c-212-ee, gvii-g500, gvii-g600, gulfstream-g280, 680a).
+  Delete them with
+  `uv run python -m tools.s03_promote.promote --aircraft --delete-orphans`.
+- `build.py` with the **committed** build code passes on the promoted
+  `data/` (330 models, 4,616 entries). The working-tree `certbuild/` fails
+  on NATO grouping dashes. That comes from another agent's uncommitted
+  sources.py change (subpart groupings), not from this work.
+
+### Step 5, built, not selected (2026-11-13, uncommitted)
+
+A16NM Rev 9 stages all four models (Astra 11 entries, SPX 25, G100 25, G150
+108). Not in `faa_tcds_selection.tsv`: two decisions are yours (Next steps 1).
+
+| Change | Where (`tools/`) |
+|---|---|
+| "Data Pertinent to Model GULFSTREAM G150" read in capitals | `sections.pertinent_targets` |
+| A sub-label naming no model of its section takes its own models, with a warning (A16NM's unheaded tail; also A24CE's B200 lines, dropped before) | `attach._segment_models` |
+| Reference wording "made for (this section on) the … Model X", "previously made for …"; the whole designation is skipped | `attach.REFERENCE_RE`, `_strip_references` |
+| Numbered parts: "1A. … :" is a scope, "2. Special Conditions:" a family label, "6 Noise Standards 14 CFR …" its own line | `segments._part_header`, `_open_part_segment` |
+| DRS pointer notes skipped inside a basis (they ended the G150 block); a link-only line after a finished sentence dropped | `segments.DRS_NOTE_RE`, `URL_ONLY_RE` |
+| SECTION / SUB- / TITLE / ZONE / AMDT table: cells in order as `raw`, zone as `applicability`, one entry per paragraph, exclude for section rows | `zone_table.py` (new), `layout.py` |
+| An exclude drops a section not in force at the headline's level (25.856, 25.1416) | `payload._in_force` |
+| Bullet lists under "…:" (rows with a column gap, level from "following specific regulations including Amendments … through 25-80"); a finished basis statement above a bullet is its own entry, not a lead-in (the old rule prefixed "Further, Section 25.729 …" to five bullets) | `bullet.py` |
+| Item starts "Section 25.x", "FAR.25.APPENDIX K", "No. 25-661-SC"; an exemption's indented paragraphs after a blank stay with it | `lists.py` |
+| `tcds_entries.tsv` actions `scope` (model `*`, applied in attach) and `copy` (another model's lines after a line) | `s00_common/tcds_entries.py`, `attach.copy_lines`, `parse.py` |
+| Rows: SPX/G100 ESF line `scope` both and `type elos`; G150 1A `copy` Gulfstream 100; G150 25.143(f) "42" `[]` plus a note (25-42 has no (f)) | `overrides/tcds_entries.tsv` |
+| Tests: `s99_tests/emit/faa/tcds/test_a16nm_shapes.py` (19); A16NM goldens and fixture text, catalogue row | `s99_tests/` |
+| Docs, issues | `s00_docs/FAA_TCDS.md` (Rules), `PIPELINE.md`; parent `issues/faa-tcds.md`: new TCDS-17, TCDS-18, TCDS-13 gains the SPX/G100 headline and G150 25.981 |
+
+Evidence (scripted, per the no-manual-reading rule; no subagent reading yet):
+
+- **Corpus line diff**, old code against new over all 1,506 FAA TCDS, with
+  override rows off on both sides (`model_lines` output per model). After
+  four rounds of fixes, 7 TCDS change and **no selected TCDS**. A16NM is the
+  target. Each other diff was read in the text: A24CE (B200 lines, a gain),
+  A21EU and A36EU (a statement no longer glued to the bullet after it),
+  A28NM (two lines "Section 25.562 Amendment 25-64 …" gained), A51EU TB 21
+  (Part 36 line gained), A53EU (an ELOS line gained). Regressions found and
+  fixed on the way: HA-420 lead-in, A28NM and E00086EN lead-ins, A17EU list
+  split, H13EU "14 CFR 29 … for:" as part 14, A60NM note typing, T00015AT
+  sentence cut at a link. compare_stages can't run (the committed loader
+  rejects the new actions).
+- **A16NM gate**: every `raw_reference` is in the PDF text (zone rows: every
+  word in the row's source lines, 62 of 62); every basis line of pp. 8–12
+  reaches some model (labels, headers and DRS pointers excepted by
+  pattern); the 61 table row lines match the entries in order.
+- **Scratch build** (committed build code, `data/` plus the four models):
+  it first failed on three things the goldens can't see (25.856 excluded
+  at 25-108; 25.143(f) at 25-42; 201(c) and (d) in one entry), all fixed
+  above; then passes. Read in `cert_basis_resolved`: G150 25.305 at 25-54
+  and 25-77 by zone, 25.201(c)/(d) at 25-42, 25.856 at 25-111, 25.729 at
+  25-75 (1A copy and 1B headline), 25.1416 at 25-46.
+- Full `pytest`, `ruff check`, mypy on the changed modules pass.
+
+**Found, not done:** the FAA A16NM G150 and the published EASA.IM.A.228 G150
+are one type design under two manufacturer spellings ("Gulfstream Aerospace
+LP" / "GULFSTREAM AEROSPACE LP (GALP)", two slugs). Its State of Design is
+Israel (CAAI TCDS A5IL, per IM.A.228), so neither TCDS is the primary the
+link rule asks for.
+
+Another session (GA8/GA10 TCDS work) has since applied its own changes on
+top of this one (2026-11-13): a "<designation> Model:" sub-label and a
+colon-less one after a labelled sub-label, an `applicability` action, 17 more
+`tcds_entries.tsv` rows, and the EASA parse applying the rows. By its own
+corpus check they change A00011LA, A00071CE, A5SW and five EASA line splits,
+and the A16NM tests still pass. Not part of this step; check them before you commit.
+
 ### Next steps
 
-In order. Each is your review before the next.
-
-1. **Your review of step 4**: `tools/overrides/tcds_entries.tsv` (two A2NM
-   rows) and the corrected row 58 in
-   [the A2NM reading](2026-11-11-a2nm-reading.md).
-2. **Promote** (your step): A2NM's four models, together with step 3's EASA
-   changes (7 models refused by the headline guard, MD-90-30 newly staged)
-   and A25SO PA-46R-350T's restored base line. Run
-   `uv run python -m tools.s03_promote.promote --dry-run` first.
-3. **Optional, A2NM 757-200 family headline** (TCDS-13): a
-   `tcds_entries.tsv` row could give it a Part 25 headline and its
-   exceptions, after two judgements (does "25.901(d)," take the 25-46 that
-   ends its list; is whole-row plus paragraph-row the right reading of the
-   25.365(e) compartment split). Read p. 7 rendered first.
-4. **Step 5: A16NM** (Astra/G100/G150, 14 pp, 4 models). New shapes: "Data
-   Pertinent to all Models except G150" (an "except" scope) and a G150 block
-   that reads "same as the Model G100" (a block that refers to another
-   block). Golden for all four models; a reading file in `reviews/` like
-   A2NM's; the scratch build check above; then the selection list. Its
-   single-model AMDT table also feeds step 7.
-5. Steps 6–10 as in §7: the EASA port (IM.A.503 first; also hook
-   `tcds_entries` into `s02_emit/easa/tcds/parse.py:build_payload`),
-   `pdf_grid.py` (ask D4/D5), then the 737 Classic, NG and MAX gates (ask D6
-   at step 10, and fix line scope inside multi-model model sections, see
-   "Open from step 3").
+1. **Your decisions for A16NM** (then add it to `faa_tcds_selection.tsv`
+   and promote):
+   - Manufacturer: a `manufacturers.tsv` row so "Gulfstream Aerospace LP"
+     (FAA A16NM and A53NM) and "GULFSTREAM AEROSPACE LP (GALP)" (EASA; FAA
+     A61NM's holder line prints "Gulfstream Aerospace LP (GALP)") are one
+     company. Recommended, canonical as FAA
+     prints it, but it moves the published EASA Galaxy, G200, G150 and G280
+     files to a new slug.
+   - G150 link: once the slugs merge, the FAA and EASA G150 meet on one
+     path and assemble refuses both unless linked (the published EASA G150
+     would drop out). Recommended: a link row with FAA A16NM as primary
+     (the FAA TCDS holds all four models and the type's history), its
+     evidence saying the State of Design is Israel (A5IL). Or hold the
+     FAA G150 (`aircraft_holds.tsv`) and select A16NM for the other three.
+2. **Commit** (yours): step 4's promotion and notes (from 2026-11-12), and
+   step 5. Check what the GA8 session has added to the shared files first.
+3. Subagent reading of A2NM and A16NM, as a separate task (verification
+   recast below).
+4. Optional: A2NM 757-200 headline (TCDS-13).
+5. Steps 6–10 as in §7.
+6. **Verification method.** §6 and D6 assume line-by-line human reading.
+   Under the 2026-11-12 rule the scripted gate above (raw text in the PDF,
+   coverage, row checks, the scratch build, a corpus line diff) is the gate,
+   with subagent reading as a second layer. D6 becomes a question about
+   subagent coverage.
 
 ### Changed from the plan below
 
