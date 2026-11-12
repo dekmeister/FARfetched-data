@@ -388,8 +388,22 @@ name in the dataset, set by reviewed rows in `tools/overrides/manufacturers.tsv`
 a company that TCDS spell several ways ("Textron Aviation Inc." / "Textron
 Aviation, Inc.") or that a TCDS still prints under a former name takes one
 name, and lookalike names of different companies (Gulfstream Aerospace
-Corporation and Gulfstream Aerospace LP (GALP)) stay apart. The name printed
-on each TCDS is not kept in `data/`; the rows record it.
+Corporation and Gulfstream Aerospace LP (GALP)) stay apart.
+
+A model carries three names, each from its own source:
+
+- `tcb[].tcds.holder`: the holder exactly as that TCDS prints it (cleaned the
+  same way: hyphens, NFKC). Every TCB keeps its own, so a validation that
+  prints the company differently ("Gulfstream Aerospace LP" on FAA A16NM)
+  isn't lost.
+- `manufacturer`: the legal TC holder, one name per company (above).
+- `manufacturer_group`: the name a consumer shows and groups by. Companies a
+  user thinks of as one manufacturer share one, legally separate ones
+  included (both Gulfstream companies are "Gulfstream"). Set by reviewed rows
+  in `tools/overrides/manufacturer_groups.tsv`. Without a row it equals
+  `manufacturer`. It is a display choice, never a statement about the legal
+  holder, and it changes neither `manufacturer` nor the path. Every file
+  with the same `manufacturer` has the same group, or the build fails.
 The slugs in the path are transliterated (`Zakłady` → `zaklady`).
 
 A model is a designation the TCDS heads a model section with ("Model
@@ -407,6 +421,7 @@ shared-basis object: an entry belongs to exactly one TCB.
 ```json
 {
   "manufacturer": "Cessna Aircraft Company",
+  "manufacturer_group": "Cessna",
   "model_designation": "525",
   "common_name": "CitationJet",
   "notes": null,
@@ -415,6 +430,7 @@ shared-basis object: an entry belongs to exactly one TCB.
       "tcds": {
         "issuer": "FAA",
         "tcds_number": "A1WI",
+        "holder": "Cessna Aircraft Company",
         "revision": "34",
         "revision_date": null,
         "source_url": null
@@ -446,11 +462,12 @@ shared-basis object: an entry belongs to exactly one TCB.
 
 | Field                         | Type         | Nullable | Purpose |
 |-------------------------------|--------------|----------|---------|
-| `manufacturer`                | string       | no       | Current TC holder as on the TCDS, one spelling per company (`tools/overrides/manufacturers.tsv`). |
+| `manufacturer`                | string       | no       | Current TC holder as on the primary TCDS, one name per company (`tools/overrides/manufacturers.tsv`). |
+| `manufacturer_group`          | string       | no       | Display name to show and group by; several companies may share one (`tools/overrides/manufacturer_groups.tsv`). Equals `manufacturer` when no row groups it. One per `manufacturer`. |
 | `model_designation`           | string       | no       | Formal model identifier. |
 | `common_name`                 | string       | yes      | Popular name, if different. |
 | `notes`                       | string       | yes      | Editor notes, displayed to users. |
-| `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
+| `tcb[].tcds`                  | object       | no       | `issuer`, `tcds_number`, `holder` (as this TCDS prints it), and optional `revision`, `revision_date`, `source_url`. Several model files may share a TCDS, but its metadata must then be identical, or the build fails. |
 | `tcb[].categories`            | enum array   | no       | Categories as stated on this TCDS. When the parser reads none (the TCDS prints none, as FAA A2NM, or prints it where the parser doesn't look), a reviewed row in `tools/overrides/tcds_categories.tsv` gives them, with evidence; they are never inferred. Closed set: `transport`, `normal`, `utility`, `acrobatic`, `commuter`, `restricted`, `limited`, `provisional`, `primary`, `special`. Non-empty. |
 | `tcb[].notes`                 | string       | yes      | TCB-level notes. |
 | `tcb[].certification_basis`   | array        | no       | One entry per TCDS line that applies to this model, in TCDS order. A line shared by several models is copied to each. |

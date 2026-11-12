@@ -91,7 +91,7 @@ class TestContract:
         }
         aircraft = fx.cfr_aircraft([entry])
         easa_tcb = {
-            "tcds": {"issuer": "EASA", "tcds_number": "EASA.A.000"},
+            "tcds": {"issuer": "EASA", "tcds_number": "EASA.A.000", "holder": "Dummy"},
             "categories": ["commuter"],
             "notes": None,
             "certification_basis": [entry],
@@ -107,6 +107,38 @@ class TestContract:
                 "JOIN categories c ON c.id = tc.category_id ORDER BY 1"
             ).fetchall()
         assert rows == [("DUMMY1", "normal"), ("EASA.A.000", "commuter")]
+
+    def test_group_legal_name_and_printed_holder_are_kept(self, tmp_path: Path) -> None:
+        # Two legally separate companies shown as one group; each TCDS keeps
+        # the holder it prints.
+        a = fx.cfr_aircraft([fx.entry([])], model="G150")
+        a["manufacturer"] = "Gulfstream Aerospace LP (GALP)"
+        a["manufacturer_group"] = "Gulfstream"
+        a["tcb"][0]["tcds"]["holder"] = "Gulfstream Aerospace LP"
+        b = fx.cfr_aircraft(
+            [fx.entry([])], model="G500", tcds={"issuer": "FAA", "tcds_number": "X2"}
+        )
+        b["manufacturer"] = "Gulfstream Aerospace Corporation"
+        b["manufacturer_group"] = "Gulfstream"
+        b["tcb"][0]["tcds"]["holder"] = "Gulfstream Aerospace Corporation"
+        data = fx.stage(tmp_path, [fx.faa_part("23", [0])], [], [a, b])
+        out = tmp_path / "cert_basis.sqlite"
+        build(data, out)
+        with sqlite3.connect(out) as conn:
+            rows = conn.execute(
+                "SELECT mf.group_name, mf.name, t.holder FROM tcb "
+                "JOIN aircraft_models m ON m.id = tcb.model_id "
+                "JOIN manufacturers mf ON mf.id = m.manufacturer_id "
+                "JOIN tcds t ON t.id = tcb.tcds_id ORDER BY mf.name"
+            ).fetchall()
+        assert rows == [
+            (
+                "Gulfstream",
+                "Gulfstream Aerospace Corporation",
+                "Gulfstream Aerospace Corporation",
+            ),
+            ("Gulfstream", "Gulfstream Aerospace LP (GALP)", "Gulfstream Aerospace LP"),
+        ]
 
     def test_provenance_carried_into_db(self, tmp_path: Path) -> None:
         prov = fx.cfr_provision("23", "1", [])

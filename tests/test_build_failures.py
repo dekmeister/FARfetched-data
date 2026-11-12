@@ -73,6 +73,20 @@ class TestBuildFailures:
             build(data, tmp_path / "cert_basis.sqlite")
         assert "TCDS 3A12 metadata" in str(ei.value)
 
+    def test_conflicting_manufacturer_group_fails(self, tmp_path: Path) -> None:
+        a = fx.cfr_aircraft([fx.entry([])], model="172")
+        b = fx.cfr_aircraft([fx.entry([])], model="172A")
+        b["manufacturer_group"] = "Other"
+        data = fx.stage(
+            tmp_path,
+            [fx.faa_part("23", [0])],
+            [fx.cfr_provision("23", "1", [0])],
+            [a, b],
+        )
+        with pytest.raises(BuildError) as ei:
+            build(data, tmp_path / "cert_basis.sqlite")
+        assert "has group 'Other', an earlier file gives it 'Dummy'" in str(ei.value)
+
     def test_shared_tcds_with_same_metadata_is_fine(self, tmp_path: Path) -> None:
         tcds = {"issuer": "FAA", "tcds_number": "3A12", "revision": "42"}
         data = fx.stage(

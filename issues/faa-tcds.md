@@ -236,18 +236,25 @@ staged TCDS needs one. Two things are left:
   Airbus Helicopters, Helio Aircraft Corporation / Helio Aircraft LLC. A
   bare "Diamond Aircraft Industries" (one FAA TCDS) can be either Diamond
   company: it takes a TCDS-scoped row.
-- **Former names aren't published.** `data/` holds the canonical name only,
-  and the SQLite `manufacturers` table has one `name`. Someone searching
+- **Former names and marques aren't published.** Since v13 (2026-11-13)
+  each TCB keeps its printed holder (`tcds.holder`) and each manufacturer a
+  display group (`manufacturer_group`, `tools/overrides/manufacturer_groups.tsv`),
+  but a name that is neither is still unsearchable: someone searching
   "Cessna" or "Israel Aircraft Industries" doesn't reach Textron or GALP
-  models. The TCDS print the history ("TC Holder Record: Israel Aircraft
+  models (the app hard-codes `cessna → textron`). Marques are the same
+  problem: Textron Aviation Inc. holds the Cessna, Beechcraft and Hawker TCs,
+  and a group is per company, so all three show as one. The TCDS print the history ("TC Holder Record: Israel Aircraft
   Industries, LTD. transferred ownership … to Gulfstream Aerospace LP on
   March 26, 2002"; A60EU: "changed from DAHER AEROSPACE to DAHER AIRCRAFT,
   SAS on August 19, 2025").
 
 **To close:** the first closes itself as TCDS are selected (assemble names
-each group). The second is a contract decision: a `former_names` list on
-the aircraft file, or a `manufacturer_names` table (v12, app release),
-filled from the TCDS holder records rather than from override rows.
+each lookalike group, in `manufacturers.tsv` and `manufacturer_groups.tsv`).
+The second is a contract decision: a `former_names` list, or a
+`manufacturer_names` table, filled from the TCDS holder records rather than
+from override rows. A marque would be a TCDS-scoped name, decided with it.
+Also: when EASA.A.004 (A330) is staged, AIRBUS S.A.S. joins the Airbus
+lookalike group and needs a `manufacturer_groups.tsv` row ("Airbus").
 
 ### TCDS-10. Path collisions when the parser runs on the whole corpus
 

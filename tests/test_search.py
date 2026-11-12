@@ -147,6 +147,30 @@ class TestSearchAircraft:
             ).fetchall()
         assert row == [("SR22", "DUMMY1", "Part 23 through 23-ACE-52")]
 
+    def test_manufacturer_column_holds_group_name_and_holder(
+        self, tmp_path: Path
+    ) -> None:
+        model = fx.cfr_aircraft([fx.entry([], 1)], model="G150")
+        model["manufacturer"] = "Gulfstream Aerospace LP (GALP)"
+        model["manufacturer_group"] = "Gulfstream"
+        model["tcb"][0]["tcds"]["holder"] = "Gulfstream Aerospace LP"
+        db = _build(tmp_path, [_prov("1", [_v("23-0")])], model)
+        with sqlite3.connect(db) as conn:
+            (names,) = conn.execute(
+                "SELECT manufacturer FROM search_aircraft"
+            ).fetchone()
+            hits = [
+                conn.execute(
+                    "SELECT count(*) FROM search_aircraft WHERE manufacturer MATCH ?",
+                    (q,),
+                ).fetchone()[0]
+                for q in ('"Gulfstream"', '"GALP"')
+            ]
+        assert names == (
+            "Gulfstream\nGulfstream Aerospace LP (GALP)\nGulfstream Aerospace LP"
+        )
+        assert hits == [1, 1]
+
 
 def test_report_counts_search_and_leaves_out_shadow_tables(tmp_path: Path) -> None:
     db = _build(tmp_path, [_prov("1", [_v("23-0", "TEXT MISSING")])])

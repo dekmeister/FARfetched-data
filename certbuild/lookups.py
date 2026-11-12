@@ -67,10 +67,17 @@ def category_id_for(conn: sqlite3.Connection, code: str) -> int:
     return int(row[0])
 
 
-def upsert_manufacturer(conn: sqlite3.Connection, name: str) -> int:
-    conn.execute("INSERT OR IGNORE INTO manufacturers (name) VALUES (?)", (name,))
+def upsert_manufacturer(
+    conn: sqlite3.Connection, name: str, group: str
+) -> tuple[int, str]:
+    """The manufacturer's id, and the group its first file gave it (a
+    caller compares that with its own)."""
+    conn.execute(
+        "INSERT OR IGNORE INTO manufacturers (name, group_name) VALUES (?, ?)",
+        (name, group),
+    )
     row = conn.execute(
-        "SELECT id FROM manufacturers WHERE name = ?", (name,)
+        "SELECT id, group_name FROM manufacturers WHERE name = ?", (name,)
     ).fetchone()
     assert row is not None
-    return int(row[0])
+    return int(row[0]), str(row[1])

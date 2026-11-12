@@ -62,10 +62,16 @@ def _insert_current(conn: sqlite3.Connection) -> None:
     )
 
 
+def _names(names: list[str]) -> str:
+    """Group, manufacturer and printed holder, each once, by newlines."""
+    return "\n".join(dict.fromkeys(names))
+
+
 def _insert_aircraft(conn: sqlite3.Connection) -> None:
     rows = conn.execute(
         """
-        SELECT tcb.id, m.model_designation, m.common_name, mf.name, t.tcds_number,
+        SELECT tcb.id, m.model_designation, m.common_name,
+               mf.group_name, mf.name, t.holder, t.tcds_number,
                (SELECT group_concat(raw_reference, char(10)) FROM (
                     SELECT e.raw_reference FROM cert_basis_entries e
                     WHERE e.tcb_id = tcb.id ORDER BY e.display_order))
@@ -81,8 +87,8 @@ def _insert_aircraft(conn: sqlite3.Connection) -> None:
         "(rowid, designation, common_name, manufacturer, tcds_number, basis) "
         "VALUES (?, ?, ?, ?, ?, ?)",
         (
-            (tcb, designation, common, maker, tcds, _clean(basis or ""))
-            for tcb, designation, common, maker, tcds, basis in rows
+            (tcb, designation, common, _names(names), tcds, _clean(basis or ""))
+            for tcb, designation, common, *names, tcds, basis in rows
         ),
     )
 

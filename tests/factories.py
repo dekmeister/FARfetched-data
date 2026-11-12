@@ -149,12 +149,16 @@ def aircraft(
 ) -> Record:
     return {
         "manufacturer": "Dummy Mfg",
+        "manufacturer_group": "Dummy",
         "model_designation": model,
         "common_name": None,
         "notes": None,
         "tcb": [
             {
-                "tcds": tcds or {"issuer": "FAA", "tcds_number": "DUMMY1"},
+                "tcds": {
+                    "holder": "Dummy Mfg",
+                    **(tcds or {"issuer": "FAA", "tcds_number": "DUMMY1"}),
+                },
                 "categories": list(categories),
                 "notes": None,
                 "certification_basis": entries,

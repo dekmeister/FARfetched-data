@@ -9,7 +9,7 @@ from __future__ import annotations
 
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 12
+SCHEMA_VERSION = 13
 
 
 SCHEMA_SQL = """
@@ -183,9 +183,12 @@ CREATE TABLE provision_similarity (
     CHECK (provision_id <> similar_provision_id)
 ) STRICT, WITHOUT ROWID;
 
+-- name: the legal TC holder, one spelling per company. group_name: the name
+-- the app shows and groups by (several companies may share one).
 CREATE TABLE manufacturers (
-    id   INTEGER PRIMARY KEY,
-    name TEXT NOT NULL UNIQUE
+    id         INTEGER PRIMARY KEY,
+    name       TEXT NOT NULL UNIQUE,
+    group_name TEXT NOT NULL CHECK (group_name <> '')
 ) STRICT;
 
 CREATE TABLE categories (
@@ -207,6 +210,7 @@ CREATE TABLE tcds (
     id            INTEGER PRIMARY KEY,
     issuer_id     INTEGER NOT NULL REFERENCES issuers(id),
     tcds_number   TEXT NOT NULL,
+    holder        TEXT NOT NULL CHECK (holder <> ''),  -- as this TCDS prints it
     revision      TEXT,
     revision_date TEXT
                   CHECK (revision_date IS NULL OR date(revision_date) IS revision_date),

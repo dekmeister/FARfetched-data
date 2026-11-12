@@ -145,12 +145,13 @@ def _tcds_id(
     conflict goes to `errors`, and the first file's row is used)."""
     issuer_id = issuer_id_for(conn, tcds_doc["issuer"])
     meta = (
+        tcds_doc["holder"],
         tcds_doc.get("revision"),
         tcds_doc.get("revision_date"),
         tcds_doc.get("source_url"),
     )
     row = conn.execute(
-        "SELECT id, revision, revision_date, source_url FROM tcds "
+        "SELECT id, holder, revision, revision_date, source_url FROM tcds "
         "WHERE issuer_id = ? AND tcds_number = ?",
         (issuer_id, tcds_doc["tcds_number"]),
     ).fetchone()
@@ -163,12 +164,27 @@ def _tcds_id(
         return int(row[0])
     cur = conn.execute(
         "INSERT INTO tcds "
-        "(issuer_id, tcds_number, revision, revision_date, source_url) "
-        "VALUES (?, ?, ?, ?, ?)",
+        "(issuer_id, tcds_number, holder, revision, revision_date, source_url) "
+        "VALUES (?, ?, ?, ?, ?, ?)",
         (issuer_id, tcds_doc["tcds_number"], *meta),
     )
     assert cur.lastrowid is not None
     return cur.lastrowid
+
+
+def _manufacturer_id(
+    conn: sqlite3.Connection, doc: JsonObject, path: Path, errors: list[str]
+) -> int:
+    """Insert a manufacturer once; every file naming it must give the same
+    `manufacturer_group` (a conflict goes to `errors`)."""
+    group = doc["manufacturer_group"]
+    mid, first = upsert_manufacturer(conn, doc["manufacturer"], group)
+    if first != group:
+        errors.append(
+            f"{path}: manufacturer {doc['manufacturer']!r} has group {group!r}, "
+            f"an earlier file gives it {first!r}"
+        )
+    return mid
 
 
 def insert_aircraft(
@@ -189,7 +205,7 @@ def insert_aircraft(
                 "(manufacturer_id, model_designation, common_name, notes) "
                 "VALUES (?, ?, ?, ?)",
                 (
-                    upsert_manufacturer(conn, doc["manufacturer"]),
+                    _manufacturer_id(conn, doc, s.path, failures),
                     doc["model_designation"],
                     doc.get("common_name"),
                     doc.get("notes"),

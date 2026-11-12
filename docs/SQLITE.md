@@ -41,7 +41,7 @@ in [certbuild/ddl.py](../certbuild/ddl.py).
 
 ### Contract metadata
 
-`PRAGMA user_version` is the schema version (currently **12**). It is bumped
+`PRAGMA user_version` is the schema version (currently **13**). It is bumped
 on every contract change, and consumers should refuse a DB whose version
 they don't know (see [SCHEMA_HISTORY.md](SCHEMA_HISTORY.md)). `build_info`
 is a single row: `schema_version`, `git_sha` of the data repo at build time
@@ -122,7 +122,12 @@ generated: real regulations skip and repeat them.
 
 ### Aircraft / TCB tables
 
-`manufacturers`, `categories` (closed set), `aircraft_models`, `tcds`, and
+`manufacturers` (`name`: the legal TC holder, one per company;
+`group_name`: the name to show and group by, shared by companies a user
+thinks of as one, e.g. both Gulfstream companies as "Gulfstream"),
+`categories` (closed set), `aircraft_models`, `tcds` (`holder`: the holder
+exactly as that TCDS prints it, which can differ from the model's
+manufacturer and between the TCDS of one model), and
 `tcb` — one row per (model, TCDS) pair, owning the cert basis. A model has
 one TCB per TCDS that covers it, e.g. the State-of-Design TCDS and a
 validating one from another regulator. `tcb_categories` (M:N) holds the
@@ -208,7 +213,9 @@ Full-text search for the app, built last from rows already inserted
   provision in force, following an alias to the version with the text. Join it
   to `search_text` to search current text only.
 - `search_aircraft(designation, common_name, manufacturer, tcds_number, basis)`:
-  `rowid` = `tcb.id`. `basis` is the entry's `raw_reference` lines joined by
+  `rowid` = `tcb.id`. `manufacturer` is the group name, the manufacturer and
+  this TCB's printed holder, each once, joined by newlines, so "Gulfstream",
+  "GALP" and every printed spelling find the model. `basis` is the entry's `raw_reference` lines joined by
   newlines. `unicode61 remove_diacritics 2`, no stemming.
 
 The tokenizers split on dots and hyphens, so `25.1309` is the phrase
