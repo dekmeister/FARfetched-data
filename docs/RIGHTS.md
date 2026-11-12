@@ -10,7 +10,7 @@ cover the source text. See [data/NOTICE](../data/NOTICE).
 
 | Issuer | Documents | What was found | Open |
 |---|---|---|---|
-| FAA | 14 CFR 23, 25, 27, 29, 36; FAA TCDS | US Government works. [17 U.S.C. § 105(a)](https://www.law.cornell.edu/uscode/text/17/105): "Copyright protection under this title is not available for any work of the United States Government." | None seen |
+| FAA | 14 CFR 23, 25, 26, 27, 29, 36; FAA TCDS | US Government works. [17 U.S.C. § 105(a)](https://www.law.cornell.edu/uscode/text/17/105): "Copyright protection under this title is not available for any work of the United States Government." | None seen |
 | CAA, CAB | CAR 3 | Predecessor US agencies, so taken to fall under the same section. Not separately researched. | Low |
 | DoD | MIL-HDBK-516 to 516D | All six PDFs state: "DISTRIBUTION STATEMENT A: Approved for public release; distribution is unlimited." | None seen |
 | EASA | CS-23, 25, 27, 29; EASA TCDS | [Site notice](https://www.easa.europa.eu/en/copyright-disclaimer): "Reproduction is authorised, provided the source is acknowledged, save where otherwise stated." | **Yes** |

@@ -1,6 +1,6 @@
 # FAA regulations (FAA-)
 
-14 CFR Parts 23, 25, 27, 29 and 36, from DRS and eCFR. Pipeline:
+14 CFR Parts 23, 25, 26, 27, 29 and 36, from DRS and eCFR. Pipeline:
 [tools/s00_docs/FAA_REGS.md](../tools/s00_docs/FAA_REGS.md). Overrides:
 `tools/overrides/faa_regs.tsv`. [Index](../ISSUES.md)
 
@@ -162,21 +162,14 @@ docs say so, but `manifest.py` defaults to `latest_date()` regardless.
 
 **To close:** enforce the date for Part 23 in code.
 
-### FAA-24. Literal `\n` in DRS titles
-
-Some DRS titles carry a literal backslash-n (`Flame Propagation
-\nCharacteristics`). It appears in 3 `title_at_revision` values and in 1 text
-(faa/25/F25@25-32), where assembled appendices put section titles into the
-text. F23@23-62 is fixed by an override.
-
-**To close:** normalise it in the extractor's title handling and re-assemble.
-
 ### FAA-25. Tables that DRS has only as images are missing
 
 No image is cached under `input/`, so these tables have a caption or
 introducer but no cells: J23@23-57 (both HIRF tables), A23.13 Table 2 (all
 four versions), A36.3/A36.4 Tables A36-1 and A36-2 (still images at 36-31),
-probably J36.109.
+probably J36.109, and 14 CFR 26: §26.5 Table 1 at 26-0 to 26-3 (a table from
+26-5), §26.35 Tables 1 and 2 at 26-2, 26-3 and 26-7. The FR prints these Part 26
+tables as text (73 FR 42444, 74 FR 31618), and eCFR has §26.35's from 2017.
 
 **To close:** fetch the images, transcribe each table as a `text.tsv`
 `replace_text` row in the flat table form (docs/DATA_FORMAT.md §Tables), with

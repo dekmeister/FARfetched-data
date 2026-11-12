@@ -17,7 +17,7 @@ says so.
 
 | File | IDs | Covers |
 |---|---|---|
-| [issues/faa-regs.md](issues/faa-regs.md) | `FAA-` | 14 CFR Parts 23, 25, 27, 29, 36: revisions, dates, missing text, extraction |
+| [issues/faa-regs.md](issues/faa-regs.md) | `FAA-` | 14 CFR Parts 23, 25, 26, 27, 29, 36: revisions, dates, missing text, extraction |
 | [issues/car.md](issues/car.md) | `CAR-` | CAR 3 (CAA and CAB reissue): OCR damage |
 | [issues/easa-cs.md](issues/easa-cs.md) | `EASA-` | EASA CS-23/25/27/29: extraction, titles, tables |
 | [issues/dod-hdbk.md](issues/dod-hdbk.md) | `DOD-` | MIL-HDBK-516 |

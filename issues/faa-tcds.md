@@ -141,8 +141,9 @@ part 26 are included in the certification basis" outside their basis blocks
 (A20EU, A21EA, A2NM, A56NM, A57NM, A58NM, T00011AT, T00063IB; 18 more print it
 inside one). A2NM p. 7: "Compliance with 14 CFR §26:" in "Data Pertinent to All
 Models", with compliance at 26-0 (26.11), 26-1 (26.43, .45, .47, .49) and 26-3
-(26.33). Counted by a text scan; only A2NM read. Part 26 isn't in the dataset
-(TCDS-13), so attached lines would have no references.
+(26.33). Counted by a text scan; only A2NM read. Part 26 is now staged, and the
+interpreter reads these lines' forms ("at Amendment 26-1: 26.43, 26.45",
+"§ 26.11 (Amdt. No. 26-0)"), so attached lines would resolve.
 
 **To close:** read the eight, then treat a field label naming Part 26 in an
 all-models section as a basis block for that section's models. Not a general

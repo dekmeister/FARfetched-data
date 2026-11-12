@@ -164,7 +164,9 @@ so the app can show them alike and group a renamed subpart by its label:
 - `{Label} — {Name}`: the label as the source prints it (`Subpart` plus one
   or two capital letters, or `Section` plus a number), then an em dash with
   exactly one space either side, then the name. No en dash or hyphen
-  separator, and no second separator inside the name.
+  separator, and no second separator inside the name. A dash inside the
+  name is the unspaced em dash the source prints there: `Subpart C — Aging
+  Airplane Safety—Widespread Fatigue Damage` (14 CFR 26, as eCFR prints it).
 - The name keeps the source's own mixed case. A name the source prints in
   capitals is put in heading case (small words such as *and*, *of*, *the* in
   lower case; acronyms and words with digits as printed), so
