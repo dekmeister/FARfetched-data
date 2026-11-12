@@ -1,5 +1,6 @@
 {
   "manufacturer": "Britten-Norman Aerospace Ltd",
+  "manufacturer_group": "Britten-Norman Aerospace Ltd",
   "model_designation": "BN2T-4R",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.388",
         "revision": "4",
         "revision_date": "2025-02-17",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7148/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7148/en",
+        "holder": "Britten-Norman Aerospace Ltd"
       },
       "categories": [
         "normal"

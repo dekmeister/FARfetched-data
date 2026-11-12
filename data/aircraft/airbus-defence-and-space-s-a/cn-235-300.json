@@ -1,5 +1,6 @@
 {
   "manufacturer": "Airbus Defence and Space S.A",
+  "manufacturer_group": "Airbus",
   "model_designation": "CN-235-300",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.186",
         "revision": "8",
         "revision_date": "2025-12-09",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7262/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7262/en",
+        "holder": "Airbus Defence and Space S.A"
       },
       "categories": [
         "transport"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "LIFTIFY UG (Haftungsbeschr\u00e4nkt)",
+  "manufacturer_group": "LIFTIFY UG (Haftungsbeschr\u00e4nkt)",
   "model_designation": "XA42",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.507",
         "revision": "7",
         "revision_date": "2021-10-26",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7104/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7104/en",
+        "holder": "LIFTIFY UG (Haftungsbeschr\u00e4nkt)"
       },
       "categories": [
         "acrobatic",

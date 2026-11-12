@@ -1,5 +1,6 @@
 {
   "manufacturer": "The Boeing Company",
+  "manufacturer_group": "The Boeing Company",
   "model_designation": "757-200PF",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A2NM",
         "revision": "32",
         "revision_date": "2016-02-16",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E114C6BAFEC130A086257F5B007AEB12.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E114C6BAFEC130A086257F5B007AEB12.0001",
+        "holder": "The Boeing Company"
       },
       "categories": [
         "transport"

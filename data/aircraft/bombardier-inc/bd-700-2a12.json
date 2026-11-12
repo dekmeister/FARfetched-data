@@ -1,5 +1,6 @@
 {
   "manufacturer": "Bombardier Inc.",
+  "manufacturer_group": "Bombardier Inc.",
   "model_designation": "BD-700-2A12",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.009",
         "revision": "14",
         "revision_date": "2026-01-23",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7508/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7508/en",
+        "holder": "Bombardier Inc."
       },
       "categories": [
         "transport"

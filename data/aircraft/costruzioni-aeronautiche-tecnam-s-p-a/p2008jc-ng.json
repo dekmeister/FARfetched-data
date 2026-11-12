@@ -1,5 +1,6 @@
 {
   "manufacturer": "Costruzioni Aeronautiche TECNAM S.p.A.",
+  "manufacturer_group": "Costruzioni Aeronautiche TECNAM S.p.A.",
   "model_designation": "P2008JC NG",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.583",
         "revision": "14",
         "revision_date": "2026-03-31",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7062/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7062/en",
+        "holder": "Costruzioni Aeronautiche TECNAM SPA"
       },
       "categories": [
         "normal"

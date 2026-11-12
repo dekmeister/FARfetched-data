@@ -1,5 +1,6 @@
 {
   "manufacturer": "Diamond Aircraft Industries GmbH",
+  "manufacturer_group": "Diamond",
   "model_designation": "DA 50 C",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.639",
         "revision": "6",
         "revision_date": "2024-11-27",
-        "source_url": "https://www.easa.europa.eu/en/downloads/119306/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/119306/en",
+        "holder": "Diamond Aircraft Industries GmbH"
       },
       "categories": [
         "normal"

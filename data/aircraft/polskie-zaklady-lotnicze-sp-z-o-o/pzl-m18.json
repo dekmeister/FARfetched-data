@@ -1,5 +1,6 @@
 {
   "manufacturer": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
+  "manufacturer_group": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
   "model_designation": "PZL M18",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.056",
         "revision": "4",
         "revision_date": "2020-09-02",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7413/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7413/en",
+        "holder": "Polskie Zaklady Lotnicze Sp. Z o.o."
       },
       "categories": [
         "normal"

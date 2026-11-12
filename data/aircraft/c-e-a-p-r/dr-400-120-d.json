@@ -1,5 +1,6 @@
 {
   "manufacturer": "C.E.A.P.R.",
+  "manufacturer_group": "C.E.A.P.R.",
   "model_designation": "DR 400/120 D",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.367",
         "revision": "5",
         "revision_date": "2023-10-16",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7170/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7170/en",
+        "holder": "C.E.A.P.R."
       },
       "categories": [
         "normal",

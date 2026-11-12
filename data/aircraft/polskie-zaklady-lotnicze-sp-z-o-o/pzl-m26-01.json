@@ -1,5 +1,6 @@
 {
   "manufacturer": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
+  "manufacturer_group": "Polskie Zak\u0142ady Lotnicze Sp. z o. o.",
   "model_designation": "PZL M26 01",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.057",
         "revision": "2",
         "revision_date": "2007-08-03",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7411/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7411/en",
+        "holder": "Polskie Zak\u0142ady Lotnicze Sp. z o. o."
       },
       "categories": [
         "acrobatic",

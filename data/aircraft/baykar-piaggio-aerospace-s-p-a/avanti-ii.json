@@ -1,5 +1,6 @@
 {
   "manufacturer": "Baykar Piaggio Aerospace S.p.A.",
+  "manufacturer_group": "Baykar Piaggio Aerospace S.p.A.",
   "model_designation": "Avanti II",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.059",
         "revision": "19",
         "revision_date": "2025-09-02",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7407/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7407/en",
+        "holder": "Baykar Piaggio Aerospace S.p.A."
       },
       "categories": [
         "normal"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "Pilatus Aircraft Ltd.",
+  "manufacturer_group": "Pilatus Aircraft Ltd.",
   "model_designation": "PC-24",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00072CE",
         "revision": "12",
         "revision_date": "2024-06-18",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID137622866120240621140107.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID137622866120240621140107.0001",
+        "holder": "Pilatus Aircraft Ltd"
       },
       "categories": [
         "commuter"

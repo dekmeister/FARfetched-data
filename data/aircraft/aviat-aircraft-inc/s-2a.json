@@ -1,5 +1,6 @@
 {
   "manufacturer": "Aviat Aircraft, Inc.",
+  "manufacturer_group": "Aviat Aircraft, Inc.",
   "model_designation": "S-2A",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A8SO",
         "revision": "28",
         "revision_date": "2026-02-18",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140836265320260304194226.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140836265320260304194226.0001",
+        "holder": "Aviat Aircraft, Inc."
       },
       "categories": [
         "acrobatic",

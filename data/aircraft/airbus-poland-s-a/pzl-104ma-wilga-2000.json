@@ -1,5 +1,6 @@
 {
   "manufacturer": "AIRBUS POLAND S.A.",
+  "manufacturer_group": "Airbus",
   "model_designation": "PZL-104MA Wilga 2000",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.061",
         "revision": "5",
         "revision_date": "2022-08-25",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7403/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7403/en",
+        "holder": "AIRBUS POLAND S.A."
       },
       "categories": [
         "normal"

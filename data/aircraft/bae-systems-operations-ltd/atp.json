@@ -1,5 +1,6 @@
 {
   "manufacturer": "BAE SYSTEMS (OPERATIONS) LTD",
+  "manufacturer_group": "BAE SYSTEMS (OPERATIONS) LTD",
   "model_designation": "ATP",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.192",
         "revision": "2",
         "revision_date": "2015-01-15",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7253/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7253/en",
+        "holder": "BAE SYSTEMS (OPERATIONS) LTD"
       },
       "categories": [
         "transport"

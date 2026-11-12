@@ -1,5 +1,6 @@
 {
   "manufacturer": "Textron Aviation Inc.",
+  "manufacturer_group": "Textron Aviation Inc.",
   "model_designation": "680",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.033",
         "revision": "9",
         "revision_date": "2026-03-25",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7459/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7459/en",
+        "holder": "Textron Aviation Inc."
       },
       "categories": [
         "transport"

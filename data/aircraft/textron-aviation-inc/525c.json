@@ -1,5 +1,6 @@
 {
   "manufacturer": "Textron Aviation Inc.",
+  "manufacturer_group": "Textron Aviation Inc.",
   "model_designation": "525C",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A1WI",
         "revision": "34",
         "revision_date": "2026-01-05",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID190404177620260105195202.0001",
+        "holder": "Textron Aviation Inc."
       },
       "categories": [
         "commuter"

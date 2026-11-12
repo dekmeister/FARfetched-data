@@ -1,5 +1,6 @@
 {
   "manufacturer": "ELIXIR AIRCRAFT",
+  "manufacturer_group": "ELIXIR AIRCRAFT",
   "model_designation": "Elixir",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.633",
         "revision": "7",
         "revision_date": "2026-04-01",
-        "source_url": "https://www.easa.europa.eu/en/downloads/111973/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/111973/en",
+        "holder": "ELIXIR AIRCRAFT"
       },
       "categories": [
         "normal"

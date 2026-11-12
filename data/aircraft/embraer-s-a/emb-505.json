@@ -1,5 +1,6 @@
 {
   "manufacturer": "Embraer S.A.",
+  "manufacturer_group": "Embraer S.A.",
   "model_designation": "EMB-505",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.158",
         "revision": "11",
         "revision_date": "2024-08-29",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7282/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7282/en",
+        "holder": "EMBRAER"
       },
       "categories": [
         "commuter"

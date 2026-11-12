@@ -1,5 +1,6 @@
 {
   "manufacturer": "The Boeing Company",
+  "manufacturer_group": "The Boeing Company",
   "model_designation": "717-200",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.211",
         "revision": "3",
         "revision_date": "2025-07-04",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7240/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7240/en",
+        "holder": "The Boeing Company"
       },
       "categories": [
         "transport"

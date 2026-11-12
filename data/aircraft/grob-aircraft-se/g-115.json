@@ -1,5 +1,6 @@
 {
   "manufacturer": "GROB Aircraft SE",
+  "manufacturer_group": "GROB Aircraft SE",
   "model_designation": "G 115",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.364",
         "revision": "4",
         "revision_date": "2023-09-06",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7172/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7172/en",
+        "holder": "GROB Aircraft SE"
       },
       "categories": [
         "normal"

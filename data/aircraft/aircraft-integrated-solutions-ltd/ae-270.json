@@ -1,5 +1,6 @@
 {
   "manufacturer": "AIRCRAFT INTEGRATED SOLUTIONS LTD",
+  "manufacturer_group": "AIRCRAFT INTEGRATED SOLUTIONS LTD",
   "model_designation": "Ae 270",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.060",
         "revision": "5",
         "revision_date": "2021-01-15",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7405/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7405/en",
+        "holder": "AIRCRAFT INTEGRATED SOLUTIONS LTD"
       },
       "categories": [
         "normal"

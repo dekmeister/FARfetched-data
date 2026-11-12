@@ -1,5 +1,6 @@
 {
   "manufacturer": "Diamond Aircraft Industries Inc.",
+  "manufacturer_group": "Diamond",
   "model_designation": "DA 62",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00012NY",
         "revision": "2",
         "revision_date": "2023-07-13",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID136460497320230713194108.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID136460497320230713194108.0001",
+        "holder": "Diamond Aircraft Industries Inc."
       },
       "categories": [
         "normal"
@@ -109,7 +111,8 @@
         "tcds_number": "EASA.IM.A.629",
         "revision": "8",
         "revision_date": "2023-08-16",
-        "source_url": "https://www.easa.europa.eu/en/downloads/44256/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/44256/en",
+        "holder": "Diamond Aircraft Industries Inc."
       },
       "categories": [
         "normal"

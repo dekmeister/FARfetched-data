@@ -1,5 +1,6 @@
 {
   "manufacturer": "Leonardo S.p.A. \u2013 Divisione Velivoli",
+  "manufacturer_group": "Leonardo S.p.A. \u2013 Divisione Velivoli",
   "model_designation": "S208A",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.587",
         "revision": "3",
         "revision_date": "2017-02-06",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7058/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7058/en",
+        "holder": "LEONARDO S.p.A. \u2013 Divisione Velivoli"
       },
       "categories": [
         "normal"

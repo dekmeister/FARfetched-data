@@ -1,5 +1,6 @@
 {
   "manufacturer": "Game Composites LLC",
+  "manufacturer_group": "Game Composites LLC",
   "model_designation": "GB1 GameBird",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.610",
         "revision": "4",
         "revision_date": "2019-03-29",
-        "source_url": "https://www.easa.europa.eu/en/downloads/22400/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/22400/en",
+        "holder": "Game Composites LLC"
       },
       "categories": [
         "acrobatic"

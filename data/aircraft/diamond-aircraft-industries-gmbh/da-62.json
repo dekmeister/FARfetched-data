@@ -1,5 +1,6 @@
 {
   "manufacturer": "Diamond Aircraft Industries GmbH",
+  "manufacturer_group": "Diamond",
   "model_designation": "DA 62",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A57CE",
         "revision": "34",
         "revision_date": "2025-07-08",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID158115701820250709134158.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID158115701820250709134158.0001",
+        "holder": "Diamond Aircraft Industries GmbH"
       },
       "categories": [
         "normal"

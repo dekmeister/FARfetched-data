@@ -1,5 +1,6 @@
 {
   "manufacturer": "Textron Aviation Inc.",
+  "manufacturer_group": "Textron Aviation Inc.",
   "model_designation": "390",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.073",
         "revision": "2",
         "revision_date": "2018-03-13",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7378/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7378/en",
+        "holder": "Textron Aviation Inc."
       },
       "categories": [
         "normal"

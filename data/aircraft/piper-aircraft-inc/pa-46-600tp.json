@@ -1,5 +1,6 @@
 {
   "manufacturer": "Piper Aircraft, Inc.",
+  "manufacturer_group": "Piper Aircraft, Inc.",
   "model_designation": "PA-46-600TP",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A25SO",
         "revision": "42",
         "revision_date": "2026-02-16",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID155755324920260217142718.0001",
+        "holder": "Piper Aircraft, Inc."
       },
       "categories": [
         "normal"
@@ -1568,7 +1570,8 @@
         "tcds_number": "EASA.IM.A.077",
         "revision": "22",
         "revision_date": "2026-02-18",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7370/en",
+        "holder": "Piper Aircraft, Inc."
       },
       "categories": [
         "normal"

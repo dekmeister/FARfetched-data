@@ -1,5 +1,6 @@
 {
   "manufacturer": "Piper Aircraft, Inc.",
+  "manufacturer_group": "Piper Aircraft, Inc.",
   "model_designation": "PA-44-180 (Seminole)",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.232",
         "revision": "6",
         "revision_date": "2025-09-10",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7226/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7226/en",
+        "holder": "Piper Aircraft, Inc."
       },
       "categories": [
         "normal"

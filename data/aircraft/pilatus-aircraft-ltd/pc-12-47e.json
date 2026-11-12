@@ -1,5 +1,6 @@
 {
   "manufacturer": "Pilatus Aircraft Ltd.",
+  "manufacturer_group": "Pilatus Aircraft Ltd.",
   "model_designation": "PC-12/47E",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.089",
         "revision": "11",
         "revision_date": "2025-07-07",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7348/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7348/en",
+        "holder": "Pilatus Aircraft Ltd."
       },
       "categories": [
         "normal"
@@ -781,7 +783,8 @@
         "tcds_number": "A78EU",
         "revision": "39",
         "revision_date": "2025-07-02",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID189544976220250702193427.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID189544976220250702193427.0001",
+        "holder": "Pilatus Aircraft Ltd."
       },
       "categories": [
         "normal"

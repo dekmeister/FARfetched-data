@@ -1,5 +1,6 @@
 {
   "manufacturer": "Extra Aerobatic Aircraft GmbH",
+  "manufacturer_group": "Extra Aerobatic Aircraft GmbH",
   "model_designation": "EXTRA NG",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.620",
         "revision": "4",
         "revision_date": "2020-12-02",
-        "source_url": "https://www.easa.europa.eu/en/downloads/104842/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/104842/en",
+        "holder": "Extra Aerobatic Aircraft GmbH"
       },
       "categories": [
         "acrobatic",

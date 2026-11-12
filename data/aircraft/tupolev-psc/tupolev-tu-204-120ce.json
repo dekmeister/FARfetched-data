@@ -1,5 +1,6 @@
 {
   "manufacturer": "TUPOLEV PSC",
+  "manufacturer_group": "TUPOLEV PSC",
   "model_designation": "TUPOLEV TU 204-120CE",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.162",
         "revision": "1",
         "revision_date": "2008-10-08",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7280/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7280/en",
+        "holder": "TUPOLEV PSC"
       },
       "categories": [
         "transport"

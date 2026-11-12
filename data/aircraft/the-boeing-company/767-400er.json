@@ -1,5 +1,6 @@
 {
   "manufacturer": "The Boeing Company",
+  "manufacturer_group": "The Boeing Company",
   "model_designation": "767-400ER",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.035",
         "revision": "11",
         "revision_date": "2025-02-04",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7454/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7454/en",
+        "holder": "The Boeing Company"
       },
       "categories": [
         "transport"

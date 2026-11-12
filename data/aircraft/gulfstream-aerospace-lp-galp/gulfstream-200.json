@@ -1,5 +1,6 @@
 {
   "manufacturer": "Gulfstream Aerospace LP (GALP)",
+  "manufacturer_group": "Gulfstream",
   "model_designation": "GULFSTREAM 200",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.013",
         "revision": "5",
         "revision_date": "2025-05-26",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7500/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7500/en",
+        "holder": "GULFSTREAM AEROSPACE LP (GALP)"
       },
       "categories": [
         "transport"

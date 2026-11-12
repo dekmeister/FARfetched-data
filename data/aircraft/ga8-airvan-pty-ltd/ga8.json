@@ -1,5 +1,6 @@
 {
   "manufacturer": "GA8 Airvan Pty Ltd",
+  "manufacturer_group": "GA8 Airvan Pty Ltd",
   "model_designation": "GA8",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.042",
         "revision": "9",
         "revision_date": "2018-11-02",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7440/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7440/en",
+        "holder": "GA8 Airvan Pty Ltd"
       },
       "categories": [
         "normal"
@@ -28,24 +30,38 @@
         {
           "display_order": 2,
           "entry_type": "regulation",
-          "raw_reference": "Serial Nos GA8-00-004 to GA8-03-025 FAR Part 23 at Amendment 48, except paragraph",
-          "applicability": null,
-          "applicability_notes": null,
+          "raw_reference": "Serial Nos GA8-00-004 to GA8-03-025 FAR Part 23 at Amendment 48, except paragraph 23.629 which is at Amendment 45",
+          "applicability": "GA8-00-004 to GA8-03-025",
+          "applicability_notes": "Note 6: these serial numbers may be upgraded to FAR 23 Amendment 54 standard by GippsAero Service Bulletin SB-GA8-2003-04.",
           "references": [
             {
               "issuer": "FAA",
               "document": "23",
               "to": "23-48"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-45",
+              "provisions": [
+                "629"
+              ]
             }
           ]
         },
         {
           "display_order": 3,
           "entry_type": "regulation",
-          "raw_reference": "23.629 which is at Amendment 45 Serial Nos GA8-03-026 on FAR Part 23 at Amendment 54",
-          "applicability": null,
+          "raw_reference": "Serial Nos GA8-03-026 on FAR Part 23 at Amendment 54",
+          "applicability": "GA8-03-026 on",
           "applicability_notes": null,
-          "references": []
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54"
+            }
+          ]
         },
         {
           "display_order": 4,
@@ -70,6 +86,89 @@
           "applicability": null,
           "applicability_notes": null,
           "references": []
+        }
+      ]
+    },
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00011LA",
+        "revision": "13",
+        "revision_date": "2021-07-07",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/B02679A5291DD3368625870C0058FCEC.0001",
+        "holder": "GA8 Airvan (Pty) Ltd"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 23, dated December 18, 1964, with amendments 1 through 54 \u201cAirworthiness Standards for Normal Category Airplanes\u201d:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-54"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "FAR 36.1(a)(2), dated December 1, 1969 with amendments 1 through 24 \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d",
+          "applicability": null,
+          "applicability_notes": "\u00a736.1(a)(2) is the paragraph that makes Part 36 apply to propeller-driven small airplanes; the reference is Part 36 as a whole.",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-24"
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "TC A00011LA issued on May 30, 2003.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "For aircraft eligible for IFR operations the certification basis is FAR 23 dated December 18, 1964 with amendments 1 through 55 \u201cAirworthiness Standards for Normal Category Airplanes\u201d",
+          "applicability": "For aircraft eligible for IFR operations",
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-55"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "Additions for the Garmin G500 System only, Federal Aviation Regulations, FAR \u00a723.1308 at Amendment 57.",
+          "applicability": "for the Garmin G500 System only",
+          "applicability_notes": "Note 13: Garmin G500 installation is optional equipment (Option 223 and Option 228) on serial numbers GA8-14-206 and subsequent and GA8-TC 320-15-207 and subsequent, installed per GippsAero Engineering Release GA8-9634228 (Option 228) or GA8-9634223 (Option 223, with the KFC 225 autopilot per STC SA01418WI-D).",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-57",
+              "provisions": [
+                "1308"
+              ]
+            }
+          ]
         }
       ]
     }

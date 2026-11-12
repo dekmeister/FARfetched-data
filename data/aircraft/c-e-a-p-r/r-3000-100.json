@@ -1,5 +1,6 @@
 {
   "manufacturer": "C.E.A.P.R.",
+  "manufacturer_group": "C.E.A.P.R.",
   "model_designation": "R 3000/100",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.372",
         "revision": "1",
         "revision_date": "2013-05-10",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7162/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7162/en",
+        "holder": "C.E.A.P.R."
       },
       "categories": [
         "normal"

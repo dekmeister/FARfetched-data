@@ -1,5 +1,6 @@
 {
   "manufacturer": "Bernd Hager",
+  "manufacturer_group": "Bernd Hager",
   "model_designation": "R 90-230RG",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.539",
         "revision": "4",
         "revision_date": "2022-02-21",
-        "source_url": "https://www.easa.europa.eu/en/downloads/17339/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/17339/en",
+        "holder": "Bernd Hager"
       },
       "categories": [
         "normal"

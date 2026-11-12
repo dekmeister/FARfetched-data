@@ -1,5 +1,6 @@
 {
   "manufacturer": "Daher Aircraft Design, LLC",
+  "manufacturer_group": "Daher",
   "model_designation": "Kodiak 100",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00007SE",
         "revision": "28",
         "revision_date": "2025-11-06",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID128562299920251125193447.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID128562299920251125193447.0001",
+        "holder": "Daher Aircraft Design, LLC"
       },
       "categories": [
         "normal"
@@ -94,7 +96,8 @@
         "tcds_number": "EASA.IM.A.632",
         "revision": "8",
         "revision_date": "2026-01-19",
-        "source_url": "https://www.easa.europa.eu/en/downloads/22488/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/22488/en",
+        "holder": "Daher Aircraft Design LLC"
       },
       "categories": [
         "normal"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "Gulfstream Aerospace LP (GALP)",
+  "manufacturer_group": "Gulfstream",
   "model_designation": "Gulfstream G150",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A16NM",
         "revision": "9",
         "revision_date": "2022-10-26",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID185926348620221028150119.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID185926348620221028150119.0001",
+        "holder": "Gulfstream Aerospace LP"
       },
       "categories": [
         "transport"
@@ -1761,7 +1763,8 @@
         "tcds_number": "EASA.IM.A.228",
         "revision": "3",
         "revision_date": "2025-05-26",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7228/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7228/en",
+        "holder": "GULFSTREAM AEROSPACE LP (GALP)"
       },
       "categories": [
         "transport"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "DASSAULT AVIATION",
+  "manufacturer_group": "DASSAULT AVIATION",
   "model_designation": "Falcon 6X",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.580",
         "revision": "4",
         "revision_date": "2025-09-03",
-        "source_url": "https://www.easa.europa.eu/en/downloads/138391/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/138391/en",
+        "holder": "DASSAULT AVIATION"
       },
       "categories": [
         "transport"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "General Atomics AeroTec Systems GmbH",
+  "manufacturer_group": "General Atomics AeroTec Systems GmbH",
   "model_designation": "Dornier 228-202",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.359",
         "revision": "8",
         "revision_date": "2024-02-26",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7178/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7178/en",
+        "holder": "General Atomics AeroTec Systems GmbH"
       },
       "categories": [
         "normal"

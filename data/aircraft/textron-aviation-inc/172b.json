@@ -1,5 +1,6 @@
 {
   "manufacturer": "Textron Aviation Inc.",
+  "manufacturer_group": "Textron Aviation Inc.",
   "model_designation": "172B",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "3A12",
         "revision": "89",
         "revision_date": "2026-09-15",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID175852420220260916212847.0001",
+        "holder": "Textron Aviation Inc."
       },
       "categories": [
         "normal",

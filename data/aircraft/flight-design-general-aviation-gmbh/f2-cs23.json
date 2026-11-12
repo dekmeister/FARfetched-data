@@ -1,5 +1,6 @@
 {
   "manufacturer": "Flight Design general aviation GmbH",
+  "manufacturer_group": "Flight Design general aviation GmbH",
   "model_designation": "F2-CS23",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.647",
         "revision": "5",
         "revision_date": "2025-07-01",
-        "source_url": "https://www.easa.europa.eu/en/downloads/134275/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/134275/en",
+        "holder": "Flight Design general aviation GmbH"
       },
       "categories": [
         "normal"

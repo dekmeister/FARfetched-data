@@ -1,5 +1,6 @@
 {
   "manufacturer": "ZLIN AERO a.s.",
+  "manufacturer_group": "ZLIN AERO a.s.",
   "model_designation": "Z 42",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.027",
         "revision": "10",
         "revision_date": null,
-        "source_url": "https://www.easa.europa.eu/en/downloads/7471/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7471/en",
+        "holder": "ZLIN AERO a.s."
       },
       "categories": [
         "acrobatic"

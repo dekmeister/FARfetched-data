@@ -1,5 +1,6 @@
 {
   "manufacturer": "Dornier Seawings GmbH",
+  "manufacturer_group": "Dornier Seawings GmbH",
   "model_designation": "CD 2",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.640",
         "revision": "1",
         "revision_date": "2017-04-18",
-        "source_url": "https://www.easa.europa.eu/en/downloads/22412/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/22412/en",
+        "holder": "Dornier Seawings GmbH"
       },
       "categories": [
         "commuter"

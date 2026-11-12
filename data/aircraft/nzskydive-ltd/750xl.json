@@ -1,5 +1,6 @@
 {
   "manufacturer": "NZSkydive Ltd",
+  "manufacturer_group": "NZSkydive Ltd",
   "model_designation": "750XL",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.081",
         "revision": "6",
         "revision_date": "2022-02-02",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7362/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7362/en",
+        "holder": "NZSkydive Ltd"
       },
       "categories": [
         "normal"

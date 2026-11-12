@@ -1,5 +1,6 @@
 {
   "manufacturer": "Piper Aircraft, Inc.",
+  "manufacturer_group": "Piper Aircraft, Inc.",
   "model_designation": "PA-44-180T",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A19SO",
         "revision": "23",
         "revision_date": "2026-09-29",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID125739696120260930182301.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID125739696120260930182301.0001",
+        "holder": "Piper Aircraft, Inc."
       },
       "categories": [
         "normal"

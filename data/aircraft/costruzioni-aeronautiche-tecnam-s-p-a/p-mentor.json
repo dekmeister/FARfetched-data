@@ -1,5 +1,6 @@
 {
   "manufacturer": "Costruzioni Aeronautiche TECNAM S.p.A.",
+  "manufacturer_group": "Costruzioni Aeronautiche TECNAM S.p.A.",
   "model_designation": "P-Mentor",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.006",
         "revision": "13",
         "revision_date": "2022-11-24",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7514/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7514/en",
+        "holder": "Costruzioni Aeronautiche TECNAM"
       },
       "categories": [
         "normal"

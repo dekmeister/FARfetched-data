@@ -1,5 +1,6 @@
 {
   "manufacturer": "Honda Aircraft Company LLC",
+  "manufacturer_group": "Honda Aircraft Company LLC",
   "model_designation": "HA-420",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00018AT",
         "revision": "11",
         "revision_date": "2025-12-15",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID186416701520251216163246.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID186416701520251216163246.0001",
+        "holder": "Honda Aircraft Company LLC"
       },
       "categories": [
         "normal"
@@ -410,7 +412,8 @@
         "tcds_number": "EASA.IM.A.352",
         "revision": "10",
         "revision_date": "2026-09-30",
-        "source_url": "https://www.easa.europa.eu/en/downloads/20876/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/20876/en",
+        "holder": "Honda Aircraft Company, LLC"
       },
       "categories": [
         "normal"
@@ -521,7 +524,7 @@
         {
           "display_order": 12,
           "entry_type": "other",
-          "raw_reference": "CS 34 Aircraft Engine Emissions and Fuel Venting Serial numbers 42000012 through 42000206: CS 34, Amdt. 1, dated 23 January 2013 Serial numbers 42000126 through 42000206 with SB-420-42-016 installed and 42000207 and up: CS 34, Amdt. 3, dated 01 August 2019",
+          "raw_reference": "CS 34 Aircraft Engine Emissions and Fuel Venting",
           "applicability": null,
           "applicability_notes": null,
           "references": []
@@ -529,7 +532,47 @@
         {
           "display_order": 13,
           "entry_type": "other",
-          "raw_reference": "CS 36 Aircraft Noise Serial numbers 42000012 through 42000206: CS 36, Amdt. 3, dated 23 January 2013 Serial numbers 42000126 through 42000206 with SB-420-42-013 or SB-420-42-016 installed and 42000207 trough 42000234: CS 36, Amdt. 5, dated 01 August 2019 Serial numbers 42000235 and up: CS-36, Amdt. 6, dated 14 July 2021",
+          "raw_reference": "Serial numbers 42000012 through 42000206: CS 34, Amdt. 1, dated 23 January 2013",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "other",
+          "raw_reference": "Serial numbers 42000126 through 42000206 with SB-420-42-016 installed and 42000207 and up: CS 34, Amdt. 3, dated 01 August 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "other",
+          "raw_reference": "CS 36 Aircraft Noise",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "other",
+          "raw_reference": "Serial numbers 42000012 through 42000206: CS 36, Amdt. 3, dated 23 January 2013",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "other",
+          "raw_reference": "Serial numbers 42000126 through 42000206 with SB-420-42-013 or SB-420-42-016 installed and 42000207 trough 42000234: CS 36, Amdt. 5, dated 01 August 2019",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "other",
+          "raw_reference": "Serial numbers 42000235 and up: CS-36, Amdt. 6, dated 14 July 2021",
           "applicability": null,
           "applicability_notes": null,
           "references": []

@@ -1,5 +1,6 @@
 {
   "manufacturer": "Korean Aerospace Industries, LTD",
+  "manufacturer_group": "Korean Aerospace Industries, LTD",
   "model_designation": "KC-100",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00079CE",
         "revision": "0",
         "revision_date": "2021-05-19",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID193416011320221213144908.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID193416011320221213144908.0001",
+        "holder": "Korean Aerospace Industries, LTD"
       },
       "categories": [
         "normal"

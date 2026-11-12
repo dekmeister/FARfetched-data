@@ -1,5 +1,6 @@
 {
   "manufacturer": "Gulfstream Aerospace Corporation",
+  "manufacturer_group": "Gulfstream",
   "model_designation": "GVIII-G700",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.169",
         "revision": "17",
         "revision_date": "2026-07-14",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7278/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7278/en",
+        "holder": "Gulfstream Aerospace Corporation"
       },
       "categories": [
         "transport"

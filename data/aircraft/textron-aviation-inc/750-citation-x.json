@@ -1,5 +1,6 @@
 {
   "manufacturer": "Textron Aviation Inc.",
+  "manufacturer_group": "Textron Aviation Inc.",
   "model_designation": "750 (Citation X)",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.097",
         "revision": "3",
         "revision_date": "2016-01-07",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7335/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7335/en",
+        "holder": "Textron Aviation Inc."
       },
       "categories": [
         "transport"

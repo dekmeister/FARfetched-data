@@ -1,0 +1,245 @@
+{
+  "manufacturer": "Airvan10 Pty Ltd",
+  "manufacturer_group": "Airvan10 Pty Ltd",
+  "model_designation": "GA10",
+  "common_name": null,
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A00071CE",
+        "revision": "1",
+        "revision_date": "2021-07-07",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/BAEA881BB2DCE6958625870C005952FB.0001",
+        "holder": "Airvan10 Pty Ltd"
+      },
+      "categories": [
+        "normal"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR part 21.29, part 21.183(c) and 14 CFR Part 23, effective December 18, 1964, with amendments 1 through amendment 62 \u201cAirworthiness Standards for Normal Category Airplanes\u201d:",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "to": "23-62"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 34, effective September 10, 1990 including Amendments 34-1 through Amendment 34-5A \u201cFuel Venting and Exhaust Emission Requirements For Turbine Engine Powered Airplanes\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "14 CFR Part 36, effective December 1, 1969 with Amendments 36-1 through Amendment 36-30 \u201cNoise Standards: Aircraft Type and Airworthiness Certification\u201d",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-30"
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "elos",
+          "raw_reference": "TC00769CE-A-G-9, dated June 14, 2016: \u00a723.45, \u00a723.51, \u00a723.63, \u00a723.67, \u00a723.73, Amendment 23-62 Corrections \u00a723.77, \u00a723.161, \u00a723.181, \u00a723.221, \u00a723.251, \u00a723.253, \u00a723.571, \u00a723.785, \u00a723.831, \u00a723.1195, \u00a723.1197, \u00a723.1199, \u00a723.1201, \u00a723.1527, \u00a723.1545, \u00a723.1583",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "45",
+              "at": "23-62"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "51",
+              "at": "23-62"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "63",
+              "at": "23-62"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "67",
+              "at": "23-62"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "73",
+              "at": "23-62"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "77"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "161"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "181"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "221"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "251"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "253"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "571"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "785"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "831"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1195"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1197"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1199"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1201"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1527"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1545"
+            },
+            {
+              "issuer": "FAA",
+              "document": "23",
+              "number": "1583"
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "other",
+          "raw_reference": "No Exemptions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "other",
+          "raw_reference": "No Special Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "other",
+          "raw_reference": "The airplane is not approved for ditching",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "other",
+          "raw_reference": "The airplane is not approved for flight into known or forecasted icing.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "other",
+          "raw_reference": "Other operational restrictions - Maximum Operating OAT , 50\u00b0C ; Minimum Operating OAT -26\u00b0C , Refer to the GA10 \u201cPilot's Operating Handbook and Approved Flight Manual\u201d for temperature related performance limits. (See Note 7)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "other",
+          "raw_reference": "CASA issued CASA Type Certificate No. VA522 on May 19, 2017",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "other",
+          "raw_reference": "Date of application for original FAA Type Certificate: October 15, 2015",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "other",
+          "raw_reference": "TC A00071CE issued on May 19, 2017.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

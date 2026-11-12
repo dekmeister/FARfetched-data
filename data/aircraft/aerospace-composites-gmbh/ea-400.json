@@ -1,5 +1,6 @@
 {
   "manufacturer": "AEROSPACE COMPOSITES GmbH",
+  "manufacturer_group": "AEROSPACE COMPOSITES GmbH",
   "model_designation": "EA 400",
   "common_name": "EXTRA 400",
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.011",
         "revision": "7",
         "revision_date": "2025-10-21",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7504/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7504/en",
+        "holder": "AEROSPACE COMPOSITES GmbH"
       },
       "categories": [
         "normal"

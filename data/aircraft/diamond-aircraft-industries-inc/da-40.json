@@ -1,5 +1,6 @@
 {
   "manufacturer": "Diamond Aircraft Industries Inc.",
+  "manufacturer_group": "Diamond",
   "model_designation": "DA 40",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A47CE",
         "revision": "17",
         "revision_date": "2021-07-14",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C67CC63755875EAE86258713004984D0.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/C67CC63755875EAE86258713004984D0.0001",
+        "holder": "Diamond Aircraft Industries Inc."
       },
       "categories": [
         "normal",
@@ -146,7 +148,8 @@
         "tcds_number": "EASA.IM.A.022",
         "revision": "24",
         "revision_date": "2021-04-22",
-        "source_url": "https://www.easa.europa.eu/en/downloads/44254/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/44254/en",
+        "holder": "Diamond Aircraft Industries Inc."
       },
       "categories": [
         "normal"

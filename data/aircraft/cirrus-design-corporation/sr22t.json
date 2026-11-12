@@ -1,5 +1,6 @@
 {
   "manufacturer": "Cirrus Design Corporation",
+  "manufacturer_group": "Cirrus Design Corporation",
   "model_designation": "SR22T",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00009CH",
         "revision": "25",
         "revision_date": "2025-12-26",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140348100520260127142917.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID140348100520260127142917.0001",
+        "holder": "Cirrus Design Corporation"
       },
       "categories": [
         "normal"
@@ -298,7 +300,8 @@
         "tcds_number": "EASA.IM.A.007",
         "revision": "19",
         "revision_date": null,
-        "source_url": "https://www.easa.europa.eu/en/downloads/7512/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7512/en",
+        "holder": "Cirrus Design Corporation"
       },
       "categories": [
         "normal"

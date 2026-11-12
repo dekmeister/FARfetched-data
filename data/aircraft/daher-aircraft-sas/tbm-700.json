@@ -1,5 +1,6 @@
 {
   "manufacturer": "DAHER AIRCRAFT, SAS",
+  "manufacturer_group": "Daher",
   "model_designation": "TBM 700",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A60EU",
         "revision": "40",
         "revision_date": "2026-04-24",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID103072862720260427180201.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID103072862720260427180201.0001",
+        "holder": "DAHER AIRCRAFT, SAS"
       },
       "categories": [
         "normal"

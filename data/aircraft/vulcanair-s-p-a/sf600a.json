@@ -1,5 +1,6 @@
 {
   "manufacturer": "VULCANAIR S.P.A.",
+  "manufacturer_group": "VULCANAIR S.P.A.",
   "model_designation": "SF600A",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.608",
         "revision": "3",
         "revision_date": "2023-08-01",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7052/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7052/en",
+        "holder": "VULCANAIR S.P.A."
       },
       "categories": [
         "normal"

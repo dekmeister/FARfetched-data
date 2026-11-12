@@ -1,5 +1,6 @@
 {
   "manufacturer": "C.E.A.P.R.",
+  "manufacturer_group": "C.E.A.P.R.",
   "model_designation": "HR 100-250 TR",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.368",
         "revision": "2",
         "revision_date": "2021-10-29",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7168/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7168/en",
+        "holder": "C.E.A.P.R."
       },
       "categories": [
         "utility"

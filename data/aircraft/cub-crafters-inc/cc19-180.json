@@ -1,5 +1,6 @@
 {
   "manufacturer": "Cub Crafters Inc.",
+  "manufacturer_group": "Cub Crafters Inc.",
   "model_designation": "CC19-180",
   "common_name": "XCub",
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.IM.A.638",
         "revision": "3",
         "revision_date": "2026-06-15",
-        "source_url": "https://www.easa.europa.eu/en/downloads/44663/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/44663/en",
+        "holder": "Cub Crafters Inc."
       },
       "categories": [
         "normal",

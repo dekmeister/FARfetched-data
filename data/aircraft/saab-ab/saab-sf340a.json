@@ -1,5 +1,6 @@
 {
   "manufacturer": "Saab AB",
+  "manufacturer_group": "Saab AB",
   "model_designation": "SAAB SF340A",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.068",
         "revision": "26",
         "revision_date": "2023-12-20",
-        "source_url": "https://www.easa.europa.eu/en/downloads/7388/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/7388/en",
+        "holder": "Saab AB"
       },
       "categories": [
         "transport"

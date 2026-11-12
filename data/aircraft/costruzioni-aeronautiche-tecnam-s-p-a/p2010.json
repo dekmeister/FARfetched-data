@@ -1,5 +1,6 @@
 {
   "manufacturer": "Costruzioni Aeronautiche TECNAM S.p.A.",
+  "manufacturer_group": "Costruzioni Aeronautiche TECNAM S.p.A.",
   "model_designation": "P2010",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "EASA.A.576",
         "revision": "13",
         "revision_date": "2026-02-11",
-        "source_url": "https://www.easa.europa.eu/en/downloads/17746/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/17746/en",
+        "holder": "Costruzioni Aeronautiche TECNAM SPA"
       },
       "categories": [
         "normal"

@@ -1,5 +1,6 @@
 {
   "manufacturer": "Epic Aircraft, LLC",
+  "manufacturer_group": "Epic Aircraft, LLC",
   "model_designation": "E1000",
   "common_name": null,
   "notes": null,
@@ -10,7 +11,8 @@
         "tcds_number": "A00059SE",
         "revision": "7",
         "revision_date": "2026-06-12",
-        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID184545329120260612140828.0001"
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID184545329120260612140828.0001",
+        "holder": "Epic Aircraft, LLC"
       },
       "categories": [
         "utility"
@@ -77,7 +79,8 @@
         "tcds_number": "EASA.IM.A.686",
         "revision": "1",
         "revision_date": "2026-07-16",
-        "source_url": "https://www.easa.europa.eu/en/downloads/143925/en"
+        "source_url": "https://www.easa.europa.eu/en/downloads/143925/en",
+        "holder": "Epic Aircraft, LLC"
       },
       "categories": [
         "utility"
