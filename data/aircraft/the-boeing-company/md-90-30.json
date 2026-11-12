@@ -1,0 +1,311 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "MD-90-30",
+  "common_name": null,
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "EASA",
+        "tcds_number": "EASA.IM.A.211",
+        "revision": "3",
+        "revision_date": "2025-07-04",
+        "source_url": "https://www.easa.europa.eu/en/downloads/7240/en"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "4 November 1994 (FAA Type Certificate and TC Data Sheet No. A6WE)",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Date",
+          "references": []
+        },
+        {
+          "display_order": 2,
+          "entry_type": "other",
+          "raw_reference": "22 October 1992",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 3,
+          "entry_type": "other",
+          "raw_reference": "20 September 1996 (Date of first TC issuance within EU MS by Spain DGCA)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "Refer to FAA Type Certificate Data Sheet No. A6WE",
+          "applicability": null,
+          "applicability_notes": "FAA Certification Basis",
+          "references": []
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Airworthiness Requirements: JAR 25, Change 13 with the following revisions: 25x519(b)(2) reverted to SC C-4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "25.562(a), (c)(5), (c)(6) at Change 12",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "25.809(b), (f)(1)(i), (f)(1)(v) (b) and (f)(1)(i) at FAR 25 Amendment 25-31, (f)(1)(v) at Change 4",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.699(a) at FAR 25 Amendment 25-22",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "25.701 at FAR 25 Amendment 25-22",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.777(c) at Change 6",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "25.607 at FAR 25 Amendment 25-22",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "25.979 at FAR 25 Amendment 25-10",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.1309 at FAR 25 Amendment 25-22 JAR AWO at Change 1",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Special Conditions: SC F-3 Effect of External Radiation upon Aircraft System",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 15,
+          "entry_type": "special_condition",
+          "raw_reference": "SC F-4 Lightning Protection, Indirect Effects",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 16,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-11 Landing Gear Warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 17,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-3 Powerplant Ice Protection",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "special_condition",
+          "raw_reference": "SC C-4 Static Ground Load Conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "special_condition",
+          "raw_reference": "EASA Special Conditions: SC H-01 ICA on EWIS",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Exemptions: None",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "JAA Equivalent Safety Findings: 25.807(a)(3) Aft Overwing Exit Step Down Distance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 22,
+          "entry_type": "regulation",
+          "raw_reference": "25.807(c)(1) Max. Passenger Capacity",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "regulation",
+          "raw_reference": "25.177(b)(3) & 25.251(d) Static Lateral Stability, Vibration and Buffeting",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "regulation",
+          "raw_reference": "25.969 Fuel Tank Expansion Space",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "25.865 Engine Mounts",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "elos",
+          "raw_reference": "EASA Equivalent Safety Findings: F-GEN9-1: Minimum Mass Flow of Supplemental Oxygen \"Component Qualification\"",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 27,
+          "entry_type": "regulation",
+          "raw_reference": "F-GEN9-3: Crew Determination of Quantity of Oxygen in Passenger Oxygen System JAA Elect to Comply Standards: OP 90/1, May 11, 1990 OP 91/1, April 12, 1991",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "SC E-2 Fuel Tank Access Covers",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "SC B-4 Accelerate-Stop Distances & Related Performance Matters",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-13 Braking Performance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 31,
+          "entry_type": "special_condition",
+          "raw_reference": "SC D-12 Flap Gates",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 32,
+          "entry_type": "regulation",
+          "raw_reference": "CRI D-10 Type III Passenger Emergency Exit Operating Handle OP AWO 91/1 NPA AWO-3, Issue 4 NPA AWO-4, Issue 2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 33,
+          "entry_type": "regulation",
+          "raw_reference": "Additional National Design Requirements (ANDR): Refer to CRI A-2",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 34,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume I (Noise) \u2013 Part II, Chapter 3 (see EASA TCDSN IM.A.211)",
+          "applicability": "Environmental Requirements for noise and vented fuel",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 35,
+          "entry_type": "other",
+          "raw_reference": "ICAO Annex 16 Volume II (Vented Fuel) \u2013 Part II, Chapter 2",
+          "applicability": "Environmental Requirements for noise and vented fuel",
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 36,
+          "entry_type": "other",
+          "raw_reference": "This aeroplane model is not subject to provisions 26.301 to 26.334 of Annex I (Part-26) [ ref. Part 26, Appendix 1]",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1359 @@
+{
+  "manufacturer": "The Boeing Company",
+  "model_designation": "757-300",
+  "common_name": null,
+  "notes": null,
+  "tcb": [
+    {
+      "tcds": {
+        "issuer": "FAA",
+        "tcds_number": "A2NM",
+        "revision": "32",
+        "revision_date": "2016-02-16",
+        "source_url": "https://drs.faa.gov/browse/excelExternalWindow/E114C6BAFEC130A086257F5B007AEB12.0001"
+      },
+      "categories": [
+        "transport"
+      ],
+      "notes": null,
+      "certification_basis": [
+        {
+          "display_order": 1,
+          "entry_type": "regulation",
+          "raw_reference": "Part 25 as amended by Amendments 25-1 through 25-85 for the complete airplane with the exceptions listed below;",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-85"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "provisions": [
+                "101",
+                "105",
+                "109",
+                "113",
+                "115",
+                "365",
+                "519",
+                "562",
+                "571",
+                "735",
+                "783",
+                "807",
+                "810",
+                "813",
+                "1316",
+                "1533"
+              ],
+              "effect": "exclude"
+            }
+          ]
+        },
+        {
+          "display_order": 2,
+          "entry_type": "regulation",
+          "raw_reference": "25.101 General 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "101"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 3,
+          "entry_type": "regulation",
+          "raw_reference": "25.105 Takeoff 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "105"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 4,
+          "entry_type": "regulation",
+          "raw_reference": "25.109 Accelerate-stop distance 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "109"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 5,
+          "entry_type": "regulation",
+          "raw_reference": "25.113 Takeoff distance and takeoff run 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "113"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 6,
+          "entry_type": "regulation",
+          "raw_reference": "25.115 Takeoff flight path 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "115"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 7,
+          "entry_type": "regulation",
+          "raw_reference": "25.365 Pressurized cabin load 54",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-54",
+              "provisions": [
+                "365"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 8,
+          "entry_type": "regulation",
+          "raw_reference": "25.519 Jacking and Tie-Down Provisions. not part of the TC basis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 9,
+          "entry_type": "regulation",
+          "raw_reference": "25.562 Emergency Landing Dynamic Conditions. 85*",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-85",
+              "provisions": [
+                "562"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 10,
+          "entry_type": "regulation",
+          "raw_reference": "25.571 Damage Tolerance and Fatigue Evaluation of Structure. 45",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-45",
+              "provisions": [
+                "571"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 11,
+          "entry_type": "regulation",
+          "raw_reference": "25.735 Brakes 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "735"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 12,
+          "entry_type": "regulation",
+          "raw_reference": "25.783 Doors. 23, 85**",
+          "applicability": null,
+          "applicability_notes": "One of two levels in this row (23, 85**); see footnote **.",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "783"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 13,
+          "entry_type": "regulation",
+          "raw_reference": "25.783 Doors. 23, 85**",
+          "applicability": null,
+          "applicability_notes": "One of two levels in this row (23, 85**); see footnote **.",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-85",
+              "provisions": [
+                "783"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 14,
+          "entry_type": "regulation",
+          "raw_reference": "25.807 Emergency exits 88",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-88",
+              "provisions": [
+                "807"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 15,
+          "entry_type": "regulation",
+          "raw_reference": "25.810 Emergency egress assist means and escape routes 88",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-88",
+              "provisions": [
+                "810"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 16,
+          "entry_type": "regulation",
+          "raw_reference": "25.813 Emergency exit access 75, 88***",
+          "applicability": null,
+          "applicability_notes": "Footnote ***: \u00a725.813 at Amendment 25-88 except \u00a725.813(c) at 25-75; the placarding requirements of \u00a725.813(c)(3) at 25-88. Also a 13 inch aisle with a 6\u00bd inch offset, or two 6 inch passageways (Issue Paper C-5).",
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-88",
+              "provisions": [
+                "813"
+              ]
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-75",
+              "provisions": [
+                "813"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 17,
+          "entry_type": "regulation",
+          "raw_reference": "25.853(d)(3) Improved Flammability Standards for Material Used in Compartment Interiors 72",
+          "applicability": null,
+          "applicability_notes": "The TCDS numbers the paragraph as from Amendment 25-83 on ((d)(3), galley structure); at 25-72 \u00a725.853 has no (d)(3), the galley requirement being in (c). No reference is given.",
+          "references": []
+        },
+        {
+          "display_order": 18,
+          "entry_type": "regulation",
+          "raw_reference": "25.858(a) Cargo Compartment Fire Detection System not part of the TC basis",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 19,
+          "entry_type": "regulation",
+          "raw_reference": "25.1316 System Lightning Protection 85**",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-85",
+              "provisions": [
+                "1316"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 20,
+          "entry_type": "regulation",
+          "raw_reference": "25.1419(c) Ice Protection Flight Deck Indication 23",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-23",
+              "provisions": [
+                "1419"
+              ],
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 21,
+          "entry_type": "regulation",
+          "raw_reference": "25.1533 Additional operating limitations 92",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "to": "25-92",
+              "provisions": [
+                "1533"
+              ]
+            }
+          ]
+        },
+        {
+          "display_order": 22,
+          "entry_type": "other",
+          "raw_reference": "* Flight attendant seats are qualified to Technical Standard Order C127. Passenger and flight deck seats comply with 25.562(a), (b), ((c (1), (2), (3), (4), (7), and (8)). Flight deck seats also comply with \u00a7 25.562(c)(5). Stretchers are not required to comply with \u00a725.562, for transporting non-ambulatory occupants.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 23,
+          "entry_type": "other",
+          "raw_reference": "** Applicable to new and significantly modified structure and systems and portions of the airplane affected by these changes. Where two amendment levels are shown for the same paragraph, the number without the asterisk (**) applies to structures, systems and portions of the airplane, which are not new or significantly modified. The structure, systems, and components, which comply with the later amendment, will be identified in a Boeing drawing approved by the FAA and JAA.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 24,
+          "entry_type": "other",
+          "raw_reference": "*** Boeing has complied with \u00a725.813 at Amendment 25-88 except for \u00a725.813(c), which used Amendment 25-75. In addition, Boeing is providing a 13 inch aisle with a 6\u00bd inch offset with 2 inches of cushion compression to clear the exit opening. Or, two 6 inch wide passageways that lead to an unobstructed space adjacent to each exit. Also, Boeing has complied with the placarding requirements of \u00a725.813(c)(3) at Amendment 25-88. (Reference Issue Paper C-5)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 25,
+          "entry_type": "regulation",
+          "raw_reference": "Part 34, through Amendment 34-1, effective July 31, 1995",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 26,
+          "entry_type": "regulation",
+          "raw_reference": "Part 36, with Amendments 36-1 through 36-21, effective December 28, 1995",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [
+            {
+              "issuer": "FAA",
+              "document": "36",
+              "to": "36-21"
+            }
+          ]
+        },
+        {
+          "display_order": 27,
+          "entry_type": "other",
+          "raw_reference": "Stage 3 or Stage 4 Noise Compliance: Stage 4 Amendment 28 noise compliance with the appropriate Service Bulletin, see the appropriate FAA-Approved Airplane Flight Manual listed in Note 2.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 28,
+          "entry_type": "special_condition",
+          "raw_reference": "High Intensity Radiated Fields (HIRF)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 29,
+          "entry_type": "special_condition",
+          "raw_reference": "Engine Torque Loads for Sudden Engine Stoppage",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": []
+        },
+        {
+          "display_order": 30,
+          "entry_type": "elos",
+          "raw_reference": "25.21(b) Proof of compliance",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "21",
+              "paragraph": "(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 31,
+          "entry_type": "elos",
+          "raw_reference": "25.103 Stalling speed.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "103"
+            }
+          ]
+        },
+        {
+          "display_order": 32,
+          "entry_type": "elos",
+          "raw_reference": "25.107(b)(1), (C)(3) & (g) Takeoff speeds",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "107",
+              "paragraph": "(b)(1)(C)(3)(g)"
+            }
+          ]
+        },
+        {
+          "display_order": 33,
+          "entry_type": "elos",
+          "raw_reference": "25.111(a) Takeoff path",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "111",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 34,
+          "entry_type": "elos",
+          "raw_reference": "25.119(b) Landing climb: All-[engines]-operating",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "119",
+              "paragraph": "(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 35,
+          "entry_type": "elos",
+          "raw_reference": "25.121(c), (d), & (d)(3) Climb: One-engine-inoperative",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "121",
+              "paragraph": "(c)(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 36,
+          "entry_type": "elos",
+          "raw_reference": "25.125(a)(2) Landing",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "125",
+              "paragraph": "(a)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 37,
+          "entry_type": "elos",
+          "raw_reference": "25.143(g) General",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "143",
+              "paragraph": "(g)"
+            }
+          ]
+        },
+        {
+          "display_order": 38,
+          "entry_type": "elos",
+          "raw_reference": "25.145(a), (a)(1), (b)(1) - (4), (b)(6), & (c) Longitudinal control",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "145",
+              "paragraph": "(a)(a)(1)(b)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 39,
+          "entry_type": "elos",
+          "raw_reference": "25.147(a), (a)(2), (c), (d) Directional and lateral control",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "147",
+              "paragraph": "(a)(a)(2)(c)(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 40,
+          "entry_type": "elos",
+          "raw_reference": "25.149(c) Minimum control speed",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "149",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 41,
+          "entry_type": "elos",
+          "raw_reference": "25.161(b), (c)(1), (c)(2), (c)(3), (d), & (e)(3) Trim",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "161",
+              "paragraph": "(b)(c)(1)(c)(2)(c)(3)(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 42,
+          "entry_type": "elos",
+          "raw_reference": "25.175 Demonstration of static longitudinal stability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "175"
+            }
+          ]
+        },
+        {
+          "display_order": 43,
+          "entry_type": "elos",
+          "raw_reference": "25.177(c) Static directional and lateral stability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "177",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 44,
+          "entry_type": "elos",
+          "raw_reference": "25.181(a), (b) Dynamic stability",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "181",
+              "paragraph": "(a)(b)"
+            }
+          ]
+        },
+        {
+          "display_order": 45,
+          "entry_type": "elos",
+          "raw_reference": "25.201(a)(2), & (b)(4) Stall demonstration",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "201",
+              "paragraph": "(a)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 46,
+          "entry_type": "elos",
+          "raw_reference": "25.207(b), (c), (d), (e), & (f) Stall warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "207",
+              "paragraph": "(b)(c)(d)(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 47,
+          "entry_type": "elos",
+          "raw_reference": "25.231(a)(2) Longitudinal stability and control",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "231",
+              "paragraph": "(a)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 48,
+          "entry_type": "elos",
+          "raw_reference": "25.233(a) Directional stability and control",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "233",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 49,
+          "entry_type": "elos",
+          "raw_reference": "25.237(a), (b)(1) and (b)(2) Wind velocities",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "237",
+              "paragraph": "(a)(b)(1)(b)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 50,
+          "entry_type": "elos",
+          "raw_reference": "25.561 General",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "561"
+            }
+          ]
+        },
+        {
+          "display_order": 51,
+          "entry_type": "elos",
+          "raw_reference": "25.562 Emergency landing dynamic conditions",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "562"
+            }
+          ]
+        },
+        {
+          "display_order": 52,
+          "entry_type": "elos",
+          "raw_reference": "25.571 Damage Tolerance & Fatigue evaluation of structure",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "571"
+            }
+          ]
+        },
+        {
+          "display_order": 53,
+          "entry_type": "elos",
+          "raw_reference": "25.613 Material Strength Properties and Design Values",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "613"
+            }
+          ]
+        },
+        {
+          "display_order": 54,
+          "entry_type": "elos",
+          "raw_reference": "25.735(f)(2), (g) Brakes",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "735",
+              "paragraph": "(f)(2)(g)"
+            }
+          ]
+        },
+        {
+          "display_order": 55,
+          "entry_type": "elos",
+          "raw_reference": "25.773(b)(1)(i) Pilot compartment view",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "773",
+              "paragraph": "(b)(1)(i)"
+            }
+          ]
+        },
+        {
+          "display_order": 56,
+          "entry_type": "elos",
+          "raw_reference": "25.791 & 25.853 No ashtrays/Passenger Information Signs",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "791"
+            },
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "853"
+            }
+          ]
+        },
+        {
+          "display_order": 57,
+          "entry_type": "elos",
+          "raw_reference": "25.810(a)(1)(ii) Escape Slides-Manual Inflation at Low Sill Heights",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "810",
+              "paragraph": "(a)(1)(ii)"
+            }
+          ]
+        },
+        {
+          "display_order": 58,
+          "entry_type": "elos",
+          "raw_reference": "25.811(f) Emergency exit marking (documented in ELOS Memo TD6444SE-T-C-1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "811",
+              "paragraph": "(f)"
+            }
+          ]
+        },
+        {
+          "display_order": 59,
+          "entry_type": "elos",
+          "raw_reference": "25.812(b)(1)(i) Emergency Lighting-Text Height to Stroke-Width Ratio",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "812",
+              "paragraph": "(b)(1)(i)"
+            }
+          ]
+        },
+        {
+          "display_order": 60,
+          "entry_type": "elos",
+          "raw_reference": "25.813(c)(1) Emergency Exits/Emergency Exit Access-Cushion compression",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "813",
+              "paragraph": "(c)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 61,
+          "entry_type": "elos",
+          "raw_reference": "25.853(a) Adhesives used in interior panel bent joint potting applications (documented in TAD ELOS Memo PS08- 0670-C-1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "853",
+              "paragraph": "(a)"
+            }
+          ]
+        },
+        {
+          "display_order": 62,
+          "entry_type": "elos",
+          "raw_reference": "25.901(d) Installation (Auxiliary Power Unit)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "901",
+              "paragraph": "(d)"
+            }
+          ]
+        },
+        {
+          "display_order": 63,
+          "entry_type": "elos",
+          "raw_reference": "25.933(a)(1)(ii) Reversing Systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "933",
+              "paragraph": "(a)(1)(ii)"
+            }
+          ]
+        },
+        {
+          "display_order": 64,
+          "entry_type": "elos",
+          "raw_reference": "25.981(a)(3) Amdt 102 Installation of Ground Fault Interrupter (GFI) Relays (documented in ELOS Memos PS05-0123-P-1 and PS-05- 0123-P-1, Revision 1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "981",
+              "paragraph": "(a)(3)"
+            }
+          ]
+        },
+        {
+          "display_order": 65,
+          "entry_type": "elos",
+          "raw_reference": "25.981(b)(2) Amdt 125 Fuel Tank Flammability Rule (FTFR) (documented in TAD ELOS Memo PS05-0177-P-2).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "981",
+              "paragraph": "(b)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 66,
+          "entry_type": "elos",
+          "raw_reference": "25.1001(c)(1) & (c)(3) Fuel jettisoning system",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1001",
+              "paragraph": "(c)(1)(c)(3)"
+            }
+          ]
+        },
+        {
+          "display_order": 67,
+          "entry_type": "elos",
+          "raw_reference": "25.1103(e) Induction system ducts and air duct systems - (APU)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1103",
+              "paragraph": "(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 68,
+          "entry_type": "elos",
+          "raw_reference": "25.1303(c)(1) Airplane Overspeed Warning-unique aural warning",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1303",
+              "paragraph": "(c)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 69,
+          "entry_type": "elos",
+          "raw_reference": "25.1305 Powerplant instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1305"
+            }
+          ]
+        },
+        {
+          "display_order": 70,
+          "entry_type": "elos",
+          "raw_reference": "25.1323(c)(1), & (c)(2) Airspeed indicating system",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1323",
+              "paragraph": "(c)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 71,
+          "entry_type": "elos",
+          "raw_reference": "25.1325(e) Static pressure systems",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1325",
+              "paragraph": "(e)"
+            }
+          ]
+        },
+        {
+          "display_order": 72,
+          "entry_type": "elos",
+          "raw_reference": "25.1337 Powerplant instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1337"
+            }
+          ]
+        },
+        {
+          "display_order": 73,
+          "entry_type": "elos",
+          "raw_reference": "25.1389(b)(3) Position light distribution and intensities",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1389",
+              "paragraph": "(b)(3)"
+            }
+          ]
+        },
+        {
+          "display_order": 74,
+          "entry_type": "elos",
+          "raw_reference": "25.1441(c) Crew Determination of the Quantity of Oxygen Available in the Lavatory Passenger Service Units Bottles (documented in ELOS Memo PS13-0901-ES-1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1441",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 75,
+          "entry_type": "elos",
+          "raw_reference": "25.1443(c) Minimum mass flow of supplemental oxygen (documented in TAD ELOS Memo TS13-0005-S-1)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1443",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 76,
+          "entry_type": "elos",
+          "raw_reference": "25.1522 Auxiliary power unit limitations",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1522"
+            }
+          ]
+        },
+        {
+          "display_order": 77,
+          "entry_type": "elos",
+          "raw_reference": "25.1549 Powerplant and auxiliary power unit instruments",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1549"
+            }
+          ]
+        },
+        {
+          "display_order": 78,
+          "entry_type": "elos",
+          "raw_reference": "25.1555(d)(1) Control markings (documented in TAD ELOS Memorandum PS06-0496-F-18)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1555",
+              "paragraph": "(d)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 79,
+          "entry_type": "elos",
+          "raw_reference": "25.1587(b)(2) Performance information",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1587",
+              "paragraph": "(b)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 80,
+          "entry_type": "exemption",
+          "raw_reference": "Floor Warpage for Flight Deck Seats Exemption from FAR 25.562(b)(2), (Exemption No. 6600, issued April 8, 1997).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "562",
+              "paragraph": "(b)(2)"
+            }
+          ]
+        },
+        {
+          "display_order": 81,
+          "entry_type": "exemption",
+          "raw_reference": "Partial exemption from FAR 25.1435(b)(1), Hydraulic Proof Pressure Test (Exemption No. 6577, issued February 25, 1997).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1435",
+              "paragraph": "(b)(1)"
+            }
+          ]
+        },
+        {
+          "display_order": 82,
+          "entry_type": "exemption",
+          "raw_reference": "Ditching Equipment FAR 25.1415(c) Exemption No. 5613A, issued August 5, 1998).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "1415",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 83,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from 14 CFR Paragraph 25.961(a)(5) to allow a temperature limitation of 85\u00b0F for JP-4 and Jet B Type fuels (with RB211-535E4 series engines: Exemption No. 6867, issued February 24, 1999; with PW2037, PW2040, and PW2043 engines: Exemption No. 7790, issued June 3, 2002).",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "961",
+              "paragraph": "(a)(5)"
+            }
+          ]
+        },
+        {
+          "display_order": 84,
+          "entry_type": "exemption",
+          "raw_reference": "Exemption from 14 CFR Paragraph 25.901(c) as it relates to single failures resulting in uncontrollable high thrust conditions with Pratt & Whitney PW2037, PW2040 and PW2043 engines. (Exemption No. 7798, issued June 4, 2002). See Note 14.",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "901",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 85,
+          "entry_type": "exemption",
+          "raw_reference": "Partial Exemption No. 9405 granted on July 18, 2007 \u2013 Partial Exemption from 25.901(c), Thrust Control Malfunction Accommodation and Single Failures of Thrust Levers. In the interest of standardization, as of the date of issuance this Partial grant of Exemption should be used in lieu of Exemption No. 7798. See note 14",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "901",
+              "paragraph": "(c)"
+            }
+          ]
+        },
+        {
+          "display_order": 86,
+          "entry_type": "exemption",
+          "raw_reference": "Partial Time-Limited Exemption from 14 CFR \u00a725.853(a), appendix F, paragraph (a)(1)(i), Testing on Large Interior Panels, granted through November 28, 2011. (Exemption No. 9791, November 28, 2008, Exemption No. 9791B, March 1, 2010, Exemption No. 9791C, February 4, 2011)",
+          "applicability": null,
+          "applicability_notes": null,
+          "references": [],
+          "citations": [
+            {
+              "issuer": "FAA",
+              "document": "25",
+              "number": "853",
+              "paragraph": "(a)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
