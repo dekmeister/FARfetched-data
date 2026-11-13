@@ -187,8 +187,9 @@ columns (see ETCDS-9). Sampled FAA references matched their PDF lines.
 
 Since 2026-11-12 the headline guard (`tools/s00_common/tcds_guard.py`) refuses
 a model with whole-document references to one airworthiness document at two
-levels, so these models are no longer staged (published `data/` still holds them
-until the next promotion). The guard refuses the same shape on 6 more models,
+levels, so these models are no longer staged. Both A330 files were removed from
+`data/` on 2026-11-13 (they blocked the v13 build); the A330 returns when this
+is fixed and restaged. The guard refuses the same shape on 6 more models,
 judged from `raw_reference` only, not read against the PDFs:
 
 - EASA.IM.A.033 680A: "a) CS-25 Amendment 2", "b) CS-25 Amendment 4", … each
