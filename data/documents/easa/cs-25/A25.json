@@ -26,6 +26,53 @@
       "provenance": {
         "source": "scraped"
       }
+    },
+    {
+      "designator": "CS25-4",
+      "grouping_at_time": "Appendices",
+      "title_at_revision": "Appendix A",
+      "text": "TEXT MISSING",
+      "publication_cite": "ED Decision 2007/020/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/1569/en",
+      "actions": [
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2007/020/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2007020r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
+    },
+    {
+      "designator": "CS25-28",
+      "grouping_at_time": "Appendices",
+      "title_at_revision": "Appendix A",
+      "text": "TEXT MISSING",
+      "publication_cite": "ED Decision 2023/021/R",
+      "source_url": "https://www.easa.europa.eu/en/downloads/139073/en",
+      "actions": [
+        {
+          "type": "other",
+          "reference": null,
+          "issued_on": null,
+          "source_url": null,
+          "notes": "Editorial correction"
+        },
+        {
+          "type": "easa_decision",
+          "reference": "ED Decision 2023/021/R",
+          "issued_on": null,
+          "source_url": "https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2023021r",
+          "notes": null
+        }
+      ],
+      "provenance": {
+        "source": "scraped"
+      }
     }
   ]
 }

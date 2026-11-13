@@ -55,6 +55,17 @@ Figures only, in every issue; its versions are `TEXT MISSING`.
 
 **To close:** none from the PDFs; a transcription source would be needed.
 
+### EASA-25. Appendix A to CS-25 has no text layer
+
+Figure 1 (basic landing gear dimension data) and the landing-attitude figures
+are images in every issue (CS25-28 pp. 1265–1269), so its versions are `TEXT
+MISSING`: CS25-0, plus CS25-4 and CS25-28, where the manifest says it was
+amended (Amdt 4 change information; Amdt 28 "Editorial correction"). Reported
+as GitHub #28. The FAA counterpart is FAA-28.
+
+**To close:** none from the PDFs. A description of the figures would not be
+the regulation's words; leave it unless EASA publishes a text version.
+
 ### EASA-21. CS-29 Appendix B at Amdt 11 has no `IV.` heading
 
 The CS29-11 PDF prints `III. Trim` and then `(a) General. The helicopter must
