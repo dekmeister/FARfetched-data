@@ -80,18 +80,6 @@ compliance", "trimmed at ;"; 27-19 probably the same), `faa/25/795.json` 25-145
 - Suggested area: already ISSUES TEXT-11 (display formulas), FAA-30 (image-only symbols)
 - Promotion: n/a
 
-### F-20261112-03 · blocker · boundary · CAR section boundaries and missing text
-
-`cab/car-3-reissue/85.json` CAR3R-0: §3.85 swallowed all of §3.85a (so
-`85a.json` is TEXT MISSING). `cab/car-3-reissue/120.json` CAR3R-5 holds only an
-OCR'd amendatory-instruction fragment (new (g) and the next amendment's
-instructions), not the section; its OCR is damaged ("a (g) * . 8 )",
-"mini. mum"). `caa/car-3/655.json` CAR3-2 has a stray fragment from another
-provision at the end ("acteristics of the inst dicate readily…").
-- Source: `cab/car-3-reissue/85` §3.85a "Climb requirements; airplanes of 6,000 lbs or less"
-- Suggested area: already ISSUES CAR-7 (section boundaries), CAR-3 (junk at end)
-- Promotion: n/a
-
 ### F-20261112-04 · blocker · ocr · unrepaired OCR in CAR 3 reissue
 
 `cab/car-3-reissue/109.json` CAR3R-0: speed symbols `V:z`, `Vz`, `Vs,`, `Vy`

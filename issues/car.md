@@ -84,6 +84,11 @@ with a parser fix or `replace_text` rows.
 (`CAR3R-7.raw.txt`:863-864), so §3.681 at CAR3R-7 needs its amended text, and
 `input/regs.csv` titles it wrongly. The emitter warns about it on every run.
 
+3 were parser misses, recovered 2026-11-13 (F-20261112-03): CAB 3.84a@CAR3R-0,
+3.85a@CAR3R-0 and 3.85a@CAR3R-7. The splitter took no letter-suffixed heading
+(`§3.85a`), so 3.84 and 3.85 swallowed them. 3.86a@CAR3R-0 is a manifest
+error (CAR-13).
+
 ### CAR-7. Section boundaries are wrong in sampled CAR texts
 
 Found by the 2026-11-08 accuracy pilot (PROC-17), which read 20 CAR versions
@@ -158,3 +163,45 @@ wrong revision.
 column, or a CAR revisions table with evidence), check the reissue dates
 against the FR text in `input/Regs/CAR/FR/`, re-emit, and check that TCDS
 resolution doesn't change unexpectedly.
+
+### CAR-12. CAB amendment versions hold amendment instructions, not sections
+
+The CAB reissue amendments (CAR3R-1 to CAR3R-8) are Federal Register
+narratives. They print only the changed paragraphs, between `* * *`
+elisions and "By amending § 3.NN …" instructions. The extractor slices the
+narrative at section headings, so a CAR3R-N version is that slice, not the
+section as amended. 40 of 91 non-deleted CAB amendment versions contain
+`* * *`, "By amending" or "to read as follows" (2026-11-13). Examples:
+120@CAR3R-5 is only the new (g), OCR-damaged ("* * * s a (g) * . 8 )"), and
+it runs on into "8. By amending § 3.384"; 85a@CAR3R-7 and 1@CAR3R-7 each end
+in the next item's instructions. CAR-3 (narrative instructions read as text)
+and CAR-7 (CAR3R-2 §3.75 and §3.383) are instances. Found by the 2026-11-12
+audit (F-20261112-03).
+
+**To close:** decide what a CAB amendment version should hold. Either
+compile the amended section (the previous version with the instructions
+applied, checked against the narrative), or mark the version as a partial
+amendment, which needs a format change (docs/DATA_FORMAT.md). At the least,
+cut each slice at the next numbered instruction.
+
+### CAR-13. `input/regs.csv` misses or misnumbers CAR sections
+
+The CAR manifest is hand-compiled, and the extractor keeps only sections it
+lists (baselines) or writes nothing for the rest (amendments). Found
+2026-11-13 while fixing F-20261112-03:
+
+- **CAB 3.86a is §3.87.** The reissue has no §3.86a. It prints "§ 3.87
+  Landing requirements; airplanes of 6,000 lbs. or less" (`CAR3R-0.raw.txt`
+  contents line 86, heading line 1722; line 1499 cites "§§ 3.84a, 3.85a, 3.87").
+  So `86a.json` is `TEXT MISSING` and 3.86@CAR3R-0 carries all of §3.87's text.
+- **CAA amendment 3-4 is missing.** regs.csv has no 3-4 rows and
+  `caa/car-3/_document.json` has no CAR3-4 revision, though
+  `input/Regs/CAR/3/CAR3-4_Part{1,2}_full.pdf` exist. CAR3-4 is the first CAA
+  compilation to print §§3.84a, 3.85a and 3.87, so 3-4 probably added them and
+  amended 3.84 to 3.86. CAA has no 3.84a, 3.85a or 3.87 at all, though
+  compilations 3-4 to 3-14 print them.
+
+**To close:** a reviewed manifest correction, kept in git with evidence (an
+override table, since regs.csv is a gitignored local file). Then re-extract,
+re-emit, and check TCDS resolution for CAR 3 dates between 3-3 and 3-5.
+
