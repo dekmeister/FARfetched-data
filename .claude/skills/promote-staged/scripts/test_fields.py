@@ -247,3 +247,14 @@ def test_listed_easa_title_is_a_whole_line() -> None:
     assert listing.listed_easa("published_on", "2019-08-19", page)[0] == "ok"
     assert listing.easa_stage("proposed", "with final publication")[0] == "flag"
     assert listing.easa_stage("proposed", "Proposed X")[0] == "ok"
+
+
+def test_listed_easa_null_number_needs_an_empty_reference() -> None:
+    page = "Reference\nM-TS-0000358\nPast reference\nN/a\n"
+    assert listing.listed_easa("number", None, page)[0] == "flag"
+    assert listing.listed_easa("number", "M-TS-0000358", page)[0] == "ok"
+    placeholder = "Reference\nSC D-xx\nPast reference\nSC D-xx\n"
+    assert listing.listed_easa("number", None, placeholder)[0] == "ok"
+    assert listing.listed_easa("number", None, "Reference\nPast reference\n")[0] == "ok"
+    both = "Reference\nMOC-EHPS.240, MOC-EHPS.250\nPast reference\n"
+    assert listing.listed_easa("number", "MOC-EHPS.240", both)[0] == "flag"

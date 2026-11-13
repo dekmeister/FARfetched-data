@@ -20,7 +20,10 @@ Verifier kinds (registered in fields.py):
            a date equal to the date there. A field the record leaves out
            (None) passes only when the listing prints nothing under those
            labels: that catches dropped values. EASA: the title is a whole
-           line of the page, the number a phrase on it, the date in it.
+           line of the page, the number a phrase on it, the date in it. A
+           null number passes only when the page's Reference line is empty
+           or a placeholder with no digit (`SC D-xx`); a number that is only
+           part of the Reference (one of a list) is cut short.
   derived  (deviation.* only, via `derived`) kind and stage from the listing
            type (EASA stage only when the page says "with final
            publication": its file labels can't decide it, so it is sampled); final points at a final record of the same kind and, for
@@ -72,7 +75,7 @@ CHECK_ABSENT = {
         "disposition",
         "published_on",
     ),
-    "EASA": ("title", "published_on"),
+    "EASA": ("number", "title", "published_on"),
 }
 FAA_KIND = {
     "ELOS": ("elos", "final"),
@@ -183,9 +186,23 @@ def listed_faa(name: str, value: Any, entry: Entry) -> tuple[str, str, str]:
     return "flag", f"listing has {lb}: {_norm(v)[:80]!r}", lb
 
 
+def easa_reference(text: str) -> str:
+    """The value under the detail page's "Reference" heading, or ""."""
+    lines = text.split("\n")
+    n = next((i for i, ln in enumerate(lines) if ln == "Reference"), None)
+    if n is None or n + 1 >= len(lines) or lines[n + 1] == "Past reference":
+        return ""
+    return "" if lines[n + 1] in ("N/a", "N/A") else _norm(lines[n + 1])
+
+
 def listed_easa(name: str, value: Any, text: str) -> tuple[str, str]:
     if value is None:
-        return ("flag", "record has none") if name == "title" else ("ok", "")
+        if name == "title":
+            return "flag", "record has none"
+        ref = easa_reference(text) if name == "number" else ""
+        if any(c.isdigit() for c in ref):
+            return "flag", f"record has none; page has Reference: {ref[:80]!r}"
+        return "ok", ""
     v = _norm(str(value))
     lines = [_norm(ln) for ln in text.split("\n")]
     if name == "title":
@@ -202,6 +219,9 @@ def listed_easa(name: str, value: Any, text: str) -> tuple[str, str]:
         }
         hit = any(f in ln for f in forms for ln in lines)
         return ("ok", "") if hit else ("flag", "date not on the page")
+    ref = easa_reference(text) if name == "number" else ""
+    if ref and v != ref and v in ref:
+        return "flag", f"cut short: page has Reference: {ref[:80]!r}"
     flat = " ".join(lines).casefold()
     return ("ok", "") if v.casefold() in flat else ("flag", "not found on the page")
 

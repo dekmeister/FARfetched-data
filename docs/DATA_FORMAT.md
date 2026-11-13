@@ -641,7 +641,7 @@ and proposed) and certification-relevant exemptions from DRS.
 | `issuer` | no | Must match the directory. |
 | `key` | no | Identity within the issuer; the file name. EASA: the publication page's node id. FAA: the DRS document id (`40667CC5D05D267C8625761E005A49E6.0001`), because DRS numbers repeat. Never shown as a citation. |
 | `kind` | no | `special_condition`, `elos` (EASA's Equivalent Safety Finding), `exemption`, `deviation`, `means_of_compliance` (EASA's interpretative material or MoC to an SC or ESF). |
-| `number` | yes | The identifier as printed (`SC-E25.904-01`, older `ESF F-69`), or null when the listing prints none. Not unique: a project label like `SC D-01` recurs. |
+| `number` | yes | The identifier as printed (`SC-E25.904-01`, older `ESF F-69`), or null when the listing prints none. EASA: from the title, the listing's Reference line or a file label; a list in the Reference stays whole, and a newer page may have only a document number (`M-TS-0000358`). Not unique: a project label like `SC D-01` recurs. |
 | `title` | yes | As listed, verbatim. Null when the listing prints none: DRS lists no subject for exemptions. |
 | `stage` | no | `final` when a final version is published, else `proposed`. EASA publishes the proposal, comment response and final on one page, so one record covers all three; a comment-response document counts as final (it adopts the text), and `proposed` can also mean the page doesn't say (tools/s00_docs/EASA_DEVIATIONS.md). |
 | `published_on` | yes | Date the listing gives. Not in the future. |
