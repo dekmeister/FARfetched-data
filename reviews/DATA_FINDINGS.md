@@ -370,12 +370,6 @@ Fraction images in the DRS HTML were lost: "no more than inch thickness", "nomin
 - Suggested area: issues/text-layout.md (TEXT-)
 - Promotion: promoted (pre-existing)
 
-### F-20261113-07 · blocker · tcds-references · pre-existing
-
-En-dash amendment ranges parse wrongly: "Amendment 23 - 34" → `to: 23-23` (pzl-m28-00, -02), "Amendments 1 – 32" → `to: 23-1` (g-115a, g-115eg).
-- Suggested area: issues/faa-tcds.md / easa-tcds.md
-- Promotion: promoted (pre-existing)
-
 ### F-20261113-08 · blocker · tcds-lines · pre-existing
 
 Junk basis lines from page footers / headings: "A-1C-180", "3 Special Conditions: None", eligible S/N "3000+" as entries (a-1c-180, a-1b, a-1, as202-18a2/a3/a4). pzl-m28-05 line 1 is a runaway swallowing S/N lead-ins; 525 "Additions" table flattened with titles on wrong reg numbers (~17 reg numbers lost).
