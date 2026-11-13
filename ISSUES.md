@@ -38,7 +38,7 @@ Cross-cutting groups:
 - **Part 36 references on aircraft:** TCDS-12 (FAA), ETCDS-15 (EASA).
 - **Certification-basis coverage:** BUILD-12, TCDS-13, FAA-29.
 - **Reported by site readers:** FAA-32 (GitHub #19), TEXT-14 (GitHub #3),
-  CAR-3 (GitHub #20), CAR-9 (GitHub #21), CAR-5 (GitHub #23), FAA-30
+  CAR-3 (GitHub #20), CAR-5 (GitHub #23), FAA-30
   (GitHub #24).
 - **Found by the damage scan** (`scripts/scan_data.py`): CAR-8, CAR-9, FAA-30,
   PROC-18.

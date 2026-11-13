@@ -39,6 +39,9 @@ Left behind after the next group's centre heading was stripped:
   no amendment brackets). It is a pattern: OCR reads a final `l` as `]`
   ("shal]", "contro]", "critica]") in 37 CAB and 6 CAA versions
   (`scripts/scan_data.py --check unbalanced-brackets --all`, 2026-11-12).
+- A mixed-case OCR centre heading the heading strip misses: CAB 364@CAR3R-0
+  "HULLS AND FLoats", 234@CAR3R-0 "GROUND Loaps" (`_is_heading_line` wants
+  the last word in capitals).
 - Figure lettering spliced into a sentence (fixed for CAB 159 and 173 at
   CAR3R-0, GitHub #4, #20). The `caps-run`, `gibberish` and `figure-caption`
   scan checks list the rest.
@@ -91,6 +94,14 @@ with a parser fix or `replace_text` rows.
 (`§3.85a`), so 3.84 and 3.85 swallowed them. 3.86a@CAR3R-0 is a manifest
 error (CAR-13).
 
+6 were bracketed sections the splitter missed (CAR-9), recovered 2026-11-14:
+CAA 11@CAR3-12, 12@CAR3-3, 330@CAR3-14, 364@CAR3-7, 668@CAR3-7, 771@CAR3-13.
+Two contents-list texts became `TEXT MISSING` the same day: CAA 3.791@CAR3-0
+(the CAR3-1 reprint the baseline is read from prints 3-1's new "Identification
+plate", `CAR3-1.raw.txt`:22; the 1949 "Name plate" text is only in the
+CAR3-0 scans) and CAB 3.241@CAR3R-0 (its text was the "§§ 3.241 through
+3.257" cross-reference in §3.364).
+
 ### CAR-7. Section boundaries are wrong in sampled CAR texts
 
 Found by the 2026-11-08 accuracy pilot (PROC-17), which read 20 CAR versions
@@ -127,16 +138,21 @@ rewrite the scan baseline.
 
 ### CAR-9. Tables of contents read into section texts
 
-Reported from the site for CAA §3.652 (GitHub #21, "picking up the index").
-The `toc-run` scan check finds a run of five or more rising section numbers
-with titles in 18 CAA and 5 CAB versions (2026-11-12). The worst carry whole
-subpart contents: CAA 270@CAR3-0 (262 entries, 3.271 to 3.780), 17@CAR3-3,
-19@CAR3-12, 669@CAR3-7, 702@CAR3-14; CAB 301@CAR3R-0 (91 entries), 583@CAR3R-0.
-The section splitter takes the contents listing that opens each subpart in the
-scans as the end of the preceding section.
+The `toc-run` scan check found a run of five or more rising section numbers
+with titles in 18 CAA and 5 CAB versions (2026-11-12). Most were sections the
+CAA reprints bracket as amended (`[§ 3.652 …]`, GitHub #21): the splitter took
+no bracketed heading, so the contents entry was the section's anchor. Fixed
+2026-11-14 in the CAR extractor; re-emit and promote to clear them from `data/`.
 
-**To close:** make the splitter drop subpart contents listings, re-emit, check
-the affected sections against the scans, and answer GitHub #21.
+Left: CAA 186@CAR3-0 and 270@CAR3-0 (262 entries, 3.271 to 3.780; the CAR3-1
+reprint OCR has no `§ 3.270` heading, so 270's anchor is its contents entry),
+and CAB 246, 301 (91 entries), 564, 583 and 727 at CAR3R-0. The splitter takes
+the contents listing that opens each subpart as the end of the preceding
+section, or anchors a section on its contents entry when the body heading is
+OCR-damaged.
+
+**To close:** make the splitter drop subpart contents listings, re-emit, and
+check the affected sections against the scans.
 
 ### CAR-10. NPRM cites are not recorded as actions
 
