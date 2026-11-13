@@ -248,13 +248,6 @@ For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
 - **Orphans left for the user:** airbus-defence-and-space-s-a/c-212-ee.json, gulfstream-aerospace-corporation/gvii-g500.json, gvii-g600.json, gulfstream-aerospace-lp-galp/gulfstream-g280.json, textron-aviation-inc/680a.json
 - **Tooling note:** `.claude/skills/promote-staged/scripts/batches.py` crashes on a `new-file` aircraft delta row (its `tcb` is a list: unhashable in `aircraft_items`). Worked around with a scratch copy.
 
-### F-20261113-01 · minor · tcds-lines · aircraft/ga8-airvan-pty-ltd/ga8-tc-320.json EASA.IM.A.042
-
-Staged `applicability_notes` on the "as under B.II.5" line adds interpretive text ("CS-23 Amendment 1; nothing further") that isn't in the PDF. `raw_reference` is verbatim. Staged is better than data/ (CS23 Amdt 1 now linked).
-- Source: input/TCDS/EASA/EASA.IM.A.042_Issue9.pdf
-- Suggested area: issues/easa-tcds.md
-- Promotion: promoted
-
 ### F-20261113-03 · minor · tcds-references · ga8.json EASA.IM.A.042, ga10.json FAA A00071CE
 
 Lines with no refs, same as in data/: "As defined in CRI A-01…" (GA8), and 14 CFR Part 34 (GA10; Part 34 isn't a document), 21.29/21.183(c), and the ELOS line. All are expected, with `raw_reference` verbatim.
