@@ -124,3 +124,37 @@ scans as the end of the preceding section.
 
 **To close:** make the splitter drop subpart contents listings, re-emit, check
 the affected sections against the scans, and answer GitHub #21.
+
+### CAR-10. NPRM cites are not recorded as actions
+
+Several narrative amendments name the proposal they followed ("participate in
+the making of this amendment (21 F.R. 3388)"): CAR3-13 (20 F.R. 369), CAR3-14
+(20 F.R. 8350), CAR3R-1 (21 F.R. 3388), CAR3R-3 (22 F.R. 9116), CAR3R-5
+(24 F.R. 128), CAR3R-7 (26 F.R. 5130). CAR versions carry no `actions`, so
+these are dropped. Found 2026-11-13 while fixing the CAR publication cites
+(the FR page of each final rule is now in `tools/overrides/car_cites.tsv`).
+
+**To close:** emit them as `actions` of type `nprm` (reference the FR cite)
+on every version of the revision, with the narrative line as evidence; check
+the other narratives for the same sentence.
+
+### CAR-11. CAA revision dates are adoption dates, not effective dates
+
+`caa/car-3/_document.json` `effective_date` comes from the `Effectivity Date`
+column of `input/regs.csv`. For 8 of 13 amendments that column is the
+adoption date printed on the narrative PDF
+(`input/Regs/CAR/3/CAR3-N.raw.txt`, "Adopted:" / "Effective:" header):
+CAR3-1 (data 1949-11-02, effective 1949-12-07), CAR3-3, -8, -10, -11, -12,
+-13, -14 (CAR3-14: data 1956-02-07, effective 1956-03-13). CAR3-5, -6, -7, -9
+are one day early (CAR3-7: data 1952-03-04, "Effective: March 5, 1952"), and
+CAR3-2 is a month early (1950-01-06 vs 1950-02-06). The CAB reissue mostly
+matches (CAR3R-1, -3, -6 effective; CAR3R-4 is the adoption date; the rest have
+no header to compare). Found 2026-11-13 while looking up FR cites
+(F-20261112-05). The dates order revisions and decide which one a TCDS date
+resolves to, so a basis dated between adoption and effectiveness picks the
+wrong revision.
+
+**To close:** take each revision's date from the narrative header (an override
+column, or a CAR revisions table with evidence), check the reissue dates
+against the FR text in `input/Regs/CAR/FR/`, re-emit, and check that TCDS
+resolution doesn't change unexpectedly.

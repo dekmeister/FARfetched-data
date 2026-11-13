@@ -115,17 +115,6 @@ whole section one line. `cab/car-3-reissue/85.json` CAR3R-0: `poutids`, `V;`,
 - Suggested area: already ISSUES CAR-1, CAR-5
 - Promotion: n/a
 
-### F-20261112-05 · major · metadata · CAR `publication_cite` holds authority and signature text
-
-`caa/car-3/242.json` CAR3-9, `caa/car-3/74.json` CAR3-13 (medium confidence,
-source not opened), `caa/car-3/655.json` CAR3-2, `cab/car-3-reissue/120.json`
-CAR3R-5 (statutory authority line `(Secs. 313(a), 601 … 49 U.S.C.`). Example
-data: `… By the Civil Aeronautics Board: /s/ M. C. Mulligan … Secretary (SEAL)
-Part 3 last printed November 1, 1949`. Affects the "cite-suspect" count of
-184; most of those are probably the same defect.
-- Suggested area: issues/car.md (CAR-)
-- Promotion: n/a
-
 ### F-20261112-06 · major · structure · texts that are one flat line
 
 `easa/cs-25/335.json` CS25-27 (7068 chars, no newlines), `easa/cs-23/729.json`
@@ -216,6 +205,9 @@ For `scripts/scan_data.py` (provision text and metadata):
 4. **Authority text in `publication_cite`:** the field contains `By the Civil
    Aeronautics Board`, `Secretary`, `(SEAL)`, `/s/`, `last printed`, starts
    with `(Secs.`, or contains `U.S.C.`. Catches CAR3-9, CAR3-13, CAR3-2, CAR3R-5.
+   Not needed: checks.py `cite-suspect` already flags these (it found all 184).
+   F-20261112-05 is fixed: CAR cites now come from FR issues
+   (`tools/overrides/car_cites.tsv`).
 5. **Text fragment from another amendment:** text opening with `* * *` or
    containing `By amending §` (CAR3R-5); a CAR3-0 version whose cross-references
    or heading use `3.xx` numbering instead of `03.xxx` (CAR3-0 44, 576).
