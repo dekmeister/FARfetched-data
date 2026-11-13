@@ -1,17 +1,23 @@
 # Roadmap (ROADMAP-)
 
 Planned data-repo work, not defects. The app's roadmap is in the FARFETCHed
-repo's `plan.md`. [Index](../ISSUES.md)
+repo's `ROADMAP.md`. [Index](../ISSUES.md)
 
 ### ROADMAP-2. Deviation records: FAA, TCDS links, text
 
 Schema v14 holds special conditions, ELOS/ESF, exemptions and deviations as
 link-only records (`data/deviations/`, docs/DATA_FORMAT.md §Deviation file).
-Emitted 2026-11-13, not promoted: EASA's consulted publications (429) and,
-with v15, FAA DRS records (6,370: ELOS, SC final + proposed, certification-
-relevant exemptions; 279 proposals linked to their final). Design and
-decisions: [reviews/2026-11-13-deviations-as-documents-proposal.md](../reviews/2026-11-13-deviations-as-documents-proposal.md).
-Outstanding:
+Emitted 2026-11-13: EASA's consulted publications (429, **held back from
+promotion**, stage unreliable: see the EASA bullets below) and, with v15, FAA
+DRS records (6,370: ELOS, SC final + proposed, certification-relevant
+exemptions; 279 proposals linked to their final), which were promoted but not
+yet committed. Decisions taken: a separate entity, not provisions (records are
+one-off, and most are letters or scans that can't meet the text-always rule);
+all FAA ELOS/SC plus exemptions that cite a certification part; EASA's
+published proposals and finals only (no CRI records: no public copy and
+per-project numbering); link to the regulator only (`source_url`), never serve
+our downloaded copies (EASA replaces files in place, rights unclear: docs/RIGHTS.md);
+CMs and ETSO deviations left out. Schema: SCHEMA_HISTORY v14, v15. Outstanding:
 
 - **FAA leftovers.** 381 records have regulation items that aren't one section
   (`121`, `Part 23 Subpart F`, `Sec. F25.1` appendix sections, the DRS typo
@@ -55,7 +61,10 @@ Needs a schema decision.
 
 - Hand-confirmed `provision_relations` and explicit cross-citations (e.g.
   MIL-HDBK-516 citing 14 CFR sections). The computed half is
-  `provision_similarity` (v5).
+  `provision_similarity` (v5). A ready-to-run task for the first sources
+  (Part 23 Amdt 23-64 and CS-23 Amdt 5 old-to-new tables, FAA/EASA SSD lists,
+  the 1965 CAR 3 to Part 23 recodification) is
+  [reviews/PROMPT_confirmed_relations.md](../reviews/PROMPT_confirmed_relations.md).
 - Reviewed "related references" on TCDS entries. Schema v11 holds what ELOS,
   special condition and exemption lines cite, as computed citations. A reviewed
   statement that a deviation applies to a section remains open.
@@ -128,3 +137,23 @@ the rest haven't been surveyed and `Policy Type` has other values.
 
 **To close:** survey `Policy Type` and the cited rules, then decide whether any
 of these documents bear on a certification basis.
+
+### ROADMAP-12. App release for contract v13–v15 and the grouping style
+
+The data repo is ahead of the live app. Until the FARFETCHed app is released it
+must stay on a v12 database.
+
+- `SUPPORTED_SCHEMA` → 15 (v13 manufacturer groups, v14/v15 deviations). The
+  app's nav menu, `?manufacturer=` filter, model page and export need the group
+  name and per-TCB `holder`; a legal name that is no longer a group 404s today.
+  `MANUFACTURER_ALIASES = {"cessna": "textron"}` in `services/search.py` is
+  curation that belongs in TCDS-20.
+- Grouping style (`Subpart B — Flight`, promoted 2026-11-12): old
+  `?open=<name>#g-<slug>` links stop matching (accepted). Answer GitHub #19 once
+  released (FAA-32 holds the data side).
+- Deviation records: pages for `deviations` and "deviations against this section".
+- When AIRBUS S.A.S. (EASA.A.004, A330) is staged it joins the Airbus lookalike
+  group and needs a `manufacturer_groups.tsv` row; assemble stops until it has
+  one (ETCDS-16).
+
+**To close:** release the app against the DB, then reply to the reader.

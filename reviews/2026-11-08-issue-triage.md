@@ -5,6 +5,47 @@ order of work. Counts come from the 2026-11-07 `cert_basis.sqlite` and the
 `data/` tree, which are unchanged since that build. `(new)` marks an item added
 by this triage.
 
+## Status (checked 2026-11-14)
+
+Checked against `issues/` (an item with no heading there is closed) and `git
+log`. The tables below are the 2026-11-08 ranking with closed items removed.
+Where they disagree with `issues/`, `issues/` wins. Item counts, effort and
+phase labels are from 2026-11-08 and were not re-ranked.
+
+**Closed since the ranking (removed from the tables, 12):**
+DOD-8, EASA-10, EASA-19, ETCDS-12, ETCDS-14, FAA-19, FAA-24, NATO-6, PROC-13, PROC-14, TCDS-11, TCDS-2. (PROC-13, PROC-14, TCDS-11, ETCDS-14, FAA-19,
+EASA-19, EASA-10 closed by 2026-11-10; TCDS-2 at step 4 of the multi-model work;
+ETCDS-12, FAA-24, DOD-8 and NATO-6 since.)
+
+**Partly done, still open (6).** Do not treat these as finished:
+
+| ID | Done | Still open |
+|---|---|---|
+| BUILD-12 | Report has a `coverage` section (0bc1bfd) | Maintainer picks a Phase 2 target, with a way to sample reference accuracy |
+| ROADMAP-8 | CI workflows and `data-*` tag releases written (4e4a53d) | Never run on GitHub. Push `main`, push a `data-*-test` tag, fetch it with the app's `fetch_db.py` |
+| PROC-15 | Reuse terms recorded in docs/RIGHTS.md and `data/NOTICE` (b26cd45, 9553aa7) | NATO and EASA terms unresolved; decide whether NATO text stays |
+| PROC-17 | Sampler and 62-version pilot (2cd7c4b); `audit-data` skill ran a first 80-version audit on 2026-11-12 | Sample too small for per-issuer rates; findings in `DATA_FINDINGS.md` |
+| TCDS-12 | Re-parse promoted: 69 models gained Part 36 references (b3ca90c) | 16 entries still cite Part 36 with none (6aff1d9) |
+| ETCDS-15 | 18 aircraft promoted with Part 36 references (861a8c0) | The lines listed in the issue; composite lines need splitting |
+
+**Open items that this ranking never covered (33):** BUILD-13, BUILD-14, BUILD-15, BUILD-16, BUILD-17, CAR-10, CAR-11, CAR-12, CAR-13, CAR-7, CAR-8, CAR-9, EASA-22, EASA-24, EASA-25, ETCDS-16, ETCDS-17, ETCDS-18, ETCDS-19, FAA-30, FAA-31, FAA-32, PROC-18, ROADMAP-11, ROADMAP-12, TCDS-14, TCDS-15, TCDS-16, TCDS-17, TCDS-18, TCDS-19, TCDS-20, TEXT-15.
+Rank them at the next triage. Of these, CAR-7 to CAR-13 and FAA-30 to FAA-32
+come from the damage scan and reader reports; TCDS-14 to TCDS-20 and ETCDS-16
+to ETCDS-19 come from the multi-model and manufacturer work; ROADMAP-11 and
+ROADMAP-12 are decisions and the app release. BUILD-13 to BUILD-17 (from the
+2026-11-11 database review) and ROADMAP-12 were filed on 2026-11-14.
+
+**Phases: none is done.** Phase 0 and Phase 1 are in progress. Phases 2, 3 and 4
+are not started in any way that meets their "Done when" test (TCDS-2 is closed,
+and the multi-model TCDS work in `2026-11-10-multi-model-tcds-proposal.md`
+advances Phase 2, but no coverage target is agreed). Phase 5 is a backlog, so it
+never completes. Each phase heading below has its own status line from
+2026-11-10, **not refreshed**. Delete this file once every phase is done and
+nothing in it is still open.
+
+**Not re-checked:** the "Stale items found" list and the "Where things stand"
+figures (counts date from the 2026-11-07 build; the build is now schema 15).
+
 ## How items were ranked
 
 In order of weight:
@@ -47,16 +88,12 @@ problems count as current, not future.
 
 | # | ID | Problem | Why here | Effort | Phase |
 |---|---|---|---|---|---|
-| 1 | BUILD-12 (new) | Build report does not measure basis coverage | The success metric hides the largest gap | S | 0 |
+| 1 | BUILD-12 (new) ◐ | Build report does not measure basis coverage | The success metric hides the largest gap | S | 0 |
 | 2 | TCDS-13 (new) | 1,330 of 1,850 regulation lines unresolved | Core product function; 97 models have nothing | L | 2 |
-| 3 | ROADMAP-8 | No CI or releases | The app's data feed depends on it | M | 0 |
-| 4 | PROC-13 (new) | `data/` not shown to rebuild from source | Every later fix needs a trusted baseline | M | 0 |
-| 5 | TCDS-11 | FAA TCDS set chosen by hand | Blocks PROC-13 | S | 0 |
-| 6 | PROC-15 (new) | Redistribution rights not assessed | Public now; the answer could remove content | S–M | 0 |
+| 3 | ROADMAP-8 ◐ | No CI or releases | The app's data feed depends on it | M | 0 |
+| 6 | PROC-15 ◐ (new) | Redistribution rights not assessed | Public now; the answer could remove content | S–M | 0 |
 | 7 | FAA-29 (new) | Part 23 stops before the 2017 rewrite | 21 models cite amendments that are absent | L | 2 |
-| 8 | PROC-17 (new) | No measured text accuracy | Without it, quality can't be claimed or tracked | M | 1 |
-| 9 | EASA-19 | CS 25.1591/1731 swallow the CS-APU book | ~40,000 characters of wrong content in provisions | S–M | 1 |
-| 10 | FAA-19 | §343/§345 @25-72 and withheld rows | Basis silently resolves to the prior text | S–M | 1 |
+| 8 | PROC-17 ◐ (new) | No measured text accuracy | Without it, quality can't be claimed or tracked | M | 1 |
 
 ### High
 
@@ -64,16 +101,13 @@ problems count as current, not future.
 |---|---|---|---|---|---|
 | 11 | EASA-17 | Tables flattened, often column by column | ~120 versions; numbers can be misread | L | 3 |
 | 12 | TEXT-11 | Display formulas scrambled | ~150 files; misleading engineering content | L | 3 |
-| 13 | TCDS-12 | FAA TCDS not re-parsed for Part 36 | 69 models gain references; trial already done | S | 1 |
-| 14 | ETCDS-15 | EASA Part 36 citations unresolved | 35 models; same run as TCDS-12 | S–M | 1 |
-| 15 | ETCDS-14 | Aircraft link decisions never confirmed | Published joins rest on them; review only | S | 1 |
+| 13 | TCDS-12 ◐ | FAA TCDS not re-parsed for Part 36 | 69 models gain references; trial already done | S | 1 |
+| 14 | ETCDS-15 ◐ | EASA Part 36 citations unresolved | 35 models; same run as TCDS-12 | S–M | 1 |
 | 16 | TEXT-1 | Trailing paragraphs attached to the last item | 1,024 rows; wrong paragraph scope | M–L | 3 |
 | 17 | TEXT-8 | Real paragraph breaks dropped | Same fix as TEXT-1 | with TEXT-1 | 3 |
 | 18 | TEXT-10 | Paragraph refs can verify under a wrong reading | False assurance on 402 verified refs | S–M | 1 |
-| 19 | TCDS-2 | No correction path for aircraft entries | Needed before Phase 2's parser fixes spread | M | 2 |
 | 20 | ETCDS-7 | Series sections not split (A330 and others) | 42 TCDS, including major airliners | M–L | 2 |
 | 21 | ETCDS-6 | Shared basis sections not attached | Models get a partial or empty basis | M | 2 |
-| 22 | ETCDS-12 | Transport category inferred | 49 models; a quick decision | S | 1 |
 | 23 | FAA-3 | E23@23-2 missing, date unconfirmed | Reached by 96 models | M | 3 |
 | 24 | CAR-6 (new) | 73 CAR `TEXT MISSING` untracked | Largest gap group; 57 versions on bases | M | 3 |
 | 25 | CAR-5 | V-speed subscripts misread | Wrong symbols in OCR'd rules | M | 3 |
@@ -81,11 +115,8 @@ problems count as current, not future.
 | 27 | FAA-25 | Image-only DRS tables missing | Cells absent, including HIRF | M | 3 |
 | 28 | FAA-28 | A25/B25@25-0 image-only | Foundational appendices missing | M | 3 |
 | 29 | TEXT-14 (new) | Figures not represented | Reader-reported; needs a format decision | M | 3 |
-| 30 | ~~DOD-8~~ ✅ | Handbook tables flattened | 15 provisions | M | 3 |
-| 31 | NATO-6 | STANAG tables flattened | Can reuse the EASA-17 geometry route | M | 3 |
 | 32 | CAR-4 | CAB 3.304 table OCR-damaged | Wrong words, one provision | S | 3 |
 | 33 | TEXT-6 | 171 flat-failed texts | Paragraph refs unverifiable | M | 3 |
-| 34 | PROC-14 (new) | No detection of new upstream revisions | Regulations go stale unnoticed | M | 0 |
 | 35 | PROC-10 | `input/` backup (see Stale items) | No current offsite copy | S | 0 |
 | 36 | ETCDS-1 | EASA TCDS replaced in place upstream | Irreplaceable; history not accumulating | S | 0 |
 | 37 | NATO-7 (new) | USAR.865 title spilled into text | Open reader report; quick | S | 1 |
@@ -108,12 +139,10 @@ problems count as current, not future.
 | 49 | FAA-12 | Amendment-level cites | Weaker traceability, not wrong | M | 5 |
 | 50 | FAA-11 | Part 23 `--as-of` not enforced | Rerun could bring in the wrong edition | S | 1 |
 | 51 | FAA-16 | FR lookup misses; §23.573@23-48 wording | Second part is a text-accuracy question | M | 3 |
-| 52 | FAA-24 | Literal `\n` in 4 versions | Quick cleanup | S | 1 |
 | 53 | FAA-26 | Old DRS tables lack header rows | Decision; creates compare noise | S | 3 |
 | 54 | EASA-20 | Collapsed versions keep worse text | Needs a policy decision | S | 1 |
 | 55 | EASA-21 | CS-29 App B heading absent | Decision on one override | S | 1 |
 | 56 | EASA-9 | `manifest_change_not_in_text` unreviewed | 24 possible missed changes | M | 3 |
-| 57 | EASA-10 | CS-25 Subpart J not split | Pair with EASA-19 | M | 3 |
 | 58 | EASA-1 | CS-29 Amdt 10 corrigendum and date | Borrowed date in published data | S–M | 3 |
 | 59 | EASA-7 | CS-23 Amdt 5/6 from republished files | Source check | M | 3 |
 | 60 | EASA-18 | Chart labels read into text | Noise inside provisions | M | 3 |
@@ -210,6 +239,15 @@ PROC-13 needs a stable pipeline.
 **Done when:** an offline run reproduces `data/`, a tagged release reaches the
 app, and the report shows basis coverage.
 
+**Status 2026-11-10: in progress, not done (2 of 3 criteria met).**
+- [x] Offline run reproduces `data/` (PROC-13 closed). That shows it is
+  reproducible, not that it is correct.
+- [ ] A tagged release reaches the app: ROADMAP-8 workflows have never run.
+- [x] The report shows basis coverage (BUILD-12 report part). The target is
+  still undecided.
+- Done: TCDS-11, PROC-13, PROC-14. Open: PROC-7, ROADMAP-8, BUILD-12 (target),
+  PROC-15, PROC-10, ETCDS-1, and the closes for PROC-5 and TCDS-8.
+
 ### Phase 1: Quick corrections and owner decisions
 
 Small changes to published data, and decisions only the maintainer can make.
@@ -223,6 +261,14 @@ Start PROC-17 here so Phases 2 and 3 can be measured against a baseline.
 **Done when:** GitHub #18 is answered, the links are confirmed, and an accuracy
 baseline is recorded.
 
+**Status 2026-11-10: in progress, not done (1 of 3 criteria met).**
+- [ ] GitHub #18 answered: NATO-7 is open.
+- [x] Links confirmed (ETCDS-14 closed).
+- [ ] Accuracy baseline recorded: the PROC-17 pilot exists but is partial.
+- Done: EASA-19, FAA-19, ETCDS-14. Narrowed: TCDS-12, ETCDS-15, PROC-17.
+  Untouched: FAA-27, FAA-15, FAA-20, FAA-24, FAA-11, NATO-7, NATO-2, NATO-5,
+  EASA-8, EASA-20, EASA-21, ETCDS-12, CAR-2, TEXT-10.
+
 ### Phase 2: Certification-basis coverage
 
 The aircraft-to-regulation link is the product, so it comes before text polish.
@@ -234,6 +280,9 @@ The aircraft-to-regulation link is the product, so it comes before text polish.
 
 **Done when:** an agreed coverage target from BUILD-12 is met, and every
 remaining zero-resolution model has a recorded cause.
+
+**Status 2026-11-10: not started.** No target is agreed, and TCDS-2 and
+TCDS-13 are untouched. ETCDS-16 (new) bears on this phase.
 
 ### Phase 3: Text fidelity
 
@@ -251,6 +300,9 @@ Work by shared cause, not by issuer.
 **Done when:** PROC-17 shows the error rate has dropped, and each remaining
 `TEXT MISSING` has a recorded reason.
 
+**Status 2026-11-10: not started.** Only EASA-10 is closed, as part of
+EASA-19. CAR-7 and EASA-22 (new) belong here.
+
 ### Phase 4: Widen the corpus
 
 Only after Phase 2, so scale does not multiply parser errors. Settle BUILD-8
@@ -260,12 +312,16 @@ first, because a key change is cheapest now.
 - **Documents and links:** ROADMAP-2, rest of ROADMAP-3, ROADMAP-4, DOD-2,
   DOD-3, NATO-3.
 
+**Status 2026-11-10: not started.** It waits on Phase 2.
+
 ### Phase 5: Backlog
 
 Everything else stays open and gets done when an area is next touched: FAA-1,
 4, 5, 6, 10, 12; EASA-2, 3, 4, 5, 11, 12, 13, 14, 15, 16; DOD-5; NATO-1; TCDS-6,
 9; ETCDS-2, 4, 11; TEXT-12; BUILD-3, 10, 11; PROC-1, 2, 3, 4, 6, 8, 9, 12;
 ROADMAP-5, 6, 7.
+
+**Status 2026-11-10:** by design, nothing is scheduled. None of these is closed.
 
 ## Stale items found
 

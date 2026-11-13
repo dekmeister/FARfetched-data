@@ -148,7 +148,7 @@ wrapped paragraph titles keep only their first line.
 ### EASA-16. A subpart renamed without a new version keeps its old name
 
 The grouping style is done (`Subpart D — Design and Construction`;
-reviews/2026-11-12-subpart-letter-groupings.md). Left: `grouping_at_time`
+rule in docs/DATA_FORMAT.md §Grouping labels). Left: `grouping_at_time`
 is the heading over a version's text when it was printed, so a later rename
 with no new version doesn't reach it. CS-25 Subpart H was renamed "…System" →
 "…Systems" at CS25-27 (PDF read), and its 16 provisions have only a CS25-5

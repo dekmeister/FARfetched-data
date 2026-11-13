@@ -618,7 +618,7 @@ One file per special condition, ELOS/ESF, exemption or deviation, as its
 regulator lists it. A record is a **link**: it holds what the listing says and
 the regulator's page, never the text. Most of these documents are letters or
 scans that can't meet the provision rule that every version has text, so they
-are not provisions (reviews/2026-11-13 deviations proposal, D1). Emitted:
+are not provisions (design proposal, removed from reviews/; in git history). Emitted:
 EASA's consulted publications, and FAA's ELOS memos, special conditions (final
 and proposed) and certification-relevant exemptions from DRS.
 
