@@ -7,6 +7,14 @@ tools becfc77, parent acadefc. Step 4: tools cd5b335, parent 497236d. Step 5:
 tools d5094b0, parent 3a03d027. Registry and A16NM: tools 1578760 and its
 parent commit. [Next steps](#next-steps) says what comes next.
 
+**Resume here (2026-11-13, end of session):** steps 8 (737 Classic) and 9
+(NG, Section VII parts A-D) are committed but **not read, not selected, not
+promoted**; see [Steps 8 and 9](#steps-8-and-9-in-progress-2026-11-13). The
+part E decision is still with the developer: don't add A16WE to
+`faa_tcds_selection.tsv` until it is answered. The corpus check is in
+`tools/s00_docs/reviews/2026-11-13-tcds-corpus-diff.md`; rerun it after every
+parser change.
+
 ## Handover
 
 ### Decisions taken (2026-11-11)
@@ -311,12 +319,94 @@ The 5 EASA orphans were deleted from `data/` meanwhile (not by this
 session). A330-743L and A330-841 are in `data/` but not staged (headline
 guard, ETCDS-16).
 
+### Steps 8 and 9 in progress (2026-11-13)
+
+Part 26 (TCDS-15) committed first, as its own work (tools 75edc06, parent
+2e86f786). The step 8 and 9 work below is committed: tools 858927e and the parent
+commit that records it. A16WE is not in
+`faa_tcds_selection.tsv`, so nothing of it is staged by a rebuild; the
+built models were checked in a scratch build only.
+
+**Subagent reading of A2NM and A16NM done** (Sonnet, rendered pages; reports
+were in the session scratchpad). No new major finding. A2NM's "major"
+(Part 26 missing on all four models) is what 75edc06 adds; it reaches
+`data/` at the next promotion. G150's "1B exclude lacks 725, 727, 1416" is
+correct as built: 25.725/.727 are deleted at 25-103 and 25.1416 at 25-72,
+so none is in force at the 25-108 headline. Minor, not fixed: SPX/G100 ESF
+entry 22 glues the 25.1203(a) ESF to the lead-in of 23-24; entry 25 glues
+the optional-requirements intro and its two rows; A2NM 757-300 Part 34
+has no references (Part 34 isn't in the dataset, TCDS-13).
+
+**Step 8, 737 Classic: built, scripted gate passed, not read, not
+selected.** All six models stage (-100 21 entries, -200 26, -200C 24, -300
+34, -400 53, -500 51). Scratch build passes; read in `cert_basis_resolved`:
+-300 25.939 at 25-11, 25.1305 whole at 25-0 plus (a)(c)(d)(1)(2) at 25-36
+and (d)(3) at 25-38, 25.1001 at 25-18 (row 25-51 resolves to the version
+in force).
+
+| Change | Where (`tools/`) |
+|---|---|
+| "MODELS 737 Original Series -100, -200, -200C and 737 Classic Series -300, -400, -500" | `sections._series_suffixes` |
+| "Type Certification Basis, (737-300 Series Airplanes)" blocks, (Cont'd) repeats, dedent | `segments.TYPE_BASIS_RE`, `_type_basis`, `_dedent` |
+| A group row may decide a label that expands (D3: -200C in the -100/-200 block); equal to the expansion is fatal | `attach.block_models`; row in `overrides/tcds_model_groups.tsv` |
+| Family sentences: "Equivalency", "An equivalent …", wrapped onto a second line, trailing "For X:" (names models past the block: `Segment.widen`), "The following Exemptions are applicable:"; "(Cont'd)" family repeat dropped; a bare Part heading, "Compliance with the following optional requirements …" and a lettered part end a family ("for all Models:" widens to the section) | `segments.py` (`_family_step`, `_wrapped_family_sentence`, `FAMILY_CONT_RE`, `FAMILY_END_RE`) |
+| Items: SC by bare number (incl. `25-354A-SC`, `25-ANM-132`), bullets, section-led exemptions, "14 CFR §36 Appendix C", one-item segment, column headings skipped | `lists.py` |
+| Line scope: "not applicable to X" excludes; "applicability … extends across all" model series keeps | `attach._excluded`, `ALL_SERIES_RE` |
+| "except where superseded by the following sections … through:" lists | `superseded.py` (new), `layout._with_superseded` |
+| Rows: 25-89-NW-5 on -200 and -200C; the Ditching row and its life-raft sentence on all six | `overrides/tcds_entries.tsv` |
+
+**Step 9, 737 NG: Section VII (-600/-700/-800) parts A-D done; part E and
+Sections VIII-X open.**
+
+| Change | Where |
+|---|---|
+| Lettered part headers naming models of a shared model section scope what follows to the next part (C: 737-700, D and E: 737-800) | `segments.split_segments(part_models=…)`, `_scope_parts`, `attach._attach_model_block` |
+| A shared model section does **not** take the pertinent path (tried: lost lines in A23NM, A57EU, G07CE, H19NM; backed out). Line-level scope there is by reviewed `drop` rows (16 rows: `*****`, the 25.1389/1391/1393/1395/1411/1419/1517 ESFs) | `overrides/tcds_entries.tsv` |
+| Amendment tables: section cell = first text before a 2-space gap, paragraph lists merged (`superseded.section_cell`); a level cell under AMDT; runs over blank lines and page repeats while rows with a level follow; stops at `*` and "(1) …" notes; text above the first row kept, never dropped (it dropped 25.143-25.149 and the whole Part 26 table before) | `amdt_table.py` |
+| A following "at amendment levels later than 25-77" table's section rows join the headline's exclude | `layout._later_excludes` |
+| Page-top repeats "VII. 737-600, -700, -800 (Cont'd.)" dropped inside a basis; "Certification Maintenance" ends a block | `segments.CONT_HEADING_RE`, `END_LABEL_RE` |
+| A family list with numbered sub-items deeper than its item starts stays a list (25-ANM-132) | `layout._sub_numbered_list` |
+
+Corpus line diff (all 1,506 FAA TCDS, override rows off, committed tools
+against the working tree; scripts were in the session scratchpad): 6 TCDS
+change, no selected one. A16WE (target); A21EA-1, T00021SE, T00001SE,
+A20WE (tables and lists now split per row, with refs where the level reads;
+each diff read); A22NM (a page repeat dropped).
+
+**Open, in order:**
+
+1. **Part E (737-800BCF) is wrong and must not be promoted as is**: its
+   three grid tables (Section/Amdt/Applies To, the 25-0 thru 25-138
+   exceptions table, the SC/exemption/ELOS tables) are vertically centred
+   cells; text parsing glues 20+ rows per entry, duplicates one, and drops
+   rows 25.1301-36.103 and the "25-0 through 25-138 with exceptions"
+   headline. Needs a decision (asked 2026-11-13): grid parsing now (step 7
+   `pdf_grid.py`), or hold the -800 back until then.
+2. Sections VIII-X (-700C, -900, -900ER): the same pass as part A. Known
+   now: scratch build fails on 25.853(d)(3) at 25-72 (-700C, -900; the A2NM
+   case: `references []` + note rows) and 25.831(a)(g) at 25-41 (-900ER);
+   one 3,595-char glued ESF entry on the -900; ~30 unreferenced regulation
+   lines each on -700C and -900.
+3. A16WE golden (all staged models), `test_a16we_classic.py` extended for
+   the NG rules, docs for the NG rules (`FAA_TCDS.md`), then subagent
+   reading of Classic and NG, then selection.
+4. `segments.py` is ~620 lines (limit ~350): split before it grows.
+5. Log the minor reading findings above (SPX/G100 entries 22 and 25) to
+   `reviews/DATA_FINDINGS.md`; not done.
+
+How to look at the NG sections again: `pdftotext -layout` A16WE_Rev82 and
+read pp. 34-42 (VII), then VIII-X; the parse of one TCDS with its override
+rows is `parse_tcds_text(raw, "A16WE_Rev82", known)` (see the corpus-diff
+file for the call). Before promoting anything from A16WE: scratch build
+(copy `data/` to the scratchpad, add the staged A16WE models, `build.py
+--data-dir … --out …`) and read the levels in `cert_basis_resolved`.
+
 ### Next steps
 
-1. Subagent reading of A2NM and A16NM, as a separate task (verification
-   recast below).
+1. ~~Subagent reading of A2NM and A16NM~~ done 2026-11-13 (above).
 2. Optional: A2NM 757-200 headline (TCDS-13).
-3. Core close-out, as agreed: 737 Classic (step 8) and NG (step 9). MAX
+3. Core close-out, as agreed: 737 Classic (step 8) and NG (step 9), in
+   progress: the open list in [Steps 8 and 9](#steps-8-and-9-in-progress-2026-11-13). MAX
    (steps 7 and 10) and the EASA port (step 6) move to issues when this file
    closes.
 4. **Verification method.** §6 and D6 assume line-by-line human reading.
