@@ -47,7 +47,7 @@ CHECKS = {
     "cite-suspect": "publication_cite over 80 characters or with FR filing text",
     "title-suspect": "title empty, long (not DoD), lowercase start, § or hyphen end",
     "heading-in-text": "text opens with a § / Sec. heading",
-    "regulation-no-refs": "TCDS regulation line with no references",
+    "regulation-no-refs": "TCDS regulation line naming a data/ document, no references",
     "split-amendment": "amendment number broken by a line wrap ('23- 25')",
     "amendment-unreferenced": "an amendment named on the line is in no reference",
     "section-unreferenced": "a section cited on the line is in no reference",
@@ -61,6 +61,17 @@ AMDT_RE = re.compile(
     r"(?:Amendments?|Amdts?\.?|Amend\.?)\s*(?:No\.?\s*)?(\d{1,2})\s*-\s*(\d{1,3})\b"
 )
 SPLIT_AMDT_RE = re.compile(r"\b(?:2[3579]|36)(?:-\s+|\s+-\s*)\d{1,3}\b")
+# A basis line that names a document data/ holds: 14 CFR 23/25/26/27/29/36,
+# CS-23/25/27/29, CAR 3. A line naming only JAR, BCAR, Part 34, SFAR and the
+# like can't have references, so `regulation-no-refs` skips it.
+FOREIGN_RE = re.compile(r"\b(?:JAR|BCAR|SFAR)[-\s]?\d+(?:\.\d+)?", re.I)
+DATASET_DOC_RE = re.compile(
+    r"\b(?:14\s*CFR|FAR|CFR|Part)\s*(?:Pt\.?\s*|Part\s*)?(?:2[35679]|36)\b(?!\.\d)"
+    r"|\bCS[-\s]?2[3579]\b"
+    r"|(?<![\d.])(?:2[35679]|36)\.\d"
+    r"|\bCAR\s*(?:Part\s*)?3\b",
+    re.I,
+)
 SECTION_RE = re.compile(r"(?<![\d.])(2[3579]|36)\.(\d{1,4})(?![\d.]*\d)")
 
 
@@ -184,8 +195,16 @@ def _line_hits(rel: str, loc: str, line: dict[str, Any]) -> Iterator[Hit]:
     if line.get("entry_type") != "regulation":
         return
     if not refs:
-        yield Hit("regulation-no-refs", rel, loc, raw[:200])
+        if DATASET_DOC_RE.search(FOREIGN_RE.sub(" ", raw)):
+            yield Hit("regulation-no-refs", rel, loc, raw[:200])
         return
+    yield from _unreferenced_hits(rel, loc, raw, refs)
+
+
+def _unreferenced_hits(
+    rel: str, loc: str, raw: str, refs: list[dict[str, Any]]
+) -> Iterator[Hit]:
+    """Amendments and sections named on a line that no reference carries."""
     revs, provs = _ref_strings(refs)
     rev_text = " ".join(revs)
     for m in AMDT_RE.finditer(raw):

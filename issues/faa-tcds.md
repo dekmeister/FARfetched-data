@@ -67,12 +67,12 @@ staged. Some are continuation pages repeating a multi-model heading (A3EU).
 ### TCDS-4. EASA CS-23 citations on FAA TCDS are unresolved
 
 A57CE DA 62 (17 lines, "Significant Regulatory Differences … CS-23"). The
-interpreter reads CS forms, but `CS 23.573 Damage tolerance … (CS 23,
-amendment 2)` (title then a trailing amendment) comes out `partial` (12
-lines). The "equivalent to 14 CFR Part 23 … through 23-55" line stays FAA.
+interpreter now reads `CS 23.573 Damage tolerance … (CS 23, amendment 2)`
+and `(CS 23, Initial issue)` as a section at that level, and `CS 23.0049` as
+23.49 (tools, 2026-11-13); `data/` still has `references: []` on those lines.
+The "equivalent to 14 CFR Part 23 … through 23-55" line stays FAA.
 
-**To close:** teach `tcds_refs` the trailing `(CS 23, amendment N)` form and
-re-parse A57CE.
+**To close:** re-parse A57CE, restage the aircraft and promote.
 
 ### TCDS-5. Cover models not matched to headings
 
@@ -286,20 +286,57 @@ python -m tools.s02_emit.aircraft.assemble`.
 
 ### TCDS-13. Most regulation lines on aircraft have no references
 
-From the 2026-11-07 build, FAA and EASA together:
+From the 2026-11-13 `data/`, FAA and EASA together:
 
-- 1,330 of 1,850 `regulation` entries have no `references` (FAA 315 of 560,
-  EASA 1,015 of 1,290). Some are fragments, so this is an upper bound.
-- 97 of 325 models resolve to no provision at all, including 24 of the 51
-  Transport models. 114 of 358 TCBs have no reference (111 of them EASA).
+- 1,074 of 1,794 `regulation` entries have no `references` (FAA 253 of 732,
+  EASA 821 of 1,062). Some are fragments, so this is an upper bound. The
+  audit check `regulation-no-refs` now counts only lines that name a document
+  `data/` holds (14 CFR 23/25/26/27/29/36, CS-23/25/27/29, CAR 3): 594.
+- The interpreter's reason for each, with tools as of 2026-11-13: EASA
+  `no_pattern` 651, `partial` 100, `doc_not_in_dataset` 68; FAA `no_pattern`
+  110, `unknown_revision` 45 (23-64 and later: FAA-29), `partial` 43,
+  `doc_not_in_dataset` 38 (includes lines whose section isn't in the
+  document at that level).
 - 14 CFR 27, 14 CFR 29, CS-27 and CS-29 are referenced by no aircraft
   (ROADMAP-9, ROADMAP-10).
 
-Causes seen in a sample:
+Fixed in tools on 2026-11-13, waiting for a restage and promotion (25 lines,
+none with references today): "Amendment. 23-62" and "Amndt. 23 -64" (A25SO,
+A19SO, A00003SE), the DA 62 CS form (TCDS-4), "CS-23 Amendment 4: 23.853, …"
+(level, colon, sections: PZL M28, G 115E), and the ELOS citation "14 CFR §
+23. 807(e)" (A62CE P2006T, citations not references).
+
+Forms seen in the audits (DATA_FINDINGS F-20261112-08, F-20261113-09) that
+the interpreter still doesn't read:
+
+- A level given by date: "FAR 23.1559 effective March 1, 1978", "FAR 23.1545
+  effective December 1, 1978" (Cessna 172 and 206 families, about 40 lines),
+  "CS-23 of 14 Nov 2003" (EMB-500). Readable only by matching the date to a
+  revision's `effective_date`, which `KnownDocuments` doesn't load.
+- A subpart scope: "FAR 23 Subpart B as amended through Amendment 23-45"
+  (PZL Wilga and Koliber, 11 lines, `partial`). Needs subpart membership at
+  that level.
+- The PC-12/47E compact table: "23.1331 a,b1-2, c (23-43)", "23.571 a
+  (23-45)" (paragraphs without brackets).
+- "FAR 23 incl. Amendment 23.1 and 23.2" (SIAT 223, a dotted designator);
+  "Amendments 23-1 through 1- 23" (R3000, garbled range).
+- Cross-references to another field: "(for applicable amendments see
+  A.II.4)" on the Piper EASA TCDS, "As per para. A.II.5".
+- Amendment 23-64 and later (PC-24, Bristell B23, G1000 NXi additions):
+  FAA-29.
+- An unclosed "(Note:" on a basis line (one of the F-20261112-08 leads).
+- Sections the dataset lacks at the cited level: CS 23.1310 at CS-23
+  Amendment 4 (PZL M28; no `cs-23/1310.json`).
+- Elect-to-comply lines on Textron 4000 (#36-38) and lines split mid-list at
+  page breaks (pa-46-500tp #3-#5, pa-44-180t #5, a-1a #1/#2): the split is
+  F-20261112-09, not a reading gap.
+- Composite G1000 "Additions" tables on 206H/T206H and 172S, CS-25 on
+  700/C-295, and JAR 25 on MD-90-30/717-200 (JAR: not in the dataset).
+
+Other causes seen in a sample:
 
 - Documents not in the dataset: JAR (34 of the 114 TCBs cite it; ROADMAP-3
   ranks it low), BCAR, 14 CFR 34.
-- Cross-references to another field ("As per para. A.II.5").
 - Date-and-amendment prose ("FAR Part 23, effective 1 February 1965, as amended
   by …").
 - Basis lines split where they wrapped ("February 1965, Amendment 23-1 thru
@@ -329,5 +366,6 @@ Causes seen in a sample:
   has no references and is excluded from the 1B headline, so the G150's
   resolved basis has no 25.981 at all (what (c) is held at isn't stated).
 
-**To close:** count each line by cause, fix the causes in order of models
-gained, and report what is left (BUILD-12).
+**To close:** restage and promote the 25 lines fixed in tools, then fix the
+remaining forms in order of models gained (date levels first), and report
+what is left (BUILD-12).

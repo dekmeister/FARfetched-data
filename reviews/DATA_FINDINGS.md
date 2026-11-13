@@ -151,24 +151,6 @@ CS-23 files use `V_{`.
 - Suggested area: already ISSUES EASA-11 (letter-spaced text)
 - Promotion: n/a
 
-### F-20261112-08 · major · tcds-references · TCDS regulation lines with `references: []`
-
-The largest TCDS group (about 30 findings across 14 of 20 TCDS). Basis lines
-that name Part 23 or CS-23 provisions with amendment levels, though the
-document exists in data/: pa-46-500tp (core line #3, #12, #16, #17, #19, #20),
-pa-44-180t, bristell-b23, tbm-700 (#16 and two more), pc-24 (#2/#3 amdt 23-64),
-pc-12 (A78EU #4), tu206a (`FAR 23.1559 effective …`, `FAR 23.1545 …`),
-embraer emb-500 (#1 `CS-23 of 14 Nov 2003`, #2 amdt 5), da-62 (CS 23.x lines),
-aviat a-1a (`Part 23 Amdt 23-1 thru 23-31`), oma-sud skycar, siat-223-a1
-(`FAR 23 incl. Amendment 23.1 and 23.2`), textron 4000 (#36-38 elect-to-comply),
-p2006t (ELOS citations omit 23.807(e), 23.783(b); the source writes `23. 807(e)`
-with a space). Typo forms the parser misses: `Amendment. 23-62`, `Amndt. 23 -NN`,
-unclosed `(Note:`. Part 34 and SFAR lines stay unlinked because no such
-document exists in data/ (reader called this correct; the check should
-exclude them).
-- Suggested area: already ISSUES TCDS-13, TCDS-4, TCDS-12, ETCDS-15
-- Promotion: n/a
-
 ### F-20261112-09 · blocker · tcds-lines · TCDS lines dropped or split
 
 `aircraft/honda-aircraft-company-llc/ha-420.json` (FAA A00018AT rev 11): six
@@ -257,11 +239,6 @@ For `scripts/scan_data.py` (provision text and metadata):
     column headers run into the text (CAR3-0 44).
 
 For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
-13. **Regulation line with empty references:** `entry_type: regulation`,
-    `references: []`, and `raw_reference` matching `Amendment\.? ?23 ?-\d+`,
-    `Amndt\. 23 -\d+`, `including|through amendment \d+-\d+`, or
-    `CS ?23` with an amendment. Exclude Part 34, SFAR and JAR lines (no
-    document in data/). `regulation-no-refs` (1174) needs that exclusion.
 14. **Page furniture as a line:** a basis line matching `^EASA Form NR \d+ CS-\d+`,
     a bare model name (`^A-1A$`, `^Z 43$`), or `^See Note \d+$`.
 15. **Item numbers or sections as basis lines:** a line starting
@@ -330,7 +307,7 @@ The old data/ ga8.json had a wrapped line merged with the next ("23.629 which is
 - **Held back:** none.
 - **Orphans left for the user (build blocked until resolved):** airbus-s-a-s/a330-743l.json, airbus-s-a-s/a330-841.json. The guard in `tools/s00_common/tcds_guard.py` no longer stages them (ETCDS-16); they lack `manufacturer_group`/`holder`, so `build.py` fails on them. Delete them or fix ETCDS-16 and restage.
 - **Tooling note:** the 20-subagent concurrency limit meant three batches launched late; no effect on results.
-- **Check candidates:** `regulation` line naming an amendment with `references: []` (hundreds); `Amendments N – M` en-dash range with `to` = lower number; basis line that is a bare model footer (`^AS202/\S+$`), `3 Special Conditions: None`, or a table header ("Topic"); line over 1500 chars; `\S Table \d+--` run onto a prose line; `[ (]-inch` / `nominal inch` (lost fraction glyph); several `(N) ` labels on one line; holder string that is a prefix of the next cover-page line.
+- **Check candidates:** `Amendments N – M` en-dash range with `to` = lower number; basis line that is a bare model footer (`^AS202/\S+$`), `3 Special Conditions: None`, or a table header ("Topic"); line over 1500 chars; `\S Table \d+--` run onto a prose line; `[ (]-inch` / `nominal inch` (lost fraction glyph); several `(N) ` labels on one line; holder string that is a prefix of the next cover-page line.
 
 ### F-20261113-01 · major · tcds-holder · aircraft/costruzioni-aeronautiche-tecnam-s-p-a (P-Mentor, EASA.A.006)
 
@@ -374,12 +351,6 @@ Fraction images in the DRS HTML were lost: "no more than inch thickness", "nomin
 
 Junk basis lines from page footers / headings: "A-1C-180", "3 Special Conditions: None", eligible S/N "3000+" as entries (a-1c-180, a-1b, a-1, as202-18a2/a3/a4). pzl-m28-05 line 1 is a runaway swallowing S/N lead-ins; 525 "Additions" table flattened with titles on wrong reg numbers (~17 reg numbers lost).
 - Suggested area: issues/easa-tcds.md
-- Promotion: promoted (pre-existing)
-
-### F-20261113-09 · major · tcds-references · pre-existing, widespread
-
-Hundreds of `regulation` lines naming an amendment level keep `references: []` (e.g. FAR 23/25 incl. Amdt, CS-23 Amdt, 23-45 lines, CS-25 on 700/c-295, JAR 25 on md-90-30/717-200, G1000 "Additions" on 206H/T206H).
-- Suggested area: issues/easa-tcds.md, faa-tcds.md
 - Promotion: promoted (pre-existing)
 
 ### F-20261113-10 · major · tcds-lines · pre-existing
