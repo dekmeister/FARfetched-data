@@ -16,7 +16,9 @@ It maps each criterion to JSSG paragraphs and 14 CFR sections (after NOTES).
 The section text, the "TYPICAL CERTIFICATION SOURCE DATA" lists, and 516D's
 subsection intros (`4.1 Operational usage.` + several paragraphs) sit under
 headings with children. They are reported `grouping_text` (37–139 per
-edition) and dropped. Tables IV and XVI of 516D are in this text (DOD-8).
+edition) and dropped. 516D TABLE IV and XVI are in this text; they can be
+read with the 516 table list (tools/s00_docs/DOD_HDBK.md §Tables) once it
+is kept.
 
 **To close:** a grouping-level text field (contract change).
 
@@ -24,8 +26,9 @@ edition) and dropped. Tables IV and XVI of 516D are in this text (DOD-8).
 
 Under each method (Examination, Analysis, Test) the `(1)` list restarts and
 continues in the next phase: 18 versions are `flat-failed` (sequence break at
-(2)/(3)); 933 of 993 516D versions are structured. Same format limit as
-TEXT-13.
+(2)/(3)); 933 of 993 516D versions are structured. Two of the 18,
+4.3.3-516d and 4.3.4-516d, hold tables: those go on their own lines at the
+top level. Same format limit as TEXT-13.
 
 The structured ones show it too: the method name (`Analysis.`, `Test.`,
 `Inspection.`, …) ends the line before it instead of heading its list, and
@@ -69,14 +72,3 @@ schema v10, docs/DATA_FORMAT.md §Inline markup).
 
 **To close:** a second review pass on 516D new keys; the merge and grouping
 points follow ROADMAP-4.
-
-### DOD-8. Handbook tables are flattened
-
-15 provisions of 516D/516C hold tables (516D Tables I-III, V-XV, XVII; 516C
-Table I) as running text in row order. Multi-page tables repeat their caption
-and header ("TABLE I. … – Continued."), 4.3.3-516d and 4.3.4-516d are
-`flat-failed`, and 9.3.4.2 Table VIII has a row-spanning cell read
-column-wise.
-
-**To close:** the flat table form through override rows, or extraction from
-`-bbox-layout` geometry.

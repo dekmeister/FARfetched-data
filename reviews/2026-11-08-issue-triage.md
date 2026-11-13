@@ -81,7 +81,7 @@ problems count as current, not future.
 | 27 | FAA-25 | Image-only DRS tables missing | Cells absent, including HIRF | M | 3 |
 | 28 | FAA-28 | A25/B25@25-0 image-only | Foundational appendices missing | M | 3 |
 | 29 | TEXT-14 (new) | Figures not represented | Reader-reported; needs a format decision | M | 3 |
-| 30 | DOD-8 | Handbook tables flattened | 15 provisions | M | 3 |
+| 30 | ~~DOD-8~~ ✅ | Handbook tables flattened | 15 provisions | M | 3 |
 | 31 | NATO-6 | STANAG tables flattened | Can reuse the EASA-17 geometry route | M | 3 |
 | 32 | CAR-4 | CAB 3.304 table OCR-damaged | Wrong words, one provision | S | 3 |
 | 33 | TEXT-6 | 171 flat-failed texts | Paragraph refs unverifiable | M | 3 |
