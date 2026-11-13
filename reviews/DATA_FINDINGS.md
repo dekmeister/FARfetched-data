@@ -297,8 +297,3 @@ Categories missing a source category (z-242-l, g-115ta, z-143-l, z-50-ls, g-120t
 - Suggested area: issues/easa-tcds.md
 - Promotion: promoted (pre-existing)
 
-### F-20261113-13 · minor · tcds-lines · pre-existing
-
-Null `revision_date` on sr22/z-242-l (cover shows an issue date); `input/TCDS/EASA/EASA.A.587_Issue2.pdf` is actually Issue 03 and `EASA.A.011_Issue6.pdf` is Issue 07 (misleading file names); a "Diaond" typo in da-62 section A (source); unlinked 23.1559/23.1545 lines on many Cessna items.
-- Promotion: promoted (pre-existing)
-
