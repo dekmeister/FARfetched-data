@@ -255,13 +255,6 @@ Staged `applicability_notes` on the "as under B.II.5" line adds interpretive tex
 - Suggested area: issues/easa-tcds.md
 - Promotion: promoted
 
-### F-20261113-02 · minor · tcds-lines · ga8.json, ga8-tc-320.json FAA A00011LA
-
-Trailing "(See Note 13)" omitted from the last raw_reference (G500 §23.1308 Amdt 57 line). The note itself is captured in `applicability_notes`. Otherwise all lines match the PDF.
-- Source: input/TCDS/FAA/A00011LA_Rev13.pdf p.6
-- Suggested area: issues/faa-tcds.md
-- Promotion: promoted
-
 ### F-20261113-03 · minor · tcds-references · ga8.json EASA.IM.A.042, ga10.json FAA A00071CE
 
 Lines with no refs, same as in data/: "As defined in CRI A-01…" (GA8), and 14 CFR Part 34 (GA10; Part 34 isn't a document), 21.29/21.183(c), and the ELOS line. All are expected, with `raw_reference` verbatim.
