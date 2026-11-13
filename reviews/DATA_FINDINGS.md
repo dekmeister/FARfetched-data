@@ -141,18 +141,6 @@ different `entry_type`.
 - Suggested area: already ISSUES ETCDS-17 (category outside model section); otherwise issues/easa-tcds.md and issues/faa-tcds.md
 - Promotion: n/a
 
-### F-20261112-12 · minor · structure · other minors
-
-Odd heading brackets (`Sec. B27.2 (II.\nDefinitions.)`) and empty `source_url`
-on `faa/27/B27.json` 27-44 (27-19 too; `no-source-url` is 73 whole-tree); NATO 1323 line `For all airspeed
-measuring devices :` run onto paragraph (b); MIL-HDBK-516 6.1.11.2.1.7
-`Analysis.` / `Test.` headings run into the previous paragraph; `(ci)` label in
-`cs-25/335` is a typo in the source; 23.443 `where--` not on its own line;
-grouping `Subpart C — Reserved` on `faa/36/201.json` follows DRS metadata.
-Not defects (source repeats): the duplicated clause in 25.903(c), 29.1521.
-- Suggested area: issues/text-layout.md (TEXT-)
-- Promotion: n/a
-
 ### Check candidates
 
 Each is a pattern a script could find across the whole tree.
