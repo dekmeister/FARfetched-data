@@ -7,7 +7,7 @@ CAR 3 (CAA editions) and the CAB CAR 3 reissue, OCR'd from scans. Fixes are
 ### CAR-1. OCR-damaged and out-of-sequence labels leave texts flat
 
 - CAB CAR 3 reissue (24 sections): `(bo)`/`(ob)` for `(b)`, `(ce)`/`(ec)` for
-  `(c)`, `(ad)`, `(0)`. Sections 109, 115, 123@R7, 124 (R0, R7), 171, 185,
+  `(c)`, `(ad)`, `(0)`. Sections 115, 123@R7, 124 (R0, R7), 171, 185,
   197@R2, 222, 225, 233, 550@R2, 625, 667, 700, 745, 75, 767, 771, 778, 780
   (R0, R7), 82, 84.
 - Sequence breaks (16): e.g. 3.655 at CAR3-0/2/10 and CAR3R-0, 3.6, 3.437,
@@ -62,7 +62,9 @@ flat form.
 CAR text is OCR with no geometry, so a subscript can't be told from the
 letters around it: `Vu` and `Vd` for V_d, `Vy,` for V_p, `Ve min` for
 V_c min, `V_.` (CAB §3.184 and many more), `Vs]` for V_s1 (CAA §3.111@CAR3-0,
-GitHub #23). Only §3.159 (CAA and CAB) is fixed so far (GitHub #4).
+GitHub #23). Fixed so far: §3.159 (CAA and CAB, GitHub #4); CAB 3.85, 3.85a
+and 3.109 at CAR3R-0 (F-20261112-04). Read the scan, not the OCR letter: CAB
+3.109(b)(6) OCR'd `Vy` is V_f.
 
 **To close:** `replace_text` rows writing `V_{d}` etc., checked against the
 scans (`input/Regs/CAR/3/CAR3R-*.pdf`, the CAA retype `CAR3-*_full.pdf`).
@@ -100,6 +102,12 @@ against page images. 5 have a boundary or omission error:
 - CAR3-0 §3.791: its body is the §3.792 heading and the AUTHORITY note.
 - CAR3R-0 §3.735: holds §3.737 and its heading.
 - CAR3R-2 §3.75 and §3.383: hold the amendment instructions that follow them.
+
+`_prev_line_is_continuation` (tools/s01_extract/car/extract.py), which rejects
+a heading after a hyphenated line, looks at the line two above the heading,
+not the line just before it (found 2026-11-13). Fixing it changes CAA 185 and
+186 at CAR3-0 to CAR3-2 and CAB 246, 296 and 301 at CAR3R-0 (246 grows from
+606 to 3929 characters), so each change needs checking against the scans.
 
 Word-level OCR errors are also common in the CAR3R scans (8 of 10 versions).
 

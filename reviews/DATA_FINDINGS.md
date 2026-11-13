@@ -80,20 +80,10 @@ compliance", "trimmed at ;"; 27-19 probably the same), `faa/25/795.json` 25-145
 - Suggested area: already ISSUES TEXT-11 (display formulas), FAA-30 (image-only symbols)
 - Promotion: n/a
 
-### F-20261112-04 · blocker · ocr · unrepaired OCR in CAR 3 reissue
-
-`cab/car-3-reissue/109.json` CAR3R-0: speed symbols `V:z`, `Vz`, `Vs,`, `Vy`
-for V_x, V_S1, V_y; `Maxémum`, `Janding`, `fiaps`, `(bo)` for (b), `Gi)`;
-whole section one line. `cab/car-3-reissue/85.json` CAR3R-0: `poutids`, `V;`,
-`Vs,”`, `shal]`, `(ce)`, `$§`. `cab/car-3-reissue/307.json` CAR3R-0: `siructure`.
-- Suggested area: already ISSUES CAR-1, CAR-5
-- Promotion: n/a
-
 ### F-20261112-06 · major · structure · texts that are one flat line
 
 `easa/cs-25/335.json` CS25-27 (7068 chars, no newlines), `easa/cs-23/729.json`
-CS23-0, `cab/car-3-reissue/85.json` and `109.json` CAR3R-0, `caa/car-3/655.json`
-CAR3-2 (equipment table), `caa/car-3/44.json` CAR3-0 (definitions, also a
+CS23-0, `caa/car-3/655.json` CAR3-2 (equipment table), `caa/car-3/44.json` CAR3-0 (definitions, also a
 "Reference sections" column header run into the text). Also run-together
 paragraphs: `faa/25/795.json` 25-145 ((c), (e), (f) mid-line),
 `faa/36/201.json` 36-8 ((a)/(b), (3)/(c); source has `<br>`), `faa/36/F36.json`
