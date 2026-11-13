@@ -172,7 +172,7 @@ the baseline with no item of their own yet:
   `ex~ ceptional` in CAB, besides the CS-29 letter-spacing of EASA-11
   (`split-word`).
 - CAB texts that open mid-sentence, 37 versions (`lowercase-start`), likely
-  wrapped titles as in NATO-7.
+  wrapped titles (as STANAG USAR.865 was, GitHub #18).
 - EASA TCDS section headings read as basis lines, "3 Special Conditions: None"
   on 11 models (`basis-heading`; ETCDS-16 covers the A330 footers and list
   headers).
