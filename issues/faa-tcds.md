@@ -134,21 +134,37 @@ represent them, by decision.
 
 **To close:** revisit only if they are wanted.
 
-### TCDS-15. Part 26 compliance outside the basis blocks is not attached
+### TCDS-15. Part 26 compliance outside the basis blocks: only A2NM's form is read
 
-Eight TCDS print the §21.101(g) statement that "applicable provisions of 14 CFR
-part 26 are included in the certification basis" outside their basis blocks
-(A20EU, A21EA, A2NM, A56NM, A57NM, A58NM, T00011AT, T00063IB; 18 more print it
-inside one). A2NM p. 7: "Compliance with 14 CFR §26:" in "Data Pertinent to All
-Models", with compliance at 26-0 (26.11), 26-1 (26.43, .45, .47, .49) and 26-3
-(26.33). Counted by a text scan; only A2NM read. Part 26 is now staged, and the
-interpreter reads these lines' forms ("at Amendment 26-1: 26.43, 26.45",
-"§ 26.11 (Amdt. No. 26-0)"), so attached lines would resolve.
+A Part 26 field label in a "Data Pertinent to …" section is now a basis block
+for that section's models (tools `s02_emit/faa/tcds/part26.py`,
+s00_docs/FAA_TCDS.md). A2NM's four models gain p. 7: the §21.101(g)
+statement (no amendment, `references: []`) and 26.11 at 26-0; 26.43, .45,
+.47, .49 at 26-1; 26.33 at 26-3, which resolve once Part 26 is promoted.
 
-**To close:** read the eight, then treat a field label naming Part 26 in an
-all-models section as a basis block for that section's models. Not a general
-"included in the certification basis" trigger: A2NM Note 16 uses the same words
-for an optional basis that must not be attached.
+Left, from a scan of the other seven (scripted, not read; none is selected
+in `faa_tcds_selection.tsv`, so nothing of theirs stages today):
+
+- In a **model section**, after the basis block has ended: A20EU (three
+  models, the statement as prose with no label), A21EA ("Part 26 –
+  Continued Airworthiness" as a two-column label), A58NM and T00063IB
+  ("Part 26 of the Federal Aviation Regulations:" at col 0). The rule
+  deliberately skips model sections.
+- In a pertinent section but **past label position** (col 9+), inside
+  basis layouts the parser doesn't find as a block: A56NM (col 35),
+  T00011AT (col 18-20, five sections; Legacy 650 "14 CFR Part 26:" holds
+  exemption text).
+- A57NM ERJ 190-100/-200 (col 8) is read by the rule: the statement only,
+  plus the page footer "13 of 20 A57NM", which the furniture stripper
+  leaves in that TCDS. Its § 26.43/.45/.47 lines above the label are a
+  compliance table, not read.
+- Most of these give only the §21.101(g) sentence, which names no
+  amendment; A57NM -300/-400 ("including Amendments 26-1 through 26-6")
+  already sit inside a block.
+
+**To close:** when one of these TCDS is selected, read its Part 26 lines
+and widen the rule (model sections, or the label's column) with that TCDS
+as the test.
 
 ### TCDS-16. A paragraph excluded from the basis can't be expressed
 
