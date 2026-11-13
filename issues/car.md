@@ -39,9 +39,9 @@ Left behind after the next group's centre heading was stripped:
   no amendment brackets). It is a pattern: OCR reads a final `l` as `]`
   ("shal]", "contro]", "critica]") in 37 CAB and 6 CAA versions
   (`scripts/scan_data.py --check unbalanced-brackets --all`, 2026-11-12).
-- Figure lettering spliced into a sentence (GitHub #20): CAB 173@CAR3R-0 has
-  the V-n diagram's labels and caption inside "actual condi… tions". The
-  `caps-run`, `gibberish` and `figure-caption` scan checks list the rest.
+- Figure lettering spliced into a sentence (fixed for CAB 159 and 173 at
+  CAR3R-0, GitHub #4, #20). The `caps-run`, `gibberish` and `figure-caption`
+  scan checks list the rest.
 
 **To close:** `replace_text` overrides or an extractor rule, checked against
 the scans.
