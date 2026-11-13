@@ -236,12 +236,6 @@ For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
 - **Orphans left for the user:** airbus-defence-and-space-s-a/c-212-ee.json, gulfstream-aerospace-corporation/gvii-g500.json, gvii-g600.json, gulfstream-aerospace-lp-galp/gulfstream-g280.json, textron-aviation-inc/680a.json
 - **Tooling note:** `.claude/skills/promote-staged/scripts/batches.py` crashes on a `new-file` aircraft delta row (its `tcb` is a list: unhashable in `aircraft_items`). Worked around with a scratch copy.
 
-### F-20261113-04 · minor · check-candidate · EASA wrapped basis lines
-
-The old data/ ga8.json had a wrapped line merged with the next ("23.629 which is at Amendment 45 Serial Nos GA8-03-026…"). The staged tree fixes it. A check could flag a basis line starting with a continuation fragment like "23.629 which is at…" (compare LOG.md candidate 16).
-- Suggested area: tools/ checks
-- Promotion: n/a
-
 ## 2026-11-13 promote-staged (schema v13 holder/manufacturer_group on all aircraft; FAA Part 26)
 
 - **Delta:** 348 files. Aircraft 327 (`metadata` + `tcds-revision` all; 4 also `basis-lines`: bolkow-bo-209-monsun, c-295, bn2t-4s, ha-420). Documents 21: 17 `new-file` (FAA Part 26, 16 provisions + `_document.json`), 4 changed (faa/23/179 `[Removed.]` provision now `deleted`; faa/23/F23 titles lose a literal `\n` plus a provenance note; faa/25/F25 stray `\n` removed from 25-32; faa/25/_document 25-125 effective date 2008-09-19 → 2008-12-26, backed by an override row citing FR E9-15311).
