@@ -121,9 +121,23 @@ sub-label. Cosmetic, but `raw_reference` should start at the value.
 ### ETCDS-13. "basis cites no CS/JAR/FAR 23 or 25" misses indirect bases
 
 76 TCDS, many correctly (sailplanes, CS-22). Some are aeroplanes whose basis
-points elsewhere ("same as …", A330-941 in A.004, L-410).
+points elsewhere ("same as …", L-410). (A330-941 in A.004 was a running
+header the parser missed; since 2026-11-14 its basis is read and the
+headline guard refuses it, ETCDS-16.)
 
 **To close:** distinguish the two before trusting the out-of-scope count.
+
+### ETCDS-20. A scope heading applies to the rest of its field
+
+A citation-free line ending in ':' is the `applicability` of every item
+after it in the field, until the next scope. In long nested bases it
+overreaches: in the C-295 (EASA.A.186) "• For HIRF:" is the applicability of
+"- For Powerplant − FAR 25.901 …" and "9.11 For modification DC10973-E …",
+and "• Plus for Safety" of "9.13 For modification …". Found while fixing
+F-20261112-10 (page footers), which split these items apart.
+
+**To close:** end a scope at a sibling or shallower heading (`- `, `9.N`),
+by indent or label depth.
 
 ### ETCDS-19. `_tcds.json` State of Design often holds the wrong field
 

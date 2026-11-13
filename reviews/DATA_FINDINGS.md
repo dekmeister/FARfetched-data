@@ -117,17 +117,6 @@ Annex 16 line, textron 4000 #38 swallows the next elect-to-comply line.
 - Suggested area: issues/faa-tcds.md (TCDS-)
 - Promotion: n/a
 
-### F-20261112-10 · major · furniture · TCDS page footers and item numbers as basis lines
-
-`zlin-aircraft-a-s/z-43.json` (`Z 43`, `EASA Form NR 90 CS-23 Issue 01`, orders
-2, 12, 13), `aviat-aircraft-inc/a-1a.json` (#3 model name; #4 is `3 Special
-Conditions: None` typed regulation; #6 is Eligible S/N), `oma-sud-spa/skycar.json`
-(#5 `EASA Form NR 90 CS-23 Issue 02` typed special_condition; item number `9.`
-leaked), `textron-aviation-inc/4000.json` (#40 `See Note 5` footnote text and
-a footnote digit `2` run into #38).
-- Suggested area: issues/easa-tcds.md (ETCDS-)
-- Promotion: n/a
-
 ### F-20261112-11 · major · tcds-entry-type · wrong entry types, categories and applicability
 
 skycar: item 9 Equivalent Safety Findings and `CRI E-02 (ESF)` typed
