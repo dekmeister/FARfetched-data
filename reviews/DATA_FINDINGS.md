@@ -320,7 +320,3 @@ Categories missing a source category (z-242-l, g-115ta, z-143-l, z-50-ls, g-120t
 Null `revision_date` on sr22/z-242-l (cover shows an issue date); `input/TCDS/EASA/EASA.A.587_Issue2.pdf` is actually Issue 03 and `EASA.A.011_Issue6.pdf` is Issue 07 (misleading file names); a "Diaond" typo in da-62 section A (source); unlinked 23.1559/23.1545 lines on many Cessna items.
 - Promotion: promoted (pre-existing)
 
-### F-20261113-14 · minor · tcds-holder · BRM Aero / Textron / Zlin case differences
-
-Holder case varies between FAA and EASA TCDS of the same aircraft (e.g. "BRM AERO s.r.o." vs "BRM Aero s.r.o.", "TEXTRON AVIATION INC." body vs cover). Faithful to each document; noted for display.
-- Promotion: promoted
