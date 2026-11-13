@@ -207,16 +207,20 @@ cached DRS doc under `input/cache/drs/far_doc/`), transcribe them, and add a
 `text.tsv` `replace_text` row per appendix with the images as evidence. Check
 whether eCFR has a text rendering of either appendix before transcribing.
 
-### FAA-29. Part 23 stops before the 2017 rewrite
+### FAA-29. Part 23 from 23-64 is staged separately, not joined to Part 23
 
-The dataset's last Part 23 revision is 23-63 (2017-03-21). Amendment 23-64 and
-later, the performance-based rewrite (§23.2005 onward), are excluded by the
-`--as-of 2017-08-29` manifest (FAA-11), and no issue records this as a gap.
-51 basis entries on 21 models (14 TCDS, e.g. A00121CE, A00009CH) cite 23-64 or
-later (2026-11-08, pattern match). Each resolves to nothing or only partly.
+The rewrite (§23.2005 onward) is built as its own document `23-amdt64`
+(tools/s00_docs/FAA_REGS.md §Part 23 from Amendment 23-64): 23-64 and 23-65,
+69 sections, staged 2026-11-14, not promoted, not read against the source
+beyond a whole-tree word check against eCFR. The old `23` still stops at
+23-63. 51 basis entries on 21 models (14 TCDS, e.g. A00121CE, A00009CH) cite
+23-64 or later and still resolve to nothing: cert-basis resolution knows
+nothing of `23-amdt64`.
 
-**To close:** decide how to model it (later revisions of the same document, or
-a separate one, since the section numbers all change), then ingest it.
+**To close:** decide how the two join (later revisions of one document, or two
+documents linked for resolution; §§23.1457, 23.1459 and 23.1529 exist in
+both), promote, and make the upstream check watch Part 23 for amendments after
+23-65.
 
 ### FAA-30. Symbols that DRS has only as images are missing from the text
 
