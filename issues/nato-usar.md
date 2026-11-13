@@ -37,16 +37,25 @@ Book 2 (the AMC; the `See AMC.17` pointer lines stay in each paragraph).
 **To close:** ingest Annex C if ROADMAP-4 cross-document links go ahead; the
 rest only if wanted.
 
-### NATO-4. Tables and figures in the text layer
+### NATO-4. Figures, formulas and layout leftovers
 
-Book 1's tables and figures are absent from the text layer or run into the
-text (Appendix C, the flight envelope under `333`, Appendix L's HIRF tables,
-Appendix K: 27,000 characters of mostly flat text). One version is
-`flat-failed` (Ed. 1 Appendix G, a scrambled table). The tables of 415 and 423
-have labelled rows, so they are `line-fallback` and stay inline in (b).
+Book 1's tables are rebuilt (geometry or transcribed rows; NATO_USAR.md
+§Tables). Left:
 
-**To close:** handle the tables with NATO-6; sample-review the 250
-`line-split` versions (a spot check of 40 read right).
+- Figures aren't in the text layer: the flight envelope under `333`,
+  Appendix K Figure 1 (Appendix K is 27,000 characters of running text).
+- One version is `flat-failed`: Ed. 1 Appendix G. It isn't a table: G.3
+  prints doubled labels (`(a) (I) UAV Maintenance Manual or section`,
+  `(b) (II) Ground segment …`), which break the label sequence.
+- Formulas are flat words: 415(a)(2) (`2.01 W/S + 4.45`, Ed. B
+  `14.6√ 𝑊 𝑆 + 14.6`), 1401(e) (the effective-intensity integral), and Ed. B
+  423 still carries Symbol-font private-use characters (U+F02B, U+F02D,
+  U+F0E6-F0E8, U+F0F6-F0F8: a formula's signs and bracket pieces).
+- 423's two `line-fallback` versions keep the plain reading.
+
+**To close:** formula rows (TEXT- format) for 415, 423 and 1401; a
+`replace_text` row or a fix for Ed. 1 Appendix G's doubled labels;
+sample-review the 250 `line-split` versions (a spot check of 40 read right).
 
 ### NATO-5. Limits of the continuity review
 
@@ -59,16 +68,6 @@ have labelled rows, so they are `line-fallback` and stay inline in (b).
 
 **To close:** confirm the 8 pairs; the maintainer to say if stubs should be
 skipped.
-
-### NATO-6. Tables in STANAG 4671 are flattened
-
-The extractor uses `pdftotext -raw`, so there is no geometry: 1391, 1393,
-1395, 1401 (readable row order), AppL (HIRF), AppK Table 1, AppC (EdB:
-column-major; Ed1: the table is a raster image, only the notes are text).
-About 7 provisions / 10 versions.
-
-**To close:** EdB draws full vector grids (AppC p.187, AppL p.205), so the
-geometry route of EASA-17 would work there; Ed. 1 AppC needs transcription.
 
 ### NATO-7. An unlabelled lead-in between two labels joins the label before it
 

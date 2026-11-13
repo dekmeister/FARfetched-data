@@ -162,7 +162,8 @@ STRENGTH (V/m) PEAK AVERAGE" header) and other `unexplained_change` rows on
 table paragraphs.
 
 **To close:** rebuild tables from geometry: word boxes from `pdftotext
--bbox-layout` plus ruling lines from `mutool trace` (old PDFs draw full grids;
+-bbox-layout` plus ruling lines from `mutool trace` (the reader exists:
+`tools/s00_common/pdf_tables.py`, used by NATO with listed page regions) (old PDFs draw full grids;
 Word 365 PDFs draw grey row rules with ~2 pt gaps at column edges). Cells must
 come out identical in every PDF a provision appears in, or each difference
 needs a `suppress` row. 60 PDFs, at least 8 producers; skip AMC tables on

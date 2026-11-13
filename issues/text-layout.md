@@ -101,7 +101,7 @@ CS-25/14 CFR 25.331 (c)(2)(i) has formula rows so far (GitHub #4). Left:
 - Scripts the extractors can't see: one EASA PDF word that fuses a base and
   its script (`δ1` in CS-25 Amdt 27), and eCFR's single `E T="53"`
   (`1.4 Vs1`, 14 CFR 25), left flat rather than guessed.
-- Flattened tables: EASA-17, NATO-6, DOD-8, CAR-4 and FAA-25.
+- Flattened tables: EASA-17, DOD-8, CAR-4 and FAA-25.
 
 **To close:** formula rows for the listed provisions; then this item goes.
 
