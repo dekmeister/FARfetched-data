@@ -301,13 +301,6 @@ The old data/ ga8.json had a wrapped line merged with the next ("23.629 which is
 - **Tooling note:** the 20-subagent concurrency limit meant three batches launched late; no effect on results.
 - **Check candidates:** `Amendments N – M` en-dash range with `to` = lower number; basis line that is a bare model footer (`^AS202/\S+$`), `3 Special Conditions: None`, or a table header ("Topic"); line over 1500 chars; `\S Table \d+--` run onto a prose line; `[ (]-inch` / `nominal inch` (lost fraction glyph); several `(N) ` labels on one line; holder string that is a prefix of the next cover-page line.
 
-### F-20261113-01 · major · tcds-holder · aircraft/costruzioni-aeronautiche-tecnam-s-p-a (P-Mentor, EASA.A.006)
-
-New in this promotion: staged `holder` is "Costruzioni Aeronautiche TECNAM"; the cover prints "Costruzioni Aeronautiche TECNAM / S.p.A." over two lines and the wrapped "S.p.A." was dropped. The other ~180 holders read match the cover. Check other wrapped-holder cases.
-- Source: EASA.A.006 cover page
-- Suggested area: issues/easa-tcds.md
-- Promotion: promoted
-
 ### F-20261113-02 · minor · tcds-holder · aircraft/nzskydive-ltd (750xl)
 
 Cover reads "NZSkydive Ltd trading as Pacific Aerospace"; staged holder keeps only "NZSkydive Ltd".
