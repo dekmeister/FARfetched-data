@@ -1,6 +1,7 @@
 """What promoting the staged tree would change, one JSON line per changed file.
 
-Compares tools/out/staged/{documents,aircraft} with data/{documents,aircraft}
+Compares tools/out/staged/{documents,aircraft,deviations} with the same trees
+in data/
 at the level a reviewer needs: which versions or TCDS basis lines were added,
 removed or changed, and for changed text whether any *words* changed or only
 the layout (line breaks, indentation) or only the inline markup. Layout may add line breaks and
@@ -10,7 +11,7 @@ thing to read against the source.
     PYTHONPATH=. uv run python .claude/skills/promote-staged/scripts/delta.py \
         > delta.jsonl 2> delta_summary.txt
 
-Each line: {"relpath", "kind": document|aircraft, "status": new|changed,
+Each line: {"relpath", "kind": document|aircraft|deviation, "status": new|changed,
 "class": [...], "changes": [...], "fields": [...], "residual": bool}.
 
 Class tags: new-file, versions-added, versions-removed, words, markup-lost
@@ -27,6 +28,12 @@ keys as "tcds.<key>". `residual` is true when anything other than those
 fields changed: text, versions, revisions, basis lines, TCBs. A changed file
 with no residual is tagged fields-only: it is "identical to data/ apart from
 these fields", machine-checked, and fields.py can verify it without a reader.
+Deviation records are listing metadata only, so every change to one is a
+field change: `fields` holds each changed key as "deviation.<key>" (lists
+too: citations, citation_gaps), where "file". A new record lists every key
+it has plus, as new None, each key listing.CHECK_ABSENT expects the listing
+may print, so fields.py can catch a dropped value. Changed records are
+fields-only; new ones are new-file.
 stderr: counts by class. Read-only.
 """
 
@@ -40,6 +47,9 @@ import sys
 from collections import Counter
 from pathlib import Path
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).parent))
+from listing import CHECK_ABSENT  # noqa: E402
 
 from certbuild.text import FORMULA_MARK, TABLE_OPEN, TextFormatError, plain_text
 
@@ -290,8 +300,35 @@ def _line(line: dict[str, Any]) -> dict[str, Any]:
     return out
 
 
+DEVIATION_IDENTITY = {"issuer", "key"}
+
+
+def deviation_delta(old: dict[str, Any] | None, new: dict[str, Any]) -> dict[str, Any]:
+    """Every change to a deviation record is a field change."""
+    if old is None:
+        absent = CHECK_ABSENT.get(new.get("issuer", ""), ())
+        keys = sorted((set(new) | set(absent)) - DEVIATION_IDENTITY)
+        fields = [
+            {"where": "file", "field": f"deviation.{k}", "old": None, "new": new.get(k)}
+            for k in keys
+        ]
+        return {
+            "status": "new",
+            "class": ["new-file"],
+            "changes": [],
+            "fields": fields,
+            "residual": True,
+        }
+    fields = _field_rows(old, new, DEVIATION_IDENTITY, "file", "deviation.")
+    row = {"status": "changed", "class": [], "changes": [{"fields": len(fields)}]}
+    return _finish(row, fields, residual=False)
+
+
+WALKERS = {"document": document_delta, "aircraft": aircraft_delta}
+
+
 def walk(staged: Path, data: Path, kind: str) -> list[dict[str, Any]]:
-    fn = document_delta if kind == "document" else aircraft_delta
+    fn = WALKERS.get(kind, deviation_delta)
     rows = []
     for path in sorted(staged.rglob("*.json")):
         rel = path.relative_to(staged)
@@ -321,6 +358,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     rows = walk(args.staged / "documents", args.data / "documents", "document")
     rows += walk(args.staged / "aircraft", args.data / "aircraft", "aircraft")
+    rows += walk(args.staged / "deviations", args.data / "deviations", "deviation")
     counts: Counter[str] = Counter()
     for row in rows:
         print(json.dumps(row, ensure_ascii=False))

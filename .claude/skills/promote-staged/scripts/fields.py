@@ -14,7 +14,10 @@ Kinds:
             case). A case-only difference passes, with a note.
   date      the new ISO date appears in the source text in a common format.
   derived   the value follows its rule (manufacturer_group from
-            tools/overrides/manufacturer_groups.tsv; deleted ⇒ no text).
+            tools/overrides/manufacturer_groups.tsv; deleted ⇒ no text;
+            deviation.* rules in listing.py).
+  listed    a deviation field is what the regulator's listing prints, and an
+            absent one is absent there too (listing.py).
 A field with no entry is `unverifiable`: a reader checks it. Adding a field to
 the schema means adding a line here, or accepting that it is read.
 
@@ -48,6 +51,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from context import excerpt, find, load_text, tcds_paths  # noqa: E402
 from sample import source_copies  # noqa: E402
 
+import listing  # noqa: E402
+
 GROUPS = Path("tools/overrides/manufacturer_groups.tsv")
 CONTINUATION = re.compile(
     r"^(S\.?\s?p\.?\s?A\.?|S\.?A\.?S?\.?|Ltd\.?|Limited|GmbH|Inc\.?|LLC|L\.L\.C\.|"
@@ -70,6 +75,23 @@ FIELDS: dict[str, Check] = {
     "tcds.revision_date": Check("date"),
     "manufacturer_group": Check("derived"),
     "deleted": Check("derived"),
+    **{
+        f"deviation.{k}": Check("listed")
+        for k in (
+            "number",
+            "title",
+            "applicant",
+            "make",
+            "model",
+            "regulation_ref",
+            "disposition",
+            "published_on",
+        )
+    },
+    **{
+        f"deviation.{k}": Check("derived")
+        for k in ("kind", "stage", "source_url", "final", "citations", "citation_gaps")
+    },
 }
 
 
@@ -187,6 +209,11 @@ def _groups() -> dict[str, str]:
 
 def derived(value: Any, ctx: Ctx, check: Check) -> Result:
     name = ctx.extra["field"]
+    if name.startswith("deviation."):
+        status, note = listing.derived(
+            name.removeprefix("deviation."), ctx.record, value, ctx.extra["roots"]
+        )
+        return Result(status, note)
     if name == "manufacturer_group":
         maker = ctx.record.get("manufacturer")
         want = ctx.extra["groups"].get(maker, maker)
@@ -199,10 +226,18 @@ def derived(value: Any, ctx: Ctx, check: Check) -> Result:
     return Result("unverifiable", f"no rule for {name}")
 
 
+def listed(value: Any, ctx: Ctx, check: Check) -> Result:
+    rec = ctx.record
+    name = ctx.extra["field"].removeprefix("deviation.")
+    status, note, ex = listing.listed(rec["issuer"], rec["key"], name, value)
+    return Result(status, note, ex)
+
+
 VERIFIERS: dict[str, Callable[[Any, Ctx, Check], Result]] = {
     "verbatim": verbatim,
     "date": date,
     "derived": derived,
+    "listed": listed,
 }
 
 # --- context per field change ------------------------------------------------
@@ -215,9 +250,13 @@ def _load(path: Path) -> dict[str, Any] | None:
 def _ctx(row: dict[str, Any], fch: dict[str, Any], staged: Path, groups: dict) -> Ctx:
     rel = row["relpath"]
     record = _load(staged / rel) or {}
-    ctx = Ctx(record, extra={"field": fch["field"], "groups": groups})
+    roots = [staged, Path("data")]
+    ctx = Ctx(record, extra={"field": fch["field"], "groups": groups, "roots": roots})
     kind, _, ident = fch["where"].partition(" ")
-    if kind == "tcb":
+    if row["kind"] == "deviation":
+        label, _ = listing.source(record.get("issuer", ""), record.get("key", ""))
+        ctx.extra["source_label"] = label
+    elif kind == "tcb":
         for tcb in record.get("tcb", []):
             t = tcb["tcds"]
             if f"{t['issuer']} {t['tcds_number']}" == ident:
@@ -253,7 +292,8 @@ def check_row(row: dict[str, Any], staged: Path, groups: dict) -> list[dict[str,
                 **fch,
                 "kind": check.kind if check else None,
                 "relpaths": [row["relpath"]],
-                "source": ctx.source.as_posix() if ctx.source else None,
+                "source": ctx.extra.get("source_label")
+                or (ctx.source.as_posix() if ctx.source else None),
                 "status": res.status,
                 "note": res.note,
                 "excerpt": res.excerpt,

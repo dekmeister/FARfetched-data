@@ -7,7 +7,8 @@ Three modes, each with its own section in READER.md:
          or re-parsed) with the data/ side and a slice of the source around
          each change (context.py). Unchanged text is out of scope.
   full   new content with no data/ side: a new or added version, a TCB
-         not in data/ anywhere. The whole text against the source.
+         not in data/ anywhere, a new deviation record. The whole text (or
+         record) against the source.
   field  a field value fields.py could not confirm, or a sampled pass
          (built in batches.py from fields.jsonl).
 
@@ -27,6 +28,7 @@ from pathlib import Path
 from typing import Any
 
 from context import load_text, locate, excerpt, slice_for, tcds_paths
+from listing import source as listing_source
 from sample import source_copies
 
 MAX_HUNKS = 12
@@ -289,6 +291,41 @@ def aircraft_items(
         if (tcb := tcbs.get(ch["tcb"])) is not None:
             items.append(_tcb_diff_item(rel, tcb, ch))
     return items, notes
+
+
+# --- deviations ----------------------------------------------------------------
+
+LISTING_CHARS = 2500
+
+
+def _listing_excerpt(issuer: str, text: str, title: str | None) -> str:
+    """FAA: the whole entry. EASA: the page from the publication's title
+    (its heading, date, details and downloads) on."""
+    if issuer == "EASA" and title and (i := text.find(f"\n{title}\n")) >= 0:
+        text = text[i + 1 :]
+    return text[:LISTING_CHARS]
+
+
+def deviation_item(row: dict[str, Any], staged: Path) -> dict[str, Any] | None:
+    """A new deviation record, whole, with its listing entry (full mode).
+    Changed records are fields-only: fields.py covers them."""
+    if row["status"] != "new":
+        return None
+    rel = row["relpath"]
+    record = _load(staged / rel) or {}
+    issuer = record.get("issuer", "")
+    label, text = listing_source(issuer, record.get("key", ""))
+    return {
+        "mode": "full",
+        "reason": "deviation-new",
+        "relpath": rel,
+        "relpaths": [rel],
+        "deviation": record,
+        "source": [label] if label else [],
+        "listing_excerpt": _listing_excerpt(issuer, text, record.get("title")),
+        "group": f"{issuer}/{record.get('kind')}/{record.get('stage')}",
+        "source_key": label or rel,
+    }
 
 
 def dedup(items: list[dict[str, Any]]) -> list[dict[str, Any]]:

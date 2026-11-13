@@ -173,3 +173,47 @@ def test_downscale_shrinks_samples_first() -> None:
     assert steps and steps[0] == "class_sample=4"
     assert any(i["reason"] == "words" for b in out for i in b)
     assert batches.total(out) <= 40_000 or settings["class_sample"] == 0
+
+
+def test_deviation_records_are_sampled_and_fields_pooled(tmp_path: Path) -> None:
+    rel = "deviations/easa/1.json"
+    rec = {"issuer": "EASA", "key": "1", "kind": "elos", "stage": "final", "title": "T"}
+    (tmp_path / rel).parent.mkdir(parents=True)
+    (tmp_path / rel).write_text(json.dumps(rec), encoding="utf-8")
+    row = {"relpath": rel, "kind": "deviation", "status": "new", "class": ["new-file"]}
+    item = items.deviation_item(row, tmp_path)
+    assert (
+        item is not None
+        and item["mode"] == "full"
+        and item["reason"] == "deviation-new"
+    )
+    assert batches.est(item) >= batches.BASE["full-dev"]
+    assert items.deviation_item({**row, "status": "changed"}, tmp_path) is None
+    fields_path = tmp_path / "fields.jsonl"
+    lines = [
+        {
+            "relpaths": [rel],
+            "field": f,
+            "where": "file",
+            "old": None,
+            "new": "v",
+            "status": "ok",
+            "note": "",
+            "source": None,
+            "excerpt": None,
+            "kind": k,
+        }
+        for f, k in [
+            ("deviation.title", "listed"),
+            ("deviation.make", "listed"),
+            ("deviation.stage", "derived"),
+            ("deviation.kind", "derived"),
+        ]
+    ]
+    fields_path.write_text(
+        "".join(json.dumps(x) + "\n" for x in lines), encoding="utf-8"
+    )
+    flags, passes = batches.field_items(fields_path)
+    assert not flags
+    assert set(passes) == {batches.LISTED_POOL, "deviation.stage"}
+    assert len(passes[batches.LISTED_POOL]) == 2

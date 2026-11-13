@@ -9,10 +9,15 @@ What is read:
             added TCBs, field flags and unverifiable fields, and any item
             with a new check hit;
   sampled   --field-sample passes per verbatim/date field (stratified by
-            directory), --class-sample each of layout-only and markup-only,
-            new-file document versions (all when ≤ --new-docs, else that many
-            stratified, hits always);
+            directory), and as many over all `listed` deviation fields
+            together and per judgement field (SAMPLED_FIELDS), --class-sample
+            each of layout-only and markup-only, new-file document versions
+            (all when ≤ --new-docs, else that many stratified, hits always),
+            --dev-sample new deviation records (stratified by issuer, kind
+            and stage);
   never     fields-only files whose fields all passed (beyond the sample),
+            new deviation records beyond the sample (every field is checked by
+            script against the listing),
             markup-lost (held back by rule), TCBs identical to data/.
 
 Cost: each item gets an estimate (BASE[mode] + payload chars / 4 tokens), each
@@ -45,12 +50,26 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).parent))
-from items import aircraft_items, dedup, document_items, field_excerpt, tcb_index  # noqa: E402
+from items import (  # noqa: E402
+    aircraft_items,
+    dedup,
+    deviation_item,
+    document_items,
+    field_excerpt,
+    tcb_index,
+)
 from sample import round_robin  # noqa: E402
 
 READER_OVERHEAD = 20_000
 # full-tcds: a whole basis against the PDF; full-doc: one new provision
-BASE = {"field": 600, "diff": 2_500, "full-tcds": 8_000, "full-doc": 3_000}
+# full-dev: one deviation record against its listing entry
+BASE = {
+    "field": 600,
+    "diff": 2_500,
+    "full-tcds": 8_000,
+    "full-doc": 3_000,
+    "full-dev": 1_500,
+}
 MAX_ITEMS = {"field": 30, "diff": 12, "full": 6}
 WAVE = 16  # readers dispatched at once (the harness allows 20)
 ALWAYS = {
@@ -62,21 +81,33 @@ ALWAYS = {
     "field-flag",
 }
 SAMPLED_FIELD_KINDS = {"verbatim", "date"}
+# all `listed` deviation fields share one sample: they are one exact rule
+LISTED_POOL = "deviation listed fields"
+# derived fields whose script check is partial: their passes are sampled too
+SAMPLED_FIELDS = {"deviation.stage", "deviation.final", "deviation.citations"}
 # (setting, value) applied in order while the estimate is over --budget
 DOWNSCALE = [
     ("class_sample", 4),
     ("field_sample", 10),
     ("new_docs", 8),
+    ("dev_sample", 8),
     ("class_sample", 0),
     ("field_sample", 5),
     ("new_docs", 0),
+    ("dev_sample", 0),
 ]
 
 
 def est(item: dict[str, Any]) -> int:
     mode = item["mode"]
     if mode == "full":
-        mode = "full-tcds" if "tcds" in item else "full-doc"
+        mode = (
+            "full-tcds"
+            if "tcds" in item
+            else "full-dev"
+            if "deviation" in item
+            else "full-doc"
+        )
     return BASE[mode] + len(json.dumps(item, ensure_ascii=False)) // 4
 
 
@@ -129,7 +160,11 @@ def field_items(path: Path | None) -> tuple[list[dict], dict[str, list[dict]]]:
                 field_excerpt(r["source"], str(r["new"] or "")) or r["excerpt"]
             )
             flags.append(item)
-        elif r["kind"] in SAMPLED_FIELD_KINDS:
+        elif r["kind"] == "listed":
+            item["reason"] = "field-sample"
+            item["excerpt"] = r["excerpt"]
+            passes[LISTED_POOL].append(item)
+        elif r["kind"] in SAMPLED_FIELD_KINDS or r["field"] in SAMPLED_FIELDS:
             item["reason"] = "field-sample"
             item["excerpt"] = r["excerpt"]
             passes[r["field"]].append(item)
@@ -154,6 +189,8 @@ def select(pools: dict[str, Any], s: dict[str, int], seed: int) -> list[dict]:
     picked += (
         docs if len(docs) <= s["new_docs"] else stratified(docs, s["new_docs"], rng)
     )
+    devs = pools["optional"].get("deviation-new", [])
+    picked += stratified(devs, s["dev_sample"], rng)
     return picked
 
 
@@ -191,6 +228,9 @@ def build_pools(args: argparse.Namespace) -> tuple[dict[str, Any], list[dict], d
     for row in rows:
         if row["kind"] == "document":
             items += document_items(row, args.staged, args.data)
+        elif row["kind"] == "deviation":
+            if (dev := deviation_item(row, args.staged)) is not None:
+                items.append(dev)
         else:
             its, nts = aircraft_items(row, args.staged, known)
             items += its
@@ -231,6 +271,10 @@ def _why(rel: str, cls: set[str], failed: set[str], notes: dict) -> str:
         return "; ".join(notes[rel])
     if "versions-removed" in cls:
         return "versions removed: needs a reason"
+    if rel.startswith("deviations/"):
+        if rel in failed:
+            return "deviation: script flagged a field (see fields.jsonl)"
+        return "deviation: every field checked by script, not sampled"
     return "not sampled: " + ",".join(sorted(cls))
 
 
@@ -265,6 +309,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     p.add_argument("--field-sample", type=int, default=20)
     p.add_argument("--class-sample", type=int, default=8)
     p.add_argument("--new-docs", type=int, default=24)
+    p.add_argument("--dev-sample", type=int, default=16)
     p.add_argument("--seed", type=int, default=0)
     return p.parse_args(argv)
 
@@ -276,6 +321,7 @@ def plan_batches(
         "field_sample": args.field_sample,
         "class_sample": args.class_sample,
         "new_docs": args.new_docs,
+        "dev_sample": args.dev_sample,
     }
     steps: list[str] = []
     batches = pack(select(pools, s, args.seed), args.batch_tokens)

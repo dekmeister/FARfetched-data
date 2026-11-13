@@ -1,6 +1,6 @@
 ---
 name: promote-staged
-description: Review what promoting tools/out/staged/ into data/ would change and promote it if there are no major problems. Diffs staged against data/, verifies mechanical field changes by script, runs automated checks, has Sonnet subagents read only what changed (plus new content) against the local source copies within a token budget, holds back files that regress, promotes the rest and logs remaining problems to reviews/DATA_FINDINGS.md. Use when the user asks to review, check or promote the staged tree. Never changes the pipeline.
+description: Review what promoting tools/out/staged/ (documents, aircraft and deviation records) into data/ would change and promote it if there are no major problems. Diffs staged against data/, verifies mechanical field changes by script, runs automated checks, has Sonnet subagents read only what changed (plus new content) against the local source copies within a token budget, holds back files that regress, promotes the rest and logs remaining problems to reviews/DATA_FINDINGS.md. Use when the user asks to review, check or promote the staged tree. Never changes the pipeline.
 ---
 
 # promote-staged
@@ -48,6 +48,7 @@ export PYTHONPATH=.:$A
 uv run python $D/delta.py > $S/delta.jsonl 2> $S/delta_summary.txt
 uv run python -m tools.s03_promote.promote --dry-run </dev/null > $S/dry_docs.txt 2>&1
 uv run python -m tools.s03_promote.promote --aircraft --dry-run </dev/null > $S/dry_aircraft.txt 2>&1
+uv run python -m tools.s03_promote.promote --deviations --dry-run </dev/null > $S/dry_deviations.txt 2>&1
 ```
 
 If `delta.py` reports `0 files that would change`, **stop**. Tell the user
@@ -68,6 +69,16 @@ scalar `fields` changes and a `residual` flag (anything else changed).
 | `markup-only` / `layout-only` | words unchanged (machine-checked): is the new markup or layout right? | reader, diff mode, a sample |
 | `basis-lines` / `references` | is each added, removed or re-parsed line right? | reader, diff mode: every one |
 | `tcds-revision` | the TCB's revision, date or URL changed | `fields.py` for the fields; any basis change is `basis-lines` |
+| deviation `new-file` | is the record what its listing says? | `fields.py`, every field (and every field the listing prints that the record leaves out); readers get a sample of whole records plus field samples |
+| deviation `fields-only` | is each changed field (citations included) right? | `fields.py`, as above |
+
+**Deviation records** (`data/deviations/{issuer}/{key}.json`) are link-only
+metadata from the regulator's listing (docs/DATA_FORMAT.md §Deviation file),
+so every change to one is a field change, named `deviation.<key>`. The source
+is the cached listing, not the PDF: for FAA the DRS listing entry
+(`input/cache/drs/deviations/{type}/pNNNN.json`, matched by docUniqueId), for
+EASA the detail page (`input/cache/easa_deviations/detail/{key}.html`). See
+`listing.py`.
 
 The dry runs flag `VERSIONS n → m` (also in
 `tools/out/reports/promote_version_counts.tsv`). Each one needs a reason (a
@@ -90,6 +101,18 @@ it is read. That is the safe default. If a run shows a new field read many
 times over, suggest a verifier to the user (it's a skill change, not a
 pipeline change).
 
+Deviation fields use two kinds from `listing.py`. `listed` (title, number,
+applicant, make, model, regulation_ref, disposition, published_on): equal to
+the value under the field's DRS label, or on the EASA page; an absent field
+passes only when the listing prints nothing there. `derived` (kind, stage,
+source_url, final, citations, citation_gaps): the listing type, the DRS view
+URL or canonical link, a `final` that names a final record of the same kind
+and docket, citation numbers that the title, number or regulation_ref names.
+EASA `stage` can't be decided by script (EASA labels files inconsistently),
+so it passes with a note unless the page says "with final publication", and
+is sampled. Many deviation flags with one note mean a verifier or a pipeline
+bug: look at `fields_summary.txt` before planning the reading.
+
 **b. Does the result build?** Overlay staged on a copy of data/ (orphans
 stay, as with promote) and build it. Build data/ as well for comparison:
 
@@ -97,6 +120,7 @@ stay, as with promote) and build it. Build data/ as well for comparison:
 cp -r data $S/cand
 cp -r tools/out/staged/documents/. $S/cand/documents/
 [ -d tools/out/staged/aircraft ] && cp -r tools/out/staged/aircraft/. $S/cand/aircraft/
+[ -d tools/out/staged/deviations ] && mkdir -p $S/cand/deviations && cp -r tools/out/staged/deviations/. $S/cand/deviations/
 uv run python build.py --data-dir $S/cand --out $S/cand.sqlite   # report: $S/cand_report.json
 uv run python build.py --out $S/base.sqlite                     # report: $S/base_report.json
 ```
@@ -111,6 +135,10 @@ Compare the two reports' row counts, and explain any big drop.
 uv run python $A/checks.py --root tools/out/staged --baseline-root data > $S/new_checks.tsv
 uv run python -m scripts.scan_data --root tools/out/staged > $S/new_scan.tsv   # only hits not in the baseline
 ```
+
+These cover documents and aircraft only; deviation records are covered by
+`fields.py` and by the build (path vs identity, citations resolve, `cited`
+slices printed, `final` is a final record of the same kind).
 
 Every hit in these two files is new. `batches.py` attaches them to their
 items (by designator for versions, by file for aircraft) and makes those
@@ -135,20 +163,25 @@ It builds items in three modes (see `items.py`, and the modes in READER.md):
   lines, the data/ side, and a source slice (page and lines) for each.
   Identical changes across files (one TCDS shared by many models) are one
   item.
-- **full**: new content (new or added versions, a TCB not in data/). A new
-  TCB that is byte-identical to one already in data/ is skipped.
+- **full**: new content (new or added versions, a TCB not in data/, a new
+  deviation record with its listing excerpt). A new TCB that is
+  byte-identical to one already in data/ is skipped.
 
 Always read: words, versions-added, basis-line diffs, new or added TCBs,
-field flags, anything with a new hit. Sampled: field passes (20 per field),
-layout-only and markup-only (8 each), new-file document versions (all when
-≤24, else 24 stratified). Never read: verified fields beyond the sample,
-markup-lost (held), TCBs identical to data/.
+field flags (deviation ones included), anything with a new hit. Sampled:
+field passes (20 per field; deviation `listed` fields share one pool of 20,
+and deviation stage, final and citations get 20 each), layout-only and
+markup-only (8 each), new-file document versions (all when ≤24, else 24
+stratified), new deviation records (`--dev-sample 16`, stratified by issuer,
+kind and stage). Never read: verified fields beyond the sample, new
+deviation records beyond the sample, markup-lost (held), TCBs identical to
+data/.
 
 **Before dispatching**, read `$S/batches/plan.json` and tell the user in one
 line: items, batches, estimated tokens, and any downscale steps. The budget
 is `--budget 400000` (target), `--hard-stop 800000`. Over the budget,
 `batches.py` shrinks the samples (layout/markup, then field passes, then
-new documents). If the must-read alone is over the hard stop, it writes no
+new documents, then deviation records). If the must-read alone is over the hard stop, it writes no
 batches and exits 3. Then **stop and ask the user**: the change is
 pipeline-sized, and should be split (e.g. promote aircraft and documents
 separately, or one issuer at a time) or given an explicit larger budget.
@@ -186,7 +219,15 @@ Hold back a file when it has any of:
   regresses, or new content is wrong);
 - `markup-lost` that no reading justifies;
 - versions removed, or a `VERSIONS` flag, with no reason found;
-- a confirmed new hit from step 2c.
+- a confirmed new hit from step 2c;
+- (deviation) a field a reader confirms the listing contradicts, when it
+  misleads (wrong number, title, stage or `final` link).
+
+Deviation records depend on each other: holding back a final record means
+holding back every proposed record whose `final` names it, or the build
+fails. Citations name document provisions: a record citing a provision that
+is held back (or not yet in data/) fails the build too, so check
+`$S/cand_report.json` against what you hold.
 
 Promote everything else, including files with `major`/`minor` problems and
 field values a reader found wrong but not misleading (e.g. a holder missing
@@ -205,7 +246,7 @@ from it. Every conflict is pre-accepted, and stdin is closed, so nothing can
 prompt:
 
 ```bash
-mkdir -p $S/approved/documents $S/approved/aircraft
+mkdir -p $S/approved/documents $S/approved/aircraft $S/approved/deviations
 # copy each approved staged file to the same relative path under $S/approved/,
 # plus the _document.json of every document directory you copy into
 # (unless its own delta removes revisions you haven't explained)
@@ -215,10 +256,12 @@ uv run python -m tools.s03_promote.promote --staged $S/approved/documents \
     --accept <relpath> ... </dev/null
 uv run python -m tools.s03_promote.promote --aircraft --staged $S/approved/aircraft \
     --accept <relpath> ... </dev/null
+uv run python -m tools.s03_promote.promote --deviations --staged $S/approved/deviations \
+    --accept <relpath> ... </dev/null
 ```
 
-`--accept` paths are relative to `data/documents/` (or `data/aircraft/`), one
-per changed file. New files need no `--accept`. The orphan list from a run
+`--accept` paths are relative to `data/documents/` (or `data/aircraft/`,
+`data/deviations/`), one per changed file. New files need no `--accept`. The orphan list from a run
 against the approved tree is meaningless, because the tree is partial. Use the
 orphans from step 1.
 
@@ -227,6 +270,7 @@ Afterwards:
 ```bash
 uv run python build.py                        # must pass, zero unresolved
 uv run python -m tools.s03_promote.promote --dry-run </dev/null   # only held-back files left
+uv run python -m tools.s03_promote.promote --deviations --dry-run </dev/null   # likewise
 ```
 
 ## 6. Log and report
@@ -252,7 +296,8 @@ Tell the user, briefly:
 | `delta.py` | staged vs data/: classes, field changes, residual | `test_fields.py` |
 | `fields.py` | verifies field changes by kind (verbatim, date, derived) | `test_fields.py` |
 | `context.py` | finds a phrase in a local source copy; slice with page and lines | `test_fields.py` |
-| `items.py` | builds field/diff/full items from a delta row; dedup | `test_batches.py` |
+| `listing.py` | deviation records: cached listing entry, `listed` and `derived` verifiers | `test_fields.py` |
+| `items.py` | builds field/diff/full items from a delta row (deviation records too); dedup | `test_batches.py` |
 | `batches.py` | selection, sampling, cost estimate, downscale, packing | `test_batches.py` |
 
 ```bash

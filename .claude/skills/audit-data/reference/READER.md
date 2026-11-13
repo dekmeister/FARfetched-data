@@ -63,6 +63,17 @@ where in the file, and `relpaths` lists every file holding the same value.
 - The `excerpt` is usually enough. Open the PDF page only if it isn't.
 - A `field-sample` that is wrong means the script missed it. Say so in the
   summary ("script passed it").
+- **Deviation fields** (`deviation.<key>`, relpath under `deviations/`)
+  come from the regulator's listing, not a PDF. `source` is either a DRS
+  listing page with `#<docUniqueId>` (find the entry with that
+  `docUniqueId` in the JSON's `documentList`; its labelled metadata is in
+  `headerLink`, `description`, `subText` and `tags`) or an EASA detail page
+  (`.html`). For `deviation.stage` (EASA): `final` when the page holds the
+  final document, whatever its label says; `proposed` when only the
+  proposal, CRD or comments are there. For `deviation.final`: the proposed
+  and the final record must be the same special condition (same docket,
+  same subject). For `deviation.citations`: each citation must be a section
+  the title, number or regulation_ref names, at the right part.
 - Nothing else in the file is in scope.
 
 ## Mode: diff
@@ -97,7 +108,17 @@ sample, a new provision or version (`staged_text`), or a new TCB
 `extracted` (pipeline text, nearly raw) and `source` (a PDF, or for FAA a
 cached DRS JSON holding HTML), and for a TCDS `source_text` (the pdftotext
 output the parser used). For a TCDS, compare the certification basis section
-line by line. Any `hits` are automated check hits on the item: confirm or
+line by line.
+
+A `deviation` item is one new deviation record (docs/DATA_FORMAT.md
+§Deviation file) with `listing_excerpt`, the regulator's listing for it
+(`source` says where; see *Mode: field* for the formats). The record holds
+only what the listing says, never the document's text. Check every field
+against the listing: values verbatim; nothing the listing prints for the
+field left out; `kind` and `stage` (as in *Mode: field*); `number` the
+identifier as printed; each citation named by the title, number or
+regulation_ref; `final` the same SC. Use category `deviation`. Skip the error
+catalogue for these items. Any `hits` are automated check hits on the item: confirm or
 dismiss each.
 
 ## Error catalogue
@@ -169,11 +190,11 @@ per item, even when it is clean:
 
 - `id` is the item's `id` (promotion batches; omit for audit-data).
 - `verdict`: `ok`, `issues` or `could-not-check`.
-- `locator`: the designator; `"<issuer> <tcds_number> #<display_order>"` for a
+- `locator`: the designator; `"<issuer> <key> <field>"` for a deviation; `"<issuer> <tcds_number> #<display_order>"` for a
   basis line; `"<issuer> <tcds_number> <field>"` for a TCB field.
 - `category`: formula, boundary, furniture, figure-table, ocr, structure,
   wrong-revision, metadata, tcds-lines, tcds-references, tcds-entry-type,
-  tcds-model, tcds-holder, other.
+  tcds-model, tcds-holder, deviation, other.
 - `pre_existing`: always true or false in promotion items (diff mode says
   how); omit in audit-data and full mode for new content.
 - Excerpts under 200 characters. A finding needs a `source_excerpt` or a
