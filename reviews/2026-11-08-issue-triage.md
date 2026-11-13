@@ -28,7 +28,7 @@ ETCDS-12, FAA-24, DOD-8 and NATO-6 since.)
 | TCDS-12 | Re-parse promoted: 69 models gained Part 36 references (b3ca90c) | 16 entries still cite Part 36 with none (6aff1d9) |
 | ETCDS-15 | 18 aircraft promoted with Part 36 references (861a8c0) | The lines listed in the issue; composite lines need splitting |
 
-**Open items that this ranking never covered (33):** BUILD-13, BUILD-14, BUILD-15, BUILD-16, BUILD-17, CAR-10, CAR-11, CAR-12, CAR-13, CAR-7, CAR-8, CAR-9, EASA-22, EASA-24, EASA-25, ETCDS-16, ETCDS-17, ETCDS-18, ETCDS-19, FAA-30, FAA-31, FAA-32, PROC-18, ROADMAP-11, ROADMAP-12, TCDS-14, TCDS-15, TCDS-16, TCDS-17, TCDS-18, TCDS-19, TCDS-20, TEXT-15.
+**Open items that this ranking never covered (32):** BUILD-13, BUILD-14, BUILD-15, BUILD-16, BUILD-17, CAR-10, CAR-11, CAR-12, CAR-13, CAR-7, CAR-8, CAR-9, EASA-22, EASA-24, EASA-25, ETCDS-16, ETCDS-17, ETCDS-18, ETCDS-19, FAA-30, FAA-31, FAA-32, PROC-18, ROADMAP-11, ROADMAP-12, TCDS-14, TCDS-15, TCDS-16, TCDS-17, TCDS-18, TCDS-19, TCDS-20.
 Rank them at the next triage. Of these, CAR-7 to CAR-13 and FAA-30 to FAA-32
 come from the damage scan and reader reports; TCDS-14 to TCDS-20 and ETCDS-16
 to ETCDS-19 come from the multi-model and manufacturer work; ROADMAP-11 and
