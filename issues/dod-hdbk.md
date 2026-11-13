@@ -27,6 +27,12 @@ continues in the next phase: 18 versions are `flat-failed` (sequence break at
 (2)/(3)); 933 of 993 516D versions are structured. Same format limit as
 TEXT-13.
 
+The structured ones show it too: the method name (`Analysis.`, `Test.`,
+`Inspection.`, …) ends the line before it instead of heading its list, and
+a restarted `(1)` nests under the previous method's last item (6.1.11.2.1.7
+@516D: `… Test.` / `  (1) Lab test`, path (1)(1)). 2,144 method names end a
+line in 892 dod versions (2026-11-13). Audit F-20261112-12.
+
 **To close:** follows TEXT-13.
 
 ### DOD-5. Titles of 516-516B are first sentences
