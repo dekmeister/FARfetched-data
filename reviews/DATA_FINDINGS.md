@@ -215,13 +215,6 @@ For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
 - **Tooling note:** the 20-subagent concurrency limit meant three batches launched late; no effect on results.
 - **Check candidates:** `Amendments N – M` en-dash range with `to` = lower number; basis line that is a bare model footer (`^AS202/\S+$`), `3 Special Conditions: None`, or a table header ("Topic"); line over 1500 chars; `\S Table \d+--` run onto a prose line; `[ (]-inch` / `nominal inch` (lost fraction glyph); several `(N) ` labels on one line; holder string that is a prefix of the next cover-page line.
 
-### F-20261113-03 · major · text-layout · documents/faa/26/21.json 26-5..26-7, 26/5.json 26-1/26-3, 26/39 (also F23 23-62)
-
-"Table 1--Compliance Dates for Affected Airplanes" / "Table 1--Applicability of Part 26 Rules" captions run onto the end of the previous paragraph; the source has them on their own line. Table cells match.
-- Source: DRS Part 26 records
-- Suggested area: issues/faa-regs (Part 26 / FAA-)
-- Promotion: promoted (new files)
-
 ### F-20261113-05 · major · missing-source · documents/faa/26/35.json, 26/5.json
 
 Text refers to Tables 1 and 2 (26.35) and Table 1 (26.5, 26-2) that are absent; the DRS source has only the intro sentence. 26.5 also carries stray `]` bracket marks from DRS amendment marking.

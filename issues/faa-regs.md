@@ -185,6 +185,21 @@ version pair then differs in markup as well as words.
 **To close:** decide whether a first row of all-text cells over numeric rows
 may be marked a header, or leave it.
 
+### FAA-33. Plain-text (dash-ruled) DRS tables are flattened into prose
+
+Some rgl-era DRS records give a table as preformatted text, not `<table>`: a
+centred caption, rows of dashes and one line per row. Extract only knows
+HTML tables, so caption, rules and cells run onto the paragraph before them.
+For example, §26.39(a)@26-2 ends "… after September 20, 2010. Table 1
+------ Model--Boeing ------ 747 Series 737 Series …". Seven DRS documents
+have such tables (2026-11-14 survey, a run of 30+ dashes before `<br>`):
+26.39 at 26-2 and 26-3, 23.397 "Control system loads", and four records for
+25.1391/25.1401 (light intensity tables).
+
+**To close:** parse the dash-ruled block into the flat table form in
+`drs_text.py` (columns may be space-aligned, so check each table), or write
+`text.tsv` `replace_text` rows with the DRS record as evidence.
+
 ### FAA-27. 25.725 and 25.727 re-extract as `deleted`
 
 A `--redo --offline` re-extract (2026-11-07) stages both as `deleted: true`
