@@ -69,3 +69,18 @@ About 7 provisions / 10 versions.
 
 **To close:** EdB draws full vector grids (AppC p.187, AppL p.205), so the
 geometry route of EASA-17 would work there; Ed. 1 AppC needs transcription.
+
+### NATO-7. An unlabelled lead-in between two labels joins the label before it
+
+USAR.1323 (Ed1 and EdB-V1) prints "For all airspeed measuring devices:" as a
+paragraph of its own between (b) and (c) (EdB-V1 pdftotext, blank lines
+around it). The extractor keeps a source break only before a line that opens
+with a label, so the lead-in ends (b)'s line. The format holds it (an
+unlabelled depth-0 line between (b) and (c) parses), but `structure_version`
+with `source_breaks` honours breaks only before labels, and `text.tsv` can't
+add one. A whole-tree search (a label line ending in `. Xxx … :` followed by
+the next sibling label) finds only this provision. Audit F-20261112-12.
+
+**To close:** keep a break before a whole source line that ends in `:` after
+a sentence end and before a sibling label (extractor and structure rule), or
+accept it for one provision.
