@@ -145,6 +145,9 @@ reported.
 5. **OCR damage (CAR 3 above all).** `(l)`/`(1)`, `(c)`/`(e)`; junk on
    V-speeds; words broken in two; word salad; wrong digits (speeds, weights,
    load factors, percentages matter most).
+   CAA `CAR3-0` is Part 3 as printed 1 November 1949 (`3.xx` numbering),
+   read from the CAR3-1 compilation. The 1945 Part 03 (`CAR3-00c/00d`,
+   `03.xxx` numbering) is another document: never compare against it.
 6. **Structure.** Wrong depth; skipped labels; an appendix or roman-numeral
    list left as one block. One paragraph per line, depth from the labels
    (docs/DATA_FORMAT.md §Text format).

@@ -15,7 +15,9 @@ against the source before acting. Delete this file when it is empty.
 - **Reading:** 102 items read by 17 Sonnet subagents (readers added 2 items
   outside the sample: faa/36 36-8 and the pc-12 FAA A78EU block; both are
   counted). Nobody could not-check an item. One medium-confidence blocker
-  (F-20261112-02 CAR3-0 §576) went to a second reader: **confirmed**. Nothing
+  (F-20261112-02 CAR3-0 §576) went to a second reader, who confirmed it, but
+  both readers had compared it with the wrong document (dismissed 2026-11-13:
+  `sample.py` gave CAR3-0 items the 1945 Part 03 scans). Nothing
   below is "verified" beyond what a reader checked against the source; the
   readers mostly used pdftotext / cached DRS HTML, not page images.
 - **Result:** 13 blocker, 61 major, 46 minor findings in 43 of 102 items
@@ -76,22 +78,6 @@ compliance", "trimmed at ;"; 27-19 probably the same), `faa/25/795.json` 25-145
 - Data: `faa/27/B27.json` 27-44: `means instrument climb speed, utilized instead of for compliance`
 - Source: DRS `<img>` GIF symbols in the SectionRule HTML (cached DRS JSON)
 - Suggested area: already ISSUES TEXT-11 (display formulas), FAA-30 (image-only symbols)
-- Promotion: n/a
-
-### F-20261112-02 · blocker · wrong-revision · CAR3-0 text carries later numbering
-
-`caa/car-3/44.json` CAR3-0 is the later §3.44 text (cross-refs 3.73, 3.74,
-3.75, 3.181, 3.242); the 1945 source (`CAR3-00d_full.pdf` p.4) is §03.071 with
-03.112, 03.113, 03.114, 03.210, 03.240, and the CAR3-10 raw text matches the
-published wording. `caa/car-3/576.json` CAR3-0: data `See §§3.655, 3.670,
-3.671, and 3.674.`; source (OCR line ~2925) `03.435 Oil system instruments.
-See §§ 03.51, 03.522 through 03.5221, and § 03.5224.` Second reader
-**confirmed**: key 576 maps correctly (03.435 = 3.576), the cross-references
-are rewritten to later numbering, and the range 03.522–03.5221 collapsed to
-two numbers. Whether CAR3-0 cross-references are meant to be renumbered is
-undocumented; if verbatim is the rule, this is a defect. Other CAR3-0 items
-may be affected (two of six sampled were).
-- Suggested area: issues/car.md (CAR-). Related: CAR-7
 - Promotion: n/a
 
 ### F-20261112-03 · blocker · boundary · CAR section boundaries and missing text
@@ -209,8 +195,7 @@ For `scripts/scan_data.py` (provision text and metadata):
    F-20261112-05 is fixed: CAR cites now come from FR issues
    (`tools/overrides/car_cites.tsv`).
 5. **Text fragment from another amendment:** text opening with `* * *` or
-   containing `By amending §` (CAR3R-5); a CAR3-0 version whose cross-references
-   or heading use `3.xx` numbering instead of `03.xxx` (CAR3-0 44, 576).
+   containing `By amending §` (CAR3R-5).
 6. **CAR OCR junk tokens:** `\bV;`, `Vs,[’”]`, `V:z`, `\(ce\)`, `\(bo\)`, `\$§`,
    `shal\]`, `Janding`, `fiaps`, `Gi\)`.
 7. **Merged sections:** a raw `§3.NN[a-z]? Title` heading inside a CAR text

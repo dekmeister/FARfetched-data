@@ -35,7 +35,23 @@ INPUT = Path("input")
 
 
 def _first(paths: list[Path]) -> list[str]:
-    return [p.as_posix() for p in paths if p.exists()][:4]
+    return [p.as_posix() for p in paths if p.exists()][:6]
+
+
+def car_sources(des: str) -> list[Path]:
+    """The OCR sidecars and PDFs the CAR extractor reads for a designator.
+
+    Not a glob: `CAR3-0*` matches only the 1945 Part 03 files (CAR3-00c/00d,
+    a different document) and `CAR3-1*` matches CAR3-10..14. CAR3-0 is the
+    Part 3 printed 1949-11-01, read from the CAR3-1 compilation.
+    """
+    from tools.s01_extract.car.extract import pdf_for_body
+
+    names = [p.name for p in pdf_for_body(des)]
+    if des != "CAR3-0" and f"{des}.pdf" not in names:
+        names.append(f"{des}.pdf")  # the amendment's narrative
+    pdfs = [INPUT / "Regs/CAR/3" / n for n in names]
+    return [p.with_suffix(".raw.txt") for p in pdfs] + pdfs
 
 
 def source_copies(issuer: str, doc: str, key: str, v: dict[str, Any]) -> dict[str, Any]:
@@ -51,7 +67,7 @@ def source_copies(issuer: str, doc: str, key: str, v: dict[str, Any]) -> dict[st
         sources = [INPUT / "Regs/EASA" / doc.upper() / f"{des}.pdf"]
     elif issuer in ("caa", "cab"):
         extracted = [EXTRACTED / "car" / des / f"{key}.txt"]
-        sources = sorted((INPUT / "Regs/CAR/3").glob(f"{des}*"))
+        sources = car_sources(des)
     elif issuer == "nato":
         extracted = [EXTRACTED / "nato/usar" / des.lower() / f"{key}.json"]
         ed = des.replace("-", " ")
