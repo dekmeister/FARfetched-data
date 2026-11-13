@@ -70,17 +70,6 @@ heading) has the same risk. A sample of 45 read right.
 
 **To close:** as TEXT-1.
 
-### TEXT-15. A label after a bare `or` / `and` stays inline
-
-`or` and `and` before a label mark a cross-reference (`paragraph (a) or (b)`),
-so a real item after one, with no punctuation, stays in its predecessor: 14 CFR
-26.11(a) at 26-0 and 26-7 keeps `(1) … of 30 or more or (2) A maximum payload
-capacity …` on one line, where the source has two paragraphs. Found while
-fixing GitHub #32 (26.11(g)).
-
-**To close:** a rule that tells a bare conjunction before the next value from
-a label list (check corpus-wide), or a structure override.
-
 ## Format limits and app rules
 
 ### TEXT-7. FAA change brackets span paragraphs

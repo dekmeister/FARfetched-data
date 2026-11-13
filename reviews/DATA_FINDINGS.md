@@ -222,12 +222,6 @@ For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
 - Suggested area: issues/faa-regs (Part 26 / FAA-)
 - Promotion: promoted (new files)
 
-### F-20261113-04 · major · text-layout · documents/faa/26/11.json, 26/41.json
-
-26.11(g)(5)-(13) run on one line and (a)(1)/(a)(2) joined; 26.41 has nine definitions joined into one line. Source has one per line.
-- Suggested area: issues/faa-regs
-- Promotion: promoted (new files)
-
 ### F-20261113-05 · major · missing-source · documents/faa/26/35.json, 26/5.json
 
 Text refers to Tables 1 and 2 (26.35) and Table 1 (26.5, 26-2) that are absent; the DRS source has only the intro sentence. 26.5 also carries stray `]` bracket marks from DRS amendment marking.
