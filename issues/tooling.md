@@ -140,11 +140,21 @@ whether the NATO text stays in `data/`. Get advice if the terms stay unclear.
 ### PROC-16. Versions without a `source_url`
 
 All 936 CAR versions have no `source_url` (`s02_emit/car/emit.py` sets `None`),
-and 45 live FAA versions have none (2026-11-07), against CLAUDE.md's "include
-`source_url` on every version". Part 36 has the most, at 13.
+and 73 FAA versions have none (2026-11-13; Part 36 21, 23 17, 25 15, 27 10,
+29 10), against CLAUDE.md's "include `source_url` on every version". The FAA
+ones by cause:
 
-**To close:** a stable reference for each CAR scan, and a look at the 45 FAA
-rows. Then decide whether the build should enforce it.
+- 45 appendices assembled from DRS subsection documents
+  (`s01_extract/faa/regs/appendix.py`, `source_url=None`): there is no one
+  document, though each subsection's DRS URL is known (B27@27-19 and @27-44,
+  F25@25-32, H25, F36). Audit F-20261112-12.
+- 28 `TEXT MISSING` rows (12 appendices, 16 sections): nothing was
+  transcribed, so nothing to link.
+
+**To close:** a stable reference for each CAR scan; for an assembled
+appendix, a format decision (the first subsection's URL, a list, or the
+regulator's whole-appendix page). Then decide whether the build should
+enforce it.
 
 ### PROC-17. Text accuracy is only partly measured
 
