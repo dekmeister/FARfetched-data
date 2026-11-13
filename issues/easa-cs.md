@@ -172,6 +172,15 @@ versions from table reading remain: E29@CS29-11/12 (a repeated "FIELD
 STRENGTH (V/m) PEAK AVERAGE" header) and other `unexplained_change` rows on
 table paragraphs.
 
+CS 25.143(h) at CS25-3..26: the reader dropped "ANGLE IN A" and moved the
+THRUST/POWER SETTING column into (j). Text overrides (F-20261114b-01, two
+rows per revision) put those words back into (h) in reading order, without
+table markup. A geometry reader that builds this table will make those rows
+stale: replace them with its table, or one override row writing the table.
+The footnote marks `(1)`–`(3)` are superscript in print. Written as `(N)`
+after the table, layout reads them as labels (h)(1)–(3), so a table row
+needs `^{(N)}` for them.
+
 **To close:** rebuild tables from geometry: word boxes from `pdftotext
 -bbox-layout` plus ruling lines from `mutool trace` (the reader exists:
 `tools/s00_common/pdf_tables.py`, used by NATO with listed page regions) (old PDFs draw full grids;
