@@ -248,12 +248,6 @@ For `scripts/scan_data.py` or `checks.py` (TCDS aircraft files):
 - **Orphans left for the user:** airbus-defence-and-space-s-a/c-212-ee.json, gulfstream-aerospace-corporation/gvii-g500.json, gvii-g600.json, gulfstream-aerospace-lp-galp/gulfstream-g280.json, textron-aviation-inc/680a.json
 - **Tooling note:** `.claude/skills/promote-staged/scripts/batches.py` crashes on a `new-file` aircraft delta row (its `tcb` is a list: unhashable in `aircraft_items`). Worked around with a scratch copy.
 
-### F-20261113-03 · minor · tcds-references · ga8.json EASA.IM.A.042, ga10.json FAA A00071CE
-
-Lines with no refs, same as in data/: "As defined in CRI A-01…" (GA8), and 14 CFR Part 34 (GA10; Part 34 isn't a document), 21.29/21.183(c), and the ELOS line. All are expected, with `raw_reference` verbatim.
-- Suggested area: none (expected)
-- Promotion: promoted
-
 ### F-20261113-04 · minor · check-candidate · EASA wrapped basis lines
 
 The old data/ ga8.json had a wrapped line merged with the next ("23.629 which is at Amendment 45 Serial Nos GA8-03-026…"). The staged tree fixes it. A check could flag a basis line starting with a continuation fragment like "23.629 which is at…" (compare LOG.md candidate 16).
