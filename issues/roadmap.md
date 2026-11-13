@@ -34,6 +34,16 @@ Outstanding:
 - **EASA numbers.** 301 of 429 records print no identifier on the listing; the
   downloaded PDFs (input/Deviations/EASA/) may. Reading them is OCR/extraction
   work, judged from a sample.
+- **EASA stage leftovers.** The emitter reads the stage from each file's
+  page-1 Proposed/Final box, then link text, a CRD, status and title
+  (tools/s00_docs/EASA_DEVIATIONS.md §Records). 70 of 429 records are
+  `proposed` only because nothing on the page says either way
+  (`stage_from=none` in `easa_deviations_emit_report.tsv`): mostly old
+  single-file pages whose one PDF could be the proposal or the final. Pages
+  with a proposal plus an unlabelled second file (47459, 48667, 5941) are
+  among the 100 `stage_from=label` proposals and may be final.
+  **To close:** read those PDFs (Sonnet sample first) and either find a
+  scriptable sign or add reviewed override rows.
 
 ### ROADMAP-3. More regulation sources
 

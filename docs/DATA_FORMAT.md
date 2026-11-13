@@ -629,7 +629,7 @@ and proposed) and certification-relevant exemptions from DRS.
   "kind": "special_condition",
   "number": "SC-E25.904-01",
   "title": "Special Condition SC-E25.904-01 – Use of Automatic Power Reserve for Go-Around Performance Credit - Issue 01",
-  "stage": "proposed",
+  "stage": "final",
   "published_on": "2021-01-19",
   "source_url": "https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-sc-e25904-01-use-automatic",
   "citations": [{ "issuer": "EASA", "document": "cs-25", "number": "904" }]
@@ -643,7 +643,7 @@ and proposed) and certification-relevant exemptions from DRS.
 | `kind` | no | `special_condition`, `elos` (EASA's Equivalent Safety Finding), `exemption`, `deviation`, `means_of_compliance` (EASA's interpretative material or MoC to an SC or ESF). |
 | `number` | yes | The identifier as printed (`SC-E25.904-01`, older `ESF F-69`), or null when the listing prints none. Not unique: a project label like `SC D-01` recurs. |
 | `title` | yes | As listed, verbatim. Null when the listing prints none: DRS lists no subject for exemptions. |
-| `stage` | no | `final` when a final version is published, else `proposed`. EASA publishes the proposal, comment response and final on one page, so one record covers all three. |
+| `stage` | no | `final` when a final version is published, else `proposed`. EASA publishes the proposal, comment response and final on one page, so one record covers all three; a comment-response document counts as final (it adopts the text), and `proposed` can also mean the page doesn't say (tools/s00_docs/EASA_DEVIATIONS.md). |
 | `published_on` | yes | Date the listing gives. Not in the future. |
 | `source_url` | no | The regulator's page. The app links here; local copies are never served (D5). |
 | `applicant` | — | Optional. Applicant or petitioner as listed, verbatim. |
