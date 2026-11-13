@@ -53,10 +53,18 @@ CHECKS = {
     "section-unreferenced": "a section cited on the line is in no reference",
     "runaway-line": "basis line over 1500 characters",
     "duplicate-line": "the same basis line twice in one TCDS",
+    "split-basis-line": "basis line opening as a continuation, or the line before "
+    "ending in ',', 'and', 'or' or an open '('",
     "no-categories": "TCDS with no categories",
 }
 
 RESERVED_RE = re.compile(r"reserved|removed|deleted", re.I)
+# A basis line that is the tail of the one before: "of DO-178B …", "23.629
+# which is at Amendment 45 …" (EASA.IM.A.042, before the fix).
+CONTINUES_RE = re.compile(
+    r"^(?:(?:which|and|or|of|for|with|to|including)\b|\d{1,2}\.\d{1,4}\S*\s+which\b)"
+)
+OPEN_END_RE = re.compile(r"(?:,|\band|\bor|\([^)]*)$")
 AMDT_RE = re.compile(
     r"(?:Amendments?|Amdts?\.?|Amend\.?)\s*(?:No\.?\s*)?(\d{1,2})\s*-\s*(\d{1,3})\b"
 )
@@ -225,12 +233,16 @@ def aircraft_hits(rel: str, doc: dict[str, Any]) -> Iterator[Hit]:
         if not tcb.get("categories"):
             yield Hit("no-categories", rel, tloc, "")
         seen: set[str] = set()
+        prev = ""
         for line in tcb.get("certification_basis", []):
             loc = f"{tloc} #{line.get('display_order')}"
             raw = line.get("raw_reference") or ""
             if raw in seen:
                 yield Hit("duplicate-line", rel, loc, raw[:160])
             seen.add(raw)
+            if CONTINUES_RE.match(raw) or (prev and OPEN_END_RE.search(prev)):
+                yield Hit("split-basis-line", rel, loc, f"{prev[-60:]} | {raw[:80]}")
+            prev = raw
             yield from _line_hits(rel, loc, line)
 
 
