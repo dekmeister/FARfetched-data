@@ -18,7 +18,7 @@
   "properties": {
     "issuer": { "$ref": "common.schema.json#/$defs/issuer" },
     "key": {
-      "description": "Stable identity within the issuer; the file name. EASA: the publication page's node id.",
+      "description": "Stable identity within the issuer; the file name. EASA: the publication page's node id. FAA: the DRS document id.",
       "type": "string",
       "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
     },
@@ -35,7 +35,10 @@
       "description": "The identifier as printed (`SC-E25.904-01`), or null when the listing prints none. Not unique.",
       "oneOf": [{ "$ref": "common.schema.json#/$defs/designator" }, { "type": "null" }]
     },
-    "title": { "type": "string", "pattern": "^\\S(.*\\S)?$" },
+    "title": {
+      "description": "As listed, verbatim; null when the listing prints none (FAA exemptions).",
+      "oneOf": [{ "$ref": "#/$defs/listed" }, { "type": "null" }]
+    },
     "stage": { "enum": ["proposed", "final"] },
     "published_on": { "$ref": "common.schema.json#/$defs/date_or_null" },
     "source_url": {
@@ -43,6 +46,19 @@
       "type": "string",
       "format": "uri",
       "pattern": "^https?://[^\\s/]+\\S*$"
+    },
+    "applicant": { "$ref": "#/$defs/listed", "description": "Applicant or petitioner as listed." },
+    "make": { "$ref": "#/$defs/listed", "description": "Make as listed." },
+    "model": { "$ref": "#/$defs/listed", "description": "Model(s) as listed; several joined with ' | '." },
+    "regulation_ref": {
+      "$ref": "#/$defs/listed",
+      "description": "The listing's regulation field as listed (FAA DRS: CFR Section Reference; exemptions: Regulation/Title 14 CFR Reference), several values joined with ' | '. Citations and gaps may be read from it."
+    },
+    "disposition": { "$ref": "#/$defs/listed", "description": "Exemptions: Granted, Denied, ... as listed." },
+    "final": {
+      "description": "On a proposed record: the key of the final record it became (same issuer and kind).",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
     },
     "citations": {
       "description": "Sections the title or identifier names, read by the tools. Never a statement that the deviation applies to them.",
@@ -56,7 +72,14 @@
       "items": { "$ref": "aircraft_model.schema.json#/$defs/citation_gap" }
     }
   },
+  "if": { "required": ["final"] },
+  "then": { "properties": { "stage": { "const": "proposed" } } },
   "$defs": {
+    "listed": {
+      "description": "A value as the regulator's listing prints it, verbatim.",
+      "type": "string",
+      "pattern": "^\\S(.*\\S)?$"
+    },
     "citation": {
       "description": "One cited provision, by its number at the latest revision.",
       "type": "object",

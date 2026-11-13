@@ -618,9 +618,9 @@ One file per special condition, ELOS/ESF, exemption or deviation, as its
 regulator lists it. A record is a **link**: it holds what the listing says and
 the regulator's page, never the text. Most of these documents are letters or
 scans that can't meet the provision rule that every version has text, so they
-are not provisions (reviews/2026-11-13 deviations proposal, D1). Today only
-EASA's consulted publications are emitted; FAA records are outstanding
-(ISSUES ROADMAP-2).
+are not provisions (reviews/2026-11-13 deviations proposal, D1). Emitted:
+EASA's consulted publications, and FAA's ELOS memos, special conditions (final
+and proposed) and certification-relevant exemptions from DRS.
 
 ```json
 {
@@ -639,17 +639,22 @@ EASA's consulted publications are emitted; FAA records are outstanding
 | Field | Nullable | Purpose |
 |---|---|---|
 | `issuer` | no | Must match the directory. |
-| `key` | no | Identity within the issuer; the file name. EASA: the publication page's node id. Never shown as a citation. |
+| `key` | no | Identity within the issuer; the file name. EASA: the publication page's node id. FAA: the DRS document id (`40667CC5D05D267C8625761E005A49E6.0001`), because DRS numbers repeat. Never shown as a citation. |
 | `kind` | no | `special_condition`, `elos` (EASA's Equivalent Safety Finding), `exemption`, `deviation`, `means_of_compliance` (EASA's interpretative material or MoC to an SC or ESF). |
 | `number` | yes | The identifier as printed (`SC-E25.904-01`, older `ESF F-69`), or null when the listing prints none. Not unique: a project label like `SC D-01` recurs. |
-| `title` | no | As listed, verbatim. |
+| `title` | yes | As listed, verbatim. Null when the listing prints none: DRS lists no subject for exemptions. |
 | `stage` | no | `final` when a final version is published, else `proposed`. EASA publishes the proposal, comment response and final on one page, so one record covers all three. |
 | `published_on` | yes | Date the listing gives. Not in the future. |
 | `source_url` | no | The regulator's page. The app links here; local copies are never served (D5). |
-| `citations` | — | Optional. Sections the title or identifier names, same fields as a [TCDS citation](#citations) without `at`: the number is read at the latest revision. The identifier counts as naming a section (`SC-E25.904-01` → CS 25.904). Never a statement that the deviation applies to that section. |
-| `citation_gaps` | — | Optional. As on a TCDS line; `cited` must be a slice of the title or the number. |
+| `applicant` | — | Optional. Applicant or petitioner as listed, verbatim. |
+| `make`, `model` | — | Optional. As listed, verbatim; several models are joined with ` \| `. |
+| `regulation_ref` | — | Optional. The listing's regulation field, verbatim, like `raw_reference`: FAA DRS's CFR Section Reference (ELOS, SC) or Regulation/Title 14 CFR Reference (exemptions), values joined with ` \| ` (`Sec. 21.21 \| Sec. 25.1191`). |
+| `disposition` | — | Optional. Exemptions: `Granted`, `Denied`, … as listed. A denied exemption is still a record. |
+| `final` | — | Optional, only on a `proposed` record: the `key` of the final record it became, same issuer and kind. FAA: computed from the shared docket number and agreeing titles. |
+| `citations` | — | Optional. Sections the title, identifier or `regulation_ref` names, same fields as a [TCDS citation](#citations) without `at`: the number is read at the latest revision. The identifier counts as naming a section (`SC-E25.904-01` → CS 25.904). Never a statement that the deviation applies to that section. |
+| `citation_gaps` | — | Optional. As on a TCDS line; `cited` must be a slice of the title, the number or `regulation_ref`. |
 
 A deviation's citations never reach the certification basis. The build fails
-on an unknown document or number, a malformed `paragraph`, or a gap that isn't
-printed. Linking a TCDS line to the record it names is not built yet
+on an unknown document or number, a malformed `paragraph`, a gap that isn't
+printed, or a `final` that isn't a final record of the same kind. Linking a TCDS line to the record it names is not built yet
 (ISSUES ROADMAP-2).

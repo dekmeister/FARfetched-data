@@ -1,7 +1,7 @@
 # Deviations as documents in their own right (ROADMAP-2): proposal
 
-2026-11-13. Status: **EASA Phase 1 built (schema v14), not promoted.** FAA
-records, TCDS links, CRI links and text are outstanding: ISSUES ROADMAP-2. D1
+2026-11-13. Status: **Phase 1 built for EASA (schema v14) and FAA (v15), not
+promoted.** TCDS links, CRI links and text are outstanding: ISSUES ROADMAP-2. D1
 (separate entity), D2 (all), D3/D4 (use EASA's published proposals; CRI links
 only as reviewed rows) and D5 (link only) are answered below; CMs and ETSO
 deviations are left out.

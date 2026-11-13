@@ -7,16 +7,19 @@ repo's `plan.md`. [Index](../ISSUES.md)
 
 Schema v14 holds special conditions, ELOS/ESF, exemptions and deviations as
 link-only records (`data/deviations/`, docs/DATA_FORMAT.md §Deviation file).
-EASA's consulted publications are emitted (429 on 2026-11-13). Design and
+Emitted 2026-11-13, not promoted: EASA's consulted publications (429) and,
+with v15, FAA DRS records (6,370: ELOS, SC final + proposed, certification-
+relevant exemptions; 279 proposals linked to their final). Design and
 decisions: [reviews/2026-11-13-deviations-as-documents-proposal.md](../reviews/2026-11-13-deviations-as-documents-proposal.md).
 Outstanding:
 
-- **FAA records.** Every ELOS and SC (final + proposed, ~3,600) and the
-  certification-relevant or TCDS-cited exemptions (~2,400), from the DRS
-  catalogue. Re-run the catalogue first: it holds only exemptions today
-  (tools/s00_docs/FAA_DEVIATIONS.md). Needs `final_id` (proposed SC → final),
-  `key` ≠ number (DRS numbers repeat), and citations from the DRS regulation
-  field, with `regulation_ref` verbatim. Each is a contract change.
+- **FAA leftovers.** 381 records have regulation items that aren't one section
+  (`121`, `Part 23 Subpart F`, `Sec. F25.1` appendix sections, the DRS typo
+  `Sec. 23.23.1061`), listed in `faa_deviations_emit_report.tsv`; appendix
+  sections could be cited once the build reads appendix numbers. 113 proposals
+  have no final link (no final on the docket, several, or titles that differ:
+  DRS dockets are sometimes wrong). FAA Part 23 Amdt 23-64 sections (23.2xxx)
+  are not in the dataset, so their citations are gaps.
 - **TCDS line → record links** (`cert_basis_entry_deviations`, computed by
   identifier, verbatim line always shown). EASA: only 3 of 40 TCDS lines with a
   public-style identifier match a record (2026-11-13): the generic CS-23 SCs

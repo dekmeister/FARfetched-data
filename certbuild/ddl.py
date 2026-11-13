@@ -9,7 +9,7 @@ from __future__ import annotations
 
 
 # Bump on every change to the SQLite contract. Consumers require an exact match.
-SCHEMA_VERSION = 14
+SCHEMA_VERSION = 15
 
 
 SCHEMA_SQL = """
@@ -355,17 +355,25 @@ CREATE TABLE deviations (
                      'means_of_compliance'
                  )),
     number       TEXT,
-    title        TEXT NOT NULL,
+    title        TEXT,
     stage        TEXT NOT NULL CHECK (stage IN ('proposed', 'final')),
     published_on TEXT CHECK (published_on IS NULL
                              OR date(published_on) IS published_on),
     source_url   TEXT NOT NULL,
+    applicant    TEXT,
+    make         TEXT,
+    model        TEXT,
+    regulation_ref TEXT,
+    disposition  TEXT,
+    final_id     INTEGER REFERENCES deviations(id),
+    CHECK (final_id IS NULL OR stage = 'proposed'),
     UNIQUE (issuer_id, key)
 ) STRICT;
 
 CREATE INDEX idx_deviations_number ON deviations (number);
 
--- Sections a deviation's title or identifier names. Not part of any basis.
+-- Sections a deviation's title, identifier or regulation field names. Not
+-- part of any basis.
 CREATE TABLE deviation_citations (
     deviation_id INTEGER NOT NULL REFERENCES deviations(id),
     seq          INTEGER NOT NULL CHECK (seq >= 0),

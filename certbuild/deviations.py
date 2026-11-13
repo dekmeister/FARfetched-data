@@ -1,8 +1,8 @@
 """Deviation records: special conditions, ELOS/ESF, exemptions, deviations
 (docs/DATA_FORMAT.md §Deviations, docs/SQLITE.md §Deviations).
 
-A record is a link to the regulator's page plus what its listing says. Its
-citations are resolved against the documents and fail loud like a TCDS line's.
+A record is a link to the regulator's page plus what its listing says. A
+proposed record may name the final it became. Its citations are resolved against the documents and fail loud like a TCDS line's.
 This module must not touch the certification basis: a deviation's citations
 say what it names, never what any aircraft complies with.
 """
@@ -80,13 +80,14 @@ def _insert_citations(
 def _insert_gaps(
     conn: sqlite3.Connection, deviation_id: int, doc: dict[str, Any], label: str
 ) -> list[str]:
-    """A gap's `cited` must be a slice of the title or the number."""
+    """A gap's `cited` must be a slice of the title, number or regulation field."""
     failures: list[str] = []
-    printed = (doc["title"], doc["number"] or "")
+    printed = [doc.get(f) or "" for f in ("title", "number", "regulation_ref")]
     for seq, gap in enumerate(doc.get("citation_gaps", [])):
         if not any(gap["cited"] in text for text in printed):
             failures.append(
-                f"{label} gap {seq}: {gap['cited']!r} is not in the title or number"
+                f"{label} gap {seq}: {gap['cited']!r} is not in the title, "
+                "number or regulation_ref"
             )
             continue
         conn.execute(
@@ -97,30 +98,69 @@ def _insert_gaps(
     return failures
 
 
+_COLUMNS = (
+    "key",
+    "kind",
+    "number",
+    "title",
+    "stage",
+    "published_on",
+    "source_url",
+    "applicant",
+    "make",
+    "model",
+    "regulation_ref",
+    "disposition",
+)
+_INSERT = (
+    f"INSERT INTO deviations (issuer_id, {', '.join(_COLUMNS)}) "
+    f"VALUES ({', '.join('?' * (len(_COLUMNS) + 1))})"
+)
+
+
+def _link_finals(
+    conn: sqlite3.Connection, ids: dict[tuple[str, str], int], deviations: list[Source]
+) -> list[str]:
+    """A proposed record's `final` names a final record of its issuer and kind."""
+    failures: list[str] = []
+    by_key = {(s.doc["issuer"], s.doc["key"]): s.doc for s in deviations}
+    for s in deviations:
+        doc = s.doc
+        if "final" not in doc:
+            continue
+        label = f"deviation {doc['issuer']}/{doc['key']}"
+        target = by_key.get((doc["issuer"], doc["final"]))
+        if target is None:
+            failures.append(f"{label}: final {doc['final']!r} is not a record")
+        elif target["stage"] != "final" or target["kind"] != doc["kind"]:
+            failures.append(
+                f"{label}: final {doc['final']!r} is not a final {doc['kind']}"
+            )
+        else:
+            conn.execute(
+                "UPDATE deviations SET final_id = ? WHERE id = ?",
+                (ids[(doc["issuer"], doc["final"])], ids[(doc["issuer"], doc["key"])]),
+            )
+    return failures
+
+
 def insert_deviations(conn: sqlite3.Connection, deviations: list[Source]) -> list[str]:
     """Insert every record with its citations and gaps; return every failure."""
     failures: list[str] = []
     indexes = _Indexes(conn)
+    ids: dict[tuple[str, str], int] = {}
     for s in deviations:
         doc = s.doc
         label = f"deviation {doc['issuer']}/{doc['key']}"
         with integrity_context(s.path):
             cur = conn.execute(
-                "INSERT INTO deviations (issuer_id, key, kind, number, title, stage, "
-                "published_on, source_url) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-                (
-                    issuer_id_for(conn, doc["issuer"]),
-                    doc["key"],
-                    doc["kind"],
-                    doc["number"],
-                    doc["title"],
-                    doc["stage"],
-                    doc["published_on"],
-                    doc["source_url"],
-                ),
+                _INSERT,
+                (issuer_id_for(conn, doc["issuer"]), *(doc.get(c) for c in _COLUMNS)),
             )
             deviation_id = cur.lastrowid
             assert deviation_id is not None
+            ids[(doc["issuer"], doc["key"])] = deviation_id
             failures.extend(_insert_citations(conn, deviation_id, doc, label, indexes))
             failures.extend(_insert_gaps(conn, deviation_id, doc, label))
+    failures.extend(_link_finals(conn, ids, deviations))
     return failures

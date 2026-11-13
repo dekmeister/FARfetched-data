@@ -105,7 +105,7 @@ def test_unresolvable_citation_fails(
 def test_gap_must_be_printed(tmp_path: Path) -> None:
     gap = {"cited": "CS 25.999", "reason": "section_not_in_document"}
     err = _fails(tmp_path, fx.deviation(citation_gaps=[gap]))
-    assert "is not in the title or number" in err
+    assert "is not in the title, number or regulation_ref" in err
 
 
 def test_path_must_match_key(tmp_path: Path) -> None:
@@ -149,3 +149,104 @@ def test_deviation_doc_kinds_are_gone(tmp_path: Path) -> None:
     doc = {**CS25, "doc_kind": "elos"}
     data = fx.stage(tmp_path, [doc], PROVISIONS)
     assert any("doc_kind" in e or "'elos'" in e for e in check(data))
+
+
+def _faa(key: str, **extra: Any) -> dict[str, Any]:
+    """An FAA DRS record: the DRS document id is the key."""
+    fields: dict[str, Any] = {
+        "issuer": "FAA",
+        "number": "25-18-04-SC",
+        "title": "Special Conditions: Gulfstream Model GVII; Flight Controls",
+        "source_url": f"https://drs.faa.gov/browse/excelExternalWindow/{key}",
+    }
+    return fx.deviation(key, **{**fields, **extra})
+
+
+def test_listing_fields_and_untitled_exemption(tmp_path: Path) -> None:
+    exemption = _faa(
+        "FAA0000EX10050.0001",
+        kind="exemption",
+        number="10050",
+        title=None,
+        applicant="Embraer",
+        regulation_ref="Part 26.11 | 121.311(a)(1)",
+        disposition="Granted",
+        citation_gaps=[{"cited": "121.311(a)(1)", "reason": "doc_not_in_dataset"}],
+    )
+    elos = _faa(
+        "ABC.0001",
+        kind="elos",
+        number="ACE-02-09",
+        title="Fuel cutoff control",
+        make="Boeing Company, The",
+        model="737-7 | 737-8",
+        regulation_ref="Sec. 21.21 | Sec. 25.1191",
+    )
+    db = _build(tmp_path, exemption, elos)
+    with sqlite3.connect(db) as conn:
+        rows = conn.execute(
+            "SELECT key, title, applicant, make, model, regulation_ref, disposition "
+            "FROM deviations ORDER BY key"
+        ).fetchall()
+        gaps = conn.execute("SELECT cited FROM deviation_citation_gaps").fetchall()
+    assert rows == [
+        (
+            "ABC.0001",
+            "Fuel cutoff control",
+            None,
+            "Boeing Company, The",
+            "737-7 | 737-8",
+            "Sec. 21.21 | Sec. 25.1191",
+            None,
+        ),
+        (
+            "FAA0000EX10050.0001",
+            None,
+            "Embraer",
+            None,
+            None,
+            "Part 26.11 | 121.311(a)(1)",
+            "Granted",
+        ),
+    ]
+    assert gaps == [("121.311(a)(1)",)]
+
+
+def test_proposed_links_its_final(tmp_path: Path) -> None:
+    db = _build(
+        tmp_path,
+        _faa("FINAL.0001", number="25-735-SC"),
+        _faa("NOTICE.0001", stage="proposed", final="FINAL.0001"),
+    )
+    with sqlite3.connect(db) as conn:
+        pair = conn.execute(
+            "SELECT p.key, f.key FROM deviations p JOIN deviations f "
+            "ON f.id = p.final_id"
+        ).fetchall()
+    assert pair == [("NOTICE.0001", "FINAL.0001")]
+
+
+@pytest.mark.parametrize(
+    ("final", "message"),
+    [
+        (_faa("FINAL.0001", stage="proposed"), "is not a final special_condition"),
+        (_faa("FINAL.0001", kind="elos"), "is not a final special_condition"),
+        (_faa("OTHER.0001"), "'FINAL.0001' is not a record"),
+    ],
+)
+def test_bad_final_fails(tmp_path: Path, final: dict[str, Any], message: str) -> None:
+    notice = _faa("NOTICE.0001", stage="proposed", final="FINAL.0001")
+    assert message in _fails(tmp_path, final, notice)
+
+
+@pytest.mark.parametrize(
+    "change",
+    [
+        {"final": "FINAL.0001"},  # only a proposed record names a final
+        {"applicant": " Embraer"},
+        {"regulation_ref": ""},
+    ],
+)
+def test_schema_rejects_faa_fields(tmp_path: Path, change: dict[str, Any]) -> None:
+    data = _stage(tmp_path, _faa("NOTICE.0001", **change))
+    assert any("deviations/faa/NOTICE.0001.json" in e for e in check(data))

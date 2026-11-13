@@ -174,16 +174,21 @@ TCDS line links to a record yet.
 `deviations` — one row per record: `issuer_id`, `key` (unique per issuer),
 `kind` (`special_condition`, `elos`, `exemption`, `deviation`,
 `means_of_compliance`), `number` (as printed, NULL when none, not unique;
-indexed), `title`, `stage` (`proposed`, `final`), `published_on`, `source_url`.
+indexed), `title` (NULL when the listing prints none: FAA exemptions), `stage`
+(`proposed`, `final`), `published_on`, `source_url`; as listed, NULL when not:
+`applicant`, `make`, `model`, `regulation_ref`, `disposition`; and `final_id`
+(→ `deviations.id`, the final a proposed record became; a CHECK allows it only
+on `stage = 'proposed'`).
 
-`deviation_citations` — sections a record's title or identifier names:
+`deviation_citations` — sections a record's title, identifier or
+`regulation_ref` names:
 `deviation_id`, `seq`, `document_id`, `provision_id`, `paragraph`. The
 provision, not a version: link whichever version the page shows. Index on
 `provision_id` serves "which deviations name §25.1309". Computed by the tools,
 never part of any basis.
 
-`deviation_citation_gaps` — `deviation_id`, `seq`, `cited` (a slice of the title
-or number), `reason` (the same reasons as `cert_basis_citation_gaps`).
+`deviation_citation_gaps` — `deviation_id`, `seq`, `cited` (a slice of the
+title, number or `regulation_ref`), `reason` (the same reasons as `cert_basis_citation_gaps`).
 
 ### Similarity
 
