@@ -21,6 +21,7 @@ TEXT_API = {
     "TABLE_CLOSE",
     "TABLE_OPEN",
     "TABLE_ROW_SEP",
+    "Paragraph",
     "TableCell",
     "TextFormatError",
     "flatten_text",
