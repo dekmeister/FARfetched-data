@@ -18,6 +18,10 @@ Kinds:
             deviation.* rules in listing.py).
   listed    a deviation field is what the regulator's listing prints, and an
             absent one is absent there too (listing.py).
+  cited     a publication_cite from a reviewed cite override (CAR FR cites):
+            the override row, its evidence, the FR page, and the provision's
+            section in the FR document at that cite (cites.py). Used instead
+            of verbatim for any version the override covers.
 A field with no entry is `unverifiable`: a reader checks it. Adding a field to
 the schema means adding a line here, or accepting that it is read.
 
@@ -51,6 +55,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from context import excerpt, find, load_text, tcds_paths  # noqa: E402
 from sample import source_copies  # noqa: E402
 
+import cites  # noqa: E402
 import listing  # noqa: E402
 
 GROUPS = Path("tools/overrides/manufacturer_groups.tsv")
@@ -63,7 +68,7 @@ CONTINUATION = re.compile(
 
 @dataclass(frozen=True)
 class Check:
-    kind: str  # verbatim | date | derived
+    kind: str  # verbatim | date | derived | listed | cited
     label: str | None = None  # regex: search after the first line matching it
 
 
@@ -233,11 +238,17 @@ def listed(value: Any, ctx: Ctx, check: Check) -> Result:
     return Result(status, note, ex)
 
 
+def cited(value: Any, ctx: Ctx, check: Check) -> Result:
+    status, note, ex = cites.check(ctx.extra["designator"], ctx.extra["key"], value)
+    return Result(status, note, ex)
+
+
 VERIFIERS: dict[str, Callable[[Any, Ctx, Check], Result]] = {
     "verbatim": verbatim,
     "date": date,
     "derived": derived,
     "listed": listed,
+    "cited": cited,
 }
 
 # --- context per field change ------------------------------------------------
@@ -263,6 +274,7 @@ def _ctx(row: dict[str, Any], fch: dict[str, Any], staged: Path, groups: dict) -
                 ctx.source = tcds_paths(t)[1]
     elif kind == "version":
         issuer, doc, key = rel.split("/")[1:4]
+        ctx.extra["designator"], ctx.extra["key"] = ident, key.removesuffix(".json")
         ctx.version = next(
             (v for v in record.get("versions", []) if v.get("designator") == ident),
             None,
@@ -283,6 +295,10 @@ def check_row(row: dict[str, Any], staged: Path, groups: dict) -> list[dict[str,
     for fch in row.get("fields", []):
         check = FIELDS.get(fch["field"])
         ctx = _ctx(row, fch, staged, groups)
+        des = ctx.extra.get("designator", "")
+        if fch["field"] == "publication_cite" and cites.covers(des):
+            check = Check("cited")
+            ctx.extra["source_label"] = cites.source(des)
         if check is None:
             res = Result("unverifiable", f"no verifier for {fch['field']}")
         else:

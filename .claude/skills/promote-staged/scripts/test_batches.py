@@ -217,3 +217,40 @@ def test_deviation_records_are_sampled_and_fields_pooled(tmp_path: Path) -> None
     assert not flags
     assert set(passes) == {batches.LISTED_POOL, "deviation.stage"}
     assert len(passes[batches.LISTED_POOL]) == 2
+
+
+def test_cited_passes_have_their_own_small_sample(tmp_path: Path) -> None:
+    def line(n: int, status: str) -> dict[str, object]:
+        return {
+            "relpaths": [f"documents/caa/car-3/{n}.json"],
+            "field": "publication_cite",
+            "where": f"version CAR3-{n}",
+            "old": None,
+            "new": f"17 FR {n}",
+            "status": status,
+            "note": "",
+            "source": f"FR-{n}.txt p.1",
+            "excerpt": {"text": "page"},
+            "kind": "cited",
+        }
+
+    fields_path = tmp_path / "fields.jsonl"
+    rows = [line(n, "ok") for n in range(10)] + [line(99, "flag")]
+    fields_path.write_text("".join(json.dumps(r) + "\n" for r in rows), "utf-8")
+    flags, passes = batches.field_items(fields_path)
+    assert len(flags) == 1 and flags[0]["excerpt"] == {"text": "page"}
+    assert set(passes) == {batches.CITED_POOL} and len(passes[batches.CITED_POOL]) == 10
+    pools = {
+        "must": flags,
+        "fields": passes,
+        "optional": {"layout-only": [], "markup-only": [], "new-file": []},
+    }
+    s = {
+        "field_sample": 20,
+        "cite_sample": 4,
+        "class_sample": 8,
+        "new_docs": 24,
+        "dev_sample": 16,
+    }
+    picked = batches.select(pools, s, 0)
+    assert sum(i["reason"] == "field-sample" for i in picked) == 4

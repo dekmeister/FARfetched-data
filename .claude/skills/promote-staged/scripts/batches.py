@@ -10,7 +10,9 @@ What is read:
             with a new check hit;
   sampled   --field-sample passes per verbatim/date field (stratified by
             directory), and as many over all `listed` deviation fields
-            together and per judgement field (SAMPLED_FIELDS), --class-sample
+            together and per judgement field (SAMPLED_FIELDS), --cite-sample
+            `cited` publication_cite passes (override rows already reviewed
+            once; the sample tests the script), --class-sample
             each of layout-only and markup-only, new-file document versions
             (all when ≤ --new-docs, else that many stratified, hits always),
             --dev-sample new deviation records (stratified by issuer, kind
@@ -85,12 +87,15 @@ SAMPLED_FIELD_KINDS = {"verbatim", "date"}
 LISTED_POOL = "deviation listed fields"
 # derived fields whose script check is partial: their passes are sampled too
 SAMPLED_FIELDS = {"deviation.stage", "deviation.final", "deviation.citations"}
+# publication_cite passes from a reviewed cite override (fields.py `cited`)
+CITED_POOL = "publication_cite (cited)"
 # (setting, value) applied in order while the estimate is over --budget
 DOWNSCALE = [
     ("class_sample", 4),
     ("field_sample", 10),
     ("new_docs", 8),
     ("dev_sample", 8),
+    ("cite_sample", 2),
     ("class_sample", 0),
     ("field_sample", 5),
     ("new_docs", 0),
@@ -157,9 +162,15 @@ def field_items(path: Path | None) -> tuple[list[dict], dict[str, list[dict]]]:
         if r["status"] != "ok":
             item["reason"] = "field-flag"
             item["excerpt"] = (
-                field_excerpt(r["source"], str(r["new"] or "")) or r["excerpt"]
+                r["excerpt"]
+                if r["kind"] == "cited"
+                else field_excerpt(r["source"], str(r["new"] or "")) or r["excerpt"]
             )
             flags.append(item)
+        elif r["kind"] == "cited":
+            item["reason"] = "field-sample"
+            item["excerpt"] = r["excerpt"]
+            passes[CITED_POOL].append(item)
         elif r["kind"] == "listed":
             item["reason"] = "field-sample"
             item["excerpt"] = r["excerpt"]
@@ -181,8 +192,9 @@ def stratified(items: list[dict], n: int, rng: random.Random) -> list[dict]:
 def select(pools: dict[str, Any], s: dict[str, int], seed: int) -> list[dict]:
     rng = random.Random(seed)
     picked = list(pools["must"])
-    for items in pools["fields"].values():
-        picked += stratified(items, s["field_sample"], rng)
+    for name, items in pools["fields"].items():
+        n = s.get("cite_sample", 4) if name == CITED_POOL else s["field_sample"]
+        picked += stratified(items, n, rng)
     for cls in ("layout-only", "markup-only"):
         picked += stratified(pools["optional"][cls], s["class_sample"], rng)
     docs = pools["optional"]["new-file"]
@@ -307,6 +319,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     p.add_argument("--budget", type=int, default=400_000)
     p.add_argument("--hard-stop", type=int, default=800_000)
     p.add_argument("--field-sample", type=int, default=20)
+    p.add_argument("--cite-sample", type=int, default=4)
     p.add_argument("--class-sample", type=int, default=8)
     p.add_argument("--new-docs", type=int, default=24)
     p.add_argument("--dev-sample", type=int, default=16)
@@ -319,6 +332,7 @@ def plan_batches(
 ) -> tuple[list[list[dict]], dict, list[str]]:
     s = {
         "field_sample": args.field_sample,
+        "cite_sample": args.cite_sample,
         "class_sample": args.class_sample,
         "new_docs": args.new_docs,
         "dev_sample": args.dev_sample,

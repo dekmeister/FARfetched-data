@@ -74,6 +74,15 @@ where in the file, and `relpaths` lists every file holding the same value.
   and the final record must be the same special condition (same docket,
   same subject). For `deviation.citations`: each citation must be a section
   the title, number or regulation_ref names, at the right part.
+- **Federal Register cites** (`publication_cite` with `source` like
+  `input/Regs/CAR/FR/FR-YYYY-MM-DD.txt p.N`): the cite names the FR page
+  where the revision's amendment starts. Check on that PDF page (render it
+  with `pdftoppm -f N -l N -r 100 -png`; the text layer interleaves
+  columns) that the printed page number is the cite's page, that the
+  amendment starts there (its bracketed amendment line and Part heading),
+  and, for a flag that says the section is missing, whether the amendment
+  deals with this provision's section at all. A cite for a whole-Part
+  revision covers every section.
 - Nothing else in the file is in scope.
 
 ## Mode: diff

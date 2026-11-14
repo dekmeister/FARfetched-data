@@ -113,6 +113,18 @@ so it passes with a note unless the page says "with final publication", and
 is sampled. Many deviation flags with one note mean a verifier or a pipeline
 bug: look at `fields_summary.txt` before planning the reading.
 
+`publication_cite` on a version that a reviewed cite override covers (CAR:
+`tools/overrides/car_cites.tsv`) uses the kind `cited` from `cites.py`
+instead of `verbatim`. These Federal Register cites aren't in the extracted
+text. Each override row was checked against its page image when it was
+written, so the script checks that the right row's cite is on each version,
+that the row agrees with its evidence and with our FR copy (volume, printed
+page, Part heading), and that the provision's section number is in the FR
+document at that cite. The section check is the one that catches a version
+on the wrong revision (about 96% of versions moved to the wrong revision's
+cite flag) or a provision the amendment doesn't contain. One check line per
+revision, so hundreds of versions come down to about 20 lines.
+
 **b. Does the result build?** Overlay staged on a copy of data/ (orphans
 stay, as with promote) and build it. Build data/ as well for comparison:
 
@@ -170,7 +182,9 @@ It builds items in three modes (see `items.py`, and the modes in READER.md):
 Always read: words, versions-added, basis-line diffs, new or added TCBs,
 field flags (deviation ones included), anything with a new hit. Sampled:
 field passes (20 per field; deviation `listed` fields share one pool of 20,
-and deviation stage, final and citations get 20 each), layout-only and
+and deviation stage, final and citations get 20 each; `cited` FR-cite
+passes get `--cite-sample 4`, since the rows were reviewed once already and
+the sample tests the script), layout-only and
 markup-only (8 each), new-file document versions (all when ≤24, else 24
 stratified), new deviation records (`--dev-sample 16`, stratified by issuer,
 kind and stage). Never read: verified fields beyond the sample, new
@@ -181,7 +195,7 @@ data/.
 line: items, batches, estimated tokens, and any downscale steps. The budget
 is `--budget 400000` (target), `--hard-stop 800000`. Over the budget,
 `batches.py` shrinks the samples (layout/markup, then field passes, then
-new documents, then deviation records). If the must-read alone is over the hard stop, it writes no
+new documents, then deviation records, then FR cites). If the must-read alone is over the hard stop, it writes no
 batches and exits 3. Then **stop and ask the user**: the change is
 pipeline-sized, and should be split (e.g. promote aircraft and documents
 separately, or one issuer at a time) or given an explicit larger budget.
@@ -297,6 +311,7 @@ Tell the user, briefly:
 | `fields.py` | verifies field changes by kind (verbatim, date, derived) | `test_fields.py` |
 | `context.py` | finds a phrase in a local source copy; slice with page and lines | `test_fields.py` |
 | `listing.py` | deviation records: cached listing entry, `listed` and `derived` verifiers | `test_fields.py` |
+| `cites.py` | `cited`: FR cites from a reviewed override, checked against the FR copy | `test_cites.py` |
 | `items.py` | builds field/diff/full items from a delta row (deviation records too); dedup | `test_batches.py` |
 | `batches.py` | selection, sampling, cost estimate, downscale, packing | `test_batches.py` |
 
