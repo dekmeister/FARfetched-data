@@ -160,34 +160,47 @@ revision (a contract change; rejected for now in the review).
 
 ## Tables and extraction robustness
 
-### EASA-17. Tables are flattened, often column by column
+### EASA-17. Tables the geometry reader doesn't build
 
-The extractor reads text only. A table whose columns sit either side of the
-page centre comes out column-major ("Type A Type B Type C Type I 110 75 55 45
-…", CS 25.807@CS25-28; the HIRF tables of CS-25 R25, CS-27 D27, CS-29 E29),
-and wrapped cells split (E29@CS29-4). About 50 provisions / 120 versions:
-143, 397, 405, 415, 509, 621, 807, 812, 815, 851, 1093, 1324, 1391-1401,
-1435, 1453, A23, C23, K23, F25, L25, N25, P25, R25, D27, E29. Spurious
-versions from table reading remain: E29@CS29-11/12 (a repeated "FIELD
-STRENGTH (V/m) PEAK AVERAGE" header) and other `unexplained_change` rows on
-table paragraphs.
+Extract now finds tables on every page from geometry (`cs_tables.py`,
+tools/s00_docs/EASA_CS.md §Tables): ruled grids in the 2003-2012 PDFs and
+shaded cells in Word 2016+ PDFs, written in flat form, joined over page
+breaks with repeated headers dropped. That removed the spurious versions
+(145@CS25-3, 397@CS25-27/28, 509@CS25-1/22/27, 511@CS25-1/22, R25@CS25-27,
+E29@CS29-11/12) and 17 `suppress` plus 16 `replace_text` rows. Left:
 
-CS 25.143(h) at CS25-3..26: the reader dropped "ANGLE IN A" and moved the
-THRUST/POWER SETTING column into (j). Text overrides (F-20261114b-01, two
-rows per revision) put those words back into (h) in reading order, without
-table markup. A geometry reader that builds this table will make those rows
-stale: replace them with its table, or one override row writing the table.
-The footnote marks `(1)`–`(3)` are superscript in print. Written as `(N)`
-after the table, layout reads them as labels (h)(1)–(3), so a table row
-needs `^{(N)}` for them.
+- **Borderless tables** (no rules, no shading) still read as loose words, in
+  column order where columns straddle the page centre: CS 25.851 (dot-leader
+  rows, all versions), 807@CS25-12/18/19/26, 812@CS25-0/3/5/12,
+  621@CS25-0/1, 1397@CS25-0, 1453@CS25-0, F25@CS25-0/2/4/27, and most
+  CS-23/27/29 tables in the PDFs of 2003-2012. Emit compares versions on
+  their plain words, so a version starting in such a PDF keeps its loose
+  text until the next real amendment.
+- **`table_unread`** (extraction report): grids with a figure or formula
+  inside, kept as words: CS-23 A23, C23 (CS23-0..4), CS 29.815 (CS29-6..9),
+  and a few figure frames (CS 25.331).
+- **Sub-rows inside one cell**: a Word cell holding several lines
+  (397(c) `Aileron: Stick / Wheel*`, 1435 item 2, 509's load numbers) is one
+  cell; the lines aren't paired across columns.
+- **Layout falls back to flat**: 143@CS25-13..27 and N25 (3 versions) hit a
+  label sequence break, and flat text can't hold a table (structure report
+  `table-flattened`). The 143 footnote marks `(1)`–`(3)` after the table are
+  superscript in print. Written as `(N)`, layout reads them as labels, so
+  they need `^{(N)}` or `no_break` rows.
+- **Title-only change**: 1093's retitling at CS25-27 ("Powerplant Icing" to
+  "Air intake system de-icing and anti-icing provisions") showed only
+  because table noise made a version there. Emit doesn't version a title
+  change on its own.
+- Header rows of a ruled grid are marked only when a top-row cell spans
+  rows; shaded tables mark them by fill.
+- D27@CS27-10 is a version because the CS27-10 PDF leaves out Table I's
+  `30–100 MHz | 50 | 50` row (CS27-9 and the CS-29 tables have it). It reads
+  as printed. Whether that is a publishing omission (a `suppress` row) is
+  the developer's call.
 
-**To close:** rebuild tables from geometry: word boxes from `pdftotext
--bbox-layout` plus ruling lines from `mutool trace` (the reader exists:
-`tools/s00_common/pdf_tables.py`, used by NATO with listed page regions) (old PDFs draw full grids;
-Word 365 PDFs draw grey row rules with ~2 pt gaps at column edges). Cells must
-come out identical in every PDF a provision appears in, or each difference
-needs a `suppress` row. 60 PDFs, at least 8 producers; skip AMC tables on
-interleaved pages.
+**To close:** a borderless reader (aligned word columns inside a body, or
+dot-leader rows), or `replace_text` rows writing the table, for the
+provisions above; then `^{(N)}` for the 143 footnotes.
 
 ### EASA-14. Extraction heuristics are layout-specific
 
