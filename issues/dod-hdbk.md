@@ -36,7 +36,16 @@ a restarted `(1)` nests under the previous method's last item (6.1.11.2.1.7
 @516D: `… Test.` / `  (1) Lab test`, path (1)(1)). 2,144 method names end a
 line in 892 dod versions (2026-11-13). Audit F-20261112-12.
 
-**To close:** follows TEXT-13.
+The PDF geometry confirms it: `python -m tools.s99_tests.layout_vs_source
+--source dod` reports about 2,380 `depth-disagree` rows in 516D (2026-11-14),
+labelled lines whose depth differs from their printed indent level. The PDF
+prints every restarted list at level 1. In 17.4.1@516D, "Lab test: Verify
+that at least two separate crewmember actions …" is stored at (2)(2)(1) and
+printed at (1). These were left out of the TEXT-1/2 rows on purpose: no row
+can produce a right layout until the format can repeat a label under one
+parent.
+
+**To close:** follows TEXT-13. Then use the `depth-disagree` rows as the check.
 
 ### DOD-5. Titles of 516-516B are first sentences
 
